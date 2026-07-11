@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface InspectorAssessmentTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#assessment_target_arn InspectorAssessmentTemplate#assessment_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#assessment_target_arn InspectorAssessmentTemplate#assessment_target_arn}
   */
   readonly assessmentTargetArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#assessment_template_name InspectorAssessmentTemplate#assessment_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#assessment_template_name InspectorAssessmentTemplate#assessment_template_name}
   */
   readonly assessmentTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#duration_in_seconds InspectorAssessmentTemplate#duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#duration_in_seconds InspectorAssessmentTemplate#duration_in_seconds}
   */
   readonly durationInSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#rules_package_arns InspectorAssessmentTemplate#rules_package_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#rules_package_arns InspectorAssessmentTemplate#rules_package_arns}
   */
   readonly rulesPackageArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#user_attributes_for_findings InspectorAssessmentTemplate#user_attributes_for_findings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#user_attributes_for_findings InspectorAssessmentTemplate#user_attributes_for_findings}
   */
   readonly userAttributesForFindings?: InspectorAssessmentTemplateUserAttributesForFindings[] | cdktn.IResolvable;
 }
 export interface InspectorAssessmentTemplateUserAttributesForFindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#key InspectorAssessmentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#key InspectorAssessmentTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#value InspectorAssessmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#value InspectorAssessmentTemplate#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class InspectorAssessmentTemplateUserAttributesForFindingsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class InspectorAssessmentTemplateUserAttributesForFindingsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class InspectorAssessmentTemplateUserAttributesForFindingsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}
 */
 export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a InspectorAssessmentTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InspectorAssessmentTemplate to import
-  * @param importFromId The id of the existing InspectorAssessmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InspectorAssessmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InspectorAssessmentTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_inspector_assessment_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -245,7 +245,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // assessment_target_arn - computed: false, optional: false, required: true
-  private _assessmentTargetArn?: string; 
+  private _assessmentTargetArn?: string;
   public get assessmentTargetArn() {
     return this.getStringAttribute('assessment_target_arn');
   }
@@ -258,7 +258,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // assessment_template_name - computed: true, optional: true, required: false
-  private _assessmentTemplateName?: string; 
+  private _assessmentTemplateName?: string;
   public get assessmentTemplateName() {
     return this.getStringAttribute('assessment_template_name');
   }
@@ -274,7 +274,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // duration_in_seconds - computed: false, optional: false, required: true
-  private _durationInSeconds?: number; 
+  private _durationInSeconds?: number;
   public get durationInSeconds() {
     return this.getNumberAttribute('duration_in_seconds');
   }
@@ -292,7 +292,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // rules_package_arns - computed: false, optional: false, required: true
-  private _rulesPackageArns?: string[]; 
+  private _rulesPackageArns?: string[];
   public get rulesPackageArns() {
     return this.getListAttribute('rules_package_arns');
   }

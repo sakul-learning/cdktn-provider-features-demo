@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktn from 'cdktn';
 
 export interface EmrStudioSessionMappingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#id EmrStudioSessionMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#identity_id EmrStudioSessionMapping#identity_id}
   */
   readonly identityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
   */
   readonly identityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
   */
   readonly identityType: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#region EmrStudioSessionMapping#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
   */
   readonly sessionPolicyArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
   */
   readonly studioId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}
 */
 export class EmrStudioSessionMapping extends cdktn.TerraformResource {
 
@@ -59,7 +59,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrStudioSessionMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrStudioSessionMapping to import
-  * @param importFromId The id of the existing EmrStudioSessionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrStudioSessionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrStudioSessionMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -71,7 +71,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
       terraformResourceType: 'aws_emr_studio_session_mapping',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // identity_id - computed: true, optional: true, required: false
-  private _identityId?: string; 
+  private _identityId?: string;
   public get identityId() {
     return this.getStringAttribute('identity_id');
   }
@@ -138,7 +138,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // identity_name - computed: true, optional: true, required: false
-  private _identityName?: string; 
+  private _identityName?: string;
   public get identityName() {
     return this.getStringAttribute('identity_name');
   }
@@ -154,7 +154,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // identity_type - computed: false, optional: false, required: true
-  private _identityType?: string; 
+  private _identityType?: string;
   public get identityType() {
     return this.getStringAttribute('identity_type');
   }
@@ -167,7 +167,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -183,7 +183,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // session_policy_arn - computed: false, optional: false, required: true
-  private _sessionPolicyArn?: string; 
+  private _sessionPolicyArn?: string;
   public get sessionPolicyArn() {
     return this.getStringAttribute('session_policy_arn');
   }
@@ -196,7 +196,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string; 
+  private _studioId?: string;
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }

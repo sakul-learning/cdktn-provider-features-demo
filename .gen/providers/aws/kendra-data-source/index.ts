@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface KendraDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#description KendraDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#description KendraDataSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#id KendraDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#id KendraDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
   */
   readonly indexId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
   */
   readonly languageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#name KendraDataSource#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#region KendraDataSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#region KendraDataSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#tags_all KendraDataSource#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#tags_all KendraDataSource#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#type KendraDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#type KendraDataSource#type}
   */
   readonly type: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#configuration KendraDataSource#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#configuration KendraDataSource#configuration}
   */
   readonly configuration?: KendraDataSourceConfiguration;
   /**
   * custom_document_enrichment_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}
   */
   readonly customDocumentEnrichmentConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#timeouts KendraDataSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#timeouts KendraDataSource#timeouts}
   */
   readonly timeouts?: KendraDataSourceTimeouts;
 }
 export interface KendraDataSourceConfigurationS3ConfigurationAccessControlListConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}
   */
   readonly keyPath?: string;
 }
@@ -144,7 +144,7 @@ export class KendraDataSourceConfigurationS3ConfigurationAccessControlListConfig
   }
 
   // key_path - computed: false, optional: true, required: false
-  private _keyPath?: string; 
+  private _keyPath?: string;
   public get keyPath() {
     return this.getStringAttribute('key_path');
   }
@@ -161,7 +161,7 @@ export class KendraDataSourceConfigurationS3ConfigurationAccessControlListConfig
 }
 export interface KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}
   */
   readonly s3Prefix?: string;
 }
@@ -228,7 +228,7 @@ export class KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfig
   }
 
   // s3_prefix - computed: false, optional: true, required: false
-  private _s3Prefix?: string; 
+  private _s3Prefix?: string;
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -245,31 +245,31 @@ export class KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfig
 }
 export interface KendraDataSourceConfigurationS3Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}
   */
   readonly inclusionPrefixes?: string[];
   /**
   * access_control_list_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}
   */
   readonly accessControlListConfiguration?: KendraDataSourceConfigurationS3ConfigurationAccessControlListConfiguration;
   /**
   * documents_metadata_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}
   */
   readonly documentsMetadataConfiguration?: KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration;
 }
@@ -401,7 +401,7 @@ export class KendraDataSourceConfigurationS3ConfigurationOutputReference extends
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -414,7 +414,7 @@ export class KendraDataSourceConfigurationS3ConfigurationOutputReference extends
   }
 
   // exclusion_patterns - computed: false, optional: true, required: false
-  private _exclusionPatterns?: string[]; 
+  private _exclusionPatterns?: string[];
   public get exclusionPatterns() {
     return cdktn.Fn.tolist(this.getListAttribute('exclusion_patterns'));
   }
@@ -430,7 +430,7 @@ export class KendraDataSourceConfigurationS3ConfigurationOutputReference extends
   }
 
   // inclusion_patterns - computed: false, optional: true, required: false
-  private _inclusionPatterns?: string[]; 
+  private _inclusionPatterns?: string[];
   public get inclusionPatterns() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_patterns'));
   }
@@ -446,7 +446,7 @@ export class KendraDataSourceConfigurationS3ConfigurationOutputReference extends
   }
 
   // inclusion_prefixes - computed: false, optional: true, required: false
-  private _inclusionPrefixes?: string[]; 
+  private _inclusionPrefixes?: string[];
   public get inclusionPrefixes() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_prefixes'));
   }
@@ -495,7 +495,7 @@ export class KendraDataSourceConfigurationS3ConfigurationOutputReference extends
 }
 export interface KendraDataSourceConfigurationTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#template KendraDataSource#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#template KendraDataSource#template}
   */
   readonly template: string;
 }
@@ -562,7 +562,7 @@ export class KendraDataSourceConfigurationTemplateConfigurationOutputReference e
   }
 
   // template - computed: false, optional: false, required: true
-  private _template?: string; 
+  private _template?: string;
   public get template() {
     return this.getStringAttribute('template');
   }
@@ -576,15 +576,15 @@ export class KendraDataSourceConfigurationTemplateConfigurationOutputReference e
 }
 export interface KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
   */
   readonly credentials: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#host KendraDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#host KendraDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#port KendraDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#port KendraDataSource#port}
   */
   readonly port: number;
 }
@@ -689,7 +689,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationC
   }
 
   // credentials - computed: false, optional: false, required: true
-  private _credentials?: string; 
+  private _credentials?: string;
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -702,7 +702,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationC
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -715,7 +715,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationC
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -751,7 +751,7 @@ export interface KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticat
   /**
   * basic_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
   */
   readonly basicAuthentication?: KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication[] | cdktn.IResolvable;
 }
@@ -835,15 +835,15 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationC
 }
 export interface KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#host KendraDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#host KendraDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#port KendraDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#port KendraDataSource#port}
   */
   readonly port: number;
 }
@@ -936,7 +936,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfigurat
   }
 
   // credentials - computed: false, optional: true, required: false
-  private _credentials?: string; 
+  private _credentials?: string;
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -952,7 +952,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfigurat
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -965,7 +965,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfigurat
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -979,11 +979,11 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfigurat
 }
 export interface KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}
   */
   readonly seedUrls: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}
   */
   readonly webCrawlerMode?: string;
 }
@@ -1063,7 +1063,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConf
   }
 
   // seed_urls - computed: false, optional: false, required: true
-  private _seedUrls?: string[]; 
+  private _seedUrls?: string[];
   public get seedUrls() {
     return cdktn.Fn.tolist(this.getListAttribute('seed_urls'));
   }
@@ -1076,7 +1076,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConf
   }
 
   // web_crawler_mode - computed: false, optional: true, required: false
-  private _webCrawlerMode?: string; 
+  private _webCrawlerMode?: string;
   public get webCrawlerMode() {
     return this.getStringAttribute('web_crawler_mode');
   }
@@ -1093,7 +1093,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConf
 }
 export interface KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}
   */
   readonly siteMaps: string[];
 }
@@ -1160,7 +1160,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsCon
   }
 
   // site_maps - computed: false, optional: false, required: true
-  private _siteMaps?: string[]; 
+  private _siteMaps?: string[];
   public get siteMaps() {
     return cdktn.Fn.tolist(this.getListAttribute('site_maps'));
   }
@@ -1176,13 +1176,13 @@ export interface KendraDataSourceConfigurationWebCrawlerConfigurationUrls {
   /**
   * seed_url_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
   */
   readonly seedUrlConfiguration?: KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration;
   /**
   * site_maps_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
   */
   readonly siteMapsConfiguration?: KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration;
 }
@@ -1295,45 +1295,45 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputRefer
 }
 export interface KendraDataSourceConfigurationWebCrawlerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}
   */
   readonly crawlDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}
   */
   readonly maxContentSizePerPageInMegaBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}
   */
   readonly maxLinksPerPage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}
   */
   readonly maxUrlsPerMinuteCrawlRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}
   */
   readonly urlExclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}
   */
   readonly urlInclusionPatterns?: string[];
   /**
   * authentication_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}
   */
   readonly authenticationConfiguration?: KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration;
   /**
   * proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}
   */
   readonly proxyConfiguration?: KendraDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration;
   /**
   * urls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
   */
   readonly urls: KendraDataSourceConfigurationWebCrawlerConfigurationUrls;
 }
@@ -1504,7 +1504,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // crawl_depth - computed: false, optional: true, required: false
-  private _crawlDepth?: number; 
+  private _crawlDepth?: number;
   public get crawlDepth() {
     return this.getNumberAttribute('crawl_depth');
   }
@@ -1520,7 +1520,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // max_content_size_per_page_in_mega_bytes - computed: false, optional: true, required: false
-  private _maxContentSizePerPageInMegaBytes?: number; 
+  private _maxContentSizePerPageInMegaBytes?: number;
   public get maxContentSizePerPageInMegaBytes() {
     return this.getNumberAttribute('max_content_size_per_page_in_mega_bytes');
   }
@@ -1536,7 +1536,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // max_links_per_page - computed: false, optional: true, required: false
-  private _maxLinksPerPage?: number; 
+  private _maxLinksPerPage?: number;
   public get maxLinksPerPage() {
     return this.getNumberAttribute('max_links_per_page');
   }
@@ -1552,7 +1552,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // max_urls_per_minute_crawl_rate - computed: false, optional: true, required: false
-  private _maxUrlsPerMinuteCrawlRate?: number; 
+  private _maxUrlsPerMinuteCrawlRate?: number;
   public get maxUrlsPerMinuteCrawlRate() {
     return this.getNumberAttribute('max_urls_per_minute_crawl_rate');
   }
@@ -1568,7 +1568,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // url_exclusion_patterns - computed: false, optional: true, required: false
-  private _urlExclusionPatterns?: string[]; 
+  private _urlExclusionPatterns?: string[];
   public get urlExclusionPatterns() {
     return cdktn.Fn.tolist(this.getListAttribute('url_exclusion_patterns'));
   }
@@ -1584,7 +1584,7 @@ export class KendraDataSourceConfigurationWebCrawlerConfigurationOutputReference
   }
 
   // url_inclusion_patterns - computed: false, optional: true, required: false
-  private _urlInclusionPatterns?: string[]; 
+  private _urlInclusionPatterns?: string[];
   public get urlInclusionPatterns() {
     return cdktn.Fn.tolist(this.getListAttribute('url_inclusion_patterns'));
   }
@@ -1648,19 +1648,19 @@ export interface KendraDataSourceConfiguration {
   /**
   * s3_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
   */
   readonly s3Configuration?: KendraDataSourceConfigurationS3Configuration;
   /**
   * template_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
   */
   readonly templateConfiguration?: KendraDataSourceConfigurationTemplateConfiguration;
   /**
   * web_crawler_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
   */
   readonly webCrawlerConfiguration?: KendraDataSourceConfigurationWebCrawlerConfiguration;
 }
@@ -1802,19 +1802,19 @@ export class KendraDataSourceConfigurationOutputReference extends cdktn.ComplexO
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1920,7 +1920,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // date_value - computed: false, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1936,7 +1936,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // long_value - computed: false, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1952,7 +1952,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_list_value - computed: false, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return cdktn.Fn.tolist(this.getListAttribute('string_list_value'));
   }
@@ -1968,7 +1968,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1985,17 +1985,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator: string;
   /**
   * condition_on_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue;
 }
@@ -2088,7 +2088,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // condition_document_attribute_key - computed: false, optional: false, required: true
-  private _conditionDocumentAttributeKey?: string; 
+  private _conditionDocumentAttributeKey?: string;
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -2101,7 +2101,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // operator - computed: false, optional: false, required: true
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -2131,19 +2131,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -2249,7 +2249,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // date_value - computed: false, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -2265,7 +2265,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // long_value - computed: false, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -2281,7 +2281,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_list_value - computed: false, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return cdktn.Fn.tolist(this.getListAttribute('string_list_value'));
   }
@@ -2297,7 +2297,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -2314,17 +2314,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}
   */
   readonly targetDocumentAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}
   */
   readonly targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable;
   /**
   * target_document_attribute_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}
   */
   readonly targetDocumentAttributeValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue;
 }
@@ -2417,7 +2417,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // target_document_attribute_key - computed: false, optional: true, required: false
-  private _targetDocumentAttributeKey?: string; 
+  private _targetDocumentAttributeKey?: string;
   public get targetDocumentAttributeKey() {
     return this.getStringAttribute('target_document_attribute_key');
   }
@@ -2433,7 +2433,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // target_document_attribute_value_deletion - computed: false, optional: true, required: false
-  private _targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable; 
+  private _targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable;
   public get targetDocumentAttributeValueDeletion() {
     return this.getBooleanAttribute('target_document_attribute_value_deletion');
   }
@@ -2466,19 +2466,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}
   */
   readonly documentContentDeletion?: boolean | cdktn.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
   */
   readonly condition?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#target KendraDataSource#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#target KendraDataSource#target}
   */
   readonly target?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget;
 }
@@ -2583,7 +2583,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // document_content_deletion - computed: false, optional: true, required: false
-  private _documentContentDeletion?: boolean | cdktn.IResolvable; 
+  private _documentContentDeletion?: boolean | cdktn.IResolvable;
   public get documentContentDeletion() {
     return this.getBooleanAttribute('document_content_deletion');
   }
@@ -2652,19 +2652,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -2770,7 +2770,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // date_value - computed: false, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -2786,7 +2786,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // long_value - computed: false, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -2802,7 +2802,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // string_list_value - computed: false, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return cdktn.Fn.tolist(this.getListAttribute('string_list_value'));
   }
@@ -2818,7 +2818,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -2835,17 +2835,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator: string;
   /**
   * condition_on_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue;
 }
@@ -2938,7 +2938,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // condition_document_attribute_key - computed: false, optional: false, required: true
-  private _conditionDocumentAttributeKey?: string; 
+  private _conditionDocumentAttributeKey?: string;
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -2951,7 +2951,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // operator - computed: false, optional: false, required: true
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -2981,17 +2981,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
   */
   readonly lambdaArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * invocation_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
   */
   readonly invocationCondition?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition;
 }
@@ -3084,7 +3084,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -3097,7 +3097,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -3127,19 +3127,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -3245,7 +3245,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // date_value - computed: false, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -3261,7 +3261,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // long_value - computed: false, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -3277,7 +3277,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // string_list_value - computed: false, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return cdktn.Fn.tolist(this.getListAttribute('string_list_value'));
   }
@@ -3293,7 +3293,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -3310,17 +3310,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator: string;
   /**
   * condition_on_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue;
 }
@@ -3413,7 +3413,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // condition_document_attribute_key - computed: false, optional: false, required: true
-  private _conditionDocumentAttributeKey?: string; 
+  private _conditionDocumentAttributeKey?: string;
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -3426,7 +3426,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // operator - computed: false, optional: false, required: true
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -3456,17 +3456,17 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
   */
   readonly lambdaArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * invocation_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
   */
   readonly invocationCondition?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition;
 }
@@ -3559,7 +3559,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -3572,7 +3572,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -3602,25 +3602,25 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * inline_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
   */
   readonly inlineConfigurations?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations[] | cdktn.IResolvable;
   /**
   * post_extraction_hook_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}
   */
   readonly postExtractionHookConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration;
   /**
   * pre_extraction_hook_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}
   */
   readonly preExtractionHookConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration;
 }
@@ -3726,7 +3726,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenc
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3791,15 +3791,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenc
 }
 export interface KendraDataSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#create KendraDataSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#create KendraDataSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#delete KendraDataSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#delete KendraDataSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#update KendraDataSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#update KendraDataSource#update}
   */
   readonly update?: string;
 }
@@ -3902,7 +3902,7 @@ export class KendraDataSourceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -3918,7 +3918,7 @@ export class KendraDataSourceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -3934,7 +3934,7 @@ export class KendraDataSourceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3951,7 +3951,7 @@ export class KendraDataSourceTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source aws_kendra_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source aws_kendra_data_source}
 */
 export class KendraDataSource extends cdktn.TerraformResource {
 
@@ -3967,7 +3967,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendraDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendraDataSource to import
-  * @param importFromId The id of the existing KendraDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendraDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendraDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3979,7 +3979,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3990,7 +3990,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_kendra_data_source',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4036,7 +4036,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4057,7 +4057,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4073,7 +4073,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string; 
+  private _indexId?: string;
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -4086,7 +4086,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string; 
+  private _languageCode?: string;
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -4102,7 +4102,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4115,7 +4115,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4131,7 +4131,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4147,7 +4147,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: true, required: false
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -4168,7 +4168,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4184,7 +4184,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4200,7 +4200,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

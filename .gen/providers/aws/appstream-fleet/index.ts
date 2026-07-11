@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#description AppstreamFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#description AppstreamFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#disconnect_timeout_in_seconds AppstreamFleet#disconnect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#disconnect_timeout_in_seconds AppstreamFleet#disconnect_timeout_in_seconds}
   */
   readonly disconnectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#display_name AppstreamFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#display_name AppstreamFleet#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#enable_default_internet_access AppstreamFleet#enable_default_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#enable_default_internet_access AppstreamFleet#enable_default_internet_access}
   */
   readonly enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#fleet_type AppstreamFleet#fleet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#fleet_type AppstreamFleet#fleet_type}
   */
   readonly fleetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#iam_role_arn AppstreamFleet#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#iam_role_arn AppstreamFleet#iam_role_arn}
   */
   readonly iamRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#id AppstreamFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#id AppstreamFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#idle_disconnect_timeout_in_seconds AppstreamFleet#idle_disconnect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#idle_disconnect_timeout_in_seconds AppstreamFleet#idle_disconnect_timeout_in_seconds}
   */
   readonly idleDisconnectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#image_arn AppstreamFleet#image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#image_arn AppstreamFleet#image_arn}
   */
   readonly imageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#image_name AppstreamFleet#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#image_name AppstreamFleet#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#instance_type AppstreamFleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#instance_type AppstreamFleet#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#max_sessions_per_instance AppstreamFleet#max_sessions_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#max_sessions_per_instance AppstreamFleet#max_sessions_per_instance}
   */
   readonly maxSessionsPerInstance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#max_user_duration_in_seconds AppstreamFleet#max_user_duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#max_user_duration_in_seconds AppstreamFleet#max_user_duration_in_seconds}
   */
   readonly maxUserDurationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#name AppstreamFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#name AppstreamFleet#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#region AppstreamFleet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#region AppstreamFleet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#stream_view AppstreamFleet#stream_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#stream_view AppstreamFleet#stream_view}
   */
   readonly streamView?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#tags AppstreamFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#tags AppstreamFleet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#tags_all AppstreamFleet#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#tags_all AppstreamFleet#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * compute_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#compute_capacity AppstreamFleet#compute_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#compute_capacity AppstreamFleet#compute_capacity}
   */
   readonly computeCapacity: AppstreamFleetComputeCapacity;
   /**
   * domain_join_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#domain_join_info AppstreamFleet#domain_join_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#domain_join_info AppstreamFleet#domain_join_info}
   */
   readonly domainJoinInfo?: AppstreamFleetDomainJoinInfo;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#vpc_config AppstreamFleet#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#vpc_config AppstreamFleet#vpc_config}
   */
   readonly vpcConfig?: AppstreamFleetVpcConfig;
 }
 export interface AppstreamFleetComputeCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#desired_instances AppstreamFleet#desired_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#desired_instances AppstreamFleet#desired_instances}
   */
   readonly desiredInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#desired_sessions AppstreamFleet#desired_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#desired_sessions AppstreamFleet#desired_sessions}
   */
   readonly desiredSessions?: number;
 }
@@ -194,7 +194,7 @@ export class AppstreamFleetComputeCapacityOutputReference extends cdktn.ComplexO
   }
 
   // desired_instances - computed: false, optional: true, required: false
-  private _desiredInstances?: number; 
+  private _desiredInstances?: number;
   public get desiredInstances() {
     return this.getNumberAttribute('desired_instances');
   }
@@ -210,7 +210,7 @@ export class AppstreamFleetComputeCapacityOutputReference extends cdktn.ComplexO
   }
 
   // desired_sessions - computed: false, optional: true, required: false
-  private _desiredSessions?: number; 
+  private _desiredSessions?: number;
   public get desiredSessions() {
     return this.getNumberAttribute('desired_sessions');
   }
@@ -237,11 +237,11 @@ export class AppstreamFleetComputeCapacityOutputReference extends cdktn.ComplexO
 }
 export interface AppstreamFleetDomainJoinInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#directory_name AppstreamFleet#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#directory_name AppstreamFleet#directory_name}
   */
   readonly directoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#organizational_unit_distinguished_name AppstreamFleet#organizational_unit_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#organizational_unit_distinguished_name AppstreamFleet#organizational_unit_distinguished_name}
   */
   readonly organizationalUnitDistinguishedName?: string;
 }
@@ -321,7 +321,7 @@ export class AppstreamFleetDomainJoinInfoOutputReference extends cdktn.ComplexOb
   }
 
   // directory_name - computed: true, optional: true, required: false
-  private _directoryName?: string; 
+  private _directoryName?: string;
   public get directoryName() {
     return this.getStringAttribute('directory_name');
   }
@@ -337,7 +337,7 @@ export class AppstreamFleetDomainJoinInfoOutputReference extends cdktn.ComplexOb
   }
 
   // organizational_unit_distinguished_name - computed: true, optional: true, required: false
-  private _organizationalUnitDistinguishedName?: string; 
+  private _organizationalUnitDistinguishedName?: string;
   public get organizationalUnitDistinguishedName() {
     return this.getStringAttribute('organizational_unit_distinguished_name');
   }
@@ -354,11 +354,11 @@ export class AppstreamFleetDomainJoinInfoOutputReference extends cdktn.ComplexOb
 }
 export interface AppstreamFleetVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#security_group_ids AppstreamFleet#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#security_group_ids AppstreamFleet#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#subnet_ids AppstreamFleet#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#subnet_ids AppstreamFleet#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -438,7 +438,7 @@ export class AppstreamFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -454,7 +454,7 @@ export class AppstreamFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -471,7 +471,7 @@ export class AppstreamFleetVpcConfigOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet aws_appstream_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet aws_appstream_fleet}
 */
 export class AppstreamFleet extends cdktn.TerraformResource {
 
@@ -487,7 +487,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamFleet to import
-  * @param importFromId The id of the existing AppstreamFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -499,7 +499,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_fleet aws_appstream_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_fleet aws_appstream_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -510,7 +510,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appstream_fleet',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -558,7 +558,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -574,7 +574,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _disconnectTimeoutInSeconds?: number; 
+  private _disconnectTimeoutInSeconds?: number;
   public get disconnectTimeoutInSeconds() {
     return this.getNumberAttribute('disconnect_timeout_in_seconds');
   }
@@ -590,7 +590,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -606,7 +606,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // enable_default_internet_access - computed: true, optional: true, required: false
-  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable; 
+  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
   public get enableDefaultInternetAccess() {
     return this.getBooleanAttribute('enable_default_internet_access');
   }
@@ -622,7 +622,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // fleet_type - computed: true, optional: true, required: false
-  private _fleetType?: string; 
+  private _fleetType?: string;
   public get fleetType() {
     return this.getStringAttribute('fleet_type');
   }
@@ -638,7 +638,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -654,7 +654,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -670,7 +670,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // idle_disconnect_timeout_in_seconds - computed: false, optional: true, required: false
-  private _idleDisconnectTimeoutInSeconds?: number; 
+  private _idleDisconnectTimeoutInSeconds?: number;
   public get idleDisconnectTimeoutInSeconds() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_seconds');
   }
@@ -686,7 +686,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // image_arn - computed: true, optional: true, required: false
-  private _imageArn?: string; 
+  private _imageArn?: string;
   public get imageArn() {
     return this.getStringAttribute('image_arn');
   }
@@ -702,7 +702,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // image_name - computed: true, optional: true, required: false
-  private _imageName?: string; 
+  private _imageName?: string;
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -718,7 +718,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -731,7 +731,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // max_sessions_per_instance - computed: false, optional: true, required: false
-  private _maxSessionsPerInstance?: number; 
+  private _maxSessionsPerInstance?: number;
   public get maxSessionsPerInstance() {
     return this.getNumberAttribute('max_sessions_per_instance');
   }
@@ -747,7 +747,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // max_user_duration_in_seconds - computed: true, optional: true, required: false
-  private _maxUserDurationInSeconds?: number; 
+  private _maxUserDurationInSeconds?: number;
   public get maxUserDurationInSeconds() {
     return this.getNumberAttribute('max_user_duration_in_seconds');
   }
@@ -763,7 +763,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -776,7 +776,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -797,7 +797,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // stream_view - computed: true, optional: true, required: false
-  private _streamView?: string; 
+  private _streamView?: string;
   public get streamView() {
     return this.getStringAttribute('stream_view');
   }
@@ -813,7 +813,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -829,7 +829,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

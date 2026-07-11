@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktn from 'cdktn';
 
 export interface CodepipelineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#execution_mode Codepipeline#execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#execution_mode Codepipeline#execution_mode}
   */
   readonly executionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#id Codepipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#id Codepipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#pipeline_type Codepipeline#pipeline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#pipeline_type Codepipeline#pipeline_type}
   */
   readonly pipelineType?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#tags Codepipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#tags Codepipeline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#tags_all Codepipeline#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#tags_all Codepipeline#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * artifact_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#artifact_store Codepipeline#artifact_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#artifact_store Codepipeline#artifact_store}
   */
   readonly artifactStore: CodepipelineArtifactStore[] | cdktn.IResolvable;
   /**
   * stage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#stage Codepipeline#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#stage Codepipeline#stage}
   */
   readonly stage: CodepipelineStage[] | cdktn.IResolvable;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#trigger Codepipeline#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#trigger Codepipeline#trigger}
   */
   readonly trigger?: CodepipelineTrigger[] | cdktn.IResolvable;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#variable Codepipeline#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#variable Codepipeline#variable}
   */
   readonly variable?: CodepipelineVariable[] | cdktn.IResolvable;
 }
@@ -814,14 +814,14 @@ export class CodepipelineTriggerAllList extends cdktn.ComplexList {
 }
 export interface CodepipelineArtifactStoreEncryptionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#id Codepipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#id Codepipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#type Codepipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#type Codepipeline#type}
   */
   readonly type: string;
 }
@@ -901,7 +901,7 @@ export class CodepipelineArtifactStoreEncryptionKeyOutputReference extends cdktn
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -914,7 +914,7 @@ export class CodepipelineArtifactStoreEncryptionKeyOutputReference extends cdktn
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -928,21 +928,21 @@ export class CodepipelineArtifactStoreEncryptionKeyOutputReference extends cdktn
 }
 export interface CodepipelineArtifactStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#location Codepipeline#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#location Codepipeline#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#type Codepipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#type Codepipeline#type}
   */
   readonly type: string;
   /**
   * encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#encryption_key Codepipeline#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#encryption_key Codepipeline#encryption_key}
   */
   readonly encryptionKey?: CodepipelineArtifactStoreEncryptionKey;
 }
@@ -1060,7 +1060,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1073,7 +1073,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1089,7 +1089,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1139,55 +1139,55 @@ export class CodepipelineArtifactStoreList extends cdktn.ComplexList {
 }
 export interface CodepipelineStageAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#category Codepipeline#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#category Codepipeline#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
   */
   readonly inputArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#namespace Codepipeline#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#namespace Codepipeline#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#output_artifacts Codepipeline#output_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#output_artifacts Codepipeline#output_artifacts}
   */
   readonly outputArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#owner Codepipeline#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#owner Codepipeline#owner}
   */
   readonly owner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#provider Codepipeline#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#provider Codepipeline#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#run_order Codepipeline#run_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#run_order Codepipeline#run_order}
   */
   readonly runOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#version Codepipeline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#version Codepipeline#version}
   */
   readonly version: string;
 }
@@ -1422,7 +1422,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -1435,7 +1435,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string }; 
+  private _configuration?: { [key: string]: string };
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -1451,7 +1451,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[]; 
+  private _inputArtifacts?: string[];
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -1467,7 +1467,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1480,7 +1480,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1496,7 +1496,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // output_artifacts - computed: false, optional: true, required: false
-  private _outputArtifacts?: string[]; 
+  private _outputArtifacts?: string[];
   public get outputArtifacts() {
     return this.getListAttribute('output_artifacts');
   }
@@ -1512,7 +1512,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1525,7 +1525,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string; 
+  private _provider?: string;
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -1538,7 +1538,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1554,7 +1554,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1570,7 +1570,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // run_order - computed: true, optional: true, required: false
-  private _runOrder?: number; 
+  private _runOrder?: number;
   public get runOrder() {
     return this.getNumberAttribute('run_order');
   }
@@ -1586,7 +1586,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -1602,7 +1602,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1636,19 +1636,19 @@ export class CodepipelineStageActionList extends cdktn.ComplexList {
 }
 export interface CodepipelineStageBeforeEntryConditionRuleRuleTypeId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#category Codepipeline#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#category Codepipeline#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#owner Codepipeline#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#owner Codepipeline#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#provider Codepipeline#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#provider Codepipeline#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#version Codepipeline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#version Codepipeline#version}
   */
   readonly version?: string;
 }
@@ -1754,7 +1754,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -1767,7 +1767,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1783,7 +1783,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string; 
+  private _provider?: string;
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -1796,7 +1796,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1813,37 +1813,37 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
 }
 export interface CodepipelineStageBeforeEntryConditionRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#commands Codepipeline#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#commands Codepipeline#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
   */
   readonly inputArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
   /**
   * rule_type_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
   */
   readonly ruleTypeId: CodepipelineStageBeforeEntryConditionRuleRuleTypeId;
 }
@@ -2013,7 +2013,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[]; 
+  private _commands?: string[];
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -2029,7 +2029,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string }; 
+  private _configuration?: { [key: string]: string };
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -2045,7 +2045,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[]; 
+  private _inputArtifacts?: string[];
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -2061,7 +2061,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2074,7 +2074,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2090,7 +2090,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2106,7 +2106,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -2156,13 +2156,13 @@ export class CodepipelineStageBeforeEntryConditionRuleList extends cdktn.Complex
 }
 export interface CodepipelineStageBeforeEntryCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#result Codepipeline#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#result Codepipeline#result}
   */
   readonly result?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule Codepipeline#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule Codepipeline#rule}
   */
   readonly rule: CodepipelineStageBeforeEntryConditionRule[] | cdktn.IResolvable;
 }
@@ -2242,7 +2242,7 @@ export class CodepipelineStageBeforeEntryConditionOutputReference extends cdktn.
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string; 
+  private _result?: string;
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -2274,7 +2274,7 @@ export interface CodepipelineStageBeforeEntry {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#condition Codepipeline#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#condition Codepipeline#condition}
   */
   readonly condition: CodepipelineStageBeforeEntryCondition;
 }
@@ -2355,19 +2355,19 @@ export class CodepipelineStageBeforeEntryOutputReference extends cdktn.ComplexOb
 }
 export interface CodepipelineStageOnFailureConditionRuleRuleTypeId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#category Codepipeline#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#category Codepipeline#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#owner Codepipeline#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#owner Codepipeline#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#provider Codepipeline#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#provider Codepipeline#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#version Codepipeline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#version Codepipeline#version}
   */
   readonly version?: string;
 }
@@ -2473,7 +2473,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -2486,7 +2486,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -2502,7 +2502,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string; 
+  private _provider?: string;
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -2515,7 +2515,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2532,37 +2532,37 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
 }
 export interface CodepipelineStageOnFailureConditionRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#commands Codepipeline#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#commands Codepipeline#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
   */
   readonly inputArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
   /**
   * rule_type_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
   */
   readonly ruleTypeId: CodepipelineStageOnFailureConditionRuleRuleTypeId;
 }
@@ -2732,7 +2732,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[]; 
+  private _commands?: string[];
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -2748,7 +2748,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string }; 
+  private _configuration?: { [key: string]: string };
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -2764,7 +2764,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[]; 
+  private _inputArtifacts?: string[];
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -2780,7 +2780,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2793,7 +2793,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2809,7 +2809,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2825,7 +2825,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -2875,13 +2875,13 @@ export class CodepipelineStageOnFailureConditionRuleList extends cdktn.ComplexLi
 }
 export interface CodepipelineStageOnFailureCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#result Codepipeline#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#result Codepipeline#result}
   */
   readonly result?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule Codepipeline#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule Codepipeline#rule}
   */
   readonly rule: CodepipelineStageOnFailureConditionRule[] | cdktn.IResolvable;
 }
@@ -2961,7 +2961,7 @@ export class CodepipelineStageOnFailureConditionOutputReference extends cdktn.Co
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string; 
+  private _result?: string;
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -2991,7 +2991,7 @@ export class CodepipelineStageOnFailureConditionOutputReference extends cdktn.Co
 }
 export interface CodepipelineStageOnFailureRetryConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#retry_mode Codepipeline#retry_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#retry_mode Codepipeline#retry_mode}
   */
   readonly retryMode?: string;
 }
@@ -3058,7 +3058,7 @@ export class CodepipelineStageOnFailureRetryConfigurationOutputReference extends
   }
 
   // retry_mode - computed: false, optional: true, required: false
-  private _retryMode?: string; 
+  private _retryMode?: string;
   public get retryMode() {
     return this.getStringAttribute('retry_mode');
   }
@@ -3075,19 +3075,19 @@ export class CodepipelineStageOnFailureRetryConfigurationOutputReference extends
 }
 export interface CodepipelineStageOnFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#result Codepipeline#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#result Codepipeline#result}
   */
   readonly result?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#condition Codepipeline#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#condition Codepipeline#condition}
   */
   readonly condition?: CodepipelineStageOnFailureCondition;
   /**
   * retry_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#retry_configuration Codepipeline#retry_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#retry_configuration Codepipeline#retry_configuration}
   */
   readonly retryConfiguration?: CodepipelineStageOnFailureRetryConfiguration;
 }
@@ -3180,7 +3180,7 @@ export class CodepipelineStageOnFailureOutputReference extends cdktn.ComplexObje
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string; 
+  private _result?: string;
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -3229,19 +3229,19 @@ export class CodepipelineStageOnFailureOutputReference extends cdktn.ComplexObje
 }
 export interface CodepipelineStageOnSuccessConditionRuleRuleTypeId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#category Codepipeline#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#category Codepipeline#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#owner Codepipeline#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#owner Codepipeline#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#provider Codepipeline#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#provider Codepipeline#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#version Codepipeline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#version Codepipeline#version}
   */
   readonly version?: string;
 }
@@ -3347,7 +3347,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -3360,7 +3360,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -3376,7 +3376,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string; 
+  private _provider?: string;
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -3389,7 +3389,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -3406,37 +3406,37 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
 }
 export interface CodepipelineStageOnSuccessConditionRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#commands Codepipeline#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#commands Codepipeline#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#configuration Codepipeline#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#input_artifacts Codepipeline#input_artifacts}
   */
   readonly inputArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#region Codepipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#region Codepipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#role_arn Codepipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#timeout_in_minutes Codepipeline#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
   /**
   * rule_type_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule_type_id Codepipeline#rule_type_id}
   */
   readonly ruleTypeId: CodepipelineStageOnSuccessConditionRuleRuleTypeId;
 }
@@ -3606,7 +3606,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[]; 
+  private _commands?: string[];
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -3622,7 +3622,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string }; 
+  private _configuration?: { [key: string]: string };
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -3638,7 +3638,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[]; 
+  private _inputArtifacts?: string[];
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -3654,7 +3654,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3667,7 +3667,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3683,7 +3683,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3699,7 +3699,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -3749,13 +3749,13 @@ export class CodepipelineStageOnSuccessConditionRuleList extends cdktn.ComplexLi
 }
 export interface CodepipelineStageOnSuccessCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#result Codepipeline#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#result Codepipeline#result}
   */
   readonly result?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#rule Codepipeline#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#rule Codepipeline#rule}
   */
   readonly rule: CodepipelineStageOnSuccessConditionRule[] | cdktn.IResolvable;
 }
@@ -3835,7 +3835,7 @@ export class CodepipelineStageOnSuccessConditionOutputReference extends cdktn.Co
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string; 
+  private _result?: string;
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -3867,7 +3867,7 @@ export interface CodepipelineStageOnSuccess {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#condition Codepipeline#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#condition Codepipeline#condition}
   */
   readonly condition: CodepipelineStageOnSuccessCondition;
 }
@@ -3948,31 +3948,31 @@ export class CodepipelineStageOnSuccessOutputReference extends cdktn.ComplexObje
 }
 export interface CodepipelineStage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#action Codepipeline#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#action Codepipeline#action}
   */
   readonly action: CodepipelineStageAction[] | cdktn.IResolvable;
   /**
   * before_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#before_entry Codepipeline#before_entry}
   */
   readonly beforeEntry?: CodepipelineStageBeforeEntry;
   /**
   * on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#on_failure Codepipeline#on_failure}
   */
   readonly onFailure?: CodepipelineStageOnFailure;
   /**
   * on_success block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#on_success Codepipeline#on_success}
   */
   readonly onSuccess?: CodepipelineStageOnSuccess;
 }
@@ -4103,7 +4103,7 @@ export class CodepipelineStageOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4198,11 +4198,11 @@ export class CodepipelineStageList extends cdktn.ComplexList {
 }
 export interface CodepipelineTriggerGitConfigurationPullRequestBranches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#includes Codepipeline#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#includes Codepipeline#includes}
   */
   readonly includes?: string[];
 }
@@ -4282,7 +4282,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferen
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[]; 
+  private _excludes?: string[];
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4298,7 +4298,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferen
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[]; 
+  private _includes?: string[];
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4315,11 +4315,11 @@ export class CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferen
 }
 export interface CodepipelineTriggerGitConfigurationPullRequestFilePaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#includes Codepipeline#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#includes Codepipeline#includes}
   */
   readonly includes?: string[];
 }
@@ -4399,7 +4399,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputRefere
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[]; 
+  private _excludes?: string[];
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4415,7 +4415,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputRefere
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[]; 
+  private _includes?: string[];
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4432,19 +4432,19 @@ export class CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputRefere
 }
 export interface CodepipelineTriggerGitConfigurationPullRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#events Codepipeline#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#events Codepipeline#events}
   */
   readonly events?: string[];
   /**
   * branches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#branches Codepipeline#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#branches Codepipeline#branches}
   */
   readonly branches?: CodepipelineTriggerGitConfigurationPullRequestBranches;
   /**
   * file_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#file_paths Codepipeline#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#file_paths Codepipeline#file_paths}
   */
   readonly filePaths?: CodepipelineTriggerGitConfigurationPullRequestFilePaths;
 }
@@ -4549,7 +4549,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestOutputReference exten
   }
 
   // events - computed: false, optional: true, required: false
-  private _events?: string[]; 
+  private _events?: string[];
   public get events() {
     return this.getListAttribute('events');
   }
@@ -4618,11 +4618,11 @@ export class CodepipelineTriggerGitConfigurationPullRequestList extends cdktn.Co
 }
 export interface CodepipelineTriggerGitConfigurationPushBranches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#includes Codepipeline#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#includes Codepipeline#includes}
   */
   readonly includes?: string[];
 }
@@ -4702,7 +4702,7 @@ export class CodepipelineTriggerGitConfigurationPushBranchesOutputReference exte
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[]; 
+  private _excludes?: string[];
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4718,7 +4718,7 @@ export class CodepipelineTriggerGitConfigurationPushBranchesOutputReference exte
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[]; 
+  private _includes?: string[];
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4735,11 +4735,11 @@ export class CodepipelineTriggerGitConfigurationPushBranchesOutputReference exte
 }
 export interface CodepipelineTriggerGitConfigurationPushFilePaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#includes Codepipeline#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#includes Codepipeline#includes}
   */
   readonly includes?: string[];
 }
@@ -4819,7 +4819,7 @@ export class CodepipelineTriggerGitConfigurationPushFilePathsOutputReference ext
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[]; 
+  private _excludes?: string[];
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4835,7 +4835,7 @@ export class CodepipelineTriggerGitConfigurationPushFilePathsOutputReference ext
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[]; 
+  private _includes?: string[];
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4852,11 +4852,11 @@ export class CodepipelineTriggerGitConfigurationPushFilePathsOutputReference ext
 }
 export interface CodepipelineTriggerGitConfigurationPushTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#excludes Codepipeline#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#includes Codepipeline#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#includes Codepipeline#includes}
   */
   readonly includes?: string[];
 }
@@ -4936,7 +4936,7 @@ export class CodepipelineTriggerGitConfigurationPushTagsOutputReference extends 
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[]; 
+  private _excludes?: string[];
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4952,7 +4952,7 @@ export class CodepipelineTriggerGitConfigurationPushTagsOutputReference extends 
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[]; 
+  private _includes?: string[];
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4971,19 +4971,19 @@ export interface CodepipelineTriggerGitConfigurationPush {
   /**
   * branches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#branches Codepipeline#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#branches Codepipeline#branches}
   */
   readonly branches?: CodepipelineTriggerGitConfigurationPushBranches;
   /**
   * file_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#file_paths Codepipeline#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#file_paths Codepipeline#file_paths}
   */
   readonly filePaths?: CodepipelineTriggerGitConfigurationPushFilePaths;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#tags Codepipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#tags Codepipeline#tags}
   */
   readonly tags?: CodepipelineTriggerGitConfigurationPushTags;
 }
@@ -5157,19 +5157,19 @@ export class CodepipelineTriggerGitConfigurationPushList extends cdktn.ComplexLi
 }
 export interface CodepipelineTriggerGitConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#source_action_name Codepipeline#source_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#source_action_name Codepipeline#source_action_name}
   */
   readonly sourceActionName: string;
   /**
   * pull_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#pull_request Codepipeline#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#pull_request Codepipeline#pull_request}
   */
   readonly pullRequest?: CodepipelineTriggerGitConfigurationPullRequest[] | cdktn.IResolvable;
   /**
   * push block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#push Codepipeline#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#push Codepipeline#push}
   */
   readonly push?: CodepipelineTriggerGitConfigurationPush[] | cdktn.IResolvable;
 }
@@ -5262,7 +5262,7 @@ export class CodepipelineTriggerGitConfigurationOutputReference extends cdktn.Co
   }
 
   // source_action_name - computed: false, optional: false, required: true
-  private _sourceActionName?: string; 
+  private _sourceActionName?: string;
   public get sourceActionName() {
     return this.getStringAttribute('source_action_name');
   }
@@ -5308,13 +5308,13 @@ export class CodepipelineTriggerGitConfigurationOutputReference extends cdktn.Co
 }
 export interface CodepipelineTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#provider_type Codepipeline#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#provider_type Codepipeline#provider_type}
   */
   readonly providerType: string;
   /**
   * git_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#git_configuration Codepipeline#git_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#git_configuration Codepipeline#git_configuration}
   */
   readonly gitConfiguration: CodepipelineTriggerGitConfiguration;
 }
@@ -5406,7 +5406,7 @@ export class CodepipelineTriggerOutputReference extends cdktn.ComplexObject {
   }
 
   // provider_type - computed: false, optional: false, required: true
-  private _providerType?: string; 
+  private _providerType?: string;
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -5453,15 +5453,15 @@ export class CodepipelineTriggerList extends cdktn.ComplexList {
 }
 export interface CodepipelineVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#default_value Codepipeline#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#default_value Codepipeline#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#description Codepipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#description Codepipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#name Codepipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#name Codepipeline#name}
   */
   readonly name: string;
 }
@@ -5566,7 +5566,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -5582,7 +5582,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5598,7 +5598,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5632,7 +5632,7 @@ export class CodepipelineVariableList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline aws_codepipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline aws_codepipeline}
 */
 export class Codepipeline extends cdktn.TerraformResource {
 
@@ -5648,7 +5648,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Codepipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Codepipeline to import
-  * @param importFromId The id of the existing Codepipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Codepipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Codepipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5660,7 +5660,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline aws_codepipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline aws_codepipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5671,7 +5671,7 @@ export class Codepipeline extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codepipeline',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5705,7 +5705,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // execution_mode - computed: false, optional: true, required: false
-  private _executionMode?: string; 
+  private _executionMode?: string;
   public get executionMode() {
     return this.getStringAttribute('execution_mode');
   }
@@ -5721,7 +5721,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5737,7 +5737,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5750,7 +5750,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_type - computed: false, optional: true, required: false
-  private _pipelineType?: string; 
+  private _pipelineType?: string;
   public get pipelineType() {
     return this.getStringAttribute('pipeline_type');
   }
@@ -5766,7 +5766,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5782,7 +5782,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5795,7 +5795,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5811,7 +5811,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

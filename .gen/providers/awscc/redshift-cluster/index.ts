@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,322 +10,322 @@ export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default value is True
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#allow_version_upgrade RedshiftCluster#allow_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#allow_version_upgrade RedshiftCluster#allow_version_upgrade}
   */
   readonly allowVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * The value represents how the cluster is configured to use AQUA (Advanced Query Accelerator) after the cluster is restored. Possible values include the following.
-  * 
+  *
   * enabled - Use AQUA if it is available for the current Region and Amazon Redshift node type.
   * disabled - Don't use AQUA.
   * auto - Amazon Redshift determines whether to use AQUA.
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#aqua_configuration_status RedshiftCluster#aqua_configuration_status}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#aqua_configuration_status RedshiftCluster#aqua_configuration_status}
   */
   readonly aquaConfigurationStatus?: string;
   /**
   * The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Default value is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#automated_snapshot_retention_period RedshiftCluster#automated_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#automated_snapshot_retention_period RedshiftCluster#automated_snapshot_retention_period}
   */
   readonly automatedSnapshotRetentionPeriod?: number;
   /**
   * The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. Default: A random, system-chosen Availability Zone in the region that is specified by the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#availability_zone RedshiftCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#availability_zone RedshiftCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The option to enable relocation for an Amazon Redshift cluster between Availability Zones after the cluster modification is complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#availability_zone_relocation RedshiftCluster#availability_zone_relocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#availability_zone_relocation RedshiftCluster#availability_zone_relocation}
   */
   readonly availabilityZoneRelocation?: boolean | cdktn.IResolvable;
   /**
   * The availability zone relocation status of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#availability_zone_relocation_status RedshiftCluster#availability_zone_relocation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#availability_zone_relocation_status RedshiftCluster#availability_zone_relocation_status}
   */
   readonly availabilityZoneRelocationStatus?: string;
   /**
   * A boolean value indicating whether the resize operation is using the classic resize process. If you don't provide this parameter or set the value to false , the resize type is elastic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#classic RedshiftCluster#classic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#classic RedshiftCluster#classic}
   */
   readonly classic?: boolean | cdktn.IResolvable;
   /**
   * A unique identifier for the cluster. You use this identifier to refer to the cluster for any subsequent cluster operations such as deleting or modifying. All alphabetical characters must be lower case, no hypens at the end, no two consecutive hyphens. Cluster name should be unique for all clusters within an AWS account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_identifier RedshiftCluster#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_identifier RedshiftCluster#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
   /**
   * The name of the parameter group to be associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_parameter_group_name RedshiftCluster#cluster_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_parameter_group_name RedshiftCluster#cluster_parameter_group_name}
   */
   readonly clusterParameterGroupName?: string;
   /**
   * A list of security groups to be associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_security_groups RedshiftCluster#cluster_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_security_groups RedshiftCluster#cluster_security_groups}
   */
   readonly clusterSecurityGroups?: string[];
   /**
   * The name of a cluster subnet group to be associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_subnet_group_name RedshiftCluster#cluster_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_subnet_group_name RedshiftCluster#cluster_subnet_group_name}
   */
   readonly clusterSubnetGroupName?: string;
   /**
   * The type of the cluster. When cluster type is specified as single-node, the NumberOfNodes parameter is not required and if multi-node, the NumberOfNodes parameter is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_type RedshiftCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_type RedshiftCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
   * The version of the Amazon Redshift engine software that you want to deploy on the cluster.The version selected runs on all the nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#cluster_version RedshiftCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#cluster_version RedshiftCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
   * The name of the first database to be created when the cluster is created. To create additional databases after the cluster is created, connect to the cluster with a SQL client and use SQL commands to create a database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#db_name RedshiftCluster#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#db_name RedshiftCluster#db_name}
   */
   readonly dbName: string;
   /**
   * A boolean indicating whether to enable the deferred maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#defer_maintenance RedshiftCluster#defer_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#defer_maintenance RedshiftCluster#defer_maintenance}
   */
   readonly deferMaintenance?: boolean | cdktn.IResolvable;
   /**
   * An integer indicating the duration of the maintenance window in days. If you specify a duration, you can't specify an end time. The duration must be 60 days or less.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#defer_maintenance_duration RedshiftCluster#defer_maintenance_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#defer_maintenance_duration RedshiftCluster#defer_maintenance_duration}
   */
   readonly deferMaintenanceDuration?: number;
   /**
   * A timestamp indicating end time for the deferred maintenance window. If you specify an end time, you can't specify a duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#defer_maintenance_end_time RedshiftCluster#defer_maintenance_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#defer_maintenance_end_time RedshiftCluster#defer_maintenance_end_time}
   */
   readonly deferMaintenanceEndTime?: string;
   /**
   * A timestamp indicating the start time for the deferred maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#defer_maintenance_start_time RedshiftCluster#defer_maintenance_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#defer_maintenance_start_time RedshiftCluster#defer_maintenance_start_time}
   */
   readonly deferMaintenanceStartTime?: string;
   /**
   * The destination AWS Region that you want to copy snapshots to. Constraints: Must be the name of a valid AWS Region. For more information, see Regions and Endpoints in the Amazon Web Services [https://docs.aws.amazon.com/general/latest/gr/rande.html#redshift_region] General Reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#destination_region RedshiftCluster#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#destination_region RedshiftCluster#destination_region}
   */
   readonly destinationRegion?: string;
   /**
   * The Elastic IP (EIP) address for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#elastic_ip RedshiftCluster#elastic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#elastic_ip RedshiftCluster#elastic_ip}
   */
   readonly elasticIp?: string;
   /**
   * If true, the data in the cluster is encrypted at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#encrypted RedshiftCluster#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#encrypted RedshiftCluster#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#endpoint RedshiftCluster#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#endpoint RedshiftCluster#endpoint}
   */
   readonly endpoint?: RedshiftClusterEndpoint;
   /**
   * An option that specifies whether to create the cluster with enhanced VPC routing enabled. To create a cluster that uses enhanced VPC routing, the cluster must be in a VPC. For more information, see Enhanced VPC Routing in the Amazon Redshift Cluster Management Guide.
-  * 
+  *
   * If this option is true , enhanced VPC routing is enabled.
-  * 
+  *
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#enhanced_vpc_routing RedshiftCluster#enhanced_vpc_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#enhanced_vpc_routing RedshiftCluster#enhanced_vpc_routing}
   */
   readonly enhancedVpcRouting?: boolean | cdktn.IResolvable;
   /**
   * Specifies the name of the HSM client certificate the Amazon Redshift cluster uses to retrieve the data encryption keys stored in an HSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#hsm_client_certificate_identifier RedshiftCluster#hsm_client_certificate_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#hsm_client_certificate_identifier RedshiftCluster#hsm_client_certificate_identifier}
   */
   readonly hsmClientCertificateIdentifier?: string;
   /**
   * Specifies the name of the HSM configuration that contains the information the Amazon Redshift cluster can use to retrieve and store keys in an HSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#hsm_configuration_identifier RedshiftCluster#hsm_configuration_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#hsm_configuration_identifier RedshiftCluster#hsm_configuration_identifier}
   */
   readonly hsmConfigurationIdentifier?: string;
   /**
   * A list of AWS Identity and Access Management (IAM) roles that can be used by the cluster to access other AWS services. You must supply the IAM roles in their Amazon Resource Name (ARN) format. You can supply up to 50 IAM roles in a single request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#iam_roles RedshiftCluster#iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#iam_roles RedshiftCluster#iam_roles}
   */
   readonly iamRoles?: string[];
   /**
   * The AWS Key Management Service (KMS) key ID of the encryption key that you want to use to encrypt data in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#kms_key_id RedshiftCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#kms_key_id RedshiftCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#logging_properties RedshiftCluster#logging_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#logging_properties RedshiftCluster#logging_properties}
   */
   readonly loggingProperties?: RedshiftClusterLoggingProperties;
   /**
   * The name for the maintenance track that you want to assign for the cluster. This name change is asynchronous. The new track name stays in the PendingModifiedValues for the cluster until the next maintenance window. When the maintenance track changes, the cluster is switched to the latest cluster release available for the maintenance track. At this point, the maintenance track name is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#maintenance_track_name RedshiftCluster#maintenance_track_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#maintenance_track_name RedshiftCluster#maintenance_track_name}
   */
   readonly maintenanceTrackName?: string;
   /**
   * A boolean indicating if the redshift cluster's admin user credentials is managed by Redshift or not. You can't use MasterUserPassword if ManageMasterPassword is true. If ManageMasterPassword is false or not set, Amazon Redshift uses MasterUserPassword for the admin user account's password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#manage_master_password RedshiftCluster#manage_master_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#manage_master_password RedshiftCluster#manage_master_password}
   */
   readonly manageMasterPassword?: boolean | cdktn.IResolvable;
   /**
   * The number of days to retain newly copied snapshots in the destination AWS Region after they are copied from the source AWS Region. If the value is -1, the manual snapshot is retained indefinitely.
-  * 
+  *
   * The value must be either -1 or an integer between 1 and 3,653.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#manual_snapshot_retention_period RedshiftCluster#manual_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#manual_snapshot_retention_period RedshiftCluster#manual_snapshot_retention_period}
   */
   readonly manualSnapshotRetentionPeriod?: number;
   /**
   * The ID of the Key Management Service (KMS) key used to encrypt and store the cluster's admin user credentials secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#master_password_secret_kms_key_id RedshiftCluster#master_password_secret_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#master_password_secret_kms_key_id RedshiftCluster#master_password_secret_kms_key_id}
   */
   readonly masterPasswordSecretKmsKeyId?: string;
   /**
   * The password associated with the master user account for the cluster that is being created. You can't use MasterUserPassword if ManageMasterPassword is true. Password must be between 8 and 64 characters in length, should have at least one uppercase letter.Must contain at least one lowercase letter.Must contain one number.Can be any printable ASCII character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#master_user_password RedshiftCluster#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#master_user_password RedshiftCluster#master_user_password}
   */
   readonly masterUserPassword?: string;
   /**
   * The user name associated with the master user account for the cluster that is being created. The user name can't be PUBLIC and first character must be a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#master_username RedshiftCluster#master_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#master_username RedshiftCluster#master_username}
   */
   readonly masterUsername: string;
   /**
   * A boolean indicating if the redshift cluster is multi-az or not. If you don't provide this parameter or set the value to false, the redshift cluster will be single-az.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#multi_az RedshiftCluster#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#multi_az RedshiftCluster#multi_az}
   */
   readonly multiAz?: boolean | cdktn.IResolvable;
   /**
   * The namespace resource policy document that will be attached to a Redshift cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#namespace_resource_policy RedshiftCluster#namespace_resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#namespace_resource_policy RedshiftCluster#namespace_resource_policy}
   */
   readonly namespaceResourcePolicy?: string;
   /**
   * The node type to be provisioned for the cluster.Valid Values: ds2.xlarge | ds2.8xlarge | dc1.large | dc1.8xlarge | dc2.large | dc2.8xlarge | ra3.large | ra3.4xlarge | ra3.16xlarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#node_type RedshiftCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#node_type RedshiftCluster#node_type}
   */
   readonly nodeType: string;
   /**
   * The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#number_of_nodes RedshiftCluster#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#number_of_nodes RedshiftCluster#number_of_nodes}
   */
   readonly numberOfNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#owner_account RedshiftCluster#owner_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#owner_account RedshiftCluster#owner_account}
   */
   readonly ownerAccount?: string;
   /**
   * The port number on which the cluster accepts incoming connections. The cluster is accessible only via the JDBC and ODBC connection strings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#port RedshiftCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#port RedshiftCluster#port}
   */
   readonly port?: number;
   /**
   * The weekly time range (in UTC) during which automated cluster maintenance can occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#preferred_maintenance_window RedshiftCluster#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#preferred_maintenance_window RedshiftCluster#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * If true, the cluster can be accessed from a public network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#publicly_accessible RedshiftCluster#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#publicly_accessible RedshiftCluster#publicly_accessible}
   */
   readonly publiclyAccessible?: boolean | cdktn.IResolvable;
   /**
   * The Redshift operation to be performed. Resource Action supports pause-cluster, resume-cluster, failover-primary-compute APIs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#resource_action RedshiftCluster#resource_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#resource_action RedshiftCluster#resource_action}
   */
   readonly resourceAction?: string;
   /**
   * The identifier of the database revision. You can retrieve this value from the response to the DescribeClusterDbRevisions request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#revision_target RedshiftCluster#revision_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#revision_target RedshiftCluster#revision_target}
   */
   readonly revisionTarget?: string;
   /**
   * A boolean indicating if we want to rotate Encryption Keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#rotate_encryption_key RedshiftCluster#rotate_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#rotate_encryption_key RedshiftCluster#rotate_encryption_key}
   */
   readonly rotateEncryptionKey?: boolean | cdktn.IResolvable;
   /**
   * The name of the cluster the source snapshot was created from. This parameter is required if your IAM user has a policy containing a snapshot resource element that specifies anything other than * for the cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#snapshot_cluster_identifier RedshiftCluster#snapshot_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_cluster_identifier RedshiftCluster#snapshot_cluster_identifier}
   */
   readonly snapshotClusterIdentifier?: string;
   /**
   * The name of the snapshot copy grant to use when snapshots of an AWS KMS-encrypted cluster are copied to the destination region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#snapshot_copy_grant_name RedshiftCluster#snapshot_copy_grant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_copy_grant_name RedshiftCluster#snapshot_copy_grant_name}
   */
   readonly snapshotCopyGrantName?: string;
   /**
   * Indicates whether to apply the snapshot retention period to newly copied manual snapshots instead of automated snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#snapshot_copy_manual RedshiftCluster#snapshot_copy_manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_copy_manual RedshiftCluster#snapshot_copy_manual}
   */
   readonly snapshotCopyManual?: boolean | cdktn.IResolvable;
   /**
-  * The number of days to retain automated snapshots in the destination region after they are copied from the source region. 
-  * 
-  *  Default is 7. 
-  * 
+  * The number of days to retain automated snapshots in the destination region after they are copied from the source region.
+  *
+  *  Default is 7.
+  *
   *  Constraints: Must be at least 1 and no more than 35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#snapshot_copy_retention_period RedshiftCluster#snapshot_copy_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_copy_retention_period RedshiftCluster#snapshot_copy_retention_period}
   */
   readonly snapshotCopyRetentionPeriod?: number;
   /**
   * The name of the snapshot from which to create the new cluster. This parameter isn't case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#snapshot_identifier RedshiftCluster#snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_identifier RedshiftCluster#snapshot_identifier}
   */
   readonly snapshotIdentifier?: string;
   /**
   * The list of tags for the cluster parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#tags RedshiftCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#tags RedshiftCluster#tags}
   */
   readonly tags?: RedshiftClusterTags[] | cdktn.IResolvable;
   /**
   * A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#vpc_security_group_ids RedshiftCluster#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#vpc_security_group_ids RedshiftCluster#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
 }
@@ -400,19 +400,19 @@ export class RedshiftClusterEndpointOutputReference extends cdktn.ComplexObject 
 }
 export interface RedshiftClusterLoggingProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#bucket_name RedshiftCluster#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#bucket_name RedshiftCluster#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#log_destination_type RedshiftCluster#log_destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#log_destination_type RedshiftCluster#log_destination_type}
   */
   readonly logDestinationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#log_exports RedshiftCluster#log_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#log_exports RedshiftCluster#log_exports}
   */
   readonly logExports?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#s3_key_prefix RedshiftCluster#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#s3_key_prefix RedshiftCluster#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
 }
@@ -528,7 +528,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -544,7 +544,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // log_destination_type - computed: true, optional: true, required: false
-  private _logDestinationType?: string; 
+  private _logDestinationType?: string;
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -560,7 +560,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // log_exports - computed: true, optional: true, required: false
-  private _logExports?: string[]; 
+  private _logExports?: string[];
   public get logExports() {
     return this.getListAttribute('log_exports');
   }
@@ -576,7 +576,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string; 
+  private _s3KeyPrefix?: string;
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -595,13 +595,13 @@ export interface RedshiftClusterTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#key RedshiftCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#key RedshiftCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#value RedshiftCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#value RedshiftCluster#value}
   */
   readonly value?: string;
 }
@@ -693,7 +693,7 @@ export class RedshiftClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -709,7 +709,7 @@ export class RedshiftClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -746,7 +746,7 @@ export class RedshiftClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster awscc_redshift_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster awscc_redshift_cluster}
 */
 export class RedshiftCluster extends cdktn.TerraformResource {
 
@@ -762,7 +762,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftCluster to import
-  * @param importFromId The id of the existing RedshiftCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -774,7 +774,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster awscc_redshift_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster awscc_redshift_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -785,7 +785,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -854,7 +854,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   // ==========
 
   // allow_version_upgrade - computed: true, optional: true, required: false
-  private _allowVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _allowVersionUpgrade?: boolean | cdktn.IResolvable;
   public get allowVersionUpgrade() {
     return this.getBooleanAttribute('allow_version_upgrade');
   }
@@ -870,7 +870,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // aqua_configuration_status - computed: true, optional: true, required: false
-  private _aquaConfigurationStatus?: string; 
+  private _aquaConfigurationStatus?: string;
   public get aquaConfigurationStatus() {
     return this.getStringAttribute('aqua_configuration_status');
   }
@@ -886,7 +886,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // automated_snapshot_retention_period - computed: true, optional: true, required: false
-  private _automatedSnapshotRetentionPeriod?: number; 
+  private _automatedSnapshotRetentionPeriod?: number;
   public get automatedSnapshotRetentionPeriod() {
     return this.getNumberAttribute('automated_snapshot_retention_period');
   }
@@ -902,7 +902,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -918,7 +918,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_relocation - computed: true, optional: true, required: false
-  private _availabilityZoneRelocation?: boolean | cdktn.IResolvable; 
+  private _availabilityZoneRelocation?: boolean | cdktn.IResolvable;
   public get availabilityZoneRelocation() {
     return this.getBooleanAttribute('availability_zone_relocation');
   }
@@ -934,7 +934,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_relocation_status - computed: true, optional: true, required: false
-  private _availabilityZoneRelocationStatus?: string; 
+  private _availabilityZoneRelocationStatus?: string;
   public get availabilityZoneRelocationStatus() {
     return this.getStringAttribute('availability_zone_relocation_status');
   }
@@ -950,7 +950,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // classic - computed: true, optional: true, required: false
-  private _classic?: boolean | cdktn.IResolvable; 
+  private _classic?: boolean | cdktn.IResolvable;
   public get classic() {
     return this.getBooleanAttribute('classic');
   }
@@ -966,7 +966,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -987,7 +987,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _clusterParameterGroupName?: string; 
+  private _clusterParameterGroupName?: string;
   public get clusterParameterGroupName() {
     return this.getStringAttribute('cluster_parameter_group_name');
   }
@@ -1003,7 +1003,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_security_groups - computed: true, optional: true, required: false
-  private _clusterSecurityGroups?: string[]; 
+  private _clusterSecurityGroups?: string[];
   public get clusterSecurityGroups() {
     return this.getListAttribute('cluster_security_groups');
   }
@@ -1019,7 +1019,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_subnet_group_name - computed: true, optional: true, required: false
-  private _clusterSubnetGroupName?: string; 
+  private _clusterSubnetGroupName?: string;
   public get clusterSubnetGroupName() {
     return this.getStringAttribute('cluster_subnet_group_name');
   }
@@ -1035,7 +1035,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_type - computed: false, optional: false, required: true
-  private _clusterType?: string; 
+  private _clusterType?: string;
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -1048,7 +1048,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_version - computed: true, optional: true, required: false
-  private _clusterVersion?: string; 
+  private _clusterVersion?: string;
   public get clusterVersion() {
     return this.getStringAttribute('cluster_version');
   }
@@ -1064,7 +1064,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // db_name - computed: false, optional: false, required: true
-  private _dbName?: string; 
+  private _dbName?: string;
   public get dbName() {
     return this.getStringAttribute('db_name');
   }
@@ -1077,7 +1077,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance - computed: true, optional: true, required: false
-  private _deferMaintenance?: boolean | cdktn.IResolvable; 
+  private _deferMaintenance?: boolean | cdktn.IResolvable;
   public get deferMaintenance() {
     return this.getBooleanAttribute('defer_maintenance');
   }
@@ -1093,7 +1093,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_duration - computed: true, optional: true, required: false
-  private _deferMaintenanceDuration?: number; 
+  private _deferMaintenanceDuration?: number;
   public get deferMaintenanceDuration() {
     return this.getNumberAttribute('defer_maintenance_duration');
   }
@@ -1109,7 +1109,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_end_time - computed: true, optional: true, required: false
-  private _deferMaintenanceEndTime?: string; 
+  private _deferMaintenanceEndTime?: string;
   public get deferMaintenanceEndTime() {
     return this.getStringAttribute('defer_maintenance_end_time');
   }
@@ -1130,7 +1130,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_start_time - computed: true, optional: true, required: false
-  private _deferMaintenanceStartTime?: string; 
+  private _deferMaintenanceStartTime?: string;
   public get deferMaintenanceStartTime() {
     return this.getStringAttribute('defer_maintenance_start_time');
   }
@@ -1146,7 +1146,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: true, optional: true, required: false
-  private _destinationRegion?: string; 
+  private _destinationRegion?: string;
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -1162,7 +1162,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // elastic_ip - computed: true, optional: true, required: false
-  private _elasticIp?: string; 
+  private _elasticIp?: string;
   public get elasticIp() {
     return this.getStringAttribute('elastic_ip');
   }
@@ -1178,7 +1178,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -1210,7 +1210,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // enhanced_vpc_routing - computed: true, optional: true, required: false
-  private _enhancedVpcRouting?: boolean | cdktn.IResolvable; 
+  private _enhancedVpcRouting?: boolean | cdktn.IResolvable;
   public get enhancedVpcRouting() {
     return this.getBooleanAttribute('enhanced_vpc_routing');
   }
@@ -1226,7 +1226,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // hsm_client_certificate_identifier - computed: true, optional: true, required: false
-  private _hsmClientCertificateIdentifier?: string; 
+  private _hsmClientCertificateIdentifier?: string;
   public get hsmClientCertificateIdentifier() {
     return this.getStringAttribute('hsm_client_certificate_identifier');
   }
@@ -1242,7 +1242,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // hsm_configuration_identifier - computed: true, optional: true, required: false
-  private _hsmConfigurationIdentifier?: string; 
+  private _hsmConfigurationIdentifier?: string;
   public get hsmConfigurationIdentifier() {
     return this.getStringAttribute('hsm_configuration_identifier');
   }
@@ -1258,7 +1258,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[]; 
+  private _iamRoles?: string[];
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -1279,7 +1279,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1311,7 +1311,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // maintenance_track_name - computed: true, optional: true, required: false
-  private _maintenanceTrackName?: string; 
+  private _maintenanceTrackName?: string;
   public get maintenanceTrackName() {
     return this.getStringAttribute('maintenance_track_name');
   }
@@ -1327,7 +1327,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manage_master_password - computed: true, optional: true, required: false
-  private _manageMasterPassword?: boolean | cdktn.IResolvable; 
+  private _manageMasterPassword?: boolean | cdktn.IResolvable;
   public get manageMasterPassword() {
     return this.getBooleanAttribute('manage_master_password');
   }
@@ -1343,7 +1343,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manual_snapshot_retention_period - computed: true, optional: true, required: false
-  private _manualSnapshotRetentionPeriod?: number; 
+  private _manualSnapshotRetentionPeriod?: number;
   public get manualSnapshotRetentionPeriod() {
     return this.getNumberAttribute('manual_snapshot_retention_period');
   }
@@ -1364,7 +1364,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _masterPasswordSecretKmsKeyId?: string; 
+  private _masterPasswordSecretKmsKeyId?: string;
   public get masterPasswordSecretKmsKeyId() {
     return this.getStringAttribute('master_password_secret_kms_key_id');
   }
@@ -1380,7 +1380,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_user_password - computed: true, optional: true, required: false
-  private _masterUserPassword?: string; 
+  private _masterUserPassword?: string;
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -1396,7 +1396,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_username - computed: false, optional: false, required: true
-  private _masterUsername?: string; 
+  private _masterUsername?: string;
   public get masterUsername() {
     return this.getStringAttribute('master_username');
   }
@@ -1409,7 +1409,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // multi_az - computed: true, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable; 
+  private _multiAz?: boolean | cdktn.IResolvable;
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -1425,7 +1425,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // namespace_resource_policy - computed: true, optional: true, required: false
-  private _namespaceResourcePolicy?: string; 
+  private _namespaceResourcePolicy?: string;
   public get namespaceResourcePolicy() {
     return this.getStringAttribute('namespace_resource_policy');
   }
@@ -1441,7 +1441,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string; 
+  private _nodeType?: string;
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -1454,7 +1454,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // number_of_nodes - computed: true, optional: true, required: false
-  private _numberOfNodes?: number; 
+  private _numberOfNodes?: number;
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -1470,7 +1470,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // owner_account - computed: true, optional: true, required: false
-  private _ownerAccount?: string; 
+  private _ownerAccount?: string;
   public get ownerAccount() {
     return this.getStringAttribute('owner_account');
   }
@@ -1486,7 +1486,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1502,7 +1502,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1518,7 +1518,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
+  private _publiclyAccessible?: boolean | cdktn.IResolvable;
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -1534,7 +1534,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // resource_action - computed: true, optional: true, required: false
-  private _resourceAction?: string; 
+  private _resourceAction?: string;
   public get resourceAction() {
     return this.getStringAttribute('resource_action');
   }
@@ -1550,7 +1550,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // revision_target - computed: true, optional: true, required: false
-  private _revisionTarget?: string; 
+  private _revisionTarget?: string;
   public get revisionTarget() {
     return this.getStringAttribute('revision_target');
   }
@@ -1566,7 +1566,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // rotate_encryption_key - computed: true, optional: true, required: false
-  private _rotateEncryptionKey?: boolean | cdktn.IResolvable; 
+  private _rotateEncryptionKey?: boolean | cdktn.IResolvable;
   public get rotateEncryptionKey() {
     return this.getBooleanAttribute('rotate_encryption_key');
   }
@@ -1582,7 +1582,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_cluster_identifier - computed: true, optional: true, required: false
-  private _snapshotClusterIdentifier?: string; 
+  private _snapshotClusterIdentifier?: string;
   public get snapshotClusterIdentifier() {
     return this.getStringAttribute('snapshot_cluster_identifier');
   }
@@ -1598,7 +1598,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_grant_name - computed: true, optional: true, required: false
-  private _snapshotCopyGrantName?: string; 
+  private _snapshotCopyGrantName?: string;
   public get snapshotCopyGrantName() {
     return this.getStringAttribute('snapshot_copy_grant_name');
   }
@@ -1614,7 +1614,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_manual - computed: true, optional: true, required: false
-  private _snapshotCopyManual?: boolean | cdktn.IResolvable; 
+  private _snapshotCopyManual?: boolean | cdktn.IResolvable;
   public get snapshotCopyManual() {
     return this.getBooleanAttribute('snapshot_copy_manual');
   }
@@ -1630,7 +1630,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_retention_period - computed: true, optional: true, required: false
-  private _snapshotCopyRetentionPeriod?: number; 
+  private _snapshotCopyRetentionPeriod?: number;
   public get snapshotCopyRetentionPeriod() {
     return this.getNumberAttribute('snapshot_copy_retention_period');
   }
@@ -1646,7 +1646,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: true, optional: true, required: false
-  private _snapshotIdentifier?: string; 
+  private _snapshotIdentifier?: string;
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -1678,7 +1678,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

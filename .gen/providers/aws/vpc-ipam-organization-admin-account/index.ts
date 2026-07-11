@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface VpcIpamOrganizationAdminAccountConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account#delegated_admin_account_id VpcIpamOrganizationAdminAccount#delegated_admin_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account#delegated_admin_account_id VpcIpamOrganizationAdminAccount#delegated_admin_account_id}
   */
   readonly delegatedAdminAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account#id VpcIpamOrganizationAdminAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account#id VpcIpamOrganizationAdminAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface VpcIpamOrganizationAdminAccountConfig extends cdktn.TerraformMe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}
 */
 export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpcIpamOrganizationAdminAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpamOrganizationAdminAccount to import
-  * @param importFromId The id of the existing VpcIpamOrganizationAdminAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpamOrganizationAdminAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpamOrganizationAdminAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpc_ipam_organization_admin_account',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -84,7 +84,7 @@ export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
   }
 
   // delegated_admin_account_id - computed: false, optional: false, required: true
-  private _delegatedAdminAccountId?: string; 
+  private _delegatedAdminAccountId?: string;
   public get delegatedAdminAccountId() {
     return this.getStringAttribute('delegated_admin_account_id');
   }
@@ -102,7 +102,7 @@ export class VpcIpamOrganizationAdminAccount extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

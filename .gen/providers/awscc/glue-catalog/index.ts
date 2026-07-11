@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface GlueCatalogConfig extends cdktn.TerraformMetaArguments {
   /**
   * Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
   */
   readonly allowFullTableExternalDataAccess?: string;
   /**
   * A structure that specifies data lake access properties and other custom properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
   */
   readonly catalogProperties?: GlueCatalogCatalogProperties;
   /**
   * An array of PrincipalPermissions objects for default database permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
   */
   readonly createDatabaseDefaultPermissions?: GlueCatalogCreateDatabaseDefaultPermissions[] | cdktn.IResolvable;
   /**
   * An array of PrincipalPermissions objects for default table permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
   */
   readonly createTableDefaultPermissions?: GlueCatalogCreateTableDefaultPermissions[] | cdktn.IResolvable;
   /**
   * A description of the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#description GlueCatalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#description GlueCatalog#description}
   */
   readonly description?: string;
   /**
   * A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
   */
   readonly federatedCatalog?: GlueCatalogFederatedCatalog;
   /**
   * The name of the catalog to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#name GlueCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#name GlueCatalog#name}
   */
   readonly name: string;
   /**
   * Specifies whether to overwrite child resource permissions with the default permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
   */
   readonly overwriteChildResourcePermissionsWithDefault?: string;
   /**
   * A map of key-value pairs that define parameters and properties of the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
   */
   readonly tags?: GlueCatalogTags[] | cdktn.IResolvable;
   /**
   * A structure that describes a target catalog for resource linking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
   */
   readonly targetRedshiftCatalog?: GlueCatalogTargetRedshiftCatalog;
 }
@@ -78,31 +78,31 @@ export interface GlueCatalogCatalogPropertiesDataLakeAccessProperties {
   /**
   * Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
   */
   readonly allowFullTableExternalDataAccess?: string;
   /**
   * Specifies a federated catalog type for the native catalog resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
   */
   readonly catalogType?: string;
   /**
   * Turns on or off data lake access for Apache Spark applications that access Amazon Redshift databases in the Data Catalog from any non-Redshift engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
   */
   readonly dataLakeAccess?: boolean | cdktn.IResolvable;
   /**
   * A role that will be assumed by Glue for transferring data into/out of the staging bucket during a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
   */
   readonly dataTransferRole?: string;
   /**
   * An encryption key that will be used for the staging bucket that will be created along with the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
   */
   readonly kmsKey?: string;
 }
@@ -231,7 +231,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // allow_full_table_external_data_access - computed: true, optional: true, required: false
-  private _allowFullTableExternalDataAccess?: string; 
+  private _allowFullTableExternalDataAccess?: string;
   public get allowFullTableExternalDataAccess() {
     return this.getStringAttribute('allow_full_table_external_data_access');
   }
@@ -247,7 +247,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // catalog_type - computed: true, optional: true, required: false
-  private _catalogType?: string; 
+  private _catalogType?: string;
   public get catalogType() {
     return this.getStringAttribute('catalog_type');
   }
@@ -263,7 +263,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // data_lake_access - computed: true, optional: true, required: false
-  private _dataLakeAccess?: boolean | cdktn.IResolvable; 
+  private _dataLakeAccess?: boolean | cdktn.IResolvable;
   public get dataLakeAccess() {
     return this.getBooleanAttribute('data_lake_access');
   }
@@ -279,7 +279,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // data_transfer_role - computed: true, optional: true, required: false
-  private _dataTransferRole?: string; 
+  private _dataTransferRole?: string;
   public get dataTransferRole() {
     return this.getStringAttribute('data_transfer_role');
   }
@@ -295,7 +295,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string; 
+  private _kmsKey?: string;
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -329,7 +329,7 @@ export interface GlueCatalogCatalogProperties {
   /**
   * Data lake access properties for the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
   */
   readonly dataLakeAccessProperties?: GlueCatalogCatalogPropertiesDataLakeAccessProperties;
 }
@@ -431,7 +431,7 @@ export interface GlueCatalogCreateDatabaseDefaultPermissionsPrincipal {
   /**
   * An identifier for the Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -508,7 +508,7 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsPrincipalOutputReference
   }
 
   // data_lake_principal_identifier - computed: true, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string; 
+  private _dataLakePrincipalIdentifier?: string;
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -527,13 +527,13 @@ export interface GlueCatalogCreateDatabaseDefaultPermissions {
   /**
   * The permissions that are granted to the principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * The Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateDatabaseDefaultPermissionsPrincipal;
 }
@@ -625,7 +625,7 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsOutputReference extends 
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -680,7 +680,7 @@ export interface GlueCatalogCreateTableDefaultPermissionsPrincipal {
   /**
   * An identifier for the Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -757,7 +757,7 @@ export class GlueCatalogCreateTableDefaultPermissionsPrincipalOutputReference ex
   }
 
   // data_lake_principal_identifier - computed: true, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string; 
+  private _dataLakePrincipalIdentifier?: string;
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -776,13 +776,13 @@ export interface GlueCatalogCreateTableDefaultPermissions {
   /**
   * The permissions that are granted to the principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * The Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateTableDefaultPermissionsPrincipal;
 }
@@ -874,7 +874,7 @@ export class GlueCatalogCreateTableDefaultPermissionsOutputReference extends cdk
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -929,13 +929,13 @@ export interface GlueCatalogFederatedCatalog {
   /**
   * The name of the connection to an external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
   */
   readonly connectionName?: string;
   /**
   * A unique identifier for the federated catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
   */
   readonly identifier?: string;
 }
@@ -1025,7 +1025,7 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1041,7 +1041,7 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -1060,13 +1060,13 @@ export interface GlueCatalogTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#key GlueCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#key GlueCatalog#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#value GlueCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#value GlueCatalog#value}
   */
   readonly value?: string;
 }
@@ -1158,7 +1158,7 @@ export class GlueCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1174,7 +1174,7 @@ export class GlueCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1213,7 +1213,7 @@ export interface GlueCatalogTargetRedshiftCatalog {
   /**
   * The Amazon Resource Name (ARN) of the catalog resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
   */
   readonly catalogArn?: string;
 }
@@ -1290,7 +1290,7 @@ export class GlueCatalogTargetRedshiftCatalogOutputReference extends cdktn.Compl
   }
 
   // catalog_arn - computed: true, optional: true, required: false
-  private _catalogArn?: string; 
+  private _catalogArn?: string;
   public get catalogArn() {
     return this.getStringAttribute('catalog_arn');
   }
@@ -1307,7 +1307,7 @@ export class GlueCatalogTargetRedshiftCatalogOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog awscc_glue_catalog}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog awscc_glue_catalog}
 */
 export class GlueCatalog extends cdktn.TerraformResource {
 
@@ -1323,7 +1323,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueCatalog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueCatalog to import
-  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1335,7 +1335,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_catalog awscc_glue_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_catalog awscc_glue_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1346,7 +1346,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_catalog',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1374,7 +1374,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   // ==========
 
   // allow_full_table_external_data_access - computed: true, optional: true, required: false
-  private _allowFullTableExternalDataAccess?: string; 
+  private _allowFullTableExternalDataAccess?: string;
   public get allowFullTableExternalDataAccess() {
     return this.getStringAttribute('allow_full_table_external_data_access');
   }
@@ -1448,7 +1448,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1485,7 +1485,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1498,7 +1498,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // overwrite_child_resource_permissions_with_default - computed: true, optional: true, required: false
-  private _overwriteChildResourcePermissionsWithDefault?: string; 
+  private _overwriteChildResourcePermissionsWithDefault?: string;
   public get overwriteChildResourcePermissionsWithDefault() {
     return this.getStringAttribute('overwrite_child_resource_permissions_with_default');
   }
@@ -1514,7 +1514,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }

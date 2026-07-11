@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktn from 'cdktn';
 
 export interface FsxOntapVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#bypass_snaplock_enterprise_retention FsxOntapVolume#bypass_snaplock_enterprise_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#bypass_snaplock_enterprise_retention FsxOntapVolume#bypass_snaplock_enterprise_retention}
   */
   readonly bypassSnaplockEnterpriseRetention?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#copy_tags_to_backups FsxOntapVolume#copy_tags_to_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#copy_tags_to_backups FsxOntapVolume#copy_tags_to_backups}
   */
   readonly copyTagsToBackups?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#final_backup_tags FsxOntapVolume#final_backup_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#final_backup_tags FsxOntapVolume#final_backup_tags}
   */
   readonly finalBackupTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#id FsxOntapVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#id FsxOntapVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#junction_path FsxOntapVolume#junction_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#junction_path FsxOntapVolume#junction_path}
   */
   readonly junctionPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#ontap_volume_type FsxOntapVolume#ontap_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#ontap_volume_type FsxOntapVolume#ontap_volume_type}
   */
   readonly ontapVolumeType?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#region FsxOntapVolume#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#region FsxOntapVolume#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#security_style FsxOntapVolume#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#security_style FsxOntapVolume#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#size_in_bytes FsxOntapVolume#size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#size_in_bytes FsxOntapVolume#size_in_bytes}
   */
   readonly sizeInBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#size_in_megabytes FsxOntapVolume#size_in_megabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#size_in_megabytes FsxOntapVolume#size_in_megabytes}
   */
   readonly sizeInMegabytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#skip_final_backup FsxOntapVolume#skip_final_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#skip_final_backup FsxOntapVolume#skip_final_backup}
   */
   readonly skipFinalBackup?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#snapshot_policy FsxOntapVolume#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#snapshot_policy FsxOntapVolume#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#storage_efficiency_enabled FsxOntapVolume#storage_efficiency_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#storage_efficiency_enabled FsxOntapVolume#storage_efficiency_enabled}
   */
   readonly storageEfficiencyEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#storage_virtual_machine_id FsxOntapVolume#storage_virtual_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#storage_virtual_machine_id FsxOntapVolume#storage_virtual_machine_id}
   */
   readonly storageVirtualMachineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#tags FsxOntapVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#tags FsxOntapVolume#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#tags_all FsxOntapVolume#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#tags_all FsxOntapVolume#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#volume_style FsxOntapVolume#volume_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#volume_style FsxOntapVolume#volume_style}
   */
   readonly volumeStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#volume_type FsxOntapVolume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#volume_type FsxOntapVolume#volume_type}
   */
   readonly volumeType?: string;
   /**
   * aggregate_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#aggregate_configuration FsxOntapVolume#aggregate_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#aggregate_configuration FsxOntapVolume#aggregate_configuration}
   */
   readonly aggregateConfiguration?: FsxOntapVolumeAggregateConfiguration;
   /**
   * snaplock_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#snaplock_configuration FsxOntapVolume#snaplock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#snaplock_configuration FsxOntapVolume#snaplock_configuration}
   */
   readonly snaplockConfiguration?: FsxOntapVolumeSnaplockConfiguration;
   /**
   * tiering_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#tiering_policy FsxOntapVolume#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#tiering_policy FsxOntapVolume#tiering_policy}
   */
   readonly tieringPolicy?: FsxOntapVolumeTieringPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#timeouts FsxOntapVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#timeouts FsxOntapVolume#timeouts}
   */
   readonly timeouts?: FsxOntapVolumeTimeouts;
 }
 export interface FsxOntapVolumeAggregateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#aggregates FsxOntapVolume#aggregates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#aggregates FsxOntapVolume#aggregates}
   */
   readonly aggregates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#constituents_per_aggregate FsxOntapVolume#constituents_per_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#constituents_per_aggregate FsxOntapVolume#constituents_per_aggregate}
   */
   readonly constituentsPerAggregate?: number;
 }
@@ -199,7 +199,7 @@ export class FsxOntapVolumeAggregateConfigurationOutputReference extends cdktn.C
   }
 
   // aggregates - computed: true, optional: true, required: false
-  private _aggregates?: string[]; 
+  private _aggregates?: string[];
   public get aggregates() {
     return this.getListAttribute('aggregates');
   }
@@ -215,7 +215,7 @@ export class FsxOntapVolumeAggregateConfigurationOutputReference extends cdktn.C
   }
 
   // constituents_per_aggregate - computed: true, optional: true, required: false
-  private _constituentsPerAggregate?: number; 
+  private _constituentsPerAggregate?: number;
   public get constituentsPerAggregate() {
     return this.getNumberAttribute('constituents_per_aggregate');
   }
@@ -237,11 +237,11 @@ export class FsxOntapVolumeAggregateConfigurationOutputReference extends cdktn.C
 }
 export interface FsxOntapVolumeSnaplockConfigurationAutocommitPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
   */
   readonly value?: number;
 }
@@ -321,7 +321,7 @@ export class FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -337,7 +337,7 @@ export class FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference 
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -354,11 +354,11 @@ export class FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference 
 }
 export interface FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
   */
   readonly value?: number;
 }
@@ -438,7 +438,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -454,7 +454,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -471,11 +471,11 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionO
 }
 export interface FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
   */
   readonly value?: number;
 }
@@ -555,7 +555,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -571,7 +571,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -588,11 +588,11 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionO
 }
 export interface FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#type FsxOntapVolume#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#value FsxOntapVolume#value}
   */
   readonly value?: number;
 }
@@ -672,7 +672,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -688,7 +688,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -707,19 +707,19 @@ export interface FsxOntapVolumeSnaplockConfigurationRetentionPeriod {
   /**
   * default_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#default_retention FsxOntapVolume#default_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#default_retention FsxOntapVolume#default_retention}
   */
   readonly defaultRetention?: FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention;
   /**
   * maximum_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#maximum_retention FsxOntapVolume#maximum_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#maximum_retention FsxOntapVolume#maximum_retention}
   */
   readonly maximumRetention?: FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention;
   /**
   * minimum_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#minimum_retention FsxOntapVolume#minimum_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#minimum_retention FsxOntapVolume#minimum_retention}
   */
   readonly minimumRetention?: FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention;
 }
@@ -861,31 +861,31 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodOutputReference e
 }
 export interface FsxOntapVolumeSnaplockConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#audit_log_volume FsxOntapVolume#audit_log_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#audit_log_volume FsxOntapVolume#audit_log_volume}
   */
   readonly auditLogVolume?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#privileged_delete FsxOntapVolume#privileged_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#privileged_delete FsxOntapVolume#privileged_delete}
   */
   readonly privilegedDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#snaplock_type FsxOntapVolume#snaplock_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#snaplock_type FsxOntapVolume#snaplock_type}
   */
   readonly snaplockType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#volume_append_mode_enabled FsxOntapVolume#volume_append_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#volume_append_mode_enabled FsxOntapVolume#volume_append_mode_enabled}
   */
   readonly volumeAppendModeEnabled?: boolean | cdktn.IResolvable;
   /**
   * autocommit_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#autocommit_period FsxOntapVolume#autocommit_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#autocommit_period FsxOntapVolume#autocommit_period}
   */
   readonly autocommitPeriod?: FsxOntapVolumeSnaplockConfigurationAutocommitPeriod;
   /**
   * retention_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#retention_period FsxOntapVolume#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#retention_period FsxOntapVolume#retention_period}
   */
   readonly retentionPeriod?: FsxOntapVolumeSnaplockConfigurationRetentionPeriod;
 }
@@ -1017,7 +1017,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // audit_log_volume - computed: false, optional: true, required: false
-  private _auditLogVolume?: boolean | cdktn.IResolvable; 
+  private _auditLogVolume?: boolean | cdktn.IResolvable;
   public get auditLogVolume() {
     return this.getBooleanAttribute('audit_log_volume');
   }
@@ -1033,7 +1033,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // privileged_delete - computed: false, optional: true, required: false
-  private _privilegedDelete?: string; 
+  private _privilegedDelete?: string;
   public get privilegedDelete() {
     return this.getStringAttribute('privileged_delete');
   }
@@ -1049,7 +1049,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // snaplock_type - computed: false, optional: false, required: true
-  private _snaplockType?: string; 
+  private _snaplockType?: string;
   public get snaplockType() {
     return this.getStringAttribute('snaplock_type');
   }
@@ -1062,7 +1062,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // volume_append_mode_enabled - computed: false, optional: true, required: false
-  private _volumeAppendModeEnabled?: boolean | cdktn.IResolvable; 
+  private _volumeAppendModeEnabled?: boolean | cdktn.IResolvable;
   public get volumeAppendModeEnabled() {
     return this.getBooleanAttribute('volume_append_mode_enabled');
   }
@@ -1111,11 +1111,11 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
 }
 export interface FsxOntapVolumeTieringPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#cooling_period FsxOntapVolume#cooling_period}
   */
   readonly coolingPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#name FsxOntapVolume#name}
   */
   readonly name?: string;
 }
@@ -1195,7 +1195,7 @@ export class FsxOntapVolumeTieringPolicyOutputReference extends cdktn.ComplexObj
   }
 
   // cooling_period - computed: true, optional: true, required: false
-  private _coolingPeriod?: number; 
+  private _coolingPeriod?: number;
   public get coolingPeriod() {
     return this.getNumberAttribute('cooling_period');
   }
@@ -1211,7 +1211,7 @@ export class FsxOntapVolumeTieringPolicyOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1228,15 +1228,15 @@ export class FsxOntapVolumeTieringPolicyOutputReference extends cdktn.ComplexObj
 }
 export interface FsxOntapVolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#create FsxOntapVolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#create FsxOntapVolume#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#delete FsxOntapVolume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#delete FsxOntapVolume#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#update FsxOntapVolume#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#update FsxOntapVolume#update}
   */
   readonly update?: string;
 }
@@ -1339,7 +1339,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1355,7 +1355,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1371,7 +1371,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1388,7 +1388,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume}
 */
 export class FsxOntapVolume extends cdktn.TerraformResource {
 
@@ -1404,7 +1404,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxOntapVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxOntapVolume to import
-  * @param importFromId The id of the existing FsxOntapVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxOntapVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxOntapVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1416,7 +1416,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1427,7 +1427,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
       terraformResourceType: 'aws_fsx_ontap_volume',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1472,7 +1472,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // bypass_snaplock_enterprise_retention - computed: false, optional: true, required: false
-  private _bypassSnaplockEnterpriseRetention?: boolean | cdktn.IResolvable; 
+  private _bypassSnaplockEnterpriseRetention?: boolean | cdktn.IResolvable;
   public get bypassSnaplockEnterpriseRetention() {
     return this.getBooleanAttribute('bypass_snaplock_enterprise_retention');
   }
@@ -1488,7 +1488,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_backups - computed: false, optional: true, required: false
-  private _copyTagsToBackups?: boolean | cdktn.IResolvable; 
+  private _copyTagsToBackups?: boolean | cdktn.IResolvable;
   public get copyTagsToBackups() {
     return this.getBooleanAttribute('copy_tags_to_backups');
   }
@@ -1509,7 +1509,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // final_backup_tags - computed: false, optional: true, required: false
-  private _finalBackupTags?: { [key: string]: string }; 
+  private _finalBackupTags?: { [key: string]: string };
   public get finalBackupTags() {
     return this.getStringMapAttribute('final_backup_tags');
   }
@@ -1530,7 +1530,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1546,7 +1546,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // junction_path - computed: false, optional: true, required: false
-  private _junctionPath?: string; 
+  private _junctionPath?: string;
   public get junctionPath() {
     return this.getStringAttribute('junction_path');
   }
@@ -1562,7 +1562,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1575,7 +1575,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // ontap_volume_type - computed: true, optional: true, required: false
-  private _ontapVolumeType?: string; 
+  private _ontapVolumeType?: string;
   public get ontapVolumeType() {
     return this.getStringAttribute('ontap_volume_type');
   }
@@ -1591,7 +1591,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1607,7 +1607,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // security_style - computed: true, optional: true, required: false
-  private _securityStyle?: string; 
+  private _securityStyle?: string;
   public get securityStyle() {
     return this.getStringAttribute('security_style');
   }
@@ -1623,7 +1623,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // size_in_bytes - computed: true, optional: true, required: false
-  private _sizeInBytes?: string; 
+  private _sizeInBytes?: string;
   public get sizeInBytes() {
     return this.getStringAttribute('size_in_bytes');
   }
@@ -1639,7 +1639,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // size_in_megabytes - computed: true, optional: true, required: false
-  private _sizeInMegabytes?: number; 
+  private _sizeInMegabytes?: number;
   public get sizeInMegabytes() {
     return this.getNumberAttribute('size_in_megabytes');
   }
@@ -1655,7 +1655,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // skip_final_backup - computed: false, optional: true, required: false
-  private _skipFinalBackup?: boolean | cdktn.IResolvable; 
+  private _skipFinalBackup?: boolean | cdktn.IResolvable;
   public get skipFinalBackup() {
     return this.getBooleanAttribute('skip_final_backup');
   }
@@ -1671,7 +1671,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // snapshot_policy - computed: true, optional: true, required: false
-  private _snapshotPolicy?: string; 
+  private _snapshotPolicy?: string;
   public get snapshotPolicy() {
     return this.getStringAttribute('snapshot_policy');
   }
@@ -1687,7 +1687,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // storage_efficiency_enabled - computed: false, optional: true, required: false
-  private _storageEfficiencyEnabled?: boolean | cdktn.IResolvable; 
+  private _storageEfficiencyEnabled?: boolean | cdktn.IResolvable;
   public get storageEfficiencyEnabled() {
     return this.getBooleanAttribute('storage_efficiency_enabled');
   }
@@ -1703,7 +1703,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // storage_virtual_machine_id - computed: false, optional: false, required: true
-  private _storageVirtualMachineId?: string; 
+  private _storageVirtualMachineId?: string;
   public get storageVirtualMachineId() {
     return this.getStringAttribute('storage_virtual_machine_id');
   }
@@ -1716,7 +1716,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1732,7 +1732,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1753,7 +1753,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // volume_style - computed: true, optional: true, required: false
-  private _volumeStyle?: string; 
+  private _volumeStyle?: string;
   public get volumeStyle() {
     return this.getStringAttribute('volume_style');
   }
@@ -1769,7 +1769,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MedialiveEventBridgeRuleTemplateConfig extends cdktn.TerraformM
   /**
   * A resource's optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#description MedialiveEventBridgeRuleTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#description MedialiveEventBridgeRuleTemplate#description}
   */
   readonly description?: string;
   /**
   * Placeholder documentation for __listOfEventBridgeRuleTemplateTarget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#event_targets MedialiveEventBridgeRuleTemplate#event_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#event_targets MedialiveEventBridgeRuleTemplate#event_targets}
   */
   readonly eventTargets?: MedialiveEventBridgeRuleTemplateEventTargets[] | cdktn.IResolvable;
   /**
   * The type of event to match with the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#event_type MedialiveEventBridgeRuleTemplate#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#event_type MedialiveEventBridgeRuleTemplate#event_type}
   */
   readonly eventType: string;
   /**
   * An eventbridge rule template group's identifier. Can be either be its id or current name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#group_identifier MedialiveEventBridgeRuleTemplate#group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#group_identifier MedialiveEventBridgeRuleTemplate#group_identifier}
   */
   readonly groupIdentifier?: string;
   /**
   * A resource's name. Names must be unique within the scope of a resource type in a specific region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#name MedialiveEventBridgeRuleTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#name MedialiveEventBridgeRuleTemplate#name}
   */
   readonly name: string;
   /**
   * Represents the tags associated with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#tags MedialiveEventBridgeRuleTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#tags MedialiveEventBridgeRuleTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -48,7 +48,7 @@ export interface MedialiveEventBridgeRuleTemplateEventTargets {
   /**
   * Target ARNs must be either an SNS topic or CloudWatch log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#arn MedialiveEventBridgeRuleTemplate#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#arn MedialiveEventBridgeRuleTemplate#arn}
   */
   readonly arn?: string;
 }
@@ -127,7 +127,7 @@ export class MedialiveEventBridgeRuleTemplateEventTargetsOutputReference extends
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -164,7 +164,7 @@ export class MedialiveEventBridgeRuleTemplateEventTargetsList extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}
 */
 export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
 
@@ -180,7 +180,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveEventBridgeRuleTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveEventBridgeRuleTemplate to import
-  * @param importFromId The id of the existing MedialiveEventBridgeRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveEventBridgeRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveEventBridgeRuleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -192,7 +192,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,7 +203,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_event_bridge_rule_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -236,7 +236,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -273,7 +273,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   }
 
   // event_type - computed: false, optional: false, required: true
-  private _eventType?: string; 
+  private _eventType?: string;
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -291,7 +291,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string; 
+  private _groupIdentifier?: string;
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -322,7 +322,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -335,7 +335,7 @@ export class MedialiveEventBridgeRuleTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

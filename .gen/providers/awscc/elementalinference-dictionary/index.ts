@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface ElementalinferenceDictionaryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}
   */
   readonly entries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}
   */
   readonly language: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}
 */
 export class ElementalinferenceDictionary extends cdktn.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElementalinferenceDictionary resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElementalinferenceDictionary to import
-  * @param importFromId The id of the existing ElementalinferenceDictionary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElementalinferenceDictionary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElementalinferenceDictionary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elementalinference_dictionary',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -96,7 +96,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // entries - computed: true, optional: true, required: false
-  private _entries?: string; 
+  private _entries?: string;
   public get entries() {
     return this.getStringAttribute('entries');
   }
@@ -117,7 +117,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // language - computed: false, optional: false, required: true
-  private _language?: string; 
+  private _language?: string;
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -130,7 +130,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -143,7 +143,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

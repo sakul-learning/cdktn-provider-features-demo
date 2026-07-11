@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DatazoneConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * AWS Location of project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#aws_location DatazoneConnection#aws_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#aws_location DatazoneConnection#aws_location}
   */
   readonly awsLocation?: DatazoneConnectionAwsLocation;
   /**
   * The configurations of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#configurations DatazoneConnection#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#configurations DatazoneConnection#configurations}
   */
   readonly configurations?: DatazoneConnectionConfigurations[] | cdktn.IResolvable;
   /**
   * The description of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#description DatazoneConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#description DatazoneConnection#description}
   */
   readonly description?: string;
   /**
   * The identifier of the domain in which the connection is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#domain_identifier DatazoneConnection#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#domain_identifier DatazoneConnection#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * Specifies whether the trusted identity propagation is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#enable_trusted_identity_propagation DatazoneConnection#enable_trusted_identity_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#enable_trusted_identity_propagation DatazoneConnection#enable_trusted_identity_propagation}
   */
   readonly enableTrustedIdentityPropagation?: boolean | cdktn.IResolvable;
   /**
   * The identifier of the environment in which the connection is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#environment_identifier DatazoneConnection#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#environment_identifier DatazoneConnection#environment_identifier}
   */
   readonly environmentIdentifier?: string;
   /**
   * The name of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#name DatazoneConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#name DatazoneConnection#name}
   */
   readonly name: string;
   /**
-  * The identifier of the project in which the connection should be created. If 
+  * The identifier of the project in which the connection should be created. If
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#project_identifier DatazoneConnection#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#project_identifier DatazoneConnection#project_identifier}
   */
   readonly projectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#props DatazoneConnection#props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#props DatazoneConnection#props}
   */
   readonly props?: DatazoneConnectionProps;
   /**
   * The scope of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#scope DatazoneConnection#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#scope DatazoneConnection#scope}
   */
   readonly scope?: string;
 }
 export interface DatazoneConnectionAwsLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#access_role DatazoneConnection#access_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#access_role DatazoneConnection#access_role}
   */
   readonly accessRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#aws_account_id DatazoneConnection#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#aws_account_id DatazoneConnection#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#aws_region DatazoneConnection#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#aws_region DatazoneConnection#aws_region}
   */
   readonly awsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#iam_connection_id DatazoneConnection#iam_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#iam_connection_id DatazoneConnection#iam_connection_id}
   */
   readonly iamConnectionId?: string;
 }
@@ -196,7 +196,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // access_role - computed: true, optional: true, required: false
-  private _accessRole?: string; 
+  private _accessRole?: string;
   public get accessRole() {
     return this.getStringAttribute('access_role');
   }
@@ -212,7 +212,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -228,7 +228,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -244,7 +244,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // iam_connection_id - computed: true, optional: true, required: false
-  private _iamConnectionId?: string; 
+  private _iamConnectionId?: string;
   public get iamConnectionId() {
     return this.getStringAttribute('iam_connection_id');
   }
@@ -263,13 +263,13 @@ export interface DatazoneConnectionConfigurations {
   /**
   * The classification of the connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#classification DatazoneConnection#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#classification DatazoneConnection#classification}
   */
   readonly classification?: string;
   /**
   * Property Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#properties DatazoneConnection#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#properties DatazoneConnection#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -361,7 +361,7 @@ export class DatazoneConnectionConfigurationsOutputReference extends cdktn.Compl
   }
 
   // classification - computed: true, optional: true, required: false
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -377,7 +377,7 @@ export class DatazoneConnectionConfigurationsOutputReference extends cdktn.Compl
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -416,17 +416,17 @@ export interface DatazoneConnectionPropsAmazonQProperties {
   /**
   * The authentication mode of the connection's AmazonQ properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#auth_mode DatazoneConnection#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#auth_mode DatazoneConnection#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Specifies whether Amazon Q is enabled for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#is_enabled DatazoneConnection#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#is_enabled DatazoneConnection#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#profile_arn DatazoneConnection#profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#profile_arn DatazoneConnection#profile_arn}
   */
   readonly profileArn?: string;
 }
@@ -529,7 +529,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // auth_mode - computed: true, optional: true, required: false
-  private _authMode?: string; 
+  private _authMode?: string;
   public get authMode() {
     return this.getStringAttribute('auth_mode');
   }
@@ -545,7 +545,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -561,7 +561,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // profile_arn - computed: true, optional: true, required: false
-  private _profileArn?: string; 
+  private _profileArn?: string;
   public get profileArn() {
     return this.getStringAttribute('profile_arn');
   }
@@ -578,7 +578,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
 }
 export interface DatazoneConnectionPropsAthenaProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}
   */
   readonly workgroupName?: string;
 }
@@ -655,7 +655,7 @@ export class DatazoneConnectionPropsAthenaPropertiesOutputReference extends cdkt
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string; 
+  private _workgroupName?: string;
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -672,11 +672,11 @@ export class DatazoneConnectionPropsAthenaPropertiesOutputReference extends cdkt
 }
 export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#password DatazoneConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#password DatazoneConnection#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#user_name DatazoneConnection#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#user_name DatazoneConnection#user_name}
   */
   readonly userName?: string;
 }
@@ -766,7 +766,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -782,7 +782,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string; 
+  private _userName?: string;
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -799,11 +799,11 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
 }
 export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#authorization_code DatazoneConnection#authorization_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#authorization_code DatazoneConnection#authorization_code}
   */
   readonly authorizationCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#redirect_uri DatazoneConnection#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#redirect_uri DatazoneConnection#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -893,7 +893,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // authorization_code - computed: true, optional: true, required: false
-  private _authorizationCode?: string; 
+  private _authorizationCode?: string;
   public get authorizationCode() {
     return this.getStringAttribute('authorization_code');
   }
@@ -909,7 +909,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -926,11 +926,11 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
 }
 export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#aws_managed_client_application_reference DatazoneConnection#aws_managed_client_application_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#aws_managed_client_application_reference DatazoneConnection#aws_managed_client_application_reference}
   */
   readonly awsManagedClientApplicationReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#user_managed_client_application_client_id DatazoneConnection#user_managed_client_application_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#user_managed_client_application_client_id DatazoneConnection#user_managed_client_application_client_id}
   */
   readonly userManagedClientApplicationClientId?: string;
 }
@@ -1020,7 +1020,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // aws_managed_client_application_reference - computed: true, optional: true, required: false
-  private _awsManagedClientApplicationReference?: string; 
+  private _awsManagedClientApplicationReference?: string;
   public get awsManagedClientApplicationReference() {
     return this.getStringAttribute('aws_managed_client_application_reference');
   }
@@ -1036,7 +1036,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_managed_client_application_client_id - computed: true, optional: true, required: false
-  private _userManagedClientApplicationClientId?: string; 
+  private _userManagedClientApplicationClientId?: string;
   public get userManagedClientApplicationClientId() {
     return this.getStringAttribute('user_managed_client_application_client_id');
   }
@@ -1053,19 +1053,19 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
 }
 export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#access_token DatazoneConnection#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#access_token DatazoneConnection#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#jwt_token DatazoneConnection#jwt_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#jwt_token DatazoneConnection#jwt_token}
   */
   readonly jwtToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#refresh_token DatazoneConnection#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#refresh_token DatazoneConnection#refresh_token}
   */
   readonly refreshToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#user_managed_client_application_client_secret DatazoneConnection#user_managed_client_application_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#user_managed_client_application_client_secret DatazoneConnection#user_managed_client_application_client_secret}
   */
   readonly userManagedClientApplicationClientSecret?: string;
 }
@@ -1181,7 +1181,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1197,7 +1197,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // jwt_token - computed: true, optional: true, required: false
-  private _jwtToken?: string; 
+  private _jwtToken?: string;
   public get jwtToken() {
     return this.getStringAttribute('jwt_token');
   }
@@ -1213,7 +1213,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1229,7 +1229,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_managed_client_application_client_secret - computed: true, optional: true, required: false
-  private _userManagedClientApplicationClientSecret?: string; 
+  private _userManagedClientApplicationClientSecret?: string;
   public get userManagedClientApplicationClientSecret() {
     return this.getStringAttribute('user_managed_client_application_client_secret');
   }
@@ -1248,35 +1248,35 @@ export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthent
   /**
   * Authorization Code Properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#authorization_code_properties DatazoneConnection#authorization_code_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#authorization_code_properties DatazoneConnection#authorization_code_properties}
   */
   readonly authorizationCodeProperties?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties;
   /**
   * OAuth2 Client Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#o_auth_2_client_application DatazoneConnection#o_auth_2_client_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#o_auth_2_client_application DatazoneConnection#o_auth_2_client_application}
   */
   readonly oAuth2ClientApplication?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication;
   /**
   * Glue OAuth2 Credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#o_auth_2_credentials DatazoneConnection#o_auth_2_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#o_auth_2_credentials DatazoneConnection#o_auth_2_credentials}
   */
   readonly oAuth2Credentials?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials;
   /**
   * OAuth2 Grant Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#o_auth_2_grant_type DatazoneConnection#o_auth_2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#o_auth_2_grant_type DatazoneConnection#o_auth_2_grant_type}
   */
   readonly oAuth2GrantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#token_url DatazoneConnection#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#token_url DatazoneConnection#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * The token URL parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#token_url_parameters_map DatazoneConnection#token_url_parameters_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#token_url_parameters_map DatazoneConnection#token_url_parameters_map}
   */
   readonly tokenUrlParametersMap?: { [key: string]: string };
 }
@@ -1466,7 +1466,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // o_auth_2_grant_type - computed: true, optional: true, required: false
-  private _oAuth2GrantType?: string; 
+  private _oAuth2GrantType?: string;
   public get oAuth2GrantType() {
     return this.getStringAttribute('o_auth_2_grant_type');
   }
@@ -1482,7 +1482,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // token_url - computed: true, optional: true, required: false
-  private _tokenUrl?: string; 
+  private _tokenUrl?: string;
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -1498,7 +1498,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // token_url_parameters_map - computed: true, optional: true, required: false
-  private _tokenUrlParametersMap?: { [key: string]: string }; 
+  private _tokenUrlParametersMap?: { [key: string]: string };
   public get tokenUrlParametersMap() {
     return this.getStringMapAttribute('token_url_parameters_map');
   }
@@ -1517,33 +1517,33 @@ export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthent
   /**
   * Authentication Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#authentication_type DatazoneConnection#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#authentication_type DatazoneConnection#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Basic Authentication Credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#basic_authentication_credentials DatazoneConnection#basic_authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#basic_authentication_credentials DatazoneConnection#basic_authentication_credentials}
   */
   readonly basicAuthenticationCredentials?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials;
   /**
   * Credential Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#custom_authentication_credentials DatazoneConnection#custom_authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#custom_authentication_credentials DatazoneConnection#custom_authentication_credentials}
   */
   readonly customAuthenticationCredentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#kms_key_arn DatazoneConnection#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#kms_key_arn DatazoneConnection#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * OAuth2 Properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#o_auth_2_properties DatazoneConnection#o_auth_2_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#o_auth_2_properties DatazoneConnection#o_auth_2_properties}
   */
   readonly oAuth2Properties?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfigurationOAuth2Properties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#secret_arn DatazoneConnection#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#secret_arn DatazoneConnection#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -1685,7 +1685,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1717,7 +1717,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // custom_authentication_credentials - computed: true, optional: true, required: false
-  private _customAuthenticationCredentials?: { [key: string]: string }; 
+  private _customAuthenticationCredentials?: { [key: string]: string };
   public get customAuthenticationCredentials() {
     return this.getStringMapAttribute('custom_authentication_credentials');
   }
@@ -1733,7 +1733,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1765,7 +1765,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1782,19 +1782,19 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
 }
 export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalConnectionRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#availability_zone DatazoneConnection#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#availability_zone DatazoneConnection#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#security_group_id_list DatazoneConnection#security_group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#security_group_id_list DatazoneConnection#security_group_id_list}
   */
   readonly securityGroupIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#subnet_id DatazoneConnection#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#subnet_id DatazoneConnection#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#subnet_id_list DatazoneConnection#subnet_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#subnet_id_list DatazoneConnection#subnet_id_list}
   */
   readonly subnetIdList?: string[];
 }
@@ -1910,7 +1910,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1926,7 +1926,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[]; 
+  private _securityGroupIdList?: string[];
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -1942,7 +1942,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -1958,7 +1958,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[]; 
+  private _subnetIdList?: string[];
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -1977,63 +1977,63 @@ export interface DatazoneConnectionPropsGluePropertiesGlueConnectionInput {
   /**
   * Property Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#athena_properties DatazoneConnection#athena_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#athena_properties DatazoneConnection#athena_properties}
   */
   readonly athenaProperties?: { [key: string]: string };
   /**
   * Authentication Configuration Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#authentication_configuration DatazoneConnection#authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#authentication_configuration DatazoneConnection#authentication_configuration}
   */
   readonly authenticationConfiguration?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticationConfiguration;
   /**
   * Connection Properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#connection_properties DatazoneConnection#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#connection_properties DatazoneConnection#connection_properties}
   */
   readonly connectionProperties?: { [key: string]: string };
   /**
   * Glue Connection Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#connection_type DatazoneConnection#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#connection_type DatazoneConnection#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#description DatazoneConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#description DatazoneConnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#match_criteria DatazoneConnection#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#match_criteria DatazoneConnection#match_criteria}
   */
   readonly matchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#name DatazoneConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#name DatazoneConnection#name}
   */
   readonly name?: string;
   /**
   * Physical Connection Requirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#physical_connection_requirements DatazoneConnection#physical_connection_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#physical_connection_requirements DatazoneConnection#physical_connection_requirements}
   */
   readonly physicalConnectionRequirements?: DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalConnectionRequirements;
   /**
   * Property Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#python_properties DatazoneConnection#python_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#python_properties DatazoneConnection#python_properties}
   */
   readonly pythonProperties?: { [key: string]: string };
   /**
   * Property Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#spark_properties DatazoneConnection#spark_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#spark_properties DatazoneConnection#spark_properties}
   */
   readonly sparkProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#validate_credentials DatazoneConnection#validate_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#validate_credentials DatazoneConnection#validate_credentials}
   */
   readonly validateCredentials?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#validate_for_compute_environments DatazoneConnection#validate_for_compute_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#validate_for_compute_environments DatazoneConnection#validate_for_compute_environments}
   */
   readonly validateForComputeEnvironments?: string[];
 }
@@ -2253,7 +2253,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // athena_properties - computed: true, optional: true, required: false
-  private _athenaProperties?: { [key: string]: string }; 
+  private _athenaProperties?: { [key: string]: string };
   public get athenaProperties() {
     return this.getStringMapAttribute('athena_properties');
   }
@@ -2285,7 +2285,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // connection_properties - computed: true, optional: true, required: false
-  private _connectionProperties?: { [key: string]: string }; 
+  private _connectionProperties?: { [key: string]: string };
   public get connectionProperties() {
     return this.getStringMapAttribute('connection_properties');
   }
@@ -2301,7 +2301,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string; 
+  private _connectionType?: string;
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -2317,7 +2317,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2333,7 +2333,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // match_criteria - computed: true, optional: true, required: false
-  private _matchCriteria?: string; 
+  private _matchCriteria?: string;
   public get matchCriteria() {
     return this.getStringAttribute('match_criteria');
   }
@@ -2349,7 +2349,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2381,7 +2381,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // python_properties - computed: true, optional: true, required: false
-  private _pythonProperties?: { [key: string]: string }; 
+  private _pythonProperties?: { [key: string]: string };
   public get pythonProperties() {
     return this.getStringMapAttribute('python_properties');
   }
@@ -2397,7 +2397,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // spark_properties - computed: true, optional: true, required: false
-  private _sparkProperties?: { [key: string]: string }; 
+  private _sparkProperties?: { [key: string]: string };
   public get sparkProperties() {
     return this.getStringMapAttribute('spark_properties');
   }
@@ -2413,7 +2413,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // validate_credentials - computed: true, optional: true, required: false
-  private _validateCredentials?: boolean | cdktn.IResolvable; 
+  private _validateCredentials?: boolean | cdktn.IResolvable;
   public get validateCredentials() {
     return this.getBooleanAttribute('validate_credentials');
   }
@@ -2429,7 +2429,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // validate_for_compute_environments - computed: true, optional: true, required: false
-  private _validateForComputeEnvironments?: string[]; 
+  private _validateForComputeEnvironments?: string[];
   public get validateForComputeEnvironments() {
     return this.getListAttribute('validate_for_compute_environments');
   }
@@ -2448,7 +2448,7 @@ export interface DatazoneConnectionPropsGlueProperties {
   /**
   * Glue Connection Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_connection_input DatazoneConnection#glue_connection_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_connection_input DatazoneConnection#glue_connection_input}
   */
   readonly glueConnectionInput?: DatazoneConnectionPropsGluePropertiesGlueConnectionInput;
 }
@@ -2542,7 +2542,7 @@ export class DatazoneConnectionPropsGluePropertiesOutputReference extends cdktn.
 }
 export interface DatazoneConnectionPropsHyperPodProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#cluster_name DatazoneConnection#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#cluster_name DatazoneConnection#cluster_name}
   */
   readonly clusterName?: string;
 }
@@ -2619,7 +2619,7 @@ export class DatazoneConnectionPropsHyperPodPropertiesOutputReference extends cd
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -2636,7 +2636,7 @@ export class DatazoneConnectionPropsHyperPodPropertiesOutputReference extends cd
 }
 export interface DatazoneConnectionPropsIamProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_lineage_sync_enabled DatazoneConnection#glue_lineage_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_lineage_sync_enabled DatazoneConnection#glue_lineage_sync_enabled}
   */
   readonly glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
 }
@@ -2713,7 +2713,7 @@ export class DatazoneConnectionPropsIamPropertiesOutputReference extends cdktn.C
   }
 
   // glue_lineage_sync_enabled - computed: true, optional: true, required: false
-  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable; 
+  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
   public get glueLineageSyncEnabled() {
     return this.getBooleanAttribute('glue_lineage_sync_enabled');
   }
@@ -2732,7 +2732,7 @@ export interface DatazoneConnectionPropsLakehouseProperties {
   /**
   * Specifies whether Glue lineage sync is enabled for the lakehouse connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_lineage_sync_enabled DatazoneConnection#glue_lineage_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_lineage_sync_enabled DatazoneConnection#glue_lineage_sync_enabled}
   */
   readonly glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
 }
@@ -2809,7 +2809,7 @@ export class DatazoneConnectionPropsLakehousePropertiesOutputReference extends c
   }
 
   // glue_lineage_sync_enabled - computed: true, optional: true, required: false
-  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable; 
+  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
   public get glueLineageSyncEnabled() {
     return this.getBooleanAttribute('glue_lineage_sync_enabled');
   }
@@ -2828,7 +2828,7 @@ export interface DatazoneConnectionPropsMlflowProperties {
   /**
   * The ARN of the MLflow tracking server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#tracking_server_arn DatazoneConnection#tracking_server_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#tracking_server_arn DatazoneConnection#tracking_server_arn}
   */
   readonly trackingServerArn?: string;
 }
@@ -2905,7 +2905,7 @@ export class DatazoneConnectionPropsMlflowPropertiesOutputReference extends cdkt
   }
 
   // tracking_server_arn - computed: true, optional: true, required: false
-  private _trackingServerArn?: string; 
+  private _trackingServerArn?: string;
   public get trackingServerArn() {
     return this.getStringAttribute('tracking_server_arn');
   }
@@ -2922,11 +2922,11 @@ export class DatazoneConnectionPropsMlflowPropertiesOutputReference extends cdkt
 }
 export interface DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#password DatazoneConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#password DatazoneConnection#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#username DatazoneConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#username DatazoneConnection#username}
   */
   readonly username?: string;
 }
@@ -3016,7 +3016,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePasswor
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3032,7 +3032,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePasswor
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3049,13 +3049,13 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePasswor
 }
 export interface DatazoneConnectionPropsRedshiftPropertiesCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#secret_arn DatazoneConnection#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#secret_arn DatazoneConnection#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * The username and password to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#username_password DatazoneConnection#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#username_password DatazoneConnection#username_password}
   */
   readonly usernamePassword?: DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePassword;
 }
@@ -3145,7 +3145,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsOutputReference
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -3178,7 +3178,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsOutputReference
 }
 export interface DatazoneConnectionPropsRedshiftPropertiesLineageSyncSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#schedule DatazoneConnection#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#schedule DatazoneConnection#schedule}
   */
   readonly schedule?: string;
 }
@@ -3255,7 +3255,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncScheduleOutputR
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -3272,13 +3272,13 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncScheduleOutputR
 }
 export interface DatazoneConnectionPropsRedshiftPropertiesLineageSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#enabled DatazoneConnection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#enabled DatazoneConnection#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Lineage Sync Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#schedule DatazoneConnection#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#schedule DatazoneConnection#schedule}
   */
   readonly schedule?: DatazoneConnectionPropsRedshiftPropertiesLineageSyncSchedule;
 }
@@ -3368,7 +3368,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncOutputReference
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3401,11 +3401,11 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncOutputReference
 }
 export interface DatazoneConnectionPropsRedshiftPropertiesStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#cluster_name DatazoneConnection#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#cluster_name DatazoneConnection#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}
   */
   readonly workgroupName?: string;
 }
@@ -3495,7 +3495,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesStorageOutputReference ext
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -3511,7 +3511,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesStorageOutputReference ext
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string; 
+  private _workgroupName?: string;
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -3528,29 +3528,29 @@ export class DatazoneConnectionPropsRedshiftPropertiesStorageOutputReference ext
 }
 export interface DatazoneConnectionPropsRedshiftProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#credentials DatazoneConnection#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#credentials DatazoneConnection#credentials}
   */
   readonly credentials?: DatazoneConnectionPropsRedshiftPropertiesCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#database_name DatazoneConnection#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#database_name DatazoneConnection#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#host DatazoneConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#host DatazoneConnection#host}
   */
   readonly host?: string;
   /**
   * Redshift Lineage Sync Configuration Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#lineage_sync DatazoneConnection#lineage_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#lineage_sync DatazoneConnection#lineage_sync}
   */
   readonly lineageSync?: DatazoneConnectionPropsRedshiftPropertiesLineageSync;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#port DatazoneConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#port DatazoneConnection#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#storage DatazoneConnection#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#storage DatazoneConnection#storage}
   */
   readonly storage?: DatazoneConnectionPropsRedshiftPropertiesStorage;
 }
@@ -3708,7 +3708,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -3724,7 +3724,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -3756,7 +3756,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3791,19 +3791,19 @@ export interface DatazoneConnectionPropsS3Properties {
   /**
   * Specifies whether to register the S3 Access Grant location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#register_s3_access_grant_location DatazoneConnection#register_s3_access_grant_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#register_s3_access_grant_location DatazoneConnection#register_s3_access_grant_location}
   */
   readonly registerS3AccessGrantLocation?: boolean | cdktn.IResolvable;
   /**
   * The Amazon S3 Access Grant location ID that's part of the Amazon S3 properties of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#s3_access_grant_location_id DatazoneConnection#s3_access_grant_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#s3_access_grant_location_id DatazoneConnection#s3_access_grant_location_id}
   */
   readonly s3AccessGrantLocationId?: string;
   /**
   * The Amazon S3 URI that's part of the Amazon S3 properties of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#s3_uri DatazoneConnection#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#s3_uri DatazoneConnection#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -3906,7 +3906,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // register_s3_access_grant_location - computed: true, optional: true, required: false
-  private _registerS3AccessGrantLocation?: boolean | cdktn.IResolvable; 
+  private _registerS3AccessGrantLocation?: boolean | cdktn.IResolvable;
   public get registerS3AccessGrantLocation() {
     return this.getBooleanAttribute('register_s3_access_grant_location');
   }
@@ -3922,7 +3922,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // s3_access_grant_location_id - computed: true, optional: true, required: false
-  private _s3AccessGrantLocationId?: string; 
+  private _s3AccessGrantLocationId?: string;
   public get s3AccessGrantLocationId() {
     return this.getStringAttribute('s3_access_grant_location_id');
   }
@@ -3938,7 +3938,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -3955,35 +3955,35 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
 }
 export interface DatazoneConnectionPropsSparkEmrProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#compute_arn DatazoneConnection#compute_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#compute_arn DatazoneConnection#compute_arn}
   */
   readonly computeArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#instance_profile_arn DatazoneConnection#instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#instance_profile_arn DatazoneConnection#instance_profile_arn}
   */
   readonly instanceProfileArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#java_virtual_env DatazoneConnection#java_virtual_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#java_virtual_env DatazoneConnection#java_virtual_env}
   */
   readonly javaVirtualEnv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#log_uri DatazoneConnection#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#log_uri DatazoneConnection#log_uri}
   */
   readonly logUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#managed_endpoint_arn DatazoneConnection#managed_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#managed_endpoint_arn DatazoneConnection#managed_endpoint_arn}
   */
   readonly managedEndpointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#python_virtual_env DatazoneConnection#python_virtual_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#python_virtual_env DatazoneConnection#python_virtual_env}
   */
   readonly pythonVirtualEnv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#runtime_role DatazoneConnection#runtime_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#runtime_role DatazoneConnection#runtime_role}
   */
   readonly runtimeRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#trusted_certificates_s3_uri DatazoneConnection#trusted_certificates_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#trusted_certificates_s3_uri DatazoneConnection#trusted_certificates_s3_uri}
   */
   readonly trustedCertificatesS3Uri?: string;
 }
@@ -4151,7 +4151,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // compute_arn - computed: true, optional: true, required: false
-  private _computeArn?: string; 
+  private _computeArn?: string;
   public get computeArn() {
     return this.getStringAttribute('compute_arn');
   }
@@ -4167,7 +4167,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // instance_profile_arn - computed: true, optional: true, required: false
-  private _instanceProfileArn?: string; 
+  private _instanceProfileArn?: string;
   public get instanceProfileArn() {
     return this.getStringAttribute('instance_profile_arn');
   }
@@ -4183,7 +4183,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // java_virtual_env - computed: true, optional: true, required: false
-  private _javaVirtualEnv?: string; 
+  private _javaVirtualEnv?: string;
   public get javaVirtualEnv() {
     return this.getStringAttribute('java_virtual_env');
   }
@@ -4199,7 +4199,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string; 
+  private _logUri?: string;
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -4215,7 +4215,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // managed_endpoint_arn - computed: true, optional: true, required: false
-  private _managedEndpointArn?: string; 
+  private _managedEndpointArn?: string;
   public get managedEndpointArn() {
     return this.getStringAttribute('managed_endpoint_arn');
   }
@@ -4231,7 +4231,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // python_virtual_env - computed: true, optional: true, required: false
-  private _pythonVirtualEnv?: string; 
+  private _pythonVirtualEnv?: string;
   public get pythonVirtualEnv() {
     return this.getStringAttribute('python_virtual_env');
   }
@@ -4247,7 +4247,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // runtime_role - computed: true, optional: true, required: false
-  private _runtimeRole?: string; 
+  private _runtimeRole?: string;
   public get runtimeRole() {
     return this.getStringAttribute('runtime_role');
   }
@@ -4263,7 +4263,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // trusted_certificates_s3_uri - computed: true, optional: true, required: false
-  private _trustedCertificatesS3Uri?: string; 
+  private _trustedCertificatesS3Uri?: string;
   public get trustedCertificatesS3Uri() {
     return this.getStringAttribute('trusted_certificates_s3_uri');
   }
@@ -4280,7 +4280,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
 }
 export interface DatazoneConnectionPropsSparkGluePropertiesAdditionalArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#connection DatazoneConnection#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#connection DatazoneConnection#connection}
   */
   readonly connection?: string;
 }
@@ -4357,7 +4357,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesAdditionalArgsOutputRefer
   }
 
   // connection - computed: true, optional: true, required: false
-  private _connection?: string; 
+  private _connection?: string;
   public get connection() {
     return this.getStringAttribute('connection');
   }
@@ -4376,35 +4376,35 @@ export interface DatazoneConnectionPropsSparkGlueProperties {
   /**
   * Spark Glue Args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#additional_args DatazoneConnection#additional_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#additional_args DatazoneConnection#additional_args}
   */
   readonly additionalArgs?: DatazoneConnectionPropsSparkGluePropertiesAdditionalArgs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_connection_name DatazoneConnection#glue_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_connection_name DatazoneConnection#glue_connection_name}
   */
   readonly glueConnectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_version DatazoneConnection#glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_version DatazoneConnection#glue_version}
   */
   readonly glueVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#idle_timeout DatazoneConnection#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#idle_timeout DatazoneConnection#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#java_virtual_env DatazoneConnection#java_virtual_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#java_virtual_env DatazoneConnection#java_virtual_env}
   */
   readonly javaVirtualEnv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#number_of_workers DatazoneConnection#number_of_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#number_of_workers DatazoneConnection#number_of_workers}
   */
   readonly numberOfWorkers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#python_virtual_env DatazoneConnection#python_virtual_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#python_virtual_env DatazoneConnection#python_virtual_env}
   */
   readonly pythonVirtualEnv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#worker_type DatazoneConnection#worker_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#worker_type DatazoneConnection#worker_type}
   */
   readonly workerType?: string;
 }
@@ -4588,7 +4588,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // glue_connection_name - computed: true, optional: true, required: false
-  private _glueConnectionName?: string; 
+  private _glueConnectionName?: string;
   public get glueConnectionName() {
     return this.getStringAttribute('glue_connection_name');
   }
@@ -4604,7 +4604,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string; 
+  private _glueVersion?: string;
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -4620,7 +4620,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // idle_timeout - computed: true, optional: true, required: false
-  private _idleTimeout?: number; 
+  private _idleTimeout?: number;
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -4636,7 +4636,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // java_virtual_env - computed: true, optional: true, required: false
-  private _javaVirtualEnv?: string; 
+  private _javaVirtualEnv?: string;
   public get javaVirtualEnv() {
     return this.getStringAttribute('java_virtual_env');
   }
@@ -4652,7 +4652,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // number_of_workers - computed: true, optional: true, required: false
-  private _numberOfWorkers?: number; 
+  private _numberOfWorkers?: number;
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -4668,7 +4668,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // python_virtual_env - computed: true, optional: true, required: false
-  private _pythonVirtualEnv?: string; 
+  private _pythonVirtualEnv?: string;
   public get pythonVirtualEnv() {
     return this.getStringAttribute('python_virtual_env');
   }
@@ -4684,7 +4684,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // worker_type - computed: true, optional: true, required: false
-  private _workerType?: string; 
+  private _workerType?: string;
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }
@@ -4703,7 +4703,7 @@ export interface DatazoneConnectionPropsWorkflowsMwaaProperties {
   /**
   * The name of the MWAA environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#mwaa_environment_name DatazoneConnection#mwaa_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#mwaa_environment_name DatazoneConnection#mwaa_environment_name}
   */
   readonly mwaaEnvironmentName?: string;
 }
@@ -4780,7 +4780,7 @@ export class DatazoneConnectionPropsWorkflowsMwaaPropertiesOutputReference exten
   }
 
   // mwaa_environment_name - computed: true, optional: true, required: false
-  private _mwaaEnvironmentName?: string; 
+  private _mwaaEnvironmentName?: string;
   public get mwaaEnvironmentName() {
     return this.getStringAttribute('mwaa_environment_name');
   }
@@ -4799,79 +4799,79 @@ export interface DatazoneConnectionProps {
   /**
   * Amazon Q properties of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#amazon_q_properties DatazoneConnection#amazon_q_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#amazon_q_properties DatazoneConnection#amazon_q_properties}
   */
   readonly amazonQProperties?: DatazoneConnectionPropsAmazonQProperties;
   /**
   * Athena Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#athena_properties DatazoneConnection#athena_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#athena_properties DatazoneConnection#athena_properties}
   */
   readonly athenaProperties?: DatazoneConnectionPropsAthenaProperties;
   /**
   * Glue Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#glue_properties DatazoneConnection#glue_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#glue_properties DatazoneConnection#glue_properties}
   */
   readonly glueProperties?: DatazoneConnectionPropsGlueProperties;
   /**
   * HyperPod Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#hyper_pod_properties DatazoneConnection#hyper_pod_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#hyper_pod_properties DatazoneConnection#hyper_pod_properties}
   */
   readonly hyperPodProperties?: DatazoneConnectionPropsHyperPodProperties;
   /**
   * IAM Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#iam_properties DatazoneConnection#iam_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#iam_properties DatazoneConnection#iam_properties}
   */
   readonly iamProperties?: DatazoneConnectionPropsIamProperties;
   /**
   * Lakehouse Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#lakehouse_properties DatazoneConnection#lakehouse_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#lakehouse_properties DatazoneConnection#lakehouse_properties}
   */
   readonly lakehouseProperties?: DatazoneConnectionPropsLakehouseProperties;
   /**
   * MLflow Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#mlflow_properties DatazoneConnection#mlflow_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#mlflow_properties DatazoneConnection#mlflow_properties}
   */
   readonly mlflowProperties?: DatazoneConnectionPropsMlflowProperties;
   /**
   * Redshift Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#redshift_properties DatazoneConnection#redshift_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#redshift_properties DatazoneConnection#redshift_properties}
   */
   readonly redshiftProperties?: DatazoneConnectionPropsRedshiftProperties;
   /**
   * S3 Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#s3_properties DatazoneConnection#s3_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#s3_properties DatazoneConnection#s3_properties}
   */
   readonly s3Properties?: DatazoneConnectionPropsS3Properties;
   /**
   * Spark EMR Properties Input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#spark_emr_properties DatazoneConnection#spark_emr_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#spark_emr_properties DatazoneConnection#spark_emr_properties}
   */
   readonly sparkEmrProperties?: DatazoneConnectionPropsSparkEmrProperties;
   /**
   * Spark Glue Properties Input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#spark_glue_properties DatazoneConnection#spark_glue_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#spark_glue_properties DatazoneConnection#spark_glue_properties}
   */
   readonly sparkGlueProperties?: DatazoneConnectionPropsSparkGlueProperties;
   /**
   * Workflows MWAA Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#workflows_mwaa_properties DatazoneConnection#workflows_mwaa_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#workflows_mwaa_properties DatazoneConnection#workflows_mwaa_properties}
   */
   readonly workflowsMwaaProperties?: DatazoneConnectionPropsWorkflowsMwaaProperties;
   /**
   * Workflows Serverless Properties Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#workflows_serverless_properties DatazoneConnection#workflows_serverless_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#workflows_serverless_properties DatazoneConnection#workflows_serverless_properties}
   */
   readonly workflowsServerlessProperties?: string;
 }
@@ -5296,7 +5296,7 @@ export class DatazoneConnectionPropsOutputReference extends cdktn.ComplexObject 
   }
 
   // workflows_serverless_properties - computed: true, optional: true, required: false
-  private _workflowsServerlessProperties?: string; 
+  private _workflowsServerlessProperties?: string;
   public get workflowsServerlessProperties() {
     return this.getStringAttribute('workflows_serverless_properties');
   }
@@ -5313,7 +5313,7 @@ export class DatazoneConnectionPropsOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection awscc_datazone_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection awscc_datazone_connection}
 */
 export class DatazoneConnection extends cdktn.TerraformResource {
 
@@ -5329,7 +5329,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneConnection to import
-  * @param importFromId The id of the existing DatazoneConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5341,7 +5341,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_connection awscc_datazone_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection awscc_datazone_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5352,7 +5352,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5416,7 +5416,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5437,7 +5437,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -5455,7 +5455,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // enable_trusted_identity_propagation - computed: true, optional: true, required: false
-  private _enableTrustedIdentityPropagation?: boolean | cdktn.IResolvable; 
+  private _enableTrustedIdentityPropagation?: boolean | cdktn.IResolvable;
   public get enableTrustedIdentityPropagation() {
     return this.getBooleanAttribute('enable_trusted_identity_propagation');
   }
@@ -5476,7 +5476,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: true, optional: true, required: false
-  private _environmentIdentifier?: string; 
+  private _environmentIdentifier?: string;
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -5502,7 +5502,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5520,7 +5520,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: true, optional: true, required: false
-  private _projectIdentifier?: string; 
+  private _projectIdentifier?: string;
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }
@@ -5552,7 +5552,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }

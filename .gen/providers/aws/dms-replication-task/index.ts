@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface DmsReplicationTaskConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}
   */
   readonly cdcStartPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}
   */
   readonly cdcStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#id DmsReplicationTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#id DmsReplicationTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}
   */
   readonly migrationType: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#region DmsReplicationTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#region DmsReplicationTask#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}
   */
   readonly replicationInstanceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#replication_task_id DmsReplicationTask#replication_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#replication_task_id DmsReplicationTask#replication_task_id}
   */
   readonly replicationTaskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}
   */
   readonly replicationTaskSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}
   */
   readonly resourceIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}
   */
   readonly sourceEndpointArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#start_replication_task DmsReplicationTask#start_replication_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#start_replication_task DmsReplicationTask#start_replication_task}
   */
   readonly startReplicationTask?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}
   */
   readonly tableMappings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#tags_all DmsReplicationTask#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#tags_all DmsReplicationTask#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}
   */
   readonly targetEndpointArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task aws_dms_replication_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task aws_dms_replication_task}
 */
 export class DmsReplicationTask extends cdktn.TerraformResource {
 
@@ -91,7 +91,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsReplicationTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsReplicationTask to import
-  * @param importFromId The id of the existing DmsReplicationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsReplicationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsReplicationTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -103,7 +103,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,7 +114,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
       terraformResourceType: 'aws_dms_replication_task',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -146,7 +146,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   // ==========
 
   // cdc_start_position - computed: true, optional: true, required: false
-  private _cdcStartPosition?: string; 
+  private _cdcStartPosition?: string;
   public get cdcStartPosition() {
     return this.getStringAttribute('cdc_start_position');
   }
@@ -162,7 +162,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // cdc_start_time - computed: false, optional: true, required: false
-  private _cdcStartTime?: string; 
+  private _cdcStartTime?: string;
   public get cdcStartTime() {
     return this.getStringAttribute('cdc_start_time');
   }
@@ -178,7 +178,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -194,7 +194,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // migration_type - computed: false, optional: false, required: true
-  private _migrationType?: string; 
+  private _migrationType?: string;
   public get migrationType() {
     return this.getStringAttribute('migration_type');
   }
@@ -207,7 +207,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -223,7 +223,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // replication_instance_arn - computed: false, optional: false, required: true
-  private _replicationInstanceArn?: string; 
+  private _replicationInstanceArn?: string;
   public get replicationInstanceArn() {
     return this.getStringAttribute('replication_instance_arn');
   }
@@ -241,7 +241,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // replication_task_id - computed: false, optional: false, required: true
-  private _replicationTaskId?: string; 
+  private _replicationTaskId?: string;
   public get replicationTaskId() {
     return this.getStringAttribute('replication_task_id');
   }
@@ -254,7 +254,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // replication_task_settings - computed: true, optional: true, required: false
-  private _replicationTaskSettings?: string; 
+  private _replicationTaskSettings?: string;
   public get replicationTaskSettings() {
     return this.getStringAttribute('replication_task_settings');
   }
@@ -270,7 +270,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // resource_identifier - computed: false, optional: true, required: false
-  private _resourceIdentifier?: string; 
+  private _resourceIdentifier?: string;
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -286,7 +286,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // source_endpoint_arn - computed: false, optional: false, required: true
-  private _sourceEndpointArn?: string; 
+  private _sourceEndpointArn?: string;
   public get sourceEndpointArn() {
     return this.getStringAttribute('source_endpoint_arn');
   }
@@ -299,7 +299,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // start_replication_task - computed: false, optional: true, required: false
-  private _startReplicationTask?: boolean | cdktn.IResolvable; 
+  private _startReplicationTask?: boolean | cdktn.IResolvable;
   public get startReplicationTask() {
     return this.getBooleanAttribute('start_replication_task');
   }
@@ -320,7 +320,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // table_mappings - computed: false, optional: false, required: true
-  private _tableMappings?: string; 
+  private _tableMappings?: string;
   public get tableMappings() {
     return this.getStringAttribute('table_mappings');
   }
@@ -333,7 +333,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -349,7 +349,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -365,7 +365,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   }
 
   // target_endpoint_arn - computed: false, optional: false, required: true
-  private _targetEndpointArn?: string; 
+  private _targetEndpointArn?: string;
   public get targetEndpointArn() {
     return this.getStringAttribute('target_endpoint_arn');
   }

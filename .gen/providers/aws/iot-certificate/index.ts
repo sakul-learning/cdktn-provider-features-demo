@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface IotCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#active IotCertificate#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#active IotCertificate#active}
   */
   readonly active: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#ca_pem IotCertificate#ca_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#ca_pem IotCertificate#ca_pem}
   */
   readonly caPem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}
   */
   readonly certificatePem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#csr IotCertificate#csr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#csr IotCertificate#csr}
   */
   readonly csr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#id IotCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#id IotCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,13 +33,13 @@ export interface IotCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#region IotCertificate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#region IotCertificate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate aws_iot_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate aws_iot_certificate}
 */
 export class IotCertificate extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCertificate to import
-  * @param importFromId The id of the existing IotCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_certificate aws_iot_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_certificate aws_iot_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class IotCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_iot_certificate',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -101,7 +101,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   // ==========
 
   // active - computed: false, optional: false, required: true
-  private _active?: boolean | cdktn.IResolvable; 
+  private _active?: boolean | cdktn.IResolvable;
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -124,7 +124,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   }
 
   // ca_pem - computed: false, optional: true, required: false
-  private _caPem?: string; 
+  private _caPem?: string;
   public get caPem() {
     return this.getStringAttribute('ca_pem');
   }
@@ -140,7 +140,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_pem - computed: true, optional: true, required: false
-  private _certificatePem?: string; 
+  private _certificatePem?: string;
   public get certificatePem() {
     return this.getStringAttribute('certificate_pem');
   }
@@ -156,7 +156,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   }
 
   // csr - computed: false, optional: true, required: false
-  private _csr?: string; 
+  private _csr?: string;
   public get csr() {
     return this.getStringAttribute('csr');
   }
@@ -172,7 +172,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -198,7 +198,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

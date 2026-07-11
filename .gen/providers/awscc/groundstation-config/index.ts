@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface GroundstationConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#config_data GroundstationConfig#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#config_data GroundstationConfig#config_data}
   */
   readonly configData: GroundstationConfigConfigData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#name GroundstationConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#name GroundstationConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#tags GroundstationConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#tags GroundstationConfig#tags}
   */
   readonly tags?: GroundstationConfigTags[] | cdktn.IResolvable;
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -116,7 +116,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBan
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -132,7 +132,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBan
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -149,11 +149,11 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBan
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -243,7 +243,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCen
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -259,7 +259,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -276,15 +276,15 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCen
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#bandwidth GroundstationConfig#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#bandwidth GroundstationConfig#bandwidth}
   */
   readonly bandwidth?: GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
   */
   readonly centerFrequency?: GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
   */
   readonly polarization?: string;
 }
@@ -419,7 +419,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOut
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string; 
+  private _polarization?: string;
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -436,7 +436,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOut
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
   */
   readonly spectrumConfig?: GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfig;
 }
@@ -530,7 +530,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigOutputReference e
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#unvalidated_json GroundstationConfig#unvalidated_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#unvalidated_json GroundstationConfig#unvalidated_json}
   */
   readonly unvalidatedJson?: string;
 }
@@ -607,7 +607,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecode
   }
 
   // unvalidated_json - computed: true, optional: true, required: false
-  private _unvalidatedJson?: string; 
+  private _unvalidatedJson?: string;
   public get unvalidatedJson() {
     return this.getStringAttribute('unvalidated_json');
   }
@@ -624,7 +624,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecode
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#unvalidated_json GroundstationConfig#unvalidated_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#unvalidated_json GroundstationConfig#unvalidated_json}
   */
   readonly unvalidatedJson?: string;
 }
@@ -701,7 +701,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodu
   }
 
   // unvalidated_json - computed: true, optional: true, required: false
-  private _unvalidatedJson?: string; 
+  private _unvalidatedJson?: string;
   public get unvalidatedJson() {
     return this.getStringAttribute('unvalidated_json');
   }
@@ -718,11 +718,11 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodu
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -812,7 +812,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -828,7 +828,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -845,11 +845,11 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -939,7 +939,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -955,7 +955,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -972,15 +972,15 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#bandwidth GroundstationConfig#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#bandwidth GroundstationConfig#bandwidth}
   */
   readonly bandwidth?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
   */
   readonly centerFrequency?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
   */
   readonly polarization?: string;
 }
@@ -1115,7 +1115,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string; 
+  private _polarization?: string;
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -1132,15 +1132,15 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
 }
 export interface GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#decode_config GroundstationConfig#decode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#decode_config GroundstationConfig#decode_config}
   */
   readonly decodeConfig?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#demodulation_config GroundstationConfig#demodulation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#demodulation_config GroundstationConfig#demodulation_config}
   */
   readonly demodulationConfig?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
   */
   readonly spectrumConfig?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfig;
 }
@@ -1292,11 +1292,11 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigOutput
 }
 export interface GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -1386,7 +1386,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCente
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -1402,7 +1402,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCente
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1419,11 +1419,11 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCente
 }
 export interface GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#center_frequency GroundstationConfig#center_frequency}
   */
   readonly centerFrequency?: GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#polarization GroundstationConfig#polarization}
   */
   readonly polarization?: string;
 }
@@ -1529,7 +1529,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutpu
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string; 
+  private _polarization?: string;
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -1546,11 +1546,11 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutpu
 }
 export interface GroundstationConfigConfigDataAntennaUplinkConfigTargetEirp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#units GroundstationConfig#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#units GroundstationConfig#units}
   */
   readonly units?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: number;
 }
@@ -1640,7 +1640,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputRef
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string; 
+  private _units?: string;
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -1656,7 +1656,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputRef
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1673,15 +1673,15 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputRef
 }
 export interface GroundstationConfigConfigDataAntennaUplinkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}
   */
   readonly spectrumConfig?: GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#target_eirp GroundstationConfig#target_eirp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#target_eirp GroundstationConfig#target_eirp}
   */
   readonly targetEirp?: GroundstationConfigConfigDataAntennaUplinkConfigTargetEirp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#transmit_disabled GroundstationConfig#transmit_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#transmit_disabled GroundstationConfig#transmit_disabled}
   */
   readonly transmitDisabled?: boolean | cdktn.IResolvable;
 }
@@ -1816,7 +1816,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigOutputReference ext
   }
 
   // transmit_disabled - computed: true, optional: true, required: false
-  private _transmitDisabled?: boolean | cdktn.IResolvable; 
+  private _transmitDisabled?: boolean | cdktn.IResolvable;
   public get transmitDisabled() {
     return this.getBooleanAttribute('transmit_disabled');
   }
@@ -1833,11 +1833,11 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigOutputReference ext
 }
 export interface GroundstationConfigConfigDataDataflowEndpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#dataflow_endpoint_name GroundstationConfig#dataflow_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#dataflow_endpoint_name GroundstationConfig#dataflow_endpoint_name}
   */
   readonly dataflowEndpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#dataflow_endpoint_region GroundstationConfig#dataflow_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#dataflow_endpoint_region GroundstationConfig#dataflow_endpoint_region}
   */
   readonly dataflowEndpointRegion?: string;
 }
@@ -1927,7 +1927,7 @@ export class GroundstationConfigConfigDataDataflowEndpointConfigOutputReference 
   }
 
   // dataflow_endpoint_name - computed: true, optional: true, required: false
-  private _dataflowEndpointName?: string; 
+  private _dataflowEndpointName?: string;
   public get dataflowEndpointName() {
     return this.getStringAttribute('dataflow_endpoint_name');
   }
@@ -1943,7 +1943,7 @@ export class GroundstationConfigConfigDataDataflowEndpointConfigOutputReference 
   }
 
   // dataflow_endpoint_region - computed: true, optional: true, required: false
-  private _dataflowEndpointRegion?: string; 
+  private _dataflowEndpointRegion?: string;
   public get dataflowEndpointRegion() {
     return this.getStringAttribute('dataflow_endpoint_region');
   }
@@ -1960,15 +1960,15 @@ export class GroundstationConfigConfigDataDataflowEndpointConfigOutputReference 
 }
 export interface GroundstationConfigConfigDataS3RecordingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#bucket_arn GroundstationConfig#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#bucket_arn GroundstationConfig#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#prefix GroundstationConfig#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#prefix GroundstationConfig#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#role_arn GroundstationConfig#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#role_arn GroundstationConfig#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -2071,7 +2071,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string; 
+  private _bucketArn?: string;
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -2087,7 +2087,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2103,7 +2103,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2120,11 +2120,11 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
 }
 export interface GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#kinesis_data_stream_arn GroundstationConfig#kinesis_data_stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#kinesis_data_stream_arn GroundstationConfig#kinesis_data_stream_arn}
   */
   readonly kinesisDataStreamArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#kinesis_role_arn GroundstationConfig#kinesis_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#kinesis_role_arn GroundstationConfig#kinesis_role_arn}
   */
   readonly kinesisRoleArn?: string;
 }
@@ -2214,7 +2214,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKi
   }
 
   // kinesis_data_stream_arn - computed: true, optional: true, required: false
-  private _kinesisDataStreamArn?: string; 
+  private _kinesisDataStreamArn?: string;
   public get kinesisDataStreamArn() {
     return this.getStringAttribute('kinesis_data_stream_arn');
   }
@@ -2230,7 +2230,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKi
   }
 
   // kinesis_role_arn - computed: true, optional: true, required: false
-  private _kinesisRoleArn?: string; 
+  private _kinesisRoleArn?: string;
   public get kinesisRoleArn() {
     return this.getStringAttribute('kinesis_role_arn');
   }
@@ -2247,7 +2247,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKi
 }
 export interface GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#kinesis_data_stream_data GroundstationConfig#kinesis_data_stream_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#kinesis_data_stream_data GroundstationConfig#kinesis_data_stream_data}
   */
   readonly kinesisDataStreamData?: GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData;
 }
@@ -2341,11 +2341,11 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataOu
 }
 export interface GroundstationConfigConfigDataTelemetrySinkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#telemetry_sink_data GroundstationConfig#telemetry_sink_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#telemetry_sink_data GroundstationConfig#telemetry_sink_data}
   */
   readonly telemetrySinkData?: GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#telemetry_sink_type GroundstationConfig#telemetry_sink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#telemetry_sink_type GroundstationConfig#telemetry_sink_type}
   */
   readonly telemetrySinkType?: string;
 }
@@ -2451,7 +2451,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigOutputReference ext
   }
 
   // telemetry_sink_type - computed: true, optional: true, required: false
-  private _telemetrySinkType?: string; 
+  private _telemetrySinkType?: string;
   public get telemetrySinkType() {
     return this.getStringAttribute('telemetry_sink_type');
   }
@@ -2468,7 +2468,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigOutputReference ext
 }
 export interface GroundstationConfigConfigDataTrackingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#autotrack GroundstationConfig#autotrack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#autotrack GroundstationConfig#autotrack}
   */
   readonly autotrack?: string;
 }
@@ -2545,7 +2545,7 @@ export class GroundstationConfigConfigDataTrackingConfigOutputReference extends 
   }
 
   // autotrack - computed: true, optional: true, required: false
-  private _autotrack?: string; 
+  private _autotrack?: string;
   public get autotrack() {
     return this.getStringAttribute('autotrack');
   }
@@ -2562,11 +2562,11 @@ export class GroundstationConfigConfigDataTrackingConfigOutputReference extends 
 }
 export interface GroundstationConfigConfigDataUplinkEchoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#antenna_uplink_config_arn GroundstationConfig#antenna_uplink_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#antenna_uplink_config_arn GroundstationConfig#antenna_uplink_config_arn}
   */
   readonly antennaUplinkConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#enabled GroundstationConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#enabled GroundstationConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -2656,7 +2656,7 @@ export class GroundstationConfigConfigDataUplinkEchoConfigOutputReference extend
   }
 
   // antenna_uplink_config_arn - computed: true, optional: true, required: false
-  private _antennaUplinkConfigArn?: string; 
+  private _antennaUplinkConfigArn?: string;
   public get antennaUplinkConfigArn() {
     return this.getStringAttribute('antenna_uplink_config_arn');
   }
@@ -2672,7 +2672,7 @@ export class GroundstationConfigConfigDataUplinkEchoConfigOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2689,35 +2689,35 @@ export class GroundstationConfigConfigDataUplinkEchoConfigOutputReference extend
 }
 export interface GroundstationConfigConfigData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#antenna_downlink_config GroundstationConfig#antenna_downlink_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#antenna_downlink_config GroundstationConfig#antenna_downlink_config}
   */
   readonly antennaDownlinkConfig?: GroundstationConfigConfigDataAntennaDownlinkConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#antenna_downlink_demod_decode_config GroundstationConfig#antenna_downlink_demod_decode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#antenna_downlink_demod_decode_config GroundstationConfig#antenna_downlink_demod_decode_config}
   */
   readonly antennaDownlinkDemodDecodeConfig?: GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#antenna_uplink_config GroundstationConfig#antenna_uplink_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#antenna_uplink_config GroundstationConfig#antenna_uplink_config}
   */
   readonly antennaUplinkConfig?: GroundstationConfigConfigDataAntennaUplinkConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#dataflow_endpoint_config GroundstationConfig#dataflow_endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#dataflow_endpoint_config GroundstationConfig#dataflow_endpoint_config}
   */
   readonly dataflowEndpointConfig?: GroundstationConfigConfigDataDataflowEndpointConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#s3_recording_config GroundstationConfig#s3_recording_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#s3_recording_config GroundstationConfig#s3_recording_config}
   */
   readonly s3RecordingConfig?: GroundstationConfigConfigDataS3RecordingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#telemetry_sink_config GroundstationConfig#telemetry_sink_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#telemetry_sink_config GroundstationConfig#telemetry_sink_config}
   */
   readonly telemetrySinkConfig?: GroundstationConfigConfigDataTelemetrySinkConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#tracking_config GroundstationConfig#tracking_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#tracking_config GroundstationConfig#tracking_config}
   */
   readonly trackingConfig?: GroundstationConfigConfigDataTrackingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#uplink_echo_config GroundstationConfig#uplink_echo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#uplink_echo_config GroundstationConfig#uplink_echo_config}
   */
   readonly uplinkEchoConfig?: GroundstationConfigConfigDataUplinkEchoConfig;
 }
@@ -3014,11 +3014,11 @@ export class GroundstationConfigConfigDataOutputReference extends cdktn.ComplexO
 }
 export interface GroundstationConfigTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#key GroundstationConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#key GroundstationConfig#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#value GroundstationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#value GroundstationConfig#value}
   */
   readonly value?: string;
 }
@@ -3110,7 +3110,7 @@ export class GroundstationConfigTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3126,7 +3126,7 @@ export class GroundstationConfigTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3163,7 +3163,7 @@ export class GroundstationConfigTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config awscc_groundstation_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config awscc_groundstation_config}
 */
 export class GroundstationConfig extends cdktn.TerraformResource {
 
@@ -3179,7 +3179,7 @@ export class GroundstationConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GroundstationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroundstationConfig to import
-  * @param importFromId The id of the existing GroundstationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroundstationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroundstationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3191,7 +3191,7 @@ export class GroundstationConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/groundstation_config awscc_groundstation_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/groundstation_config awscc_groundstation_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3202,7 +3202,7 @@ export class GroundstationConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_groundstation_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3250,7 +3250,7 @@ export class GroundstationConfig extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

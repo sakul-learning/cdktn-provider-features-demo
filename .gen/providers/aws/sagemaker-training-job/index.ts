@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,187 +10,187 @@ export interface SagemakerTrainingJobConfig extends cdktn.TerraformMetaArguments
   /**
   * Whether to delete model packages in the configured model package group when destroying the training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#delete_model_packages_on_destroy SagemakerTrainingJob#delete_model_packages_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#delete_model_packages_on_destroy SagemakerTrainingJob#delete_model_packages_on_destroy}
   */
   readonly deleteModelPackagesOnDestroy?: boolean | cdktn.IResolvable;
   /**
   * Whether to delete detached VPC ENIs that SageMaker may leave behind when destroying the training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#delete_vpc_enis_on_destroy SagemakerTrainingJob#delete_vpc_enis_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#delete_vpc_enis_on_destroy SagemakerTrainingJob#delete_vpc_enis_on_destroy}
   */
   readonly deleteVpcEnisOnDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_inter_container_traffic_encryption SagemakerTrainingJob#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_inter_container_traffic_encryption SagemakerTrainingJob#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_managed_spot_training SagemakerTrainingJob#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_managed_spot_training SagemakerTrainingJob#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_network_isolation SagemakerTrainingJob#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_network_isolation SagemakerTrainingJob#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#environment SagemakerTrainingJob#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#environment SagemakerTrainingJob#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#hyper_parameters SagemakerTrainingJob#hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#hyper_parameters SagemakerTrainingJob#hyper_parameters}
   */
   readonly hyperParameters?: { [key: string]: string };
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#region SagemakerTrainingJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#region SagemakerTrainingJob#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#role_arn SagemakerTrainingJob#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#role_arn SagemakerTrainingJob#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#tags SagemakerTrainingJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#tags SagemakerTrainingJob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_job_name SagemakerTrainingJob#training_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_job_name SagemakerTrainingJob#training_job_name}
   */
   readonly trainingJobName: string;
   /**
   * algorithm_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#algorithm_specification SagemakerTrainingJob#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#algorithm_specification SagemakerTrainingJob#algorithm_specification}
   */
   readonly algorithmSpecification?: SagemakerTrainingJobAlgorithmSpecification[] | cdktn.IResolvable;
   /**
   * checkpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#checkpoint_config SagemakerTrainingJob#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#checkpoint_config SagemakerTrainingJob#checkpoint_config}
   */
   readonly checkpointConfig?: SagemakerTrainingJobCheckpointConfig[] | cdktn.IResolvable;
   /**
   * debug_hook_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#debug_hook_config SagemakerTrainingJob#debug_hook_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#debug_hook_config SagemakerTrainingJob#debug_hook_config}
   */
   readonly debugHookConfig?: SagemakerTrainingJobDebugHookConfig[] | cdktn.IResolvable;
   /**
   * debug_rule_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#debug_rule_configurations SagemakerTrainingJob#debug_rule_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#debug_rule_configurations SagemakerTrainingJob#debug_rule_configurations}
   */
   readonly debugRuleConfigurations?: SagemakerTrainingJobDebugRuleConfigurations[] | cdktn.IResolvable;
   /**
   * experiment_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#experiment_config SagemakerTrainingJob#experiment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#experiment_config SagemakerTrainingJob#experiment_config}
   */
   readonly experimentConfig?: SagemakerTrainingJobExperimentConfig[] | cdktn.IResolvable;
   /**
   * infra_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#infra_check_config SagemakerTrainingJob#infra_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#infra_check_config SagemakerTrainingJob#infra_check_config}
   */
   readonly infraCheckConfig?: SagemakerTrainingJobInfraCheckConfig[] | cdktn.IResolvable;
   /**
   * input_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#input_data_config SagemakerTrainingJob#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#input_data_config SagemakerTrainingJob#input_data_config}
   */
   readonly inputDataConfig?: SagemakerTrainingJobInputDataConfig[] | cdktn.IResolvable;
   /**
   * mlflow_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#mlflow_config SagemakerTrainingJob#mlflow_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#mlflow_config SagemakerTrainingJob#mlflow_config}
   */
   readonly mlflowConfig?: SagemakerTrainingJobMlflowConfig[] | cdktn.IResolvable;
   /**
   * model_package_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#model_package_config SagemakerTrainingJob#model_package_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#model_package_config SagemakerTrainingJob#model_package_config}
   */
   readonly modelPackageConfig?: SagemakerTrainingJobModelPackageConfig[] | cdktn.IResolvable;
   /**
   * output_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#output_data_config SagemakerTrainingJob#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#output_data_config SagemakerTrainingJob#output_data_config}
   */
   readonly outputDataConfig?: SagemakerTrainingJobOutputDataConfig[] | cdktn.IResolvable;
   /**
   * profiler_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#profiler_config SagemakerTrainingJob#profiler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#profiler_config SagemakerTrainingJob#profiler_config}
   */
   readonly profilerConfig?: SagemakerTrainingJobProfilerConfig[] | cdktn.IResolvable;
   /**
   * profiler_rule_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#profiler_rule_configurations SagemakerTrainingJob#profiler_rule_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#profiler_rule_configurations SagemakerTrainingJob#profiler_rule_configurations}
   */
   readonly profilerRuleConfigurations?: SagemakerTrainingJobProfilerRuleConfigurations[] | cdktn.IResolvable;
   /**
   * remote_debug_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#remote_debug_config SagemakerTrainingJob#remote_debug_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#remote_debug_config SagemakerTrainingJob#remote_debug_config}
   */
   readonly remoteDebugConfig?: SagemakerTrainingJobRemoteDebugConfig[] | cdktn.IResolvable;
   /**
   * resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#resource_config SagemakerTrainingJob#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#resource_config SagemakerTrainingJob#resource_config}
   */
   readonly resourceConfig?: SagemakerTrainingJobResourceConfig[] | cdktn.IResolvable;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#retry_strategy SagemakerTrainingJob#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#retry_strategy SagemakerTrainingJob#retry_strategy}
   */
   readonly retryStrategy?: SagemakerTrainingJobRetryStrategy[] | cdktn.IResolvable;
   /**
   * serverless_job_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#serverless_job_config SagemakerTrainingJob#serverless_job_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#serverless_job_config SagemakerTrainingJob#serverless_job_config}
   */
   readonly serverlessJobConfig?: SagemakerTrainingJobServerlessJobConfig[] | cdktn.IResolvable;
   /**
   * session_chaining_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#session_chaining_config SagemakerTrainingJob#session_chaining_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#session_chaining_config SagemakerTrainingJob#session_chaining_config}
   */
   readonly sessionChainingConfig?: SagemakerTrainingJobSessionChainingConfig[] | cdktn.IResolvable;
   /**
   * stopping_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#stopping_condition SagemakerTrainingJob#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#stopping_condition SagemakerTrainingJob#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerTrainingJobStoppingCondition[] | cdktn.IResolvable;
   /**
   * tensor_board_output_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#tensor_board_output_config SagemakerTrainingJob#tensor_board_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#tensor_board_output_config SagemakerTrainingJob#tensor_board_output_config}
   */
   readonly tensorBoardOutputConfig?: SagemakerTrainingJobTensorBoardOutputConfig[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#timeouts SagemakerTrainingJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#timeouts SagemakerTrainingJob#timeouts}
   */
   readonly timeouts?: SagemakerTrainingJobTimeouts;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#vpc_config SagemakerTrainingJob#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#vpc_config SagemakerTrainingJob#vpc_config}
   */
   readonly vpcConfig?: SagemakerTrainingJobVpcConfig[] | cdktn.IResolvable;
 }
 export interface SagemakerTrainingJobAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#name SagemakerTrainingJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#name SagemakerTrainingJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#regex SagemakerTrainingJob#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#regex SagemakerTrainingJob#regex}
   */
   readonly regex: string;
 }
@@ -282,7 +282,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationMetricDefinitionsOutputRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -295,7 +295,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationMetricDefinitionsOutputRe
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string; 
+  private _regex?: string;
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -329,7 +329,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationMetricDefinitionsList ext
 }
 export interface SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigTrainingRepositoryAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_repository_credentials_provider_arn SagemakerTrainingJob#training_repository_credentials_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_repository_credentials_provider_arn SagemakerTrainingJob#training_repository_credentials_provider_arn}
   */
   readonly trainingRepositoryCredentialsProviderArn?: string;
 }
@@ -408,7 +408,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigTraini
   }
 
   // training_repository_credentials_provider_arn - computed: false, optional: true, required: false
-  private _trainingRepositoryCredentialsProviderArn?: string; 
+  private _trainingRepositoryCredentialsProviderArn?: string;
   public get trainingRepositoryCredentialsProviderArn() {
     return this.getStringAttribute('training_repository_credentials_provider_arn');
   }
@@ -445,13 +445,13 @@ export class SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigTraini
 }
 export interface SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_repository_access_mode SagemakerTrainingJob#training_repository_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_repository_access_mode SagemakerTrainingJob#training_repository_access_mode}
   */
   readonly trainingRepositoryAccessMode?: string;
   /**
   * training_repository_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_repository_auth_config SagemakerTrainingJob#training_repository_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_repository_auth_config SagemakerTrainingJob#training_repository_auth_config}
   */
   readonly trainingRepositoryAuthConfig?: SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigTrainingRepositoryAuthConfig[] | cdktn.IResolvable;
 }
@@ -543,7 +543,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigOutput
   }
 
   // training_repository_access_mode - computed: false, optional: true, required: false
-  private _trainingRepositoryAccessMode?: string; 
+  private _trainingRepositoryAccessMode?: string;
   public get trainingRepositoryAccessMode() {
     return this.getStringAttribute('training_repository_access_mode');
   }
@@ -598,43 +598,43 @@ export interface SagemakerTrainingJobAlgorithmSpecification {
   /**
   * Name or ARN of a SageMaker algorithm resource. Exactly one of `algorithm_name` or `training_image` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#algorithm_name SagemakerTrainingJob#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#algorithm_name SagemakerTrainingJob#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#container_arguments SagemakerTrainingJob#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#container_arguments SagemakerTrainingJob#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#container_entrypoint SagemakerTrainingJob#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#container_entrypoint SagemakerTrainingJob#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
   * Whether SageMaker AI should publish time-series metrics. SageMaker enables this automatically for built-in algorithms, supported prebuilt images, and jobs with explicit `metric_definitions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_sagemaker_metrics_time_series SagemakerTrainingJob#enable_sagemaker_metrics_time_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_sagemaker_metrics_time_series SagemakerTrainingJob#enable_sagemaker_metrics_time_series}
   */
   readonly enableSagemakerMetricsTimeSeries?: boolean | cdktn.IResolvable;
   /**
   * Registry path of the training image. Exactly one of `algorithm_name` or `training_image` must be set. Use `metric_definitions` only when you need to extract custom metrics from your own training container logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_image SagemakerTrainingJob#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_image SagemakerTrainingJob#training_image}
   */
   readonly trainingImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_input_mode SagemakerTrainingJob#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_input_mode SagemakerTrainingJob#training_input_mode}
   */
   readonly trainingInputMode?: string;
   /**
   * metric_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#metric_definitions SagemakerTrainingJob#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#metric_definitions SagemakerTrainingJob#metric_definitions}
   */
   readonly metricDefinitions?: SagemakerTrainingJobAlgorithmSpecificationMetricDefinitions[] | cdktn.IResolvable;
   /**
   * training_image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_image_config SagemakerTrainingJob#training_image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_image_config SagemakerTrainingJob#training_image_config}
   */
   readonly trainingImageConfig?: SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfig[] | cdktn.IResolvable;
 }
@@ -804,7 +804,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // algorithm_name - computed: false, optional: true, required: false
-  private _algorithmName?: string; 
+  private _algorithmName?: string;
   public get algorithmName() {
     return this.getStringAttribute('algorithm_name');
   }
@@ -820,7 +820,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[]; 
+  private _containerArguments?: string[];
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -836,7 +836,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[]; 
+  private _containerEntrypoint?: string[];
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -852,7 +852,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // enable_sagemaker_metrics_time_series - computed: true, optional: true, required: false
-  private _enableSagemakerMetricsTimeSeries?: boolean | cdktn.IResolvable; 
+  private _enableSagemakerMetricsTimeSeries?: boolean | cdktn.IResolvable;
   public get enableSagemakerMetricsTimeSeries() {
     return this.getBooleanAttribute('enable_sagemaker_metrics_time_series');
   }
@@ -868,7 +868,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // training_image - computed: false, optional: true, required: false
-  private _trainingImage?: string; 
+  private _trainingImage?: string;
   public get trainingImage() {
     return this.getStringAttribute('training_image');
   }
@@ -884,7 +884,7 @@ export class SagemakerTrainingJobAlgorithmSpecificationOutputReference extends c
   }
 
   // training_input_mode - computed: false, optional: true, required: false
-  private _trainingInputMode?: string; 
+  private _trainingInputMode?: string;
   public get trainingInputMode() {
     return this.getStringAttribute('training_input_mode');
   }
@@ -953,11 +953,11 @@ export class SagemakerTrainingJobAlgorithmSpecificationList extends cdktn.Comple
 }
 export interface SagemakerTrainingJobCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -1049,7 +1049,7 @@ export class SagemakerTrainingJobCheckpointConfigOutputReference extends cdktn.C
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1065,7 +1065,7 @@ export class SagemakerTrainingJobCheckpointConfigOutputReference extends cdktn.C
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1099,11 +1099,11 @@ export class SagemakerTrainingJobCheckpointConfigList extends cdktn.ComplexList 
 }
 export interface SagemakerTrainingJobDebugHookConfigCollectionConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#collection_name SagemakerTrainingJob#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#collection_name SagemakerTrainingJob#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#collection_parameters SagemakerTrainingJob#collection_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#collection_parameters SagemakerTrainingJob#collection_parameters}
   */
   readonly collectionParameters?: { [key: string]: string };
 }
@@ -1195,7 +1195,7 @@ export class SagemakerTrainingJobDebugHookConfigCollectionConfigurationsOutputRe
   }
 
   // collection_name - computed: false, optional: true, required: false
-  private _collectionName?: string; 
+  private _collectionName?: string;
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -1211,7 +1211,7 @@ export class SagemakerTrainingJobDebugHookConfigCollectionConfigurationsOutputRe
   }
 
   // collection_parameters - computed: false, optional: true, required: false
-  private _collectionParameters?: { [key: string]: string }; 
+  private _collectionParameters?: { [key: string]: string };
   public get collectionParameters() {
     return this.getStringMapAttribute('collection_parameters');
   }
@@ -1248,21 +1248,21 @@ export class SagemakerTrainingJobDebugHookConfigCollectionConfigurationsList ext
 }
 export interface SagemakerTrainingJobDebugHookConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#hook_parameters SagemakerTrainingJob#hook_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#hook_parameters SagemakerTrainingJob#hook_parameters}
   */
   readonly hookParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath: string;
   /**
   * collection_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#collection_configurations SagemakerTrainingJob#collection_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#collection_configurations SagemakerTrainingJob#collection_configurations}
   */
   readonly collectionConfigurations?: SagemakerTrainingJobDebugHookConfigCollectionConfigurations[] | cdktn.IResolvable;
 }
@@ -1380,7 +1380,7 @@ export class SagemakerTrainingJobDebugHookConfigOutputReference extends cdktn.Co
   }
 
   // hook_parameters - computed: false, optional: true, required: false
-  private _hookParameters?: { [key: string]: string }; 
+  private _hookParameters?: { [key: string]: string };
   public get hookParameters() {
     return this.getStringMapAttribute('hook_parameters');
   }
@@ -1396,7 +1396,7 @@ export class SagemakerTrainingJobDebugHookConfigOutputReference extends cdktn.Co
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1412,7 +1412,7 @@ export class SagemakerTrainingJobDebugHookConfigOutputReference extends cdktn.Co
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -1462,31 +1462,31 @@ export class SagemakerTrainingJobDebugHookConfigList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobDebugRuleConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_configuration_name SagemakerTrainingJob#rule_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_configuration_name SagemakerTrainingJob#rule_configuration_name}
   */
   readonly ruleConfigurationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_evaluator_image SagemakerTrainingJob#rule_evaluator_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_evaluator_image SagemakerTrainingJob#rule_evaluator_image}
   */
   readonly ruleEvaluatorImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_parameters SagemakerTrainingJob#rule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_parameters SagemakerTrainingJob#rule_parameters}
   */
   readonly ruleParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -1643,7 +1643,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1659,7 +1659,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1675,7 +1675,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // rule_configuration_name - computed: false, optional: false, required: true
-  private _ruleConfigurationName?: string; 
+  private _ruleConfigurationName?: string;
   public get ruleConfigurationName() {
     return this.getStringAttribute('rule_configuration_name');
   }
@@ -1688,7 +1688,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // rule_evaluator_image - computed: false, optional: false, required: true
-  private _ruleEvaluatorImage?: string; 
+  private _ruleEvaluatorImage?: string;
   public get ruleEvaluatorImage() {
     return this.getStringAttribute('rule_evaluator_image');
   }
@@ -1701,7 +1701,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // rule_parameters - computed: false, optional: true, required: false
-  private _ruleParameters?: { [key: string]: string }; 
+  private _ruleParameters?: { [key: string]: string };
   public get ruleParameters() {
     return this.getStringMapAttribute('rule_parameters');
   }
@@ -1717,7 +1717,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // s3_output_path - computed: false, optional: true, required: false
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -1733,7 +1733,7 @@ export class SagemakerTrainingJobDebugRuleConfigurationsOutputReference extends 
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -1770,19 +1770,19 @@ export class SagemakerTrainingJobDebugRuleConfigurationsList extends cdktn.Compl
 }
 export interface SagemakerTrainingJobExperimentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}
   */
   readonly experimentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}
   */
   readonly runName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}
   */
   readonly trialComponentDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}
   */
   readonly trialName?: string;
 }
@@ -1900,7 +1900,7 @@ export class SagemakerTrainingJobExperimentConfigOutputReference extends cdktn.C
   }
 
   // experiment_name - computed: false, optional: true, required: false
-  private _experimentName?: string; 
+  private _experimentName?: string;
   public get experimentName() {
     return this.getStringAttribute('experiment_name');
   }
@@ -1916,7 +1916,7 @@ export class SagemakerTrainingJobExperimentConfigOutputReference extends cdktn.C
   }
 
   // run_name - computed: false, optional: true, required: false
-  private _runName?: string; 
+  private _runName?: string;
   public get runName() {
     return this.getStringAttribute('run_name');
   }
@@ -1932,7 +1932,7 @@ export class SagemakerTrainingJobExperimentConfigOutputReference extends cdktn.C
   }
 
   // trial_component_display_name - computed: false, optional: true, required: false
-  private _trialComponentDisplayName?: string; 
+  private _trialComponentDisplayName?: string;
   public get trialComponentDisplayName() {
     return this.getStringAttribute('trial_component_display_name');
   }
@@ -1948,7 +1948,7 @@ export class SagemakerTrainingJobExperimentConfigOutputReference extends cdktn.C
   }
 
   // trial_name - computed: false, optional: true, required: false
-  private _trialName?: string; 
+  private _trialName?: string;
   public get trialName() {
     return this.getStringAttribute('trial_name');
   }
@@ -1985,7 +1985,7 @@ export class SagemakerTrainingJobExperimentConfigList extends cdktn.ComplexList 
 }
 export interface SagemakerTrainingJobInfraCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_infra_check SagemakerTrainingJob#enable_infra_check}
   */
   readonly enableInfraCheck?: boolean | cdktn.IResolvable;
 }
@@ -2064,7 +2064,7 @@ export class SagemakerTrainingJobInfraCheckConfigOutputReference extends cdktn.C
   }
 
   // enable_infra_check - computed: false, optional: true, required: false
-  private _enableInfraCheck?: boolean | cdktn.IResolvable; 
+  private _enableInfraCheck?: boolean | cdktn.IResolvable;
   public get enableInfraCheck() {
     return this.getBooleanAttribute('enable_infra_check');
   }
@@ -2101,19 +2101,19 @@ export class SagemakerTrainingJobInfraCheckConfigList extends cdktn.ComplexList 
 }
 export interface SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#directory_path SagemakerTrainingJob#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#directory_path SagemakerTrainingJob#directory_path}
   */
   readonly directoryPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#file_system_access_mode SagemakerTrainingJob#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#file_system_access_mode SagemakerTrainingJob#file_system_access_mode}
   */
   readonly fileSystemAccessMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#file_system_id SagemakerTrainingJob#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#file_system_id SagemakerTrainingJob#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#file_system_type SagemakerTrainingJob#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#file_system_type SagemakerTrainingJob#file_system_type}
   */
   readonly fileSystemType: string;
 }
@@ -2231,7 +2231,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSourceOu
   }
 
   // directory_path - computed: false, optional: false, required: true
-  private _directoryPath?: string; 
+  private _directoryPath?: string;
   public get directoryPath() {
     return this.getStringAttribute('directory_path');
   }
@@ -2244,7 +2244,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSourceOu
   }
 
   // file_system_access_mode - computed: false, optional: false, required: true
-  private _fileSystemAccessMode?: string; 
+  private _fileSystemAccessMode?: string;
   public get fileSystemAccessMode() {
     return this.getStringAttribute('file_system_access_mode');
   }
@@ -2257,7 +2257,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSourceOu
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2270,7 +2270,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSourceOu
   }
 
   // file_system_type - computed: false, optional: false, required: true
-  private _fileSystemType?: string; 
+  private _fileSystemType?: string;
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -2304,7 +2304,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSourceLi
 }
 export interface SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}
   */
   readonly hubContentArn: string;
 }
@@ -2383,7 +2383,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessC
   }
 
   // hub_content_arn - computed: false, optional: false, required: true
-  private _hubContentArn?: string; 
+  private _hubContentArn?: string;
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -2417,7 +2417,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessC
 }
 export interface SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceModelAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}
   */
   readonly acceptEula: boolean | cdktn.IResolvable;
 }
@@ -2496,7 +2496,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceModelAcces
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable; 
+  private _acceptEula?: boolean | cdktn.IResolvable;
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -2530,35 +2530,35 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceModelAcces
 }
 export interface SagemakerTrainingJobInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#attribute_names SagemakerTrainingJob#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#attribute_names SagemakerTrainingJob#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_group_names SagemakerTrainingJob#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_group_names SagemakerTrainingJob#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_data_distribution_type SagemakerTrainingJob#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_data_distribution_type SagemakerTrainingJob#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_data_type SagemakerTrainingJob#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_data_type SagemakerTrainingJob#s3_data_type}
   */
   readonly s3DataType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_uri SagemakerTrainingJob#s3_uri}
   */
   readonly s3Uri: string;
   /**
   * hub_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#hub_access_config SagemakerTrainingJob#hub_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#hub_access_config SagemakerTrainingJob#hub_access_config}
   */
   readonly hubAccessConfig?: SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig[] | cdktn.IResolvable;
   /**
   * model_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#model_access_config SagemakerTrainingJob#model_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#model_access_config SagemakerTrainingJob#model_access_config}
   */
   readonly modelAccessConfig?: SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceModelAccessConfig[] | cdktn.IResolvable;
 }
@@ -2715,7 +2715,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceOutputRefe
   }
 
   // attribute_names - computed: false, optional: true, required: false
-  private _attributeNames?: string[]; 
+  private _attributeNames?: string[];
   public get attributeNames() {
     return this.getListAttribute('attribute_names');
   }
@@ -2731,7 +2731,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceOutputRefe
   }
 
   // instance_group_names - computed: false, optional: true, required: false
-  private _instanceGroupNames?: string[]; 
+  private _instanceGroupNames?: string[];
   public get instanceGroupNames() {
     return this.getListAttribute('instance_group_names');
   }
@@ -2747,7 +2747,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceOutputRefe
   }
 
   // s3_data_distribution_type - computed: false, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -2763,7 +2763,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceOutputRefe
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string; 
+  private _s3DataType?: string;
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -2776,7 +2776,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceOutputRefe
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2844,13 +2844,13 @@ export interface SagemakerTrainingJobInputDataConfigDataSource {
   /**
   * file_system_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#file_system_data_source SagemakerTrainingJob#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#file_system_data_source SagemakerTrainingJob#file_system_data_source}
   */
   readonly fileSystemDataSource?: SagemakerTrainingJobInputDataConfigDataSourceFileSystemDataSource[] | cdktn.IResolvable;
   /**
   * s3_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_data_source SagemakerTrainingJob#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_data_source SagemakerTrainingJob#s3_data_source}
   */
   readonly s3DataSource?: SagemakerTrainingJobInputDataConfigDataSourceS3DataSource[] | cdktn.IResolvable;
 }
@@ -2995,7 +2995,7 @@ export class SagemakerTrainingJobInputDataConfigDataSourceList extends cdktn.Com
 }
 export interface SagemakerTrainingJobInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}
   */
   readonly seed?: number;
 }
@@ -3074,7 +3074,7 @@ export class SagemakerTrainingJobInputDataConfigShuffleConfigOutputReference ext
   }
 
   // seed - computed: false, optional: true, required: false
-  private _seed?: number; 
+  private _seed?: number;
   public get seed() {
     return this.getNumberAttribute('seed');
   }
@@ -3111,35 +3111,35 @@ export class SagemakerTrainingJobInputDataConfigShuffleConfigList extends cdktn.
 }
 export interface SagemakerTrainingJobInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#channel_name SagemakerTrainingJob#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#channel_name SagemakerTrainingJob#channel_name}
   */
   readonly channelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#compression_type SagemakerTrainingJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#compression_type SagemakerTrainingJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#content_type SagemakerTrainingJob#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#content_type SagemakerTrainingJob#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#input_mode SagemakerTrainingJob#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#input_mode SagemakerTrainingJob#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#record_wrapper_type SagemakerTrainingJob#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#record_wrapper_type SagemakerTrainingJob#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#data_source SagemakerTrainingJob#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#data_source SagemakerTrainingJob#data_source}
   */
   readonly dataSource?: SagemakerTrainingJobInputDataConfigDataSource[] | cdktn.IResolvable;
   /**
   * shuffle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#shuffle_config SagemakerTrainingJob#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#shuffle_config SagemakerTrainingJob#shuffle_config}
   */
   readonly shuffleConfig?: SagemakerTrainingJobInputDataConfigShuffleConfig[] | cdktn.IResolvable;
 }
@@ -3296,7 +3296,7 @@ export class SagemakerTrainingJobInputDataConfigOutputReference extends cdktn.Co
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -3309,7 +3309,7 @@ export class SagemakerTrainingJobInputDataConfigOutputReference extends cdktn.Co
   }
 
   // compression_type - computed: true, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -3325,7 +3325,7 @@ export class SagemakerTrainingJobInputDataConfigOutputReference extends cdktn.Co
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -3341,7 +3341,7 @@ export class SagemakerTrainingJobInputDataConfigOutputReference extends cdktn.Co
   }
 
   // input_mode - computed: true, optional: true, required: false
-  private _inputMode?: string; 
+  private _inputMode?: string;
   public get inputMode() {
     return this.getStringAttribute('input_mode');
   }
@@ -3357,7 +3357,7 @@ export class SagemakerTrainingJobInputDataConfigOutputReference extends cdktn.Co
   }
 
   // record_wrapper_type - computed: true, optional: true, required: false
-  private _recordWrapperType?: string; 
+  private _recordWrapperType?: string;
   public get recordWrapperType() {
     return this.getStringAttribute('record_wrapper_type');
   }
@@ -3426,15 +3426,15 @@ export class SagemakerTrainingJobInputDataConfigList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobMlflowConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#mlflow_experiment_name SagemakerTrainingJob#mlflow_experiment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#mlflow_experiment_name SagemakerTrainingJob#mlflow_experiment_name}
   */
   readonly mlflowExperimentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#mlflow_resource_arn SagemakerTrainingJob#mlflow_resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#mlflow_resource_arn SagemakerTrainingJob#mlflow_resource_arn}
   */
   readonly mlflowResourceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#mlflow_run_name SagemakerTrainingJob#mlflow_run_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#mlflow_run_name SagemakerTrainingJob#mlflow_run_name}
   */
   readonly mlflowRunName?: string;
 }
@@ -3539,7 +3539,7 @@ export class SagemakerTrainingJobMlflowConfigOutputReference extends cdktn.Compl
   }
 
   // mlflow_experiment_name - computed: false, optional: true, required: false
-  private _mlflowExperimentName?: string; 
+  private _mlflowExperimentName?: string;
   public get mlflowExperimentName() {
     return this.getStringAttribute('mlflow_experiment_name');
   }
@@ -3555,7 +3555,7 @@ export class SagemakerTrainingJobMlflowConfigOutputReference extends cdktn.Compl
   }
 
   // mlflow_resource_arn - computed: false, optional: false, required: true
-  private _mlflowResourceArn?: string; 
+  private _mlflowResourceArn?: string;
   public get mlflowResourceArn() {
     return this.getStringAttribute('mlflow_resource_arn');
   }
@@ -3568,7 +3568,7 @@ export class SagemakerTrainingJobMlflowConfigOutputReference extends cdktn.Compl
   }
 
   // mlflow_run_name - computed: false, optional: true, required: false
-  private _mlflowRunName?: string; 
+  private _mlflowRunName?: string;
   public get mlflowRunName() {
     return this.getStringAttribute('mlflow_run_name');
   }
@@ -3605,11 +3605,11 @@ export class SagemakerTrainingJobMlflowConfigList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobModelPackageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#model_package_group_arn SagemakerTrainingJob#model_package_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#model_package_group_arn SagemakerTrainingJob#model_package_group_arn}
   */
   readonly modelPackageGroupArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#source_model_package_arn SagemakerTrainingJob#source_model_package_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#source_model_package_arn SagemakerTrainingJob#source_model_package_arn}
   */
   readonly sourceModelPackageArn?: string;
 }
@@ -3701,7 +3701,7 @@ export class SagemakerTrainingJobModelPackageConfigOutputReference extends cdktn
   }
 
   // model_package_group_arn - computed: false, optional: false, required: true
-  private _modelPackageGroupArn?: string; 
+  private _modelPackageGroupArn?: string;
   public get modelPackageGroupArn() {
     return this.getStringAttribute('model_package_group_arn');
   }
@@ -3714,7 +3714,7 @@ export class SagemakerTrainingJobModelPackageConfigOutputReference extends cdktn
   }
 
   // source_model_package_arn - computed: false, optional: true, required: false
-  private _sourceModelPackageArn?: string; 
+  private _sourceModelPackageArn?: string;
   public get sourceModelPackageArn() {
     return this.getStringAttribute('source_model_package_arn');
   }
@@ -3751,15 +3751,15 @@ export class SagemakerTrainingJobModelPackageConfigList extends cdktn.ComplexLis
 }
 export interface SagemakerTrainingJobOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#compression_type SagemakerTrainingJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#compression_type SagemakerTrainingJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#kms_key_id SagemakerTrainingJob#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#kms_key_id SagemakerTrainingJob#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath: string;
 }
@@ -3864,7 +3864,7 @@ export class SagemakerTrainingJobOutputDataConfigOutputReference extends cdktn.C
   }
 
   // compression_type - computed: true, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -3880,7 +3880,7 @@ export class SagemakerTrainingJobOutputDataConfigOutputReference extends cdktn.C
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -3896,7 +3896,7 @@ export class SagemakerTrainingJobOutputDataConfigOutputReference extends cdktn.C
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -3930,19 +3930,19 @@ export class SagemakerTrainingJobOutputDataConfigList extends cdktn.ComplexList 
 }
 export interface SagemakerTrainingJobProfilerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#disable_profiler SagemakerTrainingJob#disable_profiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#disable_profiler SagemakerTrainingJob#disable_profiler}
   */
   readonly disableProfiler?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#profiling_interval_in_milliseconds SagemakerTrainingJob#profiling_interval_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#profiling_interval_in_milliseconds SagemakerTrainingJob#profiling_interval_in_milliseconds}
   */
   readonly profilingIntervalInMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#profiling_parameters SagemakerTrainingJob#profiling_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#profiling_parameters SagemakerTrainingJob#profiling_parameters}
   */
   readonly profilingParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -4060,7 +4060,7 @@ export class SagemakerTrainingJobProfilerConfigOutputReference extends cdktn.Com
   }
 
   // disable_profiler - computed: false, optional: true, required: false
-  private _disableProfiler?: boolean | cdktn.IResolvable; 
+  private _disableProfiler?: boolean | cdktn.IResolvable;
   public get disableProfiler() {
     return this.getBooleanAttribute('disable_profiler');
   }
@@ -4076,7 +4076,7 @@ export class SagemakerTrainingJobProfilerConfigOutputReference extends cdktn.Com
   }
 
   // profiling_interval_in_milliseconds - computed: false, optional: true, required: false
-  private _profilingIntervalInMilliseconds?: number; 
+  private _profilingIntervalInMilliseconds?: number;
   public get profilingIntervalInMilliseconds() {
     return this.getNumberAttribute('profiling_interval_in_milliseconds');
   }
@@ -4092,7 +4092,7 @@ export class SagemakerTrainingJobProfilerConfigOutputReference extends cdktn.Com
   }
 
   // profiling_parameters - computed: false, optional: true, required: false
-  private _profilingParameters?: { [key: string]: string }; 
+  private _profilingParameters?: { [key: string]: string };
   public get profilingParameters() {
     return this.getStringMapAttribute('profiling_parameters');
   }
@@ -4108,7 +4108,7 @@ export class SagemakerTrainingJobProfilerConfigOutputReference extends cdktn.Com
   }
 
   // s3_output_path - computed: false, optional: true, required: false
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -4145,31 +4145,31 @@ export class SagemakerTrainingJobProfilerConfigList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobProfilerRuleConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_configuration_name SagemakerTrainingJob#rule_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_configuration_name SagemakerTrainingJob#rule_configuration_name}
   */
   readonly ruleConfigurationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_evaluator_image SagemakerTrainingJob#rule_evaluator_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_evaluator_image SagemakerTrainingJob#rule_evaluator_image}
   */
   readonly ruleEvaluatorImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#rule_parameters SagemakerTrainingJob#rule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#rule_parameters SagemakerTrainingJob#rule_parameters}
   */
   readonly ruleParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -4326,7 +4326,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4342,7 +4342,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -4358,7 +4358,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // rule_configuration_name - computed: false, optional: false, required: true
-  private _ruleConfigurationName?: string; 
+  private _ruleConfigurationName?: string;
   public get ruleConfigurationName() {
     return this.getStringAttribute('rule_configuration_name');
   }
@@ -4371,7 +4371,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // rule_evaluator_image - computed: false, optional: false, required: true
-  private _ruleEvaluatorImage?: string; 
+  private _ruleEvaluatorImage?: string;
   public get ruleEvaluatorImage() {
     return this.getStringAttribute('rule_evaluator_image');
   }
@@ -4384,7 +4384,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // rule_parameters - computed: false, optional: true, required: false
-  private _ruleParameters?: { [key: string]: string }; 
+  private _ruleParameters?: { [key: string]: string };
   public get ruleParameters() {
     return this.getStringMapAttribute('rule_parameters');
   }
@@ -4400,7 +4400,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // s3_output_path - computed: false, optional: true, required: false
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -4416,7 +4416,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsOutputReference exten
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -4453,7 +4453,7 @@ export class SagemakerTrainingJobProfilerRuleConfigurationsList extends cdktn.Co
 }
 export interface SagemakerTrainingJobRemoteDebugConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_remote_debug SagemakerTrainingJob#enable_remote_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_remote_debug SagemakerTrainingJob#enable_remote_debug}
   */
   readonly enableRemoteDebug?: boolean | cdktn.IResolvable;
 }
@@ -4532,7 +4532,7 @@ export class SagemakerTrainingJobRemoteDebugConfigOutputReference extends cdktn.
   }
 
   // enable_remote_debug - computed: false, optional: true, required: false
-  private _enableRemoteDebug?: boolean | cdktn.IResolvable; 
+  private _enableRemoteDebug?: boolean | cdktn.IResolvable;
   public get enableRemoteDebug() {
     return this.getBooleanAttribute('enable_remote_debug');
   }
@@ -4569,15 +4569,15 @@ export class SagemakerTrainingJobRemoteDebugConfigList extends cdktn.ComplexList
 }
 export interface SagemakerTrainingJobResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_group_name SagemakerTrainingJob#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_group_name SagemakerTrainingJob#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -4682,7 +4682,7 @@ export class SagemakerTrainingJobResourceConfigInstanceGroupsOutputReference ext
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4698,7 +4698,7 @@ export class SagemakerTrainingJobResourceConfigInstanceGroupsOutputReference ext
   }
 
   // instance_group_name - computed: false, optional: true, required: false
-  private _instanceGroupName?: string; 
+  private _instanceGroupName?: string;
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -4714,7 +4714,7 @@ export class SagemakerTrainingJobResourceConfigInstanceGroupsOutputReference ext
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4751,11 +4751,11 @@ export class SagemakerTrainingJobResourceConfigInstanceGroupsList extends cdktn.
 }
 export interface SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#ultra_server_id SagemakerTrainingJob#ultra_server_id}
   */
   readonly ultraServerId?: string;
 }
@@ -4847,7 +4847,7 @@ export class SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementS
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4863,7 +4863,7 @@ export class SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementS
   }
 
   // ultra_server_id - computed: false, optional: true, required: false
-  private _ultraServerId?: string; 
+  private _ultraServerId?: string;
   public get ultraServerId() {
     return this.getStringAttribute('ultra_server_id');
   }
@@ -4900,13 +4900,13 @@ export class SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementS
 }
 export interface SagemakerTrainingJobResourceConfigInstancePlacementConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_multiple_jobs SagemakerTrainingJob#enable_multiple_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_multiple_jobs SagemakerTrainingJob#enable_multiple_jobs}
   */
   readonly enableMultipleJobs?: boolean | cdktn.IResolvable;
   /**
   * placement_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#placement_specifications SagemakerTrainingJob#placement_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#placement_specifications SagemakerTrainingJob#placement_specifications}
   */
   readonly placementSpecifications?: SagemakerTrainingJobResourceConfigInstancePlacementConfigPlacementSpecifications[] | cdktn.IResolvable;
 }
@@ -4998,7 +4998,7 @@ export class SagemakerTrainingJobResourceConfigInstancePlacementConfigOutputRefe
   }
 
   // enable_multiple_jobs - computed: false, optional: true, required: false
-  private _enableMultipleJobs?: boolean | cdktn.IResolvable; 
+  private _enableMultipleJobs?: boolean | cdktn.IResolvable;
   public get enableMultipleJobs() {
     return this.getBooleanAttribute('enable_multiple_jobs');
   }
@@ -5051,39 +5051,39 @@ export class SagemakerTrainingJobResourceConfigInstancePlacementConfigList exten
 }
 export interface SagemakerTrainingJobResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}
   */
   readonly trainingPlanArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
   * instance_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
   */
   readonly instanceGroups?: SagemakerTrainingJobResourceConfigInstanceGroups[] | cdktn.IResolvable;
   /**
   * instance_placement_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
   */
   readonly instancePlacementConfig?: SagemakerTrainingJobResourceConfigInstancePlacementConfig[] | cdktn.IResolvable;
 }
@@ -5253,7 +5253,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -5269,7 +5269,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5285,7 +5285,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // keep_alive_period_in_seconds - computed: true, optional: true, required: false
-  private _keepAlivePeriodInSeconds?: number; 
+  private _keepAlivePeriodInSeconds?: number;
   public get keepAlivePeriodInSeconds() {
     return this.getNumberAttribute('keep_alive_period_in_seconds');
   }
@@ -5301,7 +5301,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // training_plan_arn - computed: false, optional: true, required: false
-  private _trainingPlanArn?: string; 
+  private _trainingPlanArn?: string;
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -5317,7 +5317,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -5333,7 +5333,7 @@ export class SagemakerTrainingJobResourceConfigOutputReference extends cdktn.Com
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -5402,7 +5402,7 @@ export class SagemakerTrainingJobResourceConfigList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#maximum_retry_attempts SagemakerTrainingJob#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#maximum_retry_attempts SagemakerTrainingJob#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts: number;
 }
@@ -5481,7 +5481,7 @@ export class SagemakerTrainingJobRetryStrategyOutputReference extends cdktn.Comp
   }
 
   // maximum_retry_attempts - computed: false, optional: false, required: true
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -5515,33 +5515,33 @@ export class SagemakerTrainingJobRetryStrategyList extends cdktn.ComplexList {
 }
 export interface SagemakerTrainingJobServerlessJobConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}
   */
   readonly acceptEula?: boolean | cdktn.IResolvable;
   /**
   * Base model ARN in SageMaker Public Hub. SageMaker always selects the latest version of the provided model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#base_model_arn SagemakerTrainingJob#base_model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#base_model_arn SagemakerTrainingJob#base_model_arn}
   */
   readonly baseModelArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#customization_technique SagemakerTrainingJob#customization_technique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#customization_technique SagemakerTrainingJob#customization_technique}
   */
   readonly customizationTechnique?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#evaluation_type SagemakerTrainingJob#evaluation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#evaluation_type SagemakerTrainingJob#evaluation_type}
   */
   readonly evaluationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#evaluator_arn SagemakerTrainingJob#evaluator_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#evaluator_arn SagemakerTrainingJob#evaluator_arn}
   */
   readonly evaluatorArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#job_type SagemakerTrainingJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#job_type SagemakerTrainingJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#peft SagemakerTrainingJob#peft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#peft SagemakerTrainingJob#peft}
   */
   readonly peft?: string;
 }
@@ -5698,7 +5698,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // accept_eula - computed: false, optional: true, required: false
-  private _acceptEula?: boolean | cdktn.IResolvable; 
+  private _acceptEula?: boolean | cdktn.IResolvable;
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -5714,7 +5714,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // base_model_arn - computed: false, optional: false, required: true
-  private _baseModelArn?: string; 
+  private _baseModelArn?: string;
   public get baseModelArn() {
     return this.getStringAttribute('base_model_arn');
   }
@@ -5727,7 +5727,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // customization_technique - computed: false, optional: true, required: false
-  private _customizationTechnique?: string; 
+  private _customizationTechnique?: string;
   public get customizationTechnique() {
     return this.getStringAttribute('customization_technique');
   }
@@ -5743,7 +5743,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // evaluation_type - computed: false, optional: true, required: false
-  private _evaluationType?: string; 
+  private _evaluationType?: string;
   public get evaluationType() {
     return this.getStringAttribute('evaluation_type');
   }
@@ -5759,7 +5759,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // evaluator_arn - computed: false, optional: true, required: false
-  private _evaluatorArn?: string; 
+  private _evaluatorArn?: string;
   public get evaluatorArn() {
     return this.getStringAttribute('evaluator_arn');
   }
@@ -5775,7 +5775,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // job_type - computed: false, optional: false, required: true
-  private _jobType?: string; 
+  private _jobType?: string;
   public get jobType() {
     return this.getStringAttribute('job_type');
   }
@@ -5788,7 +5788,7 @@ export class SagemakerTrainingJobServerlessJobConfigOutputReference extends cdkt
   }
 
   // peft - computed: false, optional: true, required: false
-  private _peft?: string; 
+  private _peft?: string;
   public get peft() {
     return this.getStringAttribute('peft');
   }
@@ -5825,7 +5825,7 @@ export class SagemakerTrainingJobServerlessJobConfigList extends cdktn.ComplexLi
 }
 export interface SagemakerTrainingJobSessionChainingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#enable_session_tag_chaining SagemakerTrainingJob#enable_session_tag_chaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#enable_session_tag_chaining SagemakerTrainingJob#enable_session_tag_chaining}
   */
   readonly enableSessionTagChaining?: boolean | cdktn.IResolvable;
 }
@@ -5904,7 +5904,7 @@ export class SagemakerTrainingJobSessionChainingConfigOutputReference extends cd
   }
 
   // enable_session_tag_chaining - computed: false, optional: true, required: false
-  private _enableSessionTagChaining?: boolean | cdktn.IResolvable; 
+  private _enableSessionTagChaining?: boolean | cdktn.IResolvable;
   public get enableSessionTagChaining() {
     return this.getBooleanAttribute('enable_session_tag_chaining');
   }
@@ -5941,15 +5941,15 @@ export class SagemakerTrainingJobSessionChainingConfigList extends cdktn.Complex
 }
 export interface SagemakerTrainingJobStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#max_pending_time_in_seconds SagemakerTrainingJob#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#max_pending_time_in_seconds SagemakerTrainingJob#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#max_runtime_in_seconds SagemakerTrainingJob#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#max_runtime_in_seconds SagemakerTrainingJob#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#max_wait_time_in_seconds SagemakerTrainingJob#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#max_wait_time_in_seconds SagemakerTrainingJob#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -6054,7 +6054,7 @@ export class SagemakerTrainingJobStoppingConditionOutputReference extends cdktn.
   }
 
   // max_pending_time_in_seconds - computed: true, optional: true, required: false
-  private _maxPendingTimeInSeconds?: number; 
+  private _maxPendingTimeInSeconds?: number;
   public get maxPendingTimeInSeconds() {
     return this.getNumberAttribute('max_pending_time_in_seconds');
   }
@@ -6070,7 +6070,7 @@ export class SagemakerTrainingJobStoppingConditionOutputReference extends cdktn.
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -6086,7 +6086,7 @@ export class SagemakerTrainingJobStoppingConditionOutputReference extends cdktn.
   }
 
   // max_wait_time_in_seconds - computed: true, optional: true, required: false
-  private _maxWaitTimeInSeconds?: number; 
+  private _maxWaitTimeInSeconds?: number;
   public get maxWaitTimeInSeconds() {
     return this.getNumberAttribute('max_wait_time_in_seconds');
   }
@@ -6123,11 +6123,11 @@ export class SagemakerTrainingJobStoppingConditionList extends cdktn.ComplexList
 }
 export interface SagemakerTrainingJobTensorBoardOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#local_path SagemakerTrainingJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#s3_output_path SagemakerTrainingJob#s3_output_path}
   */
   readonly s3OutputPath: string;
 }
@@ -6219,7 +6219,7 @@ export class SagemakerTrainingJobTensorBoardOutputConfigOutputReference extends 
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -6235,7 +6235,7 @@ export class SagemakerTrainingJobTensorBoardOutputConfigOutputReference extends 
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -6271,19 +6271,19 @@ export interface SagemakerTrainingJobTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#create SagemakerTrainingJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#create SagemakerTrainingJob#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#delete SagemakerTrainingJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#delete SagemakerTrainingJob#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#update SagemakerTrainingJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#update SagemakerTrainingJob#update}
   */
   readonly update?: string;
 }
@@ -6386,7 +6386,7 @@ export class SagemakerTrainingJobTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -6402,7 +6402,7 @@ export class SagemakerTrainingJobTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -6418,7 +6418,7 @@ export class SagemakerTrainingJobTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -6435,11 +6435,11 @@ export class SagemakerTrainingJobTimeoutsOutputReference extends cdktn.ComplexOb
 }
 export interface SagemakerTrainingJobVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#security_group_ids SagemakerTrainingJob#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#security_group_ids SagemakerTrainingJob#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#subnets SagemakerTrainingJob#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#subnets SagemakerTrainingJob#subnets}
   */
   readonly subnets: string[];
 }
@@ -6531,7 +6531,7 @@ export class SagemakerTrainingJobVpcConfigOutputReference extends cdktn.ComplexO
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -6544,7 +6544,7 @@ export class SagemakerTrainingJobVpcConfigOutputReference extends cdktn.ComplexO
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -6578,7 +6578,7 @@ export class SagemakerTrainingJobVpcConfigList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job}
 */
 export class SagemakerTrainingJob extends cdktn.TerraformResource {
 
@@ -6594,7 +6594,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerTrainingJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerTrainingJob to import
-  * @param importFromId The id of the existing SagemakerTrainingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerTrainingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerTrainingJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6606,7 +6606,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6617,7 +6617,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_training_job',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6671,7 +6671,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // delete_model_packages_on_destroy - computed: false, optional: true, required: false
-  private _deleteModelPackagesOnDestroy?: boolean | cdktn.IResolvable; 
+  private _deleteModelPackagesOnDestroy?: boolean | cdktn.IResolvable;
   public get deleteModelPackagesOnDestroy() {
     return this.getBooleanAttribute('delete_model_packages_on_destroy');
   }
@@ -6687,7 +6687,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // delete_vpc_enis_on_destroy - computed: false, optional: true, required: false
-  private _deleteVpcEnisOnDestroy?: boolean | cdktn.IResolvable; 
+  private _deleteVpcEnisOnDestroy?: boolean | cdktn.IResolvable;
   public get deleteVpcEnisOnDestroy() {
     return this.getBooleanAttribute('delete_vpc_enis_on_destroy');
   }
@@ -6703,7 +6703,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -6719,7 +6719,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // enable_managed_spot_training - computed: true, optional: true, required: false
-  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable; 
+  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   public get enableManagedSpotTraining() {
     return this.getBooleanAttribute('enable_managed_spot_training');
   }
@@ -6735,7 +6735,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -6751,7 +6751,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -6767,7 +6767,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // hyper_parameters - computed: false, optional: true, required: false
-  private _hyperParameters?: { [key: string]: string }; 
+  private _hyperParameters?: { [key: string]: string };
   public get hyperParameters() {
     return this.getStringMapAttribute('hyper_parameters');
   }
@@ -6783,7 +6783,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -6799,7 +6799,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6812,7 +6812,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -6834,7 +6834,7 @@ export class SagemakerTrainingJob extends cdktn.TerraformResource {
   }
 
   // training_job_name - computed: false, optional: false, required: true
-  private _trainingJobName?: string; 
+  private _trainingJobName?: string;
   public get trainingJobName() {
     return this.getStringAttribute('training_job_name');
   }

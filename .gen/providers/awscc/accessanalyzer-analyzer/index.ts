@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AccessanalyzerAnalyzerConfig extends cdktn.TerraformMetaArgumen
   /**
   * The configuration for the analyzer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#analyzer_configuration AccessanalyzerAnalyzer#analyzer_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#analyzer_configuration AccessanalyzerAnalyzer#analyzer_configuration}
   */
   readonly analyzerConfiguration?: AccessanalyzerAnalyzerAnalyzerConfiguration;
   /**
   * Analyzer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#analyzer_name AccessanalyzerAnalyzer#analyzer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#analyzer_name AccessanalyzerAnalyzer#analyzer_name}
   */
   readonly analyzerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#archive_rules AccessanalyzerAnalyzer#archive_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#archive_rules AccessanalyzerAnalyzer#archive_rules}
   */
   readonly archiveRules?: AccessanalyzerAnalyzerArchiveRules[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#tags AccessanalyzerAnalyzer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#tags AccessanalyzerAnalyzer#tags}
   */
   readonly tags?: AccessanalyzerAnalyzerTags[] | cdktn.IResolvable;
   /**
   * The type of the analyzer, must be one of ACCOUNT, ORGANIZATION, ACCOUNT_INTERNAL_ACCESS, ORGANIZATION_INTERNAL_ACCESS, ACCOUNT_UNUSED_ACCESS and ORGANIZATION_UNUSED_ACCESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#type AccessanalyzerAnalyzer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#type AccessanalyzerAnalyzer#type}
   */
   readonly type: string;
 }
@@ -40,19 +40,19 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfig
   /**
   * A list of AWS account IDs to apply to the internal access analysis rule criteria. Account IDs can only be applied to the analysis rule criteria for organization-level analyzers and cannot include the organization owner account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#account_ids AccessanalyzerAnalyzer#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#account_ids AccessanalyzerAnalyzer#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * A list of resource ARNs to apply to the internal access analysis rule criteria. The analyzer will only generate findings for resources that match these ARNs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#resource_arns AccessanalyzerAnalyzer#resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#resource_arns AccessanalyzerAnalyzer#resource_arns}
   */
   readonly resourceArns?: string[];
   /**
   * A list of resource types to apply to the internal access analysis rule criteria. The analyzer will only generate findings for resources of these types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#resource_types AccessanalyzerAnalyzer#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#resource_types AccessanalyzerAnalyzer#resource_types}
   */
   readonly resourceTypes?: string[];
 }
@@ -157,7 +157,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[]; 
+  private _accountIds?: string[];
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -173,7 +173,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[]; 
+  private _resourceArns?: string[];
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -189,7 +189,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // resource_types - computed: true, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -228,7 +228,7 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfig
   /**
   * A list of rules for the internal access analyzer containing criteria to include in analysis. Only resources that meet the rule criteria will generate findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#inclusions AccessanalyzerAnalyzer#inclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#inclusions AccessanalyzerAnalyzer#inclusions}
   */
   readonly inclusions?: AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusions[] | cdktn.IResolvable;
 }
@@ -324,7 +324,7 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfig
   /**
   * Contains information about analysis rules for the internal access analyzer. Analysis rules determine which entities will generate findings based on the criteria you define when you create the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#internal_access_analysis_rule AccessanalyzerAnalyzer#internal_access_analysis_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#internal_access_analysis_rule AccessanalyzerAnalyzer#internal_access_analysis_rule}
   */
   readonly internalAccessAnalysisRule?: AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRule;
 }
@@ -501,17 +501,17 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigur
   /**
   * A list of AWS account IDs to apply to the analysis rule criteria. The accounts cannot include the organization analyzer owner account. Account IDs can only be applied to the analysis rule criteria for organization-level analyzers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#account_ids AccessanalyzerAnalyzer#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#account_ids AccessanalyzerAnalyzer#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * An array of key-value pairs to match for your resources. You can use the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
-  * 
+  *
   * For the tag key, you can specify a value that is 1 to 128 characters in length and cannot be prefixed with aws:.
-  * 
+  *
   * For the tag value, you can specify a value that is 0 to 256 characters in length. If the specified tag value is 0 characters, the rule is applied to all principals with the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#resource_tags AccessanalyzerAnalyzer#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#resource_tags AccessanalyzerAnalyzer#resource_tags}
   */
   readonly resourceTags?: AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTags[] | cdktn.IResolvable;
 }
@@ -603,7 +603,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguratio
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[]; 
+  private _accountIds?: string[];
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -658,7 +658,7 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigur
   /**
   * A list of rules for the analyzer containing criteria to exclude from analysis. Entities that meet the rule criteria will not generate findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#exclusions AccessanalyzerAnalyzer#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#exclusions AccessanalyzerAnalyzer#exclusions}
   */
   readonly exclusions?: AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusions[] | cdktn.IResolvable;
 }
@@ -754,13 +754,13 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigur
   /**
   * Contains information about rules for the analyzer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#analysis_rule AccessanalyzerAnalyzer#analysis_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#analysis_rule AccessanalyzerAnalyzer#analysis_rule}
   */
   readonly analysisRule?: AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRule;
   /**
   * The specified access age in days for which to generate findings for unused access. For example, if you specify 90 days, the analyzer will generate findings for IAM entities within the accounts of the selected organization for any access that hasn't been used in 90 or more days since the analyzer's last scan. You can choose a value between 1 and 365 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#unused_access_age AccessanalyzerAnalyzer#unused_access_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#unused_access_age AccessanalyzerAnalyzer#unused_access_age}
   */
   readonly unusedAccessAge?: number;
 }
@@ -866,7 +866,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguratio
   }
 
   // unused_access_age - computed: true, optional: true, required: false
-  private _unusedAccessAge?: number; 
+  private _unusedAccessAge?: number;
   public get unusedAccessAge() {
     return this.getNumberAttribute('unused_access_age');
   }
@@ -885,13 +885,13 @@ export interface AccessanalyzerAnalyzerAnalyzerConfiguration {
   /**
   * Specifies the configuration of an internal access analyzer for an AWS organization or account. This configuration determines how the analyzer evaluates internal access within your AWS environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#internal_access_configuration AccessanalyzerAnalyzer#internal_access_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#internal_access_configuration AccessanalyzerAnalyzer#internal_access_configuration}
   */
   readonly internalAccessConfiguration?: AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfiguration;
   /**
   * The Configuration for Unused Access Analyzer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#unused_access_configuration AccessanalyzerAnalyzer#unused_access_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#unused_access_configuration AccessanalyzerAnalyzer#unused_access_configuration}
   */
   readonly unusedAccessConfiguration?: AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguration;
 }
@@ -1014,23 +1014,23 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationOutputReference extends 
 }
 export interface AccessanalyzerAnalyzerArchiveRulesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#contains AccessanalyzerAnalyzer#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#contains AccessanalyzerAnalyzer#contains}
   */
   readonly contains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#eq AccessanalyzerAnalyzer#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#eq AccessanalyzerAnalyzer#eq}
   */
   readonly eq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#exists AccessanalyzerAnalyzer#exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#exists AccessanalyzerAnalyzer#exists}
   */
   readonly exists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#neq AccessanalyzerAnalyzer#neq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#neq AccessanalyzerAnalyzer#neq}
   */
   readonly neq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#property AccessanalyzerAnalyzer#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#property AccessanalyzerAnalyzer#property}
   */
   readonly property?: string;
 }
@@ -1161,7 +1161,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // contains - computed: true, optional: true, required: false
-  private _contains?: string[]; 
+  private _contains?: string[];
   public get contains() {
     return this.getListAttribute('contains');
   }
@@ -1177,7 +1177,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: string[]; 
+  private _eq?: string[];
   public get eq() {
     return this.getListAttribute('eq');
   }
@@ -1193,7 +1193,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // exists - computed: true, optional: true, required: false
-  private _exists?: boolean | cdktn.IResolvable; 
+  private _exists?: boolean | cdktn.IResolvable;
   public get exists() {
     return this.getBooleanAttribute('exists');
   }
@@ -1209,7 +1209,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // neq - computed: true, optional: true, required: false
-  private _neq?: string[]; 
+  private _neq?: string[];
   public get neq() {
     return this.getListAttribute('neq');
   }
@@ -1225,7 +1225,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // property - computed: true, optional: true, required: false
-  private _property?: string; 
+  private _property?: string;
   public get property() {
     return this.getStringAttribute('property');
   }
@@ -1262,13 +1262,13 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterList extends cdktn.ComplexL
 }
 export interface AccessanalyzerAnalyzerArchiveRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#filter AccessanalyzerAnalyzer#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#filter AccessanalyzerAnalyzer#filter}
   */
   readonly filter?: AccessanalyzerAnalyzerArchiveRulesFilter[] | cdktn.IResolvable;
   /**
   * The archive rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#rule_name AccessanalyzerAnalyzer#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#rule_name AccessanalyzerAnalyzer#rule_name}
   */
   readonly ruleName?: string;
 }
@@ -1376,7 +1376,7 @@ export class AccessanalyzerAnalyzerArchiveRulesOutputReference extends cdktn.Com
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string; 
+  private _ruleName?: string;
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1413,15 +1413,15 @@ export class AccessanalyzerAnalyzerArchiveRulesList extends cdktn.ComplexList {
 }
 export interface AccessanalyzerAnalyzerTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#key AccessanalyzerAnalyzer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#key AccessanalyzerAnalyzer#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#value AccessanalyzerAnalyzer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#value AccessanalyzerAnalyzer#value}
   */
   readonly value?: string;
 }
@@ -1513,7 +1513,7 @@ export class AccessanalyzerAnalyzerTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1529,7 +1529,7 @@ export class AccessanalyzerAnalyzerTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1566,7 +1566,7 @@ export class AccessanalyzerAnalyzerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}
 */
 export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
 
@@ -1582,7 +1582,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AccessanalyzerAnalyzer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessanalyzerAnalyzer to import
-  * @param importFromId The id of the existing AccessanalyzerAnalyzer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessanalyzerAnalyzer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessanalyzerAnalyzer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1594,7 +1594,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1605,7 +1605,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_accessanalyzer_analyzer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1643,7 +1643,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // analyzer_name - computed: true, optional: true, required: false
-  private _analyzerName?: string; 
+  private _analyzerName?: string;
   public get analyzerName() {
     return this.getStringAttribute('analyzer_name');
   }
@@ -1701,7 +1701,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

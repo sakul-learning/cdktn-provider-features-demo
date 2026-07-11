@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface Apigatewayv2RouteConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#api_id Apigatewayv2Route#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#api_id Apigatewayv2Route#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#api_key_required Apigatewayv2Route#api_key_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#api_key_required Apigatewayv2Route#api_key_required}
   */
   readonly apiKeyRequired?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#authorization_scopes Apigatewayv2Route#authorization_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#authorization_scopes Apigatewayv2Route#authorization_scopes}
   */
   readonly authorizationScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#authorization_type Apigatewayv2Route#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#authorization_type Apigatewayv2Route#authorization_type}
   */
   readonly authorizationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#authorizer_id Apigatewayv2Route#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#authorizer_id Apigatewayv2Route#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#id Apigatewayv2Route#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#id Apigatewayv2Route#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#model_selection_expression Apigatewayv2Route#model_selection_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#model_selection_expression Apigatewayv2Route#model_selection_expression}
   */
   readonly modelSelectionExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#operation_name Apigatewayv2Route#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#operation_name Apigatewayv2Route#operation_name}
   */
   readonly operationName?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#region Apigatewayv2Route#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#region Apigatewayv2Route#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#request_models Apigatewayv2Route#request_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#request_models Apigatewayv2Route#request_models}
   */
   readonly requestModels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#route_key Apigatewayv2Route#route_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#route_key Apigatewayv2Route#route_key}
   */
   readonly routeKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#route_response_selection_expression Apigatewayv2Route#route_response_selection_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#route_response_selection_expression Apigatewayv2Route#route_response_selection_expression}
   */
   readonly routeResponseSelectionExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#target Apigatewayv2Route#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#target Apigatewayv2Route#target}
   */
   readonly target?: string;
   /**
   * request_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#request_parameter Apigatewayv2Route#request_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#request_parameter Apigatewayv2Route#request_parameter}
   */
   readonly requestParameter?: Apigatewayv2RouteRequestParameter[] | cdktn.IResolvable;
 }
 export interface Apigatewayv2RouteRequestParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#request_parameter_key Apigatewayv2Route#request_parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#request_parameter_key Apigatewayv2Route#request_parameter_key}
   */
   readonly requestParameterKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#required Apigatewayv2Route#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#required Apigatewayv2Route#required}
   */
   readonly required: boolean | cdktn.IResolvable;
 }
@@ -169,7 +169,7 @@ export class Apigatewayv2RouteRequestParameterOutputReference extends cdktn.Comp
   }
 
   // request_parameter_key - computed: false, optional: false, required: true
-  private _requestParameterKey?: string; 
+  private _requestParameterKey?: string;
   public get requestParameterKey() {
     return this.getStringAttribute('request_parameter_key');
   }
@@ -182,7 +182,7 @@ export class Apigatewayv2RouteRequestParameterOutputReference extends cdktn.Comp
   }
 
   // required - computed: false, optional: false, required: true
-  private _required?: boolean | cdktn.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable;
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -216,7 +216,7 @@ export class Apigatewayv2RouteRequestParameterList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route aws_apigatewayv2_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route aws_apigatewayv2_route}
 */
 export class Apigatewayv2Route extends cdktn.TerraformResource {
 
@@ -232,7 +232,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2Route resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2Route to import
-  * @param importFromId The id of the existing Apigatewayv2Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -244,7 +244,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_route aws_apigatewayv2_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_route aws_apigatewayv2_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,7 +255,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
       terraformResourceType: 'aws_apigatewayv2_route',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -286,7 +286,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -299,7 +299,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // api_key_required - computed: false, optional: true, required: false
-  private _apiKeyRequired?: boolean | cdktn.IResolvable; 
+  private _apiKeyRequired?: boolean | cdktn.IResolvable;
   public get apiKeyRequired() {
     return this.getBooleanAttribute('api_key_required');
   }
@@ -315,7 +315,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorization_scopes - computed: false, optional: true, required: false
-  private _authorizationScopes?: string[]; 
+  private _authorizationScopes?: string[];
   public get authorizationScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('authorization_scopes'));
   }
@@ -331,7 +331,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorization_type - computed: false, optional: true, required: false
-  private _authorizationType?: string; 
+  private _authorizationType?: string;
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -347,7 +347,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorizer_id - computed: false, optional: true, required: false
-  private _authorizerId?: string; 
+  private _authorizerId?: string;
   public get authorizerId() {
     return this.getStringAttribute('authorizer_id');
   }
@@ -363,7 +363,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -379,7 +379,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // model_selection_expression - computed: false, optional: true, required: false
-  private _modelSelectionExpression?: string; 
+  private _modelSelectionExpression?: string;
   public get modelSelectionExpression() {
     return this.getStringAttribute('model_selection_expression');
   }
@@ -395,7 +395,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // operation_name - computed: false, optional: true, required: false
-  private _operationName?: string; 
+  private _operationName?: string;
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -411,7 +411,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -427,7 +427,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // request_models - computed: false, optional: true, required: false
-  private _requestModels?: { [key: string]: string }; 
+  private _requestModels?: { [key: string]: string };
   public get requestModels() {
     return this.getStringMapAttribute('request_models');
   }
@@ -443,7 +443,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // route_key - computed: false, optional: false, required: true
-  private _routeKey?: string; 
+  private _routeKey?: string;
   public get routeKey() {
     return this.getStringAttribute('route_key');
   }
@@ -456,7 +456,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // route_response_selection_expression - computed: false, optional: true, required: false
-  private _routeResponseSelectionExpression?: string; 
+  private _routeResponseSelectionExpression?: string;
   public get routeResponseSelectionExpression() {
     return this.getStringAttribute('route_response_selection_expression');
   }
@@ -472,7 +472,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // target - computed: false, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }

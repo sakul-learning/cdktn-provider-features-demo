@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktn from 'cdktn';
 
 export interface ComprehendDocumentClassifierConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#data_access_role_arn ComprehendDocumentClassifier#data_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#data_access_role_arn ComprehendDocumentClassifier#data_access_role_arn}
   */
   readonly dataAccessRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#id ComprehendDocumentClassifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#id ComprehendDocumentClassifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#language_code ComprehendDocumentClassifier#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#language_code ComprehendDocumentClassifier#language_code}
   */
   readonly languageCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#mode ComprehendDocumentClassifier#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#mode ComprehendDocumentClassifier#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#model_kms_key_id ComprehendDocumentClassifier#model_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#model_kms_key_id ComprehendDocumentClassifier#model_kms_key_id}
   */
   readonly modelKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#name ComprehendDocumentClassifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#name ComprehendDocumentClassifier#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#region ComprehendDocumentClassifier#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#region ComprehendDocumentClassifier#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#tags ComprehendDocumentClassifier#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#tags ComprehendDocumentClassifier#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#tags_all ComprehendDocumentClassifier#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#tags_all ComprehendDocumentClassifier#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#version_name ComprehendDocumentClassifier#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#version_name ComprehendDocumentClassifier#version_name}
   */
   readonly versionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#version_name_prefix ComprehendDocumentClassifier#version_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#version_name_prefix ComprehendDocumentClassifier#version_name_prefix}
   */
   readonly versionNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#volume_kms_key_id ComprehendDocumentClassifier#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#volume_kms_key_id ComprehendDocumentClassifier#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * input_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#input_data_config ComprehendDocumentClassifier#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#input_data_config ComprehendDocumentClassifier#input_data_config}
   */
   readonly inputDataConfig: ComprehendDocumentClassifierInputDataConfig;
   /**
   * output_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#output_data_config ComprehendDocumentClassifier#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#output_data_config ComprehendDocumentClassifier#output_data_config}
   */
   readonly outputDataConfig?: ComprehendDocumentClassifierOutputDataConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#timeouts ComprehendDocumentClassifier#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#timeouts ComprehendDocumentClassifier#timeouts}
   */
   readonly timeouts?: ComprehendDocumentClassifierTimeouts;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#vpc_config ComprehendDocumentClassifier#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#vpc_config ComprehendDocumentClassifier#vpc_config}
   */
   readonly vpcConfig?: ComprehendDocumentClassifierVpcConfig;
 }
 export interface ComprehendDocumentClassifierInputDataConfigAugmentedManifests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#annotation_data_s3_uri ComprehendDocumentClassifier#annotation_data_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#annotation_data_s3_uri ComprehendDocumentClassifier#annotation_data_s3_uri}
   */
   readonly annotationDataS3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#attribute_names ComprehendDocumentClassifier#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#attribute_names ComprehendDocumentClassifier#attribute_names}
   */
   readonly attributeNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#document_type ComprehendDocumentClassifier#document_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#document_type ComprehendDocumentClassifier#document_type}
   */
   readonly documentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
   */
   readonly s3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#source_documents_s3_uri ComprehendDocumentClassifier#source_documents_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#source_documents_s3_uri ComprehendDocumentClassifier#source_documents_s3_uri}
   */
   readonly sourceDocumentsS3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#split ComprehendDocumentClassifier#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#split ComprehendDocumentClassifier#split}
   */
   readonly split?: string;
 }
@@ -251,7 +251,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // annotation_data_s3_uri - computed: false, optional: true, required: false
-  private _annotationDataS3Uri?: string; 
+  private _annotationDataS3Uri?: string;
   public get annotationDataS3Uri() {
     return this.getStringAttribute('annotation_data_s3_uri');
   }
@@ -267,7 +267,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // attribute_names - computed: false, optional: false, required: true
-  private _attributeNames?: string[]; 
+  private _attributeNames?: string[];
   public get attributeNames() {
     return this.getListAttribute('attribute_names');
   }
@@ -280,7 +280,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // document_type - computed: false, optional: true, required: false
-  private _documentType?: string; 
+  private _documentType?: string;
   public get documentType() {
     return this.getStringAttribute('document_type');
   }
@@ -296,7 +296,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -309,7 +309,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // source_documents_s3_uri - computed: false, optional: true, required: false
-  private _sourceDocumentsS3Uri?: string; 
+  private _sourceDocumentsS3Uri?: string;
   public get sourceDocumentsS3Uri() {
     return this.getStringAttribute('source_documents_s3_uri');
   }
@@ -325,7 +325,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // split - computed: false, optional: true, required: false
-  private _split?: string; 
+  private _split?: string;
   public get split() {
     return this.getStringAttribute('split');
   }
@@ -362,25 +362,25 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsList e
 }
 export interface ComprehendDocumentClassifierInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#data_format ComprehendDocumentClassifier#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#data_format ComprehendDocumentClassifier#data_format}
   */
   readonly dataFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#label_delimiter ComprehendDocumentClassifier#label_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#label_delimiter ComprehendDocumentClassifier#label_delimiter}
   */
   readonly labelDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
   */
   readonly s3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#test_s3_uri ComprehendDocumentClassifier#test_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#test_s3_uri ComprehendDocumentClassifier#test_s3_uri}
   */
   readonly testS3Uri?: string;
   /**
   * augmented_manifests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#augmented_manifests ComprehendDocumentClassifier#augmented_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#augmented_manifests ComprehendDocumentClassifier#augmented_manifests}
   */
   readonly augmentedManifests?: ComprehendDocumentClassifierInputDataConfigAugmentedManifests[] | cdktn.IResolvable;
 }
@@ -499,7 +499,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // data_format - computed: false, optional: true, required: false
-  private _dataFormat?: string; 
+  private _dataFormat?: string;
   public get dataFormat() {
     return this.getStringAttribute('data_format');
   }
@@ -515,7 +515,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // label_delimiter - computed: true, optional: true, required: false
-  private _labelDelimiter?: string; 
+  private _labelDelimiter?: string;
   public get labelDelimiter() {
     return this.getStringAttribute('label_delimiter');
   }
@@ -531,7 +531,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // s3_uri - computed: false, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -547,7 +547,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // test_s3_uri - computed: false, optional: true, required: false
-  private _testS3Uri?: string; 
+  private _testS3Uri?: string;
   public get testS3Uri() {
     return this.getStringAttribute('test_s3_uri');
   }
@@ -580,11 +580,11 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
 }
 export interface ComprehendDocumentClassifierOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#kms_key_id ComprehendDocumentClassifier#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#kms_key_id ComprehendDocumentClassifier#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#s3_uri ComprehendDocumentClassifier#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -664,7 +664,7 @@ export class ComprehendDocumentClassifierOutputDataConfigOutputReference extends
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -685,7 +685,7 @@ export class ComprehendDocumentClassifierOutputDataConfigOutputReference extends
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -699,15 +699,15 @@ export class ComprehendDocumentClassifierOutputDataConfigOutputReference extends
 }
 export interface ComprehendDocumentClassifierTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#create ComprehendDocumentClassifier#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#create ComprehendDocumentClassifier#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#delete ComprehendDocumentClassifier#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#delete ComprehendDocumentClassifier#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#update ComprehendDocumentClassifier#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#update ComprehendDocumentClassifier#update}
   */
   readonly update?: string;
 }
@@ -810,7 +810,7 @@ export class ComprehendDocumentClassifierTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -826,7 +826,7 @@ export class ComprehendDocumentClassifierTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -842,7 +842,7 @@ export class ComprehendDocumentClassifierTimeoutsOutputReference extends cdktn.C
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -859,11 +859,11 @@ export class ComprehendDocumentClassifierTimeoutsOutputReference extends cdktn.C
 }
 export interface ComprehendDocumentClassifierVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#security_group_ids ComprehendDocumentClassifier#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#security_group_ids ComprehendDocumentClassifier#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#subnets ComprehendDocumentClassifier#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#subnets ComprehendDocumentClassifier#subnets}
   */
   readonly subnets: string[];
 }
@@ -943,7 +943,7 @@ export class ComprehendDocumentClassifierVpcConfigOutputReference extends cdktn.
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -956,7 +956,7 @@ export class ComprehendDocumentClassifierVpcConfigOutputReference extends cdktn.
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -970,7 +970,7 @@ export class ComprehendDocumentClassifierVpcConfigOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier aws_comprehend_document_classifier}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier aws_comprehend_document_classifier}
 */
 export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
 
@@ -986,7 +986,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ComprehendDocumentClassifier resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComprehendDocumentClassifier to import
-  * @param importFromId The id of the existing ComprehendDocumentClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComprehendDocumentClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComprehendDocumentClassifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -998,7 +998,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/comprehend_document_classifier aws_comprehend_document_classifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/comprehend_document_classifier aws_comprehend_document_classifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1009,7 +1009,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
       terraformResourceType: 'aws_comprehend_document_classifier',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1047,7 +1047,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // data_access_role_arn - computed: false, optional: false, required: true
-  private _dataAccessRoleArn?: string; 
+  private _dataAccessRoleArn?: string;
   public get dataAccessRoleArn() {
     return this.getStringAttribute('data_access_role_arn');
   }
@@ -1060,7 +1060,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1076,7 +1076,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string; 
+  private _languageCode?: string;
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -1089,7 +1089,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1105,7 +1105,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // model_kms_key_id - computed: false, optional: true, required: false
-  private _modelKmsKeyId?: string; 
+  private _modelKmsKeyId?: string;
   public get modelKmsKeyId() {
     return this.getStringAttribute('model_kms_key_id');
   }
@@ -1121,7 +1121,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1134,7 +1134,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1150,7 +1150,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1166,7 +1166,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1182,7 +1182,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string; 
+  private _versionName?: string;
   public get versionName() {
     return this.getStringAttribute('version_name');
   }
@@ -1198,7 +1198,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // version_name_prefix - computed: true, optional: true, required: false
-  private _versionNamePrefix?: string; 
+  private _versionNamePrefix?: string;
   public get versionNamePrefix() {
     return this.getStringAttribute('version_name_prefix');
   }
@@ -1214,7 +1214,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }

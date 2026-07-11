@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface StoragegatewayUploadBufferConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#disk_id StoragegatewayUploadBuffer#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#disk_id StoragegatewayUploadBuffer#disk_id}
   */
   readonly diskId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#disk_path StoragegatewayUploadBuffer#disk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#disk_path StoragegatewayUploadBuffer#disk_path}
   */
   readonly diskPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#gateway_arn StoragegatewayUploadBuffer#gateway_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#gateway_arn StoragegatewayUploadBuffer#gateway_arn}
   */
   readonly gatewayArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#id StoragegatewayUploadBuffer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#id StoragegatewayUploadBuffer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface StoragegatewayUploadBufferConfig extends cdktn.TerraformMetaArg
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#region StoragegatewayUploadBuffer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#region StoragegatewayUploadBuffer#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}
 */
 export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
 
@@ -51,7 +51,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StoragegatewayUploadBuffer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StoragegatewayUploadBuffer to import
-  * @param importFromId The id of the existing StoragegatewayUploadBuffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StoragegatewayUploadBuffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StoragegatewayUploadBuffer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -63,7 +63,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
       terraformResourceType: 'aws_storagegateway_upload_buffer',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -96,7 +96,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   // ==========
 
   // disk_id - computed: true, optional: true, required: false
-  private _diskId?: string; 
+  private _diskId?: string;
   public get diskId() {
     return this.getStringAttribute('disk_id');
   }
@@ -112,7 +112,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // disk_path - computed: true, optional: true, required: false
-  private _diskPath?: string; 
+  private _diskPath?: string;
   public get diskPath() {
     return this.getStringAttribute('disk_path');
   }
@@ -128,7 +128,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string; 
+  private _gatewayArn?: string;
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -141,7 +141,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -157,7 +157,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

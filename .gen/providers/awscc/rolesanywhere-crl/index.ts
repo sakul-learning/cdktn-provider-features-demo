@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface RolesanywhereCrlConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}
   */
   readonly crlData: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}
   */
   readonly tags?: RolesanywhereCrlTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}
   */
   readonly trustAnchorArn?: string;
 }
 export interface RolesanywhereCrlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class RolesanywhereCrlTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class RolesanywhereCrlTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class RolesanywhereCrlTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}
 */
 export class RolesanywhereCrl extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RolesanywhereCrl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RolesanywhereCrl to import
-  * @param importFromId The id of the existing RolesanywhereCrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RolesanywhereCrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RolesanywhereCrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rolesanywhere_crl',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -240,7 +240,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   // ==========
 
   // crl_data - computed: false, optional: false, required: true
-  private _crlData?: string; 
+  private _crlData?: string;
   public get crlData() {
     return this.getStringAttribute('crl_data');
   }
@@ -258,7 +258,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -279,7 +279,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // trust_anchor_arn - computed: true, optional: true, required: false
-  private _trustAnchorArn?: string; 
+  private _trustAnchorArn?: string;
   public get trustAnchorArn() {
     return this.getStringAttribute('trust_anchor_arn');
   }

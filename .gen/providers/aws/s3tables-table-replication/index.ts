@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface S3TablesTableReplicationConfig extends cdktn.TerraformMetaArgum
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#region S3TablesTableReplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#region S3TablesTableReplication#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#role S3TablesTableReplication#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#role S3TablesTableReplication#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#table_arn S3TablesTableReplication#table_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#table_arn S3TablesTableReplication#table_arn}
   */
   readonly tableArn: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#rule S3TablesTableReplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#rule S3TablesTableReplication#rule}
   */
   readonly rule?: S3TablesTableReplicationRule[] | cdktn.IResolvable;
 }
 export interface S3TablesTableReplicationRuleDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#destination_table_bucket_arn S3TablesTableReplication#destination_table_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#destination_table_bucket_arn S3TablesTableReplication#destination_table_bucket_arn}
   */
   readonly destinationTableBucketArn: string;
 }
@@ -109,7 +109,7 @@ export class S3TablesTableReplicationRuleDestinationOutputReference extends cdkt
   }
 
   // destination_table_bucket_arn - computed: false, optional: false, required: true
-  private _destinationTableBucketArn?: string; 
+  private _destinationTableBucketArn?: string;
   public get destinationTableBucketArn() {
     return this.getStringAttribute('destination_table_bucket_arn');
   }
@@ -145,7 +145,7 @@ export interface S3TablesTableReplicationRule {
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
   */
   readonly destination?: S3TablesTableReplicationRuleDestination[] | cdktn.IResolvable;
 }
@@ -261,7 +261,7 @@ export class S3TablesTableReplicationRuleList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication}
 */
 export class S3TablesTableReplication extends cdktn.TerraformResource {
 
@@ -277,7 +277,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3TablesTableReplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3TablesTableReplication to import
-  * @param importFromId The id of the existing S3TablesTableReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3TablesTableReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3TablesTableReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -289,7 +289,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,7 +300,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
       terraformResourceType: 'aws_s3tables_table_replication',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -321,7 +321,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -337,7 +337,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -350,7 +350,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   }
 
   // table_arn - computed: false, optional: false, required: true
-  private _tableArn?: string; 
+  private _tableArn?: string;
   public get tableArn() {
     return this.getStringAttribute('table_arn');
   }

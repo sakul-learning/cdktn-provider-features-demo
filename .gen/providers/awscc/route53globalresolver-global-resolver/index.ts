@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverGlobalResolverConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#client_token Route53GlobalresolverGlobalResolver#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#client_token Route53GlobalresolverGlobalResolver#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#description Route53GlobalresolverGlobalResolver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#description Route53GlobalresolverGlobalResolver#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#ip_address_type Route53GlobalresolverGlobalResolver#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#ip_address_type Route53GlobalresolverGlobalResolver#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#name Route53GlobalresolverGlobalResolver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#name Route53GlobalresolverGlobalResolver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#observability_region Route53GlobalresolverGlobalResolver#observability_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#observability_region Route53GlobalresolverGlobalResolver#observability_region}
   */
   readonly observabilityRegion?: string;
   /**
   * A list of regions the Global Resolver will exist in. This list cannot be updated and will stay fixed for the duration of the Global Resolver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#regions Route53GlobalresolverGlobalResolver#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#regions Route53GlobalresolverGlobalResolver#regions}
   */
   readonly regions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#tags Route53GlobalresolverGlobalResolver#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#tags Route53GlobalresolverGlobalResolver#tags}
   */
   readonly tags?: Route53GlobalresolverGlobalResolverTags[] | cdktn.IResolvable;
 }
 export interface Route53GlobalresolverGlobalResolverTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#key Route53GlobalresolverGlobalResolver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#key Route53GlobalresolverGlobalResolver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#value Route53GlobalresolverGlobalResolver#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#value Route53GlobalresolverGlobalResolver#value}
   */
   readonly value?: string;
 }
@@ -136,7 +136,7 @@ export class Route53GlobalresolverGlobalResolverTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class Route53GlobalresolverGlobalResolverTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -189,7 +189,7 @@ export class Route53GlobalresolverGlobalResolverTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}
 */
 export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource {
 
@@ -205,7 +205,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   * Generates CDKTN code for importing a Route53GlobalresolverGlobalResolver resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverGlobalResolver to import
-  * @param importFromId The id of the existing Route53GlobalresolverGlobalResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverGlobalResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverGlobalResolver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +217,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
       terraformResourceType: 'awscc_route53globalresolver_global_resolver',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -257,7 +257,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -278,7 +278,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -319,7 +319,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -335,7 +335,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -348,7 +348,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // observability_region - computed: true, optional: true, required: false
-  private _observabilityRegion?: string; 
+  private _observabilityRegion?: string;
   public get observabilityRegion() {
     return this.getStringAttribute('observability_region');
   }
@@ -364,7 +364,7 @@ export class Route53GlobalresolverGlobalResolver extends cdktn.TerraformResource
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return this.getListAttribute('regions');
   }

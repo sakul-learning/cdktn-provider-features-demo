@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface LogsLogGroupConfig extends cdktn.TerraformMetaArguments {
   * Creates a data protection policy and assigns it to the log group. A data protection policy can help safeguard sensitive data that's ingested by the log group by auditing and masking the sensitive log data. When a user who does not have permission to view masked data views a log event that includes masked data, the sensitive data is replaced by asterisks.
   *  For more information, including a list of types of data that can be audited and masked, see [Protect sensitive log data with masking](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/mask-sensitive-log-data.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#data_protection_policy LogsLogGroup#data_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#data_protection_policy LogsLogGroup#data_protection_policy}
   */
   readonly dataProtectionPolicy?: string;
   /**
@@ -20,47 +20,47 @@ export interface LogsLogGroupConfig extends cdktn.TerraformMetaArguments {
   *  If you attempt to associate a KMS key with the log group but the KMS key doesn't exist or is deactivated, you will receive an ``InvalidParameterException`` error.
   *  Log group data is always encrypted in CWL. If you omit this key, the encryption does not use KMS. For more information, see [Encrypt log data in using](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#kms_key_id LogsLogGroup#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#kms_key_id LogsLogGroup#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specifies the log group class for this log group. There are two classes:
   *   +  The ``Standard`` log class supports all CWL features.
   *   +  The ``Infrequent Access`` log class supports a subset of CWL features and incurs lower costs.
-  *   
+  *
   *  For details about the features supported by each class, see [Log classes](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatch_Logs_Log_Classes.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#log_group_class LogsLogGroup#log_group_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#log_group_class LogsLogGroup#log_group_class}
   */
   readonly logGroupClass?: string;
   /**
   * The name of the log group. If you don't specify a name, CFNlong generates a unique ID for the log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#log_group_name LogsLogGroup#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#log_group_name LogsLogGroup#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The number of days to retain the log events in the specified log group. Possible values are: 1, 3, 5, 7, 14, 30, 60, 90, 120, 150, 180, 365, 400, 545, 731, 1096, 1827, 2192, 2557, 2922, 3288, and 3653.
   *  To set a log group so that its log events do not expire, use [DeleteRetentionPolicy](https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteRetentionPolicy.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#retention_in_days LogsLogGroup#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#retention_in_days LogsLogGroup#retention_in_days}
   */
   readonly retentionInDays?: number;
   /**
   * An array of key-value pairs to apply to the log group.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#tags LogsLogGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#tags LogsLogGroup#tags}
   */
   readonly tags?: LogsLogGroupTags[] | cdktn.IResolvable;
 }
 export interface LogsLogGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#key LogsLogGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#key LogsLogGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#value LogsLogGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#value LogsLogGroup#value}
   */
   readonly value?: string;
 }
@@ -152,7 +152,7 @@ export class LogsLogGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class LogsLogGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -205,7 +205,7 @@ export class LogsLogGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group awscc_logs_log_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group awscc_logs_log_group}
 */
 export class LogsLogGroup extends cdktn.TerraformResource {
 
@@ -221,7 +221,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsLogGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsLogGroup to import
-  * @param importFromId The id of the existing LogsLogGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsLogGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsLogGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -233,7 +233,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_group awscc_logs_log_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group awscc_logs_log_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,7 +244,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_log_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -272,7 +272,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // data_protection_policy - computed: true, optional: true, required: false
-  private _dataProtectionPolicy?: string; 
+  private _dataProtectionPolicy?: string;
   public get dataProtectionPolicy() {
     return this.getStringAttribute('data_protection_policy');
   }
@@ -293,7 +293,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -309,7 +309,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // log_group_class - computed: true, optional: true, required: false
-  private _logGroupClass?: string; 
+  private _logGroupClass?: string;
   public get logGroupClass() {
     return this.getStringAttribute('log_group_class');
   }
@@ -325,7 +325,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string; 
+  private _logGroupName?: string;
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -341,7 +341,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // retention_in_days - computed: true, optional: true, required: false
-  private _retentionInDays?: number; 
+  private _retentionInDays?: number;
   public get retentionInDays() {
     return this.getNumberAttribute('retention_in_days');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface Ec2HostConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the Outpost hardware asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
   */
   readonly assetId?: string;
   /**
   * Indicates whether the host accepts any untargeted instance launches that match its instance type configuration, or if it only accepts Host tenancy instance launches that specify its unique host ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
   */
   readonly autoPlacement?: string;
   /**
   * The Availability Zone in which to allocate the Dedicated Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Automatically allocates a new dedicated host and moves your instances on to it if a degradation is detected on your current host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
   */
   readonly hostMaintenance?: string;
   /**
   * Indicates whether to enable or disable host recovery for the Dedicated Host. Host recovery is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
   */
   readonly hostRecovery?: string;
   /**
   * Specifies the instance family to be supported by the Dedicated Hosts. If you specify an instance family, the Dedicated Hosts support multiple instance types within that instance family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
   */
   readonly instanceFamily?: string;
   /**
   * Specifies the instance type to be supported by the Dedicated Hosts. If you specify an instance type, the Dedicated Hosts support instances of the specified instance type only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
   */
   readonly instanceType?: string;
   /**
   * The Amazon Resource Name (ARN) of the Amazon Web Services Outpost on which to allocate the Dedicated Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
   * Any tags assigned to the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#tags Ec2Host#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#tags Ec2Host#tags}
   */
   readonly tags?: Ec2HostTags[] | cdktn.IResolvable;
 }
 export interface Ec2HostTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#key Ec2Host#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#key Ec2Host#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#value Ec2Host#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#value Ec2Host#value}
   */
   readonly value?: string;
 }
@@ -160,7 +160,7 @@ export class Ec2HostTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -176,7 +176,7 @@ export class Ec2HostTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -213,7 +213,7 @@ export class Ec2HostTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host awscc_ec2_host}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host awscc_ec2_host}
 */
 export class Ec2Host extends cdktn.TerraformResource {
 
@@ -229,7 +229,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Host resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Host to import
-  * @param importFromId The id of the existing Ec2Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Host to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -241,7 +241,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_host awscc_ec2_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_host awscc_ec2_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,7 +252,7 @@ export class Ec2Host extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_host',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -278,7 +278,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   // ==========
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string; 
+  private _assetId?: string;
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -294,7 +294,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // auto_placement - computed: true, optional: true, required: false
-  private _autoPlacement?: string; 
+  private _autoPlacement?: string;
   public get autoPlacement() {
     return this.getStringAttribute('auto_placement');
   }
@@ -310,7 +310,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: false, optional: false, required: true
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -328,7 +328,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // host_maintenance - computed: true, optional: true, required: false
-  private _hostMaintenance?: string; 
+  private _hostMaintenance?: string;
   public get hostMaintenance() {
     return this.getStringAttribute('host_maintenance');
   }
@@ -344,7 +344,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // host_recovery - computed: true, optional: true, required: false
-  private _hostRecovery?: string; 
+  private _hostRecovery?: string;
   public get hostRecovery() {
     return this.getStringAttribute('host_recovery');
   }
@@ -365,7 +365,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string; 
+  private _instanceFamily?: string;
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -381,7 +381,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -397,7 +397,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }

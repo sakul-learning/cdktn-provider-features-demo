@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface IotsitewiseDashboardConfig extends cdktn.TerraformMetaArguments
   /**
   * The dashboard definition specified in a JSON literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#dashboard_definition IotsitewiseDashboard#dashboard_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#dashboard_definition IotsitewiseDashboard#dashboard_definition}
   */
   readonly dashboardDefinition: string;
   /**
   * A description for the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#dashboard_description IotsitewiseDashboard#dashboard_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#dashboard_description IotsitewiseDashboard#dashboard_description}
   */
   readonly dashboardDescription: string;
   /**
   * A friendly name for the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#dashboard_name IotsitewiseDashboard#dashboard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#dashboard_name IotsitewiseDashboard#dashboard_name}
   */
   readonly dashboardName: string;
   /**
   * The ID of the project in which to create the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#project_id IotsitewiseDashboard#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#project_id IotsitewiseDashboard#project_id}
   */
   readonly projectId?: string;
   /**
   * A list of key-value pairs that contain metadata for the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#tags IotsitewiseDashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#tags IotsitewiseDashboard#tags}
   */
   readonly tags?: IotsitewiseDashboardTags[] | cdktn.IResolvable;
 }
 export interface IotsitewiseDashboardTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#key IotsitewiseDashboard#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#value IotsitewiseDashboard#value}
   */
   readonly value?: string;
 }
@@ -136,7 +136,7 @@ export class IotsitewiseDashboardTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class IotsitewiseDashboardTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -189,7 +189,7 @@ export class IotsitewiseDashboardTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard}
 */
 export class IotsitewiseDashboard extends cdktn.TerraformResource {
 
@@ -205,7 +205,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewiseDashboard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewiseDashboard to import
-  * @param importFromId The id of the existing IotsitewiseDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewiseDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewiseDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +217,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -255,7 +255,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_definition - computed: false, optional: false, required: true
-  private _dashboardDefinition?: string; 
+  private _dashboardDefinition?: string;
   public get dashboardDefinition() {
     return this.getStringAttribute('dashboard_definition');
   }
@@ -268,7 +268,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_description - computed: false, optional: false, required: true
-  private _dashboardDescription?: string; 
+  private _dashboardDescription?: string;
   public get dashboardDescription() {
     return this.getStringAttribute('dashboard_description');
   }
@@ -286,7 +286,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_name - computed: false, optional: false, required: true
-  private _dashboardName?: string; 
+  private _dashboardName?: string;
   public get dashboardName() {
     return this.getStringAttribute('dashboard_name');
   }
@@ -304,7 +304,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // project_id - computed: true, optional: true, required: false
-  private _projectId?: string; 
+  private _projectId?: string;
   public get projectId() {
     return this.getStringAttribute('project_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LambdaCodeSigningConfigConfig extends cdktn.TerraformMetaArgume
   /**
   * When the CodeSigningConfig is later on attached to a function, the function code will be expected to be signed by profiles from this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#allowed_publishers LambdaCodeSigningConfig#allowed_publishers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#allowed_publishers LambdaCodeSigningConfig#allowed_publishers}
   */
   readonly allowedPublishers: LambdaCodeSigningConfigAllowedPublishers;
   /**
   * Policies to control how to act if a signature is invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#code_signing_policies LambdaCodeSigningConfig#code_signing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#code_signing_policies LambdaCodeSigningConfig#code_signing_policies}
   */
   readonly codeSigningPolicies?: LambdaCodeSigningConfigCodeSigningPolicies;
   /**
   * A description of the CodeSigningConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#description LambdaCodeSigningConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#description LambdaCodeSigningConfig#description}
   */
   readonly description?: string;
   /**
   * A list of tags to apply to CodeSigningConfig resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#tags LambdaCodeSigningConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#tags LambdaCodeSigningConfig#tags}
   */
   readonly tags?: LambdaCodeSigningConfigTags[] | cdktn.IResolvable;
 }
@@ -36,7 +36,7 @@ export interface LambdaCodeSigningConfigAllowedPublishers {
   /**
   * List of Signing profile version Arns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}
   */
   readonly signingProfileVersionArns: string[];
 }
@@ -113,7 +113,7 @@ export class LambdaCodeSigningConfigAllowedPublishersOutputReference extends cdk
   }
 
   // signing_profile_version_arns - computed: false, optional: false, required: true
-  private _signingProfileVersionArns?: string[]; 
+  private _signingProfileVersionArns?: string[];
   public get signingProfileVersionArns() {
     return this.getListAttribute('signing_profile_version_arns');
   }
@@ -129,7 +129,7 @@ export interface LambdaCodeSigningConfigCodeSigningPolicies {
   /**
   * Indicates how Lambda operations involve updating the code artifact will operate. Default to Warn if not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}
   */
   readonly untrustedArtifactOnDeployment?: string;
 }
@@ -206,7 +206,7 @@ export class LambdaCodeSigningConfigCodeSigningPoliciesOutputReference extends c
   }
 
   // untrusted_artifact_on_deployment - computed: true, optional: true, required: false
-  private _untrustedArtifactOnDeployment?: string; 
+  private _untrustedArtifactOnDeployment?: string;
   public get untrustedArtifactOnDeployment() {
     return this.getStringAttribute('untrusted_artifact_on_deployment');
   }
@@ -225,13 +225,13 @@ export interface LambdaCodeSigningConfigTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#key LambdaCodeSigningConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#key LambdaCodeSigningConfig#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#value LambdaCodeSigningConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#value LambdaCodeSigningConfig#value}
   */
   readonly value?: string;
 }
@@ -323,7 +323,7 @@ export class LambdaCodeSigningConfigTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -339,7 +339,7 @@ export class LambdaCodeSigningConfigTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -376,7 +376,7 @@ export class LambdaCodeSigningConfigTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}
 */
 export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
 
@@ -392,7 +392,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaCodeSigningConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaCodeSigningConfig to import
-  * @param importFromId The id of the existing LambdaCodeSigningConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaCodeSigningConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaCodeSigningConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -404,7 +404,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,7 +415,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_code_signing_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -475,7 +475,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }

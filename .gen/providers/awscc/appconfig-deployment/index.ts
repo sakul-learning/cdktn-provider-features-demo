@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface AppconfigDeploymentConfig extends cdktn.TerraformMetaArguments 
   /**
   * The application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#application_id AppconfigDeployment#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#application_id AppconfigDeployment#application_id}
   */
   readonly applicationId: string;
   /**
   * The configuration profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#configuration_profile_id AppconfigDeployment#configuration_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#configuration_profile_id AppconfigDeployment#configuration_profile_id}
   */
   readonly configurationProfileId: string;
   /**
   * The configuration version to deploy. If deploying an AWS AppConfig hosted configuration version, you can specify either the version number or version label. For all other configurations, you must specify the version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#configuration_version AppconfigDeployment#configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#configuration_version AppconfigDeployment#configuration_version}
   */
   readonly configurationVersion: string;
   /**
   * The deployment strategy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#deployment_strategy_id AppconfigDeployment#deployment_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#deployment_strategy_id AppconfigDeployment#deployment_strategy_id}
   */
   readonly deploymentStrategyId: string;
   /**
   * A description of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#description AppconfigDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#description AppconfigDeployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#dynamic_extension_parameters AppconfigDeployment#dynamic_extension_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#dynamic_extension_parameters AppconfigDeployment#dynamic_extension_parameters}
   */
   readonly dynamicExtensionParameters?: AppconfigDeploymentDynamicExtensionParameters[] | cdktn.IResolvable;
   /**
   * The environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#environment_id AppconfigDeployment#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#environment_id AppconfigDeployment#environment_id}
   */
   readonly environmentId: string;
   /**
   * The AWS Key Management Service key identifier (key ID, key alias, or key ARN) provided when the resource was created or updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#kms_key_identifier AppconfigDeployment#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#kms_key_identifier AppconfigDeployment#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#tags AppconfigDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#tags AppconfigDeployment#tags}
   */
   readonly tags?: AppconfigDeploymentTags[] | cdktn.IResolvable;
 }
 export interface AppconfigDeploymentDynamicExtensionParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#extension_reference AppconfigDeployment#extension_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#extension_reference AppconfigDeployment#extension_reference}
   */
   readonly extensionReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#parameter_name AppconfigDeployment#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#parameter_name AppconfigDeployment#parameter_name}
   */
   readonly parameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#parameter_value AppconfigDeployment#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#parameter_value AppconfigDeployment#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -175,7 +175,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // extension_reference - computed: true, optional: true, required: false
-  private _extensionReference?: string; 
+  private _extensionReference?: string;
   public get extensionReference() {
     return this.getStringAttribute('extension_reference');
   }
@@ -191,7 +191,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string; 
+  private _parameterName?: string;
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -207,7 +207,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string; 
+  private _parameterValue?: string;
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -246,13 +246,13 @@ export interface AppconfigDeploymentTags {
   /**
   * The key-value string map. The valid character set is [a-zA-Z1-9+-=._:/]. The tag key can be up to 128 characters and must not start with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#key AppconfigDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#key AppconfigDeployment#key}
   */
   readonly key?: string;
   /**
   * The tag value can be up to 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#value AppconfigDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#value AppconfigDeployment#value}
   */
   readonly value?: string;
 }
@@ -344,7 +344,7 @@ export class AppconfigDeploymentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -360,7 +360,7 @@ export class AppconfigDeploymentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -397,7 +397,7 @@ export class AppconfigDeploymentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment awscc_appconfig_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment awscc_appconfig_deployment}
 */
 export class AppconfigDeployment extends cdktn.TerraformResource {
 
@@ -413,7 +413,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppconfigDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppconfigDeployment to import
-  * @param importFromId The id of the existing AppconfigDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppconfigDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppconfigDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -425,7 +425,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment awscc_appconfig_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment awscc_appconfig_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,7 +436,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appconfig_deployment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -462,7 +462,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -475,7 +475,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // configuration_profile_id - computed: false, optional: false, required: true
-  private _configurationProfileId?: string; 
+  private _configurationProfileId?: string;
   public get configurationProfileId() {
     return this.getStringAttribute('configuration_profile_id');
   }
@@ -488,7 +488,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // configuration_version - computed: false, optional: false, required: true
-  private _configurationVersion?: string; 
+  private _configurationVersion?: string;
   public get configurationVersion() {
     return this.getStringAttribute('configuration_version');
   }
@@ -506,7 +506,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // deployment_strategy_id - computed: false, optional: false, required: true
-  private _deploymentStrategyId?: string; 
+  private _deploymentStrategyId?: string;
   public get deploymentStrategyId() {
     return this.getStringAttribute('deployment_strategy_id');
   }
@@ -519,7 +519,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -551,7 +551,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string; 
+  private _environmentId?: string;
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -569,7 +569,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string; 
+  private _kmsKeyIdentifier?: string;
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }

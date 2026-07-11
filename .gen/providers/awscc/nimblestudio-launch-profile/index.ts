@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface NimblestudioLaunchProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#description NimblestudioLaunchProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#description NimblestudioLaunchProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#ec_2_subnet_ids NimblestudioLaunchProfile#ec_2_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#ec_2_subnet_ids NimblestudioLaunchProfile#ec_2_subnet_ids}
   */
   readonly ec2SubnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#launch_profile_protocol_versions NimblestudioLaunchProfile#launch_profile_protocol_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#launch_profile_protocol_versions NimblestudioLaunchProfile#launch_profile_protocol_versions}
   */
   readonly launchProfileProtocolVersions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#name NimblestudioLaunchProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#name NimblestudioLaunchProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#stream_configuration NimblestudioLaunchProfile#stream_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#stream_configuration NimblestudioLaunchProfile#stream_configuration}
   */
   readonly streamConfiguration: NimblestudioLaunchProfileStreamConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#studio_component_ids NimblestudioLaunchProfile#studio_component_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#studio_component_ids NimblestudioLaunchProfile#studio_component_ids}
   */
   readonly studioComponentIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#studio_id NimblestudioLaunchProfile#studio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#studio_id NimblestudioLaunchProfile#studio_id}
   */
   readonly studioId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#tags NimblestudioLaunchProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#tags NimblestudioLaunchProfile#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface NimblestudioLaunchProfileStreamConfigurationSessionBackup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#max_backups_to_retain NimblestudioLaunchProfile#max_backups_to_retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#max_backups_to_retain NimblestudioLaunchProfile#max_backups_to_retain}
   */
   readonly maxBackupsToRetain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#mode NimblestudioLaunchProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#mode NimblestudioLaunchProfile#mode}
   */
   readonly mode?: string;
 }
@@ -136,7 +136,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionBackupOutputRefe
   }
 
   // max_backups_to_retain - computed: true, optional: true, required: false
-  private _maxBackupsToRetain?: number; 
+  private _maxBackupsToRetain?: number;
   public get maxBackupsToRetain() {
     return this.getNumberAttribute('max_backups_to_retain');
   }
@@ -152,7 +152,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionBackupOutputRefe
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -169,11 +169,11 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionBackupOutputRefe
 }
 export interface NimblestudioLaunchProfileStreamConfigurationSessionStorageRoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#linux NimblestudioLaunchProfile#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#linux NimblestudioLaunchProfile#linux}
   */
   readonly linux?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#windows NimblestudioLaunchProfile#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#windows NimblestudioLaunchProfile#windows}
   */
   readonly windows?: string;
 }
@@ -263,7 +263,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutpu
   }
 
   // linux - computed: true, optional: true, required: false
-  private _linux?: string; 
+  private _linux?: string;
   public get linux() {
     return this.getStringAttribute('linux');
   }
@@ -279,7 +279,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutpu
   }
 
   // windows - computed: true, optional: true, required: false
-  private _windows?: string; 
+  private _windows?: string;
   public get windows() {
     return this.getStringAttribute('windows');
   }
@@ -296,11 +296,11 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutpu
 }
 export interface NimblestudioLaunchProfileStreamConfigurationSessionStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#mode NimblestudioLaunchProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#mode NimblestudioLaunchProfile#mode}
   */
   readonly mode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#root NimblestudioLaunchProfile#root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#root NimblestudioLaunchProfile#root}
   */
   readonly root?: NimblestudioLaunchProfileStreamConfigurationSessionStorageRoot;
 }
@@ -390,7 +390,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageOutputRef
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string[]; 
+  private _mode?: string[];
   public get mode() {
     return this.getListAttribute('mode');
   }
@@ -423,15 +423,15 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageOutputRef
 }
 export interface NimblestudioLaunchProfileStreamConfigurationVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#iops NimblestudioLaunchProfile#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#iops NimblestudioLaunchProfile#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#size NimblestudioLaunchProfile#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#size NimblestudioLaunchProfile#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#throughput NimblestudioLaunchProfile#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#throughput NimblestudioLaunchProfile#throughput}
   */
   readonly throughput?: number;
 }
@@ -534,7 +534,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -550,7 +550,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -566,7 +566,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -583,43 +583,43 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
 }
 export interface NimblestudioLaunchProfileStreamConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#automatic_termination_mode NimblestudioLaunchProfile#automatic_termination_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#automatic_termination_mode NimblestudioLaunchProfile#automatic_termination_mode}
   */
   readonly automaticTerminationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#clipboard_mode NimblestudioLaunchProfile#clipboard_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#clipboard_mode NimblestudioLaunchProfile#clipboard_mode}
   */
   readonly clipboardMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#ec_2_instance_types NimblestudioLaunchProfile#ec_2_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#ec_2_instance_types NimblestudioLaunchProfile#ec_2_instance_types}
   */
   readonly ec2InstanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#max_session_length_in_minutes NimblestudioLaunchProfile#max_session_length_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#max_session_length_in_minutes NimblestudioLaunchProfile#max_session_length_in_minutes}
   */
   readonly maxSessionLengthInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#max_stopped_session_length_in_minutes NimblestudioLaunchProfile#max_stopped_session_length_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#max_stopped_session_length_in_minutes NimblestudioLaunchProfile#max_stopped_session_length_in_minutes}
   */
   readonly maxStoppedSessionLengthInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#session_backup NimblestudioLaunchProfile#session_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#session_backup NimblestudioLaunchProfile#session_backup}
   */
   readonly sessionBackup?: NimblestudioLaunchProfileStreamConfigurationSessionBackup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#session_persistence_mode NimblestudioLaunchProfile#session_persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#session_persistence_mode NimblestudioLaunchProfile#session_persistence_mode}
   */
   readonly sessionPersistenceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#session_storage NimblestudioLaunchProfile#session_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#session_storage NimblestudioLaunchProfile#session_storage}
   */
   readonly sessionStorage?: NimblestudioLaunchProfileStreamConfigurationSessionStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#streaming_image_ids NimblestudioLaunchProfile#streaming_image_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#streaming_image_ids NimblestudioLaunchProfile#streaming_image_ids}
   */
   readonly streamingImageIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#volume_configuration NimblestudioLaunchProfile#volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#volume_configuration NimblestudioLaunchProfile#volume_configuration}
   */
   readonly volumeConfiguration?: NimblestudioLaunchProfileStreamConfigurationVolumeConfiguration;
 }
@@ -813,7 +813,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // automatic_termination_mode - computed: true, optional: true, required: false
-  private _automaticTerminationMode?: string; 
+  private _automaticTerminationMode?: string;
   public get automaticTerminationMode() {
     return this.getStringAttribute('automatic_termination_mode');
   }
@@ -829,7 +829,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // clipboard_mode - computed: false, optional: false, required: true
-  private _clipboardMode?: string; 
+  private _clipboardMode?: string;
   public get clipboardMode() {
     return this.getStringAttribute('clipboard_mode');
   }
@@ -842,7 +842,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // ec_2_instance_types - computed: false, optional: false, required: true
-  private _ec2InstanceTypes?: string[]; 
+  private _ec2InstanceTypes?: string[];
   public get ec2InstanceTypes() {
     return this.getListAttribute('ec_2_instance_types');
   }
@@ -855,7 +855,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // max_session_length_in_minutes - computed: true, optional: true, required: false
-  private _maxSessionLengthInMinutes?: number; 
+  private _maxSessionLengthInMinutes?: number;
   public get maxSessionLengthInMinutes() {
     return this.getNumberAttribute('max_session_length_in_minutes');
   }
@@ -871,7 +871,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // max_stopped_session_length_in_minutes - computed: true, optional: true, required: false
-  private _maxStoppedSessionLengthInMinutes?: number; 
+  private _maxStoppedSessionLengthInMinutes?: number;
   public get maxStoppedSessionLengthInMinutes() {
     return this.getNumberAttribute('max_stopped_session_length_in_minutes');
   }
@@ -903,7 +903,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // session_persistence_mode - computed: true, optional: true, required: false
-  private _sessionPersistenceMode?: string; 
+  private _sessionPersistenceMode?: string;
   public get sessionPersistenceMode() {
     return this.getStringAttribute('session_persistence_mode');
   }
@@ -935,7 +935,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // streaming_image_ids - computed: false, optional: false, required: true
-  private _streamingImageIds?: string[]; 
+  private _streamingImageIds?: string[];
   public get streamingImageIds() {
     return this.getListAttribute('streaming_image_ids');
   }
@@ -965,7 +965,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}
 */
 export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
 
@@ -981,7 +981,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NimblestudioLaunchProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NimblestudioLaunchProfile to import
-  * @param importFromId The id of the existing NimblestudioLaunchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NimblestudioLaunchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NimblestudioLaunchProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -993,7 +993,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1004,7 +1004,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_nimblestudio_launch_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1029,7 +1029,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1045,7 +1045,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // ec_2_subnet_ids - computed: false, optional: false, required: true
-  private _ec2SubnetIds?: string[]; 
+  private _ec2SubnetIds?: string[];
   public get ec2SubnetIds() {
     return this.getListAttribute('ec_2_subnet_ids');
   }
@@ -1068,7 +1068,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // launch_profile_protocol_versions - computed: false, optional: false, required: true
-  private _launchProfileProtocolVersions?: string[]; 
+  private _launchProfileProtocolVersions?: string[];
   public get launchProfileProtocolVersions() {
     return this.getListAttribute('launch_profile_protocol_versions');
   }
@@ -1081,7 +1081,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1107,7 +1107,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // studio_component_ids - computed: false, optional: false, required: true
-  private _studioComponentIds?: string[]; 
+  private _studioComponentIds?: string[];
   public get studioComponentIds() {
     return this.getListAttribute('studio_component_ids');
   }
@@ -1120,7 +1120,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string; 
+  private _studioId?: string;
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }
@@ -1133,7 +1133,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

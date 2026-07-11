@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface GrafanaWorkspaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * These enums represent valid account access types. Specifically these enums determine whether the workspace can access AWS resources in the AWS account only, or whether it can also access resources in other accounts in the same organization. If the value CURRENT_ACCOUNT is used, a workspace role ARN must be provided. If the value is ORGANIZATION, a list of organizational units must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#account_access_type GrafanaWorkspace#account_access_type}
   */
   readonly accountAccessType: string;
   /**
   * List of authentication providers to enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#authentication_providers GrafanaWorkspace#authentication_providers}
   */
   readonly authenticationProviders: string[];
   /**
   * A unique, case-sensitive, user-provided identifier to ensure the idempotency of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#client_token GrafanaWorkspace#client_token}
   */
   readonly clientToken?: string;
   /**
   * List of data sources on the service managed IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#data_sources GrafanaWorkspace#data_sources}
   */
   readonly dataSources?: string[];
   /**
   * Description of a workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#description GrafanaWorkspace#description}
   */
   readonly description?: string;
   /**
   * The version of Grafana to support in your workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#grafana_version GrafanaWorkspace#grafana_version}
   */
   readonly grafanaVersion?: string;
   /**
   * The user friendly name of a workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
   */
   readonly name?: string;
   /**
   * The configuration settings for Network Access Control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#network_access_control GrafanaWorkspace#network_access_control}
   */
   readonly networkAccessControl?: GrafanaWorkspaceNetworkAccessControl;
   /**
   * List of notification destinations on the customers service managed IAM role that the Grafana workspace can query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#notification_destinations GrafanaWorkspace#notification_destinations}
   */
   readonly notificationDestinations?: string[];
   /**
   * The name of an IAM role that already exists to use with AWS Organizations to access AWS data sources and notification channels in other accounts in an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#organization_role_name GrafanaWorkspace#organization_role_name}
   */
   readonly organizationRoleName?: string;
   /**
   * List of Organizational Units containing AWS accounts the Grafana workspace can pull data from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#organizational_units GrafanaWorkspace#organizational_units}
   */
   readonly organizationalUnits?: string[];
   /**
   * These enums represent valid permission types to use when creating or configuring a Grafana workspace. The SERVICE_MANAGED permission type means the Managed Grafana service will create a workspace IAM role on your behalf. The CUSTOMER_MANAGED permission type means that the customer is expected to provide an IAM role that the Grafana workspace can use to query data sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#permission_type GrafanaWorkspace#permission_type}
   */
   readonly permissionType: string;
   /**
   * Allow workspace admins to install plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#plugin_admin_enabled GrafanaWorkspace#plugin_admin_enabled}
   */
   readonly pluginAdminEnabled?: boolean | cdktn.IResolvable;
   /**
   * IAM Role that will be used to grant the Grafana workspace access to a customers AWS resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#role_arn GrafanaWorkspace#role_arn}
   */
   readonly roleArn?: string;
   /**
   * SAML configuration data associated with an AMG workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#saml_configuration GrafanaWorkspace#saml_configuration}
   */
   readonly samlConfiguration?: GrafanaWorkspaceSamlConfiguration;
   /**
   * The name of the AWS CloudFormation stack set to use to generate IAM roles to be used for this workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#stack_set_name GrafanaWorkspace#stack_set_name}
   */
   readonly stackSetName?: string;
   /**
   * The configuration settings for an Amazon VPC that contains data sources for your Grafana workspace to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#vpc_configuration GrafanaWorkspace#vpc_configuration}
   */
   readonly vpcConfiguration?: GrafanaWorkspaceVpcConfiguration;
 }
@@ -114,13 +114,13 @@ export interface GrafanaWorkspaceNetworkAccessControl {
   /**
   * The list of prefix list IDs. A prefix list is a list of CIDR ranges of IP addresses. The IP addresses specified are allowed to access your workspace. If the list is not included in the configuration then no IP addresses will be allowed to access the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}
   */
   readonly prefixListIds?: string[];
   /**
   * The list of Amazon VPC endpoint IDs for the workspace. If a NetworkAccessConfiguration is specified then only VPC endpoints specified here will be allowed to access the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}
   */
   readonly vpceIds?: string[];
 }
@@ -210,7 +210,7 @@ export class GrafanaWorkspaceNetworkAccessControlOutputReference extends cdktn.C
   }
 
   // prefix_list_ids - computed: true, optional: true, required: false
-  private _prefixListIds?: string[]; 
+  private _prefixListIds?: string[];
   public get prefixListIds() {
     return cdktn.Fn.tolist(this.getListAttribute('prefix_list_ids'));
   }
@@ -226,7 +226,7 @@ export class GrafanaWorkspaceNetworkAccessControlOutputReference extends cdktn.C
   }
 
   // vpce_ids - computed: true, optional: true, required: false
-  private _vpceIds?: string[]; 
+  private _vpceIds?: string[];
   public get vpceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpce_ids'));
   }
@@ -245,37 +245,37 @@ export interface GrafanaWorkspaceSamlConfigurationAssertionAttributes {
   /**
   * Name of the attribute within the SAML assert to use as the users email in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#email GrafanaWorkspace#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#email GrafanaWorkspace#email}
   */
   readonly email?: string;
   /**
   * Name of the attribute within the SAML assert to use as the users groups in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#groups GrafanaWorkspace#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#groups GrafanaWorkspace#groups}
   */
   readonly groups?: string;
   /**
   * Name of the attribute within the SAML assert to use as the users login handle in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#login GrafanaWorkspace#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#login GrafanaWorkspace#login}
   */
   readonly login?: string;
   /**
   * Name of the attribute within the SAML assert to use as the users name in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#name GrafanaWorkspace#name}
   */
   readonly name?: string;
   /**
   * Name of the attribute within the SAML assert to use as the users organizations in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#org GrafanaWorkspace#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#org GrafanaWorkspace#org}
   */
   readonly org?: string;
   /**
   * Name of the attribute within the SAML assert to use as the users roles in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#role GrafanaWorkspace#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#role GrafanaWorkspace#role}
   */
   readonly role?: string;
 }
@@ -417,7 +417,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -433,7 +433,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string; 
+  private _groups?: string;
   public get groups() {
     return this.getStringAttribute('groups');
   }
@@ -449,7 +449,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // login - computed: true, optional: true, required: false
-  private _login?: string; 
+  private _login?: string;
   public get login() {
     return this.getStringAttribute('login');
   }
@@ -465,7 +465,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -481,7 +481,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // org - computed: true, optional: true, required: false
-  private _org?: string; 
+  private _org?: string;
   public get org() {
     return this.getStringAttribute('org');
   }
@@ -497,7 +497,7 @@ export class GrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -516,13 +516,13 @@ export interface GrafanaWorkspaceSamlConfigurationIdpMetadata {
   /**
   * URL that vends the IdPs metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#url GrafanaWorkspace#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#url GrafanaWorkspace#url}
   */
   readonly url?: string;
   /**
   * XML blob of the IdPs metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#xml GrafanaWorkspace#xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#xml GrafanaWorkspace#xml}
   */
   readonly xml?: string;
 }
@@ -612,7 +612,7 @@ export class GrafanaWorkspaceSamlConfigurationIdpMetadataOutputReference extends
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string; 
+  private _url?: string;
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -628,7 +628,7 @@ export class GrafanaWorkspaceSamlConfigurationIdpMetadataOutputReference extends
   }
 
   // xml - computed: true, optional: true, required: false
-  private _xml?: string; 
+  private _xml?: string;
   public get xml() {
     return this.getStringAttribute('xml');
   }
@@ -647,13 +647,13 @@ export interface GrafanaWorkspaceSamlConfigurationRoleValues {
   /**
   * List of SAML roles which will be mapped into the Grafana Admin role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#admin GrafanaWorkspace#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#admin GrafanaWorkspace#admin}
   */
   readonly admin?: string[];
   /**
   * List of SAML roles which will be mapped into the Grafana Editor role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#editor GrafanaWorkspace#editor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#editor GrafanaWorkspace#editor}
   */
   readonly editor?: string[];
 }
@@ -743,7 +743,7 @@ export class GrafanaWorkspaceSamlConfigurationRoleValuesOutputReference extends 
   }
 
   // admin - computed: true, optional: true, required: false
-  private _admin?: string[]; 
+  private _admin?: string[];
   public get admin() {
     return this.getListAttribute('admin');
   }
@@ -759,7 +759,7 @@ export class GrafanaWorkspaceSamlConfigurationRoleValuesOutputReference extends 
   }
 
   // editor - computed: true, optional: true, required: false
-  private _editor?: string[]; 
+  private _editor?: string[];
   public get editor() {
     return this.getListAttribute('editor');
   }
@@ -778,31 +778,31 @@ export interface GrafanaWorkspaceSamlConfiguration {
   /**
   * List of SAML organizations allowed to access Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#allowed_organizations GrafanaWorkspace#allowed_organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#allowed_organizations GrafanaWorkspace#allowed_organizations}
   */
   readonly allowedOrganizations?: string[];
   /**
   * Maps Grafana friendly names to the IdPs SAML attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#assertion_attributes GrafanaWorkspace#assertion_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#assertion_attributes GrafanaWorkspace#assertion_attributes}
   */
   readonly assertionAttributes?: GrafanaWorkspaceSamlConfigurationAssertionAttributes;
   /**
   * IdP Metadata used to configure SAML authentication in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#idp_metadata GrafanaWorkspace#idp_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#idp_metadata GrafanaWorkspace#idp_metadata}
   */
   readonly idpMetadata?: GrafanaWorkspaceSamlConfigurationIdpMetadata;
   /**
   * The maximum lifetime an authenticated user can be logged in (in minutes) before being required to re-authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#login_validity_duration GrafanaWorkspace#login_validity_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#login_validity_duration GrafanaWorkspace#login_validity_duration}
   */
   readonly loginValidityDuration?: number;
   /**
   * Maps SAML roles to the Grafana Editor and Admin roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#role_values GrafanaWorkspace#role_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#role_values GrafanaWorkspace#role_values}
   */
   readonly roleValues?: GrafanaWorkspaceSamlConfigurationRoleValues;
 }
@@ -931,7 +931,7 @@ export class GrafanaWorkspaceSamlConfigurationOutputReference extends cdktn.Comp
   }
 
   // allowed_organizations - computed: true, optional: true, required: false
-  private _allowedOrganizations?: string[]; 
+  private _allowedOrganizations?: string[];
   public get allowedOrganizations() {
     return this.getListAttribute('allowed_organizations');
   }
@@ -979,7 +979,7 @@ export class GrafanaWorkspaceSamlConfigurationOutputReference extends cdktn.Comp
   }
 
   // login_validity_duration - computed: true, optional: true, required: false
-  private _loginValidityDuration?: number; 
+  private _loginValidityDuration?: number;
   public get loginValidityDuration() {
     return this.getNumberAttribute('login_validity_duration');
   }
@@ -1014,13 +1014,13 @@ export interface GrafanaWorkspaceVpcConfiguration {
   /**
   * The list of Amazon EC2 security group IDs attached to the Amazon VPC for your Grafana workspace to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#security_group_ids GrafanaWorkspace#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#security_group_ids GrafanaWorkspace#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The list of Amazon EC2 subnet IDs created in the Amazon VPC for your Grafana workspace to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#subnet_ids GrafanaWorkspace#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#subnet_ids GrafanaWorkspace#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -1110,7 +1110,7 @@ export class GrafanaWorkspaceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1126,7 +1126,7 @@ export class GrafanaWorkspaceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1143,7 +1143,7 @@ export class GrafanaWorkspaceVpcConfigurationOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace awscc_grafana_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace awscc_grafana_workspace}
 */
 export class GrafanaWorkspace extends cdktn.TerraformResource {
 
@@ -1159,7 +1159,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GrafanaWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrafanaWorkspace to import
-  * @param importFromId The id of the existing GrafanaWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrafanaWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrafanaWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1171,7 +1171,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/grafana_workspace awscc_grafana_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/grafana_workspace awscc_grafana_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1182,7 +1182,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_grafana_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1216,7 +1216,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   // ==========
 
   // account_access_type - computed: false, optional: false, required: true
-  private _accountAccessType?: string; 
+  private _accountAccessType?: string;
   public get accountAccessType() {
     return this.getStringAttribute('account_access_type');
   }
@@ -1229,7 +1229,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // authentication_providers - computed: false, optional: false, required: true
-  private _authenticationProviders?: string[]; 
+  private _authenticationProviders?: string[];
   public get authenticationProviders() {
     return cdktn.Fn.tolist(this.getListAttribute('authentication_providers'));
   }
@@ -1242,7 +1242,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -1263,7 +1263,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // data_sources - computed: true, optional: true, required: false
-  private _dataSources?: string[]; 
+  private _dataSources?: string[];
   public get dataSources() {
     return this.getListAttribute('data_sources');
   }
@@ -1279,7 +1279,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1300,7 +1300,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // grafana_version - computed: true, optional: true, required: false
-  private _grafanaVersion?: string; 
+  private _grafanaVersion?: string;
   public get grafanaVersion() {
     return this.getStringAttribute('grafana_version');
   }
@@ -1326,7 +1326,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1358,7 +1358,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // notification_destinations - computed: true, optional: true, required: false
-  private _notificationDestinations?: string[]; 
+  private _notificationDestinations?: string[];
   public get notificationDestinations() {
     return this.getListAttribute('notification_destinations');
   }
@@ -1374,7 +1374,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // organization_role_name - computed: true, optional: true, required: false
-  private _organizationRoleName?: string; 
+  private _organizationRoleName?: string;
   public get organizationRoleName() {
     return this.getStringAttribute('organization_role_name');
   }
@@ -1390,7 +1390,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // organizational_units - computed: true, optional: true, required: false
-  private _organizationalUnits?: string[]; 
+  private _organizationalUnits?: string[];
   public get organizationalUnits() {
     return this.getListAttribute('organizational_units');
   }
@@ -1406,7 +1406,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // permission_type - computed: false, optional: false, required: true
-  private _permissionType?: string; 
+  private _permissionType?: string;
   public get permissionType() {
     return this.getStringAttribute('permission_type');
   }
@@ -1419,7 +1419,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // plugin_admin_enabled - computed: true, optional: true, required: false
-  private _pluginAdminEnabled?: boolean | cdktn.IResolvable; 
+  private _pluginAdminEnabled?: boolean | cdktn.IResolvable;
   public get pluginAdminEnabled() {
     return this.getBooleanAttribute('plugin_admin_enabled');
   }
@@ -1435,7 +1435,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1477,7 +1477,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // stack_set_name - computed: true, optional: true, required: false
-  private _stackSetName?: string; 
+  private _stackSetName?: string;
   public get stackSetName() {
     return this.getStringAttribute('stack_set_name');
   }

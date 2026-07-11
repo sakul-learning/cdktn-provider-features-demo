@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,44 +12,44 @@ export interface Ec2CustomerGatewayConfig extends cdktn.TerraformMetaArguments {
   *  Default: 65000
   *  Valid values: ``1`` to ``2,147,483,647``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#bgp_asn Ec2CustomerGateway#bgp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#bgp_asn Ec2CustomerGateway#bgp_asn}
   */
   readonly bgpAsn?: number;
   /**
   * For customer gateway devices that support BGP, specify the device's ASN. You must specify either ``BgpAsn`` or ``BgpAsnExtended`` when creating the customer gateway. If the ASN is larger than ``2,147,483,647``, you must use ``BgpAsnExtended``.
   *  Valid values: ``2,147,483,648`` to ``4,294,967,295``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#bgp_asn_extended Ec2CustomerGateway#bgp_asn_extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#bgp_asn_extended Ec2CustomerGateway#bgp_asn_extended}
   */
   readonly bgpAsnExtended?: number;
   /**
   * The Amazon Resource Name (ARN) for the customer gateway certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#certificate_arn Ec2CustomerGateway#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#certificate_arn Ec2CustomerGateway#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
   * The name of customer gateway device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#device_name Ec2CustomerGateway#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#device_name Ec2CustomerGateway#device_name}
   */
   readonly deviceName?: string;
   /**
   * The IP address for the customer gateway device's outside interface. The address must be static. If ``OutsideIpAddressType`` in your VPN connection options is set to ``PrivateIpv4``, you can use an RFC6598 or RFC1918 private IPv4 address. If ``OutsideIpAddressType`` is set to ``Ipv6``, you can use an IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#ip_address Ec2CustomerGateway#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#ip_address Ec2CustomerGateway#ip_address}
   */
   readonly ipAddress: string;
   /**
   * One or more tags for the customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#tags Ec2CustomerGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#tags Ec2CustomerGateway#tags}
   */
   readonly tags?: Ec2CustomerGatewayTags[] | cdktn.IResolvable;
   /**
   * The type of VPN connection that this customer gateway supports (``ipsec.1``).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#type Ec2CustomerGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#type Ec2CustomerGateway#type}
   */
   readonly type: string;
 }
@@ -57,13 +57,13 @@ export interface Ec2CustomerGatewayTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#key Ec2CustomerGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#key Ec2CustomerGateway#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#value Ec2CustomerGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#value Ec2CustomerGateway#value}
   */
   readonly value?: string;
 }
@@ -155,7 +155,7 @@ export class Ec2CustomerGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -171,7 +171,7 @@ export class Ec2CustomerGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -208,7 +208,7 @@ export class Ec2CustomerGatewayTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway}
 */
 export class Ec2CustomerGateway extends cdktn.TerraformResource {
 
@@ -224,7 +224,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2CustomerGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2CustomerGateway to import
-  * @param importFromId The id of the existing Ec2CustomerGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2CustomerGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2CustomerGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -236,7 +236,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,7 +247,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_customer_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -271,7 +271,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   // ==========
 
   // bgp_asn - computed: true, optional: true, required: false
-  private _bgpAsn?: number; 
+  private _bgpAsn?: number;
   public get bgpAsn() {
     return this.getNumberAttribute('bgp_asn');
   }
@@ -287,7 +287,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // bgp_asn_extended - computed: true, optional: true, required: false
-  private _bgpAsnExtended?: number; 
+  private _bgpAsnExtended?: number;
   public get bgpAsnExtended() {
     return this.getNumberAttribute('bgp_asn_extended');
   }
@@ -303,7 +303,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -324,7 +324,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -345,7 +345,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: false, optional: false, required: true
-  private _ipAddress?: string; 
+  private _ipAddress?: string;
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -374,7 +374,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

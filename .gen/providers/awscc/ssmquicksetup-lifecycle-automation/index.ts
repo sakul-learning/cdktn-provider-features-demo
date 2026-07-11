@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SsmquicksetupLifecycleAutomationConfig extends cdktn.TerraformM
   /**
   * The name of the Automation document to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation#automation_document SsmquicksetupLifecycleAutomation#automation_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation#automation_document SsmquicksetupLifecycleAutomation#automation_document}
   */
   readonly automationDocument: string;
   /**
   * Parameters to be passed to the Automation Document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation#automation_parameters SsmquicksetupLifecycleAutomation#automation_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation#automation_parameters SsmquicksetupLifecycleAutomation#automation_parameters}
   */
   readonly automationParameters: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * A unique identifier used for generating a unique logical ID for the custom resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation#resource_key SsmquicksetupLifecycleAutomation#resource_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation#resource_key SsmquicksetupLifecycleAutomation#resource_key}
   */
   readonly resourceKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation#tags SsmquicksetupLifecycleAutomation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation#tags SsmquicksetupLifecycleAutomation#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation}
 */
 export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmquicksetupLifecycleAutomation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmquicksetupLifecycleAutomation to import
-  * @param importFromId The id of the existing SsmquicksetupLifecycleAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmquicksetupLifecycleAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmquicksetupLifecycleAutomation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssmquicksetup_lifecycle_automation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,7 +97,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // automation_document - computed: false, optional: false, required: true
-  private _automationDocument?: string; 
+  private _automationDocument?: string;
   public get automationDocument() {
     return this.getStringAttribute('automation_document');
   }
@@ -110,7 +110,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // automation_parameters - computed: false, optional: false, required: true
-  private _automationParameters?: { [key: string]: string[] } | cdktn.IResolvable; 
+  private _automationParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   public get automationParameters() {
     return this.interpolationForAttribute('automation_parameters');
   }
@@ -128,7 +128,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // resource_key - computed: false, optional: false, required: true
-  private _resourceKey?: string; 
+  private _resourceKey?: string;
   public get resourceKey() {
     return this.getStringAttribute('resource_key');
   }
@@ -141,7 +141,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,224 @@ import * as cdktn from 'cdktn';
 
 export interface LambdaFunctionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}
   */
   readonly codeSha256?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}
   */
   readonly codeSigningConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#description LambdaFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#description LambdaFunction#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#filename LambdaFunction#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#filename LambdaFunction#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#handler LambdaFunction#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#handler LambdaFunction#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#id LambdaFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#id LambdaFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}
   */
   readonly imageUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#layers LambdaFunction#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#layers LambdaFunction#layers}
   */
   readonly layers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}
   */
   readonly memorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}
   */
   readonly packageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#publish LambdaFunction#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#publish LambdaFunction#publish}
   */
   readonly publish?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}
   */
   readonly publishTo?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#region LambdaFunction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#region LambdaFunction#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}
   */
   readonly replaceSecurityGroupsOnDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}
   */
   readonly replacementSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}
   */
   readonly reservedConcurrentExecutions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#role LambdaFunction#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#role LambdaFunction#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}
   */
   readonly runtime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}
   */
   readonly s3Key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}
   */
   readonly skipDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}
   */
   readonly sourceCodeHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}
   */
   readonly sourceKmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#tags LambdaFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#tags LambdaFunction#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}
   */
   readonly timeout?: number;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#use_resource_timeout_for_propagation LambdaFunction#use_resource_timeout_for_propagation}
+  */
+  readonly useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable;
+  /**
   * capacity_provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
   */
   readonly capacityProviderConfig?: LambdaFunctionCapacityProviderConfig;
   /**
   * dead_letter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
   */
   readonly deadLetterConfig?: LambdaFunctionDeadLetterConfig;
   /**
   * durable_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
   */
   readonly durableConfig?: LambdaFunctionDurableConfig;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#environment LambdaFunction#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#environment LambdaFunction#environment}
   */
   readonly environment?: LambdaFunctionEnvironment;
   /**
   * ephemeral_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
   */
   readonly ephemeralStorage?: LambdaFunctionEphemeralStorage;
   /**
   * file_system_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
   */
   readonly fileSystemConfig?: LambdaFunctionFileSystemConfig;
   /**
   * image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
   */
   readonly imageConfig?: LambdaFunctionImageConfig;
   /**
   * logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
   */
   readonly loggingConfig?: LambdaFunctionLoggingConfig;
   /**
   * snap_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
   */
   readonly snapStart?: LambdaFunctionSnapStart;
   /**
   * tenancy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
   */
   readonly tenancyConfig?: LambdaFunctionTenancyConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
   */
   readonly timeouts?: LambdaFunctionTimeouts;
   /**
   * tracing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
   */
   readonly tracingConfig?: LambdaFunctionTracingConfig;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
   */
   readonly vpcConfig?: LambdaFunctionVpcConfig;
 }
 export interface LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#capacity_provider_arn LambdaFunction#capacity_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#capacity_provider_arn LambdaFunction#capacity_provider_arn}
   */
   readonly capacityProviderArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#execution_environment_memory_gib_per_vcpu LambdaFunction#execution_environment_memory_gib_per_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#execution_environment_memory_gib_per_vcpu LambdaFunction#execution_environment_memory_gib_per_vcpu}
   */
   readonly executionEnvironmentMemoryGibPerVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#per_execution_environment_max_concurrency LambdaFunction#per_execution_environment_max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#per_execution_environment_max_concurrency LambdaFunction#per_execution_environment_max_concurrency}
   */
   readonly perExecutionEnvironmentMaxConcurrency?: number;
 }
@@ -314,7 +318,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // capacity_provider_arn - computed: false, optional: false, required: true
-  private _capacityProviderArn?: string; 
+  private _capacityProviderArn?: string;
   public get capacityProviderArn() {
     return this.getStringAttribute('capacity_provider_arn');
   }
@@ -327,7 +331,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // execution_environment_memory_gib_per_vcpu - computed: true, optional: true, required: false
-  private _executionEnvironmentMemoryGibPerVcpu?: number; 
+  private _executionEnvironmentMemoryGibPerVcpu?: number;
   public get executionEnvironmentMemoryGibPerVcpu() {
     return this.getNumberAttribute('execution_environment_memory_gib_per_vcpu');
   }
@@ -343,7 +347,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // per_execution_environment_max_concurrency - computed: true, optional: true, required: false
-  private _perExecutionEnvironmentMaxConcurrency?: number; 
+  private _perExecutionEnvironmentMaxConcurrency?: number;
   public get perExecutionEnvironmentMaxConcurrency() {
     return this.getNumberAttribute('per_execution_environment_max_concurrency');
   }
@@ -362,7 +366,7 @@ export interface LambdaFunctionCapacityProviderConfig {
   /**
   * lambda_managed_instances_capacity_provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#lambda_managed_instances_capacity_provider_config LambdaFunction#lambda_managed_instances_capacity_provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#lambda_managed_instances_capacity_provider_config LambdaFunction#lambda_managed_instances_capacity_provider_config}
   */
   readonly lambdaManagedInstancesCapacityProviderConfig: LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig;
 }
@@ -443,7 +447,7 @@ export class LambdaFunctionCapacityProviderConfigOutputReference extends cdktn.C
 }
 export interface LambdaFunctionDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#target_arn LambdaFunction#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#target_arn LambdaFunction#target_arn}
   */
   readonly targetArn: string;
 }
@@ -510,7 +514,7 @@ export class LambdaFunctionDeadLetterConfigOutputReference extends cdktn.Complex
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string; 
+  private _targetArn?: string;
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -524,11 +528,11 @@ export class LambdaFunctionDeadLetterConfigOutputReference extends cdktn.Complex
 }
 export interface LambdaFunctionDurableConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}
   */
   readonly executionTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#retention_period LambdaFunction#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#retention_period LambdaFunction#retention_period}
   */
   readonly retentionPeriod?: number;
 }
@@ -608,7 +612,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // execution_timeout - computed: false, optional: false, required: true
-  private _executionTimeout?: number; 
+  private _executionTimeout?: number;
   public get executionTimeout() {
     return this.getNumberAttribute('execution_timeout');
   }
@@ -621,7 +625,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // retention_period - computed: false, optional: true, required: false
-  private _retentionPeriod?: number; 
+  private _retentionPeriod?: number;
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -638,7 +642,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
 }
 export interface LambdaFunctionEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#variables LambdaFunction#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#variables LambdaFunction#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -705,7 +709,7 @@ export class LambdaFunctionEnvironmentOutputReference extends cdktn.ComplexObjec
   }
 
   // variables - computed: false, optional: true, required: false
-  private _variables?: { [key: string]: string }; 
+  private _variables?: { [key: string]: string };
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -722,7 +726,7 @@ export class LambdaFunctionEnvironmentOutputReference extends cdktn.ComplexObjec
 }
 export interface LambdaFunctionEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#size LambdaFunction#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#size LambdaFunction#size}
   */
   readonly size?: number;
 }
@@ -789,7 +793,7 @@ export class LambdaFunctionEphemeralStorageOutputReference extends cdktn.Complex
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -806,11 +810,11 @@ export class LambdaFunctionEphemeralStorageOutputReference extends cdktn.Complex
 }
 export interface LambdaFunctionFileSystemConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#arn LambdaFunction#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#arn LambdaFunction#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}
   */
   readonly localMountPath: string;
 }
@@ -890,7 +894,7 @@ export class LambdaFunctionFileSystemConfigOutputReference extends cdktn.Complex
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -903,7 +907,7 @@ export class LambdaFunctionFileSystemConfigOutputReference extends cdktn.Complex
   }
 
   // local_mount_path - computed: false, optional: false, required: true
-  private _localMountPath?: string; 
+  private _localMountPath?: string;
   public get localMountPath() {
     return this.getStringAttribute('local_mount_path');
   }
@@ -917,15 +921,15 @@ export class LambdaFunctionFileSystemConfigOutputReference extends cdktn.Complex
 }
 export interface LambdaFunctionImageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#command LambdaFunction#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#command LambdaFunction#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#entry_point LambdaFunction#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#entry_point LambdaFunction#entry_point}
   */
   readonly entryPoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#working_directory LambdaFunction#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#working_directory LambdaFunction#working_directory}
   */
   readonly workingDirectory?: string;
 }
@@ -1018,7 +1022,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -1034,7 +1038,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // entry_point - computed: false, optional: true, required: false
-  private _entryPoint?: string[]; 
+  private _entryPoint?: string[];
   public get entryPoint() {
     return this.getListAttribute('entry_point');
   }
@@ -1050,7 +1054,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // working_directory - computed: false, optional: true, required: false
-  private _workingDirectory?: string; 
+  private _workingDirectory?: string;
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }
@@ -1067,19 +1071,19 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
 }
 export interface LambdaFunctionLoggingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#application_log_level LambdaFunction#application_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#application_log_level LambdaFunction#application_log_level}
   */
   readonly applicationLogLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#log_format LambdaFunction#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#log_format LambdaFunction#log_format}
   */
   readonly logFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#log_group LambdaFunction#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#log_group LambdaFunction#log_group}
   */
   readonly logGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#system_log_level LambdaFunction#system_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#system_log_level LambdaFunction#system_log_level}
   */
   readonly systemLogLevel?: string;
 }
@@ -1185,7 +1189,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // application_log_level - computed: false, optional: true, required: false
-  private _applicationLogLevel?: string; 
+  private _applicationLogLevel?: string;
   public get applicationLogLevel() {
     return this.getStringAttribute('application_log_level');
   }
@@ -1201,7 +1205,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_format - computed: false, optional: false, required: true
-  private _logFormat?: string; 
+  private _logFormat?: string;
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -1214,7 +1218,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1230,7 +1234,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // system_log_level - computed: false, optional: true, required: false
-  private _systemLogLevel?: string; 
+  private _systemLogLevel?: string;
   public get systemLogLevel() {
     return this.getStringAttribute('system_log_level');
   }
@@ -1247,7 +1251,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
 }
 export interface LambdaFunctionSnapStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#apply_on LambdaFunction#apply_on}
   */
   readonly applyOn: string;
 }
@@ -1314,7 +1318,7 @@ export class LambdaFunctionSnapStartOutputReference extends cdktn.ComplexObject 
   }
 
   // apply_on - computed: false, optional: false, required: true
-  private _applyOn?: string; 
+  private _applyOn?: string;
   public get applyOn() {
     return this.getStringAttribute('apply_on');
   }
@@ -1333,7 +1337,7 @@ export class LambdaFunctionSnapStartOutputReference extends cdktn.ComplexObject 
 }
 export interface LambdaFunctionTenancyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#tenant_isolation_mode LambdaFunction#tenant_isolation_mode}
   */
   readonly tenantIsolationMode: string;
 }
@@ -1400,7 +1404,7 @@ export class LambdaFunctionTenancyConfigOutputReference extends cdktn.ComplexObj
   }
 
   // tenant_isolation_mode - computed: false, optional: false, required: true
-  private _tenantIsolationMode?: string; 
+  private _tenantIsolationMode?: string;
   public get tenantIsolationMode() {
     return this.getStringAttribute('tenant_isolation_mode');
   }
@@ -1414,15 +1418,15 @@ export class LambdaFunctionTenancyConfigOutputReference extends cdktn.ComplexObj
 }
 export interface LambdaFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#create LambdaFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#create LambdaFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#delete LambdaFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#delete LambdaFunction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#update LambdaFunction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#update LambdaFunction#update}
   */
   readonly update?: string;
 }
@@ -1525,7 +1529,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1541,7 +1545,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1557,7 +1561,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1574,7 +1578,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 export interface LambdaFunctionTracingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#mode LambdaFunction#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#mode LambdaFunction#mode}
   */
   readonly mode: string;
 }
@@ -1641,7 +1645,7 @@ export class LambdaFunctionTracingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1655,15 +1659,15 @@ export class LambdaFunctionTracingConfigOutputReference extends cdktn.ComplexObj
 }
 export interface LambdaFunctionVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#ipv6_allowed_for_dual_stack LambdaFunction#ipv6_allowed_for_dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#ipv6_allowed_for_dual_stack LambdaFunction#ipv6_allowed_for_dual_stack}
   */
   readonly ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#security_group_ids LambdaFunction#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#security_group_ids LambdaFunction#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#subnet_ids LambdaFunction#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#subnet_ids LambdaFunction#subnet_ids}
   */
   readonly subnetIds: string[];
 }
@@ -1756,7 +1760,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // ipv6_allowed_for_dual_stack - computed: false, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv6_allowed_for_dual_stack');
   }
@@ -1772,7 +1776,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1785,7 +1789,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1804,7 +1808,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function aws_lambda_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function aws_lambda_function}
 */
 export class LambdaFunction extends cdktn.TerraformResource {
 
@@ -1820,7 +1824,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaFunction to import
-  * @param importFromId The id of the existing LambdaFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1832,7 +1836,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function aws_lambda_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function aws_lambda_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1843,7 +1847,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lambda_function',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1883,6 +1887,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
     this._tags = config.tags;
     this._tagsAll = config.tagsAll;
     this._timeout = config.timeout;
+    this._useResourceTimeoutForPropagation = config.useResourceTimeoutForPropagation;
     this._capacityProviderConfig.internalValue = config.capacityProviderConfig;
     this._deadLetterConfig.internalValue = config.deadLetterConfig;
     this._durableConfig.internalValue = config.durableConfig;
@@ -1903,7 +1908,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   // ==========
 
   // architectures - computed: true, optional: true, required: false
-  private _architectures?: string[]; 
+  private _architectures?: string[];
   public get architectures() {
     return this.getListAttribute('architectures');
   }
@@ -1924,7 +1929,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // code_sha256 - computed: true, optional: true, required: false
-  private _codeSha256?: string; 
+  private _codeSha256?: string;
   public get codeSha256() {
     return this.getStringAttribute('code_sha256');
   }
@@ -1940,7 +1945,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // code_signing_config_arn - computed: false, optional: true, required: false
-  private _codeSigningConfigArn?: string; 
+  private _codeSigningConfigArn?: string;
   public get codeSigningConfigArn() {
     return this.getStringAttribute('code_signing_config_arn');
   }
@@ -1956,7 +1961,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1972,7 +1977,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // filename - computed: false, optional: true, required: false
-  private _filename?: string; 
+  private _filename?: string;
   public get filename() {
     return this.getStringAttribute('filename');
   }
@@ -1988,7 +1993,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string; 
+  private _functionName?: string;
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -2001,7 +2006,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // handler - computed: false, optional: true, required: false
-  private _handler?: string; 
+  private _handler?: string;
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -2017,7 +2022,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2033,7 +2038,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // image_uri - computed: false, optional: true, required: false
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -2054,7 +2059,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2075,7 +2080,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // layers - computed: false, optional: true, required: false
-  private _layers?: string[]; 
+  private _layers?: string[];
   public get layers() {
     return this.getListAttribute('layers');
   }
@@ -2091,7 +2096,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // memory_size - computed: false, optional: true, required: false
-  private _memorySize?: number; 
+  private _memorySize?: number;
   public get memorySize() {
     return this.getNumberAttribute('memory_size');
   }
@@ -2107,7 +2112,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // package_type - computed: false, optional: true, required: false
-  private _packageType?: string; 
+  private _packageType?: string;
   public get packageType() {
     return this.getStringAttribute('package_type');
   }
@@ -2123,7 +2128,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // publish - computed: false, optional: true, required: false
-  private _publish?: boolean | cdktn.IResolvable; 
+  private _publish?: boolean | cdktn.IResolvable;
   public get publish() {
     return this.getBooleanAttribute('publish');
   }
@@ -2139,7 +2144,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // publish_to - computed: false, optional: true, required: false
-  private _publishTo?: string; 
+  private _publishTo?: string;
   public get publishTo() {
     return this.getStringAttribute('publish_to');
   }
@@ -2165,7 +2170,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2181,7 +2186,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // replace_security_groups_on_destroy - computed: false, optional: true, required: false
-  private _replaceSecurityGroupsOnDestroy?: boolean | cdktn.IResolvable; 
+  private _replaceSecurityGroupsOnDestroy?: boolean | cdktn.IResolvable;
   public get replaceSecurityGroupsOnDestroy() {
     return this.getBooleanAttribute('replace_security_groups_on_destroy');
   }
@@ -2197,7 +2202,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // replacement_security_group_ids - computed: false, optional: true, required: false
-  private _replacementSecurityGroupIds?: string[]; 
+  private _replacementSecurityGroupIds?: string[];
   public get replacementSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('replacement_security_group_ids'));
   }
@@ -2213,7 +2218,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // reserved_concurrent_executions - computed: false, optional: true, required: false
-  private _reservedConcurrentExecutions?: number; 
+  private _reservedConcurrentExecutions?: number;
   public get reservedConcurrentExecutions() {
     return this.getNumberAttribute('reserved_concurrent_executions');
   }
@@ -2234,7 +2239,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -2247,7 +2252,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // runtime - computed: false, optional: true, required: false
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -2263,7 +2268,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: true, required: false
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -2279,7 +2284,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_key - computed: false, optional: true, required: false
-  private _s3Key?: string; 
+  private _s3Key?: string;
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -2295,7 +2300,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_object_version - computed: false, optional: true, required: false
-  private _s3ObjectVersion?: string; 
+  private _s3ObjectVersion?: string;
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -2321,7 +2326,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable; 
+  private _skipDestroy?: boolean | cdktn.IResolvable;
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -2337,7 +2342,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // source_code_hash - computed: true, optional: true, required: false
-  private _sourceCodeHash?: string; 
+  private _sourceCodeHash?: string;
   public get sourceCodeHash() {
     return this.getStringAttribute('source_code_hash');
   }
@@ -2358,7 +2363,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // source_kms_key_arn - computed: false, optional: true, required: false
-  private _sourceKmsKeyArn?: string; 
+  private _sourceKmsKeyArn?: string;
   public get sourceKmsKeyArn() {
     return this.getStringAttribute('source_kms_key_arn');
   }
@@ -2374,7 +2379,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2390,7 +2395,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2406,7 +2411,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // timeout - computed: false, optional: true, required: false
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -2419,6 +2424,22 @@ export class LambdaFunction extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get timeoutInput() {
     return this._timeout;
+  }
+
+  // use_resource_timeout_for_propagation - computed: false, optional: true, required: false
+  private _useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable;
+  public get useResourceTimeoutForPropagation() {
+    return this.getBooleanAttribute('use_resource_timeout_for_propagation');
+  }
+  public set useResourceTimeoutForPropagation(value: boolean | cdktn.IResolvable) {
+    this._useResourceTimeoutForPropagation = value;
+  }
+  public resetUseResourceTimeoutForPropagation() {
+    this._useResourceTimeoutForPropagation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useResourceTimeoutForPropagationInput() {
+    return this._useResourceTimeoutForPropagation;
   }
 
   // version - computed: true, optional: false, required: false
@@ -2670,6 +2691,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
       tags_all: cdktn.hashMapper(cdktn.stringToTerraform)(this._tagsAll),
       timeout: cdktn.numberToTerraform(this._timeout),
+      use_resource_timeout_for_propagation: cdktn.booleanToTerraform(this._useResourceTimeoutForPropagation),
       capacity_provider_config: lambdaFunctionCapacityProviderConfigToTerraform(this._capacityProviderConfig.internalValue),
       dead_letter_config: lambdaFunctionDeadLetterConfigToTerraform(this._deadLetterConfig.internalValue),
       durable_config: lambdaFunctionDurableConfigToTerraform(this._durableConfig.internalValue),
@@ -2867,6 +2889,12 @@ export class LambdaFunction extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      use_resource_timeout_for_propagation: {
+        value: cdktn.booleanToHclTerraform(this._useResourceTimeoutForPropagation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       capacity_provider_config: {
         value: lambdaFunctionCapacityProviderConfigToHclTerraform(this._capacityProviderConfig.internalValue),

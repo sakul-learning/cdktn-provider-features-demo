@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightThemeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
   */
   readonly baseThemeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#id QuicksightTheme#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#id QuicksightTheme#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#region QuicksightTheme#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#region QuicksightTheme#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#tags_all QuicksightTheme#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#tags_all QuicksightTheme#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
   */
   readonly themeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
   */
   readonly versionDescription?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
   */
   readonly configuration?: QuicksightThemeConfiguration;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
   */
   readonly permissions?: QuicksightThemePermissions[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#timeouts QuicksightTheme#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#timeouts QuicksightTheme#timeouts}
   */
   readonly timeouts?: QuicksightThemeTimeouts;
 }
 export interface QuicksightThemeConfigurationDataColorPalette {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
   */
   readonly colors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
   */
   readonly emptyFillColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
   */
   readonly minMaxGradient?: string[];
 }
@@ -170,7 +170,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // colors - computed: false, optional: true, required: false
-  private _colors?: string[]; 
+  private _colors?: string[];
   public get colors() {
     return this.getListAttribute('colors');
   }
@@ -186,7 +186,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // empty_fill_color - computed: false, optional: true, required: false
-  private _emptyFillColor?: string; 
+  private _emptyFillColor?: string;
   public get emptyFillColor() {
     return this.getStringAttribute('empty_fill_color');
   }
@@ -202,7 +202,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // min_max_gradient - computed: false, optional: true, required: false
-  private _minMaxGradient?: string[]; 
+  private _minMaxGradient?: string[];
   public get minMaxGradient() {
     return this.getListAttribute('min_max_gradient');
   }
@@ -219,7 +219,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
 }
 export interface QuicksightThemeConfigurationSheetTileBorder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -286,7 +286,7 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
   }
 
   // show - computed: false, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -305,7 +305,7 @@ export interface QuicksightThemeConfigurationSheetTile {
   /**
   * border block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
   */
   readonly border?: QuicksightThemeConfigurationSheetTileBorder;
 }
@@ -389,7 +389,7 @@ export class QuicksightThemeConfigurationSheetTileOutputReference extends cdktn.
 }
 export interface QuicksightThemeConfigurationSheetTileLayoutGutter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -456,7 +456,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference ex
   }
 
   // show - computed: false, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -473,7 +473,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference ex
 }
 export interface QuicksightThemeConfigurationSheetTileLayoutMargin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -540,7 +540,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference ex
   }
 
   // show - computed: false, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -559,13 +559,13 @@ export interface QuicksightThemeConfigurationSheetTileLayout {
   /**
   * gutter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
   */
   readonly gutter?: QuicksightThemeConfigurationSheetTileLayoutGutter;
   /**
   * margin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
   */
   readonly margin?: QuicksightThemeConfigurationSheetTileLayoutMargin;
 }
@@ -680,13 +680,13 @@ export interface QuicksightThemeConfigurationSheet {
   /**
   * tile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
   */
   readonly tile?: QuicksightThemeConfigurationSheetTile;
   /**
   * tile_layout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
   */
   readonly tileLayout?: QuicksightThemeConfigurationSheetTileLayout;
 }
@@ -799,7 +799,7 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
 }
 export interface QuicksightThemeConfigurationTypographyFontFamilies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
   */
   readonly fontFamily?: string;
 }
@@ -878,7 +878,7 @@ export class QuicksightThemeConfigurationTypographyFontFamiliesOutputReference e
   }
 
   // font_family - computed: false, optional: true, required: false
-  private _fontFamily?: string; 
+  private _fontFamily?: string;
   public get fontFamily() {
     return this.getStringAttribute('font_family');
   }
@@ -917,7 +917,7 @@ export interface QuicksightThemeConfigurationTypography {
   /**
   * font_families block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
   */
   readonly fontFamilies?: QuicksightThemeConfigurationTypographyFontFamilies[] | cdktn.IResolvable;
 }
@@ -1001,67 +1001,67 @@ export class QuicksightThemeConfigurationTypographyOutputReference extends cdktn
 }
 export interface QuicksightThemeConfigurationUiColorPalette {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
   */
   readonly accent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
   */
   readonly accentForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
   */
   readonly danger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
   */
   readonly dangerForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
   */
   readonly dimension?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
   */
   readonly dimensionForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
   */
   readonly measure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
   */
   readonly measureForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
   */
   readonly primaryBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
   */
   readonly primaryForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
   */
   readonly secondaryBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
   */
   readonly secondaryForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
   */
   readonly success?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
   */
   readonly successForeground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
   */
   readonly warning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
   */
   readonly warningForeground?: string;
 }
@@ -1323,7 +1323,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent - computed: false, optional: true, required: false
-  private _accent?: string; 
+  private _accent?: string;
   public get accent() {
     return this.getStringAttribute('accent');
   }
@@ -1339,7 +1339,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent_foreground - computed: false, optional: true, required: false
-  private _accentForeground?: string; 
+  private _accentForeground?: string;
   public get accentForeground() {
     return this.getStringAttribute('accent_foreground');
   }
@@ -1355,7 +1355,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger - computed: false, optional: true, required: false
-  private _danger?: string; 
+  private _danger?: string;
   public get danger() {
     return this.getStringAttribute('danger');
   }
@@ -1371,7 +1371,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger_foreground - computed: false, optional: true, required: false
-  private _dangerForeground?: string; 
+  private _dangerForeground?: string;
   public get dangerForeground() {
     return this.getStringAttribute('danger_foreground');
   }
@@ -1387,7 +1387,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension - computed: false, optional: true, required: false
-  private _dimension?: string; 
+  private _dimension?: string;
   public get dimension() {
     return this.getStringAttribute('dimension');
   }
@@ -1403,7 +1403,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension_foreground - computed: false, optional: true, required: false
-  private _dimensionForeground?: string; 
+  private _dimensionForeground?: string;
   public get dimensionForeground() {
     return this.getStringAttribute('dimension_foreground');
   }
@@ -1419,7 +1419,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure - computed: false, optional: true, required: false
-  private _measure?: string; 
+  private _measure?: string;
   public get measure() {
     return this.getStringAttribute('measure');
   }
@@ -1435,7 +1435,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure_foreground - computed: false, optional: true, required: false
-  private _measureForeground?: string; 
+  private _measureForeground?: string;
   public get measureForeground() {
     return this.getStringAttribute('measure_foreground');
   }
@@ -1451,7 +1451,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_background - computed: false, optional: true, required: false
-  private _primaryBackground?: string; 
+  private _primaryBackground?: string;
   public get primaryBackground() {
     return this.getStringAttribute('primary_background');
   }
@@ -1467,7 +1467,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_foreground - computed: false, optional: true, required: false
-  private _primaryForeground?: string; 
+  private _primaryForeground?: string;
   public get primaryForeground() {
     return this.getStringAttribute('primary_foreground');
   }
@@ -1483,7 +1483,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_background - computed: false, optional: true, required: false
-  private _secondaryBackground?: string; 
+  private _secondaryBackground?: string;
   public get secondaryBackground() {
     return this.getStringAttribute('secondary_background');
   }
@@ -1499,7 +1499,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_foreground - computed: false, optional: true, required: false
-  private _secondaryForeground?: string; 
+  private _secondaryForeground?: string;
   public get secondaryForeground() {
     return this.getStringAttribute('secondary_foreground');
   }
@@ -1515,7 +1515,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success - computed: false, optional: true, required: false
-  private _success?: string; 
+  private _success?: string;
   public get success() {
     return this.getStringAttribute('success');
   }
@@ -1531,7 +1531,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success_foreground - computed: false, optional: true, required: false
-  private _successForeground?: string; 
+  private _successForeground?: string;
   public get successForeground() {
     return this.getStringAttribute('success_foreground');
   }
@@ -1547,7 +1547,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning - computed: false, optional: true, required: false
-  private _warning?: string; 
+  private _warning?: string;
   public get warning() {
     return this.getStringAttribute('warning');
   }
@@ -1563,7 +1563,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning_foreground - computed: false, optional: true, required: false
-  private _warningForeground?: string; 
+  private _warningForeground?: string;
   public get warningForeground() {
     return this.getStringAttribute('warning_foreground');
   }
@@ -1582,25 +1582,25 @@ export interface QuicksightThemeConfiguration {
   /**
   * data_color_palette block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
   */
   readonly dataColorPalette?: QuicksightThemeConfigurationDataColorPalette;
   /**
   * sheet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
   */
   readonly sheet?: QuicksightThemeConfigurationSheet;
   /**
   * typography block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
   */
   readonly typography?: QuicksightThemeConfigurationTypography;
   /**
   * ui_color_palette block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
   */
   readonly uiColorPalette?: QuicksightThemeConfigurationUiColorPalette;
 }
@@ -1771,11 +1771,11 @@ export class QuicksightThemeConfigurationOutputReference extends cdktn.ComplexOb
 }
 export interface QuicksightThemePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
   */
   readonly principal: string;
 }
@@ -1867,7 +1867,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -1880,7 +1880,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -1914,15 +1914,15 @@ export class QuicksightThemePermissionsList extends cdktn.ComplexList {
 }
 export interface QuicksightThemeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#create QuicksightTheme#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#create QuicksightTheme#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#delete QuicksightTheme#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#delete QuicksightTheme#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#update QuicksightTheme#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#update QuicksightTheme#update}
   */
   readonly update?: string;
 }
@@ -2025,7 +2025,7 @@ export class QuicksightThemeTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2041,7 +2041,7 @@ export class QuicksightThemeTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2057,7 +2057,7 @@ export class QuicksightThemeTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2074,7 +2074,7 @@ export class QuicksightThemeTimeoutsOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme aws_quicksight_theme}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme aws_quicksight_theme}
 */
 export class QuicksightTheme extends cdktn.TerraformResource {
 
@@ -2090,7 +2090,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTheme resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTheme to import
-  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTheme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2102,7 +2102,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_theme aws_quicksight_theme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_theme aws_quicksight_theme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2113,7 +2113,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_theme',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2147,7 +2147,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -2163,7 +2163,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // base_theme_id - computed: false, optional: false, required: true
-  private _baseThemeId?: string; 
+  private _baseThemeId?: string;
   public get baseThemeId() {
     return this.getStringAttribute('base_theme_id');
   }
@@ -2181,7 +2181,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2202,7 +2202,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2215,7 +2215,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2236,7 +2236,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2252,7 +2252,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2268,7 +2268,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // theme_id - computed: false, optional: false, required: true
-  private _themeId?: string; 
+  private _themeId?: string;
   public get themeId() {
     return this.getStringAttribute('theme_id');
   }
@@ -2281,7 +2281,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // version_description - computed: false, optional: true, required: false
-  private _versionDescription?: string; 
+  private _versionDescription?: string;
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

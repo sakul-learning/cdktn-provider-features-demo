@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktn from 'cdktn';
 
 export interface StoragegatewaySmbFileShareConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#access_based_enumeration StoragegatewaySmbFileShare#access_based_enumeration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#access_based_enumeration StoragegatewaySmbFileShare#access_based_enumeration}
   */
   readonly accessBasedEnumeration?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#admin_user_list StoragegatewaySmbFileShare#admin_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#admin_user_list StoragegatewaySmbFileShare#admin_user_list}
   */
   readonly adminUserList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#audit_destination_arn StoragegatewaySmbFileShare#audit_destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#audit_destination_arn StoragegatewaySmbFileShare#audit_destination_arn}
   */
   readonly auditDestinationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#authentication StoragegatewaySmbFileShare#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#authentication StoragegatewaySmbFileShare#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#bucket_region StoragegatewaySmbFileShare#bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#bucket_region StoragegatewaySmbFileShare#bucket_region}
   */
   readonly bucketRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#case_sensitivity StoragegatewaySmbFileShare#case_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#case_sensitivity StoragegatewaySmbFileShare#case_sensitivity}
   */
   readonly caseSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#default_storage_class StoragegatewaySmbFileShare#default_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#default_storage_class StoragegatewaySmbFileShare#default_storage_class}
   */
   readonly defaultStorageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#file_share_name StoragegatewaySmbFileShare#file_share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#file_share_name StoragegatewaySmbFileShare#file_share_name}
   */
   readonly fileShareName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#gateway_arn StoragegatewaySmbFileShare#gateway_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#gateway_arn StoragegatewaySmbFileShare#gateway_arn}
   */
   readonly gatewayArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#guess_mime_type_enabled StoragegatewaySmbFileShare#guess_mime_type_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#guess_mime_type_enabled StoragegatewaySmbFileShare#guess_mime_type_enabled}
   */
   readonly guessMimeTypeEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#id StoragegatewaySmbFileShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#id StoragegatewaySmbFileShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#invalid_user_list StoragegatewaySmbFileShare#invalid_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#invalid_user_list StoragegatewaySmbFileShare#invalid_user_list}
   */
   readonly invalidUserList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#kms_encrypted StoragegatewaySmbFileShare#kms_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#kms_encrypted StoragegatewaySmbFileShare#kms_encrypted}
   */
   readonly kmsEncrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#kms_key_arn StoragegatewaySmbFileShare#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#kms_key_arn StoragegatewaySmbFileShare#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#location_arn StoragegatewaySmbFileShare#location_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#location_arn StoragegatewaySmbFileShare#location_arn}
   */
   readonly locationArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#notification_policy StoragegatewaySmbFileShare#notification_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#notification_policy StoragegatewaySmbFileShare#notification_policy}
   */
   readonly notificationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#object_acl StoragegatewaySmbFileShare#object_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#object_acl StoragegatewaySmbFileShare#object_acl}
   */
   readonly objectAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#oplocks_enabled StoragegatewaySmbFileShare#oplocks_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#oplocks_enabled StoragegatewaySmbFileShare#oplocks_enabled}
   */
   readonly oplocksEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#read_only StoragegatewaySmbFileShare#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#read_only StoragegatewaySmbFileShare#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#region StoragegatewaySmbFileShare#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#region StoragegatewaySmbFileShare#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#requester_pays StoragegatewaySmbFileShare#requester_pays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#requester_pays StoragegatewaySmbFileShare#requester_pays}
   */
   readonly requesterPays?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#role_arn StoragegatewaySmbFileShare#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#role_arn StoragegatewaySmbFileShare#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#smb_acl_enabled StoragegatewaySmbFileShare#smb_acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#smb_acl_enabled StoragegatewaySmbFileShare#smb_acl_enabled}
   */
   readonly smbAclEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#tags StoragegatewaySmbFileShare#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#tags StoragegatewaySmbFileShare#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#tags_all StoragegatewaySmbFileShare#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#tags_all StoragegatewaySmbFileShare#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#valid_user_list StoragegatewaySmbFileShare#valid_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#valid_user_list StoragegatewaySmbFileShare#valid_user_list}
   */
   readonly validUserList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#vpc_endpoint_dns_name StoragegatewaySmbFileShare#vpc_endpoint_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#vpc_endpoint_dns_name StoragegatewaySmbFileShare#vpc_endpoint_dns_name}
   */
   readonly vpcEndpointDnsName?: string;
   /**
   * cache_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#cache_attributes StoragegatewaySmbFileShare#cache_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#cache_attributes StoragegatewaySmbFileShare#cache_attributes}
   */
   readonly cacheAttributes?: StoragegatewaySmbFileShareCacheAttributes;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#timeouts StoragegatewaySmbFileShare#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#timeouts StoragegatewaySmbFileShare#timeouts}
   */
   readonly timeouts?: StoragegatewaySmbFileShareTimeouts;
 }
 export interface StoragegatewaySmbFileShareCacheAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#cache_stale_timeout_in_seconds StoragegatewaySmbFileShare#cache_stale_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#cache_stale_timeout_in_seconds StoragegatewaySmbFileShare#cache_stale_timeout_in_seconds}
   */
   readonly cacheStaleTimeoutInSeconds?: number;
 }
@@ -202,7 +202,7 @@ export class StoragegatewaySmbFileShareCacheAttributesOutputReference extends cd
   }
 
   // cache_stale_timeout_in_seconds - computed: false, optional: true, required: false
-  private _cacheStaleTimeoutInSeconds?: number; 
+  private _cacheStaleTimeoutInSeconds?: number;
   public get cacheStaleTimeoutInSeconds() {
     return this.getNumberAttribute('cache_stale_timeout_in_seconds');
   }
@@ -219,15 +219,15 @@ export class StoragegatewaySmbFileShareCacheAttributesOutputReference extends cd
 }
 export interface StoragegatewaySmbFileShareTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#create StoragegatewaySmbFileShare#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#create StoragegatewaySmbFileShare#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#delete StoragegatewaySmbFileShare#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#delete StoragegatewaySmbFileShare#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#update StoragegatewaySmbFileShare#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#update StoragegatewaySmbFileShare#update}
   */
   readonly update?: string;
 }
@@ -330,7 +330,7 @@ export class StoragegatewaySmbFileShareTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -346,7 +346,7 @@ export class StoragegatewaySmbFileShareTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -362,7 +362,7 @@ export class StoragegatewaySmbFileShareTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -379,7 +379,7 @@ export class StoragegatewaySmbFileShareTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share}
 */
 export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
 
@@ -395,7 +395,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StoragegatewaySmbFileShare resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StoragegatewaySmbFileShare to import
-  * @param importFromId The id of the existing StoragegatewaySmbFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StoragegatewaySmbFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StoragegatewaySmbFileShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -407,7 +407,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,7 +418,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
       terraformResourceType: 'aws_storagegateway_smb_file_share',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -464,7 +464,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   // ==========
 
   // access_based_enumeration - computed: false, optional: true, required: false
-  private _accessBasedEnumeration?: boolean | cdktn.IResolvable; 
+  private _accessBasedEnumeration?: boolean | cdktn.IResolvable;
   public get accessBasedEnumeration() {
     return this.getBooleanAttribute('access_based_enumeration');
   }
@@ -480,7 +480,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // admin_user_list - computed: false, optional: true, required: false
-  private _adminUserList?: string[]; 
+  private _adminUserList?: string[];
   public get adminUserList() {
     return cdktn.Fn.tolist(this.getListAttribute('admin_user_list'));
   }
@@ -501,7 +501,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // audit_destination_arn - computed: false, optional: true, required: false
-  private _auditDestinationArn?: string; 
+  private _auditDestinationArn?: string;
   public get auditDestinationArn() {
     return this.getStringAttribute('audit_destination_arn');
   }
@@ -517,7 +517,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // authentication - computed: false, optional: true, required: false
-  private _authentication?: string; 
+  private _authentication?: string;
   public get authentication() {
     return this.getStringAttribute('authentication');
   }
@@ -533,7 +533,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // bucket_region - computed: false, optional: true, required: false
-  private _bucketRegion?: string; 
+  private _bucketRegion?: string;
   public get bucketRegion() {
     return this.getStringAttribute('bucket_region');
   }
@@ -549,7 +549,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // case_sensitivity - computed: false, optional: true, required: false
-  private _caseSensitivity?: string; 
+  private _caseSensitivity?: string;
   public get caseSensitivity() {
     return this.getStringAttribute('case_sensitivity');
   }
@@ -565,7 +565,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // default_storage_class - computed: false, optional: true, required: false
-  private _defaultStorageClass?: string; 
+  private _defaultStorageClass?: string;
   public get defaultStorageClass() {
     return this.getStringAttribute('default_storage_class');
   }
@@ -581,7 +581,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // file_share_name - computed: true, optional: true, required: false
-  private _fileShareName?: string; 
+  private _fileShareName?: string;
   public get fileShareName() {
     return this.getStringAttribute('file_share_name');
   }
@@ -602,7 +602,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string; 
+  private _gatewayArn?: string;
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -615,7 +615,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // guess_mime_type_enabled - computed: false, optional: true, required: false
-  private _guessMimeTypeEnabled?: boolean | cdktn.IResolvable; 
+  private _guessMimeTypeEnabled?: boolean | cdktn.IResolvable;
   public get guessMimeTypeEnabled() {
     return this.getBooleanAttribute('guess_mime_type_enabled');
   }
@@ -631,7 +631,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -647,7 +647,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // invalid_user_list - computed: false, optional: true, required: false
-  private _invalidUserList?: string[]; 
+  private _invalidUserList?: string[];
   public get invalidUserList() {
     return cdktn.Fn.tolist(this.getListAttribute('invalid_user_list'));
   }
@@ -663,7 +663,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // kms_encrypted - computed: false, optional: true, required: false
-  private _kmsEncrypted?: boolean | cdktn.IResolvable; 
+  private _kmsEncrypted?: boolean | cdktn.IResolvable;
   public get kmsEncrypted() {
     return this.getBooleanAttribute('kms_encrypted');
   }
@@ -679,7 +679,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -695,7 +695,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // location_arn - computed: false, optional: false, required: true
-  private _locationArn?: string; 
+  private _locationArn?: string;
   public get locationArn() {
     return this.getStringAttribute('location_arn');
   }
@@ -708,7 +708,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // notification_policy - computed: false, optional: true, required: false
-  private _notificationPolicy?: string; 
+  private _notificationPolicy?: string;
   public get notificationPolicy() {
     return this.getStringAttribute('notification_policy');
   }
@@ -724,7 +724,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // object_acl - computed: false, optional: true, required: false
-  private _objectAcl?: string; 
+  private _objectAcl?: string;
   public get objectAcl() {
     return this.getStringAttribute('object_acl');
   }
@@ -740,7 +740,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // oplocks_enabled - computed: true, optional: true, required: false
-  private _oplocksEnabled?: boolean | cdktn.IResolvable; 
+  private _oplocksEnabled?: boolean | cdktn.IResolvable;
   public get oplocksEnabled() {
     return this.getBooleanAttribute('oplocks_enabled');
   }
@@ -761,7 +761,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // read_only - computed: false, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -777,7 +777,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -793,7 +793,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // requester_pays - computed: false, optional: true, required: false
-  private _requesterPays?: boolean | cdktn.IResolvable; 
+  private _requesterPays?: boolean | cdktn.IResolvable;
   public get requesterPays() {
     return this.getBooleanAttribute('requester_pays');
   }
@@ -809,7 +809,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -822,7 +822,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // smb_acl_enabled - computed: false, optional: true, required: false
-  private _smbAclEnabled?: boolean | cdktn.IResolvable; 
+  private _smbAclEnabled?: boolean | cdktn.IResolvable;
   public get smbAclEnabled() {
     return this.getBooleanAttribute('smb_acl_enabled');
   }
@@ -838,7 +838,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -854,7 +854,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -870,7 +870,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // valid_user_list - computed: false, optional: true, required: false
-  private _validUserList?: string[]; 
+  private _validUserList?: string[];
   public get validUserList() {
     return cdktn.Fn.tolist(this.getListAttribute('valid_user_list'));
   }
@@ -886,7 +886,7 @@ export class StoragegatewaySmbFileShare extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_dns_name - computed: false, optional: true, required: false
-  private _vpcEndpointDnsName?: string; 
+  private _vpcEndpointDnsName?: string;
   public get vpcEndpointDnsName() {
     return this.getStringAttribute('vpc_endpoint_dns_name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/observabilityadmin_telemetry_enrichment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/observabilityadmin_telemetry_enrichment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ObservabilityadminTelemetryEnrichmentConfig extends cdktn.Terra
   /**
   * Scope of the Telemetry Enrichment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
   */
   readonly scope: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}
 */
 export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResource {
 
@@ -32,7 +32,7 @@ export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResour
   * Generates CDKTN code for importing a ObservabilityadminTelemetryEnrichment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityadminTelemetryEnrichment to import
-  * @param importFromId The id of the existing ObservabilityadminTelemetryEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/observabilityadmin_telemetry_enrichment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityadminTelemetryEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/observabilityadmin_telemetry_enrichment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityadminTelemetryEnrichment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -44,7 +44,7 @@ export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,7 @@ export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResour
       terraformResourceType: 'awscc_observabilityadmin_telemetry_enrichment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -78,7 +78,7 @@ export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResour
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }

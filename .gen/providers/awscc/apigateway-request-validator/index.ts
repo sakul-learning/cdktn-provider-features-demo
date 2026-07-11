@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayRequestValidatorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}
   */
   readonly validateRequestBody?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}
   */
   readonly validateRequestParameters?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}
 */
 export class ApigatewayRequestValidator extends cdktn.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayRequestValidator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayRequestValidator to import
-  * @param importFromId The id of the existing ApigatewayRequestValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayRequestValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayRequestValidator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_request_validator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -91,7 +91,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -112,7 +112,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -125,7 +125,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_body - computed: true, optional: true, required: false
-  private _validateRequestBody?: boolean | cdktn.IResolvable; 
+  private _validateRequestBody?: boolean | cdktn.IResolvable;
   public get validateRequestBody() {
     return this.getBooleanAttribute('validate_request_body');
   }
@@ -141,7 +141,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_parameters - computed: true, optional: true, required: false
-  private _validateRequestParameters?: boolean | cdktn.IResolvable; 
+  private _validateRequestParameters?: boolean | cdktn.IResolvable;
   public get validateRequestParameters() {
     return this.getBooleanAttribute('validate_request_parameters');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktn from 'cdktn';
 
 export interface EvidentlyLaunchConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#id EvidentlyLaunch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#id EvidentlyLaunch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#project EvidentlyLaunch#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#project EvidentlyLaunch#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#randomization_salt EvidentlyLaunch#randomization_salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#randomization_salt EvidentlyLaunch#randomization_salt}
   */
   readonly randomizationSalt?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#region EvidentlyLaunch#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#region EvidentlyLaunch#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#tags EvidentlyLaunch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#tags EvidentlyLaunch#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#tags_all EvidentlyLaunch#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#tags_all EvidentlyLaunch#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#groups EvidentlyLaunch#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#groups EvidentlyLaunch#groups}
   */
   readonly groups: EvidentlyLaunchGroups[] | cdktn.IResolvable;
   /**
   * metric_monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#metric_monitors EvidentlyLaunch#metric_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#metric_monitors EvidentlyLaunch#metric_monitors}
   */
   readonly metricMonitors?: EvidentlyLaunchMetricMonitors[] | cdktn.IResolvable;
   /**
   * scheduled_splits_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#scheduled_splits_config EvidentlyLaunch#scheduled_splits_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#scheduled_splits_config EvidentlyLaunch#scheduled_splits_config}
   */
   readonly scheduledSplitsConfig?: EvidentlyLaunchScheduledSplitsConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#timeouts EvidentlyLaunch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#timeouts EvidentlyLaunch#timeouts}
   */
   readonly timeouts?: EvidentlyLaunchTimeouts;
 }
@@ -151,19 +151,19 @@ export class EvidentlyLaunchExecutionList extends cdktn.ComplexList {
 }
 export interface EvidentlyLaunchGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}
   */
   readonly feature: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}
   */
   readonly variation: string;
 }
@@ -281,7 +281,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -297,7 +297,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // feature - computed: false, optional: false, required: true
-  private _feature?: string; 
+  private _feature?: string;
   public get feature() {
     return this.getStringAttribute('feature');
   }
@@ -310,7 +310,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -323,7 +323,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // variation - computed: false, optional: false, required: true
-  private _variation?: string; 
+  private _variation?: string;
   public get variation() {
     return this.getStringAttribute('variation');
   }
@@ -357,23 +357,23 @@ export class EvidentlyLaunchGroupsList extends cdktn.ComplexList {
 }
 export interface EvidentlyLaunchMetricMonitorsMetricDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}
   */
   readonly entityIdKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}
   */
   readonly eventPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}
   */
   readonly unitLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}
   */
   readonly valueKey: string;
 }
@@ -492,7 +492,7 @@ export class EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference extend
   }
 
   // entity_id_key - computed: false, optional: false, required: true
-  private _entityIdKey?: string; 
+  private _entityIdKey?: string;
   public get entityIdKey() {
     return this.getStringAttribute('entity_id_key');
   }
@@ -505,7 +505,7 @@ export class EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference extend
   }
 
   // event_pattern - computed: false, optional: true, required: false
-  private _eventPattern?: string; 
+  private _eventPattern?: string;
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -521,7 +521,7 @@ export class EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -534,7 +534,7 @@ export class EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference extend
   }
 
   // unit_label - computed: false, optional: true, required: false
-  private _unitLabel?: string; 
+  private _unitLabel?: string;
   public get unitLabel() {
     return this.getStringAttribute('unit_label');
   }
@@ -550,7 +550,7 @@ export class EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference extend
   }
 
   // value_key - computed: false, optional: false, required: true
-  private _valueKey?: string; 
+  private _valueKey?: string;
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -566,7 +566,7 @@ export interface EvidentlyLaunchMetricMonitors {
   /**
   * metric_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#metric_definition EvidentlyLaunch#metric_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#metric_definition EvidentlyLaunch#metric_definition}
   */
   readonly metricDefinition: EvidentlyLaunchMetricMonitorsMetricDefinition;
 }
@@ -679,15 +679,15 @@ export class EvidentlyLaunchMetricMonitorsList extends cdktn.ComplexList {
 }
 export interface EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}
   */
   readonly evaluationOrder: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}
   */
   readonly segment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}
   */
   readonly weights: { [key: string]: number };
 }
@@ -792,7 +792,7 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputRefe
   }
 
   // evaluation_order - computed: false, optional: false, required: true
-  private _evaluationOrder?: number; 
+  private _evaluationOrder?: number;
   public get evaluationOrder() {
     return this.getNumberAttribute('evaluation_order');
   }
@@ -805,7 +805,7 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputRefe
   }
 
   // segment - computed: false, optional: false, required: true
-  private _segment?: string; 
+  private _segment?: string;
   public get segment() {
     return this.getStringAttribute('segment');
   }
@@ -818,7 +818,7 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputRefe
   }
 
   // weights - computed: false, optional: false, required: true
-  private _weights?: { [key: string]: number }; 
+  private _weights?: { [key: string]: number };
   public get weights() {
     return this.getNumberMapAttribute('weights');
   }
@@ -852,17 +852,17 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList exten
 }
 export interface EvidentlyLaunchScheduledSplitsConfigSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}
   */
   readonly groupWeights: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}
   */
   readonly startTime: string;
   /**
   * segment_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
   */
   readonly segmentOverrides?: EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides[] | cdktn.IResolvable;
 }
@@ -967,7 +967,7 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsOutputReference extends cd
   }
 
   // group_weights - computed: false, optional: false, required: true
-  private _groupWeights?: { [key: string]: number }; 
+  private _groupWeights?: { [key: string]: number };
   public get groupWeights() {
     return this.getNumberMapAttribute('group_weights');
   }
@@ -980,7 +980,7 @@ export class EvidentlyLaunchScheduledSplitsConfigStepsOutputReference extends cd
   }
 
   // start_time - computed: false, optional: false, required: true
-  private _startTime?: string; 
+  private _startTime?: string;
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1032,7 +1032,7 @@ export interface EvidentlyLaunchScheduledSplitsConfig {
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
   */
   readonly steps: EvidentlyLaunchScheduledSplitsConfigSteps[] | cdktn.IResolvable;
 }
@@ -1113,15 +1113,15 @@ export class EvidentlyLaunchScheduledSplitsConfigOutputReference extends cdktn.C
 }
 export interface EvidentlyLaunchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#create EvidentlyLaunch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#create EvidentlyLaunch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#delete EvidentlyLaunch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#delete EvidentlyLaunch#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#update EvidentlyLaunch#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#update EvidentlyLaunch#update}
   */
   readonly update?: string;
 }
@@ -1224,7 +1224,7 @@ export class EvidentlyLaunchTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1240,7 +1240,7 @@ export class EvidentlyLaunchTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1256,7 +1256,7 @@ export class EvidentlyLaunchTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1273,7 +1273,7 @@ export class EvidentlyLaunchTimeoutsOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch aws_evidently_launch}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch aws_evidently_launch}
 */
 export class EvidentlyLaunch extends cdktn.TerraformResource {
 
@@ -1289,7 +1289,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvidentlyLaunch resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvidentlyLaunch to import
-  * @param importFromId The id of the existing EvidentlyLaunch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvidentlyLaunch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvidentlyLaunch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1301,7 +1301,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/evidently_launch aws_evidently_launch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/evidently_launch aws_evidently_launch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1312,7 +1312,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
       terraformResourceType: 'aws_evidently_launch',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1351,7 +1351,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1373,7 +1373,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1394,7 +1394,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1407,7 +1407,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // project - computed: false, optional: false, required: true
-  private _project?: string; 
+  private _project?: string;
   public get project() {
     return this.getStringAttribute('project');
   }
@@ -1420,7 +1420,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // randomization_salt - computed: false, optional: true, required: false
-  private _randomizationSalt?: string; 
+  private _randomizationSalt?: string;
   public get randomizationSalt() {
     return this.getStringAttribute('randomization_salt');
   }
@@ -1436,7 +1436,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1462,7 +1462,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1478,7 +1478,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

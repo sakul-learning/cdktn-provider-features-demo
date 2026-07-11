@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,87 +8,87 @@ import * as cdktn from 'cdktn';
 
 export interface GlueCatalogConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
   */
   readonly allowFullTableExternalDataAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#description GlueCatalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#description GlueCatalog#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#name GlueCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#name GlueCatalog#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
   */
   readonly overwriteChildResourcePermissionsWithDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#region GlueCatalog#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#region GlueCatalog#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * catalog_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
   */
   readonly catalogProperties?: GlueCatalogCatalogProperties[] | cdktn.IResolvable;
   /**
   * create_database_default_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
   */
   readonly createDatabaseDefaultPermissions?: GlueCatalogCreateDatabaseDefaultPermissions[] | cdktn.IResolvable;
   /**
   * create_table_default_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
   */
   readonly createTableDefaultPermissions?: GlueCatalogCreateTableDefaultPermissions[] | cdktn.IResolvable;
   /**
   * federated_catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
   */
   readonly federatedCatalog?: GlueCatalogFederatedCatalog[] | cdktn.IResolvable;
   /**
   * target_redshift_catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
   */
   readonly targetRedshiftCatalog?: GlueCatalogTargetRedshiftCatalog[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#timeouts GlueCatalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#timeouts GlueCatalog#timeouts}
   */
   readonly timeouts?: GlueCatalogTimeouts;
 }
 export interface GlueCatalogCatalogPropertiesDataLakeAccessProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
   */
   readonly catalogType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
   */
   readonly dataLakeAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
   */
   readonly dataTransferRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
   */
   readonly kmsKey?: string;
 }
@@ -206,7 +206,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // catalog_type - computed: true, optional: true, required: false
-  private _catalogType?: string; 
+  private _catalogType?: string;
   public get catalogType() {
     return this.getStringAttribute('catalog_type');
   }
@@ -222,7 +222,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // data_lake_access - computed: true, optional: true, required: false
-  private _dataLakeAccess?: boolean | cdktn.IResolvable; 
+  private _dataLakeAccess?: boolean | cdktn.IResolvable;
   public get dataLakeAccess() {
     return this.getBooleanAttribute('data_lake_access');
   }
@@ -238,7 +238,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // data_transfer_role - computed: true, optional: true, required: false
-  private _dataTransferRole?: string; 
+  private _dataTransferRole?: string;
   public get dataTransferRole() {
     return this.getStringAttribute('data_transfer_role');
   }
@@ -254,7 +254,7 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string; 
+  private _kmsKey?: string;
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -311,19 +311,19 @@ export class GlueCatalogCatalogPropertiesDataLakeAccessPropertiesList extends cd
 }
 export interface GlueCatalogCatalogPropertiesIcebergOptimizationProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}
   */
   readonly compaction?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}
   */
   readonly orphanFileDeletion?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#retention GlueCatalog#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#retention GlueCatalog#retention}
   */
   readonly retention?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -441,7 +441,7 @@ export class GlueCatalogCatalogPropertiesIcebergOptimizationPropertiesOutputRefe
   }
 
   // compaction - computed: false, optional: true, required: false
-  private _compaction?: { [key: string]: string }; 
+  private _compaction?: { [key: string]: string };
   public get compaction() {
     return this.getStringMapAttribute('compaction');
   }
@@ -457,7 +457,7 @@ export class GlueCatalogCatalogPropertiesIcebergOptimizationPropertiesOutputRefe
   }
 
   // orphan_file_deletion - computed: false, optional: true, required: false
-  private _orphanFileDeletion?: { [key: string]: string }; 
+  private _orphanFileDeletion?: { [key: string]: string };
   public get orphanFileDeletion() {
     return this.getStringMapAttribute('orphan_file_deletion');
   }
@@ -473,7 +473,7 @@ export class GlueCatalogCatalogPropertiesIcebergOptimizationPropertiesOutputRefe
   }
 
   // retention - computed: false, optional: true, required: false
-  private _retention?: { [key: string]: string }; 
+  private _retention?: { [key: string]: string };
   public get retention() {
     return this.getStringMapAttribute('retention');
   }
@@ -489,7 +489,7 @@ export class GlueCatalogCatalogPropertiesIcebergOptimizationPropertiesOutputRefe
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -526,19 +526,19 @@ export class GlueCatalogCatalogPropertiesIcebergOptimizationPropertiesList exten
 }
 export interface GlueCatalogCatalogProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#custom_properties GlueCatalog#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#custom_properties GlueCatalog#custom_properties}
   */
   readonly customProperties?: { [key: string]: string };
   /**
   * data_lake_access_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
   */
   readonly dataLakeAccessProperties?: GlueCatalogCatalogPropertiesDataLakeAccessProperties[] | cdktn.IResolvable;
   /**
   * iceberg_optimization_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#iceberg_optimization_properties GlueCatalog#iceberg_optimization_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#iceberg_optimization_properties GlueCatalog#iceberg_optimization_properties}
   */
   readonly icebergOptimizationProperties?: GlueCatalogCatalogPropertiesIcebergOptimizationProperties[] | cdktn.IResolvable;
 }
@@ -643,7 +643,7 @@ export class GlueCatalogCatalogPropertiesOutputReference extends cdktn.ComplexOb
   }
 
   // custom_properties - computed: true, optional: true, required: false
-  private _customProperties?: { [key: string]: string }; 
+  private _customProperties?: { [key: string]: string };
   public get customProperties() {
     return this.getStringMapAttribute('custom_properties');
   }
@@ -712,7 +712,7 @@ export class GlueCatalogCatalogPropertiesList extends cdktn.ComplexList {
 }
 export interface GlueCatalogCreateDatabaseDefaultPermissionsPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -791,7 +791,7 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsPrincipalOutputReference
   }
 
   // data_lake_principal_identifier - computed: false, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string; 
+  private _dataLakePrincipalIdentifier?: string;
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -828,13 +828,13 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsPrincipalList extends cd
 }
 export interface GlueCatalogCreateDatabaseDefaultPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateDatabaseDefaultPermissionsPrincipal[] | cdktn.IResolvable;
 }
@@ -926,7 +926,7 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsOutputReference extends 
   }
 
   // permissions - computed: false, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -979,7 +979,7 @@ export class GlueCatalogCreateDatabaseDefaultPermissionsList extends cdktn.Compl
 }
 export interface GlueCatalogCreateTableDefaultPermissionsPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -1058,7 +1058,7 @@ export class GlueCatalogCreateTableDefaultPermissionsPrincipalOutputReference ex
   }
 
   // data_lake_principal_identifier - computed: false, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string; 
+  private _dataLakePrincipalIdentifier?: string;
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -1095,13 +1095,13 @@ export class GlueCatalogCreateTableDefaultPermissionsPrincipalList extends cdktn
 }
 export interface GlueCatalogCreateTableDefaultPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateTableDefaultPermissionsPrincipal[] | cdktn.IResolvable;
 }
@@ -1193,7 +1193,7 @@ export class GlueCatalogCreateTableDefaultPermissionsOutputReference extends cdk
   }
 
   // permissions - computed: false, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -1246,15 +1246,15 @@ export class GlueCatalogCreateTableDefaultPermissionsList extends cdktn.ComplexL
 }
 export interface GlueCatalogFederatedCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#connection_type GlueCatalog#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#connection_type GlueCatalog#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
   */
   readonly identifier?: string;
 }
@@ -1359,7 +1359,7 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1375,7 +1375,7 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   }
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string; 
+  private _connectionType?: string;
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -1391,7 +1391,7 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   }
 
   // identifier - computed: false, optional: true, required: false
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -1428,7 +1428,7 @@ export class GlueCatalogFederatedCatalogList extends cdktn.ComplexList {
 }
 export interface GlueCatalogTargetRedshiftCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
   */
   readonly catalogArn: string;
 }
@@ -1507,7 +1507,7 @@ export class GlueCatalogTargetRedshiftCatalogOutputReference extends cdktn.Compl
   }
 
   // catalog_arn - computed: false, optional: false, required: true
-  private _catalogArn?: string; 
+  private _catalogArn?: string;
   public get catalogArn() {
     return this.getStringAttribute('catalog_arn');
   }
@@ -1543,19 +1543,19 @@ export interface GlueCatalogTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#create GlueCatalog#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#create GlueCatalog#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#delete GlueCatalog#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#delete GlueCatalog#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#update GlueCatalog#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#update GlueCatalog#update}
   */
   readonly update?: string;
 }
@@ -1658,7 +1658,7 @@ export class GlueCatalogTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1674,7 +1674,7 @@ export class GlueCatalogTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1690,7 +1690,7 @@ export class GlueCatalogTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1707,7 +1707,7 @@ export class GlueCatalogTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog aws_glue_catalog}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog aws_glue_catalog}
 */
 export class GlueCatalog extends cdktn.TerraformResource {
 
@@ -1723,7 +1723,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueCatalog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueCatalog to import
-  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1735,7 +1735,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_catalog aws_glue_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog aws_glue_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1746,7 +1746,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_catalog',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1776,7 +1776,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   // ==========
 
   // allow_full_table_external_data_access - computed: true, optional: true, required: false
-  private _allowFullTableExternalDataAccess?: string; 
+  private _allowFullTableExternalDataAccess?: string;
   public get allowFullTableExternalDataAccess() {
     return this.getStringAttribute('allow_full_table_external_data_access');
   }
@@ -1807,7 +1807,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1823,7 +1823,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1836,7 +1836,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // overwrite_child_resource_permissions_with_default - computed: false, optional: true, required: false
-  private _overwriteChildResourcePermissionsWithDefault?: string; 
+  private _overwriteChildResourcePermissionsWithDefault?: string;
   public get overwriteChildResourcePermissionsWithDefault() {
     return this.getStringAttribute('overwrite_child_resource_permissions_with_default');
   }
@@ -1852,7 +1852,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -1868,7 +1868,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1884,7 +1884,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

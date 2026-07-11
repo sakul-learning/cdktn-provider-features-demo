@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Route53RecoveryreadinessRecoveryGroupConfig extends cdktn.Terra
   /**
   * A list of the cell Amazon Resource Names (ARNs) in the recovery group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
   */
   readonly cells?: string[];
   /**
   * The name of the recovery group to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
   */
   readonly recoveryGroupName?: string;
   /**
   * A collection of tags associated with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
   */
   readonly tags?: Route53RecoveryreadinessRecoveryGroupTags[] | cdktn.IResolvable;
 }
 export interface Route53RecoveryreadinessRecoveryGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}
   */
   readonly value?: string;
 }
@@ -124,7 +124,7 @@ export class Route53RecoveryreadinessRecoveryGroupTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class Route53RecoveryreadinessRecoveryGroupTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -177,7 +177,7 @@ export class Route53RecoveryreadinessRecoveryGroupTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}
 */
 export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   * Generates CDKTN code for importing a Route53RecoveryreadinessRecoveryGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecoveryreadinessRecoveryGroup to import
-  * @param importFromId The id of the existing Route53RecoveryreadinessRecoveryGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecoveryreadinessRecoveryGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecoveryreadinessRecoveryGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
       terraformResourceType: 'awscc_route53recoveryreadiness_recovery_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -236,7 +236,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   // ==========
 
   // cells - computed: true, optional: true, required: false
-  private _cells?: string[]; 
+  private _cells?: string[];
   public get cells() {
     return this.getListAttribute('cells');
   }
@@ -262,7 +262,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // recovery_group_name - computed: true, optional: true, required: false
-  private _recoveryGroupName?: string; 
+  private _recoveryGroupName?: string;
   public get recoveryGroupName() {
     return this.getStringAttribute('recovery_group_name');
   }

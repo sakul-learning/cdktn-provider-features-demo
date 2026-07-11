@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudfrontTrustStoreConfig extends cdktn.TerraformMetaArguments
   /**
   * A CA certificates bundle source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
   */
   readonly caCertificatesBundleSource?: CloudfrontTrustStoreCaCertificatesBundleSource;
   /**
   * The trust store's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
   */
   readonly name: string;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
   */
   readonly tags?: CloudfrontTrustStoreTags[] | cdktn.IResolvable;
   /**
   * A boolean. When true, performs real-time certificate revocation checks by querying the OCSP endpoint specified within the client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
   */
   readonly useClientCertificateOcspEndpoint?: boolean | cdktn.IResolvable;
 }
@@ -36,25 +36,25 @@ export interface CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBun
   /**
   * The S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
   */
   readonly bucket?: string;
   /**
   * The location's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
   */
   readonly key?: string;
   /**
   * The location's Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
   */
   readonly region?: string;
   /**
   * The location's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
   */
   readonly version?: string;
 }
@@ -170,7 +170,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -186,7 +186,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -202,7 +202,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -218,7 +218,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -237,7 +237,7 @@ export interface CloudfrontTrustStoreCaCertificatesBundleSource {
   /**
   * The CA certificates bundle location in Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
   */
   readonly caCertificatesBundleS3Location?: CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location;
 }
@@ -334,14 +334,14 @@ export interface CloudfrontTrustStoreTags {
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#value CloudfrontTrustStore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#value CloudfrontTrustStore#value}
   */
   readonly value?: string;
 }
@@ -433,7 +433,7 @@ export class CloudfrontTrustStoreTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -449,7 +449,7 @@ export class CloudfrontTrustStoreTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -486,7 +486,7 @@ export class CloudfrontTrustStoreTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}
 */
 export class CloudfrontTrustStore extends cdktn.TerraformResource {
 
@@ -502,7 +502,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontTrustStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontTrustStore to import
-  * @param importFromId The id of the existing CloudfrontTrustStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontTrustStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontTrustStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -514,7 +514,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,7 +525,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_trust_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -582,7 +582,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -626,7 +626,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   }
 
   // use_client_certificate_ocsp_endpoint - computed: true, optional: true, required: false
-  private _useClientCertificateOcspEndpoint?: boolean | cdktn.IResolvable; 
+  private _useClientCertificateOcspEndpoint?: boolean | cdktn.IResolvable;
   public get useClientCertificateOcspEndpoint() {
     return this.getBooleanAttribute('use_client_certificate_ocsp_endpoint');
   }

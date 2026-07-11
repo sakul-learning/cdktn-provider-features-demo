@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktn from 'cdktn';
 
 export interface LbListenerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#alpn_policy LbListener#alpn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#alpn_policy LbListener#alpn_policy}
   */
   readonly alpnPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#certificate_arn LbListener#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#certificate_arn LbListener#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#id LbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#id LbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#load_balancer_arn LbListener#load_balancer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#load_balancer_arn LbListener#load_balancer_arn}
   */
   readonly loadBalancerArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#port LbListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#port LbListener#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#protocol LbListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#protocol LbListener#protocol}
   */
   readonly protocol?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#region LbListener#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#region LbListener#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_issuer_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertIssuerHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_leaf_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertLeafHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_subject_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertSubjectHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name LbListener#routing_http_request_x_amzn_mtls_clientcert_validity_header_name}
   */
   readonly routingHttpRequestXAmznMtlsClientcertValidityHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_cipher_suite_header_name LbListener#routing_http_request_x_amzn_tls_cipher_suite_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_cipher_suite_header_name LbListener#routing_http_request_x_amzn_tls_cipher_suite_header_name}
   */
   readonly routingHttpRequestXAmznTlsCipherSuiteHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_version_header_name LbListener#routing_http_request_x_amzn_tls_version_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_request_x_amzn_tls_version_header_name LbListener#routing_http_request_x_amzn_tls_version_header_name}
   */
   readonly routingHttpRequestXAmznTlsVersionHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_allow_credentials_header_value LbListener#routing_http_response_access_control_allow_credentials_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_allow_credentials_header_value LbListener#routing_http_response_access_control_allow_credentials_header_value}
   */
   readonly routingHttpResponseAccessControlAllowCredentialsHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_allow_headers_header_value LbListener#routing_http_response_access_control_allow_headers_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_allow_headers_header_value LbListener#routing_http_response_access_control_allow_headers_header_value}
   */
   readonly routingHttpResponseAccessControlAllowHeadersHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_allow_methods_header_value LbListener#routing_http_response_access_control_allow_methods_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_allow_methods_header_value LbListener#routing_http_response_access_control_allow_methods_header_value}
   */
   readonly routingHttpResponseAccessControlAllowMethodsHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_allow_origin_header_value LbListener#routing_http_response_access_control_allow_origin_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_allow_origin_header_value LbListener#routing_http_response_access_control_allow_origin_header_value}
   */
   readonly routingHttpResponseAccessControlAllowOriginHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_expose_headers_header_value LbListener#routing_http_response_access_control_expose_headers_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_expose_headers_header_value LbListener#routing_http_response_access_control_expose_headers_header_value}
   */
   readonly routingHttpResponseAccessControlExposeHeadersHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_access_control_max_age_header_value LbListener#routing_http_response_access_control_max_age_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_access_control_max_age_header_value LbListener#routing_http_response_access_control_max_age_header_value}
   */
   readonly routingHttpResponseAccessControlMaxAgeHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_content_security_policy_header_value LbListener#routing_http_response_content_security_policy_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_content_security_policy_header_value LbListener#routing_http_response_content_security_policy_header_value}
   */
   readonly routingHttpResponseContentSecurityPolicyHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_server_enabled LbListener#routing_http_response_server_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_server_enabled LbListener#routing_http_response_server_enabled}
   */
   readonly routingHttpResponseServerEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_strict_transport_security_header_value LbListener#routing_http_response_strict_transport_security_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_strict_transport_security_header_value LbListener#routing_http_response_strict_transport_security_header_value}
   */
   readonly routingHttpResponseStrictTransportSecurityHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_x_content_type_options_header_value LbListener#routing_http_response_x_content_type_options_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_x_content_type_options_header_value LbListener#routing_http_response_x_content_type_options_header_value}
   */
   readonly routingHttpResponseXContentTypeOptionsHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#routing_http_response_x_frame_options_header_value LbListener#routing_http_response_x_frame_options_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#routing_http_response_x_frame_options_header_value LbListener#routing_http_response_x_frame_options_header_value}
   */
   readonly routingHttpResponseXFrameOptionsHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#ssl_policy LbListener#ssl_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#ssl_policy LbListener#ssl_policy}
   */
   readonly sslPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#tags LbListener#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#tags LbListener#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#tags_all LbListener#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#tags_all LbListener#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#tcp_idle_timeout_seconds LbListener#tcp_idle_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#tcp_idle_timeout_seconds LbListener#tcp_idle_timeout_seconds}
   */
   readonly tcpIdleTimeoutSeconds?: number;
   /**
   * default_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#default_action LbListener#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#default_action LbListener#default_action}
   */
   readonly defaultAction: LbListenerDefaultAction[] | cdktn.IResolvable;
   /**
   * mutual_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#mutual_authentication LbListener#mutual_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#mutual_authentication LbListener#mutual_authentication}
   */
   readonly mutualAuthentication?: LbListenerMutualAuthentication;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#timeouts LbListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#timeouts LbListener#timeouts}
   */
   readonly timeouts?: LbListenerTimeouts;
 }
 export interface LbListenerDefaultActionAuthenticateCognito {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#authentication_request_extra_params LbListener#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#authentication_request_extra_params LbListener#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#on_unauthenticated_request LbListener#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#on_unauthenticated_request LbListener#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#scope LbListener#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#scope LbListener#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#session_cookie_name LbListener#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#session_cookie_name LbListener#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#session_timeout LbListener#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#session_timeout LbListener#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#user_pool_arn LbListener#user_pool_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#user_pool_arn LbListener#user_pool_arn}
   */
   readonly userPoolArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#user_pool_client_id LbListener#user_pool_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#user_pool_client_id LbListener#user_pool_client_id}
   */
   readonly userPoolClientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#user_pool_domain LbListener#user_pool_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#user_pool_domain LbListener#user_pool_domain}
   */
   readonly userPoolDomain: string;
 }
@@ -339,7 +339,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // authentication_request_extra_params - computed: false, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string }; 
+  private _authenticationRequestExtraParams?: { [key: string]: string };
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -355,7 +355,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string; 
+  private _onUnauthenticatedRequest?: string;
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -371,7 +371,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -387,7 +387,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string; 
+  private _sessionCookieName?: string;
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -403,7 +403,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number; 
+  private _sessionTimeout?: number;
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -419,7 +419,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // user_pool_arn - computed: false, optional: false, required: true
-  private _userPoolArn?: string; 
+  private _userPoolArn?: string;
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -432,7 +432,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // user_pool_client_id - computed: false, optional: false, required: true
-  private _userPoolClientId?: string; 
+  private _userPoolClientId?: string;
   public get userPoolClientId() {
     return this.getStringAttribute('user_pool_client_id');
   }
@@ -445,7 +445,7 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
   }
 
   // user_pool_domain - computed: false, optional: false, required: true
-  private _userPoolDomain?: string; 
+  private _userPoolDomain?: string;
   public get userPoolDomain() {
     return this.getStringAttribute('user_pool_domain');
   }
@@ -459,47 +459,47 @@ export class LbListenerDefaultActionAuthenticateCognitoOutputReference extends c
 }
 export interface LbListenerDefaultActionAuthenticateOidc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#authentication_request_extra_params LbListener#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#authentication_request_extra_params LbListener#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#authorization_endpoint LbListener#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#authorization_endpoint LbListener#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#client_id LbListener#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#client_id LbListener#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#client_secret LbListener#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#client_secret LbListener#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#issuer LbListener#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#issuer LbListener#issuer}
   */
   readonly issuer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#on_unauthenticated_request LbListener#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#on_unauthenticated_request LbListener#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#scope LbListener#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#scope LbListener#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#session_cookie_name LbListener#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#session_cookie_name LbListener#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#session_timeout LbListener#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#session_timeout LbListener#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#token_endpoint LbListener#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#token_endpoint LbListener#token_endpoint}
   */
   readonly tokenEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#user_info_endpoint LbListener#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#user_info_endpoint LbListener#user_info_endpoint}
   */
   readonly userInfoEndpoint: string;
 }
@@ -696,7 +696,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // authentication_request_extra_params - computed: false, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string }; 
+  private _authenticationRequestExtraParams?: { [key: string]: string };
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -712,7 +712,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // authorization_endpoint - computed: false, optional: false, required: true
-  private _authorizationEndpoint?: string; 
+  private _authorizationEndpoint?: string;
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -725,7 +725,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -738,7 +738,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -751,7 +751,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -764,7 +764,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string; 
+  private _onUnauthenticatedRequest?: string;
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -780,7 +780,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -796,7 +796,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string; 
+  private _sessionCookieName?: string;
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -812,7 +812,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number; 
+  private _sessionTimeout?: number;
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -828,7 +828,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // token_endpoint - computed: false, optional: false, required: true
-  private _tokenEndpoint?: string; 
+  private _tokenEndpoint?: string;
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -841,7 +841,7 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
   }
 
   // user_info_endpoint - computed: false, optional: false, required: true
-  private _userInfoEndpoint?: string; 
+  private _userInfoEndpoint?: string;
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -855,15 +855,15 @@ export class LbListenerDefaultActionAuthenticateOidcOutputReference extends cdkt
 }
 export interface LbListenerDefaultActionFixedResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#content_type LbListener#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#content_type LbListener#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#message_body LbListener#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#message_body LbListener#message_body}
   */
   readonly messageBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#status_code LbListener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#status_code LbListener#status_code}
   */
   readonly statusCode?: string;
 }
@@ -956,7 +956,7 @@ export class LbListenerDefaultActionFixedResponseOutputReference extends cdktn.C
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -969,7 +969,7 @@ export class LbListenerDefaultActionFixedResponseOutputReference extends cdktn.C
   }
 
   // message_body - computed: false, optional: true, required: false
-  private _messageBody?: string; 
+  private _messageBody?: string;
   public get messageBody() {
     return this.getStringAttribute('message_body');
   }
@@ -985,7 +985,7 @@ export class LbListenerDefaultActionFixedResponseOutputReference extends cdktn.C
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string; 
+  private _statusCode?: string;
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1002,11 +1002,11 @@ export class LbListenerDefaultActionFixedResponseOutputReference extends cdktn.C
 }
 export interface LbListenerDefaultActionForwardStickiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#duration LbListener#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#duration LbListener#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#enabled LbListener#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#enabled LbListener#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1086,7 +1086,7 @@ export class LbListenerDefaultActionForwardStickinessOutputReference extends cdk
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number; 
+  private _duration?: number;
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -1099,7 +1099,7 @@ export class LbListenerDefaultActionForwardStickinessOutputReference extends cdk
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1116,11 +1116,11 @@ export class LbListenerDefaultActionForwardStickinessOutputReference extends cdk
 }
 export interface LbListenerDefaultActionForwardTargetGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#arn LbListener#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#arn LbListener#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#weight LbListener#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#weight LbListener#weight}
   */
   readonly weight?: number;
 }
@@ -1212,7 +1212,7 @@ export class LbListenerDefaultActionForwardTargetGroupOutputReference extends cd
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1225,7 +1225,7 @@ export class LbListenerDefaultActionForwardTargetGroupOutputReference extends cd
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1264,13 +1264,13 @@ export interface LbListenerDefaultActionForward {
   /**
   * stickiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#stickiness LbListener#stickiness}
   */
   readonly stickiness?: LbListenerDefaultActionForwardStickiness;
   /**
   * target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#target_group LbListener#target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#target_group LbListener#target_group}
   */
   readonly targetGroup: LbListenerDefaultActionForwardTargetGroup[] | cdktn.IResolvable;
 }
@@ -1380,15 +1380,15 @@ export class LbListenerDefaultActionForwardOutputReference extends cdktn.Complex
 }
 export interface LbListenerDefaultActionJwtValidationAdditionalClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#format LbListener#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#format LbListener#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#name LbListener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#name LbListener#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#values LbListener#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#values LbListener#values}
   */
   readonly values: string[];
 }
@@ -1493,7 +1493,7 @@ export class LbListenerDefaultActionJwtValidationAdditionalClaimOutputReference 
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1506,7 +1506,7 @@ export class LbListenerDefaultActionJwtValidationAdditionalClaimOutputReference 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1519,7 +1519,7 @@ export class LbListenerDefaultActionJwtValidationAdditionalClaimOutputReference 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1553,17 +1553,17 @@ export class LbListenerDefaultActionJwtValidationAdditionalClaimList extends cdk
 }
 export interface LbListenerDefaultActionJwtValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#issuer LbListener#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#issuer LbListener#issuer}
   */
   readonly issuer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}
   */
   readonly jwksEndpoint: string;
   /**
   * additional_claim block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
   */
   readonly additionalClaim?: LbListenerDefaultActionJwtValidationAdditionalClaim[] | cdktn.IResolvable;
 }
@@ -1656,7 +1656,7 @@ export class LbListenerDefaultActionJwtValidationOutputReference extends cdktn.C
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1669,7 +1669,7 @@ export class LbListenerDefaultActionJwtValidationOutputReference extends cdktn.C
   }
 
   // jwks_endpoint - computed: false, optional: false, required: true
-  private _jwksEndpoint?: string; 
+  private _jwksEndpoint?: string;
   public get jwksEndpoint() {
     return this.getStringAttribute('jwks_endpoint');
   }
@@ -1699,27 +1699,27 @@ export class LbListenerDefaultActionJwtValidationOutputReference extends cdktn.C
 }
 export interface LbListenerDefaultActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#host LbListener#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#host LbListener#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#path LbListener#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#path LbListener#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#port LbListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#port LbListener#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#protocol LbListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#protocol LbListener#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#query LbListener#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#query LbListener#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#status_code LbListener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#status_code LbListener#status_code}
   */
   readonly statusCode: string;
 }
@@ -1851,7 +1851,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // host - computed: false, optional: true, required: false
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1867,7 +1867,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1883,7 +1883,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: string; 
+  private _port?: string;
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -1899,7 +1899,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1915,7 +1915,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // query - computed: false, optional: true, required: false
-  private _query?: string; 
+  private _query?: string;
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -1931,7 +1931,7 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
   }
 
   // status_code - computed: false, optional: false, required: true
-  private _statusCode?: string; 
+  private _statusCode?: string;
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1945,51 +1945,51 @@ export class LbListenerDefaultActionRedirectOutputReference extends cdktn.Comple
 }
 export interface LbListenerDefaultAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#order LbListener#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#order LbListener#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#target_group_arn LbListener#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#type LbListener#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#type LbListener#type}
   */
   readonly type: string;
   /**
   * authenticate_cognito block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#authenticate_cognito LbListener#authenticate_cognito}
   */
   readonly authenticateCognito?: LbListenerDefaultActionAuthenticateCognito;
   /**
   * authenticate_oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#authenticate_oidc LbListener#authenticate_oidc}
   */
   readonly authenticateOidc?: LbListenerDefaultActionAuthenticateOidc;
   /**
   * fixed_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#fixed_response LbListener#fixed_response}
   */
   readonly fixedResponse?: LbListenerDefaultActionFixedResponse;
   /**
   * forward block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#forward LbListener#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#forward LbListener#forward}
   */
   readonly forward?: LbListenerDefaultActionForward;
   /**
   * jwt_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#jwt_validation LbListener#jwt_validation}
   */
   readonly jwtValidation?: LbListenerDefaultActionJwtValidation;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#redirect LbListener#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#redirect LbListener#redirect}
   */
   readonly redirect?: LbListenerDefaultActionRedirect;
 }
@@ -2172,7 +2172,7 @@ export class LbListenerDefaultActionOutputReference extends cdktn.ComplexObject 
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number; 
+  private _order?: number;
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -2188,7 +2188,7 @@ export class LbListenerDefaultActionOutputReference extends cdktn.ComplexObject 
   }
 
   // target_group_arn - computed: false, optional: true, required: false
-  private _targetGroupArn?: string; 
+  private _targetGroupArn?: string;
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2204,7 +2204,7 @@ export class LbListenerDefaultActionOutputReference extends cdktn.ComplexObject 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2334,19 +2334,19 @@ export class LbListenerDefaultActionList extends cdktn.ComplexList {
 }
 export interface LbListenerMutualAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#advertise_trust_store_ca_names LbListener#advertise_trust_store_ca_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#advertise_trust_store_ca_names LbListener#advertise_trust_store_ca_names}
   */
   readonly advertiseTrustStoreCaNames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#ignore_client_certificate_expiry LbListener#ignore_client_certificate_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#ignore_client_certificate_expiry LbListener#ignore_client_certificate_expiry}
   */
   readonly ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#mode LbListener#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#mode LbListener#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#trust_store_arn LbListener#trust_store_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#trust_store_arn LbListener#trust_store_arn}
   */
   readonly trustStoreArn?: string;
 }
@@ -2452,7 +2452,7 @@ export class LbListenerMutualAuthenticationOutputReference extends cdktn.Complex
   }
 
   // advertise_trust_store_ca_names - computed: true, optional: true, required: false
-  private _advertiseTrustStoreCaNames?: string; 
+  private _advertiseTrustStoreCaNames?: string;
   public get advertiseTrustStoreCaNames() {
     return this.getStringAttribute('advertise_trust_store_ca_names');
   }
@@ -2468,7 +2468,7 @@ export class LbListenerMutualAuthenticationOutputReference extends cdktn.Complex
   }
 
   // ignore_client_certificate_expiry - computed: false, optional: true, required: false
-  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable; 
+  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable;
   public get ignoreClientCertificateExpiry() {
     return this.getBooleanAttribute('ignore_client_certificate_expiry');
   }
@@ -2484,7 +2484,7 @@ export class LbListenerMutualAuthenticationOutputReference extends cdktn.Complex
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2497,7 +2497,7 @@ export class LbListenerMutualAuthenticationOutputReference extends cdktn.Complex
   }
 
   // trust_store_arn - computed: false, optional: true, required: false
-  private _trustStoreArn?: string; 
+  private _trustStoreArn?: string;
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }
@@ -2514,11 +2514,11 @@ export class LbListenerMutualAuthenticationOutputReference extends cdktn.Complex
 }
 export interface LbListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#create LbListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#create LbListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#update LbListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#update LbListener#update}
   */
   readonly update?: string;
 }
@@ -2608,7 +2608,7 @@ export class LbListenerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2624,7 +2624,7 @@ export class LbListenerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2641,7 +2641,7 @@ export class LbListenerTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener aws_lb_listener}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener aws_lb_listener}
 */
 export class LbListener extends cdktn.TerraformResource {
 
@@ -2657,7 +2657,7 @@ export class LbListener extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LbListener resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbListener to import
-  * @param importFromId The id of the existing LbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2669,7 +2669,7 @@ export class LbListener extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb_listener aws_lb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener aws_lb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2680,7 +2680,7 @@ export class LbListener extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lb_listener',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2730,7 +2730,7 @@ export class LbListener extends cdktn.TerraformResource {
   // ==========
 
   // alpn_policy - computed: false, optional: true, required: false
-  private _alpnPolicy?: string; 
+  private _alpnPolicy?: string;
   public get alpnPolicy() {
     return this.getStringAttribute('alpn_policy');
   }
@@ -2751,7 +2751,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: false, optional: true, required: false
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -2767,7 +2767,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2783,7 +2783,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // load_balancer_arn - computed: false, optional: false, required: true
-  private _loadBalancerArn?: string; 
+  private _loadBalancerArn?: string;
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -2796,7 +2796,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2812,7 +2812,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2828,7 +2828,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2844,7 +2844,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_header_name');
   }
@@ -2860,7 +2860,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_issuer_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertIssuerHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertIssuerHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertIssuerHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_issuer_header_name');
   }
@@ -2876,7 +2876,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_leaf_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertLeafHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertLeafHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertLeafHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_leaf_header_name');
   }
@@ -2892,7 +2892,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertSerialNumberHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name');
   }
@@ -2908,7 +2908,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_subject_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertSubjectHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertSubjectHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertSubjectHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_subject_header_name');
   }
@@ -2924,7 +2924,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_mtls_clientcert_validity_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznMtlsClientcertValidityHeaderName?: string; 
+  private _routingHttpRequestXAmznMtlsClientcertValidityHeaderName?: string;
   public get routingHttpRequestXAmznMtlsClientcertValidityHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_mtls_clientcert_validity_header_name');
   }
@@ -2940,7 +2940,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_tls_cipher_suite_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznTlsCipherSuiteHeaderName?: string; 
+  private _routingHttpRequestXAmznTlsCipherSuiteHeaderName?: string;
   public get routingHttpRequestXAmznTlsCipherSuiteHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_tls_cipher_suite_header_name');
   }
@@ -2956,7 +2956,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_request_x_amzn_tls_version_header_name - computed: true, optional: true, required: false
-  private _routingHttpRequestXAmznTlsVersionHeaderName?: string; 
+  private _routingHttpRequestXAmznTlsVersionHeaderName?: string;
   public get routingHttpRequestXAmznTlsVersionHeaderName() {
     return this.getStringAttribute('routing_http_request_x_amzn_tls_version_header_name');
   }
@@ -2972,7 +2972,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_allow_credentials_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlAllowCredentialsHeaderValue?: string; 
+  private _routingHttpResponseAccessControlAllowCredentialsHeaderValue?: string;
   public get routingHttpResponseAccessControlAllowCredentialsHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_allow_credentials_header_value');
   }
@@ -2988,7 +2988,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_allow_headers_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlAllowHeadersHeaderValue?: string; 
+  private _routingHttpResponseAccessControlAllowHeadersHeaderValue?: string;
   public get routingHttpResponseAccessControlAllowHeadersHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_allow_headers_header_value');
   }
@@ -3004,7 +3004,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_allow_methods_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlAllowMethodsHeaderValue?: string; 
+  private _routingHttpResponseAccessControlAllowMethodsHeaderValue?: string;
   public get routingHttpResponseAccessControlAllowMethodsHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_allow_methods_header_value');
   }
@@ -3020,7 +3020,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_allow_origin_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlAllowOriginHeaderValue?: string; 
+  private _routingHttpResponseAccessControlAllowOriginHeaderValue?: string;
   public get routingHttpResponseAccessControlAllowOriginHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_allow_origin_header_value');
   }
@@ -3036,7 +3036,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_expose_headers_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlExposeHeadersHeaderValue?: string; 
+  private _routingHttpResponseAccessControlExposeHeadersHeaderValue?: string;
   public get routingHttpResponseAccessControlExposeHeadersHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_expose_headers_header_value');
   }
@@ -3052,7 +3052,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_access_control_max_age_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseAccessControlMaxAgeHeaderValue?: string; 
+  private _routingHttpResponseAccessControlMaxAgeHeaderValue?: string;
   public get routingHttpResponseAccessControlMaxAgeHeaderValue() {
     return this.getStringAttribute('routing_http_response_access_control_max_age_header_value');
   }
@@ -3068,7 +3068,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_content_security_policy_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseContentSecurityPolicyHeaderValue?: string; 
+  private _routingHttpResponseContentSecurityPolicyHeaderValue?: string;
   public get routingHttpResponseContentSecurityPolicyHeaderValue() {
     return this.getStringAttribute('routing_http_response_content_security_policy_header_value');
   }
@@ -3084,7 +3084,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_server_enabled - computed: true, optional: true, required: false
-  private _routingHttpResponseServerEnabled?: boolean | cdktn.IResolvable; 
+  private _routingHttpResponseServerEnabled?: boolean | cdktn.IResolvable;
   public get routingHttpResponseServerEnabled() {
     return this.getBooleanAttribute('routing_http_response_server_enabled');
   }
@@ -3100,7 +3100,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_strict_transport_security_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseStrictTransportSecurityHeaderValue?: string; 
+  private _routingHttpResponseStrictTransportSecurityHeaderValue?: string;
   public get routingHttpResponseStrictTransportSecurityHeaderValue() {
     return this.getStringAttribute('routing_http_response_strict_transport_security_header_value');
   }
@@ -3116,7 +3116,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_x_content_type_options_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseXContentTypeOptionsHeaderValue?: string; 
+  private _routingHttpResponseXContentTypeOptionsHeaderValue?: string;
   public get routingHttpResponseXContentTypeOptionsHeaderValue() {
     return this.getStringAttribute('routing_http_response_x_content_type_options_header_value');
   }
@@ -3132,7 +3132,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // routing_http_response_x_frame_options_header_value - computed: true, optional: true, required: false
-  private _routingHttpResponseXFrameOptionsHeaderValue?: string; 
+  private _routingHttpResponseXFrameOptionsHeaderValue?: string;
   public get routingHttpResponseXFrameOptionsHeaderValue() {
     return this.getStringAttribute('routing_http_response_x_frame_options_header_value');
   }
@@ -3148,7 +3148,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // ssl_policy - computed: true, optional: true, required: false
-  private _sslPolicy?: string; 
+  private _sslPolicy?: string;
   public get sslPolicy() {
     return this.getStringAttribute('ssl_policy');
   }
@@ -3164,7 +3164,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3180,7 +3180,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -3196,7 +3196,7 @@ export class LbListener extends cdktn.TerraformResource {
   }
 
   // tcp_idle_timeout_seconds - computed: true, optional: true, required: false
-  private _tcpIdleTimeoutSeconds?: number; 
+  private _tcpIdleTimeoutSeconds?: number;
   public get tcpIdleTimeoutSeconds() {
     return this.getNumberAttribute('tcp_idle_timeout_seconds');
   }

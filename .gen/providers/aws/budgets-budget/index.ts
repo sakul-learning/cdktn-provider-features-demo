@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktn from 'cdktn';
 
 export interface BudgetsBudgetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#account_id BudgetsBudget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#account_id BudgetsBudget#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#billing_view_arn BudgetsBudget#billing_view_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#billing_view_arn BudgetsBudget#billing_view_arn}
   */
   readonly billingViewArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#budget_type BudgetsBudget#budget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#budget_type BudgetsBudget#budget_type}
   */
   readonly budgetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#id BudgetsBudget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#id BudgetsBudget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#limit_amount BudgetsBudget#limit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#limit_amount BudgetsBudget#limit_amount}
   */
   readonly limitAmount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#limit_unit BudgetsBudget#limit_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#limit_unit BudgetsBudget#limit_unit}
   */
   readonly limitUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#metrics BudgetsBudget#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#metrics BudgetsBudget#metrics}
   */
   readonly metrics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#name BudgetsBudget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#name BudgetsBudget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#name_prefix BudgetsBudget#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#name_prefix BudgetsBudget#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags_all BudgetsBudget#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags_all BudgetsBudget#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#time_period_end BudgetsBudget#time_period_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#time_period_end BudgetsBudget#time_period_end}
   */
   readonly timePeriodEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#time_period_start BudgetsBudget#time_period_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#time_period_start BudgetsBudget#time_period_start}
   */
   readonly timePeriodStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#time_unit BudgetsBudget#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#time_unit BudgetsBudget#time_unit}
   */
   readonly timeUnit: string;
   /**
   * auto_adjust_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#auto_adjust_data BudgetsBudget#auto_adjust_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#auto_adjust_data BudgetsBudget#auto_adjust_data}
   */
   readonly autoAdjustData?: BudgetsBudgetAutoAdjustData;
   /**
   * cost_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_filter BudgetsBudget#cost_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_filter BudgetsBudget#cost_filter}
   */
   readonly costFilter?: BudgetsBudgetCostFilter[] | cdktn.IResolvable;
   /**
   * cost_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_types BudgetsBudget#cost_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_types BudgetsBudget#cost_types}
   */
   readonly costTypes?: BudgetsBudgetCostTypes;
   /**
   * filter_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#filter_expression BudgetsBudget#filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#filter_expression BudgetsBudget#filter_expression}
   */
   readonly filterExpression?: BudgetsBudgetFilterExpression;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#notification BudgetsBudget#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#notification BudgetsBudget#notification}
   */
   readonly notification?: BudgetsBudgetNotification[] | cdktn.IResolvable;
   /**
   * planned_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#planned_limit BudgetsBudget#planned_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#planned_limit BudgetsBudget#planned_limit}
   */
   readonly plannedLimit?: BudgetsBudgetPlannedLimit[] | cdktn.IResolvable;
 }
 export interface BudgetsBudgetAutoAdjustDataHistoricalOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#budget_adjustment_period BudgetsBudget#budget_adjustment_period}
   */
   readonly budgetAdjustmentPeriod: number;
 }
@@ -172,7 +172,7 @@ export class BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference extends
   }
 
   // budget_adjustment_period - computed: false, optional: false, required: true
-  private _budgetAdjustmentPeriod?: number; 
+  private _budgetAdjustmentPeriod?: number;
   public get budgetAdjustmentPeriod() {
     return this.getNumberAttribute('budget_adjustment_period');
   }
@@ -191,13 +191,13 @@ export class BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference extends
 }
 export interface BudgetsBudgetAutoAdjustData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#auto_adjust_type BudgetsBudget#auto_adjust_type}
   */
   readonly autoAdjustType: string;
   /**
   * historical_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#historical_options BudgetsBudget#historical_options}
   */
   readonly historicalOptions?: BudgetsBudgetAutoAdjustDataHistoricalOptions;
 }
@@ -277,7 +277,7 @@ export class BudgetsBudgetAutoAdjustDataOutputReference extends cdktn.ComplexObj
   }
 
   // auto_adjust_type - computed: false, optional: false, required: true
-  private _autoAdjustType?: string; 
+  private _autoAdjustType?: string;
   public get autoAdjustType() {
     return this.getStringAttribute('auto_adjust_type');
   }
@@ -312,11 +312,11 @@ export class BudgetsBudgetAutoAdjustDataOutputReference extends cdktn.ComplexObj
 }
 export interface BudgetsBudgetCostFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#name BudgetsBudget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#name BudgetsBudget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -408,7 +408,7 @@ export class BudgetsBudgetCostFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -421,7 +421,7 @@ export class BudgetsBudgetCostFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -455,47 +455,47 @@ export class BudgetsBudgetCostFilterList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetCostTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_credit BudgetsBudget#include_credit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_credit BudgetsBudget#include_credit}
   */
   readonly includeCredit?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_discount BudgetsBudget#include_discount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_discount BudgetsBudget#include_discount}
   */
   readonly includeDiscount?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_other_subscription BudgetsBudget#include_other_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_other_subscription BudgetsBudget#include_other_subscription}
   */
   readonly includeOtherSubscription?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_recurring BudgetsBudget#include_recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_recurring BudgetsBudget#include_recurring}
   */
   readonly includeRecurring?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_refund BudgetsBudget#include_refund}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_refund BudgetsBudget#include_refund}
   */
   readonly includeRefund?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_subscription BudgetsBudget#include_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_subscription BudgetsBudget#include_subscription}
   */
   readonly includeSubscription?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_support BudgetsBudget#include_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_support BudgetsBudget#include_support}
   */
   readonly includeSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_tax BudgetsBudget#include_tax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_tax BudgetsBudget#include_tax}
   */
   readonly includeTax?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#include_upfront BudgetsBudget#include_upfront}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#include_upfront BudgetsBudget#include_upfront}
   */
   readonly includeUpfront?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#use_amortized BudgetsBudget#use_amortized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#use_amortized BudgetsBudget#use_amortized}
   */
   readonly useAmortized?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#use_blended BudgetsBudget#use_blended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#use_blended BudgetsBudget#use_blended}
   */
   readonly useBlended?: boolean | cdktn.IResolvable;
 }
@@ -692,7 +692,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_credit - computed: false, optional: true, required: false
-  private _includeCredit?: boolean | cdktn.IResolvable; 
+  private _includeCredit?: boolean | cdktn.IResolvable;
   public get includeCredit() {
     return this.getBooleanAttribute('include_credit');
   }
@@ -708,7 +708,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_discount - computed: false, optional: true, required: false
-  private _includeDiscount?: boolean | cdktn.IResolvable; 
+  private _includeDiscount?: boolean | cdktn.IResolvable;
   public get includeDiscount() {
     return this.getBooleanAttribute('include_discount');
   }
@@ -724,7 +724,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_other_subscription - computed: false, optional: true, required: false
-  private _includeOtherSubscription?: boolean | cdktn.IResolvable; 
+  private _includeOtherSubscription?: boolean | cdktn.IResolvable;
   public get includeOtherSubscription() {
     return this.getBooleanAttribute('include_other_subscription');
   }
@@ -740,7 +740,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_recurring - computed: false, optional: true, required: false
-  private _includeRecurring?: boolean | cdktn.IResolvable; 
+  private _includeRecurring?: boolean | cdktn.IResolvable;
   public get includeRecurring() {
     return this.getBooleanAttribute('include_recurring');
   }
@@ -756,7 +756,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_refund - computed: false, optional: true, required: false
-  private _includeRefund?: boolean | cdktn.IResolvable; 
+  private _includeRefund?: boolean | cdktn.IResolvable;
   public get includeRefund() {
     return this.getBooleanAttribute('include_refund');
   }
@@ -772,7 +772,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_subscription - computed: false, optional: true, required: false
-  private _includeSubscription?: boolean | cdktn.IResolvable; 
+  private _includeSubscription?: boolean | cdktn.IResolvable;
   public get includeSubscription() {
     return this.getBooleanAttribute('include_subscription');
   }
@@ -788,7 +788,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_support - computed: false, optional: true, required: false
-  private _includeSupport?: boolean | cdktn.IResolvable; 
+  private _includeSupport?: boolean | cdktn.IResolvable;
   public get includeSupport() {
     return this.getBooleanAttribute('include_support');
   }
@@ -804,7 +804,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_tax - computed: false, optional: true, required: false
-  private _includeTax?: boolean | cdktn.IResolvable; 
+  private _includeTax?: boolean | cdktn.IResolvable;
   public get includeTax() {
     return this.getBooleanAttribute('include_tax');
   }
@@ -820,7 +820,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_upfront - computed: false, optional: true, required: false
-  private _includeUpfront?: boolean | cdktn.IResolvable; 
+  private _includeUpfront?: boolean | cdktn.IResolvable;
   public get includeUpfront() {
     return this.getBooleanAttribute('include_upfront');
   }
@@ -836,7 +836,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // use_amortized - computed: false, optional: true, required: false
-  private _useAmortized?: boolean | cdktn.IResolvable; 
+  private _useAmortized?: boolean | cdktn.IResolvable;
   public get useAmortized() {
     return this.getBooleanAttribute('use_amortized');
   }
@@ -852,7 +852,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // use_blended - computed: false, optional: true, required: false
-  private _useBlended?: boolean | cdktn.IResolvable; 
+  private _useBlended?: boolean | cdktn.IResolvable;
   public get useBlended() {
     return this.getBooleanAttribute('use_blended');
   }
@@ -869,15 +869,15 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
 }
 export interface BudgetsBudgetFilterExpressionAndAndCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -970,7 +970,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -986,7 +986,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1002,7 +1002,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1019,15 +1019,15 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
 }
 export interface BudgetsBudgetFilterExpressionAndAndDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -1120,7 +1120,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1133,7 +1133,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1149,7 +1149,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1163,15 +1163,15 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
 }
 export interface BudgetsBudgetFilterExpressionAndAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -1264,7 +1264,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1280,7 +1280,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1296,7 +1296,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1315,19 +1315,19 @@ export interface BudgetsBudgetFilterExpressionAndAnd {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionAndAndCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionAndAndDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionAndAndTags;
 }
@@ -1501,15 +1501,15 @@ export class BudgetsBudgetFilterExpressionAndAndList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionAndCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -1602,7 +1602,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1618,7 +1618,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1634,7 +1634,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1651,15 +1651,15 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
 }
 export interface BudgetsBudgetFilterExpressionAndDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -1752,7 +1752,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1765,7 +1765,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1781,7 +1781,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1795,15 +1795,15 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
 }
 export interface BudgetsBudgetFilterExpressionAndNotCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -1896,7 +1896,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1912,7 +1912,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1928,7 +1928,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1945,15 +1945,15 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
 }
 export interface BudgetsBudgetFilterExpressionAndNotDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -2046,7 +2046,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2059,7 +2059,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2075,7 +2075,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2089,15 +2089,15 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
 }
 export interface BudgetsBudgetFilterExpressionAndNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -2190,7 +2190,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2206,7 +2206,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2222,7 +2222,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2241,19 +2241,19 @@ export interface BudgetsBudgetFilterExpressionAndNot {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionAndNotCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionAndNotDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionAndNotTags;
 }
@@ -2395,15 +2395,15 @@ export class BudgetsBudgetFilterExpressionAndNotOutputReference extends cdktn.Co
 }
 export interface BudgetsBudgetFilterExpressionAndOrCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -2496,7 +2496,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2512,7 +2512,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2528,7 +2528,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2545,15 +2545,15 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
 }
 export interface BudgetsBudgetFilterExpressionAndOrDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -2646,7 +2646,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2659,7 +2659,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2675,7 +2675,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2689,15 +2689,15 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
 }
 export interface BudgetsBudgetFilterExpressionAndOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -2790,7 +2790,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2806,7 +2806,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2822,7 +2822,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2841,19 +2841,19 @@ export interface BudgetsBudgetFilterExpressionAndOr {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionAndOrCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionAndOrDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionAndOrTags;
 }
@@ -3027,15 +3027,15 @@ export class BudgetsBudgetFilterExpressionAndOrList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -3128,7 +3128,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3144,7 +3144,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3160,7 +3160,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3179,37 +3179,37 @@ export interface BudgetsBudgetFilterExpressionAnd {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#and BudgetsBudget#and}
   */
   readonly and?: BudgetsBudgetFilterExpressionAndAnd[] | cdktn.IResolvable;
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionAndCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionAndDimensions;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#not BudgetsBudget#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#not BudgetsBudget#not}
   */
   readonly not?: BudgetsBudgetFilterExpressionAndNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#or BudgetsBudget#or}
   */
   readonly or?: BudgetsBudgetFilterExpressionAndOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionAndTags;
 }
@@ -3470,15 +3470,15 @@ export class BudgetsBudgetFilterExpressionAndList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -3571,7 +3571,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3587,7 +3587,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3603,7 +3603,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3620,15 +3620,15 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
 }
 export interface BudgetsBudgetFilterExpressionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -3721,7 +3721,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3734,7 +3734,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3750,7 +3750,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3764,15 +3764,15 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
 }
 export interface BudgetsBudgetFilterExpressionNotAndCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -3865,7 +3865,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3881,7 +3881,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3897,7 +3897,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3914,15 +3914,15 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
 }
 export interface BudgetsBudgetFilterExpressionNotAndDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -4015,7 +4015,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4028,7 +4028,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4044,7 +4044,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4058,15 +4058,15 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
 }
 export interface BudgetsBudgetFilterExpressionNotAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -4159,7 +4159,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4175,7 +4175,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4191,7 +4191,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4210,19 +4210,19 @@ export interface BudgetsBudgetFilterExpressionNotAnd {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionNotAndCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionNotAndDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionNotAndTags;
 }
@@ -4396,15 +4396,15 @@ export class BudgetsBudgetFilterExpressionNotAndList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionNotCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -4497,7 +4497,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4513,7 +4513,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4529,7 +4529,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4546,15 +4546,15 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
 }
 export interface BudgetsBudgetFilterExpressionNotDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -4647,7 +4647,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4660,7 +4660,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4676,7 +4676,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4690,15 +4690,15 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
 }
 export interface BudgetsBudgetFilterExpressionNotNotCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -4791,7 +4791,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4807,7 +4807,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4823,7 +4823,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4840,15 +4840,15 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
 }
 export interface BudgetsBudgetFilterExpressionNotNotDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -4941,7 +4941,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4954,7 +4954,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4970,7 +4970,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4984,15 +4984,15 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
 }
 export interface BudgetsBudgetFilterExpressionNotNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -5085,7 +5085,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5101,7 +5101,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5117,7 +5117,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5136,19 +5136,19 @@ export interface BudgetsBudgetFilterExpressionNotNot {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionNotNotCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionNotNotDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionNotNotTags;
 }
@@ -5290,15 +5290,15 @@ export class BudgetsBudgetFilterExpressionNotNotOutputReference extends cdktn.Co
 }
 export interface BudgetsBudgetFilterExpressionNotOrCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -5391,7 +5391,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5407,7 +5407,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5423,7 +5423,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5440,15 +5440,15 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
 }
 export interface BudgetsBudgetFilterExpressionNotOrDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -5541,7 +5541,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5554,7 +5554,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5570,7 +5570,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5584,15 +5584,15 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
 }
 export interface BudgetsBudgetFilterExpressionNotOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -5685,7 +5685,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5701,7 +5701,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5717,7 +5717,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5736,19 +5736,19 @@ export interface BudgetsBudgetFilterExpressionNotOr {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionNotOrCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionNotOrDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionNotOrTags;
 }
@@ -5922,15 +5922,15 @@ export class BudgetsBudgetFilterExpressionNotOrList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -6023,7 +6023,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6039,7 +6039,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6055,7 +6055,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6074,37 +6074,37 @@ export interface BudgetsBudgetFilterExpressionNot {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#and BudgetsBudget#and}
   */
   readonly and?: BudgetsBudgetFilterExpressionNotAnd[] | cdktn.IResolvable;
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionNotCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionNotDimensions;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#not BudgetsBudget#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#not BudgetsBudget#not}
   */
   readonly not?: BudgetsBudgetFilterExpressionNotNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#or BudgetsBudget#or}
   */
   readonly or?: BudgetsBudgetFilterExpressionNotOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionNotTags;
 }
@@ -6333,15 +6333,15 @@ export class BudgetsBudgetFilterExpressionNotOutputReference extends cdktn.Compl
 }
 export interface BudgetsBudgetFilterExpressionOrAndCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -6434,7 +6434,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6450,7 +6450,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6466,7 +6466,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6483,15 +6483,15 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
 }
 export interface BudgetsBudgetFilterExpressionOrAndDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -6584,7 +6584,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6597,7 +6597,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6613,7 +6613,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6627,15 +6627,15 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
 }
 export interface BudgetsBudgetFilterExpressionOrAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -6728,7 +6728,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6744,7 +6744,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6760,7 +6760,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6779,19 +6779,19 @@ export interface BudgetsBudgetFilterExpressionOrAnd {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionOrAndCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionOrAndDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionOrAndTags;
 }
@@ -6965,15 +6965,15 @@ export class BudgetsBudgetFilterExpressionOrAndList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionOrCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -7066,7 +7066,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7082,7 +7082,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7098,7 +7098,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7115,15 +7115,15 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
 }
 export interface BudgetsBudgetFilterExpressionOrDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -7216,7 +7216,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7229,7 +7229,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7245,7 +7245,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7259,15 +7259,15 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
 }
 export interface BudgetsBudgetFilterExpressionOrNotCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -7360,7 +7360,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7376,7 +7376,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7392,7 +7392,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7409,15 +7409,15 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
 }
 export interface BudgetsBudgetFilterExpressionOrNotDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -7510,7 +7510,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7523,7 +7523,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7539,7 +7539,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7553,15 +7553,15 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
 }
 export interface BudgetsBudgetFilterExpressionOrNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -7654,7 +7654,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7670,7 +7670,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7686,7 +7686,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7705,19 +7705,19 @@ export interface BudgetsBudgetFilterExpressionOrNot {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionOrNotCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionOrNotDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionOrNotTags;
 }
@@ -7859,15 +7859,15 @@ export class BudgetsBudgetFilterExpressionOrNotOutputReference extends cdktn.Com
 }
 export interface BudgetsBudgetFilterExpressionOrOrCostCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -7960,7 +7960,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7976,7 +7976,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7992,7 +7992,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8009,15 +8009,15 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
 }
 export interface BudgetsBudgetFilterExpressionOrOrDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values: string[];
 }
@@ -8110,7 +8110,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8123,7 +8123,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8139,7 +8139,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8153,15 +8153,15 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
 }
 export interface BudgetsBudgetFilterExpressionOrOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -8254,7 +8254,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8270,7 +8270,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8286,7 +8286,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8305,19 +8305,19 @@ export interface BudgetsBudgetFilterExpressionOrOr {
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionOrOrCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionOrOrDimensions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionOrOrTags;
 }
@@ -8491,15 +8491,15 @@ export class BudgetsBudgetFilterExpressionOrOrList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -8592,7 +8592,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8608,7 +8608,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8624,7 +8624,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8643,37 +8643,37 @@ export interface BudgetsBudgetFilterExpressionOr {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#and BudgetsBudget#and}
   */
   readonly and?: BudgetsBudgetFilterExpressionOrAnd[] | cdktn.IResolvable;
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionOrCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionOrDimensions;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#not BudgetsBudget#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#not BudgetsBudget#not}
   */
   readonly not?: BudgetsBudgetFilterExpressionOrNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#or BudgetsBudget#or}
   */
   readonly or?: BudgetsBudgetFilterExpressionOrOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionOrTags;
 }
@@ -8934,15 +8934,15 @@ export class BudgetsBudgetFilterExpressionOrList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetFilterExpressionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#key BudgetsBudget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#key BudgetsBudget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#match_options BudgetsBudget#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#values BudgetsBudget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#values BudgetsBudget#values}
   */
   readonly values?: string[];
 }
@@ -9035,7 +9035,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -9051,7 +9051,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -9067,7 +9067,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -9086,37 +9086,37 @@ export interface BudgetsBudgetFilterExpression {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#and BudgetsBudget#and}
   */
   readonly and?: BudgetsBudgetFilterExpressionAnd[] | cdktn.IResolvable;
   /**
   * cost_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
   */
   readonly costCategories?: BudgetsBudgetFilterExpressionCostCategories;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
   */
   readonly dimensions?: BudgetsBudgetFilterExpressionDimensions;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#not BudgetsBudget#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#not BudgetsBudget#not}
   */
   readonly not?: BudgetsBudgetFilterExpressionNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#or BudgetsBudget#or}
   */
   readonly or?: BudgetsBudgetFilterExpressionOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
   */
   readonly tags?: BudgetsBudgetFilterExpressionTags;
 }
@@ -9345,27 +9345,27 @@ export class BudgetsBudgetFilterExpressionOutputReference extends cdktn.ComplexO
 }
 export interface BudgetsBudgetNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#comparison_operator BudgetsBudget#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#comparison_operator BudgetsBudget#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#notification_type BudgetsBudget#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#notification_type BudgetsBudget#notification_type}
   */
   readonly notificationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#subscriber_email_addresses BudgetsBudget#subscriber_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#subscriber_email_addresses BudgetsBudget#subscriber_email_addresses}
   */
   readonly subscriberEmailAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#subscriber_sns_topic_arns BudgetsBudget#subscriber_sns_topic_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#subscriber_sns_topic_arns BudgetsBudget#subscriber_sns_topic_arns}
   */
   readonly subscriberSnsTopicArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#threshold BudgetsBudget#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#threshold BudgetsBudget#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#threshold_type BudgetsBudget#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#threshold_type BudgetsBudget#threshold_type}
   */
   readonly thresholdType: string;
 }
@@ -9509,7 +9509,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string; 
+  private _comparisonOperator?: string;
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -9522,7 +9522,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // notification_type - computed: false, optional: false, required: true
-  private _notificationType?: string; 
+  private _notificationType?: string;
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }
@@ -9535,7 +9535,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // subscriber_email_addresses - computed: false, optional: true, required: false
-  private _subscriberEmailAddresses?: string[]; 
+  private _subscriberEmailAddresses?: string[];
   public get subscriberEmailAddresses() {
     return cdktn.Fn.tolist(this.getListAttribute('subscriber_email_addresses'));
   }
@@ -9551,7 +9551,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // subscriber_sns_topic_arns - computed: false, optional: true, required: false
-  private _subscriberSnsTopicArns?: string[]; 
+  private _subscriberSnsTopicArns?: string[];
   public get subscriberSnsTopicArns() {
     return cdktn.Fn.tolist(this.getListAttribute('subscriber_sns_topic_arns'));
   }
@@ -9567,7 +9567,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number; 
+  private _threshold?: number;
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -9580,7 +9580,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // threshold_type - computed: false, optional: false, required: true
-  private _thresholdType?: string; 
+  private _thresholdType?: string;
   public get thresholdType() {
     return this.getStringAttribute('threshold_type');
   }
@@ -9614,15 +9614,15 @@ export class BudgetsBudgetNotificationList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetPlannedLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#amount BudgetsBudget#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#amount BudgetsBudget#amount}
   */
   readonly amount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#start_time BudgetsBudget#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#start_time BudgetsBudget#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#unit BudgetsBudget#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#unit BudgetsBudget#unit}
   */
   readonly unit: string;
 }
@@ -9727,7 +9727,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // amount - computed: false, optional: false, required: true
-  private _amount?: string; 
+  private _amount?: string;
   public get amount() {
     return this.getStringAttribute('amount');
   }
@@ -9740,7 +9740,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // start_time - computed: false, optional: false, required: true
-  private _startTime?: string; 
+  private _startTime?: string;
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -9753,7 +9753,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -9787,7 +9787,7 @@ export class BudgetsBudgetPlannedLimitList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget aws_budgets_budget}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget aws_budgets_budget}
 */
 export class BudgetsBudget extends cdktn.TerraformResource {
 
@@ -9803,7 +9803,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BudgetsBudget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BudgetsBudget to import
-  * @param importFromId The id of the existing BudgetsBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BudgetsBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BudgetsBudget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9815,7 +9815,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/budgets_budget aws_budgets_budget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget aws_budgets_budget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9826,7 +9826,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
       terraformResourceType: 'aws_budgets_budget',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9863,7 +9863,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -9884,7 +9884,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // billing_view_arn - computed: false, optional: true, required: false
-  private _billingViewArn?: string; 
+  private _billingViewArn?: string;
   public get billingViewArn() {
     return this.getStringAttribute('billing_view_arn');
   }
@@ -9900,7 +9900,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // budget_type - computed: false, optional: false, required: true
-  private _budgetType?: string; 
+  private _budgetType?: string;
   public get budgetType() {
     return this.getStringAttribute('budget_type');
   }
@@ -9913,7 +9913,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9929,7 +9929,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // limit_amount - computed: true, optional: true, required: false
-  private _limitAmount?: string; 
+  private _limitAmount?: string;
   public get limitAmount() {
     return this.getStringAttribute('limit_amount');
   }
@@ -9945,7 +9945,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // limit_unit - computed: true, optional: true, required: false
-  private _limitUnit?: string; 
+  private _limitUnit?: string;
   public get limitUnit() {
     return this.getStringAttribute('limit_unit');
   }
@@ -9961,7 +9961,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // metrics - computed: false, optional: true, required: false
-  private _metrics?: string[]; 
+  private _metrics?: string[];
   public get metrics() {
     return this.getListAttribute('metrics');
   }
@@ -9977,7 +9977,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9993,7 +9993,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -10009,7 +10009,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -10025,7 +10025,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -10041,7 +10041,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_period_end - computed: false, optional: true, required: false
-  private _timePeriodEnd?: string; 
+  private _timePeriodEnd?: string;
   public get timePeriodEnd() {
     return this.getStringAttribute('time_period_end');
   }
@@ -10057,7 +10057,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_period_start - computed: true, optional: true, required: false
-  private _timePeriodStart?: string; 
+  private _timePeriodStart?: string;
   public get timePeriodStart() {
     return this.getStringAttribute('time_period_start');
   }
@@ -10073,7 +10073,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_unit - computed: false, optional: false, required: true
-  private _timeUnit?: string; 
+  private _timeUnit?: string;
   public get timeUnit() {
     return this.getStringAttribute('time_unit');
   }

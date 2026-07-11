@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DatasyncLocationFsxLustreConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Name (ARN) for the FSx for Lustre file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#fsx_filesystem_arn DatasyncLocationFsxLustre#fsx_filesystem_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#fsx_filesystem_arn DatasyncLocationFsxLustre#fsx_filesystem_arn}
   */
   readonly fsxFilesystemArn?: string;
   /**
   * The ARNs of the security groups that are to use to configure the FSx for Lustre file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#security_group_arns DatasyncLocationFsxLustre#security_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#security_group_arns DatasyncLocationFsxLustre#security_group_arns}
   */
   readonly securityGroupArns: string[];
   /**
   * A subdirectory in the location's path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#subdirectory DatasyncLocationFsxLustre#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#subdirectory DatasyncLocationFsxLustre#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#tags DatasyncLocationFsxLustre#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#tags DatasyncLocationFsxLustre#tags}
   */
   readonly tags?: DatasyncLocationFsxLustreTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface DatasyncLocationFsxLustreTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#key DatasyncLocationFsxLustre#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#key DatasyncLocationFsxLustre#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#value DatasyncLocationFsxLustre#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#value DatasyncLocationFsxLustre#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class DatasyncLocationFsxLustreTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class DatasyncLocationFsxLustreTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class DatasyncLocationFsxLustreTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}
 */
 export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationFsxLustre resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationFsxLustre to import
-  * @param importFromId The id of the existing DatasyncLocationFsxLustre that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationFsxLustre that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationFsxLustre to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_fsx_lustre',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -247,7 +247,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
   // ==========
 
   // fsx_filesystem_arn - computed: true, optional: true, required: false
-  private _fsxFilesystemArn?: string; 
+  private _fsxFilesystemArn?: string;
   public get fsxFilesystemArn() {
     return this.getStringAttribute('fsx_filesystem_arn');
   }
@@ -278,7 +278,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[]; 
+  private _securityGroupArns?: string[];
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -291,7 +291,7 @@ export class DatasyncLocationFsxLustre extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string; 
+  private _subdirectory?: string;
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

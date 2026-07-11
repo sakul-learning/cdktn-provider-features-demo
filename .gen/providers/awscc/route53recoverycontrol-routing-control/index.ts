@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Route53RecoverycontrolRoutingControlConfig extends cdktn.Terraf
   /**
   * Arn associated with Control Panel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control#cluster_arn Route53RecoverycontrolRoutingControl#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control#cluster_arn Route53RecoverycontrolRoutingControl#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
   * The Amazon Resource Name (ARN) of the control panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control#control_panel_arn Route53RecoverycontrolRoutingControl#control_panel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control#control_panel_arn Route53RecoverycontrolRoutingControl#control_panel_arn}
   */
   readonly controlPanelArn?: string;
   /**
   * The name of the routing control. You can use any non-white space character in the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control#name Route53RecoverycontrolRoutingControl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control#name Route53RecoverycontrolRoutingControl#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}
 */
 export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a Route53RecoverycontrolRoutingControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecoverycontrolRoutingControl to import
-  * @param importFromId The id of the existing Route53RecoverycontrolRoutingControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecoverycontrolRoutingControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecoverycontrolRoutingControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_route53recoverycontrol_routing_control',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
   // ==========
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string; 
+  private _clusterArn?: string;
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -103,7 +103,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
   }
 
   // control_panel_arn - computed: true, optional: true, required: false
-  private _controlPanelArn?: string; 
+  private _controlPanelArn?: string;
   public get controlPanelArn() {
     return this.getStringAttribute('control_panel_arn');
   }
@@ -124,7 +124,7 @@ export class Route53RecoverycontrolRoutingControl extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

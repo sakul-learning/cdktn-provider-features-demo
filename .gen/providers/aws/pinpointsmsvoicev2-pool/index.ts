@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface Pinpointsmsvoicev2PoolConfig extends cdktn.TerraformMetaArgumen
   /**
   * Whether deletion protection is enabled. When `true`, the pool cannot be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#deletion_protection_enabled Pinpointsmsvoicev2Pool#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#deletion_protection_enabled Pinpointsmsvoicev2Pool#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Two-character code, in ISO 3166-1 alpha-2 format, for the country or region of the pool. This field is optional for origination identity types that are not country-specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#iso_country_code Pinpointsmsvoicev2Pool#iso_country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#iso_country_code Pinpointsmsvoicev2Pool#iso_country_code}
   */
   readonly isoCountryCode?: string;
   /**
   * Type of message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#message_type Pinpointsmsvoicev2Pool#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#message_type Pinpointsmsvoicev2Pool#message_type}
   */
   readonly messageType: string;
   /**
   * Name of the opt-out list to associate with the pool. Inherited from the initial origination identity when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#opt_out_list_name Pinpointsmsvoicev2Pool#opt_out_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#opt_out_list_name Pinpointsmsvoicev2Pool#opt_out_list_name}
   */
   readonly optOutListName?: string;
   /**
   * Set of origination identity ARNs to associate with the pool. At least one origination identity is required at creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#origination_identities Pinpointsmsvoicev2Pool#origination_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#origination_identities Pinpointsmsvoicev2Pool#origination_identities}
   */
   readonly originationIdentities: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#region Pinpointsmsvoicev2Pool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#region Pinpointsmsvoicev2Pool#region}
   */
   readonly region?: string;
   /**
   * Whether the pool relies on self-managed opt-out handling. When `false`, AWS auto-replies to HELP/STOP requests and manages the opt-out list. Inherited from the initial origination identity when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#self_managed_opt_outs_enabled Pinpointsmsvoicev2Pool#self_managed_opt_outs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#self_managed_opt_outs_enabled Pinpointsmsvoicev2Pool#self_managed_opt_outs_enabled}
   */
   readonly selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Whether shared routes are enabled for the pool. When `true`, messages may use shared phone numbers or sender IDs in countries that allow it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#shared_routes_enabled Pinpointsmsvoicev2Pool#shared_routes_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#shared_routes_enabled Pinpointsmsvoicev2Pool#shared_routes_enabled}
   */
   readonly sharedRoutesEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#tags Pinpointsmsvoicev2Pool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#tags Pinpointsmsvoicev2Pool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ARN of the two-way channel that receives inbound messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#two_way_channel_arn Pinpointsmsvoicev2Pool#two_way_channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#two_way_channel_arn Pinpointsmsvoicev2Pool#two_way_channel_arn}
   */
   readonly twoWayChannelArn?: string;
   /**
   * ARN of the IAM role that End User Messaging SMS assumes to publish inbound messages to the two-way channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#two_way_channel_role Pinpointsmsvoicev2Pool#two_way_channel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#two_way_channel_role Pinpointsmsvoicev2Pool#two_way_channel_role}
   */
   readonly twoWayChannelRole?: string;
   /**
   * Whether inbound message reception is enabled for the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#two_way_enabled Pinpointsmsvoicev2Pool#two_way_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#two_way_enabled Pinpointsmsvoicev2Pool#two_way_enabled}
   */
   readonly twoWayEnabled?: boolean | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#timeouts Pinpointsmsvoicev2Pool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#timeouts Pinpointsmsvoicev2Pool#timeouts}
   */
   readonly timeouts?: Pinpointsmsvoicev2PoolTimeouts;
 }
@@ -88,19 +88,19 @@ export interface Pinpointsmsvoicev2PoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#create Pinpointsmsvoicev2Pool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#create Pinpointsmsvoicev2Pool#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#delete Pinpointsmsvoicev2Pool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#delete Pinpointsmsvoicev2Pool#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#update Pinpointsmsvoicev2Pool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#update Pinpointsmsvoicev2Pool#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -219,7 +219,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -252,7 +252,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool}
 */
 export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
 
@@ -268,7 +268,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Pinpointsmsvoicev2Pool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pinpointsmsvoicev2Pool to import
-  * @param importFromId The id of the existing Pinpointsmsvoicev2Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pinpointsmsvoicev2Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pinpointsmsvoicev2Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -280,7 +280,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +291,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
       terraformResourceType: 'aws_pinpointsmsvoicev2_pool',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -326,7 +326,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -347,7 +347,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // iso_country_code - computed: false, optional: true, required: false
-  private _isoCountryCode?: string; 
+  private _isoCountryCode?: string;
   public get isoCountryCode() {
     return this.getStringAttribute('iso_country_code');
   }
@@ -363,7 +363,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // message_type - computed: false, optional: false, required: true
-  private _messageType?: string; 
+  private _messageType?: string;
   public get messageType() {
     return this.getStringAttribute('message_type');
   }
@@ -376,7 +376,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // opt_out_list_name - computed: true, optional: true, required: false
-  private _optOutListName?: string; 
+  private _optOutListName?: string;
   public get optOutListName() {
     return this.getStringAttribute('opt_out_list_name');
   }
@@ -392,7 +392,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // origination_identities - computed: false, optional: false, required: true
-  private _originationIdentities?: string[]; 
+  private _originationIdentities?: string[];
   public get originationIdentities() {
     return cdktn.Fn.tolist(this.getListAttribute('origination_identities'));
   }
@@ -405,7 +405,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -421,7 +421,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // self_managed_opt_outs_enabled - computed: true, optional: true, required: false
-  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable; 
+  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
   public get selfManagedOptOutsEnabled() {
     return this.getBooleanAttribute('self_managed_opt_outs_enabled');
   }
@@ -437,7 +437,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // shared_routes_enabled - computed: true, optional: true, required: false
-  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable; 
+  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable;
   public get sharedRoutesEnabled() {
     return this.getBooleanAttribute('shared_routes_enabled');
   }
@@ -453,7 +453,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -475,7 +475,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_channel_arn - computed: false, optional: true, required: false
-  private _twoWayChannelArn?: string; 
+  private _twoWayChannelArn?: string;
   public get twoWayChannelArn() {
     return this.getStringAttribute('two_way_channel_arn');
   }
@@ -491,7 +491,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_channel_role - computed: false, optional: true, required: false
-  private _twoWayChannelRole?: string; 
+  private _twoWayChannelRole?: string;
   public get twoWayChannelRole() {
     return this.getStringAttribute('two_way_channel_role');
   }
@@ -507,7 +507,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_enabled - computed: true, optional: true, required: false
-  private _twoWayEnabled?: boolean | cdktn.IResolvable; 
+  private _twoWayEnabled?: boolean | cdktn.IResolvable;
   public get twoWayEnabled() {
     return this.getBooleanAttribute('two_way_enabled');
   }

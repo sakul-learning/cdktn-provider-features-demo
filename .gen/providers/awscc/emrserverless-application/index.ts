@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface EmrserverlessApplicationConfig extends cdktn.TerraformMetaArgum
   /**
   * The cpu architecture of an application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
   */
   readonly architecture?: string;
   /**
   * Configuration for Auto Start of Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
   */
   readonly autoStartConfiguration?: EmrserverlessApplicationAutoStartConfiguration;
   /**
   * Configuration for Auto Stop of Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
   */
   readonly autoStopConfiguration?: EmrserverlessApplicationAutoStopConfiguration;
   /**
   * The image configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
   */
   readonly imageConfiguration?: EmrserverlessApplicationImageConfiguration;
   /**
   * Initial capacity initialized when an Application is started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
   */
   readonly initialCapacity?: EmrserverlessApplicationInitialCapacity[] | cdktn.IResolvable;
   /**
   * Maximum allowed cumulative resources for an Application. No new resources will be created once the limit is hit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
   */
   readonly maximumCapacity?: EmrserverlessApplicationMaximumCapacity;
   /**
   * User friendly Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
   */
   readonly name?: string;
   /**
   * Network Configuration for customer VPC connectivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
   */
   readonly networkConfiguration?: EmrserverlessApplicationNetworkConfiguration;
   /**
   * EMR release label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
   */
   readonly releaseLabel: string;
   /**
   * Tag map with key and value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
   */
   readonly tags?: EmrserverlessApplicationTags[] | cdktn.IResolvable;
   /**
   * The type of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
   */
   readonly type: string;
   /**
   * The key-value pairs that specify worker type to WorkerTypeSpecificationInput. This parameter must contain all valid worker types for a Spark or Hive application. Valid worker types include Driver and Executor for Spark applications and HiveDriver and TezTask for Hive applications. You can either set image details in this parameter for each worker type, or in imageConfiguration for all worker types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
   */
   readonly workerTypeSpecifications?: { [key: string]: EmrserverlessApplicationWorkerTypeSpecifications } | cdktn.IResolvable;
 }
@@ -84,7 +84,7 @@ export interface EmrserverlessApplicationAutoStartConfiguration {
   /**
   * If set to true, the Application will automatically start. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -161,7 +161,7 @@ export class EmrserverlessApplicationAutoStartConfigurationOutputReference exten
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -180,13 +180,13 @@ export interface EmrserverlessApplicationAutoStopConfiguration {
   /**
   * If set to true, the Application will automatically stop after being idle. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The amount of time [in minutes] to wait before auto stopping the Application when idle. Defaults to 15 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#idle_timeout_minutes EmrserverlessApplication#idle_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#idle_timeout_minutes EmrserverlessApplication#idle_timeout_minutes}
   */
   readonly idleTimeoutMinutes?: number;
 }
@@ -276,7 +276,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -292,7 +292,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // idle_timeout_minutes - computed: true, optional: true, required: false
-  private _idleTimeoutMinutes?: number; 
+  private _idleTimeoutMinutes?: number;
   public get idleTimeoutMinutes() {
     return this.getNumberAttribute('idle_timeout_minutes');
   }
@@ -311,7 +311,7 @@ export interface EmrserverlessApplicationImageConfiguration {
   /**
   * The URI of an image in the Amazon ECR registry. This field is required when you create a new application. If you leave this field blank in an update, Amazon EMR will remove the image configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
   */
   readonly imageUri?: string;
 }
@@ -388,7 +388,7 @@ export class EmrserverlessApplicationImageConfigurationOutputReference extends c
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -407,19 +407,19 @@ export interface EmrserverlessApplicationInitialCapacityValueWorkerConfiguration
   /**
   * Per worker CPU resource. vCPU is the only supported unit and specifying vCPU is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
   */
   readonly cpu?: string;
   /**
   * Per worker Disk resource. GB is the only supported unit and specifying GB is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
   */
   readonly disk?: string;
   /**
   * Per worker memory resource. GB is the only supported unit and specifying GB is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
   */
   readonly memory?: string;
 }
@@ -522,7 +522,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string; 
+  private _cpu?: string;
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -538,7 +538,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string; 
+  private _disk?: string;
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -554,7 +554,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string; 
+  private _memory?: string;
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -571,13 +571,13 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
 }
 export interface EmrserverlessApplicationInitialCapacityValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}
   */
   readonly workerConfiguration?: EmrserverlessApplicationInitialCapacityValueWorkerConfiguration;
   /**
   * Initial count of workers to be initialized when an Application is started. This count will be continued to be maintained until the Application is stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}
   */
   readonly workerCount?: number;
 }
@@ -683,7 +683,7 @@ export class EmrserverlessApplicationInitialCapacityValueOutputReference extends
   }
 
   // worker_count - computed: true, optional: true, required: false
-  private _workerCount?: number; 
+  private _workerCount?: number;
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -702,11 +702,11 @@ export interface EmrserverlessApplicationInitialCapacity {
   /**
   * Worker type for an analytics framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
   */
   readonly value?: EmrserverlessApplicationInitialCapacityValue;
 }
@@ -798,7 +798,7 @@ export class EmrserverlessApplicationInitialCapacityOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -853,19 +853,19 @@ export interface EmrserverlessApplicationMaximumCapacity {
   /**
   * Per worker CPU resource. vCPU is the only supported unit and specifying vCPU is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
   */
   readonly cpu?: string;
   /**
   * Per worker Disk resource. GB is the only supported unit and specifying GB is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
   */
   readonly disk?: string;
   /**
   * Per worker memory resource. GB is the only supported unit and specifying GB is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
   */
   readonly memory?: string;
 }
@@ -968,7 +968,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string; 
+  private _cpu?: string;
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -984,7 +984,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string; 
+  private _disk?: string;
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -1000,7 +1000,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string; 
+  private _memory?: string;
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -1019,13 +1019,13 @@ export interface EmrserverlessApplicationNetworkConfiguration {
   /**
   * The ID of the security groups in the VPC to which you want to connect your job or application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect your job or application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -1115,7 +1115,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1131,7 +1131,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1148,15 +1148,15 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
 }
 export interface EmrserverlessApplicationTags {
   /**
-  * The value for the tag. You can specify a value that is 1 to 128 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 128 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
   */
   readonly value?: string;
 }
@@ -1248,7 +1248,7 @@ export class EmrserverlessApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1264,7 +1264,7 @@ export class EmrserverlessApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1303,7 +1303,7 @@ export interface EmrserverlessApplicationWorkerTypeSpecificationsImageConfigurat
   /**
   * The URI of an image in the Amazon ECR registry. This field is required when you create a new application. If you leave this field blank in an update, Amazon EMR will remove the image configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
   */
   readonly imageUri?: string;
 }
@@ -1380,7 +1380,7 @@ export class EmrserverlessApplicationWorkerTypeSpecificationsImageConfigurationO
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -1399,7 +1399,7 @@ export interface EmrserverlessApplicationWorkerTypeSpecifications {
   /**
   * The image configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
   */
   readonly imageConfiguration?: EmrserverlessApplicationWorkerTypeSpecificationsImageConfiguration;
 }
@@ -1513,7 +1513,7 @@ export class EmrserverlessApplicationWorkerTypeSpecificationsMap extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application awscc_emrserverless_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application awscc_emrserverless_application}
 */
 export class EmrserverlessApplication extends cdktn.TerraformResource {
 
@@ -1529,7 +1529,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrserverlessApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrserverlessApplication to import
-  * @param importFromId The id of the existing EmrserverlessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrserverlessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrserverlessApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1541,7 +1541,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emrserverless_application awscc_emrserverless_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application awscc_emrserverless_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1552,7 +1552,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_emrserverless_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1586,7 +1586,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // architecture - computed: true, optional: true, required: false
-  private _architecture?: string; 
+  private _architecture?: string;
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -1692,7 +1692,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1724,7 +1724,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string; 
+  private _releaseLabel?: string;
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -1753,7 +1753,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

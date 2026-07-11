@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktn from 'cdktn';
 
 export interface Lexv2ModelsBotConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#description Lexv2ModelsBot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#description Lexv2ModelsBot#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#idle_session_ttl_in_seconds Lexv2ModelsBot#idle_session_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#idle_session_ttl_in_seconds Lexv2ModelsBot#idle_session_ttl_in_seconds}
   */
   readonly idleSessionTtlInSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#name Lexv2ModelsBot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#name Lexv2ModelsBot#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#region Lexv2ModelsBot#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#region Lexv2ModelsBot#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#role_arn Lexv2ModelsBot#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#role_arn Lexv2ModelsBot#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#tags Lexv2ModelsBot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#tags Lexv2ModelsBot#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#test_bot_alias_tags Lexv2ModelsBot#test_bot_alias_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#test_bot_alias_tags Lexv2ModelsBot#test_bot_alias_tags}
   */
   readonly testBotAliasTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#type Lexv2ModelsBot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#type Lexv2ModelsBot#type}
   */
   readonly type?: string;
   /**
   * data_privacy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#data_privacy Lexv2ModelsBot#data_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#data_privacy Lexv2ModelsBot#data_privacy}
   */
   readonly dataPrivacy?: Lexv2ModelsBotDataPrivacy[] | cdktn.IResolvable;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#members Lexv2ModelsBot#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#members Lexv2ModelsBot#members}
   */
   readonly members?: Lexv2ModelsBotMembers[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#timeouts Lexv2ModelsBot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#timeouts Lexv2ModelsBot#timeouts}
   */
   readonly timeouts?: Lexv2ModelsBotTimeouts;
 }
 export interface Lexv2ModelsBotDataPrivacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}
   */
   readonly childDirected: boolean | cdktn.IResolvable;
 }
@@ -141,7 +141,7 @@ export class Lexv2ModelsBotDataPrivacyOutputReference extends cdktn.ComplexObjec
   }
 
   // child_directed - computed: false, optional: false, required: true
-  private _childDirected?: boolean | cdktn.IResolvable; 
+  private _childDirected?: boolean | cdktn.IResolvable;
   public get childDirected() {
     return this.getBooleanAttribute('child_directed');
   }
@@ -175,26 +175,26 @@ export class Lexv2ModelsBotDataPrivacyList extends cdktn.ComplexList {
 }
 export interface Lexv2ModelsBotMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#alias_id Lexv2ModelsBot#alias_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#alias_id Lexv2ModelsBot#alias_id}
   */
   readonly aliasId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#alias_name Lexv2ModelsBot#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#alias_name Lexv2ModelsBot#alias_name}
   */
   readonly aliasName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#id Lexv2ModelsBot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#id Lexv2ModelsBot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#name Lexv2ModelsBot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#name Lexv2ModelsBot#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#version Lexv2ModelsBot#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#version Lexv2ModelsBot#version}
   */
   readonly version: string;
 }
@@ -325,7 +325,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // alias_id - computed: false, optional: false, required: true
-  private _aliasId?: string; 
+  private _aliasId?: string;
   public get aliasId() {
     return this.getStringAttribute('alias_id');
   }
@@ -338,7 +338,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string; 
+  private _aliasName?: string;
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -351,7 +351,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -364,7 +364,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -377,7 +377,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -413,19 +413,19 @@ export interface Lexv2ModelsBotTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#create Lexv2ModelsBot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#create Lexv2ModelsBot#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#delete Lexv2ModelsBot#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#delete Lexv2ModelsBot#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#update Lexv2ModelsBot#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#update Lexv2ModelsBot#update}
   */
   readonly update?: string;
 }
@@ -528,7 +528,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -544,7 +544,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -560,7 +560,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -577,7 +577,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot aws_lexv2models_bot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot aws_lexv2models_bot}
 */
 export class Lexv2ModelsBot extends cdktn.TerraformResource {
 
@@ -593,7 +593,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Lexv2ModelsBot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lexv2ModelsBot to import
-  * @param importFromId The id of the existing Lexv2ModelsBot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lexv2ModelsBot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lexv2ModelsBot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -605,7 +605,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,7 +616,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lexv2models_bot',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -649,7 +649,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -670,7 +670,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // idle_session_ttl_in_seconds - computed: false, optional: false, required: true
-  private _idleSessionTtlInSeconds?: number; 
+  private _idleSessionTtlInSeconds?: number;
   public get idleSessionTtlInSeconds() {
     return this.getNumberAttribute('idle_session_ttl_in_seconds');
   }
@@ -683,7 +683,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -696,7 +696,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -712,7 +712,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -725,7 +725,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -747,7 +747,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // test_bot_alias_tags - computed: false, optional: true, required: false
-  private _testBotAliasTags?: { [key: string]: string }; 
+  private _testBotAliasTags?: { [key: string]: string };
   public get testBotAliasTags() {
     return this.getStringMapAttribute('test_bot_alias_tags');
   }
@@ -763,7 +763,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktn from 'cdktn';
 
 export interface ChimeVoiceConnectorTerminationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#calling_regions ChimeVoiceConnectorTermination#calling_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#calling_regions ChimeVoiceConnectorTermination#calling_regions}
   */
   readonly callingRegions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#cidr_allow_list ChimeVoiceConnectorTermination#cidr_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#cidr_allow_list ChimeVoiceConnectorTermination#cidr_allow_list}
   */
   readonly cidrAllowList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#cps_limit ChimeVoiceConnectorTermination#cps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#cps_limit ChimeVoiceConnectorTermination#cps_limit}
   */
   readonly cpsLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#default_phone_number ChimeVoiceConnectorTermination#default_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#default_phone_number ChimeVoiceConnectorTermination#default_phone_number}
   */
   readonly defaultPhoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#disabled ChimeVoiceConnectorTermination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#disabled ChimeVoiceConnectorTermination#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#id ChimeVoiceConnectorTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#id ChimeVoiceConnectorTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,17 +37,17 @@ export interface ChimeVoiceConnectorTerminationConfig extends cdktn.TerraformMet
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#region ChimeVoiceConnectorTermination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#region ChimeVoiceConnectorTermination#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#voice_connector_id ChimeVoiceConnectorTermination#voice_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#voice_connector_id ChimeVoiceConnectorTermination#voice_connector_id}
   */
   readonly voiceConnectorId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}
 */
 export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimeVoiceConnectorTermination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimeVoiceConnectorTermination to import
-  * @param importFromId The id of the existing ChimeVoiceConnectorTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimeVoiceConnectorTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimeVoiceConnectorTermination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
       terraformResourceType: 'aws_chime_voice_connector_termination',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   // ==========
 
   // calling_regions - computed: false, optional: false, required: true
-  private _callingRegions?: string[]; 
+  private _callingRegions?: string[];
   public get callingRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('calling_regions'));
   }
@@ -124,7 +124,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // cidr_allow_list - computed: false, optional: false, required: true
-  private _cidrAllowList?: string[]; 
+  private _cidrAllowList?: string[];
   public get cidrAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('cidr_allow_list'));
   }
@@ -137,7 +137,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // cps_limit - computed: false, optional: true, required: false
-  private _cpsLimit?: number; 
+  private _cpsLimit?: number;
   public get cpsLimit() {
     return this.getNumberAttribute('cps_limit');
   }
@@ -153,7 +153,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // default_phone_number - computed: false, optional: true, required: false
-  private _defaultPhoneNumber?: string; 
+  private _defaultPhoneNumber?: string;
   public get defaultPhoneNumber() {
     return this.getStringAttribute('default_phone_number');
   }
@@ -169,7 +169,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -185,7 +185,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -201,7 +201,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -217,7 +217,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string; 
+  private _voiceConnectorId?: string;
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

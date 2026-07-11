@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface DataAwsVpcSecurityGroupRuleConfig extends cdktn.TerraformMetaAr
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#region DataAwsVpcSecurityGroupRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#region DataAwsVpcSecurityGroupRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#security_group_rule_id DataAwsVpcSecurityGroupRule#security_group_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#security_group_rule_id DataAwsVpcSecurityGroupRule#security_group_rule_id}
   */
   readonly securityGroupRuleId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#filter DataAwsVpcSecurityGroupRule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#filter DataAwsVpcSecurityGroupRule#filter}
   */
   readonly filter?: DataAwsVpcSecurityGroupRuleFilter[] | cdktn.IResolvable;
 }
 export interface DataAwsVpcSecurityGroupRuleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#name DataAwsVpcSecurityGroupRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#name DataAwsVpcSecurityGroupRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#values DataAwsVpcSecurityGroupRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#values DataAwsVpcSecurityGroupRule#values}
   */
   readonly values: string[];
 }
@@ -122,7 +122,7 @@ export class DataAwsVpcSecurityGroupRuleFilterOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -135,7 +135,7 @@ export class DataAwsVpcSecurityGroupRuleFilterOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -169,7 +169,7 @@ export class DataAwsVpcSecurityGroupRuleFilterList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule}
 */
 export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsVpcSecurityGroupRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsVpcSecurityGroupRule to import
-  * @param importFromId The id of the existing DataAwsVpcSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsVpcSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsVpcSecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,7 +208,7 @@ export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_vpc_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -278,7 +278,7 @@ export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -299,7 +299,7 @@ export class DataAwsVpcSecurityGroupRule extends cdktn.TerraformDataSource {
   }
 
   // security_group_rule_id - computed: true, optional: true, required: false
-  private _securityGroupRuleId?: string; 
+  private _securityGroupRuleId?: string;
   public get securityGroupRuleId() {
     return this.getStringAttribute('security_group_rule_id');
   }

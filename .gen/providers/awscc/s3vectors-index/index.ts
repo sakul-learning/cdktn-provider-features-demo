@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface S3VectorsIndexConfig extends cdktn.TerraformMetaArguments {
   /**
   * The data type of the vectors to be inserted into the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
   */
   readonly dataType: string;
   /**
   * The dimensions of the vectors to be inserted into the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
   */
   readonly dimension: number;
   /**
   * The distance metric to be used for similarity search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
   */
   readonly distanceMetric: string;
   /**
   * The encryption configuration for the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3VectorsIndexEncryptionConfiguration;
   /**
   * The name of the vector index to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
   */
   readonly indexName?: string;
   /**
   * The metadata configuration for the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
   */
   readonly metadataConfiguration?: S3VectorsIndexMetadataConfiguration;
   /**
   * User tags (key-value pairs) to associate with the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
   */
   readonly tags?: S3VectorsIndexTags[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the vector bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
   */
   readonly vectorBucketArn?: string;
   /**
   * The name of the vector bucket that contains the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
   */
   readonly vectorBucketName?: string;
 }
@@ -66,13 +66,13 @@ export interface S3VectorsIndexEncryptionConfiguration {
   /**
   * AWS Key Management Service (KMS) customer managed key ID to use for the encryption configuration. This parameter is allowed if and only if sseType is set to aws:kms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Defines the server-side encryption type for index encryption configuration. Defaults to the parent vector bucket's encryption settings when unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
   */
   readonly sseType?: string;
 }
@@ -162,7 +162,7 @@ export class S3VectorsIndexEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -178,7 +178,7 @@ export class S3VectorsIndexEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // sse_type - computed: true, optional: true, required: false
-  private _sseType?: string; 
+  private _sseType?: string;
   public get sseType() {
     return this.getStringAttribute('sse_type');
   }
@@ -197,7 +197,7 @@ export interface S3VectorsIndexMetadataConfiguration {
   /**
   * Non-filterable metadata keys allow you to enrich vectors with additional context during storage and retrieval. Unlike default metadata keys, these keys cannot be used as query filters. Non-filterable metadata keys can be retrieved but cannot be searched, queried, or filtered. You can access non-filterable metadata keys of your vectors after finding the vectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
   */
   readonly nonFilterableMetadataKeys?: string[];
 }
@@ -274,7 +274,7 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
   }
 
   // non_filterable_metadata_keys - computed: true, optional: true, required: false
-  private _nonFilterableMetadataKeys?: string[]; 
+  private _nonFilterableMetadataKeys?: string[];
   public get nonFilterableMetadataKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('non_filterable_metadata_keys'));
   }
@@ -293,13 +293,13 @@ export interface S3VectorsIndexTags {
   /**
   * Tag key must be between 1 to 128 characters in length. Tag key cannot start with 'aws:' and can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#key S3VectorsIndex#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#key S3VectorsIndex#key}
   */
   readonly key?: string;
   /**
   * Tag value must be between 0 to 256 characters in length. Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#value S3VectorsIndex#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#value S3VectorsIndex#value}
   */
   readonly value?: string;
 }
@@ -391,7 +391,7 @@ export class S3VectorsIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -407,7 +407,7 @@ export class S3VectorsIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -444,7 +444,7 @@ export class S3VectorsIndexTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index awscc_s3vectors_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index awscc_s3vectors_index}
 */
 export class S3VectorsIndex extends cdktn.TerraformResource {
 
@@ -460,7 +460,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3VectorsIndex resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3VectorsIndex to import
-  * @param importFromId The id of the existing S3VectorsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3VectorsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3VectorsIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -472,7 +472,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,7 +483,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3vectors_index',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -514,7 +514,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // data_type - computed: false, optional: false, required: true
-  private _dataType?: string; 
+  private _dataType?: string;
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -527,7 +527,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // dimension - computed: false, optional: false, required: true
-  private _dimension?: number; 
+  private _dimension?: number;
   public get dimension() {
     return this.getNumberAttribute('dimension');
   }
@@ -540,7 +540,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // distance_metric - computed: false, optional: false, required: true
-  private _distanceMetric?: string; 
+  private _distanceMetric?: string;
   public get distanceMetric() {
     return this.getStringAttribute('distance_metric');
   }
@@ -579,7 +579,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -627,7 +627,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // vector_bucket_arn - computed: true, optional: true, required: false
-  private _vectorBucketArn?: string; 
+  private _vectorBucketArn?: string;
   public get vectorBucketArn() {
     return this.getStringAttribute('vector_bucket_arn');
   }
@@ -643,7 +643,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // vector_bucket_name - computed: true, optional: true, required: false
-  private _vectorBucketName?: string; 
+  private _vectorBucketName?: string;
   public get vectorBucketName() {
     return this.getStringAttribute('vector_bucket_name');
   }

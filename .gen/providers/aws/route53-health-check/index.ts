@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktn from 'cdktn';
 
 export interface Route53HealthCheckConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#child_health_threshold Route53HealthCheck#child_health_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#child_health_threshold Route53HealthCheck#child_health_threshold}
   */
   readonly childHealthThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#child_healthchecks Route53HealthCheck#child_healthchecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#child_healthchecks Route53HealthCheck#child_healthchecks}
   */
   readonly childHealthchecks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#cloudwatch_alarm_name Route53HealthCheck#cloudwatch_alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#cloudwatch_alarm_name Route53HealthCheck#cloudwatch_alarm_name}
   */
   readonly cloudwatchAlarmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#cloudwatch_alarm_region Route53HealthCheck#cloudwatch_alarm_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#cloudwatch_alarm_region Route53HealthCheck#cloudwatch_alarm_region}
   */
   readonly cloudwatchAlarmRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#disabled Route53HealthCheck#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#disabled Route53HealthCheck#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#enable_sni Route53HealthCheck#enable_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#enable_sni Route53HealthCheck#enable_sni}
   */
   readonly enableSni?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#failure_threshold Route53HealthCheck#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#failure_threshold Route53HealthCheck#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#fqdn Route53HealthCheck#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#fqdn Route53HealthCheck#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#id Route53HealthCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#id Route53HealthCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#insufficient_data_health_status Route53HealthCheck#insufficient_data_health_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#insufficient_data_health_status Route53HealthCheck#insufficient_data_health_status}
   */
   readonly insufficientDataHealthStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#invert_healthcheck Route53HealthCheck#invert_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#invert_healthcheck Route53HealthCheck#invert_healthcheck}
   */
   readonly invertHealthcheck?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#ip_address Route53HealthCheck#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#ip_address Route53HealthCheck#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#measure_latency Route53HealthCheck#measure_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#measure_latency Route53HealthCheck#measure_latency}
   */
   readonly measureLatency?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#port Route53HealthCheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#port Route53HealthCheck#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#reference_name Route53HealthCheck#reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#reference_name Route53HealthCheck#reference_name}
   */
   readonly referenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#regions Route53HealthCheck#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#regions Route53HealthCheck#regions}
   */
   readonly regions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#request_interval Route53HealthCheck#request_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#request_interval Route53HealthCheck#request_interval}
   */
   readonly requestInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#resource_path Route53HealthCheck#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#resource_path Route53HealthCheck#resource_path}
   */
   readonly resourcePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#routing_control_arn Route53HealthCheck#routing_control_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#routing_control_arn Route53HealthCheck#routing_control_arn}
   */
   readonly routingControlArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#search_string Route53HealthCheck#search_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#search_string Route53HealthCheck#search_string}
   */
   readonly searchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#tags Route53HealthCheck#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#tags Route53HealthCheck#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#tags_all Route53HealthCheck#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#tags_all Route53HealthCheck#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#triggers Route53HealthCheck#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#triggers Route53HealthCheck#triggers}
   */
   readonly triggers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#type Route53HealthCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#type Route53HealthCheck#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check aws_route53_health_check}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check aws_route53_health_check}
 */
 export class Route53HealthCheck extends cdktn.TerraformResource {
 
@@ -125,7 +125,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53HealthCheck resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53HealthCheck to import
-  * @param importFromId The id of the existing Route53HealthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53HealthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53HealthCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -137,7 +137,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53_health_check aws_route53_health_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53_health_check aws_route53_health_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +148,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
       terraformResourceType: 'aws_route53_health_check',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -194,7 +194,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // child_health_threshold - computed: false, optional: true, required: false
-  private _childHealthThreshold?: number; 
+  private _childHealthThreshold?: number;
   public get childHealthThreshold() {
     return this.getNumberAttribute('child_health_threshold');
   }
@@ -210,7 +210,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // child_healthchecks - computed: false, optional: true, required: false
-  private _childHealthchecks?: string[]; 
+  private _childHealthchecks?: string[];
   public get childHealthchecks() {
     return cdktn.Fn.tolist(this.getListAttribute('child_healthchecks'));
   }
@@ -226,7 +226,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_name - computed: false, optional: true, required: false
-  private _cloudwatchAlarmName?: string; 
+  private _cloudwatchAlarmName?: string;
   public get cloudwatchAlarmName() {
     return this.getStringAttribute('cloudwatch_alarm_name');
   }
@@ -242,7 +242,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_region - computed: false, optional: true, required: false
-  private _cloudwatchAlarmRegion?: string; 
+  private _cloudwatchAlarmRegion?: string;
   public get cloudwatchAlarmRegion() {
     return this.getStringAttribute('cloudwatch_alarm_region');
   }
@@ -258,7 +258,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -274,7 +274,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // enable_sni - computed: true, optional: true, required: false
-  private _enableSni?: boolean | cdktn.IResolvable; 
+  private _enableSni?: boolean | cdktn.IResolvable;
   public get enableSni() {
     return this.getBooleanAttribute('enable_sni');
   }
@@ -290,7 +290,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // failure_threshold - computed: true, optional: true, required: false
-  private _failureThreshold?: number; 
+  private _failureThreshold?: number;
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -306,7 +306,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // fqdn - computed: false, optional: true, required: false
-  private _fqdn?: string; 
+  private _fqdn?: string;
   public get fqdn() {
     return this.getStringAttribute('fqdn');
   }
@@ -322,7 +322,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -338,7 +338,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // insufficient_data_health_status - computed: false, optional: true, required: false
-  private _insufficientDataHealthStatus?: string; 
+  private _insufficientDataHealthStatus?: string;
   public get insufficientDataHealthStatus() {
     return this.getStringAttribute('insufficient_data_health_status');
   }
@@ -354,7 +354,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // invert_healthcheck - computed: false, optional: true, required: false
-  private _invertHealthcheck?: boolean | cdktn.IResolvable; 
+  private _invertHealthcheck?: boolean | cdktn.IResolvable;
   public get invertHealthcheck() {
     return this.getBooleanAttribute('invert_healthcheck');
   }
@@ -370,7 +370,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: false, optional: true, required: false
-  private _ipAddress?: string; 
+  private _ipAddress?: string;
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -386,7 +386,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // measure_latency - computed: false, optional: true, required: false
-  private _measureLatency?: boolean | cdktn.IResolvable; 
+  private _measureLatency?: boolean | cdktn.IResolvable;
   public get measureLatency() {
     return this.getBooleanAttribute('measure_latency');
   }
@@ -402,7 +402,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -418,7 +418,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // reference_name - computed: false, optional: true, required: false
-  private _referenceName?: string; 
+  private _referenceName?: string;
   public get referenceName() {
     return this.getStringAttribute('reference_name');
   }
@@ -434,7 +434,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -450,7 +450,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // request_interval - computed: false, optional: true, required: false
-  private _requestInterval?: number; 
+  private _requestInterval?: number;
   public get requestInterval() {
     return this.getNumberAttribute('request_interval');
   }
@@ -466,7 +466,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // resource_path - computed: false, optional: true, required: false
-  private _resourcePath?: string; 
+  private _resourcePath?: string;
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -482,7 +482,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // routing_control_arn - computed: false, optional: true, required: false
-  private _routingControlArn?: string; 
+  private _routingControlArn?: string;
   public get routingControlArn() {
     return this.getStringAttribute('routing_control_arn');
   }
@@ -498,7 +498,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // search_string - computed: false, optional: true, required: false
-  private _searchString?: string; 
+  private _searchString?: string;
   public get searchString() {
     return this.getStringAttribute('search_string');
   }
@@ -514,7 +514,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -530,7 +530,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -546,7 +546,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // triggers - computed: true, optional: true, required: false
-  private _triggers?: { [key: string]: string }; 
+  private _triggers?: { [key: string]: string };
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }
@@ -562,7 +562,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

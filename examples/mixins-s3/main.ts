@@ -1,4 +1,5 @@
-import { Construct, IConstruct, IMixin } from "constructs";
+import { Construct } from "constructs";
+import type { IConstruct, IMixin } from "constructs";
 import { App, LocalBackend, TerraformResource, TerraformStack, Testing } from "cdktn";
 import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
 import { S3Bucket } from "./.gen/providers/aws/s3-bucket/index.ts";

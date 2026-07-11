@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LambdaEventInvokeConfigConfig extends cdktn.TerraformMetaArgume
   /**
   * A destination for events after they have been sent to a function for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
   */
   readonly destinationConfig?: LambdaEventInvokeConfigDestinationConfig;
   /**
   * The name of the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
   */
   readonly functionName: string;
   /**
   * The maximum age of a request that Lambda sends to a function for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
   * The maximum number of times to retry when the function returns an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
   * The identifier of a version or alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
   */
   readonly qualifier: string;
 }
@@ -42,7 +42,7 @@ export interface LambdaEventInvokeConfigDestinationConfigOnFailure {
   /**
   * The Amazon Resource Name (ARN) of the destination resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
   */
   readonly destination?: string;
 }
@@ -119,7 +119,7 @@ export class LambdaEventInvokeConfigDestinationConfigOnFailureOutputReference ex
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string; 
+  private _destination?: string;
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -138,7 +138,7 @@ export interface LambdaEventInvokeConfigDestinationConfigOnSuccess {
   /**
   * The Amazon Resource Name (ARN) of the destination resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
   */
   readonly destination?: string;
 }
@@ -215,7 +215,7 @@ export class LambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference ex
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string; 
+  private _destination?: string;
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -234,13 +234,13 @@ export interface LambdaEventInvokeConfigDestinationConfig {
   /**
   * The destination configuration for failed invocations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
   */
   readonly onFailure?: LambdaEventInvokeConfigDestinationConfigOnFailure;
   /**
   * The destination configuration for successful invocations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
   */
   readonly onSuccess?: LambdaEventInvokeConfigDestinationConfigOnSuccess;
 }
@@ -363,7 +363,7 @@ export class LambdaEventInvokeConfigDestinationConfigOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}
 */
 export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
 
@@ -379,7 +379,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaEventInvokeConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaEventInvokeConfig to import
-  * @param importFromId The id of the existing LambdaEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaEventInvokeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -391,7 +391,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,7 +402,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_event_invoke_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -440,7 +440,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string; 
+  private _functionName?: string;
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -458,7 +458,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // maximum_event_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number; 
+  private _maximumEventAgeInSeconds?: number;
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -474,7 +474,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -490,7 +490,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: false, required: true
-  private _qualifier?: string; 
+  private _qualifier?: string;
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }

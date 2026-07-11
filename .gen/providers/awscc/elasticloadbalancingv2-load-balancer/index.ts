@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface Elasticloadbalancingv2LoadBalancerConfig extends cdktn.Terrafor
   /**
   * Indicates whether to enable stabilization when creating or updating an LCU reservation. This ensures that the final stack status reflects the status of the LCU reservation. The default is ``false``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#enable_capacity_reservation_provision_stabilize Elasticloadbalancingv2LoadBalancer#enable_capacity_reservation_provision_stabilize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#enable_capacity_reservation_provision_stabilize Elasticloadbalancingv2LoadBalancer#enable_capacity_reservation_provision_stabilize}
   */
   readonly enableCapacityReservationProvisionStabilize?: boolean | cdktn.IResolvable;
   /**
   * [Network Load Balancers with UDP listeners] Indicates whether to use an IPv6 prefix from each subnet for source NAT. The IP address type must be ``dualstack``. The default value is ``off``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#enable_prefix_for_ipv_6_source_nat Elasticloadbalancingv2LoadBalancer#enable_prefix_for_ipv_6_source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#enable_prefix_for_ipv_6_source_nat Elasticloadbalancingv2LoadBalancer#enable_prefix_for_ipv_6_source_nat}
   */
   readonly enablePrefixForIpv6SourceNat?: string;
   /**
   * Indicates whether to evaluate inbound security group rules for traffic sent to a Network Load Balancer through privatelink. The default is ``on``.
   *  You can't configure this property on a Network Load Balancer unless you associated a security group with the load balancer when you created it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#enforce_security_group_inbound_rules_on_private_link_traffic Elasticloadbalancingv2LoadBalancer#enforce_security_group_inbound_rules_on_private_link_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#enforce_security_group_inbound_rules_on_private_link_traffic Elasticloadbalancingv2LoadBalancer#enforce_security_group_inbound_rules_on_private_link_traffic}
   */
   readonly enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string;
   /**
@@ -32,32 +32,32 @@ export interface Elasticloadbalancingv2LoadBalancerConfig extends cdktn.Terrafor
   *  Application Load Balancer authentication supports IPv4 addresses only when connecting to an Identity Provider (IdP) or Amazon Cognito endpoint. Without a public IPv4 address the load balancer can't complete the authentication process, resulting in HTTP 500 errors.
   *  [Network Load Balancers and Gateway Load Balancers] The possible values are ``ipv4`` (IPv4 addresses) and ``dualstack`` (IPv4 and IPv6 addresses).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#ip_address_type Elasticloadbalancingv2LoadBalancer#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#ip_address_type Elasticloadbalancingv2LoadBalancer#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * The ID of the IPv4 IPAM pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#ipv_4_ipam_pool_id Elasticloadbalancingv2LoadBalancer#ipv_4_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#ipv_4_ipam_pool_id Elasticloadbalancingv2LoadBalancer#ipv_4_ipam_pool_id}
   */
   readonly ipv4IpamPoolId?: string;
   /**
   * The load balancer attributes. Attributes that you do not modify retain their current values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#load_balancer_attributes Elasticloadbalancingv2LoadBalancer#load_balancer_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#load_balancer_attributes Elasticloadbalancingv2LoadBalancer#load_balancer_attributes}
   */
   readonly loadBalancerAttributes?: Elasticloadbalancingv2LoadBalancerLoadBalancerAttributes[] | cdktn.IResolvable;
   /**
   * The minimum capacity for a load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#minimum_load_balancer_capacity Elasticloadbalancingv2LoadBalancer#minimum_load_balancer_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#minimum_load_balancer_capacity Elasticloadbalancingv2LoadBalancer#minimum_load_balancer_capacity}
   */
   readonly minimumLoadBalancerCapacity?: Elasticloadbalancingv2LoadBalancerMinimumLoadBalancerCapacity;
   /**
   * The name of the load balancer. This name must be unique per region per account, can have a maximum of 32 characters, must contain only alphanumeric characters or hyphens, must not begin or end with a hyphen, and must not begin with "internal-".
   *  If you don't specify a name, AWS CloudFormation generates a unique physical ID for the load balancer. If you specify a name, you cannot perform updates that require replacement of this resource, but you can perform other updates. To replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#name Elasticloadbalancingv2LoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#name Elasticloadbalancingv2LoadBalancer#name}
   */
   readonly name?: string;
   /**
@@ -66,13 +66,13 @@ export interface Elasticloadbalancingv2LoadBalancerConfig extends cdktn.Terrafor
   *  The default is an Internet-facing load balancer.
   *  You can't specify a scheme for a Gateway Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#scheme Elasticloadbalancingv2LoadBalancer#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#scheme Elasticloadbalancingv2LoadBalancer#scheme}
   */
   readonly scheme?: string;
   /**
   * [Application Load Balancers and Network Load Balancers] The IDs of the security groups for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#security_groups Elasticloadbalancingv2LoadBalancer#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#security_groups Elasticloadbalancingv2LoadBalancer#security_groups}
   */
   readonly securityGroups?: string[];
   /**
@@ -83,7 +83,7 @@ export interface Elasticloadbalancingv2LoadBalancerConfig extends cdktn.Terrafor
   *  [Network Load Balancers] You can specify subnets from one or more Availability Zones. You can specify one Elastic IP address per subnet if you need static IP addresses for your internet-facing load balancer. For internal load balancers, you can specify one private IP address per subnet from the IPv4 range of the subnet. For internet-facing load balancer, you can specify one IPv6 address per subnet.
   *  [Gateway Load Balancers] You can specify subnets from one or more Availability Zones. You can't specify Elastic IP addresses for your subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#subnet_mappings Elasticloadbalancingv2LoadBalancer#subnet_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#subnet_mappings Elasticloadbalancingv2LoadBalancer#subnet_mappings}
   */
   readonly subnetMappings?: Elasticloadbalancingv2LoadBalancerSubnetMappings[] | cdktn.IResolvable;
   /**
@@ -93,19 +93,19 @@ export interface Elasticloadbalancingv2LoadBalancerConfig extends cdktn.Terrafor
   *  [Application Load Balancers on Local Zones] You can specify subnets from one or more Local Zones.
   *  [Network Load Balancers and Gateway Load Balancers] You can specify subnets from one or more Availability Zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#subnets Elasticloadbalancingv2LoadBalancer#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#subnets Elasticloadbalancingv2LoadBalancer#subnets}
   */
   readonly subnets?: string[];
   /**
   * The tags to assign to the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#tags Elasticloadbalancingv2LoadBalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#tags Elasticloadbalancingv2LoadBalancer#tags}
   */
   readonly tags?: Elasticloadbalancingv2LoadBalancerTags[] | cdktn.IResolvable;
   /**
   * The type of load balancer. The default is ``application``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#type Elasticloadbalancingv2LoadBalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#type Elasticloadbalancingv2LoadBalancer#type}
   */
   readonly type?: string;
 }
@@ -115,14 +115,14 @@ export interface Elasticloadbalancingv2LoadBalancerLoadBalancerAttributes {
   *  The following attributes are supported by all load balancers:
   *   +  ``deletion_protection.enabled`` - Indicates whether deletion protection is enabled. The value is ``true`` or ``false``. The default is ``false``.
   *   +  ``load_balancing.cross_zone.enabled`` - Indicates whether cross-zone load balancing is enabled. The possible values are ``true`` and ``false``. The default for Network Load Balancers and Gateway Load Balancers is ``false``. The default for Application Load Balancers is ``true``, and can't be changed.
-  *   
+  *
   *  The following attributes are supported by both Application Load Balancers and Network Load Balancers:
   *   +  ``access_logs.s3.enabled`` - Indicates whether access logs are enabled. The value is ``true`` or ``false``. The default is ``false``.
   *   +  ``access_logs.s3.bucket`` - The name of the S3 bucket for the access logs. This attribute is required if access logs are enabled. The bucket must exist in the same region as the load balancer and have a bucket policy that grants Elastic Load Balancing permissions to write to the bucket.
   *   +  ``access_logs.s3.prefix`` - The prefix for the location in the S3 bucket for the access logs.
   *   +  ``ipv6.deny_all_igw_traffic`` - Blocks internet gateway (IGW) access to the load balancer. It is set to ``false`` for internet-facing load balancers and ``true`` for internal load balancers, preventing unintended access to your internal load balancer through an internet gateway.
   *   +  ``zonal_shift.config.enabled`` - Indicates whether zonal shift is enabled. The possible values are ``true`` and ``false``. The default is ``false``.
-  *   
+  *
   *  The following attributes are supported by only Application Load Balancers:
   *   +  ``idle_timeout.timeout_seconds`` - The idle timeout value, in seconds. The valid range is 1-4000 seconds. The default is 60 seconds.
   *   +  ``client_keep_alive.seconds`` - The client keep alive value, in seconds. The valid range is 60-604800 seconds. The default is 3600 seconds.
@@ -141,21 +141,21 @@ export interface Elasticloadbalancingv2LoadBalancerLoadBalancerAttributes {
   *   +  If the value is ``append``, the Application Load Balancer adds the client IP address (of the last hop) to the ``X-Forwarded-For`` header in the HTTP request before it sends it to targets.
   *   +  If the value is ``preserve`` the Application Load Balancer preserves the ``X-Forwarded-For`` header in the HTTP request, and sends it to targets without any change.
   *   +  If the value is ``remove``, the Application Load Balancer removes the ``X-Forwarded-For`` header in the HTTP request before it sends it to targets.
-  *   
+  *
   *   +  ``routing.http2.enabled`` - Indicates whether clients can connect to the load balancer using HTTP/2. If ``true``, clients can connect using HTTP/2 or HTTP/1.1. However, all client requests are subject to the stricter HTTP/2 header validation rules. For example, message header names must contain only alphanumeric characters and hyphens. If ``false``, clients must connect using HTTP/1.1. The default is ``true``.
   *   +  ``waf.fail_open.enabled`` - Indicates whether to allow a WAF-enabled load balancer to route requests to targets if it is unable to forward the request to AWS WAF. The possible values are ``true`` and ``false``. The default is ``false``.
-  *   
+  *
   *  The following attributes are supported by only Network Load Balancers:
   *   +  ``dns_record.client_routing_policy`` - Indicates how traffic is distributed among the load balancer Availability Zones. The possible values are ``availability_zone_affinity`` with 100 percent zonal affinity, ``partial_availability_zone_affinity`` with 85 percent zonal affinity, and ``any_availability_zone`` with 0 percent zonal affinity.
   *   +  ``secondary_ips.auto_assigned.per_subnet`` - The number of secondary IP addresses to configure for your load balancer nodes. Use to address port allocation errors if you can't add targets. The valid range is 0 to 7. The default is 0. After you set this value, you can't decrease it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#key Elasticloadbalancingv2LoadBalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#key Elasticloadbalancingv2LoadBalancer#key}
   */
   readonly key?: string;
   /**
   * The value of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#value Elasticloadbalancingv2LoadBalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#value Elasticloadbalancingv2LoadBalancer#value}
   */
   readonly value?: string;
 }
@@ -247,7 +247,7 @@ export class Elasticloadbalancingv2LoadBalancerLoadBalancerAttributesOutputRefer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -263,7 +263,7 @@ export class Elasticloadbalancingv2LoadBalancerLoadBalancerAttributesOutputRefer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -302,7 +302,7 @@ export interface Elasticloadbalancingv2LoadBalancerMinimumLoadBalancerCapacity {
   /**
   * The number of capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#capacity_units Elasticloadbalancingv2LoadBalancer#capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#capacity_units Elasticloadbalancingv2LoadBalancer#capacity_units}
   */
   readonly capacityUnits?: number;
 }
@@ -379,7 +379,7 @@ export class Elasticloadbalancingv2LoadBalancerMinimumLoadBalancerCapacityOutput
   }
 
   // capacity_units - computed: true, optional: true, required: false
-  private _capacityUnits?: number; 
+  private _capacityUnits?: number;
   public get capacityUnits() {
     return this.getNumberAttribute('capacity_units');
   }
@@ -398,31 +398,31 @@ export interface Elasticloadbalancingv2LoadBalancerSubnetMappings {
   /**
   * [Network Load Balancers] The allocation ID of the Elastic IP address for an internet-facing load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#allocation_id Elasticloadbalancingv2LoadBalancer#allocation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#allocation_id Elasticloadbalancingv2LoadBalancer#allocation_id}
   */
   readonly allocationId?: string;
   /**
   * [Network Load Balancers] The IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#i_pv_6_address Elasticloadbalancingv2LoadBalancer#i_pv_6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#i_pv_6_address Elasticloadbalancingv2LoadBalancer#i_pv_6_address}
   */
   readonly iPv6Address?: string;
   /**
   * [Network Load Balancers] The private IPv4 address for an internal load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#private_i_pv_4_address Elasticloadbalancingv2LoadBalancer#private_i_pv_4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#private_i_pv_4_address Elasticloadbalancingv2LoadBalancer#private_i_pv_4_address}
   */
   readonly privateIPv4Address?: string;
   /**
   * [Network Load Balancers with UDP listeners] The IPv6 prefix to use for source NAT. Specify an IPv6 prefix (/80 netmask) from the subnet CIDR block or ``auto_assigned`` to use an IPv6 prefix selected at random from the subnet CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#source_nat_ipv_6_prefix Elasticloadbalancingv2LoadBalancer#source_nat_ipv_6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#source_nat_ipv_6_prefix Elasticloadbalancingv2LoadBalancer#source_nat_ipv_6_prefix}
   */
   readonly sourceNatIpv6Prefix?: string;
   /**
   * The ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#subnet_id Elasticloadbalancingv2LoadBalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#subnet_id Elasticloadbalancingv2LoadBalancer#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -553,7 +553,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // allocation_id - computed: true, optional: true, required: false
-  private _allocationId?: string; 
+  private _allocationId?: string;
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -569,7 +569,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // i_pv_6_address - computed: true, optional: true, required: false
-  private _iPv6Address?: string; 
+  private _iPv6Address?: string;
   public get iPv6Address() {
     return this.getStringAttribute('i_pv_6_address');
   }
@@ -585,7 +585,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // private_i_pv_4_address - computed: true, optional: true, required: false
-  private _privateIPv4Address?: string; 
+  private _privateIPv4Address?: string;
   public get privateIPv4Address() {
     return this.getStringAttribute('private_i_pv_4_address');
   }
@@ -601,7 +601,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // source_nat_ipv_6_prefix - computed: true, optional: true, required: false
-  private _sourceNatIpv6Prefix?: string; 
+  private _sourceNatIpv6Prefix?: string;
   public get sourceNatIpv6Prefix() {
     return this.getStringAttribute('source_nat_ipv_6_prefix');
   }
@@ -617,7 +617,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -656,13 +656,13 @@ export interface Elasticloadbalancingv2LoadBalancerTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#key Elasticloadbalancingv2LoadBalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#key Elasticloadbalancingv2LoadBalancer#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#value Elasticloadbalancingv2LoadBalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#value Elasticloadbalancingv2LoadBalancer#value}
   */
   readonly value?: string;
 }
@@ -754,7 +754,7 @@ export class Elasticloadbalancingv2LoadBalancerTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -770,7 +770,7 @@ export class Elasticloadbalancingv2LoadBalancerTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -807,7 +807,7 @@ export class Elasticloadbalancingv2LoadBalancerTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer}
 */
 export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource {
 
@@ -823,7 +823,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a Elasticloadbalancingv2LoadBalancer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Elasticloadbalancingv2LoadBalancer to import
-  * @param importFromId The id of the existing Elasticloadbalancingv2LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Elasticloadbalancingv2LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Elasticloadbalancingv2LoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -835,7 +835,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,7 +846,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_elasticloadbalancingv2_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -887,7 +887,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enable_capacity_reservation_provision_stabilize - computed: true, optional: true, required: false
-  private _enableCapacityReservationProvisionStabilize?: boolean | cdktn.IResolvable; 
+  private _enableCapacityReservationProvisionStabilize?: boolean | cdktn.IResolvable;
   public get enableCapacityReservationProvisionStabilize() {
     return this.getBooleanAttribute('enable_capacity_reservation_provision_stabilize');
   }
@@ -903,7 +903,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enable_prefix_for_ipv_6_source_nat - computed: true, optional: true, required: false
-  private _enablePrefixForIpv6SourceNat?: string; 
+  private _enablePrefixForIpv6SourceNat?: string;
   public get enablePrefixForIpv6SourceNat() {
     return this.getStringAttribute('enable_prefix_for_ipv_6_source_nat');
   }
@@ -919,7 +919,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enforce_security_group_inbound_rules_on_private_link_traffic - computed: true, optional: true, required: false
-  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string; 
+  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string;
   public get enforceSecurityGroupInboundRulesOnPrivateLinkTraffic() {
     return this.getStringAttribute('enforce_security_group_inbound_rules_on_private_link_traffic');
   }
@@ -940,7 +940,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -956,7 +956,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // ipv_4_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv4IpamPoolId?: string; 
+  private _ipv4IpamPoolId?: string;
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv_4_ipam_pool_id');
   }
@@ -1019,7 +1019,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1035,7 +1035,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // scheme - computed: true, optional: true, required: false
-  private _scheme?: string; 
+  private _scheme?: string;
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -1051,7 +1051,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1083,7 +1083,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1115,7 +1115,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -12,7 +12,7 @@ DataAwsccLexBotBotLocalesIntentsKendraConfigurationOutputReference,
 DataAwsccLexBotBotLocalesIntentsOutputContextsList,
 DataAwsccLexBotBotLocalesIntentsSampleUtterancesList,
 DataAwsccLexBotBotLocalesIntentsSlotPrioritiesList,
-DataAwsccLexBotBotLocalesCustomVocabularyOutputReference } from './structs0';
+DataAwsccLexBotBotLocalesCustomVocabularyOutputReference } from './structs0.js';
 export interface DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances {
 }
 

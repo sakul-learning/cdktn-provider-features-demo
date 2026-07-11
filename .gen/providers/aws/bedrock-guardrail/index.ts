@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktn from 'cdktn';
 
 export interface BedrockGuardrailConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#blocked_input_messaging BedrockGuardrail#blocked_input_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#blocked_input_messaging BedrockGuardrail#blocked_input_messaging}
   */
   readonly blockedInputMessaging: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#blocked_outputs_messaging BedrockGuardrail#blocked_outputs_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#blocked_outputs_messaging BedrockGuardrail#blocked_outputs_messaging}
   */
   readonly blockedOutputsMessaging: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#description BedrockGuardrail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#description BedrockGuardrail#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#kms_key_arn BedrockGuardrail#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#kms_key_arn BedrockGuardrail#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#region BedrockGuardrail#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#region BedrockGuardrail#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#tags BedrockGuardrail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#tags BedrockGuardrail#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * content_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#content_policy_config BedrockGuardrail#content_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#content_policy_config BedrockGuardrail#content_policy_config}
   */
   readonly contentPolicyConfig?: BedrockGuardrailContentPolicyConfig[] | cdktn.IResolvable;
   /**
   * contextual_grounding_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#contextual_grounding_policy_config BedrockGuardrail#contextual_grounding_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#contextual_grounding_policy_config BedrockGuardrail#contextual_grounding_policy_config}
   */
   readonly contextualGroundingPolicyConfig?: BedrockGuardrailContextualGroundingPolicyConfig[] | cdktn.IResolvable;
   /**
   * cross_region_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#cross_region_config BedrockGuardrail#cross_region_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#cross_region_config BedrockGuardrail#cross_region_config}
   */
   readonly crossRegionConfig?: BedrockGuardrailCrossRegionConfig[] | cdktn.IResolvable;
   /**
   * sensitive_information_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#sensitive_information_policy_config BedrockGuardrail#sensitive_information_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#sensitive_information_policy_config BedrockGuardrail#sensitive_information_policy_config}
   */
   readonly sensitiveInformationPolicyConfig?: BedrockGuardrailSensitiveInformationPolicyConfig[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#timeouts BedrockGuardrail#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#timeouts BedrockGuardrail#timeouts}
   */
   readonly timeouts?: BedrockGuardrailTimeouts;
   /**
   * topic_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#topic_policy_config BedrockGuardrail#topic_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#topic_policy_config BedrockGuardrail#topic_policy_config}
   */
   readonly topicPolicyConfig?: BedrockGuardrailTopicPolicyConfig[] | cdktn.IResolvable;
   /**
   * word_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#word_policy_config BedrockGuardrail#word_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#word_policy_config BedrockGuardrail#word_policy_config}
   */
   readonly wordPolicyConfig?: BedrockGuardrailWordPolicyConfig[] | cdktn.IResolvable;
 }
 export interface BedrockGuardrailContentPolicyConfigTierConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}
   */
   readonly tierName?: string;
 }
@@ -161,7 +161,7 @@ export class BedrockGuardrailContentPolicyConfigTierConfigOutputReference extend
   }
 
   // tier_name - computed: true, optional: true, required: false
-  private _tierName?: string; 
+  private _tierName?: string;
   public get tierName() {
     return this.getStringAttribute('tier_name');
   }
@@ -198,39 +198,39 @@ export class BedrockGuardrailContentPolicyConfigTierConfigList extends cdktn.Com
 }
 export interface BedrockGuardrailContentPolicyConfigFiltersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
   */
   readonly inputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
   */
   readonly inputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_modalities BedrockGuardrail#input_modalities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_modalities BedrockGuardrail#input_modalities}
   */
   readonly inputModalities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_strength BedrockGuardrail#input_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_strength BedrockGuardrail#input_strength}
   */
   readonly inputStrength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
   */
   readonly outputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
   */
   readonly outputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_modalities BedrockGuardrail#output_modalities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_modalities BedrockGuardrail#output_modalities}
   */
   readonly outputModalities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_strength BedrockGuardrail#output_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_strength BedrockGuardrail#output_strength}
   */
   readonly outputStrength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
   */
   readonly type: string;
 }
@@ -275,7 +275,7 @@ export function bedrockGuardrailContentPolicyConfigFiltersConfigToHclTerraform(s
     input_modalities: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.inputModalities),
       isBlock: false,
-      type: "list",
+      type: "set",
       storageClassType: "stringList",
     },
     input_strength: {
@@ -299,7 +299,7 @@ export function bedrockGuardrailContentPolicyConfigFiltersConfigToHclTerraform(s
     output_modalities: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.outputModalities),
       isBlock: false,
-      type: "list",
+      type: "set",
       storageClassType: "stringList",
     },
     output_strength: {
@@ -413,7 +413,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string; 
+  private _inputAction?: string;
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -429,7 +429,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable; 
+  private _inputEnabled?: boolean | cdktn.IResolvable;
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -445,9 +445,9 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_modalities - computed: false, optional: true, required: false
-  private _inputModalities?: string[]; 
+  private _inputModalities?: string[];
   public get inputModalities() {
-    return this.getListAttribute('input_modalities');
+    return cdktn.Fn.tolist(this.getListAttribute('input_modalities'));
   }
   public set inputModalities(value: string[]) {
     this._inputModalities = value;
@@ -461,7 +461,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_strength - computed: false, optional: false, required: true
-  private _inputStrength?: string; 
+  private _inputStrength?: string;
   public get inputStrength() {
     return this.getStringAttribute('input_strength');
   }
@@ -474,7 +474,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string; 
+  private _outputAction?: string;
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -490,7 +490,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable; 
+  private _outputEnabled?: boolean | cdktn.IResolvable;
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -506,9 +506,9 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_modalities - computed: false, optional: true, required: false
-  private _outputModalities?: string[]; 
+  private _outputModalities?: string[];
   public get outputModalities() {
-    return this.getListAttribute('output_modalities');
+    return cdktn.Fn.tolist(this.getListAttribute('output_modalities'));
   }
   public set outputModalities(value: string[]) {
     this._outputModalities = value;
@@ -522,7 +522,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_strength - computed: false, optional: false, required: true
-  private _outputStrength?: string; 
+  private _outputStrength?: string;
   public get outputStrength() {
     return this.getStringAttribute('output_strength');
   }
@@ -535,7 +535,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -569,13 +569,13 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigList extends cdktn.
 }
 export interface BedrockGuardrailContentPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#tier_config BedrockGuardrail#tier_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#tier_config BedrockGuardrail#tier_config}
   */
   readonly tierConfig?: BedrockGuardrailContentPolicyConfigTierConfig[] | cdktn.IResolvable;
   /**
   * filters_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#filters_config BedrockGuardrail#filters_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#filters_config BedrockGuardrail#filters_config}
   */
   readonly filtersConfig?: BedrockGuardrailContentPolicyConfigFiltersConfig[] | cdktn.IResolvable;
 }
@@ -720,11 +720,11 @@ export class BedrockGuardrailContentPolicyConfigList extends cdktn.ComplexList {
 }
 export interface BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#threshold BedrockGuardrail#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
   */
   readonly type: string;
 }
@@ -816,7 +816,7 @@ export class BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputR
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number; 
+  private _threshold?: number;
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -829,7 +829,7 @@ export class BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -865,7 +865,7 @@ export interface BedrockGuardrailContextualGroundingPolicyConfig {
   /**
   * filters_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#filters_config BedrockGuardrail#filters_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#filters_config BedrockGuardrail#filters_config}
   */
   readonly filtersConfig?: BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig[] | cdktn.IResolvable;
 }
@@ -981,7 +981,7 @@ export class BedrockGuardrailContextualGroundingPolicyConfigList extends cdktn.C
 }
 export interface BedrockGuardrailCrossRegionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#guardrail_profile_identifier BedrockGuardrail#guardrail_profile_identifier}
   */
   readonly guardrailProfileIdentifier: string;
 }
@@ -1060,7 +1060,7 @@ export class BedrockGuardrailCrossRegionConfigOutputReference extends cdktn.Comp
   }
 
   // guardrail_profile_identifier - computed: false, optional: false, required: true
-  private _guardrailProfileIdentifier?: string; 
+  private _guardrailProfileIdentifier?: string;
   public get guardrailProfileIdentifier() {
     return this.getStringAttribute('guardrail_profile_identifier');
   }
@@ -1094,27 +1094,27 @@ export class BedrockGuardrailCrossRegionConfigList extends cdktn.ComplexList {
 }
 export interface BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#action BedrockGuardrail#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#action BedrockGuardrail#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
   */
   readonly inputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
   */
   readonly inputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
   */
   readonly outputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
   */
   readonly outputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
   */
   readonly type: string;
 }
@@ -1258,7 +1258,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1271,7 +1271,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // input_action - computed: true, optional: true, required: false
-  private _inputAction?: string; 
+  private _inputAction?: string;
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -1287,7 +1287,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // input_enabled - computed: true, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable; 
+  private _inputEnabled?: boolean | cdktn.IResolvable;
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -1303,7 +1303,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // output_action - computed: true, optional: true, required: false
-  private _outputAction?: string; 
+  private _outputAction?: string;
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -1319,7 +1319,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // output_enabled - computed: true, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable; 
+  private _outputEnabled?: boolean | cdktn.IResolvable;
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -1335,7 +1335,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1369,35 +1369,35 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigLi
 }
 export interface BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#action BedrockGuardrail#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#action BedrockGuardrail#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#description BedrockGuardrail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#description BedrockGuardrail#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
   */
   readonly inputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
   */
   readonly inputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
   */
   readonly outputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
   */
   readonly outputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#pattern BedrockGuardrail#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#pattern BedrockGuardrail#pattern}
   */
   readonly pattern: string;
 }
@@ -1567,7 +1567,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1580,7 +1580,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1596,7 +1596,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // input_action - computed: true, optional: true, required: false
-  private _inputAction?: string; 
+  private _inputAction?: string;
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -1612,7 +1612,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // input_enabled - computed: true, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable; 
+  private _inputEnabled?: boolean | cdktn.IResolvable;
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -1628,7 +1628,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1641,7 +1641,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // output_action - computed: true, optional: true, required: false
-  private _outputAction?: string; 
+  private _outputAction?: string;
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -1657,7 +1657,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // output_enabled - computed: true, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable; 
+  private _outputEnabled?: boolean | cdktn.IResolvable;
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -1673,7 +1673,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string; 
+  private _pattern?: string;
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1709,13 +1709,13 @@ export interface BedrockGuardrailSensitiveInformationPolicyConfig {
   /**
   * pii_entities_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#pii_entities_config BedrockGuardrail#pii_entities_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#pii_entities_config BedrockGuardrail#pii_entities_config}
   */
   readonly piiEntitiesConfig?: BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig[] | cdktn.IResolvable;
   /**
   * regexes_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#regexes_config BedrockGuardrail#regexes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#regexes_config BedrockGuardrail#regexes_config}
   */
   readonly regexesConfig?: BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig[] | cdktn.IResolvable;
 }
@@ -1862,19 +1862,19 @@ export interface BedrockGuardrailTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#create BedrockGuardrail#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#create BedrockGuardrail#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#delete BedrockGuardrail#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#delete BedrockGuardrail#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#update BedrockGuardrail#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#update BedrockGuardrail#update}
   */
   readonly update?: string;
 }
@@ -1977,7 +1977,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1993,7 +1993,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2009,7 +2009,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2026,7 +2026,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
 }
 export interface BedrockGuardrailTopicPolicyConfigTierConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#tier_name BedrockGuardrail#tier_name}
   */
   readonly tierName?: string;
 }
@@ -2105,7 +2105,7 @@ export class BedrockGuardrailTopicPolicyConfigTierConfigOutputReference extends 
   }
 
   // tier_name - computed: true, optional: true, required: false
-  private _tierName?: string; 
+  private _tierName?: string;
   public get tierName() {
     return this.getStringAttribute('tier_name');
   }
@@ -2142,19 +2142,19 @@ export class BedrockGuardrailTopicPolicyConfigTierConfigList extends cdktn.Compl
 }
 export interface BedrockGuardrailTopicPolicyConfigTopicsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#definition BedrockGuardrail#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#definition BedrockGuardrail#definition}
   */
   readonly definition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#examples BedrockGuardrail#examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#examples BedrockGuardrail#examples}
   */
   readonly examples?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#name BedrockGuardrail#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
   */
   readonly type: string;
 }
@@ -2272,7 +2272,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // definition - computed: false, optional: false, required: true
-  private _definition?: string; 
+  private _definition?: string;
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -2285,7 +2285,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // examples - computed: true, optional: true, required: false
-  private _examples?: string[]; 
+  private _examples?: string[];
   public get examples() {
     return this.getListAttribute('examples');
   }
@@ -2301,7 +2301,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2314,7 +2314,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2348,13 +2348,13 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigList extends cdktn.Com
 }
 export interface BedrockGuardrailTopicPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#tier_config BedrockGuardrail#tier_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#tier_config BedrockGuardrail#tier_config}
   */
   readonly tierConfig?: BedrockGuardrailTopicPolicyConfigTierConfig[] | cdktn.IResolvable;
   /**
   * topics_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#topics_config BedrockGuardrail#topics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#topics_config BedrockGuardrail#topics_config}
   */
   readonly topicsConfig?: BedrockGuardrailTopicPolicyConfigTopicsConfig[] | cdktn.IResolvable;
 }
@@ -2499,23 +2499,23 @@ export class BedrockGuardrailTopicPolicyConfigList extends cdktn.ComplexList {
 }
 export interface BedrockGuardrailWordPolicyConfigManagedWordListsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
   */
   readonly inputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
   */
   readonly inputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
   */
   readonly outputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
   */
   readonly outputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}
   */
   readonly type: string;
 }
@@ -2646,7 +2646,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string; 
+  private _inputAction?: string;
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -2662,7 +2662,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable; 
+  private _inputEnabled?: boolean | cdktn.IResolvable;
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -2678,7 +2678,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string; 
+  private _outputAction?: string;
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -2694,7 +2694,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable; 
+  private _outputEnabled?: boolean | cdktn.IResolvable;
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -2710,7 +2710,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2744,23 +2744,23 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigList extends 
 }
 export interface BedrockGuardrailWordPolicyConfigWordsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}
   */
   readonly inputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}
   */
   readonly inputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}
   */
   readonly outputAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}
   */
   readonly outputEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#text BedrockGuardrail#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#text BedrockGuardrail#text}
   */
   readonly text: string;
 }
@@ -2891,7 +2891,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string; 
+  private _inputAction?: string;
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -2907,7 +2907,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable; 
+  private _inputEnabled?: boolean | cdktn.IResolvable;
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -2923,7 +2923,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string; 
+  private _outputAction?: string;
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -2939,7 +2939,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable; 
+  private _outputEnabled?: boolean | cdktn.IResolvable;
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -2955,7 +2955,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2991,13 +2991,13 @@ export interface BedrockGuardrailWordPolicyConfig {
   /**
   * managed_word_lists_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#managed_word_lists_config BedrockGuardrail#managed_word_lists_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#managed_word_lists_config BedrockGuardrail#managed_word_lists_config}
   */
   readonly managedWordListsConfig?: BedrockGuardrailWordPolicyConfigManagedWordListsConfig[] | cdktn.IResolvable;
   /**
   * words_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#words_config BedrockGuardrail#words_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#words_config BedrockGuardrail#words_config}
   */
   readonly wordsConfig?: BedrockGuardrailWordPolicyConfigWordsConfig[] | cdktn.IResolvable;
 }
@@ -3142,7 +3142,7 @@ export class BedrockGuardrailWordPolicyConfigList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail}
 */
 export class BedrockGuardrail extends cdktn.TerraformResource {
 
@@ -3158,7 +3158,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockGuardrail resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockGuardrail to import
-  * @param importFromId The id of the existing BedrockGuardrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockGuardrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockGuardrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3170,7 +3170,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3181,7 +3181,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
       terraformResourceType: 'aws_bedrock_guardrail',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3212,7 +3212,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   // ==========
 
   // blocked_input_messaging - computed: false, optional: false, required: true
-  private _blockedInputMessaging?: string; 
+  private _blockedInputMessaging?: string;
   public get blockedInputMessaging() {
     return this.getStringAttribute('blocked_input_messaging');
   }
@@ -3225,7 +3225,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_outputs_messaging - computed: false, optional: false, required: true
-  private _blockedOutputsMessaging?: string; 
+  private _blockedOutputsMessaging?: string;
   public get blockedOutputsMessaging() {
     return this.getStringAttribute('blocked_outputs_messaging');
   }
@@ -3243,7 +3243,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3269,7 +3269,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -3285,7 +3285,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3298,7 +3298,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3319,7 +3319,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

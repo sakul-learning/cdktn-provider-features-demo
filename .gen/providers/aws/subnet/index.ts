@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktn from 'cdktn';
 
 export interface SubnetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#assign_ipv6_address_on_creation Subnet#assign_ipv6_address_on_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#assign_ipv6_address_on_creation Subnet#assign_ipv6_address_on_creation}
   */
   readonly assignIpv6AddressOnCreation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#availability_zone Subnet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#availability_zone Subnet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#availability_zone_id Subnet#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#availability_zone_id Subnet#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#cidr_block Subnet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#cidr_block Subnet#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#customer_owned_ipv4_pool Subnet#customer_owned_ipv4_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#customer_owned_ipv4_pool Subnet#customer_owned_ipv4_pool}
   */
   readonly customerOwnedIpv4Pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#enable_dns64 Subnet#enable_dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#enable_dns64 Subnet#enable_dns64}
   */
   readonly enableDns64?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#enable_lni_at_device_index Subnet#enable_lni_at_device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#enable_lni_at_device_index Subnet#enable_lni_at_device_index}
   */
   readonly enableLniAtDeviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#enable_resource_name_dns_a_record_on_launch Subnet#enable_resource_name_dns_a_record_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#enable_resource_name_dns_a_record_on_launch Subnet#enable_resource_name_dns_a_record_on_launch}
   */
   readonly enableResourceNameDnsARecordOnLaunch?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#enable_resource_name_dns_aaaa_record_on_launch Subnet#enable_resource_name_dns_aaaa_record_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#enable_resource_name_dns_aaaa_record_on_launch Subnet#enable_resource_name_dns_aaaa_record_on_launch}
   */
   readonly enableResourceNameDnsAaaaRecordOnLaunch?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#id Subnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#id Subnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv4_ipam_pool_id Subnet#ipv4_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv4_ipam_pool_id Subnet#ipv4_ipam_pool_id}
   */
   readonly ipv4IpamPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv4_netmask_length Subnet#ipv4_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv4_netmask_length Subnet#ipv4_netmask_length}
   */
   readonly ipv4NetmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv6_cidr_block Subnet#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv6_cidr_block Subnet#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv6_ipam_pool_id Subnet#ipv6_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv6_ipam_pool_id Subnet#ipv6_ipam_pool_id}
   */
   readonly ipv6IpamPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv6_native Subnet#ipv6_native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv6_native Subnet#ipv6_native}
   */
   readonly ipv6Native?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#ipv6_netmask_length Subnet#ipv6_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#ipv6_netmask_length Subnet#ipv6_netmask_length}
   */
   readonly ipv6NetmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#map_customer_owned_ip_on_launch Subnet#map_customer_owned_ip_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#map_customer_owned_ip_on_launch Subnet#map_customer_owned_ip_on_launch}
   */
   readonly mapCustomerOwnedIpOnLaunch?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#map_public_ip_on_launch Subnet#map_public_ip_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#map_public_ip_on_launch Subnet#map_public_ip_on_launch}
   */
   readonly mapPublicIpOnLaunch?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#outpost_arn Subnet#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#outpost_arn Subnet#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#private_dns_hostname_type_on_launch Subnet#private_dns_hostname_type_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#private_dns_hostname_type_on_launch Subnet#private_dns_hostname_type_on_launch}
   */
   readonly privateDnsHostnameTypeOnLaunch?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#region Subnet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#region Subnet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#tags Subnet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#tags Subnet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#tags_all Subnet#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#tags_all Subnet#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#vpc_id Subnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#vpc_id Subnet#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#timeouts Subnet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#timeouts Subnet#timeouts}
   */
   readonly timeouts?: SubnetTimeouts;
 }
 export interface SubnetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#create Subnet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#create Subnet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#delete Subnet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#delete Subnet#delete}
   */
   readonly delete?: string;
 }
@@ -211,7 +211,7 @@ export class SubnetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -227,7 +227,7 @@ export class SubnetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -244,7 +244,7 @@ export class SubnetTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet aws_subnet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet aws_subnet}
 */
 export class Subnet extends cdktn.TerraformResource {
 
@@ -260,7 +260,7 @@ export class Subnet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Subnet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subnet to import
-  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -272,7 +272,7 @@ export class Subnet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/subnet aws_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/subnet aws_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,7 +283,7 @@ export class Subnet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_subnet',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -330,7 +330,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // assign_ipv6_address_on_creation - computed: false, optional: true, required: false
-  private _assignIpv6AddressOnCreation?: boolean | cdktn.IResolvable; 
+  private _assignIpv6AddressOnCreation?: boolean | cdktn.IResolvable;
   public get assignIpv6AddressOnCreation() {
     return this.getBooleanAttribute('assign_ipv6_address_on_creation');
   }
@@ -346,7 +346,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -362,7 +362,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -378,7 +378,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -394,7 +394,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // customer_owned_ipv4_pool - computed: false, optional: true, required: false
-  private _customerOwnedIpv4Pool?: string; 
+  private _customerOwnedIpv4Pool?: string;
   public get customerOwnedIpv4Pool() {
     return this.getStringAttribute('customer_owned_ipv4_pool');
   }
@@ -410,7 +410,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // enable_dns64 - computed: false, optional: true, required: false
-  private _enableDns64?: boolean | cdktn.IResolvable; 
+  private _enableDns64?: boolean | cdktn.IResolvable;
   public get enableDns64() {
     return this.getBooleanAttribute('enable_dns64');
   }
@@ -426,7 +426,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // enable_lni_at_device_index - computed: false, optional: true, required: false
-  private _enableLniAtDeviceIndex?: number; 
+  private _enableLniAtDeviceIndex?: number;
   public get enableLniAtDeviceIndex() {
     return this.getNumberAttribute('enable_lni_at_device_index');
   }
@@ -442,7 +442,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // enable_resource_name_dns_a_record_on_launch - computed: false, optional: true, required: false
-  private _enableResourceNameDnsARecordOnLaunch?: boolean | cdktn.IResolvable; 
+  private _enableResourceNameDnsARecordOnLaunch?: boolean | cdktn.IResolvable;
   public get enableResourceNameDnsARecordOnLaunch() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record_on_launch');
   }
@@ -458,7 +458,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // enable_resource_name_dns_aaaa_record_on_launch - computed: false, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecordOnLaunch?: boolean | cdktn.IResolvable; 
+  private _enableResourceNameDnsAaaaRecordOnLaunch?: boolean | cdktn.IResolvable;
   public get enableResourceNameDnsAaaaRecordOnLaunch() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record_on_launch');
   }
@@ -474,7 +474,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -490,7 +490,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv4_ipam_pool_id - computed: false, optional: true, required: false
-  private _ipv4IpamPoolId?: string; 
+  private _ipv4IpamPoolId?: string;
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv4_ipam_pool_id');
   }
@@ -506,7 +506,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv4_netmask_length - computed: false, optional: true, required: false
-  private _ipv4NetmaskLength?: number; 
+  private _ipv4NetmaskLength?: number;
   public get ipv4NetmaskLength() {
     return this.getNumberAttribute('ipv4_netmask_length');
   }
@@ -522,7 +522,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -543,7 +543,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv6_ipam_pool_id - computed: false, optional: true, required: false
-  private _ipv6IpamPoolId?: string; 
+  private _ipv6IpamPoolId?: string;
   public get ipv6IpamPoolId() {
     return this.getStringAttribute('ipv6_ipam_pool_id');
   }
@@ -559,7 +559,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv6_native - computed: false, optional: true, required: false
-  private _ipv6Native?: boolean | cdktn.IResolvable; 
+  private _ipv6Native?: boolean | cdktn.IResolvable;
   public get ipv6Native() {
     return this.getBooleanAttribute('ipv6_native');
   }
@@ -575,7 +575,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // ipv6_netmask_length - computed: false, optional: true, required: false
-  private _ipv6NetmaskLength?: number; 
+  private _ipv6NetmaskLength?: number;
   public get ipv6NetmaskLength() {
     return this.getNumberAttribute('ipv6_netmask_length');
   }
@@ -591,7 +591,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // map_customer_owned_ip_on_launch - computed: false, optional: true, required: false
-  private _mapCustomerOwnedIpOnLaunch?: boolean | cdktn.IResolvable; 
+  private _mapCustomerOwnedIpOnLaunch?: boolean | cdktn.IResolvable;
   public get mapCustomerOwnedIpOnLaunch() {
     return this.getBooleanAttribute('map_customer_owned_ip_on_launch');
   }
@@ -607,7 +607,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // map_public_ip_on_launch - computed: false, optional: true, required: false
-  private _mapPublicIpOnLaunch?: boolean | cdktn.IResolvable; 
+  private _mapPublicIpOnLaunch?: boolean | cdktn.IResolvable;
   public get mapPublicIpOnLaunch() {
     return this.getBooleanAttribute('map_public_ip_on_launch');
   }
@@ -623,7 +623,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: false, optional: true, required: false
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -644,7 +644,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // private_dns_hostname_type_on_launch - computed: true, optional: true, required: false
-  private _privateDnsHostnameTypeOnLaunch?: string; 
+  private _privateDnsHostnameTypeOnLaunch?: string;
   public get privateDnsHostnameTypeOnLaunch() {
     return this.getStringAttribute('private_dns_hostname_type_on_launch');
   }
@@ -660,7 +660,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -676,7 +676,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -692,7 +692,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -708,7 +708,7 @@ export class Subnet extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

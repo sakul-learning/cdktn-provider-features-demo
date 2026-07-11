@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktn from 'cdktn';
 
 export interface LambdaInvocationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#function_name LambdaInvocation#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#function_name LambdaInvocation#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#id LambdaInvocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#id LambdaInvocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#input LambdaInvocation#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#input LambdaInvocation#input}
   */
   readonly input: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#lifecycle_scope LambdaInvocation#lifecycle_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#lifecycle_scope LambdaInvocation#lifecycle_scope}
   */
   readonly lifecycleScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#qualifier LambdaInvocation#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#qualifier LambdaInvocation#qualifier}
   */
   readonly qualifier?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#region LambdaInvocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#region LambdaInvocation#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#tenant_id LambdaInvocation#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#tenant_id LambdaInvocation#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#terraform_key LambdaInvocation#terraform_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#terraform_key LambdaInvocation#terraform_key}
   */
   readonly terraformKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#triggers LambdaInvocation#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#triggers LambdaInvocation#triggers}
   */
   readonly triggers?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation aws_lambda_invocation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation aws_lambda_invocation}
 */
 export class LambdaInvocation extends cdktn.TerraformResource {
 
@@ -67,7 +67,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaInvocation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaInvocation to import
-  * @param importFromId The id of the existing LambdaInvocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaInvocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaInvocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -79,7 +79,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,7 +90,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lambda_invocation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,7 +116,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string; 
+  private _functionName?: string;
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -129,7 +129,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -145,7 +145,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // input - computed: false, optional: false, required: true
-  private _input?: string; 
+  private _input?: string;
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -158,7 +158,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // lifecycle_scope - computed: false, optional: true, required: false
-  private _lifecycleScope?: string; 
+  private _lifecycleScope?: string;
   public get lifecycleScope() {
     return this.getStringAttribute('lifecycle_scope');
   }
@@ -174,7 +174,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string; 
+  private _qualifier?: string;
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -190,7 +190,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // tenant_id - computed: false, optional: true, required: false
-  private _tenantId?: string; 
+  private _tenantId?: string;
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -227,7 +227,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // terraform_key - computed: false, optional: true, required: false
-  private _terraformKey?: string; 
+  private _terraformKey?: string;
   public get terraformKey() {
     return this.getStringAttribute('terraform_key');
   }
@@ -243,7 +243,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string }; 
+  private _triggers?: { [key: string]: string };
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }

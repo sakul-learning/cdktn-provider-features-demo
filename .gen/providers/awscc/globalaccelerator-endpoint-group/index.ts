@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface GlobalacceleratorEndpointGroupConfig extends cdktn.TerraformMet
   /**
   * The list of endpoint objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#endpoint_configurations GlobalacceleratorEndpointGroup#endpoint_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#endpoint_configurations GlobalacceleratorEndpointGroup#endpoint_configurations}
   */
   readonly endpointConfigurations?: GlobalacceleratorEndpointGroupEndpointConfigurations[] | cdktn.IResolvable;
   /**
   * The name of the AWS Region where the endpoint group is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#endpoint_group_region GlobalacceleratorEndpointGroup#endpoint_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#endpoint_group_region GlobalacceleratorEndpointGroup#endpoint_group_region}
   */
   readonly endpointGroupRegion: string;
   /**
   * The time in seconds between each health check for an endpoint. Must be a value of 10 or 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#health_check_interval_seconds GlobalacceleratorEndpointGroup#health_check_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#health_check_interval_seconds GlobalacceleratorEndpointGroup#health_check_interval_seconds}
   */
   readonly healthCheckIntervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#health_check_path GlobalacceleratorEndpointGroup#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#health_check_path GlobalacceleratorEndpointGroup#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
   * The port that AWS Global Accelerator uses to check the health of endpoints in this endpoint group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#health_check_port GlobalacceleratorEndpointGroup#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#health_check_port GlobalacceleratorEndpointGroup#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
   * The protocol that AWS Global Accelerator uses to check the health of endpoints in this endpoint group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#health_check_protocol GlobalacceleratorEndpointGroup#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#health_check_protocol GlobalacceleratorEndpointGroup#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
   * The Amazon Resource Name (ARN) of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#listener_arn GlobalacceleratorEndpointGroup#listener_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#listener_arn GlobalacceleratorEndpointGroup#listener_arn}
   */
   readonly listenerArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#port_overrides GlobalacceleratorEndpointGroup#port_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#port_overrides GlobalacceleratorEndpointGroup#port_overrides}
   */
   readonly portOverrides?: GlobalacceleratorEndpointGroupPortOverrides[] | cdktn.IResolvable;
   /**
   * The number of consecutive health checks required to set the state of the endpoint to unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#threshold_count GlobalacceleratorEndpointGroup#threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#threshold_count GlobalacceleratorEndpointGroup#threshold_count}
   */
   readonly thresholdCount?: number;
   /**
   * The percentage of traffic to sent to an AWS Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#traffic_dial_percentage GlobalacceleratorEndpointGroup#traffic_dial_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#traffic_dial_percentage GlobalacceleratorEndpointGroup#traffic_dial_percentage}
   */
   readonly trafficDialPercentage?: number;
 }
@@ -68,25 +68,25 @@ export interface GlobalacceleratorEndpointGroupEndpointConfigurations {
   /**
   * Attachment ARN that provides access control to the cross account endpoint. Not required for resources hosted in the same account as the endpoint group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#attachment_arn GlobalacceleratorEndpointGroup#attachment_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#attachment_arn GlobalacceleratorEndpointGroup#attachment_arn}
   */
   readonly attachmentArn?: string;
   /**
   * true if client ip should be preserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#client_ip_preservation_enabled GlobalacceleratorEndpointGroup#client_ip_preservation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#client_ip_preservation_enabled GlobalacceleratorEndpointGroup#client_ip_preservation_enabled}
   */
   readonly clientIpPreservationEnabled?: boolean | cdktn.IResolvable;
   /**
   * Id of the endpoint. For Network/Application Load Balancer this value is the ARN.  For EIP, this value is the allocation ID.  For EC2 instances, this is the EC2 instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#endpoint_id GlobalacceleratorEndpointGroup#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#endpoint_id GlobalacceleratorEndpointGroup#endpoint_id}
   */
   readonly endpointId?: string;
   /**
   * The weight for the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#weight GlobalacceleratorEndpointGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#weight GlobalacceleratorEndpointGroup#weight}
   */
   readonly weight?: number;
 }
@@ -204,7 +204,7 @@ export class GlobalacceleratorEndpointGroupEndpointConfigurationsOutputReference
   }
 
   // attachment_arn - computed: true, optional: true, required: false
-  private _attachmentArn?: string; 
+  private _attachmentArn?: string;
   public get attachmentArn() {
     return this.getStringAttribute('attachment_arn');
   }
@@ -220,7 +220,7 @@ export class GlobalacceleratorEndpointGroupEndpointConfigurationsOutputReference
   }
 
   // client_ip_preservation_enabled - computed: true, optional: true, required: false
-  private _clientIpPreservationEnabled?: boolean | cdktn.IResolvable; 
+  private _clientIpPreservationEnabled?: boolean | cdktn.IResolvable;
   public get clientIpPreservationEnabled() {
     return this.getBooleanAttribute('client_ip_preservation_enabled');
   }
@@ -236,7 +236,7 @@ export class GlobalacceleratorEndpointGroupEndpointConfigurationsOutputReference
   }
 
   // endpoint_id - computed: true, optional: true, required: false
-  private _endpointId?: string; 
+  private _endpointId?: string;
   public get endpointId() {
     return this.getStringAttribute('endpoint_id');
   }
@@ -252,7 +252,7 @@ export class GlobalacceleratorEndpointGroupEndpointConfigurationsOutputReference
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -291,13 +291,13 @@ export interface GlobalacceleratorEndpointGroupPortOverrides {
   /**
   * A network port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#endpoint_port GlobalacceleratorEndpointGroup#endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#endpoint_port GlobalacceleratorEndpointGroup#endpoint_port}
   */
   readonly endpointPort?: number;
   /**
   * A network port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#listener_port GlobalacceleratorEndpointGroup#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#listener_port GlobalacceleratorEndpointGroup#listener_port}
   */
   readonly listenerPort?: number;
 }
@@ -389,7 +389,7 @@ export class GlobalacceleratorEndpointGroupPortOverridesOutputReference extends 
   }
 
   // endpoint_port - computed: true, optional: true, required: false
-  private _endpointPort?: number; 
+  private _endpointPort?: number;
   public get endpointPort() {
     return this.getNumberAttribute('endpoint_port');
   }
@@ -405,7 +405,7 @@ export class GlobalacceleratorEndpointGroupPortOverridesOutputReference extends 
   }
 
   // listener_port - computed: true, optional: true, required: false
-  private _listenerPort?: number; 
+  private _listenerPort?: number;
   public get listenerPort() {
     return this.getNumberAttribute('listener_port');
   }
@@ -442,7 +442,7 @@ export class GlobalacceleratorEndpointGroupPortOverridesList extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group awscc_globalaccelerator_endpoint_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group awscc_globalaccelerator_endpoint_group}
 */
 export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
 
@@ -458,7 +458,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlobalacceleratorEndpointGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalacceleratorEndpointGroup to import
-  * @param importFromId The id of the existing GlobalacceleratorEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalacceleratorEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalacceleratorEndpointGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -470,7 +470,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/globalaccelerator_endpoint_group awscc_globalaccelerator_endpoint_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_endpoint_group awscc_globalaccelerator_endpoint_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,7 +481,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_globalaccelerator_endpoint_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -529,7 +529,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // endpoint_group_region - computed: false, optional: false, required: true
-  private _endpointGroupRegion?: string; 
+  private _endpointGroupRegion?: string;
   public get endpointGroupRegion() {
     return this.getStringAttribute('endpoint_group_region');
   }
@@ -542,7 +542,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // health_check_interval_seconds - computed: true, optional: true, required: false
-  private _healthCheckIntervalSeconds?: number; 
+  private _healthCheckIntervalSeconds?: number;
   public get healthCheckIntervalSeconds() {
     return this.getNumberAttribute('health_check_interval_seconds');
   }
@@ -558,7 +558,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // health_check_path - computed: true, optional: true, required: false
-  private _healthCheckPath?: string; 
+  private _healthCheckPath?: string;
   public get healthCheckPath() {
     return this.getStringAttribute('health_check_path');
   }
@@ -574,7 +574,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // health_check_port - computed: true, optional: true, required: false
-  private _healthCheckPort?: number; 
+  private _healthCheckPort?: number;
   public get healthCheckPort() {
     return this.getNumberAttribute('health_check_port');
   }
@@ -590,7 +590,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // health_check_protocol - computed: true, optional: true, required: false
-  private _healthCheckProtocol?: string; 
+  private _healthCheckProtocol?: string;
   public get healthCheckProtocol() {
     return this.getStringAttribute('health_check_protocol');
   }
@@ -611,7 +611,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // listener_arn - computed: false, optional: false, required: true
-  private _listenerArn?: string; 
+  private _listenerArn?: string;
   public get listenerArn() {
     return this.getStringAttribute('listener_arn');
   }
@@ -640,7 +640,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // threshold_count - computed: true, optional: true, required: false
-  private _thresholdCount?: number; 
+  private _thresholdCount?: number;
   public get thresholdCount() {
     return this.getNumberAttribute('threshold_count');
   }
@@ -656,7 +656,7 @@ export class GlobalacceleratorEndpointGroup extends cdktn.TerraformResource {
   }
 
   // traffic_dial_percentage - computed: true, optional: true, required: false
-  private _trafficDialPercentage?: number; 
+  private _trafficDialPercentage?: number;
   public get trafficDialPercentage() {
     return this.getNumberAttribute('traffic_dial_percentage');
   }

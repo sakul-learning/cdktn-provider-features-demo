@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktn from 'cdktn';
 
 export interface RtbfabricInboundExternalLinkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#gateway_id RtbfabricInboundExternalLink#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#gateway_id RtbfabricInboundExternalLink#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#link_attributes RtbfabricInboundExternalLink#link_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#link_attributes RtbfabricInboundExternalLink#link_attributes}
   */
   readonly linkAttributes?: RtbfabricInboundExternalLinkLinkAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#link_log_settings RtbfabricInboundExternalLink#link_log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#link_log_settings RtbfabricInboundExternalLink#link_log_settings}
   */
   readonly linkLogSettings: RtbfabricInboundExternalLinkLinkLogSettings;
   /**
   * Tags to assign to the Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#tags RtbfabricInboundExternalLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#tags RtbfabricInboundExternalLink#tags}
   */
   readonly tags?: RtbfabricInboundExternalLinkTags[] | cdktn.IResolvable;
 }
 export interface RtbfabricInboundExternalLinkLinkAttributesResponderErrorMasking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#action RtbfabricInboundExternalLink#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#action RtbfabricInboundExternalLink#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#http_code RtbfabricInboundExternalLink#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#http_code RtbfabricInboundExternalLink#http_code}
   */
   readonly httpCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#logging_types RtbfabricInboundExternalLink#logging_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#logging_types RtbfabricInboundExternalLink#logging_types}
   */
   readonly loggingTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#response_logging_percentage RtbfabricInboundExternalLink#response_logging_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#response_logging_percentage RtbfabricInboundExternalLink#response_logging_percentage}
   */
   readonly responseLoggingPercentage?: number;
 }
@@ -158,7 +158,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -174,7 +174,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string; 
+  private _httpCode?: string;
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -190,7 +190,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // logging_types - computed: true, optional: true, required: false
-  private _loggingTypes?: string[]; 
+  private _loggingTypes?: string[];
   public get loggingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('logging_types'));
   }
@@ -206,7 +206,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // response_logging_percentage - computed: true, optional: true, required: false
-  private _responseLoggingPercentage?: number; 
+  private _responseLoggingPercentage?: number;
   public get responseLoggingPercentage() {
     return this.getNumberAttribute('response_logging_percentage');
   }
@@ -243,11 +243,11 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingList
 }
 export interface RtbfabricInboundExternalLinkLinkAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#customer_provided_id RtbfabricInboundExternalLink#customer_provided_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#customer_provided_id RtbfabricInboundExternalLink#customer_provided_id}
   */
   readonly customerProvidedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#responder_error_masking RtbfabricInboundExternalLink#responder_error_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#responder_error_masking RtbfabricInboundExternalLink#responder_error_masking}
   */
   readonly responderErrorMasking?: RtbfabricInboundExternalLinkLinkAttributesResponderErrorMasking[] | cdktn.IResolvable;
 }
@@ -337,7 +337,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesOutputReference extends c
   }
 
   // customer_provided_id - computed: true, optional: true, required: false
-  private _customerProvidedId?: string; 
+  private _customerProvidedId?: string;
   public get customerProvidedId() {
     return this.getStringAttribute('customer_provided_id');
   }
@@ -370,11 +370,11 @@ export class RtbfabricInboundExternalLinkLinkAttributesOutputReference extends c
 }
 export interface RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#error_log RtbfabricInboundExternalLink#error_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#error_log RtbfabricInboundExternalLink#error_log}
   */
   readonly errorLog: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#filter_log RtbfabricInboundExternalLink#filter_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#filter_log RtbfabricInboundExternalLink#filter_log}
   */
   readonly filterLog: number;
 }
@@ -464,7 +464,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkAppli
   }
 
   // error_log - computed: false, optional: false, required: true
-  private _errorLog?: number; 
+  private _errorLog?: number;
   public get errorLog() {
     return this.getNumberAttribute('error_log');
   }
@@ -477,7 +477,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkAppli
   }
 
   // filter_log - computed: false, optional: false, required: true
-  private _filterLog?: number; 
+  private _filterLog?: number;
   public get filterLog() {
     return this.getNumberAttribute('filter_log');
   }
@@ -491,7 +491,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkAppli
 }
 export interface RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#link_application_log_sampling RtbfabricInboundExternalLink#link_application_log_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#link_application_log_sampling RtbfabricInboundExternalLink#link_application_log_sampling}
   */
   readonly linkApplicationLogSampling: RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling;
 }
@@ -582,7 +582,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsOutputRef
 }
 export interface RtbfabricInboundExternalLinkLinkLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#application_logs RtbfabricInboundExternalLink#application_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#application_logs RtbfabricInboundExternalLink#application_logs}
   */
   readonly applicationLogs: RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogs;
 }
@@ -673,15 +673,15 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsOutputReference extends 
 }
 export interface RtbfabricInboundExternalLinkTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#key RtbfabricInboundExternalLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#key RtbfabricInboundExternalLink#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#value RtbfabricInboundExternalLink#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#value RtbfabricInboundExternalLink#value}
   */
   readonly value?: string;
 }
@@ -773,7 +773,7 @@ export class RtbfabricInboundExternalLinkTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -789,7 +789,7 @@ export class RtbfabricInboundExternalLinkTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -826,7 +826,7 @@ export class RtbfabricInboundExternalLinkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link awscc_rtbfabric_inbound_external_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link awscc_rtbfabric_inbound_external_link}
 */
 export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
 
@@ -842,7 +842,7 @@ export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RtbfabricInboundExternalLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RtbfabricInboundExternalLink to import
-  * @param importFromId The id of the existing RtbfabricInboundExternalLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RtbfabricInboundExternalLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RtbfabricInboundExternalLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -854,7 +854,7 @@ export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_inbound_external_link awscc_rtbfabric_inbound_external_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link awscc_rtbfabric_inbound_external_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -865,7 +865,7 @@ export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rtbfabric_inbound_external_link',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -901,7 +901,7 @@ export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string; 
+  private _gatewayId?: string;
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudfrontConnectionGroupConfig extends cdktn.TerraformMetaArgu
   /**
   * The ID of the Anycast static IP list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
   */
   readonly anycastIpListId?: string;
   /**
   * Whether the connection group is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * IPv6 is enabled for the connection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktn.IResolvable;
   /**
   * The name of the connection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
   */
   readonly name: string;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
   */
   readonly tags?: CloudfrontConnectionGroupTags[] | cdktn.IResolvable;
 }
@@ -43,14 +43,14 @@ export interface CloudfrontConnectionGroupTags {
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#key CloudfrontConnectionGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#key CloudfrontConnectionGroup#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#value CloudfrontConnectionGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#value CloudfrontConnectionGroup#value}
   */
   readonly value?: string;
 }
@@ -142,7 +142,7 @@ export class CloudfrontConnectionGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class CloudfrontConnectionGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -195,7 +195,7 @@ export class CloudfrontConnectionGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}
 */
 export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
 
@@ -211,7 +211,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontConnectionGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontConnectionGroup to import
-  * @param importFromId The id of the existing CloudfrontConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontConnectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -223,7 +223,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,7 +234,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_connection_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -256,7 +256,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   // ==========
 
   // anycast_ip_list_id - computed: true, optional: true, required: false
-  private _anycastIpListId?: string; 
+  private _anycastIpListId?: string;
   public get anycastIpListId() {
     return this.getStringAttribute('anycast_ip_list_id');
   }
@@ -292,7 +292,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -313,7 +313,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // ipv_6_enabled - computed: true, optional: true, required: false
-  private _ipv6Enabled?: boolean | cdktn.IResolvable; 
+  private _ipv6Enabled?: boolean | cdktn.IResolvable;
   public get ipv6Enabled() {
     return this.getBooleanAttribute('ipv_6_enabled');
   }
@@ -339,7 +339,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

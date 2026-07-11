@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktn from 'cdktn';
 
 export interface AppsyncResolverConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#data_source AppsyncResolver#data_source}
   */
   readonly dataSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#field AppsyncResolver#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#field AppsyncResolver#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#id AppsyncResolver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#id AppsyncResolver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#region AppsyncResolver#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#request_template AppsyncResolver#request_template}
   */
   readonly requestTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#response_template AppsyncResolver#response_template}
   */
   readonly responseTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#type AppsyncResolver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#type AppsyncResolver#type}
   */
   readonly type: string;
   /**
   * caching_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
   */
   readonly cachingConfig?: AppsyncResolverCachingConfig;
   /**
   * pipeline_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
   */
   readonly pipelineConfig?: AppsyncResolverPipelineConfig;
   /**
   * runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
   */
   readonly runtime?: AppsyncResolverRuntime;
   /**
   * sync_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
   */
   readonly syncConfig?: AppsyncResolverSyncConfig;
 }
 export interface AppsyncResolverCachingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
   */
   readonly cachingKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
   */
   readonly ttl?: number;
 }
@@ -167,7 +167,7 @@ export class AppsyncResolverCachingConfigOutputReference extends cdktn.ComplexOb
   }
 
   // caching_keys - computed: false, optional: true, required: false
-  private _cachingKeys?: string[]; 
+  private _cachingKeys?: string[];
   public get cachingKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('caching_keys'));
   }
@@ -183,7 +183,7 @@ export class AppsyncResolverCachingConfigOutputReference extends cdktn.ComplexOb
   }
 
   // ttl - computed: false, optional: true, required: false
-  private _ttl?: number; 
+  private _ttl?: number;
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -200,7 +200,7 @@ export class AppsyncResolverCachingConfigOutputReference extends cdktn.ComplexOb
 }
 export interface AppsyncResolverPipelineConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
   */
   readonly functions?: string[];
 }
@@ -267,7 +267,7 @@ export class AppsyncResolverPipelineConfigOutputReference extends cdktn.ComplexO
   }
 
   // functions - computed: false, optional: true, required: false
-  private _functions?: string[]; 
+  private _functions?: string[];
   public get functions() {
     return this.getListAttribute('functions');
   }
@@ -284,11 +284,11 @@ export class AppsyncResolverPipelineConfigOutputReference extends cdktn.ComplexO
 }
 export interface AppsyncResolverRuntime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
   */
   readonly runtimeVersion: string;
 }
@@ -368,7 +368,7 @@ export class AppsyncResolverRuntimeOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -381,7 +381,7 @@ export class AppsyncResolverRuntimeOutputReference extends cdktn.ComplexObject {
   }
 
   // runtime_version - computed: false, optional: false, required: true
-  private _runtimeVersion?: string; 
+  private _runtimeVersion?: string;
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -395,7 +395,7 @@ export class AppsyncResolverRuntimeOutputReference extends cdktn.ComplexObject {
 }
 export interface AppsyncResolverSyncConfigLambdaConflictHandlerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
   */
   readonly lambdaConflictHandlerArn?: string;
 }
@@ -462,7 +462,7 @@ export class AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference
   }
 
   // lambda_conflict_handler_arn - computed: false, optional: true, required: false
-  private _lambdaConflictHandlerArn?: string; 
+  private _lambdaConflictHandlerArn?: string;
   public get lambdaConflictHandlerArn() {
     return this.getStringAttribute('lambda_conflict_handler_arn');
   }
@@ -479,17 +479,17 @@ export class AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference
 }
 export interface AppsyncResolverSyncConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
   */
   readonly conflictDetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
   */
   readonly conflictHandler?: string;
   /**
   * lambda_conflict_handler_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
   */
   readonly lambdaConflictHandlerConfig?: AppsyncResolverSyncConfigLambdaConflictHandlerConfig;
 }
@@ -582,7 +582,7 @@ export class AppsyncResolverSyncConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // conflict_detection - computed: false, optional: true, required: false
-  private _conflictDetection?: string; 
+  private _conflictDetection?: string;
   public get conflictDetection() {
     return this.getStringAttribute('conflict_detection');
   }
@@ -598,7 +598,7 @@ export class AppsyncResolverSyncConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // conflict_handler - computed: false, optional: true, required: false
-  private _conflictHandler?: string; 
+  private _conflictHandler?: string;
   public get conflictHandler() {
     return this.getStringAttribute('conflict_handler');
   }
@@ -631,7 +631,7 @@ export class AppsyncResolverSyncConfigOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver aws_appsync_resolver}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver aws_appsync_resolver}
 */
 export class AppsyncResolver extends cdktn.TerraformResource {
 
@@ -647,7 +647,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncResolver resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncResolver to import
-  * @param importFromId The id of the existing AppsyncResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncResolver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -659,7 +659,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,7 +670,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appsync_resolver',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -702,7 +702,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -720,7 +720,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // code - computed: false, optional: true, required: false
-  private _code?: string; 
+  private _code?: string;
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -736,7 +736,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // data_source - computed: false, optional: true, required: false
-  private _dataSource?: string; 
+  private _dataSource?: string;
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -752,7 +752,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // field - computed: false, optional: false, required: true
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -765,7 +765,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -781,7 +781,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // kind - computed: false, optional: true, required: false
-  private _kind?: string; 
+  private _kind?: string;
   public get kind() {
     return this.getStringAttribute('kind');
   }
@@ -797,7 +797,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // max_batch_size - computed: false, optional: true, required: false
-  private _maxBatchSize?: number; 
+  private _maxBatchSize?: number;
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }
@@ -813,7 +813,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -829,7 +829,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // request_template - computed: false, optional: true, required: false
-  private _requestTemplate?: string; 
+  private _requestTemplate?: string;
   public get requestTemplate() {
     return this.getStringAttribute('request_template');
   }
@@ -845,7 +845,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // response_template - computed: false, optional: true, required: false
-  private _responseTemplate?: string; 
+  private _responseTemplate?: string;
   public get responseTemplate() {
     return this.getStringAttribute('response_template');
   }
@@ -861,7 +861,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

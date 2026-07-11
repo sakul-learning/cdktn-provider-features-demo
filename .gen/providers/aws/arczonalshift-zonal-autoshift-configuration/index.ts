@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ArczonalshiftZonalAutoshiftConfigurationConfig extends cdktn.Te
   /**
   * List of time windows during which practice runs are allowed, in the format `Day:HH:MM-Day:HH:MM` (e.g., `Mon:09:00-Mon:17:00`). Cannot be used together with `blocked_windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#allowed_windows ArczonalshiftZonalAutoshiftConfiguration#allowed_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#allowed_windows ArczonalshiftZonalAutoshiftConfiguration#allowed_windows}
   */
   readonly allowedWindows?: string[];
   /**
   * List of dates when practice runs should not be started, in the format `YYYY-MM-DD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocked_dates ArczonalshiftZonalAutoshiftConfiguration#blocked_dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocked_dates ArczonalshiftZonalAutoshiftConfiguration#blocked_dates}
   */
   readonly blockedDates?: string[];
   /**
   * List of time windows during which practice runs should not be started, in the format `Day:HH:MM-Day:HH:MM` (e.g., `Mon:00:00-Mon:08:00`). Cannot be used together with `allowed_windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocked_windows ArczonalshiftZonalAutoshiftConfiguration#blocked_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocked_windows ArczonalshiftZonalAutoshiftConfiguration#blocked_windows}
   */
   readonly blockedWindows?: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#region ArczonalshiftZonalAutoshiftConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#region ArczonalshiftZonalAutoshiftConfiguration#region}
   */
   readonly region?: string;
   /**
   * The ARN of the managed resource to configure zonal autoshift for (e.g., an Application Load Balancer). Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#resource_arn ArczonalshiftZonalAutoshiftConfiguration#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#resource_arn ArczonalshiftZonalAutoshiftConfiguration#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * The status of zonal autoshift. Valid values: `ENABLED`, `DISABLED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#zonal_autoshift_status ArczonalshiftZonalAutoshiftConfiguration#zonal_autoshift_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#zonal_autoshift_status ArczonalshiftZonalAutoshiftConfiguration#zonal_autoshift_status}
   */
   readonly zonalAutoshiftStatus: string;
   /**
   * blocking_alarms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocking_alarms ArczonalshiftZonalAutoshiftConfiguration#blocking_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#blocking_alarms ArczonalshiftZonalAutoshiftConfiguration#blocking_alarms}
   */
   readonly blockingAlarms?: ArczonalshiftZonalAutoshiftConfigurationBlockingAlarms[] | cdktn.IResolvable;
   /**
   * outcome_alarms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#outcome_alarms ArczonalshiftZonalAutoshiftConfiguration#outcome_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#outcome_alarms ArczonalshiftZonalAutoshiftConfiguration#outcome_alarms}
   */
   readonly outcomeAlarms?: ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface ArczonalshiftZonalAutoshiftConfigurationBlockingAlarms {
   /**
   * ARN of the CloudWatch alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#alarm_identifier ArczonalshiftZonalAutoshiftConfiguration#alarm_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#alarm_identifier ArczonalshiftZonalAutoshiftConfiguration#alarm_identifier}
   */
   readonly alarmIdentifier: string;
   /**
   * Type of control condition. Valid value: `CLOUDWATCH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#type ArczonalshiftZonalAutoshiftConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#type ArczonalshiftZonalAutoshiftConfiguration#type}
   */
   readonly type: string;
 }
@@ -158,7 +158,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationBlockingAlarmsOutputReferen
   }
 
   // alarm_identifier - computed: false, optional: false, required: true
-  private _alarmIdentifier?: string; 
+  private _alarmIdentifier?: string;
   public get alarmIdentifier() {
     return this.getStringAttribute('alarm_identifier');
   }
@@ -171,7 +171,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationBlockingAlarmsOutputReferen
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -207,13 +207,13 @@ export interface ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms {
   /**
   * ARN of the CloudWatch alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#alarm_identifier ArczonalshiftZonalAutoshiftConfiguration#alarm_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#alarm_identifier ArczonalshiftZonalAutoshiftConfiguration#alarm_identifier}
   */
   readonly alarmIdentifier: string;
   /**
   * Type of control condition. Valid value: `CLOUDWATCH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#type ArczonalshiftZonalAutoshiftConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#type ArczonalshiftZonalAutoshiftConfiguration#type}
   */
   readonly type: string;
 }
@@ -305,7 +305,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarmsOutputReferenc
   }
 
   // alarm_identifier - computed: false, optional: false, required: true
-  private _alarmIdentifier?: string; 
+  private _alarmIdentifier?: string;
   public get alarmIdentifier() {
     return this.getStringAttribute('alarm_identifier');
   }
@@ -318,7 +318,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarmsOutputReferenc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -352,7 +352,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarmsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration}
 */
 export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformResource {
 
@@ -368,7 +368,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   * Generates CDKTN code for importing a ArczonalshiftZonalAutoshiftConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArczonalshiftZonalAutoshiftConfiguration to import
-  * @param importFromId The id of the existing ArczonalshiftZonalAutoshiftConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArczonalshiftZonalAutoshiftConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArczonalshiftZonalAutoshiftConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -380,7 +380,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,7 +391,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
       terraformResourceType: 'aws_arczonalshift_zonal_autoshift_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -416,7 +416,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   // ==========
 
   // allowed_windows - computed: false, optional: true, required: false
-  private _allowedWindows?: string[]; 
+  private _allowedWindows?: string[];
   public get allowedWindows() {
     return this.getListAttribute('allowed_windows');
   }
@@ -432,7 +432,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // blocked_dates - computed: false, optional: true, required: false
-  private _blockedDates?: string[]; 
+  private _blockedDates?: string[];
   public get blockedDates() {
     return this.getListAttribute('blocked_dates');
   }
@@ -448,7 +448,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // blocked_windows - computed: false, optional: true, required: false
-  private _blockedWindows?: string[]; 
+  private _blockedWindows?: string[];
   public get blockedWindows() {
     return this.getListAttribute('blocked_windows');
   }
@@ -464,7 +464,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -480,7 +480,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -493,7 +493,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // zonal_autoshift_status - computed: false, optional: false, required: true
-  private _zonalAutoshiftStatus?: string; 
+  private _zonalAutoshiftStatus?: string;
   public get zonalAutoshiftStatus() {
     return this.getStringAttribute('zonal_autoshift_status');
   }

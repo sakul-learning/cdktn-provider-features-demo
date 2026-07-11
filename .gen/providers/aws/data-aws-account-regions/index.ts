@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsAccountRegionsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions#account_id DataAwsAccountRegions#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions#account_id DataAwsAccountRegions#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions#region_opt_status_contains DataAwsAccountRegions#region_opt_status_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions#region_opt_status_contains DataAwsAccountRegions#region_opt_status_contains}
   */
   readonly regionOptStatusContains?: string[];
 }
@@ -98,7 +98,7 @@ export class DataAwsAccountRegionsRegionsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions aws_account_regions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions aws_account_regions}
 */
 export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsAccountRegions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsAccountRegions to import
-  * @param importFromId The id of the existing DataAwsAccountRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsAccountRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsAccountRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/account_regions aws_account_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/account_regions aws_account_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,7 +137,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_account_regions',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -156,7 +156,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -172,7 +172,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   }
 
   // region_opt_status_contains - computed: true, optional: true, required: false
-  private _regionOptStatusContains?: string[]; 
+  private _regionOptStatusContains?: string[];
   public get regionOptStatusContains() {
     return this.getListAttribute('region_opt_status_contains');
   }

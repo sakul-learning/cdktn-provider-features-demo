@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface Ec2SecurityGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description for the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#group_description Ec2SecurityGroup#group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#group_description Ec2SecurityGroup#group_description}
   */
   readonly groupDescription: string;
   /**
   * The name of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#group_name Ec2SecurityGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#group_name Ec2SecurityGroup#group_name}
   */
   readonly groupName?: string;
   /**
   * [VPC only] The outbound rules associated with the security group. There is a short interruption during which you cannot connect to the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#security_group_egress Ec2SecurityGroup#security_group_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#security_group_egress Ec2SecurityGroup#security_group_egress}
   */
   readonly securityGroupEgress?: Ec2SecurityGroupSecurityGroupEgress[] | cdktn.IResolvable;
   /**
   * The inbound rules associated with the security group. There is a short interruption during which you cannot connect to the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#security_group_ingress Ec2SecurityGroup#security_group_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#security_group_ingress Ec2SecurityGroup#security_group_ingress}
   */
   readonly securityGroupIngress?: Ec2SecurityGroupSecurityGroupIngress[] | cdktn.IResolvable;
   /**
   * Any tags assigned to the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#tags Ec2SecurityGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#tags Ec2SecurityGroup#tags}
   */
   readonly tags?: Ec2SecurityGroupTags[] | cdktn.IResolvable;
   /**
   * The ID of the VPC for the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#vpc_id Ec2SecurityGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#vpc_id Ec2SecurityGroup#vpc_id}
   */
   readonly vpcId?: string;
 }
 export interface Ec2SecurityGroupSecurityGroupEgress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#cidr_ip Ec2SecurityGroup#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#cidr_ip Ec2SecurityGroup#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#cidr_ipv_6 Ec2SecurityGroup#cidr_ipv_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#cidr_ipv_6 Ec2SecurityGroup#cidr_ipv_6}
   */
   readonly cidrIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#description Ec2SecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#description Ec2SecurityGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#destination_prefix_list_id Ec2SecurityGroup#destination_prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#destination_prefix_list_id Ec2SecurityGroup#destination_prefix_list_id}
   */
   readonly destinationPrefixListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#destination_security_group_id Ec2SecurityGroup#destination_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#destination_security_group_id Ec2SecurityGroup#destination_security_group_id}
   */
   readonly destinationSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#from_port Ec2SecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#from_port Ec2SecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#ip_protocol Ec2SecurityGroup#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#ip_protocol Ec2SecurityGroup#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#to_port Ec2SecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#to_port Ec2SecurityGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -244,7 +244,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string; 
+  private _cidrIp?: string;
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -260,7 +260,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string; 
+  private _cidrIpv6?: string;
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -276,7 +276,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -292,7 +292,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // destination_prefix_list_id - computed: true, optional: true, required: false
-  private _destinationPrefixListId?: string; 
+  private _destinationPrefixListId?: string;
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -308,7 +308,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // destination_security_group_id - computed: true, optional: true, required: false
-  private _destinationSecurityGroupId?: string; 
+  private _destinationSecurityGroupId?: string;
   public get destinationSecurityGroupId() {
     return this.getStringAttribute('destination_security_group_id');
   }
@@ -324,7 +324,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -340,7 +340,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // ip_protocol - computed: true, optional: true, required: false
-  private _ipProtocol?: string; 
+  private _ipProtocol?: string;
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -356,7 +356,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -393,43 +393,43 @@ export class Ec2SecurityGroupSecurityGroupEgressList extends cdktn.ComplexList {
 }
 export interface Ec2SecurityGroupSecurityGroupIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#cidr_ip Ec2SecurityGroup#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#cidr_ip Ec2SecurityGroup#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#cidr_ipv_6 Ec2SecurityGroup#cidr_ipv_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#cidr_ipv_6 Ec2SecurityGroup#cidr_ipv_6}
   */
   readonly cidrIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#description Ec2SecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#description Ec2SecurityGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#from_port Ec2SecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#from_port Ec2SecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#ip_protocol Ec2SecurityGroup#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#ip_protocol Ec2SecurityGroup#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#source_prefix_list_id Ec2SecurityGroup#source_prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#source_prefix_list_id Ec2SecurityGroup#source_prefix_list_id}
   */
   readonly sourcePrefixListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#source_security_group_id Ec2SecurityGroup#source_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#source_security_group_id Ec2SecurityGroup#source_security_group_id}
   */
   readonly sourceSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#source_security_group_name Ec2SecurityGroup#source_security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#source_security_group_name Ec2SecurityGroup#source_security_group_name}
   */
   readonly sourceSecurityGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#source_security_group_owner_id Ec2SecurityGroup#source_security_group_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#source_security_group_owner_id Ec2SecurityGroup#source_security_group_owner_id}
   */
   readonly sourceSecurityGroupOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#to_port Ec2SecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#to_port Ec2SecurityGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -625,7 +625,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string; 
+  private _cidrIp?: string;
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -641,7 +641,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string; 
+  private _cidrIpv6?: string;
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -657,7 +657,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -673,7 +673,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -689,7 +689,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // ip_protocol - computed: true, optional: true, required: false
-  private _ipProtocol?: string; 
+  private _ipProtocol?: string;
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -705,7 +705,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_prefix_list_id - computed: true, optional: true, required: false
-  private _sourcePrefixListId?: string; 
+  private _sourcePrefixListId?: string;
   public get sourcePrefixListId() {
     return this.getStringAttribute('source_prefix_list_id');
   }
@@ -721,7 +721,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupId?: string; 
+  private _sourceSecurityGroupId?: string;
   public get sourceSecurityGroupId() {
     return this.getStringAttribute('source_security_group_id');
   }
@@ -737,7 +737,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_name - computed: true, optional: true, required: false
-  private _sourceSecurityGroupName?: string; 
+  private _sourceSecurityGroupName?: string;
   public get sourceSecurityGroupName() {
     return this.getStringAttribute('source_security_group_name');
   }
@@ -753,7 +753,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_owner_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupOwnerId?: string; 
+  private _sourceSecurityGroupOwnerId?: string;
   public get sourceSecurityGroupOwnerId() {
     return this.getStringAttribute('source_security_group_owner_id');
   }
@@ -769,7 +769,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -806,11 +806,11 @@ export class Ec2SecurityGroupSecurityGroupIngressList extends cdktn.ComplexList 
 }
 export interface Ec2SecurityGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#key Ec2SecurityGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#key Ec2SecurityGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#value Ec2SecurityGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#value Ec2SecurityGroup#value}
   */
   readonly value?: string;
 }
@@ -902,7 +902,7 @@ export class Ec2SecurityGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -918,7 +918,7 @@ export class Ec2SecurityGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -955,7 +955,7 @@ export class Ec2SecurityGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group awscc_ec2_security_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group awscc_ec2_security_group}
 */
 export class Ec2SecurityGroup extends cdktn.TerraformResource {
 
@@ -971,7 +971,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2SecurityGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2SecurityGroup to import
-  * @param importFromId The id of the existing Ec2SecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2SecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2SecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -983,7 +983,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -994,7 +994,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_security_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1017,7 +1017,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   // ==========
 
   // group_description - computed: false, optional: false, required: true
-  private _groupDescription?: string; 
+  private _groupDescription?: string;
   public get groupDescription() {
     return this.getStringAttribute('group_description');
   }
@@ -1035,7 +1035,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -1109,7 +1109,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

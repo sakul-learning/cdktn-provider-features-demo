@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightKeyRegistrationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#aws_account_id QuicksightKeyRegistration#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#aws_account_id QuicksightKeyRegistration#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#region QuicksightKeyRegistration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#region QuicksightKeyRegistration#region}
   */
   readonly region?: string;
   /**
   * key_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#key_registration QuicksightKeyRegistration#key_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#key_registration QuicksightKeyRegistration#key_registration}
   */
   readonly keyRegistration?: QuicksightKeyRegistrationKeyRegistration[] | cdktn.IResolvable;
 }
 export interface QuicksightKeyRegistrationKeyRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#default_key QuicksightKeyRegistration#default_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#default_key QuicksightKeyRegistration#default_key}
   */
   readonly defaultKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#key_arn QuicksightKeyRegistration#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#key_arn QuicksightKeyRegistration#key_arn}
   */
   readonly keyArn: string;
 }
@@ -122,7 +122,7 @@ export class QuicksightKeyRegistrationKeyRegistrationOutputReference extends cdk
   }
 
   // default_key - computed: true, optional: true, required: false
-  private _defaultKey?: boolean | cdktn.IResolvable; 
+  private _defaultKey?: boolean | cdktn.IResolvable;
   public get defaultKey() {
     return this.getBooleanAttribute('default_key');
   }
@@ -138,7 +138,7 @@ export class QuicksightKeyRegistrationKeyRegistrationOutputReference extends cdk
   }
 
   // key_arn - computed: false, optional: false, required: true
-  private _keyArn?: string; 
+  private _keyArn?: string;
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -172,7 +172,7 @@ export class QuicksightKeyRegistrationKeyRegistrationList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}
 */
 export class QuicksightKeyRegistration extends cdktn.TerraformResource {
 
@@ -188,7 +188,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightKeyRegistration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightKeyRegistration to import
-  * @param importFromId The id of the existing QuicksightKeyRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightKeyRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightKeyRegistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -200,7 +200,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_key_registration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -231,7 +231,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -247,7 +247,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

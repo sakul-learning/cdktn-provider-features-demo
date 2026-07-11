@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktn from 'cdktn';
 
 export interface BackupPlanConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#id BackupPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#id BackupPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#name BackupPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#name BackupPlan#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#region BackupPlan#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#region BackupPlan#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#tags BackupPlan#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#tags BackupPlan#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#tags_all BackupPlan#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#tags_all BackupPlan#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * advanced_backup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#advanced_backup_setting BackupPlan#advanced_backup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#advanced_backup_setting BackupPlan#advanced_backup_setting}
   */
   readonly advancedBackupSetting?: BackupPlanAdvancedBackupSetting[] | cdktn.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#rule BackupPlan#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#rule BackupPlan#rule}
   */
   readonly rule: BackupPlanRule[] | cdktn.IResolvable;
   /**
   * scan_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_setting BackupPlan#scan_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#scan_setting BackupPlan#scan_setting}
   */
   readonly scanSetting?: BackupPlanScanSetting[] | cdktn.IResolvable;
 }
 export interface BackupPlanAdvancedBackupSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#backup_options BackupPlan#backup_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#backup_options BackupPlan#backup_options}
   */
   readonly backupOptions: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#resource_type BackupPlan#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#resource_type BackupPlan#resource_type}
   */
   readonly resourceType: string;
 }
@@ -149,7 +149,7 @@ export class BackupPlanAdvancedBackupSettingOutputReference extends cdktn.Comple
   }
 
   // backup_options - computed: false, optional: false, required: true
-  private _backupOptions?: { [key: string]: string }; 
+  private _backupOptions?: { [key: string]: string };
   public get backupOptions() {
     return this.getStringMapAttribute('backup_options');
   }
@@ -162,7 +162,7 @@ export class BackupPlanAdvancedBackupSettingOutputReference extends cdktn.Comple
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -196,15 +196,15 @@ export class BackupPlanAdvancedBackupSettingList extends cdktn.ComplexList {
 }
 export interface BackupPlanRuleCopyActionLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
   */
   readonly coldStorageAfter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
   */
   readonly deleteAfter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
   */
   readonly optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
 }
@@ -297,7 +297,7 @@ export class BackupPlanRuleCopyActionLifecycleOutputReference extends cdktn.Comp
   }
 
   // cold_storage_after - computed: false, optional: true, required: false
-  private _coldStorageAfter?: number; 
+  private _coldStorageAfter?: number;
   public get coldStorageAfter() {
     return this.getNumberAttribute('cold_storage_after');
   }
@@ -313,7 +313,7 @@ export class BackupPlanRuleCopyActionLifecycleOutputReference extends cdktn.Comp
   }
 
   // delete_after - computed: false, optional: true, required: false
-  private _deleteAfter?: number; 
+  private _deleteAfter?: number;
   public get deleteAfter() {
     return this.getNumberAttribute('delete_after');
   }
@@ -329,7 +329,7 @@ export class BackupPlanRuleCopyActionLifecycleOutputReference extends cdktn.Comp
   }
 
   // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
-  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
   public get optInToArchiveForSupportedResources() {
     return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
   }
@@ -346,13 +346,13 @@ export class BackupPlanRuleCopyActionLifecycleOutputReference extends cdktn.Comp
 }
 export interface BackupPlanRuleCopyAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#destination_vault_arn BackupPlan#destination_vault_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#destination_vault_arn BackupPlan#destination_vault_arn}
   */
   readonly destinationVaultArn: string;
   /**
   * lifecycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
   */
   readonly lifecycle?: BackupPlanRuleCopyActionLifecycle;
 }
@@ -444,7 +444,7 @@ export class BackupPlanRuleCopyActionOutputReference extends cdktn.ComplexObject
   }
 
   // destination_vault_arn - computed: false, optional: false, required: true
-  private _destinationVaultArn?: string; 
+  private _destinationVaultArn?: string;
   public get destinationVaultArn() {
     return this.getStringAttribute('destination_vault_arn');
   }
@@ -494,15 +494,15 @@ export class BackupPlanRuleCopyActionList extends cdktn.ComplexList {
 }
 export interface BackupPlanRuleLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
   */
   readonly coldStorageAfter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
   */
   readonly deleteAfter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
   */
   readonly optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
 }
@@ -595,7 +595,7 @@ export class BackupPlanRuleLifecycleOutputReference extends cdktn.ComplexObject 
   }
 
   // cold_storage_after - computed: false, optional: true, required: false
-  private _coldStorageAfter?: number; 
+  private _coldStorageAfter?: number;
   public get coldStorageAfter() {
     return this.getNumberAttribute('cold_storage_after');
   }
@@ -611,7 +611,7 @@ export class BackupPlanRuleLifecycleOutputReference extends cdktn.ComplexObject 
   }
 
   // delete_after - computed: false, optional: true, required: false
-  private _deleteAfter?: number; 
+  private _deleteAfter?: number;
   public get deleteAfter() {
     return this.getNumberAttribute('delete_after');
   }
@@ -627,7 +627,7 @@ export class BackupPlanRuleLifecycleOutputReference extends cdktn.ComplexObject 
   }
 
   // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
-  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
   public get optInToArchiveForSupportedResources() {
     return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
   }
@@ -644,11 +644,11 @@ export class BackupPlanRuleLifecycleOutputReference extends cdktn.ComplexObject 
 }
 export interface BackupPlanRuleScanAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
   */
   readonly malwareScanner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_mode BackupPlan#scan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#scan_mode BackupPlan#scan_mode}
   */
   readonly scanMode: string;
 }
@@ -740,7 +740,7 @@ export class BackupPlanRuleScanActionOutputReference extends cdktn.ComplexObject
   }
 
   // malware_scanner - computed: false, optional: false, required: true
-  private _malwareScanner?: string; 
+  private _malwareScanner?: string;
   public get malwareScanner() {
     return this.getStringAttribute('malware_scanner');
   }
@@ -753,7 +753,7 @@ export class BackupPlanRuleScanActionOutputReference extends cdktn.ComplexObject
   }
 
   // scan_mode - computed: false, optional: false, required: true
-  private _scanMode?: string; 
+  private _scanMode?: string;
   public get scanMode() {
     return this.getStringAttribute('scan_mode');
   }
@@ -787,57 +787,57 @@ export class BackupPlanRuleScanActionList extends cdktn.ComplexList {
 }
 export interface BackupPlanRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#completion_window BackupPlan#completion_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#completion_window BackupPlan#completion_window}
   */
   readonly completionWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#enable_continuous_backup BackupPlan#enable_continuous_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#enable_continuous_backup BackupPlan#enable_continuous_backup}
   */
   readonly enableContinuousBackup?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#recovery_point_tags BackupPlan#recovery_point_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#recovery_point_tags BackupPlan#recovery_point_tags}
   */
   readonly recoveryPointTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#rule_name BackupPlan#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#rule_name BackupPlan#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#schedule BackupPlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#schedule BackupPlan#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#schedule_expression_timezone BackupPlan#schedule_expression_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#schedule_expression_timezone BackupPlan#schedule_expression_timezone}
   */
   readonly scheduleExpressionTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#start_window BackupPlan#start_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#start_window BackupPlan#start_window}
   */
   readonly startWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#target_logically_air_gapped_backup_vault_arn BackupPlan#target_logically_air_gapped_backup_vault_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#target_logically_air_gapped_backup_vault_arn BackupPlan#target_logically_air_gapped_backup_vault_arn}
   */
   readonly targetLogicallyAirGappedBackupVaultArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#target_vault_name BackupPlan#target_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#target_vault_name BackupPlan#target_vault_name}
   */
   readonly targetVaultName: string;
   /**
   * copy_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#copy_action BackupPlan#copy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#copy_action BackupPlan#copy_action}
   */
   readonly copyAction?: BackupPlanRuleCopyAction[] | cdktn.IResolvable;
   /**
   * lifecycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
   */
   readonly lifecycle?: BackupPlanRuleLifecycle;
   /**
   * scan_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_action BackupPlan#scan_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#scan_action BackupPlan#scan_action}
   */
   readonly scanAction?: BackupPlanRuleScanAction[] | cdktn.IResolvable;
 }
@@ -1059,7 +1059,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // completion_window - computed: false, optional: true, required: false
-  private _completionWindow?: number; 
+  private _completionWindow?: number;
   public get completionWindow() {
     return this.getNumberAttribute('completion_window');
   }
@@ -1075,7 +1075,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // enable_continuous_backup - computed: false, optional: true, required: false
-  private _enableContinuousBackup?: boolean | cdktn.IResolvable; 
+  private _enableContinuousBackup?: boolean | cdktn.IResolvable;
   public get enableContinuousBackup() {
     return this.getBooleanAttribute('enable_continuous_backup');
   }
@@ -1091,7 +1091,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // recovery_point_tags - computed: false, optional: true, required: false
-  private _recoveryPointTags?: { [key: string]: string }; 
+  private _recoveryPointTags?: { [key: string]: string };
   public get recoveryPointTags() {
     return this.getStringMapAttribute('recovery_point_tags');
   }
@@ -1107,7 +1107,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string; 
+  private _ruleName?: string;
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1120,7 +1120,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // schedule - computed: false, optional: true, required: false
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -1136,7 +1136,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // schedule_expression_timezone - computed: false, optional: true, required: false
-  private _scheduleExpressionTimezone?: string; 
+  private _scheduleExpressionTimezone?: string;
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -1152,7 +1152,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // start_window - computed: false, optional: true, required: false
-  private _startWindow?: number; 
+  private _startWindow?: number;
   public get startWindow() {
     return this.getNumberAttribute('start_window');
   }
@@ -1168,7 +1168,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // target_logically_air_gapped_backup_vault_arn - computed: false, optional: true, required: false
-  private _targetLogicallyAirGappedBackupVaultArn?: string; 
+  private _targetLogicallyAirGappedBackupVaultArn?: string;
   public get targetLogicallyAirGappedBackupVaultArn() {
     return this.getStringAttribute('target_logically_air_gapped_backup_vault_arn');
   }
@@ -1184,7 +1184,7 @@ export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // target_vault_name - computed: false, optional: false, required: true
-  private _targetVaultName?: string; 
+  private _targetVaultName?: string;
   public get targetVaultName() {
     return this.getStringAttribute('target_vault_name');
   }
@@ -1266,15 +1266,15 @@ export class BackupPlanRuleList extends cdktn.ComplexList {
 }
 export interface BackupPlanScanSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
   */
   readonly malwareScanner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#resource_types BackupPlan#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#resource_types BackupPlan#resource_types}
   */
   readonly resourceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scanner_role_arn BackupPlan#scanner_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#scanner_role_arn BackupPlan#scanner_role_arn}
   */
   readonly scannerRoleArn: string;
 }
@@ -1379,7 +1379,7 @@ export class BackupPlanScanSettingOutputReference extends cdktn.ComplexObject {
   }
 
   // malware_scanner - computed: false, optional: false, required: true
-  private _malwareScanner?: string; 
+  private _malwareScanner?: string;
   public get malwareScanner() {
     return this.getStringAttribute('malware_scanner');
   }
@@ -1392,7 +1392,7 @@ export class BackupPlanScanSettingOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_types - computed: false, optional: false, required: true
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -1405,7 +1405,7 @@ export class BackupPlanScanSettingOutputReference extends cdktn.ComplexObject {
   }
 
   // scanner_role_arn - computed: false, optional: false, required: true
-  private _scannerRoleArn?: string; 
+  private _scannerRoleArn?: string;
   public get scannerRoleArn() {
     return this.getStringAttribute('scanner_role_arn');
   }
@@ -1439,7 +1439,7 @@ export class BackupPlanScanSettingList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan aws_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan aws_backup_plan}
 */
 export class BackupPlan extends cdktn.TerraformResource {
 
@@ -1455,7 +1455,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupPlan resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupPlan to import
-  * @param importFromId The id of the existing BackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1467,7 +1467,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan aws_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_plan aws_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1478,7 +1478,7 @@ export class BackupPlan extends cdktn.TerraformResource {
       terraformResourceType: 'aws_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1508,7 +1508,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1524,7 +1524,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1537,7 +1537,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1553,7 +1553,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1569,7 +1569,7 @@ export class BackupPlan extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

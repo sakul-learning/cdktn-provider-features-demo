@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ShieldDrtAccessConfig extends cdktn.TerraformMetaArguments {
   /**
   * Authorizes the Shield Response Team (SRT) to access the specified Amazon S3 bucket containing log data such as Application Load Balancer access logs, CloudFront logs, or logs from third party sources. You can associate up to 10 Amazon S3 buckets with your subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
   */
   readonly logBucketList?: string[];
   /**
   * Authorizes the Shield Response Team (SRT) using the specified role, to access your AWS account to assist with DDoS attack mitigation during potential attacks. This enables the SRT to inspect your AWS WAF configuration and create or update AWS WAF rules and web ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
   */
   readonly roleArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access awscc_shield_drt_access}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access awscc_shield_drt_access}
 */
 export class ShieldDrtAccess extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ShieldDrtAccess resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ShieldDrtAccess to import
-  * @param importFromId The id of the existing ShieldDrtAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ShieldDrtAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ShieldDrtAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_shield_drt_access',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -90,7 +90,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   }
 
   // log_bucket_list - computed: true, optional: true, required: false
-  private _logBucketList?: string[]; 
+  private _logBucketList?: string[];
   public get logBucketList() {
     return this.getListAttribute('log_bucket_list');
   }
@@ -106,7 +106,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

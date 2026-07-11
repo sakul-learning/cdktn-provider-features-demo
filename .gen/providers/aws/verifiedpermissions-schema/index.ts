@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface VerifiedpermissionsSchemaConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema#policy_store_id VerifiedpermissionsSchema#policy_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema#policy_store_id VerifiedpermissionsSchema#policy_store_id}
   */
   readonly policyStoreId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema#region VerifiedpermissionsSchema#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema#region VerifiedpermissionsSchema#region}
   */
   readonly region?: string;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema#definition VerifiedpermissionsSchema#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema#definition VerifiedpermissionsSchema#definition}
   */
   readonly definition?: VerifiedpermissionsSchemaDefinition[] | cdktn.IResolvable;
 }
 export interface VerifiedpermissionsSchemaDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema#value VerifiedpermissionsSchema#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema#value VerifiedpermissionsSchema#value}
   */
   readonly value: string;
 }
@@ -105,7 +105,7 @@ export class VerifiedpermissionsSchemaDefinitionOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -139,7 +139,7 @@ export class VerifiedpermissionsSchemaDefinitionList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}
 */
 export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
 
@@ -155,7 +155,7 @@ export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VerifiedpermissionsSchema resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VerifiedpermissionsSchema to import
-  * @param importFromId The id of the existing VerifiedpermissionsSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VerifiedpermissionsSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VerifiedpermissionsSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -167,7 +167,7 @@ export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,7 +178,7 @@ export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
       terraformResourceType: 'aws_verifiedpermissions_schema',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -208,7 +208,7 @@ export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string; 
+  private _policyStoreId?: string;
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }
@@ -221,7 +221,7 @@ export class VerifiedpermissionsSchema extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

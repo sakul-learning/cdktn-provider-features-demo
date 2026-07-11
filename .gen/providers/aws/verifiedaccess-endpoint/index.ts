@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktn from 'cdktn';
 
 export interface VerifiedaccessEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#application_domain VerifiedaccessEndpoint#application_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#application_domain VerifiedaccessEndpoint#application_domain}
   */
   readonly applicationDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#attachment_type VerifiedaccessEndpoint#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#attachment_type VerifiedaccessEndpoint#attachment_type}
   */
   readonly attachmentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#description VerifiedaccessEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#description VerifiedaccessEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#domain_certificate_arn VerifiedaccessEndpoint#domain_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#domain_certificate_arn VerifiedaccessEndpoint#domain_certificate_arn}
   */
   readonly domainCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#endpoint_domain_prefix VerifiedaccessEndpoint#endpoint_domain_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#endpoint_domain_prefix VerifiedaccessEndpoint#endpoint_domain_prefix}
   */
   readonly endpointDomainPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#endpoint_type VerifiedaccessEndpoint#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#endpoint_type VerifiedaccessEndpoint#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#id VerifiedaccessEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#id VerifiedaccessEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#policy_document VerifiedaccessEndpoint#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#policy_document VerifiedaccessEndpoint#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#region VerifiedaccessEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#region VerifiedaccessEndpoint#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#security_group_ids VerifiedaccessEndpoint#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#security_group_ids VerifiedaccessEndpoint#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#tags VerifiedaccessEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#tags VerifiedaccessEndpoint#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#tags_all VerifiedaccessEndpoint#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#tags_all VerifiedaccessEndpoint#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#verified_access_group_id VerifiedaccessEndpoint#verified_access_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#verified_access_group_id VerifiedaccessEndpoint#verified_access_group_id}
   */
   readonly verifiedAccessGroupId: string;
   /**
   * cidr_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#cidr_options VerifiedaccessEndpoint#cidr_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#cidr_options VerifiedaccessEndpoint#cidr_options}
   */
   readonly cidrOptions?: VerifiedaccessEndpointCidrOptions;
   /**
   * load_balancer_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#load_balancer_options VerifiedaccessEndpoint#load_balancer_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#load_balancer_options VerifiedaccessEndpoint#load_balancer_options}
   */
   readonly loadBalancerOptions?: VerifiedaccessEndpointLoadBalancerOptions;
   /**
   * network_interface_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#network_interface_options VerifiedaccessEndpoint#network_interface_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#network_interface_options VerifiedaccessEndpoint#network_interface_options}
   */
   readonly networkInterfaceOptions?: VerifiedaccessEndpointNetworkInterfaceOptions;
   /**
   * rds_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#rds_options VerifiedaccessEndpoint#rds_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#rds_options VerifiedaccessEndpoint#rds_options}
   */
   readonly rdsOptions?: VerifiedaccessEndpointRdsOptions;
   /**
   * sse_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#sse_specification VerifiedaccessEndpoint#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#sse_specification VerifiedaccessEndpoint#sse_specification}
   */
   readonly sseSpecification?: VerifiedaccessEndpointSseSpecification;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#timeouts VerifiedaccessEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#timeouts VerifiedaccessEndpoint#timeouts}
   */
   readonly timeouts?: VerifiedaccessEndpointTimeouts;
 }
 export interface VerifiedaccessEndpointCidrOptionsPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
   */
   readonly toPort: number;
 }
@@ -199,7 +199,7 @@ export class VerifiedaccessEndpointCidrOptionsPortRangeOutputReference extends c
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -212,7 +212,7 @@ export class VerifiedaccessEndpointCidrOptionsPortRangeOutputReference extends c
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -246,21 +246,21 @@ export class VerifiedaccessEndpointCidrOptionsPortRangeList extends cdktn.Comple
 }
 export interface VerifiedaccessEndpointCidrOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#cidr VerifiedaccessEndpoint#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#cidr VerifiedaccessEndpoint#cidr}
   */
   readonly cidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
   */
   readonly portRange: VerifiedaccessEndpointCidrOptionsPortRange[] | cdktn.IResolvable;
 }
@@ -366,7 +366,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -379,7 +379,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -395,7 +395,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -425,11 +425,11 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
 }
 export interface VerifiedaccessEndpointLoadBalancerOptionsPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
   */
   readonly toPort: number;
 }
@@ -521,7 +521,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference e
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -534,7 +534,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference e
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -568,25 +568,25 @@ export class VerifiedaccessEndpointLoadBalancerOptionsPortRangeList extends cdkt
 }
 export interface VerifiedaccessEndpointLoadBalancerOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#load_balancer_arn VerifiedaccessEndpoint#load_balancer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#load_balancer_arn VerifiedaccessEndpoint#load_balancer_arn}
   */
   readonly loadBalancerArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
   */
   readonly portRange?: VerifiedaccessEndpointLoadBalancerOptionsPortRange[] | cdktn.IResolvable;
 }
@@ -705,7 +705,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // load_balancer_arn - computed: false, optional: true, required: false
-  private _loadBalancerArn?: string; 
+  private _loadBalancerArn?: string;
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -721,7 +721,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -737,7 +737,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -753,7 +753,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -786,11 +786,11 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
 }
 export interface VerifiedaccessEndpointNetworkInterfaceOptionsPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#from_port VerifiedaccessEndpoint#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#to_port VerifiedaccessEndpoint#to_port}
   */
   readonly toPort: number;
 }
@@ -882,7 +882,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReferen
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -895,7 +895,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReferen
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -929,21 +929,21 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeList extends 
 }
 export interface VerifiedaccessEndpointNetworkInterfaceOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#network_interface_id VerifiedaccessEndpoint#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#network_interface_id VerifiedaccessEndpoint#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
   */
   readonly protocol?: string;
   /**
   * port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
   */
   readonly portRange?: VerifiedaccessEndpointNetworkInterfaceOptionsPortRange[] | cdktn.IResolvable;
 }
@@ -1049,7 +1049,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // network_interface_id - computed: false, optional: true, required: false
-  private _networkInterfaceId?: string; 
+  private _networkInterfaceId?: string;
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -1065,7 +1065,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1081,7 +1081,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1114,31 +1114,31 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
 }
 export interface VerifiedaccessEndpointRdsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#port VerifiedaccessEndpoint#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#rds_db_cluster_arn VerifiedaccessEndpoint#rds_db_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#rds_db_cluster_arn VerifiedaccessEndpoint#rds_db_cluster_arn}
   */
   readonly rdsDbClusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#rds_db_instance_arn VerifiedaccessEndpoint#rds_db_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#rds_db_instance_arn VerifiedaccessEndpoint#rds_db_instance_arn}
   */
   readonly rdsDbInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#rds_db_proxy_arn VerifiedaccessEndpoint#rds_db_proxy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#rds_db_proxy_arn VerifiedaccessEndpoint#rds_db_proxy_arn}
   */
   readonly rdsDbProxyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#rds_endpoint VerifiedaccessEndpoint#rds_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#rds_endpoint VerifiedaccessEndpoint#rds_endpoint}
   */
   readonly rdsEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -1283,7 +1283,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1299,7 +1299,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1315,7 +1315,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_cluster_arn - computed: false, optional: true, required: false
-  private _rdsDbClusterArn?: string; 
+  private _rdsDbClusterArn?: string;
   public get rdsDbClusterArn() {
     return this.getStringAttribute('rds_db_cluster_arn');
   }
@@ -1331,7 +1331,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_instance_arn - computed: false, optional: true, required: false
-  private _rdsDbInstanceArn?: string; 
+  private _rdsDbInstanceArn?: string;
   public get rdsDbInstanceArn() {
     return this.getStringAttribute('rds_db_instance_arn');
   }
@@ -1347,7 +1347,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_proxy_arn - computed: false, optional: true, required: false
-  private _rdsDbProxyArn?: string; 
+  private _rdsDbProxyArn?: string;
   public get rdsDbProxyArn() {
     return this.getStringAttribute('rds_db_proxy_arn');
   }
@@ -1363,7 +1363,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_endpoint - computed: false, optional: true, required: false
-  private _rdsEndpoint?: string; 
+  private _rdsEndpoint?: string;
   public get rdsEndpoint() {
     return this.getStringAttribute('rds_endpoint');
   }
@@ -1379,7 +1379,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1396,11 +1396,11 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
 }
 export interface VerifiedaccessEndpointSseSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#customer_managed_key_enabled VerifiedaccessEndpoint#customer_managed_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#customer_managed_key_enabled VerifiedaccessEndpoint#customer_managed_key_enabled}
   */
   readonly customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#kms_key_arn VerifiedaccessEndpoint#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#kms_key_arn VerifiedaccessEndpoint#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -1480,7 +1480,7 @@ export class VerifiedaccessEndpointSseSpecificationOutputReference extends cdktn
   }
 
   // customer_managed_key_enabled - computed: false, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -1496,7 +1496,7 @@ export class VerifiedaccessEndpointSseSpecificationOutputReference extends cdktn
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1513,15 +1513,15 @@ export class VerifiedaccessEndpointSseSpecificationOutputReference extends cdktn
 }
 export interface VerifiedaccessEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#create VerifiedaccessEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#delete VerifiedaccessEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#update VerifiedaccessEndpoint#update}
   */
   readonly update?: string;
 }
@@ -1624,7 +1624,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1640,7 +1640,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1656,7 +1656,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1673,7 +1673,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}
 */
 export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
 
@@ -1689,7 +1689,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VerifiedaccessEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VerifiedaccessEndpoint to import
-  * @param importFromId The id of the existing VerifiedaccessEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VerifiedaccessEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VerifiedaccessEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1701,7 +1701,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1712,7 +1712,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'aws_verifiedaccess_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1748,7 +1748,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // application_domain - computed: false, optional: true, required: false
-  private _applicationDomain?: string; 
+  private _applicationDomain?: string;
   public get applicationDomain() {
     return this.getStringAttribute('application_domain');
   }
@@ -1764,7 +1764,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // attachment_type - computed: false, optional: false, required: true
-  private _attachmentType?: string; 
+  private _attachmentType?: string;
   public get attachmentType() {
     return this.getStringAttribute('attachment_type');
   }
@@ -1777,7 +1777,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1798,7 +1798,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // domain_certificate_arn - computed: false, optional: true, required: false
-  private _domainCertificateArn?: string; 
+  private _domainCertificateArn?: string;
   public get domainCertificateArn() {
     return this.getStringAttribute('domain_certificate_arn');
   }
@@ -1819,7 +1819,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_domain_prefix - computed: false, optional: true, required: false
-  private _endpointDomainPrefix?: string; 
+  private _endpointDomainPrefix?: string;
   public get endpointDomainPrefix() {
     return this.getStringAttribute('endpoint_domain_prefix');
   }
@@ -1835,7 +1835,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string; 
+  private _endpointType?: string;
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -1848,7 +1848,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1864,7 +1864,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -1880,7 +1880,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1896,7 +1896,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1912,7 +1912,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1928,7 +1928,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1944,7 +1944,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // verified_access_group_id - computed: false, optional: false, required: true
-  private _verifiedAccessGroupId?: string; 
+  private _verifiedAccessGroupId?: string;
   public get verifiedAccessGroupId() {
     return this.getStringAttribute('verified_access_group_id');
   }

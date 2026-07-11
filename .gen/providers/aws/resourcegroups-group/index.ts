@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktn from 'cdktn';
 
 export interface ResourcegroupsGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#description ResourcegroupsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#description ResourcegroupsGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#id ResourcegroupsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#id ResourcegroupsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#region ResourcegroupsGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#region ResourcegroupsGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#tags ResourcegroupsGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#tags ResourcegroupsGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#tags_all ResourcegroupsGroup#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#tags_all ResourcegroupsGroup#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#configuration ResourcegroupsGroup#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#configuration ResourcegroupsGroup#configuration}
   */
   readonly configuration?: ResourcegroupsGroupConfiguration[] | cdktn.IResolvable;
   /**
   * resource_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#resource_query ResourcegroupsGroup#resource_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#resource_query ResourcegroupsGroup#resource_query}
   */
   readonly resourceQuery?: ResourcegroupsGroupResourceQuery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#timeouts ResourcegroupsGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#timeouts ResourcegroupsGroup#timeouts}
   */
   readonly timeouts?: ResourcegroupsGroupTimeouts;
 }
 export interface ResourcegroupsGroupConfigurationParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
   */
   readonly values: string[];
 }
@@ -153,7 +153,7 @@ export class ResourcegroupsGroupConfigurationParametersOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -166,7 +166,7 @@ export class ResourcegroupsGroupConfigurationParametersOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -200,13 +200,13 @@ export class ResourcegroupsGroupConfigurationParametersList extends cdktn.Comple
 }
 export interface ResourcegroupsGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
   */
   readonly type: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
   */
   readonly parameters?: ResourcegroupsGroupConfigurationParameters[] | cdktn.IResolvable;
 }
@@ -298,7 +298,7 @@ export class ResourcegroupsGroupConfigurationOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -348,11 +348,11 @@ export class ResourcegroupsGroupConfigurationList extends cdktn.ComplexList {
 }
 export interface ResourcegroupsGroupResourceQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
   */
   readonly type?: string;
 }
@@ -432,7 +432,7 @@ export class ResourcegroupsGroupResourceQueryOutputReference extends cdktn.Compl
   }
 
   // query - computed: false, optional: false, required: true
-  private _query?: string; 
+  private _query?: string;
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -445,7 +445,7 @@ export class ResourcegroupsGroupResourceQueryOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -462,11 +462,11 @@ export class ResourcegroupsGroupResourceQueryOutputReference extends cdktn.Compl
 }
 export interface ResourcegroupsGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#create ResourcegroupsGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#create ResourcegroupsGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#update ResourcegroupsGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#update ResourcegroupsGroup#update}
   */
   readonly update?: string;
 }
@@ -556,7 +556,7 @@ export class ResourcegroupsGroupTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -572,7 +572,7 @@ export class ResourcegroupsGroupTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -589,7 +589,7 @@ export class ResourcegroupsGroupTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group aws_resourcegroups_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group aws_resourcegroups_group}
 */
 export class ResourcegroupsGroup extends cdktn.TerraformResource {
 
@@ -605,7 +605,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResourcegroupsGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcegroupsGroup to import
-  * @param importFromId The id of the existing ResourcegroupsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcegroupsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcegroupsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -617,7 +617,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -628,7 +628,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_resourcegroups_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -659,7 +659,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -675,7 +675,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -691,7 +691,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -704,7 +704,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -720,7 +720,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -736,7 +736,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

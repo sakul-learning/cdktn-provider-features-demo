@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktn from 'cdktn';
 
 export interface ElbConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#availability_zones Elb#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#availability_zones Elb#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#connection_draining Elb#connection_draining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#connection_draining Elb#connection_draining}
   */
   readonly connectionDraining?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#connection_draining_timeout Elb#connection_draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#connection_draining_timeout Elb#connection_draining_timeout}
   */
   readonly connectionDrainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#cross_zone_load_balancing Elb#cross_zone_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#cross_zone_load_balancing Elb#cross_zone_load_balancing}
   */
   readonly crossZoneLoadBalancing?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#desync_mitigation_mode Elb#desync_mitigation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#desync_mitigation_mode Elb#desync_mitigation_mode}
   */
   readonly desyncMitigationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#id Elb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#id Elb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#idle_timeout Elb#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#idle_timeout Elb#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#instances Elb#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#instances Elb#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#internal Elb#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#internal Elb#internal}
   */
   readonly internal?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#name Elb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#name Elb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#name_prefix Elb#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#name_prefix Elb#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#region Elb#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#region Elb#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#security_groups Elb#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#security_groups Elb#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#source_security_group Elb#source_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#source_security_group Elb#source_security_group}
   */
   readonly sourceSecurityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#subnets Elb#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#subnets Elb#subnets}
   */
   readonly subnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#tags Elb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#tags Elb#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#tags_all Elb#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#tags_all Elb#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * access_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#access_logs Elb#access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#access_logs Elb#access_logs}
   */
   readonly accessLogs?: ElbAccessLogs;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#health_check Elb#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#health_check Elb#health_check}
   */
   readonly healthCheck?: ElbHealthCheck;
   /**
   * listener block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#listener Elb#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#listener Elb#listener}
   */
   readonly listener: ElbListener[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#timeouts Elb#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#timeouts Elb#timeouts}
   */
   readonly timeouts?: ElbTimeouts;
 }
 export interface ElbAccessLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#bucket Elb#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#bucket Elb#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#bucket_prefix Elb#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#bucket_prefix Elb#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#enabled Elb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#enabled Elb#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#interval Elb#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#interval Elb#interval}
   */
   readonly interval?: number;
 }
@@ -225,7 +225,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -238,7 +238,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -254,7 +254,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -270,7 +270,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -287,23 +287,23 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
 }
 export interface ElbHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#healthy_threshold Elb#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#healthy_threshold Elb#healthy_threshold}
   */
   readonly healthyThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#interval Elb#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#interval Elb#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#target Elb#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#target Elb#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#timeout Elb#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#timeout Elb#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#unhealthy_threshold Elb#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#unhealthy_threshold Elb#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
 }
@@ -422,7 +422,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // healthy_threshold - computed: false, optional: false, required: true
-  private _healthyThreshold?: number; 
+  private _healthyThreshold?: number;
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -435,7 +435,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -448,7 +448,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -461,7 +461,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // timeout - computed: false, optional: false, required: true
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -474,7 +474,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // unhealthy_threshold - computed: false, optional: false, required: true
-  private _unhealthyThreshold?: number; 
+  private _unhealthyThreshold?: number;
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -488,23 +488,23 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
 }
 export interface ElbListener {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#instance_port Elb#instance_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#instance_port Elb#instance_port}
   */
   readonly instancePort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#instance_protocol Elb#instance_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#instance_protocol Elb#instance_protocol}
   */
   readonly instanceProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#lb_port Elb#lb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#lb_port Elb#lb_port}
   */
   readonly lbPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#lb_protocol Elb#lb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#lb_protocol Elb#lb_protocol}
   */
   readonly lbProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#ssl_certificate_id Elb#ssl_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#ssl_certificate_id Elb#ssl_certificate_id}
   */
   readonly sslCertificateId?: string;
 }
@@ -635,7 +635,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_port - computed: false, optional: false, required: true
-  private _instancePort?: number; 
+  private _instancePort?: number;
   public get instancePort() {
     return this.getNumberAttribute('instance_port');
   }
@@ -648,7 +648,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_protocol - computed: false, optional: false, required: true
-  private _instanceProtocol?: string; 
+  private _instanceProtocol?: string;
   public get instanceProtocol() {
     return this.getStringAttribute('instance_protocol');
   }
@@ -661,7 +661,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // lb_port - computed: false, optional: false, required: true
-  private _lbPort?: number; 
+  private _lbPort?: number;
   public get lbPort() {
     return this.getNumberAttribute('lb_port');
   }
@@ -674,7 +674,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // lb_protocol - computed: false, optional: false, required: true
-  private _lbProtocol?: string; 
+  private _lbProtocol?: string;
   public get lbProtocol() {
     return this.getStringAttribute('lb_protocol');
   }
@@ -687,7 +687,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // ssl_certificate_id - computed: false, optional: true, required: false
-  private _sslCertificateId?: string; 
+  private _sslCertificateId?: string;
   public get sslCertificateId() {
     return this.getStringAttribute('ssl_certificate_id');
   }
@@ -724,11 +724,11 @@ export class ElbListenerList extends cdktn.ComplexList {
 }
 export interface ElbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#create Elb#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#create Elb#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#update Elb#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#update Elb#update}
   */
   readonly update?: string;
 }
@@ -818,7 +818,7 @@ export class ElbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -834,7 +834,7 @@ export class ElbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -851,7 +851,7 @@ export class ElbTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb aws_elb}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb aws_elb}
 */
 export class Elb extends cdktn.TerraformResource {
 
@@ -867,7 +867,7 @@ export class Elb extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Elb resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Elb to import
-  * @param importFromId The id of the existing Elb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Elb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Elb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -879,7 +879,7 @@ export class Elb extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elb aws_elb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elb aws_elb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -890,7 +890,7 @@ export class Elb extends cdktn.TerraformResource {
       terraformResourceType: 'aws_elb',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -933,7 +933,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[]; 
+  private _availabilityZones?: string[];
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -949,7 +949,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // connection_draining - computed: false, optional: true, required: false
-  private _connectionDraining?: boolean | cdktn.IResolvable; 
+  private _connectionDraining?: boolean | cdktn.IResolvable;
   public get connectionDraining() {
     return this.getBooleanAttribute('connection_draining');
   }
@@ -965,7 +965,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // connection_draining_timeout - computed: false, optional: true, required: false
-  private _connectionDrainingTimeout?: number; 
+  private _connectionDrainingTimeout?: number;
   public get connectionDrainingTimeout() {
     return this.getNumberAttribute('connection_draining_timeout');
   }
@@ -981,7 +981,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // cross_zone_load_balancing - computed: false, optional: true, required: false
-  private _crossZoneLoadBalancing?: boolean | cdktn.IResolvable; 
+  private _crossZoneLoadBalancing?: boolean | cdktn.IResolvable;
   public get crossZoneLoadBalancing() {
     return this.getBooleanAttribute('cross_zone_load_balancing');
   }
@@ -997,7 +997,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // desync_mitigation_mode - computed: false, optional: true, required: false
-  private _desyncMitigationMode?: string; 
+  private _desyncMitigationMode?: string;
   public get desyncMitigationMode() {
     return this.getStringAttribute('desync_mitigation_mode');
   }
@@ -1018,7 +1018,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1034,7 +1034,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // idle_timeout - computed: false, optional: true, required: false
-  private _idleTimeout?: number; 
+  private _idleTimeout?: number;
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -1050,7 +1050,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
+  private _instances?: string[];
   public get instances() {
     return cdktn.Fn.tolist(this.getListAttribute('instances'));
   }
@@ -1066,7 +1066,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // internal - computed: true, optional: true, required: false
-  private _internal?: boolean | cdktn.IResolvable; 
+  private _internal?: boolean | cdktn.IResolvable;
   public get internal() {
     return this.getBooleanAttribute('internal');
   }
@@ -1082,7 +1082,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1098,7 +1098,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1114,7 +1114,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1130,7 +1130,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1146,7 +1146,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // source_security_group - computed: true, optional: true, required: false
-  private _sourceSecurityGroup?: string; 
+  private _sourceSecurityGroup?: string;
   public get sourceSecurityGroup() {
     return this.getStringAttribute('source_security_group');
   }
@@ -1167,7 +1167,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1183,7 +1183,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1199,7 +1199,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface ChatbotMicrosoftTeamsChannelConfigurationConfig extends cdktn.T
   /**
   * The name of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#configuration_name ChatbotMicrosoftTeamsChannelConfiguration#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#configuration_name ChatbotMicrosoftTeamsChannelConfiguration#configuration_name}
   */
   readonly configurationName: string;
   /**
   * ARNs of Custom Actions to associate with notifications in the provided chat channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#customization_resource_arns ChatbotMicrosoftTeamsChannelConfiguration#customization_resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#customization_resource_arns ChatbotMicrosoftTeamsChannelConfiguration#customization_resource_arns}
   */
   readonly customizationResourceArns?: string[];
   /**
   * The list of IAM policy ARNs that are applied as channel guardrails. The AWS managed 'AdministratorAccess' policy is applied as a default if this is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#guardrail_policies ChatbotMicrosoftTeamsChannelConfiguration#guardrail_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#guardrail_policies ChatbotMicrosoftTeamsChannelConfiguration#guardrail_policies}
   */
   readonly guardrailPolicies?: string[];
   /**
   * The ARN of the IAM role that defines the permissions for AWS Chatbot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#iam_role_arn ChatbotMicrosoftTeamsChannelConfiguration#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#iam_role_arn ChatbotMicrosoftTeamsChannelConfiguration#iam_role_arn}
   */
   readonly iamRoleArn: string;
   /**
   * Specifies the logging level for this configuration:ERROR,INFO or NONE. This property affects the log entries pushed to Amazon CloudWatch logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#logging_level ChatbotMicrosoftTeamsChannelConfiguration#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#logging_level ChatbotMicrosoftTeamsChannelConfiguration#logging_level}
   */
   readonly loggingLevel?: string;
   /**
   * ARNs of SNS topics which delivers notifications to AWS Chatbot, for example CloudWatch alarm notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#sns_topic_arns ChatbotMicrosoftTeamsChannelConfiguration#sns_topic_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#sns_topic_arns ChatbotMicrosoftTeamsChannelConfiguration#sns_topic_arns}
   */
   readonly snsTopicArns?: string[];
   /**
   * The tags to add to the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#tags ChatbotMicrosoftTeamsChannelConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#tags ChatbotMicrosoftTeamsChannelConfiguration#tags}
   */
   readonly tags?: ChatbotMicrosoftTeamsChannelConfigurationTags[] | cdktn.IResolvable;
   /**
   * The id of the Microsoft Teams team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#team_id ChatbotMicrosoftTeamsChannelConfiguration#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#team_id ChatbotMicrosoftTeamsChannelConfiguration#team_id}
   */
   readonly teamId: string;
   /**
   * The id of the Microsoft Teams channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_channel_id ChatbotMicrosoftTeamsChannelConfiguration#teams_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_channel_id ChatbotMicrosoftTeamsChannelConfiguration#teams_channel_id}
   */
   readonly teamsChannelId: string;
   /**
   * The name of the Microsoft Teams channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_channel_name ChatbotMicrosoftTeamsChannelConfiguration#teams_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_channel_name ChatbotMicrosoftTeamsChannelConfiguration#teams_channel_name}
   */
   readonly teamsChannelName?: string;
   /**
   * The id of the Microsoft Teams tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_tenant_id ChatbotMicrosoftTeamsChannelConfiguration#teams_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#teams_tenant_id ChatbotMicrosoftTeamsChannelConfiguration#teams_tenant_id}
   */
   readonly teamsTenantId: string;
   /**
   * Enables use of a user role requirement in your chat configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#user_role_required ChatbotMicrosoftTeamsChannelConfiguration#user_role_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#user_role_required ChatbotMicrosoftTeamsChannelConfiguration#user_role_required}
   */
   readonly userRoleRequired?: boolean | cdktn.IResolvable;
 }
 export interface ChatbotMicrosoftTeamsChannelConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#key ChatbotMicrosoftTeamsChannelConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#key ChatbotMicrosoftTeamsChannelConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#value ChatbotMicrosoftTeamsChannelConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#value ChatbotMicrosoftTeamsChannelConfiguration#value}
   */
   readonly value?: string;
 }
@@ -178,7 +178,7 @@ export class ChatbotMicrosoftTeamsChannelConfigurationTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -194,7 +194,7 @@ export class ChatbotMicrosoftTeamsChannelConfigurationTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -231,7 +231,7 @@ export class ChatbotMicrosoftTeamsChannelConfigurationTagsList extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}
 */
 export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformResource {
 
@@ -247,7 +247,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   * Generates CDKTN code for importing a ChatbotMicrosoftTeamsChannelConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChatbotMicrosoftTeamsChannelConfiguration to import
-  * @param importFromId The id of the existing ChatbotMicrosoftTeamsChannelConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChatbotMicrosoftTeamsChannelConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChatbotMicrosoftTeamsChannelConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -259,7 +259,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,7 +270,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
       terraformResourceType: 'awscc_chatbot_microsoft_teams_channel_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -304,7 +304,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // configuration_name - computed: false, optional: false, required: true
-  private _configurationName?: string; 
+  private _configurationName?: string;
   public get configurationName() {
     return this.getStringAttribute('configuration_name');
   }
@@ -317,7 +317,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // customization_resource_arns - computed: true, optional: true, required: false
-  private _customizationResourceArns?: string[]; 
+  private _customizationResourceArns?: string[];
   public get customizationResourceArns() {
     return this.getListAttribute('customization_resource_arns');
   }
@@ -333,7 +333,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // guardrail_policies - computed: true, optional: true, required: false
-  private _guardrailPolicies?: string[]; 
+  private _guardrailPolicies?: string[];
   public get guardrailPolicies() {
     return this.getListAttribute('guardrail_policies');
   }
@@ -349,7 +349,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -367,7 +367,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string; 
+  private _loggingLevel?: string;
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -383,7 +383,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // sns_topic_arns - computed: true, optional: true, required: false
-  private _snsTopicArns?: string[]; 
+  private _snsTopicArns?: string[];
   public get snsTopicArns() {
     return this.getListAttribute('sns_topic_arns');
   }
@@ -415,7 +415,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // team_id - computed: false, optional: false, required: true
-  private _teamId?: string; 
+  private _teamId?: string;
   public get teamId() {
     return this.getStringAttribute('team_id');
   }
@@ -428,7 +428,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_channel_id - computed: false, optional: false, required: true
-  private _teamsChannelId?: string; 
+  private _teamsChannelId?: string;
   public get teamsChannelId() {
     return this.getStringAttribute('teams_channel_id');
   }
@@ -441,7 +441,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_channel_name - computed: true, optional: true, required: false
-  private _teamsChannelName?: string; 
+  private _teamsChannelName?: string;
   public get teamsChannelName() {
     return this.getStringAttribute('teams_channel_name');
   }
@@ -457,7 +457,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_tenant_id - computed: false, optional: false, required: true
-  private _teamsTenantId?: string; 
+  private _teamsTenantId?: string;
   public get teamsTenantId() {
     return this.getStringAttribute('teams_tenant_id');
   }
@@ -470,7 +470,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // user_role_required - computed: true, optional: true, required: false
-  private _userRoleRequired?: boolean | cdktn.IResolvable; 
+  private _userRoleRequired?: boolean | cdktn.IResolvable;
   public get userRoleRequired() {
     return this.getBooleanAttribute('user_role_required');
   }

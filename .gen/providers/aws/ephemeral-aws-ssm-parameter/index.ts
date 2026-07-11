@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface EphemeralAwsSsmParameterConfig extends cdktn.TerraformEphemeralMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter#arn EphemeralAwsSsmParameter#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter#arn EphemeralAwsSsmParameter#arn}
   */
   readonly arn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter#region EphemeralAwsSsmParameter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter#region EphemeralAwsSsmParameter#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter#with_decryption EphemeralAwsSsmParameter#with_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter#with_decryption EphemeralAwsSsmParameter#with_decryption}
   */
   readonly withDecryption?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter}
 */
 export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
 
@@ -38,7 +38,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
       terraformResourceType: 'aws_ssm_parameter',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -67,7 +67,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -85,7 +85,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -116,7 +116,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   }
 
   // with_decryption - computed: true, optional: true, required: false
-  private _withDecryption?: boolean | cdktn.IResolvable; 
+  private _withDecryption?: boolean | cdktn.IResolvable;
   public get withDecryption() {
     return this.getBooleanAttribute('with_decryption');
   }

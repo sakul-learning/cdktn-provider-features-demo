@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface Ec2NetworkInsightsAccessScopeConfig extends cdktn.TerraformMeta
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#region Ec2NetworkInsightsAccessScope#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#region Ec2NetworkInsightsAccessScope#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#tags Ec2NetworkInsightsAccessScope#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#tags Ec2NetworkInsightsAccessScope#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * exclude_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#exclude_paths Ec2NetworkInsightsAccessScope#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#exclude_paths Ec2NetworkInsightsAccessScope#exclude_paths}
   */
   readonly excludePaths?: Ec2NetworkInsightsAccessScopeExcludePaths[] | cdktn.IResolvable;
   /**
   * match_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#match_paths Ec2NetworkInsightsAccessScope#match_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#match_paths Ec2NetworkInsightsAccessScope#match_paths}
   */
   readonly matchPaths?: Ec2NetworkInsightsAccessScopeMatchPaths[] | cdktn.IResolvable;
 }
 export interface Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
   */
   readonly destinationPrefixLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
   */
   readonly sourcePorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
   */
   readonly sourcePrefixLists?: string[];
 }
@@ -213,7 +213,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[]; 
+  private _destinationAddresses?: string[];
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -229,7 +229,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[]; 
+  private _destinationPorts?: string[];
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -245,7 +245,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[]; 
+  private _destinationPrefixLists?: string[];
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -261,7 +261,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -277,7 +277,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[]; 
+  private _sourceAddresses?: string[];
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -293,7 +293,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[]; 
+  private _sourcePorts?: string[];
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -309,7 +309,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[]; 
+  private _sourcePrefixLists?: string[];
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -346,11 +346,11 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
 }
 export interface Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
   */
   readonly resources?: string[];
 }
@@ -442,7 +442,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStateme
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -458,7 +458,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStateme
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -497,13 +497,13 @@ export interface Ec2NetworkInsightsAccessScopeExcludePathsDestination {
   /**
   * packet_header_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
   */
   readonly packetHeaderStatement?: Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderStatement[] | cdktn.IResolvable;
   /**
   * resource_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
   */
   readonly resourceStatement?: Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStatement[] | cdktn.IResolvable;
 }
@@ -648,31 +648,31 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationList extends cd
 }
 export interface Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
   */
   readonly destinationPrefixLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
   */
   readonly sourcePorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
   */
   readonly sourcePrefixLists?: string[];
 }
@@ -829,7 +829,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[]; 
+  private _destinationAddresses?: string[];
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -845,7 +845,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[]; 
+  private _destinationPorts?: string[];
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -861,7 +861,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[]; 
+  private _destinationPrefixLists?: string[];
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -877,7 +877,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -893,7 +893,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[]; 
+  private _sourceAddresses?: string[];
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -909,7 +909,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[]; 
+  private _sourcePorts?: string[];
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -925,7 +925,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[]; 
+  private _sourcePrefixLists?: string[];
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -962,11 +962,11 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
 }
 export interface Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
   */
   readonly resources?: string[];
 }
@@ -1058,7 +1058,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatementOut
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -1074,7 +1074,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatementOut
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1113,13 +1113,13 @@ export interface Ec2NetworkInsightsAccessScopeExcludePathsSource {
   /**
   * packet_header_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
   */
   readonly packetHeaderStatement?: Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatement[] | cdktn.IResolvable;
   /**
   * resource_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
   */
   readonly resourceStatement?: Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatement[] | cdktn.IResolvable;
 }
@@ -1264,11 +1264,11 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourceList extends cdktn.C
 }
 export interface Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
   */
   readonly resources?: string[];
 }
@@ -1360,7 +1360,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceSt
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -1376,7 +1376,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceSt
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1415,7 +1415,7 @@ export interface Ec2NetworkInsightsAccessScopeExcludePathsThroughResources {
   /**
   * resource_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
   */
   readonly resourceStatement?: Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement[] | cdktn.IResolvable;
 }
@@ -1533,19 +1533,19 @@ export interface Ec2NetworkInsightsAccessScopeExcludePaths {
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination Ec2NetworkInsightsAccessScope#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination Ec2NetworkInsightsAccessScope#destination}
   */
   readonly destination?: Ec2NetworkInsightsAccessScopeExcludePathsDestination[] | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source Ec2NetworkInsightsAccessScope#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source Ec2NetworkInsightsAccessScope#source}
   */
   readonly source?: Ec2NetworkInsightsAccessScopeExcludePathsSource[] | cdktn.IResolvable;
   /**
   * through_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#through_resources Ec2NetworkInsightsAccessScope#through_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#through_resources Ec2NetworkInsightsAccessScope#through_resources}
   */
   readonly throughResources?: Ec2NetworkInsightsAccessScopeExcludePathsThroughResources[] | cdktn.IResolvable;
 }
@@ -1719,31 +1719,31 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsList extends cdktn.Complex
 }
 export interface Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
   */
   readonly destinationPrefixLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
   */
   readonly sourcePorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
   */
   readonly sourcePrefixLists?: string[];
 }
@@ -1900,7 +1900,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[]; 
+  private _destinationAddresses?: string[];
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -1916,7 +1916,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[]; 
+  private _destinationPorts?: string[];
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -1932,7 +1932,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[]; 
+  private _destinationPrefixLists?: string[];
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -1948,7 +1948,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -1964,7 +1964,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[]; 
+  private _sourceAddresses?: string[];
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -1980,7 +1980,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[]; 
+  private _sourcePorts?: string[];
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -1996,7 +1996,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[]; 
+  private _sourcePrefixLists?: string[];
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -2033,11 +2033,11 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
 }
 export interface Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
   */
   readonly resources?: string[];
 }
@@ -2129,7 +2129,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -2145,7 +2145,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -2184,13 +2184,13 @@ export interface Ec2NetworkInsightsAccessScopeMatchPathsDestination {
   /**
   * packet_header_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
   */
   readonly packetHeaderStatement?: Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderStatement[] | cdktn.IResolvable;
   /**
   * resource_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
   */
   readonly resourceStatement?: Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement[] | cdktn.IResolvable;
 }
@@ -2335,31 +2335,31 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationList extends cdkt
 }
 export interface Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_addresses Ec2NetworkInsightsAccessScope#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_ports Ec2NetworkInsightsAccessScope#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination_prefix_lists Ec2NetworkInsightsAccessScope#destination_prefix_lists}
   */
   readonly destinationPrefixLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#protocols Ec2NetworkInsightsAccessScope#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_addresses Ec2NetworkInsightsAccessScope#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_ports Ec2NetworkInsightsAccessScope#source_ports}
   */
   readonly sourcePorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source_prefix_lists Ec2NetworkInsightsAccessScope#source_prefix_lists}
   */
   readonly sourcePrefixLists?: string[];
 }
@@ -2516,7 +2516,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[]; 
+  private _destinationAddresses?: string[];
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -2532,7 +2532,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[]; 
+  private _destinationPorts?: string[];
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -2548,7 +2548,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[]; 
+  private _destinationPrefixLists?: string[];
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -2564,7 +2564,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -2580,7 +2580,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[]; 
+  private _sourceAddresses?: string[];
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -2596,7 +2596,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[]; 
+  private _sourcePorts?: string[];
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -2612,7 +2612,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[]; 
+  private _sourcePrefixLists?: string[];
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -2649,11 +2649,11 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementL
 }
 export interface Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_types Ec2NetworkInsightsAccessScope#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resources Ec2NetworkInsightsAccessScope#resources}
   */
   readonly resources?: string[];
 }
@@ -2745,7 +2745,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatementOutpu
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -2761,7 +2761,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatementOutpu
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -2800,13 +2800,13 @@ export interface Ec2NetworkInsightsAccessScopeMatchPathsSource {
   /**
   * packet_header_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#packet_header_statement Ec2NetworkInsightsAccessScope#packet_header_statement}
   */
   readonly packetHeaderStatement?: Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement[] | cdktn.IResolvable;
   /**
   * resource_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
   */
   readonly resourceStatement?: Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement[] | cdktn.IResolvable;
 }
@@ -2953,13 +2953,13 @@ export interface Ec2NetworkInsightsAccessScopeMatchPaths {
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#destination Ec2NetworkInsightsAccessScope#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#destination Ec2NetworkInsightsAccessScope#destination}
   */
   readonly destination?: Ec2NetworkInsightsAccessScopeMatchPathsDestination[] | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#source Ec2NetworkInsightsAccessScope#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#source Ec2NetworkInsightsAccessScope#source}
   */
   readonly source?: Ec2NetworkInsightsAccessScopeMatchPathsSource[] | cdktn.IResolvable;
 }
@@ -3104,7 +3104,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope}
 */
 export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
 
@@ -3120,7 +3120,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2NetworkInsightsAccessScope resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkInsightsAccessScope to import
-  * @param importFromId The id of the existing Ec2NetworkInsightsAccessScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkInsightsAccessScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkInsightsAccessScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3132,7 +3132,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3143,7 +3143,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ec2_network_insights_access_scope',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3174,7 +3174,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3190,7 +3190,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

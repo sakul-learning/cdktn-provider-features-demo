@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface EksAccessEntryConfig extends cdktn.TerraformMetaArguments {
   /**
   * An array of access policies that are associated with the access entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
   */
   readonly accessPolicies?: EksAccessEntryAccessPolicies[] | cdktn.IResolvable;
   /**
   * The cluster that the access entry is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The Kubernetes groups that the access entry is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
   */
   readonly kubernetesGroups?: string[];
   /**
   * The principal ARN that the access entry is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
   */
   readonly principalArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
   */
   readonly tags?: EksAccessEntryTags[] | cdktn.IResolvable;
   /**
   * The node type to associate with the access entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
   */
   readonly type?: string;
   /**
   * The Kubernetes user that the access entry is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
   */
   readonly username?: string;
 }
@@ -54,13 +54,13 @@ export interface EksAccessEntryAccessPoliciesAccessScope {
   /**
   * The namespaces to associate with the access scope. Only specify if Type is set to 'namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * The type of the access scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
   */
   readonly type?: string;
 }
@@ -150,7 +150,7 @@ export class EksAccessEntryAccessPoliciesAccessScopeOutputReference extends cdkt
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[]; 
+  private _namespaces?: string[];
   public get namespaces() {
     return cdktn.Fn.tolist(this.getListAttribute('namespaces'));
   }
@@ -166,7 +166,7 @@ export class EksAccessEntryAccessPoliciesAccessScopeOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -185,13 +185,13 @@ export interface EksAccessEntryAccessPolicies {
   /**
   * The access scope of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
   */
   readonly accessScope?: EksAccessEntryAccessPoliciesAccessScope;
   /**
   * The ARN of the access policy to add to the access entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
   */
   readonly policyArn?: string;
 }
@@ -299,7 +299,7 @@ export class EksAccessEntryAccessPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string; 
+  private _policyArn?: string;
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -338,13 +338,13 @@ export interface EksAccessEntryTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
   */
   readonly value?: string;
 }
@@ -436,7 +436,7 @@ export class EksAccessEntryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -452,7 +452,7 @@ export class EksAccessEntryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -489,7 +489,7 @@ export class EksAccessEntryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry awscc_eks_access_entry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry awscc_eks_access_entry}
 */
 export class EksAccessEntry extends cdktn.TerraformResource {
 
@@ -505,7 +505,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksAccessEntry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksAccessEntry to import
-  * @param importFromId The id of the existing EksAccessEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksAccessEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksAccessEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -517,7 +517,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,7 +528,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_access_entry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -573,7 +573,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -591,7 +591,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // kubernetes_groups - computed: true, optional: true, required: false
-  private _kubernetesGroups?: string[]; 
+  private _kubernetesGroups?: string[];
   public get kubernetesGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('kubernetes_groups'));
   }
@@ -607,7 +607,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string; 
+  private _principalArn?: string;
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }
@@ -636,7 +636,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -652,7 +652,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }

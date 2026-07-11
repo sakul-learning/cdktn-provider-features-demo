@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface GuarddutyThreatEntitySetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#activate GuarddutyThreatEntitySet#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#activate GuarddutyThreatEntitySet#activate}
   */
   readonly activate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#detector_id GuarddutyThreatEntitySet#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#detector_id GuarddutyThreatEntitySet#detector_id}
   */
   readonly detectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#expected_bucket_owner GuarddutyThreatEntitySet#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#expected_bucket_owner GuarddutyThreatEntitySet#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#format GuarddutyThreatEntitySet#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#format GuarddutyThreatEntitySet#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#location GuarddutyThreatEntitySet#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#location GuarddutyThreatEntitySet#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#name GuarddutyThreatEntitySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#name GuarddutyThreatEntitySet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#tags GuarddutyThreatEntitySet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#tags GuarddutyThreatEntitySet#tags}
   */
   readonly tags?: GuarddutyThreatEntitySetTags[] | cdktn.IResolvable;
 }
 export interface GuarddutyThreatEntitySetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#key GuarddutyThreatEntitySet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#key GuarddutyThreatEntitySet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#value GuarddutyThreatEntitySet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#value GuarddutyThreatEntitySet#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class GuarddutyThreatEntitySetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class GuarddutyThreatEntitySetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class GuarddutyThreatEntitySetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set}
 */
 export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyThreatEntitySet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyThreatEntitySet to import
-  * @param importFromId The id of the existing GuarddutyThreatEntitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyThreatEntitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyThreatEntitySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_threat_entity_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -250,7 +250,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   // ==========
 
   // activate - computed: true, optional: true, required: false
-  private _activate?: boolean | cdktn.IResolvable; 
+  private _activate?: boolean | cdktn.IResolvable;
   public get activate() {
     return this.getBooleanAttribute('activate');
   }
@@ -271,7 +271,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: true, optional: true, required: false
-  private _detectorId?: string; 
+  private _detectorId?: string;
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -292,7 +292,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: true, optional: true, required: false
-  private _expectedBucketOwner?: string; 
+  private _expectedBucketOwner?: string;
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -308,7 +308,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -326,7 +326,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -339,7 +339,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktn from 'cdktn';
 
 export interface AccountPrimaryContactConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#account_id AccountPrimaryContact#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#account_id AccountPrimaryContact#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#address_line_1 AccountPrimaryContact#address_line_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#address_line_1 AccountPrimaryContact#address_line_1}
   */
   readonly addressLine1: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#address_line_2 AccountPrimaryContact#address_line_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#address_line_2 AccountPrimaryContact#address_line_2}
   */
   readonly addressLine2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#address_line_3 AccountPrimaryContact#address_line_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#address_line_3 AccountPrimaryContact#address_line_3}
   */
   readonly addressLine3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#city AccountPrimaryContact#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#city AccountPrimaryContact#city}
   */
   readonly city: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#company_name AccountPrimaryContact#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#company_name AccountPrimaryContact#company_name}
   */
   readonly companyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#country_code AccountPrimaryContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#country_code AccountPrimaryContact#country_code}
   */
   readonly countryCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#district_or_county AccountPrimaryContact#district_or_county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#district_or_county AccountPrimaryContact#district_or_county}
   */
   readonly districtOrCounty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#full_name AccountPrimaryContact#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#full_name AccountPrimaryContact#full_name}
   */
   readonly fullName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#id AccountPrimaryContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#id AccountPrimaryContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#phone_number AccountPrimaryContact#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#phone_number AccountPrimaryContact#phone_number}
   */
   readonly phoneNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#postal_code AccountPrimaryContact#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#postal_code AccountPrimaryContact#postal_code}
   */
   readonly postalCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#state_or_region AccountPrimaryContact#state_or_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#state_or_region AccountPrimaryContact#state_or_region}
   */
   readonly stateOrRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#website_url AccountPrimaryContact#website_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#website_url AccountPrimaryContact#website_url}
   */
   readonly websiteUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact aws_account_primary_contact}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact aws_account_primary_contact}
 */
 export class AccountPrimaryContact extends cdktn.TerraformResource {
 
@@ -85,7 +85,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AccountPrimaryContact resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountPrimaryContact to import
-  * @param importFromId The id of the existing AccountPrimaryContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountPrimaryContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountPrimaryContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -97,7 +97,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
       terraformResourceType: 'aws_account_primary_contact',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -139,7 +139,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -155,7 +155,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_1 - computed: false, optional: false, required: true
-  private _addressLine1?: string; 
+  private _addressLine1?: string;
   public get addressLine1() {
     return this.getStringAttribute('address_line_1');
   }
@@ -168,7 +168,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_2 - computed: false, optional: true, required: false
-  private _addressLine2?: string; 
+  private _addressLine2?: string;
   public get addressLine2() {
     return this.getStringAttribute('address_line_2');
   }
@@ -184,7 +184,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_3 - computed: false, optional: true, required: false
-  private _addressLine3?: string; 
+  private _addressLine3?: string;
   public get addressLine3() {
     return this.getStringAttribute('address_line_3');
   }
@@ -200,7 +200,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // city - computed: false, optional: false, required: true
-  private _city?: string; 
+  private _city?: string;
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -213,7 +213,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // company_name - computed: false, optional: true, required: false
-  private _companyName?: string; 
+  private _companyName?: string;
   public get companyName() {
     return this.getStringAttribute('company_name');
   }
@@ -229,7 +229,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // country_code - computed: false, optional: false, required: true
-  private _countryCode?: string; 
+  private _countryCode?: string;
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -242,7 +242,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // district_or_county - computed: false, optional: true, required: false
-  private _districtOrCounty?: string; 
+  private _districtOrCounty?: string;
   public get districtOrCounty() {
     return this.getStringAttribute('district_or_county');
   }
@@ -258,7 +258,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // full_name - computed: false, optional: false, required: true
-  private _fullName?: string; 
+  private _fullName?: string;
   public get fullName() {
     return this.getStringAttribute('full_name');
   }
@@ -271,7 +271,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -287,7 +287,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // phone_number - computed: false, optional: false, required: true
-  private _phoneNumber?: string; 
+  private _phoneNumber?: string;
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -300,7 +300,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // postal_code - computed: false, optional: false, required: true
-  private _postalCode?: string; 
+  private _postalCode?: string;
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -313,7 +313,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // state_or_region - computed: false, optional: true, required: false
-  private _stateOrRegion?: string; 
+  private _stateOrRegion?: string;
   public get stateOrRegion() {
     return this.getStringAttribute('state_or_region');
   }
@@ -329,7 +329,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // website_url - computed: false, optional: true, required: false
-  private _websiteUrl?: string; 
+  private _websiteUrl?: string;
   public get websiteUrl() {
     return this.getStringAttribute('website_url');
   }

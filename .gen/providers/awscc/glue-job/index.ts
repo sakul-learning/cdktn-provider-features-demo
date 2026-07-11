@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface GlueJobConfig extends cdktn.TerraformMetaArguments {
   /**
   * The number of capacity units that are allocated to this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#allocated_capacity GlueJob#allocated_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#allocated_capacity GlueJob#allocated_capacity}
   */
   readonly allocatedCapacity?: number;
   /**
   * The code that executes a job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#command GlueJob#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#command GlueJob#command}
   */
   readonly command: GlueJobCommand;
   /**
   * Specifies the connections used by a job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#connections GlueJob#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#connections GlueJob#connections}
   */
   readonly connections?: GlueJobConnections;
   /**
   * The default arguments for this job, specified as name-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#default_arguments GlueJob#default_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#default_arguments GlueJob#default_arguments}
   */
   readonly defaultArguments?: string;
   /**
   * A description of the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#description GlueJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#description GlueJob#description}
   */
   readonly description?: string;
   /**
   * Indicates whether the job is run with a standard or flexible execution class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#execution_class GlueJob#execution_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#execution_class GlueJob#execution_class}
   */
   readonly executionClass?: string;
   /**
   * The maximum number of concurrent runs that are allowed for this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#execution_property GlueJob#execution_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#execution_property GlueJob#execution_property}
   */
   readonly executionProperty?: GlueJobExecutionProperty;
   /**
   * Glue version determines the versions of Apache Spark and Python that AWS Glue supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#glue_version GlueJob#glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#glue_version GlueJob#glue_version}
   */
   readonly glueVersion?: string;
   /**
   * Property description not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#job_mode GlueJob#job_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#job_mode GlueJob#job_mode}
   */
   readonly jobMode?: string;
   /**
   * Property description not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#job_run_queuing_enabled GlueJob#job_run_queuing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#job_run_queuing_enabled GlueJob#job_run_queuing_enabled}
   */
   readonly jobRunQueuingEnabled?: boolean | cdktn.IResolvable;
   /**
   * This field is reserved for future use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#log_uri GlueJob#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#log_uri GlueJob#log_uri}
   */
   readonly logUri?: string;
   /**
   * Property description not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#maintenance_window GlueJob#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#maintenance_window GlueJob#maintenance_window}
   */
   readonly maintenanceWindow?: string;
   /**
   * The number of AWS Glue data processing units (DPUs) that can be allocated when this job runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#max_capacity GlueJob#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#max_capacity GlueJob#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
   * The maximum number of times to retry this job after a JobRun fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#max_retries GlueJob#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#max_retries GlueJob#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The name you assign to the job definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#name GlueJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#name GlueJob#name}
   */
   readonly name?: string;
   /**
   * Non-overridable arguments for this job, specified as name-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#non_overridable_arguments GlueJob#non_overridable_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#non_overridable_arguments GlueJob#non_overridable_arguments}
   */
   readonly nonOverridableArguments?: string;
   /**
   * Specifies configuration properties of a notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#notification_property GlueJob#notification_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#notification_property GlueJob#notification_property}
   */
   readonly notificationProperty?: GlueJobNotificationProperty;
   /**
   * The number of workers of a defined workerType that are allocated when a job runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#number_of_workers GlueJob#number_of_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#number_of_workers GlueJob#number_of_workers}
   */
   readonly numberOfWorkers?: number;
   /**
   * The name or Amazon Resource Name (ARN) of the IAM role associated with this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#role GlueJob#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#role GlueJob#role}
   */
   readonly role: string;
   /**
   * The name of the SecurityConfiguration structure to be used with this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#security_configuration GlueJob#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#security_configuration GlueJob#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
   * The tags to use with this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#tags GlueJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#tags GlueJob#tags}
   */
   readonly tags?: string;
   /**
   * The maximum time that a job run can consume resources before it is terminated and enters TIMEOUT status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#timeout GlueJob#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#timeout GlueJob#timeout}
   */
   readonly timeout?: number;
   /**
   * TThe type of predefined worker that is allocated when a job runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#worker_type GlueJob#worker_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#worker_type GlueJob#worker_type}
   */
   readonly workerType?: string;
 }
@@ -150,25 +150,25 @@ export interface GlueJobCommand {
   /**
   * The name of the job command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#name GlueJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#name GlueJob#name}
   */
   readonly name?: string;
   /**
   * The Python version being used to execute a Python shell job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#python_version GlueJob#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#python_version GlueJob#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Runtime is used to specify the versions of Ray, Python and additional libraries available in your environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#runtime GlueJob#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#runtime GlueJob#runtime}
   */
   readonly runtime?: string;
   /**
   * Specifies the Amazon Simple Storage Service (Amazon S3) path to a script that executes a job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#script_location GlueJob#script_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#script_location GlueJob#script_location}
   */
   readonly scriptLocation?: string;
 }
@@ -284,7 +284,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -300,7 +300,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // python_version - computed: true, optional: true, required: false
-  private _pythonVersion?: string; 
+  private _pythonVersion?: string;
   public get pythonVersion() {
     return this.getStringAttribute('python_version');
   }
@@ -316,7 +316,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -332,7 +332,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // script_location - computed: true, optional: true, required: false
-  private _scriptLocation?: string; 
+  private _scriptLocation?: string;
   public get scriptLocation() {
     return this.getStringAttribute('script_location');
   }
@@ -351,7 +351,7 @@ export interface GlueJobConnections {
   /**
   * A list of connections used by the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#connections GlueJob#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#connections GlueJob#connections}
   */
   readonly connections?: string[];
 }
@@ -428,7 +428,7 @@ export class GlueJobConnectionsOutputReference extends cdktn.ComplexObject {
   }
 
   // connections - computed: true, optional: true, required: false
-  private _connections?: string[]; 
+  private _connections?: string[];
   public get connections() {
     return this.getListAttribute('connections');
   }
@@ -447,7 +447,7 @@ export interface GlueJobExecutionProperty {
   /**
   * The maximum number of concurrent runs allowed for the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
 }
@@ -524,7 +524,7 @@ export class GlueJobExecutionPropertyOutputReference extends cdktn.ComplexObject
   }
 
   // max_concurrent_runs - computed: true, optional: true, required: false
-  private _maxConcurrentRuns?: number; 
+  private _maxConcurrentRuns?: number;
   public get maxConcurrentRuns() {
     return this.getNumberAttribute('max_concurrent_runs');
   }
@@ -543,7 +543,7 @@ export interface GlueJobNotificationProperty {
   /**
   * It is the number of minutes to wait before sending a job run delay notification after a job run starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}
   */
   readonly notifyDelayAfter?: number;
 }
@@ -620,7 +620,7 @@ export class GlueJobNotificationPropertyOutputReference extends cdktn.ComplexObj
   }
 
   // notify_delay_after - computed: true, optional: true, required: false
-  private _notifyDelayAfter?: number; 
+  private _notifyDelayAfter?: number;
   public get notifyDelayAfter() {
     return this.getNumberAttribute('notify_delay_after');
   }
@@ -637,7 +637,7 @@ export class GlueJobNotificationPropertyOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job awscc_glue_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job awscc_glue_job}
 */
 export class GlueJob extends cdktn.TerraformResource {
 
@@ -653,7 +653,7 @@ export class GlueJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueJob to import
-  * @param importFromId The id of the existing GlueJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -665,7 +665,7 @@ export class GlueJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_job awscc_glue_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_job awscc_glue_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -676,7 +676,7 @@ export class GlueJob extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_job',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -716,7 +716,7 @@ export class GlueJob extends cdktn.TerraformResource {
   // ==========
 
   // allocated_capacity - computed: true, optional: true, required: false
-  private _allocatedCapacity?: number; 
+  private _allocatedCapacity?: number;
   public get allocatedCapacity() {
     return this.getNumberAttribute('allocated_capacity');
   }
@@ -761,7 +761,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // default_arguments - computed: true, optional: true, required: false
-  private _defaultArguments?: string; 
+  private _defaultArguments?: string;
   public get defaultArguments() {
     return this.getStringAttribute('default_arguments');
   }
@@ -777,7 +777,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -793,7 +793,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // execution_class - computed: true, optional: true, required: false
-  private _executionClass?: string; 
+  private _executionClass?: string;
   public get executionClass() {
     return this.getStringAttribute('execution_class');
   }
@@ -825,7 +825,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string; 
+  private _glueVersion?: string;
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -846,7 +846,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_mode - computed: true, optional: true, required: false
-  private _jobMode?: string; 
+  private _jobMode?: string;
   public get jobMode() {
     return this.getStringAttribute('job_mode');
   }
@@ -862,7 +862,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_run_queuing_enabled - computed: true, optional: true, required: false
-  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable; 
+  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable;
   public get jobRunQueuingEnabled() {
     return this.getBooleanAttribute('job_run_queuing_enabled');
   }
@@ -878,7 +878,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string; 
+  private _logUri?: string;
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -894,7 +894,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: true, optional: true, required: false
-  private _maintenanceWindow?: string; 
+  private _maintenanceWindow?: string;
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -910,7 +910,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -926,7 +926,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number; 
+  private _maxRetries?: number;
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -942,7 +942,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -958,7 +958,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // non_overridable_arguments - computed: true, optional: true, required: false
-  private _nonOverridableArguments?: string; 
+  private _nonOverridableArguments?: string;
   public get nonOverridableArguments() {
     return this.getStringAttribute('non_overridable_arguments');
   }
@@ -990,7 +990,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: true, optional: true, required: false
-  private _numberOfWorkers?: number; 
+  private _numberOfWorkers?: number;
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -1006,7 +1006,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -1019,7 +1019,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: true, optional: true, required: false
-  private _securityConfiguration?: string; 
+  private _securityConfiguration?: string;
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -1035,7 +1035,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string; 
+  private _tags?: string;
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -1051,7 +1051,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -1067,7 +1067,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: true, optional: true, required: false
-  private _workerType?: string; 
+  private _workerType?: string;
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

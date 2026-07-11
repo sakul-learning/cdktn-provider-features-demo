@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktn from 'cdktn';
 
 export interface PinpointEmailChannelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#application_id PinpointEmailChannel#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#application_id PinpointEmailChannel#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#configuration_set PinpointEmailChannel#configuration_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#configuration_set PinpointEmailChannel#configuration_set}
   */
   readonly configurationSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#enabled PinpointEmailChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#enabled PinpointEmailChannel#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#from_address PinpointEmailChannel#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#from_address PinpointEmailChannel#from_address}
   */
   readonly fromAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#id PinpointEmailChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#id PinpointEmailChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#identity PinpointEmailChannel#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#identity PinpointEmailChannel#identity}
   */
   readonly identity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#orchestration_sending_role_arn PinpointEmailChannel#orchestration_sending_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#orchestration_sending_role_arn PinpointEmailChannel#orchestration_sending_role_arn}
   */
   readonly orchestrationSendingRoleArn?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#region PinpointEmailChannel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#region PinpointEmailChannel#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#role_arn PinpointEmailChannel#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#role_arn PinpointEmailChannel#role_arn}
   */
   readonly roleArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel}
 */
 export class PinpointEmailChannel extends cdktn.TerraformResource {
 
@@ -67,7 +67,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PinpointEmailChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PinpointEmailChannel to import
-  * @param importFromId The id of the existing PinpointEmailChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PinpointEmailChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PinpointEmailChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -79,7 +79,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,7 +90,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
       terraformResourceType: 'aws_pinpoint_email_channel',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,7 +116,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -129,7 +129,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // configuration_set - computed: false, optional: true, required: false
-  private _configurationSet?: string; 
+  private _configurationSet?: string;
   public get configurationSet() {
     return this.getStringAttribute('configuration_set');
   }
@@ -145,7 +145,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -161,7 +161,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // from_address - computed: false, optional: false, required: true
-  private _fromAddress?: string; 
+  private _fromAddress?: string;
   public get fromAddress() {
     return this.getStringAttribute('from_address');
   }
@@ -174,7 +174,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -190,7 +190,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // identity - computed: false, optional: false, required: true
-  private _identity?: string; 
+  private _identity?: string;
   public get identity() {
     return this.getStringAttribute('identity');
   }
@@ -208,7 +208,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // orchestration_sending_role_arn - computed: false, optional: true, required: false
-  private _orchestrationSendingRoleArn?: string; 
+  private _orchestrationSendingRoleArn?: string;
   public get orchestrationSendingRoleArn() {
     return this.getStringAttribute('orchestration_sending_role_arn');
   }
@@ -224,7 +224,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -240,7 +240,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

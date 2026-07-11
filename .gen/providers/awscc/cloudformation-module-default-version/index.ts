@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudformationModuleDefaultVersionConfig extends cdktn.Terrafor
   /**
   * The Amazon Resource Name (ARN) of the module version to set as the default version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
   */
   readonly arn?: string;
   /**
   * The name of a module existing in the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
   */
   readonly moduleName?: string;
   /**
   * The ID of an existing version of the named module to set as the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
   */
   readonly versionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}
 */
 export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a CloudformationModuleDefaultVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationModuleDefaultVersion to import
-  * @param importFromId The id of the existing CloudformationModuleDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationModuleDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationModuleDefaultVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_cloudformation_module_default_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -108,7 +108,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   }
 
   // module_name - computed: true, optional: true, required: false
-  private _moduleName?: string; 
+  private _moduleName?: string;
   public get moduleName() {
     return this.getStringAttribute('module_name');
   }
@@ -124,7 +124,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string; 
+  private _versionId?: string;
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

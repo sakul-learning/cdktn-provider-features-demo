@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface OpensearchDomainPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#access_policies OpensearchDomainPolicy#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#access_policies OpensearchDomainPolicy#access_policies}
   */
   readonly accessPolicies: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#domain_name OpensearchDomainPolicy#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#domain_name OpensearchDomainPolicy#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#id OpensearchDomainPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#id OpensearchDomainPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,23 +25,23 @@ export interface OpensearchDomainPolicyConfig extends cdktn.TerraformMetaArgumen
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#region OpensearchDomainPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#region OpensearchDomainPolicy#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#timeouts OpensearchDomainPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#timeouts OpensearchDomainPolicy#timeouts}
   */
   readonly timeouts?: OpensearchDomainPolicyTimeouts;
 }
 export interface OpensearchDomainPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#delete OpensearchDomainPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#delete OpensearchDomainPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#update OpensearchDomainPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#update OpensearchDomainPolicy#update}
   */
   readonly update?: string;
 }
@@ -131,7 +131,7 @@ export class OpensearchDomainPolicyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -147,7 +147,7 @@ export class OpensearchDomainPolicyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -164,7 +164,7 @@ export class OpensearchDomainPolicyTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy aws_opensearch_domain_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy aws_opensearch_domain_policy}
 */
 export class OpensearchDomainPolicy extends cdktn.TerraformResource {
 
@@ -180,7 +180,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchDomainPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchDomainPolicy to import
-  * @param importFromId The id of the existing OpensearchDomainPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchDomainPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchDomainPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -192,7 +192,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain_policy aws_opensearch_domain_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain_policy aws_opensearch_domain_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,7 +203,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_opensearch_domain_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -225,7 +225,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   // ==========
 
   // access_policies - computed: false, optional: false, required: true
-  private _accessPolicies?: string; 
+  private _accessPolicies?: string;
   public get accessPolicies() {
     return this.getStringAttribute('access_policies');
   }
@@ -238,7 +238,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -251,7 +251,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class OpensearchDomainPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

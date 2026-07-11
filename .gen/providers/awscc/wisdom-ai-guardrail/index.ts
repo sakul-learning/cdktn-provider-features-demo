@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface WisdomAiGuardrailConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}
   */
   readonly assistantId: string;
   /**
   * Messaging for when violations are detected in text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#blocked_input_messaging WisdomAiGuardrail#blocked_input_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#blocked_input_messaging WisdomAiGuardrail#blocked_input_messaging}
   */
   readonly blockedInputMessaging: string;
   /**
   * Messaging for when violations are detected in text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#blocked_outputs_messaging WisdomAiGuardrail#blocked_outputs_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#blocked_outputs_messaging WisdomAiGuardrail#blocked_outputs_messaging}
   */
   readonly blockedOutputsMessaging: string;
   /**
   * Content policy config for a guardrail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#content_policy_config WisdomAiGuardrail#content_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#content_policy_config WisdomAiGuardrail#content_policy_config}
   */
   readonly contentPolicyConfig?: WisdomAiGuardrailContentPolicyConfig;
   /**
   * Contextual grounding policy config for a guardrail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#contextual_grounding_policy_config WisdomAiGuardrail#contextual_grounding_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#contextual_grounding_policy_config WisdomAiGuardrail#contextual_grounding_policy_config}
   */
   readonly contextualGroundingPolicyConfig?: WisdomAiGuardrailContextualGroundingPolicyConfig;
   /**
   * Description of the guardrail or its version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
   */
   readonly name?: string;
   /**
   * Sensitive information policy config for a guardrail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#sensitive_information_policy_config WisdomAiGuardrail#sensitive_information_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#sensitive_information_policy_config WisdomAiGuardrail#sensitive_information_policy_config}
   */
   readonly sensitiveInformationPolicyConfig?: WisdomAiGuardrailSensitiveInformationPolicyConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Topic policy config for a guardrail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#topic_policy_config WisdomAiGuardrail#topic_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#topic_policy_config WisdomAiGuardrail#topic_policy_config}
   */
   readonly topicPolicyConfig?: WisdomAiGuardrailTopicPolicyConfig;
   /**
   * Word policy config for a guardrail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#word_policy_config WisdomAiGuardrail#word_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#word_policy_config WisdomAiGuardrail#word_policy_config}
   */
   readonly wordPolicyConfig?: WisdomAiGuardrailWordPolicyConfig;
 }
@@ -72,19 +72,19 @@ export interface WisdomAiGuardrailContentPolicyConfigFiltersConfig {
   /**
   * Strength for filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#input_strength WisdomAiGuardrail#input_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#input_strength WisdomAiGuardrail#input_strength}
   */
   readonly inputStrength?: string;
   /**
   * Strength for filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#output_strength WisdomAiGuardrail#output_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#output_strength WisdomAiGuardrail#output_strength}
   */
   readonly outputStrength?: string;
   /**
   * Type of text to text filter in content policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
   */
   readonly type?: string;
 }
@@ -189,7 +189,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // input_strength - computed: true, optional: true, required: false
-  private _inputStrength?: string; 
+  private _inputStrength?: string;
   public get inputStrength() {
     return this.getStringAttribute('input_strength');
   }
@@ -205,7 +205,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // output_strength - computed: true, optional: true, required: false
-  private _outputStrength?: string; 
+  private _outputStrength?: string;
   public get outputStrength() {
     return this.getStringAttribute('output_strength');
   }
@@ -221,7 +221,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -260,7 +260,7 @@ export interface WisdomAiGuardrailContentPolicyConfig {
   /**
   * List of content filter configs in content policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
   */
   readonly filtersConfig?: WisdomAiGuardrailContentPolicyConfigFiltersConfig[] | cdktn.IResolvable;
 }
@@ -356,13 +356,13 @@ export interface WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig {
   /**
   * The threshold for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
   */
   readonly threshold?: number;
   /**
   * Type of contextual grounding filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
   */
   readonly type?: string;
 }
@@ -454,7 +454,7 @@ export class WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutput
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number; 
+  private _threshold?: number;
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -470,7 +470,7 @@ export class WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutput
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -509,7 +509,7 @@ export interface WisdomAiGuardrailContextualGroundingPolicyConfig {
   /**
   * List of contextual grounding filter configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
   */
   readonly filtersConfig?: WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig[] | cdktn.IResolvable;
 }
@@ -605,13 +605,13 @@ export interface WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesCon
   /**
   * Options for sensitive information action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
   */
   readonly action?: string;
   /**
   * The currently supported PII entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
   */
   readonly type?: string;
 }
@@ -703,7 +703,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigO
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -719,7 +719,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -758,25 +758,25 @@ export interface WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig 
   /**
   * Options for sensitive information action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
   */
   readonly action?: string;
   /**
   * The regex description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
   */
   readonly description?: string;
   /**
   * The regex name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
   */
   readonly name?: string;
   /**
   * The regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#pattern WisdomAiGuardrail#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#pattern WisdomAiGuardrail#pattern}
   */
   readonly pattern?: string;
 }
@@ -894,7 +894,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -910,7 +910,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -926,7 +926,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -942,7 +942,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string; 
+  private _pattern?: string;
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -981,13 +981,13 @@ export interface WisdomAiGuardrailSensitiveInformationPolicyConfig {
   /**
   * List of entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#pii_entities_config WisdomAiGuardrail#pii_entities_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#pii_entities_config WisdomAiGuardrail#pii_entities_config}
   */
   readonly piiEntitiesConfig?: WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig[] | cdktn.IResolvable;
   /**
   * List of regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#regexes_config WisdomAiGuardrail#regexes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#regexes_config WisdomAiGuardrail#regexes_config}
   */
   readonly regexesConfig?: WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig[] | cdktn.IResolvable;
 }
@@ -1112,25 +1112,25 @@ export interface WisdomAiGuardrailTopicPolicyConfigTopicsConfig {
   /**
   * Definition of topic in topic policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#definition WisdomAiGuardrail#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#definition WisdomAiGuardrail#definition}
   */
   readonly definition?: string;
   /**
   * List of text examples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#examples WisdomAiGuardrail#examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#examples WisdomAiGuardrail#examples}
   */
   readonly examples?: string[];
   /**
   * Name of topic in topic policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
   */
   readonly name?: string;
   /**
   * Type of topic in a policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
   */
   readonly type?: string;
 }
@@ -1248,7 +1248,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string; 
+  private _definition?: string;
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -1264,7 +1264,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // examples - computed: true, optional: true, required: false
-  private _examples?: string[]; 
+  private _examples?: string[];
   public get examples() {
     return this.getListAttribute('examples');
   }
@@ -1280,7 +1280,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1296,7 +1296,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1335,7 +1335,7 @@ export interface WisdomAiGuardrailTopicPolicyConfig {
   /**
   * List of topic configs in topic policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#topics_config WisdomAiGuardrail#topics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#topics_config WisdomAiGuardrail#topics_config}
   */
   readonly topicsConfig?: WisdomAiGuardrailTopicPolicyConfigTopicsConfig[] | cdktn.IResolvable;
 }
@@ -1431,7 +1431,7 @@ export interface WisdomAiGuardrailWordPolicyConfigManagedWordListsConfig {
   /**
   * Options for managed words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
   */
   readonly type?: string;
 }
@@ -1510,7 +1510,7 @@ export class WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputRefere
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1549,7 +1549,7 @@ export interface WisdomAiGuardrailWordPolicyConfigWordsConfig {
   /**
   * The custom word text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#text WisdomAiGuardrail#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#text WisdomAiGuardrail#text}
   */
   readonly text?: string;
 }
@@ -1628,7 +1628,7 @@ export class WisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference extends
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1667,13 +1667,13 @@ export interface WisdomAiGuardrailWordPolicyConfig {
   /**
   * A config for the list of managed words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#managed_word_lists_config WisdomAiGuardrail#managed_word_lists_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#managed_word_lists_config WisdomAiGuardrail#managed_word_lists_config}
   */
   readonly managedWordListsConfig?: WisdomAiGuardrailWordPolicyConfigManagedWordListsConfig[] | cdktn.IResolvable;
   /**
   * List of custom word configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#words_config WisdomAiGuardrail#words_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#words_config WisdomAiGuardrail#words_config}
   */
   readonly wordsConfig?: WisdomAiGuardrailWordPolicyConfigWordsConfig[] | cdktn.IResolvable;
 }
@@ -1796,7 +1796,7 @@ export class WisdomAiGuardrailWordPolicyConfigOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}
 */
 export class WisdomAiGuardrail extends cdktn.TerraformResource {
 
@@ -1812,7 +1812,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomAiGuardrail resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomAiGuardrail to import
-  * @param importFromId The id of the existing WisdomAiGuardrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomAiGuardrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomAiGuardrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1824,7 +1824,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1835,7 +1835,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_ai_guardrail',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1878,7 +1878,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string; 
+  private _assistantId?: string;
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -1891,7 +1891,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_input_messaging - computed: false, optional: false, required: true
-  private _blockedInputMessaging?: string; 
+  private _blockedInputMessaging?: string;
   public get blockedInputMessaging() {
     return this.getStringAttribute('blocked_input_messaging');
   }
@@ -1904,7 +1904,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_outputs_messaging - computed: false, optional: false, required: true
-  private _blockedOutputsMessaging?: string; 
+  private _blockedOutputsMessaging?: string;
   public get blockedOutputsMessaging() {
     return this.getStringAttribute('blocked_outputs_messaging');
   }
@@ -1949,7 +1949,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1975,7 +1975,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2007,7 +2007,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

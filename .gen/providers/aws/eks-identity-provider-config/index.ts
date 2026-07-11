@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface EksIdentityProviderConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#cluster_name EksIdentityProviderConfig#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#cluster_name EksIdentityProviderConfig#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#id EksIdentityProviderConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#id EksIdentityProviderConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,61 +21,61 @@ export interface EksIdentityProviderConfigConfig extends cdktn.TerraformMetaArgu
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#region EksIdentityProviderConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#region EksIdentityProviderConfig#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#tags EksIdentityProviderConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#tags EksIdentityProviderConfig#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#tags_all EksIdentityProviderConfig#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#tags_all EksIdentityProviderConfig#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#oidc EksIdentityProviderConfig#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#oidc EksIdentityProviderConfig#oidc}
   */
   readonly oidc: EksIdentityProviderConfigOidc;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#timeouts EksIdentityProviderConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#timeouts EksIdentityProviderConfig#timeouts}
   */
   readonly timeouts?: EksIdentityProviderConfigTimeouts;
 }
 export interface EksIdentityProviderConfigOidc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#client_id EksIdentityProviderConfig#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#client_id EksIdentityProviderConfig#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#groups_claim EksIdentityProviderConfig#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#groups_claim EksIdentityProviderConfig#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#groups_prefix EksIdentityProviderConfig#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#groups_prefix EksIdentityProviderConfig#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#identity_provider_config_name EksIdentityProviderConfig#identity_provider_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#identity_provider_config_name EksIdentityProviderConfig#identity_provider_config_name}
   */
   readonly identityProviderConfigName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#issuer_url EksIdentityProviderConfig#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#issuer_url EksIdentityProviderConfig#issuer_url}
   */
   readonly issuerUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#required_claims EksIdentityProviderConfig#required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#required_claims EksIdentityProviderConfig#required_claims}
   */
   readonly requiredClaims?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#username_claim EksIdentityProviderConfig#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#username_claim EksIdentityProviderConfig#username_claim}
   */
   readonly usernameClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#username_prefix EksIdentityProviderConfig#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#username_prefix EksIdentityProviderConfig#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -233,7 +233,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -246,7 +246,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // groups_claim - computed: false, optional: true, required: false
-  private _groupsClaim?: string; 
+  private _groupsClaim?: string;
   public get groupsClaim() {
     return this.getStringAttribute('groups_claim');
   }
@@ -262,7 +262,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // groups_prefix - computed: false, optional: true, required: false
-  private _groupsPrefix?: string; 
+  private _groupsPrefix?: string;
   public get groupsPrefix() {
     return this.getStringAttribute('groups_prefix');
   }
@@ -278,7 +278,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // identity_provider_config_name - computed: false, optional: false, required: true
-  private _identityProviderConfigName?: string; 
+  private _identityProviderConfigName?: string;
   public get identityProviderConfigName() {
     return this.getStringAttribute('identity_provider_config_name');
   }
@@ -291,7 +291,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // issuer_url - computed: false, optional: false, required: true
-  private _issuerUrl?: string; 
+  private _issuerUrl?: string;
   public get issuerUrl() {
     return this.getStringAttribute('issuer_url');
   }
@@ -304,7 +304,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // required_claims - computed: false, optional: true, required: false
-  private _requiredClaims?: { [key: string]: string }; 
+  private _requiredClaims?: { [key: string]: string };
   public get requiredClaims() {
     return this.getStringMapAttribute('required_claims');
   }
@@ -320,7 +320,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // username_claim - computed: false, optional: true, required: false
-  private _usernameClaim?: string; 
+  private _usernameClaim?: string;
   public get usernameClaim() {
     return this.getStringAttribute('username_claim');
   }
@@ -336,7 +336,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // username_prefix - computed: false, optional: true, required: false
-  private _usernamePrefix?: string; 
+  private _usernamePrefix?: string;
   public get usernamePrefix() {
     return this.getStringAttribute('username_prefix');
   }
@@ -353,11 +353,11 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
 }
 export interface EksIdentityProviderConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#create EksIdentityProviderConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#create EksIdentityProviderConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#delete EksIdentityProviderConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#delete EksIdentityProviderConfig#delete}
   */
   readonly delete?: string;
 }
@@ -447,7 +447,7 @@ export class EksIdentityProviderConfigTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -463,7 +463,7 @@ export class EksIdentityProviderConfigTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -480,7 +480,7 @@ export class EksIdentityProviderConfigTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config}
 */
 export class EksIdentityProviderConfig extends cdktn.TerraformResource {
 
@@ -496,7 +496,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksIdentityProviderConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksIdentityProviderConfig to import
-  * @param importFromId The id of the existing EksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksIdentityProviderConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -508,7 +508,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -519,7 +519,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
       terraformResourceType: 'aws_eks_identity_provider_config',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -548,7 +548,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -561,7 +561,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -582,7 +582,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -603,7 +603,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -619,7 +619,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,11 +1,11 @@
 import * as cdktn from 'cdktn';
 export interface SecurityhubInsightFiltersAwsAccountId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -97,7 +97,7 @@ export class SecurityhubInsightFiltersAwsAccountIdOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -110,7 +110,7 @@ export class SecurityhubInsightFiltersAwsAccountIdOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -144,11 +144,11 @@ export class SecurityhubInsightFiltersAwsAccountIdList extends cdktn.ComplexList
 }
 export interface SecurityhubInsightFiltersAwsAccountName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -240,7 +240,7 @@ export class SecurityhubInsightFiltersAwsAccountNameOutputReference extends cdkt
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -253,7 +253,7 @@ export class SecurityhubInsightFiltersAwsAccountNameOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -287,11 +287,11 @@ export class SecurityhubInsightFiltersAwsAccountNameList extends cdktn.ComplexLi
 }
 export interface SecurityhubInsightFiltersCompanyName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -383,7 +383,7 @@ export class SecurityhubInsightFiltersCompanyNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -396,7 +396,7 @@ export class SecurityhubInsightFiltersCompanyNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -430,11 +430,11 @@ export class SecurityhubInsightFiltersCompanyNameList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersComplianceAssociatedStandardsId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -526,7 +526,7 @@ export class SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputRefer
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -539,7 +539,7 @@ export class SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputRefer
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -573,11 +573,11 @@ export class SecurityhubInsightFiltersComplianceAssociatedStandardsIdList extend
 }
 export interface SecurityhubInsightFiltersComplianceSecurityControlId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -669,7 +669,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -682,7 +682,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -716,11 +716,11 @@ export class SecurityhubInsightFiltersComplianceSecurityControlIdList extends cd
 }
 export interface SecurityhubInsightFiltersComplianceSecurityControlParametersName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -812,7 +812,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersNameOut
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -825,7 +825,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersNameOut
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -859,11 +859,11 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersNameLis
 }
 export interface SecurityhubInsightFiltersComplianceSecurityControlParametersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -955,7 +955,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersValueOu
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -968,7 +968,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersValueOu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1002,11 +1002,11 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersValueLi
 }
 export interface SecurityhubInsightFiltersComplianceStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -1098,7 +1098,7 @@ export class SecurityhubInsightFiltersComplianceStatusOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1111,7 +1111,7 @@ export class SecurityhubInsightFiltersComplianceStatusOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1145,15 +1145,15 @@ export class SecurityhubInsightFiltersComplianceStatusList extends cdktn.Complex
 }
 export interface SecurityhubInsightFiltersConfidence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -1258,7 +1258,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -1274,7 +1274,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -1290,7 +1290,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -1327,11 +1327,11 @@ export class SecurityhubInsightFiltersConfidenceList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersCreatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -1411,7 +1411,7 @@ export class SecurityhubInsightFiltersCreatedAtDateRangeOutputReference extends 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1424,7 +1424,7 @@ export class SecurityhubInsightFiltersCreatedAtDateRangeOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1438,17 +1438,17 @@ export class SecurityhubInsightFiltersCreatedAtDateRangeOutputReference extends 
 }
 export interface SecurityhubInsightFiltersCreatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersCreatedAtDateRange;
 }
@@ -1553,7 +1553,7 @@ export class SecurityhubInsightFiltersCreatedAtOutputReference extends cdktn.Com
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1569,7 +1569,7 @@ export class SecurityhubInsightFiltersCreatedAtOutputReference extends cdktn.Com
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -1622,15 +1622,15 @@ export class SecurityhubInsightFiltersCreatedAtList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersCriticality {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -1735,7 +1735,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -1751,7 +1751,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -1767,7 +1767,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -1804,11 +1804,11 @@ export class SecurityhubInsightFiltersCriticalityList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersDescription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -1900,7 +1900,7 @@ export class SecurityhubInsightFiltersDescriptionOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1913,7 +1913,7 @@ export class SecurityhubInsightFiltersDescriptionOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1947,15 +1947,15 @@ export class SecurityhubInsightFiltersDescriptionList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsConfidence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -2060,7 +2060,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -2076,7 +2076,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -2092,7 +2092,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -2129,15 +2129,15 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceList extend
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsCriticality {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -2242,7 +2242,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -2258,7 +2258,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -2274,7 +2274,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -2311,11 +2311,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityList exten
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -2407,7 +2407,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutp
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2420,7 +2420,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2454,11 +2454,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -2550,7 +2550,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProduc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2563,7 +2563,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProduc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2597,11 +2597,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProduc
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -2693,7 +2693,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputRe
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2706,7 +2706,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputRe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2740,11 +2740,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList ext
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -2836,7 +2836,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutpu
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2849,7 +2849,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutpu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2883,11 +2883,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList 
 }
 export interface SecurityhubInsightFiltersFindingProviderFieldsTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -2979,7 +2979,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2992,7 +2992,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3026,11 +3026,11 @@ export class SecurityhubInsightFiltersFindingProviderFieldsTypesList extends cdk
 }
 export interface SecurityhubInsightFiltersFirstObservedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -3110,7 +3110,7 @@ export class SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference ex
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3123,7 +3123,7 @@ export class SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3137,17 +3137,17 @@ export class SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference ex
 }
 export interface SecurityhubInsightFiltersFirstObservedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersFirstObservedAtDateRange;
 }
@@ -3252,7 +3252,7 @@ export class SecurityhubInsightFiltersFirstObservedAtOutputReference extends cdk
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -3268,7 +3268,7 @@ export class SecurityhubInsightFiltersFirstObservedAtOutputReference extends cdk
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -3321,11 +3321,11 @@ export class SecurityhubInsightFiltersFirstObservedAtList extends cdktn.ComplexL
 }
 export interface SecurityhubInsightFiltersGeneratorId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -3417,7 +3417,7 @@ export class SecurityhubInsightFiltersGeneratorIdOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -3430,7 +3430,7 @@ export class SecurityhubInsightFiltersGeneratorIdOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3464,11 +3464,11 @@ export class SecurityhubInsightFiltersGeneratorIdList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -3560,7 +3560,7 @@ export class SecurityhubInsightFiltersIdOutputReference extends cdktn.ComplexObj
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -3573,7 +3573,7 @@ export class SecurityhubInsightFiltersIdOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3607,7 +3607,7 @@ export class SecurityhubInsightFiltersIdList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersKeyword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -3686,7 +3686,7 @@ export class SecurityhubInsightFiltersKeywordOutputReference extends cdktn.Compl
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3720,11 +3720,11 @@ export class SecurityhubInsightFiltersKeywordList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersLastObservedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -3804,7 +3804,7 @@ export class SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference ext
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3817,7 +3817,7 @@ export class SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference ext
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3831,17 +3831,17 @@ export class SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference ext
 }
 export interface SecurityhubInsightFiltersLastObservedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersLastObservedAtDateRange;
 }
@@ -3946,7 +3946,7 @@ export class SecurityhubInsightFiltersLastObservedAtOutputReference extends cdkt
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -3962,7 +3962,7 @@ export class SecurityhubInsightFiltersLastObservedAtOutputReference extends cdkt
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -4015,11 +4015,11 @@ export class SecurityhubInsightFiltersLastObservedAtList extends cdktn.ComplexLi
 }
 export interface SecurityhubInsightFiltersMalwareName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -4111,7 +4111,7 @@ export class SecurityhubInsightFiltersMalwareNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4124,7 +4124,7 @@ export class SecurityhubInsightFiltersMalwareNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4158,11 +4158,11 @@ export class SecurityhubInsightFiltersMalwareNameList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersMalwarePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -4254,7 +4254,7 @@ export class SecurityhubInsightFiltersMalwarePathOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4267,7 +4267,7 @@ export class SecurityhubInsightFiltersMalwarePathOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4301,11 +4301,11 @@ export class SecurityhubInsightFiltersMalwarePathList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersMalwareState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -4397,7 +4397,7 @@ export class SecurityhubInsightFiltersMalwareStateOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4410,7 +4410,7 @@ export class SecurityhubInsightFiltersMalwareStateOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4444,11 +4444,11 @@ export class SecurityhubInsightFiltersMalwareStateList extends cdktn.ComplexList
 }
 export interface SecurityhubInsightFiltersMalwareType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -4540,7 +4540,7 @@ export class SecurityhubInsightFiltersMalwareTypeOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4553,7 +4553,7 @@ export class SecurityhubInsightFiltersMalwareTypeOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4587,11 +4587,11 @@ export class SecurityhubInsightFiltersMalwareTypeList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersNetworkDestinationDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -4683,7 +4683,7 @@ export class SecurityhubInsightFiltersNetworkDestinationDomainOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4696,7 +4696,7 @@ export class SecurityhubInsightFiltersNetworkDestinationDomainOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4730,7 +4730,7 @@ export class SecurityhubInsightFiltersNetworkDestinationDomainList extends cdktn
 }
 export interface SecurityhubInsightFiltersNetworkDestinationIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -4809,7 +4809,7 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference exte
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -4843,7 +4843,7 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv4List extends cdktn.C
 }
 export interface SecurityhubInsightFiltersNetworkDestinationIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -4922,7 +4922,7 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference exte
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -4956,15 +4956,15 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv6List extends cdktn.C
 }
 export interface SecurityhubInsightFiltersNetworkDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -5069,7 +5069,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -5085,7 +5085,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -5101,7 +5101,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -5138,11 +5138,11 @@ export class SecurityhubInsightFiltersNetworkDestinationPortList extends cdktn.C
 }
 export interface SecurityhubInsightFiltersNetworkDirection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -5234,7 +5234,7 @@ export class SecurityhubInsightFiltersNetworkDirectionOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5247,7 +5247,7 @@ export class SecurityhubInsightFiltersNetworkDirectionOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5281,11 +5281,11 @@ export class SecurityhubInsightFiltersNetworkDirectionList extends cdktn.Complex
 }
 export interface SecurityhubInsightFiltersNetworkProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -5377,7 +5377,7 @@ export class SecurityhubInsightFiltersNetworkProtocolOutputReference extends cdk
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5390,7 +5390,7 @@ export class SecurityhubInsightFiltersNetworkProtocolOutputReference extends cdk
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5424,11 +5424,11 @@ export class SecurityhubInsightFiltersNetworkProtocolList extends cdktn.ComplexL
 }
 export interface SecurityhubInsightFiltersNetworkSourceDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -5520,7 +5520,7 @@ export class SecurityhubInsightFiltersNetworkSourceDomainOutputReference extends
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5533,7 +5533,7 @@ export class SecurityhubInsightFiltersNetworkSourceDomainOutputReference extends
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5567,7 +5567,7 @@ export class SecurityhubInsightFiltersNetworkSourceDomainList extends cdktn.Comp
 }
 export interface SecurityhubInsightFiltersNetworkSourceIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -5646,7 +5646,7 @@ export class SecurityhubInsightFiltersNetworkSourceIpv4OutputReference extends c
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -5680,7 +5680,7 @@ export class SecurityhubInsightFiltersNetworkSourceIpv4List extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersNetworkSourceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -5759,7 +5759,7 @@ export class SecurityhubInsightFiltersNetworkSourceIpv6OutputReference extends c
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -5793,11 +5793,11 @@ export class SecurityhubInsightFiltersNetworkSourceIpv6List extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersNetworkSourceMac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -5889,7 +5889,7 @@ export class SecurityhubInsightFiltersNetworkSourceMacOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5902,7 +5902,7 @@ export class SecurityhubInsightFiltersNetworkSourceMacOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5936,15 +5936,15 @@ export class SecurityhubInsightFiltersNetworkSourceMacList extends cdktn.Complex
 }
 export interface SecurityhubInsightFiltersNetworkSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -6049,7 +6049,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -6065,7 +6065,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -6081,7 +6081,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -6118,11 +6118,11 @@ export class SecurityhubInsightFiltersNetworkSourcePortList extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersNoteText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -6214,7 +6214,7 @@ export class SecurityhubInsightFiltersNoteTextOutputReference extends cdktn.Comp
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -6227,7 +6227,7 @@ export class SecurityhubInsightFiltersNoteTextOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6261,11 +6261,11 @@ export class SecurityhubInsightFiltersNoteTextList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersNoteUpdatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -6345,7 +6345,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference exte
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6358,7 +6358,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference exte
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6372,17 +6372,17 @@ export class SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference exte
 }
 export interface SecurityhubInsightFiltersNoteUpdatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersNoteUpdatedAtDateRange;
 }
@@ -6487,7 +6487,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtOutputReference extends cdktn
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -6503,7 +6503,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtOutputReference extends cdktn
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -6556,11 +6556,11 @@ export class SecurityhubInsightFiltersNoteUpdatedAtList extends cdktn.ComplexLis
 }
 export interface SecurityhubInsightFiltersNoteUpdatedBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -6652,7 +6652,7 @@ export class SecurityhubInsightFiltersNoteUpdatedByOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -6665,7 +6665,7 @@ export class SecurityhubInsightFiltersNoteUpdatedByOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6699,11 +6699,11 @@ export class SecurityhubInsightFiltersNoteUpdatedByList extends cdktn.ComplexLis
 }
 export interface SecurityhubInsightFiltersProcessLaunchedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -6783,7 +6783,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6796,7 +6796,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6810,17 +6810,17 @@ export class SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference 
 }
 export interface SecurityhubInsightFiltersProcessLaunchedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersProcessLaunchedAtDateRange;
 }
@@ -6925,7 +6925,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtOutputReference extends c
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -6941,7 +6941,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtOutputReference extends c
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -6994,11 +6994,11 @@ export class SecurityhubInsightFiltersProcessLaunchedAtList extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersProcessName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -7090,7 +7090,7 @@ export class SecurityhubInsightFiltersProcessNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -7103,7 +7103,7 @@ export class SecurityhubInsightFiltersProcessNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7137,15 +7137,15 @@ export class SecurityhubInsightFiltersProcessNameList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersProcessParentPid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -7250,7 +7250,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -7266,7 +7266,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -7282,7 +7282,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -7319,11 +7319,11 @@ export class SecurityhubInsightFiltersProcessParentPidList extends cdktn.Complex
 }
 export interface SecurityhubInsightFiltersProcessPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -7415,7 +7415,7 @@ export class SecurityhubInsightFiltersProcessPathOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -7428,7 +7428,7 @@ export class SecurityhubInsightFiltersProcessPathOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7462,15 +7462,15 @@ export class SecurityhubInsightFiltersProcessPathList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersProcessPid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
   */
   readonly gte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
   */
   readonly lte?: string;
 }
@@ -7575,7 +7575,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string; 
+  private _eq?: string;
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -7591,7 +7591,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string; 
+  private _gte?: string;
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -7607,7 +7607,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string; 
+  private _lte?: string;
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -7644,11 +7644,11 @@ export class SecurityhubInsightFiltersProcessPidList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersProcessTerminatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -7728,7 +7728,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReferenc
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -7741,7 +7741,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -7755,17 +7755,17 @@ export class SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReferenc
 }
 export interface SecurityhubInsightFiltersProcessTerminatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersProcessTerminatedAtDateRange;
 }
@@ -7870,7 +7870,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtOutputReference extends
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -7886,7 +7886,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtOutputReference extends
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -7939,11 +7939,11 @@ export class SecurityhubInsightFiltersProcessTerminatedAtList extends cdktn.Comp
 }
 export interface SecurityhubInsightFiltersProductArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8035,7 +8035,7 @@ export class SecurityhubInsightFiltersProductArnOutputReference extends cdktn.Co
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8048,7 +8048,7 @@ export class SecurityhubInsightFiltersProductArnOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8082,15 +8082,15 @@ export class SecurityhubInsightFiltersProductArnList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersProductFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8195,7 +8195,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8208,7 +8208,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8221,7 +8221,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8255,11 +8255,11 @@ export class SecurityhubInsightFiltersProductFieldsList extends cdktn.ComplexLis
 }
 export interface SecurityhubInsightFiltersProductName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8351,7 +8351,7 @@ export class SecurityhubInsightFiltersProductNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8364,7 +8364,7 @@ export class SecurityhubInsightFiltersProductNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8398,11 +8398,11 @@ export class SecurityhubInsightFiltersProductNameList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersRecommendationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8494,7 +8494,7 @@ export class SecurityhubInsightFiltersRecommendationTextOutputReference extends 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8507,7 +8507,7 @@ export class SecurityhubInsightFiltersRecommendationTextOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8541,11 +8541,11 @@ export class SecurityhubInsightFiltersRecommendationTextList extends cdktn.Compl
 }
 export interface SecurityhubInsightFiltersRecordState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8637,7 +8637,7 @@ export class SecurityhubInsightFiltersRecordStateOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8650,7 +8650,7 @@ export class SecurityhubInsightFiltersRecordStateOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8684,11 +8684,11 @@ export class SecurityhubInsightFiltersRecordStateList extends cdktn.ComplexList 
 }
 export interface SecurityhubInsightFiltersRelatedFindingsId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8780,7 +8780,7 @@ export class SecurityhubInsightFiltersRelatedFindingsIdOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8793,7 +8793,7 @@ export class SecurityhubInsightFiltersRelatedFindingsIdOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8827,11 +8827,11 @@ export class SecurityhubInsightFiltersRelatedFindingsIdList extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersRelatedFindingsProductArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -8923,7 +8923,7 @@ export class SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference e
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8936,7 +8936,7 @@ export class SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference e
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8970,11 +8970,11 @@ export class SecurityhubInsightFiltersRelatedFindingsProductArnList extends cdkt
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -9066,7 +9066,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileAr
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9079,7 +9079,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileAr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9113,11 +9113,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileAr
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceImageId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -9209,7 +9209,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9222,7 +9222,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9256,7 +9256,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList extends 
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -9335,7 +9335,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesOutputR
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -9369,7 +9369,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesList ex
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
   */
   readonly cidr: string;
 }
@@ -9448,7 +9448,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesOutputR
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -9482,11 +9482,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesList ex
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -9578,7 +9578,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9591,7 +9591,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9625,11 +9625,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList extends 
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -9709,7 +9709,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -9722,7 +9722,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -9736,17 +9736,17 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeO
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange;
 }
@@ -9851,7 +9851,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputRefe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -9867,7 +9867,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputRefe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -9920,11 +9920,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList exten
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -10016,7 +10016,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputRefere
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10029,7 +10029,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputRefere
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10063,11 +10063,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList extends
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -10159,7 +10159,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10172,7 +10172,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10206,11 +10206,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList extends cdk
 }
 export interface SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -10302,7 +10302,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10315,7 +10315,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10349,11 +10349,11 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList extends cd
 }
 export interface SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -10433,7 +10433,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -10446,7 +10446,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -10460,17 +10460,17 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeO
 }
 export interface SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange;
 }
@@ -10575,7 +10575,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputRefe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -10591,7 +10591,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputRefe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -10644,11 +10644,11 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList exten
 }
 export interface SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -10740,7 +10740,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10753,7 +10753,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10787,11 +10787,11 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList extends 
 }
 export interface SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -10883,7 +10883,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputRefer
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10896,7 +10896,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputRefer
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10930,11 +10930,11 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList extend
 }
 export interface SecurityhubInsightFiltersResourceAwsS3BucketOwnerId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -11026,7 +11026,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11039,7 +11039,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11073,11 +11073,11 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList extends cdk
 }
 export interface SecurityhubInsightFiltersResourceAwsS3BucketOwnerName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -11169,7 +11169,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReferenc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11182,7 +11182,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11216,11 +11216,11 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList extends c
 }
 export interface SecurityhubInsightFiltersResourceContainerImageId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -11312,7 +11312,7 @@ export class SecurityhubInsightFiltersResourceContainerImageIdOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11325,7 +11325,7 @@ export class SecurityhubInsightFiltersResourceContainerImageIdOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11359,11 +11359,11 @@ export class SecurityhubInsightFiltersResourceContainerImageIdList extends cdktn
 }
 export interface SecurityhubInsightFiltersResourceContainerImageName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -11455,7 +11455,7 @@ export class SecurityhubInsightFiltersResourceContainerImageNameOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11468,7 +11468,7 @@ export class SecurityhubInsightFiltersResourceContainerImageNameOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11502,11 +11502,11 @@ export class SecurityhubInsightFiltersResourceContainerImageNameList extends cdk
 }
 export interface SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -11586,7 +11586,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutput
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -11599,7 +11599,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -11613,17 +11613,17 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutput
 }
 export interface SecurityhubInsightFiltersResourceContainerLaunchedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange;
 }
@@ -11728,7 +11728,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -11744,7 +11744,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -11797,11 +11797,11 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtList extends cd
 }
 export interface SecurityhubInsightFiltersResourceContainerName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -11893,7 +11893,7 @@ export class SecurityhubInsightFiltersResourceContainerNameOutputReference exten
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11906,7 +11906,7 @@ export class SecurityhubInsightFiltersResourceContainerNameOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11940,15 +11940,15 @@ export class SecurityhubInsightFiltersResourceContainerNameList extends cdktn.Co
 }
 export interface SecurityhubInsightFiltersResourceDetailsOther {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12053,7 +12053,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12066,7 +12066,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -12079,7 +12079,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12113,11 +12113,11 @@ export class SecurityhubInsightFiltersResourceDetailsOtherList extends cdktn.Com
 }
 export interface SecurityhubInsightFiltersResourceId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12209,7 +12209,7 @@ export class SecurityhubInsightFiltersResourceIdOutputReference extends cdktn.Co
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12222,7 +12222,7 @@ export class SecurityhubInsightFiltersResourceIdOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12256,11 +12256,11 @@ export class SecurityhubInsightFiltersResourceIdList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersResourcePartition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12352,7 +12352,7 @@ export class SecurityhubInsightFiltersResourcePartitionOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12365,7 +12365,7 @@ export class SecurityhubInsightFiltersResourcePartitionOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12399,11 +12399,11 @@ export class SecurityhubInsightFiltersResourcePartitionList extends cdktn.Comple
 }
 export interface SecurityhubInsightFiltersResourceRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12495,7 +12495,7 @@ export class SecurityhubInsightFiltersResourceRegionOutputReference extends cdkt
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12508,7 +12508,7 @@ export class SecurityhubInsightFiltersResourceRegionOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12542,15 +12542,15 @@ export class SecurityhubInsightFiltersResourceRegionList extends cdktn.ComplexLi
 }
 export interface SecurityhubInsightFiltersResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12655,7 +12655,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12668,7 +12668,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -12681,7 +12681,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12715,11 +12715,11 @@ export class SecurityhubInsightFiltersResourceTagsList extends cdktn.ComplexList
 }
 export interface SecurityhubInsightFiltersResourceType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12811,7 +12811,7 @@ export class SecurityhubInsightFiltersResourceTypeOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12824,7 +12824,7 @@ export class SecurityhubInsightFiltersResourceTypeOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12858,11 +12858,11 @@ export class SecurityhubInsightFiltersResourceTypeList extends cdktn.ComplexList
 }
 export interface SecurityhubInsightFiltersSeverityLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -12954,7 +12954,7 @@ export class SecurityhubInsightFiltersSeverityLabelOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12967,7 +12967,7 @@ export class SecurityhubInsightFiltersSeverityLabelOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13001,11 +13001,11 @@ export class SecurityhubInsightFiltersSeverityLabelList extends cdktn.ComplexLis
 }
 export interface SecurityhubInsightFiltersSourceUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -13097,7 +13097,7 @@ export class SecurityhubInsightFiltersSourceUrlOutputReference extends cdktn.Com
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13110,7 +13110,7 @@ export class SecurityhubInsightFiltersSourceUrlOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13144,11 +13144,11 @@ export class SecurityhubInsightFiltersSourceUrlList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -13240,7 +13240,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReferenc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13253,7 +13253,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13287,11 +13287,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorCategoryList extends c
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -13371,7 +13371,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRang
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -13384,7 +13384,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRang
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -13398,17 +13398,17 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRang
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange;
 }
@@ -13513,7 +13513,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputRe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -13529,7 +13529,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputRe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -13582,11 +13582,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList ext
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -13678,7 +13678,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13691,7 +13691,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13725,11 +13725,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceList extends cdk
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -13821,7 +13821,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13834,7 +13834,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13868,11 +13868,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList extends 
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -13964,7 +13964,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13977,7 +13977,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14011,11 +14011,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorTypeList extends cdktn
 }
 export interface SecurityhubInsightFiltersThreatIntelIndicatorValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -14107,7 +14107,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference e
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14120,7 +14120,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference e
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14154,11 +14154,11 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorValueList extends cdkt
 }
 export interface SecurityhubInsightFiltersTitle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -14250,7 +14250,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14263,7 +14263,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14297,11 +14297,11 @@ export class SecurityhubInsightFiltersTitleList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -14393,7 +14393,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14406,7 +14406,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14440,11 +14440,11 @@ export class SecurityhubInsightFiltersTypeList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersUpdatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: number;
 }
@@ -14524,7 +14524,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -14537,7 +14537,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -14551,17 +14551,17 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
 }
 export interface SecurityhubInsightFiltersUpdatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersUpdatedAtDateRange;
 }
@@ -14666,7 +14666,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -14682,7 +14682,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -14735,15 +14735,15 @@ export class SecurityhubInsightFiltersUpdatedAtList extends cdktn.ComplexList {
 }
 export interface SecurityhubInsightFiltersUserDefinedValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value: string;
 }
@@ -14848,7 +14848,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string; 
+  private _comparison?: string;
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14861,7 +14861,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -14874,7 +14874,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }

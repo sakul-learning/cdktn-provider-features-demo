@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,27 +15,27 @@ export interface IamRolePolicyConfig extends cdktn.TerraformMetaArguments {
   *   +  The printable characters in the Basic Latin and Latin-1 Supplement character set (through ``\u00FF``)
   *   +  The special characters tab (``\u0009``), line feed (``\u000A``), and carriage return (``\u000D``)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy#policy_document IamRolePolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy#policy_document IamRolePolicy#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * The name of the policy document.
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy#policy_name IamRolePolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy#policy_name IamRolePolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * The name of the role to associate the policy with.
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy#role_name IamRolePolicy#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy#role_name IamRolePolicy#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy awscc_iam_role_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy awscc_iam_role_policy}
 */
 export class IamRolePolicy extends cdktn.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamRolePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamRolePolicy to import
-  * @param importFromId The id of the existing IamRolePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamRolePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamRolePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_role_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +99,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -115,7 +115,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -128,7 +128,7 @@ export class IamRolePolicy extends cdktn.TerraformResource {
   }
 
   // role_name - computed: false, optional: false, required: true
-  private _roleName?: string; 
+  private _roleName?: string;
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface EksCapabilityConfig extends cdktn.TerraformMetaArguments {
   /**
   * A unique name for the capability. The name must be unique within your cluster and can contain alphanumeric characters, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
   */
   readonly capabilityName: string;
   /**
   * The name of the EKS cluster where you want to create the capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The configuration settings for the capability. The structure of this object varies depending on the capability type. For Argo CD capabilities, you can configure IAM Identity Center integration, RBAC role mappings, and network access settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#configuration EksCapability#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#configuration EksCapability#configuration}
   */
   readonly configuration?: EksCapabilityConfiguration;
   /**
   * Specifies how Kubernetes resources managed by the capability should be handled when the capability is deleted. Currently, the only supported value is RETAIN which retains all Kubernetes resources managed by the capability when the capability is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
   */
   readonly deletePropagationPolicy: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that the capability uses to interact with AWS services. This role must have a trust policy that allows the EKS service principal to assume it, and it must have the necessary permissions for the capability type you're creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
   */
   readonly roleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#tags EksCapability#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#tags EksCapability#tags}
   */
   readonly tags?: EksCapabilityTags[] | cdktn.IResolvable;
   /**
   * The type of capability to create. Valid values are: ACK (AWS Controllers for Kubernetes, which lets you manage AWS resources directly from Kubernetes), ARGOCD (Argo CD for GitOps-based continuous delivery), or KRO (Kube Resource Orchestrator for composing and managing custom Kubernetes resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#type EksCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#type EksCapability#type}
   */
   readonly type: string;
 }
@@ -54,13 +54,13 @@ export interface EksCapabilityConfigurationArgoCdAwsIdc {
   /**
   * The ARN of the IAM Identity Center instance to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
   */
   readonly idcInstanceArn?: string;
   /**
   * The Region where your IAM Identity Center instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
   */
   readonly idcRegion?: string;
 }
@@ -150,7 +150,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_instance_arn - computed: true, optional: true, required: false
-  private _idcInstanceArn?: string; 
+  private _idcInstanceArn?: string;
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -171,7 +171,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_region - computed: true, optional: true, required: false
-  private _idcRegion?: string; 
+  private _idcRegion?: string;
   public get idcRegion() {
     return this.getStringAttribute('idc_region');
   }
@@ -190,7 +190,7 @@ export interface EksCapabilityConfigurationArgoCdNetworkAccess {
   /**
   * A list of VPC endpoint IDs to associate with the managed Argo CD API server endpoint. Each VPC endpoint provides private connectivity from a specific VPC to the Argo CD server. You can specify multiple VPC endpoint IDs to enable access from multiple VPCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
   */
   readonly vpceIds?: string[];
 }
@@ -267,7 +267,7 @@ export class EksCapabilityConfigurationArgoCdNetworkAccessOutputReference extend
   }
 
   // vpce_ids - computed: true, optional: true, required: false
-  private _vpceIds?: string[]; 
+  private _vpceIds?: string[];
   public get vpceIds() {
     return this.getListAttribute('vpce_ids');
   }
@@ -286,7 +286,7 @@ export interface EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities {
   /**
   * The unique identifier of the IAM Identity Center user or group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#id EksCapability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#id EksCapability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -295,7 +295,7 @@ export interface EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities {
   /**
   * The type of identity. Valid values are SSO_USER or SSO_GROUP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#type EksCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#type EksCapability#type}
   */
   readonly type?: string;
 }
@@ -387,7 +387,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputRef
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -403,7 +403,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -442,13 +442,13 @@ export interface EksCapabilityConfigurationArgoCdRbacRoleMappings {
   /**
   * A list of IAM Identity Center identities (users or groups) that should be assigned this Argo CD role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#identities EksCapability#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#identities EksCapability#identities}
   */
   readonly identities?: EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities[] | cdktn.IResolvable;
   /**
   * The Argo CD role to assign. Valid values are: ADMIN (full administrative access to Argo CD), EDITOR (edit access to Argo CD resources), or VIEWER (read-only access to Argo CD resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#role EksCapability#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#role EksCapability#role}
   */
   readonly role?: string;
 }
@@ -556,7 +556,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsOutputReference ext
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -595,25 +595,25 @@ export interface EksCapabilityConfigurationArgoCd {
   /**
   * Configuration for integrating Argo CD with IAM Identity Center. This allows you to use your organization's identity provider for authentication to Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
   */
   readonly awsIdc?: EksCapabilityConfigurationArgoCdAwsIdc;
   /**
   * The Kubernetes namespace where Argo CD resources will be created. If not specified, the default namespace is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#namespace EksCapability#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#namespace EksCapability#namespace}
   */
   readonly namespace?: string;
   /**
   * Configuration for network access to the Argo CD capability's managed API server endpoint. By default, the Argo CD server is accessible via a public endpoint. You can optionally specify one or more VPC endpoint IDs to enable private connectivity from your VPCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#network_access EksCapability#network_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#network_access EksCapability#network_access}
   */
   readonly networkAccess?: EksCapabilityConfigurationArgoCdNetworkAccess;
   /**
   * A list of role mappings that define which IAM Identity Center users or groups have which Argo CD roles. Each mapping associates an Argo CD role (ADMIN, EDITOR, or VIEWER) with one or more IAM Identity Center identities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#rbac_role_mappings EksCapability#rbac_role_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#rbac_role_mappings EksCapability#rbac_role_mappings}
   */
   readonly rbacRoleMappings?: EksCapabilityConfigurationArgoCdRbacRoleMappings[] | cdktn.IResolvable;
 }
@@ -745,7 +745,7 @@ export class EksCapabilityConfigurationArgoCdOutputReference extends cdktn.Compl
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -801,7 +801,7 @@ export interface EksCapabilityConfiguration {
   /**
   * Configuration settings for an Argo CD capability. This includes the Kubernetes namespace, IAM Identity Center integration, RBAC role mappings, and network access configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
   */
   readonly argoCd?: EksCapabilityConfigurationArgoCd;
 }
@@ -897,13 +897,13 @@ export interface EksCapabilityTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#key EksCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#key EksCapability#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#value EksCapability#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#value EksCapability#value}
   */
   readonly value?: string;
 }
@@ -995,7 +995,7 @@ export class EksCapabilityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1011,7 +1011,7 @@ export class EksCapabilityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1048,7 +1048,7 @@ export class EksCapabilityTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability awscc_eks_capability}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability awscc_eks_capability}
 */
 export class EksCapability extends cdktn.TerraformResource {
 
@@ -1064,7 +1064,7 @@ export class EksCapability extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksCapability resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksCapability to import
-  * @param importFromId The id of the existing EksCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksCapability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1076,7 +1076,7 @@ export class EksCapability extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_capability awscc_eks_capability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_capability awscc_eks_capability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1087,7 +1087,7 @@ export class EksCapability extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_capability',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1116,7 +1116,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // capability_name - computed: false, optional: false, required: true
-  private _capabilityName?: string; 
+  private _capabilityName?: string;
   public get capabilityName() {
     return this.getStringAttribute('capability_name');
   }
@@ -1129,7 +1129,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1163,7 +1163,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // delete_propagation_policy - computed: false, optional: false, required: true
-  private _deletePropagationPolicy?: string; 
+  private _deletePropagationPolicy?: string;
   public get deletePropagationPolicy() {
     return this.getStringAttribute('delete_propagation_policy');
   }
@@ -1186,7 +1186,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1220,7 +1220,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

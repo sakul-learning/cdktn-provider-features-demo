@@ -11,6 +11,7 @@
     "inspect:schema": "node scripts/inspect-aws-schema.js schema/aws-provider-schema.json",
     "assert:prhead-deps": "node scripts/assert-prhead-deps.js",
     "assert:generated-features": "node scripts/assert-generated-features.js schema/aws-provider-schema.json",
+    "typecheck": "tsc --noEmit --checkers 1",
     "generate:aws": "node scripts/cdktn.js get --language typescript --output .gen --force",
     "synth:functions-ephemeral": "cd examples/functions-ephemeral && node ../../scripts/cdktn.js synth",
     "synth:functions-only": "cd examples/functions-only && node ../../scripts/cdktn.js synth",
@@ -33,12 +34,12 @@
     "check": "pnpm run generate:aws && pnpm run synth:all"
   },
   "dependencies": {
-    "cdktn": "file:../cdk-terrain/packages/cdktn",
+    "cdktn": "file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn",
     "constructs": "10.6.0"
   },
   "devDependencies": {
     "@types/node": "22.20.1",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.5.2"
 }

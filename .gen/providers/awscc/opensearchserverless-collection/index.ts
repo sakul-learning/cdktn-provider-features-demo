@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface OpensearchserverlessCollectionConfig extends cdktn.TerraformMet
   /**
   * The name of the collection group to associate with the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
   */
   readonly collectionGroupName?: string;
   /**
   * The deletion protection state of the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
   */
   readonly deletionProtection?: string;
   /**
   * The description of the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
   */
   readonly description?: string;
   /**
   * Encryption settings for the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
   */
   readonly encryptionConfig?: OpensearchserverlessCollectionEncryptionConfig;
   /**
   * The name of the collection.
-  * 
+  *
   * The name must meet the following criteria:
   * Unique to your account and AWS Region
   * Starts with a lowercase letter
   * Contains only lowercase letters a-z, the numbers 0-9 and the hyphen (-)
   * Contains between 3 and 64 characters
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
   */
   readonly name: string;
   /**
   * The possible standby replicas for the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
   */
   readonly standbyReplicas?: string;
   /**
   * List of tags to be added to the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
   */
   readonly tags?: OpensearchserverlessCollectionTags[] | cdktn.IResolvable;
   /**
   * The possible types for the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
   */
   readonly type?: string;
   /**
   * Vector search configuration options for the collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
   */
   readonly vectorOptions?: OpensearchserverlessCollectionVectorOptions;
 }
@@ -73,13 +73,13 @@ export interface OpensearchserverlessCollectionEncryptionConfig {
   /**
   * Indicates whether to use an AWS owned key for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#aws_owned_key OpensearchserverlessCollection#aws_owned_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#aws_owned_key OpensearchserverlessCollection#aws_owned_key}
   */
   readonly awsOwnedKey?: boolean | cdktn.IResolvable;
   /**
   * Key Management Service key used to encrypt the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#kms_key_arn OpensearchserverlessCollection#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#kms_key_arn OpensearchserverlessCollection#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -169,7 +169,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // aws_owned_key - computed: true, optional: true, required: false
-  private _awsOwnedKey?: boolean | cdktn.IResolvable; 
+  private _awsOwnedKey?: boolean | cdktn.IResolvable;
   public get awsOwnedKey() {
     return this.getBooleanAttribute('aws_owned_key');
   }
@@ -185,7 +185,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -263,13 +263,13 @@ export interface OpensearchserverlessCollectionTags {
   /**
   * The key in the key-value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#key OpensearchserverlessCollection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#key OpensearchserverlessCollection#key}
   */
   readonly key?: string;
   /**
   * The value in the key-value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#value OpensearchserverlessCollection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#value OpensearchserverlessCollection#value}
   */
   readonly value?: string;
 }
@@ -361,7 +361,7 @@ export class OpensearchserverlessCollectionTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -377,7 +377,7 @@ export class OpensearchserverlessCollectionTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -416,7 +416,7 @@ export interface OpensearchserverlessCollectionVectorOptions {
   /**
   * Indicates whether GPU acceleration is enabled for vector indexing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
   */
   readonly serverlessVectorAcceleration?: string;
 }
@@ -493,7 +493,7 @@ export class OpensearchserverlessCollectionVectorOptionsOutputReference extends 
   }
 
   // serverless_vector_acceleration - computed: true, optional: true, required: false
-  private _serverlessVectorAcceleration?: string; 
+  private _serverlessVectorAcceleration?: string;
   public get serverlessVectorAcceleration() {
     return this.getStringAttribute('serverless_vector_acceleration');
   }
@@ -510,7 +510,7 @@ export class OpensearchserverlessCollectionVectorOptionsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}
 */
 export class OpensearchserverlessCollection extends cdktn.TerraformResource {
 
@@ -526,7 +526,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchserverlessCollection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchserverlessCollection to import
-  * @param importFromId The id of the existing OpensearchserverlessCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchserverlessCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchserverlessCollection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -538,7 +538,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,7 +549,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_opensearchserverless_collection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -585,7 +585,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // collection_group_name - computed: true, optional: true, required: false
-  private _collectionGroupName?: string; 
+  private _collectionGroupName?: string;
   public get collectionGroupName() {
     return this.getStringAttribute('collection_group_name');
   }
@@ -611,7 +611,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: string; 
+  private _deletionProtection?: string;
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -627,7 +627,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -675,7 +675,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -688,7 +688,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // standby_replicas - computed: true, optional: true, required: false
-  private _standbyReplicas?: string; 
+  private _standbyReplicas?: string;
   public get standbyReplicas() {
     return this.getStringAttribute('standby_replicas');
   }
@@ -720,7 +720,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

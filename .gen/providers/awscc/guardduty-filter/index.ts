@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktn from 'cdktn';
 
 export interface GuarddutyFilterConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#action GuarddutyFilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#action GuarddutyFilter#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#description GuarddutyFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#description GuarddutyFilter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#detector_id GuarddutyFilter#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#detector_id GuarddutyFilter#detector_id}
   */
   readonly detectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#finding_criteria GuarddutyFilter#finding_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#finding_criteria GuarddutyFilter#finding_criteria}
   */
   readonly findingCriteria: GuarddutyFilterFindingCriteria;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#name GuarddutyFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#name GuarddutyFilter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#rank GuarddutyFilter#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#rank GuarddutyFilter#rank}
   */
   readonly rank?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#tags GuarddutyFilter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#tags GuarddutyFilter#tags}
   */
   readonly tags?: GuarddutyFilterTags[] | cdktn.IResolvable;
 }
 export interface GuarddutyFilterFindingCriteriaCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#eq GuarddutyFilter#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#eq GuarddutyFilter#eq}
   */
   readonly eq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#equals GuarddutyFilter#equals}
   */
   readonly equalTo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#greater_than GuarddutyFilter#greater_than}
   */
   readonly greaterThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#greater_than_or_equal GuarddutyFilter#greater_than_or_equal}
   */
   readonly greaterThanOrEqual?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#gt GuarddutyFilter#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#gt GuarddutyFilter#gt}
   */
   readonly gt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#gte GuarddutyFilter#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#gte GuarddutyFilter#gte}
   */
   readonly gte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#less_than GuarddutyFilter#less_than}
   */
   readonly lessThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#less_than_or_equal GuarddutyFilter#less_than_or_equal}
   */
   readonly lessThanOrEqual?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#lt GuarddutyFilter#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#lt GuarddutyFilter#lt}
   */
   readonly lt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#lte GuarddutyFilter#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#lte GuarddutyFilter#lte}
   */
   readonly lte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#neq GuarddutyFilter#neq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#neq GuarddutyFilter#neq}
   */
   readonly neq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#not_equals GuarddutyFilter#not_equals}
   */
   readonly notEquals?: string[];
 }
@@ -303,7 +303,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: string[]; 
+  private _eq?: string[];
   public get eq() {
     return this.getListAttribute('eq');
   }
@@ -319,7 +319,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // equals - computed: true, optional: true, required: false
-  private _equals?: string[]; 
+  private _equals?: string[];
   public get equalTo() {
     return this.getListAttribute('equals');
   }
@@ -335,7 +335,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // greater_than - computed: true, optional: true, required: false
-  private _greaterThan?: number; 
+  private _greaterThan?: number;
   public get greaterThan() {
     return this.getNumberAttribute('greater_than');
   }
@@ -351,7 +351,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // greater_than_or_equal - computed: true, optional: true, required: false
-  private _greaterThanOrEqual?: number; 
+  private _greaterThanOrEqual?: number;
   public get greaterThanOrEqual() {
     return this.getNumberAttribute('greater_than_or_equal');
   }
@@ -367,7 +367,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // gt - computed: true, optional: true, required: false
-  private _gt?: number; 
+  private _gt?: number;
   public get gt() {
     return this.getNumberAttribute('gt');
   }
@@ -383,7 +383,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // gte - computed: true, optional: true, required: false
-  private _gte?: number; 
+  private _gte?: number;
   public get gte() {
     return this.getNumberAttribute('gte');
   }
@@ -399,7 +399,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // less_than - computed: true, optional: true, required: false
-  private _lessThan?: number; 
+  private _lessThan?: number;
   public get lessThan() {
     return this.getNumberAttribute('less_than');
   }
@@ -415,7 +415,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // less_than_or_equal - computed: true, optional: true, required: false
-  private _lessThanOrEqual?: number; 
+  private _lessThanOrEqual?: number;
   public get lessThanOrEqual() {
     return this.getNumberAttribute('less_than_or_equal');
   }
@@ -431,7 +431,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // lt - computed: true, optional: true, required: false
-  private _lt?: number; 
+  private _lt?: number;
   public get lt() {
     return this.getNumberAttribute('lt');
   }
@@ -447,7 +447,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // lte - computed: true, optional: true, required: false
-  private _lte?: number; 
+  private _lte?: number;
   public get lte() {
     return this.getNumberAttribute('lte');
   }
@@ -463,7 +463,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // neq - computed: true, optional: true, required: false
-  private _neq?: string[]; 
+  private _neq?: string[];
   public get neq() {
     return this.getListAttribute('neq');
   }
@@ -479,7 +479,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // not_equals - computed: true, optional: true, required: false
-  private _notEquals?: string[]; 
+  private _notEquals?: string[];
   public get notEquals() {
     return this.getListAttribute('not_equals');
   }
@@ -515,7 +515,7 @@ export class GuarddutyFilterFindingCriteriaCriterionMap extends cdktn.ComplexMap
 }
 export interface GuarddutyFilterFindingCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#criterion GuarddutyFilter#criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#criterion GuarddutyFilter#criterion}
   */
   readonly criterion?: { [key: string]: GuarddutyFilterFindingCriteriaCriterion } | cdktn.IResolvable;
 }
@@ -609,11 +609,11 @@ export class GuarddutyFilterFindingCriteriaOutputReference extends cdktn.Complex
 }
 export interface GuarddutyFilterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#key GuarddutyFilter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#key GuarddutyFilter#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#value GuarddutyFilter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#value GuarddutyFilter#value}
   */
   readonly value?: string;
 }
@@ -705,7 +705,7 @@ export class GuarddutyFilterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -721,7 +721,7 @@ export class GuarddutyFilterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -758,7 +758,7 @@ export class GuarddutyFilterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter awscc_guardduty_filter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter awscc_guardduty_filter}
 */
 export class GuarddutyFilter extends cdktn.TerraformResource {
 
@@ -774,7 +774,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyFilter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyFilter to import
-  * @param importFromId The id of the existing GuarddutyFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -786,7 +786,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -797,7 +797,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_filter',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -821,7 +821,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -837,7 +837,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -853,7 +853,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string; 
+  private _detectorId?: string;
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -884,7 +884,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -897,7 +897,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // rank - computed: true, optional: true, required: false
-  private _rank?: number; 
+  private _rank?: number;
   public get rank() {
     return this.getNumberAttribute('rank');
   }

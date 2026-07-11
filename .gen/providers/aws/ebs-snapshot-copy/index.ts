@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface EbsSnapshotCopyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#completion_duration_minutes EbsSnapshotCopy#completion_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#completion_duration_minutes EbsSnapshotCopy#completion_duration_minutes}
   */
   readonly completionDurationMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#description EbsSnapshotCopy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#description EbsSnapshotCopy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#encrypted EbsSnapshotCopy#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#encrypted EbsSnapshotCopy#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#id EbsSnapshotCopy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#id EbsSnapshotCopy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#kms_key_id EbsSnapshotCopy#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#kms_key_id EbsSnapshotCopy#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#permanent_restore EbsSnapshotCopy#permanent_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#permanent_restore EbsSnapshotCopy#permanent_restore}
   */
   readonly permanentRestore?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#region EbsSnapshotCopy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#region EbsSnapshotCopy#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#source_region EbsSnapshotCopy#source_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#source_region EbsSnapshotCopy#source_region}
   */
   readonly sourceRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#source_snapshot_id EbsSnapshotCopy#source_snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#source_snapshot_id EbsSnapshotCopy#source_snapshot_id}
   */
   readonly sourceSnapshotId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#storage_tier EbsSnapshotCopy#storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#storage_tier EbsSnapshotCopy#storage_tier}
   */
   readonly storageTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#tags EbsSnapshotCopy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#tags EbsSnapshotCopy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#tags_all EbsSnapshotCopy#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#tags_all EbsSnapshotCopy#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#temporary_restore_days EbsSnapshotCopy#temporary_restore_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#temporary_restore_days EbsSnapshotCopy#temporary_restore_days}
   */
   readonly temporaryRestoreDays?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#timeouts EbsSnapshotCopy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#timeouts EbsSnapshotCopy#timeouts}
   */
   readonly timeouts?: EbsSnapshotCopyTimeouts;
 }
 export interface EbsSnapshotCopyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#create EbsSnapshotCopy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#create EbsSnapshotCopy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#delete EbsSnapshotCopy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#delete EbsSnapshotCopy#delete}
   */
   readonly delete?: string;
 }
@@ -167,7 +167,7 @@ export class EbsSnapshotCopyTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -183,7 +183,7 @@ export class EbsSnapshotCopyTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class EbsSnapshotCopyTimeoutsOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}
 */
 export class EbsSnapshotCopy extends cdktn.TerraformResource {
 
@@ -216,7 +216,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EbsSnapshotCopy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsSnapshotCopy to import
-  * @param importFromId The id of the existing EbsSnapshotCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsSnapshotCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsSnapshotCopy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -228,7 +228,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ebs_snapshot_copy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,7 +275,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // completion_duration_minutes - computed: false, optional: true, required: false
-  private _completionDurationMinutes?: number; 
+  private _completionDurationMinutes?: number;
   public get completionDurationMinutes() {
     return this.getNumberAttribute('completion_duration_minutes');
   }
@@ -296,7 +296,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -312,7 +312,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -328,7 +328,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -344,7 +344,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -375,7 +375,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // permanent_restore - computed: false, optional: true, required: false
-  private _permanentRestore?: boolean | cdktn.IResolvable; 
+  private _permanentRestore?: boolean | cdktn.IResolvable;
   public get permanentRestore() {
     return this.getBooleanAttribute('permanent_restore');
   }
@@ -391,7 +391,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -407,7 +407,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // source_region - computed: false, optional: false, required: true
-  private _sourceRegion?: string; 
+  private _sourceRegion?: string;
   public get sourceRegion() {
     return this.getStringAttribute('source_region');
   }
@@ -420,7 +420,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // source_snapshot_id - computed: false, optional: false, required: true
-  private _sourceSnapshotId?: string; 
+  private _sourceSnapshotId?: string;
   public get sourceSnapshotId() {
     return this.getStringAttribute('source_snapshot_id');
   }
@@ -433,7 +433,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // storage_tier - computed: true, optional: true, required: false
-  private _storageTier?: string; 
+  private _storageTier?: string;
   public get storageTier() {
     return this.getStringAttribute('storage_tier');
   }
@@ -449,7 +449,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -465,7 +465,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -481,7 +481,7 @@ export class EbsSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // temporary_restore_days - computed: false, optional: true, required: false
-  private _temporaryRestoreDays?: number; 
+  private _temporaryRestoreDays?: number;
   public get temporaryRestoreDays() {
     return this.getNumberAttribute('temporary_restore_days');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktn from 'cdktn';
 
 export interface CloudfrontCachePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#comment CloudfrontCachePolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#comment CloudfrontCachePolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#default_ttl CloudfrontCachePolicy#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#default_ttl CloudfrontCachePolicy#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#id CloudfrontCachePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#id CloudfrontCachePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#max_ttl CloudfrontCachePolicy#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#max_ttl CloudfrontCachePolicy#max_ttl}
   */
   readonly maxTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#min_ttl CloudfrontCachePolicy#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#min_ttl CloudfrontCachePolicy#min_ttl}
   */
   readonly minTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#name CloudfrontCachePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#name CloudfrontCachePolicy#name}
   */
   readonly name: string;
   /**
   * parameters_in_cache_key_and_forwarded_to_origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#parameters_in_cache_key_and_forwarded_to_origin CloudfrontCachePolicy#parameters_in_cache_key_and_forwarded_to_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#parameters_in_cache_key_and_forwarded_to_origin CloudfrontCachePolicy#parameters_in_cache_key_and_forwarded_to_origin}
   */
   readonly parametersInCacheKeyAndForwardedToOrigin: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOrigin;
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfigCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
   */
   readonly items?: string[];
 }
@@ -110,7 +110,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[]; 
+  private _items?: string[];
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -127,13 +127,13 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}
   */
   readonly cookieBehavior: string;
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
   */
   readonly cookies?: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfigCookies;
 }
@@ -213,7 +213,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
   }
 
   // cookie_behavior - computed: false, optional: false, required: true
-  private _cookieBehavior?: string; 
+  private _cookieBehavior?: string;
   public get cookieBehavior() {
     return this.getStringAttribute('cookie_behavior');
   }
@@ -243,7 +243,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeadersConfigHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
   */
   readonly items?: string[];
 }
@@ -310,7 +310,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[]; 
+  private _items?: string[];
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -327,13 +327,13 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeadersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#header_behavior CloudfrontCachePolicy#header_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#header_behavior CloudfrontCachePolicy#header_behavior}
   */
   readonly headerBehavior?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#headers CloudfrontCachePolicy#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#headers CloudfrontCachePolicy#headers}
   */
   readonly headers?: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeadersConfigHeaders;
 }
@@ -413,7 +413,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
   }
 
   // header_behavior - computed: false, optional: true, required: false
-  private _headerBehavior?: string; 
+  private _headerBehavior?: string;
   public get headerBehavior() {
     return this.getStringAttribute('header_behavior');
   }
@@ -446,7 +446,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryStringsConfigQueryStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#items CloudfrontCachePolicy#items}
   */
   readonly items?: string[];
 }
@@ -513,7 +513,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[]; 
+  private _items?: string[];
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -530,13 +530,13 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryStringsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#query_string_behavior CloudfrontCachePolicy#query_string_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#query_string_behavior CloudfrontCachePolicy#query_string_behavior}
   */
   readonly queryStringBehavior: string;
   /**
   * query_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#query_strings CloudfrontCachePolicy#query_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#query_strings CloudfrontCachePolicy#query_strings}
   */
   readonly queryStrings?: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryStringsConfigQueryStrings;
 }
@@ -616,7 +616,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
   }
 
   // query_string_behavior - computed: false, optional: false, required: true
-  private _queryStringBehavior?: string; 
+  private _queryStringBehavior?: string;
   public get queryStringBehavior() {
     return this.getStringAttribute('query_string_behavior');
   }
@@ -646,29 +646,29 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
 }
 export interface CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOrigin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#enable_accept_encoding_brotli CloudfrontCachePolicy#enable_accept_encoding_brotli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#enable_accept_encoding_brotli CloudfrontCachePolicy#enable_accept_encoding_brotli}
   */
   readonly enableAcceptEncodingBrotli?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#enable_accept_encoding_gzip CloudfrontCachePolicy#enable_accept_encoding_gzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#enable_accept_encoding_gzip CloudfrontCachePolicy#enable_accept_encoding_gzip}
   */
   readonly enableAcceptEncodingGzip?: boolean | cdktn.IResolvable;
   /**
   * cookies_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#cookies_config CloudfrontCachePolicy#cookies_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#cookies_config CloudfrontCachePolicy#cookies_config}
   */
   readonly cookiesConfig: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookiesConfig;
   /**
   * headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#headers_config CloudfrontCachePolicy#headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#headers_config CloudfrontCachePolicy#headers_config}
   */
   readonly headersConfig: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeadersConfig;
   /**
   * query_strings_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#query_strings_config CloudfrontCachePolicy#query_strings_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#query_strings_config CloudfrontCachePolicy#query_strings_config}
   */
   readonly queryStringsConfig: CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryStringsConfig;
 }
@@ -787,7 +787,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginOutput
   }
 
   // enable_accept_encoding_brotli - computed: false, optional: true, required: false
-  private _enableAcceptEncodingBrotli?: boolean | cdktn.IResolvable; 
+  private _enableAcceptEncodingBrotli?: boolean | cdktn.IResolvable;
   public get enableAcceptEncodingBrotli() {
     return this.getBooleanAttribute('enable_accept_encoding_brotli');
   }
@@ -803,7 +803,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginOutput
   }
 
   // enable_accept_encoding_gzip - computed: false, optional: true, required: false
-  private _enableAcceptEncodingGzip?: boolean | cdktn.IResolvable; 
+  private _enableAcceptEncodingGzip?: boolean | cdktn.IResolvable;
   public get enableAcceptEncodingGzip() {
     return this.getBooleanAttribute('enable_accept_encoding_gzip');
   }
@@ -859,7 +859,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy aws_cloudfront_cache_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy aws_cloudfront_cache_policy}
 */
 export class CloudfrontCachePolicy extends cdktn.TerraformResource {
 
@@ -875,7 +875,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontCachePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontCachePolicy to import
-  * @param importFromId The id of the existing CloudfrontCachePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontCachePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontCachePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -887,7 +887,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_cache_policy aws_cloudfront_cache_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_cache_policy aws_cloudfront_cache_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -898,7 +898,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudfront_cache_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -927,7 +927,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string; 
+  private _comment?: string;
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -943,7 +943,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // default_ttl - computed: false, optional: true, required: false
-  private _defaultTtl?: number; 
+  private _defaultTtl?: number;
   public get defaultTtl() {
     return this.getNumberAttribute('default_ttl');
   }
@@ -964,7 +964,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -980,7 +980,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // max_ttl - computed: false, optional: true, required: false
-  private _maxTtl?: number; 
+  private _maxTtl?: number;
   public get maxTtl() {
     return this.getNumberAttribute('max_ttl');
   }
@@ -996,7 +996,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // min_ttl - computed: false, optional: true, required: false
-  private _minTtl?: number; 
+  private _minTtl?: number;
   public get minTtl() {
     return this.getNumberAttribute('min_ttl');
   }
@@ -1012,7 +1012,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

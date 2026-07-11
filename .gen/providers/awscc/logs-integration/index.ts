@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LogsIntegrationConfig extends cdktn.TerraformMetaArguments {
   /**
   * User provided identifier for integration, unique to the user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
   */
   readonly integrationName: string;
   /**
   * The type of the Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
   */
   readonly integrationType: string;
   /**
   * OpenSearchResourceConfig for the given Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
   */
   readonly resourceConfig: LogsIntegrationResourceConfig;
 }
 export interface LogsIntegrationResourceConfigOpenSearchResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}
   */
   readonly applicationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}
   */
   readonly dashboardViewerPrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}
   */
   readonly dataSourceRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}
   */
   readonly retentionDays?: number;
 }
@@ -173,7 +173,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // application_arn - computed: true, optional: true, required: false
-  private _applicationArn?: string; 
+  private _applicationArn?: string;
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -189,7 +189,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // dashboard_viewer_principals - computed: true, optional: true, required: false
-  private _dashboardViewerPrincipals?: string[]; 
+  private _dashboardViewerPrincipals?: string[];
   public get dashboardViewerPrincipals() {
     return this.getListAttribute('dashboard_viewer_principals');
   }
@@ -205,7 +205,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // data_source_role_arn - computed: true, optional: true, required: false
-  private _dataSourceRoleArn?: string; 
+  private _dataSourceRoleArn?: string;
   public get dataSourceRoleArn() {
     return this.getStringAttribute('data_source_role_arn');
   }
@@ -221,7 +221,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -237,7 +237,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // retention_days - computed: true, optional: true, required: false
-  private _retentionDays?: number; 
+  private _retentionDays?: number;
   public get retentionDays() {
     return this.getNumberAttribute('retention_days');
   }
@@ -254,7 +254,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
 }
 export interface LogsIntegrationResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}
   */
   readonly openSearchResourceConfig?: LogsIntegrationResourceConfigOpenSearchResourceConfig;
 }
@@ -348,7 +348,7 @@ export class LogsIntegrationResourceConfigOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration awscc_logs_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration awscc_logs_integration}
 */
 export class LogsIntegration extends cdktn.TerraformResource {
 
@@ -364,7 +364,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsIntegration to import
-  * @param importFromId The id of the existing LogsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -376,7 +376,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_integration awscc_logs_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_integration awscc_logs_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,7 +387,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -412,7 +412,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   }
 
   // integration_name - computed: false, optional: false, required: true
-  private _integrationName?: string; 
+  private _integrationName?: string;
   public get integrationName() {
     return this.getStringAttribute('integration_name');
   }
@@ -430,7 +430,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   }
 
   // integration_type - computed: false, optional: false, required: true
-  private _integrationType?: string; 
+  private _integrationType?: string;
   public get integrationType() {
     return this.getStringAttribute('integration_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2CapacityReservationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#availability_zone Ec2CapacityReservation#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#availability_zone Ec2CapacityReservation#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#availability_zone_id Ec2CapacityReservation#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#availability_zone_id Ec2CapacityReservation#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#ebs_optimized Ec2CapacityReservation#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#ebs_optimized Ec2CapacityReservation#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#end_date Ec2CapacityReservation#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#end_date Ec2CapacityReservation#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#end_date_type Ec2CapacityReservation#end_date_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#end_date_type Ec2CapacityReservation#end_date_type}
   */
   readonly endDateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#ephemeral_storage Ec2CapacityReservation#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#ephemeral_storage Ec2CapacityReservation#ephemeral_storage}
   */
   readonly ephemeralStorage?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#instance_count Ec2CapacityReservation#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#instance_count Ec2CapacityReservation#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#instance_match_criteria Ec2CapacityReservation#instance_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#instance_match_criteria Ec2CapacityReservation#instance_match_criteria}
   */
   readonly instanceMatchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#instance_platform Ec2CapacityReservation#instance_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#instance_platform Ec2CapacityReservation#instance_platform}
   */
   readonly instancePlatform: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#instance_type Ec2CapacityReservation#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#instance_type Ec2CapacityReservation#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#out_post_arn Ec2CapacityReservation#out_post_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#out_post_arn Ec2CapacityReservation#out_post_arn}
   */
   readonly outPostArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#placement_group_arn Ec2CapacityReservation#placement_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#placement_group_arn Ec2CapacityReservation#placement_group_arn}
   */
   readonly placementGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#tag_specifications Ec2CapacityReservation#tag_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#tag_specifications Ec2CapacityReservation#tag_specifications}
   */
   readonly tagSpecifications?: Ec2CapacityReservationTagSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#tenancy Ec2CapacityReservation#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#tenancy Ec2CapacityReservation#tenancy}
   */
   readonly tenancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#unused_reservation_billing_owner_id Ec2CapacityReservation#unused_reservation_billing_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#unused_reservation_billing_owner_id Ec2CapacityReservation#unused_reservation_billing_owner_id}
   */
   readonly unusedReservationBillingOwnerId?: string;
 }
@@ -209,11 +209,11 @@ export class Ec2CapacityReservationCommitmentInfoOutputReference extends cdktn.C
 }
 export interface Ec2CapacityReservationTagSpecificationsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#key Ec2CapacityReservation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#key Ec2CapacityReservation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#value Ec2CapacityReservation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#value Ec2CapacityReservation#value}
   */
   readonly value?: string;
 }
@@ -305,7 +305,7 @@ export class Ec2CapacityReservationTagSpecificationsTagsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -321,7 +321,7 @@ export class Ec2CapacityReservationTagSpecificationsTagsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -358,11 +358,11 @@ export class Ec2CapacityReservationTagSpecificationsTagsList extends cdktn.Compl
 }
 export interface Ec2CapacityReservationTagSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#resource_type Ec2CapacityReservation#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#resource_type Ec2CapacityReservation#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#tags Ec2CapacityReservation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#tags Ec2CapacityReservation#tags}
   */
   readonly tags?: Ec2CapacityReservationTagSpecificationsTags[] | cdktn.IResolvable;
 }
@@ -454,7 +454,7 @@ export class Ec2CapacityReservationTagSpecificationsOutputReference extends cdkt
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -507,7 +507,7 @@ export class Ec2CapacityReservationTagSpecificationsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation awscc_ec2_capacity_reservation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation awscc_ec2_capacity_reservation}
 */
 export class Ec2CapacityReservation extends cdktn.TerraformResource {
 
@@ -523,7 +523,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2CapacityReservation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2CapacityReservation to import
-  * @param importFromId The id of the existing Ec2CapacityReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2CapacityReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2CapacityReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -535,7 +535,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_reservation awscc_ec2_capacity_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_reservation awscc_ec2_capacity_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,7 +546,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_capacity_reservation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -578,7 +578,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -594,7 +594,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -652,7 +652,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable; 
+  private _ebsOptimized?: boolean | cdktn.IResolvable;
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -668,7 +668,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string; 
+  private _endDate?: string;
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -684,7 +684,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // end_date_type - computed: true, optional: true, required: false
-  private _endDateType?: string; 
+  private _endDateType?: string;
   public get endDateType() {
     return this.getStringAttribute('end_date_type');
   }
@@ -700,7 +700,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // ephemeral_storage - computed: true, optional: true, required: false
-  private _ephemeralStorage?: boolean | cdktn.IResolvable; 
+  private _ephemeralStorage?: boolean | cdktn.IResolvable;
   public get ephemeralStorage() {
     return this.getBooleanAttribute('ephemeral_storage');
   }
@@ -721,7 +721,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -734,7 +734,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // instance_match_criteria - computed: true, optional: true, required: false
-  private _instanceMatchCriteria?: string; 
+  private _instanceMatchCriteria?: string;
   public get instanceMatchCriteria() {
     return this.getStringAttribute('instance_match_criteria');
   }
@@ -750,7 +750,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // instance_platform - computed: false, optional: false, required: true
-  private _instancePlatform?: string; 
+  private _instancePlatform?: string;
   public get instancePlatform() {
     return this.getStringAttribute('instance_platform');
   }
@@ -763,7 +763,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -776,7 +776,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // out_post_arn - computed: true, optional: true, required: false
-  private _outPostArn?: string; 
+  private _outPostArn?: string;
   public get outPostArn() {
     return this.getStringAttribute('out_post_arn');
   }
@@ -797,7 +797,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // placement_group_arn - computed: true, optional: true, required: false
-  private _placementGroupArn?: string; 
+  private _placementGroupArn?: string;
   public get placementGroupArn() {
     return this.getStringAttribute('placement_group_arn');
   }
@@ -844,7 +844,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string; 
+  private _tenancy?: string;
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -865,7 +865,7 @@ export class Ec2CapacityReservation extends cdktn.TerraformResource {
   }
 
   // unused_reservation_billing_owner_id - computed: true, optional: true, required: false
-  private _unusedReservationBillingOwnerId?: string; 
+  private _unusedReservationBillingOwnerId?: string;
   public get unusedReservationBillingOwnerId() {
     return this.getStringAttribute('unused_reservation_billing_owner_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktn from 'cdktn';
 
 export interface DatazoneAssetTypeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#description DatazoneAssetType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#description DatazoneAssetType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#domain_identifier DatazoneAssetType#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#domain_identifier DatazoneAssetType#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#name DatazoneAssetType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#name DatazoneAssetType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#owning_project_identifier DatazoneAssetType#owning_project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#owning_project_identifier DatazoneAssetType#owning_project_identifier}
   */
   readonly owningProjectIdentifier: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#region DatazoneAssetType#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#region DatazoneAssetType#region}
   */
   readonly region?: string;
   /**
   * forms_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#forms_input DatazoneAssetType#forms_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#forms_input DatazoneAssetType#forms_input}
   */
   readonly formsInput?: DatazoneAssetTypeFormsInput[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#timeouts DatazoneAssetType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#timeouts DatazoneAssetType#timeouts}
   */
   readonly timeouts?: DatazoneAssetTypeTimeouts;
 }
 export interface DatazoneAssetTypeFormsInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}
   */
   readonly mapBlockKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}
   */
   readonly typeIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}
   */
   readonly typeRevision: string;
 }
@@ -174,7 +174,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string; 
+  private _mapBlockKey?: string;
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -187,7 +187,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable;
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -203,7 +203,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // type_identifier - computed: false, optional: false, required: true
-  private _typeIdentifier?: string; 
+  private _typeIdentifier?: string;
   public get typeIdentifier() {
     return this.getStringAttribute('type_identifier');
   }
@@ -216,7 +216,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // type_revision - computed: false, optional: false, required: true
-  private _typeRevision?: string; 
+  private _typeRevision?: string;
   public get typeRevision() {
     return this.getStringAttribute('type_revision');
   }
@@ -252,7 +252,7 @@ export interface DatazoneAssetTypeTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#create DatazoneAssetType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#create DatazoneAssetType#create}
   */
   readonly create?: string;
 }
@@ -329,7 +329,7 @@ export class DatazoneAssetTypeTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -346,7 +346,7 @@ export class DatazoneAssetTypeTimeoutsOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type aws_datazone_asset_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type aws_datazone_asset_type}
 */
 export class DatazoneAssetType extends cdktn.TerraformResource {
 
@@ -362,7 +362,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneAssetType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneAssetType to import
-  * @param importFromId The id of the existing DatazoneAssetType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneAssetType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneAssetType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -374,7 +374,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,7 +385,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
       terraformResourceType: 'aws_datazone_asset_type',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -419,7 +419,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -435,7 +435,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -448,7 +448,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -461,7 +461,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // owning_project_identifier - computed: false, optional: false, required: true
-  private _owningProjectIdentifier?: string; 
+  private _owningProjectIdentifier?: string;
   public get owningProjectIdentifier() {
     return this.getStringAttribute('owning_project_identifier');
   }
@@ -474,7 +474,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

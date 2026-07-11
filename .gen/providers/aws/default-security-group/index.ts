@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktn from 'cdktn';
 
 export interface DefaultSecurityGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#egress DefaultSecurityGroup#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#egress DefaultSecurityGroup#egress}
   */
   readonly egress?: DefaultSecurityGroupEgress[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#id DefaultSecurityGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#id DefaultSecurityGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#ingress DefaultSecurityGroup#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#ingress DefaultSecurityGroup#ingress}
   */
   readonly ingress?: DefaultSecurityGroupIngress[] | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#region DefaultSecurityGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#region DefaultSecurityGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#revoke_rules_on_delete DefaultSecurityGroup#revoke_rules_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#revoke_rules_on_delete DefaultSecurityGroup#revoke_rules_on_delete}
   */
   readonly revokeRulesOnDelete?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#tags DefaultSecurityGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#tags DefaultSecurityGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#tags_all DefaultSecurityGroup#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#tags_all DefaultSecurityGroup#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#vpc_id DefaultSecurityGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#vpc_id DefaultSecurityGroup#vpc_id}
   */
   readonly vpcId?: string;
 }
 export interface DefaultSecurityGroupEgress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#cidr_blocks DefaultSecurityGroup#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#cidr_blocks DefaultSecurityGroup#cidr_blocks}
   */
   readonly cidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#description DefaultSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#description DefaultSecurityGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#from_port DefaultSecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#from_port DefaultSecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#ipv6_cidr_blocks DefaultSecurityGroup#ipv6_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#ipv6_cidr_blocks DefaultSecurityGroup#ipv6_cidr_blocks}
   */
   readonly ipv6CidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#prefix_list_ids DefaultSecurityGroup#prefix_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#prefix_list_ids DefaultSecurityGroup#prefix_list_ids}
   */
   readonly prefixListIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#protocol DefaultSecurityGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#protocol DefaultSecurityGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#security_groups DefaultSecurityGroup#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#security_groups DefaultSecurityGroup#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#self DefaultSecurityGroup#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#self DefaultSecurityGroup#self}
   */
   readonly selfAttribute?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#to_port DefaultSecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#to_port DefaultSecurityGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -262,7 +262,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // cidr_blocks - computed: true, optional: true, required: false
-  private _cidrBlocks?: string[]; 
+  private _cidrBlocks?: string[];
   public get cidrBlocks() {
     return this.getListAttribute('cidr_blocks');
   }
@@ -278,7 +278,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -294,7 +294,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -310,7 +310,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // ipv6_cidr_blocks - computed: true, optional: true, required: false
-  private _ipv6CidrBlocks?: string[]; 
+  private _ipv6CidrBlocks?: string[];
   public get ipv6CidrBlocks() {
     return this.getListAttribute('ipv6_cidr_blocks');
   }
@@ -326,7 +326,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // prefix_list_ids - computed: true, optional: true, required: false
-  private _prefixListIds?: string[]; 
+  private _prefixListIds?: string[];
   public get prefixListIds() {
     return this.getListAttribute('prefix_list_ids');
   }
@@ -342,7 +342,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -358,7 +358,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -374,7 +374,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // self - computed: true, optional: true, required: false
-  private _self?: boolean | cdktn.IResolvable; 
+  private _self?: boolean | cdktn.IResolvable;
   public get selfAttribute() {
     return this.getBooleanAttribute('self');
   }
@@ -390,7 +390,7 @@ export class DefaultSecurityGroupEgressOutputReference extends cdktn.ComplexObje
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -427,39 +427,39 @@ export class DefaultSecurityGroupEgressList extends cdktn.ComplexList {
 }
 export interface DefaultSecurityGroupIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#cidr_blocks DefaultSecurityGroup#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#cidr_blocks DefaultSecurityGroup#cidr_blocks}
   */
   readonly cidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#description DefaultSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#description DefaultSecurityGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#from_port DefaultSecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#from_port DefaultSecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#ipv6_cidr_blocks DefaultSecurityGroup#ipv6_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#ipv6_cidr_blocks DefaultSecurityGroup#ipv6_cidr_blocks}
   */
   readonly ipv6CidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#prefix_list_ids DefaultSecurityGroup#prefix_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#prefix_list_ids DefaultSecurityGroup#prefix_list_ids}
   */
   readonly prefixListIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#protocol DefaultSecurityGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#protocol DefaultSecurityGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#security_groups DefaultSecurityGroup#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#security_groups DefaultSecurityGroup#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#self DefaultSecurityGroup#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#self DefaultSecurityGroup#self}
   */
   readonly selfAttribute?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#to_port DefaultSecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#to_port DefaultSecurityGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -642,7 +642,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // cidr_blocks - computed: true, optional: true, required: false
-  private _cidrBlocks?: string[]; 
+  private _cidrBlocks?: string[];
   public get cidrBlocks() {
     return this.getListAttribute('cidr_blocks');
   }
@@ -658,7 +658,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -674,7 +674,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -690,7 +690,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // ipv6_cidr_blocks - computed: true, optional: true, required: false
-  private _ipv6CidrBlocks?: string[]; 
+  private _ipv6CidrBlocks?: string[];
   public get ipv6CidrBlocks() {
     return this.getListAttribute('ipv6_cidr_blocks');
   }
@@ -706,7 +706,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // prefix_list_ids - computed: true, optional: true, required: false
-  private _prefixListIds?: string[]; 
+  private _prefixListIds?: string[];
   public get prefixListIds() {
     return this.getListAttribute('prefix_list_ids');
   }
@@ -722,7 +722,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -738,7 +738,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -754,7 +754,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // self - computed: true, optional: true, required: false
-  private _self?: boolean | cdktn.IResolvable; 
+  private _self?: boolean | cdktn.IResolvable;
   public get selfAttribute() {
     return this.getBooleanAttribute('self');
   }
@@ -770,7 +770,7 @@ export class DefaultSecurityGroupIngressOutputReference extends cdktn.ComplexObj
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -807,7 +807,7 @@ export class DefaultSecurityGroupIngressList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group aws_default_security_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group aws_default_security_group}
 */
 export class DefaultSecurityGroup extends cdktn.TerraformResource {
 
@@ -823,7 +823,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DefaultSecurityGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultSecurityGroup to import
-  * @param importFromId The id of the existing DefaultSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultSecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -835,7 +835,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_security_group aws_default_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_security_group aws_default_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,7 +846,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_default_security_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -897,7 +897,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -944,7 +944,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -960,7 +960,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // revoke_rules_on_delete - computed: false, optional: true, required: false
-  private _revokeRulesOnDelete?: boolean | cdktn.IResolvable; 
+  private _revokeRulesOnDelete?: boolean | cdktn.IResolvable;
   public get revokeRulesOnDelete() {
     return this.getBooleanAttribute('revoke_rules_on_delete');
   }
@@ -976,7 +976,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -992,7 +992,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1008,7 +1008,7 @@ export class DefaultSecurityGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

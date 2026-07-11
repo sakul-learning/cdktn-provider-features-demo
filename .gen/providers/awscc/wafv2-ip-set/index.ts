@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface Wafv2IpSetConfig extends cdktn.TerraformMetaArguments {
   /**
   * List of IPAddresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
   */
   readonly addresses: string[];
   /**
   * Description of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
   */
   readonly description?: string;
   /**
   * Type of addresses in the IPSet, use IPV4 for IPV4 IP addresses, IPV6 for IPV6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
   */
   readonly ipAddressVersion: string;
   /**
   * Name of the IPSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
   */
   readonly name?: string;
   /**
   * Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}
   */
   readonly tags?: Wafv2IpSetTags[] | cdktn.IResolvable;
 }
 export interface Wafv2IpSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}
   */
   readonly value?: string;
 }
@@ -140,7 +140,7 @@ export class Wafv2IpSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class Wafv2IpSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -193,7 +193,7 @@ export class Wafv2IpSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}
 */
 export class Wafv2IpSet extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Wafv2IpSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv2IpSet to import
-  * @param importFromId The id of the existing Wafv2IpSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv2IpSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv2IpSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wafv2_ip_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -255,7 +255,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   // ==========
 
   // addresses - computed: false, optional: false, required: true
-  private _addresses?: string[]; 
+  private _addresses?: string[];
   public get addresses() {
     return this.getListAttribute('addresses');
   }
@@ -273,7 +273,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -294,7 +294,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // ip_address_version - computed: false, optional: false, required: true
-  private _ipAddressVersion?: string; 
+  private _ipAddressVersion?: string;
   public get ipAddressVersion() {
     return this.getStringAttribute('ip_address_version');
   }
@@ -312,7 +312,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -328,7 +328,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }

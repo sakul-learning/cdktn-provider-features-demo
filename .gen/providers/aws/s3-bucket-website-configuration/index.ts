@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface S3BucketWebsiteConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#bucket S3BucketWebsiteConfiguration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#bucket S3BucketWebsiteConfiguration#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#expected_bucket_owner S3BucketWebsiteConfiguration#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#expected_bucket_owner S3BucketWebsiteConfiguration#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#id S3BucketWebsiteConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#id S3BucketWebsiteConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,41 +25,41 @@ export interface S3BucketWebsiteConfigurationConfig extends cdktn.TerraformMetaA
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#region S3BucketWebsiteConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#region S3BucketWebsiteConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#routing_rules S3BucketWebsiteConfiguration#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#routing_rules S3BucketWebsiteConfiguration#routing_rules}
   */
   readonly routingRules?: string;
   /**
   * error_document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#error_document S3BucketWebsiteConfiguration#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#error_document S3BucketWebsiteConfiguration#error_document}
   */
   readonly errorDocument?: S3BucketWebsiteConfigurationErrorDocument;
   /**
   * index_document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#index_document S3BucketWebsiteConfiguration#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#index_document S3BucketWebsiteConfiguration#index_document}
   */
   readonly indexDocument?: S3BucketWebsiteConfigurationIndexDocument;
   /**
   * redirect_all_requests_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#redirect_all_requests_to S3BucketWebsiteConfiguration#redirect_all_requests_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#redirect_all_requests_to S3BucketWebsiteConfiguration#redirect_all_requests_to}
   */
   readonly redirectAllRequestsTo?: S3BucketWebsiteConfigurationRedirectAllRequestsTo;
   /**
   * routing_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#routing_rule S3BucketWebsiteConfiguration#routing_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#routing_rule S3BucketWebsiteConfiguration#routing_rule}
   */
   readonly routingRule?: S3BucketWebsiteConfigurationRoutingRule[] | cdktn.IResolvable;
 }
 export interface S3BucketWebsiteConfigurationErrorDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#key S3BucketWebsiteConfiguration#key}
   */
   readonly key: string;
 }
@@ -126,7 +126,7 @@ export class S3BucketWebsiteConfigurationErrorDocumentOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class S3BucketWebsiteConfigurationErrorDocumentOutputReference extends cd
 }
 export interface S3BucketWebsiteConfigurationIndexDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#suffix S3BucketWebsiteConfiguration#suffix}
   */
   readonly suffix: string;
 }
@@ -207,7 +207,7 @@ export class S3BucketWebsiteConfigurationIndexDocumentOutputReference extends cd
   }
 
   // suffix - computed: false, optional: false, required: true
-  private _suffix?: string; 
+  private _suffix?: string;
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -221,11 +221,11 @@ export class S3BucketWebsiteConfigurationIndexDocumentOutputReference extends cd
 }
 export interface S3BucketWebsiteConfigurationRedirectAllRequestsTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#host_name S3BucketWebsiteConfiguration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#host_name S3BucketWebsiteConfiguration#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#protocol S3BucketWebsiteConfiguration#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#protocol S3BucketWebsiteConfiguration#protocol}
   */
   readonly protocol?: string;
 }
@@ -305,7 +305,7 @@ export class S3BucketWebsiteConfigurationRedirectAllRequestsToOutputReference ex
   }
 
   // host_name - computed: false, optional: false, required: true
-  private _hostName?: string; 
+  private _hostName?: string;
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -318,7 +318,7 @@ export class S3BucketWebsiteConfigurationRedirectAllRequestsToOutputReference ex
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -335,11 +335,11 @@ export class S3BucketWebsiteConfigurationRedirectAllRequestsToOutputReference ex
 }
 export interface S3BucketWebsiteConfigurationRoutingRuleCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#http_error_code_returned_equals S3BucketWebsiteConfiguration#http_error_code_returned_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#http_error_code_returned_equals S3BucketWebsiteConfiguration#http_error_code_returned_equals}
   */
   readonly httpErrorCodeReturnedEquals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#key_prefix_equals S3BucketWebsiteConfiguration#key_prefix_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#key_prefix_equals S3BucketWebsiteConfiguration#key_prefix_equals}
   */
   readonly keyPrefixEquals?: string;
 }
@@ -419,7 +419,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleConditionOutputReference ext
   }
 
   // http_error_code_returned_equals - computed: false, optional: true, required: false
-  private _httpErrorCodeReturnedEquals?: string; 
+  private _httpErrorCodeReturnedEquals?: string;
   public get httpErrorCodeReturnedEquals() {
     return this.getStringAttribute('http_error_code_returned_equals');
   }
@@ -435,7 +435,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleConditionOutputReference ext
   }
 
   // key_prefix_equals - computed: false, optional: true, required: false
-  private _keyPrefixEquals?: string; 
+  private _keyPrefixEquals?: string;
   public get keyPrefixEquals() {
     return this.getStringAttribute('key_prefix_equals');
   }
@@ -452,23 +452,23 @@ export class S3BucketWebsiteConfigurationRoutingRuleConditionOutputReference ext
 }
 export interface S3BucketWebsiteConfigurationRoutingRuleRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#host_name S3BucketWebsiteConfiguration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#host_name S3BucketWebsiteConfiguration#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#http_redirect_code S3BucketWebsiteConfiguration#http_redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#http_redirect_code S3BucketWebsiteConfiguration#http_redirect_code}
   */
   readonly httpRedirectCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#protocol S3BucketWebsiteConfiguration#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#protocol S3BucketWebsiteConfiguration#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#replace_key_prefix_with S3BucketWebsiteConfiguration#replace_key_prefix_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#replace_key_prefix_with S3BucketWebsiteConfiguration#replace_key_prefix_with}
   */
   readonly replaceKeyPrefixWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#replace_key_with S3BucketWebsiteConfiguration#replace_key_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#replace_key_with S3BucketWebsiteConfiguration#replace_key_with}
   */
   readonly replaceKeyWith?: string;
 }
@@ -587,7 +587,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // host_name - computed: false, optional: true, required: false
-  private _hostName?: string; 
+  private _hostName?: string;
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -603,7 +603,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // http_redirect_code - computed: false, optional: true, required: false
-  private _httpRedirectCode?: string; 
+  private _httpRedirectCode?: string;
   public get httpRedirectCode() {
     return this.getStringAttribute('http_redirect_code');
   }
@@ -619,7 +619,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -635,7 +635,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // replace_key_prefix_with - computed: false, optional: true, required: false
-  private _replaceKeyPrefixWith?: string; 
+  private _replaceKeyPrefixWith?: string;
   public get replaceKeyPrefixWith() {
     return this.getStringAttribute('replace_key_prefix_with');
   }
@@ -651,7 +651,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // replace_key_with - computed: false, optional: true, required: false
-  private _replaceKeyWith?: string; 
+  private _replaceKeyWith?: string;
   public get replaceKeyWith() {
     return this.getStringAttribute('replace_key_with');
   }
@@ -670,13 +670,13 @@ export interface S3BucketWebsiteConfigurationRoutingRule {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#condition S3BucketWebsiteConfiguration#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#condition S3BucketWebsiteConfiguration#condition}
   */
   readonly condition?: S3BucketWebsiteConfigurationRoutingRuleCondition;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#redirect S3BucketWebsiteConfiguration#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#redirect S3BucketWebsiteConfiguration#redirect}
   */
   readonly redirect: S3BucketWebsiteConfigurationRoutingRuleRedirect;
 }
@@ -818,7 +818,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration}
 */
 export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
 
@@ -834,7 +834,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3BucketWebsiteConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketWebsiteConfiguration to import
-  * @param importFromId The id of the existing S3BucketWebsiteConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketWebsiteConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketWebsiteConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -846,7 +846,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -857,7 +857,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_s3_bucket_website_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -883,7 +883,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -896,7 +896,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string; 
+  private _expectedBucketOwner?: string;
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -912,7 +912,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -928,7 +928,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -944,7 +944,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // routing_rules - computed: true, optional: true, required: false
-  private _routingRules?: string; 
+  private _routingRules?: string;
   public get routingRules() {
     return this.getStringAttribute('routing_rules');
   }

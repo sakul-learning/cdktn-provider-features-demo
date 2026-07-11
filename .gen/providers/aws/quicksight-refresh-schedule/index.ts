@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightRefreshScheduleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}
   */
   readonly dataSetId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#region QuicksightRefreshSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#region QuicksightRefreshSchedule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#schedule_id QuicksightRefreshSchedule#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#schedule_id QuicksightRefreshSchedule#schedule_id}
   */
   readonly scheduleId: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}
   */
   readonly schedule?: QuicksightRefreshScheduleSchedule[] | cdktn.IResolvable;
 }
 export interface QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#day_of_month QuicksightRefreshSchedule#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#day_of_month QuicksightRefreshSchedule#day_of_month}
   */
   readonly dayOfMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -130,7 +130,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDayOutpu
   }
 
   // day_of_month - computed: false, optional: true, required: false
-  private _dayOfMonth?: string; 
+  private _dayOfMonth?: string;
   public get dayOfMonth() {
     return this.getStringAttribute('day_of_month');
   }
@@ -146,7 +146,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDayOutpu
   }
 
   // day_of_week - computed: false, optional: true, required: false
-  private _dayOfWeek?: string; 
+  private _dayOfWeek?: string;
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -183,21 +183,21 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDayList 
 }
 export interface QuicksightRefreshScheduleScheduleScheduleFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}
   */
   readonly interval: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}
   */
   readonly timeOfTheDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#timezone QuicksightRefreshSchedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#timezone QuicksightRefreshSchedule#timezone}
   */
   readonly timezone?: string;
   /**
   * refresh_on_day block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
   */
   readonly refreshOnDay?: QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay[] | cdktn.IResolvable;
 }
@@ -315,7 +315,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: string; 
+  private _interval?: string;
   public get interval() {
     return this.getStringAttribute('interval');
   }
@@ -328,7 +328,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // time_of_the_day - computed: true, optional: true, required: false
-  private _timeOfTheDay?: string; 
+  private _timeOfTheDay?: string;
   public get timeOfTheDay() {
     return this.getStringAttribute('time_of_the_day');
   }
@@ -344,7 +344,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string; 
+  private _timezone?: string;
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -397,17 +397,17 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyList extends cdkt
 }
 export interface QuicksightRefreshScheduleSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}
   */
   readonly refreshType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}
   */
   readonly startAfterDateTime?: string;
   /**
   * schedule_frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
   */
   readonly scheduleFrequency?: QuicksightRefreshScheduleScheduleScheduleFrequency[] | cdktn.IResolvable;
 }
@@ -512,7 +512,7 @@ export class QuicksightRefreshScheduleScheduleOutputReference extends cdktn.Comp
   }
 
   // refresh_type - computed: false, optional: false, required: true
-  private _refreshType?: string; 
+  private _refreshType?: string;
   public get refreshType() {
     return this.getStringAttribute('refresh_type');
   }
@@ -525,7 +525,7 @@ export class QuicksightRefreshScheduleScheduleOutputReference extends cdktn.Comp
   }
 
   // start_after_date_time - computed: true, optional: true, required: false
-  private _startAfterDateTime?: string; 
+  private _startAfterDateTime?: string;
   public get startAfterDateTime() {
     return this.getStringAttribute('start_after_date_time');
   }
@@ -578,7 +578,7 @@ export class QuicksightRefreshScheduleScheduleList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule}
 */
 export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
 
@@ -594,7 +594,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightRefreshSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightRefreshSchedule to import
-  * @param importFromId The id of the existing QuicksightRefreshSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightRefreshSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightRefreshSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -606,7 +606,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,7 +617,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_refresh_schedule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -644,7 +644,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -660,7 +660,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string; 
+  private _dataSetId?: string;
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -678,7 +678,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -694,7 +694,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // schedule_id - computed: false, optional: false, required: true
-  private _scheduleId?: string; 
+  private _scheduleId?: string;
   public get scheduleId() {
     return this.getStringAttribute('schedule_id');
   }

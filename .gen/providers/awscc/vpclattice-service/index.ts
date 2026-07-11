@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#auth_type VpclatticeService#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#auth_type VpclatticeService#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#certificate_arn VpclatticeService#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#certificate_arn VpclatticeService#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#custom_domain_name VpclatticeService#custom_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#custom_domain_name VpclatticeService#custom_domain_name}
   */
   readonly customDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#dns_entry VpclatticeService#dns_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#dns_entry VpclatticeService#dns_entry}
   */
   readonly dnsEntry?: VpclatticeServiceDnsEntry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#name VpclatticeService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#idle_timeout_seconds VpclatticeService#idle_timeout_seconds}
+  */
+  readonly idleTimeoutSeconds?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#name VpclatticeService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#tags VpclatticeService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#tags VpclatticeService#tags}
   */
   readonly tags?: VpclatticeServiceTags[] | cdktn.IResolvable;
 }
@@ -103,11 +107,11 @@ export class VpclatticeServiceDnsEntryOutputReference extends cdktn.ComplexObjec
 }
 export interface VpclatticeServiceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#key VpclatticeService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#key VpclatticeService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#value VpclatticeService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#value VpclatticeService#value}
   */
   readonly value?: string;
 }
@@ -199,7 +203,7 @@ export class VpclatticeServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -215,7 +219,7 @@ export class VpclatticeServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +256,7 @@ export class VpclatticeServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service awscc_vpclattice_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service awscc_vpclattice_service}
 */
 export class VpclatticeService extends cdktn.TerraformResource {
 
@@ -268,7 +272,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeService to import
-  * @param importFromId The id of the existing VpclatticeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -280,7 +284,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_service awscc_vpclattice_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_service awscc_vpclattice_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +295,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -305,6 +309,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
     this._certificateArn = config.certificateArn;
     this._customDomainName = config.customDomainName;
     this._dnsEntry.internalValue = config.dnsEntry;
+    this._idleTimeoutSeconds = config.idleTimeoutSeconds;
     this._name = config.name;
     this._tags.internalValue = config.tags;
   }
@@ -319,7 +324,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -335,7 +340,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -356,7 +361,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: true, optional: true, required: false
-  private _customDomainName?: string; 
+  private _customDomainName?: string;
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -392,13 +397,29 @@ export class VpclatticeService extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // idle_timeout_seconds - computed: true, optional: true, required: false
+  private _idleTimeoutSeconds?: number;
+  public get idleTimeoutSeconds() {
+    return this.getNumberAttribute('idle_timeout_seconds');
+  }
+  public set idleTimeoutSeconds(value: number) {
+    this._idleTimeoutSeconds = value;
+  }
+  public resetIdleTimeoutSeconds() {
+    this._idleTimeoutSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idleTimeoutSecondsInput() {
+    return this._idleTimeoutSeconds;
+  }
+
   // last_updated_at - computed: true, optional: false, required: false
   public get lastUpdatedAt() {
     return this.getStringAttribute('last_updated_at');
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -449,6 +470,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
       certificate_arn: cdktn.stringToTerraform(this._certificateArn),
       custom_domain_name: cdktn.stringToTerraform(this._customDomainName),
       dns_entry: vpclatticeServiceDnsEntryToTerraform(this._dnsEntry.internalValue),
+      idle_timeout_seconds: cdktn.numberToTerraform(this._idleTimeoutSeconds),
       name: cdktn.stringToTerraform(this._name),
       tags: cdktn.listMapper(vpclatticeServiceTagsToTerraform, false)(this._tags.internalValue),
     };
@@ -479,6 +501,12 @@ export class VpclatticeService extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "VpclatticeServiceDnsEntry",
+      },
+      idle_timeout_seconds: {
+        value: cdktn.numberToHclTerraform(this._idleTimeoutSeconds),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       name: {
         value: cdktn.stringToHclTerraform(this._name),

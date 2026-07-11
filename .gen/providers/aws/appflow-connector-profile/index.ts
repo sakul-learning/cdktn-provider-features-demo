@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktn from 'cdktn';
 
 export interface AppflowConnectorProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connection_mode AppflowConnectorProfile#connection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connection_mode AppflowConnectorProfile#connection_mode}
   */
   readonly connectionMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connector_label AppflowConnectorProfile#connector_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connector_label AppflowConnectorProfile#connector_label}
   */
   readonly connectorLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connector_type AppflowConnectorProfile#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connector_type AppflowConnectorProfile#connector_type}
   */
   readonly connectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#id AppflowConnectorProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#id AppflowConnectorProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#kms_arn AppflowConnectorProfile#kms_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#kms_arn AppflowConnectorProfile#kms_arn}
   */
   readonly kmsArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#name AppflowConnectorProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#name AppflowConnectorProfile#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#region AppflowConnectorProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#region AppflowConnectorProfile#region}
   */
   readonly region?: string;
   /**
   * connector_profile_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connector_profile_config AppflowConnectorProfile#connector_profile_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connector_profile_config AppflowConnectorProfile#connector_profile_config}
   */
   readonly connectorProfileConfig: AppflowConnectorProfileConnectorProfileConfig;
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#secret_key AppflowConnectorProfile#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#secret_key AppflowConnectorProfile#secret_key}
   */
   readonly secretKey: string;
 }
@@ -133,7 +133,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: false, optional: false, required: true
-  private _apiKey?: string; 
+  private _apiKey?: string;
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -146,7 +146,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // secret_key - computed: false, optional: false, required: true
-  private _secretKey?: string; 
+  private _secretKey?: string;
   public get secretKey() {
     return this.getStringAttribute('secret_key');
   }
@@ -160,11 +160,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_secret_key AppflowConnectorProfile#api_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_secret_key AppflowConnectorProfile#api_secret_key}
   */
   readonly apiSecretKey?: string;
 }
@@ -244,7 +244,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: false, optional: false, required: true
-  private _apiKey?: string; 
+  private _apiKey?: string;
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -257,7 +257,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_secret_key - computed: false, optional: true, required: false
-  private _apiSecretKey?: string; 
+  private _apiSecretKey?: string;
   public get apiSecretKey() {
     return this.getStringAttribute('api_secret_key');
   }
@@ -274,11 +274,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -358,7 +358,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -371,7 +371,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -385,11 +385,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#credentials_map AppflowConnectorProfile#credentials_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#credentials_map AppflowConnectorProfile#credentials_map}
   */
   readonly credentialsMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#custom_authentication_type AppflowConnectorProfile#custom_authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#custom_authentication_type AppflowConnectorProfile#custom_authentication_type}
   */
   readonly customAuthenticationType: string;
 }
@@ -469,7 +469,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // credentials_map - computed: false, optional: true, required: false
-  private _credentialsMap?: { [key: string]: string }; 
+  private _credentialsMap?: { [key: string]: string };
   public get credentialsMap() {
     return this.getStringMapAttribute('credentials_map');
   }
@@ -485,7 +485,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // custom_authentication_type - computed: false, optional: false, required: true
-  private _customAuthenticationType?: string; 
+  private _customAuthenticationType?: string;
   public get customAuthenticationType() {
     return this.getStringAttribute('custom_authentication_type');
   }
@@ -499,11 +499,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -583,7 +583,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -599,7 +599,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -616,25 +616,25 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequest;
 }
@@ -753,7 +753,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -769,7 +769,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -785,7 +785,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -801,7 +801,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -834,31 +834,31 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#authentication_type AppflowConnectorProfile#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#authentication_type AppflowConnectorProfile#authentication_type}
   */
   readonly authenticationType: string;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
   */
   readonly apiKey?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKey;
   /**
   * basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#basic AppflowConnectorProfile#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#basic AppflowConnectorProfile#basic}
   */
   readonly basic?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasic;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#custom AppflowConnectorProfile#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#custom AppflowConnectorProfile#custom}
   */
   readonly custom?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustom;
   /**
   * oauth2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth2 AppflowConnectorProfile#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth2 AppflowConnectorProfile#oauth2}
   */
   readonly oauth2?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2;
 }
@@ -977,7 +977,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1055,11 +1055,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#application_key AppflowConnectorProfile#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#application_key AppflowConnectorProfile#application_key}
   */
   readonly applicationKey: string;
 }
@@ -1139,7 +1139,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: false, optional: false, required: true
-  private _apiKey?: string; 
+  private _apiKey?: string;
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -1152,7 +1152,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // application_key - computed: false, optional: false, required: true
-  private _applicationKey?: string; 
+  private _applicationKey?: string;
   public get applicationKey() {
     return this.getStringAttribute('application_key');
   }
@@ -1166,7 +1166,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_token AppflowConnectorProfile#api_token}
   */
   readonly apiToken: string;
 }
@@ -1233,7 +1233,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_token - computed: false, optional: false, required: true
-  private _apiToken?: string; 
+  private _apiToken?: string;
   public get apiToken() {
     return this.getStringAttribute('api_token');
   }
@@ -1247,11 +1247,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -1331,7 +1331,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -1347,7 +1347,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -1364,25 +1364,25 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalytics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequest;
 }
@@ -1501,7 +1501,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1517,7 +1517,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1530,7 +1530,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1543,7 +1543,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1576,11 +1576,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -1660,7 +1660,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -1676,7 +1676,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -1693,17 +1693,17 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequest;
 }
@@ -1796,7 +1796,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1812,7 +1812,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1845,19 +1845,19 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_key_id AppflowConnectorProfile#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_key_id AppflowConnectorProfile#access_key_id}
   */
   readonly accessKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#datakey AppflowConnectorProfile#datakey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#datakey AppflowConnectorProfile#datakey}
   */
   readonly datakey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#secret_access_key AppflowConnectorProfile#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#secret_access_key AppflowConnectorProfile#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#user_id AppflowConnectorProfile#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#user_id AppflowConnectorProfile#user_id}
   */
   readonly userId: string;
 }
@@ -1963,7 +1963,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_key_id - computed: false, optional: false, required: true
-  private _accessKeyId?: string; 
+  private _accessKeyId?: string;
   public get accessKeyId() {
     return this.getStringAttribute('access_key_id');
   }
@@ -1976,7 +1976,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // datakey - computed: false, optional: false, required: true
-  private _datakey?: string; 
+  private _datakey?: string;
   public get datakey() {
     return this.getStringAttribute('datakey');
   }
@@ -1989,7 +1989,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // secret_access_key - computed: false, optional: false, required: true
-  private _secretAccessKey?: string; 
+  private _secretAccessKey?: string;
   public get secretAccessKey() {
     return this.getStringAttribute('secret_access_key');
   }
@@ -2002,7 +2002,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // user_id - computed: false, optional: false, required: true
-  private _userId?: string; 
+  private _userId?: string;
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -2016,11 +2016,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -2100,7 +2100,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -2116,7 +2116,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -2133,21 +2133,21 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequest;
 }
@@ -2253,7 +2253,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -2269,7 +2269,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -2282,7 +2282,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2312,11 +2312,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -2396,7 +2396,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -2409,7 +2409,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -2423,11 +2423,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -2507,7 +2507,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -2523,7 +2523,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -2540,29 +2540,29 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_credentials_arn AppflowConnectorProfile#client_credentials_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_credentials_arn AppflowConnectorProfile#client_credentials_arn}
   */
   readonly clientCredentialsArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#jwt_token AppflowConnectorProfile#jwt_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#jwt_token AppflowConnectorProfile#jwt_token}
   */
   readonly jwtToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth2_grant_type AppflowConnectorProfile#oauth2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth2_grant_type AppflowConnectorProfile#oauth2_grant_type}
   */
   readonly oauth2GrantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequest;
 }
@@ -2694,7 +2694,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -2710,7 +2710,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_credentials_arn - computed: false, optional: true, required: false
-  private _clientCredentialsArn?: string; 
+  private _clientCredentialsArn?: string;
   public get clientCredentialsArn() {
     return this.getStringAttribute('client_credentials_arn');
   }
@@ -2726,7 +2726,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // jwt_token - computed: false, optional: true, required: false
-  private _jwtToken?: string; 
+  private _jwtToken?: string;
   public get jwtToken() {
     return this.getStringAttribute('jwt_token');
   }
@@ -2742,7 +2742,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // oauth2_grant_type - computed: false, optional: true, required: false
-  private _oauth2GrantType?: string; 
+  private _oauth2GrantType?: string;
   public get oauth2GrantType() {
     return this.getStringAttribute('oauth2_grant_type');
   }
@@ -2758,7 +2758,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -2791,11 +2791,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -2875,7 +2875,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -2888,7 +2888,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -2902,11 +2902,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -2986,7 +2986,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -3002,7 +3002,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -3019,25 +3019,25 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#refresh_token AppflowConnectorProfile#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequest;
 }
@@ -3156,7 +3156,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -3172,7 +3172,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -3185,7 +3185,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -3198,7 +3198,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -3233,13 +3233,13 @@ export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCr
   /**
   * basic_auth_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#basic_auth_credentials AppflowConnectorProfile#basic_auth_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#basic_auth_credentials AppflowConnectorProfile#basic_auth_credentials}
   */
   readonly basicAuthCredentials?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentials;
   /**
   * oauth_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_credentials AppflowConnectorProfile#oauth_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_credentials AppflowConnectorProfile#oauth_credentials}
   */
   readonly oauthCredentials?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentials;
 }
@@ -3352,11 +3352,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -3436,7 +3436,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3449,7 +3449,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3463,7 +3463,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_key AppflowConnectorProfile#api_key}
   */
   readonly apiKey: string;
 }
@@ -3530,7 +3530,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: false, optional: false, required: true
-  private _apiKey?: string; 
+  private _apiKey?: string;
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -3544,11 +3544,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -3628,7 +3628,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -3644,7 +3644,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -3661,21 +3661,21 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequest;
 }
@@ -3781,7 +3781,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -3797,7 +3797,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -3810,7 +3810,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -3840,11 +3840,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -3924,7 +3924,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3937,7 +3937,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3951,7 +3951,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicro {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#api_secret_key AppflowConnectorProfile#api_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#api_secret_key AppflowConnectorProfile#api_secret_key}
   */
   readonly apiSecretKey: string;
 }
@@ -4018,7 +4018,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_secret_key - computed: false, optional: false, required: true
-  private _apiSecretKey?: string; 
+  private _apiSecretKey?: string;
   public get apiSecretKey() {
     return this.getStringAttribute('api_secret_key');
   }
@@ -4032,11 +4032,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeeva {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}
   */
   readonly username: string;
 }
@@ -4116,7 +4116,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -4129,7 +4129,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -4143,11 +4143,11 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code AppflowConnectorProfile#auth_code}
   */
   readonly authCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redirect_uri AppflowConnectorProfile#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -4227,7 +4227,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: false, optional: true, required: false
-  private _authCode?: string; 
+  private _authCode?: string;
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -4243,7 +4243,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: false, optional: true, required: false
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -4260,21 +4260,21 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendesk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#access_token AppflowConnectorProfile#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_id AppflowConnectorProfile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_secret AppflowConnectorProfile#client_secret}
   */
   readonly clientSecret: string;
   /**
   * oauth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_request AppflowConnectorProfile#oauth_request}
   */
   readonly oauthRequest?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequest;
 }
@@ -4380,7 +4380,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -4396,7 +4396,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -4409,7 +4409,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -4441,109 +4441,109 @@ export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfileCr
   /**
   * amplitude block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
   */
   readonly amplitude?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitude;
   /**
   * custom_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
   */
   readonly customConnector?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnector;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
   */
   readonly datadog?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadog;
   /**
   * dynatrace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
   */
   readonly dynatrace?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace;
   /**
   * google_analytics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
   */
   readonly googleAnalytics?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalytics;
   /**
   * honeycode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
   */
   readonly honeycode?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsHoneycode;
   /**
   * infor_nexus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
   */
   readonly inforNexus?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexus;
   /**
   * marketo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
   */
   readonly marketo?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketo;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
   */
   readonly redshift?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshift;
   /**
   * salesforce block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
   */
   readonly salesforce?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforce;
   /**
   * sapo_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
   */
   readonly sapoData?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoData;
   /**
   * service_now block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
   */
   readonly serviceNow?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNow;
   /**
   * singular block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
   */
   readonly singular?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular;
   /**
   * slack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
   */
   readonly slack?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlack;
   /**
   * snowflake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
   */
   readonly snowflake?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflake;
   /**
   * trendmicro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
   */
   readonly trendmicro?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicro;
   /**
   * veeva block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
   */
   readonly veeva?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeeva;
   /**
   * zendesk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
   */
   readonly zendesk?: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendesk;
 }
@@ -5169,15 +5169,15 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOauth2Properties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth2_grant_type AppflowConnectorProfile#oauth2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth2_grant_type AppflowConnectorProfile#oauth2_grant_type}
   */
   readonly oauth2GrantType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#token_url AppflowConnectorProfile#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#token_url AppflowConnectorProfile#token_url}
   */
   readonly tokenUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#token_url_custom_properties AppflowConnectorProfile#token_url_custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#token_url_custom_properties AppflowConnectorProfile#token_url_custom_properties}
   */
   readonly tokenUrlCustomProperties?: { [key: string]: string };
 }
@@ -5270,7 +5270,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // oauth2_grant_type - computed: false, optional: false, required: true
-  private _oauth2GrantType?: string; 
+  private _oauth2GrantType?: string;
   public get oauth2GrantType() {
     return this.getStringAttribute('oauth2_grant_type');
   }
@@ -5283,7 +5283,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url - computed: false, optional: false, required: true
-  private _tokenUrl?: string; 
+  private _tokenUrl?: string;
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -5296,7 +5296,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url_custom_properties - computed: false, optional: true, required: false
-  private _tokenUrlCustomProperties?: { [key: string]: string }; 
+  private _tokenUrlCustomProperties?: { [key: string]: string };
   public get tokenUrlCustomProperties() {
     return this.getStringMapAttribute('token_url_custom_properties');
   }
@@ -5313,13 +5313,13 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#profile_properties AppflowConnectorProfile#profile_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#profile_properties AppflowConnectorProfile#profile_properties}
   */
   readonly profileProperties?: { [key: string]: string };
   /**
   * oauth2_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth2_properties AppflowConnectorProfile#oauth2_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth2_properties AppflowConnectorProfile#oauth2_properties}
   */
   readonly oauth2Properties?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOauth2Properties;
 }
@@ -5399,7 +5399,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // profile_properties - computed: false, optional: true, required: false
-  private _profileProperties?: { [key: string]: string }; 
+  private _profileProperties?: { [key: string]: string };
   public get profileProperties() {
     return this.getStringMapAttribute('profile_properties');
   }
@@ -5432,7 +5432,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -5499,7 +5499,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -5513,7 +5513,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -5580,7 +5580,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -5692,7 +5692,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -5759,7 +5759,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -5773,7 +5773,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -5840,7 +5840,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -5854,31 +5854,31 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#bucket_name AppflowConnectorProfile#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#bucket_name AppflowConnectorProfile#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#bucket_prefix AppflowConnectorProfile#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#bucket_prefix AppflowConnectorProfile#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#cluster_identifier AppflowConnectorProfile#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#cluster_identifier AppflowConnectorProfile#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#data_api_role_arn AppflowConnectorProfile#data_api_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#data_api_role_arn AppflowConnectorProfile#data_api_role_arn}
   */
   readonly dataApiRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#database_name AppflowConnectorProfile#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#database_name AppflowConnectorProfile#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#database_url AppflowConnectorProfile#database_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#database_url AppflowConnectorProfile#database_url}
   */
   readonly databaseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#role_arn AppflowConnectorProfile#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#role_arn AppflowConnectorProfile#role_arn}
   */
   readonly roleArn: string;
 }
@@ -6023,7 +6023,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -6036,7 +6036,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -6052,7 +6052,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // cluster_identifier - computed: false, optional: true, required: false
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -6068,7 +6068,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // data_api_role_arn - computed: false, optional: true, required: false
-  private _dataApiRoleArn?: string; 
+  private _dataApiRoleArn?: string;
   public get dataApiRoleArn() {
     return this.getStringAttribute('data_api_role_arn');
   }
@@ -6084,7 +6084,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // database_name - computed: false, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -6100,7 +6100,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // database_url - computed: false, optional: true, required: false
-  private _databaseUrl?: string; 
+  private _databaseUrl?: string;
   public get databaseUrl() {
     return this.getStringAttribute('database_url');
   }
@@ -6116,7 +6116,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6130,15 +6130,15 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#is_sandbox_environment AppflowConnectorProfile#is_sandbox_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#is_sandbox_environment AppflowConnectorProfile#is_sandbox_environment}
   */
   readonly isSandboxEnvironment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#use_privatelink_for_metadata_and_authorization AppflowConnectorProfile#use_privatelink_for_metadata_and_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#use_privatelink_for_metadata_and_authorization AppflowConnectorProfile#use_privatelink_for_metadata_and_authorization}
   */
   readonly usePrivatelinkForMetadataAndAuthorization?: boolean | cdktn.IResolvable;
 }
@@ -6231,7 +6231,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: true, required: false
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6247,7 +6247,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // is_sandbox_environment - computed: false, optional: true, required: false
-  private _isSandboxEnvironment?: boolean | cdktn.IResolvable; 
+  private _isSandboxEnvironment?: boolean | cdktn.IResolvable;
   public get isSandboxEnvironment() {
     return this.getBooleanAttribute('is_sandbox_environment');
   }
@@ -6263,7 +6263,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // use_privatelink_for_metadata_and_authorization - computed: false, optional: true, required: false
-  private _usePrivatelinkForMetadataAndAuthorization?: boolean | cdktn.IResolvable; 
+  private _usePrivatelinkForMetadataAndAuthorization?: boolean | cdktn.IResolvable;
   public get usePrivatelinkForMetadataAndAuthorization() {
     return this.getBooleanAttribute('use_privatelink_for_metadata_and_authorization');
   }
@@ -6280,15 +6280,15 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOauthProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#auth_code_url AppflowConnectorProfile#auth_code_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#auth_code_url AppflowConnectorProfile#auth_code_url}
   */
   readonly authCodeUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_scopes AppflowConnectorProfile#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_scopes AppflowConnectorProfile#oauth_scopes}
   */
   readonly oauthScopes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#token_url AppflowConnectorProfile#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#token_url AppflowConnectorProfile#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -6381,7 +6381,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // auth_code_url - computed: false, optional: false, required: true
-  private _authCodeUrl?: string; 
+  private _authCodeUrl?: string;
   public get authCodeUrl() {
     return this.getStringAttribute('auth_code_url');
   }
@@ -6394,7 +6394,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // oauth_scopes - computed: false, optional: false, required: true
-  private _oauthScopes?: string[]; 
+  private _oauthScopes?: string[];
   public get oauthScopes() {
     return this.getListAttribute('oauth_scopes');
   }
@@ -6407,7 +6407,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url - computed: false, optional: false, required: true
-  private _tokenUrl?: string; 
+  private _tokenUrl?: string;
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -6421,33 +6421,33 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#application_host_url AppflowConnectorProfile#application_host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#application_host_url AppflowConnectorProfile#application_host_url}
   */
   readonly applicationHostUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#application_service_path AppflowConnectorProfile#application_service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#application_service_path AppflowConnectorProfile#application_service_path}
   */
   readonly applicationServicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#client_number AppflowConnectorProfile#client_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#client_number AppflowConnectorProfile#client_number}
   */
   readonly clientNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#logon_language AppflowConnectorProfile#logon_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#logon_language AppflowConnectorProfile#logon_language}
   */
   readonly logonLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#port_number AppflowConnectorProfile#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#port_number AppflowConnectorProfile#port_number}
   */
   readonly portNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#private_link_service_name AppflowConnectorProfile#private_link_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#private_link_service_name AppflowConnectorProfile#private_link_service_name}
   */
   readonly privateLinkServiceName?: string;
   /**
   * oauth_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#oauth_properties AppflowConnectorProfile#oauth_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#oauth_properties AppflowConnectorProfile#oauth_properties}
   */
   readonly oauthProperties?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOauthProperties;
 }
@@ -6592,7 +6592,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // application_host_url - computed: false, optional: false, required: true
-  private _applicationHostUrl?: string; 
+  private _applicationHostUrl?: string;
   public get applicationHostUrl() {
     return this.getStringAttribute('application_host_url');
   }
@@ -6605,7 +6605,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // application_service_path - computed: false, optional: false, required: true
-  private _applicationServicePath?: string; 
+  private _applicationServicePath?: string;
   public get applicationServicePath() {
     return this.getStringAttribute('application_service_path');
   }
@@ -6618,7 +6618,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // client_number - computed: false, optional: false, required: true
-  private _clientNumber?: string; 
+  private _clientNumber?: string;
   public get clientNumber() {
     return this.getStringAttribute('client_number');
   }
@@ -6631,7 +6631,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // logon_language - computed: false, optional: true, required: false
-  private _logonLanguage?: string; 
+  private _logonLanguage?: string;
   public get logonLanguage() {
     return this.getStringAttribute('logon_language');
   }
@@ -6647,7 +6647,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // port_number - computed: false, optional: false, required: true
-  private _portNumber?: number; 
+  private _portNumber?: number;
   public get portNumber() {
     return this.getNumberAttribute('port_number');
   }
@@ -6660,7 +6660,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // private_link_service_name - computed: false, optional: true, required: false
-  private _privateLinkServiceName?: string; 
+  private _privateLinkServiceName?: string;
   public get privateLinkServiceName() {
     return this.getStringAttribute('private_link_service_name');
   }
@@ -6693,7 +6693,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -6760,7 +6760,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6823,7 +6823,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -6890,7 +6890,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6904,31 +6904,31 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#account_name AppflowConnectorProfile#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#account_name AppflowConnectorProfile#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#bucket_name AppflowConnectorProfile#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#bucket_name AppflowConnectorProfile#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#bucket_prefix AppflowConnectorProfile#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#bucket_prefix AppflowConnectorProfile#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#private_link_service_name AppflowConnectorProfile#private_link_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#private_link_service_name AppflowConnectorProfile#private_link_service_name}
   */
   readonly privateLinkServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#region AppflowConnectorProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#region AppflowConnectorProfile#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#stage AppflowConnectorProfile#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#stage AppflowConnectorProfile#stage}
   */
   readonly stage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#warehouse AppflowConnectorProfile#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#warehouse AppflowConnectorProfile#warehouse}
   */
   readonly warehouse: string;
 }
@@ -7073,7 +7073,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // account_name - computed: false, optional: true, required: false
-  private _accountName?: string; 
+  private _accountName?: string;
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -7089,7 +7089,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -7102,7 +7102,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -7118,7 +7118,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // private_link_service_name - computed: false, optional: true, required: false
-  private _privateLinkServiceName?: string; 
+  private _privateLinkServiceName?: string;
   public get privateLinkServiceName() {
     return this.getStringAttribute('private_link_service_name');
   }
@@ -7134,7 +7134,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -7150,7 +7150,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // stage - computed: false, optional: false, required: true
-  private _stage?: string; 
+  private _stage?: string;
   public get stage() {
     return this.getStringAttribute('stage');
   }
@@ -7163,7 +7163,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // warehouse - computed: false, optional: false, required: true
-  private _warehouse?: string; 
+  private _warehouse?: string;
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -7226,7 +7226,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -7293,7 +7293,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -7307,7 +7307,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
 }
 export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#instance_url AppflowConnectorProfile#instance_url}
   */
   readonly instanceUrl: string;
 }
@@ -7374,7 +7374,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: false, optional: false, required: true
-  private _instanceUrl?: string; 
+  private _instanceUrl?: string;
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -7390,109 +7390,109 @@ export interface AppflowConnectorProfileConnectorProfileConfigConnectorProfilePr
   /**
   * amplitude block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#amplitude AppflowConnectorProfile#amplitude}
   */
   readonly amplitude?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesAmplitude;
   /**
   * custom_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#custom_connector AppflowConnectorProfile#custom_connector}
   */
   readonly customConnector?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#datadog AppflowConnectorProfile#datadog}
   */
   readonly datadog?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog;
   /**
   * dynatrace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#dynatrace AppflowConnectorProfile#dynatrace}
   */
   readonly dynatrace?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace;
   /**
   * google_analytics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#google_analytics AppflowConnectorProfile#google_analytics}
   */
   readonly googleAnalytics?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalytics;
   /**
   * honeycode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#honeycode AppflowConnectorProfile#honeycode}
   */
   readonly honeycode?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesHoneycode;
   /**
   * infor_nexus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#infor_nexus AppflowConnectorProfile#infor_nexus}
   */
   readonly inforNexus?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus;
   /**
   * marketo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#marketo AppflowConnectorProfile#marketo}
   */
   readonly marketo?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#redshift AppflowConnectorProfile#redshift}
   */
   readonly redshift?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift;
   /**
   * salesforce block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#salesforce AppflowConnectorProfile#salesforce}
   */
   readonly salesforce?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce;
   /**
   * sapo_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#sapo_data AppflowConnectorProfile#sapo_data}
   */
   readonly sapoData?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData;
   /**
   * service_now block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#service_now AppflowConnectorProfile#service_now}
   */
   readonly serviceNow?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow;
   /**
   * singular block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#singular AppflowConnectorProfile#singular}
   */
   readonly singular?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSingular;
   /**
   * slack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#slack AppflowConnectorProfile#slack}
   */
   readonly slack?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack;
   /**
   * snowflake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#snowflake AppflowConnectorProfile#snowflake}
   */
   readonly snowflake?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake;
   /**
   * trendmicro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#trendmicro AppflowConnectorProfile#trendmicro}
   */
   readonly trendmicro?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesTrendmicro;
   /**
   * veeva block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#veeva AppflowConnectorProfile#veeva}
   */
   readonly veeva?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva;
   /**
   * zendesk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#zendesk AppflowConnectorProfile#zendesk}
   */
   readonly zendesk?: AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk;
 }
@@ -8071,13 +8071,13 @@ export interface AppflowConnectorProfileConnectorProfileConfig {
   /**
   * connector_profile_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connector_profile_credentials AppflowConnectorProfile#connector_profile_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connector_profile_credentials AppflowConnectorProfile#connector_profile_credentials}
   */
   readonly connectorProfileCredentials: AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentials;
   /**
   * connector_profile_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#connector_profile_properties AppflowConnectorProfile#connector_profile_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#connector_profile_properties AppflowConnectorProfile#connector_profile_properties}
   */
   readonly connectorProfileProperties: AppflowConnectorProfileConnectorProfileConfigConnectorProfileProperties;
 }
@@ -8184,7 +8184,7 @@ export class AppflowConnectorProfileConnectorProfileConfigOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile}
 */
 export class AppflowConnectorProfile extends cdktn.TerraformResource {
 
@@ -8200,7 +8200,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppflowConnectorProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppflowConnectorProfile to import
-  * @param importFromId The id of the existing AppflowConnectorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppflowConnectorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppflowConnectorProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8212,7 +8212,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8223,7 +8223,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appflow_connector_profile',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8253,7 +8253,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connection_mode - computed: false, optional: false, required: true
-  private _connectionMode?: string; 
+  private _connectionMode?: string;
   public get connectionMode() {
     return this.getStringAttribute('connection_mode');
   }
@@ -8266,7 +8266,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connector_label - computed: false, optional: true, required: false
-  private _connectorLabel?: string; 
+  private _connectorLabel?: string;
   public get connectorLabel() {
     return this.getStringAttribute('connector_label');
   }
@@ -8282,7 +8282,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string; 
+  private _connectorType?: string;
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -8300,7 +8300,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -8316,7 +8316,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string; 
+  private _kmsArn?: string;
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -8332,7 +8332,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8345,7 +8345,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface EcsDaemonConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
   */
   readonly capacityProviderArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
   */
   readonly daemonTaskDefinitionArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#name EcsDaemon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#name EcsDaemon#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#region EcsDaemon#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#region EcsDaemon#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * deployment_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
   */
   readonly deploymentConfiguration?: EcsDaemonDeploymentConfiguration[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#timeouts EcsDaemon#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#timeouts EcsDaemon#timeouts}
   */
   readonly timeouts?: EcsDaemonTimeouts;
 }
 export interface EcsDaemonDeploymentConfigurationAlarms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
   */
   readonly alarmNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
 }
@@ -156,7 +156,7 @@ export class EcsDaemonDeploymentConfigurationAlarmsOutputReference extends cdktn
   }
 
   // alarm_names - computed: false, optional: true, required: false
-  private _alarmNames?: string[]; 
+  private _alarmNames?: string[];
   public get alarmNames() {
     return this.getListAttribute('alarm_names');
   }
@@ -172,7 +172,7 @@ export class EcsDaemonDeploymentConfigurationAlarmsOutputReference extends cdktn
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -209,17 +209,17 @@ export class EcsDaemonDeploymentConfigurationAlarmsList extends cdktn.ComplexLis
 }
 export interface EcsDaemonDeploymentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
   */
   readonly bakeTimeInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
   */
   readonly drainPercent?: number;
   /**
   * alarms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
   */
   readonly alarms?: EcsDaemonDeploymentConfigurationAlarms[] | cdktn.IResolvable;
 }
@@ -324,7 +324,7 @@ export class EcsDaemonDeploymentConfigurationOutputReference extends cdktn.Compl
   }
 
   // bake_time_in_minutes - computed: true, optional: true, required: false
-  private _bakeTimeInMinutes?: number; 
+  private _bakeTimeInMinutes?: number;
   public get bakeTimeInMinutes() {
     return this.getNumberAttribute('bake_time_in_minutes');
   }
@@ -340,7 +340,7 @@ export class EcsDaemonDeploymentConfigurationOutputReference extends cdktn.Compl
   }
 
   // drain_percent - computed: false, optional: true, required: false
-  private _drainPercent?: number; 
+  private _drainPercent?: number;
   public get drainPercent() {
     return this.getNumberAttribute('drain_percent');
   }
@@ -395,19 +395,19 @@ export interface EcsDaemonTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#create EcsDaemon#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#create EcsDaemon#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#delete EcsDaemon#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#delete EcsDaemon#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#update EcsDaemon#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#update EcsDaemon#update}
   */
   readonly update?: string;
 }
@@ -510,7 +510,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -526,7 +526,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -542,7 +542,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -559,7 +559,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon aws_ecs_daemon}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon aws_ecs_daemon}
 */
 export class EcsDaemon extends cdktn.TerraformResource {
 
@@ -575,7 +575,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcsDaemon resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsDaemon to import
-  * @param importFromId The id of the existing EcsDaemon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsDaemon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsDaemon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -587,7 +587,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,7 +598,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ecs_daemon',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -631,7 +631,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // capacity_provider_arns - computed: false, optional: false, required: true
-  private _capacityProviderArns?: string[]; 
+  private _capacityProviderArns?: string[];
   public get capacityProviderArns() {
     return cdktn.Fn.tolist(this.getListAttribute('capacity_provider_arns'));
   }
@@ -644,7 +644,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string; 
+  private _clusterArn?: string;
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -660,7 +660,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // daemon_task_definition_arn - computed: false, optional: false, required: true
-  private _daemonTaskDefinitionArn?: string; 
+  private _daemonTaskDefinitionArn?: string;
   public get daemonTaskDefinitionArn() {
     return this.getStringAttribute('daemon_task_definition_arn');
   }
@@ -678,7 +678,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -694,7 +694,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -710,7 +710,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -723,7 +723,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -739,7 +739,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -760,7 +760,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

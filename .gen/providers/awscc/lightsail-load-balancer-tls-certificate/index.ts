@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface LightsailLoadBalancerTlsCertificateConfig extends cdktn.Terrafo
   /**
   * An array of strings listing alternative domains and subdomains for your SSL/TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_alternative_names LightsailLoadBalancerTlsCertificate#certificate_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_alternative_names LightsailLoadBalancerTlsCertificate#certificate_alternative_names}
   */
   readonly certificateAlternativeNames?: string[];
   /**
   * The domain name (e.g., example.com ) for your SSL/TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_domain_name LightsailLoadBalancerTlsCertificate#certificate_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_domain_name LightsailLoadBalancerTlsCertificate#certificate_domain_name}
   */
   readonly certificateDomainName: string;
   /**
   * The SSL/TLS certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_name LightsailLoadBalancerTlsCertificate#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_name LightsailLoadBalancerTlsCertificate#certificate_name}
   */
   readonly certificateName: string;
   /**
   * A Boolean value that indicates whether HTTPS redirection is enabled for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#https_redirection_enabled LightsailLoadBalancerTlsCertificate#https_redirection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#https_redirection_enabled LightsailLoadBalancerTlsCertificate#https_redirection_enabled}
   */
   readonly httpsRedirectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * When true, the SSL/TLS certificate is attached to the Lightsail load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#is_attached LightsailLoadBalancerTlsCertificate#is_attached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#is_attached LightsailLoadBalancerTlsCertificate#is_attached}
   */
   readonly isAttached?: boolean | cdktn.IResolvable;
   /**
   * The name of your load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#load_balancer_name LightsailLoadBalancerTlsCertificate#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#load_balancer_name LightsailLoadBalancerTlsCertificate#load_balancer_name}
   */
   readonly loadBalancerName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}
 */
 export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource {
 
@@ -62,7 +62,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   * Generates CDKTN code for importing a LightsailLoadBalancerTlsCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailLoadBalancerTlsCertificate to import
-  * @param importFromId The id of the existing LightsailLoadBalancerTlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailLoadBalancerTlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailLoadBalancerTlsCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -74,7 +74,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
       terraformResourceType: 'awscc_lightsail_load_balancer_tls_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,7 +108,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   // ==========
 
   // certificate_alternative_names - computed: true, optional: true, required: false
-  private _certificateAlternativeNames?: string[]; 
+  private _certificateAlternativeNames?: string[];
   public get certificateAlternativeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_alternative_names'));
   }
@@ -124,7 +124,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // certificate_domain_name - computed: false, optional: false, required: true
-  private _certificateDomainName?: string; 
+  private _certificateDomainName?: string;
   public get certificateDomainName() {
     return this.getStringAttribute('certificate_domain_name');
   }
@@ -137,7 +137,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // certificate_name - computed: false, optional: false, required: true
-  private _certificateName?: string; 
+  private _certificateName?: string;
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -150,7 +150,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // https_redirection_enabled - computed: true, optional: true, required: false
-  private _httpsRedirectionEnabled?: boolean | cdktn.IResolvable; 
+  private _httpsRedirectionEnabled?: boolean | cdktn.IResolvable;
   public get httpsRedirectionEnabled() {
     return this.getBooleanAttribute('https_redirection_enabled');
   }
@@ -171,7 +171,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // is_attached - computed: true, optional: true, required: false
-  private _isAttached?: boolean | cdktn.IResolvable; 
+  private _isAttached?: boolean | cdktn.IResolvable;
   public get isAttached() {
     return this.getBooleanAttribute('is_attached');
   }
@@ -187,7 +187,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // load_balancer_name - computed: false, optional: false, required: true
-  private _loadBalancerName?: string; 
+  private _loadBalancerName?: string;
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }

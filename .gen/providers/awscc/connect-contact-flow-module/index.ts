@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ConnectContactFlowModuleConfig extends cdktn.TerraformMetaArgum
   /**
   * The content of the contact flow module in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
   */
   readonly content: string;
   /**
   * The description of the contact flow module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
   */
   readonly description?: string;
   /**
   * Defines the external invocation configuration of the flow module resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
   */
   readonly externalInvocationConfiguration?: ConnectContactFlowModuleExternalInvocationConfiguration;
   /**
   * The identifier of the Amazon Connect instance (ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the contact flow module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
   */
   readonly name: string;
   /**
   * The schema of the settings for contact flow module in JSON Schema V4 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
   */
   readonly settings?: string;
   /**
   * The state of the contact flow module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
   */
   readonly state?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
   */
   readonly tags?: ConnectContactFlowModuleTags[] | cdktn.IResolvable;
 }
@@ -60,7 +60,7 @@ export interface ConnectContactFlowModuleExternalInvocationConfiguration {
   /**
   * Specifies whether the flow module resource is enabled for external invocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#enabled ConnectContactFlowModule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#enabled ConnectContactFlowModule#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -137,7 +137,7 @@ export class ConnectContactFlowModuleExternalInvocationConfigurationOutputRefere
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -156,13 +156,13 @@ export interface ConnectContactFlowModuleTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#key ConnectContactFlowModule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#key ConnectContactFlowModule#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#value ConnectContactFlowModule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#value ConnectContactFlowModule#value}
   */
   readonly value?: string;
 }
@@ -254,7 +254,7 @@ export class ConnectContactFlowModuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -270,7 +270,7 @@ export class ConnectContactFlowModuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -307,7 +307,7 @@ export class ConnectContactFlowModuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module}
 */
 export class ConnectContactFlowModule extends cdktn.TerraformResource {
 
@@ -323,7 +323,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectContactFlowModule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectContactFlowModule to import
-  * @param importFromId The id of the existing ConnectContactFlowModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectContactFlowModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectContactFlowModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -335,7 +335,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,7 +346,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_contact_flow_module',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -376,7 +376,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -389,7 +389,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -426,7 +426,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -439,7 +439,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -452,7 +452,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // settings - computed: true, optional: true, required: false
-  private _settings?: string; 
+  private _settings?: string;
   public get settings() {
     return this.getStringAttribute('settings');
   }
@@ -468,7 +468,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }

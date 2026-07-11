@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoUserConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#attributes CognitoUser#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#attributes CognitoUser#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#client_metadata CognitoUser#client_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#client_metadata CognitoUser#client_metadata}
   */
   readonly clientMetadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#desired_delivery_mediums CognitoUser#desired_delivery_mediums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#desired_delivery_mediums CognitoUser#desired_delivery_mediums}
   */
   readonly desiredDeliveryMediums?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#enabled CognitoUser#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#enabled CognitoUser#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#force_alias_creation CognitoUser#force_alias_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#force_alias_creation CognitoUser#force_alias_creation}
   */
   readonly forceAliasCreation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#id CognitoUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#id CognitoUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#message_action CognitoUser#message_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#message_action CognitoUser#message_action}
   */
   readonly messageAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#password CognitoUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#password CognitoUser#password}
   */
   readonly password?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#region CognitoUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#region CognitoUser#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#temporary_password CognitoUser#temporary_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#temporary_password CognitoUser#temporary_password}
   */
   readonly temporaryPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#user_pool_id CognitoUser#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#user_pool_id CognitoUser#user_pool_id}
   */
   readonly userPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#username CognitoUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#username CognitoUser#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#validation_data CognitoUser#validation_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#validation_data CognitoUser#validation_data}
   */
   readonly validationData?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user aws_cognito_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user aws_cognito_user}
 */
 export class CognitoUser extends cdktn.TerraformResource {
 
@@ -83,7 +83,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoUser to import
-  * @param importFromId The id of the existing CognitoUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -95,7 +95,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_user aws_cognito_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_user aws_cognito_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,7 +106,7 @@ export class CognitoUser extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cognito_user',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,7 +136,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   // ==========
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -152,7 +152,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // client_metadata - computed: false, optional: true, required: false
-  private _clientMetadata?: { [key: string]: string }; 
+  private _clientMetadata?: { [key: string]: string };
   public get clientMetadata() {
     return this.getStringMapAttribute('client_metadata');
   }
@@ -173,7 +173,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // desired_delivery_mediums - computed: false, optional: true, required: false
-  private _desiredDeliveryMediums?: string[]; 
+  private _desiredDeliveryMediums?: string[];
   public get desiredDeliveryMediums() {
     return cdktn.Fn.tolist(this.getListAttribute('desired_delivery_mediums'));
   }
@@ -189,7 +189,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -205,7 +205,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // force_alias_creation - computed: false, optional: true, required: false
-  private _forceAliasCreation?: boolean | cdktn.IResolvable; 
+  private _forceAliasCreation?: boolean | cdktn.IResolvable;
   public get forceAliasCreation() {
     return this.getBooleanAttribute('force_alias_creation');
   }
@@ -221,7 +221,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -242,7 +242,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // message_action - computed: false, optional: true, required: false
-  private _messageAction?: string; 
+  private _messageAction?: string;
   public get messageAction() {
     return this.getStringAttribute('message_action');
   }
@@ -263,7 +263,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -284,7 +284,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -310,7 +310,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // temporary_password - computed: false, optional: true, required: false
-  private _temporaryPassword?: string; 
+  private _temporaryPassword?: string;
   public get temporaryPassword() {
     return this.getStringAttribute('temporary_password');
   }
@@ -326,7 +326,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -339,7 +339,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -352,7 +352,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // validation_data - computed: false, optional: true, required: false
-  private _validationData?: { [key: string]: string }; 
+  private _validationData?: { [key: string]: string };
   public get validationData() {
     return this.getStringMapAttribute('validation_data');
   }

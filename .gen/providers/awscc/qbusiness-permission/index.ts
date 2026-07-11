@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface QbusinessPermissionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#actions QbusinessPermission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#actions QbusinessPermission#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#application_id QbusinessPermission#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#application_id QbusinessPermission#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#conditions QbusinessPermission#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#conditions QbusinessPermission#conditions}
   */
   readonly conditions?: QbusinessPermissionConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#principal QbusinessPermission#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#principal QbusinessPermission#principal}
   */
   readonly principal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#statement_id QbusinessPermission#statement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#statement_id QbusinessPermission#statement_id}
   */
   readonly statementId: string;
 }
 export interface QbusinessPermissionConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#condition_key QbusinessPermission#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#condition_key QbusinessPermission#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#condition_operator QbusinessPermission#condition_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#condition_operator QbusinessPermission#condition_operator}
   */
   readonly conditionOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#condition_values QbusinessPermission#condition_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#condition_values QbusinessPermission#condition_values}
   */
   readonly conditionValues?: string[];
 }
@@ -143,7 +143,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -159,7 +159,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_operator - computed: true, optional: true, required: false
-  private _conditionOperator?: string; 
+  private _conditionOperator?: string;
   public get conditionOperator() {
     return this.getStringAttribute('condition_operator');
   }
@@ -175,7 +175,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_values - computed: true, optional: true, required: false
-  private _conditionValues?: string[]; 
+  private _conditionValues?: string[];
   public get conditionValues() {
     return this.getListAttribute('condition_values');
   }
@@ -212,7 +212,7 @@ export class QbusinessPermissionConditionsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission awscc_qbusiness_permission}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission awscc_qbusiness_permission}
 */
 export class QbusinessPermission extends cdktn.TerraformResource {
 
@@ -228,7 +228,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QbusinessPermission resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QbusinessPermission to import
-  * @param importFromId The id of the existing QbusinessPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QbusinessPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QbusinessPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -240,7 +240,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +251,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qbusiness_permission',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -273,7 +273,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   // ==========
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -286,7 +286,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -320,7 +320,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -333,7 +333,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string; 
+  private _statementId?: string;
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

@@ -1,134 +1,134 @@
 // generated from terraform resource schema
 
-import { MedialiveChannelCdiInputSpecification, 
-medialiveChannelCdiInputSpecificationToTerraform, 
-medialiveChannelCdiInputSpecificationToHclTerraform, 
-MedialiveChannelCdiInputSpecificationOutputReference, 
-MedialiveChannelDestinations, 
-medialiveChannelDestinationsToTerraform, 
-medialiveChannelDestinationsToHclTerraform, 
-MedialiveChannelDestinationsList, 
-MedialiveChannelEncoderSettings, 
-medialiveChannelEncoderSettingsToTerraform, 
-medialiveChannelEncoderSettingsToHclTerraform, 
-MedialiveChannelEncoderSettingsOutputReference, 
-MedialiveChannelInputAttachments, 
-medialiveChannelInputAttachmentsToTerraform, 
-medialiveChannelInputAttachmentsToHclTerraform, 
-MedialiveChannelInputAttachmentsList, 
-MedialiveChannelInputSpecification, 
-medialiveChannelInputSpecificationToTerraform, 
-medialiveChannelInputSpecificationToHclTerraform, 
-MedialiveChannelInputSpecificationOutputReference, 
-MedialiveChannelMaintenance, 
-medialiveChannelMaintenanceToTerraform, 
-medialiveChannelMaintenanceToHclTerraform, 
-MedialiveChannelMaintenanceOutputReference, 
-MedialiveChannelTimeouts, 
-medialiveChannelTimeoutsToTerraform, 
-medialiveChannelTimeoutsToHclTerraform, 
-MedialiveChannelTimeoutsOutputReference, 
-MedialiveChannelVpc, 
-medialiveChannelVpcToTerraform, 
-medialiveChannelVpcToHclTerraform, 
-MedialiveChannelVpcOutputReference} from './index-structs/index';
-export * from './index-structs/index';
+import { MedialiveChannelCdiInputSpecification,
+medialiveChannelCdiInputSpecificationToTerraform,
+medialiveChannelCdiInputSpecificationToHclTerraform,
+MedialiveChannelCdiInputSpecificationOutputReference,
+MedialiveChannelDestinations,
+medialiveChannelDestinationsToTerraform,
+medialiveChannelDestinationsToHclTerraform,
+MedialiveChannelDestinationsList,
+MedialiveChannelEncoderSettings,
+medialiveChannelEncoderSettingsToTerraform,
+medialiveChannelEncoderSettingsToHclTerraform,
+MedialiveChannelEncoderSettingsOutputReference,
+MedialiveChannelInputAttachments,
+medialiveChannelInputAttachmentsToTerraform,
+medialiveChannelInputAttachmentsToHclTerraform,
+MedialiveChannelInputAttachmentsList,
+MedialiveChannelInputSpecification,
+medialiveChannelInputSpecificationToTerraform,
+medialiveChannelInputSpecificationToHclTerraform,
+MedialiveChannelInputSpecificationOutputReference,
+MedialiveChannelMaintenance,
+medialiveChannelMaintenanceToTerraform,
+medialiveChannelMaintenanceToHclTerraform,
+MedialiveChannelMaintenanceOutputReference,
+MedialiveChannelTimeouts,
+medialiveChannelTimeoutsToTerraform,
+medialiveChannelTimeoutsToHclTerraform,
+MedialiveChannelTimeoutsOutputReference,
+MedialiveChannelVpc,
+medialiveChannelVpcToTerraform,
+medialiveChannelVpcToHclTerraform,
+MedialiveChannelVpcOutputReference} from './index-structs/index.js';
+export * from './index-structs/index.js';
 import { Construct } from 'constructs';
 import * as cdktn from 'cdktn';
 export interface MedialiveChannelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}
   */
   readonly channelClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#id MedialiveChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#id MedialiveChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#name MedialiveChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#name MedialiveChannel#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#region MedialiveChannel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#region MedialiveChannel#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}
   */
   readonly startChannel?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * cdi_input_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
   */
   readonly cdiInputSpecification?: MedialiveChannelCdiInputSpecification;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
   */
   readonly destinations: MedialiveChannelDestinations[] | cdktn.IResolvable;
   /**
   * encoder_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
   */
   readonly encoderSettings: MedialiveChannelEncoderSettings;
   /**
   * input_attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
   */
   readonly inputAttachments: MedialiveChannelInputAttachments[] | cdktn.IResolvable;
   /**
   * input_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
   */
   readonly inputSpecification: MedialiveChannelInputSpecification;
   /**
   * maintenance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
   */
   readonly maintenance?: MedialiveChannelMaintenance;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
   */
   readonly timeouts?: MedialiveChannelTimeouts;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
   */
   readonly vpc?: MedialiveChannelVpc;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel aws_medialive_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel aws_medialive_channel}
 */
 export class MedialiveChannel extends cdktn.TerraformResource {
 
@@ -144,7 +144,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveChannel to import
-  * @param importFromId The id of the existing MedialiveChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -156,7 +156,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_channel aws_medialive_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel aws_medialive_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,7 +167,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
       terraformResourceType: 'aws_medialive_channel',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -206,7 +206,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // channel_class - computed: false, optional: false, required: true
-  private _channelClass?: string; 
+  private _channelClass?: string;
   public get channelClass() {
     return this.getStringAttribute('channel_class');
   }
@@ -224,7 +224,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -240,7 +240,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -256,7 +256,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -269,7 +269,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -301,7 +301,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // start_channel - computed: false, optional: true, required: false
-  private _startChannel?: boolean | cdktn.IResolvable; 
+  private _startChannel?: boolean | cdktn.IResolvable;
   public get startChannel() {
     return this.getBooleanAttribute('start_channel');
   }
@@ -317,7 +317,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -333,7 +333,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

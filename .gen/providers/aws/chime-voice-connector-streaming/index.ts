@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface ChimeVoiceConnectorStreamingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#data_retention ChimeVoiceConnectorStreaming#data_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#data_retention ChimeVoiceConnectorStreaming#data_retention}
   */
   readonly dataRetention: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#disabled ChimeVoiceConnectorStreaming#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#disabled ChimeVoiceConnectorStreaming#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#id ChimeVoiceConnectorStreaming#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#id ChimeVoiceConnectorStreaming#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface ChimeVoiceConnectorStreamingConfig extends cdktn.TerraformMetaA
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#region ChimeVoiceConnectorStreaming#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#region ChimeVoiceConnectorStreaming#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#streaming_notification_targets ChimeVoiceConnectorStreaming#streaming_notification_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#streaming_notification_targets ChimeVoiceConnectorStreaming#streaming_notification_targets}
   */
   readonly streamingNotificationTargets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#voice_connector_id ChimeVoiceConnectorStreaming#voice_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#voice_connector_id ChimeVoiceConnectorStreaming#voice_connector_id}
   */
   readonly voiceConnectorId: string;
   /**
   * media_insights_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#media_insights_configuration ChimeVoiceConnectorStreaming#media_insights_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#media_insights_configuration ChimeVoiceConnectorStreaming#media_insights_configuration}
   */
   readonly mediaInsightsConfiguration?: ChimeVoiceConnectorStreamingMediaInsightsConfiguration;
 }
 export interface ChimeVoiceConnectorStreamingMediaInsightsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#configuration_arn ChimeVoiceConnectorStreaming#configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#configuration_arn ChimeVoiceConnectorStreaming#configuration_arn}
   */
   readonly configurationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#disabled ChimeVoiceConnectorStreaming#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#disabled ChimeVoiceConnectorStreaming#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
 }
@@ -129,7 +129,7 @@ export class ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferen
   }
 
   // configuration_arn - computed: false, optional: true, required: false
-  private _configurationArn?: string; 
+  private _configurationArn?: string;
   public get configurationArn() {
     return this.getStringAttribute('configuration_arn');
   }
@@ -145,7 +145,7 @@ export class ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferen
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -162,7 +162,7 @@ export class ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming}
 */
 export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
 
@@ -178,7 +178,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimeVoiceConnectorStreaming resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimeVoiceConnectorStreaming to import
-  * @param importFromId The id of the existing ChimeVoiceConnectorStreaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimeVoiceConnectorStreaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimeVoiceConnectorStreaming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -190,7 +190,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,7 +201,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
       terraformResourceType: 'aws_chime_voice_connector_streaming',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -225,7 +225,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   // ==========
 
   // data_retention - computed: false, optional: false, required: true
-  private _dataRetention?: number; 
+  private _dataRetention?: number;
   public get dataRetention() {
     return this.getNumberAttribute('data_retention');
   }
@@ -238,7 +238,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -254,7 +254,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -270,7 +270,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -286,7 +286,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // streaming_notification_targets - computed: false, optional: true, required: false
-  private _streamingNotificationTargets?: string[]; 
+  private _streamingNotificationTargets?: string[];
   public get streamingNotificationTargets() {
     return cdktn.Fn.tolist(this.getListAttribute('streaming_notification_targets'));
   }
@@ -302,7 +302,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string; 
+  private _voiceConnectorId?: string;
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

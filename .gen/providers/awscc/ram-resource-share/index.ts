@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface RamResourceShareConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies whether principals outside your organization in AWS Organizations can be associated with a resource share. A value of `true` lets you share with individual AWS accounts that are not in your organization. A value of `false` only has meaning if your account is a member of an AWS Organization. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
   */
   readonly allowExternalPrincipals?: boolean | cdktn.IResolvable;
   /**
   * Specifies the name of the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#name RamResourceShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#name RamResourceShare#name}
   */
   readonly name: string;
   /**
   * Specifies the [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the AWS RAM permission to associate with the resource share. If you do not specify an ARN for the permission, AWS RAM automatically attaches the default version of the permission for each resource type. You can associate only one permission with each resource type included in the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
   */
   readonly permissionArns?: string[];
   /**
   * Specifies the principals to associate with the resource share. The possible values are:
-  * 
+  *
   * - An AWS account ID
-  * 
+  *
   * - An Amazon Resource Name (ARN) of an organization in AWS Organizations
-  * 
+  *
   * - An ARN of an organizational unit (OU) in AWS Organizations
-  * 
+  *
   * - An ARN of an IAM role
-  * 
+  *
   * - An ARN of an IAM user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
   */
   readonly principals?: string[];
   /**
   * Specifies a list of one or more ARNs of the resources to associate with the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
   */
   readonly resourceArns?: string[];
   /**
   * Specifies the configuration for the resource share
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
   */
   readonly resourceShareConfiguration?: RamResourceShareResourceShareConfiguration;
   /**
   * Specifies from which source accounts the service principal has access to the resources in this resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
   */
   readonly sources?: string[];
   /**
   * Specifies one or more tags to attach to the resource share itself. It doesn't attach the tags to the resources associated with the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
   */
   readonly tags?: RamResourceShareTags[] | cdktn.IResolvable;
 }
@@ -70,13 +70,13 @@ export interface RamResourceShareResourceShareConfiguration {
   /**
   * The resource share restricts access to an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
   */
   readonly exclusiveAccountAccess?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the consumer account retains access to the resource share after leaving the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
   */
   readonly retainSharingOnAccountLeaveOrganization?: boolean | cdktn.IResolvable;
 }
@@ -166,7 +166,7 @@ export class RamResourceShareResourceShareConfigurationOutputReference extends c
   }
 
   // exclusive_account_access - computed: true, optional: true, required: false
-  private _exclusiveAccountAccess?: boolean | cdktn.IResolvable; 
+  private _exclusiveAccountAccess?: boolean | cdktn.IResolvable;
   public get exclusiveAccountAccess() {
     return this.getBooleanAttribute('exclusive_account_access');
   }
@@ -182,7 +182,7 @@ export class RamResourceShareResourceShareConfigurationOutputReference extends c
   }
 
   // retain_sharing_on_account_leave_organization - computed: true, optional: true, required: false
-  private _retainSharingOnAccountLeaveOrganization?: boolean | cdktn.IResolvable; 
+  private _retainSharingOnAccountLeaveOrganization?: boolean | cdktn.IResolvable;
   public get retainSharingOnAccountLeaveOrganization() {
     return this.getBooleanAttribute('retain_sharing_on_account_leave_organization');
   }
@@ -201,13 +201,13 @@ export interface RamResourceShareTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#key RamResourceShare#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#key RamResourceShare#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#value RamResourceShare#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#value RamResourceShare#value}
   */
   readonly value?: string;
 }
@@ -299,7 +299,7 @@ export class RamResourceShareTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -315,7 +315,7 @@ export class RamResourceShareTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -352,7 +352,7 @@ export class RamResourceShareTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share awscc_ram_resource_share}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share awscc_ram_resource_share}
 */
 export class RamResourceShare extends cdktn.TerraformResource {
 
@@ -368,7 +368,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RamResourceShare resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamResourceShare to import
-  * @param importFromId The id of the existing RamResourceShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamResourceShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamResourceShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -380,7 +380,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ram_resource_share awscc_ram_resource_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share awscc_ram_resource_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,7 +391,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ram_resource_share',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -416,7 +416,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   // ==========
 
   // allow_external_principals - computed: true, optional: true, required: false
-  private _allowExternalPrincipals?: boolean | cdktn.IResolvable; 
+  private _allowExternalPrincipals?: boolean | cdktn.IResolvable;
   public get allowExternalPrincipals() {
     return this.getBooleanAttribute('allow_external_principals');
   }
@@ -457,7 +457,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -475,7 +475,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // permission_arns - computed: true, optional: true, required: false
-  private _permissionArns?: string[]; 
+  private _permissionArns?: string[];
   public get permissionArns() {
     return this.getListAttribute('permission_arns');
   }
@@ -491,7 +491,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[]; 
+  private _principals?: string[];
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -507,7 +507,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[]; 
+  private _resourceArns?: string[];
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -539,7 +539,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // sources - computed: true, optional: true, required: false
-  private _sources?: string[]; 
+  private _sources?: string[];
   public get sources() {
     return this.getListAttribute('sources');
   }

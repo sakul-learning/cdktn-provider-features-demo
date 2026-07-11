@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktn from 'cdktn';
 
 export interface SsmPatchBaselineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approved_patches SsmPatchBaseline#approved_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approved_patches SsmPatchBaseline#approved_patches}
   */
   readonly approvedPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approved_patches_compliance_level SsmPatchBaseline#approved_patches_compliance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approved_patches_compliance_level SsmPatchBaseline#approved_patches_compliance_level}
   */
   readonly approvedPatchesComplianceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approved_patches_enable_non_security SsmPatchBaseline#approved_patches_enable_non_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approved_patches_enable_non_security SsmPatchBaseline#approved_patches_enable_non_security}
   */
   readonly approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#available_security_updates_compliance_status SsmPatchBaseline#available_security_updates_compliance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#available_security_updates_compliance_status SsmPatchBaseline#available_security_updates_compliance_status}
   */
   readonly availableSecurityUpdatesComplianceStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#description SsmPatchBaseline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#description SsmPatchBaseline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#id SsmPatchBaseline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#id SsmPatchBaseline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#operating_system SsmPatchBaseline#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#operating_system SsmPatchBaseline#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#region SsmPatchBaseline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#region SsmPatchBaseline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#rejected_patches SsmPatchBaseline#rejected_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#rejected_patches SsmPatchBaseline#rejected_patches}
   */
   readonly rejectedPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#rejected_patches_action SsmPatchBaseline#rejected_patches_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#rejected_patches_action SsmPatchBaseline#rejected_patches_action}
   */
   readonly rejectedPatchesAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#tags SsmPatchBaseline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#tags SsmPatchBaseline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#tags_all SsmPatchBaseline#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#tags_all SsmPatchBaseline#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * approval_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approval_rule SsmPatchBaseline#approval_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approval_rule SsmPatchBaseline#approval_rule}
   */
   readonly approvalRule?: SsmPatchBaselineApprovalRule[] | cdktn.IResolvable;
   /**
   * global_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#global_filter SsmPatchBaseline#global_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#global_filter SsmPatchBaseline#global_filter}
   */
   readonly globalFilter?: SsmPatchBaselineGlobalFilter[] | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#source SsmPatchBaseline#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#source SsmPatchBaseline#source}
   */
   readonly source?: SsmPatchBaselineSource[] | cdktn.IResolvable;
 }
 export interface SsmPatchBaselineApprovalRulePatchFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}
   */
   readonly values: string[];
 }
@@ -181,7 +181,7 @@ export class SsmPatchBaselineApprovalRulePatchFilterOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -194,7 +194,7 @@ export class SsmPatchBaselineApprovalRulePatchFilterOutputReference extends cdkt
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -228,25 +228,25 @@ export class SsmPatchBaselineApprovalRulePatchFilterList extends cdktn.ComplexLi
 }
 export interface SsmPatchBaselineApprovalRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approve_after_days SsmPatchBaseline#approve_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approve_after_days SsmPatchBaseline#approve_after_days}
   */
   readonly approveAfterDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#approve_until_date SsmPatchBaseline#approve_until_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#approve_until_date SsmPatchBaseline#approve_until_date}
   */
   readonly approveUntilDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#compliance_level SsmPatchBaseline#compliance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#compliance_level SsmPatchBaseline#compliance_level}
   */
   readonly complianceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#enable_non_security SsmPatchBaseline#enable_non_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#enable_non_security SsmPatchBaseline#enable_non_security}
   */
   readonly enableNonSecurity?: boolean | cdktn.IResolvable;
   /**
   * patch_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#patch_filter SsmPatchBaseline#patch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#patch_filter SsmPatchBaseline#patch_filter}
   */
   readonly patchFilter: SsmPatchBaselineApprovalRulePatchFilter[] | cdktn.IResolvable;
 }
@@ -377,7 +377,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // approve_after_days - computed: false, optional: true, required: false
-  private _approveAfterDays?: number; 
+  private _approveAfterDays?: number;
   public get approveAfterDays() {
     return this.getNumberAttribute('approve_after_days');
   }
@@ -393,7 +393,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // approve_until_date - computed: false, optional: true, required: false
-  private _approveUntilDate?: string; 
+  private _approveUntilDate?: string;
   public get approveUntilDate() {
     return this.getStringAttribute('approve_until_date');
   }
@@ -409,7 +409,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // compliance_level - computed: false, optional: true, required: false
-  private _complianceLevel?: string; 
+  private _complianceLevel?: string;
   public get complianceLevel() {
     return this.getStringAttribute('compliance_level');
   }
@@ -425,7 +425,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // enable_non_security - computed: false, optional: true, required: false
-  private _enableNonSecurity?: boolean | cdktn.IResolvable; 
+  private _enableNonSecurity?: boolean | cdktn.IResolvable;
   public get enableNonSecurity() {
     return this.getBooleanAttribute('enable_non_security');
   }
@@ -475,11 +475,11 @@ export class SsmPatchBaselineApprovalRuleList extends cdktn.ComplexList {
 }
 export interface SsmPatchBaselineGlobalFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#key SsmPatchBaseline#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#values SsmPatchBaseline#values}
   */
   readonly values: string[];
 }
@@ -571,7 +571,7 @@ export class SsmPatchBaselineGlobalFilterOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class SsmPatchBaselineGlobalFilterOutputReference extends cdktn.ComplexOb
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -618,15 +618,15 @@ export class SsmPatchBaselineGlobalFilterList extends cdktn.ComplexList {
 }
 export interface SsmPatchBaselineSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#configuration SsmPatchBaseline#configuration}
   */
   readonly configuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#name SsmPatchBaseline#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#products SsmPatchBaseline#products}
   */
   readonly products: string[];
 }
@@ -731,7 +731,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // configuration - computed: false, optional: false, required: true
-  private _configuration?: string; 
+  private _configuration?: string;
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -744,7 +744,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -757,7 +757,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // products - computed: false, optional: false, required: true
-  private _products?: string[]; 
+  private _products?: string[];
   public get products() {
     return this.getListAttribute('products');
   }
@@ -791,7 +791,7 @@ export class SsmPatchBaselineSourceList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline aws_ssm_patch_baseline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline aws_ssm_patch_baseline}
 */
 export class SsmPatchBaseline extends cdktn.TerraformResource {
 
@@ -807,7 +807,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmPatchBaseline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmPatchBaseline to import
-  * @param importFromId The id of the existing SsmPatchBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmPatchBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmPatchBaseline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -819,7 +819,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_patch_baseline aws_ssm_patch_baseline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_patch_baseline aws_ssm_patch_baseline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -830,7 +830,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ssm_patch_baseline',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -863,7 +863,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   // ==========
 
   // approved_patches - computed: false, optional: true, required: false
-  private _approvedPatches?: string[]; 
+  private _approvedPatches?: string[];
   public get approvedPatches() {
     return cdktn.Fn.tolist(this.getListAttribute('approved_patches'));
   }
@@ -879,7 +879,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_compliance_level - computed: false, optional: true, required: false
-  private _approvedPatchesComplianceLevel?: string; 
+  private _approvedPatchesComplianceLevel?: string;
   public get approvedPatchesComplianceLevel() {
     return this.getStringAttribute('approved_patches_compliance_level');
   }
@@ -895,7 +895,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_enable_non_security - computed: false, optional: true, required: false
-  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable; 
+  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable;
   public get approvedPatchesEnableNonSecurity() {
     return this.getBooleanAttribute('approved_patches_enable_non_security');
   }
@@ -916,7 +916,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // available_security_updates_compliance_status - computed: true, optional: true, required: false
-  private _availableSecurityUpdatesComplianceStatus?: string; 
+  private _availableSecurityUpdatesComplianceStatus?: string;
   public get availableSecurityUpdatesComplianceStatus() {
     return this.getStringAttribute('available_security_updates_compliance_status');
   }
@@ -932,7 +932,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -948,7 +948,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -969,7 +969,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -982,7 +982,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: false, optional: true, required: false
-  private _operatingSystem?: string; 
+  private _operatingSystem?: string;
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -998,7 +998,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1014,7 +1014,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches - computed: false, optional: true, required: false
-  private _rejectedPatches?: string[]; 
+  private _rejectedPatches?: string[];
   public get rejectedPatches() {
     return cdktn.Fn.tolist(this.getListAttribute('rejected_patches'));
   }
@@ -1030,7 +1030,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches_action - computed: true, optional: true, required: false
-  private _rejectedPatchesAction?: string; 
+  private _rejectedPatchesAction?: string;
   public get rejectedPatchesAction() {
     return this.getStringAttribute('rejected_patches_action');
   }
@@ -1046,7 +1046,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1062,7 +1062,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

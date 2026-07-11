@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktn from 'cdktn';
 
 export interface RdsCustomDbEngineVersionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#database_installation_files RdsCustomDbEngineVersion#database_installation_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#database_installation_files RdsCustomDbEngineVersion#database_installation_files}
   */
   readonly databaseInstallationFiles?: string[];
   /**
   * The name of an Amazon S3 bucket that contains database installation files for your CEV. For example, a valid bucket name is ``my-custom-installation-files``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#database_installation_files_s3_bucket_name RdsCustomDbEngineVersion#database_installation_files_s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#database_installation_files_s3_bucket_name RdsCustomDbEngineVersion#database_installation_files_s3_bucket_name}
   */
   readonly databaseInstallationFilesS3BucketName?: string;
   /**
   * The Amazon S3 directory that contains the database installation files for your CEV. For example, a valid bucket name is ``123456789012/cev1``. If this setting isn't specified, no prefix is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#database_installation_files_s3_prefix RdsCustomDbEngineVersion#database_installation_files_s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#database_installation_files_s3_prefix RdsCustomDbEngineVersion#database_installation_files_s3_prefix}
   */
   readonly databaseInstallationFilesS3Prefix?: string;
   /**
   * An optional description of your CEV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#description RdsCustomDbEngineVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#description RdsCustomDbEngineVersion#description}
   */
   readonly description?: string;
   /**
   * The database engine to use for your custom engine version (CEV).
   *  Valid values:
-  *   +   ``custom-oracle-ee`` 
+  *   +   ``custom-oracle-ee``
   *   +   ``custom-oracle-ee-cdb``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#engine RdsCustomDbEngineVersion#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#engine RdsCustomDbEngineVersion#engine}
   */
   readonly engine: string;
   /**
@@ -43,13 +43,13 @@ export interface RdsCustomDbEngineVersionConfig extends cdktn.TerraformMetaArgum
   *  *Constraints:* Minimum length is 1. Maximum length is 60.
   *  *Pattern:*``^[a-z0-9_.-]{1,60$``}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#engine_version RdsCustomDbEngineVersion#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#engine_version RdsCustomDbEngineVersion#engine_version}
   */
   readonly engineVersion: string;
   /**
   * A value that indicates the ID of the AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#image_id RdsCustomDbEngineVersion#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#image_id RdsCustomDbEngineVersion#image_id}
   */
   readonly imageId?: string;
   /**
@@ -57,40 +57,40 @@ export interface RdsCustomDbEngineVersionConfig extends cdktn.TerraformMetaArgum
   *  If you have an existing symmetric encryption KMS key in your account, you can use it with RDS Custom. No further action is necessary. If you don't already have a symmetric encryption KMS key in your account, follow the instructions in [Creating a symmetric encryption KMS key](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html#create-symmetric-cmk) in the *Key Management Service Developer Guide*.
   *  You can choose the same symmetric encryption key when you create a CEV and a DB instance, or choose different keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#kms_key_id RdsCustomDbEngineVersion#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#kms_key_id RdsCustomDbEngineVersion#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The CEV manifest, which is a JSON document that describes the installation .zip files stored in Amazon S3. Specify the name/value pairs in a file or a quoted string. RDS Custom applies the patches in the order in which they are listed.
   *  The following JSON fields are valid:
-  *   + MediaImportTemplateVersion Version of the CEV manifest. The date is in the format YYYY-MM-DD. + databaseInstallationFileNames Ordered list of installation files for the CEV. + opatchFileNames Ordered list of OPatch installers used for the Oracle DB engine. + psuRuPatchFileNames The PSU and RU patches for this CEV. + OtherPatchFileNames The patches that are not in the list of PSU and RU patches. Amazon RDS applies these patches after applying the PSU and RU patches. 
+  *   + MediaImportTemplateVersion Version of the CEV manifest. The date is in the format YYYY-MM-DD. + databaseInstallationFileNames Ordered list of installation files for the CEV. + opatchFileNames Ordered list of OPatch installers used for the Oracle DB engine. + psuRuPatchFileNames The PSU and RU patches for this CEV. + OtherPatchFileNames The patches that are not in the list of PSU and RU patches. Amazon RDS applies these patches after applying the PSU and RU patches.
   *  For more information, see [Creating the CEV manifest](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-cev.html#custom-cev.preparing.manifest) in the *Amazon RDS User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#manifest RdsCustomDbEngineVersion#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#manifest RdsCustomDbEngineVersion#manifest}
   */
   readonly manifest?: string;
   /**
   * The ARN of a CEV to use as a source for creating a new CEV. You can specify a different Amazon Machine Imagine (AMI) by using either ``Source`` or ``UseAwsProvidedLatestImage``. You can't specify a different JSON manifest when you specify ``SourceCustomDbEngineVersionIdentifier``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#source_custom_db_engine_version_identifier RdsCustomDbEngineVersion#source_custom_db_engine_version_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#source_custom_db_engine_version_identifier RdsCustomDbEngineVersion#source_custom_db_engine_version_identifier}
   */
   readonly sourceCustomDbEngineVersionIdentifier?: string;
   /**
   * A value that indicates the status of a custom engine version (CEV).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#status RdsCustomDbEngineVersion#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#status RdsCustomDbEngineVersion#status}
   */
   readonly status?: string;
   /**
   * A list of tags. For more information, see [Tagging Amazon RDS Resources](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html) in the *Amazon RDS User Guide.*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#tags RdsCustomDbEngineVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#tags RdsCustomDbEngineVersion#tags}
   */
   readonly tags?: RdsCustomDbEngineVersionTags[] | cdktn.IResolvable;
   /**
   * Specifies whether to use the latest service-provided Amazon Machine Image (AMI) for the CEV. If you specify ``UseAwsProvidedLatestImage``, you can't also specify ``ImageId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#use_aws_provided_latest_image RdsCustomDbEngineVersion#use_aws_provided_latest_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#use_aws_provided_latest_image RdsCustomDbEngineVersion#use_aws_provided_latest_image}
   */
   readonly useAwsProvidedLatestImage?: boolean | cdktn.IResolvable;
 }
@@ -98,13 +98,13 @@ export interface RdsCustomDbEngineVersionTags {
   /**
   * A key is the required name of the tag. The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#key RdsCustomDbEngineVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#key RdsCustomDbEngineVersion#key}
   */
   readonly key?: string;
   /**
   * A value is the optional value of the tag. The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#value RdsCustomDbEngineVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#value RdsCustomDbEngineVersion#value}
   */
   readonly value?: string;
 }
@@ -196,7 +196,7 @@ export class RdsCustomDbEngineVersionTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -212,7 +212,7 @@ export class RdsCustomDbEngineVersionTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -249,7 +249,7 @@ export class RdsCustomDbEngineVersionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version awscc_rds_custom_db_engine_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version awscc_rds_custom_db_engine_version}
 */
 export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
 
@@ -265,7 +265,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsCustomDbEngineVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsCustomDbEngineVersion to import
-  * @param importFromId The id of the existing RdsCustomDbEngineVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsCustomDbEngineVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsCustomDbEngineVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -277,7 +277,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_custom_db_engine_version awscc_rds_custom_db_engine_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version awscc_rds_custom_db_engine_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,7 +288,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_custom_db_engine_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -318,7 +318,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   // ==========
 
   // database_installation_files - computed: true, optional: true, required: false
-  private _databaseInstallationFiles?: string[]; 
+  private _databaseInstallationFiles?: string[];
   public get databaseInstallationFiles() {
     return this.getListAttribute('database_installation_files');
   }
@@ -334,7 +334,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_bucket_name - computed: true, optional: true, required: false
-  private _databaseInstallationFilesS3BucketName?: string; 
+  private _databaseInstallationFilesS3BucketName?: string;
   public get databaseInstallationFilesS3BucketName() {
     return this.getStringAttribute('database_installation_files_s3_bucket_name');
   }
@@ -350,7 +350,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_prefix - computed: true, optional: true, required: false
-  private _databaseInstallationFilesS3Prefix?: string; 
+  private _databaseInstallationFilesS3Prefix?: string;
   public get databaseInstallationFilesS3Prefix() {
     return this.getStringAttribute('database_installation_files_s3_prefix');
   }
@@ -371,7 +371,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -387,7 +387,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -400,7 +400,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: false, optional: false, required: true
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -418,7 +418,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -434,7 +434,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -450,7 +450,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // manifest - computed: true, optional: true, required: false
-  private _manifest?: string; 
+  private _manifest?: string;
   public get manifest() {
     return this.getStringAttribute('manifest');
   }
@@ -466,7 +466,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // source_custom_db_engine_version_identifier - computed: true, optional: true, required: false
-  private _sourceCustomDbEngineVersionIdentifier?: string; 
+  private _sourceCustomDbEngineVersionIdentifier?: string;
   public get sourceCustomDbEngineVersionIdentifier() {
     return this.getStringAttribute('source_custom_db_engine_version_identifier');
   }
@@ -482,7 +482,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -514,7 +514,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // use_aws_provided_latest_image - computed: true, optional: true, required: false
-  private _useAwsProvidedLatestImage?: boolean | cdktn.IResolvable; 
+  private _useAwsProvidedLatestImage?: boolean | cdktn.IResolvable;
   public get useAwsProvidedLatestImage() {
     return this.getBooleanAttribute('use_aws_provided_latest_image');
   }

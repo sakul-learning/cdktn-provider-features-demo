@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface DatasyncStorageSystemConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#agent_arns DatasyncStorageSystem#agent_arns}
   */
   readonly agentArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#cloudwatch_log_group_arn DatasyncStorageSystem#cloudwatch_log_group_arn}
   */
   readonly cloudwatchLogGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#name DatasyncStorageSystem#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#server_configuration DatasyncStorageSystem#server_configuration}
   */
   readonly serverConfiguration: DatasyncStorageSystemServerConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#server_credentials DatasyncStorageSystem#server_credentials}
   */
   readonly serverCredentials?: DatasyncStorageSystemServerCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#system_type DatasyncStorageSystem#system_type}
   */
   readonly systemType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#tags DatasyncStorageSystem#tags}
   */
   readonly tags?: DatasyncStorageSystemTags[] | cdktn.IResolvable;
 }
 export interface DatasyncStorageSystemServerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#server_hostname DatasyncStorageSystem#server_hostname}
   */
   readonly serverHostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#server_port DatasyncStorageSystem#server_port}
   */
   readonly serverPort?: number;
 }
@@ -132,7 +132,7 @@ export class DatasyncStorageSystemServerConfigurationOutputReference extends cdk
   }
 
   // server_hostname - computed: false, optional: false, required: true
-  private _serverHostname?: string; 
+  private _serverHostname?: string;
   public get serverHostname() {
     return this.getStringAttribute('server_hostname');
   }
@@ -145,7 +145,7 @@ export class DatasyncStorageSystemServerConfigurationOutputReference extends cdk
   }
 
   // server_port - computed: true, optional: true, required: false
-  private _serverPort?: number; 
+  private _serverPort?: number;
   public get serverPort() {
     return this.getNumberAttribute('server_port');
   }
@@ -162,11 +162,11 @@ export class DatasyncStorageSystemServerConfigurationOutputReference extends cdk
 }
 export interface DatasyncStorageSystemServerCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}
   */
   readonly username?: string;
 }
@@ -256,7 +256,7 @@ export class DatasyncStorageSystemServerCredentialsOutputReference extends cdktn
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -272,7 +272,7 @@ export class DatasyncStorageSystemServerCredentialsOutputReference extends cdktn
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -289,11 +289,11 @@ export class DatasyncStorageSystemServerCredentialsOutputReference extends cdktn
 }
 export interface DatasyncStorageSystemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#key DatasyncStorageSystem#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#value DatasyncStorageSystem#value}
   */
   readonly value?: string;
 }
@@ -385,7 +385,7 @@ export class DatasyncStorageSystemTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -401,7 +401,7 @@ export class DatasyncStorageSystemTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -438,7 +438,7 @@ export class DatasyncStorageSystemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system awscc_datasync_storage_system}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system awscc_datasync_storage_system}
 */
 export class DatasyncStorageSystem extends cdktn.TerraformResource {
 
@@ -454,7 +454,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncStorageSystem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncStorageSystem to import
-  * @param importFromId The id of the existing DatasyncStorageSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncStorageSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncStorageSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -466,7 +466,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_storage_system awscc_datasync_storage_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_storage_system awscc_datasync_storage_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,7 +477,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_storage_system',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -501,7 +501,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   // ==========
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[]; 
+  private _agentArns?: string[];
   public get agentArns() {
     return this.getListAttribute('agent_arns');
   }
@@ -514,7 +514,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   }
 
   // cloudwatch_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupArn?: string; 
+  private _cloudwatchLogGroupArn?: string;
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -540,7 +540,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -600,7 +600,7 @@ export class DatasyncStorageSystem extends cdktn.TerraformResource {
   }
 
   // system_type - computed: false, optional: false, required: true
-  private _systemType?: string; 
+  private _systemType?: string;
   public get systemType() {
     return this.getStringAttribute('system_type');
   }

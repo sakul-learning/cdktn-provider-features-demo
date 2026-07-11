@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,248 @@ import * as cdktn from 'cdktn';
 
 export interface ServicecatalogCloudformationProductConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#accept_language ServicecatalogCloudformationProduct#accept_language}
+  * The language code.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#accept_language ServicecatalogCloudformationProduct#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#description ServicecatalogCloudformationProduct#description}
+  * The description of the product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#description ServicecatalogCloudformationProduct#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#distributor ServicecatalogCloudformationProduct#distributor}
+  * The distributor of the product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#distributor ServicecatalogCloudformationProduct#distributor}
   */
   readonly distributor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#name ServicecatalogCloudformationProduct#name}
+  * The name of the product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#name ServicecatalogCloudformationProduct#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#owner ServicecatalogCloudformationProduct#owner}
+  * The owner of the product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#owner ServicecatalogCloudformationProduct#owner}
   */
   readonly owner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#product_type ServicecatalogCloudformationProduct#product_type}
+  * The type of product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#product_type ServicecatalogCloudformationProduct#product_type}
   */
   readonly productType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#provisioning_artifact_parameters ServicecatalogCloudformationProduct#provisioning_artifact_parameters}
+  * The configuration of the provisioning artifact (also known as a version).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#provisioning_artifact_parameters ServicecatalogCloudformationProduct#provisioning_artifact_parameters}
   */
   readonly provisioningArtifactParameters?: ServicecatalogCloudformationProductProvisioningArtifactParameters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#replace_provisioning_artifacts ServicecatalogCloudformationProduct#replace_provisioning_artifacts}
+  * This property is turned off by default. If turned off, you can update provisioning artifacts or product attributes (such as description, distributor, name, owner, and more) and the associated provisioning artifacts will retain the same unique identifier. Provisioning artifacts are matched within the CloudFormationProduct resource, and only those that have been updated will be changed. Provisioning artifacts are matched by a combinaton of provisioning artifact template URL and name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#replace_provisioning_artifacts ServicecatalogCloudformationProduct#replace_provisioning_artifacts}
   */
   readonly replaceProvisioningArtifacts?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#source_connection ServicecatalogCloudformationProduct#source_connection}
+  * A top level ProductViewDetail response containing details about the product's connection. AWS Service Catalog returns this field for the CreateProduct, UpdateProduct, DescribeProductAsAdmin, and SearchProductAsAdmin APIs. This response contains the same fields as the ConnectionParameters request, with the addition of the LastSync response.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#source_connection ServicecatalogCloudformationProduct#source_connection}
   */
   readonly sourceConnection?: ServicecatalogCloudformationProductSourceConnection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#support_description ServicecatalogCloudformationProduct#support_description}
+  * The support information about the product.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#support_description ServicecatalogCloudformationProduct#support_description}
   */
   readonly supportDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#support_email ServicecatalogCloudformationProduct#support_email}
+  * The contact email for product support.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#support_email ServicecatalogCloudformationProduct#support_email}
   */
   readonly supportEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#support_url ServicecatalogCloudformationProduct#support_url}
+  * The contact URL for product support.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#support_url ServicecatalogCloudformationProduct#support_url}
   */
   readonly supportUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#tags ServicecatalogCloudformationProduct#tags}
+  * One or more tags.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#tags ServicecatalogCloudformationProduct#tags}
   */
   readonly tags?: ServicecatalogCloudformationProductTags[] | cdktn.IResolvable;
 }
+export interface ServicecatalogCloudformationProductProvisioningArtifactParametersInfo {
+  /**
+  * The physical id of the resource that contains the template. Currently only supports AWS CloudFormation stack arn
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#import_from_physical_id ServicecatalogCloudformationProduct#import_from_physical_id}
+  */
+  readonly importFromPhysicalId?: string;
+  /**
+  * The URL of the AWS CloudFormation template in Amazon S3 in JSON format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#load_template_from_url ServicecatalogCloudformationProduct#load_template_from_url}
+  */
+  readonly loadTemplateFromUrl?: string;
+}
+
+export function servicecatalogCloudformationProductProvisioningArtifactParametersInfoToTerraform(struct?: ServicecatalogCloudformationProductProvisioningArtifactParametersInfo | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    import_from_physical_id: cdktn.stringToTerraform(struct!.importFromPhysicalId),
+    load_template_from_url: cdktn.stringToTerraform(struct!.loadTemplateFromUrl),
+  }
+}
+
+
+export function servicecatalogCloudformationProductProvisioningArtifactParametersInfoToHclTerraform(struct?: ServicecatalogCloudformationProductProvisioningArtifactParametersInfo | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    import_from_physical_id: {
+      value: cdktn.stringToHclTerraform(struct!.importFromPhysicalId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    load_template_from_url: {
+      value: cdktn.stringToHclTerraform(struct!.loadTemplateFromUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ServicecatalogCloudformationProductProvisioningArtifactParametersInfo | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._importFromPhysicalId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.importFromPhysicalId = this._importFromPhysicalId;
+    }
+    if (this._loadTemplateFromUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadTemplateFromUrl = this._loadTemplateFromUrl;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicecatalogCloudformationProductProvisioningArtifactParametersInfo | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._importFromPhysicalId = undefined;
+      this._loadTemplateFromUrl = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._importFromPhysicalId = value.importFromPhysicalId;
+      this._loadTemplateFromUrl = value.loadTemplateFromUrl;
+    }
+  }
+
+  // import_from_physical_id - computed: true, optional: true, required: false
+  private _importFromPhysicalId?: string;
+  public get importFromPhysicalId() {
+    return this.getStringAttribute('import_from_physical_id');
+  }
+  public set importFromPhysicalId(value: string) {
+    this._importFromPhysicalId = value;
+  }
+  public resetImportFromPhysicalId() {
+    this._importFromPhysicalId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get importFromPhysicalIdInput() {
+    return this._importFromPhysicalId;
+  }
+
+  // load_template_from_url - computed: true, optional: true, required: false
+  private _loadTemplateFromUrl?: string;
+  public get loadTemplateFromUrl() {
+    return this.getStringAttribute('load_template_from_url');
+  }
+  public set loadTemplateFromUrl(value: string) {
+    this._loadTemplateFromUrl = value;
+  }
+  public resetLoadTemplateFromUrl() {
+    this._loadTemplateFromUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadTemplateFromUrlInput() {
+    return this._loadTemplateFromUrl;
+  }
+}
 export interface ServicecatalogCloudformationProductProvisioningArtifactParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#description ServicecatalogCloudformationProduct#description}
+  * The description of the provisioning artifact, including how it differs from the previous provisioning artifact.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#description ServicecatalogCloudformationProduct#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#disable_template_validation ServicecatalogCloudformationProduct#disable_template_validation}
+  * If set to true, AWS Service Catalog stops validating the specified provisioning artifact even if it is invalid.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#disable_template_validation ServicecatalogCloudformationProduct#disable_template_validation}
   */
   readonly disableTemplateValidation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#info ServicecatalogCloudformationProduct#info}
+  * Specify the template source with one of the following options, but not both. Keys accepted: [ LoadTemplateFromURL, ImportFromPhysicalId ] The URL of the AWS CloudFormation template in Amazon S3 in JSON format. Specify the URL in JSON format as follows:
+  *
+  * "LoadTemplateFromURL": "https://s3.amazonaws.com/cf-templates-ozkq9d3hgiq2-us-east-1/..."
+  *
+  * ImportFromPhysicalId: The physical id of the resource that contains the template. Currently only supports AWS CloudFormation stack arn. Specify the physical id in JSON format as follows: ImportFromPhysicalId: "arn:aws:cloudformation:[us-east-1]:[accountId]:stack/[StackName]/[resourceId]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#info ServicecatalogCloudformationProduct#info}
   */
-  readonly info?: string;
+  readonly info?: ServicecatalogCloudformationProductProvisioningArtifactParametersInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#name ServicecatalogCloudformationProduct#name}
+  * The name of the provisioning artifact (for example, v1 v2beta). No spaces are allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#name ServicecatalogCloudformationProduct#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#type ServicecatalogCloudformationProduct#type}
+  * The type of provisioning artifact. Valid values are CLOUD_FORMATION_TEMPLATE, TERRAFORM_OPEN_SOURCE, TERRAFORM_CLOUD, EXTERNAL
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#type ServicecatalogCloudformationProduct#type}
   */
   readonly type?: string;
 }
@@ -91,7 +262,7 @@ export function servicecatalogCloudformationProductProvisioningArtifactParameter
   return {
     description: cdktn.stringToTerraform(struct!.description),
     disable_template_validation: cdktn.booleanToTerraform(struct!.disableTemplateValidation),
-    info: cdktn.stringToTerraform(struct!.info),
+    info: servicecatalogCloudformationProductProvisioningArtifactParametersInfoToTerraform(struct!.info),
     name: cdktn.stringToTerraform(struct!.name),
     type: cdktn.stringToTerraform(struct!.type),
   }
@@ -117,10 +288,10 @@ export function servicecatalogCloudformationProductProvisioningArtifactParameter
       storageClassType: "boolean",
     },
     info: {
-      value: cdktn.stringToHclTerraform(struct!.info),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+      value: servicecatalogCloudformationProductProvisioningArtifactParametersInfoToHclTerraform(struct!.info),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ServicecatalogCloudformationProductProvisioningArtifactParametersInfo",
     },
     name: {
       value: cdktn.stringToHclTerraform(struct!.name),
@@ -168,9 +339,9 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
       hasAnyValues = true;
       internalValueResult.disableTemplateValidation = this._disableTemplateValidation;
     }
-    if (this._info !== undefined) {
+    if (this._info?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.info = this._info;
+      internalValueResult.info = this._info?.internalValue;
     }
     if (this._name !== undefined) {
       hasAnyValues = true;
@@ -189,7 +360,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
       this.resolvableValue = undefined;
       this._description = undefined;
       this._disableTemplateValidation = undefined;
-      this._info = undefined;
+      this._info.internalValue = undefined;
       this._name = undefined;
       this._type = undefined;
     }
@@ -202,14 +373,14 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
       this.resolvableValue = undefined;
       this._description = value.description;
       this._disableTemplateValidation = value.disableTemplateValidation;
-      this._info = value.info;
+      this._info.internalValue = value.info;
       this._name = value.name;
       this._type = value.type;
     }
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -225,7 +396,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // disable_template_validation - computed: true, optional: true, required: false
-  private _disableTemplateValidation?: boolean | cdktn.IResolvable; 
+  private _disableTemplateValidation?: boolean | cdktn.IResolvable;
   public get disableTemplateValidation() {
     return this.getBooleanAttribute('disable_template_validation');
   }
@@ -241,23 +412,23 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // info - computed: true, optional: true, required: false
-  private _info?: string; 
+  private _info = new ServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference(this, "info");
   public get info() {
-    return this.getStringAttribute('info');
+    return this._info;
   }
-  public set info(value: string) {
-    this._info = value;
+  public putInfo(value: ServicecatalogCloudformationProductProvisioningArtifactParametersInfo) {
+    this._info.internalValue = value;
   }
   public resetInfo() {
-    this._info = undefined;
+    this._info.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get infoInput() {
-    return this._info;
+    return this._info.internalValue;
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -273,7 +444,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -310,19 +481,29 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersLi
 }
 export interface ServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#artifact_path ServicecatalogCloudformationProduct#artifact_path}
+  * The absolute path where the artifact resides within the repo and branch, formatted as "folder/file.json".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#artifact_path ServicecatalogCloudformationProduct#artifact_path}
   */
   readonly artifactPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#branch ServicecatalogCloudformationProduct#branch}
+  * The specific branch where the artifact resides.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#branch ServicecatalogCloudformationProduct#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#connection_arn ServicecatalogCloudformationProduct#connection_arn}
+  * The CodeStar ARN, which is the connection between AWS Service Catalog and the external repository.
+  *
+  *
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#connection_arn ServicecatalogCloudformationProduct#connection_arn}
   */
   readonly connectionArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#repository ServicecatalogCloudformationProduct#repository}
+  * The specific repository where the product's artifact-to-be-synced resides, formatted as "Account/Repo."
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#repository ServicecatalogCloudformationProduct#repository}
   */
   readonly repository?: string;
 }
@@ -438,7 +619,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // artifact_path - computed: true, optional: true, required: false
-  private _artifactPath?: string; 
+  private _artifactPath?: string;
   public get artifactPath() {
     return this.getStringAttribute('artifact_path');
   }
@@ -454,7 +635,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // branch - computed: true, optional: true, required: false
-  private _branch?: string; 
+  private _branch?: string;
   public get branch() {
     return this.getStringAttribute('branch');
   }
@@ -470,7 +651,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string; 
+  private _connectionArn?: string;
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -486,7 +667,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // repository - computed: true, optional: true, required: false
-  private _repository?: string; 
+  private _repository?: string;
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -503,7 +684,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
 }
 export interface ServicecatalogCloudformationProductSourceConnectionConnectionParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#code_star ServicecatalogCloudformationProduct#code_star}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#code_star ServicecatalogCloudformationProduct#code_star}
   */
   readonly codeStar?: ServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStar;
 }
@@ -597,11 +778,15 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
 }
 export interface ServicecatalogCloudformationProductSourceConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#connection_parameters ServicecatalogCloudformationProduct#connection_parameters}
+  * The connection details based on the connection Type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#connection_parameters ServicecatalogCloudformationProduct#connection_parameters}
   */
   readonly connectionParameters?: ServicecatalogCloudformationProductSourceConnectionConnectionParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#type ServicecatalogCloudformationProduct#type}
+  * The only supported SourceConnection type is Codestar.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#type ServicecatalogCloudformationProduct#type}
   */
   readonly type?: string;
 }
@@ -707,7 +892,7 @@ export class ServicecatalogCloudformationProductSourceConnectionOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -724,11 +909,15 @@ export class ServicecatalogCloudformationProductSourceConnectionOutputReference 
 }
 export interface ServicecatalogCloudformationProductTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#key ServicecatalogCloudformationProduct#key}
+  * The tag key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#key ServicecatalogCloudformationProduct#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#value ServicecatalogCloudformationProduct#value}
+  * The tag value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#value ServicecatalogCloudformationProduct#value}
   */
   readonly value?: string;
 }
@@ -820,7 +1009,7 @@ export class ServicecatalogCloudformationProductTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -836,7 +1025,7 @@ export class ServicecatalogCloudformationProductTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -873,7 +1062,7 @@ export class ServicecatalogCloudformationProductTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}
 */
 export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource {
 
@@ -889,7 +1078,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   * Generates CDKTN code for importing a ServicecatalogCloudformationProduct resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogCloudformationProduct to import
-  * @param importFromId The id of the existing ServicecatalogCloudformationProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogCloudformationProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogCloudformationProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -901,7 +1090,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -912,7 +1101,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
       terraformResourceType: 'awscc_servicecatalog_cloudformation_product',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -942,7 +1131,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string; 
+  private _acceptLanguage?: string;
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -963,7 +1152,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -979,7 +1168,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // distributor - computed: true, optional: true, required: false
-  private _distributor?: string; 
+  private _distributor?: string;
   public get distributor() {
     return this.getStringAttribute('distributor');
   }
@@ -1000,7 +1189,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1013,7 +1202,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1031,7 +1220,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // product_type - computed: true, optional: true, required: false
-  private _productType?: string; 
+  private _productType?: string;
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -1073,7 +1262,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // replace_provisioning_artifacts - computed: true, optional: true, required: false
-  private _replaceProvisioningArtifacts?: boolean | cdktn.IResolvable; 
+  private _replaceProvisioningArtifacts?: boolean | cdktn.IResolvable;
   public get replaceProvisioningArtifacts() {
     return this.getBooleanAttribute('replace_provisioning_artifacts');
   }
@@ -1105,7 +1294,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_description - computed: true, optional: true, required: false
-  private _supportDescription?: string; 
+  private _supportDescription?: string;
   public get supportDescription() {
     return this.getStringAttribute('support_description');
   }
@@ -1121,7 +1310,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_email - computed: true, optional: true, required: false
-  private _supportEmail?: string; 
+  private _supportEmail?: string;
   public get supportEmail() {
     return this.getStringAttribute('support_email');
   }
@@ -1137,7 +1326,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_url - computed: true, optional: true, required: false
-  private _supportUrl?: string; 
+  private _supportUrl?: string;
   public get supportUrl() {
     return this.getStringAttribute('support_url');
   }

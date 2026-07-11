@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktn from 'cdktn';
 
 export interface KmsCustomKeyStoreConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#cloud_hsm_cluster_id KmsCustomKeyStore#cloud_hsm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#cloud_hsm_cluster_id KmsCustomKeyStore#cloud_hsm_cluster_id}
   */
   readonly cloudHsmClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#custom_key_store_name KmsCustomKeyStore#custom_key_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#custom_key_store_name KmsCustomKeyStore#custom_key_store_name}
   */
   readonly customKeyStoreName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#custom_key_store_type KmsCustomKeyStore#custom_key_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#custom_key_store_type KmsCustomKeyStore#custom_key_store_type}
   */
   readonly customKeyStoreType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#id KmsCustomKeyStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#id KmsCustomKeyStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#key_store_password KmsCustomKeyStore#key_store_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#key_store_password KmsCustomKeyStore#key_store_password}
   */
   readonly keyStorePassword?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#region KmsCustomKeyStore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#region KmsCustomKeyStore#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#trust_anchor_certificate KmsCustomKeyStore#trust_anchor_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#trust_anchor_certificate KmsCustomKeyStore#trust_anchor_certificate}
   */
   readonly trustAnchorCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#xks_proxy_connectivity KmsCustomKeyStore#xks_proxy_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#xks_proxy_connectivity KmsCustomKeyStore#xks_proxy_connectivity}
   */
   readonly xksProxyConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#xks_proxy_uri_endpoint KmsCustomKeyStore#xks_proxy_uri_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#xks_proxy_uri_endpoint KmsCustomKeyStore#xks_proxy_uri_endpoint}
   */
   readonly xksProxyUriEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#xks_proxy_uri_path KmsCustomKeyStore#xks_proxy_uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#xks_proxy_uri_path KmsCustomKeyStore#xks_proxy_uri_path}
   */
   readonly xksProxyUriPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#xks_proxy_vpc_endpoint_service_name KmsCustomKeyStore#xks_proxy_vpc_endpoint_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#xks_proxy_vpc_endpoint_service_name KmsCustomKeyStore#xks_proxy_vpc_endpoint_service_name}
   */
   readonly xksProxyVpcEndpointServiceName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#timeouts KmsCustomKeyStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#timeouts KmsCustomKeyStore#timeouts}
   */
   readonly timeouts?: KmsCustomKeyStoreTimeouts;
   /**
   * xks_proxy_authentication_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#xks_proxy_authentication_credential KmsCustomKeyStore#xks_proxy_authentication_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#xks_proxy_authentication_credential KmsCustomKeyStore#xks_proxy_authentication_credential}
   */
   readonly xksProxyAuthenticationCredential?: KmsCustomKeyStoreXksProxyAuthenticationCredential;
 }
 export interface KmsCustomKeyStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#create KmsCustomKeyStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#create KmsCustomKeyStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#delete KmsCustomKeyStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#delete KmsCustomKeyStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#update KmsCustomKeyStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#update KmsCustomKeyStore#update}
   */
   readonly update?: string;
 }
@@ -182,7 +182,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -198,7 +198,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -214,7 +214,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -231,11 +231,11 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
 }
 export interface KmsCustomKeyStoreXksProxyAuthenticationCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#access_key_id KmsCustomKeyStore#access_key_id}
   */
   readonly accessKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#raw_secret_access_key KmsCustomKeyStore#raw_secret_access_key}
   */
   readonly rawSecretAccessKey: string;
 }
@@ -315,7 +315,7 @@ export class KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference ex
   }
 
   // access_key_id - computed: false, optional: false, required: true
-  private _accessKeyId?: string; 
+  private _accessKeyId?: string;
   public get accessKeyId() {
     return this.getStringAttribute('access_key_id');
   }
@@ -328,7 +328,7 @@ export class KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference ex
   }
 
   // raw_secret_access_key - computed: false, optional: false, required: true
-  private _rawSecretAccessKey?: string; 
+  private _rawSecretAccessKey?: string;
   public get rawSecretAccessKey() {
     return this.getStringAttribute('raw_secret_access_key');
   }
@@ -342,7 +342,7 @@ export class KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}
 */
 export class KmsCustomKeyStore extends cdktn.TerraformResource {
 
@@ -358,7 +358,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KmsCustomKeyStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsCustomKeyStore to import
-  * @param importFromId The id of the existing KmsCustomKeyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsCustomKeyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsCustomKeyStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -370,7 +370,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,7 +381,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
       terraformResourceType: 'aws_kms_custom_key_store',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -411,7 +411,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   // ==========
 
   // cloud_hsm_cluster_id - computed: false, optional: true, required: false
-  private _cloudHsmClusterId?: string; 
+  private _cloudHsmClusterId?: string;
   public get cloudHsmClusterId() {
     return this.getStringAttribute('cloud_hsm_cluster_id');
   }
@@ -427,7 +427,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // custom_key_store_name - computed: false, optional: false, required: true
-  private _customKeyStoreName?: string; 
+  private _customKeyStoreName?: string;
   public get customKeyStoreName() {
     return this.getStringAttribute('custom_key_store_name');
   }
@@ -440,7 +440,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // custom_key_store_type - computed: true, optional: true, required: false
-  private _customKeyStoreType?: string; 
+  private _customKeyStoreType?: string;
   public get customKeyStoreType() {
     return this.getStringAttribute('custom_key_store_type');
   }
@@ -456,7 +456,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -472,7 +472,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // key_store_password - computed: false, optional: true, required: false
-  private _keyStorePassword?: string; 
+  private _keyStorePassword?: string;
   public get keyStorePassword() {
     return this.getStringAttribute('key_store_password');
   }
@@ -488,7 +488,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -504,7 +504,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // trust_anchor_certificate - computed: false, optional: true, required: false
-  private _trustAnchorCertificate?: string; 
+  private _trustAnchorCertificate?: string;
   public get trustAnchorCertificate() {
     return this.getStringAttribute('trust_anchor_certificate');
   }
@@ -520,7 +520,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_connectivity - computed: false, optional: true, required: false
-  private _xksProxyConnectivity?: string; 
+  private _xksProxyConnectivity?: string;
   public get xksProxyConnectivity() {
     return this.getStringAttribute('xks_proxy_connectivity');
   }
@@ -536,7 +536,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_uri_endpoint - computed: false, optional: true, required: false
-  private _xksProxyUriEndpoint?: string; 
+  private _xksProxyUriEndpoint?: string;
   public get xksProxyUriEndpoint() {
     return this.getStringAttribute('xks_proxy_uri_endpoint');
   }
@@ -552,7 +552,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_uri_path - computed: false, optional: true, required: false
-  private _xksProxyUriPath?: string; 
+  private _xksProxyUriPath?: string;
   public get xksProxyUriPath() {
     return this.getStringAttribute('xks_proxy_uri_path');
   }
@@ -568,7 +568,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_vpc_endpoint_service_name - computed: false, optional: true, required: false
-  private _xksProxyVpcEndpointServiceName?: string; 
+  private _xksProxyVpcEndpointServiceName?: string;
   public get xksProxyVpcEndpointServiceName() {
     return this.getStringAttribute('xks_proxy_vpc_endpoint_service_name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AwsexternalanthropicWorkspaceConfig extends cdktn.TerraformMeta
   /**
   * Data residency configuration for the workspace. WorkspaceGeo is immutable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
   */
   readonly dataResidency?: AwsexternalanthropicWorkspaceDataResidency;
   /**
   * The name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
   */
   readonly tags?: AwsexternalanthropicWorkspaceTags[] | cdktn.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface AwsexternalanthropicWorkspaceDataResidency {
   /**
   * Permitted inference geo values. Omit to allow all geos (the service default of 'unrestricted'); otherwise list specific geos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
   */
   readonly allowedInferenceGeos?: string[];
   /**
   * Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of AllowedInferenceGeos unless AllowedInferenceGeos is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
   */
   readonly defaultInferenceGeo?: string;
   /**
   * Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
   */
   readonly workspaceGeo?: string;
 }
@@ -145,7 +145,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // allowed_inference_geos - computed: true, optional: true, required: false
-  private _allowedInferenceGeos?: string[]; 
+  private _allowedInferenceGeos?: string[];
   public get allowedInferenceGeos() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_inference_geos'));
   }
@@ -161,7 +161,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // default_inference_geo - computed: true, optional: true, required: false
-  private _defaultInferenceGeo?: string; 
+  private _defaultInferenceGeo?: string;
   public get defaultInferenceGeo() {
     return this.getStringAttribute('default_inference_geo');
   }
@@ -177,7 +177,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // workspace_geo - computed: true, optional: true, required: false
-  private _workspaceGeo?: string; 
+  private _workspaceGeo?: string;
   public get workspaceGeo() {
     return this.getStringAttribute('workspace_geo');
   }
@@ -196,13 +196,13 @@ export interface AwsexternalanthropicWorkspaceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
   */
   readonly value?: string;
 }
@@ -294,7 +294,7 @@ export class AwsexternalanthropicWorkspaceTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class AwsexternalanthropicWorkspaceTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -347,7 +347,7 @@ export class AwsexternalanthropicWorkspaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}
 */
 export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
 
@@ -363,7 +363,7 @@ export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AwsexternalanthropicWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsexternalanthropicWorkspace to import
-  * @param importFromId The id of the existing AwsexternalanthropicWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsexternalanthropicWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsexternalanthropicWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -375,7 +375,7 @@ export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,7 +386,7 @@ export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_awsexternalanthropic_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -437,7 +437,7 @@ export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface ConfigOrganizationManagedRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#description ConfigOrganizationManagedRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#description ConfigOrganizationManagedRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#excluded_accounts ConfigOrganizationManagedRule#excluded_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#excluded_accounts ConfigOrganizationManagedRule#excluded_accounts}
   */
   readonly excludedAccounts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#id ConfigOrganizationManagedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#id ConfigOrganizationManagedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#input_parameters ConfigOrganizationManagedRule#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#input_parameters ConfigOrganizationManagedRule#input_parameters}
   */
   readonly inputParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#maximum_execution_frequency ConfigOrganizationManagedRule#maximum_execution_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#maximum_execution_frequency ConfigOrganizationManagedRule#maximum_execution_frequency}
   */
   readonly maximumExecutionFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#name ConfigOrganizationManagedRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#name ConfigOrganizationManagedRule#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#region ConfigOrganizationManagedRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#region ConfigOrganizationManagedRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#resource_id_scope ConfigOrganizationManagedRule#resource_id_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#resource_id_scope ConfigOrganizationManagedRule#resource_id_scope}
   */
   readonly resourceIdScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#resource_types_scope ConfigOrganizationManagedRule#resource_types_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#resource_types_scope ConfigOrganizationManagedRule#resource_types_scope}
   */
   readonly resourceTypesScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#rule_identifier ConfigOrganizationManagedRule#rule_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#rule_identifier ConfigOrganizationManagedRule#rule_identifier}
   */
   readonly ruleIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#tag_key_scope ConfigOrganizationManagedRule#tag_key_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#tag_key_scope ConfigOrganizationManagedRule#tag_key_scope}
   */
   readonly tagKeyScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#tag_value_scope ConfigOrganizationManagedRule#tag_value_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#tag_value_scope ConfigOrganizationManagedRule#tag_value_scope}
   */
   readonly tagValueScope?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#timeouts ConfigOrganizationManagedRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#timeouts ConfigOrganizationManagedRule#timeouts}
   */
   readonly timeouts?: ConfigOrganizationManagedRuleTimeouts;
 }
 export interface ConfigOrganizationManagedRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#create ConfigOrganizationManagedRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#create ConfigOrganizationManagedRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#delete ConfigOrganizationManagedRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#delete ConfigOrganizationManagedRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#update ConfigOrganizationManagedRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#update ConfigOrganizationManagedRule#update}
   */
   readonly update?: string;
 }
@@ -180,7 +180,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -196,7 +196,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -212,7 +212,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -229,7 +229,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule}
 */
 export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
 
@@ -245,7 +245,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigOrganizationManagedRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigOrganizationManagedRule to import
-  * @param importFromId The id of the existing ConfigOrganizationManagedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigOrganizationManagedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigOrganizationManagedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -257,7 +257,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,7 +268,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_config_organization_managed_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -303,7 +303,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -319,7 +319,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // excluded_accounts - computed: false, optional: true, required: false
-  private _excludedAccounts?: string[]; 
+  private _excludedAccounts?: string[];
   public get excludedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_accounts'));
   }
@@ -335,7 +335,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -351,7 +351,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // input_parameters - computed: false, optional: true, required: false
-  private _inputParameters?: string; 
+  private _inputParameters?: string;
   public get inputParameters() {
     return this.getStringAttribute('input_parameters');
   }
@@ -367,7 +367,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // maximum_execution_frequency - computed: false, optional: true, required: false
-  private _maximumExecutionFrequency?: string; 
+  private _maximumExecutionFrequency?: string;
   public get maximumExecutionFrequency() {
     return this.getStringAttribute('maximum_execution_frequency');
   }
@@ -383,7 +383,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -396,7 +396,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -412,7 +412,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // resource_id_scope - computed: false, optional: true, required: false
-  private _resourceIdScope?: string; 
+  private _resourceIdScope?: string;
   public get resourceIdScope() {
     return this.getStringAttribute('resource_id_scope');
   }
@@ -428,7 +428,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // resource_types_scope - computed: false, optional: true, required: false
-  private _resourceTypesScope?: string[]; 
+  private _resourceTypesScope?: string[];
   public get resourceTypesScope() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types_scope'));
   }
@@ -444,7 +444,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // rule_identifier - computed: false, optional: false, required: true
-  private _ruleIdentifier?: string; 
+  private _ruleIdentifier?: string;
   public get ruleIdentifier() {
     return this.getStringAttribute('rule_identifier');
   }
@@ -457,7 +457,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // tag_key_scope - computed: false, optional: true, required: false
-  private _tagKeyScope?: string; 
+  private _tagKeyScope?: string;
   public get tagKeyScope() {
     return this.getStringAttribute('tag_key_scope');
   }
@@ -473,7 +473,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // tag_value_scope - computed: false, optional: true, required: false
-  private _tagValueScope?: string; 
+  private _tagValueScope?: string;
   public get tagValueScope() {
     return this.getStringAttribute('tag_value_scope');
   }

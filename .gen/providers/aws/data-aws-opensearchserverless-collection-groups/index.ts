@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/opensearchserverless_collection_groups
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/opensearchserverless_collection_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsOpensearchserverlessCollectionGroupsConfig extends cdktn
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/opensearchserverless_collection_groups#region DataAwsOpensearchserverlessCollectionGroups#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/opensearchserverless_collection_groups#region DataAwsOpensearchserverlessCollectionGroups#region}
   */
   readonly region?: string;
 }
@@ -212,7 +212,7 @@ export class DataAwsOpensearchserverlessCollectionGroupsCollectionGroupSummaries
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups}
 */
 export class DataAwsOpensearchserverlessCollectionGroups extends cdktn.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataAwsOpensearchserverlessCollectionGroups extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsOpensearchserverlessCollectionGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsOpensearchserverlessCollectionGroups to import
-  * @param importFromId The id of the existing DataAwsOpensearchserverlessCollectionGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/opensearchserverless_collection_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsOpensearchserverlessCollectionGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/opensearchserverless_collection_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsOpensearchserverlessCollectionGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataAwsOpensearchserverlessCollectionGroups extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +251,7 @@ export class DataAwsOpensearchserverlessCollectionGroups extends cdktn.Terraform
       terraformResourceType: 'aws_opensearchserverless_collection_groups',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,7 +275,7 @@ export class DataAwsOpensearchserverlessCollectionGroups extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

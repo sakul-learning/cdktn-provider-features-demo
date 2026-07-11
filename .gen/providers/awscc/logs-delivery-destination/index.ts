@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,42 +9,42 @@ import * as cdktn from 'cdktn';
 export interface LogsDeliveryDestinationConfig extends cdktn.TerraformMetaArguments {
   /**
   * IAM policy that grants permissions to CloudWatch Logs to deliver logs cross-account to a specified destination in this account.
-  * 
+  *
   * The policy must be in JSON string format.
-  * 
+  *
   * Length Constraints: Maximum length of 51200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
   */
   readonly deliveryDestinationPolicy?: LogsDeliveryDestinationDeliveryDestinationPolicy;
   /**
   * Displays whether this delivery destination is CloudWatch Logs, Amazon S3, Kinesis Data Firehose, or XRay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#delivery_destination_type LogsDeliveryDestination#delivery_destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#delivery_destination_type LogsDeliveryDestination#delivery_destination_type}
   */
   readonly deliveryDestinationType?: string;
   /**
   * The ARN of the Amazon Web Services destination that this delivery destination represents. That Amazon Web Services destination can be a log group in CloudWatch Logs, an Amazon S3 bucket, or a delivery stream in Firehose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#destination_resource_arn LogsDeliveryDestination#destination_resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#destination_resource_arn LogsDeliveryDestination#destination_resource_arn}
   */
   readonly destinationResourceArn?: string;
   /**
   * The name of this delivery destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#name LogsDeliveryDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#name LogsDeliveryDestination#name}
   */
   readonly name: string;
   /**
   * The format of the logs that are sent to this delivery destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#output_format LogsDeliveryDestination#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#output_format LogsDeliveryDestination#output_format}
   */
   readonly outputFormat?: string;
   /**
   * The tags that have been assigned to this delivery destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#tags LogsDeliveryDestination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#tags LogsDeliveryDestination#tags}
   */
   readonly tags?: LogsDeliveryDestinationTags[] | cdktn.IResolvable;
 }
@@ -52,13 +52,13 @@ export interface LogsDeliveryDestinationDeliveryDestinationPolicy {
   /**
   * The name of the delivery destination to assign this policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#delivery_destination_name LogsDeliveryDestination#delivery_destination_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#delivery_destination_name LogsDeliveryDestination#delivery_destination_name}
   */
   readonly deliveryDestinationName?: string;
   /**
   * The contents of the policy attached to the delivery destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
   */
   readonly deliveryDestinationPolicy?: string;
 }
@@ -148,7 +148,7 @@ export class LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference ext
   }
 
   // delivery_destination_name - computed: true, optional: true, required: false
-  private _deliveryDestinationName?: string; 
+  private _deliveryDestinationName?: string;
   public get deliveryDestinationName() {
     return this.getStringAttribute('delivery_destination_name');
   }
@@ -164,7 +164,7 @@ export class LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference ext
   }
 
   // delivery_destination_policy - computed: true, optional: true, required: false
-  private _deliveryDestinationPolicy?: string; 
+  private _deliveryDestinationPolicy?: string;
   public get deliveryDestinationPolicy() {
     return this.getStringAttribute('delivery_destination_policy');
   }
@@ -183,13 +183,13 @@ export interface LogsDeliveryDestinationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#key LogsDeliveryDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#key LogsDeliveryDestination#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#value LogsDeliveryDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#value LogsDeliveryDestination#value}
   */
   readonly value?: string;
 }
@@ -281,7 +281,7 @@ export class LogsDeliveryDestinationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -297,7 +297,7 @@ export class LogsDeliveryDestinationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -334,7 +334,7 @@ export class LogsDeliveryDestinationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}
 */
 export class LogsDeliveryDestination extends cdktn.TerraformResource {
 
@@ -350,7 +350,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsDeliveryDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsDeliveryDestination to import
-  * @param importFromId The id of the existing LogsDeliveryDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsDeliveryDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsDeliveryDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -362,7 +362,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,7 +373,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_delivery_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -417,7 +417,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // delivery_destination_type - computed: true, optional: true, required: false
-  private _deliveryDestinationType?: string; 
+  private _deliveryDestinationType?: string;
   public get deliveryDestinationType() {
     return this.getStringAttribute('delivery_destination_type');
   }
@@ -433,7 +433,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // destination_resource_arn - computed: true, optional: true, required: false
-  private _destinationResourceArn?: string; 
+  private _destinationResourceArn?: string;
   public get destinationResourceArn() {
     return this.getStringAttribute('destination_resource_arn');
   }
@@ -454,7 +454,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -467,7 +467,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string; 
+  private _outputFormat?: string;
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }

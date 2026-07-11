@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface GameliftMatchmakingConfigurationConfig extends cdktn.TerraformM
   /**
   * A flag that indicates whether a match that was created with this configuration must be accepted by the matched players
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#acceptance_required GameliftMatchmakingConfiguration#acceptance_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#acceptance_required GameliftMatchmakingConfiguration#acceptance_required}
   */
   readonly acceptanceRequired: boolean | cdktn.IResolvable;
   /**
   * The length of time (in seconds) to wait for players to accept a proposed match, if acceptance is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#acceptance_timeout_seconds GameliftMatchmakingConfiguration#acceptance_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#acceptance_timeout_seconds GameliftMatchmakingConfiguration#acceptance_timeout_seconds}
   */
   readonly acceptanceTimeoutSeconds?: number;
   /**
   * The number of player slots in a match to keep open for future players.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#additional_player_count GameliftMatchmakingConfiguration#additional_player_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#additional_player_count GameliftMatchmakingConfiguration#additional_player_count}
   */
   readonly additionalPlayerCount?: number;
   /**
   * The method used to backfill game sessions created with this matchmaking configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#backfill_mode GameliftMatchmakingConfiguration#backfill_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#backfill_mode GameliftMatchmakingConfiguration#backfill_mode}
   */
   readonly backfillMode?: string;
   /**
   * A time stamp indicating when this data object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#creation_time GameliftMatchmakingConfiguration#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#creation_time GameliftMatchmakingConfiguration#creation_time}
   */
   readonly creationTime?: string;
   /**
   * Information to attach to all events related to the matchmaking configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#custom_event_data GameliftMatchmakingConfiguration#custom_event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#custom_event_data GameliftMatchmakingConfiguration#custom_event_data}
   */
   readonly customEventData?: string;
   /**
   * A descriptive label that is associated with matchmaking configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#description GameliftMatchmakingConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#description GameliftMatchmakingConfiguration#description}
   */
   readonly description?: string;
   /**
   * Indicates whether this matchmaking configuration is being used with Amazon GameLift hosting or as a standalone matchmaking solution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#flex_match_mode GameliftMatchmakingConfiguration#flex_match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#flex_match_mode GameliftMatchmakingConfiguration#flex_match_mode}
   */
   readonly flexMatchMode?: string;
   /**
   * A set of custom properties for a game session, formatted as key:value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#game_properties GameliftMatchmakingConfiguration#game_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#game_properties GameliftMatchmakingConfiguration#game_properties}
   */
   readonly gameProperties?: GameliftMatchmakingConfigurationGameProperties[] | cdktn.IResolvable;
   /**
   * A set of custom game session properties, formatted as a single string value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#game_session_data GameliftMatchmakingConfiguration#game_session_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#game_session_data GameliftMatchmakingConfiguration#game_session_data}
   */
   readonly gameSessionData?: string;
   /**
   * The Amazon Resource Name (ARN) that is assigned to a Amazon GameLift game session queue resource and uniquely identifies it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#game_session_queue_arns GameliftMatchmakingConfiguration#game_session_queue_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#game_session_queue_arns GameliftMatchmakingConfiguration#game_session_queue_arns}
   */
   readonly gameSessionQueueArns?: string[];
   /**
   * A unique identifier for the matchmaking configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#name GameliftMatchmakingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#name GameliftMatchmakingConfiguration#name}
   */
   readonly name: string;
   /**
   * An SNS topic ARN that is set up to receive matchmaking notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#notification_target GameliftMatchmakingConfiguration#notification_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#notification_target GameliftMatchmakingConfiguration#notification_target}
   */
   readonly notificationTarget?: string;
   /**
   * The maximum duration, in seconds, that a matchmaking ticket can remain in process before timing out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#request_timeout_seconds GameliftMatchmakingConfiguration#request_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#request_timeout_seconds GameliftMatchmakingConfiguration#request_timeout_seconds}
   */
   readonly requestTimeoutSeconds: number;
   /**
   * The Amazon Resource Name (ARN) associated with the GameLift matchmaking rule set resource that this configuration uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#rule_set_arn GameliftMatchmakingConfiguration#rule_set_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#rule_set_arn GameliftMatchmakingConfiguration#rule_set_arn}
   */
   readonly ruleSetArn?: string;
   /**
   * A unique identifier for the matchmaking rule set to use with this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#rule_set_name GameliftMatchmakingConfiguration#rule_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#rule_set_name GameliftMatchmakingConfiguration#rule_set_name}
   */
   readonly ruleSetName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#tags GameliftMatchmakingConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#tags GameliftMatchmakingConfiguration#tags}
   */
   readonly tags?: GameliftMatchmakingConfigurationTags[] | cdktn.IResolvable;
 }
@@ -114,13 +114,13 @@ export interface GameliftMatchmakingConfigurationGameProperties {
   /**
   * The game property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
   */
   readonly key?: string;
   /**
   * The game property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
   */
   readonly value?: string;
 }
@@ -212,7 +212,7 @@ export class GameliftMatchmakingConfigurationGamePropertiesOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -228,7 +228,7 @@ export class GameliftMatchmakingConfigurationGamePropertiesOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -267,13 +267,13 @@ export interface GameliftMatchmakingConfigurationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
   */
   readonly value?: string;
 }
@@ -365,7 +365,7 @@ export class GameliftMatchmakingConfigurationTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -381,7 +381,7 @@ export class GameliftMatchmakingConfigurationTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -418,7 +418,7 @@ export class GameliftMatchmakingConfigurationTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}
 */
 export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
 
@@ -434,7 +434,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GameliftMatchmakingConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GameliftMatchmakingConfiguration to import
-  * @param importFromId The id of the existing GameliftMatchmakingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GameliftMatchmakingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GameliftMatchmakingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -446,7 +446,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,7 +457,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_gamelift_matchmaking_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -491,7 +491,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // acceptance_required - computed: false, optional: false, required: true
-  private _acceptanceRequired?: boolean | cdktn.IResolvable; 
+  private _acceptanceRequired?: boolean | cdktn.IResolvable;
   public get acceptanceRequired() {
     return this.getBooleanAttribute('acceptance_required');
   }
@@ -504,7 +504,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // acceptance_timeout_seconds - computed: true, optional: true, required: false
-  private _acceptanceTimeoutSeconds?: number; 
+  private _acceptanceTimeoutSeconds?: number;
   public get acceptanceTimeoutSeconds() {
     return this.getNumberAttribute('acceptance_timeout_seconds');
   }
@@ -520,7 +520,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // additional_player_count - computed: true, optional: true, required: false
-  private _additionalPlayerCount?: number; 
+  private _additionalPlayerCount?: number;
   public get additionalPlayerCount() {
     return this.getNumberAttribute('additional_player_count');
   }
@@ -541,7 +541,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // backfill_mode - computed: true, optional: true, required: false
-  private _backfillMode?: string; 
+  private _backfillMode?: string;
   public get backfillMode() {
     return this.getStringAttribute('backfill_mode');
   }
@@ -557,7 +557,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // creation_time - computed: true, optional: true, required: false
-  private _creationTime?: string; 
+  private _creationTime?: string;
   public get creationTime() {
     return this.getStringAttribute('creation_time');
   }
@@ -573,7 +573,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // custom_event_data - computed: true, optional: true, required: false
-  private _customEventData?: string; 
+  private _customEventData?: string;
   public get customEventData() {
     return this.getStringAttribute('custom_event_data');
   }
@@ -589,7 +589,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -605,7 +605,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // flex_match_mode - computed: true, optional: true, required: false
-  private _flexMatchMode?: string; 
+  private _flexMatchMode?: string;
   public get flexMatchMode() {
     return this.getStringAttribute('flex_match_mode');
   }
@@ -637,7 +637,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // game_session_data - computed: true, optional: true, required: false
-  private _gameSessionData?: string; 
+  private _gameSessionData?: string;
   public get gameSessionData() {
     return this.getStringAttribute('game_session_data');
   }
@@ -653,7 +653,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // game_session_queue_arns - computed: true, optional: true, required: false
-  private _gameSessionQueueArns?: string[]; 
+  private _gameSessionQueueArns?: string[];
   public get gameSessionQueueArns() {
     return this.getListAttribute('game_session_queue_arns');
   }
@@ -674,7 +674,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -687,7 +687,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // notification_target - computed: true, optional: true, required: false
-  private _notificationTarget?: string; 
+  private _notificationTarget?: string;
   public get notificationTarget() {
     return this.getStringAttribute('notification_target');
   }
@@ -703,7 +703,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // request_timeout_seconds - computed: false, optional: false, required: true
-  private _requestTimeoutSeconds?: number; 
+  private _requestTimeoutSeconds?: number;
   public get requestTimeoutSeconds() {
     return this.getNumberAttribute('request_timeout_seconds');
   }
@@ -716,7 +716,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // rule_set_arn - computed: true, optional: true, required: false
-  private _ruleSetArn?: string; 
+  private _ruleSetArn?: string;
   public get ruleSetArn() {
     return this.getStringAttribute('rule_set_arn');
   }
@@ -732,7 +732,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // rule_set_name - computed: false, optional: false, required: true
-  private _ruleSetName?: string; 
+  private _ruleSetName?: string;
   public get ruleSetName() {
     return this.getStringAttribute('rule_set_name');
   }

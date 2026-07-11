@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RbinRuleConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the retention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#description RbinRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#description RbinRule#description}
   */
   readonly description?: string;
   /**
   * Information about the exclude resource tags used to identify resources that are excluded by the retention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#exclude_resource_tags RbinRule#exclude_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#exclude_resource_tags RbinRule#exclude_resource_tags}
   */
   readonly excludeResourceTags?: RbinRuleExcludeResourceTags[] | cdktn.IResolvable;
   /**
   * Information about the retention rule lock configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#lock_configuration RbinRule#lock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#lock_configuration RbinRule#lock_configuration}
   */
   readonly lockConfiguration?: RbinRuleLockConfiguration;
   /**
   * Information about the resource tags used to identify resources that are retained by the retention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_tags RbinRule#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_tags RbinRule#resource_tags}
   */
   readonly resourceTags?: RbinRuleResourceTags[] | cdktn.IResolvable;
   /**
   * The resource type retained by the retention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_type RbinRule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_type RbinRule#resource_type}
   */
   readonly resourceType: string;
   /**
   * Information about the retention period for which the retention rule is to retain resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#retention_period RbinRule#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#retention_period RbinRule#retention_period}
   */
   readonly retentionPeriod: RbinRuleRetentionPeriod;
   /**
   * The state of the retention rule. Only retention rules that are in the available state retain resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#status RbinRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#status RbinRule#status}
   */
   readonly status?: string;
   /**
   * Information about the tags assigned to the retention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#tags RbinRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#tags RbinRule#tags}
   */
   readonly tags?: RbinRuleTags[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface RbinRuleExcludeResourceTags {
   /**
   * The tag key of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
   */
   readonly resourceTagKey?: string;
   /**
   * The tag value of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
   */
   readonly resourceTagValue?: string;
 }
@@ -158,7 +158,7 @@ export class RbinRuleExcludeResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // resource_tag_key - computed: true, optional: true, required: false
-  private _resourceTagKey?: string; 
+  private _resourceTagKey?: string;
   public get resourceTagKey() {
     return this.getStringAttribute('resource_tag_key');
   }
@@ -174,7 +174,7 @@ export class RbinRuleExcludeResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // resource_tag_value - computed: true, optional: true, required: false
-  private _resourceTagValue?: string; 
+  private _resourceTagValue?: string;
   public get resourceTagValue() {
     return this.getStringAttribute('resource_tag_value');
   }
@@ -213,13 +213,13 @@ export interface RbinRuleLockConfiguration {
   /**
   * The unit of time in which to measure the unlock delay. Currently, the unlock delay can be measure only in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#unlock_delay_unit RbinRule#unlock_delay_unit}
   */
   readonly unlockDelayUnit?: string;
   /**
   * The unlock delay period, measured in the unit specified for UnlockDelayUnit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#unlock_delay_value RbinRule#unlock_delay_value}
   */
   readonly unlockDelayValue?: number;
 }
@@ -309,7 +309,7 @@ export class RbinRuleLockConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // unlock_delay_unit - computed: true, optional: true, required: false
-  private _unlockDelayUnit?: string; 
+  private _unlockDelayUnit?: string;
   public get unlockDelayUnit() {
     return this.getStringAttribute('unlock_delay_unit');
   }
@@ -325,7 +325,7 @@ export class RbinRuleLockConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // unlock_delay_value - computed: true, optional: true, required: false
-  private _unlockDelayValue?: number; 
+  private _unlockDelayValue?: number;
   public get unlockDelayValue() {
     return this.getNumberAttribute('unlock_delay_value');
   }
@@ -344,13 +344,13 @@ export interface RbinRuleResourceTags {
   /**
   * The tag key of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}
   */
   readonly resourceTagKey?: string;
   /**
   * The tag value of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}
   */
   readonly resourceTagValue?: string;
 }
@@ -442,7 +442,7 @@ export class RbinRuleResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_tag_key - computed: true, optional: true, required: false
-  private _resourceTagKey?: string; 
+  private _resourceTagKey?: string;
   public get resourceTagKey() {
     return this.getStringAttribute('resource_tag_key');
   }
@@ -458,7 +458,7 @@ export class RbinRuleResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_tag_value - computed: true, optional: true, required: false
-  private _resourceTagValue?: string; 
+  private _resourceTagValue?: string;
   public get resourceTagValue() {
     return this.getStringAttribute('resource_tag_value');
   }
@@ -497,13 +497,13 @@ export interface RbinRuleRetentionPeriod {
   /**
   * The retention period unit of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#retention_period_unit RbinRule#retention_period_unit}
   */
   readonly retentionPeriodUnit: string;
   /**
   * The retention period value of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#retention_period_value RbinRule#retention_period_value}
   */
   readonly retentionPeriodValue: number;
 }
@@ -593,7 +593,7 @@ export class RbinRuleRetentionPeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // retention_period_unit - computed: false, optional: false, required: true
-  private _retentionPeriodUnit?: string; 
+  private _retentionPeriodUnit?: string;
   public get retentionPeriodUnit() {
     return this.getStringAttribute('retention_period_unit');
   }
@@ -606,7 +606,7 @@ export class RbinRuleRetentionPeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // retention_period_value - computed: false, optional: false, required: true
-  private _retentionPeriodValue?: number; 
+  private _retentionPeriodValue?: number;
   public get retentionPeriodValue() {
     return this.getNumberAttribute('retention_period_value');
   }
@@ -622,13 +622,13 @@ export interface RbinRuleTags {
   /**
   * A unique identifier for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#key RbinRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#key RbinRule#key}
   */
   readonly key?: string;
   /**
   * String which you can use to describe or define the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#value RbinRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#value RbinRule#value}
   */
   readonly value?: string;
 }
@@ -720,7 +720,7 @@ export class RbinRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -736,7 +736,7 @@ export class RbinRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -773,7 +773,7 @@ export class RbinRuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule awscc_rbin_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule awscc_rbin_rule}
 */
 export class RbinRule extends cdktn.TerraformResource {
 
@@ -789,7 +789,7 @@ export class RbinRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RbinRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RbinRule to import
-  * @param importFromId The id of the existing RbinRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RbinRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RbinRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -801,7 +801,7 @@ export class RbinRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rbin_rule awscc_rbin_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rbin_rule awscc_rbin_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -812,7 +812,7 @@ export class RbinRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rbin_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -842,7 +842,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -921,7 +921,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -947,7 +947,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

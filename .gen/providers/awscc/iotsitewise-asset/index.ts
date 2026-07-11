@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface IotsitewiseAssetConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description for the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_description IotsitewiseAsset#asset_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_description IotsitewiseAsset#asset_description}
   */
   readonly assetDescription?: string;
   /**
   * The External ID of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_external_id IotsitewiseAsset#asset_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_external_id IotsitewiseAsset#asset_external_id}
   */
   readonly assetExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}
   */
   readonly assetHierarchies?: IotsitewiseAssetAssetHierarchies[] | cdktn.IResolvable;
   /**
   * The ID of the asset model from which to create the asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_model_id IotsitewiseAsset#asset_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_model_id IotsitewiseAsset#asset_model_id}
   */
   readonly assetModelId: string;
   /**
   * A unique, friendly name for the asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_name IotsitewiseAsset#asset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_name IotsitewiseAsset#asset_name}
   */
   readonly assetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}
   */
   readonly assetProperties?: IotsitewiseAssetAssetProperties[] | cdktn.IResolvable;
   /**
   * A list of key-value pairs that contain metadata for the asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#tags IotsitewiseAsset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#tags IotsitewiseAsset#tags}
   */
   readonly tags?: IotsitewiseAssetTags[] | cdktn.IResolvable;
 }
@@ -50,19 +50,19 @@ export interface IotsitewiseAssetAssetHierarchies {
   /**
   * The ID of the child asset to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#child_asset_id IotsitewiseAsset#child_asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#child_asset_id IotsitewiseAsset#child_asset_id}
   */
   readonly childAssetId?: string;
   /**
   * String-friendly customer provided external ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
   */
   readonly externalId?: string;
   /**
   * Customer provided actual UUID for property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ export interface IotsitewiseAssetAssetHierarchies {
   /**
   * The LogicalID of a hierarchy in the parent asset's model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
   */
   readonly logicalId?: string;
 }
@@ -189,7 +189,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // child_asset_id - computed: true, optional: true, required: false
-  private _childAssetId?: string; 
+  private _childAssetId?: string;
   public get childAssetId() {
     return this.getStringAttribute('child_asset_id');
   }
@@ -205,7 +205,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string; 
+  private _externalId?: string;
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -221,7 +221,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -237,7 +237,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // logical_id - computed: true, optional: true, required: false
-  private _logicalId?: string; 
+  private _logicalId?: string;
   public get logicalId() {
     return this.getStringAttribute('logical_id');
   }
@@ -276,19 +276,19 @@ export interface IotsitewiseAssetAssetProperties {
   /**
   * The property alias that identifies the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#alias IotsitewiseAsset#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#alias IotsitewiseAsset#alias}
   */
   readonly alias?: string;
   /**
   * String-friendly customer provided external ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
   */
   readonly externalId?: string;
   /**
   * Customer provided actual UUID for property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -297,19 +297,19 @@ export interface IotsitewiseAssetAssetProperties {
   /**
   * Customer provided ID for property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
   */
   readonly logicalId?: string;
   /**
   * The MQTT notification state (ENABLED or DISABLED) for this asset property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#notification_state IotsitewiseAsset#notification_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#notification_state IotsitewiseAsset#notification_state}
   */
   readonly notificationState?: string;
   /**
   * The unit of measure (such as Newtons or RPM) of the asset property. If you don't specify a value for this parameter, the service uses the value of the assetModelProperty in the asset model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#unit IotsitewiseAsset#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#unit IotsitewiseAsset#unit}
   */
   readonly unit?: string;
 }
@@ -453,7 +453,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string; 
+  private _alias?: string;
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -469,7 +469,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string; 
+  private _externalId?: string;
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -485,7 +485,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -501,7 +501,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // logical_id - computed: true, optional: true, required: false
-  private _logicalId?: string; 
+  private _logicalId?: string;
   public get logicalId() {
     return this.getStringAttribute('logical_id');
   }
@@ -517,7 +517,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // notification_state - computed: true, optional: true, required: false
-  private _notificationState?: string; 
+  private _notificationState?: string;
   public get notificationState() {
     return this.getStringAttribute('notification_state');
   }
@@ -533,7 +533,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -570,11 +570,11 @@ export class IotsitewiseAssetAssetPropertiesList extends cdktn.ComplexList {
 }
 export interface IotsitewiseAssetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}
   */
   readonly value?: string;
 }
@@ -666,7 +666,7 @@ export class IotsitewiseAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -682,7 +682,7 @@ export class IotsitewiseAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -719,7 +719,7 @@ export class IotsitewiseAssetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset}
 */
 export class IotsitewiseAsset extends cdktn.TerraformResource {
 
@@ -735,7 +735,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewiseAsset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewiseAsset to import
-  * @param importFromId The id of the existing IotsitewiseAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewiseAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewiseAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -747,7 +747,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -758,7 +758,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_asset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -787,7 +787,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_description - computed: true, optional: true, required: false
-  private _assetDescription?: string; 
+  private _assetDescription?: string;
   public get assetDescription() {
     return this.getStringAttribute('asset_description');
   }
@@ -803,7 +803,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_external_id - computed: true, optional: true, required: false
-  private _assetExternalId?: string; 
+  private _assetExternalId?: string;
   public get assetExternalId() {
     return this.getStringAttribute('asset_external_id');
   }
@@ -840,7 +840,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_model_id - computed: false, optional: false, required: true
-  private _assetModelId?: string; 
+  private _assetModelId?: string;
   public get assetModelId() {
     return this.getStringAttribute('asset_model_id');
   }
@@ -853,7 +853,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_name - computed: false, optional: false, required: true
-  private _assetName?: string; 
+  private _assetName?: string;
   public get assetName() {
     return this.getStringAttribute('asset_name');
   }

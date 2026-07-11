@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface Mediapackagev2ChannelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}
   */
   readonly channelGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}
   */
   readonly channelName: string;
   /**
   * <p>Enter any descriptive text that helps you to identify the channel.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
   */
   readonly description?: string;
   /**
   * <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
   */
   readonly inputSwitchConfiguration?: Mediapackagev2ChannelInputSwitchConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}
   */
   readonly inputType?: string;
   /**
   * <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
   */
   readonly outputHeaderConfiguration?: Mediapackagev2ChannelOutputHeaderConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}
   */
   readonly tags?: Mediapackagev2ChannelTags[] | cdktn.IResolvable;
 }
@@ -126,13 +126,13 @@ export interface Mediapackagev2ChannelInputSwitchConfiguration {
   /**
   * <p>When true, AWS Elemental MediaPackage performs input switching based on the MQCS. Default is false. This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
   */
   readonly mqcsInputSwitching?: boolean | cdktn.IResolvable;
   /**
   * <p>For CMAF inputs, indicates which input MediaPackage should prefer when both inputs have equal MQCS scores. Select <code>1</code> to prefer the first ingest endpoint, or <code>2</code> to prefer the second ingest endpoint. If you don't specify a preferred input, MediaPackage uses its default switching behavior when MQCS scores are equal.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
   */
   readonly preferredInput?: number;
 }
@@ -222,7 +222,7 @@ export class Mediapackagev2ChannelInputSwitchConfigurationOutputReference extend
   }
 
   // mqcs_input_switching - computed: true, optional: true, required: false
-  private _mqcsInputSwitching?: boolean | cdktn.IResolvable; 
+  private _mqcsInputSwitching?: boolean | cdktn.IResolvable;
   public get mqcsInputSwitching() {
     return this.getBooleanAttribute('mqcs_input_switching');
   }
@@ -238,7 +238,7 @@ export class Mediapackagev2ChannelInputSwitchConfigurationOutputReference extend
   }
 
   // preferred_input - computed: true, optional: true, required: false
-  private _preferredInput?: number; 
+  private _preferredInput?: number;
   public get preferredInput() {
     return this.getNumberAttribute('preferred_input');
   }
@@ -257,7 +257,7 @@ export interface Mediapackagev2ChannelOutputHeaderConfiguration {
   /**
   * <p>When true, AWS Elemental MediaPackage includes the MQCS in responses to the CDN. This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
   */
   readonly publishMqcs?: boolean | cdktn.IResolvable;
 }
@@ -334,7 +334,7 @@ export class Mediapackagev2ChannelOutputHeaderConfigurationOutputReference exten
   }
 
   // publish_mqcs - computed: true, optional: true, required: false
-  private _publishMqcs?: boolean | cdktn.IResolvable; 
+  private _publishMqcs?: boolean | cdktn.IResolvable;
   public get publishMqcs() {
     return this.getBooleanAttribute('publish_mqcs');
   }
@@ -351,11 +351,11 @@ export class Mediapackagev2ChannelOutputHeaderConfigurationOutputReference exten
 }
 export interface Mediapackagev2ChannelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}
   */
   readonly value?: string;
 }
@@ -447,7 +447,7 @@ export class Mediapackagev2ChannelTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -463,7 +463,7 @@ export class Mediapackagev2ChannelTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -500,7 +500,7 @@ export class Mediapackagev2ChannelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}
 */
 export class Mediapackagev2Channel extends cdktn.TerraformResource {
 
@@ -516,7 +516,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Mediapackagev2Channel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mediapackagev2Channel to import
-  * @param importFromId The id of the existing Mediapackagev2Channel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mediapackagev2Channel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mediapackagev2Channel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -528,7 +528,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,7 +539,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediapackagev2_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -568,7 +568,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // channel_group_name - computed: false, optional: false, required: true
-  private _channelGroupName?: string; 
+  private _channelGroupName?: string;
   public get channelGroupName() {
     return this.getStringAttribute('channel_group_name');
   }
@@ -581,7 +581,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -599,7 +599,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -647,7 +647,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // input_type - computed: true, optional: true, required: false
-  private _inputType?: string; 
+  private _inputType?: string;
   public get inputType() {
     return this.getStringAttribute('input_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktn from 'cdktn';
 
 export interface GlueDevEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#arguments GlueDevEndpoint#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#arguments GlueDevEndpoint#arguments}
   */
   readonly arguments?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#extra_jars_s3_path GlueDevEndpoint#extra_jars_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#extra_jars_s3_path GlueDevEndpoint#extra_jars_s3_path}
   */
   readonly extraJarsS3Path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#extra_python_libs_s3_path GlueDevEndpoint#extra_python_libs_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#extra_python_libs_s3_path GlueDevEndpoint#extra_python_libs_s3_path}
   */
   readonly extraPythonLibsS3Path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#glue_version GlueDevEndpoint#glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#glue_version GlueDevEndpoint#glue_version}
   */
   readonly glueVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#id GlueDevEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#id GlueDevEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#name GlueDevEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#name GlueDevEndpoint#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#number_of_nodes GlueDevEndpoint#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#number_of_nodes GlueDevEndpoint#number_of_nodes}
   */
   readonly numberOfNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#number_of_workers GlueDevEndpoint#number_of_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#number_of_workers GlueDevEndpoint#number_of_workers}
   */
   readonly numberOfWorkers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#public_key GlueDevEndpoint#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#public_key GlueDevEndpoint#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#public_keys GlueDevEndpoint#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#public_keys GlueDevEndpoint#public_keys}
   */
   readonly publicKeys?: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#region GlueDevEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#region GlueDevEndpoint#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#role_arn GlueDevEndpoint#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#role_arn GlueDevEndpoint#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#security_configuration GlueDevEndpoint#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#security_configuration GlueDevEndpoint#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#security_group_ids GlueDevEndpoint#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#security_group_ids GlueDevEndpoint#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#subnet_id GlueDevEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#subnet_id GlueDevEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#tags GlueDevEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#tags GlueDevEndpoint#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#tags_all GlueDevEndpoint#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#tags_all GlueDevEndpoint#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#worker_type GlueDevEndpoint#worker_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#worker_type GlueDevEndpoint#worker_type}
   */
   readonly workerType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}
 */
 export class GlueDevEndpoint extends cdktn.TerraformResource {
 
@@ -103,7 +103,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueDevEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueDevEndpoint to import
-  * @param importFromId The id of the existing GlueDevEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueDevEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueDevEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -115,7 +115,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,7 +126,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_dev_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -161,7 +161,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // arguments - computed: false, optional: true, required: false
-  private _arguments?: { [key: string]: string }; 
+  private _arguments?: { [key: string]: string };
   public get arguments() {
     return this.getStringMapAttribute('arguments');
   }
@@ -187,7 +187,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // extra_jars_s3_path - computed: false, optional: true, required: false
-  private _extraJarsS3Path?: string; 
+  private _extraJarsS3Path?: string;
   public get extraJarsS3Path() {
     return this.getStringAttribute('extra_jars_s3_path');
   }
@@ -203,7 +203,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // extra_python_libs_s3_path - computed: false, optional: true, required: false
-  private _extraPythonLibsS3Path?: string; 
+  private _extraPythonLibsS3Path?: string;
   public get extraPythonLibsS3Path() {
     return this.getStringAttribute('extra_python_libs_s3_path');
   }
@@ -224,7 +224,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: false, optional: true, required: false
-  private _glueVersion?: string; 
+  private _glueVersion?: string;
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -240,7 +240,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -256,7 +256,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -269,7 +269,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // number_of_nodes - computed: false, optional: true, required: false
-  private _numberOfNodes?: number; 
+  private _numberOfNodes?: number;
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -285,7 +285,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: false, optional: true, required: false
-  private _numberOfWorkers?: number; 
+  private _numberOfWorkers?: number;
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -311,7 +311,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // public_key - computed: false, optional: true, required: false
-  private _publicKey?: string; 
+  private _publicKey?: string;
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -327,7 +327,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // public_keys - computed: false, optional: true, required: false
-  private _publicKeys?: string[]; 
+  private _publicKeys?: string[];
   public get publicKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('public_keys'));
   }
@@ -343,7 +343,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -359,7 +359,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -372,7 +372,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string; 
+  private _securityConfiguration?: string;
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -388,7 +388,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -409,7 +409,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -425,7 +425,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -441,7 +441,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -462,7 +462,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: false, optional: true, required: false
-  private _workerType?: string; 
+  private _workerType?: string;
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

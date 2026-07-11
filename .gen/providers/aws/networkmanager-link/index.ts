@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktn from 'cdktn';
 
 export interface NetworkmanagerLinkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#id NetworkmanagerLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#id NetworkmanagerLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
   */
   readonly providerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#tags_all NetworkmanagerLink#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#tags_all NetworkmanagerLink#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
   */
   readonly type?: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
   */
   readonly bandwidth: NetworkmanagerLinkBandwidth;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#timeouts NetworkmanagerLink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#timeouts NetworkmanagerLink#timeouts}
   */
   readonly timeouts?: NetworkmanagerLinkTimeouts;
 }
 export interface NetworkmanagerLinkBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
   */
   readonly downloadSpeed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
   */
   readonly uploadSpeed?: number;
 }
@@ -141,7 +141,7 @@ export class NetworkmanagerLinkBandwidthOutputReference extends cdktn.ComplexObj
   }
 
   // download_speed - computed: false, optional: true, required: false
-  private _downloadSpeed?: number; 
+  private _downloadSpeed?: number;
   public get downloadSpeed() {
     return this.getNumberAttribute('download_speed');
   }
@@ -157,7 +157,7 @@ export class NetworkmanagerLinkBandwidthOutputReference extends cdktn.ComplexObj
   }
 
   // upload_speed - computed: false, optional: true, required: false
-  private _uploadSpeed?: number; 
+  private _uploadSpeed?: number;
   public get uploadSpeed() {
     return this.getNumberAttribute('upload_speed');
   }
@@ -174,15 +174,15 @@ export class NetworkmanagerLinkBandwidthOutputReference extends cdktn.ComplexObj
 }
 export interface NetworkmanagerLinkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#create NetworkmanagerLink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#create NetworkmanagerLink#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#delete NetworkmanagerLink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#delete NetworkmanagerLink#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#update NetworkmanagerLink#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#update NetworkmanagerLink#update}
   */
   readonly update?: string;
 }
@@ -285,7 +285,7 @@ export class NetworkmanagerLinkTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -301,7 +301,7 @@ export class NetworkmanagerLinkTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -317,7 +317,7 @@ export class NetworkmanagerLinkTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -334,7 +334,7 @@ export class NetworkmanagerLinkTimeoutsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link aws_networkmanager_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link aws_networkmanager_link}
 */
 export class NetworkmanagerLink extends cdktn.TerraformResource {
 
@@ -350,7 +350,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerLink to import
-  * @param importFromId The id of the existing NetworkmanagerLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -362,7 +362,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,7 +373,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
       terraformResourceType: 'aws_networkmanager_link',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -405,7 +405,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -421,7 +421,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string; 
+  private _globalNetworkId?: string;
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -434,7 +434,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -450,7 +450,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: true, required: false
-  private _providerName?: string; 
+  private _providerName?: string;
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -466,7 +466,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: string; 
+  private _siteId?: string;
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
@@ -479,7 +479,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -495,7 +495,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -511,7 +511,7 @@ export class NetworkmanagerLink extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

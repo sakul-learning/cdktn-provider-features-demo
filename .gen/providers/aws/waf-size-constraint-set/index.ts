@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktn from 'cdktn';
 
 export interface WafSizeConstraintSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}
   */
   readonly name: string;
   /**
   * size_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
   */
   readonly sizeConstraints?: WafSizeConstraintSetSizeConstraints[] | cdktn.IResolvable;
 }
 export interface WafSizeConstraintSetSizeConstraintsFieldToMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#data WafSizeConstraintSet#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#data WafSizeConstraintSet#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#type WafSizeConstraintSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#type WafSizeConstraintSet#type}
   */
   readonly type: string;
 }
@@ -111,7 +111,7 @@ export class WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference exte
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string; 
+  private _data?: string;
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -127,7 +127,7 @@ export class WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -141,21 +141,21 @@ export class WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference exte
 }
 export interface WafSizeConstraintSetSizeConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#comparison_operator WafSizeConstraintSet#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#comparison_operator WafSizeConstraintSet#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#size WafSizeConstraintSet#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#size WafSizeConstraintSet#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#text_transformation WafSizeConstraintSet#text_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#text_transformation WafSizeConstraintSet#text_transformation}
   */
   readonly textTransformation: string;
   /**
   * field_to_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#field_to_match WafSizeConstraintSet#field_to_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#field_to_match WafSizeConstraintSet#field_to_match}
   */
   readonly fieldToMatch: WafSizeConstraintSetSizeConstraintsFieldToMatch;
 }
@@ -273,7 +273,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string; 
+  private _comparisonOperator?: string;
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -286,7 +286,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -299,7 +299,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string; 
+  private _textTransformation?: string;
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -346,7 +346,7 @@ export class WafSizeConstraintSetSizeConstraintsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set aws_waf_size_constraint_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set aws_waf_size_constraint_set}
 */
 export class WafSizeConstraintSet extends cdktn.TerraformResource {
 
@@ -362,7 +362,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WafSizeConstraintSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafSizeConstraintSet to import
-  * @param importFromId The id of the existing WafSizeConstraintSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafSizeConstraintSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafSizeConstraintSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -374,7 +374,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_size_constraint_set aws_waf_size_constraint_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_size_constraint_set aws_waf_size_constraint_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,7 +385,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_waf_size_constraint_set',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -410,7 +410,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -426,7 +426,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

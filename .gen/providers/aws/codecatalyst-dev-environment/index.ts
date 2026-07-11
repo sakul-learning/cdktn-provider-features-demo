@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktn from 'cdktn';
 
 export interface CodecatalystDevEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#alias CodecatalystDevEnvironment#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#id CodecatalystDevEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#inactivity_timeout_minutes CodecatalystDevEnvironment#inactivity_timeout_minutes}
   */
   readonly inactivityTimeoutMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#instance_type CodecatalystDevEnvironment#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#project_name CodecatalystDevEnvironment#project_name}
   */
   readonly projectName: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#region CodecatalystDevEnvironment#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#space_name CodecatalystDevEnvironment#space_name}
   */
   readonly spaceName: string;
   /**
   * ides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#ides CodecatalystDevEnvironment#ides}
   */
   readonly ides: CodecatalystDevEnvironmentIdes;
   /**
   * persistent_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#persistent_storage CodecatalystDevEnvironment#persistent_storage}
   */
   readonly persistentStorage: CodecatalystDevEnvironmentPersistentStorage;
   /**
   * repositories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#repositories CodecatalystDevEnvironment#repositories}
   */
   readonly repositories?: CodecatalystDevEnvironmentRepositories[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#timeouts CodecatalystDevEnvironment#timeouts}
   */
   readonly timeouts?: CodecatalystDevEnvironmentTimeouts;
 }
 export interface CodecatalystDevEnvironmentIdes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#name CodecatalystDevEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#name CodecatalystDevEnvironment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#runtime CodecatalystDevEnvironment#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#runtime CodecatalystDevEnvironment#runtime}
   */
   readonly runtime?: string;
 }
@@ -151,7 +151,7 @@ export class CodecatalystDevEnvironmentIdesOutputReference extends cdktn.Complex
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -167,7 +167,7 @@ export class CodecatalystDevEnvironmentIdesOutputReference extends cdktn.Complex
   }
 
   // runtime - computed: false, optional: true, required: false
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -184,7 +184,7 @@ export class CodecatalystDevEnvironmentIdesOutputReference extends cdktn.Complex
 }
 export interface CodecatalystDevEnvironmentPersistentStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#size CodecatalystDevEnvironment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#size CodecatalystDevEnvironment#size}
   */
   readonly size: number;
 }
@@ -251,7 +251,7 @@ export class CodecatalystDevEnvironmentPersistentStorageOutputReference extends 
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -265,11 +265,11 @@ export class CodecatalystDevEnvironmentPersistentStorageOutputReference extends 
 }
 export interface CodecatalystDevEnvironmentRepositories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#branch_name CodecatalystDevEnvironment#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#branch_name CodecatalystDevEnvironment#branch_name}
   */
   readonly branchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#repository_name CodecatalystDevEnvironment#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#repository_name CodecatalystDevEnvironment#repository_name}
   */
   readonly repositoryName: string;
 }
@@ -361,7 +361,7 @@ export class CodecatalystDevEnvironmentRepositoriesOutputReference extends cdktn
   }
 
   // branch_name - computed: false, optional: true, required: false
-  private _branchName?: string; 
+  private _branchName?: string;
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -377,7 +377,7 @@ export class CodecatalystDevEnvironmentRepositoriesOutputReference extends cdktn
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string; 
+  private _repositoryName?: string;
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -411,15 +411,15 @@ export class CodecatalystDevEnvironmentRepositoriesList extends cdktn.ComplexLis
 }
 export interface CodecatalystDevEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#create CodecatalystDevEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#create CodecatalystDevEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#delete CodecatalystDevEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#delete CodecatalystDevEnvironment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#update CodecatalystDevEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#update CodecatalystDevEnvironment#update}
   */
   readonly update?: string;
 }
@@ -522,7 +522,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -538,7 +538,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -554,7 +554,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -571,7 +571,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}
 */
 export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
 
@@ -587,7 +587,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodecatalystDevEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodecatalystDevEnvironment to import
-  * @param importFromId The id of the existing CodecatalystDevEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodecatalystDevEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodecatalystDevEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -599,7 +599,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -610,7 +610,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codecatalyst_dev_environment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -638,7 +638,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: true, required: false
-  private _alias?: string; 
+  private _alias?: string;
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -654,7 +654,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -670,7 +670,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // inactivity_timeout_minutes - computed: false, optional: true, required: false
-  private _inactivityTimeoutMinutes?: number; 
+  private _inactivityTimeoutMinutes?: number;
   public get inactivityTimeoutMinutes() {
     return this.getNumberAttribute('inactivity_timeout_minutes');
   }
@@ -686,7 +686,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -699,7 +699,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string; 
+  private _projectName?: string;
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -712,7 +712,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -728,7 +728,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // space_name - computed: false, optional: false, required: true
-  private _spaceName?: string; 
+  private _spaceName?: string;
   public get spaceName() {
     return this.getStringAttribute('space_name');
   }

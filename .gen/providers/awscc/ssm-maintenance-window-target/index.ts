@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SsmMaintenanceWindowTargetConfig extends cdktn.TerraformMetaArg
   /**
   * A description for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
   */
   readonly description?: string;
   /**
   * The name for the maintenance window target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
   */
   readonly name?: string;
   /**
   * A user-provided value that will be included in any Amazon CloudWatch Events events that are raised while running tasks for these targets in this maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
   */
   readonly ownerInformation?: string;
   /**
   * The type of target that is being registered with the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
   */
   readonly resourceType: string;
   /**
   * The targets to register with the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
   */
   readonly targets: SsmMaintenanceWindowTargetTargets[] | cdktn.IResolvable;
   /**
   * The ID of the maintenance window to register the target with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
   */
   readonly windowId: string;
 }
@@ -48,13 +48,13 @@ export interface SsmMaintenanceWindowTargetTargets {
   /**
   * User-defined criteria for sending commands that target managed nodes that meet the criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
   */
   readonly key: string;
   /**
   * User-defined criteria that maps to Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
   */
   readonly values: string[];
 }
@@ -146,7 +146,7 @@ export class SsmMaintenanceWindowTargetTargetsOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -159,7 +159,7 @@ export class SsmMaintenanceWindowTargetTargetsOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -193,7 +193,7 @@ export class SsmMaintenanceWindowTargetTargetsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}
 */
 export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmMaintenanceWindowTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmMaintenanceWindowTarget to import
-  * @param importFromId The id of the existing SsmMaintenanceWindowTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmMaintenanceWindowTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmMaintenanceWindowTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_maintenance_window_target',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -255,7 +255,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -276,7 +276,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -292,7 +292,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // owner_information - computed: true, optional: true, required: false
-  private _ownerInformation?: string; 
+  private _ownerInformation?: string;
   public get ownerInformation() {
     return this.getStringAttribute('owner_information');
   }
@@ -308,7 +308,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -334,7 +334,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // window_id - computed: false, optional: false, required: true
-  private _windowId?: string; 
+  private _windowId?: string;
   public get windowId() {
     return this.getStringAttribute('window_id');
   }

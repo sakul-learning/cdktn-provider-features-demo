@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,67 +8,67 @@ import * as cdktn from 'cdktn';
 
 export interface BatchComputeEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#compute_environment_name BatchComputeEnvironment#compute_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#compute_environment_name BatchComputeEnvironment#compute_environment_name}
   */
   readonly computeEnvironmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#compute_resources BatchComputeEnvironment#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#compute_resources BatchComputeEnvironment#compute_resources}
   */
   readonly computeResources?: BatchComputeEnvironmentComputeResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#context BatchComputeEnvironment#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#context BatchComputeEnvironment#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#eks_configuration BatchComputeEnvironment#eks_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#eks_configuration BatchComputeEnvironment#eks_configuration}
   */
   readonly eksConfiguration?: BatchComputeEnvironmentEksConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#replace_compute_environment BatchComputeEnvironment#replace_compute_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#replace_compute_environment BatchComputeEnvironment#replace_compute_environment}
   */
   readonly replaceComputeEnvironment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#service_role BatchComputeEnvironment#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#service_role BatchComputeEnvironment#service_role}
   */
   readonly serviceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#state BatchComputeEnvironment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#state BatchComputeEnvironment#state}
   */
   readonly state?: string;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#unmanagedv_cpus BatchComputeEnvironment#unmanagedv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#unmanagedv_cpus BatchComputeEnvironment#unmanagedv_cpus}
   */
   readonly unmanagedvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#update_policy BatchComputeEnvironment#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#update_policy BatchComputeEnvironment#update_policy}
   */
   readonly updatePolicy?: BatchComputeEnvironmentUpdatePolicy;
 }
 export interface BatchComputeEnvironmentComputeResourcesEc2Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#batch_image_status BatchComputeEnvironment#batch_image_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#batch_image_status BatchComputeEnvironment#batch_image_status}
   */
   readonly batchImageStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}
   */
   readonly imageIdOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}
   */
   readonly imageKubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}
   */
   readonly imageType?: string;
 }
@@ -186,7 +186,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // batch_image_status - computed: true, optional: true, required: false
-  private _batchImageStatus?: string; 
+  private _batchImageStatus?: string;
   public get batchImageStatus() {
     return this.getStringAttribute('batch_image_status');
   }
@@ -202,7 +202,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_id_override - computed: true, optional: true, required: false
-  private _imageIdOverride?: string; 
+  private _imageIdOverride?: string;
   public get imageIdOverride() {
     return this.getStringAttribute('image_id_override');
   }
@@ -218,7 +218,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_kubernetes_version - computed: true, optional: true, required: false
-  private _imageKubernetesVersion?: string; 
+  private _imageKubernetesVersion?: string;
   public get imageKubernetesVersion() {
     return this.getStringAttribute('image_kubernetes_version');
   }
@@ -234,7 +234,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_type - computed: true, optional: true, required: false
-  private _imageType?: string; 
+  private _imageType?: string;
   public get imageType() {
     return this.getStringAttribute('image_type');
   }
@@ -271,23 +271,23 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationList extends
 }
 export interface BatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#target_instance_types BatchComputeEnvironment#target_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#target_instance_types BatchComputeEnvironment#target_instance_types}
   */
   readonly targetInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
   */
   readonly userdataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
   */
   readonly version?: string;
 }
@@ -418,7 +418,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutpu
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -434,7 +434,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutpu
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -450,7 +450,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutpu
   }
 
   // target_instance_types - computed: true, optional: true, required: false
-  private _targetInstanceTypes?: string[]; 
+  private _targetInstanceTypes?: string[];
   public get targetInstanceTypes() {
     return this.getListAttribute('target_instance_types');
   }
@@ -466,7 +466,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutpu
   }
 
   // userdata_type - computed: true, optional: true, required: false
-  private _userdataType?: string; 
+  private _userdataType?: string;
   public get userdataType() {
     return this.getStringAttribute('userdata_type');
   }
@@ -482,7 +482,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutpu
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -519,23 +519,23 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesList 
 }
 export interface BatchComputeEnvironmentComputeResourcesLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#overrides BatchComputeEnvironment#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#overrides BatchComputeEnvironment#overrides}
   */
   readonly overrides?: BatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
   */
   readonly userdataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
   */
   readonly version?: string;
 }
@@ -664,7 +664,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -680,7 +680,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -712,7 +712,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // userdata_type - computed: true, optional: true, required: false
-  private _userdataType?: string; 
+  private _userdataType?: string;
   public get userdataType() {
     return this.getStringAttribute('userdata_type');
   }
@@ -728,7 +728,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -745,7 +745,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
 }
 export interface BatchComputeEnvironmentComputeResourcesScalingPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}
   */
   readonly minScaleDownDelayMinutes?: number;
 }
@@ -822,7 +822,7 @@ export class BatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference
   }
 
   // min_scale_down_delay_minutes - computed: true, optional: true, required: false
-  private _minScaleDownDelayMinutes?: number; 
+  private _minScaleDownDelayMinutes?: number;
   public get minScaleDownDelayMinutes() {
     return this.getNumberAttribute('min_scale_down_delay_minutes');
   }
@@ -839,81 +839,81 @@ export class BatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference
 }
 export interface BatchComputeEnvironmentComputeResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}
   */
   readonly bidPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#desiredv_cpus BatchComputeEnvironment#desiredv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#desiredv_cpus BatchComputeEnvironment#desiredv_cpus}
   */
   readonly desiredvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#ec_2_configuration BatchComputeEnvironment#ec_2_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#ec_2_configuration BatchComputeEnvironment#ec_2_configuration}
   */
   readonly ec2Configuration?: BatchComputeEnvironmentComputeResourcesEc2Configuration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#ec_2_key_pair BatchComputeEnvironment#ec_2_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#ec_2_key_pair BatchComputeEnvironment#ec_2_key_pair}
   */
   readonly ec2KeyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}
   */
   readonly instanceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#instance_types BatchComputeEnvironment#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#instance_types BatchComputeEnvironment#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
   */
   readonly launchTemplate?: BatchComputeEnvironmentComputeResourcesLaunchTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#maxv_cpus BatchComputeEnvironment#maxv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#maxv_cpus BatchComputeEnvironment#maxv_cpus}
   */
   readonly maxvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#minv_cpus BatchComputeEnvironment#minv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#minv_cpus BatchComputeEnvironment#minv_cpus}
   */
   readonly minvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}
   */
   readonly placementGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#scaling_policy BatchComputeEnvironment#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#scaling_policy BatchComputeEnvironment#scaling_policy}
   */
   readonly scalingPolicy?: BatchComputeEnvironmentComputeResourcesScalingPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}
   */
   readonly spotIamFleetRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}
   */
   readonly subnets?: string[];
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#update_to_latest_image_version BatchComputeEnvironment#update_to_latest_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#update_to_latest_image_version BatchComputeEnvironment#update_to_latest_image_version}
   */
   readonly updateToLatestImageVersion?: boolean | cdktn.IResolvable;
 }
@@ -1224,7 +1224,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -1240,7 +1240,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // bid_percentage - computed: true, optional: true, required: false
-  private _bidPercentage?: number; 
+  private _bidPercentage?: number;
   public get bidPercentage() {
     return this.getNumberAttribute('bid_percentage');
   }
@@ -1256,7 +1256,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // desiredv_cpus - computed: true, optional: true, required: false
-  private _desiredvCpus?: number; 
+  private _desiredvCpus?: number;
   public get desiredvCpus() {
     return this.getNumberAttribute('desiredv_cpus');
   }
@@ -1288,7 +1288,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // ec_2_key_pair - computed: true, optional: true, required: false
-  private _ec2KeyPair?: string; 
+  private _ec2KeyPair?: string;
   public get ec2KeyPair() {
     return this.getStringAttribute('ec_2_key_pair');
   }
@@ -1304,7 +1304,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1320,7 +1320,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // instance_role - computed: true, optional: true, required: false
-  private _instanceRole?: string; 
+  private _instanceRole?: string;
   public get instanceRole() {
     return this.getStringAttribute('instance_role');
   }
@@ -1336,7 +1336,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[]; 
+  private _instanceTypes?: string[];
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -1368,7 +1368,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // maxv_cpus - computed: true, optional: true, required: false
-  private _maxvCpus?: number; 
+  private _maxvCpus?: number;
   public get maxvCpus() {
     return this.getNumberAttribute('maxv_cpus');
   }
@@ -1384,7 +1384,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // minv_cpus - computed: true, optional: true, required: false
-  private _minvCpus?: number; 
+  private _minvCpus?: number;
   public get minvCpus() {
     return this.getNumberAttribute('minv_cpus');
   }
@@ -1400,7 +1400,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // placement_group - computed: true, optional: true, required: false
-  private _placementGroup?: string; 
+  private _placementGroup?: string;
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -1432,7 +1432,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1448,7 +1448,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // spot_iam_fleet_role - computed: true, optional: true, required: false
-  private _spotIamFleetRole?: string; 
+  private _spotIamFleetRole?: string;
   public get spotIamFleetRole() {
     return this.getStringAttribute('spot_iam_fleet_role');
   }
@@ -1464,7 +1464,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -1480,7 +1480,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1496,7 +1496,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1512,7 +1512,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // update_to_latest_image_version - computed: true, optional: true, required: false
-  private _updateToLatestImageVersion?: boolean | cdktn.IResolvable; 
+  private _updateToLatestImageVersion?: boolean | cdktn.IResolvable;
   public get updateToLatestImageVersion() {
     return this.getBooleanAttribute('update_to_latest_image_version');
   }
@@ -1529,11 +1529,11 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
 }
 export interface BatchComputeEnvironmentEksConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}
   */
   readonly eksClusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}
   */
   readonly kubernetesNamespace?: string;
 }
@@ -1623,7 +1623,7 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
   }
 
   // eks_cluster_arn - computed: true, optional: true, required: false
-  private _eksClusterArn?: string; 
+  private _eksClusterArn?: string;
   public get eksClusterArn() {
     return this.getStringAttribute('eks_cluster_arn');
   }
@@ -1639,7 +1639,7 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
   }
 
   // kubernetes_namespace - computed: true, optional: true, required: false
-  private _kubernetesNamespace?: string; 
+  private _kubernetesNamespace?: string;
   public get kubernetesNamespace() {
     return this.getStringAttribute('kubernetes_namespace');
   }
@@ -1656,11 +1656,11 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
 }
 export interface BatchComputeEnvironmentUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#job_execution_timeout_minutes BatchComputeEnvironment#job_execution_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#job_execution_timeout_minutes BatchComputeEnvironment#job_execution_timeout_minutes}
   */
   readonly jobExecutionTimeoutMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#terminate_jobs_on_update BatchComputeEnvironment#terminate_jobs_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#terminate_jobs_on_update BatchComputeEnvironment#terminate_jobs_on_update}
   */
   readonly terminateJobsOnUpdate?: boolean | cdktn.IResolvable;
 }
@@ -1750,7 +1750,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
   }
 
   // job_execution_timeout_minutes - computed: true, optional: true, required: false
-  private _jobExecutionTimeoutMinutes?: number; 
+  private _jobExecutionTimeoutMinutes?: number;
   public get jobExecutionTimeoutMinutes() {
     return this.getNumberAttribute('job_execution_timeout_minutes');
   }
@@ -1766,7 +1766,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
   }
 
   // terminate_jobs_on_update - computed: true, optional: true, required: false
-  private _terminateJobsOnUpdate?: boolean | cdktn.IResolvable; 
+  private _terminateJobsOnUpdate?: boolean | cdktn.IResolvable;
   public get terminateJobsOnUpdate() {
     return this.getBooleanAttribute('terminate_jobs_on_update');
   }
@@ -1783,7 +1783,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}
 */
 export class BatchComputeEnvironment extends cdktn.TerraformResource {
 
@@ -1799,7 +1799,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BatchComputeEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchComputeEnvironment to import
-  * @param importFromId The id of the existing BatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchComputeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1811,7 +1811,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1822,7 +1822,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_batch_compute_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1855,7 +1855,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // compute_environment_name - computed: true, optional: true, required: false
-  private _computeEnvironmentName?: string; 
+  private _computeEnvironmentName?: string;
   public get computeEnvironmentName() {
     return this.getStringAttribute('compute_environment_name');
   }
@@ -1887,7 +1887,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // context - computed: true, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -1924,7 +1924,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // replace_compute_environment - computed: true, optional: true, required: false
-  private _replaceComputeEnvironment?: boolean | cdktn.IResolvable; 
+  private _replaceComputeEnvironment?: boolean | cdktn.IResolvable;
   public get replaceComputeEnvironment() {
     return this.getBooleanAttribute('replace_compute_environment');
   }
@@ -1940,7 +1940,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // service_role - computed: true, optional: true, required: false
-  private _serviceRole?: string; 
+  private _serviceRole?: string;
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -1956,7 +1956,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1972,7 +1972,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1988,7 +1988,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2001,7 +2001,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // unmanagedv_cpus - computed: true, optional: true, required: false
-  private _unmanagedvCpus?: number; 
+  private _unmanagedvCpus?: number;
   public get unmanagedvCpus() {
     return this.getNumberAttribute('unmanagedv_cpus');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface DatazoneGlossaryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#description DatazoneGlossary#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#description DatazoneGlossary#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#domain_identifier DatazoneGlossary#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#domain_identifier DatazoneGlossary#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#name DatazoneGlossary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#name DatazoneGlossary#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#owning_project_identifier DatazoneGlossary#owning_project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#owning_project_identifier DatazoneGlossary#owning_project_identifier}
   */
   readonly owningProjectIdentifier: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#region DatazoneGlossary#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#region DatazoneGlossary#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#status DatazoneGlossary#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#status DatazoneGlossary#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary aws_datazone_glossary}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary aws_datazone_glossary}
 */
 export class DatazoneGlossary extends cdktn.TerraformResource {
 
@@ -52,7 +52,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneGlossary resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneGlossary to import
-  * @param importFromId The id of the existing DatazoneGlossary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneGlossary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneGlossary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -64,7 +64,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_glossary aws_datazone_glossary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_glossary aws_datazone_glossary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,7 +75,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
       terraformResourceType: 'aws_datazone_glossary',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,7 +98,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -114,7 +114,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -132,7 +132,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -145,7 +145,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   }
 
   // owning_project_identifier - computed: false, optional: false, required: true
-  private _owningProjectIdentifier?: string; 
+  private _owningProjectIdentifier?: string;
   public get owningProjectIdentifier() {
     return this.getStringAttribute('owning_project_identifier');
   }
@@ -158,7 +158,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -174,7 +174,7 @@ export class DatazoneGlossary extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

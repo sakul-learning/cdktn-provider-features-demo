@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface EventsArchiveConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}
   */
   readonly archiveName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#description EventsArchive#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#description EventsArchive#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}
   */
   readonly eventPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}
   */
   readonly sourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive awscc_events_archive}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive awscc_events_archive}
 */
 export class EventsArchive extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventsArchive resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventsArchive to import
-  * @param importFromId The id of the existing EventsArchive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventsArchive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventsArchive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_archive awscc_events_archive} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_archive awscc_events_archive} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class EventsArchive extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_events_archive',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -96,7 +96,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   // ==========
 
   // archive_name - computed: true, optional: true, required: false
-  private _archiveName?: string; 
+  private _archiveName?: string;
   public get archiveName() {
     return this.getStringAttribute('archive_name');
   }
@@ -117,7 +117,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -133,7 +133,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string; 
+  private _eventPattern?: string;
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -154,7 +154,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string; 
+  private _kmsKeyIdentifier?: string;
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -170,7 +170,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // retention_days - computed: true, optional: true, required: false
-  private _retentionDays?: number; 
+  private _retentionDays?: number;
   public get retentionDays() {
     return this.getNumberAttribute('retention_days');
   }
@@ -186,7 +186,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string; 
+  private _sourceArn?: string;
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }

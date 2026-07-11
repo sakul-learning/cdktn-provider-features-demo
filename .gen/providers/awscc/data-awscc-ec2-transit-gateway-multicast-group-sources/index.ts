@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2TransitGatewayMulticastGroupSourcesConfig extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}
 */
 export class DataAwsccEc2TransitGatewayMulticastGroupSources extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2TransitGatewayMulticastGroupSources extends cdktn.Terra
   * Generates CDKTN code for importing a DataAwsccEc2TransitGatewayMulticastGroupSources resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2TransitGatewayMulticastGroupSources to import
-  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayMulticastGroupSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayMulticastGroupSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2TransitGatewayMulticastGroupSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2TransitGatewayMulticastGroupSources extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2TransitGatewayMulticastGroupSources extends cdktn.Terra
       terraformResourceType: 'awscc_ec2_transit_gateway_multicast_group_sources',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

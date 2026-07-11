@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IotwirelessMulticastGroupConfig extends cdktn.TerraformMetaArgu
   /**
   * Wireless device to associate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
   */
   readonly associateWirelessDevice?: string;
   /**
   * Multicast group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
   */
   readonly description?: string;
   /**
   * Wireless device to disassociate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
   */
   readonly disassociateWirelessDevice?: string;
   /**
   * Multicast group LoRaWAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
   */
   readonly loRaWan: IotwirelessMulticastGroupLoRaWan;
   /**
   * Name of Multicast group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the Multicast group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
   */
   readonly tags?: IotwirelessMulticastGroupTags[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface IotwirelessMulticastGroupLoRaWan {
   /**
   * Multicast group LoRaWAN DL Class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
   */
   readonly dlClass: string;
   /**
   * Multicast group LoRaWAN RF region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
   */
   readonly rfRegion: string;
 }
@@ -144,7 +144,7 @@ export class IotwirelessMulticastGroupLoRaWanOutputReference extends cdktn.Compl
   }
 
   // dl_class - computed: false, optional: false, required: true
-  private _dlClass?: string; 
+  private _dlClass?: string;
   public get dlClass() {
     return this.getStringAttribute('dl_class');
   }
@@ -167,7 +167,7 @@ export class IotwirelessMulticastGroupLoRaWanOutputReference extends cdktn.Compl
   }
 
   // rf_region - computed: false, optional: false, required: true
-  private _rfRegion?: string; 
+  private _rfRegion?: string;
   public get rfRegion() {
     return this.getStringAttribute('rf_region');
   }
@@ -181,11 +181,11 @@ export class IotwirelessMulticastGroupLoRaWanOutputReference extends cdktn.Compl
 }
 export interface IotwirelessMulticastGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}
   */
   readonly value?: string;
 }
@@ -277,7 +277,7 @@ export class IotwirelessMulticastGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class IotwirelessMulticastGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -330,7 +330,7 @@ export class IotwirelessMulticastGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}
 */
 export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
 
@@ -346,7 +346,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessMulticastGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessMulticastGroup to import
-  * @param importFromId The id of the existing IotwirelessMulticastGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessMulticastGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessMulticastGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -358,7 +358,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,7 +369,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_multicast_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -397,7 +397,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // associate_wireless_device - computed: true, optional: true, required: false
-  private _associateWirelessDevice?: string; 
+  private _associateWirelessDevice?: string;
   public get associateWirelessDevice() {
     return this.getStringAttribute('associate_wireless_device');
   }
@@ -413,7 +413,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -429,7 +429,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // disassociate_wireless_device - computed: true, optional: true, required: false
-  private _disassociateWirelessDevice?: string; 
+  private _disassociateWirelessDevice?: string;
   public get disassociateWirelessDevice() {
     return this.getStringAttribute('disassociate_wireless_device');
   }
@@ -468,7 +468,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

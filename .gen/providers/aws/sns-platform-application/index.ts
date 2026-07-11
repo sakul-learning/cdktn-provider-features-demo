@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface SnsPlatformApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#apple_platform_bundle_id SnsPlatformApplication#apple_platform_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#apple_platform_bundle_id SnsPlatformApplication#apple_platform_bundle_id}
   */
   readonly applePlatformBundleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#apple_platform_team_id SnsPlatformApplication#apple_platform_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#apple_platform_team_id SnsPlatformApplication#apple_platform_team_id}
   */
   readonly applePlatformTeamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#event_delivery_failure_topic_arn SnsPlatformApplication#event_delivery_failure_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#event_delivery_failure_topic_arn SnsPlatformApplication#event_delivery_failure_topic_arn}
   */
   readonly eventDeliveryFailureTopicArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#event_endpoint_created_topic_arn SnsPlatformApplication#event_endpoint_created_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#event_endpoint_created_topic_arn SnsPlatformApplication#event_endpoint_created_topic_arn}
   */
   readonly eventEndpointCreatedTopicArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#event_endpoint_deleted_topic_arn SnsPlatformApplication#event_endpoint_deleted_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#event_endpoint_deleted_topic_arn SnsPlatformApplication#event_endpoint_deleted_topic_arn}
   */
   readonly eventEndpointDeletedTopicArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#event_endpoint_updated_topic_arn SnsPlatformApplication#event_endpoint_updated_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#event_endpoint_updated_topic_arn SnsPlatformApplication#event_endpoint_updated_topic_arn}
   */
   readonly eventEndpointUpdatedTopicArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#failure_feedback_role_arn SnsPlatformApplication#failure_feedback_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#failure_feedback_role_arn SnsPlatformApplication#failure_feedback_role_arn}
   */
   readonly failureFeedbackRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#id SnsPlatformApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#id SnsPlatformApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#name SnsPlatformApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#name SnsPlatformApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#platform SnsPlatformApplication#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#platform SnsPlatformApplication#platform}
   */
   readonly platform: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#platform_credential SnsPlatformApplication#platform_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#platform_credential SnsPlatformApplication#platform_credential}
   */
   readonly platformCredential: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#platform_principal SnsPlatformApplication#platform_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#platform_principal SnsPlatformApplication#platform_principal}
   */
   readonly platformPrincipal?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#region SnsPlatformApplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#region SnsPlatformApplication#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#success_feedback_role_arn SnsPlatformApplication#success_feedback_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#success_feedback_role_arn SnsPlatformApplication#success_feedback_role_arn}
   */
   readonly successFeedbackRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#success_feedback_sample_rate SnsPlatformApplication#success_feedback_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#success_feedback_sample_rate SnsPlatformApplication#success_feedback_sample_rate}
   */
   readonly successFeedbackSampleRate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application aws_sns_platform_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application aws_sns_platform_application}
 */
 export class SnsPlatformApplication extends cdktn.TerraformResource {
 
@@ -91,7 +91,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SnsPlatformApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnsPlatformApplication to import
-  * @param importFromId The id of the existing SnsPlatformApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnsPlatformApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnsPlatformApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -103,7 +103,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,7 +114,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sns_platform_application',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -146,7 +146,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   // ==========
 
   // apple_platform_bundle_id - computed: false, optional: true, required: false
-  private _applePlatformBundleId?: string; 
+  private _applePlatformBundleId?: string;
   public get applePlatformBundleId() {
     return this.getStringAttribute('apple_platform_bundle_id');
   }
@@ -162,7 +162,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // apple_platform_team_id - computed: false, optional: true, required: false
-  private _applePlatformTeamId?: string; 
+  private _applePlatformTeamId?: string;
   public get applePlatformTeamId() {
     return this.getStringAttribute('apple_platform_team_id');
   }
@@ -183,7 +183,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_delivery_failure_topic_arn - computed: false, optional: true, required: false
-  private _eventDeliveryFailureTopicArn?: string; 
+  private _eventDeliveryFailureTopicArn?: string;
   public get eventDeliveryFailureTopicArn() {
     return this.getStringAttribute('event_delivery_failure_topic_arn');
   }
@@ -199,7 +199,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_created_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointCreatedTopicArn?: string; 
+  private _eventEndpointCreatedTopicArn?: string;
   public get eventEndpointCreatedTopicArn() {
     return this.getStringAttribute('event_endpoint_created_topic_arn');
   }
@@ -215,7 +215,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_deleted_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointDeletedTopicArn?: string; 
+  private _eventEndpointDeletedTopicArn?: string;
   public get eventEndpointDeletedTopicArn() {
     return this.getStringAttribute('event_endpoint_deleted_topic_arn');
   }
@@ -231,7 +231,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_updated_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointUpdatedTopicArn?: string; 
+  private _eventEndpointUpdatedTopicArn?: string;
   public get eventEndpointUpdatedTopicArn() {
     return this.getStringAttribute('event_endpoint_updated_topic_arn');
   }
@@ -247,7 +247,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // failure_feedback_role_arn - computed: false, optional: true, required: false
-  private _failureFeedbackRoleArn?: string; 
+  private _failureFeedbackRoleArn?: string;
   public get failureFeedbackRoleArn() {
     return this.getStringAttribute('failure_feedback_role_arn');
   }
@@ -263,7 +263,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -279,7 +279,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -292,7 +292,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform - computed: false, optional: false, required: true
-  private _platform?: string; 
+  private _platform?: string;
   public get platform() {
     return this.getStringAttribute('platform');
   }
@@ -305,7 +305,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform_credential - computed: false, optional: false, required: true
-  private _platformCredential?: string; 
+  private _platformCredential?: string;
   public get platformCredential() {
     return this.getStringAttribute('platform_credential');
   }
@@ -318,7 +318,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform_principal - computed: false, optional: true, required: false
-  private _platformPrincipal?: string; 
+  private _platformPrincipal?: string;
   public get platformPrincipal() {
     return this.getStringAttribute('platform_principal');
   }
@@ -334,7 +334,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -350,7 +350,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // success_feedback_role_arn - computed: false, optional: true, required: false
-  private _successFeedbackRoleArn?: string; 
+  private _successFeedbackRoleArn?: string;
   public get successFeedbackRoleArn() {
     return this.getStringAttribute('success_feedback_role_arn');
   }
@@ -366,7 +366,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // success_feedback_sample_rate - computed: false, optional: true, required: false
-  private _successFeedbackSampleRate?: string; 
+  private _successFeedbackSampleRate?: string;
   public get successFeedbackSampleRate() {
     return this.getStringAttribute('success_feedback_sample_rate');
   }

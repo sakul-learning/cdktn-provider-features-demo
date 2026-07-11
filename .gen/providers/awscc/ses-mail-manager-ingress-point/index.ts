@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerIngressPointConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#ingress_point_configuration SesMailManagerIngressPoint#ingress_point_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#ingress_point_configuration SesMailManagerIngressPoint#ingress_point_configuration}
   */
   readonly ingressPointConfiguration?: SesMailManagerIngressPointIngressPointConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#ingress_point_name SesMailManagerIngressPoint#ingress_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#ingress_point_name SesMailManagerIngressPoint#ingress_point_name}
   */
   readonly ingressPointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#network_configuration SesMailManagerIngressPoint#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#network_configuration SesMailManagerIngressPoint#network_configuration}
   */
   readonly networkConfiguration?: SesMailManagerIngressPointNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#rule_set_id SesMailManagerIngressPoint#rule_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#rule_set_id SesMailManagerIngressPoint#rule_set_id}
   */
   readonly ruleSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#status_to_update SesMailManagerIngressPoint#status_to_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#status_to_update SesMailManagerIngressPoint#status_to_update}
   */
   readonly statusToUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#tags SesMailManagerIngressPoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#tags SesMailManagerIngressPoint#tags}
   */
   readonly tags?: SesMailManagerIngressPointTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#tls_policy SesMailManagerIngressPoint#tls_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#tls_policy SesMailManagerIngressPoint#tls_policy}
   */
   readonly tlsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#traffic_policy_id SesMailManagerIngressPoint#traffic_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#traffic_policy_id SesMailManagerIngressPoint#traffic_policy_id}
   */
   readonly trafficPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#type SesMailManagerIngressPoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#type SesMailManagerIngressPoint#type}
   */
   readonly type: string;
 }
 export interface SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#ca_content SesMailManagerIngressPoint#ca_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#ca_content SesMailManagerIngressPoint#ca_content}
   */
   readonly caContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#crl_content SesMailManagerIngressPoint#crl_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#crl_content SesMailManagerIngressPoint#crl_content}
   */
   readonly crlContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#kms_key_arn SesMailManagerIngressPoint#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#kms_key_arn SesMailManagerIngressPoint#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -157,7 +157,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // ca_content - computed: true, optional: true, required: false
-  private _caContent?: string; 
+  private _caContent?: string;
   public get caContent() {
     return this.getStringAttribute('ca_content');
   }
@@ -173,7 +173,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // crl_content - computed: true, optional: true, required: false
-  private _crlContent?: string; 
+  private _crlContent?: string;
   public get crlContent() {
     return this.getStringAttribute('crl_content');
   }
@@ -189,7 +189,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -206,7 +206,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
 }
 export interface SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#trust_store SesMailManagerIngressPoint#trust_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#trust_store SesMailManagerIngressPoint#trust_store}
   */
   readonly trustStore?: SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore;
 }
@@ -300,15 +300,15 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
 }
 export interface SesMailManagerIngressPointIngressPointConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#secret_arn SesMailManagerIngressPoint#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#secret_arn SesMailManagerIngressPoint#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#smtp_password SesMailManagerIngressPoint#smtp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#smtp_password SesMailManagerIngressPoint#smtp_password}
   */
   readonly smtpPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#tls_auth_configuration SesMailManagerIngressPoint#tls_auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#tls_auth_configuration SesMailManagerIngressPoint#tls_auth_configuration}
   */
   readonly tlsAuthConfiguration?: SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfiguration;
 }
@@ -411,7 +411,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationOutputReference 
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -427,7 +427,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationOutputReference 
   }
 
   // smtp_password - computed: true, optional: true, required: false
-  private _smtpPassword?: string; 
+  private _smtpPassword?: string;
   public get smtpPassword() {
     return this.getStringAttribute('smtp_password');
   }
@@ -460,7 +460,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationOutputReference 
 }
 export interface SesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#vpc_endpoint_id SesMailManagerIngressPoint#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#vpc_endpoint_id SesMailManagerIngressPoint#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
 }
@@ -537,7 +537,7 @@ export class SesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigu
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string; 
+  private _vpcEndpointId?: string;
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -554,7 +554,7 @@ export class SesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigu
 }
 export interface SesMailManagerIngressPointNetworkConfigurationPublicNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#ip_type SesMailManagerIngressPoint#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#ip_type SesMailManagerIngressPoint#ip_type}
   */
   readonly ipType?: string;
 }
@@ -631,7 +631,7 @@ export class SesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigur
   }
 
   // ip_type - computed: true, optional: true, required: false
-  private _ipType?: string; 
+  private _ipType?: string;
   public get ipType() {
     return this.getStringAttribute('ip_type');
   }
@@ -648,11 +648,11 @@ export class SesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigur
 }
 export interface SesMailManagerIngressPointNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#private_network_configuration SesMailManagerIngressPoint#private_network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#private_network_configuration SesMailManagerIngressPoint#private_network_configuration}
   */
   readonly privateNetworkConfiguration?: SesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#public_network_configuration SesMailManagerIngressPoint#public_network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#public_network_configuration SesMailManagerIngressPoint#public_network_configuration}
   */
   readonly publicNetworkConfiguration?: SesMailManagerIngressPointNetworkConfigurationPublicNetworkConfiguration;
 }
@@ -775,11 +775,11 @@ export class SesMailManagerIngressPointNetworkConfigurationOutputReference exten
 }
 export interface SesMailManagerIngressPointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#key SesMailManagerIngressPoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#key SesMailManagerIngressPoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#value SesMailManagerIngressPoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#value SesMailManagerIngressPoint#value}
   */
   readonly value?: string;
 }
@@ -871,7 +871,7 @@ export class SesMailManagerIngressPointTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -887,7 +887,7 @@ export class SesMailManagerIngressPointTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -924,7 +924,7 @@ export class SesMailManagerIngressPointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}
 */
 export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
 
@@ -940,7 +940,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerIngressPoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerIngressPoint to import
-  * @param importFromId The id of the existing SesMailManagerIngressPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerIngressPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerIngressPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -952,7 +952,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -963,7 +963,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_ingress_point',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1025,7 +1025,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // ingress_point_name - computed: true, optional: true, required: false
-  private _ingressPointName?: string; 
+  private _ingressPointName?: string;
   public get ingressPointName() {
     return this.getStringAttribute('ingress_point_name');
   }
@@ -1057,7 +1057,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // rule_set_id - computed: false, optional: false, required: true
-  private _ruleSetId?: string; 
+  private _ruleSetId?: string;
   public get ruleSetId() {
     return this.getStringAttribute('rule_set_id');
   }
@@ -1075,7 +1075,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // status_to_update - computed: true, optional: true, required: false
-  private _statusToUpdate?: string; 
+  private _statusToUpdate?: string;
   public get statusToUpdate() {
     return this.getStringAttribute('status_to_update');
   }
@@ -1107,7 +1107,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // tls_policy - computed: true, optional: true, required: false
-  private _tlsPolicy?: string; 
+  private _tlsPolicy?: string;
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }
@@ -1123,7 +1123,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // traffic_policy_id - computed: false, optional: false, required: true
-  private _trafficPolicyId?: string; 
+  private _trafficPolicyId?: string;
   public get trafficPolicyId() {
     return this.getStringAttribute('traffic_policy_id');
   }
@@ -1136,7 +1136,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecurityhubOrganizationConfigurationConfig extends cdktn.Terraf
   /**
   * Whether to automatically enable Security Hub in new member accounts when they join the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration#auto_enable SecurityhubOrganizationConfiguration#auto_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration#auto_enable SecurityhubOrganizationConfiguration#auto_enable}
   */
   readonly autoEnable: boolean | cdktn.IResolvable;
   /**
   * Whether to automatically enable Security Hub default standards in new member accounts when they join the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration#auto_enable_standards SecurityhubOrganizationConfiguration#auto_enable_standards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration#auto_enable_standards SecurityhubOrganizationConfiguration#auto_enable_standards}
   */
   readonly autoEnableStandards?: string;
   /**
   * Indicates whether the organization uses local or central configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration#configuration_type SecurityhubOrganizationConfiguration#configuration_type}
   */
   readonly configurationType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration}
 */
 export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a SecurityhubOrganizationConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubOrganizationConfiguration to import
-  * @param importFromId The id of the existing SecurityhubOrganizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubOrganizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubOrganizationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_securityhub_organization_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   // ==========
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: boolean | cdktn.IResolvable; 
+  private _autoEnable?: boolean | cdktn.IResolvable;
   public get autoEnable() {
     return this.getBooleanAttribute('auto_enable');
   }
@@ -100,7 +100,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   }
 
   // auto_enable_standards - computed: true, optional: true, required: false
-  private _autoEnableStandards?: string; 
+  private _autoEnableStandards?: string;
   public get autoEnableStandards() {
     return this.getStringAttribute('auto_enable_standards');
   }
@@ -116,7 +116,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   }
 
   // configuration_type - computed: true, optional: true, required: false
-  private _configurationType?: string; 
+  private _configurationType?: string;
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }

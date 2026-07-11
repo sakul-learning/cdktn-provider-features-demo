@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktn from 'cdktn';
 
 export interface OpensearchApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#kms_key_arn OpensearchApplication#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#kms_key_arn OpensearchApplication#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#name OpensearchApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#name OpensearchApplication#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#region OpensearchApplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#region OpensearchApplication#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#tags OpensearchApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#tags OpensearchApplication#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#app_config OpensearchApplication#app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#app_config OpensearchApplication#app_config}
   */
   readonly appConfig?: OpensearchApplicationAppConfig[] | cdktn.IResolvable;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#data_source OpensearchApplication#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#data_source OpensearchApplication#data_source}
   */
   readonly dataSource?: OpensearchApplicationDataSource[] | cdktn.IResolvable;
   /**
   * iam_identity_center_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#iam_identity_center_options OpensearchApplication#iam_identity_center_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#iam_identity_center_options OpensearchApplication#iam_identity_center_options}
   */
   readonly iamIdentityCenterOptions?: OpensearchApplicationIamIdentityCenterOptions[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#timeouts OpensearchApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#timeouts OpensearchApplication#timeouts}
   */
   readonly timeouts?: OpensearchApplicationTimeouts;
 }
 export interface OpensearchApplicationAppConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#key OpensearchApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#key OpensearchApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#value OpensearchApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#value OpensearchApplication#value}
   */
   readonly value?: string;
 }
@@ -148,7 +148,7 @@ export class OpensearchApplicationAppConfigOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class OpensearchApplicationAppConfigOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -201,11 +201,11 @@ export class OpensearchApplicationAppConfigList extends cdktn.ComplexList {
 }
 export interface OpensearchApplicationDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#data_source_arn OpensearchApplication#data_source_arn}
   */
   readonly dataSourceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#data_source_description OpensearchApplication#data_source_description}
   */
   readonly dataSourceDescription?: string;
 }
@@ -297,7 +297,7 @@ export class OpensearchApplicationDataSourceOutputReference extends cdktn.Comple
   }
 
   // data_source_arn - computed: false, optional: true, required: false
-  private _dataSourceArn?: string; 
+  private _dataSourceArn?: string;
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -313,7 +313,7 @@ export class OpensearchApplicationDataSourceOutputReference extends cdktn.Comple
   }
 
   // data_source_description - computed: false, optional: true, required: false
-  private _dataSourceDescription?: string; 
+  private _dataSourceDescription?: string;
   public get dataSourceDescription() {
     return this.getStringAttribute('data_source_description');
   }
@@ -350,15 +350,15 @@ export class OpensearchApplicationDataSourceList extends cdktn.ComplexList {
 }
 export interface OpensearchApplicationIamIdentityCenterOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#enabled OpensearchApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#enabled OpensearchApplication#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#iam_identity_center_instance_arn OpensearchApplication#iam_identity_center_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#iam_identity_center_instance_arn OpensearchApplication#iam_identity_center_instance_arn}
   */
   readonly iamIdentityCenterInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#iam_role_for_identity_center_application_arn OpensearchApplication#iam_role_for_identity_center_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#iam_role_for_identity_center_application_arn OpensearchApplication#iam_role_for_identity_center_application_arn}
   */
   readonly iamRoleForIdentityCenterApplicationArn?: string;
 }
@@ -463,7 +463,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -484,7 +484,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // iam_identity_center_instance_arn - computed: false, optional: true, required: false
-  private _iamIdentityCenterInstanceArn?: string; 
+  private _iamIdentityCenterInstanceArn?: string;
   public get iamIdentityCenterInstanceArn() {
     return this.getStringAttribute('iam_identity_center_instance_arn');
   }
@@ -500,7 +500,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // iam_role_for_identity_center_application_arn - computed: false, optional: true, required: false
-  private _iamRoleForIdentityCenterApplicationArn?: string; 
+  private _iamRoleForIdentityCenterApplicationArn?: string;
   public get iamRoleForIdentityCenterApplicationArn() {
     return this.getStringAttribute('iam_role_for_identity_center_application_arn');
   }
@@ -539,19 +539,19 @@ export interface OpensearchApplicationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#create OpensearchApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#create OpensearchApplication#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#delete OpensearchApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#delete OpensearchApplication#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#update OpensearchApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#update OpensearchApplication#update}
   */
   readonly update?: string;
 }
@@ -654,7 +654,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -670,7 +670,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -686,7 +686,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -703,7 +703,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application aws_opensearch_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application aws_opensearch_application}
 */
 export class OpensearchApplication extends cdktn.TerraformResource {
 
@@ -719,7 +719,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchApplication to import
-  * @param importFromId The id of the existing OpensearchApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -731,7 +731,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_application aws_opensearch_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_application aws_opensearch_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -742,7 +742,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
       terraformResourceType: 'aws_opensearch_application',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -782,7 +782,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -798,7 +798,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -811,7 +811,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -827,7 +827,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

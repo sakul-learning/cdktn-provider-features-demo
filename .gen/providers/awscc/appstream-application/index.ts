@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#app_block_arn AppstreamApplication#app_block_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#app_block_arn AppstreamApplication#app_block_arn}
   */
   readonly appBlockArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#attributes_to_delete AppstreamApplication#attributes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#attributes_to_delete AppstreamApplication#attributes_to_delete}
   */
   readonly attributesToDelete?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#description AppstreamApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#description AppstreamApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#display_name AppstreamApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#display_name AppstreamApplication#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#icon_s3_location AppstreamApplication#icon_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#icon_s3_location AppstreamApplication#icon_s3_location}
   */
   readonly iconS3Location: AppstreamApplicationIconS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#instance_families AppstreamApplication#instance_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#instance_families AppstreamApplication#instance_families}
   */
   readonly instanceFamilies: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#launch_parameters AppstreamApplication#launch_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#launch_parameters AppstreamApplication#launch_parameters}
   */
   readonly launchParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#launch_path AppstreamApplication#launch_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#launch_path AppstreamApplication#launch_path}
   */
   readonly launchPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#name AppstreamApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#name AppstreamApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#platforms AppstreamApplication#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#platforms AppstreamApplication#platforms}
   */
   readonly platforms: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#tags AppstreamApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#tags AppstreamApplication#tags}
   */
   readonly tags?: AppstreamApplicationTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#working_directory AppstreamApplication#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#working_directory AppstreamApplication#working_directory}
   */
   readonly workingDirectory?: string;
 }
 export interface AppstreamApplicationIconS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#s3_bucket AppstreamApplication#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#s3_bucket AppstreamApplication#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#s3_key AppstreamApplication#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#s3_key AppstreamApplication#s3_key}
   */
   readonly s3Key: string;
 }
@@ -152,7 +152,7 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -165,7 +165,7 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string; 
+  private _s3Key?: string;
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -179,19 +179,19 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
 }
 export interface AppstreamApplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#key AppstreamApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#key AppstreamApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#tag_key AppstreamApplication#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#tag_key AppstreamApplication#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#tag_value AppstreamApplication#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#tag_value AppstreamApplication#tag_value}
   */
   readonly tagValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#value AppstreamApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#value AppstreamApplication#value}
   */
   readonly value?: string;
 }
@@ -309,7 +309,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -325,7 +325,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // tag_key - computed: true, optional: true, required: false
-  private _tagKey?: string; 
+  private _tagKey?: string;
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -341,7 +341,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // tag_value - computed: true, optional: true, required: false
-  private _tagValue?: string; 
+  private _tagValue?: string;
   public get tagValue() {
     return this.getStringAttribute('tag_value');
   }
@@ -357,7 +357,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -394,7 +394,7 @@ export class AppstreamApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application awscc_appstream_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application awscc_appstream_application}
 */
 export class AppstreamApplication extends cdktn.TerraformResource {
 
@@ -410,7 +410,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamApplication to import
-  * @param importFromId The id of the existing AppstreamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -422,7 +422,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_application awscc_appstream_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_application awscc_appstream_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,7 +433,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -462,7 +462,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   // ==========
 
   // app_block_arn - computed: false, optional: false, required: true
-  private _appBlockArn?: string; 
+  private _appBlockArn?: string;
   public get appBlockArn() {
     return this.getStringAttribute('app_block_arn');
   }
@@ -480,7 +480,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // attributes_to_delete - computed: true, optional: true, required: false
-  private _attributesToDelete?: string[]; 
+  private _attributesToDelete?: string[];
   public get attributesToDelete() {
     return cdktn.Fn.tolist(this.getListAttribute('attributes_to_delete'));
   }
@@ -501,7 +501,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -517,7 +517,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -551,7 +551,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // instance_families - computed: false, optional: false, required: true
-  private _instanceFamilies?: string[]; 
+  private _instanceFamilies?: string[];
   public get instanceFamilies() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_families'));
   }
@@ -564,7 +564,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // launch_parameters - computed: true, optional: true, required: false
-  private _launchParameters?: string; 
+  private _launchParameters?: string;
   public get launchParameters() {
     return this.getStringAttribute('launch_parameters');
   }
@@ -580,7 +580,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // launch_path - computed: false, optional: false, required: true
-  private _launchPath?: string; 
+  private _launchPath?: string;
   public get launchPath() {
     return this.getStringAttribute('launch_path');
   }
@@ -593,7 +593,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -606,7 +606,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // platforms - computed: false, optional: false, required: true
-  private _platforms?: string[]; 
+  private _platforms?: string[];
   public get platforms() {
     return cdktn.Fn.tolist(this.getListAttribute('platforms'));
   }
@@ -635,7 +635,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // working_directory - computed: true, optional: true, required: false
-  private _workingDirectory?: string; 
+  private _workingDirectory?: string;
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }

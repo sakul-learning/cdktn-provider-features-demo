@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityhubConnectorV2Config extends cdktn.TerraformMetaArgumen
   /**
   * A description of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#description SecurityhubConnectorV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#description SecurityhubConnectorV2#description}
   */
   readonly description?: string;
   /**
   * The ARN of KMS key used for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#kms_key_arn SecurityhubConnectorV2#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#kms_key_arn SecurityhubConnectorV2#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The name of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#name SecurityhubConnectorV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#name SecurityhubConnectorV2#name}
   */
   readonly name: string;
   /**
   * The third-party provider configuration for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#provider_name SecurityhubConnectorV2#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#provider_name SecurityhubConnectorV2#provider_name}
   */
   readonly providerName: SecurityhubConnectorV2ProviderName;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#tags SecurityhubConnectorV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#tags SecurityhubConnectorV2#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -42,7 +42,7 @@ export interface SecurityhubConnectorV2ProviderNameJiraCloud {
   /**
   * The project key for a Jira Cloud instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
   */
   readonly projectKey?: string;
 }
@@ -119,7 +119,7 @@ export class SecurityhubConnectorV2ProviderNameJiraCloudOutputReference extends 
   }
 
   // project_key - computed: true, optional: true, required: false
-  private _projectKey?: string; 
+  private _projectKey?: string;
   public get projectKey() {
     return this.getStringAttribute('project_key');
   }
@@ -138,13 +138,13 @@ export interface SecurityhubConnectorV2ProviderNameServiceNow {
   /**
   * The instance name of ServiceNow ITSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The Amazon Resource Name (ARN) of the AWS Secrets Manager secret that contains the ServiceNow credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -234,7 +234,7 @@ export class SecurityhubConnectorV2ProviderNameServiceNowOutputReference extends
   }
 
   // instance_name - computed: true, optional: true, required: false
-  private _instanceName?: string; 
+  private _instanceName?: string;
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -250,7 +250,7 @@ export class SecurityhubConnectorV2ProviderNameServiceNowOutputReference extends
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -269,13 +269,13 @@ export interface SecurityhubConnectorV2ProviderName {
   /**
   * The initial configuration settings required to establish an integration between Security Hub and Jira Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#jira_cloud SecurityhubConnectorV2#jira_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#jira_cloud SecurityhubConnectorV2#jira_cloud}
   */
   readonly jiraCloud?: SecurityhubConnectorV2ProviderNameJiraCloud;
   /**
   * The initial configuration settings required to establish an integration between Security Hub and ServiceNow ITSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#service_now SecurityhubConnectorV2#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#service_now SecurityhubConnectorV2#service_now}
   */
   readonly serviceNow?: SecurityhubConnectorV2ProviderNameServiceNow;
 }
@@ -398,7 +398,7 @@ export class SecurityhubConnectorV2ProviderNameOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2}
 */
 export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
 
@@ -414,7 +414,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubConnectorV2 resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubConnectorV2 to import
-  * @param importFromId The id of the existing SecurityhubConnectorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubConnectorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubConnectorV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -426,7 +426,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,7 +437,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_connector_v2',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -479,7 +479,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -500,7 +500,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -531,7 +531,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -557,7 +557,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

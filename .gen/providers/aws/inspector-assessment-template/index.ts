@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktn from 'cdktn';
 
 export interface InspectorAssessmentTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#duration InspectorAssessmentTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#duration InspectorAssessmentTemplate#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#id InspectorAssessmentTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#id InspectorAssessmentTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#name InspectorAssessmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#name InspectorAssessmentTemplate#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#region InspectorAssessmentTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#region InspectorAssessmentTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#rules_package_arns InspectorAssessmentTemplate#rules_package_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#rules_package_arns InspectorAssessmentTemplate#rules_package_arns}
   */
   readonly rulesPackageArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#tags InspectorAssessmentTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#tags InspectorAssessmentTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#tags_all InspectorAssessmentTemplate#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#tags_all InspectorAssessmentTemplate#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#target_arn InspectorAssessmentTemplate#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#target_arn InspectorAssessmentTemplate#target_arn}
   */
   readonly targetArn: string;
   /**
   * event_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#event_subscription InspectorAssessmentTemplate#event_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#event_subscription InspectorAssessmentTemplate#event_subscription}
   */
   readonly eventSubscription?: InspectorAssessmentTemplateEventSubscription[] | cdktn.IResolvable;
 }
 export interface InspectorAssessmentTemplateEventSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#event InspectorAssessmentTemplate#event}
   */
   readonly event: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#topic_arn InspectorAssessmentTemplate#topic_arn}
   */
   readonly topicArn: string;
 }
@@ -149,7 +149,7 @@ export class InspectorAssessmentTemplateEventSubscriptionOutputReference extends
   }
 
   // event - computed: false, optional: false, required: true
-  private _event?: string; 
+  private _event?: string;
   public get event() {
     return this.getStringAttribute('event');
   }
@@ -162,7 +162,7 @@ export class InspectorAssessmentTemplateEventSubscriptionOutputReference extends
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string; 
+  private _topicArn?: string;
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -196,7 +196,7 @@ export class InspectorAssessmentTemplateEventSubscriptionList extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template}
 */
 export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
 
@@ -212,7 +212,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a InspectorAssessmentTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InspectorAssessmentTemplate to import
-  * @param importFromId The id of the existing InspectorAssessmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InspectorAssessmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InspectorAssessmentTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -224,7 +224,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +235,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_inspector_assessment_template',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -266,7 +266,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number; 
+  private _duration?: number;
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -279,7 +279,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -295,7 +295,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -324,7 +324,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // rules_package_arns - computed: false, optional: false, required: true
-  private _rulesPackageArns?: string[]; 
+  private _rulesPackageArns?: string[];
   public get rulesPackageArns() {
     return cdktn.Fn.tolist(this.getListAttribute('rules_package_arns'));
   }
@@ -337,7 +337,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -353,7 +353,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -369,7 +369,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string; 
+  private _targetArn?: string;
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

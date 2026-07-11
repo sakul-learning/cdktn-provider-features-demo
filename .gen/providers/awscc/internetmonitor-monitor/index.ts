@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface InternetmonitorMonitorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#health_events_config InternetmonitorMonitor#health_events_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#health_events_config InternetmonitorMonitor#health_events_config}
   */
   readonly healthEventsConfig?: InternetmonitorMonitorHealthEventsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#include_linked_accounts InternetmonitorMonitor#include_linked_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#include_linked_accounts InternetmonitorMonitor#include_linked_accounts}
   */
   readonly includeLinkedAccounts?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#internet_measurements_log_delivery InternetmonitorMonitor#internet_measurements_log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#internet_measurements_log_delivery InternetmonitorMonitor#internet_measurements_log_delivery}
   */
   readonly internetMeasurementsLogDelivery?: InternetmonitorMonitorInternetMeasurementsLogDelivery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#linked_account_id InternetmonitorMonitor#linked_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#linked_account_id InternetmonitorMonitor#linked_account_id}
   */
   readonly linkedAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#max_city_networks_to_monitor InternetmonitorMonitor#max_city_networks_to_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#max_city_networks_to_monitor InternetmonitorMonitor#max_city_networks_to_monitor}
   */
   readonly maxCityNetworksToMonitor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#monitor_name InternetmonitorMonitor#monitor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#monitor_name InternetmonitorMonitor#monitor_name}
   */
   readonly monitorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#resources InternetmonitorMonitor#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#resources InternetmonitorMonitor#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#resources_to_add InternetmonitorMonitor#resources_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#resources_to_add InternetmonitorMonitor#resources_to_add}
   */
   readonly resourcesToAdd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#resources_to_remove InternetmonitorMonitor#resources_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#resources_to_remove InternetmonitorMonitor#resources_to_remove}
   */
   readonly resourcesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#tags InternetmonitorMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#tags InternetmonitorMonitor#tags}
   */
   readonly tags?: InternetmonitorMonitorTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#traffic_percentage_to_monitor InternetmonitorMonitor#traffic_percentage_to_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#traffic_percentage_to_monitor InternetmonitorMonitor#traffic_percentage_to_monitor}
   */
   readonly trafficPercentageToMonitor?: number;
 }
 export interface InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#health_score_threshold InternetmonitorMonitor#health_score_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#health_score_threshold InternetmonitorMonitor#health_score_threshold}
   */
   readonly healthScoreThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#min_traffic_impact InternetmonitorMonitor#min_traffic_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#min_traffic_impact InternetmonitorMonitor#min_traffic_impact}
   */
   readonly minTrafficImpact?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
   */
   readonly status?: string;
 }
@@ -169,7 +169,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // health_score_threshold - computed: true, optional: true, required: false
-  private _healthScoreThreshold?: number; 
+  private _healthScoreThreshold?: number;
   public get healthScoreThreshold() {
     return this.getNumberAttribute('health_score_threshold');
   }
@@ -185,7 +185,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // min_traffic_impact - computed: true, optional: true, required: false
-  private _minTrafficImpact?: number; 
+  private _minTrafficImpact?: number;
   public get minTrafficImpact() {
     return this.getNumberAttribute('min_traffic_impact');
   }
@@ -201,7 +201,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -218,15 +218,15 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
 }
 export interface InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#health_score_threshold InternetmonitorMonitor#health_score_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#health_score_threshold InternetmonitorMonitor#health_score_threshold}
   */
   readonly healthScoreThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#min_traffic_impact InternetmonitorMonitor#min_traffic_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#min_traffic_impact InternetmonitorMonitor#min_traffic_impact}
   */
   readonly minTrafficImpact?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#status InternetmonitorMonitor#status}
   */
   readonly status?: string;
 }
@@ -329,7 +329,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // health_score_threshold - computed: true, optional: true, required: false
-  private _healthScoreThreshold?: number; 
+  private _healthScoreThreshold?: number;
   public get healthScoreThreshold() {
     return this.getNumberAttribute('health_score_threshold');
   }
@@ -345,7 +345,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // min_traffic_impact - computed: true, optional: true, required: false
-  private _minTrafficImpact?: number; 
+  private _minTrafficImpact?: number;
   public get minTrafficImpact() {
     return this.getNumberAttribute('min_traffic_impact');
   }
@@ -361,7 +361,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -378,19 +378,19 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
 }
 export interface InternetmonitorMonitorHealthEventsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#availability_local_health_events_config InternetmonitorMonitor#availability_local_health_events_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#availability_local_health_events_config InternetmonitorMonitor#availability_local_health_events_config}
   */
   readonly availabilityLocalHealthEventsConfig?: InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#availability_score_threshold InternetmonitorMonitor#availability_score_threshold}
   */
   readonly availabilityScoreThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#performance_local_health_events_config InternetmonitorMonitor#performance_local_health_events_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#performance_local_health_events_config InternetmonitorMonitor#performance_local_health_events_config}
   */
   readonly performanceLocalHealthEventsConfig?: InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#performance_score_threshold InternetmonitorMonitor#performance_score_threshold}
   */
   readonly performanceScoreThreshold?: number;
 }
@@ -522,7 +522,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // availability_score_threshold - computed: true, optional: true, required: false
-  private _availabilityScoreThreshold?: number; 
+  private _availabilityScoreThreshold?: number;
   public get availabilityScoreThreshold() {
     return this.getNumberAttribute('availability_score_threshold');
   }
@@ -554,7 +554,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // performance_score_threshold - computed: true, optional: true, required: false
-  private _performanceScoreThreshold?: number; 
+  private _performanceScoreThreshold?: number;
   public get performanceScoreThreshold() {
     return this.getNumberAttribute('performance_score_threshold');
   }
@@ -571,15 +571,15 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
 }
 export interface InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#bucket_name InternetmonitorMonitor#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#bucket_name InternetmonitorMonitor#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#bucket_prefix InternetmonitorMonitor#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#bucket_prefix InternetmonitorMonitor#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#log_delivery_status InternetmonitorMonitor#log_delivery_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#log_delivery_status InternetmonitorMonitor#log_delivery_status}
   */
   readonly logDeliveryStatus?: string;
 }
@@ -682,7 +682,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -698,7 +698,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -714,7 +714,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // log_delivery_status - computed: true, optional: true, required: false
-  private _logDeliveryStatus?: string; 
+  private _logDeliveryStatus?: string;
   public get logDeliveryStatus() {
     return this.getStringAttribute('log_delivery_status');
   }
@@ -731,7 +731,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
 }
 export interface InternetmonitorMonitorInternetMeasurementsLogDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#s3_config InternetmonitorMonitor#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#s3_config InternetmonitorMonitor#s3_config}
   */
   readonly s3Config?: InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config;
 }
@@ -825,11 +825,11 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReferenc
 }
 export interface InternetmonitorMonitorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#key InternetmonitorMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#key InternetmonitorMonitor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#value InternetmonitorMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#value InternetmonitorMonitor#value}
   */
   readonly value?: string;
 }
@@ -921,7 +921,7 @@ export class InternetmonitorMonitorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -937,7 +937,7 @@ export class InternetmonitorMonitorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -974,7 +974,7 @@ export class InternetmonitorMonitorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor awscc_internetmonitor_monitor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor awscc_internetmonitor_monitor}
 */
 export class InternetmonitorMonitor extends cdktn.TerraformResource {
 
@@ -990,7 +990,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a InternetmonitorMonitor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InternetmonitorMonitor to import
-  * @param importFromId The id of the existing InternetmonitorMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InternetmonitorMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InternetmonitorMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1002,7 +1002,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/internetmonitor_monitor awscc_internetmonitor_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/internetmonitor_monitor awscc_internetmonitor_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1013,7 +1013,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_internetmonitor_monitor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1068,7 +1068,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // include_linked_accounts - computed: true, optional: true, required: false
-  private _includeLinkedAccounts?: boolean | cdktn.IResolvable; 
+  private _includeLinkedAccounts?: boolean | cdktn.IResolvable;
   public get includeLinkedAccounts() {
     return this.getBooleanAttribute('include_linked_accounts');
   }
@@ -1100,7 +1100,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // linked_account_id - computed: true, optional: true, required: false
-  private _linkedAccountId?: string; 
+  private _linkedAccountId?: string;
   public get linkedAccountId() {
     return this.getStringAttribute('linked_account_id');
   }
@@ -1116,7 +1116,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // max_city_networks_to_monitor - computed: true, optional: true, required: false
-  private _maxCityNetworksToMonitor?: number; 
+  private _maxCityNetworksToMonitor?: number;
   public get maxCityNetworksToMonitor() {
     return this.getNumberAttribute('max_city_networks_to_monitor');
   }
@@ -1142,7 +1142,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string; 
+  private _monitorName?: string;
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -1165,7 +1165,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1181,7 +1181,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources_to_add - computed: true, optional: true, required: false
-  private _resourcesToAdd?: string[]; 
+  private _resourcesToAdd?: string[];
   public get resourcesToAdd() {
     return this.getListAttribute('resources_to_add');
   }
@@ -1197,7 +1197,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources_to_remove - computed: true, optional: true, required: false
-  private _resourcesToRemove?: string[]; 
+  private _resourcesToRemove?: string[];
   public get resourcesToRemove() {
     return this.getListAttribute('resources_to_remove');
   }
@@ -1213,7 +1213,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1245,7 +1245,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // traffic_percentage_to_monitor - computed: true, optional: true, required: false
-  private _trafficPercentageToMonitor?: number; 
+  private _trafficPercentageToMonitor?: number;
   public get trafficPercentageToMonitor() {
     return this.getNumberAttribute('traffic_percentage_to_monitor');
   }

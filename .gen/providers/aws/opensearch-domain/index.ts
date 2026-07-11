@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,168 +8,168 @@ import * as cdktn from 'cdktn';
 
 export interface OpensearchDomainConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#access_policies OpensearchDomain#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#access_policies OpensearchDomain#access_policies}
   */
   readonly accessPolicies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#advanced_options OpensearchDomain#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#advanced_options OpensearchDomain#advanced_options}
   */
   readonly advancedOptions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#domain_name OpensearchDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#domain_name OpensearchDomain#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#engine_version OpensearchDomain#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#engine_version OpensearchDomain#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#id OpensearchDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#id OpensearchDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#ip_address_type OpensearchDomain#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#ip_address_type OpensearchDomain#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#region OpensearchDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#region OpensearchDomain#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#tags OpensearchDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#tags OpensearchDomain#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#tags_all OpensearchDomain#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#tags_all OpensearchDomain#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * advanced_security_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#advanced_security_options OpensearchDomain#advanced_security_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#advanced_security_options OpensearchDomain#advanced_security_options}
   */
   readonly advancedSecurityOptions?: OpensearchDomainAdvancedSecurityOptions;
   /**
   * aiml_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#aiml_options OpensearchDomain#aiml_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#aiml_options OpensearchDomain#aiml_options}
   */
   readonly aimlOptions?: OpensearchDomainAimlOptions;
   /**
   * auto_tune_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#auto_tune_options OpensearchDomain#auto_tune_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#auto_tune_options OpensearchDomain#auto_tune_options}
   */
   readonly autoTuneOptions?: OpensearchDomainAutoTuneOptions;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#cluster_config OpensearchDomain#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#cluster_config OpensearchDomain#cluster_config}
   */
   readonly clusterConfig?: OpensearchDomainClusterConfig;
   /**
   * cognito_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#cognito_options OpensearchDomain#cognito_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#cognito_options OpensearchDomain#cognito_options}
   */
   readonly cognitoOptions?: OpensearchDomainCognitoOptions;
   /**
   * deployment_strategy_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#deployment_strategy_options OpensearchDomain#deployment_strategy_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#deployment_strategy_options OpensearchDomain#deployment_strategy_options}
   */
   readonly deploymentStrategyOptions?: OpensearchDomainDeploymentStrategyOptions;
   /**
   * domain_endpoint_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#domain_endpoint_options OpensearchDomain#domain_endpoint_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#domain_endpoint_options OpensearchDomain#domain_endpoint_options}
   */
   readonly domainEndpointOptions?: OpensearchDomainDomainEndpointOptions;
   /**
   * ebs_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#ebs_options OpensearchDomain#ebs_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#ebs_options OpensearchDomain#ebs_options}
   */
   readonly ebsOptions?: OpensearchDomainEbsOptions;
   /**
   * encrypt_at_rest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#encrypt_at_rest OpensearchDomain#encrypt_at_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#encrypt_at_rest OpensearchDomain#encrypt_at_rest}
   */
   readonly encryptAtRest?: OpensearchDomainEncryptAtRest;
   /**
   * identity_center_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#identity_center_options OpensearchDomain#identity_center_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#identity_center_options OpensearchDomain#identity_center_options}
   */
   readonly identityCenterOptions?: OpensearchDomainIdentityCenterOptions;
   /**
   * log_publishing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#log_publishing_options OpensearchDomain#log_publishing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#log_publishing_options OpensearchDomain#log_publishing_options}
   */
   readonly logPublishingOptions?: OpensearchDomainLogPublishingOptions[] | cdktn.IResolvable;
   /**
   * node_to_node_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#node_to_node_encryption OpensearchDomain#node_to_node_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#node_to_node_encryption OpensearchDomain#node_to_node_encryption}
   */
   readonly nodeToNodeEncryption?: OpensearchDomainNodeToNodeEncryption;
   /**
   * off_peak_window_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#off_peak_window_options OpensearchDomain#off_peak_window_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#off_peak_window_options OpensearchDomain#off_peak_window_options}
   */
   readonly offPeakWindowOptions?: OpensearchDomainOffPeakWindowOptions;
   /**
   * snapshot_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#snapshot_options OpensearchDomain#snapshot_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#snapshot_options OpensearchDomain#snapshot_options}
   */
   readonly snapshotOptions?: OpensearchDomainSnapshotOptions;
   /**
   * software_update_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#software_update_options OpensearchDomain#software_update_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#software_update_options OpensearchDomain#software_update_options}
   */
   readonly softwareUpdateOptions?: OpensearchDomainSoftwareUpdateOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#timeouts OpensearchDomain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#timeouts OpensearchDomain#timeouts}
   */
   readonly timeouts?: OpensearchDomainTimeouts;
   /**
   * vpc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#vpc_options OpensearchDomain#vpc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#vpc_options OpensearchDomain#vpc_options}
   */
   readonly vpcOptions?: OpensearchDomainVpcOptions;
 }
 export interface OpensearchDomainAdvancedSecurityOptionsJwtOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#jwks_url OpensearchDomain#jwks_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#jwks_url OpensearchDomain#jwks_url}
   */
   readonly jwksUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#public_key OpensearchDomain#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#public_key OpensearchDomain#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#roles_key OpensearchDomain#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#roles_key OpensearchDomain#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#subject_key OpensearchDomain#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#subject_key OpensearchDomain#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -288,7 +288,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -304,7 +304,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // jwks_url - computed: false, optional: true, required: false
-  private _jwksUrl?: string; 
+  private _jwksUrl?: string;
   public get jwksUrl() {
     return this.getStringAttribute('jwks_url');
   }
@@ -320,7 +320,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // public_key - computed: true, optional: true, required: false
-  private _publicKey?: string; 
+  private _publicKey?: string;
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -336,7 +336,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // roles_key - computed: true, optional: true, required: false
-  private _rolesKey?: string; 
+  private _rolesKey?: string;
   public get rolesKey() {
     return this.getStringAttribute('roles_key');
   }
@@ -352,7 +352,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // subject_key - computed: true, optional: true, required: false
-  private _subjectKey?: string; 
+  private _subjectKey?: string;
   public get subjectKey() {
     return this.getStringAttribute('subject_key');
   }
@@ -369,15 +369,15 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
 }
 export interface OpensearchDomainAdvancedSecurityOptionsMasterUserOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#master_user_arn OpensearchDomain#master_user_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#master_user_arn OpensearchDomain#master_user_arn}
   */
   readonly masterUserArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#master_user_name OpensearchDomain#master_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#master_user_name OpensearchDomain#master_user_name}
   */
   readonly masterUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#master_user_password OpensearchDomain#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#master_user_password OpensearchDomain#master_user_password}
   */
   readonly masterUserPassword?: string;
 }
@@ -470,7 +470,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_arn - computed: false, optional: true, required: false
-  private _masterUserArn?: string; 
+  private _masterUserArn?: string;
   public get masterUserArn() {
     return this.getStringAttribute('master_user_arn');
   }
@@ -486,7 +486,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_name - computed: false, optional: true, required: false
-  private _masterUserName?: string; 
+  private _masterUserName?: string;
   public get masterUserName() {
     return this.getStringAttribute('master_user_name');
   }
@@ -502,7 +502,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_password - computed: false, optional: true, required: false
-  private _masterUserPassword?: string; 
+  private _masterUserPassword?: string;
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -519,27 +519,27 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
 }
 export interface OpensearchDomainAdvancedSecurityOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#anonymous_auth_enabled OpensearchDomain#anonymous_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#anonymous_auth_enabled OpensearchDomain#anonymous_auth_enabled}
   */
   readonly anonymousAuthEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#internal_user_database_enabled OpensearchDomain#internal_user_database_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#internal_user_database_enabled OpensearchDomain#internal_user_database_enabled}
   */
   readonly internalUserDatabaseEnabled?: boolean | cdktn.IResolvable;
   /**
   * jwt_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#jwt_options OpensearchDomain#jwt_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#jwt_options OpensearchDomain#jwt_options}
   */
   readonly jwtOptions?: OpensearchDomainAdvancedSecurityOptionsJwtOptions;
   /**
   * master_user_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#master_user_options OpensearchDomain#master_user_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#master_user_options OpensearchDomain#master_user_options}
   */
   readonly masterUserOptions?: OpensearchDomainAdvancedSecurityOptionsMasterUserOptions;
 }
@@ -658,7 +658,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // anonymous_auth_enabled - computed: true, optional: true, required: false
-  private _anonymousAuthEnabled?: boolean | cdktn.IResolvable; 
+  private _anonymousAuthEnabled?: boolean | cdktn.IResolvable;
   public get anonymousAuthEnabled() {
     return this.getBooleanAttribute('anonymous_auth_enabled');
   }
@@ -674,7 +674,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -687,7 +687,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // internal_user_database_enabled - computed: false, optional: true, required: false
-  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable; 
+  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable;
   public get internalUserDatabaseEnabled() {
     return this.getBooleanAttribute('internal_user_database_enabled');
   }
@@ -736,7 +736,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
 }
 export interface OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#desired_state OpensearchDomain#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#desired_state OpensearchDomain#desired_state}
   */
   readonly desiredState?: string;
 }
@@ -803,7 +803,7 @@ export class OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOut
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string; 
+  private _desiredState?: string;
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -820,7 +820,7 @@ export class OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOut
 }
 export interface OpensearchDomainAimlOptionsS3VectorsEngine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -887,7 +887,7 @@ export class OpensearchDomainAimlOptionsS3VectorsEngineOutputReference extends c
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -904,7 +904,7 @@ export class OpensearchDomainAimlOptionsS3VectorsEngineOutputReference extends c
 }
 export interface OpensearchDomainAimlOptionsServerlessVectorAcceleration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -971,7 +971,7 @@ export class OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputRefere
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -990,19 +990,19 @@ export interface OpensearchDomainAimlOptions {
   /**
   * natural_language_query_generation_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#natural_language_query_generation_options OpensearchDomain#natural_language_query_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#natural_language_query_generation_options OpensearchDomain#natural_language_query_generation_options}
   */
   readonly naturalLanguageQueryGenerationOptions?: OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptions;
   /**
   * s3_vectors_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#s3_vectors_engine OpensearchDomain#s3_vectors_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#s3_vectors_engine OpensearchDomain#s3_vectors_engine}
   */
   readonly s3VectorsEngine?: OpensearchDomainAimlOptionsS3VectorsEngine;
   /**
   * serverless_vector_acceleration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#serverless_vector_acceleration OpensearchDomain#serverless_vector_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#serverless_vector_acceleration OpensearchDomain#serverless_vector_acceleration}
   */
   readonly serverlessVectorAcceleration?: OpensearchDomainAimlOptionsServerlessVectorAcceleration;
 }
@@ -1144,11 +1144,11 @@ export class OpensearchDomainAimlOptionsOutputReference extends cdktn.ComplexObj
 }
 export interface OpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#unit OpensearchDomain#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#unit OpensearchDomain#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#value OpensearchDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#value OpensearchDomain#value}
   */
   readonly value: number;
 }
@@ -1228,7 +1228,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputRef
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1241,7 +1241,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputRef
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1255,17 +1255,17 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputRef
 }
 export interface OpensearchDomainAutoTuneOptionsMaintenanceSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#cron_expression_for_recurrence OpensearchDomain#cron_expression_for_recurrence}
   */
   readonly cronExpressionForRecurrence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#start_at OpensearchDomain#start_at}
   */
   readonly startAt: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#duration OpensearchDomain#duration}
   */
   readonly duration: OpensearchDomainAutoTuneOptionsMaintenanceScheduleDuration;
 }
@@ -1370,7 +1370,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleOutputReference e
   }
 
   // cron_expression_for_recurrence - computed: false, optional: false, required: true
-  private _cronExpressionForRecurrence?: string; 
+  private _cronExpressionForRecurrence?: string;
   public get cronExpressionForRecurrence() {
     return this.getStringAttribute('cron_expression_for_recurrence');
   }
@@ -1383,7 +1383,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleOutputReference e
   }
 
   // start_at - computed: false, optional: false, required: true
-  private _startAt?: string; 
+  private _startAt?: string;
   public get startAt() {
     return this.getStringAttribute('start_at');
   }
@@ -1430,21 +1430,21 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleList extends cdkt
 }
 export interface OpensearchDomainAutoTuneOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#desired_state OpensearchDomain#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#desired_state OpensearchDomain#desired_state}
   */
   readonly desiredState: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#rollback_on_disable OpensearchDomain#rollback_on_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#rollback_on_disable OpensearchDomain#rollback_on_disable}
   */
   readonly rollbackOnDisable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#use_off_peak_window OpensearchDomain#use_off_peak_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#use_off_peak_window OpensearchDomain#use_off_peak_window}
   */
   readonly useOffPeakWindow?: boolean | cdktn.IResolvable;
   /**
   * maintenance_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#maintenance_schedule OpensearchDomain#maintenance_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#maintenance_schedule OpensearchDomain#maintenance_schedule}
   */
   readonly maintenanceSchedule?: OpensearchDomainAutoTuneOptionsMaintenanceSchedule[] | cdktn.IResolvable;
 }
@@ -1550,7 +1550,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // desired_state - computed: false, optional: false, required: true
-  private _desiredState?: string; 
+  private _desiredState?: string;
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -1563,7 +1563,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // rollback_on_disable - computed: true, optional: true, required: false
-  private _rollbackOnDisable?: string; 
+  private _rollbackOnDisable?: string;
   public get rollbackOnDisable() {
     return this.getStringAttribute('rollback_on_disable');
   }
@@ -1579,7 +1579,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // use_off_peak_window - computed: false, optional: true, required: false
-  private _useOffPeakWindow?: boolean | cdktn.IResolvable; 
+  private _useOffPeakWindow?: boolean | cdktn.IResolvable;
   public get useOffPeakWindow() {
     return this.getBooleanAttribute('use_off_peak_window');
   }
@@ -1612,7 +1612,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
 }
 export interface OpensearchDomainClusterConfigColdStorageOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1679,7 +1679,7 @@ export class OpensearchDomainClusterConfigColdStorageOptionsOutputReference exte
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1696,15 +1696,15 @@ export class OpensearchDomainClusterConfigColdStorageOptionsOutputReference exte
 }
 export interface OpensearchDomainClusterConfigNodeOptionsNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#count OpensearchDomain#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#count OpensearchDomain#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#type OpensearchDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#type OpensearchDomain#type}
   */
   readonly type?: string;
 }
@@ -1797,7 +1797,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number; 
+  private _count?: number;
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1813,7 +1813,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1829,7 +1829,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1846,13 +1846,13 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
 }
 export interface OpensearchDomainClusterConfigNodeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#node_type OpensearchDomain#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#node_type OpensearchDomain#node_type}
   */
   readonly nodeType?: string;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#node_config OpensearchDomain#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#node_config OpensearchDomain#node_config}
   */
   readonly nodeConfig?: OpensearchDomainClusterConfigNodeOptionsNodeConfig;
 }
@@ -1944,7 +1944,7 @@ export class OpensearchDomainClusterConfigNodeOptionsOutputReference extends cdk
   }
 
   // node_type - computed: true, optional: true, required: false
-  private _nodeType?: string; 
+  private _nodeType?: string;
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -1997,7 +1997,7 @@ export class OpensearchDomainClusterConfigNodeOptionsList extends cdktn.ComplexL
 }
 export interface OpensearchDomainClusterConfigZoneAwarenessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#availability_zone_count OpensearchDomain#availability_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#availability_zone_count OpensearchDomain#availability_zone_count}
   */
   readonly availabilityZoneCount?: number;
 }
@@ -2064,7 +2064,7 @@ export class OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference ext
   }
 
   // availability_zone_count - computed: false, optional: true, required: false
-  private _availabilityZoneCount?: number; 
+  private _availabilityZoneCount?: number;
   public get availabilityZoneCount() {
     return this.getNumberAttribute('availability_zone_count');
   }
@@ -2081,61 +2081,61 @@ export class OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference ext
 }
 export interface OpensearchDomainClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}
   */
   readonly dedicatedMasterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}
   */
   readonly dedicatedMasterEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}
   */
   readonly dedicatedMasterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}
   */
   readonly multiAzWithStandbyEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}
   */
   readonly warmCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}
   */
   readonly warmEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}
   */
   readonly warmType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}
   */
   readonly zoneAwarenessEnabled?: boolean | cdktn.IResolvable;
   /**
   * cold_storage_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
   */
   readonly coldStorageOptions?: OpensearchDomainClusterConfigColdStorageOptions;
   /**
   * node_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
   */
   readonly nodeOptions?: OpensearchDomainClusterConfigNodeOptions[] | cdktn.IResolvable;
   /**
   * zone_awareness_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
   */
   readonly zoneAwarenessConfig?: OpensearchDomainClusterConfigZoneAwarenessConfig;
 }
@@ -2358,7 +2358,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_count - computed: false, optional: true, required: false
-  private _dedicatedMasterCount?: number; 
+  private _dedicatedMasterCount?: number;
   public get dedicatedMasterCount() {
     return this.getNumberAttribute('dedicated_master_count');
   }
@@ -2374,7 +2374,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_enabled - computed: false, optional: true, required: false
-  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable; 
+  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable;
   public get dedicatedMasterEnabled() {
     return this.getBooleanAttribute('dedicated_master_enabled');
   }
@@ -2390,7 +2390,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_type - computed: false, optional: true, required: false
-  private _dedicatedMasterType?: string; 
+  private _dedicatedMasterType?: string;
   public get dedicatedMasterType() {
     return this.getStringAttribute('dedicated_master_type');
   }
@@ -2406,7 +2406,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2422,7 +2422,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2438,7 +2438,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // multi_az_with_standby_enabled - computed: false, optional: true, required: false
-  private _multiAzWithStandbyEnabled?: boolean | cdktn.IResolvable; 
+  private _multiAzWithStandbyEnabled?: boolean | cdktn.IResolvable;
   public get multiAzWithStandbyEnabled() {
     return this.getBooleanAttribute('multi_az_with_standby_enabled');
   }
@@ -2454,7 +2454,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_count - computed: false, optional: true, required: false
-  private _warmCount?: number; 
+  private _warmCount?: number;
   public get warmCount() {
     return this.getNumberAttribute('warm_count');
   }
@@ -2470,7 +2470,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_enabled - computed: false, optional: true, required: false
-  private _warmEnabled?: boolean | cdktn.IResolvable; 
+  private _warmEnabled?: boolean | cdktn.IResolvable;
   public get warmEnabled() {
     return this.getBooleanAttribute('warm_enabled');
   }
@@ -2486,7 +2486,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_type - computed: false, optional: true, required: false
-  private _warmType?: string; 
+  private _warmType?: string;
   public get warmType() {
     return this.getStringAttribute('warm_type');
   }
@@ -2502,7 +2502,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // zone_awareness_enabled - computed: false, optional: true, required: false
-  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable; 
+  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable;
   public get zoneAwarenessEnabled() {
     return this.getBooleanAttribute('zone_awareness_enabled');
   }
@@ -2567,19 +2567,19 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
 }
 export interface OpensearchDomainCognitoOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}
   */
   readonly identityPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}
   */
   readonly userPoolId: string;
 }
@@ -2685,7 +2685,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2701,7 +2701,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string; 
+  private _identityPoolId?: string;
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -2714,7 +2714,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2727,7 +2727,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -2741,7 +2741,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
 }
 export interface OpensearchDomainDeploymentStrategyOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#deployment_strategy OpensearchDomain#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#deployment_strategy OpensearchDomain#deployment_strategy}
   */
   readonly deploymentStrategy: string;
 }
@@ -2808,7 +2808,7 @@ export class OpensearchDomainDeploymentStrategyOptionsOutputReference extends cd
   }
 
   // deployment_strategy - computed: false, optional: false, required: true
-  private _deploymentStrategy?: string; 
+  private _deploymentStrategy?: string;
   public get deploymentStrategy() {
     return this.getStringAttribute('deployment_strategy');
   }
@@ -2822,23 +2822,23 @@ export class OpensearchDomainDeploymentStrategyOptionsOutputReference extends cd
 }
 export interface OpensearchDomainDomainEndpointOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#custom_endpoint OpensearchDomain#custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#custom_endpoint OpensearchDomain#custom_endpoint}
   */
   readonly customEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#custom_endpoint_certificate_arn OpensearchDomain#custom_endpoint_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#custom_endpoint_certificate_arn OpensearchDomain#custom_endpoint_certificate_arn}
   */
   readonly customEndpointCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#custom_endpoint_enabled OpensearchDomain#custom_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#custom_endpoint_enabled OpensearchDomain#custom_endpoint_enabled}
   */
   readonly customEndpointEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enforce_https OpensearchDomain#enforce_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enforce_https OpensearchDomain#enforce_https}
   */
   readonly enforceHttps?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#tls_security_policy OpensearchDomain#tls_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#tls_security_policy OpensearchDomain#tls_security_policy}
   */
   readonly tlsSecurityPolicy?: string;
 }
@@ -2957,7 +2957,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint - computed: false, optional: true, required: false
-  private _customEndpoint?: string; 
+  private _customEndpoint?: string;
   public get customEndpoint() {
     return this.getStringAttribute('custom_endpoint');
   }
@@ -2973,7 +2973,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint_certificate_arn - computed: false, optional: true, required: false
-  private _customEndpointCertificateArn?: string; 
+  private _customEndpointCertificateArn?: string;
   public get customEndpointCertificateArn() {
     return this.getStringAttribute('custom_endpoint_certificate_arn');
   }
@@ -2989,7 +2989,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint_enabled - computed: false, optional: true, required: false
-  private _customEndpointEnabled?: boolean | cdktn.IResolvable; 
+  private _customEndpointEnabled?: boolean | cdktn.IResolvable;
   public get customEndpointEnabled() {
     return this.getBooleanAttribute('custom_endpoint_enabled');
   }
@@ -3005,7 +3005,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // enforce_https - computed: false, optional: true, required: false
-  private _enforceHttps?: boolean | cdktn.IResolvable; 
+  private _enforceHttps?: boolean | cdktn.IResolvable;
   public get enforceHttps() {
     return this.getBooleanAttribute('enforce_https');
   }
@@ -3021,7 +3021,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // tls_security_policy - computed: true, optional: true, required: false
-  private _tlsSecurityPolicy?: string; 
+  private _tlsSecurityPolicy?: string;
   public get tlsSecurityPolicy() {
     return this.getStringAttribute('tls_security_policy');
   }
@@ -3038,23 +3038,23 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
 }
 export interface OpensearchDomainEbsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}
   */
   readonly ebsEnabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -3173,7 +3173,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // ebs_enabled - computed: false, optional: false, required: true
-  private _ebsEnabled?: boolean | cdktn.IResolvable; 
+  private _ebsEnabled?: boolean | cdktn.IResolvable;
   public get ebsEnabled() {
     return this.getBooleanAttribute('ebs_enabled');
   }
@@ -3186,7 +3186,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3202,7 +3202,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -3218,7 +3218,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // volume_size - computed: false, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -3234,7 +3234,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -3251,11 +3251,11 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
 }
 export interface OpensearchDomainEncryptAtRest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#kms_key_id OpensearchDomain#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#kms_key_id OpensearchDomain#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -3335,7 +3335,7 @@ export class OpensearchDomainEncryptAtRestOutputReference extends cdktn.ComplexO
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3348,7 +3348,7 @@ export class OpensearchDomainEncryptAtRestOutputReference extends cdktn.ComplexO
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -3365,19 +3365,19 @@ export class OpensearchDomainEncryptAtRestOutputReference extends cdktn.ComplexO
 }
 export interface OpensearchDomainIdentityCenterOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled_api_access OpensearchDomain#enabled_api_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled_api_access OpensearchDomain#enabled_api_access}
   */
   readonly enabledApiAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#identity_center_instance_arn OpensearchDomain#identity_center_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#identity_center_instance_arn OpensearchDomain#identity_center_instance_arn}
   */
   readonly identityCenterInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#roles_key OpensearchDomain#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#roles_key OpensearchDomain#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#subject_key OpensearchDomain#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#subject_key OpensearchDomain#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -3483,7 +3483,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // enabled_api_access - computed: false, optional: true, required: false
-  private _enabledApiAccess?: boolean | cdktn.IResolvable; 
+  private _enabledApiAccess?: boolean | cdktn.IResolvable;
   public get enabledApiAccess() {
     return this.getBooleanAttribute('enabled_api_access');
   }
@@ -3499,7 +3499,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // identity_center_instance_arn - computed: false, optional: true, required: false
-  private _identityCenterInstanceArn?: string; 
+  private _identityCenterInstanceArn?: string;
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -3515,7 +3515,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // roles_key - computed: true, optional: true, required: false
-  private _rolesKey?: string; 
+  private _rolesKey?: string;
   public get rolesKey() {
     return this.getStringAttribute('roles_key');
   }
@@ -3531,7 +3531,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // subject_key - computed: true, optional: true, required: false
-  private _subjectKey?: string; 
+  private _subjectKey?: string;
   public get subjectKey() {
     return this.getStringAttribute('subject_key');
   }
@@ -3548,15 +3548,15 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
 }
 export interface OpensearchDomainLogPublishingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#cloudwatch_log_group_arn OpensearchDomain#cloudwatch_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#cloudwatch_log_group_arn OpensearchDomain#cloudwatch_log_group_arn}
   */
   readonly cloudwatchLogGroupArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#log_type OpensearchDomain#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#log_type OpensearchDomain#log_type}
   */
   readonly logType: string;
 }
@@ -3661,7 +3661,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // cloudwatch_log_group_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogGroupArn?: string; 
+  private _cloudwatchLogGroupArn?: string;
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -3674,7 +3674,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3690,7 +3690,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string; 
+  private _logType?: string;
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -3724,7 +3724,7 @@ export class OpensearchDomainLogPublishingOptionsList extends cdktn.ComplexList 
 }
 export interface OpensearchDomainNodeToNodeEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -3791,7 +3791,7 @@ export class OpensearchDomainNodeToNodeEncryptionOutputReference extends cdktn.C
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3805,11 +3805,11 @@ export class OpensearchDomainNodeToNodeEncryptionOutputReference extends cdktn.C
 }
 export interface OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#hours OpensearchDomain#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#hours OpensearchDomain#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#minutes OpensearchDomain#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#minutes OpensearchDomain#minutes}
   */
   readonly minutes?: number;
 }
@@ -3889,7 +3889,7 @@ export class OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTimeOut
   }
 
   // hours - computed: true, optional: true, required: false
-  private _hours?: number; 
+  private _hours?: number;
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -3905,7 +3905,7 @@ export class OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTimeOut
   }
 
   // minutes - computed: true, optional: true, required: false
-  private _minutes?: number; 
+  private _minutes?: number;
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -3924,7 +3924,7 @@ export interface OpensearchDomainOffPeakWindowOptionsOffPeakWindow {
   /**
   * window_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#window_start_time OpensearchDomain#window_start_time}
   */
   readonly windowStartTime?: OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTime;
 }
@@ -4008,13 +4008,13 @@ export class OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReference ex
 }
 export interface OpensearchDomainOffPeakWindowOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * off_peak_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#off_peak_window OpensearchDomain#off_peak_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#off_peak_window OpensearchDomain#off_peak_window}
   */
   readonly offPeakWindow?: OpensearchDomainOffPeakWindowOptionsOffPeakWindow;
 }
@@ -4094,7 +4094,7 @@ export class OpensearchDomainOffPeakWindowOptionsOutputReference extends cdktn.C
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4127,7 +4127,7 @@ export class OpensearchDomainOffPeakWindowOptionsOutputReference extends cdktn.C
 }
 export interface OpensearchDomainSnapshotOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#automated_snapshot_start_hour OpensearchDomain#automated_snapshot_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#automated_snapshot_start_hour OpensearchDomain#automated_snapshot_start_hour}
   */
   readonly automatedSnapshotStartHour: number;
 }
@@ -4194,7 +4194,7 @@ export class OpensearchDomainSnapshotOptionsOutputReference extends cdktn.Comple
   }
 
   // automated_snapshot_start_hour - computed: false, optional: false, required: true
-  private _automatedSnapshotStartHour?: number; 
+  private _automatedSnapshotStartHour?: number;
   public get automatedSnapshotStartHour() {
     return this.getNumberAttribute('automated_snapshot_start_hour');
   }
@@ -4208,7 +4208,7 @@ export class OpensearchDomainSnapshotOptionsOutputReference extends cdktn.Comple
 }
 export interface OpensearchDomainSoftwareUpdateOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#auto_software_update_enabled OpensearchDomain#auto_software_update_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#auto_software_update_enabled OpensearchDomain#auto_software_update_enabled}
   */
   readonly autoSoftwareUpdateEnabled?: boolean | cdktn.IResolvable;
 }
@@ -4275,7 +4275,7 @@ export class OpensearchDomainSoftwareUpdateOptionsOutputReference extends cdktn.
   }
 
   // auto_software_update_enabled - computed: true, optional: true, required: false
-  private _autoSoftwareUpdateEnabled?: boolean | cdktn.IResolvable; 
+  private _autoSoftwareUpdateEnabled?: boolean | cdktn.IResolvable;
   public get autoSoftwareUpdateEnabled() {
     return this.getBooleanAttribute('auto_software_update_enabled');
   }
@@ -4292,15 +4292,15 @@ export class OpensearchDomainSoftwareUpdateOptionsOutputReference extends cdktn.
 }
 export interface OpensearchDomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#create OpensearchDomain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#create OpensearchDomain#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#delete OpensearchDomain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#delete OpensearchDomain#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#update OpensearchDomain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#update OpensearchDomain#update}
   */
   readonly update?: string;
 }
@@ -4403,7 +4403,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4419,7 +4419,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4435,7 +4435,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4452,11 +4452,11 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
 }
 export interface OpensearchDomainVpcOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#security_group_ids OpensearchDomain#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#security_group_ids OpensearchDomain#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#subnet_ids OpensearchDomain#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#subnet_ids OpensearchDomain#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -4541,7 +4541,7 @@ export class OpensearchDomainVpcOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -4557,7 +4557,7 @@ export class OpensearchDomainVpcOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -4579,7 +4579,7 @@ export class OpensearchDomainVpcOptionsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain aws_opensearch_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain aws_opensearch_domain}
 */
 export class OpensearchDomain extends cdktn.TerraformResource {
 
@@ -4595,7 +4595,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchDomain to import
-  * @param importFromId The id of the existing OpensearchDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4607,7 +4607,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4618,7 +4618,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
       terraformResourceType: 'aws_opensearch_domain',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4661,7 +4661,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   // ==========
 
   // access_policies - computed: true, optional: true, required: false
-  private _accessPolicies?: string; 
+  private _accessPolicies?: string;
   public get accessPolicies() {
     return this.getStringAttribute('access_policies');
   }
@@ -4677,7 +4677,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // advanced_options - computed: true, optional: true, required: false
-  private _advancedOptions?: { [key: string]: string }; 
+  private _advancedOptions?: { [key: string]: string };
   public get advancedOptions() {
     return this.getStringMapAttribute('advanced_options');
   }
@@ -4718,7 +4718,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -4741,7 +4741,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -4757,7 +4757,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4773,7 +4773,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -4789,7 +4789,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4805,7 +4805,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4821,7 +4821,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

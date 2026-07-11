@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktn from 'cdktn';
 
 export interface DatasyncLocationAzureBlobConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#access_tier DatasyncLocationAzureBlob#access_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#access_tier DatasyncLocationAzureBlob#access_tier}
   */
   readonly accessTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#agent_arns DatasyncLocationAzureBlob#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#agent_arns DatasyncLocationAzureBlob#agent_arns}
   */
   readonly agentArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#authentication_type DatasyncLocationAzureBlob#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#authentication_type DatasyncLocationAzureBlob#authentication_type}
   */
   readonly authenticationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#blob_type DatasyncLocationAzureBlob#blob_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#blob_type DatasyncLocationAzureBlob#blob_type}
   */
   readonly blobType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#container_url DatasyncLocationAzureBlob#container_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#container_url DatasyncLocationAzureBlob#container_url}
   */
   readonly containerUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#id DatasyncLocationAzureBlob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#id DatasyncLocationAzureBlob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,31 +37,31 @@ export interface DatasyncLocationAzureBlobConfig extends cdktn.TerraformMetaArgu
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#region DatasyncLocationAzureBlob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#region DatasyncLocationAzureBlob#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#subdirectory DatasyncLocationAzureBlob#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#subdirectory DatasyncLocationAzureBlob#subdirectory}
   */
   readonly subdirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#tags DatasyncLocationAzureBlob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#tags DatasyncLocationAzureBlob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#tags_all DatasyncLocationAzureBlob#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#tags_all DatasyncLocationAzureBlob#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * sas_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#sas_configuration DatasyncLocationAzureBlob#sas_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#sas_configuration DatasyncLocationAzureBlob#sas_configuration}
   */
   readonly sasConfiguration?: DatasyncLocationAzureBlobSasConfiguration;
 }
 export interface DatasyncLocationAzureBlobSasConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#token DatasyncLocationAzureBlob#token}
   */
   readonly token: string;
 }
@@ -128,7 +128,7 @@ export class DatasyncLocationAzureBlobSasConfigurationOutputReference extends cd
   }
 
   // token - computed: false, optional: false, required: true
-  private _token?: string; 
+  private _token?: string;
   public get token() {
     return this.getStringAttribute('token');
   }
@@ -142,7 +142,7 @@ export class DatasyncLocationAzureBlobSasConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}
 */
 export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
 
@@ -158,7 +158,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationAzureBlob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationAzureBlob to import
-  * @param importFromId The id of the existing DatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationAzureBlob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,7 +181,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
       terraformResourceType: 'aws_datasync_location_azure_blob',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -209,7 +209,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   // ==========
 
   // access_tier - computed: false, optional: true, required: false
-  private _accessTier?: string; 
+  private _accessTier?: string;
   public get accessTier() {
     return this.getStringAttribute('access_tier');
   }
@@ -225,7 +225,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[]; 
+  private _agentArns?: string[];
   public get agentArns() {
     return cdktn.Fn.tolist(this.getListAttribute('agent_arns'));
   }
@@ -243,7 +243,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -256,7 +256,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // blob_type - computed: false, optional: true, required: false
-  private _blobType?: string; 
+  private _blobType?: string;
   public get blobType() {
     return this.getStringAttribute('blob_type');
   }
@@ -272,7 +272,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // container_url - computed: false, optional: false, required: true
-  private _containerUrl?: string; 
+  private _containerUrl?: string;
   public get containerUrl() {
     return this.getStringAttribute('container_url');
   }
@@ -285,7 +285,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -301,7 +301,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -317,7 +317,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string; 
+  private _subdirectory?: string;
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -333,7 +333,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -349,7 +349,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

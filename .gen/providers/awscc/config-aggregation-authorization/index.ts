@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface ConfigAggregationAuthorizationConfig extends cdktn.TerraformMet
   /**
   * The 12-digit account ID of the account authorized to aggregate data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#authorized_account_id ConfigAggregationAuthorization#authorized_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#authorized_account_id ConfigAggregationAuthorization#authorized_account_id}
   */
   readonly authorizedAccountId: string;
   /**
   * The region authorized to collect aggregated data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#authorized_aws_region ConfigAggregationAuthorization#authorized_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#authorized_aws_region ConfigAggregationAuthorization#authorized_aws_region}
   */
   readonly authorizedAwsRegion: string;
   /**
   * The tags for the AggregationAuthorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#tags ConfigAggregationAuthorization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#tags ConfigAggregationAuthorization#tags}
   */
   readonly tags?: ConfigAggregationAuthorizationTags[] | cdktn.IResolvable;
 }
 export interface ConfigAggregationAuthorizationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#key ConfigAggregationAuthorization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#key ConfigAggregationAuthorization#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#value ConfigAggregationAuthorization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#value ConfigAggregationAuthorization#value}
   */
   readonly value?: string;
 }
@@ -128,7 +128,7 @@ export class ConfigAggregationAuthorizationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class ConfigAggregationAuthorizationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -181,7 +181,7 @@ export class ConfigAggregationAuthorizationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}
 */
 export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigAggregationAuthorization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigAggregationAuthorization to import
-  * @param importFromId The id of the existing ConfigAggregationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigAggregationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigAggregationAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_aggregation_authorization',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -245,7 +245,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   }
 
   // authorized_account_id - computed: false, optional: false, required: true
-  private _authorizedAccountId?: string; 
+  private _authorizedAccountId?: string;
   public get authorizedAccountId() {
     return this.getStringAttribute('authorized_account_id');
   }
@@ -258,7 +258,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   }
 
   // authorized_aws_region - computed: false, optional: false, required: true
-  private _authorizedAwsRegion?: string; 
+  private _authorizedAwsRegion?: string;
   public get authorizedAwsRegion() {
     return this.getStringAttribute('authorized_aws_region');
   }

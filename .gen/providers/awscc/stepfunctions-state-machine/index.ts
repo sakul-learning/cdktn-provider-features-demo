@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktn from 'cdktn';
 
 export interface StepfunctionsStateMachineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#definition StepfunctionsStateMachine#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#definition StepfunctionsStateMachine#definition}
   */
   readonly definition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#definition_s3_location StepfunctionsStateMachine#definition_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#definition_s3_location StepfunctionsStateMachine#definition_s3_location}
   */
   readonly definitionS3Location?: StepfunctionsStateMachineDefinitionS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#definition_string StepfunctionsStateMachine#definition_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#definition_string StepfunctionsStateMachine#definition_string}
   */
   readonly definitionString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#definition_substitutions StepfunctionsStateMachine#definition_substitutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#definition_substitutions StepfunctionsStateMachine#definition_substitutions}
   */
   readonly definitionSubstitutions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#logging_configuration StepfunctionsStateMachine#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#logging_configuration StepfunctionsStateMachine#logging_configuration}
   */
   readonly loggingConfiguration?: StepfunctionsStateMachineLoggingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#role_arn StepfunctionsStateMachine#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#role_arn StepfunctionsStateMachine#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#state_machine_name StepfunctionsStateMachine#state_machine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#state_machine_name StepfunctionsStateMachine#state_machine_name}
   */
   readonly stateMachineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#state_machine_type StepfunctionsStateMachine#state_machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#state_machine_type StepfunctionsStateMachine#state_machine_type}
   */
   readonly stateMachineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#tags StepfunctionsStateMachine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#tags StepfunctionsStateMachine#tags}
   */
   readonly tags?: StepfunctionsStateMachineTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#tracing_configuration StepfunctionsStateMachine#tracing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#tracing_configuration StepfunctionsStateMachine#tracing_configuration}
   */
   readonly tracingConfiguration?: StepfunctionsStateMachineTracingConfiguration;
 }
 export interface StepfunctionsStateMachineDefinitionS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#bucket StepfunctionsStateMachine#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#bucket StepfunctionsStateMachine#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#key StepfunctionsStateMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#key StepfunctionsStateMachine#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#version StepfunctionsStateMachine#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#version StepfunctionsStateMachine#version}
   */
   readonly version?: string;
 }
@@ -161,7 +161,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -177,7 +177,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -193,7 +193,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -210,7 +210,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
 }
 export interface StepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#log_group_arn StepfunctionsStateMachine#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#log_group_arn StepfunctionsStateMachine#log_group_arn}
   */
   readonly logGroupArn?: string;
 }
@@ -287,7 +287,7 @@ export class StepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatch
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -304,7 +304,7 @@ export class StepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatch
 }
 export interface StepfunctionsStateMachineLoggingConfigurationDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#cloudwatch_logs_log_group StepfunctionsStateMachine#cloudwatch_logs_log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#cloudwatch_logs_log_group StepfunctionsStateMachine#cloudwatch_logs_log_group}
   */
   readonly cloudwatchLogsLogGroup?: StepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroup;
 }
@@ -420,15 +420,15 @@ export class StepfunctionsStateMachineLoggingConfigurationDestinationsList exten
 }
 export interface StepfunctionsStateMachineLoggingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#destinations StepfunctionsStateMachine#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#destinations StepfunctionsStateMachine#destinations}
   */
   readonly destinations?: StepfunctionsStateMachineLoggingConfigurationDestinations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#include_execution_data StepfunctionsStateMachine#include_execution_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#include_execution_data StepfunctionsStateMachine#include_execution_data}
   */
   readonly includeExecutionData?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#level StepfunctionsStateMachine#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#level StepfunctionsStateMachine#level}
   */
   readonly level?: string;
 }
@@ -547,7 +547,7 @@ export class StepfunctionsStateMachineLoggingConfigurationOutputReference extend
   }
 
   // include_execution_data - computed: true, optional: true, required: false
-  private _includeExecutionData?: boolean | cdktn.IResolvable; 
+  private _includeExecutionData?: boolean | cdktn.IResolvable;
   public get includeExecutionData() {
     return this.getBooleanAttribute('include_execution_data');
   }
@@ -563,7 +563,7 @@ export class StepfunctionsStateMachineLoggingConfigurationOutputReference extend
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string; 
+  private _level?: string;
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -580,11 +580,11 @@ export class StepfunctionsStateMachineLoggingConfigurationOutputReference extend
 }
 export interface StepfunctionsStateMachineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#key StepfunctionsStateMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#key StepfunctionsStateMachine#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#value StepfunctionsStateMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#value StepfunctionsStateMachine#value}
   */
   readonly value?: string;
 }
@@ -676,7 +676,7 @@ export class StepfunctionsStateMachineTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -692,7 +692,7 @@ export class StepfunctionsStateMachineTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -729,7 +729,7 @@ export class StepfunctionsStateMachineTagsList extends cdktn.ComplexList {
 }
 export interface StepfunctionsStateMachineTracingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#enabled StepfunctionsStateMachine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#enabled StepfunctionsStateMachine#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -806,7 +806,7 @@ export class StepfunctionsStateMachineTracingConfigurationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -823,7 +823,7 @@ export class StepfunctionsStateMachineTracingConfigurationOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine}
 */
 export class StepfunctionsStateMachine extends cdktn.TerraformResource {
 
@@ -839,7 +839,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StepfunctionsStateMachine resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StepfunctionsStateMachine to import
-  * @param importFromId The id of the existing StepfunctionsStateMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StepfunctionsStateMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StepfunctionsStateMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -851,7 +851,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,7 +862,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_stepfunctions_state_machine',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -894,7 +894,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string; 
+  private _definition?: string;
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -926,7 +926,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition_string - computed: true, optional: true, required: false
-  private _definitionString?: string; 
+  private _definitionString?: string;
   public get definitionString() {
     return this.getStringAttribute('definition_string');
   }
@@ -942,7 +942,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition_substitutions - computed: true, optional: true, required: false
-  private _definitionSubstitutions?: { [key: string]: string }; 
+  private _definitionSubstitutions?: { [key: string]: string };
   public get definitionSubstitutions() {
     return this.getStringMapAttribute('definition_substitutions');
   }
@@ -984,7 +984,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -997,7 +997,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // state_machine_name - computed: true, optional: true, required: false
-  private _stateMachineName?: string; 
+  private _stateMachineName?: string;
   public get stateMachineName() {
     return this.getStringAttribute('state_machine_name');
   }
@@ -1013,7 +1013,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // state_machine_type - computed: true, optional: true, required: false
-  private _stateMachineType?: string; 
+  private _stateMachineType?: string;
   public get stateMachineType() {
     return this.getStringAttribute('state_machine_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConnectcampaignsCampaignConfig extends cdktn.TerraformMetaArgum
   /**
   * Amazon Connect Instance Arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#connect_instance_arn ConnectcampaignsCampaign#connect_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#connect_instance_arn ConnectcampaignsCampaign#connect_instance_arn}
   */
   readonly connectInstanceArn: string;
   /**
   * The possible types of dialer config parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#dialer_config ConnectcampaignsCampaign#dialer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#dialer_config ConnectcampaignsCampaign#dialer_config}
   */
   readonly dialerConfig: ConnectcampaignsCampaignDialerConfig;
   /**
   * Amazon Connect Campaign Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#name ConnectcampaignsCampaign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#name ConnectcampaignsCampaign#name}
   */
   readonly name: string;
   /**
   * The configuration used for outbound calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#outbound_call_config ConnectcampaignsCampaign#outbound_call_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#outbound_call_config ConnectcampaignsCampaign#outbound_call_config}
   */
   readonly outboundCallConfig: ConnectcampaignsCampaignOutboundCallConfig;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#tags ConnectcampaignsCampaign#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#tags ConnectcampaignsCampaign#tags}
   */
   readonly tags?: ConnectcampaignsCampaignTags[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface ConnectcampaignsCampaignDialerConfigAgentlessDialerConfig {
   /**
   * Allocates dialing capacity for this campaign between multiple active campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
   */
   readonly dialingCapacity?: number;
 }
@@ -119,7 +119,7 @@ export class ConnectcampaignsCampaignDialerConfigAgentlessDialerConfigOutputRefe
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number; 
+  private _dialingCapacity?: number;
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -138,13 +138,13 @@ export interface ConnectcampaignsCampaignDialerConfigPredictiveDialerConfig {
   /**
   * The bandwidth allocation of a queue resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#bandwidth_allocation ConnectcampaignsCampaign#bandwidth_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#bandwidth_allocation ConnectcampaignsCampaign#bandwidth_allocation}
   */
   readonly bandwidthAllocation?: number;
   /**
   * Allocates dialing capacity for this campaign between multiple active campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
   */
   readonly dialingCapacity?: number;
 }
@@ -234,7 +234,7 @@ export class ConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputRef
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number; 
+  private _bandwidthAllocation?: number;
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -250,7 +250,7 @@ export class ConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputRef
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number; 
+  private _dialingCapacity?: number;
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -269,13 +269,13 @@ export interface ConnectcampaignsCampaignDialerConfigProgressiveDialerConfig {
   /**
   * The bandwidth allocation of a queue resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#bandwidth_allocation ConnectcampaignsCampaign#bandwidth_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#bandwidth_allocation ConnectcampaignsCampaign#bandwidth_allocation}
   */
   readonly bandwidthAllocation?: number;
   /**
   * Allocates dialing capacity for this campaign between multiple active campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#dialing_capacity ConnectcampaignsCampaign#dialing_capacity}
   */
   readonly dialingCapacity?: number;
 }
@@ -365,7 +365,7 @@ export class ConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputRe
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number; 
+  private _bandwidthAllocation?: number;
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -381,7 +381,7 @@ export class ConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputRe
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number; 
+  private _dialingCapacity?: number;
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -400,19 +400,19 @@ export interface ConnectcampaignsCampaignDialerConfig {
   /**
   * Agentless Dialer config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#agentless_dialer_config ConnectcampaignsCampaign#agentless_dialer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#agentless_dialer_config ConnectcampaignsCampaign#agentless_dialer_config}
   */
   readonly agentlessDialerConfig?: ConnectcampaignsCampaignDialerConfigAgentlessDialerConfig;
   /**
   * Predictive Dialer config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#predictive_dialer_config ConnectcampaignsCampaign#predictive_dialer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#predictive_dialer_config ConnectcampaignsCampaign#predictive_dialer_config}
   */
   readonly predictiveDialerConfig?: ConnectcampaignsCampaignDialerConfigPredictiveDialerConfig;
   /**
   * Progressive Dialer config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#progressive_dialer_config ConnectcampaignsCampaign#progressive_dialer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#progressive_dialer_config ConnectcampaignsCampaign#progressive_dialer_config}
   */
   readonly progressiveDialerConfig?: ConnectcampaignsCampaignDialerConfigProgressiveDialerConfig;
 }
@@ -566,13 +566,13 @@ export interface ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectio
   /**
   * Enables detection of prompts (e.g., beep after after a voicemail greeting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#await_answer_machine_prompt ConnectcampaignsCampaign#await_answer_machine_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#await_answer_machine_prompt ConnectcampaignsCampaign#await_answer_machine_prompt}
   */
   readonly awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable;
   /**
   * Flag to decided whether outbound calls should have answering machine detection enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#enable_answer_machine_detection ConnectcampaignsCampaign#enable_answer_machine_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#enable_answer_machine_detection ConnectcampaignsCampaign#enable_answer_machine_detection}
   */
   readonly enableAnswerMachineDetection?: boolean | cdktn.IResolvable;
 }
@@ -662,7 +662,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionCon
   }
 
   // await_answer_machine_prompt - computed: true, optional: true, required: false
-  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable; 
+  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable;
   public get awaitAnswerMachinePrompt() {
     return this.getBooleanAttribute('await_answer_machine_prompt');
   }
@@ -678,7 +678,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionCon
   }
 
   // enable_answer_machine_detection - computed: true, optional: true, required: false
-  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable; 
+  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable;
   public get enableAnswerMachineDetection() {
     return this.getBooleanAttribute('enable_answer_machine_detection');
   }
@@ -697,25 +697,25 @@ export interface ConnectcampaignsCampaignOutboundCallConfig {
   /**
   * The configuration used for answering machine detection during outbound calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#answer_machine_detection_config ConnectcampaignsCampaign#answer_machine_detection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#answer_machine_detection_config ConnectcampaignsCampaign#answer_machine_detection_config}
   */
   readonly answerMachineDetectionConfig?: ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfig;
   /**
   * The identifier of the contact flow for the outbound call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#connect_contact_flow_arn ConnectcampaignsCampaign#connect_contact_flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#connect_contact_flow_arn ConnectcampaignsCampaign#connect_contact_flow_arn}
   */
   readonly connectContactFlowArn: string;
   /**
   * The queue for the call. If you specify a queue, the phone displayed for caller ID is the phone number specified in the queue. If you do not specify a queue, the queue defined in the contact flow is used. If you do not specify a queue, you must specify a source phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#connect_queue_arn ConnectcampaignsCampaign#connect_queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#connect_queue_arn ConnectcampaignsCampaign#connect_queue_arn}
   */
   readonly connectQueueArn?: string;
   /**
   * The phone number associated with the Amazon Connect instance, in E.164 format. If you do not specify a source phone number, you must specify a queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#connect_source_phone_number ConnectcampaignsCampaign#connect_source_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#connect_source_phone_number ConnectcampaignsCampaign#connect_source_phone_number}
   */
   readonly connectSourcePhoneNumber?: string;
 }
@@ -847,7 +847,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_contact_flow_arn - computed: false, optional: false, required: true
-  private _connectContactFlowArn?: string; 
+  private _connectContactFlowArn?: string;
   public get connectContactFlowArn() {
     return this.getStringAttribute('connect_contact_flow_arn');
   }
@@ -860,7 +860,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_queue_arn - computed: true, optional: true, required: false
-  private _connectQueueArn?: string; 
+  private _connectQueueArn?: string;
   public get connectQueueArn() {
     return this.getStringAttribute('connect_queue_arn');
   }
@@ -876,7 +876,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_source_phone_number - computed: true, optional: true, required: false
-  private _connectSourcePhoneNumber?: string; 
+  private _connectSourcePhoneNumber?: string;
   public get connectSourcePhoneNumber() {
     return this.getStringAttribute('connect_source_phone_number');
   }
@@ -893,15 +893,15 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
 }
 export interface ConnectcampaignsCampaignTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#key ConnectcampaignsCampaign#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#key ConnectcampaignsCampaign#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#value ConnectcampaignsCampaign#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#value ConnectcampaignsCampaign#value}
   */
   readonly value?: string;
 }
@@ -993,7 +993,7 @@ export class ConnectcampaignsCampaignTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1009,7 +1009,7 @@ export class ConnectcampaignsCampaignTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1046,7 +1046,7 @@ export class ConnectcampaignsCampaignTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign awscc_connectcampaigns_campaign}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign awscc_connectcampaigns_campaign}
 */
 export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
 
@@ -1062,7 +1062,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectcampaignsCampaign resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectcampaignsCampaign to import
-  * @param importFromId The id of the existing ConnectcampaignsCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectcampaignsCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectcampaignsCampaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1074,7 +1074,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1085,7 +1085,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connectcampaigns_campaign',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1112,7 +1112,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   }
 
   // connect_instance_arn - computed: false, optional: false, required: true
-  private _connectInstanceArn?: string; 
+  private _connectInstanceArn?: string;
   public get connectInstanceArn() {
     return this.getStringAttribute('connect_instance_arn');
   }
@@ -1143,7 +1143,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

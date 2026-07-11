@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,179 +10,179 @@ export interface MemorydbClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the Access Control List to associate with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#acl_name MemorydbCluster#acl_name}
   */
   readonly aclName: string;
   /**
   * A flag that enables automatic minor version upgrade when set to true.
-  * 
+  *
   * You cannot modify the value of AutoMinorVersionUpgrade after the cluster is created. To enable AutoMinorVersionUpgrade on a cluster you must set AutoMinorVersionUpgrade to true when you create a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * The cluster endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#cluster_endpoint MemorydbCluster#cluster_endpoint}
   */
   readonly clusterEndpoint?: MemorydbClusterClusterEndpoint;
   /**
   * The name of the cluster. This value must be unique as it also serves as the cluster identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#cluster_name MemorydbCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Enables data tiering. Data tiering is only supported for clusters using the r6gd node type. This parameter must be set when using r6gd nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#data_tiering MemorydbCluster#data_tiering}
   */
   readonly dataTiering?: string;
   /**
   * An optional description of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#description MemorydbCluster#description}
   */
   readonly description?: string;
   /**
   * The engine type used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#engine MemorydbCluster#engine}
   */
   readonly engine?: string;
   /**
   * The Redis engine version used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#engine_version MemorydbCluster#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The user-supplied name of a final cluster snapshot. This is the unique name that identifies the snapshot. MemoryDB creates the snapshot, and then deletes the cluster immediately afterward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#final_snapshot_name MemorydbCluster#final_snapshot_name}
   */
   readonly finalSnapshotName?: string;
   /**
   * For clusters wth dual stack NetworkType, IpDiscovery controls the Ip protocol (ipv4 or ipv6) returned by the engine commands such as `cluster info` and `cluster nodes` which are used by clients to connect to the nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#ip_discovery MemorydbCluster#ip_discovery}
   */
   readonly ipDiscovery?: string;
   /**
   * The ID of the KMS key used to encrypt the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#kms_key_id MemorydbCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specifies the weekly time range during which maintenance on the cluster is performed. It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#maintenance_window MemorydbCluster#maintenance_window}
   */
   readonly maintenanceWindow?: string;
   /**
   * The name of the Global Datastore, it is generated by MemoryDB adding a prefix to MultiRegionClusterNameSuffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#multi_region_cluster_name MemorydbCluster#multi_region_cluster_name}
   */
   readonly multiRegionClusterName?: string;
   /**
   * Must be either ipv4 | ipv6 | dual_stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#network_type MemorydbCluster#network_type}
   */
   readonly networkType?: string;
   /**
   * The compute and memory capacity of the nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#node_type MemorydbCluster#node_type}
   */
   readonly nodeType: string;
   /**
   * The number of replicas to apply to each shard. The limit is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#num_replicas_per_shard MemorydbCluster#num_replicas_per_shard}
   */
   readonly numReplicasPerShard?: number;
   /**
   * The number of shards the cluster will contain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#num_shards MemorydbCluster#num_shards}
   */
   readonly numShards?: number;
   /**
   * The name of the parameter group associated with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#parameter_group_name MemorydbCluster#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * The port number on which each member of the cluster accepts connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#port MemorydbCluster#port}
   */
   readonly port?: number;
   /**
   * One or more Amazon VPC security groups associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#security_group_ids MemorydbCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * A list of Amazon Resource Names (ARN) that uniquely identify the RDB snapshot files stored in Amazon S3. The snapshot files are used to populate the new cluster. The Amazon S3 object name in the ARN cannot contain any commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#snapshot_arns MemorydbCluster#snapshot_arns}
   */
   readonly snapshotArns?: string[];
   /**
   * The name of a snapshot from which to restore data into the new cluster. The snapshot status changes to restoring while the new cluster is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#snapshot_name MemorydbCluster#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * The number of days for which MemoryDB retains automatic snapshots before deleting them. For example, if you set SnapshotRetentionLimit to 5, a snapshot that was taken today is retained for 5 days before being deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#snapshot_retention_limit MemorydbCluster#snapshot_retention_limit}
   */
   readonly snapshotRetentionLimit?: number;
   /**
   * The daily time range (in UTC) during which MemoryDB begins taking a daily snapshot of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#snapshot_window MemorydbCluster#snapshot_window}
   */
   readonly snapshotWindow?: string;
   /**
   * The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#sns_topic_arn MemorydbCluster#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
   /**
   * The status of the Amazon SNS notification topic. Notifications are sent only if the status is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#sns_topic_status MemorydbCluster#sns_topic_status}
   */
   readonly snsTopicStatus?: string;
   /**
   * The name of the subnet group to be used for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#subnet_group_name MemorydbCluster#subnet_group_name}
   */
   readonly subnetGroupName?: string;
   /**
   * An array of key-value pairs to apply to this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#tags MemorydbCluster#tags}
   */
   readonly tags?: MemorydbClusterTags[] | cdktn.IResolvable;
   /**
   * A flag that enables in-transit encryption when set to true.
-  * 
+  *
   * You cannot modify the value of TransitEncryptionEnabled after the cluster is created. To enable in-transit encryption on a cluster you must set TransitEncryptionEnabled to true when you create a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -259,13 +259,13 @@ export interface MemorydbClusterTags {
   /**
   * The key for the tag. May not be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
   */
   readonly key?: string;
   /**
   * The tag's value. May be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
   */
   readonly value?: string;
 }
@@ -357,7 +357,7 @@ export class MemorydbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -373,7 +373,7 @@ export class MemorydbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -410,7 +410,7 @@ export class MemorydbClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster awscc_memorydb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster awscc_memorydb_cluster}
 */
 export class MemorydbCluster extends cdktn.TerraformResource {
 
@@ -426,7 +426,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MemorydbCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MemorydbCluster to import
-  * @param importFromId The id of the existing MemorydbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MemorydbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MemorydbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -438,7 +438,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_cluster awscc_memorydb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster awscc_memorydb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,7 +449,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_memorydb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -495,7 +495,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   // ==========
 
   // acl_name - computed: false, optional: false, required: true
-  private _aclName?: string; 
+  private _aclName?: string;
   public get aclName() {
     return this.getStringAttribute('acl_name');
   }
@@ -513,7 +513,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -545,7 +545,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -558,7 +558,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // data_tiering - computed: true, optional: true, required: false
-  private _dataTiering?: string; 
+  private _dataTiering?: string;
   public get dataTiering() {
     return this.getStringAttribute('data_tiering');
   }
@@ -574,7 +574,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -590,7 +590,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -606,7 +606,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -622,7 +622,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // final_snapshot_name - computed: true, optional: true, required: false
-  private _finalSnapshotName?: string; 
+  private _finalSnapshotName?: string;
   public get finalSnapshotName() {
     return this.getStringAttribute('final_snapshot_name');
   }
@@ -643,7 +643,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // ip_discovery - computed: true, optional: true, required: false
-  private _ipDiscovery?: string; 
+  private _ipDiscovery?: string;
   public get ipDiscovery() {
     return this.getStringAttribute('ip_discovery');
   }
@@ -659,7 +659,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -675,7 +675,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: true, optional: true, required: false
-  private _maintenanceWindow?: string; 
+  private _maintenanceWindow?: string;
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -691,7 +691,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // multi_region_cluster_name - computed: true, optional: true, required: false
-  private _multiRegionClusterName?: string; 
+  private _multiRegionClusterName?: string;
   public get multiRegionClusterName() {
     return this.getStringAttribute('multi_region_cluster_name');
   }
@@ -707,7 +707,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string; 
+  private _networkType?: string;
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -723,7 +723,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string; 
+  private _nodeType?: string;
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -736,7 +736,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // num_replicas_per_shard - computed: true, optional: true, required: false
-  private _numReplicasPerShard?: number; 
+  private _numReplicasPerShard?: number;
   public get numReplicasPerShard() {
     return this.getNumberAttribute('num_replicas_per_shard');
   }
@@ -752,7 +752,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // num_shards - computed: true, optional: true, required: false
-  private _numShards?: number; 
+  private _numShards?: number;
   public get numShards() {
     return this.getNumberAttribute('num_shards');
   }
@@ -768,7 +768,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: true, optional: true, required: false
-  private _parameterGroupName?: string; 
+  private _parameterGroupName?: string;
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -789,7 +789,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -805,7 +805,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -821,7 +821,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_arns - computed: true, optional: true, required: false
-  private _snapshotArns?: string[]; 
+  private _snapshotArns?: string[];
   public get snapshotArns() {
     return this.getListAttribute('snapshot_arns');
   }
@@ -837,7 +837,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: true, optional: true, required: false
-  private _snapshotName?: string; 
+  private _snapshotName?: string;
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -853,7 +853,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: true, optional: true, required: false
-  private _snapshotRetentionLimit?: number; 
+  private _snapshotRetentionLimit?: number;
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -869,7 +869,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_window - computed: true, optional: true, required: false
-  private _snapshotWindow?: string; 
+  private _snapshotWindow?: string;
   public get snapshotWindow() {
     return this.getStringAttribute('snapshot_window');
   }
@@ -885,7 +885,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string; 
+  private _snsTopicArn?: string;
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -901,7 +901,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // sns_topic_status - computed: true, optional: true, required: false
-  private _snsTopicStatus?: string; 
+  private _snsTopicStatus?: string;
   public get snsTopicStatus() {
     return this.getStringAttribute('sns_topic_status');
   }
@@ -922,7 +922,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // subnet_group_name - computed: true, optional: true, required: false
-  private _subnetGroupName?: string; 
+  private _subnetGroupName?: string;
   public get subnetGroupName() {
     return this.getStringAttribute('subnet_group_name');
   }
@@ -954,7 +954,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // tls_enabled - computed: true, optional: true, required: false
-  private _tlsEnabled?: boolean | cdktn.IResolvable; 
+  private _tlsEnabled?: boolean | cdktn.IResolvable;
   public get tlsEnabled() {
     return this.getBooleanAttribute('tls_enabled');
   }

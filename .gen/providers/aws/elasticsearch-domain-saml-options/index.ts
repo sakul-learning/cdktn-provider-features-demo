@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface ElasticsearchDomainSamlOptionsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#domain_name ElasticsearchDomainSamlOptions#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#domain_name ElasticsearchDomainSamlOptions#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#id ElasticsearchDomainSamlOptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#id ElasticsearchDomainSamlOptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,29 +21,29 @@ export interface ElasticsearchDomainSamlOptionsConfig extends cdktn.TerraformMet
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#region ElasticsearchDomainSamlOptions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#region ElasticsearchDomainSamlOptions#region}
   */
   readonly region?: string;
   /**
   * saml_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#saml_options ElasticsearchDomainSamlOptions#saml_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#saml_options ElasticsearchDomainSamlOptions#saml_options}
   */
   readonly samlOptions?: ElasticsearchDomainSamlOptionsSamlOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#timeouts ElasticsearchDomainSamlOptions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#timeouts ElasticsearchDomainSamlOptions#timeouts}
   */
   readonly timeouts?: ElasticsearchDomainSamlOptionsTimeouts;
 }
 export interface ElasticsearchDomainSamlOptionsSamlOptionsIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#entity_id ElasticsearchDomainSamlOptions#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#entity_id ElasticsearchDomainSamlOptions#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#metadata_content ElasticsearchDomainSamlOptions#metadata_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#metadata_content ElasticsearchDomainSamlOptions#metadata_content}
   */
   readonly metadataContent: string;
 }
@@ -123,7 +123,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsIdpOutputReference extends
   }
 
   // entity_id - computed: false, optional: false, required: true
-  private _entityId?: string; 
+  private _entityId?: string;
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -136,7 +136,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsIdpOutputReference extends
   }
 
   // metadata_content - computed: false, optional: false, required: true
-  private _metadataContent?: string; 
+  private _metadataContent?: string;
   public get metadataContent() {
     return this.getStringAttribute('metadata_content');
   }
@@ -150,33 +150,33 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsIdpOutputReference extends
 }
 export interface ElasticsearchDomainSamlOptionsSamlOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#enabled ElasticsearchDomainSamlOptions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#enabled ElasticsearchDomainSamlOptions#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#master_backend_role ElasticsearchDomainSamlOptions#master_backend_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#master_backend_role ElasticsearchDomainSamlOptions#master_backend_role}
   */
   readonly masterBackendRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#master_user_name ElasticsearchDomainSamlOptions#master_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#master_user_name ElasticsearchDomainSamlOptions#master_user_name}
   */
   readonly masterUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#roles_key ElasticsearchDomainSamlOptions#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#roles_key ElasticsearchDomainSamlOptions#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#session_timeout_minutes ElasticsearchDomainSamlOptions#session_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#session_timeout_minutes ElasticsearchDomainSamlOptions#session_timeout_minutes}
   */
   readonly sessionTimeoutMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#subject_key ElasticsearchDomainSamlOptions#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#subject_key ElasticsearchDomainSamlOptions#subject_key}
   */
   readonly subjectKey?: string;
   /**
   * idp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#idp ElasticsearchDomainSamlOptions#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#idp ElasticsearchDomainSamlOptions#idp}
   */
   readonly idp?: ElasticsearchDomainSamlOptionsSamlOptionsIdp;
 }
@@ -321,7 +321,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -337,7 +337,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // master_backend_role - computed: false, optional: true, required: false
-  private _masterBackendRole?: string; 
+  private _masterBackendRole?: string;
   public get masterBackendRole() {
     return this.getStringAttribute('master_backend_role');
   }
@@ -353,7 +353,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // master_user_name - computed: false, optional: true, required: false
-  private _masterUserName?: string; 
+  private _masterUserName?: string;
   public get masterUserName() {
     return this.getStringAttribute('master_user_name');
   }
@@ -369,7 +369,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // roles_key - computed: false, optional: true, required: false
-  private _rolesKey?: string; 
+  private _rolesKey?: string;
   public get rolesKey() {
     return this.getStringAttribute('roles_key');
   }
@@ -385,7 +385,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // session_timeout_minutes - computed: false, optional: true, required: false
-  private _sessionTimeoutMinutes?: number; 
+  private _sessionTimeoutMinutes?: number;
   public get sessionTimeoutMinutes() {
     return this.getNumberAttribute('session_timeout_minutes');
   }
@@ -401,7 +401,7 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
   }
 
   // subject_key - computed: false, optional: true, required: false
-  private _subjectKey?: string; 
+  private _subjectKey?: string;
   public get subjectKey() {
     return this.getStringAttribute('subject_key');
   }
@@ -434,11 +434,11 @@ export class ElasticsearchDomainSamlOptionsSamlOptionsOutputReference extends cd
 }
 export interface ElasticsearchDomainSamlOptionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#delete ElasticsearchDomainSamlOptions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#delete ElasticsearchDomainSamlOptions#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#update ElasticsearchDomainSamlOptions#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#update ElasticsearchDomainSamlOptions#update}
   */
   readonly update?: string;
 }
@@ -528,7 +528,7 @@ export class ElasticsearchDomainSamlOptionsTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -544,7 +544,7 @@ export class ElasticsearchDomainSamlOptionsTimeoutsOutputReference extends cdktn
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -561,7 +561,7 @@ export class ElasticsearchDomainSamlOptionsTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options}
 */
 export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
 
@@ -577,7 +577,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticsearchDomainSamlOptions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchDomainSamlOptions to import
-  * @param importFromId The id of the existing ElasticsearchDomainSamlOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchDomainSamlOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchDomainSamlOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -589,7 +589,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,7 +600,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
       terraformResourceType: 'aws_elasticsearch_domain_saml_options',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -622,7 +622,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
   // ==========
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -635,7 +635,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -651,7 +651,7 @@ export class ElasticsearchDomainSamlOptions extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

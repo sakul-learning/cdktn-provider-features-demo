@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CodegurureviewerRepositoryAssociationConfig extends cdktn.Terra
   /**
   * The name of the S3 bucket associated with an associated S3 repository. It must start with `codeguru-reviewer-`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#bucket_name CodegurureviewerRepositoryAssociation#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#bucket_name CodegurureviewerRepositoryAssociation#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * The Amazon Resource Name (ARN) of an AWS CodeStar Connections connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#connection_arn CodegurureviewerRepositoryAssociation#connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#connection_arn CodegurureviewerRepositoryAssociation#connection_arn}
   */
   readonly connectionArn?: string;
   /**
   * Name of the repository to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#name CodegurureviewerRepositoryAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#name CodegurureviewerRepositoryAssociation#name}
   */
   readonly name: string;
   /**
   * The owner of the repository. For a Bitbucket repository, this is the username for the account that owns the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#owner CodegurureviewerRepositoryAssociation#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#owner CodegurureviewerRepositoryAssociation#owner}
   */
   readonly owner?: string;
   /**
   * The tags associated with a repository association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#tags CodegurureviewerRepositoryAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#tags CodegurureviewerRepositoryAssociation#tags}
   */
   readonly tags?: CodegurureviewerRepositoryAssociationTags[] | cdktn.IResolvable;
   /**
   * The type of repository to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#type CodegurureviewerRepositoryAssociation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#type CodegurureviewerRepositoryAssociation#type}
   */
   readonly type: string;
 }
@@ -48,13 +48,13 @@ export interface CodegurureviewerRepositoryAssociationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The allowed characters across services are: letters, numbers, and spaces representable in UTF-8, and the following characters: + - = . _ : / @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#key CodegurureviewerRepositoryAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#key CodegurureviewerRepositoryAssociation#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. The allowed characters across services are: letters, numbers, and spaces representable in UTF-8, and the following characters: + - = . _ : / @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#value CodegurureviewerRepositoryAssociation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#value CodegurureviewerRepositoryAssociation#value}
   */
   readonly value?: string;
 }
@@ -146,7 +146,7 @@ export class CodegurureviewerRepositoryAssociationTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class CodegurureviewerRepositoryAssociationTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -199,7 +199,7 @@ export class CodegurureviewerRepositoryAssociationTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}
 */
 export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   * Generates CDKTN code for importing a CodegurureviewerRepositoryAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodegurureviewerRepositoryAssociation to import
-  * @param importFromId The id of the existing CodegurureviewerRepositoryAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodegurureviewerRepositoryAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodegurureviewerRepositoryAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
       terraformResourceType: 'awscc_codegurureviewer_repository_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -266,7 +266,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -282,7 +282,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string; 
+  private _connectionArn?: string;
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -303,7 +303,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -316,7 +316,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // owner - computed: true, optional: true, required: false
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -348,7 +348,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

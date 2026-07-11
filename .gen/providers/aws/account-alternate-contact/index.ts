@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktn from 'cdktn';
 
 export interface AccountAlternateContactConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#account_id AccountAlternateContact#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#account_id AccountAlternateContact#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#alternate_contact_type AccountAlternateContact#alternate_contact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#alternate_contact_type AccountAlternateContact#alternate_contact_type}
   */
   readonly alternateContactType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#email_address AccountAlternateContact#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#email_address AccountAlternateContact#email_address}
   */
   readonly emailAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#id AccountAlternateContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#id AccountAlternateContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#name AccountAlternateContact#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#name AccountAlternateContact#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#phone_number AccountAlternateContact#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#phone_number AccountAlternateContact#phone_number}
   */
   readonly phoneNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#title AccountAlternateContact#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#title AccountAlternateContact#title}
   */
   readonly title: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#timeouts AccountAlternateContact#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#timeouts AccountAlternateContact#timeouts}
   */
   readonly timeouts?: AccountAlternateContactTimeouts;
 }
 export interface AccountAlternateContactTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#create AccountAlternateContact#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#create AccountAlternateContact#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#delete AccountAlternateContact#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#delete AccountAlternateContact#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#update AccountAlternateContact#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#update AccountAlternateContact#update}
   */
   readonly update?: string;
 }
@@ -158,7 +158,7 @@ export class AccountAlternateContactTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -174,7 +174,7 @@ export class AccountAlternateContactTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -190,7 +190,7 @@ export class AccountAlternateContactTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -207,7 +207,7 @@ export class AccountAlternateContactTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact aws_account_alternate_contact}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact aws_account_alternate_contact}
 */
 export class AccountAlternateContact extends cdktn.TerraformResource {
 
@@ -223,7 +223,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AccountAlternateContact resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountAlternateContact to import
-  * @param importFromId The id of the existing AccountAlternateContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountAlternateContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountAlternateContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -235,7 +235,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +246,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
       terraformResourceType: 'aws_account_alternate_contact',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -271,7 +271,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -287,7 +287,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // alternate_contact_type - computed: false, optional: false, required: true
-  private _alternateContactType?: string; 
+  private _alternateContactType?: string;
   public get alternateContactType() {
     return this.getStringAttribute('alternate_contact_type');
   }
@@ -300,7 +300,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: false, required: true
-  private _emailAddress?: string; 
+  private _emailAddress?: string;
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -313,7 +313,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -329,7 +329,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -342,7 +342,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // phone_number - computed: false, optional: false, required: true
-  private _phoneNumber?: string; 
+  private _phoneNumber?: string;
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -355,7 +355,7 @@ export class AccountAlternateContact extends cdktn.TerraformResource {
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Ec2AllowedImagesSettingsConfig extends cdktn.TerraformMetaArgum
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#region Ec2AllowedImagesSettings#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#region Ec2AllowedImagesSettings#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#state Ec2AllowedImagesSettings#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#state Ec2AllowedImagesSettings#state}
   */
   readonly state: string;
   /**
   * image_criterion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#image_criterion Ec2AllowedImagesSettings#image_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#image_criterion Ec2AllowedImagesSettings#image_criterion}
   */
   readonly imageCriterion?: Ec2AllowedImagesSettingsImageCriterion[] | cdktn.IResolvable;
 }
 export interface Ec2AllowedImagesSettingsImageCriterionCreationDateCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#maximum_days_since_created Ec2AllowedImagesSettings#maximum_days_since_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#maximum_days_since_created Ec2AllowedImagesSettings#maximum_days_since_created}
   */
   readonly maximumDaysSinceCreated?: number;
 }
@@ -105,7 +105,7 @@ export class Ec2AllowedImagesSettingsImageCriterionCreationDateConditionOutputRe
   }
 
   // maximum_days_since_created - computed: false, optional: true, required: false
-  private _maximumDaysSinceCreated?: number; 
+  private _maximumDaysSinceCreated?: number;
   public get maximumDaysSinceCreated() {
     return this.getNumberAttribute('maximum_days_since_created');
   }
@@ -142,7 +142,7 @@ export class Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList ext
 }
 export interface Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#maximum_days_since_deprecated Ec2AllowedImagesSettings#maximum_days_since_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#maximum_days_since_deprecated Ec2AllowedImagesSettings#maximum_days_since_deprecated}
   */
   readonly maximumDaysSinceDeprecated?: number;
 }
@@ -221,7 +221,7 @@ export class Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutpu
   }
 
   // maximum_days_since_deprecated - computed: false, optional: true, required: false
-  private _maximumDaysSinceDeprecated?: number; 
+  private _maximumDaysSinceDeprecated?: number;
   public get maximumDaysSinceDeprecated() {
     return this.getNumberAttribute('maximum_days_since_deprecated');
   }
@@ -258,27 +258,27 @@ export class Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionList 
 }
 export interface Ec2AllowedImagesSettingsImageCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#image_names Ec2AllowedImagesSettings#image_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#image_names Ec2AllowedImagesSettings#image_names}
   */
   readonly imageNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#image_providers Ec2AllowedImagesSettings#image_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#image_providers Ec2AllowedImagesSettings#image_providers}
   */
   readonly imageProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#marketplace_product_codes Ec2AllowedImagesSettings#marketplace_product_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#marketplace_product_codes Ec2AllowedImagesSettings#marketplace_product_codes}
   */
   readonly marketplaceProductCodes?: string[];
   /**
   * creation_date_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#creation_date_condition Ec2AllowedImagesSettings#creation_date_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#creation_date_condition Ec2AllowedImagesSettings#creation_date_condition}
   */
   readonly creationDateCondition?: Ec2AllowedImagesSettingsImageCriterionCreationDateCondition[] | cdktn.IResolvable;
   /**
   * deprecation_time_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#deprecation_time_condition Ec2AllowedImagesSettings#deprecation_time_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#deprecation_time_condition Ec2AllowedImagesSettings#deprecation_time_condition}
   */
   readonly deprecationTimeCondition?: Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition[] | cdktn.IResolvable;
 }
@@ -409,7 +409,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // image_names - computed: false, optional: true, required: false
-  private _imageNames?: string[]; 
+  private _imageNames?: string[];
   public get imageNames() {
     return cdktn.Fn.tolist(this.getListAttribute('image_names'));
   }
@@ -425,7 +425,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // image_providers - computed: false, optional: true, required: false
-  private _imageProviders?: string[]; 
+  private _imageProviders?: string[];
   public get imageProviders() {
     return cdktn.Fn.tolist(this.getListAttribute('image_providers'));
   }
@@ -441,7 +441,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // marketplace_product_codes - computed: false, optional: true, required: false
-  private _marketplaceProductCodes?: string[]; 
+  private _marketplaceProductCodes?: string[];
   public get marketplaceProductCodes() {
     return cdktn.Fn.tolist(this.getListAttribute('marketplace_product_codes'));
   }
@@ -510,7 +510,7 @@ export class Ec2AllowedImagesSettingsImageCriterionList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}
 */
 export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
 
@@ -526,7 +526,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2AllowedImagesSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2AllowedImagesSettings to import
-  * @param importFromId The id of the existing Ec2AllowedImagesSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2AllowedImagesSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2AllowedImagesSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -538,7 +538,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,7 +549,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ec2_allowed_images_settings',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -569,7 +569,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -585,7 +585,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }

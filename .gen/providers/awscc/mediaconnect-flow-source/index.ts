@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface MediaconnectFlowSourceAConfig extends cdktn.TerraformMetaArgume
   /**
   * The type of encryption that is used on the content ingested from this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#decryption MediaconnectFlowSourceA#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#decryption MediaconnectFlowSourceA#decryption}
   */
   readonly decryption?: MediaconnectFlowSourceDecryptionA;
   /**
   * A description for the source. This value is not used or seen outside of the current AWS Elemental MediaConnect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#description MediaconnectFlowSourceA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#description MediaconnectFlowSourceA#description}
   */
   readonly description: string;
   /**
   * The ARN of the entitlement that allows you to subscribe to content that comes from another AWS account. The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#entitlement_arn MediaconnectFlowSourceA#entitlement_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#entitlement_arn MediaconnectFlowSourceA#entitlement_arn}
   */
   readonly entitlementArn?: string;
   /**
   * The ARN of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#flow_arn MediaconnectFlowSourceA#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#flow_arn MediaconnectFlowSourceA#flow_arn}
   */
   readonly flowArn: string;
   /**
   * The source configuration for cloud flows receiving a stream from a bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#gateway_bridge_source MediaconnectFlowSourceA#gateway_bridge_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#gateway_bridge_source MediaconnectFlowSourceA#gateway_bridge_source}
   */
   readonly gatewayBridgeSource?: MediaconnectFlowSourceGatewayBridgeSourceA;
   /**
   * The port that the flow will be listening on for incoming content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#ingest_port MediaconnectFlowSourceA#ingest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#ingest_port MediaconnectFlowSourceA#ingest_port}
   */
   readonly ingestPort?: number;
   /**
   * The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#max_bitrate MediaconnectFlowSourceA#max_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#max_bitrate MediaconnectFlowSourceA#max_bitrate}
   */
   readonly maxBitrate?: number;
   /**
   * The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#max_latency MediaconnectFlowSourceA#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#max_latency MediaconnectFlowSourceA#max_latency}
   */
   readonly maxLatency?: number;
   /**
   * The minimum latency in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#min_latency MediaconnectFlowSourceA#min_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#min_latency MediaconnectFlowSourceA#min_latency}
   */
   readonly minLatency?: number;
   /**
   * The name of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#name MediaconnectFlowSourceA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#name MediaconnectFlowSourceA#name}
   */
   readonly name: string;
   /**
   * The protocol that is used by the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#protocol MediaconnectFlowSourceA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#protocol MediaconnectFlowSourceA#protocol}
   */
   readonly protocol?: string;
   /**
   * The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#sender_control_port MediaconnectFlowSourceA#sender_control_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#sender_control_port MediaconnectFlowSourceA#sender_control_port}
   */
   readonly senderControlPort?: number;
   /**
   * The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#sender_ip_address MediaconnectFlowSourceA#sender_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#sender_ip_address MediaconnectFlowSourceA#sender_ip_address}
   */
   readonly senderIpAddress?: string;
   /**
   * Source IP or domain name for SRT-caller protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#source_listener_address MediaconnectFlowSourceA#source_listener_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#source_listener_address MediaconnectFlowSourceA#source_listener_address}
   */
   readonly sourceListenerAddress?: string;
   /**
   * Source port for SRT-caller protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#source_listener_port MediaconnectFlowSourceA#source_listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#source_listener_port MediaconnectFlowSourceA#source_listener_port}
   */
   readonly sourceListenerPort?: number;
   /**
   * The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#stream_id MediaconnectFlowSourceA#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#stream_id MediaconnectFlowSourceA#stream_id}
   */
   readonly streamId?: string;
   /**
   * Key-value pairs that can be used to tag and organize this flow source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#tags MediaconnectFlowSourceA#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#tags MediaconnectFlowSourceA#tags}
   */
   readonly tags?: MediaconnectFlowSourceTags[] | cdktn.IResolvable;
   /**
   * The name of the VPC Interface this Source is configured with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
   /**
   * The range of IP addresses that should be allowed to contribute content to your source. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#whitelist_cidr MediaconnectFlowSourceA#whitelist_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#whitelist_cidr MediaconnectFlowSourceA#whitelist_cidr}
   */
   readonly whitelistCidr?: string;
 }
@@ -126,55 +126,55 @@ export interface MediaconnectFlowSourceDecryptionA {
   /**
   * The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#algorithm MediaconnectFlowSourceA#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#algorithm MediaconnectFlowSourceA#algorithm}
   */
   readonly algorithm?: string;
   /**
   * A 128-bit, 16-byte hex value represented by a 32-character string, to be used with the key for encrypting content. This parameter is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#constant_initialization_vector MediaconnectFlowSourceA#constant_initialization_vector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#constant_initialization_vector MediaconnectFlowSourceA#constant_initialization_vector}
   */
   readonly constantInitializationVector?: string;
   /**
   * The value of one of the devices that you configured with your digital rights management (DRM) platform key provider. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#device_id MediaconnectFlowSourceA#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#device_id MediaconnectFlowSourceA#device_id}
   */
   readonly deviceId?: string;
   /**
   * The type of key that is used for the encryption. If no keyType is provided, the service will use the default setting (static-key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#key_type MediaconnectFlowSourceA#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#key_type MediaconnectFlowSourceA#key_type}
   */
   readonly keyType?: string;
   /**
   * The AWS Region that the API Gateway proxy endpoint was created in. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#region MediaconnectFlowSourceA#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#region MediaconnectFlowSourceA#region}
   */
   readonly region?: string;
   /**
   * An identifier for the content. The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#resource_id MediaconnectFlowSourceA#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#resource_id MediaconnectFlowSourceA#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#role_arn MediaconnectFlowSourceA#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#role_arn MediaconnectFlowSourceA#role_arn}
   */
   readonly roleArn?: string;
   /**
   *  The ARN of the secret that you created in AWS Secrets Manager to store the encryption key. This parameter is required for static key encryption and is not valid for SPEKE encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#secret_arn MediaconnectFlowSourceA#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#secret_arn MediaconnectFlowSourceA#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * The URL from the API Gateway proxy that you set up to talk to your key server. This parameter is required for SPEKE encryption and is not valid for static key encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#url MediaconnectFlowSourceA#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#url MediaconnectFlowSourceA#url}
   */
   readonly url?: string;
 }
@@ -355,7 +355,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string; 
+  private _algorithm?: string;
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -371,7 +371,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // constant_initialization_vector - computed: true, optional: true, required: false
-  private _constantInitializationVector?: string; 
+  private _constantInitializationVector?: string;
   public get constantInitializationVector() {
     return this.getStringAttribute('constant_initialization_vector');
   }
@@ -387,7 +387,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // device_id - computed: true, optional: true, required: false
-  private _deviceId?: string; 
+  private _deviceId?: string;
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -403,7 +403,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -419,7 +419,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -435,7 +435,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string; 
+  private _resourceId?: string;
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -451,7 +451,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -467,7 +467,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -483,7 +483,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string; 
+  private _url?: string;
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -502,7 +502,7 @@ export interface MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachment
   /**
   * The name of the VPC interface to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#vpc_interface_name MediaconnectFlowSourceA#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
 }
@@ -579,7 +579,7 @@ export class MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachmentAOut
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string; 
+  private _vpcInterfaceName?: string;
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -598,13 +598,13 @@ export interface MediaconnectFlowSourceGatewayBridgeSourceA {
   /**
   * The ARN of the bridge feeding this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#bridge_arn MediaconnectFlowSourceA#bridge_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#bridge_arn MediaconnectFlowSourceA#bridge_arn}
   */
   readonly bridgeArn?: string;
   /**
   * The name of the VPC interface attachment to use for this bridge source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#vpc_interface_attachment MediaconnectFlowSourceA#vpc_interface_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#vpc_interface_attachment MediaconnectFlowSourceA#vpc_interface_attachment}
   */
   readonly vpcInterfaceAttachment?: MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachmentA;
 }
@@ -694,7 +694,7 @@ export class MediaconnectFlowSourceGatewayBridgeSourceAOutputReference extends c
   }
 
   // bridge_arn - computed: true, optional: true, required: false
-  private _bridgeArn?: string; 
+  private _bridgeArn?: string;
   public get bridgeArn() {
     return this.getStringAttribute('bridge_arn');
   }
@@ -727,11 +727,11 @@ export class MediaconnectFlowSourceGatewayBridgeSourceAOutputReference extends c
 }
 export interface MediaconnectFlowSourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#key MediaconnectFlowSourceA#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#value MediaconnectFlowSourceA#value}
   */
   readonly value?: string;
 }
@@ -823,7 +823,7 @@ export class MediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -839,7 +839,7 @@ export class MediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -876,7 +876,7 @@ export class MediaconnectFlowSourceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}
 */
 export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
 
@@ -892,7 +892,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectFlowSourceA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectFlowSourceA to import
-  * @param importFromId The id of the existing MediaconnectFlowSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectFlowSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectFlowSourceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -904,7 +904,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -915,7 +915,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_flow_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -967,7 +967,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -980,7 +980,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // entitlement_arn - computed: true, optional: true, required: false
-  private _entitlementArn?: string; 
+  private _entitlementArn?: string;
   public get entitlementArn() {
     return this.getStringAttribute('entitlement_arn');
   }
@@ -996,7 +996,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string; 
+  private _flowArn?: string;
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -1035,7 +1035,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // ingest_port - computed: true, optional: true, required: false
-  private _ingestPort?: number; 
+  private _ingestPort?: number;
   public get ingestPort() {
     return this.getNumberAttribute('ingest_port');
   }
@@ -1051,7 +1051,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // max_bitrate - computed: true, optional: true, required: false
-  private _maxBitrate?: number; 
+  private _maxBitrate?: number;
   public get maxBitrate() {
     return this.getNumberAttribute('max_bitrate');
   }
@@ -1067,7 +1067,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // max_latency - computed: true, optional: true, required: false
-  private _maxLatency?: number; 
+  private _maxLatency?: number;
   public get maxLatency() {
     return this.getNumberAttribute('max_latency');
   }
@@ -1083,7 +1083,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // min_latency - computed: true, optional: true, required: false
-  private _minLatency?: number; 
+  private _minLatency?: number;
   public get minLatency() {
     return this.getNumberAttribute('min_latency');
   }
@@ -1099,7 +1099,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1112,7 +1112,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1128,7 +1128,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // sender_control_port - computed: true, optional: true, required: false
-  private _senderControlPort?: number; 
+  private _senderControlPort?: number;
   public get senderControlPort() {
     return this.getNumberAttribute('sender_control_port');
   }
@@ -1144,7 +1144,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // sender_ip_address - computed: true, optional: true, required: false
-  private _senderIpAddress?: string; 
+  private _senderIpAddress?: string;
   public get senderIpAddress() {
     return this.getStringAttribute('sender_ip_address');
   }
@@ -1170,7 +1170,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // source_listener_address - computed: true, optional: true, required: false
-  private _sourceListenerAddress?: string; 
+  private _sourceListenerAddress?: string;
   public get sourceListenerAddress() {
     return this.getStringAttribute('source_listener_address');
   }
@@ -1186,7 +1186,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // source_listener_port - computed: true, optional: true, required: false
-  private _sourceListenerPort?: number; 
+  private _sourceListenerPort?: number;
   public get sourceListenerPort() {
     return this.getNumberAttribute('source_listener_port');
   }
@@ -1202,7 +1202,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // stream_id - computed: true, optional: true, required: false
-  private _streamId?: string; 
+  private _streamId?: string;
   public get streamId() {
     return this.getStringAttribute('stream_id');
   }
@@ -1234,7 +1234,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string; 
+  private _vpcInterfaceName?: string;
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -1250,7 +1250,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // whitelist_cidr - computed: true, optional: true, required: false
-  private _whitelistCidr?: string; 
+  private _whitelistCidr?: string;
   public get whitelistCidr() {
     return this.getStringAttribute('whitelist_cidr');
   }

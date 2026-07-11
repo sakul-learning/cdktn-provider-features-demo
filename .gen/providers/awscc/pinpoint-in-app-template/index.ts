@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface PinpointInAppTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#content PinpointInAppTemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#content PinpointInAppTemplate#content}
   */
   readonly content?: PinpointInAppTemplateContent[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#custom_config PinpointInAppTemplate#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#custom_config PinpointInAppTemplate#custom_config}
   */
   readonly customConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#layout PinpointInAppTemplate#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#layout PinpointInAppTemplate#layout}
   */
   readonly layout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#tags PinpointInAppTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#tags PinpointInAppTemplate#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#template_description PinpointInAppTemplate#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#template_description PinpointInAppTemplate#template_description}
   */
   readonly templateDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#template_name PinpointInAppTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#template_name PinpointInAppTemplate#template_name}
   */
   readonly templateName: string;
 }
 export interface PinpointInAppTemplateContentBodyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#alignment PinpointInAppTemplate#alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#alignment PinpointInAppTemplate#alignment}
   */
   readonly alignment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#body PinpointInAppTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#body PinpointInAppTemplate#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
   */
   readonly textColor?: string;
 }
@@ -145,7 +145,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // alignment - computed: true, optional: true, required: false
-  private _alignment?: string; 
+  private _alignment?: string;
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -161,7 +161,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // body - computed: true, optional: true, required: false
-  private _body?: string; 
+  private _body?: string;
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -177,7 +177,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string; 
+  private _textColor?: string;
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -194,15 +194,15 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
 }
 export interface PinpointInAppTemplateContentHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#alignment PinpointInAppTemplate#alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#alignment PinpointInAppTemplate#alignment}
   */
   readonly alignment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#header PinpointInAppTemplate#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#header PinpointInAppTemplate#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
   */
   readonly textColor?: string;
 }
@@ -305,7 +305,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // alignment - computed: true, optional: true, required: false
-  private _alignment?: string; 
+  private _alignment?: string;
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -321,7 +321,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: string; 
+  private _header?: string;
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -337,7 +337,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string; 
+  private _textColor?: string;
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -354,11 +354,11 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
 }
 export interface PinpointInAppTemplateContentPrimaryBtnAndroid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -448,7 +448,7 @@ export class PinpointInAppTemplateContentPrimaryBtnAndroidOutputReference extend
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -464,7 +464,7 @@ export class PinpointInAppTemplateContentPrimaryBtnAndroidOutputReference extend
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -481,27 +481,27 @@ export class PinpointInAppTemplateContentPrimaryBtnAndroidOutputReference extend
 }
 export interface PinpointInAppTemplateContentPrimaryBtnDefaultConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
   */
   readonly backgroundColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}
   */
   readonly borderRadius?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
   */
   readonly textColor?: string;
 }
@@ -643,7 +643,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string; 
+  private _backgroundColor?: string;
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -659,7 +659,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // border_radius - computed: true, optional: true, required: false
-  private _borderRadius?: number; 
+  private _borderRadius?: number;
   public get borderRadius() {
     return this.getNumberAttribute('border_radius');
   }
@@ -675,7 +675,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -691,7 +691,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -707,7 +707,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -723,7 +723,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string; 
+  private _textColor?: string;
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -740,11 +740,11 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
 }
 export interface PinpointInAppTemplateContentPrimaryBtnIos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -834,7 +834,7 @@ export class PinpointInAppTemplateContentPrimaryBtnIosOutputReference extends cd
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -850,7 +850,7 @@ export class PinpointInAppTemplateContentPrimaryBtnIosOutputReference extends cd
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -867,11 +867,11 @@ export class PinpointInAppTemplateContentPrimaryBtnIosOutputReference extends cd
 }
 export interface PinpointInAppTemplateContentPrimaryBtnWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -961,7 +961,7 @@ export class PinpointInAppTemplateContentPrimaryBtnWebOutputReference extends cd
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -977,7 +977,7 @@ export class PinpointInAppTemplateContentPrimaryBtnWebOutputReference extends cd
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -994,19 +994,19 @@ export class PinpointInAppTemplateContentPrimaryBtnWebOutputReference extends cd
 }
 export interface PinpointInAppTemplateContentPrimaryBtn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#android PinpointInAppTemplate#android}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#android PinpointInAppTemplate#android}
   */
   readonly android?: PinpointInAppTemplateContentPrimaryBtnAndroid;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#default_config PinpointInAppTemplate#default_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#default_config PinpointInAppTemplate#default_config}
   */
   readonly defaultConfig?: PinpointInAppTemplateContentPrimaryBtnDefaultConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#ios PinpointInAppTemplate#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#ios PinpointInAppTemplate#ios}
   */
   readonly ios?: PinpointInAppTemplateContentPrimaryBtnIos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#web PinpointInAppTemplate#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#web PinpointInAppTemplate#web}
   */
   readonly web?: PinpointInAppTemplateContentPrimaryBtnWeb;
 }
@@ -1187,11 +1187,11 @@ export class PinpointInAppTemplateContentPrimaryBtnOutputReference extends cdktn
 }
 export interface PinpointInAppTemplateContentSecondaryBtnAndroid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -1281,7 +1281,7 @@ export class PinpointInAppTemplateContentSecondaryBtnAndroidOutputReference exte
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1297,7 +1297,7 @@ export class PinpointInAppTemplateContentSecondaryBtnAndroidOutputReference exte
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1314,27 +1314,27 @@ export class PinpointInAppTemplateContentSecondaryBtnAndroidOutputReference exte
 }
 export interface PinpointInAppTemplateContentSecondaryBtnDefaultConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
   */
   readonly backgroundColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}
   */
   readonly borderRadius?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}
   */
   readonly textColor?: string;
 }
@@ -1476,7 +1476,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string; 
+  private _backgroundColor?: string;
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -1492,7 +1492,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // border_radius - computed: true, optional: true, required: false
-  private _borderRadius?: number; 
+  private _borderRadius?: number;
   public get borderRadius() {
     return this.getNumberAttribute('border_radius');
   }
@@ -1508,7 +1508,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1524,7 +1524,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1540,7 +1540,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1556,7 +1556,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string; 
+  private _textColor?: string;
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -1573,11 +1573,11 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
 }
 export interface PinpointInAppTemplateContentSecondaryBtnIos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -1667,7 +1667,7 @@ export class PinpointInAppTemplateContentSecondaryBtnIosOutputReference extends 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1683,7 +1683,7 @@ export class PinpointInAppTemplateContentSecondaryBtnIosOutputReference extends 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1700,11 +1700,11 @@ export class PinpointInAppTemplateContentSecondaryBtnIosOutputReference extends 
 }
 export interface PinpointInAppTemplateContentSecondaryBtnWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}
   */
   readonly buttonAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}
   */
   readonly link?: string;
 }
@@ -1794,7 +1794,7 @@ export class PinpointInAppTemplateContentSecondaryBtnWebOutputReference extends 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string; 
+  private _buttonAction?: string;
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1810,7 +1810,7 @@ export class PinpointInAppTemplateContentSecondaryBtnWebOutputReference extends 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string; 
+  private _link?: string;
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1827,19 +1827,19 @@ export class PinpointInAppTemplateContentSecondaryBtnWebOutputReference extends 
 }
 export interface PinpointInAppTemplateContentSecondaryBtn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#android PinpointInAppTemplate#android}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#android PinpointInAppTemplate#android}
   */
   readonly android?: PinpointInAppTemplateContentSecondaryBtnAndroid;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#default_config PinpointInAppTemplate#default_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#default_config PinpointInAppTemplate#default_config}
   */
   readonly defaultConfig?: PinpointInAppTemplateContentSecondaryBtnDefaultConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#ios PinpointInAppTemplate#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#ios PinpointInAppTemplate#ios}
   */
   readonly ios?: PinpointInAppTemplateContentSecondaryBtnIos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#web PinpointInAppTemplate#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#web PinpointInAppTemplate#web}
   */
   readonly web?: PinpointInAppTemplateContentSecondaryBtnWeb;
 }
@@ -2020,27 +2020,27 @@ export class PinpointInAppTemplateContentSecondaryBtnOutputReference extends cdk
 }
 export interface PinpointInAppTemplateContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}
   */
   readonly backgroundColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#body_config PinpointInAppTemplate#body_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#body_config PinpointInAppTemplate#body_config}
   */
   readonly bodyConfig?: PinpointInAppTemplateContentBodyConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#header_config PinpointInAppTemplate#header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#header_config PinpointInAppTemplate#header_config}
   */
   readonly headerConfig?: PinpointInAppTemplateContentHeaderConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#image_url PinpointInAppTemplate#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#image_url PinpointInAppTemplate#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#primary_btn PinpointInAppTemplate#primary_btn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#primary_btn PinpointInAppTemplate#primary_btn}
   */
   readonly primaryBtn?: PinpointInAppTemplateContentPrimaryBtn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#secondary_btn PinpointInAppTemplate#secondary_btn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#secondary_btn PinpointInAppTemplate#secondary_btn}
   */
   readonly secondaryBtn?: PinpointInAppTemplateContentSecondaryBtn;
 }
@@ -2184,7 +2184,7 @@ export class PinpointInAppTemplateContentOutputReference extends cdktn.ComplexOb
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string; 
+  private _backgroundColor?: string;
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -2232,7 +2232,7 @@ export class PinpointInAppTemplateContentOutputReference extends cdktn.ComplexOb
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2301,7 +2301,7 @@ export class PinpointInAppTemplateContentList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template}
 */
 export class PinpointInAppTemplate extends cdktn.TerraformResource {
 
@@ -2317,7 +2317,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PinpointInAppTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PinpointInAppTemplate to import
-  * @param importFromId The id of the existing PinpointInAppTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PinpointInAppTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PinpointInAppTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2329,7 +2329,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2340,7 +2340,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pinpoint_in_app_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2384,7 +2384,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // custom_config - computed: true, optional: true, required: false
-  private _customConfig?: string; 
+  private _customConfig?: string;
   public get customConfig() {
     return this.getStringAttribute('custom_config');
   }
@@ -2405,7 +2405,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // layout - computed: true, optional: true, required: false
-  private _layout?: string; 
+  private _layout?: string;
   public get layout() {
     return this.getStringAttribute('layout');
   }
@@ -2421,7 +2421,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string; 
+  private _tags?: string;
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -2437,7 +2437,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // template_description - computed: true, optional: true, required: false
-  private _templateDescription?: string; 
+  private _templateDescription?: string;
   public get templateDescription() {
     return this.getStringAttribute('template_description');
   }
@@ -2453,7 +2453,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // template_name - computed: false, optional: false, required: true
-  private _templateName?: string; 
+  private _templateName?: string;
   public get templateName() {
     return this.getStringAttribute('template_name');
   }

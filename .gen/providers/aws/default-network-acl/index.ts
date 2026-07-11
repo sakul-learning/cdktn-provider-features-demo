@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface DefaultNetworkAclConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#default_network_acl_id DefaultNetworkAcl#default_network_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#default_network_acl_id DefaultNetworkAcl#default_network_acl_id}
   */
   readonly defaultNetworkAclId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#id DefaultNetworkAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#id DefaultNetworkAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,69 +21,69 @@ export interface DefaultNetworkAclConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#region DefaultNetworkAcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#region DefaultNetworkAcl#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#subnet_ids DefaultNetworkAcl#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#subnet_ids DefaultNetworkAcl#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#tags DefaultNetworkAcl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#tags DefaultNetworkAcl#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#tags_all DefaultNetworkAcl#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#tags_all DefaultNetworkAcl#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#egress DefaultNetworkAcl#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#egress DefaultNetworkAcl#egress}
   */
   readonly egress?: DefaultNetworkAclEgress[] | cdktn.IResolvable;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#ingress DefaultNetworkAcl#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#ingress DefaultNetworkAcl#ingress}
   */
   readonly ingress?: DefaultNetworkAclIngress[] | cdktn.IResolvable;
 }
 export interface DefaultNetworkAclEgress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}
   */
   readonly ruleNo: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}
   */
   readonly toPort: number;
 }
@@ -266,7 +266,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -279,7 +279,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // cidr_block - computed: false, optional: true, required: false
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -295,7 +295,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -308,7 +308,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // icmp_code - computed: false, optional: true, required: false
-  private _icmpCode?: number; 
+  private _icmpCode?: number;
   public get icmpCode() {
     return this.getNumberAttribute('icmp_code');
   }
@@ -324,7 +324,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // icmp_type - computed: false, optional: true, required: false
-  private _icmpType?: number; 
+  private _icmpType?: number;
   public get icmpType() {
     return this.getNumberAttribute('icmp_type');
   }
@@ -340,7 +340,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // ipv6_cidr_block - computed: false, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -356,7 +356,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -369,7 +369,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // rule_no - computed: false, optional: false, required: true
-  private _ruleNo?: number; 
+  private _ruleNo?: number;
   public get ruleNo() {
     return this.getNumberAttribute('rule_no');
   }
@@ -382,7 +382,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -416,39 +416,39 @@ export class DefaultNetworkAclEgressList extends cdktn.ComplexList {
 }
 export interface DefaultNetworkAclIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#action DefaultNetworkAcl#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#cidr_block DefaultNetworkAcl#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#from_port DefaultNetworkAcl#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#icmp_code DefaultNetworkAcl#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#icmp_type DefaultNetworkAcl#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#ipv6_cidr_block DefaultNetworkAcl#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#protocol DefaultNetworkAcl#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#rule_no DefaultNetworkAcl#rule_no}
   */
   readonly ruleNo: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#to_port DefaultNetworkAcl#to_port}
   */
   readonly toPort: number;
 }
@@ -631,7 +631,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -644,7 +644,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // cidr_block - computed: false, optional: true, required: false
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -660,7 +660,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -673,7 +673,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // icmp_code - computed: false, optional: true, required: false
-  private _icmpCode?: number; 
+  private _icmpCode?: number;
   public get icmpCode() {
     return this.getNumberAttribute('icmp_code');
   }
@@ -689,7 +689,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // icmp_type - computed: false, optional: true, required: false
-  private _icmpType?: number; 
+  private _icmpType?: number;
   public get icmpType() {
     return this.getNumberAttribute('icmp_type');
   }
@@ -705,7 +705,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // ipv6_cidr_block - computed: false, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -721,7 +721,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -734,7 +734,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // rule_no - computed: false, optional: false, required: true
-  private _ruleNo?: number; 
+  private _ruleNo?: number;
   public get ruleNo() {
     return this.getNumberAttribute('rule_no');
   }
@@ -747,7 +747,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -781,7 +781,7 @@ export class DefaultNetworkAclIngressList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl aws_default_network_acl}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl aws_default_network_acl}
 */
 export class DefaultNetworkAcl extends cdktn.TerraformResource {
 
@@ -797,7 +797,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DefaultNetworkAcl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultNetworkAcl to import
-  * @param importFromId The id of the existing DefaultNetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultNetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultNetworkAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -809,7 +809,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/default_network_acl aws_default_network_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/default_network_acl aws_default_network_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,7 +820,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
       terraformResourceType: 'aws_default_network_acl',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -850,7 +850,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // default_network_acl_id - computed: false, optional: false, required: true
-  private _defaultNetworkAclId?: string; 
+  private _defaultNetworkAclId?: string;
   public get defaultNetworkAclId() {
     return this.getStringAttribute('default_network_acl_id');
   }
@@ -863,7 +863,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -884,7 +884,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -900,7 +900,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -916,7 +916,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -932,7 +932,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

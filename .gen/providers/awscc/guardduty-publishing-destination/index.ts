@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface GuarddutyPublishingDestinationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}
   */
   readonly destinationProperties: GuarddutyPublishingDestinationDestinationProperties;
   /**
   * The type of resource for the publishing destination. Currently only Amazon S3 buckets are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
   */
   readonly destinationType: string;
   /**
   * The ID of the GuardDuty detector associated with the publishing destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
   */
   readonly detectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}
   */
   readonly tags?: GuarddutyPublishingDestinationTags[] | cdktn.IResolvable;
 }
@@ -32,13 +32,13 @@ export interface GuarddutyPublishingDestinationDestinationProperties {
   /**
   * The ARN of the resource to publish to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#destination_arn GuarddutyPublishingDestination#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#destination_arn GuarddutyPublishingDestination#destination_arn}
   */
   readonly destinationArn?: string;
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#kms_key_arn GuarddutyPublishingDestination#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#kms_key_arn GuarddutyPublishingDestination#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -128,7 +128,7 @@ export class GuarddutyPublishingDestinationDestinationPropertiesOutputReference 
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string; 
+  private _destinationArn?: string;
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -144,7 +144,7 @@ export class GuarddutyPublishingDestinationDestinationPropertiesOutputReference 
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -161,11 +161,11 @@ export class GuarddutyPublishingDestinationDestinationPropertiesOutputReference 
 }
 export interface GuarddutyPublishingDestinationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}
   */
   readonly value?: string;
 }
@@ -257,7 +257,7 @@ export class GuarddutyPublishingDestinationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -273,7 +273,7 @@ export class GuarddutyPublishingDestinationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -310,7 +310,7 @@ export class GuarddutyPublishingDestinationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination}
 */
 export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
 
@@ -326,7 +326,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyPublishingDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyPublishingDestination to import
-  * @param importFromId The id of the existing GuarddutyPublishingDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyPublishingDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyPublishingDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -338,7 +338,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,7 +349,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_publishing_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -383,7 +383,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // destination_type - computed: false, optional: false, required: true
-  private _destinationType?: string; 
+  private _destinationType?: string;
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -396,7 +396,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string; 
+  private _detectorId?: string;
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }

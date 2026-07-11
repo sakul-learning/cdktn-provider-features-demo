@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebIdentityProviderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#identity_provider_details WorkspaceswebIdentityProvider#identity_provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#identity_provider_details WorkspaceswebIdentityProvider#identity_provider_details}
   */
   readonly identityProviderDetails: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#identity_provider_name WorkspaceswebIdentityProvider#identity_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#identity_provider_name WorkspaceswebIdentityProvider#identity_provider_name}
   */
   readonly identityProviderName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#identity_provider_type WorkspaceswebIdentityProvider#identity_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#identity_provider_type WorkspaceswebIdentityProvider#identity_provider_type}
   */
   readonly identityProviderType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#portal_arn WorkspaceswebIdentityProvider#portal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#portal_arn WorkspaceswebIdentityProvider#portal_arn}
   */
   readonly portalArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#tags WorkspaceswebIdentityProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#tags WorkspaceswebIdentityProvider#tags}
   */
   readonly tags?: WorkspaceswebIdentityProviderTags[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebIdentityProviderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#key WorkspaceswebIdentityProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#key WorkspaceswebIdentityProvider#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#value WorkspaceswebIdentityProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#value WorkspaceswebIdentityProvider#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class WorkspaceswebIdentityProviderTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class WorkspaceswebIdentityProviderTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class WorkspaceswebIdentityProviderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}
 */
 export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspaceswebIdentityProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebIdentityProvider to import
-  * @param importFromId The id of the existing WorkspaceswebIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspacesweb_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -250,7 +250,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_details - computed: false, optional: false, required: true
-  private _identityProviderDetails?: { [key: string]: string }; 
+  private _identityProviderDetails?: { [key: string]: string };
   public get identityProviderDetails() {
     return this.getStringMapAttribute('identity_provider_details');
   }
@@ -263,7 +263,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_name - computed: false, optional: false, required: true
-  private _identityProviderName?: string; 
+  private _identityProviderName?: string;
   public get identityProviderName() {
     return this.getStringAttribute('identity_provider_name');
   }
@@ -276,7 +276,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_type - computed: false, optional: false, required: true
-  private _identityProviderType?: string; 
+  private _identityProviderType?: string;
   public get identityProviderType() {
     return this.getStringAttribute('identity_provider_type');
   }
@@ -289,7 +289,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // portal_arn - computed: true, optional: true, required: false
-  private _portalArn?: string; 
+  private _portalArn?: string;
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }

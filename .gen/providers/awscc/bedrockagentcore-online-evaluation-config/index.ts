@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface BedrockagentcoreOnlineEvaluationConfigConfig extends cdktn.Terr
   /**
   * The configuration for clustering analysis of evaluation results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#clustering_config BedrockagentcoreOnlineEvaluationConfig#clustering_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#clustering_config BedrockagentcoreOnlineEvaluationConfig#clustering_config}
   */
   readonly clusteringConfig?: BedrockagentcoreOnlineEvaluationConfigClusteringConfig;
   /**
   * The data source configuration that specifies CloudWatch log groups and service names to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#data_source_config BedrockagentcoreOnlineEvaluationConfig#data_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#data_source_config BedrockagentcoreOnlineEvaluationConfig#data_source_config}
   */
   readonly dataSourceConfig: BedrockagentcoreOnlineEvaluationConfigDataSourceConfig;
   /**
   * The description of the online evaluation configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#description BedrockagentcoreOnlineEvaluationConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#description BedrockagentcoreOnlineEvaluationConfig#description}
   */
   readonly description?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that grants permissions for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluation_execution_role_arn BedrockagentcoreOnlineEvaluationConfig#evaluation_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluation_execution_role_arn BedrockagentcoreOnlineEvaluationConfig#evaluation_execution_role_arn}
   */
   readonly evaluationExecutionRoleArn: string;
   /**
   * The list of evaluators to apply during online evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluators BedrockagentcoreOnlineEvaluationConfig#evaluators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluators BedrockagentcoreOnlineEvaluationConfig#evaluators}
   */
   readonly evaluators?: BedrockagentcoreOnlineEvaluationConfigEvaluators[] | cdktn.IResolvable;
   /**
   * The execution status indicating whether the online evaluation is currently running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#execution_status BedrockagentcoreOnlineEvaluationConfig#execution_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#execution_status BedrockagentcoreOnlineEvaluationConfig#execution_status}
   */
   readonly executionStatus?: string;
   /**
   * The list of insights to enable for failure analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#insights BedrockagentcoreOnlineEvaluationConfig#insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#insights BedrockagentcoreOnlineEvaluationConfig#insights}
   */
   readonly insights?: BedrockagentcoreOnlineEvaluationConfigInsights[] | cdktn.IResolvable;
   /**
   * The name of the online evaluation configuration. Must be unique within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#online_evaluation_config_name BedrockagentcoreOnlineEvaluationConfig#online_evaluation_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#online_evaluation_config_name BedrockagentcoreOnlineEvaluationConfig#online_evaluation_config_name}
   */
   readonly onlineEvaluationConfigName: string;
   /**
   * The evaluation rule that defines sampling configuration, filters, and session detection settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#rule BedrockagentcoreOnlineEvaluationConfig#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#rule BedrockagentcoreOnlineEvaluationConfig#rule}
   */
   readonly rule: BedrockagentcoreOnlineEvaluationConfigRule;
   /**
   * A list of tags to assign to the online evaluation configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#tags BedrockagentcoreOnlineEvaluationConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#tags BedrockagentcoreOnlineEvaluationConfig#tags}
   */
   readonly tags?: BedrockagentcoreOnlineEvaluationConfigTags[] | cdktn.IResolvable;
 }
@@ -72,7 +72,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigClusteringConfig {
   /**
   * The list of frequencies at which clustering reports are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#frequencies BedrockagentcoreOnlineEvaluationConfig#frequencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#frequencies BedrockagentcoreOnlineEvaluationConfig#frequencies}
   */
   readonly frequencies?: string[];
 }
@@ -149,7 +149,7 @@ export class BedrockagentcoreOnlineEvaluationConfigClusteringConfigOutputReferen
   }
 
   // frequencies - computed: true, optional: true, required: false
-  private _frequencies?: string[]; 
+  private _frequencies?: string[];
   public get frequencies() {
     return this.getListAttribute('frequencies');
   }
@@ -168,13 +168,13 @@ export interface BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatc
   /**
   * The list of CloudWatch log group names to monitor for agent traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#log_group_names BedrockagentcoreOnlineEvaluationConfig#log_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#log_group_names BedrockagentcoreOnlineEvaluationConfig#log_group_names}
   */
   readonly logGroupNames: string[];
   /**
   * The list of service names to filter traces within the specified log groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#service_names BedrockagentcoreOnlineEvaluationConfig#service_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#service_names BedrockagentcoreOnlineEvaluationConfig#service_names}
   */
   readonly serviceNames: string[];
 }
@@ -264,7 +264,7 @@ export class BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLog
   }
 
   // log_group_names - computed: false, optional: false, required: true
-  private _logGroupNames?: string[]; 
+  private _logGroupNames?: string[];
   public get logGroupNames() {
     return this.getListAttribute('log_group_names');
   }
@@ -277,7 +277,7 @@ export class BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLog
   }
 
   // service_names - computed: false, optional: false, required: true
-  private _serviceNames?: string[]; 
+  private _serviceNames?: string[];
   public get serviceNames() {
     return this.getListAttribute('service_names');
   }
@@ -293,7 +293,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigDataSourceConfig {
   /**
   * The configuration for reading agent traces from CloudWatch logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#cloudwatch_logs BedrockagentcoreOnlineEvaluationConfig#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#cloudwatch_logs BedrockagentcoreOnlineEvaluationConfig#cloudwatch_logs}
   */
   readonly cloudwatchLogs: BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogs;
 }
@@ -386,7 +386,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigEvaluators {
   /**
   * The unique identifier of the evaluator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluator_id BedrockagentcoreOnlineEvaluationConfig#evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluator_id BedrockagentcoreOnlineEvaluationConfig#evaluator_id}
   */
   readonly evaluatorId?: string;
 }
@@ -465,7 +465,7 @@ export class BedrockagentcoreOnlineEvaluationConfigEvaluatorsOutputReference ext
   }
 
   // evaluator_id - computed: true, optional: true, required: false
-  private _evaluatorId?: string; 
+  private _evaluatorId?: string;
   public get evaluatorId() {
     return this.getStringAttribute('evaluator_id');
   }
@@ -504,7 +504,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigInsights {
   /**
   * The unique identifier of the insight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#insight_id BedrockagentcoreOnlineEvaluationConfig#insight_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#insight_id BedrockagentcoreOnlineEvaluationConfig#insight_id}
   */
   readonly insightId?: string;
 }
@@ -583,7 +583,7 @@ export class BedrockagentcoreOnlineEvaluationConfigInsightsOutputReference exten
   }
 
   // insight_id - computed: true, optional: true, required: false
-  private _insightId?: string; 
+  private _insightId?: string;
   public get insightId() {
     return this.getStringAttribute('insight_id');
   }
@@ -731,19 +731,19 @@ export interface BedrockagentcoreOnlineEvaluationConfigRuleFiltersValue {
   /**
   * The boolean value for true/false filtering conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#boolean_value BedrockagentcoreOnlineEvaluationConfig#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#boolean_value BedrockagentcoreOnlineEvaluationConfig#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * The numeric value for numerical filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#double_value BedrockagentcoreOnlineEvaluationConfig#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#double_value BedrockagentcoreOnlineEvaluationConfig#double_value}
   */
   readonly doubleValue?: number;
   /**
   * The string value for text-based filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#string_value BedrockagentcoreOnlineEvaluationConfig#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#string_value BedrockagentcoreOnlineEvaluationConfig#string_value}
   */
   readonly stringValue?: string;
 }
@@ -846,7 +846,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFiltersValueOutputReferen
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable; 
+  private _booleanValue?: boolean | cdktn.IResolvable;
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -862,7 +862,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFiltersValueOutputReferen
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number; 
+  private _doubleValue?: number;
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -878,7 +878,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFiltersValueOutputReferen
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -897,19 +897,19 @@ export interface BedrockagentcoreOnlineEvaluationConfigRuleFilters {
   /**
   * The key or field name to filter on within the agent trace data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#key BedrockagentcoreOnlineEvaluationConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#key BedrockagentcoreOnlineEvaluationConfig#key}
   */
   readonly key?: string;
   /**
   * The comparison operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#operator BedrockagentcoreOnlineEvaluationConfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#operator BedrockagentcoreOnlineEvaluationConfig#operator}
   */
   readonly operator?: string;
   /**
   * The value used in filter comparisons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#value BedrockagentcoreOnlineEvaluationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#value BedrockagentcoreOnlineEvaluationConfig#value}
   */
   readonly value?: BedrockagentcoreOnlineEvaluationConfigRuleFiltersValue;
 }
@@ -1014,7 +1014,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFiltersOutputReference ex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1030,7 +1030,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFiltersOutputReference ex
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1085,7 +1085,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigRuleSamplingConfig {
   /**
   * The percentage of agent traces to sample for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}
   */
   readonly samplingPercentage: number;
 }
@@ -1162,7 +1162,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleSamplingConfigOutputRefer
   }
 
   // sampling_percentage - computed: false, optional: false, required: true
-  private _samplingPercentage?: number; 
+  private _samplingPercentage?: number;
   public get samplingPercentage() {
     return this.getNumberAttribute('sampling_percentage');
   }
@@ -1178,7 +1178,7 @@ export interface BedrockagentcoreOnlineEvaluationConfigRuleSessionConfig {
   /**
   * The number of minutes of inactivity after which an agent session is considered complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#session_timeout_minutes BedrockagentcoreOnlineEvaluationConfig#session_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#session_timeout_minutes BedrockagentcoreOnlineEvaluationConfig#session_timeout_minutes}
   */
   readonly sessionTimeoutMinutes?: number;
 }
@@ -1255,7 +1255,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleSessionConfigOutputRefere
   }
 
   // session_timeout_minutes - computed: true, optional: true, required: false
-  private _sessionTimeoutMinutes?: number; 
+  private _sessionTimeoutMinutes?: number;
   public get sessionTimeoutMinutes() {
     return this.getNumberAttribute('session_timeout_minutes');
   }
@@ -1274,19 +1274,19 @@ export interface BedrockagentcoreOnlineEvaluationConfigRule {
   /**
   * The list of filters that determine which agent traces should be included in the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#filters BedrockagentcoreOnlineEvaluationConfig#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#filters BedrockagentcoreOnlineEvaluationConfig#filters}
   */
   readonly filters?: BedrockagentcoreOnlineEvaluationConfigRuleFilters[] | cdktn.IResolvable;
   /**
   * The configuration that controls what percentage of agent traces are sampled for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_config BedrockagentcoreOnlineEvaluationConfig#sampling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_config BedrockagentcoreOnlineEvaluationConfig#sampling_config}
   */
   readonly samplingConfig: BedrockagentcoreOnlineEvaluationConfigRuleSamplingConfig;
   /**
   * The configuration that defines how agent sessions are detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#session_config BedrockagentcoreOnlineEvaluationConfig#session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#session_config BedrockagentcoreOnlineEvaluationConfig#session_config}
   */
   readonly sessionConfig?: BedrockagentcoreOnlineEvaluationConfigRuleSessionConfig;
 }
@@ -1435,11 +1435,11 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleOutputReference extends c
 }
 export interface BedrockagentcoreOnlineEvaluationConfigTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#key BedrockagentcoreOnlineEvaluationConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#key BedrockagentcoreOnlineEvaluationConfig#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#value BedrockagentcoreOnlineEvaluationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#value BedrockagentcoreOnlineEvaluationConfig#value}
   */
   readonly value?: string;
 }
@@ -1531,7 +1531,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1547,7 +1547,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1584,7 +1584,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTagsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}
 */
 export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResource {
 
@@ -1600,7 +1600,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   * Generates CDKTN code for importing a BedrockagentcoreOnlineEvaluationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcoreOnlineEvaluationConfig to import
-  * @param importFromId The id of the existing BedrockagentcoreOnlineEvaluationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcoreOnlineEvaluationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcoreOnlineEvaluationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1612,7 +1612,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1623,7 +1623,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
       terraformResourceType: 'awscc_bedrockagentcore_online_evaluation_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1684,7 +1684,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1700,7 +1700,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // evaluation_execution_role_arn - computed: false, optional: false, required: true
-  private _evaluationExecutionRoleArn?: string; 
+  private _evaluationExecutionRoleArn?: string;
   public get evaluationExecutionRoleArn() {
     return this.getStringAttribute('evaluation_execution_role_arn');
   }
@@ -1729,7 +1729,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // execution_status - computed: true, optional: true, required: false
-  private _executionStatus?: string; 
+  private _executionStatus?: string;
   public get executionStatus() {
     return this.getStringAttribute('execution_status');
   }
@@ -1776,7 +1776,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // online_evaluation_config_name - computed: false, optional: false, required: true
-  private _onlineEvaluationConfigName?: string; 
+  private _onlineEvaluationConfigName?: string;
   public get onlineEvaluationConfigName() {
     return this.getStringAttribute('online_evaluation_config_name');
   }

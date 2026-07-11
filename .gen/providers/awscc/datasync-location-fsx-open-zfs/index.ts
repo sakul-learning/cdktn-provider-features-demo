@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatasyncLocationFsxOpenZfsConfig extends cdktn.TerraformMetaArg
   /**
   * The Amazon Resource Name (ARN) for the FSx OpenZFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#fsx_filesystem_arn DatasyncLocationFsxOpenZfs#fsx_filesystem_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#fsx_filesystem_arn DatasyncLocationFsxOpenZfs#fsx_filesystem_arn}
   */
   readonly fsxFilesystemArn?: string;
   /**
   * Configuration settings for an NFS or SMB protocol, currently only support NFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#protocol DatasyncLocationFsxOpenZfs#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#protocol DatasyncLocationFsxOpenZfs#protocol}
   */
   readonly protocol: DatasyncLocationFsxOpenZfsProtocol;
   /**
   * The ARNs of the security groups that are to use to configure the FSx OpenZFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#security_group_arns DatasyncLocationFsxOpenZfs#security_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#security_group_arns DatasyncLocationFsxOpenZfs#security_group_arns}
   */
   readonly securityGroupArns: string[];
   /**
   * A subdirectory in the location's path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#subdirectory DatasyncLocationFsxOpenZfs#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#subdirectory DatasyncLocationFsxOpenZfs#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#tags DatasyncLocationFsxOpenZfs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#tags DatasyncLocationFsxOpenZfs#tags}
   */
   readonly tags?: DatasyncLocationFsxOpenZfsTags[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface DatasyncLocationFsxOpenZfsProtocolNfsMountOptions {
   /**
   * The specific NFS version that you want DataSync to use to mount your NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#version DatasyncLocationFsxOpenZfs#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#version DatasyncLocationFsxOpenZfs#version}
   */
   readonly version?: string;
 }
@@ -119,7 +119,7 @@ export class DatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference ex
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -138,7 +138,7 @@ export interface DatasyncLocationFsxOpenZfsProtocolNfs {
   /**
   * The NFS mount options that DataSync can use to mount your NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#mount_options DatasyncLocationFsxOpenZfs#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#mount_options DatasyncLocationFsxOpenZfs#mount_options}
   */
   readonly mountOptions?: DatasyncLocationFsxOpenZfsProtocolNfsMountOptions;
 }
@@ -234,7 +234,7 @@ export interface DatasyncLocationFsxOpenZfsProtocol {
   /**
   * FSx OpenZFS file system NFS protocol information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#nfs DatasyncLocationFsxOpenZfs#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#nfs DatasyncLocationFsxOpenZfs#nfs}
   */
   readonly nfs?: DatasyncLocationFsxOpenZfsProtocolNfs;
 }
@@ -330,13 +330,13 @@ export interface DatasyncLocationFsxOpenZfsTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#key DatasyncLocationFsxOpenZfs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#key DatasyncLocationFsxOpenZfs#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#value DatasyncLocationFsxOpenZfs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#value DatasyncLocationFsxOpenZfs#value}
   */
   readonly value?: string;
 }
@@ -428,7 +428,7 @@ export class DatasyncLocationFsxOpenZfsTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -444,7 +444,7 @@ export class DatasyncLocationFsxOpenZfsTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -481,7 +481,7 @@ export class DatasyncLocationFsxOpenZfsTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}
 */
 export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
 
@@ -497,7 +497,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationFsxOpenZfs resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationFsxOpenZfs to import
-  * @param importFromId The id of the existing DatasyncLocationFsxOpenZfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationFsxOpenZfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationFsxOpenZfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -509,7 +509,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,7 +520,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_fsx_open_zfs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -542,7 +542,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   // ==========
 
   // fsx_filesystem_arn - computed: true, optional: true, required: false
-  private _fsxFilesystemArn?: string; 
+  private _fsxFilesystemArn?: string;
   public get fsxFilesystemArn() {
     return this.getStringAttribute('fsx_filesystem_arn');
   }
@@ -586,7 +586,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[]; 
+  private _securityGroupArns?: string[];
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -599,7 +599,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string; 
+  private _subdirectory?: string;
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface FinspaceEnvironmentConfig extends cdktn.TerraformMetaArguments 
   /**
   * ARNs of FinSpace Data Bundles to install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
   */
   readonly dataBundles?: string[];
   /**
   * Description of the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
   */
   readonly description?: string;
   /**
   * Federation mode used with the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
   */
   readonly federationMode?: string;
   /**
   * Additional parameters to identify Federation mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
   */
   readonly federationParameters?: FinspaceEnvironmentFederationParameters;
   /**
   * KMS key used to encrypt customer data within FinSpace Environment infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Name of the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
   */
   readonly name: string;
   /**
   * Parameters of the first Superuser for the FinSpace Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
   */
   readonly superuserParameters?: FinspaceEnvironmentSuperuserParameters;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
   */
   readonly tags?: FinspaceEnvironmentTags[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface FinspaceEnvironmentFederationParametersAttributeMap {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
   */
   readonly value?: string;
 }
@@ -158,7 +158,7 @@ export class FinspaceEnvironmentFederationParametersAttributeMapOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class FinspaceEnvironmentFederationParametersAttributeMapOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -213,37 +213,37 @@ export interface FinspaceEnvironmentFederationParameters {
   /**
   * SAML metadata URL to link with the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
   */
   readonly applicationCallBackUrl?: string;
   /**
   * Attribute map for SAML configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
   */
   readonly attributeMap?: FinspaceEnvironmentFederationParametersAttributeMap[] | cdktn.IResolvable;
   /**
   * Federation provider name to link with the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
   */
   readonly federationProviderName?: string;
   /**
   * SAML metadata URL to link with the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
   */
   readonly federationUrn?: string;
   /**
   * SAML metadata document to link the federation provider to the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
   */
   readonly samlMetadataDocument?: string;
   /**
   * SAML metadata URL to link with the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
   */
   readonly samlMetadataUrl?: string;
 }
@@ -385,7 +385,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // application_call_back_url - computed: true, optional: true, required: false
-  private _applicationCallBackUrl?: string; 
+  private _applicationCallBackUrl?: string;
   public get applicationCallBackUrl() {
     return this.getStringAttribute('application_call_back_url');
   }
@@ -417,7 +417,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // federation_provider_name - computed: true, optional: true, required: false
-  private _federationProviderName?: string; 
+  private _federationProviderName?: string;
   public get federationProviderName() {
     return this.getStringAttribute('federation_provider_name');
   }
@@ -433,7 +433,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // federation_urn - computed: true, optional: true, required: false
-  private _federationUrn?: string; 
+  private _federationUrn?: string;
   public get federationUrn() {
     return this.getStringAttribute('federation_urn');
   }
@@ -449,7 +449,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // saml_metadata_document - computed: true, optional: true, required: false
-  private _samlMetadataDocument?: string; 
+  private _samlMetadataDocument?: string;
   public get samlMetadataDocument() {
     return this.getStringAttribute('saml_metadata_document');
   }
@@ -465,7 +465,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // saml_metadata_url - computed: true, optional: true, required: false
-  private _samlMetadataUrl?: string; 
+  private _samlMetadataUrl?: string;
   public get samlMetadataUrl() {
     return this.getStringAttribute('saml_metadata_url');
   }
@@ -484,19 +484,19 @@ export interface FinspaceEnvironmentSuperuserParameters {
   /**
   * Email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
   */
   readonly emailAddress?: string;
   /**
   * First name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
   */
   readonly firstName?: string;
   /**
   * Last name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
   */
   readonly lastName?: string;
 }
@@ -599,7 +599,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string; 
+  private _emailAddress?: string;
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -615,7 +615,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -631,7 +631,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -650,13 +650,13 @@ export interface FinspaceEnvironmentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
   */
   readonly value?: string;
 }
@@ -748,7 +748,7 @@ export class FinspaceEnvironmentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -764,7 +764,7 @@ export class FinspaceEnvironmentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -801,7 +801,7 @@ export class FinspaceEnvironmentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment awscc_finspace_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment awscc_finspace_environment}
 */
 export class FinspaceEnvironment extends cdktn.TerraformResource {
 
@@ -817,7 +817,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FinspaceEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FinspaceEnvironment to import
-  * @param importFromId The id of the existing FinspaceEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FinspaceEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FinspaceEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -829,7 +829,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/finspace_environment awscc_finspace_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/finspace_environment awscc_finspace_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -840,7 +840,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_finspace_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -870,7 +870,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // data_bundles - computed: true, optional: true, required: false
-  private _dataBundles?: string[]; 
+  private _dataBundles?: string[];
   public get dataBundles() {
     return this.getListAttribute('data_bundles');
   }
@@ -891,7 +891,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -922,7 +922,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // federation_mode - computed: true, optional: true, required: false
-  private _federationMode?: string; 
+  private _federationMode?: string;
   public get federationMode() {
     return this.getStringAttribute('federation_mode');
   }
@@ -959,7 +959,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -975,7 +975,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Route53ResolverOutpostResolverConfig extends cdktn.TerraformMet
   /**
   * The number of OutpostResolvers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * The OutpostResolver name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
   */
   readonly name: string;
   /**
   * The Outpost ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
   */
   readonly outpostArn: string;
   /**
   * The OutpostResolver instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
   */
   readonly preferredInstanceType: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
   */
   readonly tags?: Route53ResolverOutpostResolverTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface Route53ResolverOutpostResolverTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#key Route53ResolverOutpostResolver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#key Route53ResolverOutpostResolver#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#value Route53ResolverOutpostResolver#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#value Route53ResolverOutpostResolver#value}
   */
   readonly value?: string;
 }
@@ -140,7 +140,7 @@ export class Route53ResolverOutpostResolverTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class Route53ResolverOutpostResolverTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -193,7 +193,7 @@ export class Route53ResolverOutpostResolverTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}
 */
 export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverOutpostResolver resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverOutpostResolver to import
-  * @param importFromId The id of the existing Route53ResolverOutpostResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverOutpostResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverOutpostResolver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_outpost_resolver',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -274,7 +274,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -295,7 +295,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: false, optional: false, required: true
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -326,7 +326,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // preferred_instance_type - computed: false, optional: false, required: true
-  private _preferredInstanceType?: string; 
+  private _preferredInstanceType?: string;
   public get preferredInstanceType() {
     return this.getStringAttribute('preferred_instance_type');
   }

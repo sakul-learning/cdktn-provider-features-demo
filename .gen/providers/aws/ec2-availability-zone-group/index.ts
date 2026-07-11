@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2AvailabilityZoneGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group#group_name Ec2AvailabilityZoneGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group#group_name Ec2AvailabilityZoneGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group#id Ec2AvailabilityZoneGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group#id Ec2AvailabilityZoneGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group#opt_in_status Ec2AvailabilityZoneGroup#opt_in_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group#opt_in_status Ec2AvailabilityZoneGroup#opt_in_status}
   */
   readonly optInStatus: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group#region Ec2AvailabilityZoneGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group#region Ec2AvailabilityZoneGroup#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group}
 */
 export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
 
@@ -47,7 +47,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2AvailabilityZoneGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2AvailabilityZoneGroup to import
-  * @param importFromId The id of the existing Ec2AvailabilityZoneGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2AvailabilityZoneGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2AvailabilityZoneGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -59,7 +59,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ec2_availability_zone_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -91,7 +91,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   // ==========
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -104,7 +104,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   }
 
   // opt_in_status - computed: false, optional: false, required: true
-  private _optInStatus?: string; 
+  private _optInStatus?: string;
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -133,7 +133,7 @@ export class Ec2AvailabilityZoneGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

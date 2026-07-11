@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,67 @@ export interface ImagebuilderImageRecipeConfig extends cdktn.TerraformMetaArgume
   /**
   * Specify additional settings and launch scripts for your build instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#additional_instance_configuration ImagebuilderImageRecipe#additional_instance_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#additional_instance_configuration ImagebuilderImageRecipe#additional_instance_configuration}
   */
   readonly additionalInstanceConfiguration?: ImagebuilderImageRecipeAdditionalInstanceConfiguration;
   /**
   * The tags to apply to the AMI created by this image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#ami_tags ImagebuilderImageRecipe#ami_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#ami_tags ImagebuilderImageRecipe#ami_tags}
   */
   readonly amiTags?: { [key: string]: string };
   /**
+  * The AMI watermark names to attach to the output AMI from this recipe. AMI watermarks are lineage markers that automatically propagate to derivative AMIs when the source AMI is copied or distributed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#ami_watermarks ImagebuilderImageRecipe#ami_watermarks}
+  */
+  readonly amiWatermarks?: string[];
+  /**
   * The block device mappings to apply when creating images from this recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#block_device_mappings ImagebuilderImageRecipe#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#block_device_mappings ImagebuilderImageRecipe#block_device_mappings}
   */
   readonly blockDeviceMappings?: ImagebuilderImageRecipeBlockDeviceMappings[] | cdktn.IResolvable;
   /**
   * The components of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#components ImagebuilderImageRecipe#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#components ImagebuilderImageRecipe#components}
   */
   readonly components?: ImagebuilderImageRecipeComponents[] | cdktn.IResolvable;
   /**
   * The description of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#description ImagebuilderImageRecipe#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#description ImagebuilderImageRecipe#description}
   */
   readonly description?: string;
   /**
   * The name of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
   */
   readonly name: string;
   /**
   * The parent image of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#parent_image ImagebuilderImageRecipe#parent_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#parent_image ImagebuilderImageRecipe#parent_image}
   */
   readonly parentImage: string;
   /**
   * The tags of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#tags ImagebuilderImageRecipe#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#tags ImagebuilderImageRecipe#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The version of the image recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#version ImagebuilderImageRecipe#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#version ImagebuilderImageRecipe#version}
   */
   readonly version: string;
   /**
   * The working directory to be used during build and test workflows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#working_directory ImagebuilderImageRecipe#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#working_directory ImagebuilderImageRecipe#working_directory}
   */
   readonly workingDirectory?: string;
 }
@@ -72,7 +78,7 @@ export interface ImagebuilderImageRecipeAdditionalInstanceConfigurationSystemsMa
   /**
   * Controls whether the SSM agent is removed from your final build image, prior to creating the new AMI. If this is set to true, then the agent is removed from the final image. If it's set to false, then the agent is left in, so that it is included in the new AMI. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#uninstall_after_build ImagebuilderImageRecipe#uninstall_after_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#uninstall_after_build ImagebuilderImageRecipe#uninstall_after_build}
   */
   readonly uninstallAfterBuild?: boolean | cdktn.IResolvable;
 }
@@ -149,7 +155,7 @@ export class ImagebuilderImageRecipeAdditionalInstanceConfigurationSystemsManage
   }
 
   // uninstall_after_build - computed: true, optional: true, required: false
-  private _uninstallAfterBuild?: boolean | cdktn.IResolvable; 
+  private _uninstallAfterBuild?: boolean | cdktn.IResolvable;
   public get uninstallAfterBuild() {
     return this.getBooleanAttribute('uninstall_after_build');
   }
@@ -168,13 +174,13 @@ export interface ImagebuilderImageRecipeAdditionalInstanceConfiguration {
   /**
   * Contains settings for the SSM agent on your build instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#systems_manager_agent ImagebuilderImageRecipe#systems_manager_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#systems_manager_agent ImagebuilderImageRecipe#systems_manager_agent}
   */
   readonly systemsManagerAgent?: ImagebuilderImageRecipeAdditionalInstanceConfigurationSystemsManagerAgent;
   /**
   * Use this property to provide commands or a command script to run when you launch your build instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#user_data_override ImagebuilderImageRecipe#user_data_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#user_data_override ImagebuilderImageRecipe#user_data_override}
   */
   readonly userDataOverride?: string;
 }
@@ -280,7 +286,7 @@ export class ImagebuilderImageRecipeAdditionalInstanceConfigurationOutputReferen
   }
 
   // user_data_override - computed: true, optional: true, required: false
-  private _userDataOverride?: string; 
+  private _userDataOverride?: string;
   public get userDataOverride() {
     return this.getStringAttribute('user_data_override');
   }
@@ -299,49 +305,49 @@ export interface ImagebuilderImageRecipeBlockDeviceMappingsEbs {
   /**
   * Use to configure delete on termination of the associated device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#delete_on_termination ImagebuilderImageRecipe#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#delete_on_termination ImagebuilderImageRecipe#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
   * Use to configure device encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#encrypted ImagebuilderImageRecipe#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#encrypted ImagebuilderImageRecipe#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
   * Use to configure device IOPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#iops ImagebuilderImageRecipe#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#iops ImagebuilderImageRecipe#iops}
   */
   readonly iops?: number;
   /**
   * Use to configure the KMS key to use when encrypting the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#kms_key_id ImagebuilderImageRecipe#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#kms_key_id ImagebuilderImageRecipe#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The snapshot that defines the device contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#snapshot_id ImagebuilderImageRecipe#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#snapshot_id ImagebuilderImageRecipe#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * For GP3 volumes only - The throughput in MiB/s that the volume supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#throughput ImagebuilderImageRecipe#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#throughput ImagebuilderImageRecipe#throughput}
   */
   readonly throughput?: number;
   /**
   * Use to override the device's volume size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#volume_size ImagebuilderImageRecipe#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#volume_size ImagebuilderImageRecipe#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * Use to override the device's volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#volume_type ImagebuilderImageRecipe#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#volume_type ImagebuilderImageRecipe#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -509,7 +515,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -525,7 +531,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -541,7 +547,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -557,7 +563,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -573,7 +579,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -589,7 +595,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -605,7 +611,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -621,7 +627,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsEbsOutputReference extend
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -640,25 +646,25 @@ export interface ImagebuilderImageRecipeBlockDeviceMappings {
   /**
   * The device to which these mappings apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}
   */
   readonly deviceName?: string;
   /**
   * Use to manage Amazon EBS-specific configuration for this mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
   */
   readonly ebs?: ImagebuilderImageRecipeBlockDeviceMappingsEbs;
   /**
   * Use to remove a mapping from the parent image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}
   */
   readonly noDevice?: string;
   /**
   * Use to manage instance ephemeral devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}
   */
   readonly virtualName?: string;
 }
@@ -776,7 +782,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsOutputReference extends c
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -808,7 +814,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsOutputReference extends c
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string; 
+  private _noDevice?: string;
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -824,7 +830,7 @@ export class ImagebuilderImageRecipeBlockDeviceMappingsOutputReference extends c
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string; 
+  private _virtualName?: string;
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -863,13 +869,13 @@ export interface ImagebuilderImageRecipeComponentsParameters {
   /**
   * The name of the component parameter to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
   */
   readonly name?: string;
   /**
   * Sets the value for the named component parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}
   */
   readonly value?: string[];
 }
@@ -961,7 +967,7 @@ export class ImagebuilderImageRecipeComponentsParametersOutputReference extends 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -977,7 +983,7 @@ export class ImagebuilderImageRecipeComponentsParametersOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string[]; 
+  private _value?: string[];
   public get value() {
     return this.getListAttribute('value');
   }
@@ -1016,13 +1022,13 @@ export interface ImagebuilderImageRecipeComponents {
   /**
   * The Amazon Resource Name (ARN) of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}
   */
   readonly componentArn?: string;
   /**
   * A group of parameter settings that are used to configure the component for a specific recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#parameters ImagebuilderImageRecipe#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#parameters ImagebuilderImageRecipe#parameters}
   */
   readonly parameters?: ImagebuilderImageRecipeComponentsParameters[] | cdktn.IResolvable;
 }
@@ -1114,7 +1120,7 @@ export class ImagebuilderImageRecipeComponentsOutputReference extends cdktn.Comp
   }
 
   // component_arn - computed: true, optional: true, required: false
-  private _componentArn?: string; 
+  private _componentArn?: string;
   public get componentArn() {
     return this.getStringAttribute('component_arn');
   }
@@ -1236,7 +1242,7 @@ export class ImagebuilderImageRecipeLatestVersionOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}
 */
 export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
 
@@ -1252,7 +1258,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ImagebuilderImageRecipe resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagebuilderImageRecipe to import
-  * @param importFromId The id of the existing ImagebuilderImageRecipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagebuilderImageRecipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagebuilderImageRecipe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1264,7 +1270,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1275,7 +1281,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_imagebuilder_image_recipe',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1287,6 +1293,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
     });
     this._additionalInstanceConfiguration.internalValue = config.additionalInstanceConfiguration;
     this._amiTags = config.amiTags;
+    this._amiWatermarks = config.amiWatermarks;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
     this._components.internalValue = config.components;
     this._description = config.description;
@@ -1318,7 +1325,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // ami_tags - computed: true, optional: true, required: false
-  private _amiTags?: { [key: string]: string }; 
+  private _amiTags?: { [key: string]: string };
   public get amiTags() {
     return this.getStringMapAttribute('ami_tags');
   }
@@ -1331,6 +1338,22 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get amiTagsInput() {
     return this._amiTags;
+  }
+
+  // ami_watermarks - computed: true, optional: true, required: false
+  private _amiWatermarks?: string[];
+  public get amiWatermarks() {
+    return this.getListAttribute('ami_watermarks');
+  }
+  public set amiWatermarks(value: string[]) {
+    this._amiWatermarks = value;
+  }
+  public resetAmiWatermarks() {
+    this._amiWatermarks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get amiWatermarksInput() {
+    return this._amiWatermarks;
   }
 
   // arn - computed: true, optional: false, required: false
@@ -1371,7 +1394,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1398,7 +1421,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1411,7 +1434,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // parent_image - computed: false, optional: false, required: true
-  private _parentImage?: string; 
+  private _parentImage?: string;
   public get parentImage() {
     return this.getStringAttribute('parent_image');
   }
@@ -1424,7 +1447,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1440,7 +1463,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1453,7 +1476,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
   }
 
   // working_directory - computed: true, optional: true, required: false
-  private _workingDirectory?: string; 
+  private _workingDirectory?: string;
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }
@@ -1476,6 +1499,7 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
     return {
       additional_instance_configuration: imagebuilderImageRecipeAdditionalInstanceConfigurationToTerraform(this._additionalInstanceConfiguration.internalValue),
       ami_tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._amiTags),
+      ami_watermarks: cdktn.listMapper(cdktn.stringToTerraform, false)(this._amiWatermarks),
       block_device_mappings: cdktn.listMapper(imagebuilderImageRecipeBlockDeviceMappingsToTerraform, false)(this._blockDeviceMappings.internalValue),
       components: cdktn.listMapper(imagebuilderImageRecipeComponentsToTerraform, false)(this._components.internalValue),
       description: cdktn.stringToTerraform(this._description),
@@ -1500,6 +1524,12 @@ export class ImagebuilderImageRecipe extends cdktn.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      ami_watermarks: {
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._amiWatermarks),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       block_device_mappings: {
         value: cdktn.listMapperHcl(imagebuilderImageRecipeBlockDeviceMappingsToHclTerraform, false)(this._blockDeviceMappings.internalValue),

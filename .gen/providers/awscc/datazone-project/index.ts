@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface DatazoneProjectConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the Amazon DataZone project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#description DatazoneProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#description DatazoneProject#description}
   */
   readonly description?: string;
   /**
   * The ID of the Amazon DataZone domain in which this project is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#domain_identifier DatazoneProject#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#domain_identifier DatazoneProject#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the domain unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#domain_unit_id DatazoneProject#domain_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#domain_unit_id DatazoneProject#domain_unit_id}
   */
   readonly domainUnitId?: string;
   /**
   * The glossary terms that can be used in this Amazon DataZone project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#glossary_terms DatazoneProject#glossary_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#glossary_terms DatazoneProject#glossary_terms}
   */
   readonly glossaryTerms?: string[];
   /**
   * The project membership assignments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#membership_assignments DatazoneProject#membership_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#membership_assignments DatazoneProject#membership_assignments}
   */
   readonly membershipAssignments?: DatazoneProjectMembershipAssignments[] | cdktn.IResolvable;
   /**
   * The name of the Amazon DataZone project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#name DatazoneProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#name DatazoneProject#name}
   */
   readonly name: string;
   /**
   * The project category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#project_category DatazoneProject#project_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#project_category DatazoneProject#project_category}
   */
   readonly projectCategory?: string;
   /**
   * The project execution role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#project_execution_role DatazoneProject#project_execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#project_execution_role DatazoneProject#project_execution_role}
   */
   readonly projectExecutionRole?: string;
   /**
   * The project profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#project_profile_id DatazoneProject#project_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#project_profile_id DatazoneProject#project_profile_id}
   */
   readonly projectProfileId?: string;
   /**
   * The project profile version to which the project should be updated. You can only specify the following string for this parameter: latest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#project_profile_version DatazoneProject#project_profile_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#project_profile_version DatazoneProject#project_profile_version}
   */
   readonly projectProfileVersion?: string;
   /**
   * The resource tags of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#resource_tags DatazoneProject#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#resource_tags DatazoneProject#resource_tags}
   */
   readonly resourceTags?: DatazoneProjectResourceTags[] | cdktn.IResolvable;
   /**
   * The user parameters of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#user_parameters DatazoneProject#user_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#user_parameters DatazoneProject#user_parameters}
   */
   readonly userParameters?: DatazoneProjectUserParameters[] | cdktn.IResolvable;
 }
 export interface DatazoneProjectMembershipAssignmentsMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#group_identifier DatazoneProject#group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#group_identifier DatazoneProject#group_identifier}
   */
   readonly groupIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#user_identifier DatazoneProject#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#user_identifier DatazoneProject#user_identifier}
   */
   readonly userIdentifier?: string;
 }
@@ -176,7 +176,7 @@ export class DatazoneProjectMembershipAssignmentsMemberOutputReference extends c
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string; 
+  private _groupIdentifier?: string;
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -192,7 +192,7 @@ export class DatazoneProjectMembershipAssignmentsMemberOutputReference extends c
   }
 
   // user_identifier - computed: true, optional: true, required: false
-  private _userIdentifier?: string; 
+  private _userIdentifier?: string;
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -209,13 +209,13 @@ export class DatazoneProjectMembershipAssignmentsMemberOutputReference extends c
 }
 export interface DatazoneProjectMembershipAssignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#designation DatazoneProject#designation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#designation DatazoneProject#designation}
   */
   readonly designation?: string;
   /**
   * The member of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#member DatazoneProject#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#member DatazoneProject#member}
   */
   readonly member?: DatazoneProjectMembershipAssignmentsMember;
 }
@@ -307,7 +307,7 @@ export class DatazoneProjectMembershipAssignmentsOutputReference extends cdktn.C
   }
 
   // designation - computed: true, optional: true, required: false
-  private _designation?: string; 
+  private _designation?: string;
   public get designation() {
     return this.getStringAttribute('designation');
   }
@@ -360,11 +360,11 @@ export class DatazoneProjectMembershipAssignmentsList extends cdktn.ComplexList 
 }
 export interface DatazoneProjectResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#key DatazoneProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#key DatazoneProject#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#value DatazoneProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#value DatazoneProject#value}
   */
   readonly value?: string;
 }
@@ -456,7 +456,7 @@ export class DatazoneProjectResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -472,7 +472,7 @@ export class DatazoneProjectResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -509,11 +509,11 @@ export class DatazoneProjectResourceTagsList extends cdktn.ComplexList {
 }
 export interface DatazoneProjectUserParametersEnvironmentParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#name DatazoneProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#name DatazoneProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#value DatazoneProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#value DatazoneProject#value}
   */
   readonly value?: string;
 }
@@ -605,7 +605,7 @@ export class DatazoneProjectUserParametersEnvironmentParametersOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -621,7 +621,7 @@ export class DatazoneProjectUserParametersEnvironmentParametersOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -658,15 +658,15 @@ export class DatazoneProjectUserParametersEnvironmentParametersList extends cdkt
 }
 export interface DatazoneProjectUserParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#environment_configuration_name DatazoneProject#environment_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#environment_configuration_name DatazoneProject#environment_configuration_name}
   */
   readonly environmentConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#environment_id DatazoneProject#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#environment_id DatazoneProject#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#environment_parameters DatazoneProject#environment_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#environment_parameters DatazoneProject#environment_parameters}
   */
   readonly environmentParameters?: DatazoneProjectUserParametersEnvironmentParameters[] | cdktn.IResolvable;
 }
@@ -771,7 +771,7 @@ export class DatazoneProjectUserParametersOutputReference extends cdktn.ComplexO
   }
 
   // environment_configuration_name - computed: true, optional: true, required: false
-  private _environmentConfigurationName?: string; 
+  private _environmentConfigurationName?: string;
   public get environmentConfigurationName() {
     return this.getStringAttribute('environment_configuration_name');
   }
@@ -787,7 +787,7 @@ export class DatazoneProjectUserParametersOutputReference extends cdktn.ComplexO
   }
 
   // environment_id - computed: true, optional: true, required: false
-  private _environmentId?: string; 
+  private _environmentId?: string;
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -840,7 +840,7 @@ export class DatazoneProjectUserParametersList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project awscc_datazone_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project awscc_datazone_project}
 */
 export class DatazoneProject extends cdktn.TerraformResource {
 
@@ -856,7 +856,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneProject to import
-  * @param importFromId The id of the existing DatazoneProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -868,7 +868,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project awscc_datazone_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project awscc_datazone_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -879,7 +879,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -918,7 +918,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -939,7 +939,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -952,7 +952,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // domain_unit_id - computed: true, optional: true, required: false
-  private _domainUnitId?: string; 
+  private _domainUnitId?: string;
   public get domainUnitId() {
     return this.getStringAttribute('domain_unit_id');
   }
@@ -968,7 +968,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // glossary_terms - computed: true, optional: true, required: false
-  private _glossaryTerms?: string[]; 
+  private _glossaryTerms?: string[];
   public get glossaryTerms() {
     return this.getListAttribute('glossary_terms');
   }
@@ -1010,7 +1010,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1023,7 +1023,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // project_category - computed: true, optional: true, required: false
-  private _projectCategory?: string; 
+  private _projectCategory?: string;
   public get projectCategory() {
     return this.getStringAttribute('project_category');
   }
@@ -1039,7 +1039,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // project_execution_role - computed: true, optional: true, required: false
-  private _projectExecutionRole?: string; 
+  private _projectExecutionRole?: string;
   public get projectExecutionRole() {
     return this.getStringAttribute('project_execution_role');
   }
@@ -1060,7 +1060,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // project_profile_id - computed: true, optional: true, required: false
-  private _projectProfileId?: string; 
+  private _projectProfileId?: string;
   public get projectProfileId() {
     return this.getStringAttribute('project_profile_id');
   }
@@ -1076,7 +1076,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // project_profile_version - computed: true, optional: true, required: false
-  private _projectProfileVersion?: string; 
+  private _projectProfileVersion?: string;
   public get projectProfileVersion() {
     return this.getStringAttribute('project_profile_version');
   }

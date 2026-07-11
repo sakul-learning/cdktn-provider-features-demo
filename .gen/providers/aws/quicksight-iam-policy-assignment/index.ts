@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightIamPolicyAssignmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#assignment_name QuicksightIamPolicyAssignment#assignment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#assignment_name QuicksightIamPolicyAssignment#assignment_name}
   */
   readonly assignmentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#assignment_status QuicksightIamPolicyAssignment#assignment_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#assignment_status QuicksightIamPolicyAssignment#assignment_status}
   */
   readonly assignmentStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#aws_account_id QuicksightIamPolicyAssignment#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#aws_account_id QuicksightIamPolicyAssignment#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#namespace QuicksightIamPolicyAssignment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#namespace QuicksightIamPolicyAssignment#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#policy_arn QuicksightIamPolicyAssignment#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#policy_arn QuicksightIamPolicyAssignment#policy_arn}
   */
   readonly policyArn?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#region QuicksightIamPolicyAssignment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#region QuicksightIamPolicyAssignment#region}
   */
   readonly region?: string;
   /**
   * identities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#identities QuicksightIamPolicyAssignment#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#identities QuicksightIamPolicyAssignment#identities}
   */
   readonly identities?: QuicksightIamPolicyAssignmentIdentities[] | cdktn.IResolvable;
 }
 export interface QuicksightIamPolicyAssignmentIdentities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#group QuicksightIamPolicyAssignment#group}
   */
   readonly group?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#user QuicksightIamPolicyAssignment#user}
   */
   readonly user?: string[];
 }
@@ -138,7 +138,7 @@ export class QuicksightIamPolicyAssignmentIdentitiesOutputReference extends cdkt
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string[]; 
+  private _group?: string[];
   public get group() {
     return cdktn.Fn.tolist(this.getListAttribute('group'));
   }
@@ -154,7 +154,7 @@ export class QuicksightIamPolicyAssignmentIdentitiesOutputReference extends cdkt
   }
 
   // user - computed: false, optional: true, required: false
-  private _user?: string[]; 
+  private _user?: string[];
   public get user() {
     return cdktn.Fn.tolist(this.getListAttribute('user'));
   }
@@ -191,7 +191,7 @@ export class QuicksightIamPolicyAssignmentIdentitiesList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}
 */
 export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
 
@@ -207,7 +207,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightIamPolicyAssignment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightIamPolicyAssignment to import
-  * @param importFromId The id of the existing QuicksightIamPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightIamPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightIamPolicyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -219,7 +219,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,7 +230,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_iam_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,7 +259,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // assignment_name - computed: false, optional: false, required: true
-  private _assignmentName?: string; 
+  private _assignmentName?: string;
   public get assignmentName() {
     return this.getStringAttribute('assignment_name');
   }
@@ -272,7 +272,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // assignment_status - computed: false, optional: false, required: true
-  private _assignmentStatus?: string; 
+  private _assignmentStatus?: string;
   public get assignmentStatus() {
     return this.getStringAttribute('assignment_status');
   }
@@ -285,7 +285,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -306,7 +306,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -322,7 +322,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: false, optional: true, required: false
-  private _policyArn?: string; 
+  private _policyArn?: string;
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -338,7 +338,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

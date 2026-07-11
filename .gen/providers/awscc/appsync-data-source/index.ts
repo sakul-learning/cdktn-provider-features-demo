@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,78 +10,78 @@ export interface AppsyncDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Unique AWS AppSync GraphQL API identifier where this data source will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
   */
   readonly apiId: string;
   /**
   * The description of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
   */
   readonly description?: string;
   /**
   * AWS Region and TableName for an Amazon DynamoDB table in your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
   */
   readonly dynamoDbConfig?: AppsyncDataSourceDynamoDbConfig;
   /**
   * AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account.
   * As of September 2021, Amazon Elasticsearch Service is Amazon OpenSearch Service. This property is deprecated. For new data sources, use OpenSearchServiceConfig to specify an OpenSearch Service data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
   */
   readonly elasticsearchConfig?: AppsyncDataSourceElasticsearchConfig;
   /**
   * ARN for the EventBridge bus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
   */
   readonly eventBridgeConfig?: AppsyncDataSourceEventBridgeConfig;
   /**
   * Endpoints for an HTTP data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
   */
   readonly httpConfig?: AppsyncDataSourceHttpConfig;
   /**
   * An ARN of a Lambda function in valid ARN format. This can be the ARN of a Lambda function that exists in the current account or in another account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
   */
   readonly lambdaConfig?: AppsyncDataSourceLambdaConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}
   */
   readonly metricsConfig?: string;
   /**
   * Friendly name for you to identify your AppSync data source after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
   */
   readonly name: string;
   /**
   * AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
   */
   readonly openSearchServiceConfig?: AppsyncDataSourceOpenSearchServiceConfig;
   /**
   * Relational Database configuration of the relational database data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
   */
   readonly relationalDatabaseConfig?: AppsyncDataSourceRelationalDatabaseConfig;
   /**
   * The AWS Identity and Access Management service role ARN for the data source. The system assumes this role when accessing the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
   */
   readonly serviceRoleArn?: string;
   /**
   * The type of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
   */
   readonly type: string;
 }
@@ -89,19 +89,19 @@ export interface AppsyncDataSourceDynamoDbConfigDeltaSyncConfig {
   /**
   * The number of minutes that an Item is stored in the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
   */
   readonly baseTableTtl?: string;
   /**
   * The Delta Sync table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
   */
   readonly deltaSyncTableName?: string;
   /**
   * The number of minutes that a Delta Sync log entry is stored in the Delta Sync table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
   */
   readonly deltaSyncTableTtl?: string;
 }
@@ -204,7 +204,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // base_table_ttl - computed: true, optional: true, required: false
-  private _baseTableTtl?: string; 
+  private _baseTableTtl?: string;
   public get baseTableTtl() {
     return this.getStringAttribute('base_table_ttl');
   }
@@ -220,7 +220,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // delta_sync_table_name - computed: true, optional: true, required: false
-  private _deltaSyncTableName?: string; 
+  private _deltaSyncTableName?: string;
   public get deltaSyncTableName() {
     return this.getStringAttribute('delta_sync_table_name');
   }
@@ -236,7 +236,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // delta_sync_table_ttl - computed: true, optional: true, required: false
-  private _deltaSyncTableTtl?: string; 
+  private _deltaSyncTableTtl?: string;
   public get deltaSyncTableTtl() {
     return this.getStringAttribute('delta_sync_table_ttl');
   }
@@ -255,31 +255,31 @@ export interface AppsyncDataSourceDynamoDbConfig {
   /**
   * The AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The DeltaSyncConfig for a versioned datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
   */
   readonly deltaSyncConfig?: AppsyncDataSourceDynamoDbConfigDeltaSyncConfig;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
   */
   readonly tableName?: string;
   /**
   * Set to TRUE to use AWS Identity and Access Management with this data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
   */
   readonly useCallerCredentials?: boolean | cdktn.IResolvable;
   /**
   * Set to TRUE to use Conflict Detection and Resolution with this data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
   */
   readonly versioned?: boolean | cdktn.IResolvable;
 }
@@ -408,7 +408,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -440,7 +440,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -456,7 +456,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // use_caller_credentials - computed: true, optional: true, required: false
-  private _useCallerCredentials?: boolean | cdktn.IResolvable; 
+  private _useCallerCredentials?: boolean | cdktn.IResolvable;
   public get useCallerCredentials() {
     return this.getBooleanAttribute('use_caller_credentials');
   }
@@ -472,7 +472,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // versioned - computed: true, optional: true, required: false
-  private _versioned?: boolean | cdktn.IResolvable; 
+  private _versioned?: boolean | cdktn.IResolvable;
   public get versioned() {
     return this.getBooleanAttribute('versioned');
   }
@@ -491,13 +491,13 @@ export interface AppsyncDataSourceElasticsearchConfig {
   /**
   * The AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -587,7 +587,7 @@ export class AppsyncDataSourceElasticsearchConfigOutputReference extends cdktn.C
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -603,7 +603,7 @@ export class AppsyncDataSourceElasticsearchConfigOutputReference extends cdktn.C
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string; 
+  private _endpoint?: string;
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -622,7 +622,7 @@ export interface AppsyncDataSourceEventBridgeConfig {
   /**
   * ARN for the EventBridge bus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
   */
   readonly eventBusArn?: string;
 }
@@ -699,7 +699,7 @@ export class AppsyncDataSourceEventBridgeConfigOutputReference extends cdktn.Com
   }
 
   // event_bus_arn - computed: true, optional: true, required: false
-  private _eventBusArn?: string; 
+  private _eventBusArn?: string;
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -718,13 +718,13 @@ export interface AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfig {
   /**
   * The signing Region for AWS Identity and Access Management authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
   */
   readonly signingRegion?: string;
   /**
   * The signing service name for AWS Identity and Access Management authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
   */
   readonly signingServiceName?: string;
 }
@@ -814,7 +814,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputRef
   }
 
   // signing_region - computed: true, optional: true, required: false
-  private _signingRegion?: string; 
+  private _signingRegion?: string;
   public get signingRegion() {
     return this.getStringAttribute('signing_region');
   }
@@ -830,7 +830,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputRef
   }
 
   // signing_service_name - computed: true, optional: true, required: false
-  private _signingServiceName?: string; 
+  private _signingServiceName?: string;
   public get signingServiceName() {
     return this.getStringAttribute('signing_service_name');
   }
@@ -849,13 +849,13 @@ export interface AppsyncDataSourceHttpConfigAuthorizationConfig {
   /**
   * The authorization type that the HTTP endpoint requires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
   */
   readonly authorizationType?: string;
   /**
   * The AWS Identity and Access Management settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
   */
   readonly awsIamConfig?: AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfig;
 }
@@ -945,7 +945,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigOutputReference exten
   }
 
   // authorization_type - computed: true, optional: true, required: false
-  private _authorizationType?: string; 
+  private _authorizationType?: string;
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -980,13 +980,13 @@ export interface AppsyncDataSourceHttpConfig {
   /**
   * The authorization configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
   */
   readonly authorizationConfig?: AppsyncDataSourceHttpConfigAuthorizationConfig;
   /**
   * The endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -1092,7 +1092,7 @@ export class AppsyncDataSourceHttpConfigOutputReference extends cdktn.ComplexObj
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string; 
+  private _endpoint?: string;
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1111,7 +1111,7 @@ export interface AppsyncDataSourceLambdaConfig {
   /**
   * The ARN for the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
   */
   readonly lambdaFunctionArn?: string;
 }
@@ -1188,7 +1188,7 @@ export class AppsyncDataSourceLambdaConfigOutputReference extends cdktn.ComplexO
   }
 
   // lambda_function_arn - computed: true, optional: true, required: false
-  private _lambdaFunctionArn?: string; 
+  private _lambdaFunctionArn?: string;
   public get lambdaFunctionArn() {
     return this.getStringAttribute('lambda_function_arn');
   }
@@ -1207,13 +1207,13 @@ export interface AppsyncDataSourceOpenSearchServiceConfig {
   /**
   * The AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -1303,7 +1303,7 @@ export class AppsyncDataSourceOpenSearchServiceConfigOutputReference extends cdk
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1319,7 +1319,7 @@ export class AppsyncDataSourceOpenSearchServiceConfigOutputReference extends cdk
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string; 
+  private _endpoint?: string;
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1338,31 +1338,31 @@ export interface AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfig 
   /**
   * AWS Region for RDS HTTP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The ARN for database credentials stored in AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
   */
   readonly awsSecretStoreArn?: string;
   /**
   * Logical database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
   */
   readonly databaseName?: string;
   /**
   * Amazon RDS cluster Amazon Resource Name (ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
   */
   readonly dbClusterIdentifier?: string;
   /**
   * Logical schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
   */
   readonly schema?: string;
 }
@@ -1491,7 +1491,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1507,7 +1507,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // aws_secret_store_arn - computed: true, optional: true, required: false
-  private _awsSecretStoreArn?: string; 
+  private _awsSecretStoreArn?: string;
   public get awsSecretStoreArn() {
     return this.getStringAttribute('aws_secret_store_arn');
   }
@@ -1523,7 +1523,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1539,7 +1539,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // db_cluster_identifier - computed: true, optional: true, required: false
-  private _dbClusterIdentifier?: string; 
+  private _dbClusterIdentifier?: string;
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -1555,7 +1555,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // schema - computed: true, optional: true, required: false
-  private _schema?: string; 
+  private _schema?: string;
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -1574,13 +1574,13 @@ export interface AppsyncDataSourceRelationalDatabaseConfig {
   /**
   * Information about the Amazon RDS resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
   */
   readonly rdsHttpEndpointConfig?: AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfig;
   /**
   * The type of relational data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
   */
   readonly relationalDatabaseSourceType?: string;
 }
@@ -1686,7 +1686,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigOutputReference extends cd
   }
 
   // relational_database_source_type - computed: true, optional: true, required: false
-  private _relationalDatabaseSourceType?: string; 
+  private _relationalDatabaseSourceType?: string;
   public get relationalDatabaseSourceType() {
     return this.getStringAttribute('relational_database_source_type');
   }
@@ -1703,7 +1703,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source awscc_appsync_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source awscc_appsync_data_source}
 */
 export class AppsyncDataSource extends cdktn.TerraformResource {
 
@@ -1719,7 +1719,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncDataSource to import
-  * @param importFromId The id of the existing AppsyncDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1731,7 +1731,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1742,7 +1742,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1772,7 +1772,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -1790,7 +1790,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1891,7 +1891,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // metrics_config - computed: true, optional: true, required: false
-  private _metricsConfig?: string; 
+  private _metricsConfig?: string;
   public get metricsConfig() {
     return this.getStringAttribute('metrics_config');
   }
@@ -1907,7 +1907,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1952,7 +1952,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: true, optional: true, required: false
-  private _serviceRoleArn?: string; 
+  private _serviceRoleArn?: string;
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -1968,7 +1968,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

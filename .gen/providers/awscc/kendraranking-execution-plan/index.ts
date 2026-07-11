@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KendrarankingExecutionPlanConfig extends cdktn.TerraformMetaArg
   /**
   * Capacity units
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
   */
   readonly capacityUnits?: KendrarankingExecutionPlanCapacityUnits;
   /**
   * A description for the execution plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
   */
   readonly description?: string;
   /**
   * Name of kendra ranking rescore execution plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
   */
   readonly name: string;
   /**
   * Tags for labeling the execution plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
   */
   readonly tags?: KendrarankingExecutionPlanTags[] | cdktn.IResolvable;
 }
 export interface KendrarankingExecutionPlanCapacityUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}
   */
   readonly rescoreCapacityUnits?: number;
 }
@@ -111,7 +111,7 @@ export class KendrarankingExecutionPlanCapacityUnitsOutputReference extends cdkt
   }
 
   // rescore_capacity_units - computed: true, optional: true, required: false
-  private _rescoreCapacityUnits?: number; 
+  private _rescoreCapacityUnits?: number;
   public get rescoreCapacityUnits() {
     return this.getNumberAttribute('rescore_capacity_units');
   }
@@ -130,13 +130,13 @@ export interface KendrarankingExecutionPlanTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
   */
   readonly value?: string;
 }
@@ -228,7 +228,7 @@ export class KendrarankingExecutionPlanTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -244,7 +244,7 @@ export class KendrarankingExecutionPlanTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -281,7 +281,7 @@ export class KendrarankingExecutionPlanTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}
 */
 export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
 
@@ -297,7 +297,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendrarankingExecutionPlan resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendrarankingExecutionPlan to import
-  * @param importFromId The id of the existing KendrarankingExecutionPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendrarankingExecutionPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendrarankingExecutionPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -309,7 +309,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,7 +320,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kendraranking_execution_plan',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -362,7 +362,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -388,7 +388,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

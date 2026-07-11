@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktn from 'cdktn';
 
 export interface VpcEncryptionControlConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#egress_only_internet_gateway_exclusion VpcEncryptionControl#egress_only_internet_gateway_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#egress_only_internet_gateway_exclusion VpcEncryptionControl#egress_only_internet_gateway_exclusion}
   */
   readonly egressOnlyInternetGatewayExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#elastic_file_system_exclusion VpcEncryptionControl#elastic_file_system_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#elastic_file_system_exclusion VpcEncryptionControl#elastic_file_system_exclusion}
   */
   readonly elasticFileSystemExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#internet_gateway_exclusion VpcEncryptionControl#internet_gateway_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#internet_gateway_exclusion VpcEncryptionControl#internet_gateway_exclusion}
   */
   readonly internetGatewayExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#lambda_exclusion VpcEncryptionControl#lambda_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#lambda_exclusion VpcEncryptionControl#lambda_exclusion}
   */
   readonly lambdaExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#mode VpcEncryptionControl#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#mode VpcEncryptionControl#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#nat_gateway_exclusion VpcEncryptionControl#nat_gateway_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#nat_gateway_exclusion VpcEncryptionControl#nat_gateway_exclusion}
   */
   readonly natGatewayExclusion?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#region VpcEncryptionControl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#region VpcEncryptionControl#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#tags VpcEncryptionControl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#tags VpcEncryptionControl#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#virtual_private_gateway_exclusion VpcEncryptionControl#virtual_private_gateway_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#virtual_private_gateway_exclusion VpcEncryptionControl#virtual_private_gateway_exclusion}
   */
   readonly virtualPrivateGatewayExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#vpc_id VpcEncryptionControl#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#vpc_id VpcEncryptionControl#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#vpc_lattice_exclusion VpcEncryptionControl#vpc_lattice_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#vpc_lattice_exclusion VpcEncryptionControl#vpc_lattice_exclusion}
   */
   readonly vpcLatticeExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#vpc_peering_exclusion VpcEncryptionControl#vpc_peering_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#vpc_peering_exclusion VpcEncryptionControl#vpc_peering_exclusion}
   */
   readonly vpcPeeringExclusion?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#timeouts VpcEncryptionControl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#timeouts VpcEncryptionControl#timeouts}
   */
   readonly timeouts?: VpcEncryptionControlTimeouts;
 }
@@ -637,19 +637,19 @@ export interface VpcEncryptionControlTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#create VpcEncryptionControl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#create VpcEncryptionControl#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#delete VpcEncryptionControl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#delete VpcEncryptionControl#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#update VpcEncryptionControl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#update VpcEncryptionControl#update}
   */
   readonly update?: string;
 }
@@ -752,7 +752,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -768,7 +768,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -784,7 +784,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -801,7 +801,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control}
 */
 export class VpcEncryptionControl extends cdktn.TerraformResource {
 
@@ -817,7 +817,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpcEncryptionControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcEncryptionControl to import
-  * @param importFromId The id of the existing VpcEncryptionControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcEncryptionControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcEncryptionControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -829,7 +829,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -840,7 +840,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpc_encryption_control',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -870,7 +870,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   // ==========
 
   // egress_only_internet_gateway_exclusion - computed: true, optional: true, required: false
-  private _egressOnlyInternetGatewayExclusion?: string; 
+  private _egressOnlyInternetGatewayExclusion?: string;
   public get egressOnlyInternetGatewayExclusion() {
     return this.getStringAttribute('egress_only_internet_gateway_exclusion');
   }
@@ -886,7 +886,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // elastic_file_system_exclusion - computed: true, optional: true, required: false
-  private _elasticFileSystemExclusion?: string; 
+  private _elasticFileSystemExclusion?: string;
   public get elasticFileSystemExclusion() {
     return this.getStringAttribute('elastic_file_system_exclusion');
   }
@@ -907,7 +907,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion - computed: true, optional: true, required: false
-  private _internetGatewayExclusion?: string; 
+  private _internetGatewayExclusion?: string;
   public get internetGatewayExclusion() {
     return this.getStringAttribute('internet_gateway_exclusion');
   }
@@ -923,7 +923,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // lambda_exclusion - computed: true, optional: true, required: false
-  private _lambdaExclusion?: string; 
+  private _lambdaExclusion?: string;
   public get lambdaExclusion() {
     return this.getStringAttribute('lambda_exclusion');
   }
@@ -939,7 +939,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -952,7 +952,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // nat_gateway_exclusion - computed: true, optional: true, required: false
-  private _natGatewayExclusion?: string; 
+  private _natGatewayExclusion?: string;
   public get natGatewayExclusion() {
     return this.getStringAttribute('nat_gateway_exclusion');
   }
@@ -968,7 +968,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1000,7 +1000,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1022,7 +1022,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // virtual_private_gateway_exclusion - computed: true, optional: true, required: false
-  private _virtualPrivateGatewayExclusion?: string; 
+  private _virtualPrivateGatewayExclusion?: string;
   public get virtualPrivateGatewayExclusion() {
     return this.getStringAttribute('virtual_private_gateway_exclusion');
   }
@@ -1038,7 +1038,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1051,7 +1051,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_lattice_exclusion - computed: true, optional: true, required: false
-  private _vpcLatticeExclusion?: string; 
+  private _vpcLatticeExclusion?: string;
   public get vpcLatticeExclusion() {
     return this.getStringAttribute('vpc_lattice_exclusion');
   }
@@ -1067,7 +1067,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_peering_exclusion - computed: true, optional: true, required: false
-  private _vpcPeeringExclusion?: string; 
+  private _vpcPeeringExclusion?: string;
   public get vpcPeeringExclusion() {
     return this.getStringAttribute('vpc_peering_exclusion');
   }

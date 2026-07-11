@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktn from 'cdktn';
 
 export interface BedrockagentAgentCollaboratorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#agent_id BedrockagentAgentCollaborator#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#agent_id BedrockagentAgentCollaborator#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#agent_version BedrockagentAgentCollaborator#agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#agent_version BedrockagentAgentCollaborator#agent_version}
   */
   readonly agentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#collaboration_instruction BedrockagentAgentCollaborator#collaboration_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#collaboration_instruction BedrockagentAgentCollaborator#collaboration_instruction}
   */
   readonly collaborationInstruction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#collaborator_name BedrockagentAgentCollaborator#collaborator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#collaborator_name BedrockagentAgentCollaborator#collaborator_name}
   */
   readonly collaboratorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#prepare_agent BedrockagentAgentCollaborator#prepare_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#prepare_agent BedrockagentAgentCollaborator#prepare_agent}
   */
   readonly prepareAgent?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#region BedrockagentAgentCollaborator#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#region BedrockagentAgentCollaborator#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#relay_conversation_history BedrockagentAgentCollaborator#relay_conversation_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#relay_conversation_history BedrockagentAgentCollaborator#relay_conversation_history}
   */
   readonly relayConversationHistory?: string;
   /**
   * agent_descriptor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#agent_descriptor BedrockagentAgentCollaborator#agent_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#agent_descriptor BedrockagentAgentCollaborator#agent_descriptor}
   */
   readonly agentDescriptor?: BedrockagentAgentCollaboratorAgentDescriptor[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#timeouts BedrockagentAgentCollaborator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#timeouts BedrockagentAgentCollaborator#timeouts}
   */
   readonly timeouts?: BedrockagentAgentCollaboratorTimeouts;
 }
 export interface BedrockagentAgentCollaboratorAgentDescriptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#alias_arn BedrockagentAgentCollaborator#alias_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#alias_arn BedrockagentAgentCollaborator#alias_arn}
   */
   readonly aliasArn: string;
 }
@@ -131,7 +131,7 @@ export class BedrockagentAgentCollaboratorAgentDescriptorOutputReference extends
   }
 
   // alias_arn - computed: false, optional: false, required: true
-  private _aliasArn?: string; 
+  private _aliasArn?: string;
   public get aliasArn() {
     return this.getStringAttribute('alias_arn');
   }
@@ -167,19 +167,19 @@ export interface BedrockagentAgentCollaboratorTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#create BedrockagentAgentCollaborator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#create BedrockagentAgentCollaborator#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#delete BedrockagentAgentCollaborator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#delete BedrockagentAgentCollaborator#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#update BedrockagentAgentCollaborator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#update BedrockagentAgentCollaborator#update}
   */
   readonly update?: string;
 }
@@ -282,7 +282,7 @@ export class BedrockagentAgentCollaboratorTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -298,7 +298,7 @@ export class BedrockagentAgentCollaboratorTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -314,7 +314,7 @@ export class BedrockagentAgentCollaboratorTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -331,7 +331,7 @@ export class BedrockagentAgentCollaboratorTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator aws_bedrockagent_agent_collaborator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator aws_bedrockagent_agent_collaborator}
 */
 export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
 
@@ -347,7 +347,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentAgentCollaborator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentAgentCollaborator to import
-  * @param importFromId The id of the existing BedrockagentAgentCollaborator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentAgentCollaborator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentAgentCollaborator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -359,7 +359,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_agent_collaborator aws_bedrockagent_agent_collaborator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_agent_collaborator aws_bedrockagent_agent_collaborator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,7 +370,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
       terraformResourceType: 'aws_bedrockagent_agent_collaborator',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -396,7 +396,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   // ==========
 
   // agent_id - computed: false, optional: false, required: true
-  private _agentId?: string; 
+  private _agentId?: string;
   public get agentId() {
     return this.getStringAttribute('agent_id');
   }
@@ -409,7 +409,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // agent_version - computed: true, optional: true, required: false
-  private _agentVersion?: string; 
+  private _agentVersion?: string;
   public get agentVersion() {
     return this.getStringAttribute('agent_version');
   }
@@ -425,7 +425,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // collaboration_instruction - computed: false, optional: false, required: true
-  private _collaborationInstruction?: string; 
+  private _collaborationInstruction?: string;
   public get collaborationInstruction() {
     return this.getStringAttribute('collaboration_instruction');
   }
@@ -443,7 +443,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // collaborator_name - computed: false, optional: false, required: true
-  private _collaboratorName?: string; 
+  private _collaboratorName?: string;
   public get collaboratorName() {
     return this.getStringAttribute('collaborator_name');
   }
@@ -461,7 +461,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // prepare_agent - computed: true, optional: true, required: false
-  private _prepareAgent?: boolean | cdktn.IResolvable; 
+  private _prepareAgent?: boolean | cdktn.IResolvable;
   public get prepareAgent() {
     return this.getBooleanAttribute('prepare_agent');
   }
@@ -477,7 +477,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -493,7 +493,7 @@ export class BedrockagentAgentCollaborator extends cdktn.TerraformResource {
   }
 
   // relay_conversation_history - computed: true, optional: true, required: false
-  private _relayConversationHistory?: string; 
+  private _relayConversationHistory?: string;
   public get relayConversationHistory() {
     return this.getStringAttribute('relay_conversation_history');
   }

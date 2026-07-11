@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerArchiveConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#archive_name SesMailManagerArchive#archive_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#archive_name SesMailManagerArchive#archive_name}
   */
   readonly archiveName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#kms_key_arn SesMailManagerArchive#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#kms_key_arn SesMailManagerArchive#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#retention SesMailManagerArchive#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#retention SesMailManagerArchive#retention}
   */
   readonly retention?: SesMailManagerArchiveRetention;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#tags SesMailManagerArchive#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#tags SesMailManagerArchive#tags}
   */
   readonly tags?: SesMailManagerArchiveTags[] | cdktn.IResolvable;
 }
 export interface SesMailManagerArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#retention_period SesMailManagerArchive#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#retention_period SesMailManagerArchive#retention_period}
   */
   readonly retentionPeriod?: string;
 }
@@ -103,7 +103,7 @@ export class SesMailManagerArchiveRetentionOutputReference extends cdktn.Complex
   }
 
   // retention_period - computed: true, optional: true, required: false
-  private _retentionPeriod?: string; 
+  private _retentionPeriod?: string;
   public get retentionPeriod() {
     return this.getStringAttribute('retention_period');
   }
@@ -120,11 +120,11 @@ export class SesMailManagerArchiveRetentionOutputReference extends cdktn.Complex
 }
 export interface SesMailManagerArchiveTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#key SesMailManagerArchive#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#key SesMailManagerArchive#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#value SesMailManagerArchive#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#value SesMailManagerArchive#value}
   */
   readonly value?: string;
 }
@@ -216,7 +216,7 @@ export class SesMailManagerArchiveTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -232,7 +232,7 @@ export class SesMailManagerArchiveTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -269,7 +269,7 @@ export class SesMailManagerArchiveTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive}
 */
 export class SesMailManagerArchive extends cdktn.TerraformResource {
 
@@ -285,7 +285,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerArchive resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerArchive to import
-  * @param importFromId The id of the existing SesMailManagerArchive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerArchive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerArchive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -297,7 +297,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -308,7 +308,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_archive',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -339,7 +339,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   }
 
   // archive_name - computed: true, optional: true, required: false
-  private _archiveName?: string; 
+  private _archiveName?: string;
   public get archiveName() {
     return this.getStringAttribute('archive_name');
   }
@@ -365,7 +365,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

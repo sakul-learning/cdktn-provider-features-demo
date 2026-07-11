@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsEcsTaskExecutionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#client_token DataAwsEcsTaskExecution#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#client_token DataAwsEcsTaskExecution#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#cluster DataAwsEcsTaskExecution#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#cluster DataAwsEcsTaskExecution#cluster}
   */
   readonly cluster: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#desired_count DataAwsEcsTaskExecution#desired_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#desired_count DataAwsEcsTaskExecution#desired_count}
   */
   readonly desiredCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#enable_ecs_managed_tags DataAwsEcsTaskExecution#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#enable_ecs_managed_tags DataAwsEcsTaskExecution#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#enable_execute_command DataAwsEcsTaskExecution#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#enable_execute_command DataAwsEcsTaskExecution#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#group DataAwsEcsTaskExecution#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#group DataAwsEcsTaskExecution#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#id DataAwsEcsTaskExecution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#id DataAwsEcsTaskExecution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#launch_type DataAwsEcsTaskExecution#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#launch_type DataAwsEcsTaskExecution#launch_type}
   */
   readonly launchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#platform_version DataAwsEcsTaskExecution#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#platform_version DataAwsEcsTaskExecution#platform_version}
   */
   readonly platformVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#propagate_tags DataAwsEcsTaskExecution#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#propagate_tags DataAwsEcsTaskExecution#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#reference_id DataAwsEcsTaskExecution#reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#reference_id DataAwsEcsTaskExecution#reference_id}
   */
   readonly referenceId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#region DataAwsEcsTaskExecution#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#region DataAwsEcsTaskExecution#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#started_by DataAwsEcsTaskExecution#started_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#started_by DataAwsEcsTaskExecution#started_by}
   */
   readonly startedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#tags DataAwsEcsTaskExecution#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#tags DataAwsEcsTaskExecution#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#task_definition DataAwsEcsTaskExecution#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#task_definition DataAwsEcsTaskExecution#task_definition}
   */
   readonly taskDefinition: string;
   /**
   * capacity_provider_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#capacity_provider_strategy DataAwsEcsTaskExecution#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#capacity_provider_strategy DataAwsEcsTaskExecution#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: DataAwsEcsTaskExecutionCapacityProviderStrategy[] | cdktn.IResolvable;
   /**
   * network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#network_configuration DataAwsEcsTaskExecution#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#network_configuration DataAwsEcsTaskExecution#network_configuration}
   */
   readonly networkConfiguration?: DataAwsEcsTaskExecutionNetworkConfiguration;
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#overrides DataAwsEcsTaskExecution#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#overrides DataAwsEcsTaskExecution#overrides}
   */
   readonly overrides?: DataAwsEcsTaskExecutionOverrides;
   /**
   * placement_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#placement_constraints DataAwsEcsTaskExecution#placement_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#placement_constraints DataAwsEcsTaskExecution#placement_constraints}
   */
   readonly placementConstraints?: DataAwsEcsTaskExecutionPlacementConstraints[] | cdktn.IResolvable;
   /**
   * placement_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#placement_strategy DataAwsEcsTaskExecution#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#placement_strategy DataAwsEcsTaskExecution#placement_strategy}
   */
   readonly placementStrategy?: DataAwsEcsTaskExecutionPlacementStrategy[] | cdktn.IResolvable;
 }
 export interface DataAwsEcsTaskExecutionCapacityProviderStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}
   */
   readonly capacityProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}
   */
   readonly weight?: number;
 }
@@ -218,7 +218,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number; 
+  private _base?: number;
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -234,7 +234,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string; 
+  private _capacityProvider?: string;
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -247,7 +247,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -284,15 +284,15 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyList extends cdktn.C
 }
 export interface DataAwsEcsTaskExecutionNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#assign_public_ip DataAwsEcsTaskExecution#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#assign_public_ip DataAwsEcsTaskExecution#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#security_groups DataAwsEcsTaskExecution#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#security_groups DataAwsEcsTaskExecution#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#subnets DataAwsEcsTaskExecution#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#subnets DataAwsEcsTaskExecution#subnets}
   */
   readonly subnets: string[];
 }
@@ -385,7 +385,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: boolean | cdktn.IResolvable; 
+  private _assignPublicIp?: boolean | cdktn.IResolvable;
   public get assignPublicIp() {
     return this.getBooleanAttribute('assign_public_ip');
   }
@@ -401,7 +401,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -417,7 +417,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -431,11 +431,11 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
 }
 export interface DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#key DataAwsEcsTaskExecution#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#key DataAwsEcsTaskExecution#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#value DataAwsEcsTaskExecution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#value DataAwsEcsTaskExecution#value}
   */
   readonly value: string;
 }
@@ -527,7 +527,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentOutput
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -540,7 +540,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -574,11 +574,11 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentList e
 }
 export interface DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#value DataAwsEcsTaskExecution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#value DataAwsEcsTaskExecution#value}
   */
   readonly value: string;
 }
@@ -670,7 +670,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequireme
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -683,7 +683,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequireme
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -717,35 +717,35 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequireme
 }
 export interface DataAwsEcsTaskExecutionOverridesContainerOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#command DataAwsEcsTaskExecution#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#command DataAwsEcsTaskExecution#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#cpu DataAwsEcsTaskExecution#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#cpu DataAwsEcsTaskExecution#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#memory DataAwsEcsTaskExecution#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#memory DataAwsEcsTaskExecution#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#memory_reservation DataAwsEcsTaskExecution#memory_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#memory_reservation DataAwsEcsTaskExecution#memory_reservation}
   */
   readonly memoryReservation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#name DataAwsEcsTaskExecution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#name DataAwsEcsTaskExecution#name}
   */
   readonly name: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#environment DataAwsEcsTaskExecution#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#environment DataAwsEcsTaskExecution#environment}
   */
   readonly environment?: DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironment[] | cdktn.IResolvable;
   /**
   * resource_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#resource_requirements DataAwsEcsTaskExecution#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#resource_requirements DataAwsEcsTaskExecution#resource_requirements}
   */
   readonly resourceRequirements?: DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirements[] | cdktn.IResolvable;
 }
@@ -902,7 +902,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -918,7 +918,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: number; 
+  private _cpu?: number;
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -934,7 +934,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: number; 
+  private _memory?: number;
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -950,7 +950,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // memory_reservation - computed: false, optional: true, required: false
-  private _memoryReservation?: number; 
+  private _memoryReservation?: number;
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -966,7 +966,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1032,25 +1032,25 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesList extends cdkt
 }
 export interface DataAwsEcsTaskExecutionOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#cpu DataAwsEcsTaskExecution#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#cpu DataAwsEcsTaskExecution#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#execution_role_arn DataAwsEcsTaskExecution#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#execution_role_arn DataAwsEcsTaskExecution#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#memory DataAwsEcsTaskExecution#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#memory DataAwsEcsTaskExecution#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#task_role_arn DataAwsEcsTaskExecution#task_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#task_role_arn DataAwsEcsTaskExecution#task_role_arn}
   */
   readonly taskRoleArn?: string;
   /**
   * container_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#container_overrides DataAwsEcsTaskExecution#container_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#container_overrides DataAwsEcsTaskExecution#container_overrides}
   */
   readonly containerOverrides?: DataAwsEcsTaskExecutionOverridesContainerOverrides[] | cdktn.IResolvable;
 }
@@ -1169,7 +1169,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: string; 
+  private _cpu?: string;
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -1185,7 +1185,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1201,7 +1201,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: string; 
+  private _memory?: string;
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -1217,7 +1217,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // task_role_arn - computed: false, optional: true, required: false
-  private _taskRoleArn?: string; 
+  private _taskRoleArn?: string;
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -1250,11 +1250,11 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
 }
 export interface DataAwsEcsTaskExecutionPlacementConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#expression DataAwsEcsTaskExecution#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#expression DataAwsEcsTaskExecution#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
   */
   readonly type: string;
 }
@@ -1346,7 +1346,7 @@ export class DataAwsEcsTaskExecutionPlacementConstraintsOutputReference extends 
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1362,7 +1362,7 @@ export class DataAwsEcsTaskExecutionPlacementConstraintsOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1396,11 +1396,11 @@ export class DataAwsEcsTaskExecutionPlacementConstraintsList extends cdktn.Compl
 }
 export interface DataAwsEcsTaskExecutionPlacementStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#field DataAwsEcsTaskExecution#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#field DataAwsEcsTaskExecution#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#type DataAwsEcsTaskExecution#type}
   */
   readonly type: string;
 }
@@ -1492,7 +1492,7 @@ export class DataAwsEcsTaskExecutionPlacementStrategyOutputReference extends cdk
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -1508,7 +1508,7 @@ export class DataAwsEcsTaskExecutionPlacementStrategyOutputReference extends cdk
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1542,7 +1542,7 @@ export class DataAwsEcsTaskExecutionPlacementStrategyList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}
 */
 export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
 
@@ -1558,7 +1558,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsEcsTaskExecution resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsEcsTaskExecution to import
-  * @param importFromId The id of the existing DataAwsEcsTaskExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsEcsTaskExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsEcsTaskExecution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1570,7 +1570,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1581,7 +1581,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_ecs_task_execution',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1618,7 +1618,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   // ==========
 
   // client_token - computed: false, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -1634,7 +1634,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string; 
+  private _cluster?: string;
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -1647,7 +1647,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // desired_count - computed: false, optional: true, required: false
-  private _desiredCount?: number; 
+  private _desiredCount?: number;
   public get desiredCount() {
     return this.getNumberAttribute('desired_count');
   }
@@ -1663,7 +1663,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1679,7 +1679,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -1695,7 +1695,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string; 
+  private _group?: string;
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -1711,7 +1711,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1727,7 +1727,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // launch_type - computed: false, optional: true, required: false
-  private _launchType?: string; 
+  private _launchType?: string;
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1743,7 +1743,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // platform_version - computed: false, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1759,7 +1759,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -1775,7 +1775,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // reference_id - computed: false, optional: true, required: false
-  private _referenceId?: string; 
+  private _referenceId?: string;
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -1791,7 +1791,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1807,7 +1807,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // started_by - computed: false, optional: true, required: false
-  private _startedBy?: string; 
+  private _startedBy?: string;
   public get startedBy() {
     return this.getStringAttribute('started_by');
   }
@@ -1823,7 +1823,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1844,7 +1844,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // task_definition - computed: false, optional: false, required: true
-  private _taskDefinition?: string; 
+  private _taskDefinition?: string;
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

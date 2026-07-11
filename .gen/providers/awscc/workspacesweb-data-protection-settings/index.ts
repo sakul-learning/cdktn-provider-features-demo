@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebDataProtectionSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#additional_encryption_context WorkspaceswebDataProtectionSettings#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#additional_encryption_context WorkspaceswebDataProtectionSettings#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#customer_managed_key WorkspaceswebDataProtectionSettings#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#customer_managed_key WorkspaceswebDataProtectionSettings#customer_managed_key}
   */
   readonly customerManagedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#description WorkspaceswebDataProtectionSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#description WorkspaceswebDataProtectionSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#display_name WorkspaceswebDataProtectionSettings#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#display_name WorkspaceswebDataProtectionSettings#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#inline_redaction_configuration WorkspaceswebDataProtectionSettings#inline_redaction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#inline_redaction_configuration WorkspaceswebDataProtectionSettings#inline_redaction_configuration}
   */
   readonly inlineRedactionConfiguration?: WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#tags WorkspaceswebDataProtectionSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#tags WorkspaceswebDataProtectionSettings#tags}
   */
   readonly tags?: WorkspaceswebDataProtectionSettingsTags[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatternsCustomPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#keyword_regex WorkspaceswebDataProtectionSettings#keyword_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#keyword_regex WorkspaceswebDataProtectionSettings#keyword_regex}
   */
   readonly keywordRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#pattern_description WorkspaceswebDataProtectionSettings#pattern_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#pattern_description WorkspaceswebDataProtectionSettings#pattern_description}
   */
   readonly patternDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#pattern_name WorkspaceswebDataProtectionSettings#pattern_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#pattern_name WorkspaceswebDataProtectionSettings#pattern_name}
   */
   readonly patternName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#pattern_regex WorkspaceswebDataProtectionSettings#pattern_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#pattern_regex WorkspaceswebDataProtectionSettings#pattern_regex}
   */
   readonly patternRegex?: string;
 }
@@ -162,7 +162,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // keyword_regex - computed: true, optional: true, required: false
-  private _keywordRegex?: string; 
+  private _keywordRegex?: string;
   public get keywordRegex() {
     return this.getStringAttribute('keyword_regex');
   }
@@ -178,7 +178,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_description - computed: true, optional: true, required: false
-  private _patternDescription?: string; 
+  private _patternDescription?: string;
   public get patternDescription() {
     return this.getStringAttribute('pattern_description');
   }
@@ -194,7 +194,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_name - computed: true, optional: true, required: false
-  private _patternName?: string; 
+  private _patternName?: string;
   public get patternName() {
     return this.getStringAttribute('pattern_name');
   }
@@ -210,7 +210,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_regex - computed: true, optional: true, required: false
-  private _patternRegex?: string; 
+  private _patternRegex?: string;
   public get patternRegex() {
     return this.getStringAttribute('pattern_regex');
   }
@@ -227,11 +227,11 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
 }
 export interface WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatternsRedactionPlaceHolder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder_text WorkspaceswebDataProtectionSettings#redaction_place_holder_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder_text WorkspaceswebDataProtectionSettings#redaction_place_holder_text}
   */
   readonly redactionPlaceHolderText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder_type WorkspaceswebDataProtectionSettings#redaction_place_holder_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder_type WorkspaceswebDataProtectionSettings#redaction_place_holder_type}
   */
   readonly redactionPlaceHolderType?: string;
 }
@@ -321,7 +321,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // redaction_place_holder_text - computed: true, optional: true, required: false
-  private _redactionPlaceHolderText?: string; 
+  private _redactionPlaceHolderText?: string;
   public get redactionPlaceHolderText() {
     return this.getStringAttribute('redaction_place_holder_text');
   }
@@ -337,7 +337,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // redaction_place_holder_type - computed: true, optional: true, required: false
-  private _redactionPlaceHolderType?: string; 
+  private _redactionPlaceHolderType?: string;
   public get redactionPlaceHolderType() {
     return this.getStringAttribute('redaction_place_holder_type');
   }
@@ -354,27 +354,27 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
 }
 export interface WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatterns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#built_in_pattern_id WorkspaceswebDataProtectionSettings#built_in_pattern_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#built_in_pattern_id WorkspaceswebDataProtectionSettings#built_in_pattern_id}
   */
   readonly builtInPatternId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#confidence_level WorkspaceswebDataProtectionSettings#confidence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#confidence_level WorkspaceswebDataProtectionSettings#confidence_level}
   */
   readonly confidenceLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#custom_pattern WorkspaceswebDataProtectionSettings#custom_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#custom_pattern WorkspaceswebDataProtectionSettings#custom_pattern}
   */
   readonly customPattern?: WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatternsCustomPattern;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#enforced_urls WorkspaceswebDataProtectionSettings#enforced_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#enforced_urls WorkspaceswebDataProtectionSettings#enforced_urls}
   */
   readonly enforcedUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#exempt_urls WorkspaceswebDataProtectionSettings#exempt_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#exempt_urls WorkspaceswebDataProtectionSettings#exempt_urls}
   */
   readonly exemptUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder WorkspaceswebDataProtectionSettings#redaction_place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#redaction_place_holder WorkspaceswebDataProtectionSettings#redaction_place_holder}
   */
   readonly redactionPlaceHolder?: WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatternsRedactionPlaceHolder;
 }
@@ -518,7 +518,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // built_in_pattern_id - computed: true, optional: true, required: false
-  private _builtInPatternId?: string; 
+  private _builtInPatternId?: string;
   public get builtInPatternId() {
     return this.getStringAttribute('built_in_pattern_id');
   }
@@ -534,7 +534,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // confidence_level - computed: true, optional: true, required: false
-  private _confidenceLevel?: number; 
+  private _confidenceLevel?: number;
   public get confidenceLevel() {
     return this.getNumberAttribute('confidence_level');
   }
@@ -566,7 +566,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // enforced_urls - computed: true, optional: true, required: false
-  private _enforcedUrls?: string[]; 
+  private _enforcedUrls?: string[];
   public get enforcedUrls() {
     return this.getListAttribute('enforced_urls');
   }
@@ -582,7 +582,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // exempt_urls - computed: true, optional: true, required: false
-  private _exemptUrls?: string[]; 
+  private _exemptUrls?: string[];
   public get exemptUrls() {
     return this.getListAttribute('exempt_urls');
   }
@@ -635,19 +635,19 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
 }
 export interface WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#global_confidence_level WorkspaceswebDataProtectionSettings#global_confidence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#global_confidence_level WorkspaceswebDataProtectionSettings#global_confidence_level}
   */
   readonly globalConfidenceLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#global_enforced_urls WorkspaceswebDataProtectionSettings#global_enforced_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#global_enforced_urls WorkspaceswebDataProtectionSettings#global_enforced_urls}
   */
   readonly globalEnforcedUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#global_exempt_urls WorkspaceswebDataProtectionSettings#global_exempt_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#global_exempt_urls WorkspaceswebDataProtectionSettings#global_exempt_urls}
   */
   readonly globalExemptUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#inline_redaction_patterns WorkspaceswebDataProtectionSettings#inline_redaction_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#inline_redaction_patterns WorkspaceswebDataProtectionSettings#inline_redaction_patterns}
   */
   readonly inlineRedactionPatterns?: WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPatterns[] | cdktn.IResolvable;
 }
@@ -763,7 +763,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_confidence_level - computed: true, optional: true, required: false
-  private _globalConfidenceLevel?: number; 
+  private _globalConfidenceLevel?: number;
   public get globalConfidenceLevel() {
     return this.getNumberAttribute('global_confidence_level');
   }
@@ -779,7 +779,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_enforced_urls - computed: true, optional: true, required: false
-  private _globalEnforcedUrls?: string[]; 
+  private _globalEnforcedUrls?: string[];
   public get globalEnforcedUrls() {
     return this.getListAttribute('global_enforced_urls');
   }
@@ -795,7 +795,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_exempt_urls - computed: true, optional: true, required: false
-  private _globalExemptUrls?: string[]; 
+  private _globalExemptUrls?: string[];
   public get globalExemptUrls() {
     return this.getListAttribute('global_exempt_urls');
   }
@@ -828,11 +828,11 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
 }
 export interface WorkspaceswebDataProtectionSettingsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#key WorkspaceswebDataProtectionSettings#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#key WorkspaceswebDataProtectionSettings#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#value WorkspaceswebDataProtectionSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#value WorkspaceswebDataProtectionSettings#value}
   */
   readonly value?: string;
 }
@@ -924,7 +924,7 @@ export class WorkspaceswebDataProtectionSettingsTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -940,7 +940,7 @@ export class WorkspaceswebDataProtectionSettingsTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -977,7 +977,7 @@ export class WorkspaceswebDataProtectionSettingsTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings}
 */
 export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource {
 
@@ -993,7 +993,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   * Generates CDKTN code for importing a WorkspaceswebDataProtectionSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebDataProtectionSettings to import
-  * @param importFromId The id of the existing WorkspaceswebDataProtectionSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebDataProtectionSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebDataProtectionSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1005,7 +1005,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1016,7 +1016,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
       terraformResourceType: 'awscc_workspacesweb_data_protection_settings',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1039,7 +1039,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string }; 
+  private _additionalEncryptionContext?: { [key: string]: string };
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -1065,7 +1065,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string; 
+  private _customerManagedKey?: string;
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -1086,7 +1086,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1102,7 +1102,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }

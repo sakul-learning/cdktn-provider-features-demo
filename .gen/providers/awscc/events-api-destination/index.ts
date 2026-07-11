@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface EventsApiDestinationConfig extends cdktn.TerraformMetaArguments
   /**
   * The arn of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
   */
   readonly connectionArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#description EventsApiDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#description EventsApiDestination#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}
   */
   readonly httpMethod: string;
   /**
   * Url endpoint to invoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
   */
   readonly invocationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}
   */
   readonly invocationRateLimitPerSecond?: number;
   /**
   * Name of the apiDestination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#name EventsApiDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#name EventsApiDestination#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination awscc_events_api_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination awscc_events_api_destination}
 */
 export class EventsApiDestination extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventsApiDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventsApiDestination to import
-  * @param importFromId The id of the existing EventsApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventsApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventsApiDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_api_destination awscc_events_api_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_api_destination awscc_events_api_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_events_api_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -112,7 +112,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // connection_arn - computed: false, optional: false, required: true
-  private _connectionArn?: string; 
+  private _connectionArn?: string;
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -125,7 +125,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -141,7 +141,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string; 
+  private _httpMethod?: string;
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -159,7 +159,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_endpoint - computed: false, optional: false, required: true
-  private _invocationEndpoint?: string; 
+  private _invocationEndpoint?: string;
   public get invocationEndpoint() {
     return this.getStringAttribute('invocation_endpoint');
   }
@@ -172,7 +172,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_rate_limit_per_second - computed: true, optional: true, required: false
-  private _invocationRateLimitPerSecond?: number; 
+  private _invocationRateLimitPerSecond?: number;
   public get invocationRateLimitPerSecond() {
     return this.getNumberAttribute('invocation_rate_limit_per_second');
   }
@@ -188,7 +188,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

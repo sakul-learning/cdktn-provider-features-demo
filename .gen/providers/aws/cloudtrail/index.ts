@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktn from 'cdktn';
 
 export interface CloudtrailConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#cloud_watch_logs_group_arn Cloudtrail#cloud_watch_logs_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#cloud_watch_logs_group_arn Cloudtrail#cloud_watch_logs_group_arn}
   */
   readonly cloudWatchLogsGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#cloud_watch_logs_role_arn Cloudtrail#cloud_watch_logs_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#cloud_watch_logs_role_arn Cloudtrail#cloud_watch_logs_role_arn}
   */
   readonly cloudWatchLogsRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#enable_log_file_validation Cloudtrail#enable_log_file_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#enable_log_file_validation Cloudtrail#enable_log_file_validation}
   */
   readonly enableLogFileValidation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#enable_logging Cloudtrail#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#enable_logging Cloudtrail#enable_logging}
   */
   readonly enableLogging?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#id Cloudtrail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#id Cloudtrail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#include_global_service_events Cloudtrail#include_global_service_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#include_global_service_events Cloudtrail#include_global_service_events}
   */
   readonly includeGlobalServiceEvents?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#is_multi_region_trail Cloudtrail#is_multi_region_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#is_multi_region_trail Cloudtrail#is_multi_region_trail}
   */
   readonly isMultiRegionTrail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#is_organization_trail Cloudtrail#is_organization_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#is_organization_trail Cloudtrail#is_organization_trail}
   */
   readonly isOrganizationTrail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#kms_key_id Cloudtrail#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#kms_key_id Cloudtrail#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#name Cloudtrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#name Cloudtrail#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#region Cloudtrail#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#region Cloudtrail#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#s3_bucket_name Cloudtrail#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#s3_bucket_name Cloudtrail#s3_bucket_name}
   */
   readonly s3BucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#s3_key_prefix Cloudtrail#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#s3_key_prefix Cloudtrail#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#sns_topic_name Cloudtrail#sns_topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#sns_topic_name Cloudtrail#sns_topic_name}
   */
   readonly snsTopicName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#tags Cloudtrail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#tags Cloudtrail#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#tags_all Cloudtrail#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#tags_all Cloudtrail#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * advanced_event_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#advanced_event_selector Cloudtrail#advanced_event_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#advanced_event_selector Cloudtrail#advanced_event_selector}
   */
   readonly advancedEventSelector?: CloudtrailAdvancedEventSelector[] | cdktn.IResolvable;
   /**
   * event_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#event_selector Cloudtrail#event_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#event_selector Cloudtrail#event_selector}
   */
   readonly eventSelector?: CloudtrailEventSelector[] | cdktn.IResolvable;
   /**
   * insight_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#insight_selector Cloudtrail#insight_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#insight_selector Cloudtrail#insight_selector}
   */
   readonly insightSelector?: CloudtrailInsightSelector[] | cdktn.IResolvable;
 }
 export interface CloudtrailAdvancedEventSelectorFieldSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#ends_with Cloudtrail#ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#ends_with Cloudtrail#ends_with}
   */
   readonly endsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#equals Cloudtrail#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#equals Cloudtrail#equals}
   */
   readonly equalTo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#field Cloudtrail#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#field Cloudtrail#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#not_ends_with Cloudtrail#not_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#not_ends_with Cloudtrail#not_ends_with}
   */
   readonly notEndsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#not_equals Cloudtrail#not_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#not_equals Cloudtrail#not_equals}
   */
   readonly notEquals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#not_starts_with Cloudtrail#not_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#not_starts_with Cloudtrail#not_starts_with}
   */
   readonly notStartsWith?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#starts_with Cloudtrail#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#starts_with Cloudtrail#starts_with}
   */
   readonly startsWith?: string[];
 }
@@ -278,7 +278,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // ends_with - computed: false, optional: true, required: false
-  private _endsWith?: string[]; 
+  private _endsWith?: string[];
   public get endsWith() {
     return this.getListAttribute('ends_with');
   }
@@ -294,7 +294,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // equals - computed: false, optional: true, required: false
-  private _equals?: string[]; 
+  private _equals?: string[];
   public get equalTo() {
     return this.getListAttribute('equals');
   }
@@ -310,7 +310,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // field - computed: false, optional: false, required: true
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -323,7 +323,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // not_ends_with - computed: false, optional: true, required: false
-  private _notEndsWith?: string[]; 
+  private _notEndsWith?: string[];
   public get notEndsWith() {
     return this.getListAttribute('not_ends_with');
   }
@@ -339,7 +339,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // not_equals - computed: false, optional: true, required: false
-  private _notEquals?: string[]; 
+  private _notEquals?: string[];
   public get notEquals() {
     return this.getListAttribute('not_equals');
   }
@@ -355,7 +355,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // not_starts_with - computed: false, optional: true, required: false
-  private _notStartsWith?: string[]; 
+  private _notStartsWith?: string[];
   public get notStartsWith() {
     return this.getListAttribute('not_starts_with');
   }
@@ -371,7 +371,7 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorOutputReference extends
   }
 
   // starts_with - computed: false, optional: true, required: false
-  private _startsWith?: string[]; 
+  private _startsWith?: string[];
   public get startsWith() {
     return this.getListAttribute('starts_with');
   }
@@ -408,13 +408,13 @@ export class CloudtrailAdvancedEventSelectorFieldSelectorList extends cdktn.Comp
 }
 export interface CloudtrailAdvancedEventSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#name Cloudtrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#name Cloudtrail#name}
   */
   readonly name?: string;
   /**
   * field_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
   */
   readonly fieldSelector: CloudtrailAdvancedEventSelectorFieldSelector[] | cdktn.IResolvable;
 }
@@ -506,7 +506,7 @@ export class CloudtrailAdvancedEventSelectorOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -556,11 +556,11 @@ export class CloudtrailAdvancedEventSelectorList extends cdktn.ComplexList {
 }
 export interface CloudtrailEventSelectorDataResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#type Cloudtrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#type Cloudtrail#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#values Cloudtrail#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#values Cloudtrail#values}
   */
   readonly values: string[];
 }
@@ -652,7 +652,7 @@ export class CloudtrailEventSelectorDataResourceOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -665,7 +665,7 @@ export class CloudtrailEventSelectorDataResourceOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -699,21 +699,21 @@ export class CloudtrailEventSelectorDataResourceList extends cdktn.ComplexList {
 }
 export interface CloudtrailEventSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#exclude_management_event_sources Cloudtrail#exclude_management_event_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#exclude_management_event_sources Cloudtrail#exclude_management_event_sources}
   */
   readonly excludeManagementEventSources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#include_management_events Cloudtrail#include_management_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#include_management_events Cloudtrail#include_management_events}
   */
   readonly includeManagementEvents?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#read_write_type Cloudtrail#read_write_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#read_write_type Cloudtrail#read_write_type}
   */
   readonly readWriteType?: string;
   /**
   * data_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#data_resource Cloudtrail#data_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#data_resource Cloudtrail#data_resource}
   */
   readonly dataResource?: CloudtrailEventSelectorDataResource[] | cdktn.IResolvable;
 }
@@ -831,7 +831,7 @@ export class CloudtrailEventSelectorOutputReference extends cdktn.ComplexObject 
   }
 
   // exclude_management_event_sources - computed: false, optional: true, required: false
-  private _excludeManagementEventSources?: string[]; 
+  private _excludeManagementEventSources?: string[];
   public get excludeManagementEventSources() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_management_event_sources'));
   }
@@ -847,7 +847,7 @@ export class CloudtrailEventSelectorOutputReference extends cdktn.ComplexObject 
   }
 
   // include_management_events - computed: false, optional: true, required: false
-  private _includeManagementEvents?: boolean | cdktn.IResolvable; 
+  private _includeManagementEvents?: boolean | cdktn.IResolvable;
   public get includeManagementEvents() {
     return this.getBooleanAttribute('include_management_events');
   }
@@ -863,7 +863,7 @@ export class CloudtrailEventSelectorOutputReference extends cdktn.ComplexObject 
   }
 
   // read_write_type - computed: false, optional: true, required: false
-  private _readWriteType?: string; 
+  private _readWriteType?: string;
   public get readWriteType() {
     return this.getStringAttribute('read_write_type');
   }
@@ -916,7 +916,7 @@ export class CloudtrailEventSelectorList extends cdktn.ComplexList {
 }
 export interface CloudtrailInsightSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#insight_type Cloudtrail#insight_type}
   */
   readonly insightType: string;
 }
@@ -995,7 +995,7 @@ export class CloudtrailInsightSelectorOutputReference extends cdktn.ComplexObjec
   }
 
   // insight_type - computed: false, optional: false, required: true
-  private _insightType?: string; 
+  private _insightType?: string;
   public get insightType() {
     return this.getStringAttribute('insight_type');
   }
@@ -1029,7 +1029,7 @@ export class CloudtrailInsightSelectorList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail aws_cloudtrail}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail aws_cloudtrail}
 */
 export class Cloudtrail extends cdktn.TerraformResource {
 
@@ -1045,7 +1045,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Cloudtrail resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cloudtrail to import
-  * @param importFromId The id of the existing Cloudtrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cloudtrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cloudtrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1057,7 +1057,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail aws_cloudtrail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail aws_cloudtrail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1068,7 +1068,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudtrail',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1109,7 +1109,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // cloud_watch_logs_group_arn - computed: false, optional: true, required: false
-  private _cloudWatchLogsGroupArn?: string; 
+  private _cloudWatchLogsGroupArn?: string;
   public get cloudWatchLogsGroupArn() {
     return this.getStringAttribute('cloud_watch_logs_group_arn');
   }
@@ -1125,7 +1125,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // cloud_watch_logs_role_arn - computed: false, optional: true, required: false
-  private _cloudWatchLogsRoleArn?: string; 
+  private _cloudWatchLogsRoleArn?: string;
   public get cloudWatchLogsRoleArn() {
     return this.getStringAttribute('cloud_watch_logs_role_arn');
   }
@@ -1141,7 +1141,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // enable_log_file_validation - computed: false, optional: true, required: false
-  private _enableLogFileValidation?: boolean | cdktn.IResolvable; 
+  private _enableLogFileValidation?: boolean | cdktn.IResolvable;
   public get enableLogFileValidation() {
     return this.getBooleanAttribute('enable_log_file_validation');
   }
@@ -1157,7 +1157,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // enable_logging - computed: false, optional: true, required: false
-  private _enableLogging?: boolean | cdktn.IResolvable; 
+  private _enableLogging?: boolean | cdktn.IResolvable;
   public get enableLogging() {
     return this.getBooleanAttribute('enable_logging');
   }
@@ -1178,7 +1178,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1194,7 +1194,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // include_global_service_events - computed: false, optional: true, required: false
-  private _includeGlobalServiceEvents?: boolean | cdktn.IResolvable; 
+  private _includeGlobalServiceEvents?: boolean | cdktn.IResolvable;
   public get includeGlobalServiceEvents() {
     return this.getBooleanAttribute('include_global_service_events');
   }
@@ -1210,7 +1210,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // is_multi_region_trail - computed: false, optional: true, required: false
-  private _isMultiRegionTrail?: boolean | cdktn.IResolvable; 
+  private _isMultiRegionTrail?: boolean | cdktn.IResolvable;
   public get isMultiRegionTrail() {
     return this.getBooleanAttribute('is_multi_region_trail');
   }
@@ -1226,7 +1226,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // is_organization_trail - computed: false, optional: true, required: false
-  private _isOrganizationTrail?: boolean | cdktn.IResolvable; 
+  private _isOrganizationTrail?: boolean | cdktn.IResolvable;
   public get isOrganizationTrail() {
     return this.getBooleanAttribute('is_organization_trail');
   }
@@ -1242,7 +1242,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1258,7 +1258,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1271,7 +1271,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1287,7 +1287,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -1300,7 +1300,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // s3_key_prefix - computed: false, optional: true, required: false
-  private _s3KeyPrefix?: string; 
+  private _s3KeyPrefix?: string;
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -1321,7 +1321,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // sns_topic_name - computed: false, optional: true, required: false
-  private _snsTopicName?: string; 
+  private _snsTopicName?: string;
   public get snsTopicName() {
     return this.getStringAttribute('sns_topic_name');
   }
@@ -1337,7 +1337,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1353,7 +1353,7 @@ export class Cloudtrail extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

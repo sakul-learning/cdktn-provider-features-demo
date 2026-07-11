@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsInstancesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#id DataAwsInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#id DataAwsInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#instance_state_names DataAwsInstances#instance_state_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#instance_state_names DataAwsInstances#instance_state_names}
   */
   readonly instanceStateNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#instance_tags DataAwsInstances#instance_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#instance_tags DataAwsInstances#instance_tags}
   */
   readonly instanceTags?: { [key: string]: string };
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#region DataAwsInstances#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#region DataAwsInstances#region}
   */
   readonly region?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#filter DataAwsInstances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#filter DataAwsInstances#filter}
   */
   readonly filter?: DataAwsInstancesFilter[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#timeouts DataAwsInstances#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#timeouts DataAwsInstances#timeouts}
   */
   readonly timeouts?: DataAwsInstancesTimeouts;
 }
 export interface DataAwsInstancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#name DataAwsInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#name DataAwsInstances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#values DataAwsInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#values DataAwsInstances#values}
   */
   readonly values: string[];
 }
@@ -139,7 +139,7 @@ export class DataAwsInstancesFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -152,7 +152,7 @@ export class DataAwsInstancesFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -186,7 +186,7 @@ export class DataAwsInstancesFilterList extends cdktn.ComplexList {
 }
 export interface DataAwsInstancesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#read DataAwsInstances#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#read DataAwsInstances#read}
   */
   readonly read?: string;
 }
@@ -263,7 +263,7 @@ export class DataAwsInstancesTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string; 
+  private _read?: string;
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -280,7 +280,7 @@ export class DataAwsInstancesTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances aws_instances}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances aws_instances}
 */
 export class DataAwsInstances extends cdktn.TerraformDataSource {
 
@@ -296,7 +296,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsInstances resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsInstances to import
-  * @param importFromId The id of the existing DataAwsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -308,7 +308,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/instances aws_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/instances aws_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,7 +319,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_instances',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -342,7 +342,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -363,7 +363,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   }
 
   // instance_state_names - computed: false, optional: true, required: false
-  private _instanceStateNames?: string[]; 
+  private _instanceStateNames?: string[];
   public get instanceStateNames() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_state_names'));
   }
@@ -379,7 +379,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   }
 
   // instance_tags - computed: true, optional: true, required: false
-  private _instanceTags?: { [key: string]: string }; 
+  private _instanceTags?: { [key: string]: string };
   public get instanceTags() {
     return this.getStringMapAttribute('instance_tags');
   }
@@ -410,7 +410,7 @@ export class DataAwsInstances extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

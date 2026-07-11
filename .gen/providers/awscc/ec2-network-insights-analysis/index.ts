@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2NetworkInsightsAnalysisConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}
   */
   readonly filterInArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}
   */
   readonly networkInsightsPathId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}
   */
   readonly tags?: Ec2NetworkInsightsAnalysisTags[] | cdktn.IResolvable;
 }
@@ -5148,11 +5148,11 @@ export class Ec2NetworkInsightsAnalysisReturnPathComponentsList extends cdktn.Co
 }
 export interface Ec2NetworkInsightsAnalysisTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}
   */
   readonly value?: string;
 }
@@ -5244,7 +5244,7 @@ export class Ec2NetworkInsightsAnalysisTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5260,7 +5260,7 @@ export class Ec2NetworkInsightsAnalysisTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5297,7 +5297,7 @@ export class Ec2NetworkInsightsAnalysisTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}
 */
 export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
 
@@ -5313,7 +5313,7 @@ export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2NetworkInsightsAnalysis resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkInsightsAnalysis to import
-  * @param importFromId The id of the existing Ec2NetworkInsightsAnalysis that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkInsightsAnalysis that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkInsightsAnalysis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5325,7 +5325,7 @@ export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5336,7 +5336,7 @@ export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_network_insights_analysis',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5368,7 +5368,7 @@ export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
   }
 
   // filter_in_arns - computed: true, optional: true, required: false
-  private _filterInArns?: string[]; 
+  private _filterInArns?: string[];
   public get filterInArns() {
     return this.getListAttribute('filter_in_arns');
   }
@@ -5405,7 +5405,7 @@ export class Ec2NetworkInsightsAnalysis extends cdktn.TerraformResource {
   }
 
   // network_insights_path_id - computed: false, optional: false, required: true
-  private _networkInsightsPathId?: string; 
+  private _networkInsightsPathId?: string;
   public get networkInsightsPathId() {
     return this.getStringAttribute('network_insights_path_id');
   }

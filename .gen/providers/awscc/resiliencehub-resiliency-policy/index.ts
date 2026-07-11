@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface ResiliencehubResiliencyPolicyConfig extends cdktn.TerraformMeta
   /**
   * Data Location Constraint of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#data_location_constraint ResiliencehubResiliencyPolicy#data_location_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#data_location_constraint ResiliencehubResiliencyPolicy#data_location_constraint}
   */
   readonly dataLocationConstraint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#policy ResiliencehubResiliencyPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#policy ResiliencehubResiliencyPolicy#policy}
   */
   readonly policy: ResiliencehubResiliencyPolicyPolicy;
   /**
   * Description of Resiliency Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#policy_description ResiliencehubResiliencyPolicy#policy_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#policy_description ResiliencehubResiliencyPolicy#policy_description}
   */
   readonly policyDescription?: string;
   /**
   * Name of Resiliency Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#policy_name ResiliencehubResiliencyPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#policy_name ResiliencehubResiliencyPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#tags ResiliencehubResiliencyPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#tags ResiliencehubResiliencyPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Resiliency Policy Tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#tier ResiliencehubResiliencyPolicy#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#tier ResiliencehubResiliencyPolicy#tier}
   */
   readonly tier: string;
 }
@@ -44,13 +44,13 @@ export interface ResiliencehubResiliencyPolicyPolicyAz {
   /**
   * RPO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
   */
   readonly rpoInSecs: number;
   /**
   * RTO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
   */
   readonly rtoInSecs: number;
 }
@@ -140,7 +140,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number; 
+  private _rpoInSecs?: number;
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -153,7 +153,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number; 
+  private _rtoInSecs?: number;
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -169,13 +169,13 @@ export interface ResiliencehubResiliencyPolicyPolicyHardware {
   /**
   * RPO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
   */
   readonly rpoInSecs: number;
   /**
   * RTO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
   */
   readonly rtoInSecs: number;
 }
@@ -265,7 +265,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number; 
+  private _rpoInSecs?: number;
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -278,7 +278,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number; 
+  private _rtoInSecs?: number;
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -294,13 +294,13 @@ export interface ResiliencehubResiliencyPolicyPolicyRegion {
   /**
   * RPO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
   */
   readonly rpoInSecs?: number;
   /**
   * RTO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
   */
   readonly rtoInSecs?: number;
 }
@@ -390,7 +390,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rpo_in_secs - computed: true, optional: true, required: false
-  private _rpoInSecs?: number; 
+  private _rpoInSecs?: number;
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -406,7 +406,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rto_in_secs - computed: true, optional: true, required: false
-  private _rtoInSecs?: number; 
+  private _rtoInSecs?: number;
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -425,13 +425,13 @@ export interface ResiliencehubResiliencyPolicyPolicySoftware {
   /**
   * RPO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rpo_in_secs ResiliencehubResiliencyPolicy#rpo_in_secs}
   */
   readonly rpoInSecs: number;
   /**
   * RTO in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#rto_in_secs ResiliencehubResiliencyPolicy#rto_in_secs}
   */
   readonly rtoInSecs: number;
 }
@@ -521,7 +521,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number; 
+  private _rpoInSecs?: number;
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -534,7 +534,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number; 
+  private _rtoInSecs?: number;
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -550,25 +550,25 @@ export interface ResiliencehubResiliencyPolicyPolicy {
   /**
   * Failure Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#az ResiliencehubResiliencyPolicy#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#az ResiliencehubResiliencyPolicy#az}
   */
   readonly az: ResiliencehubResiliencyPolicyPolicyAz;
   /**
   * Failure Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#hardware ResiliencehubResiliencyPolicy#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#hardware ResiliencehubResiliencyPolicy#hardware}
   */
   readonly hardware: ResiliencehubResiliencyPolicyPolicyHardware;
   /**
   * Failure Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#region ResiliencehubResiliencyPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#region ResiliencehubResiliencyPolicy#region}
   */
   readonly region?: ResiliencehubResiliencyPolicyPolicyRegion;
   /**
   * Failure Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#software ResiliencehubResiliencyPolicy#software}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#software ResiliencehubResiliencyPolicy#software}
   */
   readonly softwareAttribute: ResiliencehubResiliencyPolicyPolicySoftware;
 }
@@ -740,7 +740,7 @@ export class ResiliencehubResiliencyPolicyPolicyOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy}
 */
 export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
 
@@ -756,7 +756,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResiliencehubResiliencyPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResiliencehubResiliencyPolicy to import
-  * @param importFromId The id of the existing ResiliencehubResiliencyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResiliencehubResiliencyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResiliencehubResiliencyPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -768,7 +768,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -779,7 +779,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehub_resiliency_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -802,7 +802,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   // ==========
 
   // data_location_constraint - computed: true, optional: true, required: false
-  private _dataLocationConstraint?: string; 
+  private _dataLocationConstraint?: string;
   public get dataLocationConstraint() {
     return this.getStringAttribute('data_location_constraint');
   }
@@ -841,7 +841,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // policy_description - computed: true, optional: true, required: false
-  private _policyDescription?: string; 
+  private _policyDescription?: string;
   public get policyDescription() {
     return this.getStringAttribute('policy_description');
   }
@@ -857,7 +857,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -870,7 +870,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -886,7 +886,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string; 
+  private _tier?: string;
   public get tier() {
     return this.getStringAttribute('tier');
   }

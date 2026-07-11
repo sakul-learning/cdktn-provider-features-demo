@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SagemakerInferenceComponentConfig extends cdktn.TerraformMetaAr
   /**
   * The deployment config for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#deployment_config SagemakerInferenceComponent#deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#deployment_config SagemakerInferenceComponent#deployment_config}
   */
   readonly deploymentConfig?: SagemakerInferenceComponentDeploymentConfig;
   /**
   * The Amazon Resource Name (ARN) of the endpoint the inference component is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#endpoint_arn SagemakerInferenceComponent#endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#endpoint_arn SagemakerInferenceComponent#endpoint_arn}
   */
   readonly endpointArn?: string;
   /**
   * The name of the endpoint the inference component is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#endpoint_name SagemakerInferenceComponent#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#endpoint_name SagemakerInferenceComponent#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * The name of the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#inference_component_name SagemakerInferenceComponent#inference_component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#inference_component_name SagemakerInferenceComponent#inference_component_name}
   */
   readonly inferenceComponentName?: string;
   /**
   * The runtime config for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#runtime_config SagemakerInferenceComponent#runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#runtime_config SagemakerInferenceComponent#runtime_config}
   */
   readonly runtimeConfig?: SagemakerInferenceComponentRuntimeConfig;
   /**
   * The specification for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#specification SagemakerInferenceComponent#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#specification SagemakerInferenceComponent#specification}
   */
   readonly specification: SagemakerInferenceComponentSpecification;
   /**
   * An array of tags to apply to the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#tags SagemakerInferenceComponent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#tags SagemakerInferenceComponent#tags}
   */
   readonly tags?: SagemakerInferenceComponentTags[] | cdktn.IResolvable;
   /**
   * The name of the endpoint variant the inference component is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#variant_name SagemakerInferenceComponent#variant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#variant_name SagemakerInferenceComponent#variant_name}
   */
   readonly variantName?: string;
 }
 export interface SagemakerInferenceComponentDeploymentConfigAutoRollbackConfigurationAlarms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#alarm_name SagemakerInferenceComponent#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#alarm_name SagemakerInferenceComponent#alarm_name}
   */
   readonly alarmName?: string;
 }
@@ -137,7 +137,7 @@ export class SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguratio
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string; 
+  private _alarmName?: string;
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -174,7 +174,7 @@ export class SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguratio
 }
 export interface SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#alarms SagemakerInferenceComponent#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#alarms SagemakerInferenceComponent#alarms}
   */
   readonly alarms?: SagemakerInferenceComponentDeploymentConfigAutoRollbackConfigurationAlarms[] | cdktn.IResolvable;
 }
@@ -268,13 +268,13 @@ export class SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguratio
 }
 export interface SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaximumBatchSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#type SagemakerInferenceComponent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#type SagemakerInferenceComponent#type}
   */
   readonly type?: string;
   /**
   * The number of copies for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
   */
   readonly value?: number;
 }
@@ -364,7 +364,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaxim
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -380,7 +380,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaxim
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -397,13 +397,13 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaxim
 }
 export interface SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#type SagemakerInferenceComponent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#type SagemakerInferenceComponent#type}
   */
   readonly type?: string;
   /**
   * The number of copies for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
   */
   readonly value?: number;
 }
@@ -493,7 +493,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollb
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -509,7 +509,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -528,21 +528,21 @@ export interface SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicy 
   /**
   * Capacity size configuration for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#maximum_batch_size SagemakerInferenceComponent#maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#maximum_batch_size SagemakerInferenceComponent#maximum_batch_size}
   */
   readonly maximumBatchSize?: SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaximumBatchSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#maximum_execution_timeout_in_seconds SagemakerInferenceComponent#maximum_execution_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#maximum_execution_timeout_in_seconds SagemakerInferenceComponent#maximum_execution_timeout_in_seconds}
   */
   readonly maximumExecutionTimeoutInSeconds?: number;
   /**
   * Capacity size configuration for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#rollback_maximum_batch_size SagemakerInferenceComponent#rollback_maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#rollback_maximum_batch_size SagemakerInferenceComponent#rollback_maximum_batch_size}
   */
   readonly rollbackMaximumBatchSize?: SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#wait_interval_in_seconds SagemakerInferenceComponent#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#wait_interval_in_seconds SagemakerInferenceComponent#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -674,7 +674,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyOutpu
   }
 
   // maximum_execution_timeout_in_seconds - computed: true, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number; 
+  private _maximumExecutionTimeoutInSeconds?: number;
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -706,7 +706,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyOutpu
   }
 
   // wait_interval_in_seconds - computed: true, optional: true, required: false
-  private _waitIntervalInSeconds?: number; 
+  private _waitIntervalInSeconds?: number;
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -723,13 +723,13 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyOutpu
 }
 export interface SagemakerInferenceComponentDeploymentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#auto_rollback_configuration SagemakerInferenceComponent#auto_rollback_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#auto_rollback_configuration SagemakerInferenceComponent#auto_rollback_configuration}
   */
   readonly autoRollbackConfiguration?: SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguration;
   /**
   * The rolling update policy for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#rolling_update_policy SagemakerInferenceComponent#rolling_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#rolling_update_policy SagemakerInferenceComponent#rolling_update_policy}
   */
   readonly rollingUpdatePolicy?: SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicy;
 }
@@ -854,7 +854,7 @@ export interface SagemakerInferenceComponentRuntimeConfig {
   /**
   * The number of copies for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}
   */
   readonly copyCount?: number;
 }
@@ -931,7 +931,7 @@ export class SagemakerInferenceComponentRuntimeConfigOutputReference extends cdk
   }
 
   // copy_count - computed: true, optional: true, required: false
-  private _copyCount?: number; 
+  private _copyCount?: number;
   public get copyCount() {
     return this.getNumberAttribute('copy_count');
   }
@@ -958,19 +958,19 @@ export class SagemakerInferenceComponentRuntimeConfigOutputReference extends cdk
 }
 export interface SagemakerInferenceComponentSpecificationComputeResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#max_memory_required_in_mb SagemakerInferenceComponent#max_memory_required_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#max_memory_required_in_mb SagemakerInferenceComponent#max_memory_required_in_mb}
   */
   readonly maxMemoryRequiredInMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#min_memory_required_in_mb SagemakerInferenceComponent#min_memory_required_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#min_memory_required_in_mb SagemakerInferenceComponent#min_memory_required_in_mb}
   */
   readonly minMemoryRequiredInMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#number_of_accelerator_devices_required SagemakerInferenceComponent#number_of_accelerator_devices_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#number_of_accelerator_devices_required SagemakerInferenceComponent#number_of_accelerator_devices_required}
   */
   readonly numberOfAcceleratorDevicesRequired?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#number_of_cpu_cores_required SagemakerInferenceComponent#number_of_cpu_cores_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#number_of_cpu_cores_required SagemakerInferenceComponent#number_of_cpu_cores_required}
   */
   readonly numberOfCpuCoresRequired?: number;
 }
@@ -1086,7 +1086,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // max_memory_required_in_mb - computed: true, optional: true, required: false
-  private _maxMemoryRequiredInMb?: number; 
+  private _maxMemoryRequiredInMb?: number;
   public get maxMemoryRequiredInMb() {
     return this.getNumberAttribute('max_memory_required_in_mb');
   }
@@ -1102,7 +1102,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // min_memory_required_in_mb - computed: true, optional: true, required: false
-  private _minMemoryRequiredInMb?: number; 
+  private _minMemoryRequiredInMb?: number;
   public get minMemoryRequiredInMb() {
     return this.getNumberAttribute('min_memory_required_in_mb');
   }
@@ -1118,7 +1118,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // number_of_accelerator_devices_required - computed: true, optional: true, required: false
-  private _numberOfAcceleratorDevicesRequired?: number; 
+  private _numberOfAcceleratorDevicesRequired?: number;
   public get numberOfAcceleratorDevicesRequired() {
     return this.getNumberAttribute('number_of_accelerator_devices_required');
   }
@@ -1134,7 +1134,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // number_of_cpu_cores_required - computed: true, optional: true, required: false
-  private _numberOfCpuCoresRequired?: number; 
+  private _numberOfCpuCoresRequired?: number;
   public get numberOfCpuCoresRequired() {
     return this.getNumberAttribute('number_of_cpu_cores_required');
   }
@@ -1215,19 +1215,19 @@ export class SagemakerInferenceComponentSpecificationContainerDeployedImageOutpu
 }
 export interface SagemakerInferenceComponentSpecificationContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#artifact_url SagemakerInferenceComponent#artifact_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#artifact_url SagemakerInferenceComponent#artifact_url}
   */
   readonly artifactUrl?: string;
   /**
   * Environment variables to specify on the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#environment SagemakerInferenceComponent#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#environment SagemakerInferenceComponent#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * The image to use for the container that will be materialized for the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#image SagemakerInferenceComponent#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#image SagemakerInferenceComponent#image}
   */
   readonly image?: string;
 }
@@ -1330,7 +1330,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // artifact_url - computed: true, optional: true, required: false
-  private _artifactUrl?: string; 
+  private _artifactUrl?: string;
   public get artifactUrl() {
     return this.getStringAttribute('artifact_url');
   }
@@ -1352,7 +1352,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -1368,7 +1368,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1385,11 +1385,11 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
 }
 export interface SagemakerInferenceComponentSpecificationStartupParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#container_startup_health_check_timeout_in_seconds SagemakerInferenceComponent#container_startup_health_check_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#container_startup_health_check_timeout_in_seconds SagemakerInferenceComponent#container_startup_health_check_timeout_in_seconds}
   */
   readonly containerStartupHealthCheckTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#model_data_download_timeout_in_seconds SagemakerInferenceComponent#model_data_download_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#model_data_download_timeout_in_seconds SagemakerInferenceComponent#model_data_download_timeout_in_seconds}
   */
   readonly modelDataDownloadTimeoutInSeconds?: number;
 }
@@ -1479,7 +1479,7 @@ export class SagemakerInferenceComponentSpecificationStartupParametersOutputRefe
   }
 
   // container_startup_health_check_timeout_in_seconds - computed: true, optional: true, required: false
-  private _containerStartupHealthCheckTimeoutInSeconds?: number; 
+  private _containerStartupHealthCheckTimeoutInSeconds?: number;
   public get containerStartupHealthCheckTimeoutInSeconds() {
     return this.getNumberAttribute('container_startup_health_check_timeout_in_seconds');
   }
@@ -1495,7 +1495,7 @@ export class SagemakerInferenceComponentSpecificationStartupParametersOutputRefe
   }
 
   // model_data_download_timeout_in_seconds - computed: true, optional: true, required: false
-  private _modelDataDownloadTimeoutInSeconds?: number; 
+  private _modelDataDownloadTimeoutInSeconds?: number;
   public get modelDataDownloadTimeoutInSeconds() {
     return this.getNumberAttribute('model_data_download_timeout_in_seconds');
   }
@@ -1514,25 +1514,25 @@ export interface SagemakerInferenceComponentSpecification {
   /**
   * The name of the base inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#base_inference_component_name SagemakerInferenceComponent#base_inference_component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#base_inference_component_name SagemakerInferenceComponent#base_inference_component_name}
   */
   readonly baseInferenceComponentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#compute_resource_requirements SagemakerInferenceComponent#compute_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#compute_resource_requirements SagemakerInferenceComponent#compute_resource_requirements}
   */
   readonly computeResourceRequirements?: SagemakerInferenceComponentSpecificationComputeResourceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#container SagemakerInferenceComponent#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#container SagemakerInferenceComponent#container}
   */
   readonly container?: SagemakerInferenceComponentSpecificationContainer;
   /**
   * The name of the model to use with the inference component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#model_name SagemakerInferenceComponent#model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#model_name SagemakerInferenceComponent#model_name}
   */
   readonly modelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#startup_parameters SagemakerInferenceComponent#startup_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#startup_parameters SagemakerInferenceComponent#startup_parameters}
   */
   readonly startupParameters?: SagemakerInferenceComponentSpecificationStartupParameters;
 }
@@ -1661,7 +1661,7 @@ export class SagemakerInferenceComponentSpecificationOutputReference extends cdk
   }
 
   // base_inference_component_name - computed: true, optional: true, required: false
-  private _baseInferenceComponentName?: string; 
+  private _baseInferenceComponentName?: string;
   public get baseInferenceComponentName() {
     return this.getStringAttribute('base_inference_component_name');
   }
@@ -1709,7 +1709,7 @@ export class SagemakerInferenceComponentSpecificationOutputReference extends cdk
   }
 
   // model_name - computed: true, optional: true, required: false
-  private _modelName?: string; 
+  private _modelName?: string;
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -1744,13 +1744,13 @@ export interface SagemakerInferenceComponentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#key SagemakerInferenceComponent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#key SagemakerInferenceComponent#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#value SagemakerInferenceComponent#value}
   */
   readonly value?: string;
 }
@@ -1842,7 +1842,7 @@ export class SagemakerInferenceComponentTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1858,7 +1858,7 @@ export class SagemakerInferenceComponentTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1895,7 +1895,7 @@ export class SagemakerInferenceComponentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component}
 */
 export class SagemakerInferenceComponent extends cdktn.TerraformResource {
 
@@ -1911,7 +1911,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerInferenceComponent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerInferenceComponent to import
-  * @param importFromId The id of the existing SagemakerInferenceComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerInferenceComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerInferenceComponent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1923,7 +1923,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1934,7 +1934,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_inference_component',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1980,7 +1980,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // endpoint_arn - computed: true, optional: true, required: false
-  private _endpointArn?: string; 
+  private _endpointArn?: string;
   public get endpointArn() {
     return this.getStringAttribute('endpoint_arn');
   }
@@ -1996,7 +1996,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -2024,7 +2024,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // inference_component_name - computed: true, optional: true, required: false
-  private _inferenceComponentName?: string; 
+  private _inferenceComponentName?: string;
   public get inferenceComponentName() {
     return this.getStringAttribute('inference_component_name');
   }
@@ -2095,7 +2095,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // variant_name - computed: true, optional: true, required: false
-  private _variantName?: string; 
+  private _variantName?: string;
   public get variantName() {
     return this.getStringAttribute('variant_name');
   }

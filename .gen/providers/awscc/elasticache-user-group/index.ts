@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ElasticacheUserGroupConfig extends cdktn.TerraformMetaArguments
   /**
   * The target cache engine for the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
   */
   readonly engine: string;
   /**
   * An array of key-value pairs to apply to this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
   */
   readonly tags?: ElasticacheUserGroupTags[] | cdktn.IResolvable;
   /**
   * The ID of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
   */
   readonly userGroupId: string;
   /**
   * List of users associated to this user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
   */
   readonly userIds: string[];
 }
@@ -36,13 +36,13 @@ export interface ElasticacheUserGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class ElasticacheUserGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class ElasticacheUserGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class ElasticacheUserGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}
 */
 export class ElasticacheUserGroup extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheUserGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheUserGroup to import
-  * @param importFromId The id of the existing ElasticacheUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheUserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_user_group awscc_elasticache_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_user_group awscc_elasticache_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_user_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -252,7 +252,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -291,7 +291,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_group_id - computed: false, optional: false, required: true
-  private _userGroupId?: string; 
+  private _userGroupId?: string;
   public get userGroupId() {
     return this.getStringAttribute('user_group_id');
   }
@@ -304,7 +304,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_ids - computed: false, optional: false, required: true
-  private _userIds?: string[]; 
+  private _userIds?: string[];
   public get userIds() {
     return cdktn.Fn.tolist(this.getListAttribute('user_ids'));
   }

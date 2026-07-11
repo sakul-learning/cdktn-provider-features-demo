@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface ConnectTaskTemplateConfig extends cdktn.TerraformMetaArguments 
   /**
   * the client token string in uuid format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
   */
   readonly clientToken?: string;
   /**
   * The constraints for the task template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
   */
   readonly constraints?: ConnectTaskTemplateConstraints;
   /**
   * The identifier of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
   */
   readonly contactFlowArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}
   */
   readonly defaults?: ConnectTaskTemplateDefaults[] | cdktn.IResolvable;
   /**
   * The description of the task template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
   */
   readonly description?: string;
   /**
   * The list of task template's fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
   */
   readonly fields?: ConnectTaskTemplateFields[] | cdktn.IResolvable;
   /**
   * The identifier (arn) of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the task template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
   /**
   * The identifier of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
   */
   readonly selfAssignContactFlowArn?: string;
   /**
   * The status of the task template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
   */
   readonly status?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
   */
   readonly tags?: ConnectTaskTemplateTags[] | cdktn.IResolvable;
 }
@@ -76,7 +76,7 @@ export interface ConnectTaskTemplateConstraintsInvisibleFieldsId {
   /**
   * The name of the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
 }
@@ -153,7 +153,7 @@ export class ConnectTaskTemplateConstraintsInvisibleFieldsIdOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -172,7 +172,7 @@ export interface ConnectTaskTemplateConstraintsInvisibleFields {
   /**
   * the identifier (name) for the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -293,7 +293,7 @@ export interface ConnectTaskTemplateConstraintsReadOnlyFieldsId {
   /**
   * The name of the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
 }
@@ -370,7 +370,7 @@ export class ConnectTaskTemplateConstraintsReadOnlyFieldsIdOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -389,7 +389,7 @@ export interface ConnectTaskTemplateConstraintsReadOnlyFields {
   /**
   * the identifier (name) for the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -510,7 +510,7 @@ export interface ConnectTaskTemplateConstraintsRequiredFieldsId {
   /**
   * The name of the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
 }
@@ -587,7 +587,7 @@ export class ConnectTaskTemplateConstraintsRequiredFieldsIdOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -606,7 +606,7 @@ export interface ConnectTaskTemplateConstraintsRequiredFields {
   /**
   * the identifier (name) for the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -727,19 +727,19 @@ export interface ConnectTaskTemplateConstraints {
   /**
   * The list of the task template's invisible fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
   */
   readonly invisibleFields?: ConnectTaskTemplateConstraintsInvisibleFields[] | cdktn.IResolvable;
   /**
   * The list of the task template's read only fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
   */
   readonly readOnlyFields?: ConnectTaskTemplateConstraintsReadOnlyFields[] | cdktn.IResolvable;
   /**
   * The list of the task template's required fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
   */
   readonly requiredFields?: ConnectTaskTemplateConstraintsRequiredFields[] | cdktn.IResolvable;
 }
@@ -893,7 +893,7 @@ export interface ConnectTaskTemplateDefaultsId {
   /**
   * The name of the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
 }
@@ -970,7 +970,7 @@ export class ConnectTaskTemplateDefaultsIdOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -989,13 +989,13 @@ export interface ConnectTaskTemplateDefaults {
   /**
   * the default value for the task template's field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
   */
   readonly defaultValue?: string;
   /**
   * the identifier (name) for the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ export class ConnectTaskTemplateDefaultsOutputReference extends cdktn.ComplexObj
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -1145,7 +1145,7 @@ export interface ConnectTaskTemplateFieldsId {
   /**
   * The name of the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
   */
   readonly name?: string;
 }
@@ -1222,7 +1222,7 @@ export class ConnectTaskTemplateFieldsIdOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1241,13 +1241,13 @@ export interface ConnectTaskTemplateFields {
   /**
   * The description of the task template's field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
   */
   readonly description?: string;
   /**
   * the identifier (name) for the task template field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1256,13 +1256,13 @@ export interface ConnectTaskTemplateFields {
   /**
   * list of field options to be used with single select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
   */
   readonly singleSelectOptions?: string[];
   /**
   * The type of the task template's field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
   */
   readonly type?: string;
 }
@@ -1380,7 +1380,7 @@ export class ConnectTaskTemplateFieldsOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1412,7 +1412,7 @@ export class ConnectTaskTemplateFieldsOutputReference extends cdktn.ComplexObjec
   }
 
   // single_select_options - computed: true, optional: true, required: false
-  private _singleSelectOptions?: string[]; 
+  private _singleSelectOptions?: string[];
   public get singleSelectOptions() {
     return this.getListAttribute('single_select_options');
   }
@@ -1428,7 +1428,7 @@ export class ConnectTaskTemplateFieldsOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1465,15 +1465,15 @@ export class ConnectTaskTemplateFieldsList extends cdktn.ComplexList {
 }
 export interface ConnectTaskTemplateTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
   */
   readonly value?: string;
 }
@@ -1565,7 +1565,7 @@ export class ConnectTaskTemplateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1581,7 +1581,7 @@ export class ConnectTaskTemplateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1618,7 +1618,7 @@ export class ConnectTaskTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template awscc_connect_task_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template awscc_connect_task_template}
 */
 export class ConnectTaskTemplate extends cdktn.TerraformResource {
 
@@ -1634,7 +1634,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectTaskTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectTaskTemplate to import
-  * @param importFromId The id of the existing ConnectTaskTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectTaskTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectTaskTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1646,7 +1646,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_task_template awscc_connect_task_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_task_template awscc_connect_task_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1657,7 +1657,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_task_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1690,7 +1690,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -1722,7 +1722,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // contact_flow_arn - computed: true, optional: true, required: false
-  private _contactFlowArn?: string; 
+  private _contactFlowArn?: string;
   public get contactFlowArn() {
     return this.getStringAttribute('contact_flow_arn');
   }
@@ -1754,7 +1754,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1791,7 +1791,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -1804,7 +1804,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1820,7 +1820,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // self_assign_contact_flow_arn - computed: true, optional: true, required: false
-  private _selfAssignContactFlowArn?: string; 
+  private _selfAssignContactFlowArn?: string;
   public get selfAssignContactFlowArn() {
     return this.getStringAttribute('self_assign_contact_flow_arn');
   }
@@ -1836,7 +1836,7 @@ export class ConnectTaskTemplate extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

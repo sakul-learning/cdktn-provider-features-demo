@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,125 +10,125 @@ export interface ElasticloadbalancingLoadBalancerConfig extends cdktn.TerraformM
   /**
   * Information about where and how access logs are stored for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#access_logging_policy ElasticloadbalancingLoadBalancer#access_logging_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#access_logging_policy ElasticloadbalancingLoadBalancer#access_logging_policy}
   */
   readonly accessLoggingPolicy?: ElasticloadbalancingLoadBalancerAccessLoggingPolicy;
   /**
   * Information about a policy for application-controlled session stickiness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#app_cookie_stickiness_policy ElasticloadbalancingLoadBalancer#app_cookie_stickiness_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#app_cookie_stickiness_policy ElasticloadbalancingLoadBalancer#app_cookie_stickiness_policy}
   */
   readonly appCookieStickinessPolicy?: ElasticloadbalancingLoadBalancerAppCookieStickinessPolicy[] | cdktn.IResolvable;
   /**
   * The Availability Zones for a load balancer in a default VPC. For a load balancer in a nondefault VPC, specify Subnets instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#availability_zones ElasticloadbalancingLoadBalancer#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#availability_zones ElasticloadbalancingLoadBalancer#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * If enabled, the load balancer allows existing requests to complete before the load balancer shifts traffic away from a deregistered or unhealthy instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#connection_draining_policy ElasticloadbalancingLoadBalancer#connection_draining_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#connection_draining_policy ElasticloadbalancingLoadBalancer#connection_draining_policy}
   */
   readonly connectionDrainingPolicy?: ElasticloadbalancingLoadBalancerConnectionDrainingPolicy;
   /**
   * If enabled, the load balancer allows the connections to remain idle (no data is sent over the connection) for the specified duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#connection_settings ElasticloadbalancingLoadBalancer#connection_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#connection_settings ElasticloadbalancingLoadBalancer#connection_settings}
   */
   readonly connectionSettings?: ElasticloadbalancingLoadBalancerConnectionSettings;
   /**
   * If enabled, the load balancer routes the request traffic evenly across all instances regardless of the Availability Zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#cross_zone ElasticloadbalancingLoadBalancer#cross_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#cross_zone ElasticloadbalancingLoadBalancer#cross_zone}
   */
   readonly crossZone?: boolean | cdktn.IResolvable;
   /**
   * The health check settings to use when evaluating the health of your EC2 instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#health_check ElasticloadbalancingLoadBalancer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#health_check ElasticloadbalancingLoadBalancer#health_check}
   */
   readonly healthCheck?: ElasticloadbalancingLoadBalancerHealthCheck;
   /**
   * The IDs of the instances for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#instances ElasticloadbalancingLoadBalancer#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#instances ElasticloadbalancingLoadBalancer#instances}
   */
   readonly instances?: string[];
   /**
   * Information about a policy for duration-based session stickiness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#lb_cookie_stickiness_policy ElasticloadbalancingLoadBalancer#lb_cookie_stickiness_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#lb_cookie_stickiness_policy ElasticloadbalancingLoadBalancer#lb_cookie_stickiness_policy}
   */
   readonly lbCookieStickinessPolicy?: ElasticloadbalancingLoadBalancerLbCookieStickinessPolicy[] | cdktn.IResolvable;
   /**
   * The Listeners for the load balancer. You can specify at most one listener per port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#listeners ElasticloadbalancingLoadBalancer#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#listeners ElasticloadbalancingLoadBalancer#listeners}
   */
   readonly listeners: ElasticloadbalancingLoadBalancerListeners[] | cdktn.IResolvable;
   /**
   * The name of the load balancer. This name must be unique within your set of load balancers for the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_name ElasticloadbalancingLoadBalancer#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_name ElasticloadbalancingLoadBalancer#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * The policies defined for your Classic Load Balancer. Specify only back-end server policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policies ElasticloadbalancingLoadBalancer#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policies ElasticloadbalancingLoadBalancer#policies}
   */
   readonly policies?: ElasticloadbalancingLoadBalancerPolicies[] | cdktn.IResolvable;
   /**
   * The type of load balancer. Valid only for load balancers in a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#scheme ElasticloadbalancingLoadBalancer#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#scheme ElasticloadbalancingLoadBalancer#scheme}
   */
   readonly scheme?: string;
   /**
   * The security groups for the load balancer. Valid only for load balancers in a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#security_groups ElasticloadbalancingLoadBalancer#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#security_groups ElasticloadbalancingLoadBalancer#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The IDs of the subnets for the load balancer. You can specify at most one subnet per Availability Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#subnets ElasticloadbalancingLoadBalancer#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#subnets ElasticloadbalancingLoadBalancer#subnets}
   */
   readonly subnets?: string[];
   /**
   * The tags associated with a load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#tags ElasticloadbalancingLoadBalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#tags ElasticloadbalancingLoadBalancer#tags}
   */
   readonly tags?: ElasticloadbalancingLoadBalancerTags[] | cdktn.IResolvable;
 }
 export interface ElasticloadbalancingLoadBalancerAccessLoggingPolicy {
   /**
   * The interval for publishing the access logs. You can specify an interval of either 5 minutes or 60 minutes.
-  * 
+  *
   * Default: 60 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#emit_interval ElasticloadbalancingLoadBalancer#emit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#emit_interval ElasticloadbalancingLoadBalancer#emit_interval}
   */
   readonly emitInterval?: number;
   /**
   * Specifies whether access logs are enabled for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#enabled ElasticloadbalancingLoadBalancer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#enabled ElasticloadbalancingLoadBalancer#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The name of the Amazon S3 bucket where the access logs are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#s3_bucket_name ElasticloadbalancingLoadBalancer#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#s3_bucket_name ElasticloadbalancingLoadBalancer#s3_bucket_name}
   */
   readonly s3BucketName?: string;
   /**
   * The logical hierarchy you created for your Amazon S3 bucket, for example `my-bucket-prefix/prod`. If the prefix is not provided, the log is placed at the root level of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#s3_bucket_prefix ElasticloadbalancingLoadBalancer#s3_bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#s3_bucket_prefix ElasticloadbalancingLoadBalancer#s3_bucket_prefix}
   */
   readonly s3BucketPrefix?: string;
 }
@@ -244,7 +244,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // emit_interval - computed: true, optional: true, required: false
-  private _emitInterval?: number; 
+  private _emitInterval?: number;
   public get emitInterval() {
     return this.getNumberAttribute('emit_interval');
   }
@@ -260,7 +260,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -276,7 +276,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -292,7 +292,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // s3_bucket_prefix - computed: true, optional: true, required: false
-  private _s3BucketPrefix?: string; 
+  private _s3BucketPrefix?: string;
   public get s3BucketPrefix() {
     return this.getStringAttribute('s3_bucket_prefix');
   }
@@ -311,13 +311,13 @@ export interface ElasticloadbalancingLoadBalancerAppCookieStickinessPolicy {
   /**
   * The name of the application cookie used for stickiness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#cookie_name ElasticloadbalancingLoadBalancer#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#cookie_name ElasticloadbalancingLoadBalancer#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The mnemonic name for the policy being created. The name must be unique within a set of policies for this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
   */
   readonly policyName?: string;
 }
@@ -409,7 +409,7 @@ export class ElasticloadbalancingLoadBalancerAppCookieStickinessPolicyOutputRefe
   }
 
   // cookie_name - computed: true, optional: true, required: false
-  private _cookieName?: string; 
+  private _cookieName?: string;
   public get cookieName() {
     return this.getStringAttribute('cookie_name');
   }
@@ -425,7 +425,7 @@ export class ElasticloadbalancingLoadBalancerAppCookieStickinessPolicyOutputRefe
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -464,13 +464,13 @@ export interface ElasticloadbalancingLoadBalancerConnectionDrainingPolicy {
   /**
   * Specifies whether connection draining is enabled for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#enabled ElasticloadbalancingLoadBalancer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#enabled ElasticloadbalancingLoadBalancer#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The maximum time, in seconds, to keep the existing connections open before deregistering the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#timeout ElasticloadbalancingLoadBalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#timeout ElasticloadbalancingLoadBalancer#timeout}
   */
   readonly timeout?: number;
 }
@@ -560,7 +560,7 @@ export class ElasticloadbalancingLoadBalancerConnectionDrainingPolicyOutputRefer
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -576,7 +576,7 @@ export class ElasticloadbalancingLoadBalancerConnectionDrainingPolicyOutputRefer
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -595,7 +595,7 @@ export interface ElasticloadbalancingLoadBalancerConnectionSettings {
   /**
   * The time, in seconds, that the connection is allowed to be idle (no data has been sent over the connection) before it is closed by the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#idle_timeout ElasticloadbalancingLoadBalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#idle_timeout ElasticloadbalancingLoadBalancer#idle_timeout}
   */
   readonly idleTimeout?: number;
 }
@@ -672,7 +672,7 @@ export class ElasticloadbalancingLoadBalancerConnectionSettingsOutputReference e
   }
 
   // idle_timeout - computed: true, optional: true, required: false
-  private _idleTimeout?: number; 
+  private _idleTimeout?: number;
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -691,33 +691,33 @@ export interface ElasticloadbalancingLoadBalancerHealthCheck {
   /**
   * The number of consecutive health checks successes required before moving the instance to the `Healthy` state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#healthy_threshold ElasticloadbalancingLoadBalancer#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#healthy_threshold ElasticloadbalancingLoadBalancer#healthy_threshold}
   */
   readonly healthyThreshold?: string;
   /**
   * The approximate interval, in seconds, between health checks of an individual instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#interval ElasticloadbalancingLoadBalancer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#interval ElasticloadbalancingLoadBalancer#interval}
   */
   readonly interval?: string;
   /**
   * The instance being checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#target ElasticloadbalancingLoadBalancer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#target ElasticloadbalancingLoadBalancer#target}
   */
   readonly target?: string;
   /**
   * The amount of time, in seconds, during which no response means a failed health check.
-  * 
+  *
   * This value must be less than the `Interval` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#timeout ElasticloadbalancingLoadBalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#timeout ElasticloadbalancingLoadBalancer#timeout}
   */
   readonly timeout?: string;
   /**
   * The number of consecutive health check failures required before moving the instance to the `Unhealthy` state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#unhealthy_threshold ElasticloadbalancingLoadBalancer#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#unhealthy_threshold ElasticloadbalancingLoadBalancer#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: string;
 }
@@ -846,7 +846,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // healthy_threshold - computed: true, optional: true, required: false
-  private _healthyThreshold?: string; 
+  private _healthyThreshold?: string;
   public get healthyThreshold() {
     return this.getStringAttribute('healthy_threshold');
   }
@@ -862,7 +862,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: string; 
+  private _interval?: string;
   public get interval() {
     return this.getStringAttribute('interval');
   }
@@ -878,7 +878,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -894,7 +894,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: string; 
+  private _timeout?: string;
   public get timeout() {
     return this.getStringAttribute('timeout');
   }
@@ -910,7 +910,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // unhealthy_threshold - computed: true, optional: true, required: false
-  private _unhealthyThreshold?: string; 
+  private _unhealthyThreshold?: string;
   public get unhealthyThreshold() {
     return this.getStringAttribute('unhealthy_threshold');
   }
@@ -929,13 +929,13 @@ export interface ElasticloadbalancingLoadBalancerLbCookieStickinessPolicy {
   /**
   * The time period, in seconds, after which the cookie should be considered stale. If this parameter is not specified, the stickiness session lasts for the duration of the browser session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#cookie_expiration_period ElasticloadbalancingLoadBalancer#cookie_expiration_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#cookie_expiration_period ElasticloadbalancingLoadBalancer#cookie_expiration_period}
   */
   readonly cookieExpirationPeriod?: string;
   /**
   * The name of the policy. This name must be unique within the set of policies for this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
   */
   readonly policyName?: string;
 }
@@ -1027,7 +1027,7 @@ export class ElasticloadbalancingLoadBalancerLbCookieStickinessPolicyOutputRefer
   }
 
   // cookie_expiration_period - computed: true, optional: true, required: false
-  private _cookieExpirationPeriod?: string; 
+  private _cookieExpirationPeriod?: string;
   public get cookieExpirationPeriod() {
     return this.getStringAttribute('cookie_expiration_period');
   }
@@ -1043,7 +1043,7 @@ export class ElasticloadbalancingLoadBalancerLbCookieStickinessPolicyOutputRefer
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -1082,43 +1082,43 @@ export interface ElasticloadbalancingLoadBalancerListeners {
   /**
   * The port on which the instance is listening.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#instance_port ElasticloadbalancingLoadBalancer#instance_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#instance_port ElasticloadbalancingLoadBalancer#instance_port}
   */
   readonly instancePort: string;
   /**
   * The protocol to use for routing traffic to instances: HTTP, HTTPS, TCP, or SSL.
-  * 
+  *
   * If the front-end protocol is TCP or SSL, the back-end protocol must be TCP or SSL. If the front-end protocol is HTTP or HTTPS, the back-end protocol must be HTTP or HTTPS.
-  * 
+  *
   * If there is another listener with the same `InstancePort` whose `InstanceProtocol` is secure, (HTTPS or SSL), the listener's `InstanceProtocol` must also be secure.
-  * 
+  *
   * If there is another listener with the same `InstancePort` whose `InstanceProtocol` is HTTP or TCP, the listener's `InstanceProtocol` must be HTTP or TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#instance_protocol ElasticloadbalancingLoadBalancer#instance_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#instance_protocol ElasticloadbalancingLoadBalancer#instance_protocol}
   */
   readonly instanceProtocol?: string;
   /**
   * The port on which the load balancer is listening. On EC2-VPC, you can specify any port from the range 1-65535. On EC2-Classic, you can specify any port from the following list: 25, 80, 443, 465, 587, 1024-65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_port ElasticloadbalancingLoadBalancer#load_balancer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_port ElasticloadbalancingLoadBalancer#load_balancer_port}
   */
   readonly loadBalancerPort: string;
   /**
   * The names of the policies to associate with the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policy_names ElasticloadbalancingLoadBalancer#policy_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policy_names ElasticloadbalancingLoadBalancer#policy_names}
   */
   readonly policyNames?: string[];
   /**
   * The load balancer transport protocol to use for routing: HTTP, HTTPS, TCP, or SSL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#protocol ElasticloadbalancingLoadBalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#protocol ElasticloadbalancingLoadBalancer#protocol}
   */
   readonly protocol: string;
   /**
   * The Amazon Resource Name (ARN) of the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#ssl_certificate_id ElasticloadbalancingLoadBalancer#ssl_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#ssl_certificate_id ElasticloadbalancingLoadBalancer#ssl_certificate_id}
   */
   readonly sslCertificateId?: string;
 }
@@ -1262,7 +1262,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // instance_port - computed: false, optional: false, required: true
-  private _instancePort?: string; 
+  private _instancePort?: string;
   public get instancePort() {
     return this.getStringAttribute('instance_port');
   }
@@ -1275,7 +1275,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // instance_protocol - computed: true, optional: true, required: false
-  private _instanceProtocol?: string; 
+  private _instanceProtocol?: string;
   public get instanceProtocol() {
     return this.getStringAttribute('instance_protocol');
   }
@@ -1291,7 +1291,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // load_balancer_port - computed: false, optional: false, required: true
-  private _loadBalancerPort?: string; 
+  private _loadBalancerPort?: string;
   public get loadBalancerPort() {
     return this.getStringAttribute('load_balancer_port');
   }
@@ -1304,7 +1304,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // policy_names - computed: true, optional: true, required: false
-  private _policyNames?: string[]; 
+  private _policyNames?: string[];
   public get policyNames() {
     return this.getListAttribute('policy_names');
   }
@@ -1320,7 +1320,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1333,7 +1333,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // ssl_certificate_id - computed: true, optional: true, required: false
-  private _sslCertificateId?: string; 
+  private _sslCertificateId?: string;
   public get sslCertificateId() {
     return this.getStringAttribute('ssl_certificate_id');
   }
@@ -1370,11 +1370,11 @@ export class ElasticloadbalancingLoadBalancerListenersList extends cdktn.Complex
 }
 export interface ElasticloadbalancingLoadBalancerPoliciesAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#name ElasticloadbalancingLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#name ElasticloadbalancingLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#value ElasticloadbalancingLoadBalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#value ElasticloadbalancingLoadBalancer#value}
   */
   readonly value?: string;
 }
@@ -1466,7 +1466,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesAttributesOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1482,7 +1482,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesAttributesOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1521,31 +1521,31 @@ export interface ElasticloadbalancingLoadBalancerPolicies {
   /**
   * The policy attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#attributes ElasticloadbalancingLoadBalancer#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#attributes ElasticloadbalancingLoadBalancer#attributes}
   */
   readonly attributes?: ElasticloadbalancingLoadBalancerPoliciesAttributes[] | cdktn.IResolvable;
   /**
   * The instance ports for the policy. Required only for some policy types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#instance_ports ElasticloadbalancingLoadBalancer#instance_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#instance_ports ElasticloadbalancingLoadBalancer#instance_ports}
   */
   readonly instancePorts?: string[];
   /**
   * The load balancer ports for the policy. Required only for some policy types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_ports ElasticloadbalancingLoadBalancer#load_balancer_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#load_balancer_ports ElasticloadbalancingLoadBalancer#load_balancer_ports}
   */
   readonly loadBalancerPorts?: string[];
   /**
   * The name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policy_name ElasticloadbalancingLoadBalancer#policy_name}
   */
   readonly policyName?: string;
   /**
   * The name of the policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#policy_type ElasticloadbalancingLoadBalancer#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#policy_type ElasticloadbalancingLoadBalancer#policy_type}
   */
   readonly policyType?: string;
 }
@@ -1692,7 +1692,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // instance_ports - computed: true, optional: true, required: false
-  private _instancePorts?: string[]; 
+  private _instancePorts?: string[];
   public get instancePorts() {
     return this.getListAttribute('instance_ports');
   }
@@ -1708,7 +1708,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // load_balancer_ports - computed: true, optional: true, required: false
-  private _loadBalancerPorts?: string[]; 
+  private _loadBalancerPorts?: string[];
   public get loadBalancerPorts() {
     return this.getListAttribute('load_balancer_ports');
   }
@@ -1724,7 +1724,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -1740,7 +1740,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string; 
+  private _policyType?: string;
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -1838,13 +1838,13 @@ export interface ElasticloadbalancingLoadBalancerTags {
   /**
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with `aws:`. You can use any of the following characters: the set of Unicode letters, digits, whitespace, `_`, `.`, `/`, `=`, `+`, and `-`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#key ElasticloadbalancingLoadBalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#key ElasticloadbalancingLoadBalancer#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#value ElasticloadbalancingLoadBalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#value ElasticloadbalancingLoadBalancer#value}
   */
   readonly value?: string;
 }
@@ -1936,7 +1936,7 @@ export class ElasticloadbalancingLoadBalancerTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1952,7 +1952,7 @@ export class ElasticloadbalancingLoadBalancerTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1989,7 +1989,7 @@ export class ElasticloadbalancingLoadBalancerTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer}
 */
 export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
 
@@ -2005,7 +2005,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticloadbalancingLoadBalancer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticloadbalancingLoadBalancer to import
-  * @param importFromId The id of the existing ElasticloadbalancingLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticloadbalancingLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticloadbalancingLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2017,7 +2017,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2028,7 +2028,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticloadbalancing_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2093,7 +2093,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[]; 
+  private _availabilityZones?: string[];
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -2151,7 +2151,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // cross_zone - computed: true, optional: true, required: false
-  private _crossZone?: boolean | cdktn.IResolvable; 
+  private _crossZone?: boolean | cdktn.IResolvable;
   public get crossZone() {
     return this.getBooleanAttribute('cross_zone');
   }
@@ -2193,7 +2193,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
+  private _instances?: string[];
   public get instances() {
     return this.getListAttribute('instances');
   }
@@ -2238,7 +2238,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // load_balancer_name - computed: true, optional: true, required: false
-  private _loadBalancerName?: string; 
+  private _loadBalancerName?: string;
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -2270,7 +2270,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // scheme - computed: true, optional: true, required: false
-  private _scheme?: string; 
+  private _scheme?: string;
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -2286,7 +2286,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -2308,7 +2308,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }

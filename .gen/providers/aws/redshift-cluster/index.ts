@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,186 +8,186 @@ import * as cdktn from 'cdktn';
 
 export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#allow_version_upgrade RedshiftCluster#allow_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#allow_version_upgrade RedshiftCluster#allow_version_upgrade}
   */
   readonly allowVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#apply_immediately RedshiftCluster#apply_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#apply_immediately RedshiftCluster#apply_immediately}
   */
   readonly applyImmediately?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#aqua_configuration_status RedshiftCluster#aqua_configuration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#aqua_configuration_status RedshiftCluster#aqua_configuration_status}
   */
   readonly aquaConfigurationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#automated_snapshot_retention_period RedshiftCluster#automated_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#automated_snapshot_retention_period RedshiftCluster#automated_snapshot_retention_period}
   */
   readonly automatedSnapshotRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#availability_zone RedshiftCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#availability_zone RedshiftCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#availability_zone_relocation_enabled RedshiftCluster#availability_zone_relocation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#availability_zone_relocation_enabled RedshiftCluster#availability_zone_relocation_enabled}
   */
   readonly availabilityZoneRelocationEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#cluster_identifier RedshiftCluster#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#cluster_identifier RedshiftCluster#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#cluster_parameter_group_name RedshiftCluster#cluster_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#cluster_parameter_group_name RedshiftCluster#cluster_parameter_group_name}
   */
   readonly clusterParameterGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#cluster_subnet_group_name RedshiftCluster#cluster_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#cluster_subnet_group_name RedshiftCluster#cluster_subnet_group_name}
   */
   readonly clusterSubnetGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#cluster_type RedshiftCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#cluster_type RedshiftCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#cluster_version RedshiftCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#cluster_version RedshiftCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#database_name RedshiftCluster#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#database_name RedshiftCluster#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#default_iam_role_arn RedshiftCluster#default_iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#default_iam_role_arn RedshiftCluster#default_iam_role_arn}
   */
   readonly defaultIamRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#elastic_ip RedshiftCluster#elastic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#elastic_ip RedshiftCluster#elastic_ip}
   */
   readonly elasticIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#encrypted RedshiftCluster#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#encrypted RedshiftCluster#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#enhanced_vpc_routing RedshiftCluster#enhanced_vpc_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#enhanced_vpc_routing RedshiftCluster#enhanced_vpc_routing}
   */
   readonly enhancedVpcRouting?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#final_snapshot_identifier RedshiftCluster#final_snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#final_snapshot_identifier RedshiftCluster#final_snapshot_identifier}
   */
   readonly finalSnapshotIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#iam_roles RedshiftCluster#iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#iam_roles RedshiftCluster#iam_roles}
   */
   readonly iamRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#id RedshiftCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#id RedshiftCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#kms_key_id RedshiftCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#kms_key_id RedshiftCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#maintenance_track_name RedshiftCluster#maintenance_track_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#maintenance_track_name RedshiftCluster#maintenance_track_name}
   */
   readonly maintenanceTrackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#manage_master_password RedshiftCluster#manage_master_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#manage_master_password RedshiftCluster#manage_master_password}
   */
   readonly manageMasterPassword?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#manual_snapshot_retention_period RedshiftCluster#manual_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#manual_snapshot_retention_period RedshiftCluster#manual_snapshot_retention_period}
   */
   readonly manualSnapshotRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#master_password RedshiftCluster#master_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#master_password RedshiftCluster#master_password}
   */
   readonly masterPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#master_password_secret_kms_key_id RedshiftCluster#master_password_secret_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#master_password_secret_kms_key_id RedshiftCluster#master_password_secret_kms_key_id}
   */
   readonly masterPasswordSecretKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#master_password_wo RedshiftCluster#master_password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#master_password_wo RedshiftCluster#master_password_wo}
   */
   readonly masterPasswordWo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#master_password_wo_version RedshiftCluster#master_password_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#master_password_wo_version RedshiftCluster#master_password_wo_version}
   */
   readonly masterPasswordWoVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#master_username RedshiftCluster#master_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#master_username RedshiftCluster#master_username}
   */
   readonly masterUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#multi_az RedshiftCluster#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#multi_az RedshiftCluster#multi_az}
   */
   readonly multiAz?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#node_type RedshiftCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#node_type RedshiftCluster#node_type}
   */
   readonly nodeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#number_of_nodes RedshiftCluster#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#number_of_nodes RedshiftCluster#number_of_nodes}
   */
   readonly numberOfNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#owner_account RedshiftCluster#owner_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#owner_account RedshiftCluster#owner_account}
   */
   readonly ownerAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#port RedshiftCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#port RedshiftCluster#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#preferred_maintenance_window RedshiftCluster#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#preferred_maintenance_window RedshiftCluster#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#publicly_accessible RedshiftCluster#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#publicly_accessible RedshiftCluster#publicly_accessible}
   */
   readonly publiclyAccessible?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#region RedshiftCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#region RedshiftCluster#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#skip_final_snapshot RedshiftCluster#skip_final_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#skip_final_snapshot RedshiftCluster#skip_final_snapshot}
   */
   readonly skipFinalSnapshot?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#snapshot_arn RedshiftCluster#snapshot_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#snapshot_arn RedshiftCluster#snapshot_arn}
   */
   readonly snapshotArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#snapshot_cluster_identifier RedshiftCluster#snapshot_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#snapshot_cluster_identifier RedshiftCluster#snapshot_cluster_identifier}
   */
   readonly snapshotClusterIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#snapshot_identifier RedshiftCluster#snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#snapshot_identifier RedshiftCluster#snapshot_identifier}
   */
   readonly snapshotIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#tags RedshiftCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#tags RedshiftCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#tags_all RedshiftCluster#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#tags_all RedshiftCluster#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#vpc_security_group_ids RedshiftCluster#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#vpc_security_group_ids RedshiftCluster#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#timeouts RedshiftCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#timeouts RedshiftCluster#timeouts}
   */
   readonly timeouts?: RedshiftClusterTimeouts;
 }
@@ -278,15 +278,15 @@ export class RedshiftClusterClusterNodesList extends cdktn.ComplexList {
 }
 export interface RedshiftClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#create RedshiftCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#create RedshiftCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#delete RedshiftCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#delete RedshiftCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#update RedshiftCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#update RedshiftCluster#update}
   */
   readonly update?: string;
 }
@@ -389,7 +389,7 @@ export class RedshiftClusterTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -405,7 +405,7 @@ export class RedshiftClusterTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -421,7 +421,7 @@ export class RedshiftClusterTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -438,7 +438,7 @@ export class RedshiftClusterTimeoutsOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster aws_redshift_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster aws_redshift_cluster}
 */
 export class RedshiftCluster extends cdktn.TerraformResource {
 
@@ -454,7 +454,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftCluster to import
-  * @param importFromId The id of the existing RedshiftCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -466,7 +466,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_cluster aws_redshift_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_cluster aws_redshift_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,7 +477,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
       terraformResourceType: 'aws_redshift_cluster',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -539,7 +539,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   // ==========
 
   // allow_version_upgrade - computed: false, optional: true, required: false
-  private _allowVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _allowVersionUpgrade?: boolean | cdktn.IResolvable;
   public get allowVersionUpgrade() {
     return this.getBooleanAttribute('allow_version_upgrade');
   }
@@ -555,7 +555,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // apply_immediately - computed: false, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable; 
+  private _applyImmediately?: boolean | cdktn.IResolvable;
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -571,7 +571,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // aqua_configuration_status - computed: true, optional: true, required: false
-  private _aquaConfigurationStatus?: string; 
+  private _aquaConfigurationStatus?: string;
   public get aquaConfigurationStatus() {
     return this.getStringAttribute('aqua_configuration_status');
   }
@@ -592,7 +592,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // automated_snapshot_retention_period - computed: false, optional: true, required: false
-  private _automatedSnapshotRetentionPeriod?: number; 
+  private _automatedSnapshotRetentionPeriod?: number;
   public get automatedSnapshotRetentionPeriod() {
     return this.getNumberAttribute('automated_snapshot_retention_period');
   }
@@ -608,7 +608,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -624,7 +624,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_relocation_enabled - computed: false, optional: true, required: false
-  private _availabilityZoneRelocationEnabled?: boolean | cdktn.IResolvable; 
+  private _availabilityZoneRelocationEnabled?: boolean | cdktn.IResolvable;
   public get availabilityZoneRelocationEnabled() {
     return this.getBooleanAttribute('availability_zone_relocation_enabled');
   }
@@ -640,7 +640,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -664,7 +664,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _clusterParameterGroupName?: string; 
+  private _clusterParameterGroupName?: string;
   public get clusterParameterGroupName() {
     return this.getStringAttribute('cluster_parameter_group_name');
   }
@@ -690,7 +690,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_subnet_group_name - computed: true, optional: true, required: false
-  private _clusterSubnetGroupName?: string; 
+  private _clusterSubnetGroupName?: string;
   public get clusterSubnetGroupName() {
     return this.getStringAttribute('cluster_subnet_group_name');
   }
@@ -706,7 +706,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_type - computed: true, optional: true, required: false
-  private _clusterType?: string; 
+  private _clusterType?: string;
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -722,7 +722,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_version - computed: false, optional: true, required: false
-  private _clusterVersion?: string; 
+  private _clusterVersion?: string;
   public get clusterVersion() {
     return this.getStringAttribute('cluster_version');
   }
@@ -738,7 +738,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -754,7 +754,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // default_iam_role_arn - computed: true, optional: true, required: false
-  private _defaultIamRoleArn?: string; 
+  private _defaultIamRoleArn?: string;
   public get defaultIamRoleArn() {
     return this.getStringAttribute('default_iam_role_arn');
   }
@@ -775,7 +775,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // elastic_ip - computed: false, optional: true, required: false
-  private _elasticIp?: string; 
+  private _elasticIp?: string;
   public get elasticIp() {
     return this.getStringAttribute('elastic_ip');
   }
@@ -791,7 +791,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: string; 
+  private _encrypted?: string;
   public get encrypted() {
     return this.getStringAttribute('encrypted');
   }
@@ -812,7 +812,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // enhanced_vpc_routing - computed: true, optional: true, required: false
-  private _enhancedVpcRouting?: boolean | cdktn.IResolvable; 
+  private _enhancedVpcRouting?: boolean | cdktn.IResolvable;
   public get enhancedVpcRouting() {
     return this.getBooleanAttribute('enhanced_vpc_routing');
   }
@@ -828,7 +828,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // final_snapshot_identifier - computed: false, optional: true, required: false
-  private _finalSnapshotIdentifier?: string; 
+  private _finalSnapshotIdentifier?: string;
   public get finalSnapshotIdentifier() {
     return this.getStringAttribute('final_snapshot_identifier');
   }
@@ -844,7 +844,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[]; 
+  private _iamRoles?: string[];
   public get iamRoles() {
     return cdktn.Fn.tolist(this.getListAttribute('iam_roles'));
   }
@@ -860,7 +860,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -876,7 +876,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -892,7 +892,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // maintenance_track_name - computed: false, optional: true, required: false
-  private _maintenanceTrackName?: string; 
+  private _maintenanceTrackName?: string;
   public get maintenanceTrackName() {
     return this.getStringAttribute('maintenance_track_name');
   }
@@ -908,7 +908,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manage_master_password - computed: false, optional: true, required: false
-  private _manageMasterPassword?: boolean | cdktn.IResolvable; 
+  private _manageMasterPassword?: boolean | cdktn.IResolvable;
   public get manageMasterPassword() {
     return this.getBooleanAttribute('manage_master_password');
   }
@@ -924,7 +924,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manual_snapshot_retention_period - computed: false, optional: true, required: false
-  private _manualSnapshotRetentionPeriod?: number; 
+  private _manualSnapshotRetentionPeriod?: number;
   public get manualSnapshotRetentionPeriod() {
     return this.getNumberAttribute('manual_snapshot_retention_period');
   }
@@ -940,7 +940,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password - computed: false, optional: true, required: false
-  private _masterPassword?: string; 
+  private _masterPassword?: string;
   public get masterPassword() {
     return this.getStringAttribute('master_password');
   }
@@ -961,7 +961,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _masterPasswordSecretKmsKeyId?: string; 
+  private _masterPasswordSecretKmsKeyId?: string;
   public get masterPasswordSecretKmsKeyId() {
     return this.getStringAttribute('master_password_secret_kms_key_id');
   }
@@ -977,7 +977,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password_wo - computed: false, optional: true, required: false
-  private _masterPasswordWo?: string; 
+  private _masterPasswordWo?: string;
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -997,7 +997,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password_wo_version - computed: false, optional: true, required: false
-  private _masterPasswordWoVersion?: number; 
+  private _masterPasswordWoVersion?: number;
   public get masterPasswordWoVersion() {
     return this.getNumberAttribute('master_password_wo_version');
   }
@@ -1013,7 +1013,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_username - computed: false, optional: true, required: false
-  private _masterUsername?: string; 
+  private _masterUsername?: string;
   public get masterUsername() {
     return this.getStringAttribute('master_username');
   }
@@ -1029,7 +1029,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // multi_az - computed: false, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable; 
+  private _multiAz?: boolean | cdktn.IResolvable;
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -1045,7 +1045,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string; 
+  private _nodeType?: string;
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -1058,7 +1058,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // number_of_nodes - computed: false, optional: true, required: false
-  private _numberOfNodes?: number; 
+  private _numberOfNodes?: number;
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -1074,7 +1074,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // owner_account - computed: false, optional: true, required: false
-  private _ownerAccount?: string; 
+  private _ownerAccount?: string;
   public get ownerAccount() {
     return this.getStringAttribute('owner_account');
   }
@@ -1090,7 +1090,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1106,7 +1106,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1122,7 +1122,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: false, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
+  private _publiclyAccessible?: boolean | cdktn.IResolvable;
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -1138,7 +1138,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1154,7 +1154,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // skip_final_snapshot - computed: false, optional: true, required: false
-  private _skipFinalSnapshot?: boolean | cdktn.IResolvable; 
+  private _skipFinalSnapshot?: boolean | cdktn.IResolvable;
   public get skipFinalSnapshot() {
     return this.getBooleanAttribute('skip_final_snapshot');
   }
@@ -1170,7 +1170,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_arn - computed: false, optional: true, required: false
-  private _snapshotArn?: string; 
+  private _snapshotArn?: string;
   public get snapshotArn() {
     return this.getStringAttribute('snapshot_arn');
   }
@@ -1186,7 +1186,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_cluster_identifier - computed: false, optional: true, required: false
-  private _snapshotClusterIdentifier?: string; 
+  private _snapshotClusterIdentifier?: string;
   public get snapshotClusterIdentifier() {
     return this.getStringAttribute('snapshot_cluster_identifier');
   }
@@ -1202,7 +1202,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: false, optional: true, required: false
-  private _snapshotIdentifier?: string; 
+  private _snapshotIdentifier?: string;
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -1218,7 +1218,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1234,7 +1234,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1250,7 +1250,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }

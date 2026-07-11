@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface Ec2TrafficMirrorFilterRuleConfig extends cdktn.TerraformMetaArg
   /**
   * The description of the Traffic Mirror Filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#description Ec2TrafficMirrorFilterRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#description Ec2TrafficMirrorFilterRule#description}
   */
   readonly description?: string;
   /**
   * The destination CIDR block to assign to the Traffic Mirror rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_cidr_block Ec2TrafficMirrorFilterRule#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_cidr_block Ec2TrafficMirrorFilterRule#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
   * The destination port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_port_range Ec2TrafficMirrorFilterRule#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_port_range Ec2TrafficMirrorFilterRule#destination_port_range}
   */
   readonly destinationPortRange?: Ec2TrafficMirrorFilterRuleDestinationPortRange;
   /**
   * The number of protocol, for example 17 (UDP), to assign to the Traffic Mirror rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#protocol Ec2TrafficMirrorFilterRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#protocol Ec2TrafficMirrorFilterRule#protocol}
   */
   readonly protocol?: number;
   /**
   * The action to take on the filtered traffic (accept/reject).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_action Ec2TrafficMirrorFilterRule#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_action Ec2TrafficMirrorFilterRule#rule_action}
   */
   readonly ruleAction: string;
   /**
   * The number of the Traffic Mirror rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_number Ec2TrafficMirrorFilterRule#rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_number Ec2TrafficMirrorFilterRule#rule_number}
   */
   readonly ruleNumber: number;
   /**
   * The source CIDR block to assign to the Traffic Mirror Filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#source_cidr_block Ec2TrafficMirrorFilterRule#source_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#source_cidr_block Ec2TrafficMirrorFilterRule#source_cidr_block}
   */
   readonly sourceCidrBlock: string;
   /**
   * The source port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#source_port_range Ec2TrafficMirrorFilterRule#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#source_port_range Ec2TrafficMirrorFilterRule#source_port_range}
   */
   readonly sourcePortRange?: Ec2TrafficMirrorFilterRuleSourcePortRange;
   /**
   * Any tags assigned to the Traffic Mirror Filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#tags Ec2TrafficMirrorFilterRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#tags Ec2TrafficMirrorFilterRule#tags}
   */
   readonly tags?: Ec2TrafficMirrorFilterRuleTags[] | cdktn.IResolvable;
   /**
   * The direction of traffic (ingress/egress).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_direction Ec2TrafficMirrorFilterRule#traffic_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_direction Ec2TrafficMirrorFilterRule#traffic_direction}
   */
   readonly trafficDirection: string;
   /**
   * The ID of the filter that this rule is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_mirror_filter_id Ec2TrafficMirrorFilterRule#traffic_mirror_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_mirror_filter_id Ec2TrafficMirrorFilterRule#traffic_mirror_filter_id}
   */
   readonly trafficMirrorFilterId: string;
 }
@@ -78,13 +78,13 @@ export interface Ec2TrafficMirrorFilterRuleDestinationPortRange {
   /**
   * The first port in the Traffic Mirror port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
   */
   readonly fromPort?: number;
   /**
   * The last port in the Traffic Mirror port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
   */
   readonly toPort?: number;
 }
@@ -174,7 +174,7 @@ export class Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference exten
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -190,7 +190,7 @@ export class Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference exten
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -209,13 +209,13 @@ export interface Ec2TrafficMirrorFilterRuleSourcePortRange {
   /**
   * The first port in the Traffic Mirror port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
   */
   readonly fromPort?: number;
   /**
   * The last port in the Traffic Mirror port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
   */
   readonly toPort?: number;
 }
@@ -305,7 +305,7 @@ export class Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference extends cd
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -321,7 +321,7 @@ export class Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference extends cd
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -338,11 +338,11 @@ export class Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference extends cd
 }
 export interface Ec2TrafficMirrorFilterRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}
   */
   readonly value?: string;
 }
@@ -434,7 +434,7 @@ export class Ec2TrafficMirrorFilterRuleTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -450,7 +450,7 @@ export class Ec2TrafficMirrorFilterRuleTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -487,7 +487,7 @@ export class Ec2TrafficMirrorFilterRuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule}
 */
 export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
 
@@ -503,7 +503,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2TrafficMirrorFilterRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2TrafficMirrorFilterRule to import
-  * @param importFromId The id of the existing Ec2TrafficMirrorFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2TrafficMirrorFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2TrafficMirrorFilterRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -515,7 +515,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,7 +526,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_traffic_mirror_filter_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -554,7 +554,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -570,7 +570,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string; 
+  private _destinationCidrBlock?: string;
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -604,7 +604,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: number; 
+  private _protocol?: number;
   public get protocol() {
     return this.getNumberAttribute('protocol');
   }
@@ -620,7 +620,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // rule_action - computed: false, optional: false, required: true
-  private _ruleAction?: string; 
+  private _ruleAction?: string;
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -633,7 +633,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // rule_number - computed: false, optional: false, required: true
-  private _ruleNumber?: number; 
+  private _ruleNumber?: number;
   public get ruleNumber() {
     return this.getNumberAttribute('rule_number');
   }
@@ -646,7 +646,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // source_cidr_block - computed: false, optional: false, required: true
-  private _sourceCidrBlock?: string; 
+  private _sourceCidrBlock?: string;
   public get sourceCidrBlock() {
     return this.getStringAttribute('source_cidr_block');
   }
@@ -691,7 +691,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // traffic_direction - computed: false, optional: false, required: true
-  private _trafficDirection?: string; 
+  private _trafficDirection?: string;
   public get trafficDirection() {
     return this.getStringAttribute('traffic_direction');
   }
@@ -704,7 +704,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // traffic_mirror_filter_id - computed: false, optional: false, required: true
-  private _trafficMirrorFilterId?: string; 
+  private _trafficMirrorFilterId?: string;
   public get trafficMirrorFilterId() {
     return this.getStringAttribute('traffic_mirror_filter_id');
   }

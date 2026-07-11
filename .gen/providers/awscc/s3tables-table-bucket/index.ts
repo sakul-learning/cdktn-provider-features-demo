@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface S3TablesTableBucketConfig extends cdktn.TerraformMetaArguments 
   /**
   * Specifies encryption settings for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3TablesTableBucketEncryptionConfiguration;
   /**
   * Settings governing the Metric configuration for the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
   */
   readonly metricsConfiguration?: S3TablesTableBucketMetricsConfiguration;
   /**
   * Specifies replication configuration for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
   */
   readonly replicationConfiguration?: S3TablesTableBucketReplicationConfiguration;
   /**
   * Specifies storage class settings for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
   */
   readonly storageClassConfiguration?: S3TablesTableBucketStorageClassConfiguration;
   /**
   * A name for the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
   */
   readonly tableBucketName: string;
   /**
   * User tags (key-value pairs) to associate with the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
   */
   readonly tags?: S3TablesTableBucketTags[] | cdktn.IResolvable;
   /**
   * Settings governing the Unreferenced File Removal maintenance action. Unreferenced file removal identifies and deletes all objects that are not referenced by any table snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
   */
   readonly unreferencedFileRemoval?: S3TablesTableBucketUnreferencedFileRemoval;
 }
@@ -54,13 +54,13 @@ export interface S3TablesTableBucketEncryptionConfiguration {
   /**
   * ARN of the KMS key to use for encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Server-side encryption algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -150,7 +150,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -166,7 +166,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string; 
+  private _sseAlgorithm?: string;
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -185,7 +185,7 @@ export interface S3TablesTableBucketMetricsConfiguration {
   /**
   * Indicates whether Metrics are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
   */
   readonly status?: string;
 }
@@ -262,7 +262,7 @@ export class S3TablesTableBucketMetricsConfigurationOutputReference extends cdkt
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -281,7 +281,7 @@ export interface S3TablesTableBucketReplicationConfigurationRulesDestinations {
   /**
   * The ARN of the destination table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
   */
   readonly destinationTableBucketArn?: string;
 }
@@ -360,7 +360,7 @@ export class S3TablesTableBucketReplicationConfigurationRulesDestinationsOutputR
   }
 
   // destination_table_bucket_arn - computed: true, optional: true, required: false
-  private _destinationTableBucketArn?: string; 
+  private _destinationTableBucketArn?: string;
   public get destinationTableBucketArn() {
     return this.getStringAttribute('destination_table_bucket_arn');
   }
@@ -399,7 +399,7 @@ export interface S3TablesTableBucketReplicationConfigurationRules {
   /**
   * List of replication destinations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
   */
   readonly destinations?: S3TablesTableBucketReplicationConfigurationRulesDestinations[] | cdktn.IResolvable;
 }
@@ -517,13 +517,13 @@ export interface S3TablesTableBucketReplicationConfiguration {
   /**
   * The ARN of the IAM role to use for replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
   */
   readonly role?: string;
   /**
   * List of replication rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
   */
   readonly rules?: S3TablesTableBucketReplicationConfigurationRules[] | cdktn.IResolvable;
 }
@@ -613,7 +613,7 @@ export class S3TablesTableBucketReplicationConfigurationOutputReference extends 
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -648,7 +648,7 @@ export interface S3TablesTableBucketStorageClassConfiguration {
   /**
   * The storage class for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -725,7 +725,7 @@ export class S3TablesTableBucketStorageClassConfigurationOutputReference extends
   }
 
   // storage_class - computed: true, optional: true, required: false
-  private _storageClass?: string; 
+  private _storageClass?: string;
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -744,13 +744,13 @@ export interface S3TablesTableBucketTags {
   /**
   * Tag key must be between 1 to 128 characters in length. Tag key cannot start with 'aws:' and can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#key S3TablesTableBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#key S3TablesTableBucket#key}
   */
   readonly key?: string;
   /**
   * Tag value must be between 0 to 256 characters in length. Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#value S3TablesTableBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#value S3TablesTableBucket#value}
   */
   readonly value?: string;
 }
@@ -842,7 +842,7 @@ export class S3TablesTableBucketTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -858,7 +858,7 @@ export class S3TablesTableBucketTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -897,19 +897,19 @@ export interface S3TablesTableBucketUnreferencedFileRemoval {
   /**
   * S3 permanently deletes noncurrent objects after the number of days specified by the NoncurrentDays property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
   */
   readonly noncurrentDays?: number;
   /**
   * Indicates whether the Unreferenced File Removal maintenance action is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
   */
   readonly status?: string;
   /**
   * For any object not referenced by your table and older than the UnreferencedDays property, S3 creates a delete marker and marks the object version as noncurrent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
   */
   readonly unreferencedDays?: number;
 }
@@ -1012,7 +1012,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // noncurrent_days - computed: true, optional: true, required: false
-  private _noncurrentDays?: number; 
+  private _noncurrentDays?: number;
   public get noncurrentDays() {
     return this.getNumberAttribute('noncurrent_days');
   }
@@ -1028,7 +1028,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1044,7 +1044,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // unreferenced_days - computed: true, optional: true, required: false
-  private _unreferencedDays?: number; 
+  private _unreferencedDays?: number;
   public get unreferencedDays() {
     return this.getNumberAttribute('unreferenced_days');
   }
@@ -1061,7 +1061,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}
 */
 export class S3TablesTableBucket extends cdktn.TerraformResource {
 
@@ -1077,7 +1077,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3TablesTableBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3TablesTableBucket to import
-  * @param importFromId The id of the existing S3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3TablesTableBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1089,7 +1089,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1100,7 +1100,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3tables_table_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1198,7 +1198,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // table_bucket_name - computed: false, optional: false, required: true
-  private _tableBucketName?: string; 
+  private _tableBucketName?: string;
   public get tableBucketName() {
     return this.getStringAttribute('table_bucket_name');
   }

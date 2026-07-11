@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface QbusinessWebExperienceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#application_id QbusinessWebExperience#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#browser_extension_configuration QbusinessWebExperience#browser_extension_configuration}
   */
   readonly browserExtensionConfiguration?: QbusinessWebExperienceBrowserExtensionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#customization_configuration QbusinessWebExperience#customization_configuration}
   */
   readonly customizationConfiguration?: QbusinessWebExperienceCustomizationConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#identity_provider_configuration QbusinessWebExperience#identity_provider_configuration}
   */
   readonly identityProviderConfiguration?: QbusinessWebExperienceIdentityProviderConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#origins QbusinessWebExperience#origins}
   */
   readonly origins?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#role_arn QbusinessWebExperience#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#sample_prompts_control_mode QbusinessWebExperience#sample_prompts_control_mode}
   */
   readonly samplePromptsControlMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#subtitle QbusinessWebExperience#subtitle}
   */
   readonly subtitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#tags QbusinessWebExperience#tags}
   */
   readonly tags?: QbusinessWebExperienceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#title QbusinessWebExperience#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#welcome_message QbusinessWebExperience#welcome_message}
   */
   readonly welcomeMessage?: string;
 }
 export interface QbusinessWebExperienceBrowserExtensionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#enabled_browser_extensions QbusinessWebExperience#enabled_browser_extensions}
   */
   readonly enabledBrowserExtensions?: string[];
 }
@@ -131,7 +131,7 @@ export class QbusinessWebExperienceBrowserExtensionConfigurationOutputReference 
   }
 
   // enabled_browser_extensions - computed: true, optional: true, required: false
-  private _enabledBrowserExtensions?: string[]; 
+  private _enabledBrowserExtensions?: string[];
   public get enabledBrowserExtensions() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_browser_extensions'));
   }
@@ -148,19 +148,19 @@ export class QbusinessWebExperienceBrowserExtensionConfigurationOutputReference 
 }
 export interface QbusinessWebExperienceCustomizationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#custom_css_url QbusinessWebExperience#custom_css_url}
   */
   readonly customCssUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#favicon_url QbusinessWebExperience#favicon_url}
   */
   readonly faviconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#font_url QbusinessWebExperience#font_url}
   */
   readonly fontUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#logo_url QbusinessWebExperience#logo_url}
   */
   readonly logoUrl?: string;
 }
@@ -276,7 +276,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // custom_css_url - computed: true, optional: true, required: false
-  private _customCssUrl?: string; 
+  private _customCssUrl?: string;
   public get customCssUrl() {
     return this.getStringAttribute('custom_css_url');
   }
@@ -292,7 +292,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // favicon_url - computed: true, optional: true, required: false
-  private _faviconUrl?: string; 
+  private _faviconUrl?: string;
   public get faviconUrl() {
     return this.getStringAttribute('favicon_url');
   }
@@ -308,7 +308,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // font_url - computed: true, optional: true, required: false
-  private _fontUrl?: string; 
+  private _fontUrl?: string;
   public get fontUrl() {
     return this.getStringAttribute('font_url');
   }
@@ -324,7 +324,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // logo_url - computed: true, optional: true, required: false
-  private _logoUrl?: string; 
+  private _logoUrl?: string;
   public get logoUrl() {
     return this.getStringAttribute('logo_url');
   }
@@ -341,11 +341,11 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
 }
 export interface QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#secrets_arn QbusinessWebExperience#secrets_arn}
   */
   readonly secretsArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#secrets_role QbusinessWebExperience#secrets_role}
   */
   readonly secretsRole?: string;
 }
@@ -435,7 +435,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectCon
   }
 
   // secrets_arn - computed: true, optional: true, required: false
-  private _secretsArn?: string; 
+  private _secretsArn?: string;
   public get secretsArn() {
     return this.getStringAttribute('secrets_arn');
   }
@@ -451,7 +451,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectCon
   }
 
   // secrets_role - computed: true, optional: true, required: false
-  private _secretsRole?: string; 
+  private _secretsRole?: string;
   public get secretsRole() {
     return this.getStringAttribute('secrets_role');
   }
@@ -468,7 +468,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectCon
 }
 export interface QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#authentication_url QbusinessWebExperience#authentication_url}
   */
   readonly authenticationUrl?: string;
 }
@@ -545,7 +545,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguratio
   }
 
   // authentication_url - computed: true, optional: true, required: false
-  private _authenticationUrl?: string; 
+  private _authenticationUrl?: string;
   public get authenticationUrl() {
     return this.getStringAttribute('authentication_url');
   }
@@ -562,11 +562,11 @@ export class QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguratio
 }
 export interface QbusinessWebExperienceIdentityProviderConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#open_id_connect_configuration QbusinessWebExperience#open_id_connect_configuration}
   */
   readonly openIdConnectConfiguration?: QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#saml_configuration QbusinessWebExperience#saml_configuration}
   */
   readonly samlConfiguration?: QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration;
 }
@@ -689,11 +689,11 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOutputReference 
 }
 export interface QbusinessWebExperienceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#key QbusinessWebExperience#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#value QbusinessWebExperience#value}
   */
   readonly value?: string;
 }
@@ -785,7 +785,7 @@ export class QbusinessWebExperienceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -801,7 +801,7 @@ export class QbusinessWebExperienceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -838,7 +838,7 @@ export class QbusinessWebExperienceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience}
 */
 export class QbusinessWebExperience extends cdktn.TerraformResource {
 
@@ -854,7 +854,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QbusinessWebExperience resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QbusinessWebExperience to import
-  * @param importFromId The id of the existing QbusinessWebExperience that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QbusinessWebExperience that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QbusinessWebExperience to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -866,7 +866,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_web_experience awscc_qbusiness_web_experience} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -877,7 +877,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qbusiness_web_experience',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -905,7 +905,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -981,7 +981,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // origins - computed: true, optional: true, required: false
-  private _origins?: string[]; 
+  private _origins?: string[];
   public get origins() {
     return this.getListAttribute('origins');
   }
@@ -997,7 +997,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1013,7 +1013,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // sample_prompts_control_mode - computed: true, optional: true, required: false
-  private _samplePromptsControlMode?: string; 
+  private _samplePromptsControlMode?: string;
   public get samplePromptsControlMode() {
     return this.getStringAttribute('sample_prompts_control_mode');
   }
@@ -1034,7 +1034,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -1066,7 +1066,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1097,7 +1097,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // welcome_message - computed: true, optional: true, required: false
-  private _welcomeMessage?: string; 
+  private _welcomeMessage?: string;
   public get welcomeMessage() {
     return this.getStringAttribute('welcome_message');
   }

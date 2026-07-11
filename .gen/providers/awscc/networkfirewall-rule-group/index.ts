@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface NetworkfirewallRuleGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#capacity NetworkfirewallRuleGroup#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#capacity NetworkfirewallRuleGroup#capacity}
   */
   readonly capacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#description NetworkfirewallRuleGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#description NetworkfirewallRuleGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_group NetworkfirewallRuleGroup#rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_group NetworkfirewallRuleGroup#rule_group}
   */
   readonly ruleGroup?: NetworkfirewallRuleGroupRuleGroup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_group_name NetworkfirewallRuleGroup#rule_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_group_name NetworkfirewallRuleGroup#rule_group_name}
   */
   readonly ruleGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#summary_configuration NetworkfirewallRuleGroup#summary_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#summary_configuration NetworkfirewallRuleGroup#summary_configuration}
   */
   readonly summaryConfiguration?: NetworkfirewallRuleGroupSummaryConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#tags NetworkfirewallRuleGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#tags NetworkfirewallRuleGroup#tags}
   */
   readonly tags?: NetworkfirewallRuleGroupTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#type NetworkfirewallRuleGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#type NetworkfirewallRuleGroup#type}
   */
   readonly type: string;
 }
@@ -40,7 +40,7 @@ export interface NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferences {
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#reference_arn NetworkfirewallRuleGroup#reference_arn}
   */
   readonly referenceArn?: string;
 }
@@ -118,7 +118,7 @@ export class NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesOutput
   }
 
   // reference_arn - computed: true, optional: true, required: false
-  private _referenceArn?: string; 
+  private _referenceArn?: string;
   public get referenceArn() {
     return this.getStringAttribute('reference_arn');
   }
@@ -154,7 +154,7 @@ export class NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesMap ex
 }
 export interface NetworkfirewallRuleGroupRuleGroupReferenceSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#ip_set_references NetworkfirewallRuleGroup#ip_set_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#ip_set_references NetworkfirewallRuleGroup#ip_set_references}
   */
   readonly ipSetReferences?: { [key: string]: NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferences } | cdktn.IResolvable;
 }
@@ -248,7 +248,7 @@ export class NetworkfirewallRuleGroupRuleGroupReferenceSetsOutputReference exten
 }
 export interface NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#definition NetworkfirewallRuleGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#definition NetworkfirewallRuleGroup#definition}
   */
   readonly definition?: string[];
 }
@@ -326,7 +326,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSetsOutputReference
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string[]; 
+  private _definition?: string[];
   public get definition() {
     return this.getListAttribute('definition');
   }
@@ -362,7 +362,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSetsMap extends cdk
 }
 export interface NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#definition NetworkfirewallRuleGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#definition NetworkfirewallRuleGroup#definition}
   */
   readonly definition?: string[];
 }
@@ -440,7 +440,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSetsOutputReferen
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string[]; 
+  private _definition?: string[];
   public get definition() {
     return this.getListAttribute('definition');
   }
@@ -476,11 +476,11 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSetsMap extends c
 }
 export interface NetworkfirewallRuleGroupRuleGroupRuleVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#ip_sets NetworkfirewallRuleGroup#ip_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#ip_sets NetworkfirewallRuleGroup#ip_sets}
   */
   readonly ipSets?: { [key: string]: NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSets } | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#port_sets NetworkfirewallRuleGroup#port_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#port_sets NetworkfirewallRuleGroup#port_sets}
   */
   readonly portSets?: { [key: string]: NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSets } | cdktn.IResolvable;
 }
@@ -603,15 +603,15 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference exten
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#generated_rules_type NetworkfirewallRuleGroup#generated_rules_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#generated_rules_type NetworkfirewallRuleGroup#generated_rules_type}
   */
   readonly generatedRulesType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#target_types NetworkfirewallRuleGroup#target_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#target_types NetworkfirewallRuleGroup#target_types}
   */
   readonly targetTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#targets NetworkfirewallRuleGroup#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#targets NetworkfirewallRuleGroup#targets}
   */
   readonly targets?: string[];
 }
@@ -714,7 +714,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // generated_rules_type - computed: true, optional: true, required: false
-  private _generatedRulesType?: string; 
+  private _generatedRulesType?: string;
   public get generatedRulesType() {
     return this.getStringAttribute('generated_rules_type');
   }
@@ -730,7 +730,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // target_types - computed: true, optional: true, required: false
-  private _targetTypes?: string[]; 
+  private _targetTypes?: string[];
   public get targetTypes() {
     return this.getListAttribute('target_types');
   }
@@ -746,7 +746,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // targets - computed: true, optional: true, required: false
-  private _targets?: string[]; 
+  private _targets?: string[];
   public get targets() {
     return this.getListAttribute('targets');
   }
@@ -763,27 +763,27 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#destination NetworkfirewallRuleGroup#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#destination NetworkfirewallRuleGroup#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#destination_port NetworkfirewallRuleGroup#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#destination_port NetworkfirewallRuleGroup#destination_port}
   */
   readonly destinationPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#direction NetworkfirewallRuleGroup#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#direction NetworkfirewallRuleGroup#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#protocol NetworkfirewallRuleGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#protocol NetworkfirewallRuleGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#source NetworkfirewallRuleGroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#source NetworkfirewallRuleGroup#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#source_port NetworkfirewallRuleGroup#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#source_port NetworkfirewallRuleGroup#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -925,7 +925,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string; 
+  private _destination?: string;
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -941,7 +941,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // destination_port - computed: true, optional: true, required: false
-  private _destinationPort?: string; 
+  private _destinationPort?: string;
   public get destinationPort() {
     return this.getStringAttribute('destination_port');
   }
@@ -957,7 +957,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // direction - computed: true, optional: true, required: false
-  private _direction?: string; 
+  private _direction?: string;
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -973,7 +973,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -989,7 +989,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1005,7 +1005,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
   }
 
   // source_port - computed: true, optional: true, required: false
-  private _sourcePort?: string; 
+  private _sourcePort?: string;
   public get sourcePort() {
     return this.getStringAttribute('source_port');
   }
@@ -1022,11 +1022,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeaderOutp
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#keyword NetworkfirewallRuleGroup#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#keyword NetworkfirewallRuleGroup#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#settings NetworkfirewallRuleGroup#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#settings NetworkfirewallRuleGroup#settings}
   */
   readonly settings?: string[];
 }
@@ -1118,7 +1118,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOption
   }
 
   // keyword - computed: true, optional: true, required: false
-  private _keyword?: string; 
+  private _keyword?: string;
   public get keyword() {
     return this.getStringAttribute('keyword');
   }
@@ -1134,7 +1134,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOption
   }
 
   // settings - computed: true, optional: true, required: false
-  private _settings?: string[]; 
+  private _settings?: string[];
   public get settings() {
     return this.getListAttribute('settings');
   }
@@ -1171,15 +1171,15 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOption
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#action NetworkfirewallRuleGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#action NetworkfirewallRuleGroup#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#header NetworkfirewallRuleGroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#header NetworkfirewallRuleGroup#header}
   */
   readonly header?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}
   */
   readonly ruleOptions?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOptions[] | cdktn.IResolvable;
 }
@@ -1284,7 +1284,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesOutputRefe
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1353,7 +1353,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesList exten
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricActionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#value NetworkfirewallRuleGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#value NetworkfirewallRuleGroup#value}
   */
   readonly value?: string;
 }
@@ -1432,7 +1432,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1469,7 +1469,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#dimensions NetworkfirewallRuleGroup#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#dimensions NetworkfirewallRuleGroup#dimensions}
   */
   readonly dimensions?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricActionDimensions[] | cdktn.IResolvable;
 }
@@ -1563,7 +1563,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#publish_metric_action NetworkfirewallRuleGroup#publish_metric_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#publish_metric_action NetworkfirewallRuleGroup#publish_metric_action}
   */
   readonly publishMetricAction?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinitionPublishMetricAction;
 }
@@ -1657,11 +1657,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#action_definition NetworkfirewallRuleGroup#action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#action_definition NetworkfirewallRuleGroup#action_definition}
   */
   readonly actionDefinition?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActionsActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#action_name NetworkfirewallRuleGroup#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#action_name NetworkfirewallRuleGroup#action_name}
   */
   readonly actionName?: string;
 }
@@ -1769,7 +1769,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // action_name - computed: true, optional: true, required: false
-  private _actionName?: string; 
+  private _actionName?: string;
   public get actionName() {
     return this.getStringAttribute('action_name');
   }
@@ -1806,11 +1806,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinationPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -1902,7 +1902,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -1918,7 +1918,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1955,7 +1955,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#address_definition NetworkfirewallRuleGroup#address_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#address_definition NetworkfirewallRuleGroup#address_definition}
   */
   readonly addressDefinition?: string;
 }
@@ -2034,7 +2034,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // address_definition - computed: true, optional: true, required: false
-  private _addressDefinition?: string; 
+  private _addressDefinition?: string;
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -2071,11 +2071,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSourcePorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#from_port NetworkfirewallRuleGroup#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#to_port NetworkfirewallRuleGroup#to_port}
   */
   readonly toPort?: number;
 }
@@ -2167,7 +2167,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -2183,7 +2183,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -2220,7 +2220,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#address_definition NetworkfirewallRuleGroup#address_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#address_definition NetworkfirewallRuleGroup#address_definition}
   */
   readonly addressDefinition?: string;
 }
@@ -2299,7 +2299,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // address_definition - computed: true, optional: true, required: false
-  private _addressDefinition?: string; 
+  private _addressDefinition?: string;
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -2336,11 +2336,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesTcpFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#flags NetworkfirewallRuleGroup#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#flags NetworkfirewallRuleGroup#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#masks NetworkfirewallRuleGroup#masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#masks NetworkfirewallRuleGroup#masks}
   */
   readonly masks?: string[];
 }
@@ -2432,7 +2432,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // flags - computed: true, optional: true, required: false
-  private _flags?: string[]; 
+  private _flags?: string[];
   public get flags() {
     return this.getListAttribute('flags');
   }
@@ -2448,7 +2448,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // masks - computed: true, optional: true, required: false
-  private _masks?: string[]; 
+  private _masks?: string[];
   public get masks() {
     return this.getListAttribute('masks');
   }
@@ -2485,27 +2485,27 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#destination_ports NetworkfirewallRuleGroup#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#destination_ports NetworkfirewallRuleGroup#destination_ports}
   */
   readonly destinationPorts?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinationPorts[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#destinations NetworkfirewallRuleGroup#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#destinations NetworkfirewallRuleGroup#destinations}
   */
   readonly destinations?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesDestinations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#protocols NetworkfirewallRuleGroup#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#protocols NetworkfirewallRuleGroup#protocols}
   */
   readonly protocols?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#source_ports NetworkfirewallRuleGroup#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#source_ports NetworkfirewallRuleGroup#source_ports}
   */
   readonly sourcePorts?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSourcePorts[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#sources NetworkfirewallRuleGroup#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#sources NetworkfirewallRuleGroup#sources}
   */
   readonly sources?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesSources[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#tcp_flags NetworkfirewallRuleGroup#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#tcp_flags NetworkfirewallRuleGroup#tcp_flags}
   */
   readonly tcpFlags?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributesTcpFlags[] | cdktn.IResolvable;
 }
@@ -2679,7 +2679,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: number[]; 
+  private _protocols?: number[];
   public get protocols() {
     return this.getNumberListAttribute('protocols');
   }
@@ -2744,11 +2744,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#actions NetworkfirewallRuleGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#actions NetworkfirewallRuleGroup#actions}
   */
   readonly actions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#match_attributes NetworkfirewallRuleGroup#match_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#match_attributes NetworkfirewallRuleGroup#match_attributes}
   */
   readonly matchAttributes?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinitionMatchAttributes;
 }
@@ -2838,7 +2838,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -2871,11 +2871,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#priority NetworkfirewallRuleGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#priority NetworkfirewallRuleGroup#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_definition NetworkfirewallRuleGroup#rule_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_definition NetworkfirewallRuleGroup#rule_definition}
   */
   readonly ruleDefinition?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRulesRuleDefinition;
 }
@@ -2967,7 +2967,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -3020,11 +3020,11 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#custom_actions NetworkfirewallRuleGroup#custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#custom_actions NetworkfirewallRuleGroup#custom_actions}
   */
   readonly customActions?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsCustomActions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#stateless_rules NetworkfirewallRuleGroup#stateless_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#stateless_rules NetworkfirewallRuleGroup#stateless_rules}
   */
   readonly statelessRules?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActionsStatelessRules[] | cdktn.IResolvable;
 }
@@ -3147,19 +3147,19 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
 }
 export interface NetworkfirewallRuleGroupRuleGroupRulesSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rules_source_list NetworkfirewallRuleGroup#rules_source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rules_source_list NetworkfirewallRuleGroup#rules_source_list}
   */
   readonly rulesSourceList?: NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rules_string NetworkfirewallRuleGroup#rules_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rules_string NetworkfirewallRuleGroup#rules_string}
   */
   readonly rulesString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#stateful_rules NetworkfirewallRuleGroup#stateful_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#stateful_rules NetworkfirewallRuleGroup#stateful_rules}
   */
   readonly statefulRules?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRules[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#stateless_rules_and_custom_actions NetworkfirewallRuleGroup#stateless_rules_and_custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#stateless_rules_and_custom_actions NetworkfirewallRuleGroup#stateless_rules_and_custom_actions}
   */
   readonly statelessRulesAndCustomActions?: NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustomActions;
 }
@@ -3291,7 +3291,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceOutputReference extends
   }
 
   // rules_string - computed: true, optional: true, required: false
-  private _rulesString?: string; 
+  private _rulesString?: string;
   public get rulesString() {
     return this.getStringAttribute('rules_string');
   }
@@ -3340,7 +3340,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceOutputReference extends
 }
 export interface NetworkfirewallRuleGroupRuleGroupStatefulRuleOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_order NetworkfirewallRuleGroup#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_order NetworkfirewallRuleGroup#rule_order}
   */
   readonly ruleOrder?: string;
 }
@@ -3417,7 +3417,7 @@ export class NetworkfirewallRuleGroupRuleGroupStatefulRuleOptionsOutputReference
   }
 
   // rule_order - computed: true, optional: true, required: false
-  private _ruleOrder?: string; 
+  private _ruleOrder?: string;
   public get ruleOrder() {
     return this.getStringAttribute('rule_order');
   }
@@ -3434,19 +3434,19 @@ export class NetworkfirewallRuleGroupRuleGroupStatefulRuleOptionsOutputReference
 }
 export interface NetworkfirewallRuleGroupRuleGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#reference_sets NetworkfirewallRuleGroup#reference_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#reference_sets NetworkfirewallRuleGroup#reference_sets}
   */
   readonly referenceSets?: NetworkfirewallRuleGroupRuleGroupReferenceSets;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_variables NetworkfirewallRuleGroup#rule_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_variables NetworkfirewallRuleGroup#rule_variables}
   */
   readonly ruleVariables?: NetworkfirewallRuleGroupRuleGroupRuleVariables;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rules_source NetworkfirewallRuleGroup#rules_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rules_source NetworkfirewallRuleGroup#rules_source}
   */
   readonly rulesSource?: NetworkfirewallRuleGroupRuleGroupRulesSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#stateful_rule_options NetworkfirewallRuleGroup#stateful_rule_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#stateful_rule_options NetworkfirewallRuleGroup#stateful_rule_options}
   */
   readonly statefulRuleOptions?: NetworkfirewallRuleGroupRuleGroupStatefulRuleOptions;
 }
@@ -3627,7 +3627,7 @@ export class NetworkfirewallRuleGroupRuleGroupOutputReference extends cdktn.Comp
 }
 export interface NetworkfirewallRuleGroupSummaryConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}
   */
   readonly ruleOptions?: string[];
 }
@@ -3704,7 +3704,7 @@ export class NetworkfirewallRuleGroupSummaryConfigurationOutputReference extends
   }
 
   // rule_options - computed: true, optional: true, required: false
-  private _ruleOptions?: string[]; 
+  private _ruleOptions?: string[];
   public get ruleOptions() {
     return this.getListAttribute('rule_options');
   }
@@ -3721,11 +3721,11 @@ export class NetworkfirewallRuleGroupSummaryConfigurationOutputReference extends
 }
 export interface NetworkfirewallRuleGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#key NetworkfirewallRuleGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#key NetworkfirewallRuleGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#value NetworkfirewallRuleGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#value NetworkfirewallRuleGroup#value}
   */
   readonly value?: string;
 }
@@ -3817,7 +3817,7 @@ export class NetworkfirewallRuleGroupTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3833,7 +3833,7 @@ export class NetworkfirewallRuleGroupTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3870,7 +3870,7 @@ export class NetworkfirewallRuleGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}
 */
 export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
 
@@ -3886,7 +3886,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkfirewallRuleGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkfirewallRuleGroup to import
-  * @param importFromId The id of the existing NetworkfirewallRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkfirewallRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkfirewallRuleGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3898,7 +3898,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3909,7 +3909,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkfirewall_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3933,7 +3933,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   // ==========
 
   // capacity - computed: false, optional: false, required: true
-  private _capacity?: number; 
+  private _capacity?: number;
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -3946,7 +3946,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3993,7 +3993,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // rule_group_name - computed: false, optional: false, required: true
-  private _ruleGroupName?: string; 
+  private _ruleGroupName?: string;
   public get ruleGroupName() {
     return this.getStringAttribute('rule_group_name');
   }
@@ -4038,7 +4038,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

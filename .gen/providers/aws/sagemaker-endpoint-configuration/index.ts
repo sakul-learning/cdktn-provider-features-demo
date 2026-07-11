@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerEndpointConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#execution_role_arn SagemakerEndpointConfiguration#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#execution_role_arn SagemakerEndpointConfiguration#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#id SagemakerEndpointConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#id SagemakerEndpointConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#kms_key_arn SagemakerEndpointConfiguration#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#kms_key_arn SagemakerEndpointConfiguration#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#name SagemakerEndpointConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#name SagemakerEndpointConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#name_prefix SagemakerEndpointConfiguration#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#name_prefix SagemakerEndpointConfiguration#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#region SagemakerEndpointConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#region SagemakerEndpointConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#tags SagemakerEndpointConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#tags SagemakerEndpointConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#tags_all SagemakerEndpointConfiguration#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#tags_all SagemakerEndpointConfiguration#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * async_inference_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#async_inference_config SagemakerEndpointConfiguration#async_inference_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#async_inference_config SagemakerEndpointConfiguration#async_inference_config}
   */
   readonly asyncInferenceConfig?: SagemakerEndpointConfigurationAsyncInferenceConfig;
   /**
   * data_capture_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#data_capture_config SagemakerEndpointConfiguration#data_capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#data_capture_config SagemakerEndpointConfiguration#data_capture_config}
   */
   readonly dataCaptureConfig?: SagemakerEndpointConfigurationDataCaptureConfig;
   /**
   * production_variants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#production_variants SagemakerEndpointConfiguration#production_variants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#production_variants SagemakerEndpointConfiguration#production_variants}
   */
   readonly productionVariants: SagemakerEndpointConfigurationProductionVariants[] | cdktn.IResolvable;
   /**
   * shadow_production_variants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#shadow_production_variants SagemakerEndpointConfiguration#shadow_production_variants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#shadow_production_variants SagemakerEndpointConfiguration#shadow_production_variants}
   */
   readonly shadowProductionVariants?: SagemakerEndpointConfigurationShadowProductionVariants[] | cdktn.IResolvable;
 }
 export interface SagemakerEndpointConfigurationAsyncInferenceConfigClientConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#max_concurrent_invocations_per_instance SagemakerEndpointConfiguration#max_concurrent_invocations_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#max_concurrent_invocations_per_instance SagemakerEndpointConfiguration#max_concurrent_invocations_per_instance}
   */
   readonly maxConcurrentInvocationsPerInstance?: number;
 }
@@ -138,7 +138,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigClientConfigOutpu
   }
 
   // max_concurrent_invocations_per_instance - computed: false, optional: true, required: false
-  private _maxConcurrentInvocationsPerInstance?: number; 
+  private _maxConcurrentInvocationsPerInstance?: number;
   public get maxConcurrentInvocationsPerInstance() {
     return this.getNumberAttribute('max_concurrent_invocations_per_instance');
   }
@@ -155,15 +155,15 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigClientConfigOutpu
 }
 export interface SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotificationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#error_topic SagemakerEndpointConfiguration#error_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#error_topic SagemakerEndpointConfiguration#error_topic}
   */
   readonly errorTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#include_inference_response_in SagemakerEndpointConfiguration#include_inference_response_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#include_inference_response_in SagemakerEndpointConfiguration#include_inference_response_in}
   */
   readonly includeInferenceResponseIn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#success_topic SagemakerEndpointConfiguration#success_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#success_topic SagemakerEndpointConfiguration#success_topic}
   */
   readonly successTopic?: string;
 }
@@ -256,7 +256,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotif
   }
 
   // error_topic - computed: false, optional: true, required: false
-  private _errorTopic?: string; 
+  private _errorTopic?: string;
   public get errorTopic() {
     return this.getStringAttribute('error_topic');
   }
@@ -272,7 +272,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotif
   }
 
   // include_inference_response_in - computed: false, optional: true, required: false
-  private _includeInferenceResponseIn?: string[]; 
+  private _includeInferenceResponseIn?: string[];
   public get includeInferenceResponseIn() {
     return cdktn.Fn.tolist(this.getListAttribute('include_inference_response_in'));
   }
@@ -288,7 +288,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotif
   }
 
   // success_topic - computed: false, optional: true, required: false
-  private _successTopic?: string; 
+  private _successTopic?: string;
   public get successTopic() {
     return this.getStringAttribute('success_topic');
   }
@@ -305,21 +305,21 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotif
 }
 export interface SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#s3_failure_path SagemakerEndpointConfiguration#s3_failure_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#s3_failure_path SagemakerEndpointConfiguration#s3_failure_path}
   */
   readonly s3FailurePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#s3_output_path SagemakerEndpointConfiguration#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#s3_output_path SagemakerEndpointConfiguration#s3_output_path}
   */
   readonly s3OutputPath: string;
   /**
   * notification_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#notification_config SagemakerEndpointConfiguration#notification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#notification_config SagemakerEndpointConfiguration#notification_config}
   */
   readonly notificationConfig?: SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigNotificationConfig;
 }
@@ -425,7 +425,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigOutpu
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -441,7 +441,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigOutpu
   }
 
   // s3_failure_path - computed: false, optional: true, required: false
-  private _s3FailurePath?: string; 
+  private _s3FailurePath?: string;
   public get s3FailurePath() {
     return this.getStringAttribute('s3_failure_path');
   }
@@ -457,7 +457,7 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfigOutpu
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -489,13 +489,13 @@ export interface SagemakerEndpointConfigurationAsyncInferenceConfig {
   /**
   * client_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#client_config SagemakerEndpointConfiguration#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#client_config SagemakerEndpointConfiguration#client_config}
   */
   readonly clientConfig?: SagemakerEndpointConfigurationAsyncInferenceConfigClientConfig;
   /**
   * output_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#output_config SagemakerEndpointConfiguration#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#output_config SagemakerEndpointConfiguration#output_config}
   */
   readonly outputConfig: SagemakerEndpointConfigurationAsyncInferenceConfigOutputConfig;
 }
@@ -605,11 +605,11 @@ export class SagemakerEndpointConfigurationAsyncInferenceConfigOutputReference e
 }
 export interface SagemakerEndpointConfigurationDataCaptureConfigCaptureContentTypeHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#csv_content_types SagemakerEndpointConfiguration#csv_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#csv_content_types SagemakerEndpointConfiguration#csv_content_types}
   */
   readonly csvContentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#json_content_types SagemakerEndpointConfiguration#json_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#json_content_types SagemakerEndpointConfiguration#json_content_types}
   */
   readonly jsonContentTypes?: string[];
 }
@@ -689,7 +689,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigCaptureContentTypeHe
   }
 
   // csv_content_types - computed: false, optional: true, required: false
-  private _csvContentTypes?: string[]; 
+  private _csvContentTypes?: string[];
   public get csvContentTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('csv_content_types'));
   }
@@ -705,7 +705,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigCaptureContentTypeHe
   }
 
   // json_content_types - computed: false, optional: true, required: false
-  private _jsonContentTypes?: string[]; 
+  private _jsonContentTypes?: string[];
   public get jsonContentTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('json_content_types'));
   }
@@ -722,7 +722,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigCaptureContentTypeHe
 }
 export interface SagemakerEndpointConfigurationDataCaptureConfigCaptureOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#capture_mode SagemakerEndpointConfiguration#capture_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capture_mode SagemakerEndpointConfiguration#capture_mode}
   */
   readonly captureMode: string;
 }
@@ -801,7 +801,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigCaptureOptionsOutput
   }
 
   // capture_mode - computed: false, optional: false, required: true
-  private _captureMode?: string; 
+  private _captureMode?: string;
   public get captureMode() {
     return this.getStringAttribute('capture_mode');
   }
@@ -835,31 +835,31 @@ export class SagemakerEndpointConfigurationDataCaptureConfigCaptureOptionsList e
 }
 export interface SagemakerEndpointConfigurationDataCaptureConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
   */
   readonly destinationS3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#enable_capture SagemakerEndpointConfiguration#enable_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#enable_capture SagemakerEndpointConfiguration#enable_capture}
   */
   readonly enableCapture?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#initial_sampling_percentage SagemakerEndpointConfiguration#initial_sampling_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#initial_sampling_percentage SagemakerEndpointConfiguration#initial_sampling_percentage}
   */
   readonly initialSamplingPercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * capture_content_type_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#capture_content_type_header SagemakerEndpointConfiguration#capture_content_type_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capture_content_type_header SagemakerEndpointConfiguration#capture_content_type_header}
   */
   readonly captureContentTypeHeader?: SagemakerEndpointConfigurationDataCaptureConfigCaptureContentTypeHeader;
   /**
   * capture_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#capture_options SagemakerEndpointConfiguration#capture_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capture_options SagemakerEndpointConfiguration#capture_options}
   */
   readonly captureOptions: SagemakerEndpointConfigurationDataCaptureConfigCaptureOptions[] | cdktn.IResolvable;
 }
@@ -991,7 +991,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigOutputReference exte
   }
 
   // destination_s3_uri - computed: false, optional: false, required: true
-  private _destinationS3Uri?: string; 
+  private _destinationS3Uri?: string;
   public get destinationS3Uri() {
     return this.getStringAttribute('destination_s3_uri');
   }
@@ -1004,7 +1004,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigOutputReference exte
   }
 
   // enable_capture - computed: false, optional: true, required: false
-  private _enableCapture?: boolean | cdktn.IResolvable; 
+  private _enableCapture?: boolean | cdktn.IResolvable;
   public get enableCapture() {
     return this.getBooleanAttribute('enable_capture');
   }
@@ -1020,7 +1020,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigOutputReference exte
   }
 
   // initial_sampling_percentage - computed: false, optional: false, required: true
-  private _initialSamplingPercentage?: number; 
+  private _initialSamplingPercentage?: number;
   public get initialSamplingPercentage() {
     return this.getNumberAttribute('initial_sampling_percentage');
   }
@@ -1033,7 +1033,7 @@ export class SagemakerEndpointConfigurationDataCaptureConfigOutputReference exte
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1077,13 +1077,130 @@ export class SagemakerEndpointConfigurationDataCaptureConfigOutputReference exte
     return this._captureOptions.internalValue;
   }
 }
+export interface SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capacity_reservation_preference SagemakerEndpointConfiguration#capacity_reservation_preference}
+  */
+  readonly capacityReservationPreference?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#ml_reservation_arn SagemakerEndpointConfiguration#ml_reservation_arn}
+  */
+  readonly mlReservationArn?: string;
+}
+
+export function sagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigToTerraform(struct?: SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference | SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    capacity_reservation_preference: cdktn.stringToTerraform(struct!.capacityReservationPreference),
+    ml_reservation_arn: cdktn.stringToTerraform(struct!.mlReservationArn),
+  }
+}
+
+
+export function sagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigToHclTerraform(struct?: SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference | SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    capacity_reservation_preference: {
+      value: cdktn.stringToHclTerraform(struct!.capacityReservationPreference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ml_reservation_arn: {
+      value: cdktn.stringToHclTerraform(struct!.mlReservationArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._capacityReservationPreference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityReservationPreference = this._capacityReservationPreference;
+    }
+    if (this._mlReservationArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mlReservationArn = this._mlReservationArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._capacityReservationPreference = undefined;
+      this._mlReservationArn = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._capacityReservationPreference = value.capacityReservationPreference;
+      this._mlReservationArn = value.mlReservationArn;
+    }
+  }
+
+  // capacity_reservation_preference - computed: false, optional: true, required: false
+  private _capacityReservationPreference?: string;
+  public get capacityReservationPreference() {
+    return this.getStringAttribute('capacity_reservation_preference');
+  }
+  public set capacityReservationPreference(value: string) {
+    this._capacityReservationPreference = value;
+  }
+  public resetCapacityReservationPreference() {
+    this._capacityReservationPreference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityReservationPreferenceInput() {
+    return this._capacityReservationPreference;
+  }
+
+  // ml_reservation_arn - computed: false, optional: true, required: false
+  private _mlReservationArn?: string;
+  public get mlReservationArn() {
+    return this.getStringAttribute('ml_reservation_arn');
+  }
+  public set mlReservationArn(value: string) {
+    this._mlReservationArn = value;
+  }
+  public resetMlReservationArn() {
+    this._mlReservationArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mlReservationArnInput() {
+    return this._mlReservationArn;
+  }
+}
 export interface SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
   */
   readonly destinationS3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -1163,7 +1280,7 @@ export class SagemakerEndpointConfigurationProductionVariantsCoreDumpConfigOutpu
   }
 
   // destination_s3_uri - computed: false, optional: false, required: true
-  private _destinationS3Uri?: string; 
+  private _destinationS3Uri?: string;
   public get destinationS3Uri() {
     return this.getStringAttribute('destination_s3_uri');
   }
@@ -1176,7 +1293,7 @@ export class SagemakerEndpointConfigurationProductionVariantsCoreDumpConfigOutpu
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1193,15 +1310,15 @@ export class SagemakerEndpointConfigurationProductionVariantsCoreDumpConfigOutpu
 }
 export interface SagemakerEndpointConfigurationProductionVariantsManagedInstanceScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#max_instance_count SagemakerEndpointConfiguration#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#max_instance_count SagemakerEndpointConfiguration#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#min_instance_count SagemakerEndpointConfiguration#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#min_instance_count SagemakerEndpointConfiguration#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#status SagemakerEndpointConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#status SagemakerEndpointConfiguration#status}
   */
   readonly status?: string;
 }
@@ -1294,7 +1411,7 @@ export class SagemakerEndpointConfigurationProductionVariantsManagedInstanceScal
   }
 
   // max_instance_count - computed: false, optional: true, required: false
-  private _maxInstanceCount?: number; 
+  private _maxInstanceCount?: number;
   public get maxInstanceCount() {
     return this.getNumberAttribute('max_instance_count');
   }
@@ -1310,7 +1427,7 @@ export class SagemakerEndpointConfigurationProductionVariantsManagedInstanceScal
   }
 
   // min_instance_count - computed: false, optional: true, required: false
-  private _minInstanceCount?: number; 
+  private _minInstanceCount?: number;
   public get minInstanceCount() {
     return this.getNumberAttribute('min_instance_count');
   }
@@ -1326,7 +1443,7 @@ export class SagemakerEndpointConfigurationProductionVariantsManagedInstanceScal
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1343,7 +1460,7 @@ export class SagemakerEndpointConfigurationProductionVariantsManagedInstanceScal
 }
 export interface SagemakerEndpointConfigurationProductionVariantsRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}
   */
   readonly routingStrategy: string;
 }
@@ -1422,7 +1539,7 @@ export class SagemakerEndpointConfigurationProductionVariantsRoutingConfigOutput
   }
 
   // routing_strategy - computed: false, optional: false, required: true
-  private _routingStrategy?: string; 
+  private _routingStrategy?: string;
   public get routingStrategy() {
     return this.getStringAttribute('routing_strategy');
   }
@@ -1456,15 +1573,15 @@ export class SagemakerEndpointConfigurationProductionVariantsRoutingConfigList e
 }
 export interface SagemakerEndpointConfigurationProductionVariantsServerlessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}
   */
   readonly maxConcurrency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}
   */
   readonly memorySizeInMb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}
   */
   readonly provisionedConcurrency?: number;
 }
@@ -1557,7 +1674,7 @@ export class SagemakerEndpointConfigurationProductionVariantsServerlessConfigOut
   }
 
   // max_concurrency - computed: false, optional: false, required: true
-  private _maxConcurrency?: number; 
+  private _maxConcurrency?: number;
   public get maxConcurrency() {
     return this.getNumberAttribute('max_concurrency');
   }
@@ -1570,7 +1687,7 @@ export class SagemakerEndpointConfigurationProductionVariantsServerlessConfigOut
   }
 
   // memory_size_in_mb - computed: false, optional: false, required: true
-  private _memorySizeInMb?: number; 
+  private _memorySizeInMb?: number;
   public get memorySizeInMb() {
     return this.getNumberAttribute('memory_size_in_mb');
   }
@@ -1583,7 +1700,7 @@ export class SagemakerEndpointConfigurationProductionVariantsServerlessConfigOut
   }
 
   // provisioned_concurrency - computed: false, optional: true, required: false
-  private _provisionedConcurrency?: number; 
+  private _provisionedConcurrency?: number;
   public get provisionedConcurrency() {
     return this.getNumberAttribute('provisioned_concurrency');
   }
@@ -1600,71 +1717,77 @@ export class SagemakerEndpointConfigurationProductionVariantsServerlessConfigOut
 }
 export interface SagemakerEndpointConfigurationProductionVariants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#accelerator_type SagemakerEndpointConfiguration#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#accelerator_type SagemakerEndpointConfiguration#accelerator_type}
   */
   readonly acceleratorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfiguration#container_startup_health_check_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfiguration#container_startup_health_check_timeout_in_seconds}
   */
   readonly containerStartupHealthCheckTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#enable_ssm_access SagemakerEndpointConfiguration#enable_ssm_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#enable_ssm_access SagemakerEndpointConfiguration#enable_ssm_access}
   */
   readonly enableSsmAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#inference_ami_version SagemakerEndpointConfiguration#inference_ami_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#inference_ami_version SagemakerEndpointConfiguration#inference_ami_version}
   */
   readonly inferenceAmiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#initial_instance_count SagemakerEndpointConfiguration#initial_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#initial_instance_count SagemakerEndpointConfiguration#initial_instance_count}
   */
   readonly initialInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#initial_variant_weight SagemakerEndpointConfiguration#initial_variant_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#initial_variant_weight SagemakerEndpointConfiguration#initial_variant_weight}
   */
   readonly initialVariantWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#instance_type SagemakerEndpointConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#instance_type SagemakerEndpointConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#model_data_download_timeout_in_seconds SagemakerEndpointConfiguration#model_data_download_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#model_data_download_timeout_in_seconds SagemakerEndpointConfiguration#model_data_download_timeout_in_seconds}
   */
   readonly modelDataDownloadTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#model_name SagemakerEndpointConfiguration#model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#model_name SagemakerEndpointConfiguration#model_name}
   */
   readonly modelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#variant_name SagemakerEndpointConfiguration#variant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#variant_name SagemakerEndpointConfiguration#variant_name}
   */
   readonly variantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#volume_size_in_gb SagemakerEndpointConfiguration#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#volume_size_in_gb SagemakerEndpointConfiguration#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
+  * capacity_reservation_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capacity_reservation_config SagemakerEndpointConfiguration#capacity_reservation_config}
+  */
+  readonly capacityReservationConfig?: SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig;
+  /**
   * core_dump_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#core_dump_config SagemakerEndpointConfiguration#core_dump_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#core_dump_config SagemakerEndpointConfiguration#core_dump_config}
   */
   readonly coreDumpConfig?: SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig;
   /**
   * managed_instance_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#managed_instance_scaling SagemakerEndpointConfiguration#managed_instance_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#managed_instance_scaling SagemakerEndpointConfiguration#managed_instance_scaling}
   */
   readonly managedInstanceScaling?: SagemakerEndpointConfigurationProductionVariantsManagedInstanceScaling;
   /**
   * routing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#routing_config SagemakerEndpointConfiguration#routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#routing_config SagemakerEndpointConfiguration#routing_config}
   */
   readonly routingConfig?: SagemakerEndpointConfigurationProductionVariantsRoutingConfig[] | cdktn.IResolvable;
   /**
   * serverless_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#serverless_config SagemakerEndpointConfiguration#serverless_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#serverless_config SagemakerEndpointConfiguration#serverless_config}
   */
   readonly serverlessConfig?: SagemakerEndpointConfigurationProductionVariantsServerlessConfig;
 }
@@ -1686,6 +1809,7 @@ export function sagemakerEndpointConfigurationProductionVariantsToTerraform(stru
     model_name: cdktn.stringToTerraform(struct!.modelName),
     variant_name: cdktn.stringToTerraform(struct!.variantName),
     volume_size_in_gb: cdktn.numberToTerraform(struct!.volumeSizeInGb),
+    capacity_reservation_config: sagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigToTerraform(struct!.capacityReservationConfig),
     core_dump_config: sagemakerEndpointConfigurationProductionVariantsCoreDumpConfigToTerraform(struct!.coreDumpConfig),
     managed_instance_scaling: sagemakerEndpointConfigurationProductionVariantsManagedInstanceScalingToTerraform(struct!.managedInstanceScaling),
     routing_config: cdktn.listMapper(sagemakerEndpointConfigurationProductionVariantsRoutingConfigToTerraform, true)(struct!.routingConfig),
@@ -1765,6 +1889,12 @@ export function sagemakerEndpointConfigurationProductionVariantsToHclTerraform(s
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    capacity_reservation_config: {
+      value: sagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigToHclTerraform(struct!.capacityReservationConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigList",
     },
     core_dump_config: {
       value: sagemakerEndpointConfigurationProductionVariantsCoreDumpConfigToHclTerraform(struct!.coreDumpConfig),
@@ -1860,6 +1990,10 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
       hasAnyValues = true;
       internalValueResult.volumeSizeInGb = this._volumeSizeInGb;
     }
+    if (this._capacityReservationConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityReservationConfig = this._capacityReservationConfig?.internalValue;
+    }
     if (this._coreDumpConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.coreDumpConfig = this._coreDumpConfig?.internalValue;
@@ -1894,6 +2028,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
       this._modelName = undefined;
       this._variantName = undefined;
       this._volumeSizeInGb = undefined;
+      this._capacityReservationConfig.internalValue = undefined;
       this._coreDumpConfig.internalValue = undefined;
       this._managedInstanceScaling.internalValue = undefined;
       this._routingConfig.internalValue = undefined;
@@ -1917,6 +2052,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
       this._modelName = value.modelName;
       this._variantName = value.variantName;
       this._volumeSizeInGb = value.volumeSizeInGb;
+      this._capacityReservationConfig.internalValue = value.capacityReservationConfig;
       this._coreDumpConfig.internalValue = value.coreDumpConfig;
       this._managedInstanceScaling.internalValue = value.managedInstanceScaling;
       this._routingConfig.internalValue = value.routingConfig;
@@ -1925,7 +2061,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // accelerator_type - computed: false, optional: true, required: false
-  private _acceleratorType?: string; 
+  private _acceleratorType?: string;
   public get acceleratorType() {
     return this.getStringAttribute('accelerator_type');
   }
@@ -1941,7 +2077,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // container_startup_health_check_timeout_in_seconds - computed: false, optional: true, required: false
-  private _containerStartupHealthCheckTimeoutInSeconds?: number; 
+  private _containerStartupHealthCheckTimeoutInSeconds?: number;
   public get containerStartupHealthCheckTimeoutInSeconds() {
     return this.getNumberAttribute('container_startup_health_check_timeout_in_seconds');
   }
@@ -1957,7 +2093,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // enable_ssm_access - computed: false, optional: true, required: false
-  private _enableSsmAccess?: boolean | cdktn.IResolvable; 
+  private _enableSsmAccess?: boolean | cdktn.IResolvable;
   public get enableSsmAccess() {
     return this.getBooleanAttribute('enable_ssm_access');
   }
@@ -1973,7 +2109,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // inference_ami_version - computed: false, optional: true, required: false
-  private _inferenceAmiVersion?: string; 
+  private _inferenceAmiVersion?: string;
   public get inferenceAmiVersion() {
     return this.getStringAttribute('inference_ami_version');
   }
@@ -1989,7 +2125,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // initial_instance_count - computed: false, optional: true, required: false
-  private _initialInstanceCount?: number; 
+  private _initialInstanceCount?: number;
   public get initialInstanceCount() {
     return this.getNumberAttribute('initial_instance_count');
   }
@@ -2005,7 +2141,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // initial_variant_weight - computed: false, optional: true, required: false
-  private _initialVariantWeight?: number; 
+  private _initialVariantWeight?: number;
   public get initialVariantWeight() {
     return this.getNumberAttribute('initial_variant_weight');
   }
@@ -2021,7 +2157,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2037,7 +2173,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // model_data_download_timeout_in_seconds - computed: false, optional: true, required: false
-  private _modelDataDownloadTimeoutInSeconds?: number; 
+  private _modelDataDownloadTimeoutInSeconds?: number;
   public get modelDataDownloadTimeoutInSeconds() {
     return this.getNumberAttribute('model_data_download_timeout_in_seconds');
   }
@@ -2053,7 +2189,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // model_name - computed: false, optional: true, required: false
-  private _modelName?: string; 
+  private _modelName?: string;
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -2069,7 +2205,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // variant_name - computed: true, optional: true, required: false
-  private _variantName?: string; 
+  private _variantName?: string;
   public get variantName() {
     return this.getStringAttribute('variant_name');
   }
@@ -2085,7 +2221,7 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -2098,6 +2234,22 @@ export class SagemakerEndpointConfigurationProductionVariantsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get volumeSizeInGbInput() {
     return this._volumeSizeInGb;
+  }
+
+  // capacity_reservation_config - computed: false, optional: true, required: false
+  private _capacityReservationConfig = new SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference(this, "capacity_reservation_config");
+  public get capacityReservationConfig() {
+    return this._capacityReservationConfig;
+  }
+  public putCapacityReservationConfig(value: SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig) {
+    this._capacityReservationConfig.internalValue = value;
+  }
+  public resetCapacityReservationConfig() {
+    this._capacityReservationConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityReservationConfigInput() {
+    return this._capacityReservationConfig.internalValue;
   }
 
   // core_dump_config - computed: false, optional: true, required: false
@@ -2184,13 +2336,130 @@ export class SagemakerEndpointConfigurationProductionVariantsList extends cdktn.
     return new SagemakerEndpointConfigurationProductionVariantsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capacity_reservation_preference SagemakerEndpointConfiguration#capacity_reservation_preference}
+  */
+  readonly capacityReservationPreference?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#ml_reservation_arn SagemakerEndpointConfiguration#ml_reservation_arn}
+  */
+  readonly mlReservationArn?: string;
+}
+
+export function sagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigToTerraform(struct?: SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference | SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    capacity_reservation_preference: cdktn.stringToTerraform(struct!.capacityReservationPreference),
+    ml_reservation_arn: cdktn.stringToTerraform(struct!.mlReservationArn),
+  }
+}
+
+
+export function sagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigToHclTerraform(struct?: SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference | SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    capacity_reservation_preference: {
+      value: cdktn.stringToHclTerraform(struct!.capacityReservationPreference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ml_reservation_arn: {
+      value: cdktn.stringToHclTerraform(struct!.mlReservationArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._capacityReservationPreference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityReservationPreference = this._capacityReservationPreference;
+    }
+    if (this._mlReservationArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mlReservationArn = this._mlReservationArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._capacityReservationPreference = undefined;
+      this._mlReservationArn = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._capacityReservationPreference = value.capacityReservationPreference;
+      this._mlReservationArn = value.mlReservationArn;
+    }
+  }
+
+  // capacity_reservation_preference - computed: false, optional: true, required: false
+  private _capacityReservationPreference?: string;
+  public get capacityReservationPreference() {
+    return this.getStringAttribute('capacity_reservation_preference');
+  }
+  public set capacityReservationPreference(value: string) {
+    this._capacityReservationPreference = value;
+  }
+  public resetCapacityReservationPreference() {
+    this._capacityReservationPreference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityReservationPreferenceInput() {
+    return this._capacityReservationPreference;
+  }
+
+  // ml_reservation_arn - computed: false, optional: true, required: false
+  private _mlReservationArn?: string;
+  public get mlReservationArn() {
+    return this.getStringAttribute('ml_reservation_arn');
+  }
+  public set mlReservationArn(value: string) {
+    this._mlReservationArn = value;
+  }
+  public resetMlReservationArn() {
+    this._mlReservationArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mlReservationArnInput() {
+    return this._mlReservationArn;
+  }
+}
 export interface SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#destination_s3_uri SagemakerEndpointConfiguration#destination_s3_uri}
   */
   readonly destinationS3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#kms_key_id SagemakerEndpointConfiguration#kms_key_id}
   */
   readonly kmsKeyId: string;
 }
@@ -2270,7 +2539,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfi
   }
 
   // destination_s3_uri - computed: false, optional: false, required: true
-  private _destinationS3Uri?: string; 
+  private _destinationS3Uri?: string;
   public get destinationS3Uri() {
     return this.getStringAttribute('destination_s3_uri');
   }
@@ -2283,7 +2552,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfi
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2297,15 +2566,15 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfi
 }
 export interface SagemakerEndpointConfigurationShadowProductionVariantsManagedInstanceScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#max_instance_count SagemakerEndpointConfiguration#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#max_instance_count SagemakerEndpointConfiguration#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#min_instance_count SagemakerEndpointConfiguration#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#min_instance_count SagemakerEndpointConfiguration#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#status SagemakerEndpointConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#status SagemakerEndpointConfiguration#status}
   */
   readonly status?: string;
 }
@@ -2398,7 +2667,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsManagedInstan
   }
 
   // max_instance_count - computed: false, optional: true, required: false
-  private _maxInstanceCount?: number; 
+  private _maxInstanceCount?: number;
   public get maxInstanceCount() {
     return this.getNumberAttribute('max_instance_count');
   }
@@ -2414,7 +2683,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsManagedInstan
   }
 
   // min_instance_count - computed: false, optional: true, required: false
-  private _minInstanceCount?: number; 
+  private _minInstanceCount?: number;
   public get minInstanceCount() {
     return this.getNumberAttribute('min_instance_count');
   }
@@ -2430,7 +2699,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsManagedInstan
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2447,7 +2716,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsManagedInstan
 }
 export interface SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#routing_strategy SagemakerEndpointConfiguration#routing_strategy}
   */
   readonly routingStrategy: string;
 }
@@ -2526,7 +2795,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig
   }
 
   // routing_strategy - computed: false, optional: false, required: true
-  private _routingStrategy?: string; 
+  private _routingStrategy?: string;
   public get routingStrategy() {
     return this.getStringAttribute('routing_strategy');
   }
@@ -2560,15 +2829,15 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig
 }
 export interface SagemakerEndpointConfigurationShadowProductionVariantsServerlessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency SagemakerEndpointConfiguration#max_concurrency}
   */
   readonly maxConcurrency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb SagemakerEndpointConfiguration#memory_size_in_mb}
   */
   readonly memorySizeInMb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency SagemakerEndpointConfiguration#provisioned_concurrency}
   */
   readonly provisionedConcurrency?: number;
 }
@@ -2661,7 +2930,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsServerlessCon
   }
 
   // max_concurrency - computed: false, optional: false, required: true
-  private _maxConcurrency?: number; 
+  private _maxConcurrency?: number;
   public get maxConcurrency() {
     return this.getNumberAttribute('max_concurrency');
   }
@@ -2674,7 +2943,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsServerlessCon
   }
 
   // memory_size_in_mb - computed: false, optional: false, required: true
-  private _memorySizeInMb?: number; 
+  private _memorySizeInMb?: number;
   public get memorySizeInMb() {
     return this.getNumberAttribute('memory_size_in_mb');
   }
@@ -2687,7 +2956,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsServerlessCon
   }
 
   // provisioned_concurrency - computed: false, optional: true, required: false
-  private _provisionedConcurrency?: number; 
+  private _provisionedConcurrency?: number;
   public get provisionedConcurrency() {
     return this.getNumberAttribute('provisioned_concurrency');
   }
@@ -2704,71 +2973,77 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsServerlessCon
 }
 export interface SagemakerEndpointConfigurationShadowProductionVariants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#accelerator_type SagemakerEndpointConfiguration#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#accelerator_type SagemakerEndpointConfiguration#accelerator_type}
   */
   readonly acceleratorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfiguration#container_startup_health_check_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfiguration#container_startup_health_check_timeout_in_seconds}
   */
   readonly containerStartupHealthCheckTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#enable_ssm_access SagemakerEndpointConfiguration#enable_ssm_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#enable_ssm_access SagemakerEndpointConfiguration#enable_ssm_access}
   */
   readonly enableSsmAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#inference_ami_version SagemakerEndpointConfiguration#inference_ami_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#inference_ami_version SagemakerEndpointConfiguration#inference_ami_version}
   */
   readonly inferenceAmiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#initial_instance_count SagemakerEndpointConfiguration#initial_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#initial_instance_count SagemakerEndpointConfiguration#initial_instance_count}
   */
   readonly initialInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#initial_variant_weight SagemakerEndpointConfiguration#initial_variant_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#initial_variant_weight SagemakerEndpointConfiguration#initial_variant_weight}
   */
   readonly initialVariantWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#instance_type SagemakerEndpointConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#instance_type SagemakerEndpointConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#model_data_download_timeout_in_seconds SagemakerEndpointConfiguration#model_data_download_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#model_data_download_timeout_in_seconds SagemakerEndpointConfiguration#model_data_download_timeout_in_seconds}
   */
   readonly modelDataDownloadTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#model_name SagemakerEndpointConfiguration#model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#model_name SagemakerEndpointConfiguration#model_name}
   */
   readonly modelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#variant_name SagemakerEndpointConfiguration#variant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#variant_name SagemakerEndpointConfiguration#variant_name}
   */
   readonly variantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#volume_size_in_gb SagemakerEndpointConfiguration#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#volume_size_in_gb SagemakerEndpointConfiguration#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
+  * capacity_reservation_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#capacity_reservation_config SagemakerEndpointConfiguration#capacity_reservation_config}
+  */
+  readonly capacityReservationConfig?: SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig;
+  /**
   * core_dump_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#core_dump_config SagemakerEndpointConfiguration#core_dump_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#core_dump_config SagemakerEndpointConfiguration#core_dump_config}
   */
   readonly coreDumpConfig?: SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig;
   /**
   * managed_instance_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#managed_instance_scaling SagemakerEndpointConfiguration#managed_instance_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#managed_instance_scaling SagemakerEndpointConfiguration#managed_instance_scaling}
   */
   readonly managedInstanceScaling?: SagemakerEndpointConfigurationShadowProductionVariantsManagedInstanceScaling;
   /**
   * routing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#routing_config SagemakerEndpointConfiguration#routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#routing_config SagemakerEndpointConfiguration#routing_config}
   */
   readonly routingConfig?: SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfig[] | cdktn.IResolvable;
   /**
   * serverless_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#serverless_config SagemakerEndpointConfiguration#serverless_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#serverless_config SagemakerEndpointConfiguration#serverless_config}
   */
   readonly serverlessConfig?: SagemakerEndpointConfigurationShadowProductionVariantsServerlessConfig;
 }
@@ -2790,6 +3065,7 @@ export function sagemakerEndpointConfigurationShadowProductionVariantsToTerrafor
     model_name: cdktn.stringToTerraform(struct!.modelName),
     variant_name: cdktn.stringToTerraform(struct!.variantName),
     volume_size_in_gb: cdktn.numberToTerraform(struct!.volumeSizeInGb),
+    capacity_reservation_config: sagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigToTerraform(struct!.capacityReservationConfig),
     core_dump_config: sagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfigToTerraform(struct!.coreDumpConfig),
     managed_instance_scaling: sagemakerEndpointConfigurationShadowProductionVariantsManagedInstanceScalingToTerraform(struct!.managedInstanceScaling),
     routing_config: cdktn.listMapper(sagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigToTerraform, true)(struct!.routingConfig),
@@ -2869,6 +3145,12 @@ export function sagemakerEndpointConfigurationShadowProductionVariantsToHclTerra
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    capacity_reservation_config: {
+      value: sagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigToHclTerraform(struct!.capacityReservationConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigList",
     },
     core_dump_config: {
       value: sagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfigToHclTerraform(struct!.coreDumpConfig),
@@ -2964,6 +3246,10 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
       hasAnyValues = true;
       internalValueResult.volumeSizeInGb = this._volumeSizeInGb;
     }
+    if (this._capacityReservationConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityReservationConfig = this._capacityReservationConfig?.internalValue;
+    }
     if (this._coreDumpConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.coreDumpConfig = this._coreDumpConfig?.internalValue;
@@ -2998,6 +3284,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
       this._modelName = undefined;
       this._variantName = undefined;
       this._volumeSizeInGb = undefined;
+      this._capacityReservationConfig.internalValue = undefined;
       this._coreDumpConfig.internalValue = undefined;
       this._managedInstanceScaling.internalValue = undefined;
       this._routingConfig.internalValue = undefined;
@@ -3021,6 +3308,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
       this._modelName = value.modelName;
       this._variantName = value.variantName;
       this._volumeSizeInGb = value.volumeSizeInGb;
+      this._capacityReservationConfig.internalValue = value.capacityReservationConfig;
       this._coreDumpConfig.internalValue = value.coreDumpConfig;
       this._managedInstanceScaling.internalValue = value.managedInstanceScaling;
       this._routingConfig.internalValue = value.routingConfig;
@@ -3029,7 +3317,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // accelerator_type - computed: false, optional: true, required: false
-  private _acceleratorType?: string; 
+  private _acceleratorType?: string;
   public get acceleratorType() {
     return this.getStringAttribute('accelerator_type');
   }
@@ -3045,7 +3333,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // container_startup_health_check_timeout_in_seconds - computed: false, optional: true, required: false
-  private _containerStartupHealthCheckTimeoutInSeconds?: number; 
+  private _containerStartupHealthCheckTimeoutInSeconds?: number;
   public get containerStartupHealthCheckTimeoutInSeconds() {
     return this.getNumberAttribute('container_startup_health_check_timeout_in_seconds');
   }
@@ -3061,7 +3349,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // enable_ssm_access - computed: false, optional: true, required: false
-  private _enableSsmAccess?: boolean | cdktn.IResolvable; 
+  private _enableSsmAccess?: boolean | cdktn.IResolvable;
   public get enableSsmAccess() {
     return this.getBooleanAttribute('enable_ssm_access');
   }
@@ -3077,7 +3365,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // inference_ami_version - computed: false, optional: true, required: false
-  private _inferenceAmiVersion?: string; 
+  private _inferenceAmiVersion?: string;
   public get inferenceAmiVersion() {
     return this.getStringAttribute('inference_ami_version');
   }
@@ -3093,7 +3381,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // initial_instance_count - computed: false, optional: true, required: false
-  private _initialInstanceCount?: number; 
+  private _initialInstanceCount?: number;
   public get initialInstanceCount() {
     return this.getNumberAttribute('initial_instance_count');
   }
@@ -3109,7 +3397,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // initial_variant_weight - computed: false, optional: true, required: false
-  private _initialVariantWeight?: number; 
+  private _initialVariantWeight?: number;
   public get initialVariantWeight() {
     return this.getNumberAttribute('initial_variant_weight');
   }
@@ -3125,7 +3413,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3141,7 +3429,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // model_data_download_timeout_in_seconds - computed: false, optional: true, required: false
-  private _modelDataDownloadTimeoutInSeconds?: number; 
+  private _modelDataDownloadTimeoutInSeconds?: number;
   public get modelDataDownloadTimeoutInSeconds() {
     return this.getNumberAttribute('model_data_download_timeout_in_seconds');
   }
@@ -3157,7 +3445,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // model_name - computed: false, optional: true, required: false
-  private _modelName?: string; 
+  private _modelName?: string;
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -3173,7 +3461,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // variant_name - computed: true, optional: true, required: false
-  private _variantName?: string; 
+  private _variantName?: string;
   public get variantName() {
     return this.getStringAttribute('variant_name');
   }
@@ -3189,7 +3477,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -3202,6 +3490,22 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsOutputReferen
   // Temporarily expose input value. Use with caution.
   public get volumeSizeInGbInput() {
     return this._volumeSizeInGb;
+  }
+
+  // capacity_reservation_config - computed: false, optional: true, required: false
+  private _capacityReservationConfig = new SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference(this, "capacity_reservation_config");
+  public get capacityReservationConfig() {
+    return this._capacityReservationConfig;
+  }
+  public putCapacityReservationConfig(value: SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig) {
+    this._capacityReservationConfig.internalValue = value;
+  }
+  public resetCapacityReservationConfig() {
+    this._capacityReservationConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityReservationConfigInput() {
+    return this._capacityReservationConfig.internalValue;
   }
 
   // core_dump_config - computed: false, optional: true, required: false
@@ -3290,7 +3594,7 @@ export class SagemakerEndpointConfigurationShadowProductionVariantsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration}
 */
 export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
 
@@ -3306,7 +3610,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerEndpointConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerEndpointConfiguration to import
-  * @param importFromId The id of the existing SagemakerEndpointConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerEndpointConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerEndpointConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3318,7 +3622,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3329,7 +3633,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_endpoint_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3363,7 +3667,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -3379,7 +3683,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3395,7 +3699,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -3411,7 +3715,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3427,7 +3731,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -3443,7 +3747,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3459,7 +3763,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3475,7 +3779,7 @@ export class SagemakerEndpointConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

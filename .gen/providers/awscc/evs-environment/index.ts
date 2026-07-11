@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktn from 'cdktn';
 
 export interface EvsEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}
   */
-  readonly connectivityInfo: EvsEnvironmentConnectivityInfo;
+  readonly connectivityInfo?: EvsEnvironmentConnectivityInfo;
   /**
   * The name of an EVS environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
   */
   readonly environmentName?: string;
   /**
   * The initial hosts for environment only required upon creation. Modification after creation will have no effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
   */
   readonly hosts?: EvsEnvironmentHosts[] | cdktn.IResolvable;
   /**
   * The initial Vlan configuration only required upon creation. Modification after creation will have no effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
   */
   readonly initialVlans?: EvsEnvironmentInitialVlans;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The license information for an EVS environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
   */
-  readonly licenseInfo: EvsEnvironmentLicenseInfo;
+  readonly licenseInfo?: EvsEnvironmentLicenseInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}
   */
   readonly serviceAccessSecurityGroups?: EvsEnvironmentServiceAccessSecurityGroups;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}
   */
   readonly serviceAccessSubnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}
   */
-  readonly siteId: string;
+  readonly siteId?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
   */
   readonly tags?: EvsEnvironmentTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}
   */
   readonly termsAccepted: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}
   */
-  readonly vcfHostnames: EvsEnvironmentVcfHostnames;
+  readonly vcfHostnames?: EvsEnvironmentVcfHostnames;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}
   */
   readonly vcfVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -161,9 +161,9 @@ export class EvsEnvironmentChecksList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentConnectivityInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#private_route_server_peerings EvsEnvironment#private_route_server_peerings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#private_route_server_peerings EvsEnvironment#private_route_server_peerings}
   */
-  readonly privateRouteServerPeerings: string[];
+  readonly privateRouteServerPeerings?: string[];
 }
 
 export function evsEnvironmentConnectivityInfoToTerraform(struct?: EvsEnvironmentConnectivityInfo | cdktn.IResolvable): any {
@@ -237,13 +237,16 @@ export class EvsEnvironmentConnectivityInfoOutputReference extends cdktn.Complex
     }
   }
 
-  // private_route_server_peerings - computed: false, optional: false, required: true
-  private _privateRouteServerPeerings?: string[]; 
+  // private_route_server_peerings - computed: true, optional: true, required: false
+  private _privateRouteServerPeerings?: string[];
   public get privateRouteServerPeerings() {
     return this.getListAttribute('private_route_server_peerings');
   }
   public set privateRouteServerPeerings(value: string[]) {
     this._privateRouteServerPeerings = value;
+  }
+  public resetPrivateRouteServerPeerings() {
+    this._privateRouteServerPeerings = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get privateRouteServerPeeringsInput() {
@@ -327,23 +330,23 @@ export class EvsEnvironmentCredentialsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#dedicated_host_id EvsEnvironment#dedicated_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#dedicated_host_id EvsEnvironment#dedicated_host_id}
   */
   readonly dedicatedHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#host_name EvsEnvironment#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#host_name EvsEnvironment#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#instance_type EvsEnvironment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#instance_type EvsEnvironment#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#key_name EvsEnvironment#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#key_name EvsEnvironment#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#placement_group_id EvsEnvironment#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#placement_group_id EvsEnvironment#placement_group_id}
   */
   readonly placementGroupId?: string;
 }
@@ -474,7 +477,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // dedicated_host_id - computed: true, optional: true, required: false
-  private _dedicatedHostId?: string; 
+  private _dedicatedHostId?: string;
   public get dedicatedHostId() {
     return this.getStringAttribute('dedicated_host_id');
   }
@@ -490,7 +493,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // host_name - computed: true, optional: true, required: false
-  private _hostName?: string; 
+  private _hostName?: string;
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -506,7 +509,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -522,7 +525,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string; 
+  private _keyName?: string;
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -538,7 +541,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // placement_group_id - computed: true, optional: true, required: false
-  private _placementGroupId?: string; 
+  private _placementGroupId?: string;
   public get placementGroupId() {
     return this.getStringAttribute('placement_group_id');
   }
@@ -575,7 +578,7 @@ export class EvsEnvironmentHostsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentInitialVlansEdgeVTep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -652,7 +655,7 @@ export class EvsEnvironmentInitialVlansEdgeVTepOutputReference extends cdktn.Com
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -669,7 +672,7 @@ export class EvsEnvironmentInitialVlansEdgeVTepOutputReference extends cdktn.Com
 }
 export interface EvsEnvironmentInitialVlansExpansionVlan1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -746,7 +749,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan1OutputReference extends cdk
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -763,7 +766,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan1OutputReference extends cdk
 }
 export interface EvsEnvironmentInitialVlansExpansionVlan2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -840,7 +843,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan2OutputReference extends cdk
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -857,7 +860,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan2OutputReference extends cdk
 }
 export interface EvsEnvironmentInitialVlansHcx {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -934,7 +937,7 @@ export class EvsEnvironmentInitialVlansHcxOutputReference extends cdktn.ComplexO
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -951,7 +954,7 @@ export class EvsEnvironmentInitialVlansHcxOutputReference extends cdktn.ComplexO
 }
 export interface EvsEnvironmentInitialVlansNsxUpLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1028,7 +1031,7 @@ export class EvsEnvironmentInitialVlansNsxUpLinkOutputReference extends cdktn.Co
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1045,7 +1048,7 @@ export class EvsEnvironmentInitialVlansNsxUpLinkOutputReference extends cdktn.Co
 }
 export interface EvsEnvironmentInitialVlansVMotion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1122,7 +1125,7 @@ export class EvsEnvironmentInitialVlansVMotionOutputReference extends cdktn.Comp
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1139,7 +1142,7 @@ export class EvsEnvironmentInitialVlansVMotionOutputReference extends cdktn.Comp
 }
 export interface EvsEnvironmentInitialVlansVSan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1216,7 +1219,7 @@ export class EvsEnvironmentInitialVlansVSanOutputReference extends cdktn.Complex
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1233,7 +1236,7 @@ export class EvsEnvironmentInitialVlansVSanOutputReference extends cdktn.Complex
 }
 export interface EvsEnvironmentInitialVlansVTep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1310,7 +1313,7 @@ export class EvsEnvironmentInitialVlansVTepOutputReference extends cdktn.Complex
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1327,7 +1330,7 @@ export class EvsEnvironmentInitialVlansVTepOutputReference extends cdktn.Complex
 }
 export interface EvsEnvironmentInitialVlansVmManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1404,7 +1407,7 @@ export class EvsEnvironmentInitialVlansVmManagementOutputReference extends cdktn
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1421,7 +1424,7 @@ export class EvsEnvironmentInitialVlansVmManagementOutputReference extends cdktn
 }
 export interface EvsEnvironmentInitialVlansVmkManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1498,7 +1501,7 @@ export class EvsEnvironmentInitialVlansVmkManagementOutputReference extends cdkt
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string; 
+  private _cidr?: string;
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1515,51 +1518,51 @@ export class EvsEnvironmentInitialVlansVmkManagementOutputReference extends cdkt
 }
 export interface EvsEnvironmentInitialVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#edge_v_tep EvsEnvironment#edge_v_tep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#edge_v_tep EvsEnvironment#edge_v_tep}
   */
   readonly edgeVTep?: EvsEnvironmentInitialVlansEdgeVTep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#expansion_vlan_1 EvsEnvironment#expansion_vlan_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#expansion_vlan_1 EvsEnvironment#expansion_vlan_1}
   */
   readonly expansionVlan1?: EvsEnvironmentInitialVlansExpansionVlan1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#expansion_vlan_2 EvsEnvironment#expansion_vlan_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#expansion_vlan_2 EvsEnvironment#expansion_vlan_2}
   */
   readonly expansionVlan2?: EvsEnvironmentInitialVlansExpansionVlan2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#hcx EvsEnvironment#hcx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#hcx EvsEnvironment#hcx}
   */
   readonly hcx?: EvsEnvironmentInitialVlansHcx;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#hcx_network_acl_id EvsEnvironment#hcx_network_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#hcx_network_acl_id EvsEnvironment#hcx_network_acl_id}
   */
   readonly hcxNetworkAclId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#is_hcx_public EvsEnvironment#is_hcx_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#is_hcx_public EvsEnvironment#is_hcx_public}
   */
   readonly isHcxPublic?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_up_link EvsEnvironment#nsx_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_up_link EvsEnvironment#nsx_up_link}
   */
   readonly nsxUpLink?: EvsEnvironmentInitialVlansNsxUpLink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#v_motion EvsEnvironment#v_motion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#v_motion EvsEnvironment#v_motion}
   */
   readonly vMotion?: EvsEnvironmentInitialVlansVMotion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#v_san EvsEnvironment#v_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#v_san EvsEnvironment#v_san}
   */
   readonly vSan?: EvsEnvironmentInitialVlansVSan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#v_tep EvsEnvironment#v_tep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#v_tep EvsEnvironment#v_tep}
   */
   readonly vTep?: EvsEnvironmentInitialVlansVTep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vm_management EvsEnvironment#vm_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vm_management EvsEnvironment#vm_management}
   */
   readonly vmManagement?: EvsEnvironmentInitialVlansVmManagement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vmk_management EvsEnvironment#vmk_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vmk_management EvsEnvironment#vmk_management}
   */
   readonly vmkManagement?: EvsEnvironmentInitialVlansVmkManagement;
 }
@@ -1843,7 +1846,7 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
   }
 
   // hcx_network_acl_id - computed: true, optional: true, required: false
-  private _hcxNetworkAclId?: string; 
+  private _hcxNetworkAclId?: string;
   public get hcxNetworkAclId() {
     return this.getStringAttribute('hcx_network_acl_id');
   }
@@ -1859,7 +1862,7 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
   }
 
   // is_hcx_public - computed: true, optional: true, required: false
-  private _isHcxPublic?: boolean | cdktn.IResolvable; 
+  private _isHcxPublic?: boolean | cdktn.IResolvable;
   public get isHcxPublic() {
     return this.getBooleanAttribute('is_hcx_public');
   }
@@ -1972,13 +1975,13 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
 }
 export interface EvsEnvironmentLicenseInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}
   */
-  readonly solutionKey: string;
+  readonly solutionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}
   */
-  readonly vsanKey: string;
+  readonly vsanKey?: string;
 }
 
 export function evsEnvironmentLicenseInfoToTerraform(struct?: EvsEnvironmentLicenseInfo | cdktn.IResolvable): any {
@@ -2065,26 +2068,32 @@ export class EvsEnvironmentLicenseInfoOutputReference extends cdktn.ComplexObjec
     }
   }
 
-  // solution_key - computed: false, optional: false, required: true
-  private _solutionKey?: string; 
+  // solution_key - computed: true, optional: true, required: false
+  private _solutionKey?: string;
   public get solutionKey() {
     return this.getStringAttribute('solution_key');
   }
   public set solutionKey(value: string) {
     this._solutionKey = value;
   }
+  public resetSolutionKey() {
+    this._solutionKey = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get solutionKeyInput() {
     return this._solutionKey;
   }
 
-  // vsan_key - computed: false, optional: false, required: true
-  private _vsanKey?: string; 
+  // vsan_key - computed: true, optional: true, required: false
+  private _vsanKey?: string;
   public get vsanKey() {
     return this.getStringAttribute('vsan_key');
   }
   public set vsanKey(value: string) {
     this._vsanKey = value;
+  }
+  public resetVsanKey() {
+    this._vsanKey = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vsanKeyInput() {
@@ -2093,7 +2102,7 @@ export class EvsEnvironmentLicenseInfoOutputReference extends cdktn.ComplexObjec
 }
 export interface EvsEnvironmentServiceAccessSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#security_groups EvsEnvironment#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#security_groups EvsEnvironment#security_groups}
   */
   readonly securityGroups?: string[];
 }
@@ -2170,7 +2179,7 @@ export class EvsEnvironmentServiceAccessSecurityGroupsOutputReference extends cd
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -2189,13 +2198,13 @@ export interface EvsEnvironmentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#key EvsEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#key EvsEnvironment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#value EvsEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#value EvsEnvironment#value}
   */
   readonly value?: string;
 }
@@ -2287,7 +2296,7 @@ export class EvsEnvironmentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2303,7 +2312,7 @@ export class EvsEnvironmentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2340,41 +2349,41 @@ export class EvsEnvironmentTagsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentVcfHostnames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#cloud_builder EvsEnvironment#cloud_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#cloud_builder EvsEnvironment#cloud_builder}
   */
-  readonly cloudBuilder: string;
+  readonly cloudBuilder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx EvsEnvironment#nsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx EvsEnvironment#nsx}
   */
-  readonly nsx: string;
+  readonly nsx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_edge_1 EvsEnvironment#nsx_edge_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_edge_1 EvsEnvironment#nsx_edge_1}
   */
-  readonly nsxEdge1: string;
+  readonly nsxEdge1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_edge_2 EvsEnvironment#nsx_edge_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_edge_2 EvsEnvironment#nsx_edge_2}
   */
-  readonly nsxEdge2: string;
+  readonly nsxEdge2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_manager_1 EvsEnvironment#nsx_manager_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_manager_1 EvsEnvironment#nsx_manager_1}
   */
-  readonly nsxManager1: string;
+  readonly nsxManager1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_manager_2 EvsEnvironment#nsx_manager_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_manager_2 EvsEnvironment#nsx_manager_2}
   */
-  readonly nsxManager2: string;
+  readonly nsxManager2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#nsx_manager_3 EvsEnvironment#nsx_manager_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#nsx_manager_3 EvsEnvironment#nsx_manager_3}
   */
-  readonly nsxManager3: string;
+  readonly nsxManager3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#sddc_manager EvsEnvironment#sddc_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#sddc_manager EvsEnvironment#sddc_manager}
   */
-  readonly sddcManager: string;
+  readonly sddcManager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#v_center EvsEnvironment#v_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#v_center EvsEnvironment#v_center}
   */
-  readonly vCenter: string;
+  readonly vCenter?: string;
 }
 
 export function evsEnvironmentVcfHostnamesToTerraform(struct?: EvsEnvironmentVcfHostnames | cdktn.IResolvable): any {
@@ -2552,117 +2561,144 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
     }
   }
 
-  // cloud_builder - computed: false, optional: false, required: true
-  private _cloudBuilder?: string; 
+  // cloud_builder - computed: true, optional: true, required: false
+  private _cloudBuilder?: string;
   public get cloudBuilder() {
     return this.getStringAttribute('cloud_builder');
   }
   public set cloudBuilder(value: string) {
     this._cloudBuilder = value;
   }
+  public resetCloudBuilder() {
+    this._cloudBuilder = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get cloudBuilderInput() {
     return this._cloudBuilder;
   }
 
-  // nsx - computed: false, optional: false, required: true
-  private _nsx?: string; 
+  // nsx - computed: true, optional: true, required: false
+  private _nsx?: string;
   public get nsx() {
     return this.getStringAttribute('nsx');
   }
   public set nsx(value: string) {
     this._nsx = value;
   }
+  public resetNsx() {
+    this._nsx = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxInput() {
     return this._nsx;
   }
 
-  // nsx_edge_1 - computed: false, optional: false, required: true
-  private _nsxEdge1?: string; 
+  // nsx_edge_1 - computed: true, optional: true, required: false
+  private _nsxEdge1?: string;
   public get nsxEdge1() {
     return this.getStringAttribute('nsx_edge_1');
   }
   public set nsxEdge1(value: string) {
     this._nsxEdge1 = value;
   }
+  public resetNsxEdge1() {
+    this._nsxEdge1 = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxEdge1Input() {
     return this._nsxEdge1;
   }
 
-  // nsx_edge_2 - computed: false, optional: false, required: true
-  private _nsxEdge2?: string; 
+  // nsx_edge_2 - computed: true, optional: true, required: false
+  private _nsxEdge2?: string;
   public get nsxEdge2() {
     return this.getStringAttribute('nsx_edge_2');
   }
   public set nsxEdge2(value: string) {
     this._nsxEdge2 = value;
   }
+  public resetNsxEdge2() {
+    this._nsxEdge2 = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxEdge2Input() {
     return this._nsxEdge2;
   }
 
-  // nsx_manager_1 - computed: false, optional: false, required: true
-  private _nsxManager1?: string; 
+  // nsx_manager_1 - computed: true, optional: true, required: false
+  private _nsxManager1?: string;
   public get nsxManager1() {
     return this.getStringAttribute('nsx_manager_1');
   }
   public set nsxManager1(value: string) {
     this._nsxManager1 = value;
   }
+  public resetNsxManager1() {
+    this._nsxManager1 = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxManager1Input() {
     return this._nsxManager1;
   }
 
-  // nsx_manager_2 - computed: false, optional: false, required: true
-  private _nsxManager2?: string; 
+  // nsx_manager_2 - computed: true, optional: true, required: false
+  private _nsxManager2?: string;
   public get nsxManager2() {
     return this.getStringAttribute('nsx_manager_2');
   }
   public set nsxManager2(value: string) {
     this._nsxManager2 = value;
   }
+  public resetNsxManager2() {
+    this._nsxManager2 = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxManager2Input() {
     return this._nsxManager2;
   }
 
-  // nsx_manager_3 - computed: false, optional: false, required: true
-  private _nsxManager3?: string; 
+  // nsx_manager_3 - computed: true, optional: true, required: false
+  private _nsxManager3?: string;
   public get nsxManager3() {
     return this.getStringAttribute('nsx_manager_3');
   }
   public set nsxManager3(value: string) {
     this._nsxManager3 = value;
   }
+  public resetNsxManager3() {
+    this._nsxManager3 = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nsxManager3Input() {
     return this._nsxManager3;
   }
 
-  // sddc_manager - computed: false, optional: false, required: true
-  private _sddcManager?: string; 
+  // sddc_manager - computed: true, optional: true, required: false
+  private _sddcManager?: string;
   public get sddcManager() {
     return this.getStringAttribute('sddc_manager');
   }
   public set sddcManager(value: string) {
     this._sddcManager = value;
   }
+  public resetSddcManager() {
+    this._sddcManager = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get sddcManagerInput() {
     return this._sddcManager;
   }
 
-  // v_center - computed: false, optional: false, required: true
-  private _vCenter?: string; 
+  // v_center - computed: true, optional: true, required: false
+  private _vCenter?: string;
   public get vCenter() {
     return this.getStringAttribute('v_center');
   }
   public set vCenter(value: string) {
     this._vCenter = value;
+  }
+  public resetVCenter() {
+    this._vCenter = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vCenterInput() {
@@ -2671,7 +2707,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment awscc_evs_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment awscc_evs_environment}
 */
 export class EvsEnvironment extends cdktn.TerraformResource {
 
@@ -2687,7 +2723,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvsEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvsEnvironment to import
-  * @param importFromId The id of the existing EvsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvsEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2699,7 +2735,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evs_environment awscc_evs_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evs_environment awscc_evs_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2710,7 +2746,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_evs_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2746,13 +2782,16 @@ export class EvsEnvironment extends cdktn.TerraformResource {
     return this._checks;
   }
 
-  // connectivity_info - computed: false, optional: false, required: true
+  // connectivity_info - computed: true, optional: true, required: false
   private _connectivityInfo = new EvsEnvironmentConnectivityInfoOutputReference(this, "connectivity_info");
   public get connectivityInfo() {
     return this._connectivityInfo;
   }
   public putConnectivityInfo(value: EvsEnvironmentConnectivityInfo) {
     this._connectivityInfo.internalValue = value;
+  }
+  public resetConnectivityInfo() {
+    this._connectivityInfo.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get connectivityInfoInput() {
@@ -2781,7 +2820,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_name - computed: true, optional: true, required: false
-  private _environmentName?: string; 
+  private _environmentName?: string;
   public get environmentName() {
     return this.getStringAttribute('environment_name');
   }
@@ -2839,7 +2878,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2854,13 +2893,16 @@ export class EvsEnvironment extends cdktn.TerraformResource {
     return this._kmsKeyId;
   }
 
-  // license_info - computed: false, optional: false, required: true
+  // license_info - computed: true, optional: true, required: false
   private _licenseInfo = new EvsEnvironmentLicenseInfoOutputReference(this, "license_info");
   public get licenseInfo() {
     return this._licenseInfo;
   }
   public putLicenseInfo(value: EvsEnvironmentLicenseInfo) {
     this._licenseInfo.internalValue = value;
+  }
+  public resetLicenseInfo() {
+    this._licenseInfo.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get licenseInfoInput() {
@@ -2889,7 +2931,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // service_access_subnet_id - computed: false, optional: false, required: true
-  private _serviceAccessSubnetId?: string; 
+  private _serviceAccessSubnetId?: string;
   public get serviceAccessSubnetId() {
     return this.getStringAttribute('service_access_subnet_id');
   }
@@ -2901,13 +2943,16 @@ export class EvsEnvironment extends cdktn.TerraformResource {
     return this._serviceAccessSubnetId;
   }
 
-  // site_id - computed: false, optional: false, required: true
-  private _siteId?: string; 
+  // site_id - computed: true, optional: true, required: false
+  private _siteId?: string;
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
   public set siteId(value: string) {
     this._siteId = value;
+  }
+  public resetSiteId() {
+    this._siteId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get siteIdInput() {
@@ -2936,7 +2981,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // terms_accepted - computed: false, optional: false, required: true
-  private _termsAccepted?: boolean | cdktn.IResolvable; 
+  private _termsAccepted?: boolean | cdktn.IResolvable;
   public get termsAccepted() {
     return this.getBooleanAttribute('terms_accepted');
   }
@@ -2948,7 +2993,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
     return this._termsAccepted;
   }
 
-  // vcf_hostnames - computed: false, optional: false, required: true
+  // vcf_hostnames - computed: true, optional: true, required: false
   private _vcfHostnames = new EvsEnvironmentVcfHostnamesOutputReference(this, "vcf_hostnames");
   public get vcfHostnames() {
     return this._vcfHostnames;
@@ -2956,13 +3001,16 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   public putVcfHostnames(value: EvsEnvironmentVcfHostnames) {
     this._vcfHostnames.internalValue = value;
   }
+  public resetVcfHostnames() {
+    this._vcfHostnames.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get vcfHostnamesInput() {
     return this._vcfHostnames.internalValue;
   }
 
   // vcf_version - computed: false, optional: false, required: true
-  private _vcfVersion?: string; 
+  private _vcfVersion?: string;
   public get vcfVersion() {
     return this.getStringAttribute('vcf_version');
   }
@@ -2975,7 +3023,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

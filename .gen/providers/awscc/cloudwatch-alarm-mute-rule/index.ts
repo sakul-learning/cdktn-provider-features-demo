@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudwatchAlarmMuteRuleConfig extends cdktn.TerraformMetaArgume
   /**
   * The description of the AlarmMuteRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#description CloudwatchAlarmMuteRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#description CloudwatchAlarmMuteRule#description}
   */
   readonly description?: string;
   /**
   * The date, with the same timezone offset as "ScheduleTimezone" after which the alarm mute rule will be expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#expire_date CloudwatchAlarmMuteRule#expire_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#expire_date CloudwatchAlarmMuteRule#expire_date}
   */
   readonly expireDate?: string;
   /**
   * Targets to be muted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#mute_targets CloudwatchAlarmMuteRule#mute_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#mute_targets CloudwatchAlarmMuteRule#mute_targets}
   */
   readonly muteTargets?: CloudwatchAlarmMuteRuleMuteTargets;
   /**
   * The name of the AlarmMuteRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#name CloudwatchAlarmMuteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#name CloudwatchAlarmMuteRule#name}
   */
   readonly name?: string;
   /**
   * The rule for the mute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#rule CloudwatchAlarmMuteRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#rule CloudwatchAlarmMuteRule#rule}
   */
   readonly rule: CloudwatchAlarmMuteRuleRule;
   /**
   * The date, with the same timezone offset as "ScheduleTimezone", after which the alarm mute rule will become active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#start_date CloudwatchAlarmMuteRule#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#start_date CloudwatchAlarmMuteRule#start_date}
   */
   readonly startDate?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#tags CloudwatchAlarmMuteRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#tags CloudwatchAlarmMuteRule#tags}
   */
   readonly tags?: CloudwatchAlarmMuteRuleTags[] | cdktn.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface CloudwatchAlarmMuteRuleMuteTargets {
   /**
   * The alarm names to be mute by the AlarmMuteRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}
   */
   readonly alarmNames?: string[];
 }
@@ -131,7 +131,7 @@ export class CloudwatchAlarmMuteRuleMuteTargetsOutputReference extends cdktn.Com
   }
 
   // alarm_names - computed: true, optional: true, required: false
-  private _alarmNames?: string[]; 
+  private _alarmNames?: string[];
   public get alarmNames() {
     return cdktn.Fn.tolist(this.getListAttribute('alarm_names'));
   }
@@ -150,19 +150,19 @@ export interface CloudwatchAlarmMuteRuleRuleSchedule {
   /**
   * The duration of the schedule when it triggers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#duration CloudwatchAlarmMuteRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#duration CloudwatchAlarmMuteRule#duration}
   */
   readonly duration: string;
   /**
   * The expression of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#expression CloudwatchAlarmMuteRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#expression CloudwatchAlarmMuteRule#expression}
   */
   readonly expression: string;
   /**
   * The timezone of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#timezone CloudwatchAlarmMuteRule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#timezone CloudwatchAlarmMuteRule#timezone}
   */
   readonly timezone?: string;
 }
@@ -265,7 +265,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: string; 
+  private _duration?: string;
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -278,7 +278,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -291,7 +291,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string; 
+  private _timezone?: string;
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -310,7 +310,7 @@ export interface CloudwatchAlarmMuteRuleRule {
   /**
   * Schedule for the mute to be active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
   */
   readonly schedule: CloudwatchAlarmMuteRuleRuleSchedule;
 }
@@ -403,13 +403,13 @@ export interface CloudwatchAlarmMuteRuleTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#key CloudwatchAlarmMuteRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#key CloudwatchAlarmMuteRule#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#value CloudwatchAlarmMuteRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#value CloudwatchAlarmMuteRule#value}
   */
   readonly value?: string;
 }
@@ -501,7 +501,7 @@ export class CloudwatchAlarmMuteRuleTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -517,7 +517,7 @@ export class CloudwatchAlarmMuteRuleTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -554,7 +554,7 @@ export class CloudwatchAlarmMuteRuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}
 */
 export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
 
@@ -570,7 +570,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchAlarmMuteRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchAlarmMuteRule to import
-  * @param importFromId The id of the existing CloudwatchAlarmMuteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchAlarmMuteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchAlarmMuteRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -582,7 +582,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,7 +593,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_alarm_mute_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -622,7 +622,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -638,7 +638,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // expire_date - computed: true, optional: true, required: false
-  private _expireDate?: string; 
+  private _expireDate?: string;
   public get expireDate() {
     return this.getStringAttribute('expire_date');
   }
@@ -685,7 +685,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -714,7 +714,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string; 
+  private _startDate?: string;
   public get startDate() {
     return this.getStringAttribute('start_date');
   }

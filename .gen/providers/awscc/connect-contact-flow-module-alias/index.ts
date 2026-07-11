@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConnectContactFlowModuleAliasConfig extends cdktn.TerraformMeta
   /**
   * The identifier of the contact flow module (ARN) this alias is tied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_id ConnectContactFlowModuleAlias#contact_flow_module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_id ConnectContactFlowModuleAlias#contact_flow_module_id}
   */
   readonly contactFlowModuleId: string;
   /**
   * The version number of the contact flow module this alias points to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_version ConnectContactFlowModuleAlias#contact_flow_module_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_version ConnectContactFlowModuleAlias#contact_flow_module_version}
   */
   readonly contactFlowModuleVersion: number;
   /**
   * The description of the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias#description ConnectContactFlowModuleAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias#description ConnectContactFlowModuleAlias#description}
   */
   readonly description?: string;
   /**
   * The name of the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias#name ConnectContactFlowModuleAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias#name ConnectContactFlowModuleAlias#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}
 */
 export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectContactFlowModuleAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectContactFlowModuleAlias to import
-  * @param importFromId The id of the existing ConnectContactFlowModuleAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectContactFlowModuleAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectContactFlowModuleAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_contact_flow_module_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -104,7 +104,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // contact_flow_module_id - computed: false, optional: false, required: true
-  private _contactFlowModuleId?: string; 
+  private _contactFlowModuleId?: string;
   public get contactFlowModuleId() {
     return this.getStringAttribute('contact_flow_module_id');
   }
@@ -117,7 +117,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // contact_flow_module_version - computed: false, optional: false, required: true
-  private _contactFlowModuleVersion?: number; 
+  private _contactFlowModuleVersion?: number;
   public get contactFlowModuleVersion() {
     return this.getNumberAttribute('contact_flow_module_version');
   }
@@ -130,7 +130,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -151,7 +151,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

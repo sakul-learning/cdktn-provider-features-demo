@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,71 @@ import * as cdktn from 'cdktn';
 
 export interface CleanroomsCollaborationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#allowed_result_regions CleanroomsCollaboration#allowed_result_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#allowed_result_regions CleanroomsCollaboration#allowed_result_regions}
   */
   readonly allowedResultRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#analytics_engine CleanroomsCollaboration#analytics_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#analytics_engine CleanroomsCollaboration#analytics_engine}
   */
   readonly analyticsEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#auto_approved_change_types CleanroomsCollaboration#auto_approved_change_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#auto_approved_change_types CleanroomsCollaboration#auto_approved_change_types}
   */
   readonly autoApprovedChangeTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#creator_display_name CleanroomsCollaboration#creator_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#creator_display_name CleanroomsCollaboration#creator_display_name}
   */
   readonly creatorDisplayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#creator_member_abilities CleanroomsCollaboration#creator_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#creator_member_abilities CleanroomsCollaboration#creator_member_abilities}
   */
   readonly creatorMemberAbilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#creator_ml_member_abilities CleanroomsCollaboration#creator_ml_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#creator_ml_member_abilities CleanroomsCollaboration#creator_ml_member_abilities}
   */
   readonly creatorMlMemberAbilities?: CleanroomsCollaborationCreatorMlMemberAbilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#creator_payment_configuration CleanroomsCollaboration#creator_payment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#creator_payment_configuration CleanroomsCollaboration#creator_payment_configuration}
   */
   readonly creatorPaymentConfiguration?: CleanroomsCollaborationCreatorPaymentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#data_encryption_metadata CleanroomsCollaboration#data_encryption_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#data_encryption_metadata CleanroomsCollaboration#data_encryption_metadata}
   */
   readonly dataEncryptionMetadata?: CleanroomsCollaborationDataEncryptionMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#description CleanroomsCollaboration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#description CleanroomsCollaboration#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_metrics_enabled CleanroomsCollaboration#is_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_metrics_enabled CleanroomsCollaboration#is_metrics_enabled}
   */
   readonly isMetricsEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#job_log_status CleanroomsCollaboration#job_log_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#job_log_status CleanroomsCollaboration#job_log_status}
   */
   readonly jobLogStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#members CleanroomsCollaboration#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#members CleanroomsCollaboration#members}
   */
   readonly members?: CleanroomsCollaborationMembers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#name CleanroomsCollaboration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#name CleanroomsCollaboration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#query_log_status CleanroomsCollaboration#query_log_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#query_log_status CleanroomsCollaboration#query_log_status}
   */
   readonly queryLogStatus: string;
   /**
   * An arbitrary set of tags (key-value pairs) for this cleanrooms collaboration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#tags CleanroomsCollaboration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#tags CleanroomsCollaboration#tags}
   */
   readonly tags?: CleanroomsCollaborationTags[] | cdktn.IResolvable;
 }
 export interface CleanroomsCollaborationCreatorMlMemberAbilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#custom_ml_member_abilities CleanroomsCollaboration#custom_ml_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#custom_ml_member_abilities CleanroomsCollaboration#custom_ml_member_abilities}
   */
   readonly customMlMemberAbilities?: string[];
 }
@@ -149,7 +149,7 @@ export class CleanroomsCollaborationCreatorMlMemberAbilitiesOutputReference exte
   }
 
   // custom_ml_member_abilities - computed: true, optional: true, required: false
-  private _customMlMemberAbilities?: string[]; 
+  private _customMlMemberAbilities?: string[];
   public get customMlMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('custom_ml_member_abilities'));
   }
@@ -166,7 +166,7 @@ export class CleanroomsCollaborationCreatorMlMemberAbilitiesOutputReference exte
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationJobCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -243,7 +243,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationJobComputeOutputR
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -260,7 +260,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationJobComputeOutputR
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningModelInference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -337,7 +337,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -354,7 +354,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningModelTraining {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -431,7 +431,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -448,7 +448,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningSyntheticDataGeneration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -525,7 +525,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningSy
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -542,15 +542,15 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningSy
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationMachineLearning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#model_inference CleanroomsCollaboration#model_inference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#model_inference CleanroomsCollaboration#model_inference}
   */
   readonly modelInference?: CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningModelInference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#model_training CleanroomsCollaboration#model_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#model_training CleanroomsCollaboration#model_training}
   */
   readonly modelTraining?: CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningModelTraining;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#synthetic_data_generation CleanroomsCollaboration#synthetic_data_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#synthetic_data_generation CleanroomsCollaboration#synthetic_data_generation}
   */
   readonly syntheticDataGeneration?: CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningSyntheticDataGeneration;
 }
@@ -702,7 +702,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningOu
 }
 export interface CleanroomsCollaborationCreatorPaymentConfigurationQueryCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -779,7 +779,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationQueryComputeOutpu
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -796,15 +796,15 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationQueryComputeOutpu
 }
 export interface CleanroomsCollaborationCreatorPaymentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#job_compute CleanroomsCollaboration#job_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#job_compute CleanroomsCollaboration#job_compute}
   */
   readonly jobCompute?: CleanroomsCollaborationCreatorPaymentConfigurationJobCompute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#machine_learning CleanroomsCollaboration#machine_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#machine_learning CleanroomsCollaboration#machine_learning}
   */
   readonly machineLearning?: CleanroomsCollaborationCreatorPaymentConfigurationMachineLearning;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#query_compute CleanroomsCollaboration#query_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#query_compute CleanroomsCollaboration#query_compute}
   */
   readonly queryCompute?: CleanroomsCollaborationCreatorPaymentConfigurationQueryCompute;
 }
@@ -956,19 +956,19 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationOutputReference e
 }
 export interface CleanroomsCollaborationDataEncryptionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#allow_cleartext CleanroomsCollaboration#allow_cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#allow_cleartext CleanroomsCollaboration#allow_cleartext}
   */
   readonly allowCleartext?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#allow_duplicates CleanroomsCollaboration#allow_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#allow_duplicates CleanroomsCollaboration#allow_duplicates}
   */
   readonly allowDuplicates?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#allow_joins_on_columns_with_different_names CleanroomsCollaboration#allow_joins_on_columns_with_different_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#allow_joins_on_columns_with_different_names CleanroomsCollaboration#allow_joins_on_columns_with_different_names}
   */
   readonly allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#preserve_nulls CleanroomsCollaboration#preserve_nulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#preserve_nulls CleanroomsCollaboration#preserve_nulls}
   */
   readonly preserveNulls?: boolean | cdktn.IResolvable;
 }
@@ -1084,7 +1084,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_cleartext - computed: true, optional: true, required: false
-  private _allowCleartext?: boolean | cdktn.IResolvable; 
+  private _allowCleartext?: boolean | cdktn.IResolvable;
   public get allowCleartext() {
     return this.getBooleanAttribute('allow_cleartext');
   }
@@ -1100,7 +1100,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_duplicates - computed: true, optional: true, required: false
-  private _allowDuplicates?: boolean | cdktn.IResolvable; 
+  private _allowDuplicates?: boolean | cdktn.IResolvable;
   public get allowDuplicates() {
     return this.getBooleanAttribute('allow_duplicates');
   }
@@ -1116,7 +1116,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_joins_on_columns_with_different_names - computed: true, optional: true, required: false
-  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable; 
+  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable;
   public get allowJoinsOnColumnsWithDifferentNames() {
     return this.getBooleanAttribute('allow_joins_on_columns_with_different_names');
   }
@@ -1132,7 +1132,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // preserve_nulls - computed: true, optional: true, required: false
-  private _preserveNulls?: boolean | cdktn.IResolvable; 
+  private _preserveNulls?: boolean | cdktn.IResolvable;
   public get preserveNulls() {
     return this.getBooleanAttribute('preserve_nulls');
   }
@@ -1149,7 +1149,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
 }
 export interface CleanroomsCollaborationMembersMlMemberAbilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#custom_ml_member_abilities CleanroomsCollaboration#custom_ml_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#custom_ml_member_abilities CleanroomsCollaboration#custom_ml_member_abilities}
   */
   readonly customMlMemberAbilities?: string[];
 }
@@ -1226,7 +1226,7 @@ export class CleanroomsCollaborationMembersMlMemberAbilitiesOutputReference exte
   }
 
   // custom_ml_member_abilities - computed: true, optional: true, required: false
-  private _customMlMemberAbilities?: string[]; 
+  private _customMlMemberAbilities?: string[];
   public get customMlMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('custom_ml_member_abilities'));
   }
@@ -1243,7 +1243,7 @@ export class CleanroomsCollaborationMembersMlMemberAbilitiesOutputReference exte
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationJobCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -1320,7 +1320,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationJobComputeOutputR
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1337,7 +1337,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationJobComputeOutputR
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationMachineLearningModelInference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -1414,7 +1414,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1431,7 +1431,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationMachineLearningModelTraining {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -1508,7 +1508,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1525,7 +1525,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationMachineLearningSyntheticDataGeneration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -1602,7 +1602,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningSy
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1619,15 +1619,15 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningSy
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationMachineLearning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#model_inference CleanroomsCollaboration#model_inference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#model_inference CleanroomsCollaboration#model_inference}
   */
   readonly modelInference?: CleanroomsCollaborationMembersPaymentConfigurationMachineLearningModelInference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#model_training CleanroomsCollaboration#model_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#model_training CleanroomsCollaboration#model_training}
   */
   readonly modelTraining?: CleanroomsCollaborationMembersPaymentConfigurationMachineLearningModelTraining;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#synthetic_data_generation CleanroomsCollaboration#synthetic_data_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#synthetic_data_generation CleanroomsCollaboration#synthetic_data_generation}
   */
   readonly syntheticDataGeneration?: CleanroomsCollaborationMembersPaymentConfigurationMachineLearningSyntheticDataGeneration;
 }
@@ -1779,7 +1779,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningOu
 }
 export interface CleanroomsCollaborationMembersPaymentConfigurationQueryCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#is_responsible CleanroomsCollaboration#is_responsible}
   */
   readonly isResponsible?: boolean | cdktn.IResolvable;
 }
@@ -1856,7 +1856,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationQueryComputeOutpu
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable; 
+  private _isResponsible?: boolean | cdktn.IResolvable;
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1873,15 +1873,15 @@ export class CleanroomsCollaborationMembersPaymentConfigurationQueryComputeOutpu
 }
 export interface CleanroomsCollaborationMembersPaymentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#job_compute CleanroomsCollaboration#job_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#job_compute CleanroomsCollaboration#job_compute}
   */
   readonly jobCompute?: CleanroomsCollaborationMembersPaymentConfigurationJobCompute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#machine_learning CleanroomsCollaboration#machine_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#machine_learning CleanroomsCollaboration#machine_learning}
   */
   readonly machineLearning?: CleanroomsCollaborationMembersPaymentConfigurationMachineLearning;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#query_compute CleanroomsCollaboration#query_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#query_compute CleanroomsCollaboration#query_compute}
   */
   readonly queryCompute?: CleanroomsCollaborationMembersPaymentConfigurationQueryCompute;
 }
@@ -2033,23 +2033,23 @@ export class CleanroomsCollaborationMembersPaymentConfigurationOutputReference e
 }
 export interface CleanroomsCollaborationMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}
   */
   readonly memberAbilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#ml_member_abilities CleanroomsCollaboration#ml_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#ml_member_abilities CleanroomsCollaboration#ml_member_abilities}
   */
   readonly mlMemberAbilities?: CleanroomsCollaborationMembersMlMemberAbilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#payment_configuration CleanroomsCollaboration#payment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#payment_configuration CleanroomsCollaboration#payment_configuration}
   */
   readonly paymentConfiguration?: CleanroomsCollaborationMembersPaymentConfiguration;
 }
@@ -2180,7 +2180,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2196,7 +2196,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -2212,7 +2212,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // member_abilities - computed: true, optional: true, required: false
-  private _memberAbilities?: string[]; 
+  private _memberAbilities?: string[];
   public get memberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('member_abilities'));
   }
@@ -2281,11 +2281,11 @@ export class CleanroomsCollaborationMembersList extends cdktn.ComplexList {
 }
 export interface CleanroomsCollaborationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#key CleanroomsCollaboration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#key CleanroomsCollaboration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#value CleanroomsCollaboration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#value CleanroomsCollaboration#value}
   */
   readonly value?: string;
 }
@@ -2377,7 +2377,7 @@ export class CleanroomsCollaborationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2393,7 +2393,7 @@ export class CleanroomsCollaborationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2430,7 +2430,7 @@ export class CleanroomsCollaborationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration awscc_cleanrooms_collaboration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration awscc_cleanrooms_collaboration}
 */
 export class CleanroomsCollaboration extends cdktn.TerraformResource {
 
@@ -2446,7 +2446,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CleanroomsCollaboration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanroomsCollaboration to import
-  * @param importFromId The id of the existing CleanroomsCollaboration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanroomsCollaboration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanroomsCollaboration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2458,7 +2458,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2469,7 +2469,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cleanrooms_collaboration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2501,7 +2501,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ==========
 
   // allowed_result_regions - computed: true, optional: true, required: false
-  private _allowedResultRegions?: string[]; 
+  private _allowedResultRegions?: string[];
   public get allowedResultRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_result_regions'));
   }
@@ -2517,7 +2517,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // analytics_engine - computed: true, optional: true, required: false
-  private _analyticsEngine?: string; 
+  private _analyticsEngine?: string;
   public get analyticsEngine() {
     return this.getStringAttribute('analytics_engine');
   }
@@ -2538,7 +2538,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // auto_approved_change_types - computed: true, optional: true, required: false
-  private _autoApprovedChangeTypes?: string[]; 
+  private _autoApprovedChangeTypes?: string[];
   public get autoApprovedChangeTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('auto_approved_change_types'));
   }
@@ -2559,7 +2559,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_display_name - computed: false, optional: false, required: true
-  private _creatorDisplayName?: string; 
+  private _creatorDisplayName?: string;
   public get creatorDisplayName() {
     return this.getStringAttribute('creator_display_name');
   }
@@ -2572,7 +2572,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_member_abilities - computed: true, optional: true, required: false
-  private _creatorMemberAbilities?: string[]; 
+  private _creatorMemberAbilities?: string[];
   public get creatorMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('creator_member_abilities'));
   }
@@ -2636,7 +2636,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2654,7 +2654,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // is_metrics_enabled - computed: true, optional: true, required: false
-  private _isMetricsEnabled?: boolean | cdktn.IResolvable; 
+  private _isMetricsEnabled?: boolean | cdktn.IResolvable;
   public get isMetricsEnabled() {
     return this.getBooleanAttribute('is_metrics_enabled');
   }
@@ -2670,7 +2670,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // job_log_status - computed: true, optional: true, required: false
-  private _jobLogStatus?: string; 
+  private _jobLogStatus?: string;
   public get jobLogStatus() {
     return this.getStringAttribute('job_log_status');
   }
@@ -2702,7 +2702,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2715,7 +2715,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // query_log_status - computed: false, optional: false, required: true
-  private _queryLogStatus?: string; 
+  private _queryLogStatus?: string;
   public get queryLogStatus() {
     return this.getStringAttribute('query_log_status');
   }

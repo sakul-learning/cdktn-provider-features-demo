@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamStackConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#description AppstreamStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#description AppstreamStack#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
   */
   readonly embedHostDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
   */
   readonly feedbackUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#id AppstreamStack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#id AppstreamStack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#name AppstreamStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#name AppstreamStack#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#region AppstreamStack#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#region AppstreamStack#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#tags_all AppstreamStack#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#tags_all AppstreamStack#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * access_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
   */
   readonly accessEndpoints?: AppstreamStackAccessEndpoints[] | cdktn.IResolvable;
   /**
   * application_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
   */
   readonly applicationSettings?: AppstreamStackApplicationSettings;
   /**
   * storage_connectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
   */
   readonly storageConnectors?: AppstreamStackStorageConnectors[] | cdktn.IResolvable;
   /**
   * streaming_experience_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
   */
   readonly streamingExperienceSettings?: AppstreamStackStreamingExperienceSettings;
   /**
   * user_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
   */
   readonly userSettings?: AppstreamStackUserSettings[] | cdktn.IResolvable;
 }
 export interface AppstreamStackAccessEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
   */
   readonly vpceId?: string;
 }
@@ -181,7 +181,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string; 
+  private _endpointType?: string;
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -194,7 +194,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string; 
+  private _vpceId?: string;
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -231,11 +231,11 @@ export class AppstreamStackAccessEndpointsList extends cdktn.ComplexList {
 }
 export interface AppstreamStackApplicationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
   */
   readonly settingsGroup?: string;
 }
@@ -315,7 +315,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -328,7 +328,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // settings_group - computed: false, optional: true, required: false
-  private _settingsGroup?: string; 
+  private _settingsGroup?: string;
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -345,15 +345,15 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
 }
 export interface AppstreamStackStorageConnectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
   */
   readonly connectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
   */
   readonly resourceIdentifier?: string;
 }
@@ -458,7 +458,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string; 
+  private _connectorType?: string;
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -471,7 +471,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[]; 
+  private _domains?: string[];
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -487,7 +487,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string; 
+  private _resourceIdentifier?: string;
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -524,7 +524,7 @@ export class AppstreamStackStorageConnectorsList extends cdktn.ComplexList {
 }
 export interface AppstreamStackStreamingExperienceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
   */
   readonly preferredProtocol?: string;
 }
@@ -591,7 +591,7 @@ export class AppstreamStackStreamingExperienceSettingsOutputReference extends cd
   }
 
   // preferred_protocol - computed: false, optional: true, required: false
-  private _preferredProtocol?: string; 
+  private _preferredProtocol?: string;
   public get preferredProtocol() {
     return this.getStringAttribute('preferred_protocol');
   }
@@ -608,11 +608,11 @@ export class AppstreamStackStreamingExperienceSettingsOutputReference extends cd
 }
 export interface AppstreamStackUserSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#action AppstreamStack#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#action AppstreamStack#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
   */
   readonly permission: string;
 }
@@ -704,7 +704,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -717,7 +717,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string; 
+  private _permission?: string;
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -751,7 +751,7 @@ export class AppstreamStackUserSettingsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack aws_appstream_stack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack aws_appstream_stack}
 */
 export class AppstreamStack extends cdktn.TerraformResource {
 
@@ -767,7 +767,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamStack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamStack to import
-  * @param importFromId The id of the existing AppstreamStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -779,7 +779,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appstream_stack aws_appstream_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack aws_appstream_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -790,7 +790,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appstream_stack',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -832,7 +832,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -848,7 +848,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -864,7 +864,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // embed_host_domains - computed: true, optional: true, required: false
-  private _embedHostDomains?: string[]; 
+  private _embedHostDomains?: string[];
   public get embedHostDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('embed_host_domains'));
   }
@@ -880,7 +880,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // feedback_url - computed: true, optional: true, required: false
-  private _feedbackUrl?: string; 
+  private _feedbackUrl?: string;
   public get feedbackUrl() {
     return this.getStringAttribute('feedback_url');
   }
@@ -896,7 +896,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -912,7 +912,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -925,7 +925,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // redirect_url - computed: true, optional: true, required: false
-  private _redirectUrl?: string; 
+  private _redirectUrl?: string;
   public get redirectUrl() {
     return this.getStringAttribute('redirect_url');
   }
@@ -941,7 +941,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -957,7 +957,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -973,7 +973,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

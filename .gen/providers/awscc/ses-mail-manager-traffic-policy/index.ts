@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerTrafficPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#default_action SesMailManagerTrafficPolicy#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#default_action SesMailManagerTrafficPolicy#default_action}
   */
   readonly defaultAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#max_message_size_bytes SesMailManagerTrafficPolicy#max_message_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#max_message_size_bytes SesMailManagerTrafficPolicy#max_message_size_bytes}
   */
   readonly maxMessageSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#policy_statements SesMailManagerTrafficPolicy#policy_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#policy_statements SesMailManagerTrafficPolicy#policy_statements}
   */
   readonly policyStatements: SesMailManagerTrafficPolicyPolicyStatements[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#tags SesMailManagerTrafficPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#tags SesMailManagerTrafficPolicy#tags}
   */
   readonly tags?: SesMailManagerTrafficPolicyTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#traffic_policy_name SesMailManagerTrafficPolicy#traffic_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#traffic_policy_name SesMailManagerTrafficPolicy#traffic_policy_name}
   */
   readonly trafficPolicyName?: string;
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluateAnalysis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#analyzer SesMailManagerTrafficPolicy#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#analyzer SesMailManagerTrafficPolicy#analyzer}
   */
   readonly analyzer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#result_field SesMailManagerTrafficPolicy#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#result_field SesMailManagerTrafficPolicy#result_field}
   */
   readonly resultField?: string;
 }
@@ -124,7 +124,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string; 
+  private _analyzer?: string;
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -140,7 +140,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string; 
+  private _resultField?: string;
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -157,11 +157,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluateIsInAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#address_lists SesMailManagerTrafficPolicy#address_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#address_lists SesMailManagerTrafficPolicy#address_lists}
   */
   readonly addressLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
   */
   readonly attribute?: string;
 }
@@ -251,7 +251,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // address_lists - computed: true, optional: true, required: false
-  private _addressLists?: string[]; 
+  private _addressLists?: string[];
   public get addressLists() {
     return this.getListAttribute('address_lists');
   }
@@ -267,7 +267,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -284,11 +284,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#analysis SesMailManagerTrafficPolicy#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#analysis SesMailManagerTrafficPolicy#analysis}
   */
   readonly analysis?: SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluateAnalysis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#is_in_address_list SesMailManagerTrafficPolicy#is_in_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#is_in_address_list SesMailManagerTrafficPolicy#is_in_address_list}
   */
   readonly isInAddressList?: SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluateIsInAddressListStruct;
 }
@@ -411,11 +411,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
   */
   readonly evaluate?: SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpressionEvaluate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
   */
   readonly operator?: string;
 }
@@ -521,7 +521,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -538,7 +538,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionEvaluate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
   */
   readonly attribute?: string;
 }
@@ -615,7 +615,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionEv
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -632,15 +632,15 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionEv
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
   */
   readonly evaluate?: SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionEvaluate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
   */
   readonly values?: string[];
 }
@@ -759,7 +759,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionOu
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -775,7 +775,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionOu
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -792,7 +792,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionOu
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6ExpressionEvaluate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
   */
   readonly attribute?: string;
 }
@@ -869,7 +869,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -886,15 +886,15 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
   */
   readonly evaluate?: SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6ExpressionEvaluate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
   */
   readonly values?: string[];
 }
@@ -1013,7 +1013,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1029,7 +1029,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1046,11 +1046,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressionEvaluateAnalysis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#analyzer SesMailManagerTrafficPolicy#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#analyzer SesMailManagerTrafficPolicy#analyzer}
   */
   readonly analyzer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#result_field SesMailManagerTrafficPolicy#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#result_field SesMailManagerTrafficPolicy#result_field}
   */
   readonly resultField?: string;
 }
@@ -1140,7 +1140,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string; 
+  private _analyzer?: string;
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -1156,7 +1156,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string; 
+  private _resultField?: string;
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -1173,11 +1173,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressionEvaluate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#analysis SesMailManagerTrafficPolicy#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#analysis SesMailManagerTrafficPolicy#analysis}
   */
   readonly analysis?: SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressionEvaluateAnalysis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
   */
   readonly attribute?: string;
 }
@@ -1283,7 +1283,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1300,15 +1300,15 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
   */
   readonly evaluate?: SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressionEvaluate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#values SesMailManagerTrafficPolicy#values}
   */
   readonly values?: string[];
 }
@@ -1427,7 +1427,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1443,7 +1443,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1460,7 +1460,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionEvaluate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#attribute SesMailManagerTrafficPolicy#attribute}
   */
   readonly attribute?: string;
 }
@@ -1537,7 +1537,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionE
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1554,15 +1554,15 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionE
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#evaluate SesMailManagerTrafficPolicy#evaluate}
   */
   readonly evaluate?: SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionEvaluate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#operator SesMailManagerTrafficPolicy#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#value SesMailManagerTrafficPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#value SesMailManagerTrafficPolicy#value}
   */
   readonly value?: string;
 }
@@ -1681,7 +1681,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionO
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1697,7 +1697,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1714,23 +1714,23 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionO
 }
 export interface SesMailManagerTrafficPolicyPolicyStatementsConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#boolean_expression SesMailManagerTrafficPolicy#boolean_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#boolean_expression SesMailManagerTrafficPolicy#boolean_expression}
   */
   readonly booleanExpression?: SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpression;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#ip_expression SesMailManagerTrafficPolicy#ip_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#ip_expression SesMailManagerTrafficPolicy#ip_expression}
   */
   readonly ipExpression?: SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpression;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#ipv_6_expression SesMailManagerTrafficPolicy#ipv_6_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#ipv_6_expression SesMailManagerTrafficPolicy#ipv_6_expression}
   */
   readonly ipv6Expression?: SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#string_expression SesMailManagerTrafficPolicy#string_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#string_expression SesMailManagerTrafficPolicy#string_expression}
   */
   readonly stringExpression?: SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpression;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#tls_expression SesMailManagerTrafficPolicy#tls_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#tls_expression SesMailManagerTrafficPolicy#tls_expression}
   */
   readonly tlsExpression?: SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpression;
 }
@@ -1962,11 +1962,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsList extends c
 }
 export interface SesMailManagerTrafficPolicyPolicyStatements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#action SesMailManagerTrafficPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#action SesMailManagerTrafficPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#conditions SesMailManagerTrafficPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#conditions SesMailManagerTrafficPolicy#conditions}
   */
   readonly conditions: SesMailManagerTrafficPolicyPolicyStatementsConditions[] | cdktn.IResolvable;
 }
@@ -2058,7 +2058,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsOutputReference extends 
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -2105,11 +2105,11 @@ export class SesMailManagerTrafficPolicyPolicyStatementsList extends cdktn.Compl
 }
 export interface SesMailManagerTrafficPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#key SesMailManagerTrafficPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#key SesMailManagerTrafficPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#value SesMailManagerTrafficPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#value SesMailManagerTrafficPolicy#value}
   */
   readonly value?: string;
 }
@@ -2201,7 +2201,7 @@ export class SesMailManagerTrafficPolicyTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2217,7 +2217,7 @@ export class SesMailManagerTrafficPolicyTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2254,7 +2254,7 @@ export class SesMailManagerTrafficPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy}
 */
 export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
 
@@ -2270,7 +2270,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerTrafficPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerTrafficPolicy to import
-  * @param importFromId The id of the existing SesMailManagerTrafficPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerTrafficPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerTrafficPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2282,7 +2282,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2293,7 +2293,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_traffic_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2315,7 +2315,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   // ==========
 
   // default_action - computed: false, optional: false, required: true
-  private _defaultAction?: string; 
+  private _defaultAction?: string;
   public get defaultAction() {
     return this.getStringAttribute('default_action');
   }
@@ -2333,7 +2333,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   }
 
   // max_message_size_bytes - computed: true, optional: true, required: false
-  private _maxMessageSizeBytes?: number; 
+  private _maxMessageSizeBytes?: number;
   public get maxMessageSizeBytes() {
     return this.getNumberAttribute('max_message_size_bytes');
   }
@@ -2388,7 +2388,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   }
 
   // traffic_policy_name - computed: true, optional: true, required: false
-  private _trafficPolicyName?: string; 
+  private _trafficPolicyName?: string;
   public get trafficPolicyName() {
     return this.getStringAttribute('traffic_policy_name');
   }

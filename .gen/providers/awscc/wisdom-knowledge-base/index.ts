@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface WisdomKnowledgeBaseConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#description WisdomKnowledgeBase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#description WisdomKnowledgeBase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#knowledge_base_type WisdomKnowledgeBase#knowledge_base_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#knowledge_base_type WisdomKnowledgeBase#knowledge_base_type}
   */
   readonly knowledgeBaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#name WisdomKnowledgeBase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#name WisdomKnowledgeBase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#rendering_configuration WisdomKnowledgeBase#rendering_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#rendering_configuration WisdomKnowledgeBase#rendering_configuration}
   */
   readonly renderingConfiguration?: WisdomKnowledgeBaseRenderingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#server_side_encryption_configuration WisdomKnowledgeBase#server_side_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#server_side_encryption_configuration WisdomKnowledgeBase#server_side_encryption_configuration}
   */
   readonly serverSideEncryptionConfiguration?: WisdomKnowledgeBaseServerSideEncryptionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#source_configuration WisdomKnowledgeBase#source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#source_configuration WisdomKnowledgeBase#source_configuration}
   */
   readonly sourceConfiguration?: WisdomKnowledgeBaseSourceConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#tags WisdomKnowledgeBase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#tags WisdomKnowledgeBase#tags}
   */
   readonly tags?: WisdomKnowledgeBaseTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#vector_ingestion_configuration WisdomKnowledgeBase#vector_ingestion_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#vector_ingestion_configuration WisdomKnowledgeBase#vector_ingestion_configuration}
   */
   readonly vectorIngestionConfiguration?: WisdomKnowledgeBaseVectorIngestionConfiguration;
 }
 export interface WisdomKnowledgeBaseRenderingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#template_uri WisdomKnowledgeBase#template_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#template_uri WisdomKnowledgeBase#template_uri}
   */
   readonly templateUri?: string;
 }
@@ -119,7 +119,7 @@ export class WisdomKnowledgeBaseRenderingConfigurationOutputReference extends cd
   }
 
   // template_uri - computed: true, optional: true, required: false
-  private _templateUri?: string; 
+  private _templateUri?: string;
   public get templateUri() {
     return this.getStringAttribute('template_uri');
   }
@@ -136,7 +136,7 @@ export class WisdomKnowledgeBaseRenderingConfigurationOutputReference extends cd
 }
 export interface WisdomKnowledgeBaseServerSideEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#kms_key_id WisdomKnowledgeBase#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#kms_key_id WisdomKnowledgeBase#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -213,7 +213,7 @@ export class WisdomKnowledgeBaseServerSideEncryptionConfigurationOutputReference
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -230,11 +230,11 @@ export class WisdomKnowledgeBaseServerSideEncryptionConfigurationOutputReference
 }
 export interface WisdomKnowledgeBaseSourceConfigurationAppIntegrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#app_integration_arn WisdomKnowledgeBase#app_integration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#app_integration_arn WisdomKnowledgeBase#app_integration_arn}
   */
   readonly appIntegrationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#object_fields WisdomKnowledgeBase#object_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#object_fields WisdomKnowledgeBase#object_fields}
   */
   readonly objectFields?: string[];
 }
@@ -324,7 +324,7 @@ export class WisdomKnowledgeBaseSourceConfigurationAppIntegrationsOutputReferenc
   }
 
   // app_integration_arn - computed: true, optional: true, required: false
-  private _appIntegrationArn?: string; 
+  private _appIntegrationArn?: string;
   public get appIntegrationArn() {
     return this.getStringAttribute('app_integration_arn');
   }
@@ -340,7 +340,7 @@ export class WisdomKnowledgeBaseSourceConfigurationAppIntegrationsOutputReferenc
   }
 
   // object_fields - computed: true, optional: true, required: false
-  private _objectFields?: string[]; 
+  private _objectFields?: string[];
   public get objectFields() {
     return this.getListAttribute('object_fields');
   }
@@ -357,7 +357,7 @@ export class WisdomKnowledgeBaseSourceConfigurationAppIntegrationsOutputReferenc
 }
 export interface WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationCrawlerLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#rate_limit WisdomKnowledgeBase#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#rate_limit WisdomKnowledgeBase#rate_limit}
   */
   readonly rateLimit?: number;
 }
@@ -434,7 +434,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // rate_limit - computed: true, optional: true, required: false
-  private _rateLimit?: number; 
+  private _rateLimit?: number;
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -451,7 +451,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
 }
 export interface WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationUrlConfigurationSeedUrls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#url WisdomKnowledgeBase#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#url WisdomKnowledgeBase#url}
   */
   readonly url?: string;
 }
@@ -530,7 +530,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string; 
+  private _url?: string;
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -567,7 +567,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
 }
 export interface WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationUrlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#seed_urls WisdomKnowledgeBase#seed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#seed_urls WisdomKnowledgeBase#seed_urls}
   */
   readonly seedUrls?: WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationUrlConfigurationSeedUrls[] | cdktn.IResolvable;
 }
@@ -661,23 +661,23 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
 }
 export interface WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#crawler_limits WisdomKnowledgeBase#crawler_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#crawler_limits WisdomKnowledgeBase#crawler_limits}
   */
   readonly crawlerLimits?: WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationCrawlerLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#exclusion_filters WisdomKnowledgeBase#exclusion_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#exclusion_filters WisdomKnowledgeBase#exclusion_filters}
   */
   readonly exclusionFilters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#inclusion_filters WisdomKnowledgeBase#inclusion_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#inclusion_filters WisdomKnowledgeBase#inclusion_filters}
   */
   readonly inclusionFilters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#scope WisdomKnowledgeBase#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#scope WisdomKnowledgeBase#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#url_configuration WisdomKnowledgeBase#url_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#url_configuration WisdomKnowledgeBase#url_configuration}
   */
   readonly urlConfiguration?: WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfigurationUrlConfiguration;
 }
@@ -822,7 +822,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // exclusion_filters - computed: true, optional: true, required: false
-  private _exclusionFilters?: string[]; 
+  private _exclusionFilters?: string[];
   public get exclusionFilters() {
     return this.getListAttribute('exclusion_filters');
   }
@@ -838,7 +838,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // inclusion_filters - computed: true, optional: true, required: false
-  private _inclusionFilters?: string[]; 
+  private _inclusionFilters?: string[];
   public get inclusionFilters() {
     return this.getListAttribute('inclusion_filters');
   }
@@ -854,7 +854,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -887,7 +887,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
 }
 export interface WisdomKnowledgeBaseSourceConfigurationManagedSourceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#web_crawler_configuration WisdomKnowledgeBase#web_crawler_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#web_crawler_configuration WisdomKnowledgeBase#web_crawler_configuration}
   */
   readonly webCrawlerConfiguration?: WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWebCrawlerConfiguration;
 }
@@ -981,11 +981,11 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationOut
 }
 export interface WisdomKnowledgeBaseSourceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#app_integrations WisdomKnowledgeBase#app_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#app_integrations WisdomKnowledgeBase#app_integrations}
   */
   readonly appIntegrations?: WisdomKnowledgeBaseSourceConfigurationAppIntegrations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#managed_source_configuration WisdomKnowledgeBase#managed_source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#managed_source_configuration WisdomKnowledgeBase#managed_source_configuration}
   */
   readonly managedSourceConfiguration?: WisdomKnowledgeBaseSourceConfigurationManagedSourceConfiguration;
 }
@@ -1108,11 +1108,11 @@ export class WisdomKnowledgeBaseSourceConfigurationOutputReference extends cdktn
 }
 export interface WisdomKnowledgeBaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#key WisdomKnowledgeBase#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#key WisdomKnowledgeBase#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#value WisdomKnowledgeBase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#value WisdomKnowledgeBase#value}
   */
   readonly value?: string;
 }
@@ -1204,7 +1204,7 @@ export class WisdomKnowledgeBaseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1220,7 +1220,7 @@ export class WisdomKnowledgeBaseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1257,11 +1257,11 @@ export class WisdomKnowledgeBaseTagsList extends cdktn.ComplexList {
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationFixedSizeChunkingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
   */
   readonly maxTokens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#overlap_percentage WisdomKnowledgeBase#overlap_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#overlap_percentage WisdomKnowledgeBase#overlap_percentage}
   */
   readonly overlapPercentage?: number;
 }
@@ -1351,7 +1351,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number; 
+  private _maxTokens?: number;
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1367,7 +1367,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // overlap_percentage - computed: true, optional: true, required: false
-  private _overlapPercentage?: number; 
+  private _overlapPercentage?: number;
   public get overlapPercentage() {
     return this.getNumberAttribute('overlap_percentage');
   }
@@ -1384,7 +1384,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationHierarchicalChunkingConfigurationLevelConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
   */
   readonly maxTokens?: number;
 }
@@ -1463,7 +1463,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number; 
+  private _maxTokens?: number;
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1500,11 +1500,11 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationHierarchicalChunkingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#level_configurations WisdomKnowledgeBase#level_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#level_configurations WisdomKnowledgeBase#level_configurations}
   */
   readonly levelConfigurations?: WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationHierarchicalChunkingConfigurationLevelConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#overlap_tokens WisdomKnowledgeBase#overlap_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#overlap_tokens WisdomKnowledgeBase#overlap_tokens}
   */
   readonly overlapTokens?: number;
 }
@@ -1610,7 +1610,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // overlap_tokens - computed: true, optional: true, required: false
-  private _overlapTokens?: number; 
+  private _overlapTokens?: number;
   public get overlapTokens() {
     return this.getNumberAttribute('overlap_tokens');
   }
@@ -1627,15 +1627,15 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationSemanticChunkingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#breakpoint_percentile_threshold WisdomKnowledgeBase#breakpoint_percentile_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#breakpoint_percentile_threshold WisdomKnowledgeBase#breakpoint_percentile_threshold}
   */
   readonly breakpointPercentileThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#buffer_size WisdomKnowledgeBase#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#buffer_size WisdomKnowledgeBase#buffer_size}
   */
   readonly bufferSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#max_tokens WisdomKnowledgeBase#max_tokens}
   */
   readonly maxTokens?: number;
 }
@@ -1738,7 +1738,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // breakpoint_percentile_threshold - computed: true, optional: true, required: false
-  private _breakpointPercentileThreshold?: number; 
+  private _breakpointPercentileThreshold?: number;
   public get breakpointPercentileThreshold() {
     return this.getNumberAttribute('breakpoint_percentile_threshold');
   }
@@ -1754,7 +1754,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // buffer_size - computed: true, optional: true, required: false
-  private _bufferSize?: number; 
+  private _bufferSize?: number;
   public get bufferSize() {
     return this.getNumberAttribute('buffer_size');
   }
@@ -1770,7 +1770,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number; 
+  private _maxTokens?: number;
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1787,19 +1787,19 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#chunking_strategy WisdomKnowledgeBase#chunking_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#chunking_strategy WisdomKnowledgeBase#chunking_strategy}
   */
   readonly chunkingStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#fixed_size_chunking_configuration WisdomKnowledgeBase#fixed_size_chunking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#fixed_size_chunking_configuration WisdomKnowledgeBase#fixed_size_chunking_configuration}
   */
   readonly fixedSizeChunkingConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationFixedSizeChunkingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#hierarchical_chunking_configuration WisdomKnowledgeBase#hierarchical_chunking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#hierarchical_chunking_configuration WisdomKnowledgeBase#hierarchical_chunking_configuration}
   */
   readonly hierarchicalChunkingConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationHierarchicalChunkingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#semantic_chunking_configuration WisdomKnowledgeBase#semantic_chunking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#semantic_chunking_configuration WisdomKnowledgeBase#semantic_chunking_configuration}
   */
   readonly semanticChunkingConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfigurationSemanticChunkingConfiguration;
 }
@@ -1915,7 +1915,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // chunking_strategy - computed: true, optional: true, required: false
-  private _chunkingStrategy?: string; 
+  private _chunkingStrategy?: string;
   public get chunkingStrategy() {
     return this.getStringAttribute('chunking_strategy');
   }
@@ -1980,7 +1980,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationParsingPrompt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#parsing_prompt_text WisdomKnowledgeBase#parsing_prompt_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#parsing_prompt_text WisdomKnowledgeBase#parsing_prompt_text}
   */
   readonly parsingPromptText?: string;
 }
@@ -2057,7 +2057,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // parsing_prompt_text - computed: true, optional: true, required: false
-  private _parsingPromptText?: string; 
+  private _parsingPromptText?: string;
   public get parsingPromptText() {
     return this.getStringAttribute('parsing_prompt_text');
   }
@@ -2074,11 +2074,11 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#model_arn WisdomKnowledgeBase#model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#model_arn WisdomKnowledgeBase#model_arn}
   */
   readonly modelArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#parsing_prompt WisdomKnowledgeBase#parsing_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#parsing_prompt WisdomKnowledgeBase#parsing_prompt}
   */
   readonly parsingPrompt?: WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationParsingPrompt;
 }
@@ -2168,7 +2168,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // model_arn - computed: true, optional: true, required: false
-  private _modelArn?: string; 
+  private _modelArn?: string;
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -2201,11 +2201,11 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#bedrock_foundation_model_configuration WisdomKnowledgeBase#bedrock_foundation_model_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#bedrock_foundation_model_configuration WisdomKnowledgeBase#bedrock_foundation_model_configuration}
   */
   readonly bedrockFoundationModelConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#parsing_strategy WisdomKnowledgeBase#parsing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#parsing_strategy WisdomKnowledgeBase#parsing_strategy}
   */
   readonly parsingStrategy?: string;
 }
@@ -2311,7 +2311,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // parsing_strategy - computed: true, optional: true, required: false
-  private _parsingStrategy?: string; 
+  private _parsingStrategy?: string;
   public get parsingStrategy() {
     return this.getStringAttribute('parsing_strategy');
   }
@@ -2328,11 +2328,11 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
 }
 export interface WisdomKnowledgeBaseVectorIngestionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#chunking_configuration WisdomKnowledgeBase#chunking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#chunking_configuration WisdomKnowledgeBase#chunking_configuration}
   */
   readonly chunkingConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#parsing_configuration WisdomKnowledgeBase#parsing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#parsing_configuration WisdomKnowledgeBase#parsing_configuration}
   */
   readonly parsingConfiguration?: WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration;
 }
@@ -2455,7 +2455,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}
 */
 export class WisdomKnowledgeBase extends cdktn.TerraformResource {
 
@@ -2471,7 +2471,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomKnowledgeBase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomKnowledgeBase to import
-  * @param importFromId The id of the existing WisdomKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomKnowledgeBase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2483,7 +2483,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2494,7 +2494,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_knowledge_base',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2519,7 +2519,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2550,7 +2550,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // knowledge_base_type - computed: false, optional: false, required: true
-  private _knowledgeBaseType?: string; 
+  private _knowledgeBaseType?: string;
   public get knowledgeBaseType() {
     return this.getStringAttribute('knowledge_base_type');
   }
@@ -2563,7 +2563,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

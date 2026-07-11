@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface WisdomMessageTemplateConfig extends cdktn.TerraformMetaArgument
   /**
   * The channel subtype this message template applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#channel_subtype WisdomMessageTemplate#channel_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#channel_subtype WisdomMessageTemplate#channel_subtype}
   */
   readonly channelSubtype: string;
   /**
   * The content of the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
   */
   readonly content: WisdomMessageTemplateContent;
   /**
   * An object that specifies the default values to use for variables in the message template. This object contains different categories of key-value pairs. Each key defines a variable or placeholder in the message template. The corresponding value defines the default value for that variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#default_attributes WisdomMessageTemplate#default_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#default_attributes WisdomMessageTemplate#default_attributes}
   */
   readonly defaultAttributes?: WisdomMessageTemplateDefaultAttributes;
   /**
   * The description of the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#description WisdomMessageTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#description WisdomMessageTemplate#description}
   */
   readonly description?: string;
   /**
   * The configuration information of the user groups that the message template is accessible to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#grouping_configuration WisdomMessageTemplate#grouping_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#grouping_configuration WisdomMessageTemplate#grouping_configuration}
   */
   readonly groupingConfiguration?: WisdomMessageTemplateGroupingConfiguration;
   /**
   * The Amazon Resource Name (ARN) of the knowledge base to which the message template belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#knowledge_base_arn WisdomMessageTemplate#knowledge_base_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#knowledge_base_arn WisdomMessageTemplate#knowledge_base_arn}
   */
   readonly knowledgeBaseArn: string;
   /**
   * The language code value for the language in which the message template is written. The supported language codes include de_DE, en_US, es_ES, fr_FR, id_ID, it_IT, ja_JP, ko_KR, pt_BR, zh_CN, zh_TW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#language WisdomMessageTemplate#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#language WisdomMessageTemplate#language}
   */
   readonly language?: string;
   /**
   * List of message template attachments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#message_template_attachments WisdomMessageTemplate#message_template_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#message_template_attachments WisdomMessageTemplate#message_template_attachments}
   */
   readonly messageTemplateAttachments?: WisdomMessageTemplateMessageTemplateAttachments[] | cdktn.IResolvable;
   /**
   * The name of the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
   */
   readonly name: string;
   /**
   * The tags used to organize, track, or control access for this resource. For example, { "tags": {"key1":"value1", "key2":"value2"} }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#tags WisdomMessageTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#tags WisdomMessageTemplate#tags}
   */
   readonly tags?: WisdomMessageTemplateTags[] | cdktn.IResolvable;
 }
 export interface WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
   */
   readonly content?: string;
 }
@@ -147,7 +147,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutp
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -164,7 +164,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutp
 }
 export interface WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
   */
   readonly content?: string;
 }
@@ -241,7 +241,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainTex
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -260,13 +260,13 @@ export interface WisdomMessageTemplateContentEmailMessageTemplateContentBody {
   /**
   * The message body, in HTML format, to use in email messages that are based on the message template. We recommend using HTML format for email clients that render HTML content. You can include links, formatted text, and more in an HTML message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
   */
   readonly html?: WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml;
   /**
   * The message body, in plain text format, to use in email messages that are based on the message template. We recommend using plain text format for email clients that don't render HTML content and clients that are connected to high-latency networks, such as mobile devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
   */
   readonly plainText?: WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText;
 }
@@ -391,13 +391,13 @@ export interface WisdomMessageTemplateContentEmailMessageTemplateContentHeaders 
   /**
   * The name of the email header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
   */
   readonly name?: string;
   /**
   * The value of the email header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
   */
   readonly value?: string;
 }
@@ -489,7 +489,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -505,7 +505,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutpu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -544,19 +544,19 @@ export interface WisdomMessageTemplateContentEmailMessageTemplateContent {
   /**
   * The body to use in email messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
   */
   readonly body?: WisdomMessageTemplateContentEmailMessageTemplateContentBody;
   /**
   * The email headers to include in email messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#headers WisdomMessageTemplate#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#headers WisdomMessageTemplate#headers}
   */
   readonly headers?: WisdomMessageTemplateContentEmailMessageTemplateContentHeaders[] | cdktn.IResolvable;
   /**
   * The subject line, or title, to use in email messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#subject WisdomMessageTemplate#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#subject WisdomMessageTemplate#subject}
   */
   readonly subject?: string;
 }
@@ -691,7 +691,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentOutputRefere
   }
 
   // subject - computed: true, optional: true, required: false
-  private _subject?: string; 
+  private _subject?: string;
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -708,7 +708,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentOutputRefere
 }
 export interface WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
   */
   readonly content?: string;
 }
@@ -785,7 +785,7 @@ export class WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainTextO
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -804,7 +804,7 @@ export interface WisdomMessageTemplateContentSmsMessageTemplateContentBody {
   /**
   * The container of message template body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
   */
   readonly plainText?: WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText;
 }
@@ -900,7 +900,7 @@ export interface WisdomMessageTemplateContentSmsMessageTemplateContent {
   /**
   * The body to use in SMS messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
   */
   readonly body?: WisdomMessageTemplateContentSmsMessageTemplateContentBody;
 }
@@ -996,13 +996,13 @@ export interface WisdomMessageTemplateContent {
   /**
   * The content of message template that applies to email channel subtype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#email_message_template_content WisdomMessageTemplate#email_message_template_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#email_message_template_content WisdomMessageTemplate#email_message_template_content}
   */
   readonly emailMessageTemplateContent?: WisdomMessageTemplateContentEmailMessageTemplateContent;
   /**
   * The content of message template that applies to SMS channel subtype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#sms_message_template_content WisdomMessageTemplate#sms_message_template_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#sms_message_template_content WisdomMessageTemplate#sms_message_template_content}
   */
   readonly smsMessageTemplateContent?: WisdomMessageTemplateContentSmsMessageTemplateContent;
 }
@@ -1127,13 +1127,13 @@ export interface WisdomMessageTemplateDefaultAttributesAgentAttributes {
   /**
   * The agent?s first name as entered in their Amazon Connect user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
   */
   readonly firstName?: string;
   /**
   * The agent?s last name as entered in their Amazon Connect user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
   */
   readonly lastName?: string;
 }
@@ -1223,7 +1223,7 @@ export class WisdomMessageTemplateDefaultAttributesAgentAttributesOutputReferenc
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -1239,7 +1239,7 @@ export class WisdomMessageTemplateDefaultAttributesAgentAttributesOutputReferenc
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -1258,349 +1258,349 @@ export interface WisdomMessageTemplateDefaultAttributesCustomerProfileAttributes
   /**
   * A unique account number that you have given to the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#account_number WisdomMessageTemplate#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#account_number WisdomMessageTemplate#account_number}
   */
   readonly accountNumber?: string;
   /**
   * Any additional information relevant to the customer's profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#additional_information WisdomMessageTemplate#additional_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#additional_information WisdomMessageTemplate#additional_information}
   */
   readonly additionalInformation?: string;
   /**
   * The first line of a customer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address_1 WisdomMessageTemplate#address_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address_1 WisdomMessageTemplate#address_1}
   */
   readonly address1?: string;
   /**
   * The second line of a customer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address_2 WisdomMessageTemplate#address_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address_2 WisdomMessageTemplate#address_2}
   */
   readonly address2?: string;
   /**
   * The third line of a customer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address_3 WisdomMessageTemplate#address_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address_3 WisdomMessageTemplate#address_3}
   */
   readonly address3?: string;
   /**
   * The fourth line of a customer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address_4 WisdomMessageTemplate#address_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address_4 WisdomMessageTemplate#address_4}
   */
   readonly address4?: string;
   /**
   * The first line of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_address_1 WisdomMessageTemplate#billing_address_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_address_1 WisdomMessageTemplate#billing_address_1}
   */
   readonly billingAddress1?: string;
   /**
   * The second line of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_address_2 WisdomMessageTemplate#billing_address_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_address_2 WisdomMessageTemplate#billing_address_2}
   */
   readonly billingAddress2?: string;
   /**
   * The third line of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_address_3 WisdomMessageTemplate#billing_address_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_address_3 WisdomMessageTemplate#billing_address_3}
   */
   readonly billingAddress3?: string;
   /**
   * The fourth line of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_address_4 WisdomMessageTemplate#billing_address_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_address_4 WisdomMessageTemplate#billing_address_4}
   */
   readonly billingAddress4?: string;
   /**
   * The city of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_city WisdomMessageTemplate#billing_city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_city WisdomMessageTemplate#billing_city}
   */
   readonly billingCity?: string;
   /**
   * The country of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_country WisdomMessageTemplate#billing_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_country WisdomMessageTemplate#billing_country}
   */
   readonly billingCountry?: string;
   /**
   * The county of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_county WisdomMessageTemplate#billing_county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_county WisdomMessageTemplate#billing_county}
   */
   readonly billingCounty?: string;
   /**
   * The postal code of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_postal_code WisdomMessageTemplate#billing_postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_postal_code WisdomMessageTemplate#billing_postal_code}
   */
   readonly billingPostalCode?: string;
   /**
   * The province of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_province WisdomMessageTemplate#billing_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_province WisdomMessageTemplate#billing_province}
   */
   readonly billingProvince?: string;
   /**
   * The state of a customer?s billing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#billing_state WisdomMessageTemplate#billing_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#billing_state WisdomMessageTemplate#billing_state}
   */
   readonly billingState?: string;
   /**
   * The customer's birth date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#birth_date WisdomMessageTemplate#birth_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#birth_date WisdomMessageTemplate#birth_date}
   */
   readonly birthDate?: string;
   /**
   * The customer's business email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#business_email_address WisdomMessageTemplate#business_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#business_email_address WisdomMessageTemplate#business_email_address}
   */
   readonly businessEmailAddress?: string;
   /**
   * The name of the customer's business.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#business_name WisdomMessageTemplate#business_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#business_name WisdomMessageTemplate#business_name}
   */
   readonly businessName?: string;
   /**
   * The customer's business phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#business_phone_number WisdomMessageTemplate#business_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#business_phone_number WisdomMessageTemplate#business_phone_number}
   */
   readonly businessPhoneNumber?: string;
   /**
   * The city in which a customer lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#city WisdomMessageTemplate#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#city WisdomMessageTemplate#city}
   */
   readonly city?: string;
   /**
   * The country in which a customer lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#country WisdomMessageTemplate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#country WisdomMessageTemplate#country}
   */
   readonly country?: string;
   /**
   * The county in which a customer lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#county WisdomMessageTemplate#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#county WisdomMessageTemplate#county}
   */
   readonly county?: string;
   /**
   * The custom attributes that are used with the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#custom WisdomMessageTemplate#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#custom WisdomMessageTemplate#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * The customer's email address, which has not been specified as a personal or business address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#email_address WisdomMessageTemplate#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#email_address WisdomMessageTemplate#email_address}
   */
   readonly emailAddress?: string;
   /**
   * The customer's first name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
   */
   readonly firstName?: string;
   /**
   * The customer's gender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#gender WisdomMessageTemplate#gender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#gender WisdomMessageTemplate#gender}
   */
   readonly gender?: string;
   /**
   * The customer's home phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#home_phone_number WisdomMessageTemplate#home_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#home_phone_number WisdomMessageTemplate#home_phone_number}
   */
   readonly homePhoneNumber?: string;
   /**
   * The customer's last name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
   */
   readonly lastName?: string;
   /**
   * The first line of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_address_1 WisdomMessageTemplate#mailing_address_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_address_1 WisdomMessageTemplate#mailing_address_1}
   */
   readonly mailingAddress1?: string;
   /**
   * The second line of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_address_2 WisdomMessageTemplate#mailing_address_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_address_2 WisdomMessageTemplate#mailing_address_2}
   */
   readonly mailingAddress2?: string;
   /**
   * The third line of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_address_3 WisdomMessageTemplate#mailing_address_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_address_3 WisdomMessageTemplate#mailing_address_3}
   */
   readonly mailingAddress3?: string;
   /**
   * The fourth line of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_address_4 WisdomMessageTemplate#mailing_address_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_address_4 WisdomMessageTemplate#mailing_address_4}
   */
   readonly mailingAddress4?: string;
   /**
   * The city of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_city WisdomMessageTemplate#mailing_city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_city WisdomMessageTemplate#mailing_city}
   */
   readonly mailingCity?: string;
   /**
   * The country of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_country WisdomMessageTemplate#mailing_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_country WisdomMessageTemplate#mailing_country}
   */
   readonly mailingCountry?: string;
   /**
   * The county of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_county WisdomMessageTemplate#mailing_county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_county WisdomMessageTemplate#mailing_county}
   */
   readonly mailingCounty?: string;
   /**
   * The postal code of a customer?s mailing address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_postal_code WisdomMessageTemplate#mailing_postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_postal_code WisdomMessageTemplate#mailing_postal_code}
   */
   readonly mailingPostalCode?: string;
   /**
   * The province of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_province WisdomMessageTemplate#mailing_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_province WisdomMessageTemplate#mailing_province}
   */
   readonly mailingProvince?: string;
   /**
   * The state of a customer?s mailing address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mailing_state WisdomMessageTemplate#mailing_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mailing_state WisdomMessageTemplate#mailing_state}
   */
   readonly mailingState?: string;
   /**
   * The customer's middle name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#middle_name WisdomMessageTemplate#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#middle_name WisdomMessageTemplate#middle_name}
   */
   readonly middleName?: string;
   /**
   * The customer's mobile phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#mobile_phone_number WisdomMessageTemplate#mobile_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#mobile_phone_number WisdomMessageTemplate#mobile_phone_number}
   */
   readonly mobilePhoneNumber?: string;
   /**
   * The customer's party type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#party_type WisdomMessageTemplate#party_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#party_type WisdomMessageTemplate#party_type}
   */
   readonly partyType?: string;
   /**
   * The customer's phone number, which has not been specified as a mobile, home, or business number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#phone_number WisdomMessageTemplate#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#phone_number WisdomMessageTemplate#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * The postal code of a customer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#postal_code WisdomMessageTemplate#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#postal_code WisdomMessageTemplate#postal_code}
   */
   readonly postalCode?: string;
   /**
   * The ARN of a customer profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#profile_arn WisdomMessageTemplate#profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#profile_arn WisdomMessageTemplate#profile_arn}
   */
   readonly profileArn?: string;
   /**
   * The unique identifier of a customer profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#profile_id WisdomMessageTemplate#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#profile_id WisdomMessageTemplate#profile_id}
   */
   readonly profileId?: string;
   /**
   * The province in which a customer lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#province WisdomMessageTemplate#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#province WisdomMessageTemplate#province}
   */
   readonly province?: string;
   /**
   * The first line of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_address_1 WisdomMessageTemplate#shipping_address_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_address_1 WisdomMessageTemplate#shipping_address_1}
   */
   readonly shippingAddress1?: string;
   /**
   * The second line of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_address_2 WisdomMessageTemplate#shipping_address_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_address_2 WisdomMessageTemplate#shipping_address_2}
   */
   readonly shippingAddress2?: string;
   /**
   * The third line of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_address_3 WisdomMessageTemplate#shipping_address_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_address_3 WisdomMessageTemplate#shipping_address_3}
   */
   readonly shippingAddress3?: string;
   /**
   * The fourth line of a customer?s shipping address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_address_4 WisdomMessageTemplate#shipping_address_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_address_4 WisdomMessageTemplate#shipping_address_4}
   */
   readonly shippingAddress4?: string;
   /**
   * The city of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_city WisdomMessageTemplate#shipping_city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_city WisdomMessageTemplate#shipping_city}
   */
   readonly shippingCity?: string;
   /**
   * The country of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_country WisdomMessageTemplate#shipping_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_country WisdomMessageTemplate#shipping_country}
   */
   readonly shippingCountry?: string;
   /**
   * The county of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_county WisdomMessageTemplate#shipping_county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_county WisdomMessageTemplate#shipping_county}
   */
   readonly shippingCounty?: string;
   /**
   * The postal code of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_postal_code WisdomMessageTemplate#shipping_postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_postal_code WisdomMessageTemplate#shipping_postal_code}
   */
   readonly shippingPostalCode?: string;
   /**
   * The province of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_province WisdomMessageTemplate#shipping_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_province WisdomMessageTemplate#shipping_province}
   */
   readonly shippingProvince?: string;
   /**
   * The state of a customer?s shipping address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#shipping_state WisdomMessageTemplate#shipping_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#shipping_state WisdomMessageTemplate#shipping_state}
   */
   readonly shippingState?: string;
   /**
   * The state in which a customer lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#state WisdomMessageTemplate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#state WisdomMessageTemplate#state}
   */
   readonly state?: string;
 }
@@ -2418,7 +2418,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // account_number - computed: true, optional: true, required: false
-  private _accountNumber?: string; 
+  private _accountNumber?: string;
   public get accountNumber() {
     return this.getStringAttribute('account_number');
   }
@@ -2434,7 +2434,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // additional_information - computed: true, optional: true, required: false
-  private _additionalInformation?: string; 
+  private _additionalInformation?: string;
   public get additionalInformation() {
     return this.getStringAttribute('additional_information');
   }
@@ -2450,7 +2450,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_1 - computed: true, optional: true, required: false
-  private _address1?: string; 
+  private _address1?: string;
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -2466,7 +2466,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_2 - computed: true, optional: true, required: false
-  private _address2?: string; 
+  private _address2?: string;
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -2482,7 +2482,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_3 - computed: true, optional: true, required: false
-  private _address3?: string; 
+  private _address3?: string;
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -2498,7 +2498,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_4 - computed: true, optional: true, required: false
-  private _address4?: string; 
+  private _address4?: string;
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -2514,7 +2514,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_1 - computed: true, optional: true, required: false
-  private _billingAddress1?: string; 
+  private _billingAddress1?: string;
   public get billingAddress1() {
     return this.getStringAttribute('billing_address_1');
   }
@@ -2530,7 +2530,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_2 - computed: true, optional: true, required: false
-  private _billingAddress2?: string; 
+  private _billingAddress2?: string;
   public get billingAddress2() {
     return this.getStringAttribute('billing_address_2');
   }
@@ -2546,7 +2546,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_3 - computed: true, optional: true, required: false
-  private _billingAddress3?: string; 
+  private _billingAddress3?: string;
   public get billingAddress3() {
     return this.getStringAttribute('billing_address_3');
   }
@@ -2562,7 +2562,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_4 - computed: true, optional: true, required: false
-  private _billingAddress4?: string; 
+  private _billingAddress4?: string;
   public get billingAddress4() {
     return this.getStringAttribute('billing_address_4');
   }
@@ -2578,7 +2578,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_city - computed: true, optional: true, required: false
-  private _billingCity?: string; 
+  private _billingCity?: string;
   public get billingCity() {
     return this.getStringAttribute('billing_city');
   }
@@ -2594,7 +2594,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_country - computed: true, optional: true, required: false
-  private _billingCountry?: string; 
+  private _billingCountry?: string;
   public get billingCountry() {
     return this.getStringAttribute('billing_country');
   }
@@ -2610,7 +2610,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_county - computed: true, optional: true, required: false
-  private _billingCounty?: string; 
+  private _billingCounty?: string;
   public get billingCounty() {
     return this.getStringAttribute('billing_county');
   }
@@ -2626,7 +2626,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_postal_code - computed: true, optional: true, required: false
-  private _billingPostalCode?: string; 
+  private _billingPostalCode?: string;
   public get billingPostalCode() {
     return this.getStringAttribute('billing_postal_code');
   }
@@ -2642,7 +2642,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_province - computed: true, optional: true, required: false
-  private _billingProvince?: string; 
+  private _billingProvince?: string;
   public get billingProvince() {
     return this.getStringAttribute('billing_province');
   }
@@ -2658,7 +2658,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_state - computed: true, optional: true, required: false
-  private _billingState?: string; 
+  private _billingState?: string;
   public get billingState() {
     return this.getStringAttribute('billing_state');
   }
@@ -2674,7 +2674,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // birth_date - computed: true, optional: true, required: false
-  private _birthDate?: string; 
+  private _birthDate?: string;
   public get birthDate() {
     return this.getStringAttribute('birth_date');
   }
@@ -2690,7 +2690,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_email_address - computed: true, optional: true, required: false
-  private _businessEmailAddress?: string; 
+  private _businessEmailAddress?: string;
   public get businessEmailAddress() {
     return this.getStringAttribute('business_email_address');
   }
@@ -2706,7 +2706,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_name - computed: true, optional: true, required: false
-  private _businessName?: string; 
+  private _businessName?: string;
   public get businessName() {
     return this.getStringAttribute('business_name');
   }
@@ -2722,7 +2722,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_phone_number - computed: true, optional: true, required: false
-  private _businessPhoneNumber?: string; 
+  private _businessPhoneNumber?: string;
   public get businessPhoneNumber() {
     return this.getStringAttribute('business_phone_number');
   }
@@ -2738,7 +2738,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // city - computed: true, optional: true, required: false
-  private _city?: string; 
+  private _city?: string;
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -2754,7 +2754,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string; 
+  private _country?: string;
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -2770,7 +2770,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // county - computed: true, optional: true, required: false
-  private _county?: string; 
+  private _county?: string;
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -2786,7 +2786,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // custom - computed: true, optional: true, required: false
-  private _custom?: { [key: string]: string }; 
+  private _custom?: { [key: string]: string };
   public get custom() {
     return this.getStringMapAttribute('custom');
   }
@@ -2802,7 +2802,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string; 
+  private _emailAddress?: string;
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -2818,7 +2818,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -2834,7 +2834,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // gender - computed: true, optional: true, required: false
-  private _gender?: string; 
+  private _gender?: string;
   public get gender() {
     return this.getStringAttribute('gender');
   }
@@ -2850,7 +2850,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // home_phone_number - computed: true, optional: true, required: false
-  private _homePhoneNumber?: string; 
+  private _homePhoneNumber?: string;
   public get homePhoneNumber() {
     return this.getStringAttribute('home_phone_number');
   }
@@ -2866,7 +2866,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -2882,7 +2882,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_1 - computed: true, optional: true, required: false
-  private _mailingAddress1?: string; 
+  private _mailingAddress1?: string;
   public get mailingAddress1() {
     return this.getStringAttribute('mailing_address_1');
   }
@@ -2898,7 +2898,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_2 - computed: true, optional: true, required: false
-  private _mailingAddress2?: string; 
+  private _mailingAddress2?: string;
   public get mailingAddress2() {
     return this.getStringAttribute('mailing_address_2');
   }
@@ -2914,7 +2914,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_3 - computed: true, optional: true, required: false
-  private _mailingAddress3?: string; 
+  private _mailingAddress3?: string;
   public get mailingAddress3() {
     return this.getStringAttribute('mailing_address_3');
   }
@@ -2930,7 +2930,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_4 - computed: true, optional: true, required: false
-  private _mailingAddress4?: string; 
+  private _mailingAddress4?: string;
   public get mailingAddress4() {
     return this.getStringAttribute('mailing_address_4');
   }
@@ -2946,7 +2946,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_city - computed: true, optional: true, required: false
-  private _mailingCity?: string; 
+  private _mailingCity?: string;
   public get mailingCity() {
     return this.getStringAttribute('mailing_city');
   }
@@ -2962,7 +2962,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_country - computed: true, optional: true, required: false
-  private _mailingCountry?: string; 
+  private _mailingCountry?: string;
   public get mailingCountry() {
     return this.getStringAttribute('mailing_country');
   }
@@ -2978,7 +2978,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_county - computed: true, optional: true, required: false
-  private _mailingCounty?: string; 
+  private _mailingCounty?: string;
   public get mailingCounty() {
     return this.getStringAttribute('mailing_county');
   }
@@ -2994,7 +2994,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_postal_code - computed: true, optional: true, required: false
-  private _mailingPostalCode?: string; 
+  private _mailingPostalCode?: string;
   public get mailingPostalCode() {
     return this.getStringAttribute('mailing_postal_code');
   }
@@ -3010,7 +3010,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_province - computed: true, optional: true, required: false
-  private _mailingProvince?: string; 
+  private _mailingProvince?: string;
   public get mailingProvince() {
     return this.getStringAttribute('mailing_province');
   }
@@ -3026,7 +3026,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_state - computed: true, optional: true, required: false
-  private _mailingState?: string; 
+  private _mailingState?: string;
   public get mailingState() {
     return this.getStringAttribute('mailing_state');
   }
@@ -3042,7 +3042,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // middle_name - computed: true, optional: true, required: false
-  private _middleName?: string; 
+  private _middleName?: string;
   public get middleName() {
     return this.getStringAttribute('middle_name');
   }
@@ -3058,7 +3058,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mobile_phone_number - computed: true, optional: true, required: false
-  private _mobilePhoneNumber?: string; 
+  private _mobilePhoneNumber?: string;
   public get mobilePhoneNumber() {
     return this.getStringAttribute('mobile_phone_number');
   }
@@ -3074,7 +3074,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // party_type - computed: true, optional: true, required: false
-  private _partyType?: string; 
+  private _partyType?: string;
   public get partyType() {
     return this.getStringAttribute('party_type');
   }
@@ -3090,7 +3090,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // phone_number - computed: true, optional: true, required: false
-  private _phoneNumber?: string; 
+  private _phoneNumber?: string;
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -3106,7 +3106,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // postal_code - computed: true, optional: true, required: false
-  private _postalCode?: string; 
+  private _postalCode?: string;
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -3122,7 +3122,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // profile_arn - computed: true, optional: true, required: false
-  private _profileArn?: string; 
+  private _profileArn?: string;
   public get profileArn() {
     return this.getStringAttribute('profile_arn');
   }
@@ -3138,7 +3138,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // profile_id - computed: true, optional: true, required: false
-  private _profileId?: string; 
+  private _profileId?: string;
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }
@@ -3154,7 +3154,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // province - computed: true, optional: true, required: false
-  private _province?: string; 
+  private _province?: string;
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -3170,7 +3170,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_1 - computed: true, optional: true, required: false
-  private _shippingAddress1?: string; 
+  private _shippingAddress1?: string;
   public get shippingAddress1() {
     return this.getStringAttribute('shipping_address_1');
   }
@@ -3186,7 +3186,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_2 - computed: true, optional: true, required: false
-  private _shippingAddress2?: string; 
+  private _shippingAddress2?: string;
   public get shippingAddress2() {
     return this.getStringAttribute('shipping_address_2');
   }
@@ -3202,7 +3202,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_3 - computed: true, optional: true, required: false
-  private _shippingAddress3?: string; 
+  private _shippingAddress3?: string;
   public get shippingAddress3() {
     return this.getStringAttribute('shipping_address_3');
   }
@@ -3218,7 +3218,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_4 - computed: true, optional: true, required: false
-  private _shippingAddress4?: string; 
+  private _shippingAddress4?: string;
   public get shippingAddress4() {
     return this.getStringAttribute('shipping_address_4');
   }
@@ -3234,7 +3234,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_city - computed: true, optional: true, required: false
-  private _shippingCity?: string; 
+  private _shippingCity?: string;
   public get shippingCity() {
     return this.getStringAttribute('shipping_city');
   }
@@ -3250,7 +3250,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_country - computed: true, optional: true, required: false
-  private _shippingCountry?: string; 
+  private _shippingCountry?: string;
   public get shippingCountry() {
     return this.getStringAttribute('shipping_country');
   }
@@ -3266,7 +3266,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_county - computed: true, optional: true, required: false
-  private _shippingCounty?: string; 
+  private _shippingCounty?: string;
   public get shippingCounty() {
     return this.getStringAttribute('shipping_county');
   }
@@ -3282,7 +3282,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_postal_code - computed: true, optional: true, required: false
-  private _shippingPostalCode?: string; 
+  private _shippingPostalCode?: string;
   public get shippingPostalCode() {
     return this.getStringAttribute('shipping_postal_code');
   }
@@ -3298,7 +3298,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_province - computed: true, optional: true, required: false
-  private _shippingProvince?: string; 
+  private _shippingProvince?: string;
   public get shippingProvince() {
     return this.getStringAttribute('shipping_province');
   }
@@ -3314,7 +3314,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_state - computed: true, optional: true, required: false
-  private _shippingState?: string; 
+  private _shippingState?: string;
   public get shippingState() {
     return this.getStringAttribute('shipping_state');
   }
@@ -3330,7 +3330,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3349,7 +3349,7 @@ export interface WisdomMessageTemplateDefaultAttributesSystemAttributesCustomerE
   /**
   * The customer's phone number if used with customerEndpoint, or the number the customer dialed to call your contact center if used with systemEndpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
   */
   readonly address?: string;
 }
@@ -3426,7 +3426,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpo
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string; 
+  private _address?: string;
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -3445,7 +3445,7 @@ export interface WisdomMessageTemplateDefaultAttributesSystemAttributesSystemEnd
   /**
   * The customer's phone number if used with customerEndpoint, or the number the customer dialed to call your contact center if used with systemEndpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
   */
   readonly address?: string;
 }
@@ -3522,7 +3522,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpoin
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string; 
+  private _address?: string;
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -3541,19 +3541,19 @@ export interface WisdomMessageTemplateDefaultAttributesSystemAttributes {
   /**
   * The CustomerEndpoint attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#customer_endpoint WisdomMessageTemplate#customer_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#customer_endpoint WisdomMessageTemplate#customer_endpoint}
   */
   readonly customerEndpoint?: WisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpoint;
   /**
   * The name of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
   */
   readonly name?: string;
   /**
   * The SystemEndpoint attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#system_endpoint WisdomMessageTemplate#system_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#system_endpoint WisdomMessageTemplate#system_endpoint}
   */
   readonly systemEndpoint?: WisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpoint;
 }
@@ -3672,7 +3672,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3707,25 +3707,25 @@ export interface WisdomMessageTemplateDefaultAttributes {
   /**
   * The agent attributes that are used with the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#agent_attributes WisdomMessageTemplate#agent_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#agent_attributes WisdomMessageTemplate#agent_attributes}
   */
   readonly agentAttributes?: WisdomMessageTemplateDefaultAttributesAgentAttributes;
   /**
   * The custom attributes that are used with the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#custom_attributes WisdomMessageTemplate#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#custom_attributes WisdomMessageTemplate#custom_attributes}
   */
   readonly customAttributes?: { [key: string]: string };
   /**
   * The customer profile attributes that are used with the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#customer_profile_attributes WisdomMessageTemplate#customer_profile_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#customer_profile_attributes WisdomMessageTemplate#customer_profile_attributes}
   */
   readonly customerProfileAttributes?: WisdomMessageTemplateDefaultAttributesCustomerProfileAttributes;
   /**
   * The system attributes that are used with the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#system_attributes WisdomMessageTemplate#system_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#system_attributes WisdomMessageTemplate#system_attributes}
   */
   readonly systemAttributes?: WisdomMessageTemplateDefaultAttributesSystemAttributes;
 }
@@ -3857,7 +3857,7 @@ export class WisdomMessageTemplateDefaultAttributesOutputReference extends cdktn
   }
 
   // custom_attributes - computed: true, optional: true, required: false
-  private _customAttributes?: { [key: string]: string }; 
+  private _customAttributes?: { [key: string]: string };
   public get customAttributes() {
     return this.getStringMapAttribute('custom_attributes');
   }
@@ -3908,13 +3908,13 @@ export interface WisdomMessageTemplateGroupingConfiguration {
   /**
   * The criteria used for grouping Amazon Q in Connect users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#criteria WisdomMessageTemplate#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#criteria WisdomMessageTemplate#criteria}
   */
   readonly criteria?: string;
   /**
   * The list of values that define different groups of Amazon Q in Connect users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#values WisdomMessageTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#values WisdomMessageTemplate#values}
   */
   readonly values?: string[];
 }
@@ -4004,7 +4004,7 @@ export class WisdomMessageTemplateGroupingConfigurationOutputReference extends c
   }
 
   // criteria - computed: true, optional: true, required: false
-  private _criteria?: string; 
+  private _criteria?: string;
   public get criteria() {
     return this.getStringAttribute('criteria');
   }
@@ -4020,7 +4020,7 @@ export class WisdomMessageTemplateGroupingConfigurationOutputReference extends c
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4037,19 +4037,19 @@ export class WisdomMessageTemplateGroupingConfigurationOutputReference extends c
 }
 export interface WisdomMessageTemplateMessageTemplateAttachments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}
   */
   readonly attachmentId?: string;
   /**
   * The name of the attachment file being uploaded. The name should include the file extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#attachment_name WisdomMessageTemplate#attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#attachment_name WisdomMessageTemplate#attachment_name}
   */
   readonly attachmentName?: string;
   /**
-  * The S3 Presigned URL for the attachment file. When generating the PreSignedUrl, please ensure that the expires-in time is set to 30 minutes. The URL can be generated through the AWS Console or through the AWS CLI (https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html). 
+  * The S3 Presigned URL for the attachment file. When generating the PreSignedUrl, please ensure that the expires-in time is set to 30 minutes. The URL can be generated through the AWS Console or through the AWS CLI (https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#s3_presigned_url WisdomMessageTemplate#s3_presigned_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#s3_presigned_url WisdomMessageTemplate#s3_presigned_url}
   */
   readonly s3PresignedUrl?: string;
 }
@@ -4154,7 +4154,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // attachment_id - computed: true, optional: true, required: false
-  private _attachmentId?: string; 
+  private _attachmentId?: string;
   public get attachmentId() {
     return this.getStringAttribute('attachment_id');
   }
@@ -4170,7 +4170,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // attachment_name - computed: true, optional: true, required: false
-  private _attachmentName?: string; 
+  private _attachmentName?: string;
   public get attachmentName() {
     return this.getStringAttribute('attachment_name');
   }
@@ -4186,7 +4186,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // s3_presigned_url - computed: true, optional: true, required: false
-  private _s3PresignedUrl?: string; 
+  private _s3PresignedUrl?: string;
   public get s3PresignedUrl() {
     return this.getStringAttribute('s3_presigned_url');
   }
@@ -4225,13 +4225,13 @@ export interface WisdomMessageTemplateTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#key WisdomMessageTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#key WisdomMessageTemplate#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
   */
   readonly value?: string;
 }
@@ -4323,7 +4323,7 @@ export class WisdomMessageTemplateTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4339,7 +4339,7 @@ export class WisdomMessageTemplateTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4376,7 +4376,7 @@ export class WisdomMessageTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template awscc_wisdom_message_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template awscc_wisdom_message_template}
 */
 export class WisdomMessageTemplate extends cdktn.TerraformResource {
 
@@ -4392,7 +4392,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomMessageTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomMessageTemplate to import
-  * @param importFromId The id of the existing WisdomMessageTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomMessageTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomMessageTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4404,7 +4404,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template awscc_wisdom_message_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template awscc_wisdom_message_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4415,7 +4415,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_message_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4442,7 +4442,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   // ==========
 
   // channel_subtype - computed: false, optional: false, required: true
-  private _channelSubtype?: string; 
+  private _channelSubtype?: string;
   public get channelSubtype() {
     return this.getStringAttribute('channel_subtype');
   }
@@ -4484,7 +4484,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4521,7 +4521,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // knowledge_base_arn - computed: false, optional: false, required: true
-  private _knowledgeBaseArn?: string; 
+  private _knowledgeBaseArn?: string;
   public get knowledgeBaseArn() {
     return this.getStringAttribute('knowledge_base_arn');
   }
@@ -4534,7 +4534,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string; 
+  private _language?: string;
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -4581,7 +4581,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

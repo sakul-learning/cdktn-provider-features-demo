@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface KmsReplicaKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the AWS KMS key. Use a description that helps you to distinguish this AWS KMS key from others in the account, such as its intended use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
   */
   readonly description?: string;
   /**
   * Specifies whether the AWS KMS key is enabled. Disabled AWS KMS keys cannot be used in cryptographic operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The key policy that authorizes use of the AWS KMS key. The key policy must observe the following rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
   */
   readonly keyPolicy: string;
   /**
   * Specifies the number of days in the waiting period before AWS KMS deletes an AWS KMS key that has been removed from a CloudFormation stack. Enter a value between 7 and 30 days. The default value is 30 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
   */
   readonly pendingWindowInDays?: number;
   /**
   * Identifies the primary AWS KMS key to create a replica of. Specify the Amazon Resource Name (ARN) of the AWS KMS key. You cannot specify an alias or key ID. For help finding the ARN, see Finding the Key ID and ARN in the AWS Key Management Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
   */
   readonly primaryKeyArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
   */
   readonly tags?: KmsReplicaKeyTags[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface KmsReplicaKeyTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#key KmsReplicaKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#key KmsReplicaKey#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#value KmsReplicaKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#value KmsReplicaKey#value}
   */
   readonly value?: string;
 }
@@ -146,7 +146,7 @@ export class KmsReplicaKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class KmsReplicaKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -199,7 +199,7 @@ export class KmsReplicaKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key awscc_kms_replica_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key awscc_kms_replica_key}
 */
 export class KmsReplicaKey extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KmsReplicaKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsReplicaKey to import
-  * @param importFromId The id of the existing KmsReplicaKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsReplicaKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsReplicaKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_replica_key awscc_kms_replica_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_replica_key awscc_kms_replica_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kms_replica_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -266,7 +266,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -282,7 +282,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -308,7 +308,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // key_policy - computed: false, optional: false, required: true
-  private _keyPolicy?: string; 
+  private _keyPolicy?: string;
   public get keyPolicy() {
     return this.getStringAttribute('key_policy');
   }
@@ -321,7 +321,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // pending_window_in_days - computed: true, optional: true, required: false
-  private _pendingWindowInDays?: number; 
+  private _pendingWindowInDays?: number;
   public get pendingWindowInDays() {
     return this.getNumberAttribute('pending_window_in_days');
   }
@@ -337,7 +337,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // primary_key_arn - computed: false, optional: false, required: true
-  private _primaryKeyArn?: string; 
+  private _primaryKeyArn?: string;
   public get primaryKeyArn() {
     return this.getStringAttribute('primary_key_arn');
   }

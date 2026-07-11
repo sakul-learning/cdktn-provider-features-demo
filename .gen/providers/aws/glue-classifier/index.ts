@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface GlueClassifierConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#id GlueClassifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#id GlueClassifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#name GlueClassifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#name GlueClassifier#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#region GlueClassifier#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#region GlueClassifier#region}
   */
   readonly region?: string;
   /**
   * csv_classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
   */
   readonly csvClassifier?: GlueClassifierCsvClassifier;
   /**
   * grok_classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
   */
   readonly grokClassifier?: GlueClassifierGrokClassifier;
   /**
   * json_classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
   */
   readonly jsonClassifier?: GlueClassifierJsonClassifier;
   /**
   * xml_classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
   */
   readonly xmlClassifier?: GlueClassifierXmlClassifier;
 }
 export interface GlueClassifierCsvClassifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}
   */
   readonly allowSingleColumn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}
   */
   readonly containsHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}
   */
   readonly customDatatypeConfigured?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#custom_datatypes GlueClassifier#custom_datatypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#custom_datatypes GlueClassifier#custom_datatypes}
   */
   readonly customDatatypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}
   */
   readonly disableValueTrimming?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#header GlueClassifier#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#header GlueClassifier#header}
   */
   readonly header?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}
   */
   readonly quoteSymbol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#serde GlueClassifier#serde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#serde GlueClassifier#serde}
   */
   readonly serde?: string;
 }
@@ -254,7 +254,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // allow_single_column - computed: false, optional: true, required: false
-  private _allowSingleColumn?: boolean | cdktn.IResolvable; 
+  private _allowSingleColumn?: boolean | cdktn.IResolvable;
   public get allowSingleColumn() {
     return this.getBooleanAttribute('allow_single_column');
   }
@@ -270,7 +270,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // contains_header - computed: false, optional: true, required: false
-  private _containsHeader?: string; 
+  private _containsHeader?: string;
   public get containsHeader() {
     return this.getStringAttribute('contains_header');
   }
@@ -286,7 +286,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // custom_datatype_configured - computed: false, optional: true, required: false
-  private _customDatatypeConfigured?: boolean | cdktn.IResolvable; 
+  private _customDatatypeConfigured?: boolean | cdktn.IResolvable;
   public get customDatatypeConfigured() {
     return this.getBooleanAttribute('custom_datatype_configured');
   }
@@ -302,7 +302,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // custom_datatypes - computed: false, optional: true, required: false
-  private _customDatatypes?: string[]; 
+  private _customDatatypes?: string[];
   public get customDatatypes() {
     return this.getListAttribute('custom_datatypes');
   }
@@ -318,7 +318,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -334,7 +334,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // disable_value_trimming - computed: false, optional: true, required: false
-  private _disableValueTrimming?: boolean | cdktn.IResolvable; 
+  private _disableValueTrimming?: boolean | cdktn.IResolvable;
   public get disableValueTrimming() {
     return this.getBooleanAttribute('disable_value_trimming');
   }
@@ -350,7 +350,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // header - computed: false, optional: true, required: false
-  private _header?: string[]; 
+  private _header?: string[];
   public get header() {
     return this.getListAttribute('header');
   }
@@ -366,7 +366,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // quote_symbol - computed: false, optional: true, required: false
-  private _quoteSymbol?: string; 
+  private _quoteSymbol?: string;
   public get quoteSymbol() {
     return this.getStringAttribute('quote_symbol');
   }
@@ -382,7 +382,7 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // serde - computed: true, optional: true, required: false
-  private _serde?: string; 
+  private _serde?: string;
   public get serde() {
     return this.getStringAttribute('serde');
   }
@@ -399,15 +399,15 @@ export class GlueClassifierCsvClassifierOutputReference extends cdktn.ComplexObj
 }
 export interface GlueClassifierGrokClassifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
   */
   readonly classification: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}
   */
   readonly customPatterns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}
   */
   readonly grokPattern: string;
 }
@@ -500,7 +500,7 @@ export class GlueClassifierGrokClassifierOutputReference extends cdktn.ComplexOb
   }
 
   // classification - computed: false, optional: false, required: true
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -513,7 +513,7 @@ export class GlueClassifierGrokClassifierOutputReference extends cdktn.ComplexOb
   }
 
   // custom_patterns - computed: false, optional: true, required: false
-  private _customPatterns?: string; 
+  private _customPatterns?: string;
   public get customPatterns() {
     return this.getStringAttribute('custom_patterns');
   }
@@ -529,7 +529,7 @@ export class GlueClassifierGrokClassifierOutputReference extends cdktn.ComplexOb
   }
 
   // grok_pattern - computed: false, optional: false, required: true
-  private _grokPattern?: string; 
+  private _grokPattern?: string;
   public get grokPattern() {
     return this.getStringAttribute('grok_pattern');
   }
@@ -543,7 +543,7 @@ export class GlueClassifierGrokClassifierOutputReference extends cdktn.ComplexOb
 }
 export interface GlueClassifierJsonClassifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}
   */
   readonly jsonPath: string;
 }
@@ -610,7 +610,7 @@ export class GlueClassifierJsonClassifierOutputReference extends cdktn.ComplexOb
   }
 
   // json_path - computed: false, optional: false, required: true
-  private _jsonPath?: string; 
+  private _jsonPath?: string;
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -624,11 +624,11 @@ export class GlueClassifierJsonClassifierOutputReference extends cdktn.ComplexOb
 }
 export interface GlueClassifierXmlClassifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
   */
   readonly classification: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}
   */
   readonly rowTag: string;
 }
@@ -708,7 +708,7 @@ export class GlueClassifierXmlClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // classification - computed: false, optional: false, required: true
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -721,7 +721,7 @@ export class GlueClassifierXmlClassifierOutputReference extends cdktn.ComplexObj
   }
 
   // row_tag - computed: false, optional: false, required: true
-  private _rowTag?: string; 
+  private _rowTag?: string;
   public get rowTag() {
     return this.getStringAttribute('row_tag');
   }
@@ -735,7 +735,7 @@ export class GlueClassifierXmlClassifierOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier aws_glue_classifier}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier aws_glue_classifier}
 */
 export class GlueClassifier extends cdktn.TerraformResource {
 
@@ -751,7 +751,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueClassifier resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueClassifier to import
-  * @param importFromId The id of the existing GlueClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueClassifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -763,7 +763,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_classifier aws_glue_classifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_classifier aws_glue_classifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -774,7 +774,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_classifier',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -798,7 +798,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -814,7 +814,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -827,7 +827,7 @@ export class GlueClassifier extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

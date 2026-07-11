@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface S3AccessGrantsInstanceConfig extends cdktn.TerraformMetaArgumen
   /**
   * The Amazon Resource Name (ARN) of the specified AWS Identity Center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
   */
   readonly identityCenterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}
   */
   readonly tags?: S3AccessGrantsInstanceTags[] | cdktn.IResolvable;
 }
 export interface S3AccessGrantsInstanceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}
   */
   readonly value?: string;
 }
@@ -116,7 +116,7 @@ export class S3AccessGrantsInstanceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -132,7 +132,7 @@ export class S3AccessGrantsInstanceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -169,7 +169,7 @@ export class S3AccessGrantsInstanceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}
 */
 export class S3AccessGrantsInstance extends cdktn.TerraformResource {
 
@@ -185,7 +185,7 @@ export class S3AccessGrantsInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3AccessGrantsInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3AccessGrantsInstance to import
-  * @param importFromId The id of the existing S3AccessGrantsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3AccessGrantsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3AccessGrantsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -197,7 +197,7 @@ export class S3AccessGrantsInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,7 +208,7 @@ export class S3AccessGrantsInstance extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3_access_grants_instance',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -242,7 +242,7 @@ export class S3AccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // identity_center_arn - computed: true, optional: true, required: false
-  private _identityCenterArn?: string; 
+  private _identityCenterArn?: string;
   public get identityCenterArn() {
     return this.getStringAttribute('identity_center_arn');
   }

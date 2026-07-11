@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface RedshiftdataStatementConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#cluster_identifier RedshiftdataStatement#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#cluster_identifier RedshiftdataStatement#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#database RedshiftdataStatement#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#database RedshiftdataStatement#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#db_user RedshiftdataStatement#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#db_user RedshiftdataStatement#db_user}
   */
   readonly dbUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#id RedshiftdataStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#id RedshiftdataStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface RedshiftdataStatementConfig extends cdktn.TerraformMetaArgument
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#region RedshiftdataStatement#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#region RedshiftdataStatement#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#secret_arn RedshiftdataStatement#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#secret_arn RedshiftdataStatement#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#sql RedshiftdataStatement#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#sql RedshiftdataStatement#sql}
   */
   readonly sql: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#statement_name RedshiftdataStatement#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#statement_name RedshiftdataStatement#statement_name}
   */
   readonly statementName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#with_event RedshiftdataStatement#with_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#with_event RedshiftdataStatement#with_event}
   */
   readonly withEvent?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#workgroup_name RedshiftdataStatement#workgroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#workgroup_name RedshiftdataStatement#workgroup_name}
   */
   readonly workgroupName?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#parameters RedshiftdataStatement#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#parameters RedshiftdataStatement#parameters}
   */
   readonly parameters?: RedshiftdataStatementParameters[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#timeouts RedshiftdataStatement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#timeouts RedshiftdataStatement#timeouts}
   */
   readonly timeouts?: RedshiftdataStatementTimeouts;
 }
 export interface RedshiftdataStatementParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#name RedshiftdataStatement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#name RedshiftdataStatement#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#value RedshiftdataStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#value RedshiftdataStatement#value}
   */
   readonly value: string;
 }
@@ -163,7 +163,7 @@ export class RedshiftdataStatementParametersOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -176,7 +176,7 @@ export class RedshiftdataStatementParametersOutputReference extends cdktn.Comple
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -210,7 +210,7 @@ export class RedshiftdataStatementParametersList extends cdktn.ComplexList {
 }
 export interface RedshiftdataStatementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#create RedshiftdataStatement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#create RedshiftdataStatement#create}
   */
   readonly create?: string;
 }
@@ -287,7 +287,7 @@ export class RedshiftdataStatementTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -304,7 +304,7 @@ export class RedshiftdataStatementTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement aws_redshiftdata_statement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement aws_redshiftdata_statement}
 */
 export class RedshiftdataStatement extends cdktn.TerraformResource {
 
@@ -320,7 +320,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftdataStatement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftdataStatement to import
-  * @param importFromId The id of the existing RedshiftdataStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftdataStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftdataStatement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -332,7 +332,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftdata_statement aws_redshiftdata_statement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshiftdata_statement aws_redshiftdata_statement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,7 +343,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
       terraformResourceType: 'aws_redshiftdata_statement',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -372,7 +372,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   // ==========
 
   // cluster_identifier - computed: false, optional: true, required: false
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -388,7 +388,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -401,7 +401,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // db_user - computed: false, optional: true, required: false
-  private _dbUser?: string; 
+  private _dbUser?: string;
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -417,7 +417,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -433,7 +433,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -465,7 +465,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // sql - computed: false, optional: false, required: true
-  private _sql?: string; 
+  private _sql?: string;
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -478,7 +478,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // statement_name - computed: false, optional: true, required: false
-  private _statementName?: string; 
+  private _statementName?: string;
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -494,7 +494,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // with_event - computed: false, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable; 
+  private _withEvent?: boolean | cdktn.IResolvable;
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -510,7 +510,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // workgroup_name - computed: false, optional: true, required: false
-  private _workgroupName?: string; 
+  private _workgroupName?: string;
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }

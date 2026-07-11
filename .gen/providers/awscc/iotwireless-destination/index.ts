@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IotwirelessDestinationConfig extends cdktn.TerraformMetaArgumen
   /**
   * Destination description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#description IotwirelessDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#description IotwirelessDestination#description}
   */
   readonly description?: string;
   /**
   * Destination expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#expression IotwirelessDestination#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#expression IotwirelessDestination#expression}
   */
   readonly expression: string;
   /**
   * Must be RuleName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#expression_type IotwirelessDestination#expression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#expression_type IotwirelessDestination#expression_type}
   */
   readonly expressionType: string;
   /**
   * Unique name of destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#name IotwirelessDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#name IotwirelessDestination#name}
   */
   readonly name: string;
   /**
   * AWS role ARN that grants access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#role_arn IotwirelessDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#role_arn IotwirelessDestination#role_arn}
   */
   readonly roleArn?: string;
   /**
   * A list of key-value pairs that contain metadata for the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#tags IotwirelessDestination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#tags IotwirelessDestination#tags}
   */
   readonly tags?: IotwirelessDestinationTags[] | cdktn.IResolvable;
 }
 export interface IotwirelessDestinationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}
   */
   readonly value?: string;
 }
@@ -142,7 +142,7 @@ export class IotwirelessDestinationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class IotwirelessDestinationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -195,7 +195,7 @@ export class IotwirelessDestinationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}
 */
 export class IotwirelessDestination extends cdktn.TerraformResource {
 
@@ -211,7 +211,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessDestination to import
-  * @param importFromId The id of the existing IotwirelessDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -223,7 +223,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,7 +234,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -262,7 +262,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -278,7 +278,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -291,7 +291,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   }
 
   // expression_type - computed: false, optional: false, required: true
-  private _expressionType?: string; 
+  private _expressionType?: string;
   public get expressionType() {
     return this.getStringAttribute('expression_type');
   }
@@ -309,7 +309,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -322,7 +322,7 @@ export class IotwirelessDestination extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

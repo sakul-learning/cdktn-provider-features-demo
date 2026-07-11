@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/lookoutmetrics_anomaly_detectors
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/lookoutmetrics_anomaly_detectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccLookoutmetricsAnomalyDetectorsConfig extends cdktn.Ter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors}
 */
 export class DataAwsccLookoutmetricsAnomalyDetectors extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccLookoutmetricsAnomalyDetectors extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccLookoutmetricsAnomalyDetectors resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLookoutmetricsAnomalyDetectors to import
-  * @param importFromId The id of the existing DataAwsccLookoutmetricsAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/lookoutmetrics_anomaly_detectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLookoutmetricsAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/lookoutmetrics_anomaly_detectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLookoutmetricsAnomalyDetectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccLookoutmetricsAnomalyDetectors extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccLookoutmetricsAnomalyDetectors extends cdktn.TerraformData
       terraformResourceType: 'awscc_lookoutmetrics_anomaly_detectors',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

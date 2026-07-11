@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkmanagerSiteConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#description NetworkmanagerSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#description NetworkmanagerSite#description}
   */
   readonly description?: string;
   /**
   * The ID of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#global_network_id NetworkmanagerSite#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#global_network_id NetworkmanagerSite#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
   * The location of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#location NetworkmanagerSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#location NetworkmanagerSite#location}
   */
   readonly location?: NetworkmanagerSiteLocation;
   /**
   * The tags for the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#tags NetworkmanagerSite#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#tags NetworkmanagerSite#tags}
   */
   readonly tags?: NetworkmanagerSiteTags[] | cdktn.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface NetworkmanagerSiteLocation {
   /**
   * The physical address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}
   */
   readonly address?: string;
   /**
   * The latitude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}
   */
   readonly latitude?: string;
   /**
   * The longitude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}
   */
   readonly longitude?: string;
 }
@@ -151,7 +151,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string; 
+  private _address?: string;
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -167,7 +167,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string; 
+  private _latitude?: string;
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -183,7 +183,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string; 
+  private _longitude?: string;
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -202,13 +202,13 @@ export interface NetworkmanagerSiteTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#key NetworkmanagerSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#key NetworkmanagerSite#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#value NetworkmanagerSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#value NetworkmanagerSite#value}
   */
   readonly value?: string;
 }
@@ -300,7 +300,7 @@ export class NetworkmanagerSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -316,7 +316,7 @@ export class NetworkmanagerSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -353,7 +353,7 @@ export class NetworkmanagerSiteTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site awscc_networkmanager_site}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site awscc_networkmanager_site}
 */
 export class NetworkmanagerSite extends cdktn.TerraformResource {
 
@@ -369,7 +369,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerSite resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerSite to import
-  * @param importFromId The id of the existing NetworkmanagerSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -381,7 +381,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,7 +392,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_site',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -418,7 +418,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -434,7 +434,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string; 
+  private _globalNetworkId?: string;
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }

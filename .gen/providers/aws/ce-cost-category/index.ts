@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktn from 'cdktn';
 
 export interface CeCostCategoryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#effective_start CeCostCategory#effective_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#effective_start CeCostCategory#effective_start}
   */
   readonly effectiveStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#id CeCostCategory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#id CeCostCategory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#name CeCostCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#name CeCostCategory#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}
   */
   readonly ruleVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags_all CeCostCategory#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags_all CeCostCategory#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
   */
   readonly rule: CeCostCategoryRule[] | cdktn.IResolvable;
   /**
   * split_charge_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#split_charge_rule CeCostCategory#split_charge_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#split_charge_rule CeCostCategory#split_charge_rule}
   */
   readonly splitChargeRule?: CeCostCategorySplitChargeRule[] | cdktn.IResolvable;
 }
 export interface CeCostCategoryRuleInheritedValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension_key CeCostCategory#dimension_key}
   */
   readonly dimensionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension_name CeCostCategory#dimension_name}
   */
   readonly dimensionName?: string;
 }
@@ -137,7 +137,7 @@ export class CeCostCategoryRuleInheritedValueOutputReference extends cdktn.Compl
   }
 
   // dimension_key - computed: false, optional: true, required: false
-  private _dimensionKey?: string; 
+  private _dimensionKey?: string;
   public get dimensionKey() {
     return this.getStringAttribute('dimension_key');
   }
@@ -153,7 +153,7 @@ export class CeCostCategoryRuleInheritedValueOutputReference extends cdktn.Compl
   }
 
   // dimension_name - computed: false, optional: true, required: false
-  private _dimensionName?: string; 
+  private _dimensionName?: string;
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -170,15 +170,15 @@ export class CeCostCategoryRuleInheritedValueOutputReference extends cdktn.Compl
 }
 export interface CeCostCategoryRuleRuleAndAndCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -271,7 +271,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -287,7 +287,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -303,7 +303,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -320,15 +320,15 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
 }
 export interface CeCostCategoryRuleRuleAndAndDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -421,7 +421,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -437,7 +437,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -453,7 +453,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -470,15 +470,15 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleAndAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -571,7 +571,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -587,7 +587,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -603,7 +603,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -622,19 +622,19 @@ export interface CeCostCategoryRuleRuleAndAnd {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleAndAndCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleAndAndDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleAndAndTags;
 }
@@ -808,15 +808,15 @@ export class CeCostCategoryRuleRuleAndAndList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleAndCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -909,7 +909,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -925,7 +925,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -941,7 +941,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -958,15 +958,15 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleAndDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1059,7 +1059,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1075,7 +1075,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1091,7 +1091,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1108,15 +1108,15 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
 }
 export interface CeCostCategoryRuleRuleAndNotCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1209,7 +1209,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1225,7 +1225,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1241,7 +1241,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1258,15 +1258,15 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
 }
 export interface CeCostCategoryRuleRuleAndNotDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1359,7 +1359,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1375,7 +1375,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1391,7 +1391,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1408,15 +1408,15 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleAndNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1509,7 +1509,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1525,7 +1525,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1541,7 +1541,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1560,19 +1560,19 @@ export interface CeCostCategoryRuleRuleAndNot {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleAndNotCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleAndNotDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleAndNotTags;
 }
@@ -1714,15 +1714,15 @@ export class CeCostCategoryRuleRuleAndNotOutputReference extends cdktn.ComplexOb
 }
 export interface CeCostCategoryRuleRuleAndOrCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1815,7 +1815,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1831,7 +1831,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1847,7 +1847,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1864,15 +1864,15 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
 }
 export interface CeCostCategoryRuleRuleAndOrDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -1965,7 +1965,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1981,7 +1981,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1997,7 +1997,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2014,15 +2014,15 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
 }
 export interface CeCostCategoryRuleRuleAndOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -2115,7 +2115,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2131,7 +2131,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2147,7 +2147,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2166,19 +2166,19 @@ export interface CeCostCategoryRuleRuleAndOr {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleAndOrCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleAndOrDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleAndOrTags;
 }
@@ -2352,15 +2352,15 @@ export class CeCostCategoryRuleRuleAndOrList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -2453,7 +2453,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2469,7 +2469,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2485,7 +2485,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2504,37 +2504,37 @@ export interface CeCostCategoryRuleRuleAnd {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#and CeCostCategory#and}
   */
   readonly and?: CeCostCategoryRuleRuleAndAnd[] | cdktn.IResolvable;
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleAndCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleAndDimension;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#not CeCostCategory#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#not CeCostCategory#not}
   */
   readonly not?: CeCostCategoryRuleRuleAndNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#or CeCostCategory#or}
   */
   readonly or?: CeCostCategoryRuleRuleAndOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleAndTags;
 }
@@ -2795,15 +2795,15 @@ export class CeCostCategoryRuleRuleAndList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -2896,7 +2896,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2912,7 +2912,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2928,7 +2928,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2945,15 +2945,15 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
 }
 export interface CeCostCategoryRuleRuleDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3046,7 +3046,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3062,7 +3062,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3078,7 +3078,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3095,15 +3095,15 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
 }
 export interface CeCostCategoryRuleRuleNotAndCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3196,7 +3196,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3212,7 +3212,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3228,7 +3228,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3245,15 +3245,15 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
 }
 export interface CeCostCategoryRuleRuleNotAndDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3346,7 +3346,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3362,7 +3362,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3378,7 +3378,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3395,15 +3395,15 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleNotAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3496,7 +3496,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3512,7 +3512,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3528,7 +3528,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3547,19 +3547,19 @@ export interface CeCostCategoryRuleRuleNotAnd {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleNotAndCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleNotAndDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleNotAndTags;
 }
@@ -3733,15 +3733,15 @@ export class CeCostCategoryRuleRuleNotAndList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleNotCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3834,7 +3834,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3850,7 +3850,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3866,7 +3866,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3883,15 +3883,15 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleNotDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -3984,7 +3984,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4000,7 +4000,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4016,7 +4016,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4033,15 +4033,15 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
 }
 export interface CeCostCategoryRuleRuleNotNotCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -4134,7 +4134,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4150,7 +4150,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4166,7 +4166,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4183,15 +4183,15 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
 }
 export interface CeCostCategoryRuleRuleNotNotDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -4284,7 +4284,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4300,7 +4300,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4316,7 +4316,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4333,15 +4333,15 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
 }
 export interface CeCostCategoryRuleRuleNotNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -4434,7 +4434,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4450,7 +4450,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4466,7 +4466,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4485,19 +4485,19 @@ export interface CeCostCategoryRuleRuleNotNot {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleNotNotCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleNotNotDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleNotNotTags;
 }
@@ -4639,15 +4639,15 @@ export class CeCostCategoryRuleRuleNotNotOutputReference extends cdktn.ComplexOb
 }
 export interface CeCostCategoryRuleRuleNotOrCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -4740,7 +4740,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4756,7 +4756,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4772,7 +4772,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4789,15 +4789,15 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
 }
 export interface CeCostCategoryRuleRuleNotOrDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -4890,7 +4890,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4906,7 +4906,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4922,7 +4922,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4939,15 +4939,15 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
 }
 export interface CeCostCategoryRuleRuleNotOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -5040,7 +5040,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5056,7 +5056,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5072,7 +5072,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5091,19 +5091,19 @@ export interface CeCostCategoryRuleRuleNotOr {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleNotOrCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleNotOrDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleNotOrTags;
 }
@@ -5277,15 +5277,15 @@ export class CeCostCategoryRuleRuleNotOrList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -5378,7 +5378,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5394,7 +5394,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5410,7 +5410,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5429,37 +5429,37 @@ export interface CeCostCategoryRuleRuleNot {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#and CeCostCategory#and}
   */
   readonly and?: CeCostCategoryRuleRuleNotAnd[] | cdktn.IResolvable;
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleNotCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleNotDimension;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#not CeCostCategory#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#not CeCostCategory#not}
   */
   readonly not?: CeCostCategoryRuleRuleNotNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#or CeCostCategory#or}
   */
   readonly or?: CeCostCategoryRuleRuleNotOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleNotTags;
 }
@@ -5688,15 +5688,15 @@ export class CeCostCategoryRuleRuleNotOutputReference extends cdktn.ComplexObjec
 }
 export interface CeCostCategoryRuleRuleOrAndCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -5789,7 +5789,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5805,7 +5805,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5821,7 +5821,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5838,15 +5838,15 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
 }
 export interface CeCostCategoryRuleRuleOrAndDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -5939,7 +5939,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5955,7 +5955,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5971,7 +5971,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5988,15 +5988,15 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
 }
 export interface CeCostCategoryRuleRuleOrAndTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -6089,7 +6089,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6105,7 +6105,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6121,7 +6121,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6140,19 +6140,19 @@ export interface CeCostCategoryRuleRuleOrAnd {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleOrAndCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleOrAndDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleOrAndTags;
 }
@@ -6326,15 +6326,15 @@ export class CeCostCategoryRuleRuleOrAndList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleOrCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -6427,7 +6427,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6443,7 +6443,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6459,7 +6459,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6476,15 +6476,15 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
 }
 export interface CeCostCategoryRuleRuleOrDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -6577,7 +6577,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6593,7 +6593,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6609,7 +6609,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6626,15 +6626,15 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
 }
 export interface CeCostCategoryRuleRuleOrNotCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -6727,7 +6727,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6743,7 +6743,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6759,7 +6759,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6776,15 +6776,15 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
 }
 export interface CeCostCategoryRuleRuleOrNotDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -6877,7 +6877,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6893,7 +6893,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6909,7 +6909,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6926,15 +6926,15 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
 }
 export interface CeCostCategoryRuleRuleOrNotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -7027,7 +7027,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7043,7 +7043,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7059,7 +7059,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7078,19 +7078,19 @@ export interface CeCostCategoryRuleRuleOrNot {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleOrNotCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleOrNotDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleOrNotTags;
 }
@@ -7232,15 +7232,15 @@ export class CeCostCategoryRuleRuleOrNotOutputReference extends cdktn.ComplexObj
 }
 export interface CeCostCategoryRuleRuleOrOrCostCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -7333,7 +7333,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7349,7 +7349,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7365,7 +7365,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7382,15 +7382,15 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
 }
 export interface CeCostCategoryRuleRuleOrOrDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -7483,7 +7483,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7499,7 +7499,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7515,7 +7515,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7532,15 +7532,15 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
 }
 export interface CeCostCategoryRuleRuleOrOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -7633,7 +7633,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7649,7 +7649,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7665,7 +7665,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7684,19 +7684,19 @@ export interface CeCostCategoryRuleRuleOrOr {
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleOrOrCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleOrOrDimension;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleOrOrTags;
 }
@@ -7870,15 +7870,15 @@ export class CeCostCategoryRuleRuleOrOrList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleOrTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -7971,7 +7971,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7987,7 +7987,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -8003,7 +8003,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -8022,37 +8022,37 @@ export interface CeCostCategoryRuleRuleOr {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#and CeCostCategory#and}
   */
   readonly and?: CeCostCategoryRuleRuleOrAnd[] | cdktn.IResolvable;
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleOrCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleOrDimension;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#not CeCostCategory#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#not CeCostCategory#not}
   */
   readonly not?: CeCostCategoryRuleRuleOrNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#or CeCostCategory#or}
   */
   readonly or?: CeCostCategoryRuleRuleOrOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleOrTags;
 }
@@ -8313,15 +8313,15 @@ export class CeCostCategoryRuleRuleOrList extends cdktn.ComplexList {
 }
 export interface CeCostCategoryRuleRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#match_options CeCostCategory#match_options}
   */
   readonly matchOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -8414,7 +8414,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8430,7 +8430,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[]; 
+  private _matchOptions?: string[];
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -8446,7 +8446,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -8465,37 +8465,37 @@ export interface CeCostCategoryRuleRule {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#and CeCostCategory#and}
   */
   readonly and?: CeCostCategoryRuleRuleAnd[] | cdktn.IResolvable;
   /**
   * cost_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#cost_category CeCostCategory#cost_category}
   */
   readonly costCategory?: CeCostCategoryRuleRuleCostCategory;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#dimension CeCostCategory#dimension}
   */
   readonly dimension?: CeCostCategoryRuleRuleDimension;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#not CeCostCategory#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#not CeCostCategory#not}
   */
   readonly not?: CeCostCategoryRuleRuleNot;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#or CeCostCategory#or}
   */
   readonly or?: CeCostCategoryRuleRuleOr[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryRuleRuleTags;
 }
@@ -8724,23 +8724,23 @@ export class CeCostCategoryRuleRuleOutputReference extends cdktn.ComplexObject {
 }
 export interface CeCostCategoryRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#type CeCostCategory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#type CeCostCategory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#value CeCostCategory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#value CeCostCategory#value}
   */
   readonly value?: string;
   /**
   * inherited_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#inherited_value CeCostCategory#inherited_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#inherited_value CeCostCategory#inherited_value}
   */
   readonly inheritedValue?: CeCostCategoryRuleInheritedValue;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#rule CeCostCategory#rule}
   */
   readonly rule?: CeCostCategoryRuleRule;
 }
@@ -8858,7 +8858,7 @@ export class CeCostCategoryRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8874,7 +8874,7 @@ export class CeCostCategoryRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8943,11 +8943,11 @@ export class CeCostCategoryRuleList extends cdktn.ComplexList {
 }
 export interface CeCostCategorySplitChargeRuleParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#type CeCostCategory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#type CeCostCategory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#values CeCostCategory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#values CeCostCategory#values}
   */
   readonly values?: string[];
 }
@@ -9039,7 +9039,7 @@ export class CeCostCategorySplitChargeRuleParameterOutputReference extends cdktn
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9055,7 +9055,7 @@ export class CeCostCategorySplitChargeRuleParameterOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -9092,21 +9092,21 @@ export class CeCostCategorySplitChargeRuleParameterList extends cdktn.ComplexLis
 }
 export interface CeCostCategorySplitChargeRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#method CeCostCategory#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#method CeCostCategory#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#source CeCostCategory#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#source CeCostCategory#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}
   */
   readonly targets: string[];
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
   */
   readonly parameter?: CeCostCategorySplitChargeRuleParameter[] | cdktn.IResolvable;
 }
@@ -9224,7 +9224,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // method - computed: false, optional: false, required: true
-  private _method?: string; 
+  private _method?: string;
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -9237,7 +9237,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -9250,7 +9250,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // targets - computed: false, optional: false, required: true
-  private _targets?: string[]; 
+  private _targets?: string[];
   public get targets() {
     return this.getListAttribute('targets');
   }
@@ -9300,7 +9300,7 @@ export class CeCostCategorySplitChargeRuleList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category aws_ce_cost_category}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category aws_ce_cost_category}
 */
 export class CeCostCategory extends cdktn.TerraformResource {
 
@@ -9316,7 +9316,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CeCostCategory resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CeCostCategory to import
-  * @param importFromId The id of the existing CeCostCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CeCostCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CeCostCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9328,7 +9328,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9339,7 +9339,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ce_cost_category',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9370,7 +9370,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -9391,7 +9391,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // effective_start - computed: true, optional: true, required: false
-  private _effectiveStart?: string; 
+  private _effectiveStart?: string;
   public get effectiveStart() {
     return this.getStringAttribute('effective_start');
   }
@@ -9407,7 +9407,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9423,7 +9423,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9436,7 +9436,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // rule_version - computed: false, optional: false, required: true
-  private _ruleVersion?: string; 
+  private _ruleVersion?: string;
   public get ruleVersion() {
     return this.getStringAttribute('rule_version');
   }
@@ -9449,7 +9449,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -9465,7 +9465,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

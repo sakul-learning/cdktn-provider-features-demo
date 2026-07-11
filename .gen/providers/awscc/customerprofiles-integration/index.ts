@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CustomerprofilesIntegrationConfig extends cdktn.TerraformMetaAr
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#domain_name CustomerprofilesIntegration#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#domain_name CustomerprofilesIntegration#domain_name}
   */
   readonly domainName: string;
   /**
   * A list of unique names for active event triggers associated with the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#event_trigger_names CustomerprofilesIntegration#event_trigger_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#event_trigger_names CustomerprofilesIntegration#event_trigger_names}
   */
   readonly eventTriggerNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#flow_definition CustomerprofilesIntegration#flow_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#flow_definition CustomerprofilesIntegration#flow_definition}
   */
   readonly flowDefinition?: CustomerprofilesIntegrationFlowDefinition;
   /**
   * The name of the ObjectType defined for the 3rd party data in Profile Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object_type_name CustomerprofilesIntegration#object_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object_type_name CustomerprofilesIntegration#object_type_name}
   */
   readonly objectTypeName?: string;
   /**
   * The mapping between 3rd party event types and ObjectType names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object_type_names CustomerprofilesIntegration#object_type_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object_type_names CustomerprofilesIntegration#object_type_names}
   */
   readonly objectTypeNames?: CustomerprofilesIntegrationObjectTypeNames[] | cdktn.IResolvable;
   /**
   * Scope of the integration, such as 'PROFILE' or 'DOMAIN'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#scope CustomerprofilesIntegration#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#scope CustomerprofilesIntegration#scope}
   */
   readonly scope?: string;
   /**
   * The tags (keys and values) associated with the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#tags CustomerprofilesIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#tags CustomerprofilesIntegration#tags}
   */
   readonly tags?: CustomerprofilesIntegrationTags[] | cdktn.IResolvable;
   /**
   * The URI of the S3 bucket or any other type of data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#uri CustomerprofilesIntegration#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#uri CustomerprofilesIntegration#uri}
   */
   readonly uri?: string;
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigIncrementalPullConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#datetime_type_field_name CustomerprofilesIntegration#datetime_type_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#datetime_type_field_name CustomerprofilesIntegration#datetime_type_field_name}
   */
   readonly datetimeTypeFieldName?: string;
 }
@@ -133,7 +133,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigIncrementa
   }
 
   // datetime_type_field_name - computed: true, optional: true, required: false
-  private _datetimeTypeFieldName?: string; 
+  private _datetimeTypeFieldName?: string;
   public get datetimeTypeFieldName() {
     return this.getStringAttribute('datetime_type_field_name');
   }
@@ -150,7 +150,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigIncrementa
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesMarketo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
   */
   readonly object?: string;
 }
@@ -227,7 +227,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string; 
+  private _object?: string;
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -244,11 +244,11 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#bucket_name CustomerprofilesIntegration#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#bucket_name CustomerprofilesIntegration#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#bucket_prefix CustomerprofilesIntegration#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#bucket_prefix CustomerprofilesIntegration#bucket_prefix}
   */
   readonly bucketPrefix?: string;
 }
@@ -338,7 +338,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -354,7 +354,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -371,15 +371,15 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesSalesforce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#enable_dynamic_field_update CustomerprofilesIntegration#enable_dynamic_field_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#enable_dynamic_field_update CustomerprofilesIntegration#enable_dynamic_field_update}
   */
   readonly enableDynamicFieldUpdate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#include_deleted_records CustomerprofilesIntegration#include_deleted_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#include_deleted_records CustomerprofilesIntegration#include_deleted_records}
   */
   readonly includeDeletedRecords?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
   */
   readonly object?: string;
 }
@@ -482,7 +482,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // enable_dynamic_field_update - computed: true, optional: true, required: false
-  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable; 
+  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable;
   public get enableDynamicFieldUpdate() {
     return this.getBooleanAttribute('enable_dynamic_field_update');
   }
@@ -498,7 +498,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // include_deleted_records - computed: true, optional: true, required: false
-  private _includeDeletedRecords?: boolean | cdktn.IResolvable; 
+  private _includeDeletedRecords?: boolean | cdktn.IResolvable;
   public get includeDeletedRecords() {
     return this.getBooleanAttribute('include_deleted_records');
   }
@@ -514,7 +514,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string; 
+  private _object?: string;
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -531,7 +531,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesServiceNow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
   */
   readonly object?: string;
 }
@@ -608,7 +608,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string; 
+  private _object?: string;
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -625,7 +625,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesZendesk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#object CustomerprofilesIntegration#object}
   */
   readonly object?: string;
 }
@@ -702,7 +702,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string; 
+  private _object?: string;
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -719,23 +719,23 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#marketo CustomerprofilesIntegration#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#marketo CustomerprofilesIntegration#marketo}
   */
   readonly marketo?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesMarketo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#s3 CustomerprofilesIntegration#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#s3 CustomerprofilesIntegration#s3}
   */
   readonly s3?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#salesforce CustomerprofilesIntegration#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#salesforce CustomerprofilesIntegration#salesforce}
   */
   readonly salesforce?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesSalesforce;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#service_now CustomerprofilesIntegration#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#service_now CustomerprofilesIntegration#service_now}
   */
   readonly serviceNow?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesServiceNow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#zendesk CustomerprofilesIntegration#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#zendesk CustomerprofilesIntegration#zendesk}
   */
   readonly zendesk?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorPropertiesZendesk;
 }
@@ -945,19 +945,19 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
 }
 export interface CustomerprofilesIntegrationFlowDefinitionSourceFlowConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#connector_profile_name CustomerprofilesIntegration#connector_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#connector_profile_name CustomerprofilesIntegration#connector_profile_name}
   */
   readonly connectorProfileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#connector_type CustomerprofilesIntegration#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#connector_type CustomerprofilesIntegration#connector_type}
   */
   readonly connectorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#incremental_pull_config CustomerprofilesIntegration#incremental_pull_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#incremental_pull_config CustomerprofilesIntegration#incremental_pull_config}
   */
   readonly incrementalPullConfig?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigIncrementalPullConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#source_connector_properties CustomerprofilesIntegration#source_connector_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#source_connector_properties CustomerprofilesIntegration#source_connector_properties}
   */
   readonly sourceConnectorProperties?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConnectorProperties;
 }
@@ -1073,7 +1073,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigOutputRefe
   }
 
   // connector_profile_name - computed: true, optional: true, required: false
-  private _connectorProfileName?: string; 
+  private _connectorProfileName?: string;
   public get connectorProfileName() {
     return this.getStringAttribute('connector_profile_name');
   }
@@ -1089,7 +1089,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigOutputRefe
   }
 
   // connector_type - computed: true, optional: true, required: false
-  private _connectorType?: string; 
+  private _connectorType?: string;
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -1138,23 +1138,23 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigOutputRefe
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#marketo CustomerprofilesIntegration#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#marketo CustomerprofilesIntegration#marketo}
   */
   readonly marketo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#s3 CustomerprofilesIntegration#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#s3 CustomerprofilesIntegration#s3}
   */
   readonly s3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#salesforce CustomerprofilesIntegration#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#salesforce CustomerprofilesIntegration#salesforce}
   */
   readonly salesforce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#service_now CustomerprofilesIntegration#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#service_now CustomerprofilesIntegration#service_now}
   */
   readonly serviceNow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#zendesk CustomerprofilesIntegration#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#zendesk CustomerprofilesIntegration#zendesk}
   */
   readonly zendesk?: string;
 }
@@ -1283,7 +1283,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // marketo - computed: true, optional: true, required: false
-  private _marketo?: string; 
+  private _marketo?: string;
   public get marketo() {
     return this.getStringAttribute('marketo');
   }
@@ -1299,7 +1299,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // s3 - computed: true, optional: true, required: false
-  private _s3?: string; 
+  private _s3?: string;
   public get s3() {
     return this.getStringAttribute('s3');
   }
@@ -1315,7 +1315,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // salesforce - computed: true, optional: true, required: false
-  private _salesforce?: string; 
+  private _salesforce?: string;
   public get salesforce() {
     return this.getStringAttribute('salesforce');
   }
@@ -1331,7 +1331,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // service_now - computed: true, optional: true, required: false
-  private _serviceNow?: string; 
+  private _serviceNow?: string;
   public get serviceNow() {
     return this.getStringAttribute('service_now');
   }
@@ -1347,7 +1347,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // zendesk - computed: true, optional: true, required: false
-  private _zendesk?: string; 
+  private _zendesk?: string;
   public get zendesk() {
     return this.getStringAttribute('zendesk');
   }
@@ -1364,11 +1364,11 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTasksTaskProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#operator_property_key CustomerprofilesIntegration#operator_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#operator_property_key CustomerprofilesIntegration#operator_property_key}
   */
   readonly operatorPropertyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#property CustomerprofilesIntegration#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#property CustomerprofilesIntegration#property}
   */
   readonly property?: string;
 }
@@ -1460,7 +1460,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksTaskPropertiesOutputR
   }
 
   // operator_property_key - computed: true, optional: true, required: false
-  private _operatorPropertyKey?: string; 
+  private _operatorPropertyKey?: string;
   public get operatorPropertyKey() {
     return this.getStringAttribute('operator_property_key');
   }
@@ -1476,7 +1476,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksTaskPropertiesOutputR
   }
 
   // property - computed: true, optional: true, required: false
-  private _property?: string; 
+  private _property?: string;
   public get property() {
     return this.getStringAttribute('property');
   }
@@ -1513,23 +1513,23 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksTaskPropertiesList ex
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#connector_operator CustomerprofilesIntegration#connector_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#connector_operator CustomerprofilesIntegration#connector_operator}
   */
   readonly connectorOperator?: CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#destination_field CustomerprofilesIntegration#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#destination_field CustomerprofilesIntegration#destination_field}
   */
   readonly destinationField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#source_fields CustomerprofilesIntegration#source_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#source_fields CustomerprofilesIntegration#source_fields}
   */
   readonly sourceFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#task_properties CustomerprofilesIntegration#task_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#task_properties CustomerprofilesIntegration#task_properties}
   */
   readonly taskProperties?: CustomerprofilesIntegrationFlowDefinitionTasksTaskProperties[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#task_type CustomerprofilesIntegration#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#task_type CustomerprofilesIntegration#task_type}
   */
   readonly taskType?: string;
 }
@@ -1676,7 +1676,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // destination_field - computed: true, optional: true, required: false
-  private _destinationField?: string; 
+  private _destinationField?: string;
   public get destinationField() {
     return this.getStringAttribute('destination_field');
   }
@@ -1692,7 +1692,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // source_fields - computed: true, optional: true, required: false
-  private _sourceFields?: string[]; 
+  private _sourceFields?: string[];
   public get sourceFields() {
     return this.getListAttribute('source_fields');
   }
@@ -1724,7 +1724,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // task_type - computed: true, optional: true, required: false
-  private _taskType?: string; 
+  private _taskType?: string;
   public get taskType() {
     return this.getStringAttribute('task_type');
   }
@@ -1761,31 +1761,31 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksList extends cdktn.Co
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerPropertiesScheduled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#data_pull_mode CustomerprofilesIntegration#data_pull_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#data_pull_mode CustomerprofilesIntegration#data_pull_mode}
   */
   readonly dataPullMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#first_execution_from CustomerprofilesIntegration#first_execution_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#first_execution_from CustomerprofilesIntegration#first_execution_from}
   */
   readonly firstExecutionFrom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#schedule_end_time CustomerprofilesIntegration#schedule_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#schedule_end_time CustomerprofilesIntegration#schedule_end_time}
   */
   readonly scheduleEndTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#schedule_expression CustomerprofilesIntegration#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#schedule_expression CustomerprofilesIntegration#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#schedule_offset CustomerprofilesIntegration#schedule_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#schedule_offset CustomerprofilesIntegration#schedule_offset}
   */
   readonly scheduleOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#schedule_start_time CustomerprofilesIntegration#schedule_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#schedule_start_time CustomerprofilesIntegration#schedule_start_time}
   */
   readonly scheduleStartTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#timezone CustomerprofilesIntegration#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#timezone CustomerprofilesIntegration#timezone}
   */
   readonly timezone?: string;
 }
@@ -1940,7 +1940,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // data_pull_mode - computed: true, optional: true, required: false
-  private _dataPullMode?: string; 
+  private _dataPullMode?: string;
   public get dataPullMode() {
     return this.getStringAttribute('data_pull_mode');
   }
@@ -1956,7 +1956,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // first_execution_from - computed: true, optional: true, required: false
-  private _firstExecutionFrom?: number; 
+  private _firstExecutionFrom?: number;
   public get firstExecutionFrom() {
     return this.getNumberAttribute('first_execution_from');
   }
@@ -1972,7 +1972,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_end_time - computed: true, optional: true, required: false
-  private _scheduleEndTime?: number; 
+  private _scheduleEndTime?: number;
   public get scheduleEndTime() {
     return this.getNumberAttribute('schedule_end_time');
   }
@@ -1988,7 +1988,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string; 
+  private _scheduleExpression?: string;
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -2004,7 +2004,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_offset - computed: true, optional: true, required: false
-  private _scheduleOffset?: number; 
+  private _scheduleOffset?: number;
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -2020,7 +2020,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_start_time - computed: true, optional: true, required: false
-  private _scheduleStartTime?: number; 
+  private _scheduleStartTime?: number;
   public get scheduleStartTime() {
     return this.getNumberAttribute('schedule_start_time');
   }
@@ -2036,7 +2036,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string; 
+  private _timezone?: string;
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -2053,7 +2053,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#scheduled CustomerprofilesIntegration#scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#scheduled CustomerprofilesIntegration#scheduled}
   */
   readonly scheduled?: CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerPropertiesScheduled;
 }
@@ -2147,11 +2147,11 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
 }
 export interface CustomerprofilesIntegrationFlowDefinitionTriggerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#trigger_properties CustomerprofilesIntegration#trigger_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#trigger_properties CustomerprofilesIntegration#trigger_properties}
   */
   readonly triggerProperties?: CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#trigger_type CustomerprofilesIntegration#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#trigger_type CustomerprofilesIntegration#trigger_type}
   */
   readonly triggerType?: string;
 }
@@ -2257,7 +2257,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigOutputReferen
   }
 
   // trigger_type - computed: true, optional: true, required: false
-  private _triggerType?: string; 
+  private _triggerType?: string;
   public get triggerType() {
     return this.getStringAttribute('trigger_type');
   }
@@ -2274,27 +2274,27 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigOutputReferen
 }
 export interface CustomerprofilesIntegrationFlowDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#description CustomerprofilesIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#description CustomerprofilesIntegration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#flow_name CustomerprofilesIntegration#flow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#flow_name CustomerprofilesIntegration#flow_name}
   */
   readonly flowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#kms_arn CustomerprofilesIntegration#kms_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#kms_arn CustomerprofilesIntegration#kms_arn}
   */
   readonly kmsArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#source_flow_config CustomerprofilesIntegration#source_flow_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#source_flow_config CustomerprofilesIntegration#source_flow_config}
   */
   readonly sourceFlowConfig?: CustomerprofilesIntegrationFlowDefinitionSourceFlowConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#tasks CustomerprofilesIntegration#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#tasks CustomerprofilesIntegration#tasks}
   */
   readonly tasks?: CustomerprofilesIntegrationFlowDefinitionTasks[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#trigger_config CustomerprofilesIntegration#trigger_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#trigger_config CustomerprofilesIntegration#trigger_config}
   */
   readonly triggerConfig?: CustomerprofilesIntegrationFlowDefinitionTriggerConfig;
 }
@@ -2436,7 +2436,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2452,7 +2452,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // flow_name - computed: true, optional: true, required: false
-  private _flowName?: string; 
+  private _flowName?: string;
   public get flowName() {
     return this.getStringAttribute('flow_name');
   }
@@ -2468,7 +2468,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string; 
+  private _kmsArn?: string;
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -2533,11 +2533,11 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
 }
 export interface CustomerprofilesIntegrationObjectTypeNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#key CustomerprofilesIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#key CustomerprofilesIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#value CustomerprofilesIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#value CustomerprofilesIntegration#value}
   */
   readonly value?: string;
 }
@@ -2629,7 +2629,7 @@ export class CustomerprofilesIntegrationObjectTypeNamesOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2645,7 +2645,7 @@ export class CustomerprofilesIntegrationObjectTypeNamesOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2682,11 +2682,11 @@ export class CustomerprofilesIntegrationObjectTypeNamesList extends cdktn.Comple
 }
 export interface CustomerprofilesIntegrationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#key CustomerprofilesIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#key CustomerprofilesIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#value CustomerprofilesIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#value CustomerprofilesIntegration#value}
   */
   readonly value?: string;
 }
@@ -2778,7 +2778,7 @@ export class CustomerprofilesIntegrationTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2794,7 +2794,7 @@ export class CustomerprofilesIntegrationTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2831,7 +2831,7 @@ export class CustomerprofilesIntegrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration}
 */
 export class CustomerprofilesIntegration extends cdktn.TerraformResource {
 
@@ -2847,7 +2847,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesIntegration to import
-  * @param importFromId The id of the existing CustomerprofilesIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2859,7 +2859,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2870,7 +2870,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2900,7 +2900,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -2913,7 +2913,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // event_trigger_names - computed: true, optional: true, required: false
-  private _eventTriggerNames?: string[]; 
+  private _eventTriggerNames?: string[];
   public get eventTriggerNames() {
     return this.getListAttribute('event_trigger_names');
   }
@@ -2955,7 +2955,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: true, optional: true, required: false
-  private _objectTypeName?: string; 
+  private _objectTypeName?: string;
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -2987,7 +2987,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -3019,7 +3019,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SagemakerMlflowAppConfig extends cdktn.TerraformMetaArguments {
   /**
   * The S3 URI for a general purpose bucket to use as the MLflow App artifact store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#artifact_store_uri SagemakerMlflowApp#artifact_store_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#artifact_store_uri SagemakerMlflowApp#artifact_store_uri}
   */
   readonly artifactStoreUri: string;
   /**
   * Whether to enable or disable automatic registration of new MLflow models to the SageMaker Model Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#model_registration_mode SagemakerMlflowApp#model_registration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#model_registration_mode SagemakerMlflowApp#model_registration_mode}
   */
   readonly modelRegistrationMode?: string;
   /**
   * The name of the MLflow App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#name SagemakerMlflowApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#name SagemakerMlflowApp#name}
   */
   readonly name: string;
   /**
   * The Amazon Resource Name (ARN) for an IAM role in your account that the MLflow App uses to access the artifact store in Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#role_arn SagemakerMlflowApp#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#role_arn SagemakerMlflowApp#role_arn}
   */
   readonly roleArn: string;
   /**
   * Tags to associate with the MLflow App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#tags SagemakerMlflowApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#tags SagemakerMlflowApp#tags}
   */
   readonly tags?: SagemakerMlflowAppTags[] | cdktn.IResolvable;
   /**
   * The day and time of the week in Coordinated Universal Time (UTC) 24-hour standard time that weekly maintenance updates are scheduled. For example: Tue:03:30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#weekly_maintenance_window_start SagemakerMlflowApp#weekly_maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#weekly_maintenance_window_start SagemakerMlflowApp#weekly_maintenance_window_start}
   */
   readonly weeklyMaintenanceWindowStart?: string;
 }
 export interface SagemakerMlflowAppTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}
   */
   readonly value?: string;
 }
@@ -142,7 +142,7 @@ export class SagemakerMlflowAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class SagemakerMlflowAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -195,7 +195,7 @@ export class SagemakerMlflowAppTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}
 */
 export class SagemakerMlflowApp extends cdktn.TerraformResource {
 
@@ -211,7 +211,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerMlflowApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerMlflowApp to import
-  * @param importFromId The id of the existing SagemakerMlflowApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerMlflowApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerMlflowApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -223,7 +223,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,7 +234,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_mlflow_app',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -262,7 +262,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // artifact_store_uri - computed: false, optional: false, required: true
-  private _artifactStoreUri?: string; 
+  private _artifactStoreUri?: string;
   public get artifactStoreUri() {
     return this.getStringAttribute('artifact_store_uri');
   }
@@ -300,7 +300,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // model_registration_mode - computed: true, optional: true, required: false
-  private _modelRegistrationMode?: string; 
+  private _modelRegistrationMode?: string;
   public get modelRegistrationMode() {
     return this.getStringAttribute('model_registration_mode');
   }
@@ -316,7 +316,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -329,7 +329,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -363,7 +363,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string; 
+  private _weeklyMaintenanceWindowStart?: string;
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }

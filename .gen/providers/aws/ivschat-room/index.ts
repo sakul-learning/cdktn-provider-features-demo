@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktn from 'cdktn';
 
 export interface IvschatRoomConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#id IvschatRoom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#id IvschatRoom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#logging_configuration_identifiers IvschatRoom#logging_configuration_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#logging_configuration_identifiers IvschatRoom#logging_configuration_identifiers}
   */
   readonly loggingConfigurationIdentifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#maximum_message_length IvschatRoom#maximum_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#maximum_message_length IvschatRoom#maximum_message_length}
   */
   readonly maximumMessageLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#maximum_message_rate_per_second IvschatRoom#maximum_message_rate_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#maximum_message_rate_per_second IvschatRoom#maximum_message_rate_per_second}
   */
   readonly maximumMessageRatePerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#name IvschatRoom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#name IvschatRoom#name}
   */
   readonly name?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#region IvschatRoom#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#region IvschatRoom#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#tags IvschatRoom#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#tags IvschatRoom#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#tags_all IvschatRoom#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#tags_all IvschatRoom#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * message_review_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#message_review_handler IvschatRoom#message_review_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#message_review_handler IvschatRoom#message_review_handler}
   */
   readonly messageReviewHandler?: IvschatRoomMessageReviewHandler;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#timeouts IvschatRoom#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#timeouts IvschatRoom#timeouts}
   */
   readonly timeouts?: IvschatRoomTimeouts;
 }
 export interface IvschatRoomMessageReviewHandler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
   */
   readonly fallbackResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
   */
   readonly uri?: string;
 }
@@ -143,7 +143,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // fallback_result - computed: true, optional: true, required: false
-  private _fallbackResult?: string; 
+  private _fallbackResult?: string;
   public get fallbackResult() {
     return this.getStringAttribute('fallback_result');
   }
@@ -159,7 +159,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -176,15 +176,15 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
 }
 export interface IvschatRoomTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#create IvschatRoom#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#create IvschatRoom#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#delete IvschatRoom#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#delete IvschatRoom#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#update IvschatRoom#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#update IvschatRoom#update}
   */
   readonly update?: string;
 }
@@ -287,7 +287,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -303,7 +303,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -319,7 +319,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -336,7 +336,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room aws_ivschat_room}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room aws_ivschat_room}
 */
 export class IvschatRoom extends cdktn.TerraformResource {
 
@@ -352,7 +352,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvschatRoom resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvschatRoom to import
-  * @param importFromId The id of the existing IvschatRoom that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvschatRoom that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvschatRoom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -364,7 +364,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ivschat_room aws_ivschat_room} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ivschat_room aws_ivschat_room} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,7 +375,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ivschat_room',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -407,7 +407,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -423,7 +423,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // logging_configuration_identifiers - computed: false, optional: true, required: false
-  private _loggingConfigurationIdentifiers?: string[]; 
+  private _loggingConfigurationIdentifiers?: string[];
   public get loggingConfigurationIdentifiers() {
     return this.getListAttribute('logging_configuration_identifiers');
   }
@@ -439,7 +439,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_length - computed: true, optional: true, required: false
-  private _maximumMessageLength?: number; 
+  private _maximumMessageLength?: number;
   public get maximumMessageLength() {
     return this.getNumberAttribute('maximum_message_length');
   }
@@ -455,7 +455,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_rate_per_second - computed: true, optional: true, required: false
-  private _maximumMessageRatePerSecond?: number; 
+  private _maximumMessageRatePerSecond?: number;
   public get maximumMessageRatePerSecond() {
     return this.getNumberAttribute('maximum_message_rate_per_second');
   }
@@ -471,7 +471,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -487,7 +487,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -503,7 +503,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -519,7 +519,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

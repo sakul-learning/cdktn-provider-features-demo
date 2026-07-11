@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface GameliftGameServerGroupConfig extends cdktn.TerraformMetaArgume
   /**
   * Configuration settings to define a scaling policy for the Auto Scaling group that is optimized for game hosting. Updating this game server group property will not take effect for the created EC2 Auto Scaling group, please update the EC2 Auto Scaling group directly after creating the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#auto_scaling_policy GameliftGameServerGroup#auto_scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#auto_scaling_policy GameliftGameServerGroup#auto_scaling_policy}
   */
   readonly autoScalingPolicy?: GameliftGameServerGroupAutoScalingPolicy;
   /**
   * The fallback balancing method to use for the game server group when Spot Instances in a Region become unavailable or are not viable for game hosting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#balancing_strategy GameliftGameServerGroup#balancing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#balancing_strategy GameliftGameServerGroup#balancing_strategy}
   */
   readonly balancingStrategy?: string;
   /**
   * The type of delete to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#delete_option GameliftGameServerGroup#delete_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#delete_option GameliftGameServerGroup#delete_option}
   */
   readonly deleteOption?: string;
   /**
   * An identifier for the new game server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#game_server_group_name GameliftGameServerGroup#game_server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#game_server_group_name GameliftGameServerGroup#game_server_group_name}
   */
   readonly gameServerGroupName: string;
   /**
   * A flag that indicates whether instances in the game server group are protected from early termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#game_server_protection_policy GameliftGameServerGroup#game_server_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#game_server_protection_policy GameliftGameServerGroup#game_server_protection_policy}
   */
   readonly gameServerProtectionPolicy?: string;
   /**
   * A set of EC2 instance types to use when creating instances in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#instance_definitions GameliftGameServerGroup#instance_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#instance_definitions GameliftGameServerGroup#instance_definitions}
   */
   readonly instanceDefinitions: GameliftGameServerGroupInstanceDefinitions[] | cdktn.IResolvable;
   /**
   * The EC2 launch template that contains configuration settings and game server code to be deployed to all instances in the game server group. Updating this game server group property will not take effect for the created EC2 Auto Scaling group, please update the EC2 Auto Scaling group directly after creating the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#launch_template GameliftGameServerGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#launch_template GameliftGameServerGroup#launch_template}
   */
   readonly launchTemplate?: GameliftGameServerGroupLaunchTemplate;
   /**
   * The maximum number of instances allowed in the EC2 Auto Scaling group. Updating this game server group property will not take effect for the created EC2 Auto Scaling group, please update the EC2 Auto Scaling group directly after creating the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#max_size GameliftGameServerGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#max_size GameliftGameServerGroup#max_size}
   */
   readonly maxSize?: number;
   /**
   * The minimum number of instances allowed in the EC2 Auto Scaling group. Updating this game server group property will not take effect for the created EC2 Auto Scaling group, please update the EC2 Auto Scaling group directly after creating the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#min_size GameliftGameServerGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#min_size GameliftGameServerGroup#min_size}
   */
   readonly minSize?: number;
   /**
   * The Amazon Resource Name (ARN) for an IAM role that allows Amazon GameLift to access your EC2 Auto Scaling groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#role_arn GameliftGameServerGroup#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#role_arn GameliftGameServerGroup#role_arn}
   */
   readonly roleArn: string;
   /**
   * A list of labels to assign to the new game server group resource. Updating game server group tags with CloudFormation will not take effect. Please update this property using AWS GameLift APIs instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#tags GameliftGameServerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#tags GameliftGameServerGroup#tags}
   */
   readonly tags?: GameliftGameServerGroupTags[] | cdktn.IResolvable;
   /**
   * A list of virtual private cloud (VPC) subnets to use with instances in the game server group. Updating this game server group property will not take effect for the created EC2 Auto Scaling group, please update the EC2 Auto Scaling group directly after creating the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#vpc_subnets GameliftGameServerGroup#vpc_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#vpc_subnets GameliftGameServerGroup#vpc_subnets}
   */
   readonly vpcSubnets?: string[];
 }
@@ -84,7 +84,7 @@ export interface GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigura
   /**
   * Desired value to use with a game server group target-based scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#target_value GameliftGameServerGroup#target_value}
   */
   readonly targetValue?: number;
 }
@@ -161,7 +161,7 @@ export class GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -180,13 +180,13 @@ export interface GameliftGameServerGroupAutoScalingPolicy {
   /**
   * Length of time, in seconds, it takes for a new instance to start new game server processes and register with GameLift FleetIQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#estimated_instance_warmup GameliftGameServerGroup#estimated_instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#estimated_instance_warmup GameliftGameServerGroup#estimated_instance_warmup}
   */
   readonly estimatedInstanceWarmup?: number;
   /**
   * Settings for a target-based scaling policy applied to Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#target_tracking_configuration GameliftGameServerGroup#target_tracking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#target_tracking_configuration GameliftGameServerGroup#target_tracking_configuration}
   */
   readonly targetTrackingConfiguration?: GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration;
 }
@@ -276,7 +276,7 @@ export class GameliftGameServerGroupAutoScalingPolicyOutputReference extends cdk
   }
 
   // estimated_instance_warmup - computed: true, optional: true, required: false
-  private _estimatedInstanceWarmup?: number; 
+  private _estimatedInstanceWarmup?: number;
   public get estimatedInstanceWarmup() {
     return this.getNumberAttribute('estimated_instance_warmup');
   }
@@ -311,13 +311,13 @@ export interface GameliftGameServerGroupInstanceDefinitions {
   /**
   * An EC2 instance type designation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#instance_type GameliftGameServerGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#instance_type GameliftGameServerGroup#instance_type}
   */
   readonly instanceType: string;
   /**
   * Instance weighting that indicates how much this instance type contributes to the total capacity of a game server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#weighted_capacity GameliftGameServerGroup#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#weighted_capacity GameliftGameServerGroup#weighted_capacity}
   */
   readonly weightedCapacity?: string;
 }
@@ -409,7 +409,7 @@ export class GameliftGameServerGroupInstanceDefinitionsOutputReference extends c
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -422,7 +422,7 @@ export class GameliftGameServerGroupInstanceDefinitionsOutputReference extends c
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: string; 
+  private _weightedCapacity?: string;
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -461,19 +461,19 @@ export interface GameliftGameServerGroupLaunchTemplate {
   /**
   * A unique identifier for an existing EC2 launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#launch_template_id GameliftGameServerGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#launch_template_id GameliftGameServerGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * A readable identifier for an existing EC2 launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#launch_template_name GameliftGameServerGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#launch_template_name GameliftGameServerGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
   * The version of the EC2 launch template to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#version GameliftGameServerGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#version GameliftGameServerGroup#version}
   */
   readonly version?: string;
 }
@@ -576,7 +576,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -592,7 +592,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -608,7 +608,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -627,13 +627,13 @@ export interface GameliftGameServerGroupTags {
   /**
   * The key for a developer-defined key:value pair for tagging an AWS resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#key GameliftGameServerGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#key GameliftGameServerGroup#key}
   */
   readonly key?: string;
   /**
   * The value for a developer-defined key:value pair for tagging an AWS resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#value GameliftGameServerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#value GameliftGameServerGroup#value}
   */
   readonly value?: string;
 }
@@ -725,7 +725,7 @@ export class GameliftGameServerGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -741,7 +741,7 @@ export class GameliftGameServerGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -778,7 +778,7 @@ export class GameliftGameServerGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group}
 */
 export class GameliftGameServerGroup extends cdktn.TerraformResource {
 
@@ -794,7 +794,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GameliftGameServerGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GameliftGameServerGroup to import
-  * @param importFromId The id of the existing GameliftGameServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GameliftGameServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GameliftGameServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -806,7 +806,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -817,7 +817,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_gamelift_game_server_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -867,7 +867,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // balancing_strategy - computed: true, optional: true, required: false
-  private _balancingStrategy?: string; 
+  private _balancingStrategy?: string;
   public get balancingStrategy() {
     return this.getStringAttribute('balancing_strategy');
   }
@@ -883,7 +883,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // delete_option - computed: true, optional: true, required: false
-  private _deleteOption?: string; 
+  private _deleteOption?: string;
   public get deleteOption() {
     return this.getStringAttribute('delete_option');
   }
@@ -904,7 +904,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_group_name - computed: false, optional: false, required: true
-  private _gameServerGroupName?: string; 
+  private _gameServerGroupName?: string;
   public get gameServerGroupName() {
     return this.getStringAttribute('game_server_group_name');
   }
@@ -917,7 +917,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_protection_policy - computed: true, optional: true, required: false
-  private _gameServerProtectionPolicy?: string; 
+  private _gameServerProtectionPolicy?: string;
   public get gameServerProtectionPolicy() {
     return this.getStringAttribute('game_server_protection_policy');
   }
@@ -967,7 +967,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number; 
+  private _maxSize?: number;
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -983,7 +983,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -999,7 +999,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1028,7 +1028,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // vpc_subnets - computed: true, optional: true, required: false
-  private _vpcSubnets?: string[]; 
+  private _vpcSubnets?: string[];
   public get vpcSubnets() {
     return this.getListAttribute('vpc_subnets');
   }

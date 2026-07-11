@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface ElasticacheCacheClusterConfig extends cdktn.TerraformMetaArgume
   /**
   * If you are running Redis engine version 6.0 or later, set this parameter to yes if you want to opt-in to the next minor version upgrade campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#auto_minor_version_upgrade ElasticacheCacheCluster#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#auto_minor_version_upgrade ElasticacheCacheCluster#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the nodes in this Memcached cluster are created in a single Availability Zone or created across multiple Availability Zones in the cluster's region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#az_mode ElasticacheCacheCluster#az_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#az_mode ElasticacheCacheCluster#az_mode}
   */
   readonly azMode?: string;
   /**
   * The compute and memory capacity of the nodes in the node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cache_node_type ElasticacheCacheCluster#cache_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cache_node_type ElasticacheCacheCluster#cache_node_type}
   */
   readonly cacheNodeType: string;
   /**
   * The name of the parameter group to associate with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cache_parameter_group_name ElasticacheCacheCluster#cache_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cache_parameter_group_name ElasticacheCacheCluster#cache_parameter_group_name}
   */
   readonly cacheParameterGroupName?: string;
   /**
   * A list of security group names to associate with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cache_security_group_names ElasticacheCacheCluster#cache_security_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cache_security_group_names ElasticacheCacheCluster#cache_security_group_names}
   */
   readonly cacheSecurityGroupNames?: string[];
   /**
   * The name of the subnet group to be used for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cache_subnet_group_name ElasticacheCacheCluster#cache_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cache_subnet_group_name ElasticacheCacheCluster#cache_subnet_group_name}
   */
   readonly cacheSubnetGroupName?: string;
   /**
   * A name for the cache cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cluster_name ElasticacheCacheCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cluster_name ElasticacheCacheCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The name of the cache engine to be used for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#engine ElasticacheCacheCluster#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#engine ElasticacheCacheCluster#engine}
   */
   readonly engine: string;
   /**
   * The version number of the cache engine to be used for this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#engine_version ElasticacheCacheCluster#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#engine_version ElasticacheCacheCluster#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The Ip Discovery parameter for cachecluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#ip_discovery ElasticacheCacheCluster#ip_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#ip_discovery ElasticacheCacheCluster#ip_discovery}
   */
   readonly ipDiscovery?: string;
   /**
   * Specifies the destination, format and type of the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#log_delivery_configurations ElasticacheCacheCluster#log_delivery_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#log_delivery_configurations ElasticacheCacheCluster#log_delivery_configurations}
   */
   readonly logDeliveryConfigurations?: ElasticacheCacheClusterLogDeliveryConfigurations[] | cdktn.IResolvable;
   /**
   * The network type parameter for cachecluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#network_type ElasticacheCacheCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#network_type ElasticacheCacheCluster#network_type}
   */
   readonly networkType?: string;
   /**
   * The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#notification_topic_arn ElasticacheCacheCluster#notification_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#notification_topic_arn ElasticacheCacheCluster#notification_topic_arn}
   */
   readonly notificationTopicArn?: string;
   /**
   * The number of cache nodes that the cache cluster should have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#num_cache_nodes ElasticacheCacheCluster#num_cache_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#num_cache_nodes ElasticacheCacheCluster#num_cache_nodes}
   */
   readonly numCacheNodes: number;
   /**
   * The port number on which each of the cache nodes accepts connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#port ElasticacheCacheCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#port ElasticacheCacheCluster#port}
   */
   readonly port?: number;
   /**
   * The EC2 Availability Zone in which the cluster is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#preferred_availability_zone ElasticacheCacheCluster#preferred_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#preferred_availability_zone ElasticacheCacheCluster#preferred_availability_zone}
   */
   readonly preferredAvailabilityZone?: string;
   /**
   * A list of the Availability Zones in which cache nodes are created. The order of the zones in the list is not important.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#preferred_availability_zones ElasticacheCacheCluster#preferred_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#preferred_availability_zones ElasticacheCacheCluster#preferred_availability_zones}
   */
   readonly preferredAvailabilityZones?: string[];
   /**
   * Specifies the weekly time range during which maintenance on the cluster is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#preferred_maintenance_window ElasticacheCacheCluster#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#preferred_maintenance_window ElasticacheCacheCluster#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * A single-element string list containing an Amazon Resource Name (ARN) that uniquely identifies a Redis RDB snapshot file stored in Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#snapshot_arns ElasticacheCacheCluster#snapshot_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#snapshot_arns ElasticacheCacheCluster#snapshot_arns}
   */
   readonly snapshotArns?: string[];
   /**
   * The name of a Redis snapshot from which to restore data into the new node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#snapshot_name ElasticacheCacheCluster#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#snapshot_name ElasticacheCacheCluster#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * The number of days for which ElastiCache retains automatic snapshots before deleting them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#snapshot_retention_limit ElasticacheCacheCluster#snapshot_retention_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#snapshot_retention_limit ElasticacheCacheCluster#snapshot_retention_limit}
   */
   readonly snapshotRetentionLimit?: number;
   /**
   * The daily time range (in UTC) during which ElastiCache begins taking a daily snapshot of your node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#snapshot_window ElasticacheCacheCluster#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#snapshot_window ElasticacheCacheCluster#snapshot_window}
   */
   readonly snapshotWindow?: string;
   /**
   * A list of tags to be added to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#tags ElasticacheCacheCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#tags ElasticacheCacheCluster#tags}
   */
   readonly tags?: ElasticacheCacheClusterTags[] | cdktn.IResolvable;
   /**
   * A flag that enables in-transit encryption when set to true. You cannot modify the value of TransitEncryptionEnabled after the cluster is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#transit_encryption_enabled ElasticacheCacheCluster#transit_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#transit_encryption_enabled ElasticacheCacheCluster#transit_encryption_enabled}
   */
   readonly transitEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
   * One or more VPC security groups associated with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#vpc_security_group_ids ElasticacheCacheCluster#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#vpc_security_group_ids ElasticacheCacheCluster#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
 }
@@ -221,7 +221,7 @@ export interface ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDeta
   /**
   * The name of the CloudWatch Logs log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#log_group ElasticacheCacheCluster#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#log_group ElasticacheCacheCluster#log_group}
   */
   readonly logGroup?: string;
 }
@@ -298,7 +298,7 @@ export class ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDetailsC
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -317,7 +317,7 @@ export interface ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDeta
   /**
   * The name of the Kinesis Data Firehose delivery stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#delivery_stream ElasticacheCacheCluster#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#delivery_stream ElasticacheCacheCluster#delivery_stream}
   */
   readonly deliveryStream?: string;
 }
@@ -394,7 +394,7 @@ export class ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDetailsK
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string; 
+  private _deliveryStream?: string;
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -413,13 +413,13 @@ export interface ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDeta
   /**
   * The configuration details of the CloudWatch Logs destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#cloudwatch_logs_details ElasticacheCacheCluster#cloudwatch_logs_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#cloudwatch_logs_details ElasticacheCacheCluster#cloudwatch_logs_details}
   */
   readonly cloudwatchLogsDetails?: ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDetailsCloudwatchLogsDetails;
   /**
   * The configuration details of the Kinesis Data Firehose destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#kinesis_firehose_details ElasticacheCacheCluster#kinesis_firehose_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#kinesis_firehose_details ElasticacheCacheCluster#kinesis_firehose_details}
   */
   readonly kinesisFirehoseDetails?: ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDetailsKinesisFirehoseDetails;
 }
@@ -544,25 +544,25 @@ export interface ElasticacheCacheClusterLogDeliveryConfigurations {
   /**
   * Configuration details of either a CloudWatch Logs destination or Kinesis Data Firehose destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#destination_details ElasticacheCacheCluster#destination_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#destination_details ElasticacheCacheCluster#destination_details}
   */
   readonly destinationDetails?: ElasticacheCacheClusterLogDeliveryConfigurationsDestinationDetails;
   /**
-  * Specify either CloudWatch Logs or Kinesis Data Firehose as the destination type. 
+  * Specify either CloudWatch Logs or Kinesis Data Firehose as the destination type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#destination_type ElasticacheCacheCluster#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#destination_type ElasticacheCacheCluster#destination_type}
   */
   readonly destinationType?: string;
   /**
   * Valid values are either json or text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#log_format ElasticacheCacheCluster#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#log_format ElasticacheCacheCluster#log_format}
   */
   readonly logFormat?: string;
   /**
   * Valid value is either slow-log, which refers to slow-log or engine-log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#log_type ElasticacheCacheCluster#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#log_type ElasticacheCacheCluster#log_type}
   */
   readonly logType?: string;
 }
@@ -696,7 +696,7 @@ export class ElasticacheCacheClusterLogDeliveryConfigurationsOutputReference ext
   }
 
   // destination_type - computed: true, optional: true, required: false
-  private _destinationType?: string; 
+  private _destinationType?: string;
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -712,7 +712,7 @@ export class ElasticacheCacheClusterLogDeliveryConfigurationsOutputReference ext
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string; 
+  private _logFormat?: string;
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -728,7 +728,7 @@ export class ElasticacheCacheClusterLogDeliveryConfigurationsOutputReference ext
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string; 
+  private _logType?: string;
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -824,11 +824,11 @@ export class ElasticacheCacheClusterRedisEndpointOutputReference extends cdktn.C
 }
 export interface ElasticacheCacheClusterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#key ElasticacheCacheCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#key ElasticacheCacheCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#value ElasticacheCacheCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#value ElasticacheCacheCluster#value}
   */
   readonly value?: string;
 }
@@ -920,7 +920,7 @@ export class ElasticacheCacheClusterTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -936,7 +936,7 @@ export class ElasticacheCacheClusterTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -973,7 +973,7 @@ export class ElasticacheCacheClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster}
 */
 export class ElasticacheCacheCluster extends cdktn.TerraformResource {
 
@@ -989,7 +989,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheCacheCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheCacheCluster to import
-  * @param importFromId The id of the existing ElasticacheCacheCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheCacheCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheCacheCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1001,7 +1001,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1012,7 +1012,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_cache_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1054,7 +1054,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   // ==========
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -1070,7 +1070,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // az_mode - computed: true, optional: true, required: false
-  private _azMode?: string; 
+  private _azMode?: string;
   public get azMode() {
     return this.getStringAttribute('az_mode');
   }
@@ -1086,7 +1086,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // cache_node_type - computed: false, optional: false, required: true
-  private _cacheNodeType?: string; 
+  private _cacheNodeType?: string;
   public get cacheNodeType() {
     return this.getStringAttribute('cache_node_type');
   }
@@ -1099,7 +1099,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // cache_parameter_group_name - computed: true, optional: true, required: false
-  private _cacheParameterGroupName?: string; 
+  private _cacheParameterGroupName?: string;
   public get cacheParameterGroupName() {
     return this.getStringAttribute('cache_parameter_group_name');
   }
@@ -1115,7 +1115,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // cache_security_group_names - computed: true, optional: true, required: false
-  private _cacheSecurityGroupNames?: string[]; 
+  private _cacheSecurityGroupNames?: string[];
   public get cacheSecurityGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('cache_security_group_names'));
   }
@@ -1131,7 +1131,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // cache_subnet_group_name - computed: true, optional: true, required: false
-  private _cacheSubnetGroupName?: string; 
+  private _cacheSubnetGroupName?: string;
   public get cacheSubnetGroupName() {
     return this.getStringAttribute('cache_subnet_group_name');
   }
@@ -1147,7 +1147,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1169,7 +1169,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -1182,7 +1182,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -1203,7 +1203,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // ip_discovery - computed: true, optional: true, required: false
-  private _ipDiscovery?: string; 
+  private _ipDiscovery?: string;
   public get ipDiscovery() {
     return this.getStringAttribute('ip_discovery');
   }
@@ -1235,7 +1235,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string; 
+  private _networkType?: string;
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -1251,7 +1251,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // notification_topic_arn - computed: true, optional: true, required: false
-  private _notificationTopicArn?: string; 
+  private _notificationTopicArn?: string;
   public get notificationTopicArn() {
     return this.getStringAttribute('notification_topic_arn');
   }
@@ -1267,7 +1267,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // num_cache_nodes - computed: false, optional: false, required: true
-  private _numCacheNodes?: number; 
+  private _numCacheNodes?: number;
   public get numCacheNodes() {
     return this.getNumberAttribute('num_cache_nodes');
   }
@@ -1280,7 +1280,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1296,7 +1296,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // preferred_availability_zone - computed: true, optional: true, required: false
-  private _preferredAvailabilityZone?: string; 
+  private _preferredAvailabilityZone?: string;
   public get preferredAvailabilityZone() {
     return this.getStringAttribute('preferred_availability_zone');
   }
@@ -1312,7 +1312,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // preferred_availability_zones - computed: true, optional: true, required: false
-  private _preferredAvailabilityZones?: string[]; 
+  private _preferredAvailabilityZones?: string[];
   public get preferredAvailabilityZones() {
     return this.getListAttribute('preferred_availability_zones');
   }
@@ -1328,7 +1328,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1350,7 +1350,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_arns - computed: true, optional: true, required: false
-  private _snapshotArns?: string[]; 
+  private _snapshotArns?: string[];
   public get snapshotArns() {
     return cdktn.Fn.tolist(this.getListAttribute('snapshot_arns'));
   }
@@ -1366,7 +1366,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: true, optional: true, required: false
-  private _snapshotName?: string; 
+  private _snapshotName?: string;
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -1382,7 +1382,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: true, optional: true, required: false
-  private _snapshotRetentionLimit?: number; 
+  private _snapshotRetentionLimit?: number;
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -1398,7 +1398,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_window - computed: true, optional: true, required: false
-  private _snapshotWindow?: string; 
+  private _snapshotWindow?: string;
   public get snapshotWindow() {
     return this.getStringAttribute('snapshot_window');
   }
@@ -1430,7 +1430,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // transit_encryption_enabled - computed: true, optional: true, required: false
-  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable; 
+  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable;
   public get transitEncryptionEnabled() {
     return this.getBooleanAttribute('transit_encryption_enabled');
   }
@@ -1446,7 +1446,7 @@ export class ElasticacheCacheCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

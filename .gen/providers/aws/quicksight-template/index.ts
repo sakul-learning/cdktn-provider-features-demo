@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#id QuicksightTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#id QuicksightTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#name QuicksightTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#name QuicksightTemplate#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#region QuicksightTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#region QuicksightTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#tags QuicksightTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#tags QuicksightTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#tags_all QuicksightTemplate#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#tags_all QuicksightTemplate#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}
   */
   readonly templateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#version_description QuicksightTemplate#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#version_description QuicksightTemplate#version_description}
   */
   readonly versionDescription: string;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#definition QuicksightTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#definition QuicksightTemplate#definition}
   */
   readonly definition?: any;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#permissions QuicksightTemplate#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#permissions QuicksightTemplate#permissions}
   */
   readonly permissions?: QuicksightTemplatePermissions[] | cdktn.IResolvable;
   /**
   * source_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#source_entity QuicksightTemplate#source_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#source_entity QuicksightTemplate#source_entity}
   */
   readonly sourceEntity?: QuicksightTemplateSourceEntity;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#timeouts QuicksightTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#timeouts QuicksightTemplate#timeouts}
   */
   readonly timeouts?: QuicksightTemplateTimeouts;
 }
 export interface QuicksightTemplatePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#actions QuicksightTemplate#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#actions QuicksightTemplate#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#principal QuicksightTemplate#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#principal QuicksightTemplate#principal}
   */
   readonly principal: string;
 }
@@ -167,7 +167,7 @@ export class QuicksightTemplatePermissionsOutputReference extends cdktn.ComplexO
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -180,7 +180,7 @@ export class QuicksightTemplatePermissionsOutputReference extends cdktn.ComplexO
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -214,11 +214,11 @@ export class QuicksightTemplatePermissionsList extends cdktn.ComplexList {
 }
 export interface QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}
   */
   readonly dataSetArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}
   */
   readonly dataSetPlaceholder: string;
 }
@@ -310,7 +310,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutput
   }
 
   // data_set_arn - computed: false, optional: false, required: true
-  private _dataSetArn?: string; 
+  private _dataSetArn?: string;
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -323,7 +323,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutput
   }
 
   // data_set_placeholder - computed: false, optional: false, required: true
-  private _dataSetPlaceholder?: string; 
+  private _dataSetPlaceholder?: string;
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -357,13 +357,13 @@ export class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesList e
 }
 export interface QuicksightTemplateSourceEntitySourceAnalysis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
   */
   readonly arn: string;
   /**
   * data_set_references block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
   */
   readonly dataSetReferences: QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences[] | cdktn.IResolvable;
 }
@@ -443,7 +443,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisOutputReference extends
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -470,7 +470,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisOutputReference extends
 }
 export interface QuicksightTemplateSourceEntitySourceTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
   */
   readonly arn: string;
 }
@@ -537,7 +537,7 @@ export class QuicksightTemplateSourceEntitySourceTemplateOutputReference extends
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -553,13 +553,13 @@ export interface QuicksightTemplateSourceEntity {
   /**
   * source_analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#source_analysis QuicksightTemplate#source_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#source_analysis QuicksightTemplate#source_analysis}
   */
   readonly sourceAnalysis?: QuicksightTemplateSourceEntitySourceAnalysis;
   /**
   * source_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#source_template QuicksightTemplate#source_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#source_template QuicksightTemplate#source_template}
   */
   readonly sourceTemplate?: QuicksightTemplateSourceEntitySourceTemplate;
 }
@@ -672,15 +672,15 @@ export class QuicksightTemplateSourceEntityOutputReference extends cdktn.Complex
 }
 export interface QuicksightTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#create QuicksightTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#create QuicksightTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#delete QuicksightTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#delete QuicksightTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#update QuicksightTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#update QuicksightTemplate#update}
   */
   readonly update?: string;
 }
@@ -783,7 +783,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -799,7 +799,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -815,7 +815,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -832,7 +832,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template aws_quicksight_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template aws_quicksight_template}
 */
 export class QuicksightTemplate extends cdktn.TerraformResource {
 
@@ -848,7 +848,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTemplate to import
-  * @param importFromId The id of the existing QuicksightTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -860,7 +860,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template aws_quicksight_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template aws_quicksight_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -871,7 +871,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_template',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -905,7 +905,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -926,7 +926,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -947,7 +947,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -960,7 +960,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -986,7 +986,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1002,7 +1002,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1018,7 +1018,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // template_id - computed: false, optional: false, required: true
-  private _templateId?: string; 
+  private _templateId?: string;
   public get templateId() {
     return this.getStringAttribute('template_id');
   }
@@ -1031,7 +1031,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // version_description - computed: false, optional: false, required: true
-  private _versionDescription?: string; 
+  private _versionDescription?: string;
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }
@@ -1049,7 +1049,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // definition - computed: false, optional: true, required: false
-  private _definition?: any; 
+  private _definition?: any;
   public get definition() {
     return this.interpolationForAttribute('definition');
   }

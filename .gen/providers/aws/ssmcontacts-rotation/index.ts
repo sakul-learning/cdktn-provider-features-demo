@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface SsmcontactsRotationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#contact_ids SsmcontactsRotation#contact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#contact_ids SsmcontactsRotation#contact_ids}
   */
   readonly contactIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#name SsmcontactsRotation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#name SsmcontactsRotation#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#region SsmcontactsRotation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#region SsmcontactsRotation#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#time_zone_id SsmcontactsRotation#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#time_zone_id SsmcontactsRotation#time_zone_id}
   */
   readonly timeZoneId: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#recurrence SsmcontactsRotation#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#recurrence SsmcontactsRotation#recurrence}
   */
   readonly recurrence?: SsmcontactsRotationRecurrence[] | cdktn.IResolvable;
 }
 export interface SsmcontactsRotationRecurrenceDailySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
   */
   readonly minuteOfHour: number;
 }
@@ -138,7 +138,7 @@ export class SsmcontactsRotationRecurrenceDailySettingsOutputReference extends c
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number; 
+  private _hourOfDay?: number;
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -151,7 +151,7 @@ export class SsmcontactsRotationRecurrenceDailySettingsOutputReference extends c
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number; 
+  private _minuteOfHour?: number;
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -185,11 +185,11 @@ export class SsmcontactsRotationRecurrenceDailySettingsList extends cdktn.Comple
 }
 export interface SsmcontactsRotationRecurrenceMonthlySettingsHandOffTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
   */
   readonly minuteOfHour: number;
 }
@@ -281,7 +281,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsHandOffTimeOutputRefere
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number; 
+  private _hourOfDay?: number;
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -294,7 +294,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsHandOffTimeOutputRefere
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number; 
+  private _minuteOfHour?: number;
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -328,13 +328,13 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsHandOffTimeList extends
 }
 export interface SsmcontactsRotationRecurrenceMonthlySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}
   */
   readonly dayOfMonth: number;
   /**
   * hand_off_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
   */
   readonly handOffTime?: SsmcontactsRotationRecurrenceMonthlySettingsHandOffTime[] | cdktn.IResolvable;
 }
@@ -426,7 +426,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsOutputReference extends
   }
 
   // day_of_month - computed: false, optional: false, required: true
-  private _dayOfMonth?: number; 
+  private _dayOfMonth?: number;
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
   }
@@ -476,11 +476,11 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsList extends cdktn.Comp
 }
 export interface SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
   */
   readonly minuteOfHour: number;
 }
@@ -572,7 +572,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputRe
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number; 
+  private _hourOfDay?: number;
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -585,7 +585,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputRe
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number; 
+  private _minuteOfHour?: number;
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -619,11 +619,11 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndList ext
 }
 export interface SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
   */
   readonly minuteOfHour: number;
 }
@@ -715,7 +715,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStartOutput
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number; 
+  private _hourOfDay?: number;
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -728,7 +728,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStartOutput
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number; 
+  private _minuteOfHour?: number;
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -764,13 +764,13 @@ export interface SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes {
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#end SsmcontactsRotation#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#end SsmcontactsRotation#end}
   */
   readonly end?: SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd[] | cdktn.IResolvable;
   /**
   * start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#start SsmcontactsRotation#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#start SsmcontactsRotation#start}
   */
   readonly start?: SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart[] | cdktn.IResolvable;
 }
@@ -915,13 +915,13 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesList extend
 }
 export interface SsmcontactsRotationRecurrenceShiftCoverages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}
   */
   readonly mapBlockKey: string;
   /**
   * coverage_times block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
   */
   readonly coverageTimes?: SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes[] | cdktn.IResolvable;
 }
@@ -1013,7 +1013,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesOutputReference extends 
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string; 
+  private _mapBlockKey?: string;
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -1063,11 +1063,11 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesList extends cdktn.Compl
 }
 export interface SsmcontactsRotationRecurrenceWeeklySettingsHandOffTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hour_of_day SsmcontactsRotation#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#minute_of_hour SsmcontactsRotation#minute_of_hour}
   */
   readonly minuteOfHour: number;
 }
@@ -1159,7 +1159,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferen
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number; 
+  private _hourOfDay?: number;
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -1172,7 +1172,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferen
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number; 
+  private _minuteOfHour?: number;
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -1206,13 +1206,13 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeList extends 
 }
 export interface SsmcontactsRotationRecurrenceWeeklySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
   * hand_off_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
   */
   readonly handOffTime?: SsmcontactsRotationRecurrenceWeeklySettingsHandOffTime[] | cdktn.IResolvable;
 }
@@ -1304,7 +1304,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsOutputReference extends 
   }
 
   // day_of_week - computed: false, optional: false, required: true
-  private _dayOfWeek?: string; 
+  private _dayOfWeek?: string;
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -1354,35 +1354,35 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsList extends cdktn.Compl
 }
 export interface SsmcontactsRotationRecurrence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#number_of_on_calls SsmcontactsRotation#number_of_on_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#number_of_on_calls SsmcontactsRotation#number_of_on_calls}
   */
   readonly numberOfOnCalls: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#recurrence_multiplier SsmcontactsRotation#recurrence_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#recurrence_multiplier SsmcontactsRotation#recurrence_multiplier}
   */
   readonly recurrenceMultiplier: number;
   /**
   * daily_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#daily_settings SsmcontactsRotation#daily_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#daily_settings SsmcontactsRotation#daily_settings}
   */
   readonly dailySettings?: SsmcontactsRotationRecurrenceDailySettings[] | cdktn.IResolvable;
   /**
   * monthly_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#monthly_settings SsmcontactsRotation#monthly_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#monthly_settings SsmcontactsRotation#monthly_settings}
   */
   readonly monthlySettings?: SsmcontactsRotationRecurrenceMonthlySettings[] | cdktn.IResolvable;
   /**
   * shift_coverages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#shift_coverages SsmcontactsRotation#shift_coverages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#shift_coverages SsmcontactsRotation#shift_coverages}
   */
   readonly shiftCoverages?: SsmcontactsRotationRecurrenceShiftCoverages[] | cdktn.IResolvable;
   /**
   * weekly_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#weekly_settings SsmcontactsRotation#weekly_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#weekly_settings SsmcontactsRotation#weekly_settings}
   */
   readonly weeklySettings?: SsmcontactsRotationRecurrenceWeeklySettings[] | cdktn.IResolvable;
 }
@@ -1526,7 +1526,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // number_of_on_calls - computed: false, optional: false, required: true
-  private _numberOfOnCalls?: number; 
+  private _numberOfOnCalls?: number;
   public get numberOfOnCalls() {
     return this.getNumberAttribute('number_of_on_calls');
   }
@@ -1539,7 +1539,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // recurrence_multiplier - computed: false, optional: false, required: true
-  private _recurrenceMultiplier?: number; 
+  private _recurrenceMultiplier?: number;
   public get recurrenceMultiplier() {
     return this.getNumberAttribute('recurrence_multiplier');
   }
@@ -1637,7 +1637,7 @@ export class SsmcontactsRotationRecurrenceList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}
 */
 export class SsmcontactsRotation extends cdktn.TerraformResource {
 
@@ -1653,7 +1653,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmcontactsRotation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmcontactsRotation to import
-  * @param importFromId The id of the existing SsmcontactsRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmcontactsRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmcontactsRotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1665,7 +1665,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1676,7 +1676,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ssmcontacts_rotation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1705,7 +1705,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // contact_ids - computed: false, optional: false, required: true
-  private _contactIds?: string[]; 
+  private _contactIds?: string[];
   public get contactIds() {
     return this.getListAttribute('contact_ids');
   }
@@ -1723,7 +1723,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1736,7 +1736,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1752,7 +1752,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // start_time - computed: false, optional: true, required: false
-  private _startTime?: string; 
+  private _startTime?: string;
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1768,7 +1768,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1790,7 +1790,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // time_zone_id - computed: false, optional: false, required: true
-  private _timeZoneId?: string; 
+  private _timeZoneId?: string;
   public get timeZoneId() {
     return this.getStringAttribute('time_zone_id');
   }

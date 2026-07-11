@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SsmcontactsContactChannelConfig extends cdktn.TerraformMetaArgu
   /**
   * The details that SSM Incident Manager uses when trying to engage the contact channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#channel_address SsmcontactsContactChannel#channel_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#channel_address SsmcontactsContactChannel#channel_address}
   */
   readonly channelAddress?: string;
   /**
   * The device name. String of 6 to 50 alphabetical, numeric, dash, and underscore characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#channel_name SsmcontactsContactChannel#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#channel_name SsmcontactsContactChannel#channel_name}
   */
   readonly channelName?: string;
   /**
   * Device type, which specify notification channel. Currently supported values: ?SMS?, ?VOICE?, ?EMAIL?, ?CHATBOT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#channel_type SsmcontactsContactChannel#channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#channel_type SsmcontactsContactChannel#channel_type}
   */
   readonly channelType?: string;
   /**
   * ARN of the contact resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#contact_id SsmcontactsContactChannel#contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#contact_id SsmcontactsContactChannel#contact_id}
   */
   readonly contactId?: string;
   /**
   * If you want to activate the channel at a later time, you can choose to defer activation. SSM Incident Manager can't engage your contact channel until it has been activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#defer_activation SsmcontactsContactChannel#defer_activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#defer_activation SsmcontactsContactChannel#defer_activation}
   */
   readonly deferActivation?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel awscc_ssmcontacts_contact_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel awscc_ssmcontacts_contact_channel}
 */
 export class SsmcontactsContactChannel extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmcontactsContactChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmcontactsContactChannel to import
-  * @param importFromId The id of the existing SsmcontactsContactChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmcontactsContactChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmcontactsContactChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmcontacts_contact_channel awscc_ssmcontacts_contact_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_contact_channel awscc_ssmcontacts_contact_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssmcontacts_contact_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_address - computed: true, optional: true, required: false
-  private _channelAddress?: string; 
+  private _channelAddress?: string;
   public get channelAddress() {
     return this.getStringAttribute('channel_address');
   }
@@ -122,7 +122,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -138,7 +138,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_type - computed: true, optional: true, required: false
-  private _channelType?: string; 
+  private _channelType?: string;
   public get channelType() {
     return this.getStringAttribute('channel_type');
   }
@@ -154,7 +154,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // contact_id - computed: true, optional: true, required: false
-  private _contactId?: string; 
+  private _contactId?: string;
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -170,7 +170,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // defer_activation - computed: true, optional: true, required: false
-  private _deferActivation?: boolean | cdktn.IResolvable; 
+  private _deferActivation?: boolean | cdktn.IResolvable;
   public get deferActivation() {
     return this.getBooleanAttribute('defer_activation');
   }

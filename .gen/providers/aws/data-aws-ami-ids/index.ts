@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsAmiIdsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#executable_users DataAwsAmiIds#executable_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#executable_users DataAwsAmiIds#executable_users}
   */
   readonly executableUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#id DataAwsAmiIds#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#id DataAwsAmiIds#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#include_deprecated DataAwsAmiIds#include_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#include_deprecated DataAwsAmiIds#include_deprecated}
   */
   readonly includeDeprecated?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#name_regex DataAwsAmiIds#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#name_regex DataAwsAmiIds#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#owners DataAwsAmiIds#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#owners DataAwsAmiIds#owners}
   */
   readonly owners: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#region DataAwsAmiIds#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#region DataAwsAmiIds#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#sort_ascending DataAwsAmiIds#sort_ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#sort_ascending DataAwsAmiIds#sort_ascending}
   */
   readonly sortAscending?: boolean | cdktn.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#filter DataAwsAmiIds#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#filter DataAwsAmiIds#filter}
   */
   readonly filter?: DataAwsAmiIdsFilter[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#timeouts DataAwsAmiIds#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#timeouts DataAwsAmiIds#timeouts}
   */
   readonly timeouts?: DataAwsAmiIdsTimeouts;
 }
 export interface DataAwsAmiIdsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#name DataAwsAmiIds#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#name DataAwsAmiIds#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#values DataAwsAmiIds#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#values DataAwsAmiIds#values}
   */
   readonly values: string[];
 }
@@ -151,7 +151,7 @@ export class DataAwsAmiIdsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -164,7 +164,7 @@ export class DataAwsAmiIdsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -198,7 +198,7 @@ export class DataAwsAmiIdsFilterList extends cdktn.ComplexList {
 }
 export interface DataAwsAmiIdsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#read DataAwsAmiIds#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#read DataAwsAmiIds#read}
   */
   readonly read?: string;
 }
@@ -275,7 +275,7 @@ export class DataAwsAmiIdsTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string; 
+  private _read?: string;
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -292,7 +292,7 @@ export class DataAwsAmiIdsTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids aws_ami_ids}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids aws_ami_ids}
 */
 export class DataAwsAmiIds extends cdktn.TerraformDataSource {
 
@@ -308,7 +308,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsAmiIds resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsAmiIds to import
-  * @param importFromId The id of the existing DataAwsAmiIds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsAmiIds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsAmiIds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -320,7 +320,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ami_ids aws_ami_ids} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ami_ids aws_ami_ids} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,7 +331,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_ami_ids',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -357,7 +357,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   // ==========
 
   // executable_users - computed: false, optional: true, required: false
-  private _executableUsers?: string[]; 
+  private _executableUsers?: string[];
   public get executableUsers() {
     return this.getListAttribute('executable_users');
   }
@@ -373,7 +373,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -394,7 +394,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // include_deprecated - computed: false, optional: true, required: false
-  private _includeDeprecated?: boolean | cdktn.IResolvable; 
+  private _includeDeprecated?: boolean | cdktn.IResolvable;
   public get includeDeprecated() {
     return this.getBooleanAttribute('include_deprecated');
   }
@@ -410,7 +410,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // name_regex - computed: false, optional: true, required: false
-  private _nameRegex?: string; 
+  private _nameRegex?: string;
   public get nameRegex() {
     return this.getStringAttribute('name_regex');
   }
@@ -426,7 +426,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // owners - computed: false, optional: false, required: true
-  private _owners?: string[]; 
+  private _owners?: string[];
   public get owners() {
     return this.getListAttribute('owners');
   }
@@ -439,7 +439,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -455,7 +455,7 @@ export class DataAwsAmiIds extends cdktn.TerraformDataSource {
   }
 
   // sort_ascending - computed: false, optional: true, required: false
-  private _sortAscending?: boolean | cdktn.IResolvable; 
+  private _sortAscending?: boolean | cdktn.IResolvable;
   public get sortAscending() {
     return this.getBooleanAttribute('sort_ascending');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktn from 'cdktn';
 
 export interface SesEventDestinationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#configuration_set_name SesEventDestination#configuration_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#configuration_set_name SesEventDestination#configuration_set_name}
   */
   readonly configurationSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#enabled SesEventDestination#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#enabled SesEventDestination#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#id SesEventDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#id SesEventDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#matching_types SesEventDestination#matching_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#matching_types SesEventDestination#matching_types}
   */
   readonly matchingTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#name SesEventDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#name SesEventDestination#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#region SesEventDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#region SesEventDestination#region}
   */
   readonly region?: string;
   /**
   * cloudwatch_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#cloudwatch_destination SesEventDestination#cloudwatch_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#cloudwatch_destination SesEventDestination#cloudwatch_destination}
   */
   readonly cloudwatchDestination?: SesEventDestinationCloudwatchDestination[] | cdktn.IResolvable;
   /**
   * kinesis_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#kinesis_destination SesEventDestination#kinesis_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#kinesis_destination SesEventDestination#kinesis_destination}
   */
   readonly kinesisDestination?: SesEventDestinationKinesisDestination;
   /**
   * sns_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#sns_destination SesEventDestination#sns_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#sns_destination SesEventDestination#sns_destination}
   */
   readonly snsDestination?: SesEventDestinationSnsDestination;
 }
 export interface SesEventDestinationCloudwatchDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#default_value SesEventDestination#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#default_value SesEventDestination#default_value}
   */
   readonly defaultValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#dimension_name SesEventDestination#dimension_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#dimension_name SesEventDestination#dimension_name}
   */
   readonly dimensionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#value_source SesEventDestination#value_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#value_source SesEventDestination#value_source}
   */
   readonly valueSource: string;
 }
@@ -170,7 +170,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // default_value - computed: false, optional: false, required: true
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -183,7 +183,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // dimension_name - computed: false, optional: false, required: true
-  private _dimensionName?: string; 
+  private _dimensionName?: string;
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -196,7 +196,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // value_source - computed: false, optional: false, required: true
-  private _valueSource?: string; 
+  private _valueSource?: string;
   public get valueSource() {
     return this.getStringAttribute('value_source');
   }
@@ -230,11 +230,11 @@ export class SesEventDestinationCloudwatchDestinationList extends cdktn.ComplexL
 }
 export interface SesEventDestinationKinesisDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#role_arn SesEventDestination#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#stream_arn SesEventDestination#stream_arn}
   */
   readonly streamArn: string;
 }
@@ -314,7 +314,7 @@ export class SesEventDestinationKinesisDestinationOutputReference extends cdktn.
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -327,7 +327,7 @@ export class SesEventDestinationKinesisDestinationOutputReference extends cdktn.
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -341,7 +341,7 @@ export class SesEventDestinationKinesisDestinationOutputReference extends cdktn.
 }
 export interface SesEventDestinationSnsDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#topic_arn SesEventDestination#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#topic_arn SesEventDestination#topic_arn}
   */
   readonly topicArn: string;
 }
@@ -408,7 +408,7 @@ export class SesEventDestinationSnsDestinationOutputReference extends cdktn.Comp
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string; 
+  private _topicArn?: string;
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -422,7 +422,7 @@ export class SesEventDestinationSnsDestinationOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination aws_ses_event_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination aws_ses_event_destination}
 */
 export class SesEventDestination extends cdktn.TerraformResource {
 
@@ -438,7 +438,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesEventDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesEventDestination to import
-  * @param importFromId The id of the existing SesEventDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesEventDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesEventDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -450,7 +450,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,7 +461,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ses_event_destination',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -492,7 +492,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string; 
+  private _configurationSetName?: string;
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -505,7 +505,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -521,7 +521,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -537,7 +537,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // matching_types - computed: false, optional: false, required: true
-  private _matchingTypes?: string[]; 
+  private _matchingTypes?: string[];
   public get matchingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('matching_types'));
   }
@@ -550,7 +550,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -563,7 +563,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

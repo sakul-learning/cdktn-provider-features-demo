@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BedrockEnforcedGuardrailConfigurationConfig extends cdktn.Terra
   /**
   * Identifier for the guardrail, could be the ID or the ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_identifier BedrockEnforcedGuardrailConfiguration#guardrail_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_identifier BedrockEnforcedGuardrailConfiguration#guardrail_identifier}
   */
   readonly guardrailIdentifier: string;
   /**
   * Numerical guardrail version (not DRAFT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_version BedrockEnforcedGuardrailConfiguration#guardrail_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_version BedrockEnforcedGuardrailConfiguration#guardrail_version}
   */
   readonly guardrailVersion: string;
   /**
   * Model-specific information for the enforced guardrail configuration. If not present, the configuration is enforced on all models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#model_enforcement BedrockEnforcedGuardrailConfiguration#model_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#model_enforcement BedrockEnforcedGuardrailConfiguration#model_enforcement}
   */
   readonly modelEnforcement?: BedrockEnforcedGuardrailConfigurationModelEnforcement;
   /**
   * Selective content guarding controls for enforced guardrails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#selective_content_guarding BedrockEnforcedGuardrailConfiguration#selective_content_guarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#selective_content_guarding BedrockEnforcedGuardrailConfiguration#selective_content_guarding}
   */
   readonly selectiveContentGuarding?: BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding;
 }
@@ -36,13 +36,13 @@ export interface BedrockEnforcedGuardrailConfigurationModelEnforcement {
   /**
   * Models to exclude from enforcement. If a model is in both lists, it is excluded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#excluded_models BedrockEnforcedGuardrailConfiguration#excluded_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#excluded_models BedrockEnforcedGuardrailConfiguration#excluded_models}
   */
   readonly excludedModels?: string[];
   /**
   * Models to enforce the guardrail on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#included_models BedrockEnforcedGuardrailConfiguration#included_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#included_models BedrockEnforcedGuardrailConfiguration#included_models}
   */
   readonly includedModels?: string[];
 }
@@ -132,7 +132,7 @@ export class BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReferenc
   }
 
   // excluded_models - computed: true, optional: true, required: false
-  private _excludedModels?: string[]; 
+  private _excludedModels?: string[];
   public get excludedModels() {
     return this.getListAttribute('excluded_models');
   }
@@ -148,7 +148,7 @@ export class BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReferenc
   }
 
   // included_models - computed: true, optional: true, required: false
-  private _includedModels?: string[]; 
+  private _includedModels?: string[];
   public get includedModels() {
     return this.getListAttribute('included_models');
   }
@@ -167,13 +167,13 @@ export interface BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding {
   /**
   * Selective guarding mode for user messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#messages BedrockEnforcedGuardrailConfiguration#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#messages BedrockEnforcedGuardrailConfiguration#messages}
   */
   readonly messages?: string;
   /**
   * Selective guarding mode for system prompts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#system BedrockEnforcedGuardrailConfiguration#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#system BedrockEnforcedGuardrailConfiguration#system}
   */
   readonly systemAttribute?: string;
 }
@@ -263,7 +263,7 @@ export class BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutput
   }
 
   // messages - computed: true, optional: true, required: false
-  private _messages?: string; 
+  private _messages?: string;
   public get messages() {
     return this.getStringAttribute('messages');
   }
@@ -279,7 +279,7 @@ export class BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutput
   }
 
   // system - computed: true, optional: true, required: false
-  private _system?: string; 
+  private _system?: string;
   public get systemAttribute() {
     return this.getStringAttribute('system');
   }
@@ -296,7 +296,7 @@ export class BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}
 */
 export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResource {
 
@@ -312,7 +312,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   * Generates CDKTN code for importing a BedrockEnforcedGuardrailConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockEnforcedGuardrailConfiguration to import
-  * @param importFromId The id of the existing BedrockEnforcedGuardrailConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockEnforcedGuardrailConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockEnforcedGuardrailConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -324,7 +324,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,7 +335,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
       terraformResourceType: 'awscc_bedrock_enforced_guardrail_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -381,7 +381,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   }
 
   // guardrail_identifier - computed: false, optional: false, required: true
-  private _guardrailIdentifier?: string; 
+  private _guardrailIdentifier?: string;
   public get guardrailIdentifier() {
     return this.getStringAttribute('guardrail_identifier');
   }
@@ -394,7 +394,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   }
 
   // guardrail_version - computed: false, optional: false, required: true
-  private _guardrailVersion?: string; 
+  private _guardrailVersion?: string;
   public get guardrailVersion() {
     return this.getStringAttribute('guardrail_version');
   }

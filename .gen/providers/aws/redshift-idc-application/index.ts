@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktn from 'cdktn';
 
 export interface RedshiftIdcApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#application_type RedshiftIdcApplication#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#application_type RedshiftIdcApplication#application_type}
   */
   readonly applicationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#iam_role_arn RedshiftIdcApplication#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#iam_role_arn RedshiftIdcApplication#iam_role_arn}
   */
   readonly iamRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#idc_display_name RedshiftIdcApplication#idc_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#idc_display_name RedshiftIdcApplication#idc_display_name}
   */
   readonly idcDisplayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#idc_instance_arn RedshiftIdcApplication#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#idc_instance_arn RedshiftIdcApplication#idc_instance_arn}
   */
   readonly idcInstanceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#identity_namespace RedshiftIdcApplication#identity_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#identity_namespace RedshiftIdcApplication#identity_namespace}
   */
   readonly identityNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#redshift_idc_application_name RedshiftIdcApplication#redshift_idc_application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#redshift_idc_application_name RedshiftIdcApplication#redshift_idc_application_name}
   */
   readonly redshiftIdcApplicationName: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#region RedshiftIdcApplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#region RedshiftIdcApplication#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#tags RedshiftIdcApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#tags RedshiftIdcApplication#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * authorized_token_issuer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorized_token_issuer RedshiftIdcApplication#authorized_token_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#authorized_token_issuer RedshiftIdcApplication#authorized_token_issuer}
   */
   readonly authorizedTokenIssuer?: RedshiftIdcApplicationAuthorizedTokenIssuer[] | cdktn.IResolvable;
   /**
   * service_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#service_integration RedshiftIdcApplication#service_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#service_integration RedshiftIdcApplication#service_integration}
   */
   readonly serviceIntegration?: RedshiftIdcApplicationServiceIntegration[] | cdktn.IResolvable;
 }
 export interface RedshiftIdcApplicationAuthorizedTokenIssuer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorized_audiences_list RedshiftIdcApplication#authorized_audiences_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#authorized_audiences_list RedshiftIdcApplication#authorized_audiences_list}
   */
   readonly authorizedAudiencesList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#trusted_token_issuer_arn RedshiftIdcApplication#trusted_token_issuer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#trusted_token_issuer_arn RedshiftIdcApplication#trusted_token_issuer_arn}
   */
   readonly trustedTokenIssuerArn?: string;
 }
@@ -152,7 +152,7 @@ export class RedshiftIdcApplicationAuthorizedTokenIssuerOutputReference extends 
   }
 
   // authorized_audiences_list - computed: false, optional: true, required: false
-  private _authorizedAudiencesList?: string[]; 
+  private _authorizedAudiencesList?: string[];
   public get authorizedAudiencesList() {
     return this.getListAttribute('authorized_audiences_list');
   }
@@ -168,7 +168,7 @@ export class RedshiftIdcApplicationAuthorizedTokenIssuerOutputReference extends 
   }
 
   // trusted_token_issuer_arn - computed: false, optional: true, required: false
-  private _trustedTokenIssuerArn?: string; 
+  private _trustedTokenIssuerArn?: string;
   public get trustedTokenIssuerArn() {
     return this.getStringAttribute('trusted_token_issuer_arn');
   }
@@ -205,7 +205,7 @@ export class RedshiftIdcApplicationAuthorizedTokenIssuerList extends cdktn.Compl
 }
 export interface RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
   */
   readonly authorization: string;
 }
@@ -284,7 +284,7 @@ export class RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQ
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string; 
+  private _authorization?: string;
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -320,7 +320,7 @@ export interface RedshiftIdcApplicationServiceIntegrationLakeFormation {
   /**
   * lake_formation_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#lake_formation_query RedshiftIdcApplication#lake_formation_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#lake_formation_query RedshiftIdcApplication#lake_formation_query}
   */
   readonly lakeFormationQuery?: RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery[] | cdktn.IResolvable;
 }
@@ -436,7 +436,7 @@ export class RedshiftIdcApplicationServiceIntegrationLakeFormationList extends c
 }
 export interface RedshiftIdcApplicationServiceIntegrationRedshiftConnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
   */
   readonly authorization: string;
 }
@@ -515,7 +515,7 @@ export class RedshiftIdcApplicationServiceIntegrationRedshiftConnectOutputRefere
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string; 
+  private _authorization?: string;
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -551,7 +551,7 @@ export interface RedshiftIdcApplicationServiceIntegrationRedshift {
   /**
   * connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
   */
   readonly connect?: RedshiftIdcApplicationServiceIntegrationRedshiftConnect[] | cdktn.IResolvable;
 }
@@ -667,7 +667,7 @@ export class RedshiftIdcApplicationServiceIntegrationRedshiftList extends cdktn.
 }
 export interface RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}
   */
   readonly authorization: string;
 }
@@ -746,7 +746,7 @@ export class RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAcce
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string; 
+  private _authorization?: string;
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -782,7 +782,7 @@ export interface RedshiftIdcApplicationServiceIntegrationS3AccessGrants {
   /**
   * read_write_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#read_write_access RedshiftIdcApplication#read_write_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#read_write_access RedshiftIdcApplication#read_write_access}
   */
   readonly readWriteAccess?: RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess[] | cdktn.IResolvable;
 }
@@ -900,19 +900,19 @@ export interface RedshiftIdcApplicationServiceIntegration {
   /**
   * lake_formation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#lake_formation RedshiftIdcApplication#lake_formation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#lake_formation RedshiftIdcApplication#lake_formation}
   */
   readonly lakeFormation?: RedshiftIdcApplicationServiceIntegrationLakeFormation[] | cdktn.IResolvable;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#redshift RedshiftIdcApplication#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#redshift RedshiftIdcApplication#redshift}
   */
   readonly redshift?: RedshiftIdcApplicationServiceIntegrationRedshift[] | cdktn.IResolvable;
   /**
   * s3_access_grants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#s3_access_grants RedshiftIdcApplication#s3_access_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#s3_access_grants RedshiftIdcApplication#s3_access_grants}
   */
   readonly s3AccessGrants?: RedshiftIdcApplicationServiceIntegrationS3AccessGrants[] | cdktn.IResolvable;
 }
@@ -1086,7 +1086,7 @@ export class RedshiftIdcApplicationServiceIntegrationList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application aws_redshift_idc_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application aws_redshift_idc_application}
 */
 export class RedshiftIdcApplication extends cdktn.TerraformResource {
 
@@ -1102,7 +1102,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftIdcApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftIdcApplication to import
-  * @param importFromId The id of the existing RedshiftIdcApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftIdcApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftIdcApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1114,7 +1114,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1125,7 +1125,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
       terraformResourceType: 'aws_redshift_idc_application',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1152,7 +1152,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_type - computed: true, optional: true, required: false
-  private _applicationType?: string; 
+  private _applicationType?: string;
   public get applicationType() {
     return this.getStringAttribute('application_type');
   }
@@ -1168,7 +1168,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1181,7 +1181,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // idc_display_name - computed: false, optional: false, required: true
-  private _idcDisplayName?: string; 
+  private _idcDisplayName?: string;
   public get idcDisplayName() {
     return this.getStringAttribute('idc_display_name');
   }
@@ -1194,7 +1194,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // idc_instance_arn - computed: false, optional: false, required: true
-  private _idcInstanceArn?: string; 
+  private _idcInstanceArn?: string;
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -1212,7 +1212,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // identity_namespace - computed: true, optional: true, required: false
-  private _identityNamespace?: string; 
+  private _identityNamespace?: string;
   public get identityNamespace() {
     return this.getStringAttribute('identity_namespace');
   }
@@ -1233,7 +1233,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // redshift_idc_application_name - computed: false, optional: false, required: true
-  private _redshiftIdcApplicationName?: string; 
+  private _redshiftIdcApplicationName?: string;
   public get redshiftIdcApplicationName() {
     return this.getStringAttribute('redshift_idc_application_name');
   }
@@ -1246,7 +1246,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1262,7 +1262,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface LicensemanagerLicenseConfig extends cdktn.TerraformMetaArgument
   /**
   * Beneficiary of the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#beneficiary LicensemanagerLicense#beneficiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#beneficiary LicensemanagerLicense#beneficiary}
   */
   readonly beneficiary: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#consumption_configuration LicensemanagerLicense#consumption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#consumption_configuration LicensemanagerLicense#consumption_configuration}
   */
   readonly consumptionConfiguration: LicensemanagerLicenseConsumptionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#entitlements LicensemanagerLicense#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#entitlements LicensemanagerLicense#entitlements}
   */
   readonly entitlements: LicensemanagerLicenseEntitlements[] | cdktn.IResolvable;
   /**
   * Home region for the created license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#home_region LicensemanagerLicense#home_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#home_region LicensemanagerLicense#home_region}
   */
   readonly homeRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#issuer LicensemanagerLicense#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#issuer LicensemanagerLicense#issuer}
   */
   readonly issuer: LicensemanagerLicenseIssuer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#license_metadata LicensemanagerLicense#license_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#license_metadata LicensemanagerLicense#license_metadata}
   */
   readonly licenseMetadata?: LicensemanagerLicenseLicenseMetadata[] | cdktn.IResolvable;
   /**
   * Name for the created license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#license_name LicensemanagerLicense#license_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#license_name LicensemanagerLicense#license_name}
   */
   readonly licenseName: string;
   /**
   * Product name for the created license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#product_name LicensemanagerLicense#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#product_name LicensemanagerLicense#product_name}
   */
   readonly productName: string;
   /**
   * ProductSKU of the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#product_sku LicensemanagerLicense#product_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#product_sku LicensemanagerLicense#product_sku}
   */
   readonly productSku: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#status LicensemanagerLicense#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#status LicensemanagerLicense#status}
   */
   readonly status?: string;
   /**
   * A list of tags to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#tags LicensemanagerLicense#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#tags LicensemanagerLicense#tags}
   */
   readonly tags?: LicensemanagerLicenseTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#validity LicensemanagerLicense#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#validity LicensemanagerLicense#validity}
   */
   readonly validity: LicensemanagerLicenseValidity;
 }
 export interface LicensemanagerLicenseConsumptionConfigurationBorrowConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#allow_early_check_in LicensemanagerLicense#allow_early_check_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#allow_early_check_in LicensemanagerLicense#allow_early_check_in}
   */
   readonly allowEarlyCheckIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#max_time_to_live_in_minutes LicensemanagerLicense#max_time_to_live_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#max_time_to_live_in_minutes LicensemanagerLicense#max_time_to_live_in_minutes}
   */
   readonly maxTimeToLiveInMinutes?: number;
 }
@@ -164,7 +164,7 @@ export class LicensemanagerLicenseConsumptionConfigurationBorrowConfigurationOut
   }
 
   // allow_early_check_in - computed: true, optional: true, required: false
-  private _allowEarlyCheckIn?: boolean | cdktn.IResolvable; 
+  private _allowEarlyCheckIn?: boolean | cdktn.IResolvable;
   public get allowEarlyCheckIn() {
     return this.getBooleanAttribute('allow_early_check_in');
   }
@@ -180,7 +180,7 @@ export class LicensemanagerLicenseConsumptionConfigurationBorrowConfigurationOut
   }
 
   // max_time_to_live_in_minutes - computed: true, optional: true, required: false
-  private _maxTimeToLiveInMinutes?: number; 
+  private _maxTimeToLiveInMinutes?: number;
   public get maxTimeToLiveInMinutes() {
     return this.getNumberAttribute('max_time_to_live_in_minutes');
   }
@@ -197,7 +197,7 @@ export class LicensemanagerLicenseConsumptionConfigurationBorrowConfigurationOut
 }
 export interface LicensemanagerLicenseConsumptionConfigurationProvisionalConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#max_time_to_live_in_minutes LicensemanagerLicense#max_time_to_live_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#max_time_to_live_in_minutes LicensemanagerLicense#max_time_to_live_in_minutes}
   */
   readonly maxTimeToLiveInMinutes?: number;
 }
@@ -274,7 +274,7 @@ export class LicensemanagerLicenseConsumptionConfigurationProvisionalConfigurati
   }
 
   // max_time_to_live_in_minutes - computed: true, optional: true, required: false
-  private _maxTimeToLiveInMinutes?: number; 
+  private _maxTimeToLiveInMinutes?: number;
   public get maxTimeToLiveInMinutes() {
     return this.getNumberAttribute('max_time_to_live_in_minutes');
   }
@@ -291,15 +291,15 @@ export class LicensemanagerLicenseConsumptionConfigurationProvisionalConfigurati
 }
 export interface LicensemanagerLicenseConsumptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#borrow_configuration LicensemanagerLicense#borrow_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#borrow_configuration LicensemanagerLicense#borrow_configuration}
   */
   readonly borrowConfiguration?: LicensemanagerLicenseConsumptionConfigurationBorrowConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#provisional_configuration LicensemanagerLicense#provisional_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#provisional_configuration LicensemanagerLicense#provisional_configuration}
   */
   readonly provisionalConfiguration?: LicensemanagerLicenseConsumptionConfigurationProvisionalConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#renew_type LicensemanagerLicense#renew_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#renew_type LicensemanagerLicense#renew_type}
   */
   readonly renewType?: string;
 }
@@ -434,7 +434,7 @@ export class LicensemanagerLicenseConsumptionConfigurationOutputReference extend
   }
 
   // renew_type - computed: true, optional: true, required: false
-  private _renewType?: string; 
+  private _renewType?: string;
   public get renewType() {
     return this.getStringAttribute('renew_type');
   }
@@ -451,27 +451,27 @@ export class LicensemanagerLicenseConsumptionConfigurationOutputReference extend
 }
 export interface LicensemanagerLicenseEntitlements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#allow_check_in LicensemanagerLicense#allow_check_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#allow_check_in LicensemanagerLicense#allow_check_in}
   */
   readonly allowCheckIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#max_count LicensemanagerLicense#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#max_count LicensemanagerLicense#max_count}
   */
   readonly maxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#overage LicensemanagerLicense#overage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#overage LicensemanagerLicense#overage}
   */
   readonly overage?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#unit LicensemanagerLicense#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#unit LicensemanagerLicense#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
   */
   readonly value?: string;
 }
@@ -615,7 +615,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // allow_check_in - computed: true, optional: true, required: false
-  private _allowCheckIn?: boolean | cdktn.IResolvable; 
+  private _allowCheckIn?: boolean | cdktn.IResolvable;
   public get allowCheckIn() {
     return this.getBooleanAttribute('allow_check_in');
   }
@@ -631,7 +631,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // max_count - computed: true, optional: true, required: false
-  private _maxCount?: number; 
+  private _maxCount?: number;
   public get maxCount() {
     return this.getNumberAttribute('max_count');
   }
@@ -647,7 +647,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -660,7 +660,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // overage - computed: true, optional: true, required: false
-  private _overage?: boolean | cdktn.IResolvable; 
+  private _overage?: boolean | cdktn.IResolvable;
   public get overage() {
     return this.getBooleanAttribute('overage');
   }
@@ -676,7 +676,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -689,7 +689,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -726,11 +726,11 @@ export class LicensemanagerLicenseEntitlementsList extends cdktn.ComplexList {
 }
 export interface LicensemanagerLicenseIssuer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#sign_key LicensemanagerLicense#sign_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#sign_key LicensemanagerLicense#sign_key}
   */
   readonly signKey?: string;
 }
@@ -820,7 +820,7 @@ export class LicensemanagerLicenseIssuerOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -833,7 +833,7 @@ export class LicensemanagerLicenseIssuerOutputReference extends cdktn.ComplexObj
   }
 
   // sign_key - computed: true, optional: true, required: false
-  private _signKey?: string; 
+  private _signKey?: string;
   public get signKey() {
     return this.getStringAttribute('sign_key');
   }
@@ -850,11 +850,11 @@ export class LicensemanagerLicenseIssuerOutputReference extends cdktn.ComplexObj
 }
 export interface LicensemanagerLicenseLicenseMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#name LicensemanagerLicense#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
   */
   readonly value?: string;
 }
@@ -946,7 +946,7 @@ export class LicensemanagerLicenseLicenseMetadataOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -962,7 +962,7 @@ export class LicensemanagerLicenseLicenseMetadataOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1001,13 +1001,13 @@ export interface LicensemanagerLicenseTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#key LicensemanagerLicense#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#key LicensemanagerLicense#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#value LicensemanagerLicense#value}
   */
   readonly value?: string;
 }
@@ -1099,7 +1099,7 @@ export class LicensemanagerLicenseTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1115,7 +1115,7 @@ export class LicensemanagerLicenseTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1154,13 +1154,13 @@ export interface LicensemanagerLicenseValidity {
   /**
   * Validity begin date for the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#begin LicensemanagerLicense#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#begin LicensemanagerLicense#begin}
   */
   readonly begin: string;
   /**
   * Validity begin date for the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#end LicensemanagerLicense#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#end LicensemanagerLicense#end}
   */
   readonly end: string;
 }
@@ -1250,7 +1250,7 @@ export class LicensemanagerLicenseValidityOutputReference extends cdktn.ComplexO
   }
 
   // begin - computed: false, optional: false, required: true
-  private _begin?: string; 
+  private _begin?: string;
   public get begin() {
     return this.getStringAttribute('begin');
   }
@@ -1263,7 +1263,7 @@ export class LicensemanagerLicenseValidityOutputReference extends cdktn.ComplexO
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1277,7 +1277,7 @@ export class LicensemanagerLicenseValidityOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license awscc_licensemanager_license}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license awscc_licensemanager_license}
 */
 export class LicensemanagerLicense extends cdktn.TerraformResource {
 
@@ -1293,7 +1293,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LicensemanagerLicense resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensemanagerLicense to import
-  * @param importFromId The id of the existing LicensemanagerLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensemanagerLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensemanagerLicense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1305,7 +1305,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1316,7 +1316,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_licensemanager_license',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1345,7 +1345,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   // ==========
 
   // beneficiary - computed: false, optional: false, required: true
-  private _beneficiary?: string; 
+  private _beneficiary?: string;
   public get beneficiary() {
     return this.getStringAttribute('beneficiary');
   }
@@ -1384,7 +1384,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // home_region - computed: false, optional: false, required: true
-  private _homeRegion?: string; 
+  private _homeRegion?: string;
   public get homeRegion() {
     return this.getStringAttribute('home_region');
   }
@@ -1436,7 +1436,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // license_name - computed: false, optional: false, required: true
-  private _licenseName?: string; 
+  private _licenseName?: string;
   public get licenseName() {
     return this.getStringAttribute('license_name');
   }
@@ -1449,7 +1449,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // product_name - computed: false, optional: false, required: true
-  private _productName?: string; 
+  private _productName?: string;
   public get productName() {
     return this.getStringAttribute('product_name');
   }
@@ -1462,7 +1462,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // product_sku - computed: false, optional: false, required: true
-  private _productSku?: string; 
+  private _productSku?: string;
   public get productSku() {
     return this.getStringAttribute('product_sku');
   }
@@ -1475,7 +1475,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

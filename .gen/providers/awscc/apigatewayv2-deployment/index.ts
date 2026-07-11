@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Apigatewayv2DeploymentConfig extends cdktn.TerraformMetaArgumen
   /**
   * The API identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
   */
   readonly apiId: string;
   /**
   * The description for the deployment resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
   */
   readonly description?: string;
   /**
   * The name of an existing stage to associate with the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
   */
   readonly stageName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}
 */
 export class Apigatewayv2Deployment extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2Deployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2Deployment to import
-  * @param importFromId The id of the existing Apigatewayv2Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigatewayv2_deployment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -105,7 +105,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -126,7 +126,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string; 
+  private _stageName?: string;
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }

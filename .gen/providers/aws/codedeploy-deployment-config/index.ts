@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface CodedeployDeploymentConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#compute_platform CodedeployDeploymentConfig#compute_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#compute_platform CodedeployDeploymentConfig#compute_platform}
   */
   readonly computePlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#deployment_config_name CodedeployDeploymentConfig#deployment_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#deployment_config_name CodedeployDeploymentConfig#deployment_config_name}
   */
   readonly deploymentConfigName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#id CodedeployDeploymentConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#id CodedeployDeploymentConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,35 +25,35 @@ export interface CodedeployDeploymentConfigConfig extends cdktn.TerraformMetaArg
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#region CodedeployDeploymentConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#region CodedeployDeploymentConfig#region}
   */
   readonly region?: string;
   /**
   * minimum_healthy_hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#minimum_healthy_hosts CodedeployDeploymentConfig#minimum_healthy_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#minimum_healthy_hosts CodedeployDeploymentConfig#minimum_healthy_hosts}
   */
   readonly minimumHealthyHosts?: CodedeployDeploymentConfigMinimumHealthyHosts;
   /**
   * traffic_routing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#traffic_routing_config CodedeployDeploymentConfig#traffic_routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#traffic_routing_config CodedeployDeploymentConfig#traffic_routing_config}
   */
   readonly trafficRoutingConfig?: CodedeployDeploymentConfigTrafficRoutingConfig;
   /**
   * zonal_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#zonal_config CodedeployDeploymentConfig#zonal_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#zonal_config CodedeployDeploymentConfig#zonal_config}
   */
   readonly zonalConfig?: CodedeployDeploymentConfigZonalConfig;
 }
 export interface CodedeployDeploymentConfigMinimumHealthyHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}
   */
   readonly value?: number;
 }
@@ -133,7 +133,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -149,7 +149,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -166,11 +166,11 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
 }
 export interface CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}
   */
   readonly percentage?: number;
 }
@@ -250,7 +250,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -266,7 +266,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // percentage - computed: false, optional: true, required: false
-  private _percentage?: number; 
+  private _percentage?: number;
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
@@ -283,11 +283,11 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
 }
 export interface CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#interval CodedeployDeploymentConfig#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#percentage CodedeployDeploymentConfig#percentage}
   */
   readonly percentage?: number;
 }
@@ -367,7 +367,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -383,7 +383,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // percentage - computed: false, optional: true, required: false
-  private _percentage?: number; 
+  private _percentage?: number;
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
@@ -400,19 +400,19 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
 }
 export interface CodedeployDeploymentConfigTrafficRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
   */
   readonly type?: string;
   /**
   * time_based_canary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#time_based_canary CodedeployDeploymentConfig#time_based_canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#time_based_canary CodedeployDeploymentConfig#time_based_canary}
   */
   readonly timeBasedCanary?: CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary;
   /**
   * time_based_linear block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#time_based_linear CodedeployDeploymentConfig#time_based_linear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#time_based_linear CodedeployDeploymentConfig#time_based_linear}
   */
   readonly timeBasedLinear?: CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear;
 }
@@ -505,7 +505,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigOutputReference exten
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -554,11 +554,11 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigOutputReference exten
 }
 export interface CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#type CodedeployDeploymentConfig#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#value CodedeployDeploymentConfig#value}
   */
   readonly value?: number;
 }
@@ -638,7 +638,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -654,7 +654,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -671,17 +671,17 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
 }
 export interface CodedeployDeploymentConfigZonalConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#first_zone_monitor_duration_in_seconds CodedeployDeploymentConfig#first_zone_monitor_duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#first_zone_monitor_duration_in_seconds CodedeployDeploymentConfig#first_zone_monitor_duration_in_seconds}
   */
   readonly firstZoneMonitorDurationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#monitor_duration_in_seconds CodedeployDeploymentConfig#monitor_duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#monitor_duration_in_seconds CodedeployDeploymentConfig#monitor_duration_in_seconds}
   */
   readonly monitorDurationInSeconds?: number;
   /**
   * minimum_healthy_hosts_per_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#minimum_healthy_hosts_per_zone CodedeployDeploymentConfig#minimum_healthy_hosts_per_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#minimum_healthy_hosts_per_zone CodedeployDeploymentConfig#minimum_healthy_hosts_per_zone}
   */
   readonly minimumHealthyHostsPerZone?: CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone;
 }
@@ -774,7 +774,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // first_zone_monitor_duration_in_seconds - computed: false, optional: true, required: false
-  private _firstZoneMonitorDurationInSeconds?: number; 
+  private _firstZoneMonitorDurationInSeconds?: number;
   public get firstZoneMonitorDurationInSeconds() {
     return this.getNumberAttribute('first_zone_monitor_duration_in_seconds');
   }
@@ -790,7 +790,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // monitor_duration_in_seconds - computed: false, optional: true, required: false
-  private _monitorDurationInSeconds?: number; 
+  private _monitorDurationInSeconds?: number;
   public get monitorDurationInSeconds() {
     return this.getNumberAttribute('monitor_duration_in_seconds');
   }
@@ -823,7 +823,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config}
 */
 export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
 
@@ -839,7 +839,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodedeployDeploymentConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodedeployDeploymentConfig to import
-  * @param importFromId The id of the existing CodedeployDeploymentConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodedeployDeploymentConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodedeployDeploymentConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -851,7 +851,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,7 +862,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codedeploy_deployment_config',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -891,7 +891,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: false, optional: true, required: false
-  private _computePlatform?: string; 
+  private _computePlatform?: string;
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -912,7 +912,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // deployment_config_name - computed: false, optional: false, required: true
-  private _deploymentConfigName?: string; 
+  private _deploymentConfigName?: string;
   public get deploymentConfigName() {
     return this.getStringAttribute('deployment_config_name');
   }
@@ -925,7 +925,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -941,7 +941,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

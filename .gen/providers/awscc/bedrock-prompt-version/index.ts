@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface BedrockPromptVersionConfig extends cdktn.TerraformMetaArguments
   /**
   * Description for a prompt version resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
   */
   readonly description?: string;
   /**
   * ARN of a prompt resource possibly with a version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
   */
   readonly promptArn: string;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1645,7 +1645,7 @@ export class BedrockPromptVersionVariantsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}
 */
 export class BedrockPromptVersion extends cdktn.TerraformResource {
 
@@ -1661,7 +1661,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockPromptVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockPromptVersion to import
-  * @param importFromId The id of the existing BedrockPromptVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockPromptVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockPromptVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1673,7 +1673,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1684,7 +1684,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_prompt_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1724,7 +1724,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1750,7 +1750,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // prompt_arn - computed: false, optional: false, required: true
-  private _promptArn?: string; 
+  private _promptArn?: string;
   public get promptArn() {
     return this.getStringAttribute('prompt_arn');
   }
@@ -1768,7 +1768,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

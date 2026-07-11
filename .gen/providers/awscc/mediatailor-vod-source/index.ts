@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface MediatailorVodSourceConfig extends cdktn.TerraformMetaArguments
   /**
   * <p>A list of HTTP package configuration parameters for this VOD source.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#http_package_configurations MediatailorVodSource#http_package_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#http_package_configurations MediatailorVodSource#http_package_configurations}
   */
   readonly httpPackageConfigurations: MediatailorVodSourceHttpPackageConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#source_location_name MediatailorVodSource#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#source_location_name MediatailorVodSource#source_location_name}
   */
   readonly sourceLocationName: string;
   /**
   * The tags to assign to the VOD source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#tags MediatailorVodSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#tags MediatailorVodSource#tags}
   */
   readonly tags?: MediatailorVodSourceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#vod_source_name MediatailorVodSource#vod_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#vod_source_name MediatailorVodSource#vod_source_name}
   */
   readonly vodSourceName: string;
 }
@@ -32,17 +32,17 @@ export interface MediatailorVodSourceHttpPackageConfigurations {
   /**
   * <p>The relative path to the URL for this VOD source. This is combined with <code>SourceLocation::HttpConfiguration::BaseUrl</code> to form a valid URL.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#path MediatailorVodSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#path MediatailorVodSource#path}
   */
   readonly path: string;
   /**
   * <p>The name of the source group. This has to match one of the <code>Channel::Outputs::SourceGroup</code>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#source_group MediatailorVodSource#source_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#source_group MediatailorVodSource#source_group}
   */
   readonly sourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#type MediatailorVodSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#type MediatailorVodSource#type}
   */
   readonly type: string;
 }
@@ -147,7 +147,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -160,7 +160,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // source_group - computed: false, optional: false, required: true
-  private _sourceGroup?: string; 
+  private _sourceGroup?: string;
   public get sourceGroup() {
     return this.getStringAttribute('source_group');
   }
@@ -173,7 +173,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -207,11 +207,11 @@ export class MediatailorVodSourceHttpPackageConfigurationsList extends cdktn.Com
 }
 export interface MediatailorVodSourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#key MediatailorVodSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#key MediatailorVodSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#value MediatailorVodSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#value MediatailorVodSource#value}
   */
   readonly value?: string;
 }
@@ -303,7 +303,7 @@ export class MediatailorVodSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -319,7 +319,7 @@ export class MediatailorVodSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -356,7 +356,7 @@ export class MediatailorVodSourceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source}
 */
 export class MediatailorVodSource extends cdktn.TerraformResource {
 
@@ -372,7 +372,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediatailorVodSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediatailorVodSource to import
-  * @param importFromId The id of the existing MediatailorVodSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediatailorVodSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediatailorVodSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -384,7 +384,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,7 +395,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediatailor_vod_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -439,7 +439,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   }
 
   // source_location_name - computed: false, optional: false, required: true
-  private _sourceLocationName?: string; 
+  private _sourceLocationName?: string;
   public get sourceLocationName() {
     return this.getStringAttribute('source_location_name');
   }
@@ -468,7 +468,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   }
 
   // vod_source_name - computed: false, optional: false, required: true
-  private _vodSourceName?: string; 
+  private _vodSourceName?: string;
   public get vodSourceName() {
     return this.getStringAttribute('vod_source_name');
   }

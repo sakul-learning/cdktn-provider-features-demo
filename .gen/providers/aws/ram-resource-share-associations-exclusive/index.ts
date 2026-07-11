@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface RamResourceShareAssociationsExclusiveConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#principals RamResourceShareAssociationsExclusive#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#principals RamResourceShareAssociationsExclusive#principals}
   */
   readonly principals?: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#region RamResourceShareAssociationsExclusive#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#region RamResourceShareAssociationsExclusive#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#resource_arns RamResourceShareAssociationsExclusive#resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#resource_arns RamResourceShareAssociationsExclusive#resource_arns}
   */
   readonly resourceArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#resource_share_arn RamResourceShareAssociationsExclusive#resource_share_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#resource_share_arn RamResourceShareAssociationsExclusive#resource_share_arn}
   */
   readonly resourceShareArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#sources RamResourceShareAssociationsExclusive#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#sources RamResourceShareAssociationsExclusive#sources}
   */
   readonly sources?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive}
 */
 export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   * Generates CDKTN code for importing a RamResourceShareAssociationsExclusive resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamResourceShareAssociationsExclusive to import
-  * @param importFromId The id of the existing RamResourceShareAssociationsExclusive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamResourceShareAssociationsExclusive that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamResourceShareAssociationsExclusive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
       terraformResourceType: 'aws_ram_resource_share_associations_exclusive',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -93,7 +93,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   // ==========
 
   // principals - computed: false, optional: true, required: false
-  private _principals?: string[]; 
+  private _principals?: string[];
   public get principals() {
     return cdktn.Fn.tolist(this.getListAttribute('principals'));
   }
@@ -109,7 +109,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -125,7 +125,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[]; 
+  private _resourceArns?: string[];
   public get resourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arns'));
   }
@@ -141,7 +141,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // resource_share_arn - computed: false, optional: false, required: true
-  private _resourceShareArn?: string; 
+  private _resourceShareArn?: string;
   public get resourceShareArn() {
     return this.getStringAttribute('resource_share_arn');
   }
@@ -154,7 +154,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // sources - computed: false, optional: true, required: false
-  private _sources?: string[]; 
+  private _sources?: string[];
   public get sources() {
     return cdktn.Fn.tolist(this.getListAttribute('sources'));
   }

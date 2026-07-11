@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightAccountSubscriptionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#account_name QuicksightAccountSubscription#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#account_name QuicksightAccountSubscription#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#active_directory_name QuicksightAccountSubscription#active_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#active_directory_name QuicksightAccountSubscription#active_directory_name}
   */
   readonly activeDirectoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#admin_group QuicksightAccountSubscription#admin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#admin_group QuicksightAccountSubscription#admin_group}
   */
   readonly adminGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#admin_pro_group QuicksightAccountSubscription#admin_pro_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#admin_pro_group QuicksightAccountSubscription#admin_pro_group}
   */
   readonly adminProGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#authentication_method QuicksightAccountSubscription#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#authentication_method QuicksightAccountSubscription#authentication_method}
   */
   readonly authenticationMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#author_group QuicksightAccountSubscription#author_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#author_group QuicksightAccountSubscription#author_group}
   */
   readonly authorGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#author_pro_group QuicksightAccountSubscription#author_pro_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#author_pro_group QuicksightAccountSubscription#author_pro_group}
   */
   readonly authorProGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#aws_account_id QuicksightAccountSubscription#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#aws_account_id QuicksightAccountSubscription#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#contact_number QuicksightAccountSubscription#contact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#contact_number QuicksightAccountSubscription#contact_number}
   */
   readonly contactNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#directory_id QuicksightAccountSubscription#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#directory_id QuicksightAccountSubscription#directory_id}
   */
   readonly directoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#edition QuicksightAccountSubscription#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#edition QuicksightAccountSubscription#edition}
   */
   readonly edition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#email_address QuicksightAccountSubscription#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#email_address QuicksightAccountSubscription#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#first_name QuicksightAccountSubscription#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#first_name QuicksightAccountSubscription#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#iam_identity_center_instance_arn QuicksightAccountSubscription#iam_identity_center_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#iam_identity_center_instance_arn QuicksightAccountSubscription#iam_identity_center_instance_arn}
   */
   readonly iamIdentityCenterInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#id QuicksightAccountSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#id QuicksightAccountSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#last_name QuicksightAccountSubscription#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#last_name QuicksightAccountSubscription#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#notification_email QuicksightAccountSubscription#notification_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#notification_email QuicksightAccountSubscription#notification_email}
   */
   readonly notificationEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#reader_group QuicksightAccountSubscription#reader_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#reader_group QuicksightAccountSubscription#reader_group}
   */
   readonly readerGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#reader_pro_group QuicksightAccountSubscription#reader_pro_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#reader_pro_group QuicksightAccountSubscription#reader_pro_group}
   */
   readonly readerProGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#realm QuicksightAccountSubscription#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#realm QuicksightAccountSubscription#realm}
   */
   readonly realm?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#region QuicksightAccountSubscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#region QuicksightAccountSubscription#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#timeouts QuicksightAccountSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#timeouts QuicksightAccountSubscription#timeouts}
   */
   readonly timeouts?: QuicksightAccountSubscriptionTimeouts;
 }
 export interface QuicksightAccountSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#create QuicksightAccountSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#create QuicksightAccountSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#delete QuicksightAccountSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#delete QuicksightAccountSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#read QuicksightAccountSubscription#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#read QuicksightAccountSubscription#read}
   */
   readonly read?: string;
 }
@@ -216,7 +216,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -232,7 +232,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -248,7 +248,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string; 
+  private _read?: string;
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -265,7 +265,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}
 */
 export class QuicksightAccountSubscription extends cdktn.TerraformResource {
 
@@ -281,7 +281,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightAccountSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightAccountSubscription to import
-  * @param importFromId The id of the existing QuicksightAccountSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightAccountSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightAccountSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -293,7 +293,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,7 +304,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_account_subscription',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -343,7 +343,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   // ==========
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string; 
+  private _accountName?: string;
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -361,7 +361,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // active_directory_name - computed: false, optional: true, required: false
-  private _activeDirectoryName?: string; 
+  private _activeDirectoryName?: string;
   public get activeDirectoryName() {
     return this.getStringAttribute('active_directory_name');
   }
@@ -377,7 +377,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // admin_group - computed: false, optional: true, required: false
-  private _adminGroup?: string[]; 
+  private _adminGroup?: string[];
   public get adminGroup() {
     return this.getListAttribute('admin_group');
   }
@@ -393,7 +393,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // admin_pro_group - computed: false, optional: true, required: false
-  private _adminProGroup?: string[]; 
+  private _adminProGroup?: string[];
   public get adminProGroup() {
     return this.getListAttribute('admin_pro_group');
   }
@@ -409,7 +409,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // authentication_method - computed: false, optional: false, required: true
-  private _authenticationMethod?: string; 
+  private _authenticationMethod?: string;
   public get authenticationMethod() {
     return this.getStringAttribute('authentication_method');
   }
@@ -422,7 +422,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // author_group - computed: false, optional: true, required: false
-  private _authorGroup?: string[]; 
+  private _authorGroup?: string[];
   public get authorGroup() {
     return this.getListAttribute('author_group');
   }
@@ -438,7 +438,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // author_pro_group - computed: false, optional: true, required: false
-  private _authorProGroup?: string[]; 
+  private _authorProGroup?: string[];
   public get authorProGroup() {
     return this.getListAttribute('author_pro_group');
   }
@@ -454,7 +454,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -470,7 +470,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // contact_number - computed: false, optional: true, required: false
-  private _contactNumber?: string; 
+  private _contactNumber?: string;
   public get contactNumber() {
     return this.getStringAttribute('contact_number');
   }
@@ -486,7 +486,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: true, required: false
-  private _directoryId?: string; 
+  private _directoryId?: string;
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -502,7 +502,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // edition - computed: false, optional: false, required: true
-  private _edition?: string; 
+  private _edition?: string;
   public get edition() {
     return this.getStringAttribute('edition');
   }
@@ -515,7 +515,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string; 
+  private _emailAddress?: string;
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -531,7 +531,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -547,7 +547,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // iam_identity_center_instance_arn - computed: false, optional: true, required: false
-  private _iamIdentityCenterInstanceArn?: string; 
+  private _iamIdentityCenterInstanceArn?: string;
   public get iamIdentityCenterInstanceArn() {
     return this.getStringAttribute('iam_identity_center_instance_arn');
   }
@@ -563,7 +563,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -579,7 +579,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -595,7 +595,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // notification_email - computed: false, optional: false, required: true
-  private _notificationEmail?: string; 
+  private _notificationEmail?: string;
   public get notificationEmail() {
     return this.getStringAttribute('notification_email');
   }
@@ -608,7 +608,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // reader_group - computed: false, optional: true, required: false
-  private _readerGroup?: string[]; 
+  private _readerGroup?: string[];
   public get readerGroup() {
     return this.getListAttribute('reader_group');
   }
@@ -624,7 +624,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // reader_pro_group - computed: false, optional: true, required: false
-  private _readerProGroup?: string[]; 
+  private _readerProGroup?: string[];
   public get readerProGroup() {
     return this.getListAttribute('reader_pro_group');
   }
@@ -640,7 +640,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // realm - computed: false, optional: true, required: false
-  private _realm?: string; 
+  private _realm?: string;
   public get realm() {
     return this.getStringAttribute('realm');
   }
@@ -656,7 +656,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

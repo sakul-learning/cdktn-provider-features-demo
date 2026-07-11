@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktn from 'cdktn';
 
 export interface OrganizationsAccountConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#close_on_deletion OrganizationsAccount#close_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#close_on_deletion OrganizationsAccount#close_on_deletion}
   */
   readonly closeOnDeletion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#create_govcloud OrganizationsAccount#create_govcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#create_govcloud OrganizationsAccount#create_govcloud}
   */
   readonly createGovcloud?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#email OrganizationsAccount#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#iam_user_access_to_billing OrganizationsAccount#iam_user_access_to_billing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#iam_user_access_to_billing OrganizationsAccount#iam_user_access_to_billing}
   */
   readonly iamUserAccessToBilling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#id OrganizationsAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#id OrganizationsAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#name OrganizationsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#name OrganizationsAccount#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#parent_id OrganizationsAccount#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#parent_id OrganizationsAccount#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#tags_all OrganizationsAccount#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#tags_all OrganizationsAccount#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#timeouts OrganizationsAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#timeouts OrganizationsAccount#timeouts}
   */
   readonly timeouts?: OrganizationsAccountTimeouts;
 }
 export interface OrganizationsAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#create OrganizationsAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#create OrganizationsAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#delete OrganizationsAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#delete OrganizationsAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#update OrganizationsAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#update OrganizationsAccount#update}
   */
   readonly update?: string;
 }
@@ -170,7 +170,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -186,7 +186,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -202,7 +202,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -219,7 +219,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account aws_organizations_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account aws_organizations_account}
 */
 export class OrganizationsAccount extends cdktn.TerraformResource {
 
@@ -235,7 +235,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OrganizationsAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationsAccount to import
-  * @param importFromId The id of the existing OrganizationsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -247,7 +247,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/organizations_account aws_organizations_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/organizations_account aws_organizations_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,7 +258,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
       terraformResourceType: 'aws_organizations_account',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -291,7 +291,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // close_on_deletion - computed: false, optional: true, required: false
-  private _closeOnDeletion?: boolean | cdktn.IResolvable; 
+  private _closeOnDeletion?: boolean | cdktn.IResolvable;
   public get closeOnDeletion() {
     return this.getBooleanAttribute('close_on_deletion');
   }
@@ -307,7 +307,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // create_govcloud - computed: false, optional: true, required: false
-  private _createGovcloud?: boolean | cdktn.IResolvable; 
+  private _createGovcloud?: boolean | cdktn.IResolvable;
   public get createGovcloud() {
     return this.getBooleanAttribute('create_govcloud');
   }
@@ -323,7 +323,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -341,7 +341,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // iam_user_access_to_billing - computed: false, optional: true, required: false
-  private _iamUserAccessToBilling?: string; 
+  private _iamUserAccessToBilling?: string;
   public get iamUserAccessToBilling() {
     return this.getStringAttribute('iam_user_access_to_billing');
   }
@@ -357,7 +357,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -383,7 +383,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -396,7 +396,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // parent_id - computed: true, optional: true, required: false
-  private _parentId?: string; 
+  private _parentId?: string;
   public get parentId() {
     return this.getStringAttribute('parent_id');
   }
@@ -412,7 +412,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // role_name - computed: false, optional: true, required: false
-  private _roleName?: string; 
+  private _roleName?: string;
   public get roleName() {
     return this.getStringAttribute('role_name');
   }
@@ -438,7 +438,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -454,7 +454,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,243 +10,243 @@ export interface ElasticacheReplicationGroupConfig extends cdktn.TerraformMetaAr
   /**
   * A flag that enables encryption at rest when set to true.AtRestEncryptionEnabled after the replication group is created. To enable encryption at rest on a replication group you must set AtRestEncryptionEnabled to true when you create the replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#at_rest_encryption_enabled ElasticacheReplicationGroup#at_rest_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#at_rest_encryption_enabled ElasticacheReplicationGroup#at_rest_encryption_enabled}
   */
   readonly atRestEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Reserved parameter. The password used to access a password protected server.AuthToken can be specified only on replication groups where TransitEncryptionEnabled is true. For more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#auth_token ElasticacheReplicationGroup#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#auth_token ElasticacheReplicationGroup#auth_token}
   */
   readonly authToken?: string;
   /**
   * This parameter is currently disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#auto_minor_version_upgrade ElasticacheReplicationGroup#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#auto_minor_version_upgrade ElasticacheReplicationGroup#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether a read-only replica is automatically promoted to read/write primary if the existing primary fails. AutomaticFailoverEnabled must be enabled for Redis (cluster mode enabled) replication groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#automatic_failover_enabled ElasticacheReplicationGroup#automatic_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#automatic_failover_enabled ElasticacheReplicationGroup#automatic_failover_enabled}
   */
   readonly automaticFailoverEnabled?: boolean | cdktn.IResolvable;
   /**
   * The compute and memory capacity of the nodes in the node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cache_node_type ElasticacheReplicationGroup#cache_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cache_node_type ElasticacheReplicationGroup#cache_node_type}
   */
   readonly cacheNodeType?: string;
   /**
   * The name of the parameter group to associate with this replication group. If this argument is omitted, the default cache parameter group for the specified engine is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cache_parameter_group_name ElasticacheReplicationGroup#cache_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cache_parameter_group_name ElasticacheReplicationGroup#cache_parameter_group_name}
   */
   readonly cacheParameterGroupName?: string;
   /**
   * A list of cache security group names to associate with this replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cache_security_group_names ElasticacheReplicationGroup#cache_security_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cache_security_group_names ElasticacheReplicationGroup#cache_security_group_names}
   */
   readonly cacheSecurityGroupNames?: string[];
   /**
   * The name of the cache subnet group to be used for the replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cache_subnet_group_name ElasticacheReplicationGroup#cache_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cache_subnet_group_name ElasticacheReplicationGroup#cache_subnet_group_name}
   */
   readonly cacheSubnetGroupName?: string;
   /**
   * Enabled or Disabled. To modify cluster mode from Disabled to Enabled, you must first set the cluster mode to Compatible. Compatible mode allows your Redis OSS clients to connect using both cluster mode enabled and cluster mode disabled. After you migrate all Redis OSS clients to use cluster mode enabled, you can then complete cluster mode configuration and set the cluster mode to Enabled. For more information, see Modify cluster mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cluster_mode ElasticacheReplicationGroup#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cluster_mode ElasticacheReplicationGroup#cluster_mode}
   */
   readonly clusterMode?: string;
   /**
   * Enables data tiering. Data tiering is only supported for replication groups using the r6gd node type. This parameter must be set to true when using r6gd nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#data_tiering_enabled ElasticacheReplicationGroup#data_tiering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#data_tiering_enabled ElasticacheReplicationGroup#data_tiering_enabled}
   */
   readonly dataTieringEnabled?: boolean | cdktn.IResolvable;
   /**
   * The durability setting for the replication group. Valid values: default, async, sync, disabled. Enabling durability on an existing non-durable cluster or disabling durability on an existing durable cluster is not currently supported and will result in an error; specify the desired durability at create time. The resolved state is returned in EffectiveDurability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#durability ElasticacheReplicationGroup#durability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#durability ElasticacheReplicationGroup#durability}
   */
   readonly durability?: string;
   /**
   * The name of the cache engine to be used for the clusters in this replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#engine ElasticacheReplicationGroup#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#engine ElasticacheReplicationGroup#engine}
   */
   readonly engine?: string;
   /**
   * The version number of the cache engine to be used for the clusters in this replication group. To view the supported cache engine versions, use the DescribeCacheEngineVersions operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#engine_version ElasticacheReplicationGroup#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#engine_version ElasticacheReplicationGroup#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The name of the Global datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#global_replication_group_id ElasticacheReplicationGroup#global_replication_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#global_replication_group_id ElasticacheReplicationGroup#global_replication_group_id}
   */
   readonly globalReplicationGroupId?: string;
   /**
   * The network type you choose when creating a replication group, either ipv4 | ipv6. IPv6 is supported for workloads using Redis OSS engine version 6.2 onward or Memcached engine version 1.6.6 on all instances built on the Nitro system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#ip_discovery ElasticacheReplicationGroup#ip_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#ip_discovery ElasticacheReplicationGroup#ip_discovery}
   */
   readonly ipDiscovery?: string;
   /**
   * The ID of the KMS key used to encrypt the disk on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#kms_key_id ElasticacheReplicationGroup#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#kms_key_id ElasticacheReplicationGroup#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specifies the destination, format and type of the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#log_delivery_configurations ElasticacheReplicationGroup#log_delivery_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#log_delivery_configurations ElasticacheReplicationGroup#log_delivery_configurations}
   */
   readonly logDeliveryConfigurations?: ElasticacheReplicationGroupLogDeliveryConfigurations[] | cdktn.IResolvable;
   /**
   * A flag indicating if you have Multi-AZ enabled to enhance fault tolerance. For more information, see Minimizing Downtime: Multi-AZ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#multi_az_enabled ElasticacheReplicationGroup#multi_az_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#multi_az_enabled ElasticacheReplicationGroup#multi_az_enabled}
   */
   readonly multiAzEnabled?: boolean | cdktn.IResolvable;
   /**
   * Must be either ipv4 | ipv6 | dual_stack. IPv6 is supported for workloads using Redis OSS engine version 6.2 onward or Memcached engine version 1.6.6 on all instances built on the Nitro system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#network_type ElasticacheReplicationGroup#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#network_type ElasticacheReplicationGroup#network_type}
   */
   readonly networkType?: string;
   /**
   * NodeGroupConfiguration is a property of the AWS::ElastiCache::ReplicationGroup resource that configures an Amazon ElastiCache (ElastiCache) Redis cluster node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#node_group_configuration ElasticacheReplicationGroup#node_group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#node_group_configuration ElasticacheReplicationGroup#node_group_configuration}
   */
   readonly nodeGroupConfiguration?: ElasticacheReplicationGroupNodeGroupConfiguration[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#notification_topic_arn ElasticacheReplicationGroup#notification_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#notification_topic_arn ElasticacheReplicationGroup#notification_topic_arn}
   */
   readonly notificationTopicArn?: string;
   /**
   * The number of clusters this replication group initially has.This parameter is not used if there is more than one node group (shard). You should use ReplicasPerNodeGroup instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#num_cache_clusters ElasticacheReplicationGroup#num_cache_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#num_cache_clusters ElasticacheReplicationGroup#num_cache_clusters}
   */
   readonly numCacheClusters?: number;
   /**
   * An optional parameter that specifies the number of node groups (shards) for this Redis (cluster mode enabled) replication group. For Redis (cluster mode disabled) either omit this parameter or set it to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#num_node_groups ElasticacheReplicationGroup#num_node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#num_node_groups ElasticacheReplicationGroup#num_node_groups}
   */
   readonly numNodeGroups?: number;
   /**
   * The port number on which each member of the replication group accepts connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#port ElasticacheReplicationGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#port ElasticacheReplicationGroup#port}
   */
   readonly port?: number;
   /**
   * A list of EC2 Availability Zones in which the replication group's clusters are created. The order of the Availability Zones in the list is the order in which clusters are allocated. The primary cluster is created in the first AZ in the list. This parameter is not used if there is more than one node group (shard). You should use NodeGroupConfiguration instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#preferred_cache_cluster_a_zs ElasticacheReplicationGroup#preferred_cache_cluster_a_zs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#preferred_cache_cluster_a_zs ElasticacheReplicationGroup#preferred_cache_cluster_a_zs}
   */
   readonly preferredCacheClusterAZs?: string[];
   /**
   * Specifies the weekly time range during which maintenance on the cluster is performed. It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#preferred_maintenance_window ElasticacheReplicationGroup#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#preferred_maintenance_window ElasticacheReplicationGroup#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * The identifier of the cluster that serves as the primary for this replication group. This cluster must already exist and have a status of available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#primary_cluster_id ElasticacheReplicationGroup#primary_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#primary_cluster_id ElasticacheReplicationGroup#primary_cluster_id}
   */
   readonly primaryClusterId?: string;
   /**
   * An optional parameter that specifies the number of replica nodes in each node group (shard). Valid values are 0 to 5.
-  * 
+  *
   * **Note:** Using ReplicasPerNodeGroup with NodeGroupConfiguration results in resource replacement. For online scaling, use ReplicasPerNodeGroup alone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#replicas_per_node_group ElasticacheReplicationGroup#replicas_per_node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#replicas_per_node_group ElasticacheReplicationGroup#replicas_per_node_group}
   */
   readonly replicasPerNodeGroup?: number;
   /**
   * A user-created description for the replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#replication_group_description ElasticacheReplicationGroup#replication_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#replication_group_description ElasticacheReplicationGroup#replication_group_description}
   */
   readonly replicationGroupDescription: string;
   /**
   * The replication group identifier. This parameter is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#replication_group_id ElasticacheReplicationGroup#replication_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#replication_group_id ElasticacheReplicationGroup#replication_group_id}
   */
   readonly replicationGroupId?: string;
   /**
   * One or more Amazon VPC security groups associated with this replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#security_group_ids ElasticacheReplicationGroup#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#security_group_ids ElasticacheReplicationGroup#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * A list of Amazon Resource Names (ARN) that uniquely identify the Redis RDB snapshot files stored in Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#snapshot_arns ElasticacheReplicationGroup#snapshot_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#snapshot_arns ElasticacheReplicationGroup#snapshot_arns}
   */
   readonly snapshotArns?: string[];
   /**
   * The name of a snapshot from which to restore data into the new replication group. The snapshot status changes to restoring while the new replication group is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#snapshot_name ElasticacheReplicationGroup#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#snapshot_name ElasticacheReplicationGroup#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * The number of days for which ElastiCache retains automatic snapshots before deleting them. For example, if you set SnapshotRetentionLimit to 5, a snapshot that was taken today is retained for 5 days before being deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#snapshot_retention_limit ElasticacheReplicationGroup#snapshot_retention_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#snapshot_retention_limit ElasticacheReplicationGroup#snapshot_retention_limit}
   */
   readonly snapshotRetentionLimit?: number;
   /**
   * The daily time range (in UTC) during which ElastiCache begins taking a daily snapshot of your node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#snapshot_window ElasticacheReplicationGroup#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#snapshot_window ElasticacheReplicationGroup#snapshot_window}
   */
   readonly snapshotWindow?: string;
   /**
   * The cluster ID that is used as the daily snapshot source for the replication group. This parameter cannot be set for Redis (cluster mode enabled) replication groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#snapshotting_cluster_id ElasticacheReplicationGroup#snapshotting_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#snapshotting_cluster_id ElasticacheReplicationGroup#snapshotting_cluster_id}
   */
   readonly snapshottingClusterId?: string;
   /**
   * A list of cost allocation tags to be added to this resource. Tags are comma-separated key,value pairs (e.g. Key=myKey, Value=myKeyValue. You can include multiple tags as shown following: Key=myKey, Value=myKeyValue Key=mySecondKey, Value=mySecondKeyValue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#tags ElasticacheReplicationGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#tags ElasticacheReplicationGroup#tags}
   */
   readonly tags?: ElasticacheReplicationGroupTags[] | cdktn.IResolvable;
   /**
   * A flag that enables in-transit encryption when set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#transit_encryption_enabled ElasticacheReplicationGroup#transit_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#transit_encryption_enabled ElasticacheReplicationGroup#transit_encryption_enabled}
   */
   readonly transitEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
   * A setting that allows you to migrate your clients to use in-transit encryption, with no downtime. When setting TransitEncryptionEnabled to true, you can set your TransitEncryptionMode to preferred in the same request, to allow both encrypted and unencrypted connections at the same time. Once you migrate all your Redis OSS clients to use encrypted connections you can modify the value to required to allow encrypted connections only. Setting TransitEncryptionMode to required is a two-step process that requires you to first set the TransitEncryptionMode to preferred, after that you can set TransitEncryptionMode to required. This process will not trigger the replacement of the replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#transit_encryption_mode ElasticacheReplicationGroup#transit_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#transit_encryption_mode ElasticacheReplicationGroup#transit_encryption_mode}
   */
   readonly transitEncryptionMode?: string;
   /**
   * The ID of user group to associate with the replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#user_group_ids ElasticacheReplicationGroup#user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#user_group_ids ElasticacheReplicationGroup#user_group_ids}
   */
   readonly userGroupIds?: string[];
 }
@@ -313,7 +313,7 @@ export interface ElasticacheReplicationGroupLogDeliveryConfigurationsDestination
   /**
   * The name of the CloudWatch Logs log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#log_group ElasticacheReplicationGroup#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#log_group ElasticacheReplicationGroup#log_group}
   */
   readonly logGroup?: string;
 }
@@ -390,7 +390,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationsDestinationDeta
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -409,7 +409,7 @@ export interface ElasticacheReplicationGroupLogDeliveryConfigurationsDestination
   /**
   * The name of the Kinesis Data Firehose delivery stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#delivery_stream ElasticacheReplicationGroup#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#delivery_stream ElasticacheReplicationGroup#delivery_stream}
   */
   readonly deliveryStream?: string;
 }
@@ -486,7 +486,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationsDestinationDeta
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string; 
+  private _deliveryStream?: string;
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -505,13 +505,13 @@ export interface ElasticacheReplicationGroupLogDeliveryConfigurationsDestination
   /**
   * The configuration details of the CloudWatch Logs destination. Note that this field is marked as required but only if CloudWatch Logs was chosen as the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#cloudwatch_logs_details ElasticacheReplicationGroup#cloudwatch_logs_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#cloudwatch_logs_details ElasticacheReplicationGroup#cloudwatch_logs_details}
   */
   readonly cloudwatchLogsDetails?: ElasticacheReplicationGroupLogDeliveryConfigurationsDestinationDetailsCloudwatchLogsDetails;
   /**
   * The configuration details of the Kinesis Data Firehose destination. Note that this field is marked as required but only if Kinesis Data Firehose was chosen as the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#kinesis_firehose_details ElasticacheReplicationGroup#kinesis_firehose_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#kinesis_firehose_details ElasticacheReplicationGroup#kinesis_firehose_details}
   */
   readonly kinesisFirehoseDetails?: ElasticacheReplicationGroupLogDeliveryConfigurationsDestinationDetailsKinesisFirehoseDetails;
 }
@@ -636,25 +636,25 @@ export interface ElasticacheReplicationGroupLogDeliveryConfigurations {
   /**
   * Configuration details of either a CloudWatch Logs destination or Kinesis Data Firehose destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#destination_details ElasticacheReplicationGroup#destination_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#destination_details ElasticacheReplicationGroup#destination_details}
   */
   readonly destinationDetails?: ElasticacheReplicationGroupLogDeliveryConfigurationsDestinationDetails;
   /**
   * Specify either CloudWatch Logs or Kinesis Data Firehose as the destination type. Valid values are either cloudwatch-logs or kinesis-firehose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#destination_type ElasticacheReplicationGroup#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#destination_type ElasticacheReplicationGroup#destination_type}
   */
   readonly destinationType?: string;
   /**
   * Valid values are either json or text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#log_format ElasticacheReplicationGroup#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#log_format ElasticacheReplicationGroup#log_format}
   */
   readonly logFormat?: string;
   /**
   * Valid value is either slow-log, which refers to slow-log or engine-log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#log_type ElasticacheReplicationGroup#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#log_type ElasticacheReplicationGroup#log_type}
   */
   readonly logType?: string;
 }
@@ -788,7 +788,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationsOutputReference
   }
 
   // destination_type - computed: true, optional: true, required: false
-  private _destinationType?: string; 
+  private _destinationType?: string;
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -804,7 +804,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationsOutputReference
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string; 
+  private _logFormat?: string;
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -820,7 +820,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationsOutputReference
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string; 
+  private _logType?: string;
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -859,31 +859,31 @@ export interface ElasticacheReplicationGroupNodeGroupConfiguration {
   /**
   * Either the ElastiCache for Redis supplied 4-digit id or a user supplied id for the node group these configuration values apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#node_group_id ElasticacheReplicationGroup#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#node_group_id ElasticacheReplicationGroup#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
   * The Availability Zone where the primary node of this node group (shard) is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#primary_availability_zone ElasticacheReplicationGroup#primary_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#primary_availability_zone ElasticacheReplicationGroup#primary_availability_zone}
   */
   readonly primaryAvailabilityZone?: string;
   /**
   * A list of Availability Zones to be used for the read replicas. The number of Availability Zones in this list must match the value of ReplicaCount or ReplicasPerNodeGroup if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#replica_availability_zones ElasticacheReplicationGroup#replica_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#replica_availability_zones ElasticacheReplicationGroup#replica_availability_zones}
   */
   readonly replicaAvailabilityZones?: string[];
   /**
   * The number of read replica nodes in this node group (shard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#replica_count ElasticacheReplicationGroup#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#replica_count ElasticacheReplicationGroup#replica_count}
   */
   readonly replicaCount?: number;
   /**
   * A string of comma-separated values where the first set of values are the slot numbers (zero based), and the second set of values are the keyspaces for each slot. The following example specifies three slots (numbered 0, 1, and 2): 0,1,2,0-4999,5000-9999,10000-16,383.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#slots ElasticacheReplicationGroup#slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#slots ElasticacheReplicationGroup#slots}
   */
   readonly slots?: string;
 }
@@ -1014,7 +1014,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // node_group_id - computed: true, optional: true, required: false
-  private _nodeGroupId?: string; 
+  private _nodeGroupId?: string;
   public get nodeGroupId() {
     return this.getStringAttribute('node_group_id');
   }
@@ -1030,7 +1030,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // primary_availability_zone - computed: true, optional: true, required: false
-  private _primaryAvailabilityZone?: string; 
+  private _primaryAvailabilityZone?: string;
   public get primaryAvailabilityZone() {
     return this.getStringAttribute('primary_availability_zone');
   }
@@ -1046,7 +1046,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // replica_availability_zones - computed: true, optional: true, required: false
-  private _replicaAvailabilityZones?: string[]; 
+  private _replicaAvailabilityZones?: string[];
   public get replicaAvailabilityZones() {
     return this.getListAttribute('replica_availability_zones');
   }
@@ -1062,7 +1062,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // replica_count - computed: true, optional: true, required: false
-  private _replicaCount?: number; 
+  private _replicaCount?: number;
   public get replicaCount() {
     return this.getNumberAttribute('replica_count');
   }
@@ -1078,7 +1078,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // slots - computed: true, optional: true, required: false
-  private _slots?: string; 
+  private _slots?: string;
   public get slots() {
     return this.getStringAttribute('slots');
   }
@@ -1304,13 +1304,13 @@ export interface ElasticacheReplicationGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#key ElasticacheReplicationGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#key ElasticacheReplicationGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#value ElasticacheReplicationGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#value ElasticacheReplicationGroup#value}
   */
   readonly value?: string;
 }
@@ -1402,7 +1402,7 @@ export class ElasticacheReplicationGroupTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1418,7 +1418,7 @@ export class ElasticacheReplicationGroupTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1455,7 +1455,7 @@ export class ElasticacheReplicationGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group awscc_elasticache_replication_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group awscc_elasticache_replication_group}
 */
 export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
 
@@ -1471,7 +1471,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheReplicationGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheReplicationGroup to import
-  * @param importFromId The id of the existing ElasticacheReplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheReplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheReplicationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1483,7 +1483,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_replication_group awscc_elasticache_replication_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_replication_group awscc_elasticache_replication_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1494,7 +1494,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_replication_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1551,7 +1551,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   // ==========
 
   // at_rest_encryption_enabled - computed: true, optional: true, required: false
-  private _atRestEncryptionEnabled?: boolean | cdktn.IResolvable; 
+  private _atRestEncryptionEnabled?: boolean | cdktn.IResolvable;
   public get atRestEncryptionEnabled() {
     return this.getBooleanAttribute('at_rest_encryption_enabled');
   }
@@ -1567,7 +1567,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // auth_token - computed: true, optional: true, required: false
-  private _authToken?: string; 
+  private _authToken?: string;
   public get authToken() {
     return this.getStringAttribute('auth_token');
   }
@@ -1583,7 +1583,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -1599,7 +1599,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // automatic_failover_enabled - computed: true, optional: true, required: false
-  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable; 
+  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable;
   public get automaticFailoverEnabled() {
     return this.getBooleanAttribute('automatic_failover_enabled');
   }
@@ -1615,7 +1615,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_node_type - computed: true, optional: true, required: false
-  private _cacheNodeType?: string; 
+  private _cacheNodeType?: string;
   public get cacheNodeType() {
     return this.getStringAttribute('cache_node_type');
   }
@@ -1631,7 +1631,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_parameter_group_name - computed: true, optional: true, required: false
-  private _cacheParameterGroupName?: string; 
+  private _cacheParameterGroupName?: string;
   public get cacheParameterGroupName() {
     return this.getStringAttribute('cache_parameter_group_name');
   }
@@ -1647,7 +1647,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_security_group_names - computed: true, optional: true, required: false
-  private _cacheSecurityGroupNames?: string[]; 
+  private _cacheSecurityGroupNames?: string[];
   public get cacheSecurityGroupNames() {
     return this.getListAttribute('cache_security_group_names');
   }
@@ -1663,7 +1663,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_subnet_group_name - computed: true, optional: true, required: false
-  private _cacheSubnetGroupName?: string; 
+  private _cacheSubnetGroupName?: string;
   public get cacheSubnetGroupName() {
     return this.getStringAttribute('cache_subnet_group_name');
   }
@@ -1679,7 +1679,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cluster_mode - computed: true, optional: true, required: false
-  private _clusterMode?: string; 
+  private _clusterMode?: string;
   public get clusterMode() {
     return this.getStringAttribute('cluster_mode');
   }
@@ -1701,7 +1701,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // data_tiering_enabled - computed: true, optional: true, required: false
-  private _dataTieringEnabled?: boolean | cdktn.IResolvable; 
+  private _dataTieringEnabled?: boolean | cdktn.IResolvable;
   public get dataTieringEnabled() {
     return this.getBooleanAttribute('data_tiering_enabled');
   }
@@ -1717,7 +1717,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // durability - computed: true, optional: true, required: false
-  private _durability?: string; 
+  private _durability?: string;
   public get durability() {
     return this.getStringAttribute('durability');
   }
@@ -1738,7 +1738,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -1754,7 +1754,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -1770,7 +1770,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_id - computed: true, optional: true, required: false
-  private _globalReplicationGroupId?: string; 
+  private _globalReplicationGroupId?: string;
   public get globalReplicationGroupId() {
     return this.getStringAttribute('global_replication_group_id');
   }
@@ -1791,7 +1791,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // ip_discovery - computed: true, optional: true, required: false
-  private _ipDiscovery?: string; 
+  private _ipDiscovery?: string;
   public get ipDiscovery() {
     return this.getStringAttribute('ip_discovery');
   }
@@ -1807,7 +1807,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1839,7 +1839,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // multi_az_enabled - computed: true, optional: true, required: false
-  private _multiAzEnabled?: boolean | cdktn.IResolvable; 
+  private _multiAzEnabled?: boolean | cdktn.IResolvable;
   public get multiAzEnabled() {
     return this.getBooleanAttribute('multi_az_enabled');
   }
@@ -1855,7 +1855,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string; 
+  private _networkType?: string;
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -1887,7 +1887,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // notification_topic_arn - computed: true, optional: true, required: false
-  private _notificationTopicArn?: string; 
+  private _notificationTopicArn?: string;
   public get notificationTopicArn() {
     return this.getStringAttribute('notification_topic_arn');
   }
@@ -1903,7 +1903,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // num_cache_clusters - computed: true, optional: true, required: false
-  private _numCacheClusters?: number; 
+  private _numCacheClusters?: number;
   public get numCacheClusters() {
     return this.getNumberAttribute('num_cache_clusters');
   }
@@ -1919,7 +1919,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // num_node_groups - computed: true, optional: true, required: false
-  private _numNodeGroups?: number; 
+  private _numNodeGroups?: number;
   public get numNodeGroups() {
     return this.getNumberAttribute('num_node_groups');
   }
@@ -1935,7 +1935,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1951,7 +1951,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // preferred_cache_cluster_a_zs - computed: true, optional: true, required: false
-  private _preferredCacheClusterAZs?: string[]; 
+  private _preferredCacheClusterAZs?: string[];
   public get preferredCacheClusterAZs() {
     return this.getListAttribute('preferred_cache_cluster_a_zs');
   }
@@ -1967,7 +1967,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1983,7 +1983,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // primary_cluster_id - computed: true, optional: true, required: false
-  private _primaryClusterId?: string; 
+  private _primaryClusterId?: string;
   public get primaryClusterId() {
     return this.getStringAttribute('primary_cluster_id');
   }
@@ -2017,7 +2017,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // replicas_per_node_group - computed: true, optional: true, required: false
-  private _replicasPerNodeGroup?: number; 
+  private _replicasPerNodeGroup?: number;
   public get replicasPerNodeGroup() {
     return this.getNumberAttribute('replicas_per_node_group');
   }
@@ -2033,7 +2033,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // replication_group_description - computed: false, optional: false, required: true
-  private _replicationGroupDescription?: string; 
+  private _replicationGroupDescription?: string;
   public get replicationGroupDescription() {
     return this.getStringAttribute('replication_group_description');
   }
@@ -2046,7 +2046,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // replication_group_id - computed: true, optional: true, required: false
-  private _replicationGroupId?: string; 
+  private _replicationGroupId?: string;
   public get replicationGroupId() {
     return this.getStringAttribute('replication_group_id');
   }
@@ -2062,7 +2062,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2078,7 +2078,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_arns - computed: true, optional: true, required: false
-  private _snapshotArns?: string[]; 
+  private _snapshotArns?: string[];
   public get snapshotArns() {
     return this.getListAttribute('snapshot_arns');
   }
@@ -2094,7 +2094,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: true, optional: true, required: false
-  private _snapshotName?: string; 
+  private _snapshotName?: string;
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -2110,7 +2110,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: true, optional: true, required: false
-  private _snapshotRetentionLimit?: number; 
+  private _snapshotRetentionLimit?: number;
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -2126,7 +2126,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_window - computed: true, optional: true, required: false
-  private _snapshotWindow?: string; 
+  private _snapshotWindow?: string;
   public get snapshotWindow() {
     return this.getStringAttribute('snapshot_window');
   }
@@ -2142,7 +2142,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshotting_cluster_id - computed: true, optional: true, required: false
-  private _snapshottingClusterId?: string; 
+  private _snapshottingClusterId?: string;
   public get snapshottingClusterId() {
     return this.getStringAttribute('snapshotting_cluster_id');
   }
@@ -2174,7 +2174,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // transit_encryption_enabled - computed: true, optional: true, required: false
-  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable; 
+  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable;
   public get transitEncryptionEnabled() {
     return this.getBooleanAttribute('transit_encryption_enabled');
   }
@@ -2190,7 +2190,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // transit_encryption_mode - computed: true, optional: true, required: false
-  private _transitEncryptionMode?: string; 
+  private _transitEncryptionMode?: string;
   public get transitEncryptionMode() {
     return this.getStringAttribute('transit_encryption_mode');
   }
@@ -2206,7 +2206,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // user_group_ids - computed: true, optional: true, required: false
-  private _userGroupIds?: string[]; 
+  private _userGroupIds?: string[];
   public get userGroupIds() {
     return this.getListAttribute('user_group_ids');
   }

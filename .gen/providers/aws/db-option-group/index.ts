@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktn from 'cdktn';
 
 export interface DbOptionGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#engine_name DbOptionGroup#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#engine_name DbOptionGroup#engine_name}
   */
   readonly engineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#id DbOptionGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#id DbOptionGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#major_engine_version DbOptionGroup#major_engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#major_engine_version DbOptionGroup#major_engine_version}
   */
   readonly majorEngineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#name DbOptionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#name DbOptionGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#name_prefix DbOptionGroup#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#name_prefix DbOptionGroup#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#option_group_description DbOptionGroup#option_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#option_group_description DbOptionGroup#option_group_description}
   */
   readonly optionGroupDescription?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#region DbOptionGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#region DbOptionGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#skip_destroy DbOptionGroup#skip_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#skip_destroy DbOptionGroup#skip_destroy}
   */
   readonly skipDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#tags DbOptionGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#tags DbOptionGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#tags_all DbOptionGroup#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#tags_all DbOptionGroup#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#option DbOptionGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#option DbOptionGroup#option}
   */
   readonly option?: DbOptionGroupOption[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#timeouts DbOptionGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#timeouts DbOptionGroup#timeouts}
   */
   readonly timeouts?: DbOptionGroupTimeouts;
 }
 export interface DbOptionGroupOptionOptionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#name DbOptionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#name DbOptionGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#value DbOptionGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#value DbOptionGroup#value}
   */
   readonly value: string;
 }
@@ -163,7 +163,7 @@ export class DbOptionGroupOptionOptionSettingsOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -176,7 +176,7 @@ export class DbOptionGroupOptionOptionSettingsOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -210,29 +210,29 @@ export class DbOptionGroupOptionOptionSettingsList extends cdktn.ComplexList {
 }
 export interface DbOptionGroupOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#db_security_group_memberships DbOptionGroup#db_security_group_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#db_security_group_memberships DbOptionGroup#db_security_group_memberships}
   */
   readonly dbSecurityGroupMemberships?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#option_name DbOptionGroup#option_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#option_name DbOptionGroup#option_name}
   */
   readonly optionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#port DbOptionGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#port DbOptionGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#version DbOptionGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#version DbOptionGroup#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#vpc_security_group_memberships DbOptionGroup#vpc_security_group_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#vpc_security_group_memberships DbOptionGroup#vpc_security_group_memberships}
   */
   readonly vpcSecurityGroupMemberships?: string[];
   /**
   * option_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#option_settings DbOptionGroup#option_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#option_settings DbOptionGroup#option_settings}
   */
   readonly optionSettings?: DbOptionGroupOptionOptionSettings[] | cdktn.IResolvable;
 }
@@ -376,7 +376,7 @@ export class DbOptionGroupOptionOutputReference extends cdktn.ComplexObject {
   }
 
   // db_security_group_memberships - computed: false, optional: true, required: false
-  private _dbSecurityGroupMemberships?: string[]; 
+  private _dbSecurityGroupMemberships?: string[];
   public get dbSecurityGroupMemberships() {
     return cdktn.Fn.tolist(this.getListAttribute('db_security_group_memberships'));
   }
@@ -392,7 +392,7 @@ export class DbOptionGroupOptionOutputReference extends cdktn.ComplexObject {
   }
 
   // option_name - computed: false, optional: false, required: true
-  private _optionName?: string; 
+  private _optionName?: string;
   public get optionName() {
     return this.getStringAttribute('option_name');
   }
@@ -405,7 +405,7 @@ export class DbOptionGroupOptionOutputReference extends cdktn.ComplexObject {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -421,7 +421,7 @@ export class DbOptionGroupOptionOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -437,7 +437,7 @@ export class DbOptionGroupOptionOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_security_group_memberships - computed: false, optional: true, required: false
-  private _vpcSecurityGroupMemberships?: string[]; 
+  private _vpcSecurityGroupMemberships?: string[];
   public get vpcSecurityGroupMemberships() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_memberships'));
   }
@@ -490,7 +490,7 @@ export class DbOptionGroupOptionList extends cdktn.ComplexList {
 }
 export interface DbOptionGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#delete DbOptionGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#delete DbOptionGroup#delete}
   */
   readonly delete?: string;
 }
@@ -567,7 +567,7 @@ export class DbOptionGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -584,7 +584,7 @@ export class DbOptionGroupTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group aws_db_option_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group aws_db_option_group}
 */
 export class DbOptionGroup extends cdktn.TerraformResource {
 
@@ -600,7 +600,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DbOptionGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbOptionGroup to import
-  * @param importFromId The id of the existing DbOptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbOptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbOptionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -612,7 +612,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_option_group aws_db_option_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_option_group aws_db_option_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -623,7 +623,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_db_option_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -657,7 +657,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // engine_name - computed: false, optional: false, required: true
-  private _engineName?: string; 
+  private _engineName?: string;
   public get engineName() {
     return this.getStringAttribute('engine_name');
   }
@@ -670,7 +670,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -686,7 +686,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // major_engine_version - computed: false, optional: false, required: true
-  private _majorEngineVersion?: string; 
+  private _majorEngineVersion?: string;
   public get majorEngineVersion() {
     return this.getStringAttribute('major_engine_version');
   }
@@ -699,7 +699,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -715,7 +715,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -731,7 +731,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // option_group_description - computed: false, optional: true, required: false
-  private _optionGroupDescription?: string; 
+  private _optionGroupDescription?: string;
   public get optionGroupDescription() {
     return this.getStringAttribute('option_group_description');
   }
@@ -747,7 +747,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -763,7 +763,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable; 
+  private _skipDestroy?: boolean | cdktn.IResolvable;
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -779,7 +779,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -795,7 +795,7 @@ export class DbOptionGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

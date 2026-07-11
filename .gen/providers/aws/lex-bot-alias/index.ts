@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktn from 'cdktn';
 
 export interface LexBotAliasConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#bot_name LexBotAlias#bot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#bot_name LexBotAlias#bot_name}
   */
   readonly botName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
   */
   readonly botVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#id LexBotAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#id LexBotAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#name LexBotAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#name LexBotAlias#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#region LexBotAlias#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#region LexBotAlias#region}
   */
   readonly region?: string;
   /**
   * conversation_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#conversation_logs LexBotAlias#conversation_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#conversation_logs LexBotAlias#conversation_logs}
   */
   readonly conversationLogs?: LexBotAliasConversationLogs;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#timeouts LexBotAlias#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#timeouts LexBotAlias#timeouts}
   */
   readonly timeouts?: LexBotAliasTimeouts;
 }
 export interface LexBotAliasConversationLogsLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#log_type LexBotAlias#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#log_type LexBotAlias#log_type}
   */
   readonly logType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#resource_arn LexBotAlias#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#resource_arn LexBotAlias#resource_arn}
   */
   readonly resourceArn: string;
 }
@@ -181,7 +181,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string; 
+  private _destination?: string;
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -194,7 +194,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -210,7 +210,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string; 
+  private _logType?: string;
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -223,7 +223,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -262,13 +262,13 @@ export class LexBotAliasConversationLogsLogSettingsList extends cdktn.ComplexLis
 }
 export interface LexBotAliasConversationLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#iam_role_arn LexBotAlias#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#iam_role_arn LexBotAlias#iam_role_arn}
   */
   readonly iamRoleArn: string;
   /**
   * log_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#log_settings LexBotAlias#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#log_settings LexBotAlias#log_settings}
   */
   readonly logSettings?: LexBotAliasConversationLogsLogSettings[] | cdktn.IResolvable;
 }
@@ -348,7 +348,7 @@ export class LexBotAliasConversationLogsOutputReference extends cdktn.ComplexObj
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -378,15 +378,15 @@ export class LexBotAliasConversationLogsOutputReference extends cdktn.ComplexObj
 }
 export interface LexBotAliasTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#create LexBotAlias#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#create LexBotAlias#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#delete LexBotAlias#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#delete LexBotAlias#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#update LexBotAlias#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#update LexBotAlias#update}
   */
   readonly update?: string;
 }
@@ -489,7 +489,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -505,7 +505,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -521,7 +521,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -538,7 +538,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias aws_lex_bot_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias aws_lex_bot_alias}
 */
 export class LexBotAlias extends cdktn.TerraformResource {
 
@@ -554,7 +554,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LexBotAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LexBotAlias to import
-  * @param importFromId The id of the existing LexBotAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LexBotAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LexBotAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -566,7 +566,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,7 +577,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lex_bot_alias',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -607,7 +607,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_name - computed: false, optional: false, required: true
-  private _botName?: string; 
+  private _botName?: string;
   public get botName() {
     return this.getStringAttribute('bot_name');
   }
@@ -620,7 +620,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string; 
+  private _botVersion?: string;
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -643,7 +643,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -659,7 +659,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -680,7 +680,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -693,7 +693,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

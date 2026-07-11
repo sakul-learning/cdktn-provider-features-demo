@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface BackupBackupSelectionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}
   */
   readonly backupPlanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}
   */
   readonly backupSelection: BackupBackupSelectionBackupSelection;
 }
 export interface BackupBackupSelectionBackupSelectionConditionsStringEquals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
   */
   readonly conditionValue?: string;
 }
@@ -114,7 +114,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputRef
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -130,7 +130,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputRef
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string; 
+  private _conditionValue?: string;
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -167,11 +167,11 @@ export class BackupBackupSelectionBackupSelectionConditionsStringEqualsList exte
 }
 export interface BackupBackupSelectionBackupSelectionConditionsStringLike {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
   */
   readonly conditionValue?: string;
 }
@@ -263,7 +263,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringLikeOutputRefer
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -279,7 +279,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringLikeOutputRefer
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string; 
+  private _conditionValue?: string;
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -316,11 +316,11 @@ export class BackupBackupSelectionBackupSelectionConditionsStringLikeList extend
 }
 export interface BackupBackupSelectionBackupSelectionConditionsStringNotEquals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
   */
   readonly conditionValue?: string;
 }
@@ -412,7 +412,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutput
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -428,7 +428,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutput
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string; 
+  private _conditionValue?: string;
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -465,11 +465,11 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotEqualsList e
 }
 export interface BackupBackupSelectionBackupSelectionConditionsStringNotLike {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
   */
   readonly conditionValue?: string;
 }
@@ -561,7 +561,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputRe
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -577,7 +577,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputRe
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string; 
+  private _conditionValue?: string;
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -614,19 +614,19 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotLikeList ext
 }
 export interface BackupBackupSelectionBackupSelectionConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}
   */
   readonly stringEquals?: BackupBackupSelectionBackupSelectionConditionsStringEquals[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}
   */
   readonly stringLike?: BackupBackupSelectionBackupSelectionConditionsStringLike[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}
   */
   readonly stringNotEquals?: BackupBackupSelectionBackupSelectionConditionsStringNotEquals[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}
   */
   readonly stringNotLike?: BackupBackupSelectionBackupSelectionConditionsStringNotLike[] | cdktn.IResolvable;
 }
@@ -807,15 +807,15 @@ export class BackupBackupSelectionBackupSelectionConditionsOutputReference exten
 }
 export interface BackupBackupSelectionBackupSelectionListOfTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}
   */
   readonly conditionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}
   */
   readonly conditionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}
   */
   readonly conditionValue?: string;
 }
@@ -920,7 +920,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string; 
+  private _conditionKey?: string;
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -936,7 +936,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_type - computed: true, optional: true, required: false
-  private _conditionType?: string; 
+  private _conditionType?: string;
   public get conditionType() {
     return this.getStringAttribute('condition_type');
   }
@@ -952,7 +952,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string; 
+  private _conditionValue?: string;
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -989,27 +989,27 @@ export class BackupBackupSelectionBackupSelectionListOfTagsList extends cdktn.Co
 }
 export interface BackupBackupSelectionBackupSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}
   */
   readonly conditions?: BackupBackupSelectionBackupSelectionConditions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}
   */
   readonly iamRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}
   */
   readonly listOfTags?: BackupBackupSelectionBackupSelectionListOfTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}
   */
   readonly notResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}
   */
   readonly selectionName: string;
 }
@@ -1167,7 +1167,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1196,7 +1196,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // not_resources - computed: true, optional: true, required: false
-  private _notResources?: string[]; 
+  private _notResources?: string[];
   public get notResources() {
     return this.getListAttribute('not_resources');
   }
@@ -1212,7 +1212,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1228,7 +1228,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // selection_name - computed: false, optional: false, required: true
-  private _selectionName?: string; 
+  private _selectionName?: string;
   public get selectionName() {
     return this.getStringAttribute('selection_name');
   }
@@ -1242,7 +1242,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection awscc_backup_backup_selection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection awscc_backup_backup_selection}
 */
 export class BackupBackupSelection extends cdktn.TerraformResource {
 
@@ -1258,7 +1258,7 @@ export class BackupBackupSelection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupBackupSelection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupBackupSelection to import
-  * @param importFromId The id of the existing BackupBackupSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupBackupSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupBackupSelection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1270,7 +1270,7 @@ export class BackupBackupSelection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_backup_selection awscc_backup_backup_selection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_backup_selection awscc_backup_backup_selection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1281,7 +1281,7 @@ export class BackupBackupSelection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_backup_backup_selection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1300,7 +1300,7 @@ export class BackupBackupSelection extends cdktn.TerraformResource {
   // ==========
 
   // backup_plan_id - computed: false, optional: false, required: true
-  private _backupPlanId?: string; 
+  private _backupPlanId?: string;
   public get backupPlanId() {
     return this.getStringAttribute('backup_plan_id');
   }

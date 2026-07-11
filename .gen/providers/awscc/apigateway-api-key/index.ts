@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayApiKeyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#customer_id ApigatewayApiKey#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#customer_id ApigatewayApiKey#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#description ApigatewayApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#description ApigatewayApiKey#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#enabled ApigatewayApiKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#enabled ApigatewayApiKey#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#generate_distinct_id ApigatewayApiKey#generate_distinct_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#generate_distinct_id ApigatewayApiKey#generate_distinct_id}
   */
   readonly generateDistinctId?: boolean | cdktn.IResolvable;
   /**
   * A name for the API key. If you don't specify a name, CFN generates a unique physical ID and uses that ID for the API key name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
   *   If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#name ApigatewayApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#name ApigatewayApiKey#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#stage_keys ApigatewayApiKey#stage_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#stage_keys ApigatewayApiKey#stage_keys}
   */
   readonly stageKeys?: ApigatewayApiKeyStageKeys[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#tags ApigatewayApiKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#tags ApigatewayApiKey#tags}
   */
   readonly tags?: ApigatewayApiKeyTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#value ApigatewayApiKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#value ApigatewayApiKey#value}
   */
   readonly value?: string;
 }
 export interface ApigatewayApiKeyStageKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#rest_api_id ApigatewayApiKey#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#rest_api_id ApigatewayApiKey#rest_api_id}
   */
   readonly restApiId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#stage_name ApigatewayApiKey#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#stage_name ApigatewayApiKey#stage_name}
   */
   readonly stageName?: string;
 }
@@ -141,7 +141,7 @@ export class ApigatewayApiKeyStageKeysOutputReference extends cdktn.ComplexObjec
   }
 
   // rest_api_id - computed: true, optional: true, required: false
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -157,7 +157,7 @@ export class ApigatewayApiKeyStageKeysOutputReference extends cdktn.ComplexObjec
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string; 
+  private _stageName?: string;
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -196,13 +196,13 @@ export interface ApigatewayApiKeyTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#key ApigatewayApiKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#key ApigatewayApiKey#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#value ApigatewayApiKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#value ApigatewayApiKey#value}
   */
   readonly value?: string;
 }
@@ -294,7 +294,7 @@ export class ApigatewayApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class ApigatewayApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -347,7 +347,7 @@ export class ApigatewayApiKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key awscc_apigateway_api_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key awscc_apigateway_api_key}
 */
 export class ApigatewayApiKey extends cdktn.TerraformResource {
 
@@ -363,7 +363,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayApiKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayApiKey to import
-  * @param importFromId The id of the existing ApigatewayApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -375,7 +375,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,7 +386,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_api_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -416,7 +416,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // customer_id - computed: true, optional: true, required: false
-  private _customerId?: string; 
+  private _customerId?: string;
   public get customerId() {
     return this.getStringAttribute('customer_id');
   }
@@ -432,7 +432,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -448,7 +448,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -464,7 +464,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // generate_distinct_id - computed: true, optional: true, required: false
-  private _generateDistinctId?: boolean | cdktn.IResolvable; 
+  private _generateDistinctId?: boolean | cdktn.IResolvable;
   public get generateDistinctId() {
     return this.getBooleanAttribute('generate_distinct_id');
   }
@@ -485,7 +485,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -533,7 +533,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }

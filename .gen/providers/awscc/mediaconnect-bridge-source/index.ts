@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MediaconnectBridgeSourceConfig extends cdktn.TerraformMetaArgum
   /**
   * The Amazon Resource Number (ARN) of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#bridge_arn MediaconnectBridgeSource#bridge_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#bridge_arn MediaconnectBridgeSource#bridge_arn}
   */
   readonly bridgeArn: string;
   /**
   * The source of the bridge. A flow source originates in MediaConnect as an existing cloud flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#flow_source MediaconnectBridgeSource#flow_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#flow_source MediaconnectBridgeSource#flow_source}
   */
   readonly flowSource?: MediaconnectBridgeSourceFlowSource;
   /**
   * The name of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#name MediaconnectBridgeSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#name MediaconnectBridgeSource#name}
   */
   readonly name: string;
   /**
   * The source of the bridge. A network source originates at your premises.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#network_source MediaconnectBridgeSource#network_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#network_source MediaconnectBridgeSource#network_source}
   */
   readonly networkSource?: MediaconnectBridgeSourceNetworkSource;
 }
@@ -36,7 +36,7 @@ export interface MediaconnectBridgeSourceFlowSourceFlowVpcInterfaceAttachment {
   /**
   * The name of the VPC interface to use for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#vpc_interface_name MediaconnectBridgeSource#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#vpc_interface_name MediaconnectBridgeSource#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
 }
@@ -113,7 +113,7 @@ export class MediaconnectBridgeSourceFlowSourceFlowVpcInterfaceAttachmentOutputR
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string; 
+  private _vpcInterfaceName?: string;
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -132,13 +132,13 @@ export interface MediaconnectBridgeSourceFlowSource {
   /**
   * The ARN of the cloud flow used as a source of this bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#flow_arn MediaconnectBridgeSource#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#flow_arn MediaconnectBridgeSource#flow_arn}
   */
   readonly flowArn?: string;
   /**
   * The name of the VPC interface attachment to use for this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#flow_vpc_interface_attachment MediaconnectBridgeSource#flow_vpc_interface_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#flow_vpc_interface_attachment MediaconnectBridgeSource#flow_vpc_interface_attachment}
   */
   readonly flowVpcInterfaceAttachment?: MediaconnectBridgeSourceFlowSourceFlowVpcInterfaceAttachment;
 }
@@ -228,7 +228,7 @@ export class MediaconnectBridgeSourceFlowSourceOutputReference extends cdktn.Com
   }
 
   // flow_arn - computed: true, optional: true, required: false
-  private _flowArn?: string; 
+  private _flowArn?: string;
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -263,7 +263,7 @@ export interface MediaconnectBridgeSourceNetworkSourceMulticastSourceSettings {
   /**
   * The IP address of the source for source-specific multicast (SSM).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#multicast_source_ip MediaconnectBridgeSource#multicast_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#multicast_source_ip MediaconnectBridgeSource#multicast_source_ip}
   */
   readonly multicastSourceIp?: string;
 }
@@ -340,7 +340,7 @@ export class MediaconnectBridgeSourceNetworkSourceMulticastSourceSettingsOutputR
   }
 
   // multicast_source_ip - computed: true, optional: true, required: false
-  private _multicastSourceIp?: string; 
+  private _multicastSourceIp?: string;
   public get multicastSourceIp() {
     return this.getStringAttribute('multicast_source_ip');
   }
@@ -359,31 +359,31 @@ export interface MediaconnectBridgeSourceNetworkSource {
   /**
   * The network source multicast IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#multicast_ip MediaconnectBridgeSource#multicast_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#multicast_ip MediaconnectBridgeSource#multicast_ip}
   */
   readonly multicastIp?: string;
   /**
   * The settings related to the multicast source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#multicast_source_settings MediaconnectBridgeSource#multicast_source_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#multicast_source_settings MediaconnectBridgeSource#multicast_source_settings}
   */
   readonly multicastSourceSettings?: MediaconnectBridgeSourceNetworkSourceMulticastSourceSettings;
   /**
   * The network source's gateway network name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#network_name MediaconnectBridgeSource#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#network_name MediaconnectBridgeSource#network_name}
   */
   readonly networkName?: string;
   /**
   * The network source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#port MediaconnectBridgeSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#port MediaconnectBridgeSource#port}
   */
   readonly port?: number;
   /**
   * The network source protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#protocol MediaconnectBridgeSource#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#protocol MediaconnectBridgeSource#protocol}
   */
   readonly protocol?: string;
 }
@@ -512,7 +512,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // multicast_ip - computed: true, optional: true, required: false
-  private _multicastIp?: string; 
+  private _multicastIp?: string;
   public get multicastIp() {
     return this.getStringAttribute('multicast_ip');
   }
@@ -544,7 +544,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // network_name - computed: true, optional: true, required: false
-  private _networkName?: string; 
+  private _networkName?: string;
   public get networkName() {
     return this.getStringAttribute('network_name');
   }
@@ -560,7 +560,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -576,7 +576,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -593,7 +593,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source}
 */
 export class MediaconnectBridgeSource extends cdktn.TerraformResource {
 
@@ -609,7 +609,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectBridgeSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectBridgeSource to import
-  * @param importFromId The id of the existing MediaconnectBridgeSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectBridgeSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectBridgeSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -621,7 +621,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -632,7 +632,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_bridge_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -653,7 +653,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   // ==========
 
   // bridge_arn - computed: false, optional: false, required: true
-  private _bridgeArn?: string; 
+  private _bridgeArn?: string;
   public get bridgeArn() {
     return this.getStringAttribute('bridge_arn');
   }
@@ -687,7 +687,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

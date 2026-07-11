@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface ConnectWorkspaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The resource ARNs associated with the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
   */
   readonly associations?: string[];
   /**
   * The description of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The media items for the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
   */
   readonly media?: ConnectWorkspaceMedia[] | cdktn.IResolvable;
   /**
   * The name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
   */
   readonly name: string;
   /**
   * The pages associated with the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
   */
   readonly pages?: ConnectWorkspacePages[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
   */
   readonly tags?: ConnectWorkspaceTags[] | cdktn.IResolvable;
   /**
   * The theme configuration for the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
   */
   readonly theme?: ConnectWorkspaceTheme;
   /**
   * The title of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
   */
   readonly title?: string;
   /**
   * The visibility of the workspace. Will always be set to ASSIGNED oninitial creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
   */
   readonly visibility?: string;
 }
 export interface ConnectWorkspaceMedia {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#source ConnectWorkspace#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#source ConnectWorkspace#source}
   */
   readonly source?: string;
   /**
   * The type of media
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#type ConnectWorkspace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#type ConnectWorkspace#type}
   */
   readonly type?: string;
 }
@@ -168,7 +168,7 @@ export class ConnectWorkspaceMediaOutputReference extends cdktn.ComplexObject {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -184,7 +184,7 @@ export class ConnectWorkspaceMediaOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -223,25 +223,25 @@ export interface ConnectWorkspacePages {
   /**
   * The input data for the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#input_data ConnectWorkspace#input_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#input_data ConnectWorkspace#input_data}
   */
   readonly inputData?: string;
   /**
   * The page identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#page ConnectWorkspace#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#page ConnectWorkspace#page}
   */
   readonly page?: string;
   /**
   * The Amazon Resource Name (ARN) of the resource associated with the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#resource_arn ConnectWorkspace#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#resource_arn ConnectWorkspace#resource_arn}
   */
   readonly resourceArn?: string;
   /**
   * The slug for the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#slug ConnectWorkspace#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#slug ConnectWorkspace#slug}
   */
   readonly slug?: string;
 }
@@ -359,7 +359,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // input_data - computed: true, optional: true, required: false
-  private _inputData?: string; 
+  private _inputData?: string;
   public get inputData() {
     return this.getStringAttribute('input_data');
   }
@@ -375,7 +375,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // page - computed: true, optional: true, required: false
-  private _page?: string; 
+  private _page?: string;
   public get page() {
     return this.getStringAttribute('page');
   }
@@ -391,7 +391,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -407,7 +407,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // slug - computed: true, optional: true, required: false
-  private _slug?: string; 
+  private _slug?: string;
   public get slug() {
     return this.getStringAttribute('slug');
   }
@@ -446,13 +446,13 @@ export interface ConnectWorkspaceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#key ConnectWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#key ConnectWorkspace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#value ConnectWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#value ConnectWorkspace#value}
   */
   readonly value?: string;
 }
@@ -544,7 +544,7 @@ export class ConnectWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -560,7 +560,7 @@ export class ConnectWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -597,15 +597,15 @@ export class ConnectWorkspaceTagsList extends cdktn.ComplexList {
 }
 export interface ConnectWorkspaceThemeDarkPaletteCanvas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}
   */
   readonly activeBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}
   */
   readonly containerBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}
   */
   readonly pageBackground?: string;
 }
@@ -708,7 +708,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // active_background - computed: true, optional: true, required: false
-  private _activeBackground?: string; 
+  private _activeBackground?: string;
   public get activeBackground() {
     return this.getStringAttribute('active_background');
   }
@@ -724,7 +724,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // container_background - computed: true, optional: true, required: false
-  private _containerBackground?: string; 
+  private _containerBackground?: string;
   public get containerBackground() {
     return this.getStringAttribute('container_background');
   }
@@ -740,7 +740,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // page_background - computed: true, optional: true, required: false
-  private _pageBackground?: string; 
+  private _pageBackground?: string;
   public get pageBackground() {
     return this.getStringAttribute('page_background');
   }
@@ -757,19 +757,19 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
 }
 export interface ConnectWorkspaceThemeDarkPaletteHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
   */
   readonly background?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
   */
   readonly invertActionsColors?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
   */
   readonly textHover?: string;
 }
@@ -885,7 +885,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string; 
+  private _background?: string;
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -901,7 +901,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable; 
+  private _invertActionsColors?: boolean | cdktn.IResolvable;
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -917,7 +917,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -933,7 +933,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string; 
+  private _textHover?: string;
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -950,31 +950,31 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
 }
 export interface ConnectWorkspaceThemeDarkPaletteNavigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
   */
   readonly background?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
   */
   readonly invertActionsColors?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}
   */
   readonly textActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}
   */
   readonly textBackgroundActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}
   */
   readonly textBackgroundHover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
   */
   readonly textHover?: string;
 }
@@ -1129,7 +1129,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string; 
+  private _background?: string;
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -1145,7 +1145,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable; 
+  private _invertActionsColors?: boolean | cdktn.IResolvable;
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -1161,7 +1161,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1177,7 +1177,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_active - computed: true, optional: true, required: false
-  private _textActive?: string; 
+  private _textActive?: string;
   public get textActive() {
     return this.getStringAttribute('text_active');
   }
@@ -1193,7 +1193,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_background_active - computed: true, optional: true, required: false
-  private _textBackgroundActive?: string; 
+  private _textBackgroundActive?: string;
   public get textBackgroundActive() {
     return this.getStringAttribute('text_background_active');
   }
@@ -1209,7 +1209,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_background_hover - computed: true, optional: true, required: false
-  private _textBackgroundHover?: string; 
+  private _textBackgroundHover?: string;
   public get textBackgroundHover() {
     return this.getStringAttribute('text_background_hover');
   }
@@ -1225,7 +1225,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string; 
+  private _textHover?: string;
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -1242,15 +1242,15 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
 }
 export interface ConnectWorkspaceThemeDarkPalettePrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#active ConnectWorkspace#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#active ConnectWorkspace#active}
   */
   readonly active?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}
   */
   readonly contrastText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
   */
   readonly default?: string;
 }
@@ -1353,7 +1353,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: string; 
+  private _active?: string;
   public get active() {
     return this.getStringAttribute('active');
   }
@@ -1369,7 +1369,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // contrast_text - computed: true, optional: true, required: false
-  private _contrastText?: string; 
+  private _contrastText?: string;
   public get contrastText() {
     return this.getStringAttribute('contrast_text');
   }
@@ -1385,7 +1385,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string; 
+  private _default?: string;
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -1402,19 +1402,19 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
 }
 export interface ConnectWorkspaceThemeDarkPalette {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}
   */
   readonly canvas?: ConnectWorkspaceThemeDarkPaletteCanvas;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#header ConnectWorkspace#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#header ConnectWorkspace#header}
   */
   readonly header?: ConnectWorkspaceThemeDarkPaletteHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}
   */
   readonly navigation?: ConnectWorkspaceThemeDarkPaletteNavigation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}
   */
   readonly primary?: ConnectWorkspaceThemeDarkPalettePrimary;
 }
@@ -1595,7 +1595,7 @@ export class ConnectWorkspaceThemeDarkPaletteOutputReference extends cdktn.Compl
 }
 export interface ConnectWorkspaceThemeDarkTypographyFontFamily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
   */
   readonly default?: string;
 }
@@ -1672,7 +1672,7 @@ export class ConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference extend
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string; 
+  private _default?: string;
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -1689,7 +1689,7 @@ export class ConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference extend
 }
 export interface ConnectWorkspaceThemeDarkTypography {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}
   */
   readonly fontFamily?: ConnectWorkspaceThemeDarkTypographyFontFamily;
 }
@@ -1783,11 +1783,11 @@ export class ConnectWorkspaceThemeDarkTypographyOutputReference extends cdktn.Co
 }
 export interface ConnectWorkspaceThemeDark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}
   */
   readonly palette?: ConnectWorkspaceThemeDarkPalette;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}
   */
   readonly typography?: ConnectWorkspaceThemeDarkTypography;
 }
@@ -1910,15 +1910,15 @@ export class ConnectWorkspaceThemeDarkOutputReference extends cdktn.ComplexObjec
 }
 export interface ConnectWorkspaceThemeLightPaletteCanvas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}
   */
   readonly activeBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}
   */
   readonly containerBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}
   */
   readonly pageBackground?: string;
 }
@@ -2021,7 +2021,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // active_background - computed: true, optional: true, required: false
-  private _activeBackground?: string; 
+  private _activeBackground?: string;
   public get activeBackground() {
     return this.getStringAttribute('active_background');
   }
@@ -2037,7 +2037,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // container_background - computed: true, optional: true, required: false
-  private _containerBackground?: string; 
+  private _containerBackground?: string;
   public get containerBackground() {
     return this.getStringAttribute('container_background');
   }
@@ -2053,7 +2053,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // page_background - computed: true, optional: true, required: false
-  private _pageBackground?: string; 
+  private _pageBackground?: string;
   public get pageBackground() {
     return this.getStringAttribute('page_background');
   }
@@ -2070,19 +2070,19 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
 }
 export interface ConnectWorkspaceThemeLightPaletteHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
   */
   readonly background?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
   */
   readonly invertActionsColors?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
   */
   readonly textHover?: string;
 }
@@ -2198,7 +2198,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string; 
+  private _background?: string;
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -2214,7 +2214,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable; 
+  private _invertActionsColors?: boolean | cdktn.IResolvable;
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -2230,7 +2230,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2246,7 +2246,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string; 
+  private _textHover?: string;
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -2263,31 +2263,31 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
 }
 export interface ConnectWorkspaceThemeLightPaletteNavigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#background ConnectWorkspace#background}
   */
   readonly background?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}
   */
   readonly invertActionsColors?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text ConnectWorkspace#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}
   */
   readonly textActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}
   */
   readonly textBackgroundActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}
   */
   readonly textBackgroundHover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}
   */
   readonly textHover?: string;
 }
@@ -2442,7 +2442,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string; 
+  private _background?: string;
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -2458,7 +2458,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable; 
+  private _invertActionsColors?: boolean | cdktn.IResolvable;
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -2474,7 +2474,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2490,7 +2490,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_active - computed: true, optional: true, required: false
-  private _textActive?: string; 
+  private _textActive?: string;
   public get textActive() {
     return this.getStringAttribute('text_active');
   }
@@ -2506,7 +2506,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_background_active - computed: true, optional: true, required: false
-  private _textBackgroundActive?: string; 
+  private _textBackgroundActive?: string;
   public get textBackgroundActive() {
     return this.getStringAttribute('text_background_active');
   }
@@ -2522,7 +2522,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_background_hover - computed: true, optional: true, required: false
-  private _textBackgroundHover?: string; 
+  private _textBackgroundHover?: string;
   public get textBackgroundHover() {
     return this.getStringAttribute('text_background_hover');
   }
@@ -2538,7 +2538,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string; 
+  private _textHover?: string;
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -2555,15 +2555,15 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
 }
 export interface ConnectWorkspaceThemeLightPalettePrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#active ConnectWorkspace#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#active ConnectWorkspace#active}
   */
   readonly active?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}
   */
   readonly contrastText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
   */
   readonly default?: string;
 }
@@ -2666,7 +2666,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: string; 
+  private _active?: string;
   public get active() {
     return this.getStringAttribute('active');
   }
@@ -2682,7 +2682,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // contrast_text - computed: true, optional: true, required: false
-  private _contrastText?: string; 
+  private _contrastText?: string;
   public get contrastText() {
     return this.getStringAttribute('contrast_text');
   }
@@ -2698,7 +2698,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string; 
+  private _default?: string;
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -2715,19 +2715,19 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
 }
 export interface ConnectWorkspaceThemeLightPalette {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}
   */
   readonly canvas?: ConnectWorkspaceThemeLightPaletteCanvas;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#header ConnectWorkspace#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#header ConnectWorkspace#header}
   */
   readonly header?: ConnectWorkspaceThemeLightPaletteHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}
   */
   readonly navigation?: ConnectWorkspaceThemeLightPaletteNavigation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}
   */
   readonly primary?: ConnectWorkspaceThemeLightPalettePrimary;
 }
@@ -2908,7 +2908,7 @@ export class ConnectWorkspaceThemeLightPaletteOutputReference extends cdktn.Comp
 }
 export interface ConnectWorkspaceThemeLightTypographyFontFamily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#default ConnectWorkspace#default}
   */
   readonly default?: string;
 }
@@ -2985,7 +2985,7 @@ export class ConnectWorkspaceThemeLightTypographyFontFamilyOutputReference exten
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string; 
+  private _default?: string;
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -3002,7 +3002,7 @@ export class ConnectWorkspaceThemeLightTypographyFontFamilyOutputReference exten
 }
 export interface ConnectWorkspaceThemeLightTypography {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}
   */
   readonly fontFamily?: ConnectWorkspaceThemeLightTypographyFontFamily;
 }
@@ -3096,11 +3096,11 @@ export class ConnectWorkspaceThemeLightTypographyOutputReference extends cdktn.C
 }
 export interface ConnectWorkspaceThemeLight {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}
   */
   readonly palette?: ConnectWorkspaceThemeLightPalette;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}
   */
   readonly typography?: ConnectWorkspaceThemeLightTypography;
 }
@@ -3223,11 +3223,11 @@ export class ConnectWorkspaceThemeLightOutputReference extends cdktn.ComplexObje
 }
 export interface ConnectWorkspaceTheme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}
   */
   readonly dark?: ConnectWorkspaceThemeDark;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#light ConnectWorkspace#light}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#light ConnectWorkspace#light}
   */
   readonly light?: ConnectWorkspaceThemeLight;
 }
@@ -3350,7 +3350,7 @@ export class ConnectWorkspaceThemeOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace awscc_connect_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace awscc_connect_workspace}
 */
 export class ConnectWorkspace extends cdktn.TerraformResource {
 
@@ -3366,7 +3366,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectWorkspace to import
-  * @param importFromId The id of the existing ConnectWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3378,7 +3378,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_workspace awscc_connect_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_workspace awscc_connect_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3389,7 +3389,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3421,7 +3421,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // associations - computed: true, optional: true, required: false
-  private _associations?: string[]; 
+  private _associations?: string[];
   public get associations() {
     return this.getListAttribute('associations');
   }
@@ -3437,7 +3437,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3458,7 +3458,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -3487,7 +3487,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3548,7 +3548,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3564,7 +3564,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // visibility - computed: true, optional: true, required: false
-  private _visibility?: string; 
+  private _visibility?: string;
   public get visibility() {
     return this.getStringAttribute('visibility');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktn from 'cdktn';
 
 export interface SignerSigningProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#id SignerSigningProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#id SignerSigningProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#name SignerSigningProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#name SignerSigningProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#name_prefix SignerSigningProfile#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#name_prefix SignerSigningProfile#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
   */
   readonly platformId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#region SignerSigningProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#region SignerSigningProfile#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#signing_parameters SignerSigningProfile#signing_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#signing_parameters SignerSigningProfile#signing_parameters}
   */
   readonly signingParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#tags_all SignerSigningProfile#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#tags_all SignerSigningProfile#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * signature_validity_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
   */
   readonly signatureValidityPeriod?: SignerSigningProfileSignatureValidityPeriod;
   /**
   * signing_material block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#signing_material SignerSigningProfile#signing_material}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#signing_material SignerSigningProfile#signing_material}
   */
   readonly signingMaterial?: SignerSigningProfileSigningMaterial;
 }
@@ -144,11 +144,11 @@ export class SignerSigningProfileRevocationRecordList extends cdktn.ComplexList 
 }
 export interface SignerSigningProfileSignatureValidityPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}
   */
   readonly value: number;
 }
@@ -228,7 +228,7 @@ export class SignerSigningProfileSignatureValidityPeriodOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -241,7 +241,7 @@ export class SignerSigningProfileSignatureValidityPeriodOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -255,7 +255,7 @@ export class SignerSigningProfileSignatureValidityPeriodOutputReference extends 
 }
 export interface SignerSigningProfileSigningMaterial {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#certificate_arn SignerSigningProfile#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#certificate_arn SignerSigningProfile#certificate_arn}
   */
   readonly certificateArn: string;
 }
@@ -322,7 +322,7 @@ export class SignerSigningProfileSigningMaterialOutputReference extends cdktn.Co
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -336,7 +336,7 @@ export class SignerSigningProfileSigningMaterialOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile aws_signer_signing_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile aws_signer_signing_profile}
 */
 export class SignerSigningProfile extends cdktn.TerraformResource {
 
@@ -352,7 +352,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SignerSigningProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SignerSigningProfile to import
-  * @param importFromId The id of the existing SignerSigningProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SignerSigningProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SignerSigningProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -364,7 +364,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,7 +375,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
       terraformResourceType: 'aws_signer_signing_profile',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -407,7 +407,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -423,7 +423,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -439,7 +439,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -460,7 +460,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // platform_id - computed: false, optional: false, required: true
-  private _platformId?: string; 
+  private _platformId?: string;
   public get platformId() {
     return this.getStringAttribute('platform_id');
   }
@@ -473,7 +473,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -495,7 +495,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // signing_parameters - computed: false, optional: true, required: false
-  private _signingParameters?: { [key: string]: string }; 
+  private _signingParameters?: { [key: string]: string };
   public get signingParameters() {
     return this.getStringMapAttribute('signing_parameters');
   }
@@ -516,7 +516,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -532,7 +532,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

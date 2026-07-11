@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface Ec2NetworkInterfaceAttachmentConfig extends cdktn.TerraformMeta
   /**
   * Whether to delete the network interface when the instance terminates. By default, this value is set to ``true``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#delete_on_termination Ec2NetworkInterfaceAttachment#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#delete_on_termination Ec2NetworkInterfaceAttachment#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
   * The network interface's position in the attachment order. For example, the first attached network interface has a ``DeviceIndex`` of 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#device_index Ec2NetworkInterfaceAttachment#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#device_index Ec2NetworkInterfaceAttachment#device_index}
   */
   readonly deviceIndex: string;
   /**
   * The number of ENA queues created with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#ena_queue_count Ec2NetworkInterfaceAttachment#ena_queue_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#ena_queue_count Ec2NetworkInterfaceAttachment#ena_queue_count}
   */
   readonly enaQueueCount?: number;
   /**
   * Configures ENA Express for the network interface that this action attaches to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#ena_srd_specification Ec2NetworkInterfaceAttachment#ena_srd_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#ena_srd_specification Ec2NetworkInterfaceAttachment#ena_srd_specification}
   */
   readonly enaSrdSpecification?: Ec2NetworkInterfaceAttachmentEnaSrdSpecification;
   /**
   * The ID of the instance to which you will attach the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#instance_id Ec2NetworkInterfaceAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#instance_id Ec2NetworkInterfaceAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The ID of the ENI that you want to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#network_interface_id Ec2NetworkInterfaceAttachment#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#network_interface_id Ec2NetworkInterfaceAttachment#network_interface_id}
   */
   readonly networkInterfaceId: string;
 }
 export interface Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}
   */
   readonly enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
 }
@@ -123,7 +123,7 @@ export class Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecificat
   }
 
   // ena_srd_udp_enabled - computed: true, optional: true, required: false
-  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable; 
+  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
   public get enaSrdUdpEnabled() {
     return this.getBooleanAttribute('ena_srd_udp_enabled');
   }
@@ -142,13 +142,13 @@ export interface Ec2NetworkInterfaceAttachmentEnaSrdSpecification {
   /**
   * Indicates whether ENA Express is enabled for the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#ena_srd_enabled Ec2NetworkInterfaceAttachment#ena_srd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#ena_srd_enabled Ec2NetworkInterfaceAttachment#ena_srd_enabled}
   */
   readonly enaSrdEnabled?: boolean | cdktn.IResolvable;
   /**
   * Configures ENA Express for UDP network traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_specification Ec2NetworkInterfaceAttachment#ena_srd_udp_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_specification Ec2NetworkInterfaceAttachment#ena_srd_udp_specification}
   */
   readonly enaSrdUdpSpecification?: Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification;
 }
@@ -238,7 +238,7 @@ export class Ec2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference ext
   }
 
   // ena_srd_enabled - computed: true, optional: true, required: false
-  private _enaSrdEnabled?: boolean | cdktn.IResolvable; 
+  private _enaSrdEnabled?: boolean | cdktn.IResolvable;
   public get enaSrdEnabled() {
     return this.getBooleanAttribute('ena_srd_enabled');
   }
@@ -271,7 +271,7 @@ export class Ec2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}
 */
 export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
 
@@ -287,7 +287,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2NetworkInterfaceAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkInterfaceAttachment to import
-  * @param importFromId The id of the existing Ec2NetworkInterfaceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkInterfaceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkInterfaceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -299,7 +299,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,7 +310,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_network_interface_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -338,7 +338,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -354,7 +354,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // device_index - computed: false, optional: false, required: true
-  private _deviceIndex?: string; 
+  private _deviceIndex?: string;
   public get deviceIndex() {
     return this.getStringAttribute('device_index');
   }
@@ -367,7 +367,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // ena_queue_count - computed: true, optional: true, required: false
-  private _enaQueueCount?: number; 
+  private _enaQueueCount?: number;
   public get enaQueueCount() {
     return this.getNumberAttribute('ena_queue_count');
   }
@@ -404,7 +404,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -417,7 +417,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string; 
+  private _networkInterfaceId?: string;
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }

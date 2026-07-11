@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightIngestionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#aws_account_id QuicksightIngestion#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#aws_account_id QuicksightIngestion#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#data_set_id QuicksightIngestion#data_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#data_set_id QuicksightIngestion#data_set_id}
   */
   readonly dataSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#ingestion_id QuicksightIngestion#ingestion_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#ingestion_id QuicksightIngestion#ingestion_id}
   */
   readonly ingestionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#ingestion_type QuicksightIngestion#ingestion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#ingestion_type QuicksightIngestion#ingestion_type}
   */
   readonly ingestionType: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#region QuicksightIngestion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#region QuicksightIngestion#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}
 */
 export class QuicksightIngestion extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightIngestion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightIngestion to import
-  * @param importFromId The id of the existing QuicksightIngestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightIngestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightIngestion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_ingestion',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,7 +98,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -114,7 +114,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string; 
+  private _dataSetId?: string;
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -132,7 +132,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // ingestion_id - computed: false, optional: false, required: true
-  private _ingestionId?: string; 
+  private _ingestionId?: string;
   public get ingestionId() {
     return this.getStringAttribute('ingestion_id');
   }
@@ -150,7 +150,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // ingestion_type - computed: false, optional: false, required: true
-  private _ingestionType?: string; 
+  private _ingestionType?: string;
   public get ingestionType() {
     return this.getStringAttribute('ingestion_type');
   }
@@ -163,7 +163,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

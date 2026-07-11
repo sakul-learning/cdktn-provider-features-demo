@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface ApptestTestCaseConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#description ApptestTestCase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#description ApptestTestCase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#steps ApptestTestCase#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#steps ApptestTestCase#steps}
   */
   readonly steps: ApptestTestCaseSteps[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#tags ApptestTestCase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#tags ApptestTestCase#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -85,23 +85,23 @@ export class ApptestTestCaseLatestVersionOutputReference extends cdktn.ComplexOb
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#ccsid ApptestTestCase#ccsid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#ccsid ApptestTestCase#ccsid}
   */
   readonly ccsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#format ApptestTestCase#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#format ApptestTestCase#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#length ApptestTestCase#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#length ApptestTestCase#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
   */
   readonly type?: string;
 }
@@ -232,7 +232,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // ccsid - computed: true, optional: true, required: false
-  private _ccsid?: string; 
+  private _ccsid?: string;
   public get ccsid() {
     return this.getStringAttribute('ccsid');
   }
@@ -248,7 +248,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -264,7 +264,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // length - computed: true, optional: true, required: false
-  private _length?: number; 
+  private _length?: number;
   public get length() {
     return this.getNumberAttribute('length');
   }
@@ -280,7 +280,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -296,7 +296,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -333,11 +333,11 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#capture_tool ApptestTestCase#capture_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#capture_tool ApptestTestCase#capture_tool}
   */
   readonly captureTool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
   */
   readonly type?: string;
 }
@@ -427,7 +427,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // capture_tool - computed: true, optional: true, required: false
-  private _captureTool?: string; 
+  private _captureTool?: string;
   public get captureTool() {
     return this.getStringAttribute('capture_tool');
   }
@@ -443,7 +443,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -460,11 +460,11 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#capture_tool ApptestTestCase#capture_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#capture_tool ApptestTestCase#capture_tool}
   */
   readonly captureTool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
   */
   readonly type?: string;
 }
@@ -554,7 +554,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // capture_tool - computed: true, optional: true, required: false
-  private _captureTool?: string; 
+  private _captureTool?: string;
   public get captureTool() {
     return this.getStringAttribute('capture_tool');
   }
@@ -570,7 +570,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -587,11 +587,11 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#source_metadata ApptestTestCase#source_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#source_metadata ApptestTestCase#source_metadata}
   */
   readonly sourceMetadata?: ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#target_metadata ApptestTestCase#target_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#target_metadata ApptestTestCase#target_metadata}
   */
   readonly targetMetadata?: ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadata;
 }
@@ -714,11 +714,11 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFileFileMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#data_sets ApptestTestCase#data_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#data_sets ApptestTestCase#data_sets}
   */
   readonly dataSets?: ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#database_cdc ApptestTestCase#database_cdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#database_cdc ApptestTestCase#database_cdc}
   */
   readonly databaseCdc?: ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdc;
 }
@@ -841,15 +841,15 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataOutputR
 }
 export interface ApptestTestCaseStepsActionCompareActionInputFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#file_metadata ApptestTestCase#file_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#file_metadata ApptestTestCase#file_metadata}
   */
   readonly fileMetadata?: ApptestTestCaseStepsActionCompareActionInputFileFileMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#source_location ApptestTestCase#source_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#source_location ApptestTestCase#source_location}
   */
   readonly sourceLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#target_location ApptestTestCase#target_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#target_location ApptestTestCase#target_location}
   */
   readonly targetLocation?: string;
 }
@@ -968,7 +968,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileOutputReference ext
   }
 
   // source_location - computed: true, optional: true, required: false
-  private _sourceLocation?: string; 
+  private _sourceLocation?: string;
   public get sourceLocation() {
     return this.getStringAttribute('source_location');
   }
@@ -984,7 +984,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileOutputReference ext
   }
 
   // target_location - computed: true, optional: true, required: false
-  private _targetLocation?: string; 
+  private _targetLocation?: string;
   public get targetLocation() {
     return this.getStringAttribute('target_location');
   }
@@ -1001,7 +1001,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileOutputReference ext
 }
 export interface ApptestTestCaseStepsActionCompareActionInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#file ApptestTestCase#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#file ApptestTestCase#file}
   */
   readonly file?: ApptestTestCaseStepsActionCompareActionInputFile;
 }
@@ -1095,7 +1095,7 @@ export class ApptestTestCaseStepsActionCompareActionInputOutputReference extends
 }
 export interface ApptestTestCaseStepsActionCompareActionOutputFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#file_location ApptestTestCase#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#file_location ApptestTestCase#file_location}
   */
   readonly fileLocation?: string;
 }
@@ -1172,7 +1172,7 @@ export class ApptestTestCaseStepsActionCompareActionOutputFileOutputReference ex
   }
 
   // file_location - computed: true, optional: true, required: false
-  private _fileLocation?: string; 
+  private _fileLocation?: string;
   public get fileLocation() {
     return this.getStringAttribute('file_location');
   }
@@ -1189,7 +1189,7 @@ export class ApptestTestCaseStepsActionCompareActionOutputFileOutputReference ex
 }
 export interface ApptestTestCaseStepsActionCompareActionOutput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#file ApptestTestCase#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#file ApptestTestCase#file}
   */
   readonly file?: ApptestTestCaseStepsActionCompareActionOutputFile;
 }
@@ -1283,11 +1283,11 @@ export class ApptestTestCaseStepsActionCompareActionOutputOutputReference extend
 }
 export interface ApptestTestCaseStepsActionCompareAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#input ApptestTestCase#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#input ApptestTestCase#input}
   */
   readonly input?: ApptestTestCaseStepsActionCompareActionInput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#output ApptestTestCase#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#output ApptestTestCase#output}
   */
   readonly output?: ApptestTestCaseStepsActionCompareActionOutput;
 }
@@ -1410,15 +1410,15 @@ export class ApptestTestCaseStepsActionCompareActionOutputReference extends cdkt
 }
 export interface ApptestTestCaseStepsActionMainframeActionActionTypeBatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#batch_job_name ApptestTestCase#batch_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#batch_job_name ApptestTestCase#batch_job_name}
   */
   readonly batchJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#batch_job_parameters ApptestTestCase#batch_job_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#batch_job_parameters ApptestTestCase#batch_job_parameters}
   */
   readonly batchJobParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#export_data_set_names ApptestTestCase#export_data_set_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#export_data_set_names ApptestTestCase#export_data_set_names}
   */
   readonly exportDataSetNames?: string[];
 }
@@ -1521,7 +1521,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // batch_job_name - computed: true, optional: true, required: false
-  private _batchJobName?: string; 
+  private _batchJobName?: string;
   public get batchJobName() {
     return this.getStringAttribute('batch_job_name');
   }
@@ -1537,7 +1537,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // batch_job_parameters - computed: true, optional: true, required: false
-  private _batchJobParameters?: { [key: string]: string }; 
+  private _batchJobParameters?: { [key: string]: string };
   public get batchJobParameters() {
     return this.getStringMapAttribute('batch_job_parameters');
   }
@@ -1553,7 +1553,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // export_data_set_names - computed: true, optional: true, required: false
-  private _exportDataSetNames?: string[]; 
+  private _exportDataSetNames?: string[];
   public get exportDataSetNames() {
     return this.getListAttribute('export_data_set_names');
   }
@@ -1570,11 +1570,11 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
 }
 export interface ApptestTestCaseStepsActionMainframeActionActionTypeTn3270Script {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#script_location ApptestTestCase#script_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#script_location ApptestTestCase#script_location}
   */
   readonly scriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#type ApptestTestCase#type}
   */
   readonly type?: string;
 }
@@ -1664,7 +1664,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutp
   }
 
   // script_location - computed: true, optional: true, required: false
-  private _scriptLocation?: string; 
+  private _scriptLocation?: string;
   public get scriptLocation() {
     return this.getStringAttribute('script_location');
   }
@@ -1680,7 +1680,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1697,11 +1697,11 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutp
 }
 export interface ApptestTestCaseStepsActionMainframeActionActionTypeTn3270 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#export_data_set_names ApptestTestCase#export_data_set_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#export_data_set_names ApptestTestCase#export_data_set_names}
   */
   readonly exportDataSetNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#script ApptestTestCase#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#script ApptestTestCase#script}
   */
   readonly script?: ApptestTestCaseStepsActionMainframeActionActionTypeTn3270Script;
 }
@@ -1791,7 +1791,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputRefe
   }
 
   // export_data_set_names - computed: true, optional: true, required: false
-  private _exportDataSetNames?: string[]; 
+  private _exportDataSetNames?: string[];
   public get exportDataSetNames() {
     return this.getListAttribute('export_data_set_names');
   }
@@ -1824,11 +1824,11 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputRefe
 }
 export interface ApptestTestCaseStepsActionMainframeActionActionType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#batch ApptestTestCase#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#batch ApptestTestCase#batch}
   */
   readonly batch?: ApptestTestCaseStepsActionMainframeActionActionTypeBatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#tn_3270 ApptestTestCase#tn_3270}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#tn_3270 ApptestTestCase#tn_3270}
   */
   readonly tn3270?: ApptestTestCaseStepsActionMainframeActionActionTypeTn3270;
 }
@@ -1951,7 +1951,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeOutputReference 
 }
 export interface ApptestTestCaseStepsActionMainframeActionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#dms_task_arn ApptestTestCase#dms_task_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#dms_task_arn ApptestTestCase#dms_task_arn}
   */
   readonly dmsTaskArn?: string;
 }
@@ -2028,7 +2028,7 @@ export class ApptestTestCaseStepsActionMainframeActionPropertiesOutputReference 
   }
 
   // dms_task_arn - computed: true, optional: true, required: false
-  private _dmsTaskArn?: string; 
+  private _dmsTaskArn?: string;
   public get dmsTaskArn() {
     return this.getStringAttribute('dms_task_arn');
   }
@@ -2045,15 +2045,15 @@ export class ApptestTestCaseStepsActionMainframeActionPropertiesOutputReference 
 }
 export interface ApptestTestCaseStepsActionMainframeAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
   */
   readonly actionType?: ApptestTestCaseStepsActionMainframeActionActionType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#properties ApptestTestCase#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#properties ApptestTestCase#properties}
   */
   readonly properties?: ApptestTestCaseStepsActionMainframeActionProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
   */
   readonly resource?: string;
 }
@@ -2188,7 +2188,7 @@ export class ApptestTestCaseStepsActionMainframeActionOutputReference extends cd
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2205,11 +2205,11 @@ export class ApptestTestCaseStepsActionMainframeActionOutputReference extends cd
 }
 export interface ApptestTestCaseStepsActionResourceActionCloudformationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
   */
   readonly resource?: string;
 }
@@ -2299,7 +2299,7 @@ export class ApptestTestCaseStepsActionResourceActionCloudformationActionOutputR
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string; 
+  private _actionType?: string;
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2315,7 +2315,7 @@ export class ApptestTestCaseStepsActionResourceActionCloudformationActionOutputR
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2332,11 +2332,11 @@ export class ApptestTestCaseStepsActionResourceActionCloudformationActionOutputR
 }
 export interface ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#force_stop ApptestTestCase#force_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#force_stop ApptestTestCase#force_stop}
   */
   readonly forceStop?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#import_data_set_location ApptestTestCase#import_data_set_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#import_data_set_location ApptestTestCase#import_data_set_location}
   */
   readonly importDataSetLocation?: string;
 }
@@ -2426,7 +2426,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionP
   }
 
   // force_stop - computed: true, optional: true, required: false
-  private _forceStop?: boolean | cdktn.IResolvable; 
+  private _forceStop?: boolean | cdktn.IResolvable;
   public get forceStop() {
     return this.getBooleanAttribute('force_stop');
   }
@@ -2442,7 +2442,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionP
   }
 
   // import_data_set_location - computed: true, optional: true, required: false
-  private _importDataSetLocation?: string; 
+  private _importDataSetLocation?: string;
   public get importDataSetLocation() {
     return this.getStringAttribute('import_data_set_location');
   }
@@ -2459,15 +2459,15 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionP
 }
 export interface ApptestTestCaseStepsActionResourceActionM2ManagedApplicationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#properties ApptestTestCase#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#properties ApptestTestCase#properties}
   */
   readonly properties?: ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
   */
   readonly resource?: string;
 }
@@ -2570,7 +2570,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionO
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string; 
+  private _actionType?: string;
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2602,7 +2602,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionO
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2619,11 +2619,11 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionO
 }
 export interface ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}
   */
   readonly resource?: string;
 }
@@ -2713,7 +2713,7 @@ export class ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActi
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string; 
+  private _actionType?: string;
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2729,7 +2729,7 @@ export class ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActi
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2746,15 +2746,15 @@ export class ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActi
 }
 export interface ApptestTestCaseStepsActionResourceAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#cloudformation_action ApptestTestCase#cloudformation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#cloudformation_action ApptestTestCase#cloudformation_action}
   */
   readonly cloudformationAction?: ApptestTestCaseStepsActionResourceActionCloudformationAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#m2_managed_application_action ApptestTestCase#m2_managed_application_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#m2_managed_application_action ApptestTestCase#m2_managed_application_action}
   */
   readonly m2ManagedApplicationAction?: ApptestTestCaseStepsActionResourceActionM2ManagedApplicationAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#m2_non_managed_application_action ApptestTestCase#m2_non_managed_application_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#m2_non_managed_application_action ApptestTestCase#m2_non_managed_application_action}
   */
   readonly m2NonManagedApplicationAction?: ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationAction;
 }
@@ -2906,15 +2906,15 @@ export class ApptestTestCaseStepsActionResourceActionOutputReference extends cdk
 }
 export interface ApptestTestCaseStepsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#compare_action ApptestTestCase#compare_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#compare_action ApptestTestCase#compare_action}
   */
   readonly compareAction?: ApptestTestCaseStepsActionCompareAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#mainframe_action ApptestTestCase#mainframe_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#mainframe_action ApptestTestCase#mainframe_action}
   */
   readonly mainframeAction?: ApptestTestCaseStepsActionMainframeAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#resource_action ApptestTestCase#resource_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#resource_action ApptestTestCase#resource_action}
   */
   readonly resourceAction?: ApptestTestCaseStepsActionResourceAction;
 }
@@ -3066,15 +3066,15 @@ export class ApptestTestCaseStepsActionOutputReference extends cdktn.ComplexObje
 }
 export interface ApptestTestCaseSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#action ApptestTestCase#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#action ApptestTestCase#action}
   */
   readonly action: ApptestTestCaseStepsAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#description ApptestTestCase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#description ApptestTestCase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#name ApptestTestCase#name}
   */
   readonly name: string;
 }
@@ -3192,7 +3192,7 @@ export class ApptestTestCaseStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3208,7 +3208,7 @@ export class ApptestTestCaseStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3242,7 +3242,7 @@ export class ApptestTestCaseStepsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case awscc_apptest_test_case}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case awscc_apptest_test_case}
 */
 export class ApptestTestCase extends cdktn.TerraformResource {
 
@@ -3258,7 +3258,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApptestTestCase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApptestTestCase to import
-  * @param importFromId The id of the existing ApptestTestCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApptestTestCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApptestTestCase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3270,7 +3270,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3281,7 +3281,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apptest_test_case',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3307,7 +3307,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3339,7 +3339,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3370,7 +3370,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

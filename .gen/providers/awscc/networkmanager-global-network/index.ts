@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkmanagerGlobalNetworkConfig extends cdktn.TerraformMetaAr
   /**
   * The date and time that the global network was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
   */
   readonly createdAt?: string;
   /**
   * The description of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
   */
   readonly description?: string;
   /**
   * The state of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
   */
   readonly state?: string;
   /**
   * The tags for the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
   */
   readonly tags?: NetworkmanagerGlobalNetworkTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface NetworkmanagerGlobalNetworkTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class NetworkmanagerGlobalNetworkTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class NetworkmanagerGlobalNetworkTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class NetworkmanagerGlobalNetworkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}
 */
 export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerGlobalNetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerGlobalNetwork to import
-  * @param importFromId The id of the existing NetworkmanagerGlobalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerGlobalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerGlobalNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_global_network',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -252,7 +252,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string; 
+  private _createdAt?: string;
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -268,7 +268,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -294,7 +294,7 @@ export class NetworkmanagerGlobalNetwork extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktn from 'cdktn';
 
 export interface CertificatemanagerAccountConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}
   */
   readonly expiryEventsConfiguration: CertificatemanagerAccountExpiryEventsConfiguration;
 }
 export interface CertificatemanagerAccountExpiryEventsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}
   */
   readonly daysBeforeExpiry?: number;
 }
@@ -91,7 +91,7 @@ export class CertificatemanagerAccountExpiryEventsConfigurationOutputReference e
   }
 
   // days_before_expiry - computed: true, optional: true, required: false
-  private _daysBeforeExpiry?: number; 
+  private _daysBeforeExpiry?: number;
   public get daysBeforeExpiry() {
     return this.getNumberAttribute('days_before_expiry');
   }
@@ -108,7 +108,7 @@ export class CertificatemanagerAccountExpiryEventsConfigurationOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}
 */
 export class CertificatemanagerAccount extends cdktn.TerraformResource {
 
@@ -124,7 +124,7 @@ export class CertificatemanagerAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CertificatemanagerAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificatemanagerAccount to import
-  * @param importFromId The id of the existing CertificatemanagerAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificatemanagerAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificatemanagerAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -136,7 +136,7 @@ export class CertificatemanagerAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,7 +147,7 @@ export class CertificatemanagerAccount extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_certificatemanager_account',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

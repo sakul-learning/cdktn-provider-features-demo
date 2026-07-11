@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LakeformationLfTagExpressionConfig extends cdktn.TerraformMetaA
   /**
   * The ID of the Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#catalog_id LakeformationLfTagExpression#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#catalog_id LakeformationLfTagExpression#catalog_id}
   */
   readonly catalogId?: string;
   /**
   * A description of the LF-Tag Expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#description LakeformationLfTagExpression#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#description LakeformationLfTagExpression#description}
   */
   readonly description?: string;
   /**
   * The name of the LF-Tag Expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#name LakeformationLfTagExpression#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#name LakeformationLfTagExpression#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#region LakeformationLfTagExpression#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#region LakeformationLfTagExpression#region}
   */
   readonly region?: string;
   /**
   * expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#expression LakeformationLfTagExpression#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#expression LakeformationLfTagExpression#expression}
   */
   readonly expression?: LakeformationLfTagExpressionExpression[] | cdktn.IResolvable;
 }
 export interface LakeformationLfTagExpressionExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#tag_key LakeformationLfTagExpression#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#tag_key LakeformationLfTagExpression#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#tag_values LakeformationLfTagExpression#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#tag_values LakeformationLfTagExpression#tag_values}
   */
   readonly tagValues: string[];
 }
@@ -136,7 +136,7 @@ export class LakeformationLfTagExpressionExpressionOutputReference extends cdktn
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string; 
+  private _tagKey?: string;
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -149,7 +149,7 @@ export class LakeformationLfTagExpressionExpressionOutputReference extends cdktn
   }
 
   // tag_values - computed: false, optional: false, required: true
-  private _tagValues?: string[]; 
+  private _tagValues?: string[];
   public get tagValues() {
     return cdktn.Fn.tolist(this.getListAttribute('tag_values'));
   }
@@ -183,7 +183,7 @@ export class LakeformationLfTagExpressionExpressionList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}
 */
 export class LakeformationLfTagExpression extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LakeformationLfTagExpression resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LakeformationLfTagExpression to import
-  * @param importFromId The id of the existing LakeformationLfTagExpression that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LakeformationLfTagExpression that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LakeformationLfTagExpression to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lakeformation_lf_tag_expression',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -244,7 +244,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -260,7 +260,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -276,7 +276,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -289,7 +289,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

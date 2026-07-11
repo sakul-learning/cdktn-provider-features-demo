@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ShieldProtectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The automatic application layer DDoS mitigation settings for a Protection. This configuration determines whether Shield Advanced automatically manages rules in the web ACL in order to respond to application layer events that Shield Advanced determines to be DDoS attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
   */
   readonly applicationLayerAutomaticResponseConfiguration?: ShieldProtectionApplicationLayerAutomaticResponseConfiguration;
   /**
   * The Amazon Resource Names (ARNs) of the health check to associate with the protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
   */
   readonly healthCheckArns?: string[];
   /**
   * Friendly name for the Protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#name ShieldProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#name ShieldProtection#name}
   */
   readonly name: string;
   /**
   * The ARN (Amazon Resource Name) of the resource to be protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * One or more tag key-value pairs for the Protection object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#tags ShieldProtection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#tags ShieldProtection#tags}
   */
   readonly tags?: ShieldProtectionTags[] | cdktn.IResolvable;
 }
@@ -43,14 +43,14 @@ export interface ShieldProtectionApplicationLayerAutomaticResponseConfigurationA
   * Specifies that Shield Advanced should configure its AWS WAF rules with the AWS WAF `Block` action.
   * You must specify exactly one action, either `Block` or `Count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#block ShieldProtection#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#block ShieldProtection#block}
   */
   readonly block?: string;
   /**
   * Specifies that Shield Advanced should configure its AWS WAF rules with the AWS WAF `Count` action.
   * You must specify exactly one action, either `Block` or `Count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#count ShieldProtection#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#count ShieldProtection#count}
   */
   readonly count?: string;
 }
@@ -140,7 +140,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationActio
   }
 
   // block - computed: true, optional: true, required: false
-  private _block?: string; 
+  private _block?: string;
   public get block() {
     return this.getStringAttribute('block');
   }
@@ -156,7 +156,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationActio
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: string; 
+  private _count?: string;
   public get count() {
     return this.getStringAttribute('count');
   }
@@ -175,13 +175,13 @@ export interface ShieldProtectionApplicationLayerAutomaticResponseConfiguration 
   /**
   * Specifies the action setting that Shield Advanced should use in the AWS WAF rules that it creates on behalf of the protected resource in response to DDoS attacks. You specify this as part of the configuration for the automatic application layer DDoS mitigation feature, when you enable or update automatic mitigation. Shield Advanced creates the AWS WAF rules in a Shield Advanced-managed rule group, inside the web ACL that you have associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#action ShieldProtection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#action ShieldProtection#action}
   */
   readonly action?: ShieldProtectionApplicationLayerAutomaticResponseConfigurationAction;
   /**
   * Indicates whether automatic application layer DDoS mitigation is enabled for the protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#status ShieldProtection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#status ShieldProtection#status}
   */
   readonly status?: string;
 }
@@ -287,7 +287,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationOutpu
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -306,13 +306,13 @@ export interface ShieldProtectionTags {
   /**
   * Part of the key:value pair that defines a tag. You can use a tag key to describe a category of information, such as "customer." Tag keys are case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#key ShieldProtection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#key ShieldProtection#key}
   */
   readonly key?: string;
   /**
   * Part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as "companyA" or "companyB." Tag values are case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#value ShieldProtection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#value ShieldProtection#value}
   */
   readonly value?: string;
 }
@@ -404,7 +404,7 @@ export class ShieldProtectionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -420,7 +420,7 @@ export class ShieldProtectionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -457,7 +457,7 @@ export class ShieldProtectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection awscc_shield_protection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection awscc_shield_protection}
 */
 export class ShieldProtection extends cdktn.TerraformResource {
 
@@ -473,7 +473,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ShieldProtection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ShieldProtection to import
-  * @param importFromId The id of the existing ShieldProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ShieldProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ShieldProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -485,7 +485,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/shield_protection awscc_shield_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/shield_protection awscc_shield_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,7 +496,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_shield_protection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -534,7 +534,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // health_check_arns - computed: true, optional: true, required: false
-  private _healthCheckArns?: string[]; 
+  private _healthCheckArns?: string[];
   public get healthCheckArns() {
     return this.getListAttribute('health_check_arns');
   }
@@ -555,7 +555,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -578,7 +578,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

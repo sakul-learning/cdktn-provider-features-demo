@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,97 +8,97 @@ import * as cdktn from 'cdktn';
 
 export interface OpsworkscmServerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#associate_public_ip_address OpsworkscmServer#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#associate_public_ip_address OpsworkscmServer#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#backup_id OpsworkscmServer#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#backup_id OpsworkscmServer#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#backup_retention_count OpsworkscmServer#backup_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#backup_retention_count OpsworkscmServer#backup_retention_count}
   */
   readonly backupRetentionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#custom_certificate OpsworkscmServer#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#custom_certificate OpsworkscmServer#custom_certificate}
   */
   readonly customCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#custom_domain OpsworkscmServer#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#custom_domain OpsworkscmServer#custom_domain}
   */
   readonly customDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#custom_private_key OpsworkscmServer#custom_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#custom_private_key OpsworkscmServer#custom_private_key}
   */
   readonly customPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#disable_automated_backup OpsworkscmServer#disable_automated_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#disable_automated_backup OpsworkscmServer#disable_automated_backup}
   */
   readonly disableAutomatedBackup?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#engine OpsworkscmServer#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#engine OpsworkscmServer#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#engine_attributes OpsworkscmServer#engine_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#engine_attributes OpsworkscmServer#engine_attributes}
   */
   readonly engineAttributes?: OpsworkscmServerEngineAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#engine_model OpsworkscmServer#engine_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#engine_model OpsworkscmServer#engine_model}
   */
   readonly engineModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#engine_version OpsworkscmServer#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#engine_version OpsworkscmServer#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#instance_profile_arn OpsworkscmServer#instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#instance_profile_arn OpsworkscmServer#instance_profile_arn}
   */
   readonly instanceProfileArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#instance_type OpsworkscmServer#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#instance_type OpsworkscmServer#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#key_pair OpsworkscmServer#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#key_pair OpsworkscmServer#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#preferred_backup_window OpsworkscmServer#preferred_backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#preferred_backup_window OpsworkscmServer#preferred_backup_window}
   */
   readonly preferredBackupWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#preferred_maintenance_window OpsworkscmServer#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#preferred_maintenance_window OpsworkscmServer#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#security_group_ids OpsworkscmServer#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#security_group_ids OpsworkscmServer#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#server_name OpsworkscmServer#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#server_name OpsworkscmServer#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#service_role_arn OpsworkscmServer#service_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#service_role_arn OpsworkscmServer#service_role_arn}
   */
   readonly serviceRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#subnet_ids OpsworkscmServer#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#subnet_ids OpsworkscmServer#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#tags OpsworkscmServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#tags OpsworkscmServer#tags}
   */
   readonly tags?: OpsworkscmServerTags[] | cdktn.IResolvable;
 }
 export interface OpsworkscmServerEngineAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#name OpsworkscmServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#name OpsworkscmServer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}
   */
   readonly value?: string;
 }
@@ -190,7 +190,7 @@ export class OpsworkscmServerEngineAttributesOutputReference extends cdktn.Compl
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -206,7 +206,7 @@ export class OpsworkscmServerEngineAttributesOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -243,11 +243,11 @@ export class OpsworkscmServerEngineAttributesList extends cdktn.ComplexList {
 }
 export interface OpsworkscmServerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#key OpsworkscmServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#key OpsworkscmServer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}
   */
   readonly value?: string;
 }
@@ -339,7 +339,7 @@ export class OpsworkscmServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -355,7 +355,7 @@ export class OpsworkscmServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -392,7 +392,7 @@ export class OpsworkscmServerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server awscc_opsworkscm_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server awscc_opsworkscm_server}
 */
 export class OpsworkscmServer extends cdktn.TerraformResource {
 
@@ -408,7 +408,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpsworkscmServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpsworkscmServer to import
-  * @param importFromId The id of the existing OpsworkscmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpsworkscmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpsworkscmServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -420,7 +420,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,7 +431,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_opsworkscm_server',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -474,7 +474,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -490,7 +490,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // backup_id - computed: true, optional: true, required: false
-  private _backupId?: string; 
+  private _backupId?: string;
   public get backupId() {
     return this.getStringAttribute('backup_id');
   }
@@ -506,7 +506,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // backup_retention_count - computed: true, optional: true, required: false
-  private _backupRetentionCount?: number; 
+  private _backupRetentionCount?: number;
   public get backupRetentionCount() {
     return this.getNumberAttribute('backup_retention_count');
   }
@@ -522,7 +522,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_certificate - computed: true, optional: true, required: false
-  private _customCertificate?: string; 
+  private _customCertificate?: string;
   public get customCertificate() {
     return this.getStringAttribute('custom_certificate');
   }
@@ -538,7 +538,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_domain - computed: true, optional: true, required: false
-  private _customDomain?: string; 
+  private _customDomain?: string;
   public get customDomain() {
     return this.getStringAttribute('custom_domain');
   }
@@ -554,7 +554,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_private_key - computed: true, optional: true, required: false
-  private _customPrivateKey?: string; 
+  private _customPrivateKey?: string;
   public get customPrivateKey() {
     return this.getStringAttribute('custom_private_key');
   }
@@ -570,7 +570,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // disable_automated_backup - computed: true, optional: true, required: false
-  private _disableAutomatedBackup?: boolean | cdktn.IResolvable; 
+  private _disableAutomatedBackup?: boolean | cdktn.IResolvable;
   public get disableAutomatedBackup() {
     return this.getBooleanAttribute('disable_automated_backup');
   }
@@ -591,7 +591,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -623,7 +623,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine_model - computed: true, optional: true, required: false
-  private _engineModel?: string; 
+  private _engineModel?: string;
   public get engineModel() {
     return this.getStringAttribute('engine_model');
   }
@@ -639,7 +639,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -660,7 +660,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // instance_profile_arn - computed: false, optional: false, required: true
-  private _instanceProfileArn?: string; 
+  private _instanceProfileArn?: string;
   public get instanceProfileArn() {
     return this.getStringAttribute('instance_profile_arn');
   }
@@ -673,7 +673,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -686,7 +686,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // key_pair - computed: true, optional: true, required: false
-  private _keyPair?: string; 
+  private _keyPair?: string;
   public get keyPair() {
     return this.getStringAttribute('key_pair');
   }
@@ -702,7 +702,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string; 
+  private _preferredBackupWindow?: string;
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -718,7 +718,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -734,7 +734,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -755,7 +755,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string; 
+  private _serverName?: string;
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -771,7 +771,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: false, optional: false, required: true
-  private _serviceRoleArn?: string; 
+  private _serviceRoleArn?: string;
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -784,7 +784,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

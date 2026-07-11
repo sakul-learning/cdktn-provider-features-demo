@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface EksPodIdentityAssociationConfig extends cdktn.TerraformMetaArgu
   /**
   * The cluster that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The Disable Session Tags of the pod identity association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
   */
   readonly disableSessionTags?: boolean | cdktn.IResolvable;
   /**
   * The Kubernetes namespace that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
   */
   readonly namespace: string;
   /**
   * The policy of the pod identity association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
   */
   readonly policy?: string;
   /**
   * The IAM role ARN that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
   */
   readonly roleArn: string;
   /**
   * The Kubernetes service account that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
   */
   readonly serviceAccount: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
   */
   readonly tags?: EksPodIdentityAssociationTags[] | cdktn.IResolvable;
   /**
   * The Target Role Arn of the pod identity association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
   */
   readonly targetRoleArn?: string;
 }
@@ -60,13 +60,13 @@ export interface EksPodIdentityAssociationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
   */
   readonly value?: string;
 }
@@ -158,7 +158,7 @@ export class EksPodIdentityAssociationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class EksPodIdentityAssociationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -211,7 +211,7 @@ export class EksPodIdentityAssociationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}
 */
 export class EksPodIdentityAssociation extends cdktn.TerraformResource {
 
@@ -227,7 +227,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksPodIdentityAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksPodIdentityAssociation to import
-  * @param importFromId The id of the existing EksPodIdentityAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksPodIdentityAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksPodIdentityAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -239,7 +239,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_pod_identity_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -285,7 +285,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -298,7 +298,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // disable_session_tags - computed: true, optional: true, required: false
-  private _disableSessionTags?: boolean | cdktn.IResolvable; 
+  private _disableSessionTags?: boolean | cdktn.IResolvable;
   public get disableSessionTags() {
     return this.getBooleanAttribute('disable_session_tags');
   }
@@ -324,7 +324,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -337,7 +337,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -353,7 +353,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -366,7 +366,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // service_account - computed: false, optional: false, required: true
-  private _serviceAccount?: string; 
+  private _serviceAccount?: string;
   public get serviceAccount() {
     return this.getStringAttribute('service_account');
   }
@@ -395,7 +395,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // target_role_arn - computed: true, optional: true, required: false
-  private _targetRoleArn?: string; 
+  private _targetRoleArn?: string;
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }

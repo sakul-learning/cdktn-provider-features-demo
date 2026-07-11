@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktn from 'cdktn';
 
 export interface TranscribeVocabularyFilterConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#id TranscribeVocabularyFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#id TranscribeVocabularyFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
   */
   readonly languageCode: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#region TranscribeVocabularyFilter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#region TranscribeVocabularyFilter#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#tags_all TranscribeVocabularyFilter#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#tags_all TranscribeVocabularyFilter#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
   */
   readonly vocabularyFilterFileUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
   */
   readonly vocabularyFilterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
   */
   readonly words?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}
 */
 export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TranscribeVocabularyFilter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TranscribeVocabularyFilter to import
-  * @param importFromId The id of the existing TranscribeVocabularyFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TranscribeVocabularyFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TranscribeVocabularyFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
       terraformResourceType: 'aws_transcribe_vocabulary_filter',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,7 +121,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -137,7 +137,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string; 
+  private _languageCode?: string;
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -150,7 +150,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -166,7 +166,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -182,7 +182,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -198,7 +198,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // vocabulary_filter_file_uri - computed: false, optional: true, required: false
-  private _vocabularyFilterFileUri?: string; 
+  private _vocabularyFilterFileUri?: string;
   public get vocabularyFilterFileUri() {
     return this.getStringAttribute('vocabulary_filter_file_uri');
   }
@@ -214,7 +214,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // vocabulary_filter_name - computed: false, optional: false, required: true
-  private _vocabularyFilterName?: string; 
+  private _vocabularyFilterName?: string;
   public get vocabularyFilterName() {
     return this.getStringAttribute('vocabulary_filter_name');
   }
@@ -227,7 +227,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // words - computed: false, optional: true, required: false
-  private _words?: string[]; 
+  private _words?: string[];
   public get words() {
     return this.getListAttribute('words');
   }

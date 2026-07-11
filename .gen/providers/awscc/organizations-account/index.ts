@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationsAccountConfig extends cdktn.TerraformMetaArguments
   /**
   * The friendly name of the member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
   */
   readonly accountName: string;
   /**
   * The email address of the owner to assign to the new member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#email OrganizationsAccount#email}
   */
   readonly email: string;
   /**
   * List of parent nodes for the member account. Currently only one parent at a time is supported. Default is root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
   */
   readonly parentIds?: string[];
   /**
   * The name of an IAM role that AWS Organizations automatically preconfigures in the new member account. Default name is OrganizationAccountAccessRole if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
   */
   readonly roleName?: string;
   /**
   * A list of tags that you want to attach to the newly created account. For each tag in the list, you must specify both a tag key and a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
   */
   readonly tags?: OrganizationsAccountTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface OrganizationsAccountTags {
   /**
   * The key identifier, or name, of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#key OrganizationsAccount#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#key OrganizationsAccount#key}
   */
   readonly key?: string;
   /**
   * The string value that's associated with the key of the tag. You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#value OrganizationsAccount#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#value OrganizationsAccount#value}
   */
   readonly value?: string;
 }
@@ -140,7 +140,7 @@ export class OrganizationsAccountTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class OrganizationsAccountTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -193,7 +193,7 @@ export class OrganizationsAccountTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account awscc_organizations_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account awscc_organizations_account}
 */
 export class OrganizationsAccount extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OrganizationsAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationsAccount to import
-  * @param importFromId The id of the existing OrganizationsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/organizations_account awscc_organizations_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_account awscc_organizations_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_organizations_account',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,7 +259,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string; 
+  private _accountName?: string;
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -277,7 +277,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -305,7 +305,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // parent_ids - computed: true, optional: true, required: false
-  private _parentIds?: string[]; 
+  private _parentIds?: string[];
   public get parentIds() {
     return cdktn.Fn.tolist(this.getListAttribute('parent_ids'));
   }
@@ -326,7 +326,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // role_name - computed: true, optional: true, required: false
-  private _roleName?: string; 
+  private _roleName?: string;
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

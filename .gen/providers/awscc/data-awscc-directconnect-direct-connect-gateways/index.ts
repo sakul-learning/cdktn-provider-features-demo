@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/directconnect_direct_connect_gateways
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/directconnect_direct_connect_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccDirectconnectDirectConnectGatewaysConfig extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}
 */
 export class DataAwsccDirectconnectDirectConnectGateways extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccDirectconnectDirectConnectGateways extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsccDirectconnectDirectConnectGateways resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDirectconnectDirectConnectGateways to import
-  * @param importFromId The id of the existing DataAwsccDirectconnectDirectConnectGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDirectconnectDirectConnectGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDirectconnectDirectConnectGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccDirectconnectDirectConnectGateways extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccDirectconnectDirectConnectGateways extends cdktn.Terraform
       terraformResourceType: 'awscc_directconnect_direct_connect_gateways',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

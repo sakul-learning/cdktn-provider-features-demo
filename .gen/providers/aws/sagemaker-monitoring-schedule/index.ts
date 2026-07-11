@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerMonitoringScheduleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#id SagemakerMonitoringSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#id SagemakerMonitoringSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#name SagemakerMonitoringSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#name SagemakerMonitoringSchedule#name}
   */
   readonly name?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#region SagemakerMonitoringSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#region SagemakerMonitoringSchedule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#tags SagemakerMonitoringSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#tags SagemakerMonitoringSchedule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#tags_all SagemakerMonitoringSchedule#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#tags_all SagemakerMonitoringSchedule#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * monitoring_schedule_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_schedule_config SagemakerMonitoringSchedule#monitoring_schedule_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_schedule_config SagemakerMonitoringSchedule#monitoring_schedule_config}
   */
   readonly monitoringScheduleConfig: SagemakerMonitoringScheduleMonitoringScheduleConfig;
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaselineConstraintsResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -108,7 +108,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -125,7 +125,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaselineStatisticsResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -192,7 +192,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -209,19 +209,19 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaseline {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#baselining_job_name SagemakerMonitoringSchedule#baselining_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#baselining_job_name SagemakerMonitoringSchedule#baselining_job_name}
   */
   readonly baseliningJobName?: string;
   /**
   * constraints_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#constraints_resource SagemakerMonitoringSchedule#constraints_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#constraints_resource SagemakerMonitoringSchedule#constraints_resource}
   */
   readonly constraintsResource?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaselineConstraintsResource;
   /**
   * statistics_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#statistics_resource SagemakerMonitoringSchedule#statistics_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#statistics_resource SagemakerMonitoringSchedule#statistics_resource}
   */
   readonly statisticsResource?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaselineStatisticsResource;
 }
@@ -314,7 +314,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // baselining_job_name - computed: false, optional: true, required: false
-  private _baseliningJobName?: string; 
+  private _baseliningJobName?: string;
   public get baseliningJobName() {
     return this.getStringAttribute('baselining_job_name');
   }
@@ -363,23 +363,23 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringAppSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#container_arguments SagemakerMonitoringSchedule#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#container_arguments SagemakerMonitoringSchedule#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#container_entrypoint SagemakerMonitoringSchedule#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#container_entrypoint SagemakerMonitoringSchedule#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#image_uri SagemakerMonitoringSchedule#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#image_uri SagemakerMonitoringSchedule#image_uri}
   */
   readonly imageUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#post_analytics_processor_source_uri SagemakerMonitoringSchedule#post_analytics_processor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#post_analytics_processor_source_uri SagemakerMonitoringSchedule#post_analytics_processor_source_uri}
   */
   readonly postAnalyticsProcessorSourceUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#record_preprocessor_source_uri SagemakerMonitoringSchedule#record_preprocessor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#record_preprocessor_source_uri SagemakerMonitoringSchedule#record_preprocessor_source_uri}
   */
   readonly recordPreprocessorSourceUri?: string;
 }
@@ -498,7 +498,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[]; 
+  private _containerArguments?: string[];
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -514,7 +514,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[]; 
+  private _containerEntrypoint?: string[];
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -530,7 +530,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -543,7 +543,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // post_analytics_processor_source_uri - computed: false, optional: true, required: false
-  private _postAnalyticsProcessorSourceUri?: string; 
+  private _postAnalyticsProcessorSourceUri?: string;
   public get postAnalyticsProcessorSourceUri() {
     return this.getStringAttribute('post_analytics_processor_source_uri');
   }
@@ -559,7 +559,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // record_preprocessor_source_uri - computed: false, optional: true, required: false
-  private _recordPreprocessorSourceUri?: string; 
+  private _recordPreprocessorSourceUri?: string;
   public get recordPreprocessorSourceUri() {
     return this.getStringAttribute('record_preprocessor_source_uri');
   }
@@ -576,7 +576,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatCsv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#header SagemakerMonitoringSchedule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#header SagemakerMonitoringSchedule#header}
   */
   readonly header?: boolean | cdktn.IResolvable;
 }
@@ -643,7 +643,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // header - computed: false, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable; 
+  private _header?: boolean | cdktn.IResolvable;
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -660,7 +660,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}
   */
   readonly line?: boolean | cdktn.IResolvable;
 }
@@ -727,7 +727,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // line - computed: false, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable; 
+  private _line?: boolean | cdktn.IResolvable;
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -746,13 +746,13 @@ export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJo
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#csv SagemakerMonitoringSchedule#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#csv SagemakerMonitoringSchedule#csv}
   */
   readonly csv?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatCsv;
   /**
   * json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#json SagemakerMonitoringSchedule#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#json SagemakerMonitoringSchedule#json}
   */
   readonly json?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatJson;
 }
@@ -865,53 +865,53 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#data_captured_destination_s3_uri SagemakerMonitoringSchedule#data_captured_destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#data_captured_destination_s3_uri SagemakerMonitoringSchedule#data_captured_destination_s3_uri}
   */
   readonly dataCapturedDestinationS3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#end_time_offset SagemakerMonitoringSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#end_time_offset SagemakerMonitoringSchedule#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#exclude_features_attribute SagemakerMonitoringSchedule#exclude_features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#exclude_features_attribute SagemakerMonitoringSchedule#exclude_features_attribute}
   */
   readonly excludeFeaturesAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#features_attribute SagemakerMonitoringSchedule#features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#features_attribute SagemakerMonitoringSchedule#features_attribute}
   */
   readonly featuresAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#inference_attribute SagemakerMonitoringSchedule#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#inference_attribute SagemakerMonitoringSchedule#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
   */
   readonly localPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#probability_attribute SagemakerMonitoringSchedule#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#probability_attribute SagemakerMonitoringSchedule#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#probability_threshold_attribute SagemakerMonitoringSchedule#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#probability_threshold_attribute SagemakerMonitoringSchedule#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_data_distribution_type SagemakerMonitoringSchedule#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_data_distribution_type SagemakerMonitoringSchedule#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_input_mode SagemakerMonitoringSchedule#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_input_mode SagemakerMonitoringSchedule#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#start_time_offset SagemakerMonitoringSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#start_time_offset SagemakerMonitoringSchedule#start_time_offset}
   */
   readonly startTimeOffset?: string;
   /**
   * dataset_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#dataset_format SagemakerMonitoringSchedule#dataset_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#dataset_format SagemakerMonitoringSchedule#dataset_format}
   */
   readonly datasetFormat: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormat;
 }
@@ -1121,7 +1121,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // data_captured_destination_s3_uri - computed: false, optional: false, required: true
-  private _dataCapturedDestinationS3Uri?: string; 
+  private _dataCapturedDestinationS3Uri?: string;
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1134,7 +1134,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // end_time_offset - computed: false, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1150,7 +1150,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: false, optional: true, required: false
-  private _excludeFeaturesAttribute?: string; 
+  private _excludeFeaturesAttribute?: string;
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1166,7 +1166,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // features_attribute - computed: false, optional: true, required: false
-  private _featuresAttribute?: string; 
+  private _featuresAttribute?: string;
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1182,7 +1182,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // inference_attribute - computed: false, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1198,7 +1198,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1211,7 +1211,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_attribute - computed: false, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1227,7 +1227,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_threshold_attribute - computed: false, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1243,7 +1243,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1259,7 +1259,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1275,7 +1275,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // start_time_offset - computed: false, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1305,47 +1305,47 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsEndpointInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#end_time_offset SagemakerMonitoringSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#end_time_offset SagemakerMonitoringSchedule#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#endpoint_name SagemakerMonitoringSchedule#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#endpoint_name SagemakerMonitoringSchedule#endpoint_name}
   */
   readonly endpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#exclude_features_attribute SagemakerMonitoringSchedule#exclude_features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#exclude_features_attribute SagemakerMonitoringSchedule#exclude_features_attribute}
   */
   readonly excludeFeaturesAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#features_attribute SagemakerMonitoringSchedule#features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#features_attribute SagemakerMonitoringSchedule#features_attribute}
   */
   readonly featuresAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#inference_attribute SagemakerMonitoringSchedule#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#inference_attribute SagemakerMonitoringSchedule#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
   */
   readonly localPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#probability_attribute SagemakerMonitoringSchedule#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#probability_attribute SagemakerMonitoringSchedule#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#probability_threshold_attribute SagemakerMonitoringSchedule#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#probability_threshold_attribute SagemakerMonitoringSchedule#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_data_distribution_type SagemakerMonitoringSchedule#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_data_distribution_type SagemakerMonitoringSchedule#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_input_mode SagemakerMonitoringSchedule#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_input_mode SagemakerMonitoringSchedule#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#start_time_offset SagemakerMonitoringSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#start_time_offset SagemakerMonitoringSchedule#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1542,7 +1542,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // end_time_offset - computed: false, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1558,7 +1558,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1571,7 +1571,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: false, optional: true, required: false
-  private _excludeFeaturesAttribute?: string; 
+  private _excludeFeaturesAttribute?: string;
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1587,7 +1587,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // features_attribute - computed: false, optional: true, required: false
-  private _featuresAttribute?: string; 
+  private _featuresAttribute?: string;
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1603,7 +1603,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // inference_attribute - computed: false, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1619,7 +1619,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1632,7 +1632,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_attribute - computed: false, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1648,7 +1648,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_threshold_attribute - computed: false, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1664,7 +1664,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1680,7 +1680,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1696,7 +1696,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // start_time_offset - computed: false, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1715,13 +1715,13 @@ export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJo
   /**
   * batch_transform_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#batch_transform_input SagemakerMonitoringSchedule#batch_transform_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#batch_transform_input SagemakerMonitoringSchedule#batch_transform_input}
   */
   readonly batchTransformInput?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInput;
   /**
   * endpoint_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#endpoint_input SagemakerMonitoringSchedule#endpoint_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#endpoint_input SagemakerMonitoringSchedule#endpoint_input}
   */
   readonly endpointInput?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsEndpointInput;
 }
@@ -1834,15 +1834,15 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringOutputConfigMonitoringOutputsS3Output {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#local_path SagemakerMonitoringSchedule#local_path}
   */
   readonly localPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_upload_mode SagemakerMonitoringSchedule#s3_upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_upload_mode SagemakerMonitoringSchedule#s3_upload_mode}
   */
   readonly s3UploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_uri SagemakerMonitoringSchedule#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -1935,7 +1935,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1948,7 +1948,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string; 
+  private _s3UploadMode?: string;
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -1964,7 +1964,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1980,7 +1980,7 @@ export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJo
   /**
   * s3_output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#s3_output SagemakerMonitoringSchedule#s3_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#s3_output SagemakerMonitoringSchedule#s3_output}
   */
   readonly s3Output: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringOutputConfigMonitoringOutputsS3Output;
 }
@@ -2061,13 +2061,13 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#kms_key_id SagemakerMonitoringSchedule#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#kms_key_id SagemakerMonitoringSchedule#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * monitoring_outputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_outputs SagemakerMonitoringSchedule#monitoring_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_outputs SagemakerMonitoringSchedule#monitoring_outputs}
   */
   readonly monitoringOutputs: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringOutputConfigMonitoringOutputs;
 }
@@ -2147,7 +2147,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2177,19 +2177,19 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringResourcesClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#instance_count SagemakerMonitoringSchedule#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#instance_count SagemakerMonitoringSchedule#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#instance_type SagemakerMonitoringSchedule#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#instance_type SagemakerMonitoringSchedule#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#volume_kms_key_id SagemakerMonitoringSchedule#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#volume_kms_key_id SagemakerMonitoringSchedule#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#volume_size_in_gb SagemakerMonitoringSchedule#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#volume_size_in_gb SagemakerMonitoringSchedule#volume_size_in_gb}
   */
   readonly volumeSizeInGb: number;
 }
@@ -2295,7 +2295,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2308,7 +2308,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2321,7 +2321,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -2337,7 +2337,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_size_in_gb - computed: false, optional: false, required: true
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -2353,7 +2353,7 @@ export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJo
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#cluster_config SagemakerMonitoringSchedule#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#cluster_config SagemakerMonitoringSchedule#cluster_config}
   */
   readonly clusterConfig: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringResourcesClusterConfig;
 }
@@ -2434,11 +2434,11 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionNetworkConfigVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#security_group_ids SagemakerMonitoringSchedule#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#security_group_ids SagemakerMonitoringSchedule#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#subnets SagemakerMonitoringSchedule#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#subnets SagemakerMonitoringSchedule#subnets}
   */
   readonly subnets: string[];
 }
@@ -2518,7 +2518,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2531,7 +2531,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -2545,17 +2545,17 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#enable_inter_container_traffic_encryption SagemakerMonitoringSchedule#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#enable_inter_container_traffic_encryption SagemakerMonitoringSchedule#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#enable_network_isolation SagemakerMonitoringSchedule#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#enable_network_isolation SagemakerMonitoringSchedule#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#vpc_config SagemakerMonitoringSchedule#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#vpc_config SagemakerMonitoringSchedule#vpc_config}
   */
   readonly vpcConfig?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionNetworkConfigVpcConfig;
 }
@@ -2648,7 +2648,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_inter_container_traffic_encryption - computed: false, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2664,7 +2664,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_network_isolation - computed: false, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -2697,7 +2697,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#max_runtime_in_seconds SagemakerMonitoringSchedule#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#max_runtime_in_seconds SagemakerMonitoringSchedule#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -2776,7 +2776,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -2813,53 +2813,53 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#environment SagemakerMonitoringSchedule#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#environment SagemakerMonitoringSchedule#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#role_arn SagemakerMonitoringSchedule#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#role_arn SagemakerMonitoringSchedule#role_arn}
   */
   readonly roleArn: string;
   /**
   * baseline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#baseline SagemakerMonitoringSchedule#baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#baseline SagemakerMonitoringSchedule#baseline}
   */
   readonly baseline?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionBaseline;
   /**
   * monitoring_app_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_app_specification SagemakerMonitoringSchedule#monitoring_app_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_app_specification SagemakerMonitoringSchedule#monitoring_app_specification}
   */
   readonly monitoringAppSpecification: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringAppSpecification;
   /**
   * monitoring_inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_inputs SagemakerMonitoringSchedule#monitoring_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_inputs SagemakerMonitoringSchedule#monitoring_inputs}
   */
   readonly monitoringInputs: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputs;
   /**
   * monitoring_output_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_output_config SagemakerMonitoringSchedule#monitoring_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_output_config SagemakerMonitoringSchedule#monitoring_output_config}
   */
   readonly monitoringOutputConfig: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringOutputConfig;
   /**
   * monitoring_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_resources SagemakerMonitoringSchedule#monitoring_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_resources SagemakerMonitoringSchedule#monitoring_resources}
   */
   readonly monitoringResources: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringResources;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#network_config SagemakerMonitoringSchedule#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#network_config SagemakerMonitoringSchedule#network_config}
   */
   readonly networkConfig?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionNetworkConfig;
   /**
   * stopping_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#stopping_condition SagemakerMonitoringSchedule#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#stopping_condition SagemakerMonitoringSchedule#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionStoppingCondition[] | cdktn.IResolvable;
 }
@@ -3030,7 +3030,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -3046,7 +3046,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3160,7 +3160,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#schedule_expression SagemakerMonitoringSchedule#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#schedule_expression SagemakerMonitoringSchedule#schedule_expression}
   */
   readonly scheduleExpression: string;
 }
@@ -3227,7 +3227,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string; 
+  private _scheduleExpression?: string;
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -3241,23 +3241,23 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
 }
 export interface SagemakerMonitoringScheduleMonitoringScheduleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_job_definition_name SagemakerMonitoringSchedule#monitoring_job_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_job_definition_name SagemakerMonitoringSchedule#monitoring_job_definition_name}
   */
   readonly monitoringJobDefinitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_type SagemakerMonitoringSchedule#monitoring_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_type SagemakerMonitoringSchedule#monitoring_type}
   */
   readonly monitoringType: string;
   /**
   * monitoring_job_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#monitoring_job_definition SagemakerMonitoringSchedule#monitoring_job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#monitoring_job_definition SagemakerMonitoringSchedule#monitoring_job_definition}
   */
   readonly monitoringJobDefinition?: SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition;
   /**
   * schedule_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#schedule_config SagemakerMonitoringSchedule#schedule_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#schedule_config SagemakerMonitoringSchedule#schedule_config}
   */
   readonly scheduleConfig?: SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfig;
 }
@@ -3363,7 +3363,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_job_definition_name - computed: false, optional: true, required: false
-  private _monitoringJobDefinitionName?: string; 
+  private _monitoringJobDefinitionName?: string;
   public get monitoringJobDefinitionName() {
     return this.getStringAttribute('monitoring_job_definition_name');
   }
@@ -3379,7 +3379,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_type - computed: false, optional: false, required: true
-  private _monitoringType?: string; 
+  private _monitoringType?: string;
   public get monitoringType() {
     return this.getStringAttribute('monitoring_type');
   }
@@ -3425,7 +3425,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule}
 */
 export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
 
@@ -3441,7 +3441,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerMonitoringSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerMonitoringSchedule to import
-  * @param importFromId The id of the existing SagemakerMonitoringSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerMonitoringSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerMonitoringSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3453,7 +3453,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3464,7 +3464,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_monitoring_schedule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3492,7 +3492,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3508,7 +3508,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3524,7 +3524,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3540,7 +3540,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3556,7 +3556,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

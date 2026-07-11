@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktn from 'cdktn';
 
 export interface BatchJobQueueConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#name BatchJobQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#name BatchJobQueue#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}
   */
   readonly priority: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#region BatchJobQueue#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#region BatchJobQueue#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}
   */
   readonly schedulingPolicyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#state BatchJobQueue#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#state BatchJobQueue#state}
   */
   readonly state: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * compute_environment_order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}
   */
   readonly computeEnvironmentOrder?: BatchJobQueueComputeEnvironmentOrder[] | cdktn.IResolvable;
   /**
   * job_state_time_limit_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#job_state_time_limit_action BatchJobQueue#job_state_time_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#job_state_time_limit_action BatchJobQueue#job_state_time_limit_action}
   */
   readonly jobStateTimeLimitAction?: BatchJobQueueJobStateTimeLimitAction[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#timeouts BatchJobQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#timeouts BatchJobQueue#timeouts}
   */
   readonly timeouts?: BatchJobQueueTimeouts;
 }
 export interface BatchJobQueueComputeEnvironmentOrder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}
   */
   readonly computeEnvironment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#order BatchJobQueue#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#order BatchJobQueue#order}
   */
   readonly order: number;
 }
@@ -150,7 +150,7 @@ export class BatchJobQueueComputeEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // compute_environment - computed: false, optional: false, required: true
-  private _computeEnvironment?: string; 
+  private _computeEnvironment?: string;
   public get computeEnvironment() {
     return this.getStringAttribute('compute_environment');
   }
@@ -163,7 +163,7 @@ export class BatchJobQueueComputeEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // order - computed: false, optional: false, required: true
-  private _order?: number; 
+  private _order?: number;
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -197,19 +197,19 @@ export class BatchJobQueueComputeEnvironmentOrderList extends cdktn.ComplexList 
 }
 export interface BatchJobQueueJobStateTimeLimitAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#action BatchJobQueue#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#action BatchJobQueue#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}
   */
   readonly maxTimeSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}
   */
   readonly reason: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#state BatchJobQueue#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#state BatchJobQueue#state}
   */
   readonly state: string;
 }
@@ -327,7 +327,7 @@ export class BatchJobQueueJobStateTimeLimitActionOutputReference extends cdktn.C
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -340,7 +340,7 @@ export class BatchJobQueueJobStateTimeLimitActionOutputReference extends cdktn.C
   }
 
   // max_time_seconds - computed: false, optional: false, required: true
-  private _maxTimeSeconds?: number; 
+  private _maxTimeSeconds?: number;
   public get maxTimeSeconds() {
     return this.getNumberAttribute('max_time_seconds');
   }
@@ -353,7 +353,7 @@ export class BatchJobQueueJobStateTimeLimitActionOutputReference extends cdktn.C
   }
 
   // reason - computed: false, optional: false, required: true
-  private _reason?: string; 
+  private _reason?: string;
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -366,7 +366,7 @@ export class BatchJobQueueJobStateTimeLimitActionOutputReference extends cdktn.C
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -402,19 +402,19 @@ export interface BatchJobQueueTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#create BatchJobQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#create BatchJobQueue#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#delete BatchJobQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#delete BatchJobQueue#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#update BatchJobQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#update BatchJobQueue#update}
   */
   readonly update?: string;
 }
@@ -517,7 +517,7 @@ export class BatchJobQueueTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -533,7 +533,7 @@ export class BatchJobQueueTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -549,7 +549,7 @@ export class BatchJobQueueTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -566,7 +566,7 @@ export class BatchJobQueueTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue aws_batch_job_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue aws_batch_job_queue}
 */
 export class BatchJobQueue extends cdktn.TerraformResource {
 
@@ -582,7 +582,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BatchJobQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchJobQueue to import
-  * @param importFromId The id of the existing BatchJobQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchJobQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchJobQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -594,7 +594,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,7 +605,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
       terraformResourceType: 'aws_batch_job_queue',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -641,7 +641,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -654,7 +654,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -667,7 +667,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -683,7 +683,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // scheduling_policy_arn - computed: false, optional: true, required: false
-  private _schedulingPolicyArn?: string; 
+  private _schedulingPolicyArn?: string;
   public get schedulingPolicyArn() {
     return this.getStringAttribute('scheduling_policy_arn');
   }
@@ -699,7 +699,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -712,7 +712,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface IotThingTypeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#deprecate_thing_type IotThingType#deprecate_thing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#deprecate_thing_type IotThingType#deprecate_thing_type}
   */
   readonly deprecateThingType?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#tags IotThingType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#tags IotThingType#tags}
   */
   readonly tags?: IotThingTypeTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#thing_type_name IotThingType#thing_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#thing_type_name IotThingType#thing_type_name}
   */
   readonly thingTypeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#thing_type_properties IotThingType#thing_type_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#thing_type_properties IotThingType#thing_type_properties}
   */
   readonly thingTypeProperties?: IotThingTypeThingTypeProperties;
 }
@@ -30,13 +30,13 @@ export interface IotThingTypeTags {
   /**
   * Tag key (1-128 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#key IotThingType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#key IotThingType#key}
   */
   readonly key?: string;
   /**
   * Tag value (1-256 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#value IotThingType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#value IotThingType#value}
   */
   readonly value?: string;
 }
@@ -128,7 +128,7 @@ export class IotThingTypeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class IotThingTypeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -181,15 +181,15 @@ export class IotThingTypeTagsList extends cdktn.ComplexList {
 }
 export interface IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#connection_attribute IotThingType#connection_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#connection_attribute IotThingType#connection_attribute}
   */
   readonly connectionAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#thing_attribute IotThingType#thing_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#thing_attribute IotThingType#thing_attribute}
   */
   readonly thingAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#user_property_key IotThingType#user_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#user_property_key IotThingType#user_property_key}
   */
   readonly userPropertyKey?: string;
 }
@@ -294,7 +294,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // connection_attribute - computed: true, optional: true, required: false
-  private _connectionAttribute?: string; 
+  private _connectionAttribute?: string;
   public get connectionAttribute() {
     return this.getStringAttribute('connection_attribute');
   }
@@ -310,7 +310,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // thing_attribute - computed: true, optional: true, required: false
-  private _thingAttribute?: string; 
+  private _thingAttribute?: string;
   public get thingAttribute() {
     return this.getStringAttribute('thing_attribute');
   }
@@ -326,7 +326,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // user_property_key - computed: true, optional: true, required: false
-  private _userPropertyKey?: string; 
+  private _userPropertyKey?: string;
   public get userPropertyKey() {
     return this.getStringAttribute('user_property_key');
   }
@@ -363,7 +363,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
 }
 export interface IotThingTypeThingTypePropertiesMqtt5Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#propagating_attributes IotThingType#propagating_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#propagating_attributes IotThingType#propagating_attributes}
   */
   readonly propagatingAttributes?: IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttributes[] | cdktn.IResolvable;
 }
@@ -457,15 +457,15 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationOutputReference ex
 }
 export interface IotThingTypeThingTypeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#mqtt_5_configuration IotThingType#mqtt_5_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#mqtt_5_configuration IotThingType#mqtt_5_configuration}
   */
   readonly mqtt5Configuration?: IotThingTypeThingTypePropertiesMqtt5Configuration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#searchable_attributes IotThingType#searchable_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#searchable_attributes IotThingType#searchable_attributes}
   */
   readonly searchableAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#thing_type_description IotThingType#thing_type_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#thing_type_description IotThingType#thing_type_description}
   */
   readonly thingTypeDescription?: string;
 }
@@ -584,7 +584,7 @@ export class IotThingTypeThingTypePropertiesOutputReference extends cdktn.Comple
   }
 
   // searchable_attributes - computed: true, optional: true, required: false
-  private _searchableAttributes?: string[]; 
+  private _searchableAttributes?: string[];
   public get searchableAttributes() {
     return this.getListAttribute('searchable_attributes');
   }
@@ -600,7 +600,7 @@ export class IotThingTypeThingTypePropertiesOutputReference extends cdktn.Comple
   }
 
   // thing_type_description - computed: true, optional: true, required: false
-  private _thingTypeDescription?: string; 
+  private _thingTypeDescription?: string;
   public get thingTypeDescription() {
     return this.getStringAttribute('thing_type_description');
   }
@@ -617,7 +617,7 @@ export class IotThingTypeThingTypePropertiesOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type awscc_iot_thing_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type awscc_iot_thing_type}
 */
 export class IotThingType extends cdktn.TerraformResource {
 
@@ -633,7 +633,7 @@ export class IotThingType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotThingType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotThingType to import
-  * @param importFromId The id of the existing IotThingType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotThingType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotThingType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -645,7 +645,7 @@ export class IotThingType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,7 +656,7 @@ export class IotThingType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_thing_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -682,7 +682,7 @@ export class IotThingType extends cdktn.TerraformResource {
   }
 
   // deprecate_thing_type - computed: true, optional: true, required: false
-  private _deprecateThingType?: boolean | cdktn.IResolvable; 
+  private _deprecateThingType?: boolean | cdktn.IResolvable;
   public get deprecateThingType() {
     return this.getBooleanAttribute('deprecate_thing_type');
   }
@@ -724,7 +724,7 @@ export class IotThingType extends cdktn.TerraformResource {
   }
 
   // thing_type_name - computed: true, optional: true, required: false
-  private _thingTypeName?: string; 
+  private _thingTypeName?: string;
   public get thingTypeName() {
     return this.getStringAttribute('thing_type_name');
   }

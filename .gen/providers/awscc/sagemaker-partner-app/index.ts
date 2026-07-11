@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SagemakerPartnerAppConfig extends cdktn.TerraformMetaArguments 
   /**
   * The version of the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#app_version SagemakerPartnerApp#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#app_version SagemakerPartnerApp#app_version}
   */
   readonly appVersion?: string;
   /**
   * A collection of settings that specify the maintenance schedule for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#application_config SagemakerPartnerApp#application_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#application_config SagemakerPartnerApp#application_config}
   */
   readonly applicationConfig?: SagemakerPartnerAppApplicationConfig;
   /**
   * The Auth type of PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#auth_type SagemakerPartnerApp#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#auth_type SagemakerPartnerApp#auth_type}
   */
   readonly authType: string;
   /**
   * The client token for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#client_token SagemakerPartnerApp#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#client_token SagemakerPartnerApp#client_token}
   */
   readonly clientToken?: string;
   /**
   * Enables automatic minor version upgrades for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#enable_auto_minor_version_upgrade SagemakerPartnerApp#enable_auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#enable_auto_minor_version_upgrade SagemakerPartnerApp#enable_auto_minor_version_upgrade}
   */
   readonly enableAutoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * Enables IAM Session based Identity for PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#enable_iam_session_based_identity SagemakerPartnerApp#enable_iam_session_based_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#enable_iam_session_based_identity SagemakerPartnerApp#enable_iam_session_based_identity}
   */
   readonly enableIamSessionBasedIdentity?: boolean | cdktn.IResolvable;
   /**
   * The execution role for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#execution_role_arn SagemakerPartnerApp#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#execution_role_arn SagemakerPartnerApp#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
   * The AWS KMS customer managed key used to encrypt the data associated with the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#kms_key_id SagemakerPartnerApp#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#kms_key_id SagemakerPartnerApp#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * A collection of settings that specify the maintenance schedule for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#maintenance_config SagemakerPartnerApp#maintenance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#maintenance_config SagemakerPartnerApp#maintenance_config}
   */
   readonly maintenanceConfig?: SagemakerPartnerAppMaintenanceConfig;
   /**
   * A name for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#name SagemakerPartnerApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#name SagemakerPartnerApp#name}
   */
   readonly name: string;
   /**
   * A list of tags to apply to the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#tags SagemakerPartnerApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#tags SagemakerPartnerApp#tags}
   */
   readonly tags?: SagemakerPartnerAppTags[] | cdktn.IResolvable;
   /**
   * The tier of the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#tier SagemakerPartnerApp#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#tier SagemakerPartnerApp#tier}
   */
   readonly tier: string;
   /**
   * The type of PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#type SagemakerPartnerApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#type SagemakerPartnerApp#type}
   */
   readonly type: string;
 }
@@ -90,13 +90,13 @@ export interface SagemakerPartnerAppApplicationConfig {
   /**
   * A list of users with administrator privileges for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#admin_users SagemakerPartnerApp#admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#admin_users SagemakerPartnerApp#admin_users}
   */
   readonly adminUsers?: string[];
   /**
   * A list of arguments to pass to the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#arguments SagemakerPartnerApp#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#arguments SagemakerPartnerApp#arguments}
   */
   readonly arguments?: { [key: string]: string };
 }
@@ -186,7 +186,7 @@ export class SagemakerPartnerAppApplicationConfigOutputReference extends cdktn.C
   }
 
   // admin_users - computed: true, optional: true, required: false
-  private _adminUsers?: string[]; 
+  private _adminUsers?: string[];
   public get adminUsers() {
     return cdktn.Fn.tolist(this.getListAttribute('admin_users'));
   }
@@ -202,7 +202,7 @@ export class SagemakerPartnerAppApplicationConfigOutputReference extends cdktn.C
   }
 
   // arguments - computed: true, optional: true, required: false
-  private _arguments?: { [key: string]: string }; 
+  private _arguments?: { [key: string]: string };
   public get arguments() {
     return this.getStringMapAttribute('arguments');
   }
@@ -221,7 +221,7 @@ export interface SagemakerPartnerAppMaintenanceConfig {
   /**
   * The maintenance window start day and time for the PartnerApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#maintenance_window_start SagemakerPartnerApp#maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#maintenance_window_start SagemakerPartnerApp#maintenance_window_start}
   */
   readonly maintenanceWindowStart?: string;
 }
@@ -298,7 +298,7 @@ export class SagemakerPartnerAppMaintenanceConfigOutputReference extends cdktn.C
   }
 
   // maintenance_window_start - computed: true, optional: true, required: false
-  private _maintenanceWindowStart?: string; 
+  private _maintenanceWindowStart?: string;
   public get maintenanceWindowStart() {
     return this.getStringAttribute('maintenance_window_start');
   }
@@ -315,11 +315,11 @@ export class SagemakerPartnerAppMaintenanceConfigOutputReference extends cdktn.C
 }
 export interface SagemakerPartnerAppTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#key SagemakerPartnerApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#key SagemakerPartnerApp#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#value SagemakerPartnerApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#value SagemakerPartnerApp#value}
   */
   readonly value?: string;
 }
@@ -411,7 +411,7 @@ export class SagemakerPartnerAppTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -427,7 +427,7 @@ export class SagemakerPartnerAppTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -464,7 +464,7 @@ export class SagemakerPartnerAppTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app}
 */
 export class SagemakerPartnerApp extends cdktn.TerraformResource {
 
@@ -480,7 +480,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerPartnerApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerPartnerApp to import
-  * @param importFromId The id of the existing SagemakerPartnerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerPartnerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerPartnerApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -492,7 +492,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,7 +503,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_partner_app',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -533,7 +533,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   // ==========
 
   // app_version - computed: true, optional: true, required: false
-  private _appVersion?: string; 
+  private _appVersion?: string;
   public get appVersion() {
     return this.getStringAttribute('app_version');
   }
@@ -570,7 +570,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -588,7 +588,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -609,7 +609,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // enable_auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _enableAutoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
+  private _enableAutoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   public get enableAutoMinorVersionUpgrade() {
     return this.getBooleanAttribute('enable_auto_minor_version_upgrade');
   }
@@ -625,7 +625,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // enable_iam_session_based_identity - computed: true, optional: true, required: false
-  private _enableIamSessionBasedIdentity?: boolean | cdktn.IResolvable; 
+  private _enableIamSessionBasedIdentity?: boolean | cdktn.IResolvable;
   public get enableIamSessionBasedIdentity() {
     return this.getBooleanAttribute('enable_iam_session_based_identity');
   }
@@ -641,7 +641,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -659,7 +659,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -691,7 +691,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -720,7 +720,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string; 
+  private _tier?: string;
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -733,7 +733,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

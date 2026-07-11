@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktn from 'cdktn';
 
 export interface IdentitystoreUserConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#id IdentitystoreUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#id IdentitystoreUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
   */
   readonly identityStoreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#nickname IdentitystoreUser#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#nickname IdentitystoreUser#nickname}
   */
   readonly nickname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
   */
   readonly preferredLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
   */
   readonly profileUrl?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
   */
   readonly userName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
   */
   readonly userType?: string;
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
   */
   readonly addresses?: IdentitystoreUserAddresses;
   /**
   * emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
   */
   readonly emails?: IdentitystoreUserEmails;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
   */
   readonly name: IdentitystoreUserName;
   /**
   * phone_numbers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
   */
   readonly phoneNumbers?: IdentitystoreUserPhoneNumbers;
 }
@@ -167,35 +167,35 @@ export class IdentitystoreUserExternalIdsList extends cdktn.ComplexList {
 }
 export interface IdentitystoreUserAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
   */
   readonly formatted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
   */
   readonly postalCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
   */
   readonly streetAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
 }
@@ -353,7 +353,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string; 
+  private _country?: string;
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -369,7 +369,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // formatted - computed: false, optional: true, required: false
-  private _formatted?: string; 
+  private _formatted?: string;
   public get formatted() {
     return this.getStringAttribute('formatted');
   }
@@ -385,7 +385,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // locality - computed: false, optional: true, required: false
-  private _locality?: string; 
+  private _locality?: string;
   public get locality() {
     return this.getStringAttribute('locality');
   }
@@ -401,7 +401,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // postal_code - computed: false, optional: true, required: false
-  private _postalCode?: string; 
+  private _postalCode?: string;
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -417,7 +417,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // primary - computed: false, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable; 
+  private _primary?: boolean | cdktn.IResolvable;
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -433,7 +433,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // street_address - computed: false, optional: true, required: false
-  private _streetAddress?: string; 
+  private _streetAddress?: string;
   public get streetAddress() {
     return this.getStringAttribute('street_address');
   }
@@ -465,7 +465,7 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -482,15 +482,15 @@ export class IdentitystoreUserAddressesOutputReference extends cdktn.ComplexObje
 }
 export interface IdentitystoreUserEmails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -583,7 +583,7 @@ export class IdentitystoreUserEmailsOutputReference extends cdktn.ComplexObject 
   }
 
   // primary - computed: false, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable; 
+  private _primary?: boolean | cdktn.IResolvable;
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -599,7 +599,7 @@ export class IdentitystoreUserEmailsOutputReference extends cdktn.ComplexObject 
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -615,7 +615,7 @@ export class IdentitystoreUserEmailsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -632,27 +632,27 @@ export class IdentitystoreUserEmailsOutputReference extends cdktn.ComplexObject 
 }
 export interface IdentitystoreUserName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
   */
   readonly familyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
   */
   readonly formatted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
   */
   readonly givenName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
   */
   readonly honorificPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
   */
   readonly honorificSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
   */
   readonly middleName?: string;
 }
@@ -784,7 +784,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // family_name - computed: false, optional: false, required: true
-  private _familyName?: string; 
+  private _familyName?: string;
   public get familyName() {
     return this.getStringAttribute('family_name');
   }
@@ -797,7 +797,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // formatted - computed: false, optional: true, required: false
-  private _formatted?: string; 
+  private _formatted?: string;
   public get formatted() {
     return this.getStringAttribute('formatted');
   }
@@ -813,7 +813,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // given_name - computed: false, optional: false, required: true
-  private _givenName?: string; 
+  private _givenName?: string;
   public get givenName() {
     return this.getStringAttribute('given_name');
   }
@@ -826,7 +826,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // honorific_prefix - computed: false, optional: true, required: false
-  private _honorificPrefix?: string; 
+  private _honorificPrefix?: string;
   public get honorificPrefix() {
     return this.getStringAttribute('honorific_prefix');
   }
@@ -842,7 +842,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // honorific_suffix - computed: false, optional: true, required: false
-  private _honorificSuffix?: string; 
+  private _honorificSuffix?: string;
   public get honorificSuffix() {
     return this.getStringAttribute('honorific_suffix');
   }
@@ -858,7 +858,7 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
   }
 
   // middle_name - computed: false, optional: true, required: false
-  private _middleName?: string; 
+  private _middleName?: string;
   public get middleName() {
     return this.getStringAttribute('middle_name');
   }
@@ -875,15 +875,15 @@ export class IdentitystoreUserNameOutputReference extends cdktn.ComplexObject {
 }
 export interface IdentitystoreUserPhoneNumbers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
   */
   readonly value?: string;
 }
@@ -976,7 +976,7 @@ export class IdentitystoreUserPhoneNumbersOutputReference extends cdktn.ComplexO
   }
 
   // primary - computed: false, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable; 
+  private _primary?: boolean | cdktn.IResolvable;
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -992,7 +992,7 @@ export class IdentitystoreUserPhoneNumbersOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1008,7 +1008,7 @@ export class IdentitystoreUserPhoneNumbersOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1025,7 +1025,7 @@ export class IdentitystoreUserPhoneNumbersOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user aws_identitystore_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user aws_identitystore_user}
 */
 export class IdentitystoreUser extends cdktn.TerraformResource {
 
@@ -1041,7 +1041,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IdentitystoreUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentitystoreUser to import
-  * @param importFromId The id of the existing IdentitystoreUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentitystoreUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentitystoreUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1053,7 +1053,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/identitystore_user aws_identitystore_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/identitystore_user aws_identitystore_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1064,7 +1064,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
       terraformResourceType: 'aws_identitystore_user',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1097,7 +1097,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   // ==========
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1116,7 +1116,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1132,7 +1132,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // identity_store_id - computed: false, optional: false, required: true
-  private _identityStoreId?: string; 
+  private _identityStoreId?: string;
   public get identityStoreId() {
     return this.getStringAttribute('identity_store_id');
   }
@@ -1145,7 +1145,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // locale - computed: false, optional: true, required: false
-  private _locale?: string; 
+  private _locale?: string;
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -1161,7 +1161,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // nickname - computed: false, optional: true, required: false
-  private _nickname?: string; 
+  private _nickname?: string;
   public get nickname() {
     return this.getStringAttribute('nickname');
   }
@@ -1177,7 +1177,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // preferred_language - computed: false, optional: true, required: false
-  private _preferredLanguage?: string; 
+  private _preferredLanguage?: string;
   public get preferredLanguage() {
     return this.getStringAttribute('preferred_language');
   }
@@ -1193,7 +1193,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // profile_url - computed: false, optional: true, required: false
-  private _profileUrl?: string; 
+  private _profileUrl?: string;
   public get profileUrl() {
     return this.getStringAttribute('profile_url');
   }
@@ -1209,7 +1209,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1225,7 +1225,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // timezone - computed: false, optional: true, required: false
-  private _timezone?: string; 
+  private _timezone?: string;
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -1241,7 +1241,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // title - computed: false, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1262,7 +1262,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string; 
+  private _userName?: string;
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -1280,7 +1280,7 @@ export class IdentitystoreUser extends cdktn.TerraformResource {
   }
 
   // user_type - computed: false, optional: true, required: false
-  private _userType?: string; 
+  private _userType?: string;
   public get userType() {
     return this.getStringAttribute('user_type');
   }

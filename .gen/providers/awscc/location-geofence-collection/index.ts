@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface LocationGeofenceCollectionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#collection_name LocationGeofenceCollection#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#collection_name LocationGeofenceCollection#collection_name}
   */
   readonly collectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#description LocationGeofenceCollection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#description LocationGeofenceCollection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#kms_key_id LocationGeofenceCollection#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#kms_key_id LocationGeofenceCollection#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#pricing_plan LocationGeofenceCollection#pricing_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#pricing_plan LocationGeofenceCollection#pricing_plan}
   */
   readonly pricingPlan?: string;
   /**
   * This shape is deprecated since 2022-02-01: Deprecated. No longer allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#pricing_plan_data_source LocationGeofenceCollection#pricing_plan_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#pricing_plan_data_source LocationGeofenceCollection#pricing_plan_data_source}
   */
   readonly pricingPlanDataSource?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#tags LocationGeofenceCollection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#tags LocationGeofenceCollection#tags}
   */
   readonly tags?: LocationGeofenceCollectionTags[] | cdktn.IResolvable;
 }
@@ -40,13 +40,13 @@ export interface LocationGeofenceCollectionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#key LocationGeofenceCollection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#key LocationGeofenceCollection#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#value LocationGeofenceCollection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#value LocationGeofenceCollection#value}
   */
   readonly value?: string;
 }
@@ -138,7 +138,7 @@ export class LocationGeofenceCollectionTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class LocationGeofenceCollectionTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -191,7 +191,7 @@ export class LocationGeofenceCollectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection awscc_location_geofence_collection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection awscc_location_geofence_collection}
 */
 export class LocationGeofenceCollection extends cdktn.TerraformResource {
 
@@ -207,7 +207,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LocationGeofenceCollection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocationGeofenceCollection to import
-  * @param importFromId The id of the existing LocationGeofenceCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocationGeofenceCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocationGeofenceCollection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -219,7 +219,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,7 +230,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_location_geofence_collection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -263,7 +263,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // collection_name - computed: false, optional: false, required: true
-  private _collectionName?: string; 
+  private _collectionName?: string;
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -281,7 +281,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -302,7 +302,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -318,7 +318,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // pricing_plan - computed: true, optional: true, required: false
-  private _pricingPlan?: string; 
+  private _pricingPlan?: string;
   public get pricingPlan() {
     return this.getStringAttribute('pricing_plan');
   }
@@ -334,7 +334,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // pricing_plan_data_source - computed: true, optional: true, required: false
-  private _pricingPlanDataSource?: string; 
+  private _pricingPlanDataSource?: string;
   public get pricingPlanDataSource() {
     return this.getStringAttribute('pricing_plan_data_source');
   }

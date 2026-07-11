@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BedrockPromptConfig extends cdktn.TerraformMetaArguments {
   /**
   * A KMS key ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
   */
   readonly customerEncryptionKeyArn?: string;
   /**
   * Name for a variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
   */
   readonly defaultVariant?: string;
   /**
   * Name for a prompt resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
   */
   readonly description?: string;
   /**
   * Name for a prompt resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name: string;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * List of prompt variants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
   */
   readonly variants?: BedrockPromptVariants[] | cdktn.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface BedrockPromptVariantsGenAiResourceAgent {
   /**
   * Arn representation of the Agent Alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
   */
   readonly agentIdentifier?: string;
 }
@@ -125,7 +125,7 @@ export class BedrockPromptVariantsGenAiResourceAgentOutputReference extends cdkt
   }
 
   // agent_identifier - computed: true, optional: true, required: false
-  private _agentIdentifier?: string; 
+  private _agentIdentifier?: string;
   public get agentIdentifier() {
     return this.getStringAttribute('agent_identifier');
   }
@@ -144,7 +144,7 @@ export interface BedrockPromptVariantsGenAiResource {
   /**
   * Target Agent to invoke with Prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
   */
   readonly agent?: BedrockPromptVariantsGenAiResourceAgent;
 }
@@ -240,25 +240,25 @@ export interface BedrockPromptVariantsInferenceConfigurationText {
   /**
   * Maximum length of output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * List of stop sequences
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
   * Controls randomness, higher values increase diversity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
   */
   readonly temperature?: number;
   /**
   * Cumulative probability cutoff for token selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
   */
   readonly topP?: number;
 }
@@ -374,7 +374,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number; 
+  private _maxTokens?: number;
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -390,7 +390,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // stop_sequences - computed: true, optional: true, required: false
-  private _stopSequences?: string[]; 
+  private _stopSequences?: string[];
   public get stopSequences() {
     return this.getListAttribute('stop_sequences');
   }
@@ -406,7 +406,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // temperature - computed: true, optional: true, required: false
-  private _temperature?: number; 
+  private _temperature?: number;
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -422,7 +422,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // top_p - computed: true, optional: true, required: false
-  private _topP?: number; 
+  private _topP?: number;
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -441,7 +441,7 @@ export interface BedrockPromptVariantsInferenceConfiguration {
   /**
   * Prompt model inference configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
   */
   readonly text?: BedrockPromptVariantsInferenceConfigurationText;
 }
@@ -537,13 +537,13 @@ export interface BedrockPromptVariantsMetadata {
   /**
   * The key of a metadata tag for a prompt variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
   */
   readonly key?: string;
   /**
   * The value of a metadata tag for a prompt variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
   */
   readonly value?: string;
 }
@@ -635,7 +635,7 @@ export class BedrockPromptVariantsMetadataOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -651,7 +651,7 @@ export class BedrockPromptVariantsMetadataOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -690,7 +690,7 @@ export interface BedrockPromptVariantsTemplateConfigurationChatInputVariables {
   /**
   * Name for an input variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name?: string;
 }
@@ -769,7 +769,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -808,7 +808,7 @@ export interface BedrockPromptVariantsTemplateConfigurationChatMessagesContentCa
   /**
   * CachePoint types for CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
   */
   readonly type?: string;
 }
@@ -885,7 +885,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesContentCacheP
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -904,13 +904,13 @@ export interface BedrockPromptVariantsTemplateConfigurationChatMessagesContent {
   /**
   * CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
   */
   readonly cachePoint?: BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint;
   /**
   * Configuration for chat prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
   */
   readonly text?: string;
 }
@@ -1018,7 +1018,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesContentOutput
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1057,13 +1057,13 @@ export interface BedrockPromptVariantsTemplateConfigurationChatMessages {
   /**
   * List of Content Blocks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
   */
   readonly content?: BedrockPromptVariantsTemplateConfigurationChatMessagesContent[] | cdktn.IResolvable;
   /**
   * Conversation roles for the chat prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
   */
   readonly role?: string;
 }
@@ -1171,7 +1171,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesOutputReferen
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -1210,7 +1210,7 @@ export interface BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint 
   /**
   * CachePoint types for CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
   */
   readonly type?: string;
 }
@@ -1287,7 +1287,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1306,13 +1306,13 @@ export interface BedrockPromptVariantsTemplateConfigurationChatSystem {
   /**
   * CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
   */
   readonly cachePoint?: BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint;
   /**
   * Configuration for chat prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
   */
   readonly text?: string;
 }
@@ -1420,7 +1420,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatSystemOutputReference
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1459,7 +1459,7 @@ export interface BedrockPromptVariantsTemplateConfigurationChatToolConfiguration
   /**
   * Tool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name?: string;
 }
@@ -1536,7 +1536,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1555,19 +1555,19 @@ export interface BedrockPromptVariantsTemplateConfigurationChatToolConfiguration
   /**
   * Any Tool choice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
   */
   readonly any?: string;
   /**
   * Auto Tool choice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
   */
   readonly auto?: string;
   /**
   * Specific Tool choice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
   */
   readonly tool?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool;
 }
@@ -1670,7 +1670,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // any - computed: true, optional: true, required: false
-  private _any?: string; 
+  private _any?: string;
   public get any() {
     return this.getStringAttribute('any');
   }
@@ -1686,7 +1686,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // auto - computed: true, optional: true, required: false
-  private _auto?: string; 
+  private _auto?: string;
   public get auto() {
     return this.getStringAttribute('auto');
   }
@@ -1721,7 +1721,7 @@ export interface BedrockPromptVariantsTemplateConfigurationChatToolConfiguration
   /**
   * CachePoint types for CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
   */
   readonly type?: string;
 }
@@ -1798,7 +1798,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1815,7 +1815,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
 }
 export interface BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}
   */
   readonly json?: string;
 }
@@ -1892,7 +1892,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // json - computed: true, optional: true, required: false
-  private _json?: string; 
+  private _json?: string;
   public get json() {
     return this.getStringAttribute('json');
   }
@@ -1909,19 +1909,19 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
 }
 export interface BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
   */
   readonly description?: string;
   /**
   * Tool input schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
   */
   readonly inputSchema?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema;
   /**
   * Tool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name?: string;
 }
@@ -2024,7 +2024,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2056,7 +2056,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2075,13 +2075,13 @@ export interface BedrockPromptVariantsTemplateConfigurationChatToolConfiguration
   /**
   * CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
   */
   readonly cachePoint?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint;
   /**
   * Tool specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
   */
   readonly toolSpec?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec;
 }
@@ -2228,13 +2228,13 @@ export interface BedrockPromptVariantsTemplateConfigurationChatToolConfiguration
   /**
   * Tool choice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
   */
   readonly toolChoice?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice;
   /**
   * List of Tools
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
   */
   readonly tools?: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools[] | cdktn.IResolvable;
 }
@@ -2359,25 +2359,25 @@ export interface BedrockPromptVariantsTemplateConfigurationChat {
   /**
   * List of input variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
   */
   readonly inputVariables?: BedrockPromptVariantsTemplateConfigurationChatInputVariables[] | cdktn.IResolvable;
   /**
   * List of messages for chat prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
   */
   readonly messages?: BedrockPromptVariantsTemplateConfigurationChatMessages[] | cdktn.IResolvable;
   /**
   * Configuration for chat prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
   */
   readonly systemAttribute?: BedrockPromptVariantsTemplateConfigurationChatSystem[] | cdktn.IResolvable;
   /**
   * Tool configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
   */
   readonly toolConfiguration?: BedrockPromptVariantsTemplateConfigurationChatToolConfiguration;
 }
@@ -2560,7 +2560,7 @@ export interface BedrockPromptVariantsTemplateConfigurationTextCachePoint {
   /**
   * CachePoint types for CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
   */
   readonly type?: string;
 }
@@ -2637,7 +2637,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextCachePointOutputRefer
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2656,7 +2656,7 @@ export interface BedrockPromptVariantsTemplateConfigurationTextInputVariables {
   /**
   * Name for an input variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name?: string;
 }
@@ -2735,7 +2735,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2774,19 +2774,19 @@ export interface BedrockPromptVariantsTemplateConfigurationTextTextS3Location {
   /**
   * A bucket in S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
   */
   readonly bucket?: string;
   /**
   * A object key in S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
   */
   readonly key?: string;
   /**
   * The version of the the S3 object to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
   */
   readonly version?: string;
 }
@@ -2889,7 +2889,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2905,7 +2905,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2921,7 +2921,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2940,25 +2940,25 @@ export interface BedrockPromptVariantsTemplateConfigurationText {
   /**
   * CachePointBlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
   */
   readonly cachePoint?: BedrockPromptVariantsTemplateConfigurationTextCachePoint;
   /**
   * List of input variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
   */
   readonly inputVariables?: BedrockPromptVariantsTemplateConfigurationTextInputVariables[] | cdktn.IResolvable;
   /**
   * Prompt content for String prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
   */
   readonly text?: string;
   /**
   * The identifier for the S3 resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
   */
   readonly textS3Location?: BedrockPromptVariantsTemplateConfigurationTextTextS3Location;
 }
@@ -3106,7 +3106,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextOutputReference exten
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3141,13 +3141,13 @@ export interface BedrockPromptVariantsTemplateConfiguration {
   /**
   * Configuration for chat prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
   */
   readonly chat?: BedrockPromptVariantsTemplateConfigurationChat;
   /**
   * Configuration for text prompt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
   */
   readonly text?: BedrockPromptVariantsTemplateConfigurationText;
 }
@@ -3272,49 +3272,49 @@ export interface BedrockPromptVariants {
   /**
   * Contains model-specific configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
   */
   readonly additionalModelRequestFields?: string;
   /**
   * Target resource to invoke with Prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
   */
   readonly genAiResource?: BedrockPromptVariantsGenAiResource;
   /**
   * Model inference configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
   */
   readonly inferenceConfiguration?: BedrockPromptVariantsInferenceConfiguration;
   /**
   * List of metadata to associate with the prompt variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
   */
   readonly metadata?: BedrockPromptVariantsMetadata[] | cdktn.IResolvable;
   /**
   * ARN or Id of a Bedrock Foundational Model or Inference Profile, or the ARN of a imported model, or a provisioned throughput ARN for custom models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
   */
   readonly modelId?: string;
   /**
   * Name for a variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
   */
   readonly name?: string;
   /**
   * Prompt template configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
   */
   readonly templateConfiguration?: BedrockPromptVariantsTemplateConfiguration;
   /**
   * Prompt template type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
   */
   readonly templateType?: string;
 }
@@ -3484,7 +3484,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // additional_model_request_fields - computed: true, optional: true, required: false
-  private _additionalModelRequestFields?: string; 
+  private _additionalModelRequestFields?: string;
   public get additionalModelRequestFields() {
     return this.getStringAttribute('additional_model_request_fields');
   }
@@ -3548,7 +3548,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string; 
+  private _modelId?: string;
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3564,7 +3564,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3596,7 +3596,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // template_type - computed: true, optional: true, required: false
-  private _templateType?: string; 
+  private _templateType?: string;
   public get templateType() {
     return this.getStringAttribute('template_type');
   }
@@ -3633,7 +3633,7 @@ export class BedrockPromptVariantsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}
 */
 export class BedrockPrompt extends cdktn.TerraformResource {
 
@@ -3649,7 +3649,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockPrompt resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockPrompt to import
-  * @param importFromId The id of the existing BedrockPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockPrompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3661,7 +3661,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_prompt awscc_bedrock_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_prompt awscc_bedrock_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3672,7 +3672,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_prompt',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3705,7 +3705,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // customer_encryption_key_arn - computed: true, optional: true, required: false
-  private _customerEncryptionKeyArn?: string; 
+  private _customerEncryptionKeyArn?: string;
   public get customerEncryptionKeyArn() {
     return this.getStringAttribute('customer_encryption_key_arn');
   }
@@ -3721,7 +3721,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // default_variant - computed: true, optional: true, required: false
-  private _defaultVariant?: string; 
+  private _defaultVariant?: string;
   public get defaultVariant() {
     return this.getStringAttribute('default_variant');
   }
@@ -3737,7 +3737,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3758,7 +3758,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3776,7 +3776,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IotCustomMetricConfig extends cdktn.TerraformMetaArguments {
   /**
   * Field represents a friendly name in the console for the custom metric; it doesn't have to be unique. Don't use this name as the metric identifier in the device metric report. Can be updated once defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
   */
   readonly displayName?: string;
   /**
   * The name of the custom metric. This will be used in the metric report submitted from the device/thing. Shouldn't begin with aws: . Cannot be updated once defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
   */
   readonly metricName?: string;
   /**
   * The type of the custom metric. Types include string-list, ip-address-list, number-list, and number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
   */
   readonly metricType: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
   */
   readonly tags?: IotCustomMetricTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface IotCustomMetricTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class IotCustomMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IotCustomMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class IotCustomMetricTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}
 */
 export class IotCustomMetric extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotCustomMetric resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCustomMetric to import
-  * @param importFromId The id of the existing IotCustomMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCustomMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCustomMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_custom_metric',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -247,7 +247,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   // ==========
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -273,7 +273,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -289,7 +289,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   }
 
   // metric_type - computed: false, optional: false, required: true
-  private _metricType?: string; 
+  private _metricType?: string;
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerWorkforceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#id SagemakerWorkforce#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#id SagemakerWorkforce#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface SagemakerWorkforceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#region SagemakerWorkforce#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#region SagemakerWorkforce#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
   */
   readonly workforceName: string;
   /**
   * cognito_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
   */
   readonly cognitoConfig?: SagemakerWorkforceCognitoConfig;
   /**
   * oidc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
   */
   readonly oidcConfig?: SagemakerWorkforceOidcConfig;
   /**
   * source_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
   */
   readonly sourceIpConfig?: SagemakerWorkforceSourceIpConfig;
   /**
   * workforce_vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
   */
   readonly workforceVpcConfig?: SagemakerWorkforceWorkforceVpcConfig;
 }
 export interface SagemakerWorkforceCognitoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
   */
   readonly userPool: string;
 }
@@ -135,7 +135,7 @@ export class SagemakerWorkforceCognitoConfigOutputReference extends cdktn.Comple
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -148,7 +148,7 @@ export class SagemakerWorkforceCognitoConfigOutputReference extends cdktn.Comple
   }
 
   // user_pool - computed: false, optional: false, required: true
-  private _userPool?: string; 
+  private _userPool?: string;
   public get userPool() {
     return this.getStringAttribute('user_pool');
   }
@@ -162,43 +162,43 @@ export class SagemakerWorkforceCognitoConfigOutputReference extends cdktn.Comple
 }
 export interface SagemakerWorkforceOidcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
   */
   readonly issuer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
   */
   readonly jwksUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
   */
   readonly logoutEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
   */
   readonly tokenEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
   */
   readonly userInfoEndpoint: string;
 }
@@ -382,7 +382,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // authentication_request_extra_params - computed: false, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string }; 
+  private _authenticationRequestExtraParams?: { [key: string]: string };
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -398,7 +398,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // authorization_endpoint - computed: false, optional: false, required: true
-  private _authorizationEndpoint?: string; 
+  private _authorizationEndpoint?: string;
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -411,7 +411,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -424,7 +424,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -437,7 +437,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -450,7 +450,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // jwks_uri - computed: false, optional: false, required: true
-  private _jwksUri?: string; 
+  private _jwksUri?: string;
   public get jwksUri() {
     return this.getStringAttribute('jwks_uri');
   }
@@ -463,7 +463,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // logout_endpoint - computed: false, optional: false, required: true
-  private _logoutEndpoint?: string; 
+  private _logoutEndpoint?: string;
   public get logoutEndpoint() {
     return this.getStringAttribute('logout_endpoint');
   }
@@ -476,7 +476,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -492,7 +492,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // token_endpoint - computed: false, optional: false, required: true
-  private _tokenEndpoint?: string; 
+  private _tokenEndpoint?: string;
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -505,7 +505,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // user_info_endpoint - computed: false, optional: false, required: true
-  private _userInfoEndpoint?: string; 
+  private _userInfoEndpoint?: string;
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -519,7 +519,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
 }
 export interface SagemakerWorkforceSourceIpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
   */
   readonly cidrs: string[];
 }
@@ -586,7 +586,7 @@ export class SagemakerWorkforceSourceIpConfigOutputReference extends cdktn.Compl
   }
 
   // cidrs - computed: false, optional: false, required: true
-  private _cidrs?: string[]; 
+  private _cidrs?: string[];
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -600,15 +600,15 @@ export class SagemakerWorkforceSourceIpConfigOutputReference extends cdktn.Compl
 }
 export interface SagemakerWorkforceWorkforceVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
   */
   readonly subnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -701,7 +701,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -717,7 +717,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // subnets - computed: false, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -738,7 +738,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -755,7 +755,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce}
 */
 export class SagemakerWorkforce extends cdktn.TerraformResource {
 
@@ -771,7 +771,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerWorkforce resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerWorkforce to import
-  * @param importFromId The id of the existing SagemakerWorkforce that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerWorkforce that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerWorkforce to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -783,7 +783,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -794,7 +794,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_workforce',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -823,7 +823,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -839,7 +839,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -860,7 +860,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // workforce_name - computed: false, optional: false, required: true
-  private _workforceName?: string; 
+  private _workforceName?: string;
   public get workforceName() {
     return this.getStringAttribute('workforce_name');
   }

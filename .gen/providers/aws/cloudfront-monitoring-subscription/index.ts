@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface CloudfrontMonitoringSubscriptionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
   */
   readonly distributionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#id CloudfrontMonitoringSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#id CloudfrontMonitoringSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface CloudfrontMonitoringSubscriptionConfig extends cdktn.TerraformM
   /**
   * monitoring_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
   */
   readonly monitoringSubscription: CloudfrontMonitoringSubscriptionMonitoringSubscription;
 }
 export interface CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
   */
   readonly realtimeMetricsSubscriptionStatus: string;
 }
@@ -94,7 +94,7 @@ export class CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetri
   }
 
   // realtime_metrics_subscription_status - computed: false, optional: false, required: true
-  private _realtimeMetricsSubscriptionStatus?: string; 
+  private _realtimeMetricsSubscriptionStatus?: string;
   public get realtimeMetricsSubscriptionStatus() {
     return this.getStringAttribute('realtime_metrics_subscription_status');
   }
@@ -110,7 +110,7 @@ export interface CloudfrontMonitoringSubscriptionMonitoringSubscription {
   /**
   * realtime_metrics_subscription_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
   */
   readonly realtimeMetricsSubscriptionConfig: CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig;
 }
@@ -191,7 +191,7 @@ export class CloudfrontMonitoringSubscriptionMonitoringSubscriptionOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription}
 */
 export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
 
@@ -207,7 +207,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontMonitoringSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontMonitoringSubscription to import
-  * @param importFromId The id of the existing CloudfrontMonitoringSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontMonitoringSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontMonitoringSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -219,7 +219,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,7 +230,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudfront_monitoring_subscription',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -250,7 +250,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   // ==========
 
   // distribution_id - computed: false, optional: false, required: true
-  private _distributionId?: string; 
+  private _distributionId?: string;
   public get distributionId() {
     return this.getStringAttribute('distribution_id');
   }
@@ -263,7 +263,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

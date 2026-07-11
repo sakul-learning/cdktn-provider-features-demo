@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface CustomerprofilesDomainConfig extends cdktn.TerraformMetaArgumen
   /**
   * The URL of the SQS dead letter queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}
   */
   readonly deadLetterQueueUrl?: string;
   /**
   * The default encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}
   */
   readonly defaultEncryptionKey?: string;
   /**
   * The default number of days until the data within the domain expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}
   */
   readonly defaultExpirationDays?: number;
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}
   */
   readonly domainName: string;
   /**
   * The tags (keys and values) associated with the domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}
   */
   readonly tags?: CustomerprofilesDomainTags[] | cdktn.IResolvable;
 }
 export interface CustomerprofilesDomainTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}
   */
   readonly value?: string;
 }
@@ -136,7 +136,7 @@ export class CustomerprofilesDomainTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class CustomerprofilesDomainTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -189,7 +189,7 @@ export class CustomerprofilesDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain}
 */
 export class CustomerprofilesDomain extends cdktn.TerraformResource {
 
@@ -205,7 +205,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesDomain to import
-  * @param importFromId The id of the existing CustomerprofilesDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +217,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -255,7 +255,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // dead_letter_queue_url - computed: true, optional: true, required: false
-  private _deadLetterQueueUrl?: string; 
+  private _deadLetterQueueUrl?: string;
   public get deadLetterQueueUrl() {
     return this.getStringAttribute('dead_letter_queue_url');
   }
@@ -271,7 +271,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_encryption_key - computed: true, optional: true, required: false
-  private _defaultEncryptionKey?: string; 
+  private _defaultEncryptionKey?: string;
   public get defaultEncryptionKey() {
     return this.getStringAttribute('default_encryption_key');
   }
@@ -287,7 +287,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_expiration_days - computed: true, optional: true, required: false
-  private _defaultExpirationDays?: number; 
+  private _defaultExpirationDays?: number;
   public get defaultExpirationDays() {
     return this.getNumberAttribute('default_expiration_days');
   }
@@ -303,7 +303,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

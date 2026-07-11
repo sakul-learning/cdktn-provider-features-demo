@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_automation_rule_v2
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_automation_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSecurityhubAutomationRuleV2Config extends cdktn.Terraf
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_automation_rule_v2#id DataAwsccSecurityhubAutomationRuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_automation_rule_v2#id DataAwsccSecurityhubAutomationRuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1214,7 +1214,7 @@ export class DataAwsccSecurityhubAutomationRuleV2CriteriaOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}
 */
 export class DataAwsccSecurityhubAutomationRuleV2 extends cdktn.TerraformDataSource {
 
@@ -1230,7 +1230,7 @@ export class DataAwsccSecurityhubAutomationRuleV2 extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccSecurityhubAutomationRuleV2 resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSecurityhubAutomationRuleV2 to import
-  * @param importFromId The id of the existing DataAwsccSecurityhubAutomationRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSecurityhubAutomationRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSecurityhubAutomationRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1242,7 +1242,7 @@ export class DataAwsccSecurityhubAutomationRuleV2 extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1253,7 +1253,7 @@ export class DataAwsccSecurityhubAutomationRuleV2 extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_securityhub_automation_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1293,7 +1293,7 @@ export class DataAwsccSecurityhubAutomationRuleV2 extends cdktn.TerraformDataSou
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

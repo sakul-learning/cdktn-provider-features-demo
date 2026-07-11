@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsPollyVoicesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#engine DataAwsPollyVoices#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#engine DataAwsPollyVoices#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#include_additional_language_codes DataAwsPollyVoices#include_additional_language_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#include_additional_language_codes DataAwsPollyVoices#include_additional_language_codes}
   */
   readonly includeAdditionalLanguageCodes?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#language_code DataAwsPollyVoices#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#language_code DataAwsPollyVoices#language_code}
   */
   readonly languageCode?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#region DataAwsPollyVoices#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#region DataAwsPollyVoices#region}
   */
   readonly region?: string;
   /**
   * voices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#voices DataAwsPollyVoices#voices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#voices DataAwsPollyVoices#voices}
   */
   readonly voices?: DataAwsPollyVoicesVoices[] | cdktn.IResolvable;
 }
@@ -150,7 +150,7 @@ export class DataAwsPollyVoicesVoicesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices aws_polly_voices}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices aws_polly_voices}
 */
 export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsPollyVoices resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsPollyVoices to import
-  * @param importFromId The id of the existing DataAwsPollyVoices that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsPollyVoices that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsPollyVoices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/polly_voices aws_polly_voices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/polly_voices aws_polly_voices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,7 +189,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_polly_voices',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -211,7 +211,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   // ==========
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -232,7 +232,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // include_additional_language_codes - computed: false, optional: true, required: false
-  private _includeAdditionalLanguageCodes?: boolean | cdktn.IResolvable; 
+  private _includeAdditionalLanguageCodes?: boolean | cdktn.IResolvable;
   public get includeAdditionalLanguageCodes() {
     return this.getBooleanAttribute('include_additional_language_codes');
   }
@@ -248,7 +248,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // language_code - computed: false, optional: true, required: false
-  private _languageCode?: string; 
+  private _languageCode?: string;
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -264,7 +264,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

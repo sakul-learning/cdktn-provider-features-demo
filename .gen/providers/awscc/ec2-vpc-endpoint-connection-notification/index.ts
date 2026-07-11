@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2VpcEndpointConnectionNotificationConfig extends cdktn.Terraf
   /**
   * The endpoint events for which to receive notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_events Ec2VpcEndpointConnectionNotification#connection_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_events Ec2VpcEndpointConnectionNotification#connection_events}
   */
   readonly connectionEvents: string[];
   /**
   * The ARN of the SNS topic for the notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_notification_arn Ec2VpcEndpointConnectionNotification#connection_notification_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_notification_arn Ec2VpcEndpointConnectionNotification#connection_notification_arn}
   */
   readonly connectionNotificationArn: string;
   /**
   * The ID of the endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification#service_id Ec2VpcEndpointConnectionNotification#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification#service_id Ec2VpcEndpointConnectionNotification#service_id}
   */
   readonly serviceId?: string;
   /**
   * The ID of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification#vpc_endpoint_id Ec2VpcEndpointConnectionNotification#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification#vpc_endpoint_id Ec2VpcEndpointConnectionNotification#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}
 */
 export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a Ec2VpcEndpointConnectionNotification resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcEndpointConnectionNotification to import
-  * @param importFromId The id of the existing Ec2VpcEndpointConnectionNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcEndpointConnectionNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcEndpointConnectionNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_ec2_vpc_endpoint_connection_notification',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   // ==========
 
   // connection_events - computed: false, optional: false, required: true
-  private _connectionEvents?: string[]; 
+  private _connectionEvents?: string[];
   public get connectionEvents() {
     return this.getListAttribute('connection_events');
   }
@@ -107,7 +107,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // connection_notification_arn - computed: false, optional: false, required: true
-  private _connectionNotificationArn?: string; 
+  private _connectionNotificationArn?: string;
   public get connectionNotificationArn() {
     return this.getStringAttribute('connection_notification_arn');
   }
@@ -125,7 +125,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // service_id - computed: true, optional: true, required: false
-  private _serviceId?: string; 
+  private _serviceId?: string;
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }
@@ -146,7 +146,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string; 
+  private _vpcEndpointId?: string;
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

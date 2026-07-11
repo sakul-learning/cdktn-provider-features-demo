@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TransferWebAppConfig extends cdktn.TerraformMetaArguments {
   /**
   * The AccessEndpoint is the URL that you provide to your users for them to interact with the Transfer Family web app. You can specify a custom URL or use the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#access_endpoint TransferWebApp#access_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#access_endpoint TransferWebApp#access_endpoint}
   */
   readonly accessEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}
   */
   readonly endpointDetails?: TransferWebAppEndpointDetails;
   /**
   * You can provide a structure that contains the details for the identity provider to use with your web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
   */
   readonly identityProviderDetails: TransferWebAppIdentityProviderDetails;
   /**
   * Key-value pairs that can be used to group and search for web apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#tags TransferWebApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#tags TransferWebApp#tags}
   */
   readonly tags?: TransferWebAppTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}
   */
   readonly webAppCustomization?: TransferWebAppWebAppCustomization;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}
   */
   readonly webAppEndpointPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}
   */
   readonly webAppUnits?: TransferWebAppWebAppUnits;
 }
@@ -46,19 +46,19 @@ export interface TransferWebAppEndpointDetailsVpc {
   /**
   * The IP address type for the VPC endpoint used by the web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#ip_address_type TransferWebApp#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#ip_address_type TransferWebApp#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -174,7 +174,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -190,7 +190,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -206,7 +206,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -222,7 +222,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -241,7 +241,7 @@ export interface TransferWebAppEndpointDetails {
   /**
   * You can provide a structure that contains the details for the VPC endpoint to use with your web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
   */
   readonly vpc?: TransferWebAppEndpointDetailsVpc;
 }
@@ -337,13 +337,13 @@ export interface TransferWebAppIdentityProviderDetails {
   /**
   * The Amazon Resource Name (ARN) for the IAM Identity Center used for the web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}
   */
   readonly instanceArn?: string;
   /**
   * The IAM role in IAM Identity Center used for the web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#role TransferWebApp#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#role TransferWebApp#role}
   */
   readonly role?: string;
 }
@@ -438,7 +438,7 @@ export class TransferWebAppIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // instance_arn - computed: true, optional: true, required: false
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -454,7 +454,7 @@ export class TransferWebAppIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -471,11 +471,11 @@ export class TransferWebAppIdentityProviderDetailsOutputReference extends cdktn.
 }
 export interface TransferWebAppTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#key TransferWebApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#key TransferWebApp#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#value TransferWebApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#value TransferWebApp#value}
   */
   readonly value?: string;
 }
@@ -567,7 +567,7 @@ export class TransferWebAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -583,7 +583,7 @@ export class TransferWebAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -622,19 +622,19 @@ export interface TransferWebAppWebAppCustomization {
   /**
   * Specifies a favicon to display in the browser tab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#favicon_file TransferWebApp#favicon_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#favicon_file TransferWebApp#favicon_file}
   */
   readonly faviconFile?: string;
   /**
   * Specifies a logo to display on the web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#logo_file TransferWebApp#logo_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#logo_file TransferWebApp#logo_file}
   */
   readonly logoFile?: string;
   /**
   * Specifies a title to display on the web app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#title TransferWebApp#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#title TransferWebApp#title}
   */
   readonly title?: string;
 }
@@ -737,7 +737,7 @@ export class TransferWebAppWebAppCustomizationOutputReference extends cdktn.Comp
   }
 
   // favicon_file - computed: true, optional: true, required: false
-  private _faviconFile?: string; 
+  private _faviconFile?: string;
   public get faviconFile() {
     return this.getStringAttribute('favicon_file');
   }
@@ -753,7 +753,7 @@ export class TransferWebAppWebAppCustomizationOutputReference extends cdktn.Comp
   }
 
   // logo_file - computed: true, optional: true, required: false
-  private _logoFile?: string; 
+  private _logoFile?: string;
   public get logoFile() {
     return this.getStringAttribute('logo_file');
   }
@@ -769,7 +769,7 @@ export class TransferWebAppWebAppCustomizationOutputReference extends cdktn.Comp
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -786,7 +786,7 @@ export class TransferWebAppWebAppCustomizationOutputReference extends cdktn.Comp
 }
 export interface TransferWebAppWebAppUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}
   */
   readonly provisioned?: number;
 }
@@ -863,7 +863,7 @@ export class TransferWebAppWebAppUnitsOutputReference extends cdktn.ComplexObjec
   }
 
   // provisioned - computed: true, optional: true, required: false
-  private _provisioned?: number; 
+  private _provisioned?: number;
   public get provisioned() {
     return this.getNumberAttribute('provisioned');
   }
@@ -880,7 +880,7 @@ export class TransferWebAppWebAppUnitsOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app awscc_transfer_web_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app awscc_transfer_web_app}
 */
 export class TransferWebApp extends cdktn.TerraformResource {
 
@@ -896,7 +896,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferWebApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferWebApp to import
-  * @param importFromId The id of the existing TransferWebApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferWebApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferWebApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -908,7 +908,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_web_app awscc_transfer_web_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_web_app awscc_transfer_web_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -919,7 +919,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_web_app',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -943,7 +943,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   // ==========
 
   // access_endpoint - computed: true, optional: true, required: false
-  private _accessEndpoint?: string; 
+  private _accessEndpoint?: string;
   public get accessEndpoint() {
     return this.getStringAttribute('access_endpoint');
   }
@@ -1035,7 +1035,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   }
 
   // web_app_endpoint_policy - computed: true, optional: true, required: false
-  private _webAppEndpointPolicy?: string; 
+  private _webAppEndpointPolicy?: string;
   public get webAppEndpointPolicy() {
     return this.getStringAttribute('web_app_endpoint_policy');
   }

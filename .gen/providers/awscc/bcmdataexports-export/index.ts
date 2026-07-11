@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface BcmdataexportsExportConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}
   */
   readonly export: BcmdataexportsExportExport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}
   */
   readonly tags?: BcmdataexportsExportTags[] | cdktn.IResolvable;
 }
 export interface BcmdataexportsExportExportDataQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#query_statement BcmdataexportsExport#query_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#query_statement BcmdataexportsExport#query_statement}
   */
   readonly queryStatement: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#table_configurations BcmdataexportsExport#table_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#table_configurations BcmdataexportsExport#table_configurations}
   */
   readonly tableConfigurations?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
 }
@@ -112,7 +112,7 @@ export class BcmdataexportsExportExportDataQueryOutputReference extends cdktn.Co
   }
 
   // query_statement - computed: false, optional: false, required: true
-  private _queryStatement?: string; 
+  private _queryStatement?: string;
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -125,7 +125,7 @@ export class BcmdataexportsExportExportDataQueryOutputReference extends cdktn.Co
   }
 
   // table_configurations - computed: true, optional: true, required: false
-  private _tableConfigurations?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable; 
+  private _tableConfigurations?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
   public get tableConfigurations() {
     return this.interpolationForAttribute('table_configurations');
   }
@@ -142,19 +142,19 @@ export class BcmdataexportsExportExportDataQueryOutputReference extends cdktn.Co
 }
 export interface BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#compression BcmdataexportsExport#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#compression BcmdataexportsExport#compression}
   */
   readonly compression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#format BcmdataexportsExport#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#format BcmdataexportsExport#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#output_type BcmdataexportsExport#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#output_type BcmdataexportsExport#output_type}
   */
   readonly outputType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#overwrite BcmdataexportsExport#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#overwrite BcmdataexportsExport#overwrite}
   */
   readonly overwrite: string;
 }
@@ -270,7 +270,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // compression - computed: false, optional: false, required: true
-  private _compression?: string; 
+  private _compression?: string;
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -283,7 +283,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -296,7 +296,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // output_type - computed: false, optional: false, required: true
-  private _outputType?: string; 
+  private _outputType?: string;
   public get outputType() {
     return this.getStringAttribute('output_type');
   }
@@ -309,7 +309,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // overwrite - computed: false, optional: false, required: true
-  private _overwrite?: string; 
+  private _overwrite?: string;
   public get overwrite() {
     return this.getStringAttribute('overwrite');
   }
@@ -323,23 +323,23 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
 }
 export interface BcmdataexportsExportExportDestinationConfigurationsS3Destination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_bucket BcmdataexportsExport#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_bucket BcmdataexportsExport#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_bucket_owner BcmdataexportsExport#s3_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_bucket_owner BcmdataexportsExport#s3_bucket_owner}
   */
   readonly s3BucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_output_configurations BcmdataexportsExport#s3_output_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_output_configurations BcmdataexportsExport#s3_output_configurations}
   */
   readonly s3OutputConfigurations: BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_prefix BcmdataexportsExport#s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_prefix BcmdataexportsExport#s3_prefix}
   */
   readonly s3Prefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_region BcmdataexportsExport#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_region BcmdataexportsExport#s3_region}
   */
   readonly s3Region: string;
 }
@@ -468,7 +468,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -481,7 +481,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_bucket_owner - computed: true, optional: true, required: false
-  private _s3BucketOwner?: string; 
+  private _s3BucketOwner?: string;
   public get s3BucketOwner() {
     return this.getStringAttribute('s3_bucket_owner');
   }
@@ -510,7 +510,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_prefix - computed: false, optional: false, required: true
-  private _s3Prefix?: string; 
+  private _s3Prefix?: string;
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -523,7 +523,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_region - computed: false, optional: false, required: true
-  private _s3Region?: string; 
+  private _s3Region?: string;
   public get s3Region() {
     return this.getStringAttribute('s3_region');
   }
@@ -537,7 +537,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
 }
 export interface BcmdataexportsExportExportDestinationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
   */
   readonly s3Destination: BcmdataexportsExportExportDestinationConfigurationsS3Destination;
 }
@@ -628,7 +628,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsOutputReference 
 }
 export interface BcmdataexportsExportExportRefreshCadence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#frequency BcmdataexportsExport#frequency}
   */
   readonly frequency: string;
 }
@@ -705,7 +705,7 @@ export class BcmdataexportsExportExportRefreshCadenceOutputReference extends cdk
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string; 
+  private _frequency?: string;
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -719,23 +719,23 @@ export class BcmdataexportsExportExportRefreshCadenceOutputReference extends cdk
 }
 export interface BcmdataexportsExportExport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#data_query BcmdataexportsExport#data_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#data_query BcmdataexportsExport#data_query}
   */
   readonly dataQuery: BcmdataexportsExportExportDataQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#description BcmdataexportsExport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#description BcmdataexportsExport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#destination_configurations BcmdataexportsExport#destination_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#destination_configurations BcmdataexportsExport#destination_configurations}
   */
   readonly destinationConfigurations: BcmdataexportsExportExportDestinationConfigurations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#name BcmdataexportsExport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#name BcmdataexportsExport#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#refresh_cadence BcmdataexportsExport#refresh_cadence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#refresh_cadence BcmdataexportsExport#refresh_cadence}
   */
   readonly refreshCadence: BcmdataexportsExportExportRefreshCadence;
 }
@@ -877,7 +877,7 @@ export class BcmdataexportsExportExportOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -911,7 +911,7 @@ export class BcmdataexportsExportExportOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -938,11 +938,11 @@ export class BcmdataexportsExportExportOutputReference extends cdktn.ComplexObje
 }
 export interface BcmdataexportsExportTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#key BcmdataexportsExport#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#key BcmdataexportsExport#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#value BcmdataexportsExport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#value BcmdataexportsExport#value}
   */
   readonly value?: string;
 }
@@ -1034,7 +1034,7 @@ export class BcmdataexportsExportTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1050,7 +1050,7 @@ export class BcmdataexportsExportTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1087,7 +1087,7 @@ export class BcmdataexportsExportTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export}
 */
 export class BcmdataexportsExport extends cdktn.TerraformResource {
 
@@ -1103,7 +1103,7 @@ export class BcmdataexportsExport extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BcmdataexportsExport resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BcmdataexportsExport to import
-  * @param importFromId The id of the existing BcmdataexportsExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BcmdataexportsExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BcmdataexportsExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1115,7 +1115,7 @@ export class BcmdataexportsExport extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1126,7 +1126,7 @@ export class BcmdataexportsExport extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bcmdataexports_export',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

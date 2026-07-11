@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface IotanalyticsPipelineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#pipeline_activities IotanalyticsPipeline#pipeline_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#pipeline_activities IotanalyticsPipeline#pipeline_activities}
   */
   readonly pipelineActivities: IotanalyticsPipelinePipelineActivities[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#pipeline_name IotanalyticsPipeline#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#pipeline_name IotanalyticsPipeline#pipeline_name}
   */
   readonly pipelineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#tags IotanalyticsPipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#tags IotanalyticsPipeline#tags}
   */
   readonly tags?: IotanalyticsPipelineTags[] | cdktn.IResolvable;
 }
 export interface IotanalyticsPipelinePipelineActivitiesAddAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -133,7 +133,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -149,7 +149,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -165,7 +165,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -182,15 +182,15 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
 }
 export interface IotanalyticsPipelinePipelineActivitiesChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#channel_name IotanalyticsPipeline#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#channel_name IotanalyticsPipeline#channel_name}
   */
   readonly channelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -293,7 +293,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -309,7 +309,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -325,7 +325,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -342,11 +342,11 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
 }
 export interface IotanalyticsPipelinePipelineActivitiesDatastore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#datastore_name IotanalyticsPipeline#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#datastore_name IotanalyticsPipeline#datastore_name}
   */
   readonly datastoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
 }
@@ -436,7 +436,7 @@ export class IotanalyticsPipelinePipelineActivitiesDatastoreOutputReference exte
   }
 
   // datastore_name - computed: true, optional: true, required: false
-  private _datastoreName?: string; 
+  private _datastoreName?: string;
   public get datastoreName() {
     return this.getStringAttribute('datastore_name');
   }
@@ -452,7 +452,7 @@ export class IotanalyticsPipelinePipelineActivitiesDatastoreOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -469,23 +469,23 @@ export class IotanalyticsPipelinePipelineActivitiesDatastoreOutputReference exte
 }
 export interface IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrich {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#role_arn IotanalyticsPipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#role_arn IotanalyticsPipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#thing_name IotanalyticsPipeline#thing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#thing_name IotanalyticsPipeline#thing_name}
   */
   readonly thingName?: string;
 }
@@ -614,7 +614,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -630,7 +630,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -646,7 +646,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -662,7 +662,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -678,7 +678,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string; 
+  private _thingName?: string;
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }
@@ -695,23 +695,23 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
 }
 export interface IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrich {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#role_arn IotanalyticsPipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#role_arn IotanalyticsPipeline#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#thing_name IotanalyticsPipeline#thing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#thing_name IotanalyticsPipeline#thing_name}
   */
   readonly thingName?: string;
 }
@@ -840,7 +840,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -856,7 +856,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -872,7 +872,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -888,7 +888,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -904,7 +904,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string; 
+  private _thingName?: string;
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }
@@ -921,15 +921,15 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
 }
 export interface IotanalyticsPipelinePipelineActivitiesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#filter IotanalyticsPipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#filter IotanalyticsPipeline#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -1032,7 +1032,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string; 
+  private _filter?: string;
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -1048,7 +1048,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1064,7 +1064,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1081,19 +1081,19 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
 }
 export interface IotanalyticsPipelinePipelineActivitiesLambda {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#batch_size IotanalyticsPipeline#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#batch_size IotanalyticsPipeline#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#lambda_name IotanalyticsPipeline#lambda_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#lambda_name IotanalyticsPipeline#lambda_name}
   */
   readonly lambdaName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -1209,7 +1209,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1225,7 +1225,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // lambda_name - computed: true, optional: true, required: false
-  private _lambdaName?: string; 
+  private _lambdaName?: string;
   public get lambdaName() {
     return this.getStringAttribute('lambda_name');
   }
@@ -1241,7 +1241,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1257,7 +1257,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1274,19 +1274,19 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
 }
 export interface IotanalyticsPipelinePipelineActivitiesMath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attribute IotanalyticsPipeline#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#math IotanalyticsPipeline#math}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#math IotanalyticsPipeline#math}
   */
   readonly math?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -1402,7 +1402,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1418,7 +1418,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // math - computed: true, optional: true, required: false
-  private _math?: string; 
+  private _math?: string;
   public get math() {
     return this.getStringAttribute('math');
   }
@@ -1434,7 +1434,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1450,7 +1450,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1467,15 +1467,15 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
 }
 export interface IotanalyticsPipelinePipelineActivitiesRemoveAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
   */
   readonly attributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -1578,7 +1578,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: string[]; 
+  private _attributes?: string[];
   public get attributes() {
     return this.getListAttribute('attributes');
   }
@@ -1594,7 +1594,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1610,7 +1610,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1627,15 +1627,15 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
 }
 export interface IotanalyticsPipelinePipelineActivitiesSelectAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#attributes IotanalyticsPipeline#attributes}
   */
   readonly attributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#name IotanalyticsPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#next IotanalyticsPipeline#next}
   */
   readonly next?: string;
 }
@@ -1738,7 +1738,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: string[]; 
+  private _attributes?: string[];
   public get attributes() {
     return this.getListAttribute('attributes');
   }
@@ -1754,7 +1754,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1770,7 +1770,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string; 
+  private _next?: string;
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1787,43 +1787,43 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
 }
 export interface IotanalyticsPipelinePipelineActivities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#add_attributes IotanalyticsPipeline#add_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#add_attributes IotanalyticsPipeline#add_attributes}
   */
   readonly addAttributes?: IotanalyticsPipelinePipelineActivitiesAddAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#channel IotanalyticsPipeline#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#channel IotanalyticsPipeline#channel}
   */
   readonly channel?: IotanalyticsPipelinePipelineActivitiesChannel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#datastore IotanalyticsPipeline#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#datastore IotanalyticsPipeline#datastore}
   */
   readonly datastore?: IotanalyticsPipelinePipelineActivitiesDatastore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#device_registry_enrich IotanalyticsPipeline#device_registry_enrich}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#device_registry_enrich IotanalyticsPipeline#device_registry_enrich}
   */
   readonly deviceRegistryEnrich?: IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrich;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#device_shadow_enrich IotanalyticsPipeline#device_shadow_enrich}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#device_shadow_enrich IotanalyticsPipeline#device_shadow_enrich}
   */
   readonly deviceShadowEnrich?: IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrich;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#filter IotanalyticsPipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#filter IotanalyticsPipeline#filter}
   */
   readonly filter?: IotanalyticsPipelinePipelineActivitiesFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#lambda IotanalyticsPipeline#lambda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#lambda IotanalyticsPipeline#lambda}
   */
   readonly lambda?: IotanalyticsPipelinePipelineActivitiesLambda;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#math IotanalyticsPipeline#math}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#math IotanalyticsPipeline#math}
   */
   readonly math?: IotanalyticsPipelinePipelineActivitiesMath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#remove_attributes IotanalyticsPipeline#remove_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#remove_attributes IotanalyticsPipeline#remove_attributes}
   */
   readonly removeAttributes?: IotanalyticsPipelinePipelineActivitiesRemoveAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#select_attributes IotanalyticsPipeline#select_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#select_attributes IotanalyticsPipeline#select_attributes}
   */
   readonly selectAttributes?: IotanalyticsPipelinePipelineActivitiesSelectAttributes;
 }
@@ -2200,11 +2200,11 @@ export class IotanalyticsPipelinePipelineActivitiesList extends cdktn.ComplexLis
 }
 export interface IotanalyticsPipelineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#key IotanalyticsPipeline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#key IotanalyticsPipeline#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#value IotanalyticsPipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#value IotanalyticsPipeline#value}
   */
   readonly value?: string;
 }
@@ -2296,7 +2296,7 @@ export class IotanalyticsPipelineTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2312,7 +2312,7 @@ export class IotanalyticsPipelineTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2349,7 +2349,7 @@ export class IotanalyticsPipelineTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline}
 */
 export class IotanalyticsPipeline extends cdktn.TerraformResource {
 
@@ -2365,7 +2365,7 @@ export class IotanalyticsPipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotanalyticsPipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotanalyticsPipeline to import
-  * @param importFromId The id of the existing IotanalyticsPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotanalyticsPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotanalyticsPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2377,7 +2377,7 @@ export class IotanalyticsPipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2388,7 +2388,7 @@ export class IotanalyticsPipeline extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotanalytics_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2431,7 +2431,7 @@ export class IotanalyticsPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: true, optional: true, required: false
-  private _pipelineName?: string; 
+  private _pipelineName?: string;
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }

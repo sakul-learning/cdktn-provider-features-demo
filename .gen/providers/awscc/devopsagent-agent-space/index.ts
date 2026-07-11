@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DevopsagentAgentSpaceConfig extends cdktn.TerraformMetaArgument
   /**
   * The description of the AgentSpace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
   */
   readonly description?: string;
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The locale for the AgentSpace, which determines the language used in agent responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
   */
   readonly locale?: string;
   /**
   * The name of the AgentSpace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}
   */
   readonly operatorApp?: DevopsagentAgentSpaceOperatorApp;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
   */
   readonly tags?: DevopsagentAgentSpaceTags[] | cdktn.IResolvable;
 }
 export interface DevopsagentAgentSpaceOperatorAppIam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
   */
   readonly operatorAppRoleArn?: string;
 }
@@ -126,7 +126,7 @@ export class DevopsagentAgentSpaceOperatorAppIamOutputReference extends cdktn.Co
   }
 
   // operator_app_role_arn - computed: true, optional: true, required: false
-  private _operatorAppRoleArn?: string; 
+  private _operatorAppRoleArn?: string;
   public get operatorAppRoleArn() {
     return this.getStringAttribute('operator_app_role_arn');
   }
@@ -148,11 +148,11 @@ export class DevopsagentAgentSpaceOperatorAppIamOutputReference extends cdktn.Co
 }
 export interface DevopsagentAgentSpaceOperatorAppIdc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}
   */
   readonly idcInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
   */
   readonly operatorAppRoleArn?: string;
 }
@@ -252,7 +252,7 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
   }
 
   // idc_instance_arn - computed: true, optional: true, required: false
-  private _idcInstanceArn?: string; 
+  private _idcInstanceArn?: string;
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -268,7 +268,7 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
   }
 
   // operator_app_role_arn - computed: true, optional: true, required: false
-  private _operatorAppRoleArn?: string; 
+  private _operatorAppRoleArn?: string;
   public get operatorAppRoleArn() {
     return this.getStringAttribute('operator_app_role_arn');
   }
@@ -290,11 +290,11 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
 }
 export interface DevopsagentAgentSpaceOperatorApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}
   */
   readonly iam?: DevopsagentAgentSpaceOperatorAppIam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}
   */
   readonly idc?: DevopsagentAgentSpaceOperatorAppIdc;
 }
@@ -419,13 +419,13 @@ export interface DevopsagentAgentSpaceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
   */
   readonly value?: string;
 }
@@ -517,7 +517,7 @@ export class DevopsagentAgentSpaceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -533,7 +533,7 @@ export class DevopsagentAgentSpaceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -570,7 +570,7 @@ export class DevopsagentAgentSpaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}
 */
 export class DevopsagentAgentSpace extends cdktn.TerraformResource {
 
@@ -586,7 +586,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsagentAgentSpace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsagentAgentSpace to import
-  * @param importFromId The id of the existing DevopsagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsagentAgentSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -598,7 +598,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,7 +609,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsagent_agent_space',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -647,7 +647,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -668,7 +668,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -684,7 +684,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string; 
+  private _locale?: string;
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -700,7 +700,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightTemplateAliasConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#alias_name QuicksightTemplateAlias#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#alias_name QuicksightTemplateAlias#alias_name}
   */
   readonly aliasName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#aws_account_id QuicksightTemplateAlias#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#aws_account_id QuicksightTemplateAlias#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#region QuicksightTemplateAlias#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#region QuicksightTemplateAlias#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#template_id QuicksightTemplateAlias#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#template_id QuicksightTemplateAlias#template_id}
   */
   readonly templateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#template_version_number QuicksightTemplateAlias#template_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#template_version_number QuicksightTemplateAlias#template_version_number}
   */
   readonly templateVersionNumber: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}
 */
 export class QuicksightTemplateAlias extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTemplateAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTemplateAlias to import
-  * @param importFromId The id of the existing QuicksightTemplateAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTemplateAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTemplateAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_template_alias',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -93,7 +93,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   // ==========
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string; 
+  private _aliasName?: string;
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -111,7 +111,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -132,7 +132,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -148,7 +148,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // template_id - computed: false, optional: false, required: true
-  private _templateId?: string; 
+  private _templateId?: string;
   public get templateId() {
     return this.getStringAttribute('template_id');
   }
@@ -161,7 +161,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // template_version_number - computed: false, optional: false, required: true
-  private _templateVersionNumber?: number; 
+  private _templateVersionNumber?: number;
   public get templateVersionNumber() {
     return this.getNumberAttribute('template_version_number');
   }

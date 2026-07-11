@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,103 +11,103 @@ export interface Ec2RouteConfig extends cdktn.TerraformMetaArguments {
   * The ID of the carrier gateway.
   *  You can only use this option when the VPC contains a subnet which is associated with a Wavelength Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#carrier_gateway_id Ec2Route#carrier_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#carrier_gateway_id Ec2Route#carrier_gateway_id}
   */
   readonly carrierGatewayId?: string;
   /**
   * The Amazon Resource Name (ARN) of the core network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#core_network_arn Ec2Route#core_network_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#core_network_arn Ec2Route#core_network_arn}
   */
   readonly coreNetworkArn?: string;
   /**
   * The IPv4 CIDR address block used for the destination match. Routing decisions are based on the most specific match. We modify the specified CIDR block to its canonical form; for example, if you specify ``100.68.0.18/18``, we modify it to ``100.68.0.0/18``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#destination_cidr_block Ec2Route#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#destination_cidr_block Ec2Route#destination_cidr_block}
   */
   readonly destinationCidrBlock?: string;
   /**
   * The IPv6 CIDR block used for the destination match. Routing decisions are based on the most specific match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#destination_ipv_6_cidr_block Ec2Route#destination_ipv_6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#destination_ipv_6_cidr_block Ec2Route#destination_ipv_6_cidr_block}
   */
   readonly destinationIpv6CidrBlock?: string;
   /**
   * The ID of a prefix list used for the destination match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#destination_prefix_list_id Ec2Route#destination_prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#destination_prefix_list_id Ec2Route#destination_prefix_list_id}
   */
   readonly destinationPrefixListId?: string;
   /**
   * [IPv6 traffic only] The ID of an egress-only internet gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#egress_only_internet_gateway_id Ec2Route#egress_only_internet_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#egress_only_internet_gateway_id Ec2Route#egress_only_internet_gateway_id}
   */
   readonly egressOnlyInternetGatewayId?: string;
   /**
   * The ID of an internet gateway or virtual private gateway attached to your VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#gateway_id Ec2Route#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#gateway_id Ec2Route#gateway_id}
   */
   readonly gatewayId?: string;
   /**
   * The ID of a NAT instance in your VPC. The operation fails if you specify an instance ID unless exactly one network interface is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#instance_id Ec2Route#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#instance_id Ec2Route#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The ID of the local gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#local_gateway_id Ec2Route#local_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#local_gateway_id Ec2Route#local_gateway_id}
   */
   readonly localGatewayId?: string;
   /**
   * [IPv4 traffic only] The ID of a NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#nat_gateway_id Ec2Route#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#nat_gateway_id Ec2Route#nat_gateway_id}
   */
   readonly natGatewayId?: string;
   /**
   * The ID of a network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#network_interface_id Ec2Route#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#network_interface_id Ec2Route#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * The Amazon Resource Name (ARN) of the ODB network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#odb_network_arn Ec2Route#odb_network_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#odb_network_arn Ec2Route#odb_network_arn}
   */
   readonly odbNetworkArn?: string;
   /**
   * The ID of the route table for the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#route_table_id Ec2Route#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#route_table_id Ec2Route#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * The ID of a transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#transit_gateway_id Ec2Route#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#transit_gateway_id Ec2Route#transit_gateway_id}
   */
   readonly transitGatewayId?: string;
   /**
   * The ID of a VPC endpoint. Supported for Gateway Load Balancer endpoints only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#vpc_endpoint_id Ec2Route#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#vpc_endpoint_id Ec2Route#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
   /**
   * The ID of a VPC peering connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#vpc_peering_connection_id Ec2Route#vpc_peering_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#vpc_peering_connection_id Ec2Route#vpc_peering_connection_id}
   */
   readonly vpcPeeringConnectionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route awscc_ec2_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route awscc_ec2_route}
 */
 export class Ec2Route extends cdktn.TerraformResource {
 
@@ -123,7 +123,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Route resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Route to import
-  * @param importFromId The id of the existing Ec2Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -135,7 +135,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route awscc_ec2_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route awscc_ec2_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,7 +146,7 @@ export class Ec2Route extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -179,7 +179,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   // ==========
 
   // carrier_gateway_id - computed: true, optional: true, required: false
-  private _carrierGatewayId?: string; 
+  private _carrierGatewayId?: string;
   public get carrierGatewayId() {
     return this.getStringAttribute('carrier_gateway_id');
   }
@@ -200,7 +200,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // core_network_arn - computed: true, optional: true, required: false
-  private _coreNetworkArn?: string; 
+  private _coreNetworkArn?: string;
   public get coreNetworkArn() {
     return this.getStringAttribute('core_network_arn');
   }
@@ -216,7 +216,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: true, optional: true, required: false
-  private _destinationCidrBlock?: string; 
+  private _destinationCidrBlock?: string;
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -232,7 +232,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // destination_ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _destinationIpv6CidrBlock?: string; 
+  private _destinationIpv6CidrBlock?: string;
   public get destinationIpv6CidrBlock() {
     return this.getStringAttribute('destination_ipv_6_cidr_block');
   }
@@ -248,7 +248,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // destination_prefix_list_id - computed: true, optional: true, required: false
-  private _destinationPrefixListId?: string; 
+  private _destinationPrefixListId?: string;
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -264,7 +264,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // egress_only_internet_gateway_id - computed: true, optional: true, required: false
-  private _egressOnlyInternetGatewayId?: string; 
+  private _egressOnlyInternetGatewayId?: string;
   public get egressOnlyInternetGatewayId() {
     return this.getStringAttribute('egress_only_internet_gateway_id');
   }
@@ -280,7 +280,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: true, optional: true, required: false
-  private _gatewayId?: string; 
+  private _gatewayId?: string;
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -301,7 +301,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -317,7 +317,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // local_gateway_id - computed: true, optional: true, required: false
-  private _localGatewayId?: string; 
+  private _localGatewayId?: string;
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }
@@ -333,7 +333,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // nat_gateway_id - computed: true, optional: true, required: false
-  private _natGatewayId?: string; 
+  private _natGatewayId?: string;
   public get natGatewayId() {
     return this.getStringAttribute('nat_gateway_id');
   }
@@ -349,7 +349,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string; 
+  private _networkInterfaceId?: string;
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -365,7 +365,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // odb_network_arn - computed: true, optional: true, required: false
-  private _odbNetworkArn?: string; 
+  private _odbNetworkArn?: string;
   public get odbNetworkArn() {
     return this.getStringAttribute('odb_network_arn');
   }
@@ -381,7 +381,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string; 
+  private _routeTableId?: string;
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }
@@ -394,7 +394,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: true, optional: true, required: false
-  private _transitGatewayId?: string; 
+  private _transitGatewayId?: string;
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -410,7 +410,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string; 
+  private _vpcEndpointId?: string;
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -426,7 +426,7 @@ export class Ec2Route extends cdktn.TerraformResource {
   }
 
   // vpc_peering_connection_id - computed: true, optional: true, required: false
-  private _vpcPeeringConnectionId?: string; 
+  private _vpcPeeringConnectionId?: string;
   public get vpcPeeringConnectionId() {
     return this.getStringAttribute('vpc_peering_connection_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktn from 'cdktn';
 
 export interface AmiConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#architecture Ami#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#architecture Ami#architecture}
   */
   readonly architecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#boot_mode Ami#boot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#boot_mode Ami#boot_mode}
   */
   readonly bootMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#deprecation_time Ami#deprecation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#deprecation_time Ami#deprecation_time}
   */
   readonly deprecationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#description Ami#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#description Ami#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#ena_support Ami#ena_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#ena_support Ami#ena_support}
   */
   readonly enaSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#id Ami#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#id Ami#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#image_location Ami#image_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#image_location Ami#image_location}
   */
   readonly imageLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#imds_support Ami#imds_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#imds_support Ami#imds_support}
   */
   readonly imdsSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#kernel_id Ami#kernel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#kernel_id Ami#kernel_id}
   */
   readonly kernelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#name Ami#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#name Ami#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#ramdisk_id Ami#ramdisk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#ramdisk_id Ami#ramdisk_id}
   */
   readonly ramdiskId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#region Ami#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#region Ami#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#root_device_name Ami#root_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#root_device_name Ami#root_device_name}
   */
   readonly rootDeviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#sriov_net_support Ami#sriov_net_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#sriov_net_support Ami#sriov_net_support}
   */
   readonly sriovNetSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#tags Ami#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#tags Ami#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#tags_all Ami#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#tags_all Ami#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#tpm_support Ami#tpm_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#tpm_support Ami#tpm_support}
   */
   readonly tpmSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#uefi_data Ami#uefi_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#uefi_data Ami#uefi_data}
   */
   readonly uefiData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#virtualization_type Ami#virtualization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#virtualization_type Ami#virtualization_type}
   */
   readonly virtualizationType?: string;
   /**
   * ebs_block_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#ebs_block_device Ami#ebs_block_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#ebs_block_device Ami#ebs_block_device}
   */
   readonly ebsBlockDevice?: AmiEbsBlockDevice[] | cdktn.IResolvable;
   /**
   * ephemeral_block_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#ephemeral_block_device Ami#ephemeral_block_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#ephemeral_block_device Ami#ephemeral_block_device}
   */
   readonly ephemeralBlockDevice?: AmiEphemeralBlockDevice[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#timeouts Ami#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#timeouts Ami#timeouts}
   */
   readonly timeouts?: AmiTimeouts;
 }
 export interface AmiEbsBlockDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#delete_on_termination Ami#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#delete_on_termination Ami#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#device_name Ami#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#device_name Ami#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#encrypted Ami#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#encrypted Ami#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#iops Ami#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#iops Ami#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#outpost_arn Ami#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#outpost_arn Ami#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#snapshot_id Ami#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#snapshot_id Ami#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#throughput Ami#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#throughput Ami#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#volume_size Ami#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#volume_size Ami#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#volume_type Ami#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#volume_type Ami#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -324,7 +324,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -340,7 +340,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -353,7 +353,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -369,7 +369,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -385,7 +385,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // outpost_arn - computed: false, optional: true, required: false
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -401,7 +401,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // snapshot_id - computed: false, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -417,7 +417,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -433,7 +433,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -449,7 +449,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -486,11 +486,11 @@ export class AmiEbsBlockDeviceList extends cdktn.ComplexList {
 }
 export interface AmiEphemeralBlockDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#device_name Ami#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#device_name Ami#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#virtual_name Ami#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#virtual_name Ami#virtual_name}
   */
   readonly virtualName: string;
 }
@@ -582,7 +582,7 @@ export class AmiEphemeralBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -595,7 +595,7 @@ export class AmiEphemeralBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // virtual_name - computed: false, optional: false, required: true
-  private _virtualName?: string; 
+  private _virtualName?: string;
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -629,15 +629,15 @@ export class AmiEphemeralBlockDeviceList extends cdktn.ComplexList {
 }
 export interface AmiTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#create Ami#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#create Ami#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#delete Ami#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#delete Ami#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#update Ami#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#update Ami#update}
   */
   readonly update?: string;
 }
@@ -740,7 +740,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -756,7 +756,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -772,7 +772,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -789,7 +789,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami aws_ami}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami aws_ami}
 */
 export class Ami extends cdktn.TerraformResource {
 
@@ -805,7 +805,7 @@ export class Ami extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ami resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ami to import
-  * @param importFromId The id of the existing Ami that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ami that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ami to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -817,7 +817,7 @@ export class Ami extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ami aws_ami} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ami aws_ami} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -828,7 +828,7 @@ export class Ami extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ami',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -867,7 +867,7 @@ export class Ami extends cdktn.TerraformResource {
   // ==========
 
   // architecture - computed: false, optional: true, required: false
-  private _architecture?: string; 
+  private _architecture?: string;
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -888,7 +888,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // boot_mode - computed: false, optional: true, required: false
-  private _bootMode?: string; 
+  private _bootMode?: string;
   public get bootMode() {
     return this.getStringAttribute('boot_mode');
   }
@@ -904,7 +904,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // deprecation_time - computed: false, optional: true, required: false
-  private _deprecationTime?: string; 
+  private _deprecationTime?: string;
   public get deprecationTime() {
     return this.getStringAttribute('deprecation_time');
   }
@@ -920,7 +920,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -936,7 +936,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // ena_support - computed: false, optional: true, required: false
-  private _enaSupport?: boolean | cdktn.IResolvable; 
+  private _enaSupport?: boolean | cdktn.IResolvable;
   public get enaSupport() {
     return this.getBooleanAttribute('ena_support');
   }
@@ -957,7 +957,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -973,7 +973,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // image_location - computed: true, optional: true, required: false
-  private _imageLocation?: string; 
+  private _imageLocation?: string;
   public get imageLocation() {
     return this.getStringAttribute('image_location');
   }
@@ -999,7 +999,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // imds_support - computed: false, optional: true, required: false
-  private _imdsSupport?: string; 
+  private _imdsSupport?: string;
   public get imdsSupport() {
     return this.getStringAttribute('imds_support');
   }
@@ -1015,7 +1015,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // kernel_id - computed: false, optional: true, required: false
-  private _kernelId?: string; 
+  private _kernelId?: string;
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -1041,7 +1041,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1074,7 +1074,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // ramdisk_id - computed: false, optional: true, required: false
-  private _ramdiskId?: string; 
+  private _ramdiskId?: string;
   public get ramdiskId() {
     return this.getStringAttribute('ramdisk_id');
   }
@@ -1090,7 +1090,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1106,7 +1106,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // root_device_name - computed: false, optional: true, required: false
-  private _rootDeviceName?: string; 
+  private _rootDeviceName?: string;
   public get rootDeviceName() {
     return this.getStringAttribute('root_device_name');
   }
@@ -1127,7 +1127,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // sriov_net_support - computed: false, optional: true, required: false
-  private _sriovNetSupport?: string; 
+  private _sriovNetSupport?: string;
   public get sriovNetSupport() {
     return this.getStringAttribute('sriov_net_support');
   }
@@ -1143,7 +1143,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1159,7 +1159,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1175,7 +1175,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tpm_support - computed: false, optional: true, required: false
-  private _tpmSupport?: string; 
+  private _tpmSupport?: string;
   public get tpmSupport() {
     return this.getStringAttribute('tpm_support');
   }
@@ -1191,7 +1191,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // uefi_data - computed: false, optional: true, required: false
-  private _uefiData?: string; 
+  private _uefiData?: string;
   public get uefiData() {
     return this.getStringAttribute('uefi_data');
   }
@@ -1212,7 +1212,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // virtualization_type - computed: false, optional: true, required: false
-  private _virtualizationType?: string; 
+  private _virtualizationType?: string;
   public get virtualizationType() {
     return this.getStringAttribute('virtualization_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface AppsyncSourceApiAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#merged_api_arn AppsyncSourceApiAssociation#merged_api_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#merged_api_arn AppsyncSourceApiAssociation#merged_api_arn}
   */
   readonly mergedApiArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#merged_api_id AppsyncSourceApiAssociation#merged_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#merged_api_id AppsyncSourceApiAssociation#merged_api_id}
   */
   readonly mergedApiId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#region AppsyncSourceApiAssociation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#region AppsyncSourceApiAssociation#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#source_api_arn AppsyncSourceApiAssociation#source_api_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#source_api_arn AppsyncSourceApiAssociation#source_api_arn}
   */
   readonly sourceApiArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
   */
   readonly sourceApiAssociationConfig?: AppsyncSourceApiAssociationSourceApiAssociationConfig[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#source_api_id AppsyncSourceApiAssociation#source_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#source_api_id AppsyncSourceApiAssociation#source_api_id}
   */
   readonly sourceApiId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#timeouts AppsyncSourceApiAssociation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#timeouts AppsyncSourceApiAssociation#timeouts}
   */
   readonly timeouts?: AppsyncSourceApiAssociationTimeouts;
 }
 export interface AppsyncSourceApiAssociationSourceApiAssociationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
   */
   readonly mergeType?: string;
 }
@@ -125,7 +125,7 @@ export class AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReferenc
   }
 
   // merge_type - computed: true, optional: true, required: false
-  private _mergeType?: string; 
+  private _mergeType?: string;
   public get mergeType() {
     return this.getStringAttribute('merge_type');
   }
@@ -164,19 +164,19 @@ export interface AppsyncSourceApiAssociationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#create AppsyncSourceApiAssociation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#create AppsyncSourceApiAssociation#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#delete AppsyncSourceApiAssociation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#delete AppsyncSourceApiAssociation#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#update AppsyncSourceApiAssociation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#update AppsyncSourceApiAssociation#update}
   */
   readonly update?: string;
 }
@@ -279,7 +279,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -295,7 +295,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -311,7 +311,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -328,7 +328,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association}
 */
 export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
 
@@ -344,7 +344,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncSourceApiAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncSourceApiAssociation to import
-  * @param importFromId The id of the existing AppsyncSourceApiAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncSourceApiAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncSourceApiAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -356,7 +356,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,7 +367,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appsync_source_api_association',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -402,7 +402,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -423,7 +423,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // merged_api_arn - computed: true, optional: true, required: false
-  private _mergedApiArn?: string; 
+  private _mergedApiArn?: string;
   public get mergedApiArn() {
     return this.getStringAttribute('merged_api_arn');
   }
@@ -439,7 +439,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // merged_api_id - computed: true, optional: true, required: false
-  private _mergedApiId?: string; 
+  private _mergedApiId?: string;
   public get mergedApiId() {
     return this.getStringAttribute('merged_api_id');
   }
@@ -455,7 +455,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -471,7 +471,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // source_api_arn - computed: true, optional: true, required: false
-  private _sourceApiArn?: string; 
+  private _sourceApiArn?: string;
   public get sourceApiArn() {
     return this.getStringAttribute('source_api_arn');
   }
@@ -503,7 +503,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // source_api_id - computed: true, optional: true, required: false
-  private _sourceApiId?: string; 
+  private _sourceApiId?: string;
   public get sourceApiId() {
     return this.getStringAttribute('source_api_id');
   }

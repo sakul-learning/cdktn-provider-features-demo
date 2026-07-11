@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ConnectSecurityProfileConfig extends cdktn.TerraformMetaArgumen
   /**
   * The identifier of the hierarchy group that a security profile uses to restrict access to resources in Amazon Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#allowed_access_control_hierarchy_group_id ConnectSecurityProfile#allowed_access_control_hierarchy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#allowed_access_control_hierarchy_group_id ConnectSecurityProfile#allowed_access_control_hierarchy_group_id}
   */
   readonly allowedAccessControlHierarchyGroupId?: string;
   /**
   * The list of tags that a security profile uses to restrict access to resources in Amazon Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#allowed_access_control_tags ConnectSecurityProfile#allowed_access_control_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#allowed_access_control_tags ConnectSecurityProfile#allowed_access_control_tags}
   */
   readonly allowedAccessControlTags?: ConnectSecurityProfileAllowedAccessControlTags[] | cdktn.IResolvable;
   /**
   * The list of flow-module resources to be linked to a security profile in Amazon Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#allowed_flow_modules ConnectSecurityProfile#allowed_flow_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#allowed_flow_modules ConnectSecurityProfile#allowed_flow_modules}
   */
   readonly allowedFlowModules?: ConnectSecurityProfileAllowedFlowModules[] | cdktn.IResolvable;
   /**
   * A list of third-party applications that the security profile will give access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#applications ConnectSecurityProfile#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#applications ConnectSecurityProfile#applications}
   */
   readonly applications?: ConnectSecurityProfileApplications[] | cdktn.IResolvable;
   /**
   * The description of the security profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#description ConnectSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#description ConnectSecurityProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}
   */
   readonly granularAccessControlConfiguration?: ConnectSecurityProfileGranularAccessControlConfiguration;
   /**
   * The list of resources that a security profile applies hierarchy restrictions to in Amazon Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#hierarchy_restricted_resources ConnectSecurityProfile#hierarchy_restricted_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#hierarchy_restricted_resources ConnectSecurityProfile#hierarchy_restricted_resources}
   */
   readonly hierarchyRestrictedResources?: string[];
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#instance_arn ConnectSecurityProfile#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#instance_arn ConnectSecurityProfile#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * Permissions assigned to the security profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#permissions ConnectSecurityProfile#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#permissions ConnectSecurityProfile#permissions}
   */
   readonly permissions?: string[];
   /**
   * The name of the security profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#security_profile_name ConnectSecurityProfile#security_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#security_profile_name ConnectSecurityProfile#security_profile_name}
   */
   readonly securityProfileName: string;
   /**
   * The list of resources that a security profile applies tag restrictions to in Amazon Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#tag_restricted_resources ConnectSecurityProfile#tag_restricted_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#tag_restricted_resources ConnectSecurityProfile#tag_restricted_resources}
   */
   readonly tagRestrictedResources?: string[];
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#tags ConnectSecurityProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#tags ConnectSecurityProfile#tags}
   */
   readonly tags?: ConnectSecurityProfileTags[] | cdktn.IResolvable;
 }
@@ -82,13 +82,13 @@ export interface ConnectSecurityProfileAllowedAccessControlTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
   */
   readonly value?: string;
 }
@@ -180,7 +180,7 @@ export class ConnectSecurityProfileAllowedAccessControlTagsOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -196,7 +196,7 @@ export class ConnectSecurityProfileAllowedAccessControlTagsOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -235,13 +235,13 @@ export interface ConnectSecurityProfileAllowedFlowModules {
   /**
   * The identifier of the application that you want to give access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#flow_module_id ConnectSecurityProfile#flow_module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#flow_module_id ConnectSecurityProfile#flow_module_id}
   */
   readonly flowModuleId?: string;
   /**
   * The type of the first-party application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
   */
   readonly type?: string;
 }
@@ -333,7 +333,7 @@ export class ConnectSecurityProfileAllowedFlowModulesOutputReference extends cdk
   }
 
   // flow_module_id - computed: true, optional: true, required: false
-  private _flowModuleId?: string; 
+  private _flowModuleId?: string;
   public get flowModuleId() {
     return this.getStringAttribute('flow_module_id');
   }
@@ -349,7 +349,7 @@ export class ConnectSecurityProfileAllowedFlowModulesOutputReference extends cdk
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -388,19 +388,19 @@ export interface ConnectSecurityProfileApplications {
   /**
   * The permissions that the agent is granted on the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#application_permissions ConnectSecurityProfile#application_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#application_permissions ConnectSecurityProfile#application_permissions}
   */
   readonly applicationPermissions?: string[];
   /**
   * Namespace of the application that you want to give access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#namespace ConnectSecurityProfile#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#namespace ConnectSecurityProfile#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
   */
   readonly type?: string;
 }
@@ -505,7 +505,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // application_permissions - computed: true, optional: true, required: false
-  private _applicationPermissions?: string[]; 
+  private _applicationPermissions?: string[];
   public get applicationPermissions() {
     return cdktn.Fn.tolist(this.getListAttribute('application_permissions'));
   }
@@ -521,7 +521,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -537,7 +537,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -576,19 +576,19 @@ export interface ConnectSecurityProfileGranularAccessControlConfigurationDataTab
   /**
   * Specifies the type of access granted. Currently, only "ALLOW" is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#access_type ConnectSecurityProfile#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#access_type ConnectSecurityProfile#access_type}
   */
   readonly accessType?: string;
   /**
   * The name of the primary attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#attribute_name ConnectSecurityProfile#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#attribute_name ConnectSecurityProfile#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * An array of allowed primary values for the specified primary attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#values ConnectSecurityProfile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#values ConnectSecurityProfile#values}
   */
   readonly values?: string[];
 }
@@ -693,7 +693,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string; 
+  private _accessType?: string;
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -709,7 +709,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -725,7 +725,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -764,7 +764,7 @@ export interface ConnectSecurityProfileGranularAccessControlConfigurationDataTab
   /**
   * An array of PrimaryAttributeValue objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#primary_attribute_values ConnectSecurityProfile#primary_attribute_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#primary_attribute_values ConnectSecurityProfile#primary_attribute_values}
   */
   readonly primaryAttributeValues?: ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValues[] | cdktn.IResolvable;
 }
@@ -860,7 +860,7 @@ export interface ConnectSecurityProfileGranularAccessControlConfigurationDataTab
   /**
   * Contains the configuration for record-based access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#primary_attribute_access_control_configuration ConnectSecurityProfile#primary_attribute_access_control_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#primary_attribute_access_control_configuration ConnectSecurityProfile#primary_attribute_access_control_configuration}
   */
   readonly primaryAttributeAccessControlConfiguration?: ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration;
 }
@@ -956,7 +956,7 @@ export interface ConnectSecurityProfileGranularAccessControlConfiguration {
   /**
   * Defines the access control configuration for data tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
   */
   readonly dataTableAccessControlConfiguration?: ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration;
 }
@@ -1052,13 +1052,13 @@ export interface ConnectSecurityProfileTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
   */
   readonly value?: string;
 }
@@ -1150,7 +1150,7 @@ export class ConnectSecurityProfileTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1166,7 +1166,7 @@ export class ConnectSecurityProfileTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1203,7 +1203,7 @@ export class ConnectSecurityProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile awscc_connect_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile awscc_connect_security_profile}
 */
 export class ConnectSecurityProfile extends cdktn.TerraformResource {
 
@@ -1219,7 +1219,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectSecurityProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectSecurityProfile to import
-  * @param importFromId The id of the existing ConnectSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1231,7 +1231,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1242,7 +1242,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1271,7 +1271,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   // ==========
 
   // allowed_access_control_hierarchy_group_id - computed: true, optional: true, required: false
-  private _allowedAccessControlHierarchyGroupId?: string; 
+  private _allowedAccessControlHierarchyGroupId?: string;
   public get allowedAccessControlHierarchyGroupId() {
     return this.getStringAttribute('allowed_access_control_hierarchy_group_id');
   }
@@ -1335,7 +1335,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1367,7 +1367,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // hierarchy_restricted_resources - computed: true, optional: true, required: false
-  private _hierarchyRestrictedResources?: string[]; 
+  private _hierarchyRestrictedResources?: string[];
   public get hierarchyRestrictedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('hierarchy_restricted_resources'));
   }
@@ -1388,7 +1388,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -1411,7 +1411,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
@@ -1432,7 +1432,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // security_profile_name - computed: false, optional: false, required: true
-  private _securityProfileName?: string; 
+  private _securityProfileName?: string;
   public get securityProfileName() {
     return this.getStringAttribute('security_profile_name');
   }
@@ -1445,7 +1445,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // tag_restricted_resources - computed: true, optional: true, required: false
-  private _tagRestrictedResources?: string[]; 
+  private _tagRestrictedResources?: string[];
   public get tagRestrictedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('tag_restricted_resources'));
   }

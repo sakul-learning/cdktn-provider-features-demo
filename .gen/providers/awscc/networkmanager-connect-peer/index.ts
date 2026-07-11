@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface NetworkmanagerConnectPeerConfig extends cdktn.TerraformMetaArgu
   /**
   * Bgp options for connect peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#bgp_options NetworkmanagerConnectPeer#bgp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#bgp_options NetworkmanagerConnectPeer#bgp_options}
   */
   readonly bgpOptions?: NetworkmanagerConnectPeerBgpOptions;
   /**
   * The ID of the attachment to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#connect_attachment_id NetworkmanagerConnectPeer#connect_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#connect_attachment_id NetworkmanagerConnectPeer#connect_attachment_id}
   */
   readonly connectAttachmentId: string;
   /**
   * The IP address of a core network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#core_network_address NetworkmanagerConnectPeer#core_network_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#core_network_address NetworkmanagerConnectPeer#core_network_address}
   */
   readonly coreNetworkAddress?: string;
   /**
   * The inside IP addresses used for a Connect peer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#inside_cidr_blocks NetworkmanagerConnectPeer#inside_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#inside_cidr_blocks NetworkmanagerConnectPeer#inside_cidr_blocks}
   */
   readonly insideCidrBlocks?: string[];
   /**
   * The IP address of the Connect peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#peer_address NetworkmanagerConnectPeer#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#peer_address NetworkmanagerConnectPeer#peer_address}
   */
   readonly peerAddress: string;
   /**
   * The subnet ARN for the connect peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#subnet_arn NetworkmanagerConnectPeer#subnet_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#subnet_arn NetworkmanagerConnectPeer#subnet_arn}
   */
   readonly subnetArn?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#tags NetworkmanagerConnectPeer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#tags NetworkmanagerConnectPeer#tags}
   */
   readonly tags?: NetworkmanagerConnectPeerTags[] | cdktn.IResolvable;
 }
 export interface NetworkmanagerConnectPeerBgpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}
   */
   readonly peerAsn?: number;
 }
@@ -129,7 +129,7 @@ export class NetworkmanagerConnectPeerBgpOptionsOutputReference extends cdktn.Co
   }
 
   // peer_asn - computed: true, optional: true, required: false
-  private _peerAsn?: number; 
+  private _peerAsn?: number;
   public get peerAsn() {
     return this.getNumberAttribute('peer_asn');
   }
@@ -313,13 +313,13 @@ export interface NetworkmanagerConnectPeerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#key NetworkmanagerConnectPeer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#key NetworkmanagerConnectPeer#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#value NetworkmanagerConnectPeer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#value NetworkmanagerConnectPeer#value}
   */
   readonly value?: string;
 }
@@ -411,7 +411,7 @@ export class NetworkmanagerConnectPeerTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -427,7 +427,7 @@ export class NetworkmanagerConnectPeerTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -464,7 +464,7 @@ export class NetworkmanagerConnectPeerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer}
 */
 export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
 
@@ -480,7 +480,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerConnectPeer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerConnectPeer to import
-  * @param importFromId The id of the existing NetworkmanagerConnectPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerConnectPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerConnectPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -492,7 +492,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,7 +503,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_connect_peer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -549,7 +549,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // connect_attachment_id - computed: false, optional: false, required: true
-  private _connectAttachmentId?: string; 
+  private _connectAttachmentId?: string;
   public get connectAttachmentId() {
     return this.getStringAttribute('connect_attachment_id');
   }
@@ -567,7 +567,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // core_network_address - computed: true, optional: true, required: false
-  private _coreNetworkAddress?: string; 
+  private _coreNetworkAddress?: string;
   public get coreNetworkAddress() {
     return this.getStringAttribute('core_network_address');
   }
@@ -603,7 +603,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // inside_cidr_blocks - computed: true, optional: true, required: false
-  private _insideCidrBlocks?: string[]; 
+  private _insideCidrBlocks?: string[];
   public get insideCidrBlocks() {
     return this.getListAttribute('inside_cidr_blocks');
   }
@@ -624,7 +624,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string; 
+  private _peerAddress?: string;
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -642,7 +642,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // subnet_arn - computed: true, optional: true, required: false
-  private _subnetArn?: string; 
+  private _subnetArn?: string;
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }

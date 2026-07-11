@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface CodeartifactRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#description CodeartifactRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#description CodeartifactRepository#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#domain CodeartifactRepository#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#domain CodeartifactRepository#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#domain_owner CodeartifactRepository#domain_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#domain_owner CodeartifactRepository#domain_owner}
   */
   readonly domainOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#id CodeartifactRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#id CodeartifactRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CodeartifactRepositoryConfig extends cdktn.TerraformMetaArgumen
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#region CodeartifactRepository#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#region CodeartifactRepository#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#repository CodeartifactRepository#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#repository CodeartifactRepository#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#tags CodeartifactRepository#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#tags CodeartifactRepository#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#tags_all CodeartifactRepository#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#tags_all CodeartifactRepository#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * external_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#external_connections CodeartifactRepository#external_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#external_connections CodeartifactRepository#external_connections}
   */
   readonly externalConnections?: CodeartifactRepositoryExternalConnections;
   /**
   * upstream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#upstream CodeartifactRepository#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#upstream CodeartifactRepository#upstream}
   */
   readonly upstream?: CodeartifactRepositoryUpstream[] | cdktn.IResolvable;
 }
 export interface CodeartifactRepositoryExternalConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}
   */
   readonly externalConnectionName: string;
 }
@@ -126,7 +126,7 @@ export class CodeartifactRepositoryExternalConnectionsOutputReference extends cd
   }
 
   // external_connection_name - computed: false, optional: false, required: true
-  private _externalConnectionName?: string; 
+  private _externalConnectionName?: string;
   public get externalConnectionName() {
     return this.getStringAttribute('external_connection_name');
   }
@@ -150,7 +150,7 @@ export class CodeartifactRepositoryExternalConnectionsOutputReference extends cd
 }
 export interface CodeartifactRepositoryUpstream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}
   */
   readonly repositoryName: string;
 }
@@ -229,7 +229,7 @@ export class CodeartifactRepositoryUpstreamOutputReference extends cdktn.Complex
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string; 
+  private _repositoryName?: string;
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -263,7 +263,7 @@ export class CodeartifactRepositoryUpstreamList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository aws_codeartifact_repository}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository aws_codeartifact_repository}
 */
 export class CodeartifactRepository extends cdktn.TerraformResource {
 
@@ -279,7 +279,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodeartifactRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodeartifactRepository to import
-  * @param importFromId The id of the existing CodeartifactRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodeartifactRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodeartifactRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -291,7 +291,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codeartifact_repository aws_codeartifact_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codeartifact_repository aws_codeartifact_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,7 +302,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codeartifact_repository',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -339,7 +339,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -355,7 +355,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -368,7 +368,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // domain_owner - computed: true, optional: true, required: false
-  private _domainOwner?: string; 
+  private _domainOwner?: string;
   public get domainOwner() {
     return this.getStringAttribute('domain_owner');
   }
@@ -384,7 +384,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -400,7 +400,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -416,7 +416,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // repository - computed: false, optional: false, required: true
-  private _repository?: string; 
+  private _repository?: string;
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -429,7 +429,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -445,7 +445,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

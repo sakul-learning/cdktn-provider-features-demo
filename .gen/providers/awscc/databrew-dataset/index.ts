@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface DatabrewDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Dataset format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
   */
   readonly format?: string;
   /**
   * Format options for dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
   */
   readonly formatOptions?: DatabrewDatasetFormatOptions;
   /**
   * Input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
   */
   readonly input: DatabrewDatasetInput;
   /**
   * Dataset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
   */
   readonly name: string;
   /**
   * PathOptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
   */
   readonly pathOptions?: DatabrewDatasetPathOptions;
   /**
   * Source type of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}
   */
   readonly tags?: DatabrewDatasetTags[] | cdktn.IResolvable;
 }
 export interface DatabrewDatasetFormatOptionsCsv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}
   */
   readonly headerRow?: boolean | cdktn.IResolvable;
 }
@@ -144,7 +144,7 @@ export class DatabrewDatasetFormatOptionsCsvOutputReference extends cdktn.Comple
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -160,7 +160,7 @@ export class DatabrewDatasetFormatOptionsCsvOutputReference extends cdktn.Comple
   }
 
   // header_row - computed: true, optional: true, required: false
-  private _headerRow?: boolean | cdktn.IResolvable; 
+  private _headerRow?: boolean | cdktn.IResolvable;
   public get headerRow() {
     return this.getBooleanAttribute('header_row');
   }
@@ -177,15 +177,15 @@ export class DatabrewDatasetFormatOptionsCsvOutputReference extends cdktn.Comple
 }
 export interface DatabrewDatasetFormatOptionsExcel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}
   */
   readonly headerRow?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}
   */
   readonly sheetIndexes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}
   */
   readonly sheetNames?: string[];
 }
@@ -288,7 +288,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // header_row - computed: true, optional: true, required: false
-  private _headerRow?: boolean | cdktn.IResolvable; 
+  private _headerRow?: boolean | cdktn.IResolvable;
   public get headerRow() {
     return this.getBooleanAttribute('header_row');
   }
@@ -304,7 +304,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // sheet_indexes - computed: true, optional: true, required: false
-  private _sheetIndexes?: number[]; 
+  private _sheetIndexes?: number[];
   public get sheetIndexes() {
     return this.getNumberListAttribute('sheet_indexes');
   }
@@ -320,7 +320,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // sheet_names - computed: true, optional: true, required: false
-  private _sheetNames?: string[]; 
+  private _sheetNames?: string[];
   public get sheetNames() {
     return this.getListAttribute('sheet_names');
   }
@@ -337,7 +337,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
 }
 export interface DatabrewDatasetFormatOptionsJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}
   */
   readonly multiLine?: boolean | cdktn.IResolvable;
 }
@@ -414,7 +414,7 @@ export class DatabrewDatasetFormatOptionsJsonOutputReference extends cdktn.Compl
   }
 
   // multi_line - computed: true, optional: true, required: false
-  private _multiLine?: boolean | cdktn.IResolvable; 
+  private _multiLine?: boolean | cdktn.IResolvable;
   public get multiLine() {
     return this.getBooleanAttribute('multi_line');
   }
@@ -433,17 +433,17 @@ export interface DatabrewDatasetFormatOptions {
   /**
   * Csv options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#csv DatabrewDataset#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#csv DatabrewDataset#csv}
   */
   readonly csv?: DatabrewDatasetFormatOptionsCsv;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}
   */
   readonly excel?: DatabrewDatasetFormatOptionsExcel;
   /**
   * Json options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#json DatabrewDataset#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#json DatabrewDataset#json}
   */
   readonly json?: DatabrewDatasetFormatOptionsJson;
 }
@@ -595,17 +595,17 @@ export class DatabrewDatasetFormatOptionsOutputReference extends cdktn.ComplexOb
 }
 export interface DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Bucket owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
   */
   readonly key?: string;
 }
@@ -708,7 +708,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -724,7 +724,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -740,7 +740,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -759,25 +759,25 @@ export interface DatabrewDatasetInputDataCatalogInputDefinition {
   /**
   * Catalog id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#catalog_id DatabrewDataset#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#catalog_id DatabrewDataset#catalog_id}
   */
   readonly catalogId?: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#database_name DatabrewDataset#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#database_name DatabrewDataset#database_name}
   */
   readonly databaseName?: string;
   /**
   * Table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#table_name DatabrewDataset#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#table_name DatabrewDataset#table_name}
   */
   readonly tableName?: string;
   /**
   * Input location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
   */
   readonly tempDirectory?: DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory;
 }
@@ -893,7 +893,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -909,7 +909,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -925,7 +925,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -958,17 +958,17 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
 }
 export interface DatabrewDatasetInputDatabaseInputDefinitionTempDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Bucket owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
   */
   readonly key?: string;
 }
@@ -1071,7 +1071,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1087,7 +1087,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1103,7 +1103,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1122,25 +1122,25 @@ export interface DatabrewDatasetInputDatabaseInputDefinition {
   /**
   * Database table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#database_table_name DatabrewDataset#database_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#database_table_name DatabrewDataset#database_table_name}
   */
   readonly databaseTableName?: string;
   /**
   * Glue connection name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#glue_connection_name DatabrewDataset#glue_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#glue_connection_name DatabrewDataset#glue_connection_name}
   */
   readonly glueConnectionName?: string;
   /**
   * Custom SQL to run against the provided AWS Glue connection. This SQL will be used as the input for DataBrew projects and jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#query_string DatabrewDataset#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#query_string DatabrewDataset#query_string}
   */
   readonly queryString?: string;
   /**
   * Input location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
   */
   readonly tempDirectory?: DatabrewDatasetInputDatabaseInputDefinitionTempDirectory;
 }
@@ -1256,7 +1256,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // database_table_name - computed: true, optional: true, required: false
-  private _databaseTableName?: string; 
+  private _databaseTableName?: string;
   public get databaseTableName() {
     return this.getStringAttribute('database_table_name');
   }
@@ -1272,7 +1272,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // glue_connection_name - computed: true, optional: true, required: false
-  private _glueConnectionName?: string; 
+  private _glueConnectionName?: string;
   public get glueConnectionName() {
     return this.getStringAttribute('glue_connection_name');
   }
@@ -1288,7 +1288,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string; 
+  private _queryString?: string;
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -1323,7 +1323,7 @@ export interface DatabrewDatasetInputMetadata {
   /**
   * Arn of the source of the dataset. For e.g.: AppFlow Flow ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#source_arn DatabrewDataset#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#source_arn DatabrewDataset#source_arn}
   */
   readonly sourceArn?: string;
 }
@@ -1400,7 +1400,7 @@ export class DatabrewDatasetInputMetadataOutputReference extends cdktn.ComplexOb
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string; 
+  private _sourceArn?: string;
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -1417,17 +1417,17 @@ export class DatabrewDatasetInputMetadataOutputReference extends cdktn.ComplexOb
 }
 export interface DatabrewDatasetInputS3InputDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Bucket owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
   */
   readonly key?: string;
 }
@@ -1530,7 +1530,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1546,7 +1546,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1562,7 +1562,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1579,21 +1579,21 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
 }
 export interface DatabrewDatasetInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}
   */
   readonly dataCatalogInputDefinition?: DatabrewDatasetInputDataCatalogInputDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}
   */
   readonly databaseInputDefinition?: DatabrewDatasetInputDatabaseInputDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}
   */
   readonly metadata?: DatabrewDatasetInputMetadata;
   /**
   * Input location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#s3_input_definition DatabrewDataset#s3_input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#s3_input_definition DatabrewDataset#s3_input_definition}
   */
   readonly s3InputDefinition?: DatabrewDatasetInputS3InputDefinition;
 }
@@ -1776,19 +1776,19 @@ export interface DatabrewDatasetPathOptionsFilesLimit {
   /**
   * Maximum number of files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#max_files DatabrewDataset#max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#max_files DatabrewDataset#max_files}
   */
   readonly maxFiles?: number;
   /**
   * Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#order DatabrewDataset#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#order DatabrewDataset#order}
   */
   readonly order?: string;
   /**
   * Ordered by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#ordered_by DatabrewDataset#ordered_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#ordered_by DatabrewDataset#ordered_by}
   */
   readonly orderedBy?: string;
 }
@@ -1891,7 +1891,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // max_files - computed: true, optional: true, required: false
-  private _maxFiles?: number; 
+  private _maxFiles?: number;
   public get maxFiles() {
     return this.getNumberAttribute('max_files');
   }
@@ -1907,7 +1907,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: string; 
+  private _order?: string;
   public get order() {
     return this.getStringAttribute('order');
   }
@@ -1923,7 +1923,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // ordered_by - computed: true, optional: true, required: false
-  private _orderedBy?: string; 
+  private _orderedBy?: string;
   public get orderedBy() {
     return this.getStringAttribute('ordered_by');
   }
@@ -1940,13 +1940,13 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
 }
 export interface DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
   */
   readonly value?: string;
   /**
   * Variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
   */
   readonly valueReference?: string;
 }
@@ -2038,7 +2038,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputR
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2054,7 +2054,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputR
   }
 
   // value_reference - computed: true, optional: true, required: false
-  private _valueReference?: string; 
+  private _valueReference?: string;
   public get valueReference() {
     return this.getStringAttribute('value_reference');
   }
@@ -2093,11 +2093,11 @@ export interface DatabrewDatasetPathOptionsLastModifiedDateCondition {
   /**
   * Filtering expression for a parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}
   */
   readonly valuesMap?: DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap[] | cdktn.IResolvable;
 }
@@ -2187,7 +2187,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference 
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2222,19 +2222,19 @@ export interface DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOpt
   /**
   * Date/time format of a date parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
   */
   readonly format?: string;
   /**
   * Locale code for a date parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#locale_code DatabrewDataset#locale_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#locale_code DatabrewDataset#locale_code}
   */
   readonly localeCode?: string;
   /**
   * Timezone offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#timezone_offset DatabrewDataset#timezone_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#timezone_offset DatabrewDataset#timezone_offset}
   */
   readonly timezoneOffset?: string;
 }
@@ -2337,7 +2337,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2353,7 +2353,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // locale_code - computed: true, optional: true, required: false
-  private _localeCode?: string; 
+  private _localeCode?: string;
   public get localeCode() {
     return this.getStringAttribute('locale_code');
   }
@@ -2369,7 +2369,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // timezone_offset - computed: true, optional: true, required: false
-  private _timezoneOffset?: string; 
+  private _timezoneOffset?: string;
   public get timezoneOffset() {
     return this.getStringAttribute('timezone_offset');
   }
@@ -2386,13 +2386,13 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
 }
 export interface DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
   */
   readonly value?: string;
   /**
   * Variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
   */
   readonly valueReference?: string;
 }
@@ -2484,7 +2484,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2500,7 +2500,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap
   }
 
   // value_reference - computed: true, optional: true, required: false
-  private _valueReference?: string; 
+  private _valueReference?: string;
   public get valueReference() {
     return this.getStringAttribute('value_reference');
   }
@@ -2539,11 +2539,11 @@ export interface DatabrewDatasetPathOptionsParametersDatasetParameterFilter {
   /**
   * Filtering expression for a parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}
   */
   readonly valuesMap?: DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap[] | cdktn.IResolvable;
 }
@@ -2633,7 +2633,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputRef
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2668,27 +2668,27 @@ export interface DatabrewDatasetPathOptionsParametersDatasetParameter {
   /**
   * Add the value of this parameter as a column in a dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#create_column DatabrewDataset#create_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#create_column DatabrewDataset#create_column}
   */
   readonly createColumn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}
   */
   readonly datetimeOptions?: DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}
   */
   readonly filter?: DatabrewDatasetPathOptionsParametersDatasetParameterFilter;
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
   */
   readonly name?: string;
   /**
   * Parameter type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#type DatabrewDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#type DatabrewDataset#type}
   */
   readonly type?: string;
 }
@@ -2817,7 +2817,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // create_column - computed: true, optional: true, required: false
-  private _createColumn?: boolean | cdktn.IResolvable; 
+  private _createColumn?: boolean | cdktn.IResolvable;
   public get createColumn() {
     return this.getBooleanAttribute('create_column');
   }
@@ -2865,7 +2865,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2881,7 +2881,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2898,13 +2898,13 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
 }
 export interface DatabrewDatasetPathOptionsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}
   */
   readonly datasetParameter?: DatabrewDatasetPathOptionsParametersDatasetParameter;
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#path_parameter_name DatabrewDataset#path_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#path_parameter_name DatabrewDataset#path_parameter_name}
   */
   readonly pathParameterName?: string;
 }
@@ -3012,7 +3012,7 @@ export class DatabrewDatasetPathOptionsParametersOutputReference extends cdktn.C
   }
 
   // path_parameter_name - computed: true, optional: true, required: false
-  private _pathParameterName?: string; 
+  private _pathParameterName?: string;
   public get pathParameterName() {
     return this.getStringAttribute('path_parameter_name');
   }
@@ -3049,15 +3049,15 @@ export class DatabrewDatasetPathOptionsParametersList extends cdktn.ComplexList 
 }
 export interface DatabrewDatasetPathOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}
   */
   readonly filesLimit?: DatabrewDatasetPathOptionsFilesLimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}
   */
   readonly lastModifiedDateCondition?: DatabrewDatasetPathOptionsLastModifiedDateCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}
   */
   readonly parameters?: DatabrewDatasetPathOptionsParameters[] | cdktn.IResolvable;
 }
@@ -3209,11 +3209,11 @@ export class DatabrewDatasetPathOptionsOutputReference extends cdktn.ComplexObje
 }
 export interface DatabrewDatasetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#key DatabrewDataset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#value DatabrewDataset#value}
   */
   readonly value?: string;
 }
@@ -3305,7 +3305,7 @@ export class DatabrewDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3321,7 +3321,7 @@ export class DatabrewDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3358,7 +3358,7 @@ export class DatabrewDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset awscc_databrew_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset awscc_databrew_dataset}
 */
 export class DatabrewDataset extends cdktn.TerraformResource {
 
@@ -3374,7 +3374,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatabrewDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabrewDataset to import
-  * @param importFromId The id of the existing DatabrewDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabrewDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabrewDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3386,7 +3386,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_dataset awscc_databrew_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_dataset awscc_databrew_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3397,7 +3397,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_databrew_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3421,7 +3421,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   // ==========
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3471,7 +3471,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3500,7 +3500,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }

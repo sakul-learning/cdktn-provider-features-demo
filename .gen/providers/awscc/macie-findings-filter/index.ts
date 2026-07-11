@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface MacieFindingsFilterConfig extends cdktn.TerraformMetaArguments 
   /**
   * Findings filter action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#action MacieFindingsFilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#action MacieFindingsFilter#action}
   */
   readonly action?: string;
   /**
   * Findings filter description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#description MacieFindingsFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#description MacieFindingsFilter#description}
   */
   readonly description?: string;
   /**
   * Findings filter criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#finding_criteria MacieFindingsFilter#finding_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#finding_criteria MacieFindingsFilter#finding_criteria}
   */
   readonly findingCriteria: MacieFindingsFilterFindingCriteria;
   /**
   * Findings filter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#name MacieFindingsFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#name MacieFindingsFilter#name}
   */
   readonly name: string;
   /**
   * Findings filter position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#position MacieFindingsFilter#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#position MacieFindingsFilter#position}
   */
   readonly position?: number;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#tags MacieFindingsFilter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#tags MacieFindingsFilter#tags}
   */
   readonly tags?: MacieFindingsFilterTags[] | cdktn.IResolvable;
 }
 export interface MacieFindingsFilterFindingCriteriaCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}
   */
   readonly eq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}
   */
   readonly gt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}
   */
   readonly gte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}
   */
   readonly lt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}
   */
   readonly lte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}
   */
   readonly neq?: string[];
 }
@@ -209,7 +209,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: string[]; 
+  private _eq?: string[];
   public get eq() {
     return this.getListAttribute('eq');
   }
@@ -225,7 +225,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // gt - computed: true, optional: true, required: false
-  private _gt?: number; 
+  private _gt?: number;
   public get gt() {
     return this.getNumberAttribute('gt');
   }
@@ -241,7 +241,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // gte - computed: true, optional: true, required: false
-  private _gte?: number; 
+  private _gte?: number;
   public get gte() {
     return this.getNumberAttribute('gte');
   }
@@ -257,7 +257,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // lt - computed: true, optional: true, required: false
-  private _lt?: number; 
+  private _lt?: number;
   public get lt() {
     return this.getNumberAttribute('lt');
   }
@@ -273,7 +273,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // lte - computed: true, optional: true, required: false
-  private _lte?: number; 
+  private _lte?: number;
   public get lte() {
     return this.getNumberAttribute('lte');
   }
@@ -289,7 +289,7 @@ export class MacieFindingsFilterFindingCriteriaCriterionOutputReference extends 
   }
 
   // neq - computed: true, optional: true, required: false
-  private _neq?: string[]; 
+  private _neq?: string[];
   public get neq() {
     return this.getListAttribute('neq');
   }
@@ -327,7 +327,7 @@ export interface MacieFindingsFilterFindingCriteria {
   /**
   * Map of filter criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#criterion MacieFindingsFilter#criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#criterion MacieFindingsFilter#criterion}
   */
   readonly criterion?: { [key: string]: MacieFindingsFilterFindingCriteriaCriterion } | cdktn.IResolvable;
 }
@@ -423,13 +423,13 @@ export interface MacieFindingsFilterTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#key MacieFindingsFilter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#key MacieFindingsFilter#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#value MacieFindingsFilter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#value MacieFindingsFilter#value}
   */
   readonly value?: string;
 }
@@ -521,7 +521,7 @@ export class MacieFindingsFilterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -537,7 +537,7 @@ export class MacieFindingsFilterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -574,7 +574,7 @@ export class MacieFindingsFilterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}
 */
 export class MacieFindingsFilter extends cdktn.TerraformResource {
 
@@ -590,7 +590,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MacieFindingsFilter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MacieFindingsFilter to import
-  * @param importFromId The id of the existing MacieFindingsFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MacieFindingsFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MacieFindingsFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -602,7 +602,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -613,7 +613,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_macie_findings_filter',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -636,7 +636,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -657,7 +657,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -696,7 +696,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -709,7 +709,7 @@ export class MacieFindingsFilter extends cdktn.TerraformResource {
   }
 
   // position - computed: true, optional: true, required: false
-  private _position?: number; 
+  private _position?: number;
   public get position() {
     return this.getNumberAttribute('position');
   }

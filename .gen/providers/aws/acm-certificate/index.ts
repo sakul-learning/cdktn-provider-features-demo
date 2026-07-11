@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktn from 'cdktn';
 
 export interface AcmCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#certificate_authority_arn AcmCertificate#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#certificate_authority_arn AcmCertificate#certificate_authority_arn}
   */
   readonly certificateAuthorityArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#certificate_body AcmCertificate#certificate_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#certificate_body AcmCertificate#certificate_body}
   */
   readonly certificateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#certificate_chain AcmCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#certificate_chain AcmCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#early_renewal_duration AcmCertificate#early_renewal_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#early_renewal_duration AcmCertificate#early_renewal_duration}
   */
   readonly earlyRenewalDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#id AcmCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#id AcmCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#key_algorithm AcmCertificate#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#key_algorithm AcmCertificate#key_algorithm}
   */
   readonly keyAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#private_key AcmCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#private_key AcmCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#private_key_wo AcmCertificate#private_key_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#private_key_wo AcmCertificate#private_key_wo}
   */
   readonly privateKeyWo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#private_key_wo_version AcmCertificate#private_key_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#private_key_wo_version AcmCertificate#private_key_wo_version}
   */
   readonly privateKeyWoVersion?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#region AcmCertificate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#region AcmCertificate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#subject_alternative_names AcmCertificate#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#subject_alternative_names AcmCertificate#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#tags AcmCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#tags AcmCertificate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#tags_all AcmCertificate#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#tags_all AcmCertificate#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#validation_method AcmCertificate#validation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#validation_method AcmCertificate#validation_method}
   */
   readonly validationMethod?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#options AcmCertificate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#options AcmCertificate#options}
   */
   readonly options?: AcmCertificateOptions;
   /**
   * validation_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#validation_option AcmCertificate#validation_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#validation_option AcmCertificate#validation_option}
   */
   readonly validationOption?: AcmCertificateValidationOption[] | cdktn.IResolvable;
 }
@@ -262,11 +262,11 @@ export class AcmCertificateRenewalSummaryList extends cdktn.ComplexList {
 }
 export interface AcmCertificateOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#certificate_transparency_logging_preference AcmCertificate#certificate_transparency_logging_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#certificate_transparency_logging_preference AcmCertificate#certificate_transparency_logging_preference}
   */
   readonly certificateTransparencyLoggingPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#export AcmCertificate#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#export AcmCertificate#export}
   */
   readonly export?: string;
 }
@@ -346,7 +346,7 @@ export class AcmCertificateOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // certificate_transparency_logging_preference - computed: false, optional: true, required: false
-  private _certificateTransparencyLoggingPreference?: string; 
+  private _certificateTransparencyLoggingPreference?: string;
   public get certificateTransparencyLoggingPreference() {
     return this.getStringAttribute('certificate_transparency_logging_preference');
   }
@@ -362,7 +362,7 @@ export class AcmCertificateOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // export - computed: true, optional: true, required: false
-  private _export?: string; 
+  private _export?: string;
   public get export() {
     return this.getStringAttribute('export');
   }
@@ -379,11 +379,11 @@ export class AcmCertificateOptionsOutputReference extends cdktn.ComplexObject {
 }
 export interface AcmCertificateValidationOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#domain_name AcmCertificate#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#validation_domain AcmCertificate#validation_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#validation_domain AcmCertificate#validation_domain}
   */
   readonly validationDomain: string;
 }
@@ -475,7 +475,7 @@ export class AcmCertificateValidationOptionOutputReference extends cdktn.Complex
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -488,7 +488,7 @@ export class AcmCertificateValidationOptionOutputReference extends cdktn.Complex
   }
 
   // validation_domain - computed: false, optional: false, required: true
-  private _validationDomain?: string; 
+  private _validationDomain?: string;
   public get validationDomain() {
     return this.getStringAttribute('validation_domain');
   }
@@ -522,7 +522,7 @@ export class AcmCertificateValidationOptionList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate aws_acm_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate aws_acm_certificate}
 */
 export class AcmCertificate extends cdktn.TerraformResource {
 
@@ -538,7 +538,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AcmCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcmCertificate to import
-  * @param importFromId The id of the existing AcmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcmCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -550,7 +550,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/acm_certificate aws_acm_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/acm_certificate aws_acm_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,7 +561,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_acm_certificate',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -601,7 +601,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_authority_arn - computed: false, optional: true, required: false
-  private _certificateAuthorityArn?: string; 
+  private _certificateAuthorityArn?: string;
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -617,7 +617,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_body - computed: false, optional: true, required: false
-  private _certificateBody?: string; 
+  private _certificateBody?: string;
   public get certificateBody() {
     return this.getStringAttribute('certificate_body');
   }
@@ -633,7 +633,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: false, optional: true, required: false
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -649,7 +649,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -671,7 +671,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // early_renewal_duration - computed: false, optional: true, required: false
-  private _earlyRenewalDuration?: string; 
+  private _earlyRenewalDuration?: string;
   public get earlyRenewalDuration() {
     return this.getStringAttribute('early_renewal_duration');
   }
@@ -687,7 +687,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -703,7 +703,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // key_algorithm - computed: true, optional: true, required: false
-  private _keyAlgorithm?: string; 
+  private _keyAlgorithm?: string;
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -734,7 +734,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: false, optional: true, required: false
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -750,7 +750,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key_wo - computed: false, optional: true, required: false
-  private _privateKeyWo?: string; 
+  private _privateKeyWo?: string;
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -770,7 +770,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key_wo_version - computed: false, optional: true, required: false
-  private _privateKeyWoVersion?: number; 
+  private _privateKeyWoVersion?: number;
   public get privateKeyWoVersion() {
     return this.getNumberAttribute('private_key_wo_version');
   }
@@ -786,7 +786,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -818,7 +818,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // subject_alternative_names - computed: true, optional: true, required: false
-  private _subjectAlternativeNames?: string[]; 
+  private _subjectAlternativeNames?: string[];
   public get subjectAlternativeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('subject_alternative_names'));
   }
@@ -834,7 +834,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -850,7 +850,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -876,7 +876,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // validation_method - computed: true, optional: true, required: false
-  private _validationMethod?: string; 
+  private _validationMethod?: string;
   public get validationMethod() {
     return this.getStringAttribute('validation_method');
   }

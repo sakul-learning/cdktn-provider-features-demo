@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsIamAccessKeysConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys#id DataAwsIamAccessKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys#user DataAwsIamAccessKeys#user}
   */
   readonly user: string;
 }
@@ -106,7 +106,7 @@ export class DataAwsIamAccessKeysAccessKeysList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys aws_iam_access_keys}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys aws_iam_access_keys}
 */
 export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsIamAccessKeys resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsIamAccessKeys to import
-  * @param importFromId The id of the existing DataAwsIamAccessKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsIamAccessKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsIamAccessKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,7 +145,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_iam_access_keys',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -170,7 +170,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -186,7 +186,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }

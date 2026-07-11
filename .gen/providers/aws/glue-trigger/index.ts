@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface GlueTriggerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#description GlueTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#description GlueTrigger#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#enabled GlueTrigger#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#enabled GlueTrigger#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#id GlueTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#id GlueTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#name GlueTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#name GlueTrigger#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#region GlueTrigger#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#region GlueTrigger#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#schedule GlueTrigger#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#schedule GlueTrigger#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#start_on_creation GlueTrigger#start_on_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#start_on_creation GlueTrigger#start_on_creation}
   */
   readonly startOnCreation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#tags GlueTrigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#tags GlueTrigger#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#tags_all GlueTrigger#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#tags_all GlueTrigger#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#type GlueTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#type GlueTrigger#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#workflow_name GlueTrigger#workflow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#workflow_name GlueTrigger#workflow_name}
   */
   readonly workflowName?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#actions GlueTrigger#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#actions GlueTrigger#actions}
   */
   readonly actions: GlueTriggerActions[] | cdktn.IResolvable;
   /**
   * event_batching_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#event_batching_condition GlueTrigger#event_batching_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#event_batching_condition GlueTrigger#event_batching_condition}
   */
   readonly eventBatchingCondition?: GlueTriggerEventBatchingCondition[] | cdktn.IResolvable;
   /**
   * predicate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#predicate GlueTrigger#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#predicate GlueTrigger#predicate}
   */
   readonly predicate?: GlueTriggerPredicate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#timeouts GlueTrigger#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#timeouts GlueTrigger#timeouts}
   */
   readonly timeouts?: GlueTriggerTimeouts;
 }
 export interface GlueTriggerActionsNotificationProperty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
   */
   readonly notifyDelayAfter?: number;
 }
@@ -150,7 +150,7 @@ export class GlueTriggerActionsNotificationPropertyOutputReference extends cdktn
   }
 
   // notify_delay_after - computed: false, optional: true, required: false
-  private _notifyDelayAfter?: number; 
+  private _notifyDelayAfter?: number;
   public get notifyDelayAfter() {
     return this.getNumberAttribute('notify_delay_after');
   }
@@ -167,29 +167,29 @@ export class GlueTriggerActionsNotificationPropertyOutputReference extends cdktn
 }
 export interface GlueTriggerActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}
   */
   readonly arguments?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
   */
   readonly crawlerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
   */
   readonly jobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}
   */
   readonly timeout?: number;
   /**
   * notification_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
   */
   readonly notificationProperty?: GlueTriggerActionsNotificationProperty;
 }
@@ -333,7 +333,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // arguments - computed: false, optional: true, required: false
-  private _arguments?: { [key: string]: string }; 
+  private _arguments?: { [key: string]: string };
   public get arguments() {
     return this.getStringMapAttribute('arguments');
   }
@@ -349,7 +349,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // crawler_name - computed: false, optional: true, required: false
-  private _crawlerName?: string; 
+  private _crawlerName?: string;
   public get crawlerName() {
     return this.getStringAttribute('crawler_name');
   }
@@ -365,7 +365,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // job_name - computed: false, optional: true, required: false
-  private _jobName?: string; 
+  private _jobName?: string;
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -381,7 +381,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string; 
+  private _securityConfiguration?: string;
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -397,7 +397,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // timeout - computed: false, optional: true, required: false
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -450,11 +450,11 @@ export class GlueTriggerActionsList extends cdktn.ComplexList {
 }
 export interface GlueTriggerEventBatchingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}
   */
   readonly batchSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}
   */
   readonly batchWindow?: number;
 }
@@ -546,7 +546,7 @@ export class GlueTriggerEventBatchingConditionOutputReference extends cdktn.Comp
   }
 
   // batch_size - computed: false, optional: false, required: true
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -559,7 +559,7 @@ export class GlueTriggerEventBatchingConditionOutputReference extends cdktn.Comp
   }
 
   // batch_window - computed: false, optional: true, required: false
-  private _batchWindow?: number; 
+  private _batchWindow?: number;
   public get batchWindow() {
     return this.getNumberAttribute('batch_window');
   }
@@ -596,23 +596,23 @@ export class GlueTriggerEventBatchingConditionList extends cdktn.ComplexList {
 }
 export interface GlueTriggerPredicateConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}
   */
   readonly crawlState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
   */
   readonly crawlerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
   */
   readonly jobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}
   */
   readonly logicalOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#state GlueTrigger#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#state GlueTrigger#state}
   */
   readonly state?: string;
 }
@@ -743,7 +743,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // crawl_state - computed: false, optional: true, required: false
-  private _crawlState?: string; 
+  private _crawlState?: string;
   public get crawlState() {
     return this.getStringAttribute('crawl_state');
   }
@@ -759,7 +759,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // crawler_name - computed: false, optional: true, required: false
-  private _crawlerName?: string; 
+  private _crawlerName?: string;
   public get crawlerName() {
     return this.getStringAttribute('crawler_name');
   }
@@ -775,7 +775,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // job_name - computed: false, optional: true, required: false
-  private _jobName?: string; 
+  private _jobName?: string;
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -791,7 +791,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // logical_operator - computed: false, optional: true, required: false
-  private _logicalOperator?: string; 
+  private _logicalOperator?: string;
   public get logicalOperator() {
     return this.getStringAttribute('logical_operator');
   }
@@ -807,7 +807,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -844,13 +844,13 @@ export class GlueTriggerPredicateConditionsList extends cdktn.ComplexList {
 }
 export interface GlueTriggerPredicate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#logical GlueTrigger#logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#logical GlueTrigger#logical}
   */
   readonly logical?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
   */
   readonly conditions: GlueTriggerPredicateConditions[] | cdktn.IResolvable;
 }
@@ -930,7 +930,7 @@ export class GlueTriggerPredicateOutputReference extends cdktn.ComplexObject {
   }
 
   // logical - computed: false, optional: true, required: false
-  private _logical?: string; 
+  private _logical?: string;
   public get logical() {
     return this.getStringAttribute('logical');
   }
@@ -960,15 +960,15 @@ export class GlueTriggerPredicateOutputReference extends cdktn.ComplexObject {
 }
 export interface GlueTriggerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#create GlueTrigger#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#create GlueTrigger#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#delete GlueTrigger#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#delete GlueTrigger#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#update GlueTrigger#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#update GlueTrigger#update}
   */
   readonly update?: string;
 }
@@ -1071,7 +1071,7 @@ export class GlueTriggerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1087,7 +1087,7 @@ export class GlueTriggerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1103,7 +1103,7 @@ export class GlueTriggerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1120,7 +1120,7 @@ export class GlueTriggerTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger aws_glue_trigger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger aws_glue_trigger}
 */
 export class GlueTrigger extends cdktn.TerraformResource {
 
@@ -1136,7 +1136,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueTrigger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueTrigger to import
-  * @param importFromId The id of the existing GlueTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1148,7 +1148,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_trigger aws_glue_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_trigger aws_glue_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1159,7 +1159,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_trigger',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1196,7 +1196,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1212,7 +1212,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1228,7 +1228,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1244,7 +1244,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1257,7 +1257,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1273,7 +1273,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: true, required: false
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -1289,7 +1289,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // start_on_creation - computed: false, optional: true, required: false
-  private _startOnCreation?: boolean | cdktn.IResolvable; 
+  private _startOnCreation?: boolean | cdktn.IResolvable;
   public get startOnCreation() {
     return this.getBooleanAttribute('start_on_creation');
   }
@@ -1310,7 +1310,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1326,7 +1326,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1342,7 +1342,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1355,7 +1355,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // workflow_name - computed: false, optional: true, required: false
-  private _workflowName?: string; 
+  private _workflowName?: string;
   public get workflowName() {
     return this.getStringAttribute('workflow_name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface IotfleetwiseStateTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#data_extra_dimensions IotfleetwiseStateTemplate#data_extra_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#data_extra_dimensions IotfleetwiseStateTemplate#data_extra_dimensions}
   */
   readonly dataExtraDimensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#description IotfleetwiseStateTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#description IotfleetwiseStateTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#metadata_extra_dimensions IotfleetwiseStateTemplate#metadata_extra_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#metadata_extra_dimensions IotfleetwiseStateTemplate#metadata_extra_dimensions}
   */
   readonly metadataExtraDimensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#name IotfleetwiseStateTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#name IotfleetwiseStateTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#signal_catalog_arn IotfleetwiseStateTemplate#signal_catalog_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#signal_catalog_arn IotfleetwiseStateTemplate#signal_catalog_arn}
   */
   readonly signalCatalogArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#state_template_properties IotfleetwiseStateTemplate#state_template_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#state_template_properties IotfleetwiseStateTemplate#state_template_properties}
   */
   readonly stateTemplateProperties: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#tags IotfleetwiseStateTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#tags IotfleetwiseStateTemplate#tags}
   */
   readonly tags?: IotfleetwiseStateTemplateTags[] | cdktn.IResolvable;
 }
 export interface IotfleetwiseStateTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#key IotfleetwiseStateTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#key IotfleetwiseStateTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#value IotfleetwiseStateTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#value IotfleetwiseStateTemplate#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class IotfleetwiseStateTemplateTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IotfleetwiseStateTemplateTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class IotfleetwiseStateTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template}
 */
 export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotfleetwiseStateTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotfleetwiseStateTemplate to import
-  * @param importFromId The id of the existing IotfleetwiseStateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotfleetwiseStateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotfleetwiseStateTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotfleetwise_state_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -260,7 +260,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // data_extra_dimensions - computed: true, optional: true, required: false
-  private _dataExtraDimensions?: string[]; 
+  private _dataExtraDimensions?: string[];
   public get dataExtraDimensions() {
     return this.getListAttribute('data_extra_dimensions');
   }
@@ -276,7 +276,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -302,7 +302,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // metadata_extra_dimensions - computed: true, optional: true, required: false
-  private _metadataExtraDimensions?: string[]; 
+  private _metadataExtraDimensions?: string[];
   public get metadataExtraDimensions() {
     return this.getListAttribute('metadata_extra_dimensions');
   }
@@ -318,7 +318,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -331,7 +331,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // signal_catalog_arn - computed: false, optional: false, required: true
-  private _signalCatalogArn?: string; 
+  private _signalCatalogArn?: string;
   public get signalCatalogArn() {
     return this.getStringAttribute('signal_catalog_arn');
   }
@@ -349,7 +349,7 @@ export class IotfleetwiseStateTemplate extends cdktn.TerraformResource {
   }
 
   // state_template_properties - computed: false, optional: false, required: true
-  private _stateTemplateProperties?: string[]; 
+  private _stateTemplateProperties?: string[];
   public get stateTemplateProperties() {
     return this.getListAttribute('state_template_properties');
   }

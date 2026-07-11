@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightDataSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#aws_account_id QuicksightDataSet#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#aws_account_id QuicksightDataSet#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_set_id QuicksightDataSet#data_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_set_id QuicksightDataSet#data_set_id}
   */
   readonly dataSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#id QuicksightDataSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#id QuicksightDataSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#import_mode QuicksightDataSet#import_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#import_mode QuicksightDataSet#import_mode}
   */
   readonly importMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#region QuicksightDataSet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#region QuicksightDataSet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tags_all QuicksightDataSet#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tags_all QuicksightDataSet#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#use_as QuicksightDataSet#use_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#use_as QuicksightDataSet#use_as}
   */
   readonly useAs?: string;
   /**
   * column_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_groups QuicksightDataSet#column_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_groups QuicksightDataSet#column_groups}
   */
   readonly columnGroups?: QuicksightDataSetColumnGroups[] | cdktn.IResolvable;
   /**
   * column_level_permission_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_level_permission_rules QuicksightDataSet#column_level_permission_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_level_permission_rules QuicksightDataSet#column_level_permission_rules}
   */
   readonly columnLevelPermissionRules?: QuicksightDataSetColumnLevelPermissionRules[] | cdktn.IResolvable;
   /**
   * data_set_usage_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_set_usage_configuration QuicksightDataSet#data_set_usage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_set_usage_configuration QuicksightDataSet#data_set_usage_configuration}
   */
   readonly dataSetUsageConfiguration?: QuicksightDataSetDataSetUsageConfiguration;
   /**
   * field_folders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#field_folders QuicksightDataSet#field_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#field_folders QuicksightDataSet#field_folders}
   */
   readonly fieldFolders?: QuicksightDataSetFieldFolders[] | cdktn.IResolvable;
   /**
   * logical_table_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#logical_table_map QuicksightDataSet#logical_table_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#logical_table_map QuicksightDataSet#logical_table_map}
   */
   readonly logicalTableMap?: QuicksightDataSetLogicalTableMap[] | cdktn.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#permissions QuicksightDataSet#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#permissions QuicksightDataSet#permissions}
   */
   readonly permissions?: QuicksightDataSetPermissions[] | cdktn.IResolvable;
   /**
   * physical_table_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#physical_table_map QuicksightDataSet#physical_table_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#physical_table_map QuicksightDataSet#physical_table_map}
   */
   readonly physicalTableMap?: QuicksightDataSetPhysicalTableMap[] | cdktn.IResolvable;
   /**
   * refresh_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#refresh_properties QuicksightDataSet#refresh_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#refresh_properties QuicksightDataSet#refresh_properties}
   */
   readonly refreshProperties?: QuicksightDataSetRefreshProperties;
   /**
   * row_level_permission_data_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#row_level_permission_data_set QuicksightDataSet#row_level_permission_data_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#row_level_permission_data_set QuicksightDataSet#row_level_permission_data_set}
   */
   readonly rowLevelPermissionDataSet?: QuicksightDataSetRowLevelPermissionDataSet;
   /**
   * row_level_permission_tag_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#row_level_permission_tag_configuration QuicksightDataSet#row_level_permission_tag_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#row_level_permission_tag_configuration QuicksightDataSet#row_level_permission_tag_configuration}
   */
   readonly rowLevelPermissionTagConfiguration?: QuicksightDataSetRowLevelPermissionTagConfiguration;
 }
@@ -196,15 +196,15 @@ export class QuicksightDataSetOutputColumnsList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetColumnGroupsGeoSpatialColumnGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
   */
   readonly columns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#country_code QuicksightDataSet#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#country_code QuicksightDataSet#country_code}
   */
   readonly countryCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
 }
@@ -297,7 +297,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // columns - computed: false, optional: false, required: true
-  private _columns?: string[]; 
+  private _columns?: string[];
   public get columns() {
     return this.getListAttribute('columns');
   }
@@ -310,7 +310,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // country_code - computed: false, optional: false, required: true
-  private _countryCode?: string; 
+  private _countryCode?: string;
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -323,7 +323,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -339,7 +339,7 @@ export interface QuicksightDataSetColumnGroups {
   /**
   * geo_spatial_column_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#geo_spatial_column_group QuicksightDataSet#geo_spatial_column_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#geo_spatial_column_group QuicksightDataSet#geo_spatial_column_group}
   */
   readonly geoSpatialColumnGroup?: QuicksightDataSetColumnGroupsGeoSpatialColumnGroup;
 }
@@ -455,11 +455,11 @@ export class QuicksightDataSetColumnGroupsList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetColumnLevelPermissionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_names QuicksightDataSet#column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_names QuicksightDataSet#column_names}
   */
   readonly columnNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#principals QuicksightDataSet#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#principals QuicksightDataSet#principals}
   */
   readonly principals?: string[];
 }
@@ -551,7 +551,7 @@ export class QuicksightDataSetColumnLevelPermissionRulesOutputReference extends 
   }
 
   // column_names - computed: false, optional: true, required: false
-  private _columnNames?: string[]; 
+  private _columnNames?: string[];
   public get columnNames() {
     return this.getListAttribute('column_names');
   }
@@ -567,7 +567,7 @@ export class QuicksightDataSetColumnLevelPermissionRulesOutputReference extends 
   }
 
   // principals - computed: false, optional: true, required: false
-  private _principals?: string[]; 
+  private _principals?: string[];
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -604,11 +604,11 @@ export class QuicksightDataSetColumnLevelPermissionRulesList extends cdktn.Compl
 }
 export interface QuicksightDataSetDataSetUsageConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#disable_use_as_direct_query_source QuicksightDataSet#disable_use_as_direct_query_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#disable_use_as_direct_query_source QuicksightDataSet#disable_use_as_direct_query_source}
   */
   readonly disableUseAsDirectQuerySource?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#disable_use_as_imported_source QuicksightDataSet#disable_use_as_imported_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#disable_use_as_imported_source QuicksightDataSet#disable_use_as_imported_source}
   */
   readonly disableUseAsImportedSource?: boolean | cdktn.IResolvable;
 }
@@ -688,7 +688,7 @@ export class QuicksightDataSetDataSetUsageConfigurationOutputReference extends c
   }
 
   // disable_use_as_direct_query_source - computed: true, optional: true, required: false
-  private _disableUseAsDirectQuerySource?: boolean | cdktn.IResolvable; 
+  private _disableUseAsDirectQuerySource?: boolean | cdktn.IResolvable;
   public get disableUseAsDirectQuerySource() {
     return this.getBooleanAttribute('disable_use_as_direct_query_source');
   }
@@ -704,7 +704,7 @@ export class QuicksightDataSetDataSetUsageConfigurationOutputReference extends c
   }
 
   // disable_use_as_imported_source - computed: true, optional: true, required: false
-  private _disableUseAsImportedSource?: boolean | cdktn.IResolvable; 
+  private _disableUseAsImportedSource?: boolean | cdktn.IResolvable;
   public get disableUseAsImportedSource() {
     return this.getBooleanAttribute('disable_use_as_imported_source');
   }
@@ -721,15 +721,15 @@ export class QuicksightDataSetDataSetUsageConfigurationOutputReference extends c
 }
 export interface QuicksightDataSetFieldFolders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
   */
   readonly columns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#description QuicksightDataSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#description QuicksightDataSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#field_folders_id QuicksightDataSet#field_folders_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#field_folders_id QuicksightDataSet#field_folders_id}
   */
   readonly fieldFoldersId: string;
 }
@@ -834,7 +834,7 @@ export class QuicksightDataSetFieldFoldersOutputReference extends cdktn.ComplexO
   }
 
   // columns - computed: false, optional: true, required: false
-  private _columns?: string[]; 
+  private _columns?: string[];
   public get columns() {
     return this.getListAttribute('columns');
   }
@@ -850,7 +850,7 @@ export class QuicksightDataSetFieldFoldersOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -866,7 +866,7 @@ export class QuicksightDataSetFieldFoldersOutputReference extends cdktn.ComplexO
   }
 
   // field_folders_id - computed: false, optional: false, required: true
-  private _fieldFoldersId?: string; 
+  private _fieldFoldersId?: string;
   public get fieldFoldersId() {
     return this.getStringAttribute('field_folders_id');
   }
@@ -900,15 +900,15 @@ export class QuicksightDataSetFieldFoldersList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#new_column_type QuicksightDataSet#new_column_type}
   */
   readonly newColumnType: string;
 }
@@ -1001,7 +1001,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1014,7 +1014,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1030,7 +1030,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // new_column_type - computed: false, optional: false, required: true
-  private _newColumnType?: string; 
+  private _newColumnType?: string;
   public get newColumnType() {
     return this.getStringAttribute('new_column_type');
   }
@@ -1044,15 +1044,15 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_id QuicksightDataSet#column_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_id QuicksightDataSet#column_id}
   */
   readonly columnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#expression QuicksightDataSet#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#expression QuicksightDataSet#expression}
   */
   readonly expression: string;
 }
@@ -1157,7 +1157,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // column_id - computed: false, optional: false, required: true
-  private _columnId?: string; 
+  private _columnId?: string;
   public get columnId() {
     return this.getStringAttribute('column_id');
   }
@@ -1170,7 +1170,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1183,7 +1183,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1219,7 +1219,7 @@ export interface QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOper
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
   */
   readonly columns: QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns[] | cdktn.IResolvable;
 }
@@ -1300,7 +1300,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsFilterOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#condition_expression QuicksightDataSet#condition_expression}
   */
   readonly conditionExpression: string;
 }
@@ -1367,7 +1367,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutput
   }
 
   // condition_expression - computed: false, optional: false, required: true
-  private _conditionExpression?: string; 
+  private _conditionExpression?: string;
   public get conditionExpression() {
     return this.getStringAttribute('condition_expression');
   }
@@ -1381,7 +1381,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutput
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsProjectOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#projected_columns QuicksightDataSet#projected_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#projected_columns QuicksightDataSet#projected_columns}
   */
   readonly projectedColumns: string[];
 }
@@ -1448,7 +1448,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutpu
   }
 
   // projected_columns - computed: false, optional: false, required: true
-  private _projectedColumns?: string[]; 
+  private _projectedColumns?: string[];
   public get projectedColumns() {
     return this.getListAttribute('projected_columns');
   }
@@ -1462,11 +1462,11 @@ export class QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutpu
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#new_column_name QuicksightDataSet#new_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#new_column_name QuicksightDataSet#new_column_name}
   */
   readonly newColumnName: string;
 }
@@ -1546,7 +1546,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1559,7 +1559,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
   }
 
   // new_column_name - computed: false, optional: false, required: true
-  private _newColumnName?: string; 
+  private _newColumnName?: string;
   public get newColumnName() {
     return this.getStringAttribute('new_column_name');
   }
@@ -1573,7 +1573,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#text QuicksightDataSet#text}
   */
   readonly text?: string;
 }
@@ -1640,7 +1640,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1657,13 +1657,13 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_geographic_role QuicksightDataSet#column_geographic_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_geographic_role QuicksightDataSet#column_geographic_role}
   */
   readonly columnGeographicRole?: string;
   /**
   * column_description block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_description QuicksightDataSet#column_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_description QuicksightDataSet#column_description}
   */
   readonly columnDescription?: QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription;
 }
@@ -1755,7 +1755,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
   }
 
   // column_geographic_role - computed: true, optional: true, required: false
-  private _columnGeographicRole?: string; 
+  private _columnGeographicRole?: string;
   public get columnGeographicRole() {
     return this.getStringAttribute('column_geographic_role');
   }
@@ -1808,13 +1808,13 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
   */
   readonly tags: QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTags[] | cdktn.IResolvable;
 }
@@ -1894,7 +1894,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOut
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1921,11 +1921,11 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOut
 }
 export interface QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tag_names QuicksightDataSet#tag_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tag_names QuicksightDataSet#tag_names}
   */
   readonly tagNames: string[];
 }
@@ -2005,7 +2005,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperationO
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2018,7 +2018,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperationO
   }
 
   // tag_names - computed: false, optional: false, required: true
-  private _tagNames?: string[]; 
+  private _tagNames?: string[];
   public get tagNames() {
     return this.getListAttribute('tag_names');
   }
@@ -2034,43 +2034,43 @@ export interface QuicksightDataSetLogicalTableMapDataTransforms {
   /**
   * cast_column_type_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#cast_column_type_operation QuicksightDataSet#cast_column_type_operation}
   */
   readonly castColumnTypeOperation?: QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation;
   /**
   * create_columns_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#create_columns_operation QuicksightDataSet#create_columns_operation}
   */
   readonly createColumnsOperation?: QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation;
   /**
   * filter_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#filter_operation QuicksightDataSet#filter_operation}
   */
   readonly filterOperation?: QuicksightDataSetLogicalTableMapDataTransformsFilterOperation;
   /**
   * project_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#project_operation QuicksightDataSet#project_operation}
   */
   readonly projectOperation?: QuicksightDataSetLogicalTableMapDataTransformsProjectOperation;
   /**
   * rename_column_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#rename_column_operation QuicksightDataSet#rename_column_operation}
   */
   readonly renameColumnOperation?: QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation;
   /**
   * tag_column_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tag_column_operation QuicksightDataSet#tag_column_operation}
   */
   readonly tagColumnOperation?: QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation;
   /**
   * untag_column_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#untag_column_operation QuicksightDataSet#untag_column_operation}
   */
   readonly untagColumnOperation?: QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation;
 }
@@ -2360,7 +2360,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsList extends cdktn.Co
 }
 export interface QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#unique_key QuicksightDataSet#unique_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#unique_key QuicksightDataSet#unique_key}
   */
   readonly uniqueKey?: boolean | cdktn.IResolvable;
 }
@@ -2427,7 +2427,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPro
   }
 
   // unique_key - computed: true, optional: true, required: false
-  private _uniqueKey?: boolean | cdktn.IResolvable; 
+  private _uniqueKey?: boolean | cdktn.IResolvable;
   public get uniqueKey() {
     return this.getBooleanAttribute('unique_key');
   }
@@ -2444,7 +2444,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPro
 }
 export interface QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#unique_key QuicksightDataSet#unique_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#unique_key QuicksightDataSet#unique_key}
   */
   readonly uniqueKey?: boolean | cdktn.IResolvable;
 }
@@ -2511,7 +2511,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPr
   }
 
   // unique_key - computed: true, optional: true, required: false
-  private _uniqueKey?: boolean | cdktn.IResolvable; 
+  private _uniqueKey?: boolean | cdktn.IResolvable;
   public get uniqueKey() {
     return this.getBooleanAttribute('unique_key');
   }
@@ -2528,31 +2528,31 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPr
 }
 export interface QuicksightDataSetLogicalTableMapSourceJoinInstruction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#left_operand QuicksightDataSet#left_operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#left_operand QuicksightDataSet#left_operand}
   */
   readonly leftOperand: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#on_clause QuicksightDataSet#on_clause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#on_clause QuicksightDataSet#on_clause}
   */
   readonly onClause: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#right_operand QuicksightDataSet#right_operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#right_operand QuicksightDataSet#right_operand}
   */
   readonly rightOperand: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
   */
   readonly type: string;
   /**
   * left_join_key_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#left_join_key_properties QuicksightDataSet#left_join_key_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#left_join_key_properties QuicksightDataSet#left_join_key_properties}
   */
   readonly leftJoinKeyProperties?: QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyProperties;
   /**
   * right_join_key_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#right_join_key_properties QuicksightDataSet#right_join_key_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#right_join_key_properties QuicksightDataSet#right_join_key_properties}
   */
   readonly rightJoinKeyProperties?: QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyProperties;
 }
@@ -2684,7 +2684,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // left_operand - computed: false, optional: false, required: true
-  private _leftOperand?: string; 
+  private _leftOperand?: string;
   public get leftOperand() {
     return this.getStringAttribute('left_operand');
   }
@@ -2697,7 +2697,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // on_clause - computed: false, optional: false, required: true
-  private _onClause?: string; 
+  private _onClause?: string;
   public get onClause() {
     return this.getStringAttribute('on_clause');
   }
@@ -2710,7 +2710,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // right_operand - computed: false, optional: false, required: true
-  private _rightOperand?: string; 
+  private _rightOperand?: string;
   public get rightOperand() {
     return this.getStringAttribute('right_operand');
   }
@@ -2723,7 +2723,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2769,17 +2769,17 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
 }
 export interface QuicksightDataSetLogicalTableMapSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_set_arn QuicksightDataSet#data_set_arn}
   */
   readonly dataSetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#physical_table_id QuicksightDataSet#physical_table_id}
   */
   readonly physicalTableId?: string;
   /**
   * join_instruction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#join_instruction QuicksightDataSet#join_instruction}
   */
   readonly joinInstruction?: QuicksightDataSetLogicalTableMapSourceJoinInstruction;
 }
@@ -2872,7 +2872,7 @@ export class QuicksightDataSetLogicalTableMapSourceOutputReference extends cdktn
   }
 
   // data_set_arn - computed: true, optional: true, required: false
-  private _dataSetArn?: string; 
+  private _dataSetArn?: string;
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -2888,7 +2888,7 @@ export class QuicksightDataSetLogicalTableMapSourceOutputReference extends cdktn
   }
 
   // physical_table_id - computed: true, optional: true, required: false
-  private _physicalTableId?: string; 
+  private _physicalTableId?: string;
   public get physicalTableId() {
     return this.getStringAttribute('physical_table_id');
   }
@@ -2921,23 +2921,23 @@ export class QuicksightDataSetLogicalTableMapSourceOutputReference extends cdktn
 }
 export interface QuicksightDataSetLogicalTableMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#alias QuicksightDataSet#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#alias QuicksightDataSet#alias}
   */
   readonly alias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#logical_table_map_id QuicksightDataSet#logical_table_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#logical_table_map_id QuicksightDataSet#logical_table_map_id}
   */
   readonly logicalTableMapId: string;
   /**
   * data_transforms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_transforms QuicksightDataSet#data_transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_transforms QuicksightDataSet#data_transforms}
   */
   readonly dataTransforms?: QuicksightDataSetLogicalTableMapDataTransforms[] | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#source QuicksightDataSet#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#source QuicksightDataSet#source}
   */
   readonly source: QuicksightDataSetLogicalTableMapSource;
 }
@@ -3055,7 +3055,7 @@ export class QuicksightDataSetLogicalTableMapOutputReference extends cdktn.Compl
   }
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string; 
+  private _alias?: string;
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -3068,7 +3068,7 @@ export class QuicksightDataSetLogicalTableMapOutputReference extends cdktn.Compl
   }
 
   // logical_table_map_id - computed: false, optional: false, required: true
-  private _logicalTableMapId?: string; 
+  private _logicalTableMapId?: string;
   public get logicalTableMapId() {
     return this.getStringAttribute('logical_table_map_id');
   }
@@ -3131,11 +3131,11 @@ export class QuicksightDataSetLogicalTableMapList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#actions QuicksightDataSet#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#actions QuicksightDataSet#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#principal QuicksightDataSet#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#principal QuicksightDataSet#principal}
   */
   readonly principal: string;
 }
@@ -3227,7 +3227,7 @@ export class QuicksightDataSetPermissionsOutputReference extends cdktn.ComplexOb
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -3240,7 +3240,7 @@ export class QuicksightDataSetPermissionsOutputReference extends cdktn.ComplexOb
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -3274,11 +3274,11 @@ export class QuicksightDataSetPermissionsList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetPhysicalTableMapCustomSqlColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
   */
   readonly type: string;
 }
@@ -3370,7 +3370,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference ex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3383,7 +3383,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3417,21 +3417,21 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlColumnsList extends cdktn
 }
 export interface QuicksightDataSetPhysicalTableMapCustomSql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
   */
   readonly dataSourceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#sql_query QuicksightDataSet#sql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#sql_query QuicksightDataSet#sql_query}
   */
   readonly sqlQuery: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
   */
   readonly columns?: QuicksightDataSetPhysicalTableMapCustomSqlColumns[] | cdktn.IResolvable;
 }
@@ -3537,7 +3537,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // data_source_arn - computed: false, optional: false, required: true
-  private _dataSourceArn?: string; 
+  private _dataSourceArn?: string;
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -3550,7 +3550,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3563,7 +3563,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // sql_query - computed: false, optional: false, required: true
-  private _sqlQuery?: string; 
+  private _sqlQuery?: string;
   public get sqlQuery() {
     return this.getStringAttribute('sql_query');
   }
@@ -3593,11 +3593,11 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
 }
 export interface QuicksightDataSetPhysicalTableMapRelationalTableInputColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
   */
   readonly type: string;
 }
@@ -3689,7 +3689,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputR
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3702,7 +3702,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3736,25 +3736,25 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsList ex
 }
 export interface QuicksightDataSetPhysicalTableMapRelationalTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#catalog QuicksightDataSet#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#catalog QuicksightDataSet#catalog}
   */
   readonly catalog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
   */
   readonly dataSourceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#schema QuicksightDataSet#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#schema QuicksightDataSet#schema}
   */
   readonly schema?: string;
   /**
   * input_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
   */
   readonly inputColumns: QuicksightDataSetPhysicalTableMapRelationalTableInputColumns[] | cdktn.IResolvable;
 }
@@ -3873,7 +3873,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // catalog - computed: false, optional: true, required: false
-  private _catalog?: string; 
+  private _catalog?: string;
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -3889,7 +3889,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // data_source_arn - computed: false, optional: false, required: true
-  private _dataSourceArn?: string; 
+  private _dataSourceArn?: string;
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -3902,7 +3902,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3915,7 +3915,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // schema - computed: false, optional: true, required: false
-  private _schema?: string; 
+  private _schema?: string;
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -3945,11 +3945,11 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
 }
 export interface QuicksightDataSetPhysicalTableMapS3SourceInputColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}
   */
   readonly type: string;
 }
@@ -4041,7 +4041,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReferenc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4054,7 +4054,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReferenc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4088,23 +4088,23 @@ export class QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList extends c
 }
 export interface QuicksightDataSetPhysicalTableMapS3SourceUploadSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#contains_header QuicksightDataSet#contains_header}
   */
   readonly containsHeader?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#delimiter QuicksightDataSet#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#format QuicksightDataSet#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#start_from_row QuicksightDataSet#start_from_row}
   */
   readonly startFromRow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#text_qualifier QuicksightDataSet#text_qualifier}
   */
   readonly textQualifier?: string;
 }
@@ -4223,7 +4223,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // contains_header - computed: true, optional: true, required: false
-  private _containsHeader?: boolean | cdktn.IResolvable; 
+  private _containsHeader?: boolean | cdktn.IResolvable;
   public get containsHeader() {
     return this.getBooleanAttribute('contains_header');
   }
@@ -4239,7 +4239,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -4255,7 +4255,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -4271,7 +4271,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // start_from_row - computed: true, optional: true, required: false
-  private _startFromRow?: number; 
+  private _startFromRow?: number;
   public get startFromRow() {
     return this.getNumberAttribute('start_from_row');
   }
@@ -4287,7 +4287,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // text_qualifier - computed: true, optional: true, required: false
-  private _textQualifier?: string; 
+  private _textQualifier?: string;
   public get textQualifier() {
     return this.getStringAttribute('text_qualifier');
   }
@@ -4304,19 +4304,19 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
 }
 export interface QuicksightDataSetPhysicalTableMapS3Source {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#data_source_arn QuicksightDataSet#data_source_arn}
   */
   readonly dataSourceArn: string;
   /**
   * input_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
   */
   readonly inputColumns: QuicksightDataSetPhysicalTableMapS3SourceInputColumns[] | cdktn.IResolvable;
   /**
   * upload_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#upload_settings QuicksightDataSet#upload_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#upload_settings QuicksightDataSet#upload_settings}
   */
   readonly uploadSettings: QuicksightDataSetPhysicalTableMapS3SourceUploadSettings;
 }
@@ -4409,7 +4409,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceOutputReference extends cd
   }
 
   // data_source_arn - computed: false, optional: false, required: true
-  private _dataSourceArn?: string; 
+  private _dataSourceArn?: string;
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -4449,25 +4449,25 @@ export class QuicksightDataSetPhysicalTableMapS3SourceOutputReference extends cd
 }
 export interface QuicksightDataSetPhysicalTableMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#physical_table_map_id QuicksightDataSet#physical_table_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#physical_table_map_id QuicksightDataSet#physical_table_map_id}
   */
   readonly physicalTableMapId: string;
   /**
   * custom_sql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#custom_sql QuicksightDataSet#custom_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#custom_sql QuicksightDataSet#custom_sql}
   */
   readonly customSql?: QuicksightDataSetPhysicalTableMapCustomSql;
   /**
   * relational_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#relational_table QuicksightDataSet#relational_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#relational_table QuicksightDataSet#relational_table}
   */
   readonly relationalTable?: QuicksightDataSetPhysicalTableMapRelationalTable;
   /**
   * s3_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#s3_source QuicksightDataSet#s3_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#s3_source QuicksightDataSet#s3_source}
   */
   readonly s3Source?: QuicksightDataSetPhysicalTableMapS3Source;
 }
@@ -4585,7 +4585,7 @@ export class QuicksightDataSetPhysicalTableMapOutputReference extends cdktn.Comp
   }
 
   // physical_table_map_id - computed: false, optional: false, required: true
-  private _physicalTableMapId?: string; 
+  private _physicalTableMapId?: string;
   public get physicalTableMapId() {
     return this.getStringAttribute('physical_table_map_id');
   }
@@ -4667,15 +4667,15 @@ export class QuicksightDataSetPhysicalTableMapList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#size QuicksightDataSet#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#size QuicksightDataSet#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#size_unit QuicksightDataSet#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#size_unit QuicksightDataSet#size_unit}
   */
   readonly sizeUnit: string;
 }
@@ -4768,7 +4768,7 @@ export class QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRe
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -4781,7 +4781,7 @@ export class QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRe
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -4794,7 +4794,7 @@ export class QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRe
   }
 
   // size_unit - computed: false, optional: false, required: true
-  private _sizeUnit?: string; 
+  private _sizeUnit?: string;
   public get sizeUnit() {
     return this.getStringAttribute('size_unit');
   }
@@ -4810,7 +4810,7 @@ export interface QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrement
   /**
   * lookback_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#lookback_window QuicksightDataSet#lookback_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#lookback_window QuicksightDataSet#lookback_window}
   */
   readonly lookbackWindow: QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow;
 }
@@ -4893,7 +4893,7 @@ export interface QuicksightDataSetRefreshPropertiesRefreshConfiguration {
   /**
   * incremental_refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#incremental_refresh QuicksightDataSet#incremental_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#incremental_refresh QuicksightDataSet#incremental_refresh}
   */
   readonly incrementalRefresh: QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh;
 }
@@ -4976,7 +4976,7 @@ export interface QuicksightDataSetRefreshProperties {
   /**
   * refresh_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#refresh_configuration QuicksightDataSet#refresh_configuration}
   */
   readonly refreshConfiguration: QuicksightDataSetRefreshPropertiesRefreshConfiguration;
 }
@@ -5057,23 +5057,23 @@ export class QuicksightDataSetRefreshPropertiesOutputReference extends cdktn.Com
 }
 export interface QuicksightDataSetRowLevelPermissionDataSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#arn QuicksightDataSet#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#arn QuicksightDataSet#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#format_version QuicksightDataSet#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#format_version QuicksightDataSet#format_version}
   */
   readonly formatVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#namespace QuicksightDataSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#namespace QuicksightDataSet#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#permission_policy QuicksightDataSet#permission_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#permission_policy QuicksightDataSet#permission_policy}
   */
   readonly permissionPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}
   */
   readonly status?: string;
 }
@@ -5192,7 +5192,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -5205,7 +5205,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // format_version - computed: false, optional: true, required: false
-  private _formatVersion?: string; 
+  private _formatVersion?: string;
   public get formatVersion() {
     return this.getStringAttribute('format_version');
   }
@@ -5221,7 +5221,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5237,7 +5237,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // permission_policy - computed: false, optional: false, required: true
-  private _permissionPolicy?: string; 
+  private _permissionPolicy?: string;
   public get permissionPolicy() {
     return this.getStringAttribute('permission_policy');
   }
@@ -5250,7 +5250,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -5267,19 +5267,19 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
 }
 export interface QuicksightDataSetRowLevelPermissionTagConfigurationTagRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#match_all_value QuicksightDataSet#match_all_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#match_all_value QuicksightDataSet#match_all_value}
   */
   readonly matchAllValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tag_key QuicksightDataSet#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tag_key QuicksightDataSet#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tag_multi_value_delimiter QuicksightDataSet#tag_multi_value_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tag_multi_value_delimiter QuicksightDataSet#tag_multi_value_delimiter}
   */
   readonly tagMultiValueDelimiter?: string;
 }
@@ -5397,7 +5397,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputRe
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -5410,7 +5410,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputRe
   }
 
   // match_all_value - computed: false, optional: true, required: false
-  private _matchAllValue?: string; 
+  private _matchAllValue?: string;
   public get matchAllValue() {
     return this.getStringAttribute('match_all_value');
   }
@@ -5426,7 +5426,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputRe
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string; 
+  private _tagKey?: string;
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -5439,7 +5439,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputRe
   }
 
   // tag_multi_value_delimiter - computed: false, optional: true, required: false
-  private _tagMultiValueDelimiter?: string; 
+  private _tagMultiValueDelimiter?: string;
   public get tagMultiValueDelimiter() {
     return this.getStringAttribute('tag_multi_value_delimiter');
   }
@@ -5476,13 +5476,13 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList ext
 }
 export interface QuicksightDataSetRowLevelPermissionTagConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}
   */
   readonly status?: string;
   /**
   * tag_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
   */
   readonly tagRules: QuicksightDataSetRowLevelPermissionTagConfigurationTagRules[] | cdktn.IResolvable;
 }
@@ -5562,7 +5562,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationOutputReference 
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -5592,7 +5592,7 @@ export class QuicksightDataSetRowLevelPermissionTagConfigurationOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set aws_quicksight_data_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set aws_quicksight_data_set}
 */
 export class QuicksightDataSet extends cdktn.TerraformResource {
 
@@ -5608,7 +5608,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightDataSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightDataSet to import
-  * @param importFromId The id of the existing QuicksightDataSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightDataSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightDataSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5620,7 +5620,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5631,7 +5631,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_data_set',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5672,7 +5672,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -5688,7 +5688,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string; 
+  private _dataSetId?: string;
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -5701,7 +5701,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5717,7 +5717,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // import_mode - computed: false, optional: false, required: true
-  private _importMode?: string; 
+  private _importMode?: string;
   public get importMode() {
     return this.getStringAttribute('import_mode');
   }
@@ -5730,7 +5730,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5749,7 +5749,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5765,7 +5765,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5781,7 +5781,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -5797,7 +5797,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // use_as - computed: false, optional: true, required: false
-  private _useAs?: string; 
+  private _useAs?: string;
   public get useAs() {
     return this.getStringAttribute('use_as');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface IotBillingGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#billing_group_name IotBillingGroup#billing_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#billing_group_name IotBillingGroup#billing_group_name}
   */
   readonly billingGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#billing_group_properties IotBillingGroup#billing_group_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#billing_group_properties IotBillingGroup#billing_group_properties}
   */
   readonly billingGroupProperties?: IotBillingGroupBillingGroupProperties;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#tags IotBillingGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#tags IotBillingGroup#tags}
   */
   readonly tags?: IotBillingGroupTags[] | cdktn.IResolvable;
 }
 export interface IotBillingGroupBillingGroupProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#billing_group_description IotBillingGroup#billing_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#billing_group_description IotBillingGroup#billing_group_description}
   */
   readonly billingGroupDescription?: string;
 }
@@ -101,7 +101,7 @@ export class IotBillingGroupBillingGroupPropertiesOutputReference extends cdktn.
   }
 
   // billing_group_description - computed: true, optional: true, required: false
-  private _billingGroupDescription?: string; 
+  private _billingGroupDescription?: string;
   public get billingGroupDescription() {
     return this.getStringAttribute('billing_group_description');
   }
@@ -120,13 +120,13 @@ export interface IotBillingGroupTags {
   /**
   * Tag key (1-128 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#key IotBillingGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#key IotBillingGroup#key}
   */
   readonly key?: string;
   /**
   * Tag value (1-256 chars). No 'aws:' prefix. Allows: [A-Za-z0-9 _.:/=+-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#value IotBillingGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#value IotBillingGroup#value}
   */
   readonly value?: string;
 }
@@ -218,7 +218,7 @@ export class IotBillingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -234,7 +234,7 @@ export class IotBillingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class IotBillingGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group awscc_iot_billing_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group awscc_iot_billing_group}
 */
 export class IotBillingGroup extends cdktn.TerraformResource {
 
@@ -287,7 +287,7 @@ export class IotBillingGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotBillingGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotBillingGroup to import
-  * @param importFromId The id of the existing IotBillingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotBillingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotBillingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -299,7 +299,7 @@ export class IotBillingGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,7 +310,7 @@ export class IotBillingGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_billing_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -340,7 +340,7 @@ export class IotBillingGroup extends cdktn.TerraformResource {
   }
 
   // billing_group_name - computed: true, optional: true, required: false
-  private _billingGroupName?: string; 
+  private _billingGroupName?: string;
   public get billingGroupName() {
     return this.getStringAttribute('billing_group_name');
   }

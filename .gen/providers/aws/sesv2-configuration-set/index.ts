@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface Sesv2ConfigurationSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#configuration_set_name Sesv2ConfigurationSet#configuration_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#configuration_set_name Sesv2ConfigurationSet#configuration_set_name}
   */
   readonly configurationSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#id Sesv2ConfigurationSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#id Sesv2ConfigurationSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,65 +21,65 @@ export interface Sesv2ConfigurationSetConfig extends cdktn.TerraformMetaArgument
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#region Sesv2ConfigurationSet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#region Sesv2ConfigurationSet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#tags Sesv2ConfigurationSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#tags Sesv2ConfigurationSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#tags_all Sesv2ConfigurationSet#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#tags_all Sesv2ConfigurationSet#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * delivery_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#delivery_options Sesv2ConfigurationSet#delivery_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#delivery_options Sesv2ConfigurationSet#delivery_options}
   */
   readonly deliveryOptions?: Sesv2ConfigurationSetDeliveryOptions;
   /**
   * reputation_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#reputation_options Sesv2ConfigurationSet#reputation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#reputation_options Sesv2ConfigurationSet#reputation_options}
   */
   readonly reputationOptions?: Sesv2ConfigurationSetReputationOptions;
   /**
   * sending_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#sending_options Sesv2ConfigurationSet#sending_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#sending_options Sesv2ConfigurationSet#sending_options}
   */
   readonly sendingOptions?: Sesv2ConfigurationSetSendingOptions;
   /**
   * suppression_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#suppression_options Sesv2ConfigurationSet#suppression_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#suppression_options Sesv2ConfigurationSet#suppression_options}
   */
   readonly suppressionOptions?: Sesv2ConfigurationSetSuppressionOptions;
   /**
   * tracking_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#tracking_options Sesv2ConfigurationSet#tracking_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#tracking_options Sesv2ConfigurationSet#tracking_options}
   */
   readonly trackingOptions?: Sesv2ConfigurationSetTrackingOptions;
   /**
   * vdm_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#vdm_options Sesv2ConfigurationSet#vdm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#vdm_options Sesv2ConfigurationSet#vdm_options}
   */
   readonly vdmOptions?: Sesv2ConfigurationSetVdmOptions;
 }
 export interface Sesv2ConfigurationSetDeliveryOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#max_delivery_seconds Sesv2ConfigurationSet#max_delivery_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#max_delivery_seconds Sesv2ConfigurationSet#max_delivery_seconds}
   */
   readonly maxDeliverySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#sending_pool_name Sesv2ConfigurationSet#sending_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#sending_pool_name Sesv2ConfigurationSet#sending_pool_name}
   */
   readonly sendingPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#tls_policy Sesv2ConfigurationSet#tls_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#tls_policy Sesv2ConfigurationSet#tls_policy}
   */
   readonly tlsPolicy?: string;
 }
@@ -172,7 +172,7 @@ export class Sesv2ConfigurationSetDeliveryOptionsOutputReference extends cdktn.C
   }
 
   // max_delivery_seconds - computed: false, optional: true, required: false
-  private _maxDeliverySeconds?: number; 
+  private _maxDeliverySeconds?: number;
   public get maxDeliverySeconds() {
     return this.getNumberAttribute('max_delivery_seconds');
   }
@@ -188,7 +188,7 @@ export class Sesv2ConfigurationSetDeliveryOptionsOutputReference extends cdktn.C
   }
 
   // sending_pool_name - computed: false, optional: true, required: false
-  private _sendingPoolName?: string; 
+  private _sendingPoolName?: string;
   public get sendingPoolName() {
     return this.getStringAttribute('sending_pool_name');
   }
@@ -204,7 +204,7 @@ export class Sesv2ConfigurationSetDeliveryOptionsOutputReference extends cdktn.C
   }
 
   // tls_policy - computed: false, optional: true, required: false
-  private _tlsPolicy?: string; 
+  private _tlsPolicy?: string;
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }
@@ -221,7 +221,7 @@ export class Sesv2ConfigurationSetDeliveryOptionsOutputReference extends cdktn.C
 }
 export interface Sesv2ConfigurationSetReputationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#reputation_metrics_enabled Sesv2ConfigurationSet#reputation_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#reputation_metrics_enabled Sesv2ConfigurationSet#reputation_metrics_enabled}
   */
   readonly reputationMetricsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -293,7 +293,7 @@ export class Sesv2ConfigurationSetReputationOptionsOutputReference extends cdktn
   }
 
   // reputation_metrics_enabled - computed: true, optional: true, required: false
-  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable; 
+  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable;
   public get reputationMetricsEnabled() {
     return this.getBooleanAttribute('reputation_metrics_enabled');
   }
@@ -310,7 +310,7 @@ export class Sesv2ConfigurationSetReputationOptionsOutputReference extends cdktn
 }
 export interface Sesv2ConfigurationSetSendingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#sending_enabled Sesv2ConfigurationSet#sending_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#sending_enabled Sesv2ConfigurationSet#sending_enabled}
   */
   readonly sendingEnabled?: boolean | cdktn.IResolvable;
 }
@@ -377,7 +377,7 @@ export class Sesv2ConfigurationSetSendingOptionsOutputReference extends cdktn.Co
   }
 
   // sending_enabled - computed: true, optional: true, required: false
-  private _sendingEnabled?: boolean | cdktn.IResolvable; 
+  private _sendingEnabled?: boolean | cdktn.IResolvable;
   public get sendingEnabled() {
     return this.getBooleanAttribute('sending_enabled');
   }
@@ -394,7 +394,7 @@ export class Sesv2ConfigurationSetSendingOptionsOutputReference extends cdktn.Co
 }
 export interface Sesv2ConfigurationSetSuppressionOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#suppressed_reasons Sesv2ConfigurationSet#suppressed_reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#suppressed_reasons Sesv2ConfigurationSet#suppressed_reasons}
   */
   readonly suppressedReasons?: string[];
 }
@@ -461,7 +461,7 @@ export class Sesv2ConfigurationSetSuppressionOptionsOutputReference extends cdkt
   }
 
   // suppressed_reasons - computed: false, optional: true, required: false
-  private _suppressedReasons?: string[]; 
+  private _suppressedReasons?: string[];
   public get suppressedReasons() {
     return this.getListAttribute('suppressed_reasons');
   }
@@ -478,11 +478,11 @@ export class Sesv2ConfigurationSetSuppressionOptionsOutputReference extends cdkt
 }
 export interface Sesv2ConfigurationSetTrackingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#custom_redirect_domain Sesv2ConfigurationSet#custom_redirect_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#custom_redirect_domain Sesv2ConfigurationSet#custom_redirect_domain}
   */
   readonly customRedirectDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#https_policy Sesv2ConfigurationSet#https_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#https_policy Sesv2ConfigurationSet#https_policy}
   */
   readonly httpsPolicy?: string;
 }
@@ -562,7 +562,7 @@ export class Sesv2ConfigurationSetTrackingOptionsOutputReference extends cdktn.C
   }
 
   // custom_redirect_domain - computed: false, optional: false, required: true
-  private _customRedirectDomain?: string; 
+  private _customRedirectDomain?: string;
   public get customRedirectDomain() {
     return this.getStringAttribute('custom_redirect_domain');
   }
@@ -575,7 +575,7 @@ export class Sesv2ConfigurationSetTrackingOptionsOutputReference extends cdktn.C
   }
 
   // https_policy - computed: false, optional: true, required: false
-  private _httpsPolicy?: string; 
+  private _httpsPolicy?: string;
   public get httpsPolicy() {
     return this.getStringAttribute('https_policy');
   }
@@ -592,7 +592,7 @@ export class Sesv2ConfigurationSetTrackingOptionsOutputReference extends cdktn.C
 }
 export interface Sesv2ConfigurationSetVdmOptionsDashboardOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#engagement_metrics Sesv2ConfigurationSet#engagement_metrics}
   */
   readonly engagementMetrics?: string;
 }
@@ -659,7 +659,7 @@ export class Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference exte
   }
 
   // engagement_metrics - computed: false, optional: true, required: false
-  private _engagementMetrics?: string; 
+  private _engagementMetrics?: string;
   public get engagementMetrics() {
     return this.getStringAttribute('engagement_metrics');
   }
@@ -676,7 +676,7 @@ export class Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference exte
 }
 export interface Sesv2ConfigurationSetVdmOptionsGuardianOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#optimized_shared_delivery Sesv2ConfigurationSet#optimized_shared_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#optimized_shared_delivery Sesv2ConfigurationSet#optimized_shared_delivery}
   */
   readonly optimizedSharedDelivery?: string;
 }
@@ -743,7 +743,7 @@ export class Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference exten
   }
 
   // optimized_shared_delivery - computed: false, optional: true, required: false
-  private _optimizedSharedDelivery?: string; 
+  private _optimizedSharedDelivery?: string;
   public get optimizedSharedDelivery() {
     return this.getStringAttribute('optimized_shared_delivery');
   }
@@ -762,13 +762,13 @@ export interface Sesv2ConfigurationSetVdmOptions {
   /**
   * dashboard_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#dashboard_options Sesv2ConfigurationSet#dashboard_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#dashboard_options Sesv2ConfigurationSet#dashboard_options}
   */
   readonly dashboardOptions?: Sesv2ConfigurationSetVdmOptionsDashboardOptions;
   /**
   * guardian_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#guardian_options Sesv2ConfigurationSet#guardian_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#guardian_options Sesv2ConfigurationSet#guardian_options}
   */
   readonly guardianOptions?: Sesv2ConfigurationSetVdmOptionsGuardianOptions;
 }
@@ -881,7 +881,7 @@ export class Sesv2ConfigurationSetVdmOptionsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set aws_sesv2_configuration_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set aws_sesv2_configuration_set}
 */
 export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
 
@@ -897,7 +897,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Sesv2ConfigurationSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sesv2ConfigurationSet to import
-  * @param importFromId The id of the existing Sesv2ConfigurationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sesv2ConfigurationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sesv2ConfigurationSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -909,7 +909,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sesv2_configuration_set aws_sesv2_configuration_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_configuration_set aws_sesv2_configuration_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -920,7 +920,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sesv2_configuration_set',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -953,7 +953,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   }
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string; 
+  private _configurationSetName?: string;
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -966,7 +966,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -982,7 +982,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -998,7 +998,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1014,7 +1014,7 @@ export class Sesv2ConfigurationSet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

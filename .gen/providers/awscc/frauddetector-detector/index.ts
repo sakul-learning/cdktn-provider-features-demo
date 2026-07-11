@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface FrauddetectorDetectorConfig extends cdktn.TerraformMetaArgument
   /**
   * The models to associate with this detector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#associated_models FrauddetectorDetector#associated_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#associated_models FrauddetectorDetector#associated_models}
   */
   readonly associatedModels?: FrauddetectorDetectorAssociatedModels[] | cdktn.IResolvable;
   /**
   * The description of the detector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
   * The ID of the detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#detector_id FrauddetectorDetector#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#detector_id FrauddetectorDetector#detector_id}
   */
   readonly detectorId: string;
   /**
   * The desired detector version status for the detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#detector_version_status FrauddetectorDetector#detector_version_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#detector_version_status FrauddetectorDetector#detector_version_status}
   */
   readonly detectorVersionStatus?: string;
   /**
   * The event type to associate this detector with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#event_type FrauddetectorDetector#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#event_type FrauddetectorDetector#event_type}
   */
   readonly eventType: FrauddetectorDetectorEventType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#rule_execution_mode FrauddetectorDetector#rule_execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#rule_execution_mode FrauddetectorDetector#rule_execution_mode}
   */
   readonly ruleExecutionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#rules FrauddetectorDetector#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#rules FrauddetectorDetector#rules}
   */
   readonly rules: FrauddetectorDetectorRules[] | cdktn.IResolvable;
   /**
   * Tags associated with this detector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorTags[] | cdktn.IResolvable;
 }
 export interface FrauddetectorDetectorAssociatedModels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
 }
@@ -133,7 +133,7 @@ export class FrauddetectorDetectorAssociatedModelsOutputReference extends cdktn.
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -170,11 +170,11 @@ export class FrauddetectorDetectorAssociatedModelsList extends cdktn.ComplexList
 }
 export interface FrauddetectorDetectorEventTypeEntityTypesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -266,7 +266,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -282,7 +282,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -319,39 +319,39 @@ export class FrauddetectorDetectorEventTypeEntityTypesTagsList extends cdktn.Com
 }
 export interface FrauddetectorDetectorEventTypeEntityTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
   /**
   * The time when the entity type was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the entity type was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this entity type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorEventTypeEntityTypesTags[] | cdktn.IResolvable;
 }
@@ -508,7 +508,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -524,7 +524,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string; 
+  private _createdTime?: string;
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -540,7 +540,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -556,7 +556,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable; 
+  private _inline?: boolean | cdktn.IResolvable;
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -572,7 +572,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string; 
+  private _lastUpdatedTime?: string;
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -588,7 +588,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -641,11 +641,11 @@ export class FrauddetectorDetectorEventTypeEntityTypesList extends cdktn.Complex
 }
 export interface FrauddetectorDetectorEventTypeEventVariablesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -737,7 +737,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -753,7 +753,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -790,55 +790,55 @@ export class FrauddetectorDetectorEventTypeEventVariablesTagsList extends cdktn.
 }
 export interface FrauddetectorDetectorEventTypeEventVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
   /**
   * The time when the event variable was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
   */
   readonly createdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#data_source FrauddetectorDetector#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#data_source FrauddetectorDetector#data_source}
   */
   readonly dataSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#data_type FrauddetectorDetector#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#data_type FrauddetectorDetector#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#default_value FrauddetectorDetector#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#default_value FrauddetectorDetector#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the event variable was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this event variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorEventTypeEventVariablesTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#variable_type FrauddetectorDetector#variable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#variable_type FrauddetectorDetector#variable_type}
   */
   readonly variableType?: string;
 }
@@ -1047,7 +1047,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1063,7 +1063,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string; 
+  private _createdTime?: string;
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -1079,7 +1079,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // data_source - computed: true, optional: true, required: false
-  private _dataSource?: string; 
+  private _dataSource?: string;
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -1095,7 +1095,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string; 
+  private _dataType?: string;
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -1111,7 +1111,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -1127,7 +1127,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1143,7 +1143,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable; 
+  private _inline?: boolean | cdktn.IResolvable;
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -1159,7 +1159,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string; 
+  private _lastUpdatedTime?: string;
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -1175,7 +1175,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1207,7 +1207,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // variable_type - computed: true, optional: true, required: false
-  private _variableType?: string; 
+  private _variableType?: string;
   public get variableType() {
     return this.getStringAttribute('variable_type');
   }
@@ -1244,11 +1244,11 @@ export class FrauddetectorDetectorEventTypeEventVariablesList extends cdktn.Comp
 }
 export interface FrauddetectorDetectorEventTypeLabelsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -1340,7 +1340,7 @@ export class FrauddetectorDetectorEventTypeLabelsTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1356,7 +1356,7 @@ export class FrauddetectorDetectorEventTypeLabelsTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1393,39 +1393,39 @@ export class FrauddetectorDetectorEventTypeLabelsTagsList extends cdktn.ComplexL
 }
 export interface FrauddetectorDetectorEventTypeLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
   /**
   * The time when the label was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the label was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorEventTypeLabelsTags[] | cdktn.IResolvable;
 }
@@ -1582,7 +1582,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1598,7 +1598,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string; 
+  private _createdTime?: string;
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -1614,7 +1614,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1630,7 +1630,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable; 
+  private _inline?: boolean | cdktn.IResolvable;
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -1646,7 +1646,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string; 
+  private _lastUpdatedTime?: string;
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -1662,7 +1662,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1715,11 +1715,11 @@ export class FrauddetectorDetectorEventTypeLabelsList extends cdktn.ComplexList 
 }
 export interface FrauddetectorDetectorEventTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -1811,7 +1811,7 @@ export class FrauddetectorDetectorEventTypeTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1827,7 +1827,7 @@ export class FrauddetectorDetectorEventTypeTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1866,35 +1866,35 @@ export interface FrauddetectorDetectorEventType {
   /**
   * The description of the event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#entity_types FrauddetectorDetector#entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#entity_types FrauddetectorDetector#entity_types}
   */
   readonly entityTypes?: FrauddetectorDetectorEventTypeEntityTypes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#event_variables FrauddetectorDetector#event_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#event_variables FrauddetectorDetector#event_variables}
   */
   readonly eventVariables?: FrauddetectorDetectorEventTypeEventVariables[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#labels FrauddetectorDetector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#labels FrauddetectorDetector#labels}
   */
   readonly labels?: FrauddetectorDetectorEventTypeLabels[] | cdktn.IResolvable;
   /**
   * The name for the event type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorEventTypeTags[] | cdktn.IResolvable;
 }
@@ -2059,7 +2059,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2107,7 +2107,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable; 
+  private _inline?: boolean | cdktn.IResolvable;
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -2144,7 +2144,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2177,11 +2177,11 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
 }
 export interface FrauddetectorDetectorRulesOutcomesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -2273,7 +2273,7 @@ export class FrauddetectorDetectorRulesOutcomesTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2289,7 +2289,7 @@ export class FrauddetectorDetectorRulesOutcomesTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2326,39 +2326,39 @@ export class FrauddetectorDetectorRulesOutcomesTagsList extends cdktn.ComplexLis
 }
 export interface FrauddetectorDetectorRulesOutcomes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
   /**
   * The time when the outcome was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#inline FrauddetectorDetector#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the outcome was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#name FrauddetectorDetector#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorRulesOutcomesTags[] | cdktn.IResolvable;
 }
@@ -2515,7 +2515,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2531,7 +2531,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string; 
+  private _createdTime?: string;
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -2547,7 +2547,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2563,7 +2563,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable; 
+  private _inline?: boolean | cdktn.IResolvable;
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -2579,7 +2579,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string; 
+  private _lastUpdatedTime?: string;
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -2595,7 +2595,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2648,11 +2648,11 @@ export class FrauddetectorDetectorRulesOutcomesList extends cdktn.ComplexList {
 }
 export interface FrauddetectorDetectorRulesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -2744,7 +2744,7 @@ export class FrauddetectorDetectorRulesTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2760,7 +2760,7 @@ export class FrauddetectorDetectorRulesTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2797,55 +2797,55 @@ export class FrauddetectorDetectorRulesTagsList extends cdktn.ComplexList {
 }
 export interface FrauddetectorDetectorRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#arn FrauddetectorDetector#arn}
   */
   readonly arn?: string;
   /**
   * The time when the event type was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#created_time FrauddetectorDetector#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#description FrauddetectorDetector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#detector_id FrauddetectorDetector#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#detector_id FrauddetectorDetector#detector_id}
   */
   readonly detectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#expression FrauddetectorDetector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#expression FrauddetectorDetector#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#language FrauddetectorDetector#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#language FrauddetectorDetector#language}
   */
   readonly language?: string;
   /**
   * The time when the event type was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#last_updated_time FrauddetectorDetector#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#outcomes FrauddetectorDetector#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#outcomes FrauddetectorDetector#outcomes}
   */
   readonly outcomes?: FrauddetectorDetectorRulesOutcomes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#rule_id FrauddetectorDetector#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#rule_id FrauddetectorDetector#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#rule_version FrauddetectorDetector#rule_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#rule_version FrauddetectorDetector#rule_version}
   */
   readonly ruleVersion?: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#tags FrauddetectorDetector#tags}
   */
   readonly tags?: FrauddetectorDetectorRulesTags[] | cdktn.IResolvable;
 }
@@ -3054,7 +3054,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3070,7 +3070,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string; 
+  private _createdTime?: string;
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -3086,7 +3086,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3102,7 +3102,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // detector_id - computed: true, optional: true, required: false
-  private _detectorId?: string; 
+  private _detectorId?: string;
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -3118,7 +3118,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -3134,7 +3134,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string; 
+  private _language?: string;
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -3150,7 +3150,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string; 
+  private _lastUpdatedTime?: string;
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -3182,7 +3182,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // rule_id - computed: true, optional: true, required: false
-  private _ruleId?: string; 
+  private _ruleId?: string;
   public get ruleId() {
     return this.getStringAttribute('rule_id');
   }
@@ -3198,7 +3198,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // rule_version - computed: true, optional: true, required: false
-  private _ruleVersion?: string; 
+  private _ruleVersion?: string;
   public get ruleVersion() {
     return this.getStringAttribute('rule_version');
   }
@@ -3251,11 +3251,11 @@ export class FrauddetectorDetectorRulesList extends cdktn.ComplexList {
 }
 export interface FrauddetectorDetectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#key FrauddetectorDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#value FrauddetectorDetector#value}
   */
   readonly value?: string;
 }
@@ -3347,7 +3347,7 @@ export class FrauddetectorDetectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3363,7 +3363,7 @@ export class FrauddetectorDetectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3400,7 +3400,7 @@ export class FrauddetectorDetectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector awscc_frauddetector_detector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector awscc_frauddetector_detector}
 */
 export class FrauddetectorDetector extends cdktn.TerraformResource {
 
@@ -3416,7 +3416,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FrauddetectorDetector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FrauddetectorDetector to import
-  * @param importFromId The id of the existing FrauddetectorDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FrauddetectorDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FrauddetectorDetector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3428,7 +3428,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3439,7 +3439,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_frauddetector_detector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3490,7 +3490,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3506,7 +3506,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string; 
+  private _detectorId?: string;
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -3524,7 +3524,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // detector_version_status - computed: true, optional: true, required: false
-  private _detectorVersionStatus?: string; 
+  private _detectorVersionStatus?: string;
   public get detectorVersionStatus() {
     return this.getStringAttribute('detector_version_status');
   }
@@ -3563,7 +3563,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // rule_execution_mode - computed: true, optional: true, required: false
-  private _ruleExecutionMode?: string; 
+  private _ruleExecutionMode?: string;
   public get ruleExecutionMode() {
     return this.getStringAttribute('rule_execution_mode');
   }

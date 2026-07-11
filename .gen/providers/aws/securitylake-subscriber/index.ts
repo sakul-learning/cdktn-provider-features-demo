@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface SecuritylakeSubscriberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#access_type SecuritylakeSubscriber#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#access_type SecuritylakeSubscriber#access_type}
   */
   readonly accessType?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#region SecuritylakeSubscriber#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#region SecuritylakeSubscriber#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#subscriber_description SecuritylakeSubscriber#subscriber_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#subscriber_description SecuritylakeSubscriber#subscriber_description}
   */
   readonly subscriberDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#subscriber_name SecuritylakeSubscriber#subscriber_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#subscriber_name SecuritylakeSubscriber#subscriber_name}
   */
   readonly subscriberName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#tags SecuritylakeSubscriber#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#tags SecuritylakeSubscriber#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#source SecuritylakeSubscriber#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#source SecuritylakeSubscriber#source}
   */
   readonly source?: SecuritylakeSubscriberSource[] | cdktn.IResolvable;
   /**
   * subscriber_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#subscriber_identity SecuritylakeSubscriber#subscriber_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#subscriber_identity SecuritylakeSubscriber#subscriber_identity}
   */
   readonly subscriberIdentity?: SecuritylakeSubscriberSubscriberIdentity[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#timeouts SecuritylakeSubscriber#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#timeouts SecuritylakeSubscriber#timeouts}
   */
   readonly timeouts?: SecuritylakeSubscriberTimeouts;
 }
 export interface SecuritylakeSubscriberSourceAwsLogSourceResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}
   */
   readonly sourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}
   */
   readonly sourceVersion?: string;
 }
@@ -146,7 +146,7 @@ export class SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference ext
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string; 
+  private _sourceName?: string;
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -159,7 +159,7 @@ export class SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference ext
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string; 
+  private _sourceVersion?: string;
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -361,11 +361,11 @@ export class SecuritylakeSubscriberSourceCustomLogSourceResourceProviderList ext
 }
 export interface SecuritylakeSubscriberSourceCustomLogSourceResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#source_name SecuritylakeSubscriber#source_name}
   */
   readonly sourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#source_version SecuritylakeSubscriber#source_version}
   */
   readonly sourceVersion?: string;
 }
@@ -469,7 +469,7 @@ export class SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference 
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string; 
+  private _sourceName?: string;
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -482,7 +482,7 @@ export class SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference 
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string; 
+  private _sourceVersion?: string;
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -521,13 +521,13 @@ export interface SecuritylakeSubscriberSource {
   /**
   * aws_log_source_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#aws_log_source_resource SecuritylakeSubscriber#aws_log_source_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#aws_log_source_resource SecuritylakeSubscriber#aws_log_source_resource}
   */
   readonly awsLogSourceResource?: SecuritylakeSubscriberSourceAwsLogSourceResource[] | cdktn.IResolvable;
   /**
   * custom_log_source_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#custom_log_source_resource SecuritylakeSubscriber#custom_log_source_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#custom_log_source_resource SecuritylakeSubscriber#custom_log_source_resource}
   */
   readonly customLogSourceResource?: SecuritylakeSubscriberSourceCustomLogSourceResource[] | cdktn.IResolvable;
 }
@@ -672,11 +672,11 @@ export class SecuritylakeSubscriberSourceList extends cdktn.ComplexList {
 }
 export interface SecuritylakeSubscriberSubscriberIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#external_id SecuritylakeSubscriber#external_id}
   */
   readonly externalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#principal SecuritylakeSubscriber#principal}
   */
   readonly principal: string;
 }
@@ -768,7 +768,7 @@ export class SecuritylakeSubscriberSubscriberIdentityOutputReference extends cdk
   }
 
   // external_id - computed: false, optional: false, required: true
-  private _externalId?: string; 
+  private _externalId?: string;
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -781,7 +781,7 @@ export class SecuritylakeSubscriberSubscriberIdentityOutputReference extends cdk
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -817,19 +817,19 @@ export interface SecuritylakeSubscriberTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#create SecuritylakeSubscriber#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#create SecuritylakeSubscriber#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#delete SecuritylakeSubscriber#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#delete SecuritylakeSubscriber#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#update SecuritylakeSubscriber#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#update SecuritylakeSubscriber#update}
   */
   readonly update?: string;
 }
@@ -932,7 +932,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -948,7 +948,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -964,7 +964,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -981,7 +981,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber aws_securitylake_subscriber}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber aws_securitylake_subscriber}
 */
 export class SecuritylakeSubscriber extends cdktn.TerraformResource {
 
@@ -997,7 +997,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecuritylakeSubscriber resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecuritylakeSubscriber to import
-  * @param importFromId The id of the existing SecuritylakeSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecuritylakeSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecuritylakeSubscriber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1009,7 +1009,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_subscriber aws_securitylake_subscriber} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_subscriber aws_securitylake_subscriber} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1020,7 +1020,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
       terraformResourceType: 'aws_securitylake_subscriber',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1045,7 +1045,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   // ==========
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string; 
+  private _accessType?: string;
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -1071,7 +1071,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1107,7 +1107,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // subscriber_description - computed: false, optional: true, required: false
-  private _subscriberDescription?: string; 
+  private _subscriberDescription?: string;
   public get subscriberDescription() {
     return this.getStringAttribute('subscriber_description');
   }
@@ -1128,7 +1128,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // subscriber_name - computed: false, optional: true, required: false
-  private _subscriberName?: string; 
+  private _subscriberName?: string;
   public get subscriberName() {
     return this.getStringAttribute('subscriber_name');
   }
@@ -1149,7 +1149,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface QbusinessDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#application_id QbusinessDataSource#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#application_id QbusinessDataSource#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#configuration QbusinessDataSource#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#configuration QbusinessDataSource#configuration}
   */
   readonly configuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#description QbusinessDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#description QbusinessDataSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#display_name QbusinessDataSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#display_name QbusinessDataSource#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#document_enrichment_configuration QbusinessDataSource#document_enrichment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#document_enrichment_configuration QbusinessDataSource#document_enrichment_configuration}
   */
   readonly documentEnrichmentConfiguration?: QbusinessDataSourceDocumentEnrichmentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#index_id QbusinessDataSource#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#index_id QbusinessDataSource#index_id}
   */
   readonly indexId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#media_extraction_configuration QbusinessDataSource#media_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#media_extraction_configuration QbusinessDataSource#media_extraction_configuration}
   */
   readonly mediaExtractionConfiguration?: QbusinessDataSourceMediaExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#sync_schedule QbusinessDataSource#sync_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#sync_schedule QbusinessDataSource#sync_schedule}
   */
   readonly syncSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#tags QbusinessDataSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#tags QbusinessDataSource#tags}
   */
   readonly tags?: QbusinessDataSourceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#vpc_configuration QbusinessDataSource#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#vpc_configuration QbusinessDataSource#vpc_configuration}
   */
   readonly vpcConfiguration?: QbusinessDataSourceVpcConfiguration;
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -182,7 +182,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -198,7 +198,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -214,7 +214,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -230,7 +230,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -247,15 +247,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
   */
   readonly value?: QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValue;
 }
@@ -358,7 +358,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -374,7 +374,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -407,19 +407,19 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -535,7 +535,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -551,7 +551,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -567,7 +567,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -583,7 +583,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -600,15 +600,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#attribute_value_operator QbusinessDataSource#attribute_value_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#attribute_value_operator QbusinessDataSource#attribute_value_operator}
   */
   readonly attributeValueOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
   */
   readonly value?: QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValue;
 }
@@ -711,7 +711,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // attribute_value_operator - computed: true, optional: true, required: false
-  private _attributeValueOperator?: string; 
+  private _attributeValueOperator?: string;
   public get attributeValueOperator() {
     return this.getStringAttribute('attribute_value_operator');
   }
@@ -727,7 +727,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -760,15 +760,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#condition QbusinessDataSource#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#condition QbusinessDataSource#condition}
   */
   readonly condition?: QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#document_content_operator QbusinessDataSource#document_content_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#document_content_operator QbusinessDataSource#document_content_operator}
   */
   readonly documentContentOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#target QbusinessDataSource#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#target QbusinessDataSource#target}
   */
   readonly target?: QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTarget;
 }
@@ -889,7 +889,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // document_content_operator - computed: true, optional: true, required: false
-  private _documentContentOperator?: string; 
+  private _documentContentOperator?: string;
   public get documentContentOperator() {
     return this.getStringAttribute('document_content_operator');
   }
@@ -942,19 +942,19 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1070,7 +1070,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1086,7 +1086,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1102,7 +1102,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1118,7 +1118,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1135,15 +1135,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
   */
   readonly value?: QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValue;
 }
@@ -1246,7 +1246,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1262,7 +1262,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1295,19 +1295,19 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#invocation_condition QbusinessDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#invocation_condition QbusinessDataSource#invocation_condition}
   */
   readonly invocationCondition?: QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#lambda_arn QbusinessDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#lambda_arn QbusinessDataSource#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#s3_bucket_name QbusinessDataSource#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#s3_bucket_name QbusinessDataSource#s3_bucket_name}
   */
   readonly s3BucketName?: string;
 }
@@ -1439,7 +1439,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1455,7 +1455,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1471,7 +1471,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -1488,19 +1488,19 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#date_value QbusinessDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#long_value QbusinessDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_list_value QbusinessDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#string_value QbusinessDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1616,7 +1616,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string; 
+  private _dateValue?: string;
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1632,7 +1632,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number; 
+  private _longValue?: number;
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1648,7 +1648,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[]; 
+  private _stringListValue?: string[];
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1664,7 +1664,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string; 
+  private _stringValue?: string;
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1681,15 +1681,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#operator QbusinessDataSource#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
   */
   readonly value?: QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValue;
 }
@@ -1792,7 +1792,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1808,7 +1808,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string; 
+  private _operator?: string;
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1841,19 +1841,19 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#invocation_condition QbusinessDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#invocation_condition QbusinessDataSource#invocation_condition}
   */
   readonly invocationCondition?: QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#lambda_arn QbusinessDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#lambda_arn QbusinessDataSource#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#role_arn QbusinessDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#s3_bucket_name QbusinessDataSource#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#s3_bucket_name QbusinessDataSource#s3_bucket_name}
   */
   readonly s3BucketName?: string;
 }
@@ -1985,7 +1985,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -2001,7 +2001,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2017,7 +2017,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -2034,15 +2034,15 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
 }
 export interface QbusinessDataSourceDocumentEnrichmentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#inline_configurations QbusinessDataSource#inline_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#inline_configurations QbusinessDataSource#inline_configurations}
   */
   readonly inlineConfigurations?: QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#post_extraction_hook_configuration QbusinessDataSource#post_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#post_extraction_hook_configuration QbusinessDataSource#post_extraction_hook_configuration}
   */
   readonly postExtractionHookConfiguration?: QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#pre_extraction_hook_configuration QbusinessDataSource#pre_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#pre_extraction_hook_configuration QbusinessDataSource#pre_extraction_hook_configuration}
   */
   readonly preExtractionHookConfiguration?: QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfiguration;
 }
@@ -2194,7 +2194,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationOutputReference e
 }
 export interface QbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#audio_extraction_status QbusinessDataSource#audio_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#audio_extraction_status QbusinessDataSource#audio_extraction_status}
   */
   readonly audioExtractionStatus?: string;
 }
@@ -2271,7 +2271,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfi
   }
 
   // audio_extraction_status - computed: true, optional: true, required: false
-  private _audioExtractionStatus?: string; 
+  private _audioExtractionStatus?: string;
   public get audioExtractionStatus() {
     return this.getStringAttribute('audio_extraction_status');
   }
@@ -2288,7 +2288,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfi
 }
 export interface QbusinessDataSourceMediaExtractionConfigurationImageExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#image_extraction_status QbusinessDataSource#image_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#image_extraction_status QbusinessDataSource#image_extraction_status}
   */
   readonly imageExtractionStatus?: string;
 }
@@ -2365,7 +2365,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationImageExtractionConfi
   }
 
   // image_extraction_status - computed: true, optional: true, required: false
-  private _imageExtractionStatus?: string; 
+  private _imageExtractionStatus?: string;
   public get imageExtractionStatus() {
     return this.getStringAttribute('image_extraction_status');
   }
@@ -2382,7 +2382,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationImageExtractionConfi
 }
 export interface QbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#video_extraction_status QbusinessDataSource#video_extraction_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#video_extraction_status QbusinessDataSource#video_extraction_status}
   */
   readonly videoExtractionStatus?: string;
 }
@@ -2459,7 +2459,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfi
   }
 
   // video_extraction_status - computed: true, optional: true, required: false
-  private _videoExtractionStatus?: string; 
+  private _videoExtractionStatus?: string;
   public get videoExtractionStatus() {
     return this.getStringAttribute('video_extraction_status');
   }
@@ -2476,15 +2476,15 @@ export class QbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfi
 }
 export interface QbusinessDataSourceMediaExtractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#audio_extraction_configuration QbusinessDataSource#audio_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#audio_extraction_configuration QbusinessDataSource#audio_extraction_configuration}
   */
   readonly audioExtractionConfiguration?: QbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#image_extraction_configuration QbusinessDataSource#image_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#image_extraction_configuration QbusinessDataSource#image_extraction_configuration}
   */
   readonly imageExtractionConfiguration?: QbusinessDataSourceMediaExtractionConfigurationImageExtractionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#video_extraction_configuration QbusinessDataSource#video_extraction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#video_extraction_configuration QbusinessDataSource#video_extraction_configuration}
   */
   readonly videoExtractionConfiguration?: QbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfiguration;
 }
@@ -2636,11 +2636,11 @@ export class QbusinessDataSourceMediaExtractionConfigurationOutputReference exte
 }
 export interface QbusinessDataSourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#key QbusinessDataSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#value QbusinessDataSource#value}
   */
   readonly value?: string;
 }
@@ -2732,7 +2732,7 @@ export class QbusinessDataSourceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2748,7 +2748,7 @@ export class QbusinessDataSourceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2785,11 +2785,11 @@ export class QbusinessDataSourceTagsList extends cdktn.ComplexList {
 }
 export interface QbusinessDataSourceVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#security_group_ids QbusinessDataSource#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#security_group_ids QbusinessDataSource#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#subnet_ids QbusinessDataSource#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#subnet_ids QbusinessDataSource#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -2879,7 +2879,7 @@ export class QbusinessDataSourceVpcConfigurationOutputReference extends cdktn.Co
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2895,7 +2895,7 @@ export class QbusinessDataSourceVpcConfigurationOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -2912,7 +2912,7 @@ export class QbusinessDataSourceVpcConfigurationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source}
 */
 export class QbusinessDataSource extends cdktn.TerraformResource {
 
@@ -2928,7 +2928,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QbusinessDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QbusinessDataSource to import
-  * @param importFromId The id of the existing QbusinessDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QbusinessDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QbusinessDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2940,7 +2940,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2951,7 +2951,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qbusiness_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2979,7 +2979,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -2992,7 +2992,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // configuration - computed: false, optional: false, required: true
-  private _configuration?: string; 
+  private _configuration?: string;
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -3020,7 +3020,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3036,7 +3036,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -3070,7 +3070,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string; 
+  private _indexId?: string;
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -3099,7 +3099,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3120,7 +3120,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // sync_schedule - computed: true, optional: true, required: false
-  private _syncSchedule?: string; 
+  private _syncSchedule?: string;
   public get syncSchedule() {
     return this.getStringAttribute('sync_schedule');
   }

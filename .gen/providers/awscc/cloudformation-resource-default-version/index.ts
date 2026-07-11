@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,28 +9,28 @@ import * as cdktn from 'cdktn';
 export interface CloudformationResourceDefaultVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the type being registered.
-  * 
+  *
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version#type_name CloudformationResourceDefaultVersion#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version#type_name CloudformationResourceDefaultVersion#type_name}
   */
   readonly typeName?: string;
   /**
   * The Amazon Resource Name (ARN) of the type version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version#type_version_arn CloudformationResourceDefaultVersion#type_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version#type_version_arn CloudformationResourceDefaultVersion#type_version_arn}
   */
   readonly typeVersionArn?: string;
   /**
   * The ID of an existing version of the resource to set as the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version#version_id CloudformationResourceDefaultVersion#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version#version_id CloudformationResourceDefaultVersion#version_id}
   */
   readonly versionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version}
 */
 export class CloudformationResourceDefaultVersion extends cdktn.TerraformResource {
 
@@ -46,7 +46,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a CloudformationResourceDefaultVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationResourceDefaultVersion to import
-  * @param importFromId The id of the existing CloudformationResourceDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationResourceDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationResourceDefaultVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_cloudformation_resource_default_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +99,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string; 
+  private _typeName?: string;
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -115,7 +115,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
   }
 
   // type_version_arn - computed: true, optional: true, required: false
-  private _typeVersionArn?: string; 
+  private _typeVersionArn?: string;
   public get typeVersionArn() {
     return this.getStringAttribute('type_version_arn');
   }
@@ -131,7 +131,7 @@ export class CloudformationResourceDefaultVersion extends cdktn.TerraformResourc
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string; 
+  private _versionId?: string;
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,159 +10,159 @@ export interface AutoscalingLaunchConfigurationConfig extends cdktn.TerraformMet
   /**
   * For Auto Scaling groups that are running in a virtual private cloud (VPC), specifies whether to assign a public IP address to the group's instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#associate_public_ip_address AutoscalingLaunchConfiguration#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#associate_public_ip_address AutoscalingLaunchConfiguration#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktn.IResolvable;
   /**
   * Specifies how block devices are exposed to the instance. You can specify virtual devices and EBS volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#block_device_mappings AutoscalingLaunchConfiguration#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#block_device_mappings AutoscalingLaunchConfiguration#block_device_mappings}
   */
   readonly blockDeviceMappings?: AutoscalingLaunchConfigurationBlockDeviceMappings[] | cdktn.IResolvable;
   /**
   * The ID of a ClassicLink-enabled VPC to link your EC2-Classic instances to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_id AutoscalingLaunchConfiguration#classic_link_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_id AutoscalingLaunchConfiguration#classic_link_vpc_id}
   */
   readonly classicLinkVpcId?: string;
   /**
   * The IDs of one or more security groups for the VPC that you specified in the ClassicLinkVPCId property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_security_groups AutoscalingLaunchConfiguration#classic_link_vpc_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_security_groups AutoscalingLaunchConfiguration#classic_link_vpc_security_groups}
   */
   readonly classicLinkVpcSecurityGroups?: string[];
   /**
   * Specifies whether the launch configuration is optimized for EBS I/O (true) or not (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#ebs_optimized AutoscalingLaunchConfiguration#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#ebs_optimized AutoscalingLaunchConfiguration#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktn.IResolvable;
   /**
   * Provides the name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instance. The instance profile contains the IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#iam_instance_profile AutoscalingLaunchConfiguration#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#iam_instance_profile AutoscalingLaunchConfiguration#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
   * Provides the unique ID of the Amazon Machine Image (AMI) that was assigned during registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#image_id AutoscalingLaunchConfiguration#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#image_id AutoscalingLaunchConfiguration#image_id}
   */
   readonly imageId: string;
   /**
   * The ID of the Amazon EC2 instance you want to use to create the launch configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#instance_id AutoscalingLaunchConfiguration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#instance_id AutoscalingLaunchConfiguration#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Controls whether instances in this group are launched with detailed (true) or basic (false) monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#instance_monitoring AutoscalingLaunchConfiguration#instance_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#instance_monitoring AutoscalingLaunchConfiguration#instance_monitoring}
   */
   readonly instanceMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Specifies the instance type of the EC2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#instance_type AutoscalingLaunchConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#instance_type AutoscalingLaunchConfiguration#instance_type}
   */
   readonly instanceType: string;
   /**
   * Provides the ID of the kernel associated with the EC2 AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#kernel_id AutoscalingLaunchConfiguration#kernel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#kernel_id AutoscalingLaunchConfiguration#kernel_id}
   */
   readonly kernelId?: string;
   /**
   * Provides the name of the EC2 key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#key_name AutoscalingLaunchConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#key_name AutoscalingLaunchConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
   * The name of the launch configuration. This name must be unique per Region per account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#launch_configuration_name AutoscalingLaunchConfiguration#launch_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#launch_configuration_name AutoscalingLaunchConfiguration#launch_configuration_name}
   */
   readonly launchConfigurationName?: string;
   /**
   * The metadata options for the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#metadata_options AutoscalingLaunchConfiguration#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#metadata_options AutoscalingLaunchConfiguration#metadata_options}
   */
   readonly metadataOptions?: AutoscalingLaunchConfigurationMetadataOptions;
   /**
   * The tenancy of the instance, either default or dedicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#placement_tenancy AutoscalingLaunchConfiguration#placement_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#placement_tenancy AutoscalingLaunchConfiguration#placement_tenancy}
   */
   readonly placementTenancy?: string;
   /**
   * The ID of the RAM disk to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#ram_disk_id AutoscalingLaunchConfiguration#ram_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#ram_disk_id AutoscalingLaunchConfiguration#ram_disk_id}
   */
   readonly ramDiskId?: string;
   /**
   * A list that contains the security groups to assign to the instances in the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#security_groups AutoscalingLaunchConfiguration#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#security_groups AutoscalingLaunchConfiguration#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The maximum hourly price you are willing to pay for any Spot Instances launched to fulfill the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#spot_price AutoscalingLaunchConfiguration#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#spot_price AutoscalingLaunchConfiguration#spot_price}
   */
   readonly spotPrice?: string;
   /**
   * The Base64-encoded user data to make available to the launched EC2 instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#user_data AutoscalingLaunchConfiguration#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#user_data AutoscalingLaunchConfiguration#user_data}
   */
   readonly userData?: string;
 }
 export interface AutoscalingLaunchConfigurationBlockDeviceMappingsEbs {
   /**
-  * Indicates whether the volume is deleted on instance termination. 
+  * Indicates whether the volume is deleted on instance termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#delete_on_termination AutoscalingLaunchConfiguration#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#delete_on_termination AutoscalingLaunchConfiguration#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Specifies whether the volume should be encrypted. 
+  * Specifies whether the volume should be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#encrypted AutoscalingLaunchConfiguration#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#encrypted AutoscalingLaunchConfiguration#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * The number of input/output (I/O) operations per second (IOPS) to provision for the volume. 
+  * The number of input/output (I/O) operations per second (IOPS) to provision for the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#iops AutoscalingLaunchConfiguration#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#iops AutoscalingLaunchConfiguration#iops}
   */
   readonly iops?: number;
   /**
   * The snapshot ID of the volume to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#snapshot_id AutoscalingLaunchConfiguration#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#snapshot_id AutoscalingLaunchConfiguration#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The throughput (MiBps) to provision for a gp3 volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#throughput AutoscalingLaunchConfiguration#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#throughput AutoscalingLaunchConfiguration#throughput}
   */
   readonly throughput?: number;
   /**
   * The volume size, in GiBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#volume_size AutoscalingLaunchConfiguration#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#volume_size AutoscalingLaunchConfiguration#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * The volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#volume_type AutoscalingLaunchConfiguration#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#volume_type AutoscalingLaunchConfiguration#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -317,7 +317,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -333,7 +333,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -349,7 +349,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -365,7 +365,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -381,7 +381,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -397,7 +397,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -413,7 +413,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -430,27 +430,27 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
 }
 export interface AutoscalingLaunchConfigurationBlockDeviceMappings {
   /**
-  * The device name exposed to the EC2 instance (for example, /dev/sdh or xvdh). 
+  * The device name exposed to the EC2 instance (for example, /dev/sdh or xvdh).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#device_name AutoscalingLaunchConfiguration#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#device_name AutoscalingLaunchConfiguration#device_name}
   */
   readonly deviceName?: string;
   /**
   * Parameters used to automatically set up EBS volumes when an instance is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#ebs AutoscalingLaunchConfiguration#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#ebs AutoscalingLaunchConfiguration#ebs}
   */
   readonly ebs?: AutoscalingLaunchConfigurationBlockDeviceMappingsEbs;
   /**
   * Setting this value to true suppresses the specified device included in the block device mapping of the AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#no_device AutoscalingLaunchConfiguration#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#no_device AutoscalingLaunchConfiguration#no_device}
   */
   readonly noDevice?: boolean | cdktn.IResolvable;
   /**
   * The name of the virtual device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#virtual_name AutoscalingLaunchConfiguration#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#virtual_name AutoscalingLaunchConfiguration#virtual_name}
   */
   readonly virtualName?: string;
 }
@@ -568,7 +568,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -600,7 +600,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: boolean | cdktn.IResolvable; 
+  private _noDevice?: boolean | cdktn.IResolvable;
   public get noDevice() {
     return this.getBooleanAttribute('no_device');
   }
@@ -616,7 +616,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string; 
+  private _virtualName?: string;
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -655,19 +655,19 @@ export interface AutoscalingLaunchConfigurationMetadataOptions {
   /**
   * This parameter enables or disables the HTTP metadata endpoint on your instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#http_endpoint AutoscalingLaunchConfiguration#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#http_endpoint AutoscalingLaunchConfiguration#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
   * The desired HTTP PUT response hop limit for instance metadata requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#http_put_response_hop_limit AutoscalingLaunchConfiguration#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#http_put_response_hop_limit AutoscalingLaunchConfiguration#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
   * The state of token usage for your instance metadata requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#http_tokens AutoscalingLaunchConfiguration#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#http_tokens AutoscalingLaunchConfiguration#http_tokens}
   */
   readonly httpTokens?: string;
 }
@@ -770,7 +770,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string; 
+  private _httpEndpoint?: string;
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -786,7 +786,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number; 
+  private _httpPutResponseHopLimit?: number;
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -802,7 +802,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string; 
+  private _httpTokens?: string;
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -819,7 +819,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}
 */
 export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
 
@@ -835,7 +835,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingLaunchConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingLaunchConfiguration to import
-  * @param importFromId The id of the existing AutoscalingLaunchConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingLaunchConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingLaunchConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -847,7 +847,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -858,7 +858,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_autoscaling_launch_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -894,7 +894,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -926,7 +926,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // classic_link_vpc_id - computed: true, optional: true, required: false
-  private _classicLinkVpcId?: string; 
+  private _classicLinkVpcId?: string;
   public get classicLinkVpcId() {
     return this.getStringAttribute('classic_link_vpc_id');
   }
@@ -942,7 +942,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // classic_link_vpc_security_groups - computed: true, optional: true, required: false
-  private _classicLinkVpcSecurityGroups?: string[]; 
+  private _classicLinkVpcSecurityGroups?: string[];
   public get classicLinkVpcSecurityGroups() {
     return this.getListAttribute('classic_link_vpc_security_groups');
   }
@@ -958,7 +958,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable; 
+  private _ebsOptimized?: boolean | cdktn.IResolvable;
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -974,7 +974,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile - computed: true, optional: true, required: false
-  private _iamInstanceProfile?: string; 
+  private _iamInstanceProfile?: string;
   public get iamInstanceProfile() {
     return this.getStringAttribute('iam_instance_profile');
   }
@@ -995,7 +995,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // image_id - computed: false, optional: false, required: true
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1008,7 +1008,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -1024,7 +1024,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_monitoring - computed: true, optional: true, required: false
-  private _instanceMonitoring?: boolean | cdktn.IResolvable; 
+  private _instanceMonitoring?: boolean | cdktn.IResolvable;
   public get instanceMonitoring() {
     return this.getBooleanAttribute('instance_monitoring');
   }
@@ -1040,7 +1040,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1053,7 +1053,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string; 
+  private _kernelId?: string;
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -1069,7 +1069,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string; 
+  private _keyName?: string;
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -1085,7 +1085,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // launch_configuration_name - computed: true, optional: true, required: false
-  private _launchConfigurationName?: string; 
+  private _launchConfigurationName?: string;
   public get launchConfigurationName() {
     return this.getStringAttribute('launch_configuration_name');
   }
@@ -1117,7 +1117,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // placement_tenancy - computed: true, optional: true, required: false
-  private _placementTenancy?: string; 
+  private _placementTenancy?: string;
   public get placementTenancy() {
     return this.getStringAttribute('placement_tenancy');
   }
@@ -1133,7 +1133,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // ram_disk_id - computed: true, optional: true, required: false
-  private _ramDiskId?: string; 
+  private _ramDiskId?: string;
   public get ramDiskId() {
     return this.getStringAttribute('ram_disk_id');
   }
@@ -1149,7 +1149,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -1165,7 +1165,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string; 
+  private _spotPrice?: string;
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -1181,7 +1181,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string; 
+  private _userData?: string;
   public get userData() {
     return this.getStringAttribute('user_data');
   }

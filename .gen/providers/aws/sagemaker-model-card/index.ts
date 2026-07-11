@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerModelCardConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#content SagemakerModelCard#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#content SagemakerModelCard#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#model_card_name SagemakerModelCard#model_card_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#model_card_name SagemakerModelCard#model_card_name}
   */
   readonly modelCardName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#model_card_status SagemakerModelCard#model_card_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#model_card_status SagemakerModelCard#model_card_status}
   */
   readonly modelCardStatus: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#region SagemakerModelCard#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#region SagemakerModelCard#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#tags SagemakerModelCard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#tags SagemakerModelCard#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * security_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#security_config SagemakerModelCard#security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#security_config SagemakerModelCard#security_config}
   */
   readonly securityConfig?: SagemakerModelCardSecurityConfig[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#timeouts SagemakerModelCard#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#timeouts SagemakerModelCard#timeouts}
   */
   readonly timeouts?: SagemakerModelCardTimeouts;
 }
 export interface SagemakerModelCardSecurityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#kms_key_id SagemakerModelCard#kms_key_id}
   */
   readonly kmsKeyId: string;
 }
@@ -123,7 +123,7 @@ export class SagemakerModelCardSecurityConfigOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -159,7 +159,7 @@ export interface SagemakerModelCardTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#delete SagemakerModelCard#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#delete SagemakerModelCard#delete}
   */
   readonly delete?: string;
 }
@@ -236,7 +236,7 @@ export class SagemakerModelCardTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -253,7 +253,7 @@ export class SagemakerModelCardTimeoutsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}
 */
 export class SagemakerModelCard extends cdktn.TerraformResource {
 
@@ -269,7 +269,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerModelCard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerModelCard to import
-  * @param importFromId The id of the existing SagemakerModelCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerModelCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerModelCard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -281,7 +281,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,7 +292,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_model_card',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -316,7 +316,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   // ==========
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -334,7 +334,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // model_card_name - computed: false, optional: false, required: true
-  private _modelCardName?: string; 
+  private _modelCardName?: string;
   public get modelCardName() {
     return this.getStringAttribute('model_card_name');
   }
@@ -347,7 +347,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // model_card_status - computed: false, optional: false, required: true
-  private _modelCardStatus?: string; 
+  private _modelCardStatus?: string;
   public get modelCardStatus() {
     return this.getStringAttribute('model_card_status');
   }
@@ -360,7 +360,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -376,7 +376,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

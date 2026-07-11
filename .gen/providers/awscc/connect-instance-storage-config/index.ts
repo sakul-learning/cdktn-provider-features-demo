@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ConnectInstanceStorageConfigConfig extends cdktn.TerraformMetaA
   /**
   * Connect Instance ID with which the storage config will be associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#instance_arn ConnectInstanceStorageConfig#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#instance_arn ConnectInstanceStorageConfig#instance_arn}
   */
   readonly instanceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#kinesis_firehose_config ConnectInstanceStorageConfig#kinesis_firehose_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#kinesis_firehose_config ConnectInstanceStorageConfig#kinesis_firehose_config}
   */
   readonly kinesisFirehoseConfig?: ConnectInstanceStorageConfigKinesisFirehoseConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#kinesis_stream_config ConnectInstanceStorageConfig#kinesis_stream_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#kinesis_stream_config ConnectInstanceStorageConfig#kinesis_stream_config}
   */
   readonly kinesisStreamConfig?: ConnectInstanceStorageConfigKinesisStreamConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#kinesis_video_stream_config ConnectInstanceStorageConfig#kinesis_video_stream_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#kinesis_video_stream_config ConnectInstanceStorageConfig#kinesis_video_stream_config}
   */
   readonly kinesisVideoStreamConfig?: ConnectInstanceStorageConfigKinesisVideoStreamConfig;
   /**
   * Specifies the type of storage resource available for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#resource_type ConnectInstanceStorageConfig#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#resource_type ConnectInstanceStorageConfig#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#s3_config ConnectInstanceStorageConfig#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#s3_config ConnectInstanceStorageConfig#s3_config}
   */
   readonly s3Config?: ConnectInstanceStorageConfigS3Config;
   /**
   * Specifies the storage type to be associated with the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#storage_type ConnectInstanceStorageConfig#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#storage_type ConnectInstanceStorageConfig#storage_type}
   */
   readonly storageType: string;
 }
@@ -46,7 +46,7 @@ export interface ConnectInstanceStorageConfigKinesisFirehoseConfig {
   /**
   * An ARN is a unique AWS resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#firehose_arn ConnectInstanceStorageConfig#firehose_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#firehose_arn ConnectInstanceStorageConfig#firehose_arn}
   */
   readonly firehoseArn?: string;
 }
@@ -123,7 +123,7 @@ export class ConnectInstanceStorageConfigKinesisFirehoseConfigOutputReference ex
   }
 
   // firehose_arn - computed: true, optional: true, required: false
-  private _firehoseArn?: string; 
+  private _firehoseArn?: string;
   public get firehoseArn() {
     return this.getStringAttribute('firehose_arn');
   }
@@ -142,7 +142,7 @@ export interface ConnectInstanceStorageConfigKinesisStreamConfig {
   /**
   * An ARN is a unique AWS resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#stream_arn ConnectInstanceStorageConfig#stream_arn}
   */
   readonly streamArn?: string;
 }
@@ -219,7 +219,7 @@ export class ConnectInstanceStorageConfigKinesisStreamConfigOutputReference exte
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -238,13 +238,13 @@ export interface ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionC
   /**
   * Specifies default encryption using AWS KMS-Managed Keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}
   */
   readonly encryptionType?: string;
   /**
   * Specifies the encryption key id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}
   */
   readonly keyId?: string;
 }
@@ -334,7 +334,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfi
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string; 
+  private _encryptionType?: string;
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -350,7 +350,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfi
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -367,19 +367,19 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfi
 }
 export interface ConnectInstanceStorageConfigKinesisVideoStreamConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
   */
   readonly encryptionConfig?: ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfig;
   /**
   * Prefixes are used to infer logical hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#prefix ConnectInstanceStorageConfig#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#prefix ConnectInstanceStorageConfig#prefix}
   */
   readonly prefix?: string;
   /**
   * Number of hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#retention_period_hours ConnectInstanceStorageConfig#retention_period_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#retention_period_hours ConnectInstanceStorageConfig#retention_period_hours}
   */
   readonly retentionPeriodHours?: number;
 }
@@ -498,7 +498,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigOutputReference
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -514,7 +514,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigOutputReference
   }
 
   // retention_period_hours - computed: true, optional: true, required: false
-  private _retentionPeriodHours?: number; 
+  private _retentionPeriodHours?: number;
   public get retentionPeriodHours() {
     return this.getNumberAttribute('retention_period_hours');
   }
@@ -533,13 +533,13 @@ export interface ConnectInstanceStorageConfigS3ConfigEncryptionConfig {
   /**
   * Specifies default encryption using AWS KMS-Managed Keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#encryption_type ConnectInstanceStorageConfig#encryption_type}
   */
   readonly encryptionType?: string;
   /**
   * Specifies the encryption key id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#key_id ConnectInstanceStorageConfig#key_id}
   */
   readonly keyId?: string;
 }
@@ -629,7 +629,7 @@ export class ConnectInstanceStorageConfigS3ConfigEncryptionConfigOutputReference
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string; 
+  private _encryptionType?: string;
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -645,7 +645,7 @@ export class ConnectInstanceStorageConfigS3ConfigEncryptionConfigOutputReference
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -664,17 +664,17 @@ export interface ConnectInstanceStorageConfigS3Config {
   /**
   * A name for the S3 Bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#bucket_name ConnectInstanceStorageConfig#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#bucket_name ConnectInstanceStorageConfig#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Prefixes are used to infer logical hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#bucket_prefix ConnectInstanceStorageConfig#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#bucket_prefix ConnectInstanceStorageConfig#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#encryption_config ConnectInstanceStorageConfig#encryption_config}
   */
   readonly encryptionConfig?: ConnectInstanceStorageConfigS3ConfigEncryptionConfig;
 }
@@ -777,7 +777,7 @@ export class ConnectInstanceStorageConfigS3ConfigOutputReference extends cdktn.C
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -793,7 +793,7 @@ export class ConnectInstanceStorageConfigS3ConfigOutputReference extends cdktn.C
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string; 
+  private _bucketPrefix?: string;
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -826,7 +826,7 @@ export class ConnectInstanceStorageConfigS3ConfigOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config awscc_connect_instance_storage_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config awscc_connect_instance_storage_config}
 */
 export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
 
@@ -842,7 +842,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectInstanceStorageConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectInstanceStorageConfig to import
-  * @param importFromId The id of the existing ConnectInstanceStorageConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectInstanceStorageConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectInstanceStorageConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -854,7 +854,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_instance_storage_config awscc_connect_instance_storage_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance_storage_config awscc_connect_instance_storage_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -865,7 +865,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_instance_storage_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -899,7 +899,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -960,7 +960,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -989,7 +989,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: false, optional: false, required: true
-  private _storageType?: string; 
+  private _storageType?: string;
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }

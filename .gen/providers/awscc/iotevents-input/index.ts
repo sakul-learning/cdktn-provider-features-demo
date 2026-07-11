@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface IoteventsInputConfig extends cdktn.TerraformMetaArguments {
   /**
   * The definition of the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#input_definition IoteventsInput#input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#input_definition IoteventsInput#input_definition}
   */
   readonly inputDefinition: IoteventsInputInputDefinition;
   /**
   * A brief description of the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#input_description IoteventsInput#input_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#input_description IoteventsInput#input_description}
   */
   readonly inputDescription?: string;
   /**
   * The name of the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#input_name IoteventsInput#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#input_name IoteventsInput#input_name}
   */
   readonly inputName?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#tags IoteventsInput#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#tags IoteventsInput#tags}
   */
   readonly tags?: IoteventsInputTags[] | cdktn.IResolvable;
 }
 export interface IoteventsInputInputDefinitionAttributes {
   /**
-  * An expression that specifies an attribute-value pair in a JSON structure. Use this to specify an attribute from the JSON payload that is made available by the input. Inputs are derived from messages sent to ITE (``BatchPutMessage``). Each such message contains a JSON payload. The attribute (and its paired value) specified here are available for use in the ``condition`` expressions used by detectors. 
+  * An expression that specifies an attribute-value pair in a JSON structure. Use this to specify an attribute from the JSON payload that is made available by the input. Inputs are derived from messages sent to ITE (``BatchPutMessage``). Each such message contains a JSON payload. The attribute (and its paired value) specified here are available for use in the ``condition`` expressions used by detectors.
   *  Syntax: ``<field-name>.<field-name>...``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#json_path IoteventsInput#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#json_path IoteventsInput#json_path}
   */
   readonly jsonPath: string;
 }
@@ -117,7 +117,7 @@ export class IoteventsInputInputDefinitionAttributesOutputReference extends cdkt
   }
 
   // json_path - computed: false, optional: false, required: true
-  private _jsonPath?: string; 
+  private _jsonPath?: string;
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -153,7 +153,7 @@ export interface IoteventsInputInputDefinition {
   /**
   * The attributes from the JSON payload that are made available by the input. Inputs are derived from messages sent to the ITE system using ``BatchPutMessage``. Each such message contains a JSON payload, and those attributes (and their paired values) specified here are available for use in the ``condition`` expressions used by detectors that monitor this input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#attributes IoteventsInput#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#attributes IoteventsInput#attributes}
   */
   readonly attributes: IoteventsInputInputDefinitionAttributes[] | cdktn.IResolvable;
 }
@@ -246,13 +246,13 @@ export interface IoteventsInputTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#key IoteventsInput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#key IoteventsInput#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#value IoteventsInput#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#value IoteventsInput#value}
   */
   readonly value?: string;
 }
@@ -344,7 +344,7 @@ export class IoteventsInputTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -360,7 +360,7 @@ export class IoteventsInputTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -397,7 +397,7 @@ export class IoteventsInputTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input awscc_iotevents_input}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input awscc_iotevents_input}
 */
 export class IoteventsInput extends cdktn.TerraformResource {
 
@@ -413,7 +413,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IoteventsInput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IoteventsInput to import
-  * @param importFromId The id of the existing IoteventsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IoteventsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IoteventsInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -425,7 +425,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_input awscc_iotevents_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input awscc_iotevents_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,7 +436,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotevents_input',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -475,7 +475,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   }
 
   // input_description - computed: true, optional: true, required: false
-  private _inputDescription?: string; 
+  private _inputDescription?: string;
   public get inputDescription() {
     return this.getStringAttribute('input_description');
   }
@@ -491,7 +491,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string; 
+  private _inputName?: string;
   public get inputName() {
     return this.getStringAttribute('input_name');
   }

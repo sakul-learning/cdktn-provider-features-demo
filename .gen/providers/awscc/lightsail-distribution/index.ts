@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface LightsailDistributionConfig extends cdktn.TerraformMetaArgument
   /**
   * The bundle ID to use for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
   */
   readonly bundleId: string;
   /**
   * An object that describes the cache behavior settings for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
   */
   readonly cacheBehaviorSettings?: LightsailDistributionCacheBehaviorSettings;
   /**
   * An array of objects that describe the per-path cache behavior for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
   */
   readonly cacheBehaviors?: LightsailDistributionCacheBehaviors[] | cdktn.IResolvable;
   /**
   * The certificate attached to the Distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * An object that describes the default cache behavior for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
   */
   readonly defaultCacheBehavior: LightsailDistributionDefaultCacheBehavior;
   /**
   * The name for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
   */
   readonly distributionName: string;
   /**
   * The IP address type for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Indicates whether the distribution is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
   /**
   * An object that describes the origin resource for the distribution, such as a Lightsail instance or load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
   */
   readonly origin: LightsailDistributionOrigin;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
   */
   readonly tags?: LightsailDistributionTags[] | cdktn.IResolvable;
 }
@@ -72,13 +72,13 @@ export interface LightsailDistributionCacheBehaviorSettingsForwardedCookies {
   /**
   * The specific cookies to forward to your distribution's origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
   */
   readonly cookiesAllowList?: string[];
   /**
   * Specifies which cookies to forward to the distribution's origin for a cache behavior: all, none, or allow-list to forward only the cookies specified in the cookiesAllowList parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
   */
   readonly option?: string;
 }
@@ -168,7 +168,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputRef
   }
 
   // cookies_allow_list - computed: true, optional: true, required: false
-  private _cookiesAllowList?: string[]; 
+  private _cookiesAllowList?: string[];
   public get cookiesAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('cookies_allow_list'));
   }
@@ -184,7 +184,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputRef
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: string; 
+  private _option?: string;
   public get option() {
     return this.getStringAttribute('option');
   }
@@ -203,13 +203,13 @@ export interface LightsailDistributionCacheBehaviorSettingsForwardedHeaders {
   /**
   * The specific headers to forward to your distribution's origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
   */
   readonly headersAllowList?: string[];
   /**
   * The headers that you want your distribution to forward to your origin and base caching on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
   */
   readonly option?: string;
 }
@@ -299,7 +299,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputRef
   }
 
   // headers_allow_list - computed: true, optional: true, required: false
-  private _headersAllowList?: string[]; 
+  private _headersAllowList?: string[];
   public get headersAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('headers_allow_list'));
   }
@@ -315,7 +315,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputRef
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: string; 
+  private _option?: string;
   public get option() {
     return this.getStringAttribute('option');
   }
@@ -334,13 +334,13 @@ export interface LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings
   /**
   * Indicates whether the distribution forwards and caches based on query strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
   */
   readonly option?: boolean | cdktn.IResolvable;
   /**
   * The specific query strings that the distribution forwards to the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
   */
   readonly queryStringsAllowList?: string[];
 }
@@ -430,7 +430,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutp
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: boolean | cdktn.IResolvable; 
+  private _option?: boolean | cdktn.IResolvable;
   public get option() {
     return this.getBooleanAttribute('option');
   }
@@ -446,7 +446,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutp
   }
 
   // query_strings_allow_list - computed: true, optional: true, required: false
-  private _queryStringsAllowList?: string[]; 
+  private _queryStringsAllowList?: string[];
   public get queryStringsAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('query_strings_allow_list'));
   }
@@ -465,49 +465,49 @@ export interface LightsailDistributionCacheBehaviorSettings {
   /**
   * The HTTP methods that are processed and forwarded to the distribution's origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string;
   /**
   * The HTTP method responses that are cached by your distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
   */
   readonly cachedHttpMethods?: string;
   /**
   * The default amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the content has been updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * An object that describes the cookies that are forwarded to the origin. Your content is cached based on the cookies that are forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
   */
   readonly forwardedCookies?: LightsailDistributionCacheBehaviorSettingsForwardedCookies;
   /**
   * An object that describes the headers that are forwarded to the origin. Your content is cached based on the headers that are forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
   */
   readonly forwardedHeaders?: LightsailDistributionCacheBehaviorSettingsForwardedHeaders;
   /**
   * An object that describes the query strings that are forwarded to the origin. Your content is cached based on the query strings that are forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
   */
   readonly forwardedQueryStrings?: LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings;
   /**
   * The maximum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
   */
   readonly maximumTtl?: number;
   /**
   * The minimum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
   */
   readonly minimumTtl?: number;
 }
@@ -675,7 +675,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // allowed_http_methods - computed: true, optional: true, required: false
-  private _allowedHttpMethods?: string; 
+  private _allowedHttpMethods?: string;
   public get allowedHttpMethods() {
     return this.getStringAttribute('allowed_http_methods');
   }
@@ -691,7 +691,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // cached_http_methods - computed: true, optional: true, required: false
-  private _cachedHttpMethods?: string; 
+  private _cachedHttpMethods?: string;
   public get cachedHttpMethods() {
     return this.getStringAttribute('cached_http_methods');
   }
@@ -707,7 +707,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // default_ttl - computed: true, optional: true, required: false
-  private _defaultTtl?: number; 
+  private _defaultTtl?: number;
   public get defaultTtl() {
     return this.getNumberAttribute('default_ttl');
   }
@@ -771,7 +771,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // maximum_ttl - computed: true, optional: true, required: false
-  private _maximumTtl?: number; 
+  private _maximumTtl?: number;
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -787,7 +787,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // minimum_ttl - computed: true, optional: true, required: false
-  private _minimumTtl?: number; 
+  private _minimumTtl?: number;
   public get minimumTtl() {
     return this.getNumberAttribute('minimum_ttl');
   }
@@ -806,13 +806,13 @@ export interface LightsailDistributionCacheBehaviors {
   /**
   * The cache behavior for the specified path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
   */
   readonly behavior?: string;
   /**
   * The path to a directory or file to cached, or not cache. Use an asterisk symbol to specify wildcard directories (path/to/assets/*), and file types (*.html, *jpg, *js). Directories and file paths are case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
   */
   readonly path?: string;
 }
@@ -904,7 +904,7 @@ export class LightsailDistributionCacheBehaviorsOutputReference extends cdktn.Co
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string; 
+  private _behavior?: string;
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -920,7 +920,7 @@ export class LightsailDistributionCacheBehaviorsOutputReference extends cdktn.Co
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -959,7 +959,7 @@ export interface LightsailDistributionDefaultCacheBehavior {
   /**
   * The cache behavior of the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
   */
   readonly behavior?: string;
 }
@@ -1036,7 +1036,7 @@ export class LightsailDistributionDefaultCacheBehaviorOutputReference extends cd
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string; 
+  private _behavior?: string;
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -1055,19 +1055,19 @@ export interface LightsailDistributionOrigin {
   /**
   * The name of the origin resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
   */
   readonly name?: string;
   /**
   * The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
   */
   readonly protocolPolicy?: string;
   /**
   * The AWS Region name of the origin resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
   */
   readonly regionName?: string;
 }
@@ -1170,7 +1170,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1186,7 +1186,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // protocol_policy - computed: true, optional: true, required: false
-  private _protocolPolicy?: string; 
+  private _protocolPolicy?: string;
   public get protocolPolicy() {
     return this.getStringAttribute('protocol_policy');
   }
@@ -1202,7 +1202,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string; 
+  private _regionName?: string;
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -1221,13 +1221,13 @@ export interface LightsailDistributionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
   */
   readonly value?: string;
 }
@@ -1319,7 +1319,7 @@ export class LightsailDistributionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1335,7 +1335,7 @@ export class LightsailDistributionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1372,7 +1372,7 @@ export class LightsailDistributionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}
 */
 export class LightsailDistribution extends cdktn.TerraformResource {
 
@@ -1388,7 +1388,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailDistribution resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailDistribution to import
-  * @param importFromId The id of the existing LightsailDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1400,7 +1400,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1411,7 +1411,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_distribution',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1443,7 +1443,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string; 
+  private _bundleId?: string;
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -1488,7 +1488,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // certificate_name - computed: true, optional: true, required: false
-  private _certificateName?: string; 
+  private _certificateName?: string;
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -1522,7 +1522,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // distribution_name - computed: false, optional: false, required: true
-  private _distributionName?: string; 
+  private _distributionName?: string;
   public get distributionName() {
     return this.getStringAttribute('distribution_name');
   }
@@ -1540,7 +1540,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1556,7 +1556,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }

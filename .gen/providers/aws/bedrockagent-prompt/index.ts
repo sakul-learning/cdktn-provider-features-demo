@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface BedrockagentPromptConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#customer_encryption_key_arn BedrockagentPrompt#customer_encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#customer_encryption_key_arn BedrockagentPrompt#customer_encryption_key_arn}
   */
   readonly customerEncryptionKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#default_variant BedrockagentPrompt#default_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#default_variant BedrockagentPrompt#default_variant}
   */
   readonly defaultVariant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#description BedrockagentPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#description BedrockagentPrompt#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#region BedrockagentPrompt#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#region BedrockagentPrompt#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tags BedrockagentPrompt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tags BedrockagentPrompt#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * variant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#variant BedrockagentPrompt#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#variant BedrockagentPrompt#variant}
   */
   readonly variant?: BedrockagentPromptVariant[] | cdktn.IResolvable;
 }
 export interface BedrockagentPromptVariantGenAiResourceAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#agent_identifier BedrockagentPrompt#agent_identifier}
   */
   readonly agentIdentifier: string;
 }
@@ -121,7 +121,7 @@ export class BedrockagentPromptVariantGenAiResourceAgentOutputReference extends 
   }
 
   // agent_identifier - computed: false, optional: false, required: true
-  private _agentIdentifier?: string; 
+  private _agentIdentifier?: string;
   public get agentIdentifier() {
     return this.getStringAttribute('agent_identifier');
   }
@@ -157,7 +157,7 @@ export interface BedrockagentPromptVariantGenAiResource {
   /**
   * agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#agent BedrockagentPrompt#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#agent BedrockagentPrompt#agent}
   */
   readonly agent?: BedrockagentPromptVariantGenAiResourceAgent[] | cdktn.IResolvable;
 }
@@ -273,19 +273,19 @@ export class BedrockagentPromptVariantGenAiResourceList extends cdktn.ComplexLis
 }
 export interface BedrockagentPromptVariantInferenceConfigurationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#max_tokens BedrockagentPrompt#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#max_tokens BedrockagentPrompt#max_tokens}
   */
   readonly maxTokens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#stop_sequences BedrockagentPrompt#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#stop_sequences BedrockagentPrompt#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#temperature BedrockagentPrompt#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#temperature BedrockagentPrompt#temperature}
   */
   readonly temperature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#top_p BedrockagentPrompt#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#top_p BedrockagentPrompt#top_p}
   */
   readonly topP?: number;
 }
@@ -403,7 +403,7 @@ export class BedrockagentPromptVariantInferenceConfigurationTextOutputReference 
   }
 
   // max_tokens - computed: false, optional: true, required: false
-  private _maxTokens?: number; 
+  private _maxTokens?: number;
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -419,7 +419,7 @@ export class BedrockagentPromptVariantInferenceConfigurationTextOutputReference 
   }
 
   // stop_sequences - computed: false, optional: true, required: false
-  private _stopSequences?: string[]; 
+  private _stopSequences?: string[];
   public get stopSequences() {
     return this.getListAttribute('stop_sequences');
   }
@@ -435,7 +435,7 @@ export class BedrockagentPromptVariantInferenceConfigurationTextOutputReference 
   }
 
   // temperature - computed: false, optional: true, required: false
-  private _temperature?: number; 
+  private _temperature?: number;
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -451,7 +451,7 @@ export class BedrockagentPromptVariantInferenceConfigurationTextOutputReference 
   }
 
   // top_p - computed: false, optional: true, required: false
-  private _topP?: number; 
+  private _topP?: number;
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -490,7 +490,7 @@ export interface BedrockagentPromptVariantInferenceConfiguration {
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
   */
   readonly text?: BedrockagentPromptVariantInferenceConfigurationText[] | cdktn.IResolvable;
 }
@@ -606,11 +606,11 @@ export class BedrockagentPromptVariantInferenceConfigurationList extends cdktn.C
 }
 export interface BedrockagentPromptVariantMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#key BedrockagentPrompt#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#key BedrockagentPrompt#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#value BedrockagentPrompt#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#value BedrockagentPrompt#value}
   */
   readonly value: string;
 }
@@ -702,7 +702,7 @@ export class BedrockagentPromptVariantMetadataOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -715,7 +715,7 @@ export class BedrockagentPromptVariantMetadataOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -749,7 +749,7 @@ export class BedrockagentPromptVariantMetadataList extends cdktn.ComplexList {
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatInputVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
 }
@@ -828,7 +828,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatInputVariableOutp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -862,7 +862,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatInputVariableList
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatMessageContentCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
   */
   readonly type: string;
 }
@@ -941,7 +941,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageContentCac
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -975,13 +975,13 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageContentCac
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatMessageContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
   */
   readonly text?: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
   */
   readonly cachePoint?: BedrockagentPromptVariantTemplateConfigurationChatMessageContentCachePoint[] | cdktn.IResolvable;
 }
@@ -1073,7 +1073,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageContentOut
   }
 
   // text - computed: false, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1126,13 +1126,13 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageContentLis
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}
   */
   readonly role: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
   */
   readonly content?: BedrockagentPromptVariantTemplateConfigurationChatMessageContent[] | cdktn.IResolvable;
 }
@@ -1224,7 +1224,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageOutputRefe
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -1274,7 +1274,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatMessageList exten
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatSystemCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
   */
   readonly type: string;
 }
@@ -1353,7 +1353,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatSystemCachePointO
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1387,13 +1387,13 @@ export class BedrockagentPromptVariantTemplateConfigurationChatSystemCachePointL
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
   */
   readonly text?: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
   */
   readonly cachePoint?: BedrockagentPromptVariantTemplateConfigurationChatSystemCachePoint[] | cdktn.IResolvable;
 }
@@ -1485,7 +1485,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatSystemOutputRefer
   }
 
   // text - computed: false, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1538,7 +1538,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatSystemList extend
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
   */
   readonly type: string;
 }
@@ -1617,7 +1617,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1651,7 +1651,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#json BedrockagentPrompt#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#json BedrockagentPrompt#json}
   */
   readonly json?: string;
 }
@@ -1730,7 +1730,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
   }
 
   // json - computed: false, optional: true, required: false
-  private _json?: string; 
+  private _json?: string;
   public get json() {
     return this.getStringAttribute('json');
   }
@@ -1767,17 +1767,17 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#description BedrockagentPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#description BedrockagentPrompt#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
   /**
   * input_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#input_schema BedrockagentPrompt#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#input_schema BedrockagentPrompt#input_schema}
   */
   readonly inputSchema?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema[] | cdktn.IResolvable;
 }
@@ -1882,7 +1882,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1898,7 +1898,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1950,13 +1950,13 @@ export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigura
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
   */
   readonly cachePoint?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolCachePoint[] | cdktn.IResolvable;
   /**
   * tool_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tool_spec BedrockagentPrompt#tool_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tool_spec BedrockagentPrompt#tool_spec}
   */
   readonly toolSpec?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpec[] | cdktn.IResolvable;
 }
@@ -2263,7 +2263,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
 }
 export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolChoiceTool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
 }
@@ -2342,7 +2342,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2378,19 +2378,19 @@ export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigura
   /**
   * any block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#any BedrockagentPrompt#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#any BedrockagentPrompt#any}
   */
   readonly any?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolChoiceAny[] | cdktn.IResolvable;
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#auto BedrockagentPrompt#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#auto BedrockagentPrompt#auto}
   */
   readonly auto?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolChoiceAuto[] | cdktn.IResolvable;
   /**
   * tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tool BedrockagentPrompt#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tool BedrockagentPrompt#tool}
   */
   readonly tool?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolChoiceTool[] | cdktn.IResolvable;
 }
@@ -2566,13 +2566,13 @@ export interface BedrockagentPromptVariantTemplateConfigurationChatToolConfigura
   /**
   * tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tool BedrockagentPrompt#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tool BedrockagentPrompt#tool}
   */
   readonly tool?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationTool[] | cdktn.IResolvable;
   /**
   * tool_choice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tool_choice BedrockagentPrompt#tool_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tool_choice BedrockagentPrompt#tool_choice}
   */
   readonly toolChoice?: BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolChoice[] | cdktn.IResolvable;
 }
@@ -2719,25 +2719,25 @@ export interface BedrockagentPromptVariantTemplateConfigurationChat {
   /**
   * input_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
   */
   readonly inputVariable?: BedrockagentPromptVariantTemplateConfigurationChatInputVariable[] | cdktn.IResolvable;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#message BedrockagentPrompt#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#message BedrockagentPrompt#message}
   */
   readonly message?: BedrockagentPromptVariantTemplateConfigurationChatMessage[] | cdktn.IResolvable;
   /**
   * system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#system BedrockagentPrompt#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#system BedrockagentPrompt#system}
   */
   readonly systemAttribute?: BedrockagentPromptVariantTemplateConfigurationChatSystem[] | cdktn.IResolvable;
   /**
   * tool_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#tool_configuration BedrockagentPrompt#tool_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#tool_configuration BedrockagentPrompt#tool_configuration}
   */
   readonly toolConfiguration?: BedrockagentPromptVariantTemplateConfigurationChatToolConfiguration[] | cdktn.IResolvable;
 }
@@ -2940,7 +2940,7 @@ export class BedrockagentPromptVariantTemplateConfigurationChatList extends cdkt
 }
 export interface BedrockagentPromptVariantTemplateConfigurationTextCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}
   */
   readonly type: string;
 }
@@ -3019,7 +3019,7 @@ export class BedrockagentPromptVariantTemplateConfigurationTextCachePointOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3053,7 +3053,7 @@ export class BedrockagentPromptVariantTemplateConfigurationTextCachePointList ex
 }
 export interface BedrockagentPromptVariantTemplateConfigurationTextInputVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
 }
@@ -3132,7 +3132,7 @@ export class BedrockagentPromptVariantTemplateConfigurationTextInputVariableOutp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3166,19 +3166,19 @@ export class BedrockagentPromptVariantTemplateConfigurationTextInputVariableList
 }
 export interface BedrockagentPromptVariantTemplateConfigurationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
   */
   readonly text: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
   */
   readonly cachePoint?: BedrockagentPromptVariantTemplateConfigurationTextCachePoint[] | cdktn.IResolvable;
   /**
   * input_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
   */
   readonly inputVariable?: BedrockagentPromptVariantTemplateConfigurationTextInputVariable[] | cdktn.IResolvable;
 }
@@ -3283,7 +3283,7 @@ export class BedrockagentPromptVariantTemplateConfigurationTextOutputReference e
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3351,13 +3351,13 @@ export interface BedrockagentPromptVariantTemplateConfiguration {
   /**
   * chat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#chat BedrockagentPrompt#chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#chat BedrockagentPrompt#chat}
   */
   readonly chat?: BedrockagentPromptVariantTemplateConfigurationChat[] | cdktn.IResolvable;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}
   */
   readonly text?: BedrockagentPromptVariantTemplateConfigurationText[] | cdktn.IResolvable;
 }
@@ -3502,43 +3502,43 @@ export class BedrockagentPromptVariantTemplateConfigurationList extends cdktn.Co
 }
 export interface BedrockagentPromptVariant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#additional_model_request_fields BedrockagentPrompt#additional_model_request_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#additional_model_request_fields BedrockagentPrompt#additional_model_request_fields}
   */
   readonly additionalModelRequestFields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#model_id BedrockagentPrompt#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#model_id BedrockagentPrompt#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#template_type BedrockagentPrompt#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#template_type BedrockagentPrompt#template_type}
   */
   readonly templateType: string;
   /**
   * gen_ai_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#gen_ai_resource BedrockagentPrompt#gen_ai_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#gen_ai_resource BedrockagentPrompt#gen_ai_resource}
   */
   readonly genAiResource?: BedrockagentPromptVariantGenAiResource[] | cdktn.IResolvable;
   /**
   * inference_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#inference_configuration BedrockagentPrompt#inference_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#inference_configuration BedrockagentPrompt#inference_configuration}
   */
   readonly inferenceConfiguration?: BedrockagentPromptVariantInferenceConfiguration[] | cdktn.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#metadata BedrockagentPrompt#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#metadata BedrockagentPrompt#metadata}
   */
   readonly metadata?: BedrockagentPromptVariantMetadata[] | cdktn.IResolvable;
   /**
   * template_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#template_configuration BedrockagentPrompt#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#template_configuration BedrockagentPrompt#template_configuration}
   */
   readonly templateConfiguration?: BedrockagentPromptVariantTemplateConfiguration[] | cdktn.IResolvable;
 }
@@ -3708,7 +3708,7 @@ export class BedrockagentPromptVariantOutputReference extends cdktn.ComplexObjec
   }
 
   // additional_model_request_fields - computed: false, optional: true, required: false
-  private _additionalModelRequestFields?: string; 
+  private _additionalModelRequestFields?: string;
   public get additionalModelRequestFields() {
     return this.getStringAttribute('additional_model_request_fields');
   }
@@ -3724,7 +3724,7 @@ export class BedrockagentPromptVariantOutputReference extends cdktn.ComplexObjec
   }
 
   // model_id - computed: false, optional: true, required: false
-  private _modelId?: string; 
+  private _modelId?: string;
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3740,7 +3740,7 @@ export class BedrockagentPromptVariantOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3753,7 +3753,7 @@ export class BedrockagentPromptVariantOutputReference extends cdktn.ComplexObjec
   }
 
   // template_type - computed: false, optional: false, required: true
-  private _templateType?: string; 
+  private _templateType?: string;
   public get templateType() {
     return this.getStringAttribute('template_type');
   }
@@ -3851,7 +3851,7 @@ export class BedrockagentPromptVariantList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}
 */
 export class BedrockagentPrompt extends cdktn.TerraformResource {
 
@@ -3867,7 +3867,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentPrompt resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentPrompt to import
-  * @param importFromId The id of the existing BedrockagentPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentPrompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3879,7 +3879,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3890,7 +3890,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
       terraformResourceType: 'aws_bedrockagent_prompt',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3924,7 +3924,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // customer_encryption_key_arn - computed: false, optional: true, required: false
-  private _customerEncryptionKeyArn?: string; 
+  private _customerEncryptionKeyArn?: string;
   public get customerEncryptionKeyArn() {
     return this.getStringAttribute('customer_encryption_key_arn');
   }
@@ -3940,7 +3940,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // default_variant - computed: false, optional: true, required: false
-  private _defaultVariant?: string; 
+  private _defaultVariant?: string;
   public get defaultVariant() {
     return this.getStringAttribute('default_variant');
   }
@@ -3956,7 +3956,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3977,7 +3977,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3990,7 +3990,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4006,7 +4006,7 @@ export class BedrockagentPrompt extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

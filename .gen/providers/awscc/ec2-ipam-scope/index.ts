@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2IpamScopeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#description Ec2IpamScope#description}
   */
   readonly description?: string;
   /**
   * External service configuration to connect your AWS IPAM scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#external_authority_configuration Ec2IpamScope#external_authority_configuration}
   */
   readonly externalAuthorityConfiguration?: Ec2IpamScopeExternalAuthorityConfiguration;
   /**
   * The Id of the IPAM this scope is a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#ipam_id Ec2IpamScope#ipam_id}
   */
   readonly ipamId: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#tags Ec2IpamScope#tags}
   */
   readonly tags?: Ec2IpamScopeTags[] | cdktn.IResolvable;
 }
@@ -34,13 +34,13 @@ export interface Ec2IpamScopeExternalAuthorityConfiguration {
   /**
   * Resource identifier of the scope in the external service connecting to your AWS IPAM scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#external_resource_identifier Ec2IpamScope#external_resource_identifier}
   */
   readonly externalResourceIdentifier?: string;
   /**
   * An external service connecting to your AWS IPAM scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#ipam_scope_external_authority_type Ec2IpamScope#ipam_scope_external_authority_type}
   */
   readonly ipamScopeExternalAuthorityType?: string;
 }
@@ -130,7 +130,7 @@ export class Ec2IpamScopeExternalAuthorityConfigurationOutputReference extends c
   }
 
   // external_resource_identifier - computed: true, optional: true, required: false
-  private _externalResourceIdentifier?: string; 
+  private _externalResourceIdentifier?: string;
   public get externalResourceIdentifier() {
     return this.getStringAttribute('external_resource_identifier');
   }
@@ -146,7 +146,7 @@ export class Ec2IpamScopeExternalAuthorityConfigurationOutputReference extends c
   }
 
   // ipam_scope_external_authority_type - computed: true, optional: true, required: false
-  private _ipamScopeExternalAuthorityType?: string; 
+  private _ipamScopeExternalAuthorityType?: string;
   public get ipamScopeExternalAuthorityType() {
     return this.getStringAttribute('ipam_scope_external_authority_type');
   }
@@ -165,13 +165,13 @@ export interface Ec2IpamScopeTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#key Ec2IpamScope#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#key Ec2IpamScope#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#value Ec2IpamScope#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#value Ec2IpamScope#value}
   */
   readonly value?: string;
 }
@@ -263,7 +263,7 @@ export class Ec2IpamScopeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class Ec2IpamScopeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -316,7 +316,7 @@ export class Ec2IpamScopeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope}
 */
 export class Ec2IpamScope extends cdktn.TerraformResource {
 
@@ -332,7 +332,7 @@ export class Ec2IpamScope extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2IpamScope resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2IpamScope to import
-  * @param importFromId The id of the existing Ec2IpamScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2IpamScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2IpamScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -344,7 +344,7 @@ export class Ec2IpamScope extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam_scope awscc_ec2_ipam_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,7 +355,7 @@ export class Ec2IpamScope extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_ipam_scope',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -381,7 +381,7 @@ export class Ec2IpamScope extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -423,7 +423,7 @@ export class Ec2IpamScope extends cdktn.TerraformResource {
   }
 
   // ipam_id - computed: false, optional: false, required: true
-  private _ipamId?: string; 
+  private _ipamId?: string;
   public get ipamId() {
     return this.getStringAttribute('ipam_id');
   }

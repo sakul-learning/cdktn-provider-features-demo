@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface AppsyncApiConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#name AppsyncApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#name AppsyncApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
   */
   readonly ownerContact?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#region AppsyncApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#region AppsyncApi#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#tags AppsyncApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#tags AppsyncApi#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * event_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
   */
   readonly eventConfig?: AppsyncApiEventConfig[] | cdktn.IResolvable;
 }
 export interface AppsyncApiEventConfigAuthProviderCognitoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
   */
   readonly appIdClientRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
   */
   readonly awsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
   */
   readonly userPoolId: string;
 }
@@ -147,7 +147,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // app_id_client_regex - computed: false, optional: true, required: false
-  private _appIdClientRegex?: string; 
+  private _appIdClientRegex?: string;
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -163,7 +163,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // aws_region - computed: false, optional: false, required: true
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -176,7 +176,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -210,15 +210,15 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigList extends cdktn.Co
 }
 export interface AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
   */
   readonly authorizerResultTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
   */
   readonly authorizerUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
   */
   readonly identityValidationExpression?: string;
 }
@@ -323,7 +323,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number; 
+  private _authorizerResultTtlInSeconds?: number;
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -339,7 +339,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // authorizer_uri - computed: false, optional: false, required: true
-  private _authorizerUri?: string; 
+  private _authorizerUri?: string;
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -352,7 +352,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // identity_validation_expression - computed: false, optional: true, required: false
-  private _identityValidationExpression?: string; 
+  private _identityValidationExpression?: string;
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -389,19 +389,19 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigList extends
 }
 export interface AppsyncApiEventConfigAuthProviderOpenidConnectConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
   */
   readonly authTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
   */
   readonly iatTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
   */
   readonly issuer: string;
 }
@@ -519,7 +519,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // auth_ttl - computed: true, optional: true, required: false
-  private _authTtl?: number; 
+  private _authTtl?: number;
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -535,7 +535,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -551,7 +551,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // iat_ttl - computed: true, optional: true, required: false
-  private _iatTtl?: number; 
+  private _iatTtl?: number;
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -567,7 +567,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -601,25 +601,25 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigList extends cd
 }
 export interface AppsyncApiEventConfigAuthProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
   /**
   * cognito_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
   */
   readonly cognitoConfig?: AppsyncApiEventConfigAuthProviderCognitoConfig[] | cdktn.IResolvable;
   /**
   * lambda_authorizer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
   */
   readonly lambdaAuthorizerConfig?: AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig[] | cdktn.IResolvable;
   /**
   * openid_connect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
   */
   readonly openidConnectConfig?: AppsyncApiEventConfigAuthProviderOpenidConnectConfig[] | cdktn.IResolvable;
 }
@@ -737,7 +737,7 @@ export class AppsyncApiEventConfigAuthProviderOutputReference extends cdktn.Comp
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -819,7 +819,7 @@ export class AppsyncApiEventConfigAuthProviderList extends cdktn.ComplexList {
 }
 export interface AppsyncApiEventConfigConnectionAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -898,7 +898,7 @@ export class AppsyncApiEventConfigConnectionAuthModeOutputReference extends cdkt
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -932,7 +932,7 @@ export class AppsyncApiEventConfigConnectionAuthModeList extends cdktn.ComplexLi
 }
 export interface AppsyncApiEventConfigDefaultPublishAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -1011,7 +1011,7 @@ export class AppsyncApiEventConfigDefaultPublishAuthModeOutputReference extends 
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1045,7 +1045,7 @@ export class AppsyncApiEventConfigDefaultPublishAuthModeList extends cdktn.Compl
 }
 export interface AppsyncApiEventConfigDefaultSubscribeAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -1124,7 +1124,7 @@ export class AppsyncApiEventConfigDefaultSubscribeAuthModeOutputReference extend
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1158,11 +1158,11 @@ export class AppsyncApiEventConfigDefaultSubscribeAuthModeList extends cdktn.Com
 }
 export interface AppsyncApiEventConfigLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
   */
   readonly cloudwatchLogsRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
   */
   readonly logLevel: string;
 }
@@ -1254,7 +1254,7 @@ export class AppsyncApiEventConfigLogConfigOutputReference extends cdktn.Complex
   }
 
   // cloudwatch_logs_role_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogsRoleArn?: string; 
+  private _cloudwatchLogsRoleArn?: string;
   public get cloudwatchLogsRoleArn() {
     return this.getStringAttribute('cloudwatch_logs_role_arn');
   }
@@ -1267,7 +1267,7 @@ export class AppsyncApiEventConfigLogConfigOutputReference extends cdktn.Complex
   }
 
   // log_level - computed: false, optional: false, required: true
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -1303,31 +1303,31 @@ export interface AppsyncApiEventConfig {
   /**
   * auth_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
   */
   readonly authProvider?: AppsyncApiEventConfigAuthProvider[] | cdktn.IResolvable;
   /**
   * connection_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
   */
   readonly connectionAuthMode?: AppsyncApiEventConfigConnectionAuthMode[] | cdktn.IResolvable;
   /**
   * default_publish_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
   */
   readonly defaultPublishAuthMode?: AppsyncApiEventConfigDefaultPublishAuthMode[] | cdktn.IResolvable;
   /**
   * default_subscribe_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
   */
   readonly defaultSubscribeAuthMode?: AppsyncApiEventConfigDefaultSubscribeAuthMode[] | cdktn.IResolvable;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
   */
   readonly logConfig?: AppsyncApiEventConfigLogConfig[] | cdktn.IResolvable;
 }
@@ -1559,7 +1559,7 @@ export class AppsyncApiEventConfigList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api aws_appsync_api}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api aws_appsync_api}
 */
 export class AppsyncApi extends cdktn.TerraformResource {
 
@@ -1575,7 +1575,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncApi resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncApi to import
-  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appsync_api aws_appsync_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api aws_appsync_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,7 +1598,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appsync_api',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1636,7 +1636,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1649,7 +1649,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // owner_contact - computed: false, optional: true, required: false
-  private _ownerContact?: string; 
+  private _ownerContact?: string;
   public get ownerContact() {
     return this.getStringAttribute('owner_contact');
   }
@@ -1665,7 +1665,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1681,7 +1681,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

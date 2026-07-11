@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsKmsSecretConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#id DataAwsKmsSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#id DataAwsKmsSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataAwsKmsSecretConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#region DataAwsKmsSecret#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#region DataAwsKmsSecret#region}
   */
   readonly region?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#secret DataAwsKmsSecret#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#secret DataAwsKmsSecret#secret}
   */
   readonly secret: DataAwsKmsSecretSecret[] | cdktn.IResolvable;
 }
 export interface DataAwsKmsSecretSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#context DataAwsKmsSecret#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#context DataAwsKmsSecret#context}
   */
   readonly context?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#grant_tokens DataAwsKmsSecret#grant_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#grant_tokens DataAwsKmsSecret#grant_tokens}
   */
   readonly grantTokens?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#name DataAwsKmsSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#name DataAwsKmsSecret#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#payload DataAwsKmsSecret#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#payload DataAwsKmsSecret#payload}
   */
   readonly payload: string;
 }
@@ -159,7 +159,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: { [key: string]: string }; 
+  private _context?: { [key: string]: string };
   public get context() {
     return this.getStringMapAttribute('context');
   }
@@ -175,7 +175,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // grant_tokens - computed: false, optional: true, required: false
-  private _grantTokens?: string[]; 
+  private _grantTokens?: string[];
   public get grantTokens() {
     return this.getListAttribute('grant_tokens');
   }
@@ -191,7 +191,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // payload - computed: false, optional: false, required: true
-  private _payload?: string; 
+  private _payload?: string;
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -238,7 +238,7 @@ export class DataAwsKmsSecretSecretList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret aws_kms_secret}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret aws_kms_secret}
 */
 export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
 
@@ -254,7 +254,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsKmsSecret resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsKmsSecret to import
-  * @param importFromId The id of the existing DataAwsKmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsKmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsKmsSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -266,7 +266,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/kms_secret aws_kms_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/kms_secret aws_kms_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,7 +277,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_kms_secret',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -297,7 +297,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -313,7 +313,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface EntityresolutionIdNamespaceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#description EntityresolutionIdNamespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#description EntityresolutionIdNamespace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#id_mapping_workflow_properties EntityresolutionIdNamespace#id_mapping_workflow_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#id_mapping_workflow_properties EntityresolutionIdNamespace#id_mapping_workflow_properties}
   */
   readonly idMappingWorkflowProperties?: EntityresolutionIdNamespaceIdMappingWorkflowProperties[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#id_namespace_name EntityresolutionIdNamespace#id_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#id_namespace_name EntityresolutionIdNamespace#id_namespace_name}
   */
   readonly idNamespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#input_source_config EntityresolutionIdNamespace#input_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#input_source_config EntityresolutionIdNamespace#input_source_config}
   */
   readonly inputSourceConfig?: EntityresolutionIdNamespaceInputSourceConfig[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#role_arn EntityresolutionIdNamespace#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#role_arn EntityresolutionIdNamespace#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#tags EntityresolutionIdNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#tags EntityresolutionIdNamespace#tags}
   */
   readonly tags?: EntityresolutionIdNamespaceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#type EntityresolutionIdNamespace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#type EntityresolutionIdNamespace#type}
   */
   readonly type: string;
 }
@@ -40,11 +40,11 @@ export interface EntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderP
   /**
   * Additional Provider configuration that would be required for the provider service. The Configuration must be in JSON string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#provider_configuration EntityresolutionIdNamespace#provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#provider_configuration EntityresolutionIdNamespace#provider_configuration}
   */
   readonly providerConfiguration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#provider_service_arn EntityresolutionIdNamespace#provider_service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#provider_service_arn EntityresolutionIdNamespace#provider_service_arn}
   */
   readonly providerServiceArn?: string;
 }
@@ -134,7 +134,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPrope
   }
 
   // provider_configuration - computed: true, optional: true, required: false
-  private _providerConfiguration?: { [key: string]: string }; 
+  private _providerConfiguration?: { [key: string]: string };
   public get providerConfiguration() {
     return this.getStringMapAttribute('provider_configuration');
   }
@@ -150,7 +150,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPrope
   }
 
   // provider_service_arn - computed: true, optional: true, required: false
-  private _providerServiceArn?: string; 
+  private _providerServiceArn?: string;
   public get providerServiceArn() {
     return this.getStringAttribute('provider_service_arn');
   }
@@ -167,11 +167,11 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPrope
 }
 export interface EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#matching_keys EntityresolutionIdNamespace#matching_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#matching_keys EntityresolutionIdNamespace#matching_keys}
   */
   readonly matchingKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#rule_name EntityresolutionIdNamespace#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#rule_name EntityresolutionIdNamespace#rule_name}
   */
   readonly ruleName?: string;
 }
@@ -263,7 +263,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
   }
 
   // matching_keys - computed: true, optional: true, required: false
-  private _matchingKeys?: string[]; 
+  private _matchingKeys?: string[];
   public get matchingKeys() {
     return this.getListAttribute('matching_keys');
   }
@@ -279,7 +279,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string; 
+  private _ruleName?: string;
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -316,19 +316,19 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
 }
 export interface EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#attribute_matching_model EntityresolutionIdNamespace#attribute_matching_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#attribute_matching_model EntityresolutionIdNamespace#attribute_matching_model}
   */
   readonly attributeMatchingModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#record_matching_models EntityresolutionIdNamespace#record_matching_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#record_matching_models EntityresolutionIdNamespace#record_matching_models}
   */
   readonly recordMatchingModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#rule_definition_types EntityresolutionIdNamespace#rule_definition_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#rule_definition_types EntityresolutionIdNamespace#rule_definition_types}
   */
   readonly ruleDefinitionTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#rules EntityresolutionIdNamespace#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#rules EntityresolutionIdNamespace#rules}
   */
   readonly rules?: EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRules[] | cdktn.IResolvable;
 }
@@ -444,7 +444,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
   }
 
   // attribute_matching_model - computed: true, optional: true, required: false
-  private _attributeMatchingModel?: string; 
+  private _attributeMatchingModel?: string;
   public get attributeMatchingModel() {
     return this.getStringAttribute('attribute_matching_model');
   }
@@ -460,7 +460,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
   }
 
   // record_matching_models - computed: true, optional: true, required: false
-  private _recordMatchingModels?: string[]; 
+  private _recordMatchingModels?: string[];
   public get recordMatchingModels() {
     return this.getListAttribute('record_matching_models');
   }
@@ -476,7 +476,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
   }
 
   // rule_definition_types - computed: true, optional: true, required: false
-  private _ruleDefinitionTypes?: string[]; 
+  private _ruleDefinitionTypes?: string[];
   public get ruleDefinitionTypes() {
     return this.getListAttribute('rule_definition_types');
   }
@@ -509,15 +509,15 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProp
 }
 export interface EntityresolutionIdNamespaceIdMappingWorkflowProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#id_mapping_type EntityresolutionIdNamespace#id_mapping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#id_mapping_type EntityresolutionIdNamespace#id_mapping_type}
   */
   readonly idMappingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#provider_properties EntityresolutionIdNamespace#provider_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#provider_properties EntityresolutionIdNamespace#provider_properties}
   */
   readonly providerProperties?: EntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#rule_based_properties EntityresolutionIdNamespace#rule_based_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#rule_based_properties EntityresolutionIdNamespace#rule_based_properties}
   */
   readonly ruleBasedProperties?: EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProperties;
 }
@@ -622,7 +622,7 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesOutputReferen
   }
 
   // id_mapping_type - computed: true, optional: true, required: false
-  private _idMappingType?: string; 
+  private _idMappingType?: string;
   public get idMappingType() {
     return this.getStringAttribute('id_mapping_type');
   }
@@ -691,11 +691,11 @@ export class EntityresolutionIdNamespaceIdMappingWorkflowPropertiesList extends 
 }
 export interface EntityresolutionIdNamespaceInputSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#input_source_arn EntityresolutionIdNamespace#input_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#input_source_arn EntityresolutionIdNamespace#input_source_arn}
   */
   readonly inputSourceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#schema_name EntityresolutionIdNamespace#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#schema_name EntityresolutionIdNamespace#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -787,7 +787,7 @@ export class EntityresolutionIdNamespaceInputSourceConfigOutputReference extends
   }
 
   // input_source_arn - computed: true, optional: true, required: false
-  private _inputSourceArn?: string; 
+  private _inputSourceArn?: string;
   public get inputSourceArn() {
     return this.getStringAttribute('input_source_arn');
   }
@@ -803,7 +803,7 @@ export class EntityresolutionIdNamespaceInputSourceConfigOutputReference extends
   }
 
   // schema_name - computed: true, optional: true, required: false
-  private _schemaName?: string; 
+  private _schemaName?: string;
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -842,13 +842,13 @@ export interface EntityresolutionIdNamespaceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#key EntityresolutionIdNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#key EntityresolutionIdNamespace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#value EntityresolutionIdNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#value EntityresolutionIdNamespace#value}
   */
   readonly value?: string;
 }
@@ -940,7 +940,7 @@ export class EntityresolutionIdNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -956,7 +956,7 @@ export class EntityresolutionIdNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -993,7 +993,7 @@ export class EntityresolutionIdNamespaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}
 */
 export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
 
@@ -1009,7 +1009,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EntityresolutionIdNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityresolutionIdNamespace to import
-  * @param importFromId The id of the existing EntityresolutionIdNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityresolutionIdNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityresolutionIdNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1021,7 +1021,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1032,7 +1032,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_entityresolution_id_namespace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1061,7 +1061,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1103,7 +1103,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   }
 
   // id_namespace_name - computed: false, optional: false, required: true
-  private _idNamespaceName?: string; 
+  private _idNamespaceName?: string;
   public get idNamespaceName() {
     return this.getStringAttribute('id_namespace_name');
   }
@@ -1132,7 +1132,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1164,7 +1164,7 @@ export class EntityresolutionIdNamespace extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

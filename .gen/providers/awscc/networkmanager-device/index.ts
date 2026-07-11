@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface NetworkmanagerDeviceConfig extends cdktn.TerraformMetaArguments
   /**
   * The Amazon Web Services location of the device, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
   */
   readonly awsLocation?: NetworkmanagerDeviceAwsLocation;
   /**
   * The description of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}
   */
   readonly description?: string;
   /**
   * The ID of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
   * The site location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
   */
   readonly location?: NetworkmanagerDeviceLocation;
   /**
   * The device model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}
   */
   readonly model?: string;
   /**
   * The device serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}
   */
   readonly siteId?: string;
   /**
   * The tags for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}
   */
   readonly tags?: NetworkmanagerDeviceTags[] | cdktn.IResolvable;
   /**
   * The device type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}
   */
   readonly type?: string;
   /**
   * The device vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}
   */
   readonly vendor?: string;
 }
@@ -72,13 +72,13 @@ export interface NetworkmanagerDeviceAwsLocation {
   /**
   * The Amazon Resource Name (ARN) of the subnet that the device is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}
   */
   readonly subnetArn?: string;
   /**
   * The Zone that the device is located in. Specify the ID of an Availability Zone, Local Zone, Wavelength Zone, or an Outpost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}
   */
   readonly zone?: string;
 }
@@ -168,7 +168,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // subnet_arn - computed: true, optional: true, required: false
-  private _subnetArn?: string; 
+  private _subnetArn?: string;
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -184,7 +184,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // zone - computed: true, optional: true, required: false
-  private _zone?: string; 
+  private _zone?: string;
   public get zone() {
     return this.getStringAttribute('zone');
   }
@@ -203,19 +203,19 @@ export interface NetworkmanagerDeviceLocation {
   /**
   * The physical address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}
   */
   readonly address?: string;
   /**
   * The latitude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}
   */
   readonly latitude?: string;
   /**
   * The longitude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}
   */
   readonly longitude?: string;
 }
@@ -318,7 +318,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string; 
+  private _address?: string;
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -334,7 +334,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string; 
+  private _latitude?: string;
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -350,7 +350,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string; 
+  private _longitude?: string;
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -369,13 +369,13 @@ export interface NetworkmanagerDeviceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#key NetworkmanagerDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#key NetworkmanagerDevice#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#value NetworkmanagerDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#value NetworkmanagerDevice#value}
   */
   readonly value?: string;
 }
@@ -467,7 +467,7 @@ export class NetworkmanagerDeviceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -483,7 +483,7 @@ export class NetworkmanagerDeviceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -520,7 +520,7 @@ export class NetworkmanagerDeviceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device awscc_networkmanager_device}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device awscc_networkmanager_device}
 */
 export class NetworkmanagerDevice extends cdktn.TerraformResource {
 
@@ -536,7 +536,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerDevice resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerDevice to import
-  * @param importFromId The id of the existing NetworkmanagerDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -548,7 +548,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_device awscc_networkmanager_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_device awscc_networkmanager_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,7 +559,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_device',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -607,7 +607,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -633,7 +633,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string; 
+  private _globalNetworkId?: string;
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -667,7 +667,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string; 
+  private _model?: string;
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -683,7 +683,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string; 
+  private _serialNumber?: string;
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -699,7 +699,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // site_id - computed: true, optional: true, required: false
-  private _siteId?: string; 
+  private _siteId?: string;
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
@@ -736,7 +736,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -752,7 +752,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // vendor - computed: true, optional: true, required: false
-  private _vendor?: string; 
+  private _vendor?: string;
   public get vendor() {
     return this.getStringAttribute('vendor');
   }

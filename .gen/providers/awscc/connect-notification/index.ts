@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ConnectNotificationConfig extends cdktn.TerraformMetaArguments 
   /**
   * The content of the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#content ConnectNotification#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#content ConnectNotification#content}
   */
   readonly content: ConnectNotificationContent;
   /**
   * The time a notification will expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#expires_at ConnectNotification#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#expires_at ConnectNotification#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#instance_arn ConnectNotification#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#instance_arn ConnectNotification#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The priority of the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#priority ConnectNotification#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#priority ConnectNotification#priority}
   */
   readonly priority?: string;
   /**
   * The recipients of the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#recipients ConnectNotification#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#recipients ConnectNotification#recipients}
   */
   readonly recipients?: string[];
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#tags ConnectNotification#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#tags ConnectNotification#tags}
   */
   readonly tags?: ConnectNotificationTags[] | cdktn.IResolvable;
 }
@@ -48,67 +48,67 @@ export interface ConnectNotificationContent {
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#de_de ConnectNotification#de_de}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#de_de ConnectNotification#de_de}
   */
   readonly deDe?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#en_us ConnectNotification#en_us}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#en_us ConnectNotification#en_us}
   */
   readonly enUs?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#es_es ConnectNotification#es_es}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#es_es ConnectNotification#es_es}
   */
   readonly esEs?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#fr_fr ConnectNotification#fr_fr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#fr_fr ConnectNotification#fr_fr}
   */
   readonly frFr?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#id_id ConnectNotification#id_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#id_id ConnectNotification#id_id}
   */
   readonly idId?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#it_it ConnectNotification#it_it}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#it_it ConnectNotification#it_it}
   */
   readonly itIt?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#ja_jp ConnectNotification#ja_jp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#ja_jp ConnectNotification#ja_jp}
   */
   readonly jaJp?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#ko_kr ConnectNotification#ko_kr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#ko_kr ConnectNotification#ko_kr}
   */
   readonly koKr?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#pt_br ConnectNotification#pt_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#pt_br ConnectNotification#pt_br}
   */
   readonly ptBr?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#zh_cn ConnectNotification#zh_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#zh_cn ConnectNotification#zh_cn}
   */
   readonly zhCn?: string;
   /**
   * Localized notification content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#zh_tw ConnectNotification#zh_tw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#zh_tw ConnectNotification#zh_tw}
   */
   readonly zhTw?: string;
 }
@@ -315,7 +315,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // de_de - computed: true, optional: true, required: false
-  private _deDe?: string; 
+  private _deDe?: string;
   public get deDe() {
     return this.getStringAttribute('de_de');
   }
@@ -331,7 +331,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // en_us - computed: true, optional: true, required: false
-  private _enUs?: string; 
+  private _enUs?: string;
   public get enUs() {
     return this.getStringAttribute('en_us');
   }
@@ -347,7 +347,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // es_es - computed: true, optional: true, required: false
-  private _esEs?: string; 
+  private _esEs?: string;
   public get esEs() {
     return this.getStringAttribute('es_es');
   }
@@ -363,7 +363,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // fr_fr - computed: true, optional: true, required: false
-  private _frFr?: string; 
+  private _frFr?: string;
   public get frFr() {
     return this.getStringAttribute('fr_fr');
   }
@@ -379,7 +379,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // id_id - computed: true, optional: true, required: false
-  private _idId?: string; 
+  private _idId?: string;
   public get idId() {
     return this.getStringAttribute('id_id');
   }
@@ -395,7 +395,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // it_it - computed: true, optional: true, required: false
-  private _itIt?: string; 
+  private _itIt?: string;
   public get itIt() {
     return this.getStringAttribute('it_it');
   }
@@ -411,7 +411,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // ja_jp - computed: true, optional: true, required: false
-  private _jaJp?: string; 
+  private _jaJp?: string;
   public get jaJp() {
     return this.getStringAttribute('ja_jp');
   }
@@ -427,7 +427,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // ko_kr - computed: true, optional: true, required: false
-  private _koKr?: string; 
+  private _koKr?: string;
   public get koKr() {
     return this.getStringAttribute('ko_kr');
   }
@@ -443,7 +443,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // pt_br - computed: true, optional: true, required: false
-  private _ptBr?: string; 
+  private _ptBr?: string;
   public get ptBr() {
     return this.getStringAttribute('pt_br');
   }
@@ -459,7 +459,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // zh_cn - computed: true, optional: true, required: false
-  private _zhCn?: string; 
+  private _zhCn?: string;
   public get zhCn() {
     return this.getStringAttribute('zh_cn');
   }
@@ -475,7 +475,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // zh_tw - computed: true, optional: true, required: false
-  private _zhTw?: string; 
+  private _zhTw?: string;
   public get zhTw() {
     return this.getStringAttribute('zh_tw');
   }
@@ -494,13 +494,13 @@ export interface ConnectNotificationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#key ConnectNotification#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#key ConnectNotification#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#value ConnectNotification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#value ConnectNotification#value}
   */
   readonly value?: string;
 }
@@ -592,7 +592,7 @@ export class ConnectNotificationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -608,7 +608,7 @@ export class ConnectNotificationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -645,7 +645,7 @@ export class ConnectNotificationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification awscc_connect_notification}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification awscc_connect_notification}
 */
 export class ConnectNotification extends cdktn.TerraformResource {
 
@@ -661,7 +661,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectNotification resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectNotification to import
-  * @param importFromId The id of the existing ConnectNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -673,7 +673,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_notification awscc_connect_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_notification awscc_connect_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -684,7 +684,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_notification',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -730,7 +730,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // expires_at - computed: true, optional: true, required: false
-  private _expiresAt?: string; 
+  private _expiresAt?: string;
   public get expiresAt() {
     return this.getStringAttribute('expires_at');
   }
@@ -751,7 +751,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -769,7 +769,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: string; 
+  private _priority?: string;
   public get priority() {
     return this.getStringAttribute('priority');
   }
@@ -785,7 +785,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // recipients - computed: true, optional: true, required: false
-  private _recipients?: string[]; 
+  private _recipients?: string[];
   public get recipients() {
     return cdktn.Fn.tolist(this.getListAttribute('recipients'));
   }

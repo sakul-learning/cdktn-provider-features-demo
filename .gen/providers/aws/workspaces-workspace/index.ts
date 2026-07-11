@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspacesWorkspaceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#bundle_id WorkspacesWorkspace#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#bundle_id WorkspacesWorkspace#bundle_id}
   */
   readonly bundleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#directory_id WorkspacesWorkspace#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#directory_id WorkspacesWorkspace#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#id WorkspacesWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#id WorkspacesWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,57 +25,57 @@ export interface WorkspacesWorkspaceConfig extends cdktn.TerraformMetaArguments 
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#region WorkspacesWorkspace#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#region WorkspacesWorkspace#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#root_volume_encryption_enabled WorkspacesWorkspace#root_volume_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#root_volume_encryption_enabled WorkspacesWorkspace#root_volume_encryption_enabled}
   */
   readonly rootVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#tags WorkspacesWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#tags WorkspacesWorkspace#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#tags_all WorkspacesWorkspace#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#tags_all WorkspacesWorkspace#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#user_name WorkspacesWorkspace#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#user_name WorkspacesWorkspace#user_name}
   */
   readonly userName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#user_volume_encryption_enabled WorkspacesWorkspace#user_volume_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#user_volume_encryption_enabled WorkspacesWorkspace#user_volume_encryption_enabled}
   */
   readonly userVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#volume_encryption_key WorkspacesWorkspace#volume_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#volume_encryption_key WorkspacesWorkspace#volume_encryption_key}
   */
   readonly volumeEncryptionKey?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#timeouts WorkspacesWorkspace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#timeouts WorkspacesWorkspace#timeouts}
   */
   readonly timeouts?: WorkspacesWorkspaceTimeouts;
   /**
   * workspace_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#workspace_properties WorkspacesWorkspace#workspace_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#workspace_properties WorkspacesWorkspace#workspace_properties}
   */
   readonly workspaceProperties?: WorkspacesWorkspaceWorkspaceProperties;
 }
 export interface WorkspacesWorkspaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#create WorkspacesWorkspace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#create WorkspacesWorkspace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#delete WorkspacesWorkspace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#delete WorkspacesWorkspace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#update WorkspacesWorkspace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#update WorkspacesWorkspace#update}
   */
   readonly update?: string;
 }
@@ -178,7 +178,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -194,7 +194,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -210,7 +210,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -227,23 +227,23 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
 }
 export interface WorkspacesWorkspaceWorkspaceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#compute_type_name WorkspacesWorkspace#compute_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#compute_type_name WorkspacesWorkspace#compute_type_name}
   */
   readonly computeTypeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#root_volume_size_gib WorkspacesWorkspace#root_volume_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#root_volume_size_gib WorkspacesWorkspace#root_volume_size_gib}
   */
   readonly rootVolumeSizeGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#running_mode WorkspacesWorkspace#running_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#running_mode WorkspacesWorkspace#running_mode}
   */
   readonly runningMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#running_mode_auto_stop_timeout_in_minutes WorkspacesWorkspace#running_mode_auto_stop_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#running_mode_auto_stop_timeout_in_minutes WorkspacesWorkspace#running_mode_auto_stop_timeout_in_minutes}
   */
   readonly runningModeAutoStopTimeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#user_volume_size_gib WorkspacesWorkspace#user_volume_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#user_volume_size_gib WorkspacesWorkspace#user_volume_size_gib}
   */
   readonly userVolumeSizeGib?: number;
 }
@@ -362,7 +362,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // compute_type_name - computed: false, optional: true, required: false
-  private _computeTypeName?: string; 
+  private _computeTypeName?: string;
   public get computeTypeName() {
     return this.getStringAttribute('compute_type_name');
   }
@@ -378,7 +378,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // root_volume_size_gib - computed: false, optional: true, required: false
-  private _rootVolumeSizeGib?: number; 
+  private _rootVolumeSizeGib?: number;
   public get rootVolumeSizeGib() {
     return this.getNumberAttribute('root_volume_size_gib');
   }
@@ -394,7 +394,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // running_mode - computed: false, optional: true, required: false
-  private _runningMode?: string; 
+  private _runningMode?: string;
   public get runningMode() {
     return this.getStringAttribute('running_mode');
   }
@@ -410,7 +410,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // running_mode_auto_stop_timeout_in_minutes - computed: true, optional: true, required: false
-  private _runningModeAutoStopTimeoutInMinutes?: number; 
+  private _runningModeAutoStopTimeoutInMinutes?: number;
   public get runningModeAutoStopTimeoutInMinutes() {
     return this.getNumberAttribute('running_mode_auto_stop_timeout_in_minutes');
   }
@@ -426,7 +426,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // user_volume_size_gib - computed: false, optional: true, required: false
-  private _userVolumeSizeGib?: number; 
+  private _userVolumeSizeGib?: number;
   public get userVolumeSizeGib() {
     return this.getNumberAttribute('user_volume_size_gib');
   }
@@ -443,7 +443,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace aws_workspaces_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace aws_workspaces_workspace}
 */
 export class WorkspacesWorkspace extends cdktn.TerraformResource {
 
@@ -459,7 +459,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspacesWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspacesWorkspace to import
-  * @param importFromId The id of the existing WorkspacesWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspacesWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspacesWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -471,7 +471,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -482,7 +482,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workspaces_workspace',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -511,7 +511,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   // ==========
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string; 
+  private _bundleId?: string;
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -529,7 +529,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string; 
+  private _directoryId?: string;
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -542,7 +542,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -563,7 +563,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -579,7 +579,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // root_volume_encryption_enabled - computed: false, optional: true, required: false
-  private _rootVolumeEncryptionEnabled?: boolean | cdktn.IResolvable; 
+  private _rootVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
   public get rootVolumeEncryptionEnabled() {
     return this.getBooleanAttribute('root_volume_encryption_enabled');
   }
@@ -600,7 +600,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -616,7 +616,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -632,7 +632,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string; 
+  private _userName?: string;
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -645,7 +645,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // user_volume_encryption_enabled - computed: false, optional: true, required: false
-  private _userVolumeEncryptionEnabled?: boolean | cdktn.IResolvable; 
+  private _userVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
   public get userVolumeEncryptionEnabled() {
     return this.getBooleanAttribute('user_volume_encryption_enabled');
   }
@@ -661,7 +661,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // volume_encryption_key - computed: false, optional: true, required: false
-  private _volumeEncryptionKey?: string; 
+  private _volumeEncryptionKey?: string;
   public get volumeEncryptionKey() {
     return this.getStringAttribute('volume_encryption_key');
   }

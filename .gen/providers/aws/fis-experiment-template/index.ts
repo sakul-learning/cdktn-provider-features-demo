@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface FisExperimentTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#id FisExperimentTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#id FisExperimentTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,71 +21,71 @@ export interface FisExperimentTemplateConfig extends cdktn.TerraformMetaArgument
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#region FisExperimentTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#region FisExperimentTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#tags_all FisExperimentTemplate#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#tags_all FisExperimentTemplate#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#action FisExperimentTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#action FisExperimentTemplate#action}
   */
   readonly action: FisExperimentTemplateAction[] | cdktn.IResolvable;
   /**
   * experiment_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}
   */
   readonly experimentOptions?: FisExperimentTemplateExperimentOptions;
   /**
   * experiment_report_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}
   */
   readonly experimentReportConfiguration?: FisExperimentTemplateExperimentReportConfiguration;
   /**
   * log_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}
   */
   readonly logConfiguration?: FisExperimentTemplateLogConfiguration;
   /**
   * stop_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#stop_condition FisExperimentTemplate#stop_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#stop_condition FisExperimentTemplate#stop_condition}
   */
   readonly stopCondition: FisExperimentTemplateStopCondition[] | cdktn.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
   */
   readonly target?: FisExperimentTemplateTarget[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#timeouts FisExperimentTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#timeouts FisExperimentTemplate#timeouts}
   */
   readonly timeouts?: FisExperimentTemplateTimeouts;
 }
 export interface FisExperimentTemplateActionParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
   */
   readonly value: string;
 }
@@ -177,7 +177,7 @@ export class FisExperimentTemplateActionParameterOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -190,7 +190,7 @@ export class FisExperimentTemplateActionParameterOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -224,11 +224,11 @@ export class FisExperimentTemplateActionParameterList extends cdktn.ComplexList 
 }
 export interface FisExperimentTemplateActionTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
   */
   readonly value: string;
 }
@@ -308,7 +308,7 @@ export class FisExperimentTemplateActionTargetOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -321,7 +321,7 @@ export class FisExperimentTemplateActionTargetOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -335,31 +335,31 @@ export class FisExperimentTemplateActionTargetOutputReference extends cdktn.Comp
 }
 export interface FisExperimentTemplateAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}
   */
   readonly actionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}
   */
   readonly startAfter?: string[];
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#parameter FisExperimentTemplate#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#parameter FisExperimentTemplate#parameter}
   */
   readonly parameter?: FisExperimentTemplateActionParameter[] | cdktn.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
   */
   readonly target?: FisExperimentTemplateActionTarget;
 }
@@ -503,7 +503,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // action_id - computed: false, optional: false, required: true
-  private _actionId?: string; 
+  private _actionId?: string;
   public get actionId() {
     return this.getStringAttribute('action_id');
   }
@@ -516,7 +516,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -532,7 +532,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -545,7 +545,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // start_after - computed: false, optional: true, required: false
-  private _startAfter?: string[]; 
+  private _startAfter?: string[];
   public get startAfter() {
     return cdktn.Fn.tolist(this.getListAttribute('start_after'));
   }
@@ -614,11 +614,11 @@ export class FisExperimentTemplateActionList extends cdktn.ComplexList {
 }
 export interface FisExperimentTemplateExperimentOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#account_targeting FisExperimentTemplate#account_targeting}
   */
   readonly accountTargeting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#empty_target_resolution_mode FisExperimentTemplate#empty_target_resolution_mode}
   */
   readonly emptyTargetResolutionMode?: string;
 }
@@ -698,7 +698,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // account_targeting - computed: false, optional: true, required: false
-  private _accountTargeting?: string; 
+  private _accountTargeting?: string;
   public get accountTargeting() {
     return this.getStringAttribute('account_targeting');
   }
@@ -714,7 +714,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // empty_target_resolution_mode - computed: false, optional: true, required: false
-  private _emptyTargetResolutionMode?: string; 
+  private _emptyTargetResolutionMode?: string;
   public get emptyTargetResolutionMode() {
     return this.getStringAttribute('empty_target_resolution_mode');
   }
@@ -731,7 +731,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
 }
 export interface FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#dashboard_arn FisExperimentTemplate#dashboard_arn}
   */
   readonly dashboardArn?: string;
 }
@@ -810,7 +810,7 @@ export class FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudw
   }
 
   // dashboard_arn - computed: false, optional: true, required: false
-  private _dashboardArn?: string; 
+  private _dashboardArn?: string;
   public get dashboardArn() {
     return this.getStringAttribute('dashboard_arn');
   }
@@ -849,7 +849,7 @@ export interface FisExperimentTemplateExperimentReportConfigurationDataSources {
   /**
   * cloudwatch_dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#cloudwatch_dashboard FisExperimentTemplate#cloudwatch_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#cloudwatch_dashboard FisExperimentTemplate#cloudwatch_dashboard}
   */
   readonly cloudwatchDashboard?: FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard[] | cdktn.IResolvable;
 }
@@ -933,11 +933,11 @@ export class FisExperimentTemplateExperimentReportConfigurationDataSourcesOutput
 }
 export interface FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}
   */
   readonly prefix?: string;
 }
@@ -1017,7 +1017,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsS3Configur
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1030,7 +1030,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsS3Configur
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1049,7 +1049,7 @@ export interface FisExperimentTemplateExperimentReportConfigurationOutputs {
   /**
   * s3_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
   */
   readonly s3Configuration?: FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration;
 }
@@ -1133,23 +1133,23 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsOutputRefe
 }
 export interface FisExperimentTemplateExperimentReportConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#post_experiment_duration FisExperimentTemplate#post_experiment_duration}
   */
   readonly postExperimentDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#pre_experiment_duration FisExperimentTemplate#pre_experiment_duration}
   */
   readonly preExperimentDuration?: string;
   /**
   * data_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#data_sources FisExperimentTemplate#data_sources}
   */
   readonly dataSources?: FisExperimentTemplateExperimentReportConfigurationDataSources;
   /**
   * outputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#outputs FisExperimentTemplate#outputs}
   */
   readonly outputs?: FisExperimentTemplateExperimentReportConfigurationOutputs;
 }
@@ -1255,7 +1255,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // post_experiment_duration - computed: false, optional: true, required: false
-  private _postExperimentDuration?: string; 
+  private _postExperimentDuration?: string;
   public get postExperimentDuration() {
     return this.getStringAttribute('post_experiment_duration');
   }
@@ -1271,7 +1271,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // pre_experiment_duration - computed: false, optional: true, required: false
-  private _preExperimentDuration?: string; 
+  private _preExperimentDuration?: string;
   public get preExperimentDuration() {
     return this.getStringAttribute('pre_experiment_duration');
   }
@@ -1320,7 +1320,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
 }
 export interface FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#log_group_arn FisExperimentTemplate#log_group_arn}
   */
   readonly logGroupArn: string;
 }
@@ -1387,7 +1387,7 @@ export class FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOut
   }
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -1401,11 +1401,11 @@ export class FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOut
 }
 export interface FisExperimentTemplateLogConfigurationS3Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#bucket_name FisExperimentTemplate#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#prefix FisExperimentTemplate#prefix}
   */
   readonly prefix?: string;
 }
@@ -1485,7 +1485,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1498,7 +1498,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1515,19 +1515,19 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
 }
 export interface FisExperimentTemplateLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#log_schema_version FisExperimentTemplate#log_schema_version}
   */
   readonly logSchemaVersion: number;
   /**
   * cloudwatch_logs_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#cloudwatch_logs_configuration FisExperimentTemplate#cloudwatch_logs_configuration}
   */
   readonly cloudwatchLogsConfiguration?: FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration;
   /**
   * s3_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
   */
   readonly s3Configuration?: FisExperimentTemplateLogConfigurationS3Configuration;
 }
@@ -1620,7 +1620,7 @@ export class FisExperimentTemplateLogConfigurationOutputReference extends cdktn.
   }
 
   // log_schema_version - computed: false, optional: false, required: true
-  private _logSchemaVersion?: number; 
+  private _logSchemaVersion?: number;
   public get logSchemaVersion() {
     return this.getNumberAttribute('log_schema_version');
   }
@@ -1666,11 +1666,11 @@ export class FisExperimentTemplateLogConfigurationOutputReference extends cdktn.
 }
 export interface FisExperimentTemplateStopCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#source FisExperimentTemplate#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
   */
   readonly value?: string;
 }
@@ -1762,7 +1762,7 @@ export class FisExperimentTemplateStopConditionOutputReference extends cdktn.Com
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1775,7 +1775,7 @@ export class FisExperimentTemplateStopConditionOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1812,11 +1812,11 @@ export class FisExperimentTemplateStopConditionList extends cdktn.ComplexList {
 }
 export interface FisExperimentTemplateTargetFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#path FisExperimentTemplate#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#values FisExperimentTemplate#values}
   */
   readonly values: string[];
 }
@@ -1908,7 +1908,7 @@ export class FisExperimentTemplateTargetFilterOutputReference extends cdktn.Comp
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1921,7 +1921,7 @@ export class FisExperimentTemplateTargetFilterOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1955,11 +1955,11 @@ export class FisExperimentTemplateTargetFilterList extends cdktn.ComplexList {
 }
 export interface FisExperimentTemplateTargetResourceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#key FisExperimentTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#value FisExperimentTemplate#value}
   */
   readonly value: string;
 }
@@ -2051,7 +2051,7 @@ export class FisExperimentTemplateTargetResourceTagOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2064,7 +2064,7 @@ export class FisExperimentTemplateTargetResourceTagOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2098,35 +2098,35 @@ export class FisExperimentTemplateTargetResourceTagList extends cdktn.ComplexLis
 }
 export interface FisExperimentTemplateTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#parameters FisExperimentTemplate#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#resource_arns FisExperimentTemplate#resource_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#resource_arns FisExperimentTemplate#resource_arns}
   */
   readonly resourceArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#resource_type FisExperimentTemplate#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#resource_type FisExperimentTemplate#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#selection_mode FisExperimentTemplate#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#selection_mode FisExperimentTemplate#selection_mode}
   */
   readonly selectionMode: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#filter FisExperimentTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#filter FisExperimentTemplate#filter}
   */
   readonly filter?: FisExperimentTemplateTargetFilter[] | cdktn.IResolvable;
   /**
   * resource_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#resource_tag FisExperimentTemplate#resource_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#resource_tag FisExperimentTemplate#resource_tag}
   */
   readonly resourceTag?: FisExperimentTemplateTargetResourceTag[] | cdktn.IResolvable;
 }
@@ -2283,7 +2283,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2296,7 +2296,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -2312,7 +2312,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[]; 
+  private _resourceArns?: string[];
   public get resourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arns'));
   }
@@ -2328,7 +2328,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -2341,7 +2341,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // selection_mode - computed: false, optional: false, required: true
-  private _selectionMode?: string; 
+  private _selectionMode?: string;
   public get selectionMode() {
     return this.getStringAttribute('selection_mode');
   }
@@ -2407,15 +2407,15 @@ export class FisExperimentTemplateTargetList extends cdktn.ComplexList {
 }
 export interface FisExperimentTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#create FisExperimentTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#create FisExperimentTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#delete FisExperimentTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#delete FisExperimentTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#update FisExperimentTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#update FisExperimentTemplate#update}
   */
   readonly update?: string;
 }
@@ -2518,7 +2518,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2534,7 +2534,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2550,7 +2550,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2567,7 +2567,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template aws_fis_experiment_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template aws_fis_experiment_template}
 */
 export class FisExperimentTemplate extends cdktn.TerraformResource {
 
@@ -2583,7 +2583,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FisExperimentTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FisExperimentTemplate to import
-  * @param importFromId The id of the existing FisExperimentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FisExperimentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FisExperimentTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2595,7 +2595,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2606,7 +2606,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_fis_experiment_template',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2636,7 +2636,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2649,7 +2649,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2665,7 +2665,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2681,7 +2681,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2694,7 +2694,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2710,7 +2710,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

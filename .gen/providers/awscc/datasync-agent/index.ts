@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DatasyncAgentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Activation key of the Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
   */
   readonly activationKey?: string;
   /**
   * The name configured for the agent. Text reference used to identify the agent in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
   */
   readonly agentName?: string;
   /**
   * The ARNs of the security group used to protect your data transfer task subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
   */
   readonly securityGroupArns?: string[];
   /**
   * The ARNs of the subnets in which DataSync will create elastic network interfaces for each data transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
   */
   readonly subnetArns?: string[];
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
   */
   readonly tags?: DatasyncAgentTags[] | cdktn.IResolvable;
   /**
   * The ID of the VPC endpoint that the agent has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
 }
@@ -48,13 +48,13 @@ export interface DatasyncAgentTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#key DatasyncAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#key DatasyncAgent#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#value DatasyncAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#value DatasyncAgent#value}
   */
   readonly value?: string;
 }
@@ -146,7 +146,7 @@ export class DatasyncAgentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class DatasyncAgentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -199,7 +199,7 @@ export class DatasyncAgentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent awscc_datasync_agent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent awscc_datasync_agent}
 */
 export class DatasyncAgent extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncAgent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncAgent to import
-  * @param importFromId The id of the existing DatasyncAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_agent awscc_datasync_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_agent awscc_datasync_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_agent',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -261,7 +261,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   // ==========
 
   // activation_key - computed: true, optional: true, required: false
-  private _activationKey?: string; 
+  private _activationKey?: string;
   public get activationKey() {
     return this.getStringAttribute('activation_key');
   }
@@ -282,7 +282,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // agent_name - computed: true, optional: true, required: false
-  private _agentName?: string; 
+  private _agentName?: string;
   public get agentName() {
     return this.getStringAttribute('agent_name');
   }
@@ -308,7 +308,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: true, optional: true, required: false
-  private _securityGroupArns?: string[]; 
+  private _securityGroupArns?: string[];
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -324,7 +324,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: true, optional: true, required: false
-  private _subnetArns?: string[]; 
+  private _subnetArns?: string[];
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -356,7 +356,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string; 
+  private _vpcEndpointId?: string;
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

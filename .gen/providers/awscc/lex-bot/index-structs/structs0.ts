@@ -3,19 +3,19 @@ export interface LexBotBotFileS3Location {
   /**
   * An Amazon S3 bucket in the same AWS Region as your function. The bucket can be in a different AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * The Amazon S3 key of the deployment package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
   */
   readonly s3ObjectKey?: string;
   /**
   * For versioned objects, the version of the deployment package object to use. If not specified, the current object version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
 }
@@ -118,7 +118,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -134,7 +134,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_object_key - computed: true, optional: true, required: false
-  private _s3ObjectKey?: string; 
+  private _s3ObjectKey?: string;
   public get s3ObjectKey() {
     return this.getStringAttribute('s3_object_key');
   }
@@ -150,7 +150,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string; 
+  private _s3ObjectVersion?: string;
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -169,13 +169,13 @@ export interface LexBotBotLocalesCustomVocabularyCustomVocabularyItems {
   /**
   * Phrase that should be recognized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#phrase LexBot#phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#phrase LexBot#phrase}
   */
   readonly phrase?: string;
   /**
   * The degree to which the phrase recognition is boosted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#weight LexBot#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#weight LexBot#weight}
   */
   readonly weight?: number;
 }
@@ -267,7 +267,7 @@ export class LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReferenc
   }
 
   // phrase - computed: true, optional: true, required: false
-  private _phrase?: string; 
+  private _phrase?: string;
   public get phrase() {
     return this.getStringAttribute('phrase');
   }
@@ -283,7 +283,7 @@ export class LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReferenc
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -320,7 +320,7 @@ export class LexBotBotLocalesCustomVocabularyCustomVocabularyItemsList extends c
 }
 export interface LexBotBotLocalesCustomVocabulary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}
   */
   readonly customVocabularyItems?: LexBotBotLocalesCustomVocabularyCustomVocabularyItems[] | cdktn.IResolvable;
 }
@@ -414,7 +414,7 @@ export class LexBotBotLocalesCustomVocabularyOutputReference extends cdktn.Compl
 }
 export interface LexBotBotLocalesIntentsDialogCodeHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#enabled LexBot#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#enabled LexBot#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -491,7 +491,7 @@ export class LexBotBotLocalesIntentsDialogCodeHookOutputReference extends cdktn.
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -510,7 +510,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -587,7 +587,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -606,13 +606,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -704,7 +704,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -720,7 +720,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -759,25 +759,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -909,7 +909,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -925,7 +925,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -941,7 +941,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -960,7 +960,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1037,7 +1037,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1056,7 +1056,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1133,7 +1133,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1152,25 +1152,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage;
 }
@@ -1353,7 +1353,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1430,7 +1430,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1449,13 +1449,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1547,7 +1547,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1563,7 +1563,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1602,25 +1602,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -1752,7 +1752,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -1768,7 +1768,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -1784,7 +1784,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1803,7 +1803,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1880,7 +1880,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1899,7 +1899,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -1976,7 +1976,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1995,25 +1995,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage;
 }
@@ -2218,13 +2218,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariations[] | cdktn.IResolvable;
 }
@@ -2371,19 +2371,19 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * Determines whether the user can interrupt the start message while it is playing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * The delay between when the Lambda fulfillment function starts running and the start message is played. If the Lambda function returns before the delay is over, the start message isn't played.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
   */
   readonly delayInSeconds?: number;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
   */
   readonly messageGroups?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroups[] | cdktn.IResolvable;
 }
@@ -2486,7 +2486,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -2502,7 +2502,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // delay_in_seconds - computed: true, optional: true, required: false
-  private _delayInSeconds?: number; 
+  private _delayInSeconds?: number;
   public get delayInSeconds() {
     return this.getNumberAttribute('delay_in_seconds');
   }
@@ -2537,7 +2537,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -2614,7 +2614,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2633,13 +2633,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -2731,7 +2731,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2747,7 +2747,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2786,25 +2786,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -2936,7 +2936,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2952,7 +2952,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2968,7 +2968,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -2987,7 +2987,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -3064,7 +3064,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3083,7 +3083,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -3160,7 +3160,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3179,25 +3179,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage;
 }
@@ -3380,7 +3380,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -3457,7 +3457,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3476,13 +3476,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -3574,7 +3574,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3590,7 +3590,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3629,25 +3629,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -3779,7 +3779,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -3795,7 +3795,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -3811,7 +3811,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3830,7 +3830,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -3907,7 +3907,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3926,7 +3926,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -4003,7 +4003,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4022,25 +4022,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage;
 }
@@ -4245,13 +4245,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariations[] | cdktn.IResolvable;
 }
@@ -4398,19 +4398,19 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * Determines whether the user can interrupt an update message while it is playing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * The frequency that a message is sent to the user. When the period ends, Amazon Lex chooses a message from the message groups and plays it to the user. If the fulfillment Lambda returns before the first period ends, an update message is not played to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
   */
   readonly frequencyInSeconds?: number;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
   */
   readonly messageGroups?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroups[] | cdktn.IResolvable;
 }
@@ -4513,7 +4513,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -4529,7 +4529,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // frequency_in_seconds - computed: true, optional: true, required: false
-  private _frequencyInSeconds?: number; 
+  private _frequencyInSeconds?: number;
   public get frequencyInSeconds() {
     return this.getNumberAttribute('frequency_in_seconds');
   }
@@ -4564,25 +4564,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
   /**
   * Determines whether fulfillment updates are sent to the user. When this field is true, updates are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#active LexBot#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#active LexBot#active}
   */
   readonly active?: boolean | cdktn.IResolvable;
   /**
   * Provides settings for a message that is sent to the user when a fulfillment Lambda function starts running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#start_response LexBot#start_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#start_response LexBot#start_response}
   */
   readonly startResponse?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse;
   /**
   * The length of time that the fulfillment Lambda function should run before it times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
   * Provides settings for a message that is sent periodically to the user while a fulfillment Lambda function is running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#update_response LexBot#update_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#update_response LexBot#update_response}
   */
   readonly updateResponse?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse;
 }
@@ -4698,7 +4698,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable; 
+  private _active?: boolean | cdktn.IResolvable;
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -4730,7 +4730,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number; 
+  private _timeoutInSeconds?: number;
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -4765,7 +4765,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -4842,7 +4842,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4861,13 +4861,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -4959,7 +4959,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -4975,7 +4975,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5014,25 +5014,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -5164,7 +5164,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -5180,7 +5180,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -5196,7 +5196,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -5215,7 +5215,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -5292,7 +5292,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5311,7 +5311,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -5388,7 +5388,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5407,25 +5407,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage;
 }
@@ -5608,7 +5608,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -5685,7 +5685,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5704,13 +5704,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -5802,7 +5802,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -5818,7 +5818,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5857,25 +5857,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -6007,7 +6007,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -6023,7 +6023,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -6039,7 +6039,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -6058,7 +6058,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -6135,7 +6135,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6154,7 +6154,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -6231,7 +6231,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6250,25 +6250,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage;
 }
@@ -6473,13 +6473,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -6626,13 +6626,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStruct[] | cdktn.IResolvable;
 }
@@ -6722,7 +6722,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -6757,7 +6757,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -6834,7 +6834,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6853,13 +6853,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -6951,7 +6951,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -6967,7 +6967,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7006,25 +7006,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -7156,7 +7156,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -7172,7 +7172,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -7188,7 +7188,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -7207,7 +7207,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -7284,7 +7284,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7303,7 +7303,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -7380,7 +7380,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7399,25 +7399,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage;
 }
@@ -7600,7 +7600,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -7677,7 +7677,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7696,13 +7696,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -7794,7 +7794,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -7810,7 +7810,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7849,25 +7849,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -7999,7 +7999,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -8015,7 +8015,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -8031,7 +8031,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -8050,7 +8050,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -8127,7 +8127,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8146,7 +8146,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -8223,7 +8223,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8242,25 +8242,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage;
 }
@@ -8465,13 +8465,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -8618,13 +8618,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStruct[] | cdktn.IResolvable;
 }
@@ -8714,7 +8714,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -8749,7 +8749,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -8826,7 +8826,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8845,13 +8845,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -8943,7 +8943,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -8959,7 +8959,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8998,25 +8998,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -9148,7 +9148,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -9164,7 +9164,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -9180,7 +9180,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -9199,7 +9199,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -9276,7 +9276,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9295,7 +9295,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -9372,7 +9372,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9391,25 +9391,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage;
 }
@@ -9592,7 +9592,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -9669,7 +9669,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9688,13 +9688,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -9786,7 +9786,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -9802,7 +9802,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9841,25 +9841,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -9991,7 +9991,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -10007,7 +10007,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -10023,7 +10023,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -10042,7 +10042,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -10119,7 +10119,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10138,7 +10138,7 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -10215,7 +10215,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10234,25 +10234,25 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage;
 }
@@ -10457,13 +10457,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -10610,13 +10610,13 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStruct[] | cdktn.IResolvable;
 }
@@ -10706,7 +10706,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -10741,19 +10741,19 @@ export interface LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
   /**
   * A list of message groups that Amazon Lex uses to respond the user input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
   */
   readonly failureResponse?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse;
   /**
   * A list of message groups that Amazon Lex uses to respond the user input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#success_response LexBot#success_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#success_response LexBot#success_response}
   */
   readonly successResponse?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse;
   /**
   * A list of message groups that Amazon Lex uses to respond the user input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
   */
   readonly timeoutResponse?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse;
 }
@@ -10905,19 +10905,19 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
 }
 export interface LexBotBotLocalesIntentsFulfillmentCodeHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#enabled LexBot#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#enabled LexBot#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Provides information for updating the user on the progress of fulfilling an intent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
   */
   readonly fulfillmentUpdatesSpecification?: LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification;
   /**
   * Provides information for updating the user on the progress of fulfilling an intent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
   */
   readonly postFulfillmentStatusSpecification?: LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification;
 }
@@ -11020,7 +11020,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookOutputReference extends c
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11071,7 +11071,7 @@ export interface LexBotBotLocalesIntentsInputContexts {
   /**
   * The name of the context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#name LexBot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#name LexBot#name}
   */
   readonly name?: string;
 }
@@ -11150,7 +11150,7 @@ export class LexBotBotLocalesIntentsInputContextsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11189,7 +11189,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -11266,7 +11266,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11285,13 +11285,13 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -11383,7 +11383,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -11399,7 +11399,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11438,25 +11438,25 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -11588,7 +11588,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -11604,7 +11604,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -11620,7 +11620,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -11639,7 +11639,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -11716,7 +11716,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11735,7 +11735,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -11812,7 +11812,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11831,25 +11831,25 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage;
 }
@@ -12032,7 +12032,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -12109,7 +12109,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12128,13 +12128,13 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -12226,7 +12226,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -12242,7 +12242,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12281,25 +12281,25 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -12431,7 +12431,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -12447,7 +12447,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -12463,7 +12463,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -12482,7 +12482,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -12559,7 +12559,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12578,7 +12578,7 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -12655,7 +12655,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12674,25 +12674,25 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage;
 }
@@ -12897,13 +12897,13 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -13050,13 +13050,13 @@ export interface LexBotBotLocalesIntentsIntentClosingSettingClosingResponse {
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStruct[] | cdktn.IResolvable;
 }
@@ -13146,7 +13146,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputRef
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -13181,11 +13181,11 @@ export interface LexBotBotLocalesIntentsIntentClosingSetting {
   /**
   * A list of message groups that Amazon Lex uses to respond the user input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
   */
   readonly closingResponse?: LexBotBotLocalesIntentsIntentClosingSettingClosingResponse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#is_active LexBot#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#is_active LexBot#is_active}
   */
   readonly isActive?: boolean | cdktn.IResolvable;
 }
@@ -13291,7 +13291,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingOutputReference extends 
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable; 
+  private _isActive?: boolean | cdktn.IResolvable;
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -13310,7 +13310,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -13387,7 +13387,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13406,13 +13406,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -13504,7 +13504,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -13520,7 +13520,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13559,25 +13559,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -13709,7 +13709,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -13725,7 +13725,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -13741,7 +13741,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -13760,7 +13760,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -13837,7 +13837,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13856,7 +13856,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -13933,7 +13933,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13952,25 +13952,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage;
 }
@@ -14153,7 +14153,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -14230,7 +14230,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14249,13 +14249,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -14347,7 +14347,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -14363,7 +14363,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14402,25 +14402,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -14552,7 +14552,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -14568,7 +14568,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -14584,7 +14584,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -14603,7 +14603,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -14680,7 +14680,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14699,7 +14699,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -14776,7 +14776,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14795,25 +14795,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage;
 }
@@ -15018,13 +15018,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -15171,13 +15171,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct[] | cdktn.IResolvable;
 }
@@ -15267,7 +15267,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -15302,7 +15302,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -15379,7 +15379,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15398,13 +15398,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -15496,7 +15496,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -15512,7 +15512,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15551,25 +15551,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -15701,7 +15701,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -15717,7 +15717,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -15733,7 +15733,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -15752,7 +15752,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -15829,7 +15829,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15848,7 +15848,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -15925,7 +15925,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15944,25 +15944,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage;
 }
@@ -16145,7 +16145,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -16222,7 +16222,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16241,13 +16241,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -16339,7 +16339,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -16355,7 +16355,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16394,25 +16394,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -16544,7 +16544,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -16560,7 +16560,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -16576,7 +16576,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -16595,7 +16595,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -16672,7 +16672,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16691,7 +16691,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -16768,7 +16768,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16787,25 +16787,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage;
 }
@@ -17010,13 +17010,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -17163,13 +17163,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Indicates whether audio input is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
   */
   readonly allowAudioInput?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether DTMF input is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
   */
   readonly allowDtmfInput?: boolean | cdktn.IResolvable;
 }
@@ -17259,7 +17259,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_audio_input - computed: true, optional: true, required: false
-  private _allowAudioInput?: boolean | cdktn.IResolvable; 
+  private _allowAudioInput?: boolean | cdktn.IResolvable;
   public get allowAudioInput() {
     return this.getBooleanAttribute('allow_audio_input');
   }
@@ -17275,7 +17275,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_dtmf_input - computed: true, optional: true, required: false
-  private _allowDtmfInput?: boolean | cdktn.IResolvable; 
+  private _allowDtmfInput?: boolean | cdktn.IResolvable;
   public get allowDtmfInput() {
     return this.getBooleanAttribute('allow_dtmf_input');
   }
@@ -17294,13 +17294,13 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
   */
   readonly endTimeoutMs?: number;
   /**
   * Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
   */
   readonly maxLengthMs?: number;
 }
@@ -17390,7 +17390,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number; 
+  private _endTimeoutMs?: number;
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -17406,7 +17406,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_length_ms - computed: true, optional: true, required: false
-  private _maxLengthMs?: number; 
+  private _maxLengthMs?: number;
   public get maxLengthMs() {
     return this.getNumberAttribute('max_length_ms');
   }
@@ -17425,25 +17425,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
   */
   readonly deletionCharacter?: string;
   /**
   * The DTMF character that immediately ends input. If the user does not press this character, the input ends after the end timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_character LexBot#end_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_character LexBot#end_character}
   */
   readonly endCharacter?: string;
   /**
   * How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
   */
   readonly endTimeoutMs?: number;
   /**
   * The maximum number of DTMF digits allowed in an utterance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_length LexBot#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_length LexBot#max_length}
   */
   readonly maxLength?: number;
 }
@@ -17559,7 +17559,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // deletion_character - computed: true, optional: true, required: false
-  private _deletionCharacter?: string; 
+  private _deletionCharacter?: string;
   public get deletionCharacter() {
     return this.getStringAttribute('deletion_character');
   }
@@ -17575,7 +17575,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_character - computed: true, optional: true, required: false
-  private _endCharacter?: string; 
+  private _endCharacter?: string;
   public get endCharacter() {
     return this.getStringAttribute('end_character');
   }
@@ -17591,7 +17591,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number; 
+  private _endTimeoutMs?: number;
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -17607,7 +17607,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number; 
+  private _maxLength?: number;
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -17626,19 +17626,19 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Specifies the audio input specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
   */
   readonly audioSpecification?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification;
   /**
   * Specifies the settings on DTMF input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
   */
   readonly dtmfSpecification?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification;
   /**
   * Time for which a bot waits before assuming that the customer isn't going to speak or press a key. This timeout is shared between Audio and DTMF inputs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
   */
   readonly startTimeoutMs?: number;
 }
@@ -17773,7 +17773,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number; 
+  private _startTimeoutMs?: number;
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -17792,7 +17792,7 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Time for which a bot waits before re-prompting a customer for text input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
   */
   readonly startTimeoutMs?: number;
 }
@@ -17869,7 +17869,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number; 
+  private _startTimeoutMs?: number;
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -17888,25 +17888,25 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Indicates whether the user can interrupt a speech prompt attempt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * Specifies the allowed input types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
   */
   readonly allowedInputTypes?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes;
   /**
   * Specifies the audio and DTMF input specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
   */
   readonly audioAndDtmfInputSpecification?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification;
   /**
   * Specifies the text input specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
   */
   readonly textInputSpecification?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification;
 }
@@ -18023,7 +18023,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -18109,31 +18109,31 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStruct[] | cdktn.IResolvable;
   /**
   * Indicates how a message is selected from a message group among retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
   */
   readonly messageSelectionStrategy?: string;
   /**
   * Specifies the advanced settings on each attempt of the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
   */
   readonly promptAttemptsSpecification?: { [key: string]: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecification } | cdktn.IResolvable;
 }
@@ -18262,7 +18262,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -18278,7 +18278,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number; 
+  private _maxRetries?: number;
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -18310,7 +18310,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // message_selection_strategy - computed: true, optional: true, required: false
-  private _messageSelectionStrategy?: string; 
+  private _messageSelectionStrategy?: string;
   public get messageSelectionStrategy() {
     return this.getStringAttribute('message_selection_strategy');
   }
@@ -18345,17 +18345,17 @@ export interface LexBotBotLocalesIntentsIntentConfirmationSetting {
   /**
   * A list of message groups that Amazon Lex uses to respond the user input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
   */
   readonly declinationResponse?: LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#is_active LexBot#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#is_active LexBot#is_active}
   */
   readonly isActive?: boolean | cdktn.IResolvable;
   /**
   * Prompts the user to confirm the intent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
   */
   readonly promptSpecification?: LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification;
 }
@@ -18474,7 +18474,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingOutputReference ext
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable; 
+  private _isActive?: boolean | cdktn.IResolvable;
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -18509,19 +18509,19 @@ export interface LexBotBotLocalesIntentsKendraConfiguration {
   /**
   * The Amazon Resource Name (ARN) of the Amazon Kendra index that you want the AMAZON.KendraSearchIntent intent to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
   */
   readonly kendraIndex?: string;
   /**
   * A query filter that Amazon Lex sends to Amazon Kendra to filter the response from a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
   */
   readonly queryFilterString?: string;
   /**
   * Determines whether the AMAZON.KendraSearchIntent intent uses a custom query string to query the Amazon Kendra index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
   */
   readonly queryFilterStringEnabled?: boolean | cdktn.IResolvable;
 }
@@ -18624,7 +18624,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // kendra_index - computed: true, optional: true, required: false
-  private _kendraIndex?: string; 
+  private _kendraIndex?: string;
   public get kendraIndex() {
     return this.getStringAttribute('kendra_index');
   }
@@ -18640,7 +18640,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // query_filter_string - computed: true, optional: true, required: false
-  private _queryFilterString?: string; 
+  private _queryFilterString?: string;
   public get queryFilterString() {
     return this.getStringAttribute('query_filter_string');
   }
@@ -18656,7 +18656,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // query_filter_string_enabled - computed: true, optional: true, required: false
-  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable; 
+  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable;
   public get queryFilterStringEnabled() {
     return this.getBooleanAttribute('query_filter_string_enabled');
   }
@@ -18675,19 +18675,19 @@ export interface LexBotBotLocalesIntentsOutputContexts {
   /**
   * Unique name for a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#name LexBot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#name LexBot#name}
   */
   readonly name?: string;
   /**
   * The amount of time, in seconds, that the output context should remain active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
   */
   readonly timeToLiveInSeconds?: number;
   /**
   * The number of conversation turns that the output context should remain active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
   */
   readonly turnsToLive?: number;
 }
@@ -18792,7 +18792,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18808,7 +18808,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // time_to_live_in_seconds - computed: true, optional: true, required: false
-  private _timeToLiveInSeconds?: number; 
+  private _timeToLiveInSeconds?: number;
   public get timeToLiveInSeconds() {
     return this.getNumberAttribute('time_to_live_in_seconds');
   }
@@ -18824,7 +18824,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // turns_to_live - computed: true, optional: true, required: false
-  private _turnsToLive?: number; 
+  private _turnsToLive?: number;
   public get turnsToLive() {
     return this.getNumberAttribute('turns_to_live');
   }
@@ -18863,7 +18863,7 @@ export interface LexBotBotLocalesIntentsSampleUtterances {
   /**
   * The sample utterance that Amazon Lex uses to build its machine-learning model to recognize intents/slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#utterance LexBot#utterance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#utterance LexBot#utterance}
   */
   readonly utterance?: string;
 }
@@ -18942,7 +18942,7 @@ export class LexBotBotLocalesIntentsSampleUtterancesOutputReference extends cdkt
   }
 
   // utterance - computed: true, optional: true, required: false
-  private _utterance?: string; 
+  private _utterance?: string;
   public get utterance() {
     return this.getStringAttribute('utterance');
   }
@@ -18981,13 +18981,13 @@ export interface LexBotBotLocalesIntentsSlotPriorities {
   /**
   * The priority that a slot should be elicited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#priority LexBot#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#priority LexBot#priority}
   */
   readonly priority?: number;
   /**
   * The name of the slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
   */
   readonly slotName?: string;
 }
@@ -19079,7 +19079,7 @@ export class LexBotBotLocalesIntentsSlotPrioritiesOutputReference extends cdktn.
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -19095,7 +19095,7 @@ export class LexBotBotLocalesIntentsSlotPrioritiesOutputReference extends cdktn.
   }
 
   // slot_name - computed: true, optional: true, required: false
-  private _slotName?: string; 
+  private _slotName?: string;
   public get slotName() {
     return this.getStringAttribute('slot_name');
   }
@@ -19132,7 +19132,7 @@ export class LexBotBotLocalesIntentsSlotPrioritiesList extends cdktn.ComplexList
 }
 export interface LexBotBotLocalesIntentsSlotsMultipleValuesSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}
   */
   readonly allowMultipleValues?: boolean | cdktn.IResolvable;
 }
@@ -19209,7 +19209,7 @@ export class LexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference ex
   }
 
   // allow_multiple_values - computed: true, optional: true, required: false
-  private _allowMultipleValues?: boolean | cdktn.IResolvable; 
+  private _allowMultipleValues?: boolean | cdktn.IResolvable;
   public get allowMultipleValues() {
     return this.getBooleanAttribute('allow_multiple_values');
   }
@@ -19228,7 +19228,7 @@ export interface LexBotBotLocalesIntentsSlotsObfuscationSetting {
   /**
   * Value that determines whether Amazon Lex obscures slot values in conversation logs. The default is to obscure the values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
   */
   readonly obfuscationSettingType?: string;
 }
@@ -19305,7 +19305,7 @@ export class LexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference exten
   }
 
   // obfuscation_setting_type - computed: true, optional: true, required: false
-  private _obfuscationSettingType?: string; 
+  private _obfuscationSettingType?: string;
   public get obfuscationSettingType() {
     return this.getStringAttribute('obfuscation_setting_type');
   }
@@ -19324,7 +19324,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValue
   /**
   * The default value to use when a user doesn't provide a value for a slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#default_value LexBot#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#default_value LexBot#default_value}
   */
   readonly defaultValue?: string;
 }
@@ -19403,7 +19403,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpec
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string; 
+  private _defaultValue?: string;
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -19442,7 +19442,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValue
   /**
   * A list of slot default values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
   */
   readonly defaultValueList?: LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct[] | cdktn.IResolvable;
 }
@@ -19538,7 +19538,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -19615,7 +19615,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -19634,13 +19634,13 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -19732,7 +19732,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -19748,7 +19748,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -19787,25 +19787,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -19937,7 +19937,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -19953,7 +19953,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -19969,7 +19969,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -19988,7 +19988,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -20065,7 +20065,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20084,7 +20084,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -20161,7 +20161,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20180,25 +20180,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage;
 }
@@ -20381,7 +20381,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The string that is sent to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -20458,7 +20458,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20477,13 +20477,13 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The text that appears on the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text LexBot#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text LexBot#text}
   */
   readonly text?: string;
   /**
   * The value returned to Amazon Lex when the user chooses this button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -20575,7 +20575,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -20591,7 +20591,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20630,25 +20630,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * A list of buttons that should be displayed on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#buttons LexBot#buttons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#buttons LexBot#buttons}
   */
   readonly buttons?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons[] | cdktn.IResolvable;
   /**
   * The URL of an image to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_url LexBot#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_url LexBot#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The subtitle to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
   */
   readonly subtitle?: string;
   /**
   * The title to display on the response card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#title LexBot#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#title LexBot#title}
   */
   readonly title?: string;
 }
@@ -20780,7 +20780,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string; 
+  private _imageUrl?: string;
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -20796,7 +20796,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string; 
+  private _subtitle?: string;
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -20812,7 +20812,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -20831,7 +20831,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The message to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -20908,7 +20908,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20927,7 +20927,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The SSML text that defines the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#value LexBot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#value LexBot#value}
   */
   readonly value?: string;
 }
@@ -21004,7 +21004,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -21023,25 +21023,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * A message in a custom format defined by the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
   */
   readonly customPayload?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload;
   /**
   * A message that defines a response card that the client application can show to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
   */
   readonly imageResponseCard?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard;
   /**
   * A message in plain text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
   */
   readonly plainTextMessage?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage;
   /**
   * A message in Speech Synthesis Markup Language (SSML).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
   */
   readonly ssmlMessage?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage;
 }
@@ -21246,13 +21246,13 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The primary message that Amazon Lex should send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message LexBot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message LexBot#message}
   */
   readonly message?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage;
   /**
   * Message variations to send to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#variations LexBot#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#variations LexBot#variations}
   */
   readonly variations?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariations[] | cdktn.IResolvable;
 }
@@ -21399,13 +21399,13 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Indicates whether audio input is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
   */
   readonly allowAudioInput?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether DTMF input is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
   */
   readonly allowDtmfInput?: boolean | cdktn.IResolvable;
 }
@@ -21495,7 +21495,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_audio_input - computed: true, optional: true, required: false
-  private _allowAudioInput?: boolean | cdktn.IResolvable; 
+  private _allowAudioInput?: boolean | cdktn.IResolvable;
   public get allowAudioInput() {
     return this.getBooleanAttribute('allow_audio_input');
   }
@@ -21511,7 +21511,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_dtmf_input - computed: true, optional: true, required: false
-  private _allowDtmfInput?: boolean | cdktn.IResolvable; 
+  private _allowDtmfInput?: boolean | cdktn.IResolvable;
   public get allowDtmfInput() {
     return this.getBooleanAttribute('allow_dtmf_input');
   }
@@ -21530,13 +21530,13 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
   */
   readonly endTimeoutMs?: number;
   /**
   * Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
   */
   readonly maxLengthMs?: number;
 }
@@ -21626,7 +21626,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number; 
+  private _endTimeoutMs?: number;
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -21642,7 +21642,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_length_ms - computed: true, optional: true, required: false
-  private _maxLengthMs?: number; 
+  private _maxLengthMs?: number;
   public get maxLengthMs() {
     return this.getNumberAttribute('max_length_ms');
   }
@@ -21661,25 +21661,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
   */
   readonly deletionCharacter?: string;
   /**
   * The DTMF character that immediately ends input. If the user does not press this character, the input ends after the end timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_character LexBot#end_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_character LexBot#end_character}
   */
   readonly endCharacter?: string;
   /**
   * How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
   */
   readonly endTimeoutMs?: number;
   /**
   * The maximum number of DTMF digits allowed in an utterance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_length LexBot#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_length LexBot#max_length}
   */
   readonly maxLength?: number;
 }
@@ -21795,7 +21795,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // deletion_character - computed: true, optional: true, required: false
-  private _deletionCharacter?: string; 
+  private _deletionCharacter?: string;
   public get deletionCharacter() {
     return this.getStringAttribute('deletion_character');
   }
@@ -21811,7 +21811,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_character - computed: true, optional: true, required: false
-  private _endCharacter?: string; 
+  private _endCharacter?: string;
   public get endCharacter() {
     return this.getStringAttribute('end_character');
   }
@@ -21827,7 +21827,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number; 
+  private _endTimeoutMs?: number;
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -21843,7 +21843,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number; 
+  private _maxLength?: number;
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -21862,19 +21862,19 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Specifies the audio input specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
   */
   readonly audioSpecification?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification;
   /**
   * Specifies the settings on DTMF input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
   */
   readonly dtmfSpecification?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification;
   /**
   * Time for which a bot waits before assuming that the customer isn't going to speak or press a key. This timeout is shared between Audio and DTMF inputs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
   */
   readonly startTimeoutMs?: number;
 }
@@ -22009,7 +22009,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number; 
+  private _startTimeoutMs?: number;
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -22028,7 +22028,7 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Time for which a bot waits before re-prompting a customer for text input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
   */
   readonly startTimeoutMs?: number;
 }
@@ -22105,7 +22105,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number; 
+  private _startTimeoutMs?: number;
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -22124,25 +22124,25 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Indicates whether the user can interrupt a speech prompt attempt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * Specifies the allowed input types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
   */
   readonly allowedInputTypes?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes;
   /**
   * Specifies the audio and DTMF input specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
   */
   readonly audioAndDtmfInputSpecification?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification;
   /**
   * Specifies the text input specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
   */
   readonly textInputSpecification?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification;
 }
@@ -22259,7 +22259,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -22345,31 +22345,31 @@ export interface LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
   /**
   * Indicates whether the user can interrupt a speech prompt from the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
   */
   readonly allowInterrupt?: boolean | cdktn.IResolvable;
   /**
   * The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * One to 5 message groups that contain update messages. Amazon Lex chooses one of the messages to play to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
   */
   readonly messageGroupsList?: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStruct[] | cdktn.IResolvable;
   /**
   * Indicates how a message is selected from a message group among retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
   */
   readonly messageSelectionStrategy?: string;
   /**
   * Specifies the advanced settings on each attempt of the prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
   */
   readonly promptAttemptsSpecification?: { [key: string]: LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecification } | cdktn.IResolvable;
 }
@@ -22498,7 +22498,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable; 
+  private _allowInterrupt?: boolean | cdktn.IResolvable;
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -22514,7 +22514,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number; 
+  private _maxRetries?: number;
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -22546,7 +22546,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // message_selection_strategy - computed: true, optional: true, required: false
-  private _messageSelectionStrategy?: string; 
+  private _messageSelectionStrategy?: string;
   public get messageSelectionStrategy() {
     return this.getStringAttribute('message_selection_strategy');
   }

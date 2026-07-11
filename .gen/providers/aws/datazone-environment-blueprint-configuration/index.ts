@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface DatazoneEnvironmentBlueprintConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#domain_id DatazoneEnvironmentBlueprintConfiguration#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#domain_id DatazoneEnvironmentBlueprintConfiguration#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#enabled_regions DatazoneEnvironmentBlueprintConfiguration#enabled_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#enabled_regions DatazoneEnvironmentBlueprintConfiguration#enabled_regions}
   */
   readonly enabledRegions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#environment_blueprint_id DatazoneEnvironmentBlueprintConfiguration#environment_blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#environment_blueprint_id DatazoneEnvironmentBlueprintConfiguration#environment_blueprint_id}
   */
   readonly environmentBlueprintId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#global_parameters DatazoneEnvironmentBlueprintConfiguration#global_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#global_parameters DatazoneEnvironmentBlueprintConfiguration#global_parameters}
   */
   readonly globalParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#manage_access_role_arn DatazoneEnvironmentBlueprintConfiguration#manage_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#manage_access_role_arn DatazoneEnvironmentBlueprintConfiguration#manage_access_role_arn}
   */
   readonly manageAccessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#provisioning_role_arn DatazoneEnvironmentBlueprintConfiguration#provisioning_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#provisioning_role_arn DatazoneEnvironmentBlueprintConfiguration#provisioning_role_arn}
   */
   readonly provisioningRoleArn?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#region DatazoneEnvironmentBlueprintConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#region DatazoneEnvironmentBlueprintConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#regional_parameters DatazoneEnvironmentBlueprintConfiguration#regional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#regional_parameters DatazoneEnvironmentBlueprintConfiguration#regional_parameters}
   */
   readonly regionalParameters?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration}
 */
 export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformResource {
 
@@ -60,7 +60,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   * Generates CDKTN code for importing a DatazoneEnvironmentBlueprintConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneEnvironmentBlueprintConfiguration to import
-  * @param importFromId The id of the existing DatazoneEnvironmentBlueprintConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneEnvironmentBlueprintConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneEnvironmentBlueprintConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -72,7 +72,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,7 +83,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
       terraformResourceType: 'aws_datazone_environment_blueprint_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,7 +108,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   // ==========
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string; 
+  private _domainId?: string;
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -121,7 +121,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // enabled_regions - computed: false, optional: false, required: true
-  private _enabledRegions?: string[]; 
+  private _enabledRegions?: string[];
   public get enabledRegions() {
     return this.getListAttribute('enabled_regions');
   }
@@ -134,7 +134,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // environment_blueprint_id - computed: false, optional: false, required: true
-  private _environmentBlueprintId?: string; 
+  private _environmentBlueprintId?: string;
   public get environmentBlueprintId() {
     return this.getStringAttribute('environment_blueprint_id');
   }
@@ -147,7 +147,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // global_parameters - computed: false, optional: true, required: false
-  private _globalParameters?: { [key: string]: string }; 
+  private _globalParameters?: { [key: string]: string };
   public get globalParameters() {
     return this.getStringMapAttribute('global_parameters');
   }
@@ -163,7 +163,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // manage_access_role_arn - computed: false, optional: true, required: false
-  private _manageAccessRoleArn?: string; 
+  private _manageAccessRoleArn?: string;
   public get manageAccessRoleArn() {
     return this.getStringAttribute('manage_access_role_arn');
   }
@@ -179,7 +179,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // provisioning_role_arn - computed: false, optional: true, required: false
-  private _provisioningRoleArn?: string; 
+  private _provisioningRoleArn?: string;
   public get provisioningRoleArn() {
     return this.getStringAttribute('provisioning_role_arn');
   }
@@ -195,7 +195,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // regional_parameters - computed: false, optional: true, required: false
-  private _regionalParameters?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable; 
+  private _regionalParameters?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
   public get regionalParameters() {
     return this.interpolationForAttribute('regional_parameters');
   }

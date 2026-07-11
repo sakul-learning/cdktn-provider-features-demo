@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsApigatewayv2ExportConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#api_id DataAwsApigatewayv2Export#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#api_id DataAwsApigatewayv2Export#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#export_version DataAwsApigatewayv2Export#export_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#export_version DataAwsApigatewayv2Export#export_version}
   */
   readonly exportVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#id DataAwsApigatewayv2Export#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#id DataAwsApigatewayv2Export#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#include_extensions DataAwsApigatewayv2Export#include_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#include_extensions DataAwsApigatewayv2Export#include_extensions}
   */
   readonly includeExtensions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#output_type DataAwsApigatewayv2Export#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#output_type DataAwsApigatewayv2Export#output_type}
   */
   readonly outputType: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#region DataAwsApigatewayv2Export#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#region DataAwsApigatewayv2Export#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#specification DataAwsApigatewayv2Export#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#specification DataAwsApigatewayv2Export#specification}
   */
   readonly specification: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#stage_name DataAwsApigatewayv2Export#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#stage_name DataAwsApigatewayv2Export#stage_name}
   */
   readonly stageName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}
 */
 export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsApigatewayv2Export resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsApigatewayv2Export to import
-  * @param importFromId The id of the existing DataAwsApigatewayv2Export that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsApigatewayv2Export that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsApigatewayv2Export to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_apigatewayv2_export',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -129,7 +129,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // export_version - computed: false, optional: true, required: false
-  private _exportVersion?: string; 
+  private _exportVersion?: string;
   public get exportVersion() {
     return this.getStringAttribute('export_version');
   }
@@ -145,7 +145,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // include_extensions - computed: false, optional: true, required: false
-  private _includeExtensions?: boolean | cdktn.IResolvable; 
+  private _includeExtensions?: boolean | cdktn.IResolvable;
   public get includeExtensions() {
     return this.getBooleanAttribute('include_extensions');
   }
@@ -177,7 +177,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // output_type - computed: false, optional: false, required: true
-  private _outputType?: string; 
+  private _outputType?: string;
   public get outputType() {
     return this.getStringAttribute('output_type');
   }
@@ -190,7 +190,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -206,7 +206,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // specification - computed: false, optional: false, required: true
-  private _specification?: string; 
+  private _specification?: string;
   public get specification() {
     return this.getStringAttribute('specification');
   }
@@ -219,7 +219,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // stage_name - computed: false, optional: true, required: false
-  private _stageName?: string; 
+  private _stageName?: string;
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,187 +10,187 @@ export interface MwaaEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Key/value pairs representing Airflow configuration variables.
   *     Keys are prefixed by their section:
-  * 
+  *
   *     [core]
   *     dags_folder={AIRFLOW_HOME}/dags
-  * 
+  *
   *     Would be represented as
-  * 
+  *
   *     "core.dags_folder": "{AIRFLOW_HOME}/dags"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
   */
   readonly airflowConfigurationOptions?: string;
   /**
   * Version of airflow to deploy to the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
   */
   readonly airflowVersion?: string;
   /**
   * Represents an S3 prefix relative to the root of an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
   */
   readonly dagS3Path?: string;
   /**
   * Defines whether the VPC endpoints configured for the environment are created, and managed, by the customer or by Amazon MWAA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
   */
   readonly endpointManagement?: string;
   /**
   * Templated configuration for airflow processes and backing infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
   */
   readonly environmentClass?: string;
   /**
   * IAM role to be used by tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
   * The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to use for MWAA data encryption.
-  * 
+  *
   *     You can specify the CMK using any of the following:
-  * 
+  *
   *     Key ID. For example, key/1234abcd-12ab-34cd-56ef-1234567890ab.
-  * 
+  *
   *     Key alias. For example, alias/ExampleAlias.
-  * 
+  *
   *     Key ARN. For example, arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef.
-  * 
+  *
   *     Alias ARN. For example, arn:aws:kms:us-east-1:012345678910:alias/ExampleAlias.
-  * 
+  *
   *     AWS authenticates the CMK asynchronously. Therefore, if you specify an ID, alias, or ARN that is not valid, the action can appear to complete, but eventually fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * Logging configuration for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
   */
   readonly loggingConfiguration?: MwaaEnvironmentLoggingConfiguration;
   /**
   * Maximum webserver compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
   */
   readonly maxWebservers?: number;
   /**
   * Maximum worker compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
   */
   readonly maxWorkers?: number;
   /**
   * Minimum webserver compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
   */
   readonly minWebservers?: number;
   /**
   * Minimum worker compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
   */
   readonly minWorkers?: number;
   /**
   * Customer-defined identifier for the environment, unique per customer region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
   */
   readonly name: string;
   /**
   * Configures the network resources of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
   */
   readonly networkConfiguration?: MwaaEnvironmentNetworkConfiguration;
   /**
   * Represents an version ID for an S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
   */
   readonly pluginsS3ObjectVersion?: string;
   /**
   * Represents an S3 prefix relative to the root of an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
   */
   readonly pluginsS3Path?: string;
   /**
   * Represents an version ID for an S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
   */
   readonly requirementsS3ObjectVersion?: string;
   /**
   * Represents an S3 prefix relative to the root of an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
   */
   readonly requirementsS3Path?: string;
   /**
   * Scheduler compute units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
   */
   readonly schedulers?: number;
   /**
   * ARN for the AWS S3 bucket to use as the source of DAGs and plugins for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
   */
   readonly sourceBucketArn?: string;
   /**
   * Represents an version ID for an S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
   */
   readonly startupScriptS3ObjectVersion?: string;
   /**
   * Represents an S3 prefix relative to the root of an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
   */
   readonly startupScriptS3Path?: string;
   /**
   * A map of tags for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
   */
   readonly tags?: string;
   /**
   * Choice for mode of webserver access including over public internet or via private VPC endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
   */
   readonly webserverAccessMode?: string;
   /**
   * Start time for the weekly maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
   */
   readonly weeklyMaintenanceWindowStart?: string;
   /**
   * The worker replacement strategy to use when updating the environment. Valid values: `FORCED`, `GRACEFUL`. FORCED means Apache Airflow workers will be stopped and replaced without waiting for tasks to complete before an update. GRACEFUL means Apache Airflow workers will be able to complete running tasks for up to 12 hours during an update before being stopped and replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
   */
   readonly workerReplacementStrategy?: string;
 }
 export interface MwaaEnvironmentLoggingConfigurationDagProcessingLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -285,7 +285,7 @@ export class MwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -301,7 +301,7 @@ export class MwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -318,11 +318,11 @@ export class MwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference
 }
 export interface MwaaEnvironmentLoggingConfigurationSchedulerLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -417,7 +417,7 @@ export class MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference ext
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -433,7 +433,7 @@ export class MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference ext
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -450,11 +450,11 @@ export class MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference ext
 }
 export interface MwaaEnvironmentLoggingConfigurationTaskLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -549,7 +549,7 @@ export class MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference extends 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -565,7 +565,7 @@ export class MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference extends 
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -582,11 +582,11 @@ export class MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference extends 
 }
 export interface MwaaEnvironmentLoggingConfigurationWebserverLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -681,7 +681,7 @@ export class MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference ext
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -697,7 +697,7 @@ export class MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference ext
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -714,11 +714,11 @@ export class MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference ext
 }
 export interface MwaaEnvironmentLoggingConfigurationWorkerLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -813,7 +813,7 @@ export class MwaaEnvironmentLoggingConfigurationWorkerLogsOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -829,7 +829,7 @@ export class MwaaEnvironmentLoggingConfigurationWorkerLogsOutputReference extend
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -848,31 +848,31 @@ export interface MwaaEnvironmentLoggingConfiguration {
   /**
   * Logging configuration for a specific airflow component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#dag_processing_logs MwaaEnvironment#dag_processing_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#dag_processing_logs MwaaEnvironment#dag_processing_logs}
   */
   readonly dagProcessingLogs?: MwaaEnvironmentLoggingConfigurationDagProcessingLogs;
   /**
   * Logging configuration for a specific airflow component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#scheduler_logs MwaaEnvironment#scheduler_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#scheduler_logs MwaaEnvironment#scheduler_logs}
   */
   readonly schedulerLogs?: MwaaEnvironmentLoggingConfigurationSchedulerLogs;
   /**
   * Logging configuration for a specific airflow component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#task_logs MwaaEnvironment#task_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#task_logs MwaaEnvironment#task_logs}
   */
   readonly taskLogs?: MwaaEnvironmentLoggingConfigurationTaskLogs;
   /**
   * Logging configuration for a specific airflow component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#webserver_logs MwaaEnvironment#webserver_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#webserver_logs MwaaEnvironment#webserver_logs}
   */
   readonly webserverLogs?: MwaaEnvironmentLoggingConfigurationWebserverLogs;
   /**
   * Logging configuration for a specific airflow component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#worker_logs MwaaEnvironment#worker_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#worker_logs MwaaEnvironment#worker_logs}
   */
   readonly workerLogs?: MwaaEnvironmentLoggingConfigurationWorkerLogs;
 }
@@ -1084,13 +1084,13 @@ export interface MwaaEnvironmentNetworkConfiguration {
   /**
   * A list of security groups to use for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * A list of subnets to use for the environment. These must be private subnets, in the same VPC, in two different availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -1180,7 +1180,7 @@ export class MwaaEnvironmentNetworkConfigurationOutputReference extends cdktn.Co
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1196,7 +1196,7 @@ export class MwaaEnvironmentNetworkConfigurationOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1213,7 +1213,7 @@ export class MwaaEnvironmentNetworkConfigurationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment awscc_mwaa_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment awscc_mwaa_environment}
 */
 export class MwaaEnvironment extends cdktn.TerraformResource {
 
@@ -1229,7 +1229,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MwaaEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MwaaEnvironment to import
-  * @param importFromId The id of the existing MwaaEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MwaaEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MwaaEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1241,7 +1241,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mwaa_environment awscc_mwaa_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mwaa_environment awscc_mwaa_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1252,7 +1252,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mwaa_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1295,7 +1295,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // airflow_configuration_options - computed: true, optional: true, required: false
-  private _airflowConfigurationOptions?: string; 
+  private _airflowConfigurationOptions?: string;
   public get airflowConfigurationOptions() {
     return this.getStringAttribute('airflow_configuration_options');
   }
@@ -1311,7 +1311,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // airflow_version - computed: true, optional: true, required: false
-  private _airflowVersion?: string; 
+  private _airflowVersion?: string;
   public get airflowVersion() {
     return this.getStringAttribute('airflow_version');
   }
@@ -1337,7 +1337,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // dag_s3_path - computed: true, optional: true, required: false
-  private _dagS3Path?: string; 
+  private _dagS3Path?: string;
   public get dagS3Path() {
     return this.getStringAttribute('dag_s3_path');
   }
@@ -1358,7 +1358,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // endpoint_management - computed: true, optional: true, required: false
-  private _endpointManagement?: string; 
+  private _endpointManagement?: string;
   public get endpointManagement() {
     return this.getStringAttribute('endpoint_management');
   }
@@ -1374,7 +1374,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_class - computed: true, optional: true, required: false
-  private _environmentClass?: string; 
+  private _environmentClass?: string;
   public get environmentClass() {
     return this.getStringAttribute('environment_class');
   }
@@ -1390,7 +1390,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1411,7 +1411,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string; 
+  private _kmsKey?: string;
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1443,7 +1443,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // max_webservers - computed: true, optional: true, required: false
-  private _maxWebservers?: number; 
+  private _maxWebservers?: number;
   public get maxWebservers() {
     return this.getNumberAttribute('max_webservers');
   }
@@ -1459,7 +1459,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // max_workers - computed: true, optional: true, required: false
-  private _maxWorkers?: number; 
+  private _maxWorkers?: number;
   public get maxWorkers() {
     return this.getNumberAttribute('max_workers');
   }
@@ -1475,7 +1475,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // min_webservers - computed: true, optional: true, required: false
-  private _minWebservers?: number; 
+  private _minWebservers?: number;
   public get minWebservers() {
     return this.getNumberAttribute('min_webservers');
   }
@@ -1491,7 +1491,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // min_workers - computed: true, optional: true, required: false
-  private _minWorkers?: number; 
+  private _minWorkers?: number;
   public get minWorkers() {
     return this.getNumberAttribute('min_workers');
   }
@@ -1507,7 +1507,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1536,7 +1536,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // plugins_s3_object_version - computed: true, optional: true, required: false
-  private _pluginsS3ObjectVersion?: string; 
+  private _pluginsS3ObjectVersion?: string;
   public get pluginsS3ObjectVersion() {
     return this.getStringAttribute('plugins_s3_object_version');
   }
@@ -1552,7 +1552,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // plugins_s3_path - computed: true, optional: true, required: false
-  private _pluginsS3Path?: string; 
+  private _pluginsS3Path?: string;
   public get pluginsS3Path() {
     return this.getStringAttribute('plugins_s3_path');
   }
@@ -1568,7 +1568,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // requirements_s3_object_version - computed: true, optional: true, required: false
-  private _requirementsS3ObjectVersion?: string; 
+  private _requirementsS3ObjectVersion?: string;
   public get requirementsS3ObjectVersion() {
     return this.getStringAttribute('requirements_s3_object_version');
   }
@@ -1584,7 +1584,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // requirements_s3_path - computed: true, optional: true, required: false
-  private _requirementsS3Path?: string; 
+  private _requirementsS3Path?: string;
   public get requirementsS3Path() {
     return this.getStringAttribute('requirements_s3_path');
   }
@@ -1600,7 +1600,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // schedulers - computed: true, optional: true, required: false
-  private _schedulers?: number; 
+  private _schedulers?: number;
   public get schedulers() {
     return this.getNumberAttribute('schedulers');
   }
@@ -1616,7 +1616,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // source_bucket_arn - computed: true, optional: true, required: false
-  private _sourceBucketArn?: string; 
+  private _sourceBucketArn?: string;
   public get sourceBucketArn() {
     return this.getStringAttribute('source_bucket_arn');
   }
@@ -1632,7 +1632,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // startup_script_s3_object_version - computed: true, optional: true, required: false
-  private _startupScriptS3ObjectVersion?: string; 
+  private _startupScriptS3ObjectVersion?: string;
   public get startupScriptS3ObjectVersion() {
     return this.getStringAttribute('startup_script_s3_object_version');
   }
@@ -1648,7 +1648,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // startup_script_s3_path - computed: true, optional: true, required: false
-  private _startupScriptS3Path?: string; 
+  private _startupScriptS3Path?: string;
   public get startupScriptS3Path() {
     return this.getStringAttribute('startup_script_s3_path');
   }
@@ -1664,7 +1664,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string; 
+  private _tags?: string;
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -1680,7 +1680,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // webserver_access_mode - computed: true, optional: true, required: false
-  private _webserverAccessMode?: string; 
+  private _webserverAccessMode?: string;
   public get webserverAccessMode() {
     return this.getStringAttribute('webserver_access_mode');
   }
@@ -1706,7 +1706,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string; 
+  private _weeklyMaintenanceWindowStart?: string;
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }
@@ -1722,7 +1722,7 @@ export class MwaaEnvironment extends cdktn.TerraformResource {
   }
 
   // worker_replacement_strategy - computed: true, optional: true, required: false
-  private _workerReplacementStrategy?: string; 
+  private _workerReplacementStrategy?: string;
   public get workerReplacementStrategy() {
     return this.getStringAttribute('worker_replacement_strategy');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsRedshiftProducerDataSharesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares#producer_arn DataAwsRedshiftProducerDataShares#producer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares#producer_arn DataAwsRedshiftProducerDataShares#producer_arn}
   */
   readonly producerArn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares#region DataAwsRedshiftProducerDataShares#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares#region DataAwsRedshiftProducerDataShares#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares#status DataAwsRedshiftProducerDataShares#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares#status DataAwsRedshiftProducerDataShares#status}
   */
   readonly status?: string;
 }
@@ -109,7 +109,7 @@ export class DataAwsRedshiftProducerDataSharesDataSharesList extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares aws_redshift_producer_data_shares}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares aws_redshift_producer_data_shares}
 */
 export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsRedshiftProducerDataShares resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsRedshiftProducerDataShares to import
-  * @param importFromId The id of the existing DataAwsRedshiftProducerDataShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsRedshiftProducerDataShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsRedshiftProducerDataShares to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/redshift_producer_data_shares aws_redshift_producer_data_shares} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/redshift_producer_data_shares aws_redshift_producer_data_shares} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +148,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
       terraformResourceType: 'aws_redshift_producer_data_shares',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -179,7 +179,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // producer_arn - computed: false, optional: false, required: true
-  private _producerArn?: string; 
+  private _producerArn?: string;
   public get producerArn() {
     return this.getStringAttribute('producer_arn');
   }
@@ -192,7 +192,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -208,7 +208,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

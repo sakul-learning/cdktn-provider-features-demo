@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,85 +12,85 @@ export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   *  This property is required to create a DDB table.
   *  Update requires: [Some interruptions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-some-interrupt). Replacement if you edit an existing AttributeDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
   */
   readonly attributeDefinitions?: DynamodbTableAttributeDefinitions[] | cdktn.IResolvable;
   /**
   * Specify how you are charged for read and write throughput and how you manage capacity.
   *  Valid values include:
-  *   +  ``PAY_PER_REQUEST`` - We recommend using ``PAY_PER_REQUEST`` for most DynamoDB workloads. ``PAY_PER_REQUEST`` sets the billing mode to [On-demand capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode.html). 
+  *   +  ``PAY_PER_REQUEST`` - We recommend using ``PAY_PER_REQUEST`` for most DynamoDB workloads. ``PAY_PER_REQUEST`` sets the billing mode to [On-demand capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode.html).
   *   +  ``PROVISIONED`` - We recommend using ``PROVISIONED`` for steady workloads with predictable growth where capacity requirements can be reliably forecasted. ``PROVISIONED`` sets the billing mode to [Provisioned capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/provisioned-capacity-mode.html).
-  *   
+  *
   *  If not specified, the default is ``PROVISIONED``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
   */
   readonly billingMode?: string;
   /**
   * The settings used to specify whether to enable CloudWatch Contributor Insights for the table and define which events to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
   */
   readonly contributorInsightsSpecification?: DynamodbTableContributorInsightsSpecification;
   /**
   * Determines if a table is protected from deletion. When enabled, the table cannot be deleted by any user or process. This setting is disabled by default. For more information, see [Using deletion protection](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.Basics.html#WorkingWithTables.Basics.DeletionProtection) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Global secondary indexes to be created on the table. You can create up to 20 global secondary indexes.
   *   If you update a table to include a new global secondary index, CFNlong initiates the index creation and then proceeds with the stack update. CFNlong doesn't wait for the index to complete creation because the backfilling phase can take a long time, depending on the size of the table. You can't use the index or update the table until the index's status is ``ACTIVE``. You can track its status by using the DynamoDB [DescribeTable](https://docs.aws.amazon.com/cli/latest/reference/dynamodb/describe-table.html) command.
-  *  If you add or delete an index during an update, we recommend that you don't update any other resources. If your stack fails to update and is rolled back while adding a new index, you must manually delete the index. 
+  *  If you add or delete an index during an update, we recommend that you don't update any other resources. If your stack fails to update and is rolled back while adding a new index, you must manually delete the index.
   *  Updates are not supported. The following are exceptions:
   *   +  If you update either the contributor insights specification or the provisioned throughput values of global secondary indexes, you can update the table without interruption.
   *   +  You can delete or add one global secondary index without interruption. If you do both in the same update (for example, by changing the index's logical ID), the update fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
   */
   readonly globalSecondaryIndexes?: DynamodbTableGlobalSecondaryIndexes[] | cdktn.IResolvable;
   /**
   * Specifies the properties of data being imported from the S3 bucket source to the" table.
   *   If you specify the ``ImportSourceSpecification`` property, and also specify either the ``StreamSpecification``, the ``TableClass`` property, the ``DeletionProtectionEnabled`` property, or the ``WarmThroughput`` property, the IAM entity creating/updating stack must have ``UpdateTable`` permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
   */
   readonly importSourceSpecification?: DynamodbTableImportSourceSpecification;
   /**
   * Specifies the attributes that make up the primary key for the table. The attributes in the ``KeySchema`` property must also be defined in the ``AttributeDefinitions`` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
   */
   readonly keySchema: string;
   /**
   * The Kinesis Data Streams configuration for the specified table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
   */
   readonly kinesisStreamSpecification?: DynamodbTableKinesisStreamSpecification;
   /**
   * Local secondary indexes to be created on the table. You can create up to 5 local secondary indexes. Each index is scoped to a given hash key value. The size of each hash key can be up to 10 gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
   */
   readonly localSecondaryIndexes?: DynamodbTableLocalSecondaryIndexes[] | cdktn.IResolvable;
   /**
   * Sets the maximum number of read and write units for the specified on-demand table. If you use this property, you must specify ``MaxReadRequestUnits``, ``MaxWriteRequestUnits``, or both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
   */
   readonly onDemandThroughput?: DynamodbTableOnDemandThroughput;
   /**
   * The settings used to enable point in time recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
   */
   readonly pointInTimeRecoverySpecification?: DynamodbTablePointInTimeRecoverySpecification;
   /**
-  * Throughput for the specified table, which consists of values for ``ReadCapacityUnits`` and ``WriteCapacityUnits``. For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html). 
+  * Throughput for the specified table, which consists of values for ``ReadCapacityUnits`` and ``WriteCapacityUnits``. For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html).
   *  If you set ``BillingMode`` as ``PROVISIONED``, you must specify this property. If you set ``BillingMode`` as ``PAY_PER_REQUEST``, you cannot specify this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
   */
   readonly provisionedThroughput?: DynamodbTableProvisionedThroughput;
   /**
@@ -99,52 +99,52 @@ export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   *  The maximum size supported for a resource-based policy document is 20 KB. DynamoDB counts whitespaces when calculating the size of a policy against this limit. For a full list of all considerations that apply for resource-based policies, see [Resource-based policy considerations](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-considerations.html).
   *   You need to specify the ``CreateTable`` and ``PutResourcePolicy`` IAM actions for authorizing a user to create a table with a resource-based policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
   */
   readonly resourcePolicy?: DynamodbTableResourcePolicy;
   /**
   * Specifies the settings to enable server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
   */
   readonly sseSpecification?: DynamodbTableSseSpecification;
   /**
   * The settings for the DDB table stream, which captures changes to items stored in the table. Including this property in your CFNlong template automatically enables streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
   */
   readonly streamSpecification?: DynamodbTableStreamSpecification;
   /**
   * The table class of the new table. Valid values are ``STANDARD`` and ``STANDARD_INFREQUENT_ACCESS``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
   */
   readonly tableClass?: string;
   /**
   * A name for the table. If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the table name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
   *   If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
   */
   readonly tableName?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
   */
   readonly tags?: DynamodbTableTags[] | cdktn.IResolvable;
   /**
   * Specifies the Time to Live (TTL) settings for the table.
   *   For detailed information about the limits in DynamoDB, see [Limits in Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
   */
   readonly timeToLiveSpecification?: DynamodbTableTimeToLiveSpecification;
   /**
   * Represents the warm throughput (in read units per second and write units per second) for creating a table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbTableWarmThroughput;
 }
@@ -152,7 +152,7 @@ export interface DynamodbTableAttributeDefinitions {
   /**
   * A name for the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
@@ -161,7 +161,7 @@ export interface DynamodbTableAttributeDefinitions {
   *   +  ``N`` - the attribute is of type Number
   *   +  ``B`` - the attribute is of type Binary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
   */
   readonly attributeType?: string;
 }
@@ -253,7 +253,7 @@ export class DynamodbTableAttributeDefinitionsOutputReference extends cdktn.Comp
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -269,7 +269,7 @@ export class DynamodbTableAttributeDefinitionsOutputReference extends cdktn.Comp
   }
 
   // attribute_type - computed: true, optional: true, required: false
-  private _attributeType?: string; 
+  private _attributeType?: string;
   public get attributeType() {
     return this.getStringAttribute('attribute_type');
   }
@@ -308,13 +308,13 @@ export interface DynamodbTableContributorInsightsSpecification {
   /**
   * Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the CloudWatch Contributor Insights mode for a table. Valid values are ``ACCESSED_AND_THROTTLED_KEYS`` (tracks all access and throttled events) or ``THROTTLED_KEYS`` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
   */
   readonly mode?: string;
 }
@@ -404,7 +404,7 @@ export class DynamodbTableContributorInsightsSpecificationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -420,7 +420,7 @@ export class DynamodbTableContributorInsightsSpecificationOutputReference extend
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -439,13 +439,13 @@ export interface DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecifica
   /**
   * Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the CloudWatch Contributor Insights mode for a table. Valid values are ``ACCESSED_AND_THROTTLED_KEYS`` (tracks all access and throttled events) or ``THROTTLED_KEYS`` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
   */
   readonly mode?: string;
 }
@@ -535,7 +535,7 @@ export class DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -551,7 +551,7 @@ export class DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -570,18 +570,18 @@ export interface DynamodbTableGlobalSecondaryIndexesKeySchema {
   /**
   * The name of a key attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The role that this key attribute will assume:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *   
+  *
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
   */
   readonly keyType?: string;
 }
@@ -673,7 +673,7 @@ export class DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference extends
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -689,7 +689,7 @@ export class DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference extends
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -729,14 +729,14 @@ export interface DynamodbTableGlobalSecondaryIndexesOnDemandThroughput {
   * Maximum number of read request units for the specified table.
   *  To specify a maximum ``OnDemandThroughput`` on your table, set the value of ``MaxReadRequestUnits`` as greater than or equal to 1. To remove the maximum ``OnDemandThroughput`` that is currently set on your table, set the value of ``MaxReadRequestUnits`` to -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
   /**
   * Maximum number of write request units for the specified table.
   *  To specify a maximum ``OnDemandThroughput`` on your table, set the value of ``MaxWriteRequestUnits`` as greater than or equal to 1. To remove the maximum ``OnDemandThroughput`` that is currently set on your table, set the value of ``MaxWriteRequestUnits`` to -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -826,7 +826,7 @@ export class DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReferenc
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -842,7 +842,7 @@ export class DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReferenc
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -862,7 +862,7 @@ export interface DynamodbTableGlobalSecondaryIndexesProjection {
   * Represents the non-key attribute names which will be projected into the index.
   *  For global and local secondary indexes, the total count of ``NonKeyAttributes`` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of ``INCLUDE``. You still can specify the ProjectionType of ``ALL`` to project all attributes from the source table, even if the table has more than 100 attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
@@ -870,10 +870,10 @@ export interface DynamodbTableGlobalSecondaryIndexesProjection {
   *   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
   *   +  ``INCLUDE`` - In addition to the attributes described in ``KEYS_ONLY``, the secondary index will include other non-key attributes that you specify.
   *   +  ``ALL`` - All of the table attributes are projected into the index.
-  *   
+  *
   *  When using the DynamoDB console, ``ALL`` is selected by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -963,7 +963,7 @@ export class DynamodbTableGlobalSecondaryIndexesProjectionOutputReference extend
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -979,7 +979,7 @@ export class DynamodbTableGlobalSecondaryIndexesProjectionOutputReference extend
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -999,14 +999,14 @@ export interface DynamodbTableGlobalSecondaryIndexesProvisionedThroughput {
   * The maximum number of strongly consistent reads consumed per second before DynamoDB returns a ``ThrottlingException``. For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
   *  If read/write capacity mode is ``PAY_PER_REQUEST`` the value is set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
   * The maximum number of writes consumed per second before DynamoDB returns a ``ThrottlingException``. For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
   *  If read/write capacity mode is ``PAY_PER_REQUEST`` the value is set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -1096,7 +1096,7 @@ export class DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputRefer
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -1112,7 +1112,7 @@ export class DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputRefer
   }
 
   // write_capacity_units - computed: true, optional: true, required: false
-  private _writeCapacityUnits?: number; 
+  private _writeCapacityUnits?: number;
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -1131,13 +1131,13 @@ export interface DynamodbTableGlobalSecondaryIndexesWarmThroughput {
   /**
   * Represents the number of read operations your base table can instantaneously support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
   * Represents the number of write operations your base table can instantaneously support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -1227,7 +1227,7 @@ export class DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference ex
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -1243,7 +1243,7 @@ export class DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference ex
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -1262,49 +1262,49 @@ export interface DynamodbTableGlobalSecondaryIndexes {
   /**
   * The settings used to specify whether to enable CloudWatch Contributor Insights for the global table and define which events to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
   */
   readonly contributorInsightsSpecification?: DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification;
   /**
   * The name of the global secondary index. The name must be unique among all other indexes on this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
   */
   readonly indexName?: string;
   /**
   * The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *   
+  *
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
   */
   readonly keySchema?: DynamodbTableGlobalSecondaryIndexesKeySchema[] | cdktn.IResolvable;
   /**
   * The maximum number of read and write units for the specified global secondary index. If you use this parameter, you must specify ``MaxReadRequestUnits``, ``MaxWriteRequestUnits``, or both. You must use either ``OnDemandThroughput`` or ``ProvisionedThroughput`` based on your table's capacity mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
   */
   readonly onDemandThroughput?: DynamodbTableGlobalSecondaryIndexesOnDemandThroughput;
   /**
   * Represents attributes that are copied (projected) from the table into the global secondary index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
   */
   readonly projection?: DynamodbTableGlobalSecondaryIndexesProjection;
   /**
   * Represents the provisioned throughput settings for the specified global secondary index. You must use either ``OnDemandThroughput`` or ``ProvisionedThroughput`` based on your table's capacity mode.
   *  For current minimum and maximum provisioned throughput values, see [Service, Account, and Table Quotas](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the *Amazon DynamoDB Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
   */
   readonly provisionedThroughput?: DynamodbTableGlobalSecondaryIndexesProvisionedThroughput;
   /**
   * Represents the warm throughput value (in read units per second and write units per second) for the specified secondary index. If you use this parameter, you must specify ``ReadUnitsPerSecond``, ``WriteUnitsPerSecond``, or both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbTableGlobalSecondaryIndexesWarmThroughput;
 }
@@ -1477,7 +1477,7 @@ export class DynamodbTableGlobalSecondaryIndexesOutputReference extends cdktn.Co
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -1596,13 +1596,13 @@ export interface DynamodbTableImportSourceSpecificationInputFormatOptionsCsv {
   /**
   * The delimiter used for separating items in the CSV file being imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
   */
   readonly delimiter?: string;
   /**
   * List of the headers used to specify a common header for all source CSV files being imported. If this field is specified then the first line of each CSV file is treated as data instead of the header. If this field is not specified the the first line of each CSV file is treated as the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
   */
   readonly headerList?: string[];
 }
@@ -1692,7 +1692,7 @@ export class DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputRe
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1708,7 +1708,7 @@ export class DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputRe
   }
 
   // header_list - computed: true, optional: true, required: false
-  private _headerList?: string[]; 
+  private _headerList?: string[];
   public get headerList() {
     return this.getListAttribute('header_list');
   }
@@ -1727,7 +1727,7 @@ export interface DynamodbTableImportSourceSpecificationInputFormatOptions {
   /**
   * The options for imported source files in CSV format. The values are Delimiter and HeaderList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
   */
   readonly csv?: DynamodbTableImportSourceSpecificationInputFormatOptionsCsv;
 }
@@ -1823,19 +1823,19 @@ export interface DynamodbTableImportSourceSpecificationS3BucketSource {
   /**
   * The S3 bucket that is being imported from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * The account number of the S3 bucket that is being imported from. If the bucket is owned by the requester this is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
   */
   readonly s3BucketOwner?: string;
   /**
   * The key prefix shared by all S3 Objects that are being imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
 }
@@ -1938,7 +1938,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -1954,7 +1954,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_bucket_owner - computed: true, optional: true, required: false
-  private _s3BucketOwner?: string; 
+  private _s3BucketOwner?: string;
   public get s3BucketOwner() {
     return this.getStringAttribute('s3_bucket_owner');
   }
@@ -1970,7 +1970,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string; 
+  private _s3KeyPrefix?: string;
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -1989,25 +1989,25 @@ export interface DynamodbTableImportSourceSpecification {
   /**
   * Type of compression to be used on the input coming from the imported table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
   */
   readonly inputCompressionType?: string;
   /**
   * The format of the source data. Valid values for ``ImportFormat`` are ``CSV``, ``DYNAMODB_JSON`` or ``ION``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
   */
   readonly inputFormat?: string;
   /**
   * Additional properties that specify how the input is formatted,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
   */
   readonly inputFormatOptions?: DynamodbTableImportSourceSpecificationInputFormatOptions;
   /**
   * The S3 bucket that provides the source for the import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
   */
   readonly s3BucketSource?: DynamodbTableImportSourceSpecificationS3BucketSource;
 }
@@ -2123,7 +2123,7 @@ export class DynamodbTableImportSourceSpecificationOutputReference extends cdktn
   }
 
   // input_compression_type - computed: true, optional: true, required: false
-  private _inputCompressionType?: string; 
+  private _inputCompressionType?: string;
   public get inputCompressionType() {
     return this.getStringAttribute('input_compression_type');
   }
@@ -2139,7 +2139,7 @@ export class DynamodbTableImportSourceSpecificationOutputReference extends cdktn
   }
 
   // input_format - computed: true, optional: true, required: false
-  private _inputFormat?: string; 
+  private _inputFormat?: string;
   public get inputFormat() {
     return this.getStringAttribute('input_format');
   }
@@ -2190,14 +2190,14 @@ export interface DynamodbTableKinesisStreamSpecification {
   /**
   * The precision for the time and date that the stream was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
   */
   readonly approximateCreationDateTimePrecision?: string;
   /**
   * The ARN for a specific Kinesis data stream.
   *  Length Constraints: Minimum length of 37. Maximum length of 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
   */
   readonly streamArn?: string;
 }
@@ -2287,7 +2287,7 @@ export class DynamodbTableKinesisStreamSpecificationOutputReference extends cdkt
   }
 
   // approximate_creation_date_time_precision - computed: true, optional: true, required: false
-  private _approximateCreationDateTimePrecision?: string; 
+  private _approximateCreationDateTimePrecision?: string;
   public get approximateCreationDateTimePrecision() {
     return this.getStringAttribute('approximate_creation_date_time_precision');
   }
@@ -2303,7 +2303,7 @@ export class DynamodbTableKinesisStreamSpecificationOutputReference extends cdkt
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -2322,18 +2322,18 @@ export interface DynamodbTableLocalSecondaryIndexesKeySchema {
   /**
   * The name of a key attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The role that this key attribute will assume:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *   
+  *
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
   */
   readonly keyType?: string;
 }
@@ -2425,7 +2425,7 @@ export class DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference extends 
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -2441,7 +2441,7 @@ export class DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference extends 
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -2481,7 +2481,7 @@ export interface DynamodbTableLocalSecondaryIndexesProjection {
   * Represents the non-key attribute names which will be projected into the index.
   *  For global and local secondary indexes, the total count of ``NonKeyAttributes`` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of ``INCLUDE``. You still can specify the ProjectionType of ``ALL`` to project all attributes from the source table, even if the table has more than 100 attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
@@ -2489,10 +2489,10 @@ export interface DynamodbTableLocalSecondaryIndexesProjection {
   *   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
   *   +  ``INCLUDE`` - In addition to the attributes described in ``KEYS_ONLY``, the secondary index will include other non-key attributes that you specify.
   *   +  ``ALL`` - All of the table attributes are projected into the index.
-  *   
+  *
   *  When using the DynamoDB console, ``ALL`` is selected by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -2582,7 +2582,7 @@ export class DynamodbTableLocalSecondaryIndexesProjectionOutputReference extends
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -2598,7 +2598,7 @@ export class DynamodbTableLocalSecondaryIndexesProjectionOutputReference extends
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -2617,24 +2617,24 @@ export interface DynamodbTableLocalSecondaryIndexes {
   /**
   * The name of the local secondary index. The name must be unique among all other indexes on this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
   */
   readonly indexName?: string;
   /**
   * The complete key schema for the local secondary index, consisting of one or more pairs of attribute names and key types:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *   
+  *
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
   */
   readonly keySchema?: DynamodbTableLocalSecondaryIndexesKeySchema[] | cdktn.IResolvable;
   /**
   * Represents attributes that are copied (projected) from the table into the local secondary index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
   */
   readonly projection?: DynamodbTableLocalSecondaryIndexesProjection;
 }
@@ -2739,7 +2739,7 @@ export class DynamodbTableLocalSecondaryIndexesOutputReference extends cdktn.Com
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -2811,14 +2811,14 @@ export interface DynamodbTableOnDemandThroughput {
   * Maximum number of read request units for the specified table.
   *  To specify a maximum ``OnDemandThroughput`` on your table, set the value of ``MaxReadRequestUnits`` as greater than or equal to 1. To remove the maximum ``OnDemandThroughput`` that is currently set on your table, set the value of ``MaxReadRequestUnits`` to -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
   /**
   * Maximum number of write request units for the specified table.
   *  To specify a maximum ``OnDemandThroughput`` on your table, set the value of ``MaxWriteRequestUnits`` as greater than or equal to 1. To remove the maximum ``OnDemandThroughput`` that is currently set on your table, set the value of ``MaxWriteRequestUnits`` to -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -2908,7 +2908,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -2924,7 +2924,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -2943,13 +2943,13 @@ export interface DynamodbTablePointInTimeRecoverySpecification {
   /**
   * Indicates whether point in time recovery is enabled (true) or disabled (false) on the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
   */
   readonly pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   /**
   * The number of preceding days for which continuous backups are taken and maintained. Your table data is only recoverable to any point-in-time from within the configured recovery period. This parameter is optional. If no value is provided, the value will default to 35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
   */
   readonly recoveryPeriodInDays?: number;
 }
@@ -3039,7 +3039,7 @@ export class DynamodbTablePointInTimeRecoverySpecificationOutputReference extend
   }
 
   // point_in_time_recovery_enabled - computed: true, optional: true, required: false
-  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable; 
+  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   public get pointInTimeRecoveryEnabled() {
     return this.getBooleanAttribute('point_in_time_recovery_enabled');
   }
@@ -3055,7 +3055,7 @@ export class DynamodbTablePointInTimeRecoverySpecificationOutputReference extend
   }
 
   // recovery_period_in_days - computed: true, optional: true, required: false
-  private _recoveryPeriodInDays?: number; 
+  private _recoveryPeriodInDays?: number;
   public get recoveryPeriodInDays() {
     return this.getNumberAttribute('recovery_period_in_days');
   }
@@ -3075,14 +3075,14 @@ export interface DynamodbTableProvisionedThroughput {
   * The maximum number of strongly consistent reads consumed per second before DynamoDB returns a ``ThrottlingException``. For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
   *  If read/write capacity mode is ``PAY_PER_REQUEST`` the value is set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
   * The maximum number of writes consumed per second before DynamoDB returns a ``ThrottlingException``. For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
   *  If read/write capacity mode is ``PAY_PER_REQUEST`` the value is set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -3172,7 +3172,7 @@ export class DynamodbTableProvisionedThroughputOutputReference extends cdktn.Com
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -3188,7 +3188,7 @@ export class DynamodbTableProvisionedThroughputOutputReference extends cdktn.Com
   }
 
   // write_capacity_units - computed: true, optional: true, required: false
-  private _writeCapacityUnits?: number; 
+  private _writeCapacityUnits?: number;
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -3207,7 +3207,7 @@ export interface DynamodbTableResourcePolicy {
   /**
   * A resource-based policy document that contains permissions to add to the specified DDB table, index, or both. In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
   */
   readonly policyDocument?: string;
 }
@@ -3284,7 +3284,7 @@ export class DynamodbTableResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -3303,20 +3303,20 @@ export interface DynamodbTableSseSpecification {
   /**
   * The KMS key that should be used for the KMS encryption. To specify a key, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. Note that you should only provide this parameter if the key is different from the default DynamoDB key ``alias/aws/dynamodb``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
   * Indicates whether server-side encryption is done using an AWS managed key or an AWS owned key. If enabled (true), server-side encryption type is set to ``KMS`` and an AWS managed key is used (KMS charges apply). If disabled (false) or not specified, server-side encryption is set to AWS owned key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
   */
   readonly sseEnabled?: boolean | cdktn.IResolvable;
   /**
   * Server-side encryption type. The only supported value is:
   *   +  ``KMS`` - Server-side encryption that uses KMSlong. The key is stored in your account and is managed by KMS (KMS charges apply).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
   */
   readonly sseType?: string;
 }
@@ -3419,7 +3419,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string; 
+  private _kmsMasterKeyId?: string;
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -3435,7 +3435,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // sse_enabled - computed: true, optional: true, required: false
-  private _sseEnabled?: boolean | cdktn.IResolvable; 
+  private _sseEnabled?: boolean | cdktn.IResolvable;
   public get sseEnabled() {
     return this.getBooleanAttribute('sse_enabled');
   }
@@ -3451,7 +3451,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // sse_type - computed: true, optional: true, required: false
-  private _sseType?: string; 
+  private _sseType?: string;
   public get sseType() {
     return this.getStringAttribute('sse_type');
   }
@@ -3470,7 +3470,7 @@ export interface DynamodbTableStreamSpecificationResourcePolicy {
   /**
   * A resource-based policy document that contains permissions to add to the specified DDB table, index, or both. In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
   */
   readonly policyDocument?: string;
 }
@@ -3547,7 +3547,7 @@ export class DynamodbTableStreamSpecificationResourcePolicyOutputReference exten
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -3568,7 +3568,7 @@ export interface DynamodbTableStreamSpecification {
   *   When you remove the ``StreamSpecification`` property from the template, DynamoDB disables the stream but retains any attached resource policy until the stream is deleted after 24 hours. When you modify the ``StreamViewType`` property, DynamoDB creates a new stream and retains the old stream's resource policy. The old stream and its resource policy are deleted after the 24-hour retention period.
   *   In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
   */
   readonly resourcePolicy?: DynamodbTableStreamSpecificationResourcePolicy;
   /**
@@ -3578,7 +3578,7 @@ export interface DynamodbTableStreamSpecification {
   *   +  ``OLD_IMAGE`` - The entire item, as it appeared before it was modified, is written to the stream.
   *   +  ``NEW_AND_OLD_IMAGES`` - Both the new and the old item images of the item are written to the stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
   */
   readonly streamViewType?: string;
 }
@@ -3684,7 +3684,7 @@ export class DynamodbTableStreamSpecificationOutputReference extends cdktn.Compl
   }
 
   // stream_view_type - computed: true, optional: true, required: false
-  private _streamViewType?: string; 
+  private _streamViewType?: string;
   public get streamViewType() {
     return this.getStringAttribute('stream_view_type');
   }
@@ -3703,13 +3703,13 @@ export interface DynamodbTableTags {
   /**
   * The key of the tag. Tag keys are case sensitive. Each DynamoDB table can only have up to one tag with the same key. If you try to add an existing tag (same key), the existing tag value will be updated to the new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#key DynamodbTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#key DynamodbTable#key}
   */
   readonly key?: string;
   /**
   * The value of the tag. Tag values are case-sensitive and can be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#value DynamodbTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#value DynamodbTable#value}
   */
   readonly value?: string;
 }
@@ -3801,7 +3801,7 @@ export class DynamodbTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3817,7 +3817,7 @@ export class DynamodbTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3858,13 +3858,13 @@ export interface DynamodbTableTimeToLiveSpecification {
   *    +  The ``AttributeName`` property is required when enabling the TTL, or when TTL is already enabled.
   *   +  To update this property, you must first disable TTL and then enable TTL with the new attribute name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Indicates whether TTL is to be enabled (true) or disabled (false) on the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -3954,7 +3954,7 @@ export class DynamodbTableTimeToLiveSpecificationOutputReference extends cdktn.C
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -3970,7 +3970,7 @@ export class DynamodbTableTimeToLiveSpecificationOutputReference extends cdktn.C
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3989,13 +3989,13 @@ export interface DynamodbTableWarmThroughput {
   /**
   * Represents the number of read operations your base table can instantaneously support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
   * Represents the number of write operations your base table can instantaneously support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -4085,7 +4085,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -4101,7 +4101,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -4118,7 +4118,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table awscc_dynamodb_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table awscc_dynamodb_table}
 */
 export class DynamodbTable extends cdktn.TerraformResource {
 
@@ -4134,7 +4134,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DynamodbTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamodbTable to import
-  * @param importFromId The id of the existing DynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamodbTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4146,7 +4146,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4157,7 +4157,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dynamodb_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4215,7 +4215,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: true, optional: true, required: false
-  private _billingMode?: string; 
+  private _billingMode?: string;
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -4247,7 +4247,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -4300,7 +4300,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // key_schema - computed: false, optional: false, required: true
-  private _keySchema?: string; 
+  private _keySchema?: string;
   public get keySchema() {
     return this.getStringAttribute('key_schema');
   }
@@ -4446,7 +4446,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_class - computed: true, optional: true, required: false
-  private _tableClass?: string; 
+  private _tableClass?: string;
   public get tableClass() {
     return this.getStringAttribute('table_class');
   }
@@ -4462,7 +4462,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

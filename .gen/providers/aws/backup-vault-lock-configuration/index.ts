@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktn from 'cdktn';
 
 export interface BackupVaultLockConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#backup_vault_name BackupVaultLockConfiguration#backup_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#backup_vault_name BackupVaultLockConfiguration#backup_vault_name}
   */
   readonly backupVaultName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#changeable_for_days BackupVaultLockConfiguration#changeable_for_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#changeable_for_days BackupVaultLockConfiguration#changeable_for_days}
   */
   readonly changeableForDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#id BackupVaultLockConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#id BackupVaultLockConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#max_retention_days BackupVaultLockConfiguration#max_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#max_retention_days BackupVaultLockConfiguration#max_retention_days}
   */
   readonly maxRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#min_retention_days BackupVaultLockConfiguration#min_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#min_retention_days BackupVaultLockConfiguration#min_retention_days}
   */
   readonly minRetentionDays?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#region BackupVaultLockConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#region BackupVaultLockConfiguration#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}
 */
 export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupVaultLockConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupVaultLockConfiguration to import
-  * @param importFromId The id of the existing BackupVaultLockConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupVaultLockConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupVaultLockConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_backup_vault_lock_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string; 
+  private _backupVaultName?: string;
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -119,7 +119,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // changeable_for_days - computed: false, optional: true, required: false
-  private _changeableForDays?: number; 
+  private _changeableForDays?: number;
   public get changeableForDays() {
     return this.getNumberAttribute('changeable_for_days');
   }
@@ -135,7 +135,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -151,7 +151,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // max_retention_days - computed: false, optional: true, required: false
-  private _maxRetentionDays?: number; 
+  private _maxRetentionDays?: number;
   public get maxRetentionDays() {
     return this.getNumberAttribute('max_retention_days');
   }
@@ -167,7 +167,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // min_retention_days - computed: false, optional: true, required: false
-  private _minRetentionDays?: number; 
+  private _minRetentionDays?: number;
   public get minRetentionDays() {
     return this.getNumberAttribute('min_retention_days');
   }
@@ -183,7 +183,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

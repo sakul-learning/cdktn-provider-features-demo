@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface GlueConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
   */
   readonly athenaProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
   */
   readonly connectionProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#description GlueConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#description GlueConnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#id GlueConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#id GlueConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
   */
   readonly matchCriteria?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#name GlueConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#name GlueConnection#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#region GlueConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#region GlueConnection#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#tags GlueConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#tags GlueConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#tags_all GlueConnection#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#tags_all GlueConnection#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * authentication_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
   */
   readonly authenticationConfiguration?: GlueConnectionAuthenticationConfiguration;
   /**
   * physical_connection_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
   */
   readonly physicalConnectionRequirements?: GlueConnectionPhysicalConnectionRequirements;
 }
 export interface GlueConnectionAuthenticationConfigurationBasicAuthenticationCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#password GlueConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#password GlueConnection#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#username GlueConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#username GlueConnection#username}
   */
   readonly username: string;
 }
@@ -155,7 +155,7 @@ export class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredent
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -168,7 +168,7 @@ export class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredent
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -182,11 +182,11 @@ export class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredent
 }
 export interface GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizationCodeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
   */
   readonly authorizationCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
   */
   readonly redirectUri: string;
 }
@@ -266,7 +266,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizat
   }
 
   // authorization_code - computed: false, optional: false, required: true
-  private _authorizationCode?: string; 
+  private _authorizationCode?: string;
   public get authorizationCode() {
     return this.getStringAttribute('authorization_code');
   }
@@ -279,7 +279,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizat
   }
 
   // redirect_uri - computed: false, optional: false, required: true
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -293,11 +293,11 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizat
 }
 export interface GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2ClientApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
   */
   readonly awsManagedClientApplicationReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
   */
   readonly userManagedClientApplicationClientId?: string;
 }
@@ -377,7 +377,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Clie
   }
 
   // aws_managed_client_application_reference - computed: false, optional: true, required: false
-  private _awsManagedClientApplicationReference?: string; 
+  private _awsManagedClientApplicationReference?: string;
   public get awsManagedClientApplicationReference() {
     return this.getStringAttribute('aws_managed_client_application_reference');
   }
@@ -393,7 +393,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Clie
   }
 
   // user_managed_client_application_client_id - computed: false, optional: true, required: false
-  private _userManagedClientApplicationClientId?: string; 
+  private _userManagedClientApplicationClientId?: string;
   public get userManagedClientApplicationClientId() {
     return this.getStringAttribute('user_managed_client_application_client_id');
   }
@@ -410,19 +410,19 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Clie
 }
 export interface GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
   */
   readonly jwtToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
   */
   readonly refreshToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
   */
   readonly userManagedClientApplicationClientSecret?: string;
 }
@@ -528,7 +528,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string; 
+  private _accessToken?: string;
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -544,7 +544,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // jwt_token - computed: false, optional: true, required: false
-  private _jwtToken?: string; 
+  private _jwtToken?: string;
   public get jwtToken() {
     return this.getStringAttribute('jwt_token');
   }
@@ -560,7 +560,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string; 
+  private _refreshToken?: string;
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -576,7 +576,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // user_managed_client_application_client_secret - computed: false, optional: true, required: false
-  private _userManagedClientApplicationClientSecret?: string; 
+  private _userManagedClientApplicationClientSecret?: string;
   public get userManagedClientApplicationClientSecret() {
     return this.getStringAttribute('user_managed_client_application_client_secret');
   }
@@ -593,33 +593,33 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
 }
 export interface GlueConnectionAuthenticationConfigurationOauth2Properties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}
   */
   readonly oauth2GrantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
   */
   readonly tokenUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
   */
   readonly tokenUrlParametersMap?: { [key: string]: string };
   /**
   * authorization_code_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
   */
   readonly authorizationCodeProperties?: GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizationCodeProperties;
   /**
   * oauth2_client_application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
   */
   readonly oauth2ClientApplication?: GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2ClientApplication;
   /**
   * oauth2_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
   */
   readonly oauth2Credentials?: GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials;
 }
@@ -751,7 +751,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // oauth2_grant_type - computed: false, optional: true, required: false
-  private _oauth2GrantType?: string; 
+  private _oauth2GrantType?: string;
   public get oauth2GrantType() {
     return this.getStringAttribute('oauth2_grant_type');
   }
@@ -767,7 +767,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // token_url - computed: false, optional: true, required: false
-  private _tokenUrl?: string; 
+  private _tokenUrl?: string;
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -783,7 +783,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // token_url_parameters_map - computed: false, optional: true, required: false
-  private _tokenUrlParametersMap?: { [key: string]: string }; 
+  private _tokenUrlParametersMap?: { [key: string]: string };
   public get tokenUrlParametersMap() {
     return this.getStringMapAttribute('token_url_parameters_map');
   }
@@ -848,31 +848,31 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
 }
 export interface GlueConnectionAuthenticationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
   */
   readonly authenticationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
   */
   readonly customAuthenticationCredentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * basic_authentication_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
   */
   readonly basicAuthenticationCredentials?: GlueConnectionAuthenticationConfigurationBasicAuthenticationCredentials;
   /**
   * oauth2_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#oauth2_properties GlueConnection#oauth2_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#oauth2_properties GlueConnection#oauth2_properties}
   */
   readonly oauth2Properties?: GlueConnectionAuthenticationConfigurationOauth2Properties;
 }
@@ -1004,7 +1004,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1017,7 +1017,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // custom_authentication_credentials - computed: false, optional: true, required: false
-  private _customAuthenticationCredentials?: { [key: string]: string }; 
+  private _customAuthenticationCredentials?: { [key: string]: string };
   public get customAuthenticationCredentials() {
     return this.getStringMapAttribute('custom_authentication_credentials');
   }
@@ -1033,7 +1033,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1049,7 +1049,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1098,15 +1098,15 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
 }
 export interface GlueConnectionPhysicalConnectionRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
   */
   readonly securityGroupIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -1199,7 +1199,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1215,7 +1215,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // security_group_id_list - computed: false, optional: true, required: false
-  private _securityGroupIdList?: string[]; 
+  private _securityGroupIdList?: string[];
   public get securityGroupIdList() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_id_list'));
   }
@@ -1231,7 +1231,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -1248,7 +1248,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection aws_glue_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection aws_glue_connection}
 */
 export class GlueConnection extends cdktn.TerraformResource {
 
@@ -1264,7 +1264,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueConnection to import
-  * @param importFromId The id of the existing GlueConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1276,7 +1276,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_connection aws_glue_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_connection aws_glue_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1287,7 +1287,7 @@ export class GlueConnection extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_connection',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1322,7 +1322,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // athena_properties - computed: false, optional: true, required: false
-  private _athenaProperties?: { [key: string]: string }; 
+  private _athenaProperties?: { [key: string]: string };
   public get athenaProperties() {
     return this.getStringMapAttribute('athena_properties');
   }
@@ -1338,7 +1338,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1354,7 +1354,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // connection_properties - computed: false, optional: true, required: false
-  private _connectionProperties?: { [key: string]: string }; 
+  private _connectionProperties?: { [key: string]: string };
   public get connectionProperties() {
     return this.getStringMapAttribute('connection_properties');
   }
@@ -1370,7 +1370,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // connection_type - computed: false, optional: true, required: false
-  private _connectionType?: string; 
+  private _connectionType?: string;
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -1386,7 +1386,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1402,7 +1402,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1418,7 +1418,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // match_criteria - computed: false, optional: true, required: false
-  private _matchCriteria?: string[]; 
+  private _matchCriteria?: string[];
   public get matchCriteria() {
     return this.getListAttribute('match_criteria');
   }
@@ -1434,7 +1434,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1447,7 +1447,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1463,7 +1463,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1479,7 +1479,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

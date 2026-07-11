@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CloudfrontOriginAccessControlConfig extends cdktn.TerraformMeta
   /**
   * The origin access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
   */
   readonly originAccessControlConfig: CloudfrontOriginAccessControlOriginAccessControlConfig;
 }
@@ -18,19 +18,19 @@ export interface CloudfrontOriginAccessControlOriginAccessControlConfig {
   /**
   * A description of the origin access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#description CloudfrontOriginAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#description CloudfrontOriginAccessControl#description}
   */
   readonly description?: string;
   /**
   * A name to identify the origin access control. You can specify up to 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#name CloudfrontOriginAccessControl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#name CloudfrontOriginAccessControl#name}
   */
   readonly name: string;
   /**
   * The type of origin that this origin access control is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#origin_access_control_origin_type CloudfrontOriginAccessControl#origin_access_control_origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#origin_access_control_origin_type CloudfrontOriginAccessControl#origin_access_control_origin_type}
   */
   readonly originAccessControlOriginType: string;
   /**
@@ -40,13 +40,13 @@ export interface CloudfrontOriginAccessControlOriginAccessControlConfig {
   *   +  ``never`` ? CloudFront doesn't sign any origin requests. This value turns off origin access control for all origins in all distributions that use this origin access control.
   *   +  ``no-override`` ? If the viewer request doesn't contain the ``Authorization`` header, then CloudFront signs the origin request. If the viewer request contains the ``Authorization`` header, then CloudFront doesn't sign the origin request and instead passes along the ``Authorization`` header from the viewer request. *WARNING: To pass along the Authorization header from the viewer request, you must add the Authorization header to a cache policy for all cache behaviors that use origins associated with this origin access control.*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#signing_behavior CloudfrontOriginAccessControl#signing_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#signing_behavior CloudfrontOriginAccessControl#signing_behavior}
   */
   readonly signingBehavior: string;
   /**
   * The signing protocol of the origin access control, which determines how CloudFront signs (authenticates) requests. The only valid value is ``sigv4``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#signing_protocol CloudfrontOriginAccessControl#signing_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#signing_protocol CloudfrontOriginAccessControl#signing_protocol}
   */
   readonly signingProtocol: string;
 }
@@ -175,7 +175,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // origin_access_control_origin_type - computed: false, optional: false, required: true
-  private _originAccessControlOriginType?: string; 
+  private _originAccessControlOriginType?: string;
   public get originAccessControlOriginType() {
     return this.getStringAttribute('origin_access_control_origin_type');
   }
@@ -217,7 +217,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // signing_behavior - computed: false, optional: false, required: true
-  private _signingBehavior?: string; 
+  private _signingBehavior?: string;
   public get signingBehavior() {
     return this.getStringAttribute('signing_behavior');
   }
@@ -230,7 +230,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // signing_protocol - computed: false, optional: false, required: true
-  private _signingProtocol?: string; 
+  private _signingProtocol?: string;
   public get signingProtocol() {
     return this.getStringAttribute('signing_protocol');
   }
@@ -244,7 +244,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}
 */
 export class CloudfrontOriginAccessControl extends cdktn.TerraformResource {
 
@@ -260,7 +260,7 @@ export class CloudfrontOriginAccessControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontOriginAccessControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontOriginAccessControl to import
-  * @param importFromId The id of the existing CloudfrontOriginAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontOriginAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontOriginAccessControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -272,7 +272,7 @@ export class CloudfrontOriginAccessControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,7 +283,7 @@ export class CloudfrontOriginAccessControl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_origin_access_control',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

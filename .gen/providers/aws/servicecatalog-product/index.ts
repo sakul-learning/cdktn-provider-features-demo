@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktn from 'cdktn';
 
 export interface ServicecatalogProductConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#accept_language ServicecatalogProduct#accept_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#accept_language ServicecatalogProduct#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#description ServicecatalogProduct#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#description ServicecatalogProduct#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#distributor ServicecatalogProduct#distributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#distributor ServicecatalogProduct#distributor}
   */
   readonly distributor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#id ServicecatalogProduct#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#id ServicecatalogProduct#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#name ServicecatalogProduct#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#name ServicecatalogProduct#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#owner ServicecatalogProduct#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#owner ServicecatalogProduct#owner}
   */
   readonly owner: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#region ServicecatalogProduct#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#region ServicecatalogProduct#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#support_description ServicecatalogProduct#support_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#support_description ServicecatalogProduct#support_description}
   */
   readonly supportDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#support_email ServicecatalogProduct#support_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#support_email ServicecatalogProduct#support_email}
   */
   readonly supportEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#support_url ServicecatalogProduct#support_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#support_url ServicecatalogProduct#support_url}
   */
   readonly supportUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#tags ServicecatalogProduct#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#tags ServicecatalogProduct#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#tags_all ServicecatalogProduct#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#tags_all ServicecatalogProduct#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#type ServicecatalogProduct#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#type ServicecatalogProduct#type}
   */
   readonly type: string;
   /**
   * provisioning_artifact_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#provisioning_artifact_parameters ServicecatalogProduct#provisioning_artifact_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#provisioning_artifact_parameters ServicecatalogProduct#provisioning_artifact_parameters}
   */
   readonly provisioningArtifactParameters: ServicecatalogProductProvisioningArtifactParameters;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#timeouts ServicecatalogProduct#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#timeouts ServicecatalogProduct#timeouts}
   */
   readonly timeouts?: ServicecatalogProductTimeouts;
 }
 export interface ServicecatalogProductProvisioningArtifactParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#description ServicecatalogProduct#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#description ServicecatalogProduct#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#disable_template_validation ServicecatalogProduct#disable_template_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#disable_template_validation ServicecatalogProduct#disable_template_validation}
   */
   readonly disableTemplateValidation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#name ServicecatalogProduct#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#name ServicecatalogProduct#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#template_physical_id ServicecatalogProduct#template_physical_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#template_physical_id ServicecatalogProduct#template_physical_id}
   */
   readonly templatePhysicalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#template_url ServicecatalogProduct#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#template_url ServicecatalogProduct#template_url}
   */
   readonly templateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#type ServicecatalogProduct#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#type ServicecatalogProduct#type}
   */
   readonly type?: string;
 }
@@ -231,7 +231,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -247,7 +247,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // disable_template_validation - computed: false, optional: true, required: false
-  private _disableTemplateValidation?: boolean | cdktn.IResolvable; 
+  private _disableTemplateValidation?: boolean | cdktn.IResolvable;
   public get disableTemplateValidation() {
     return this.getBooleanAttribute('disable_template_validation');
   }
@@ -263,7 +263,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -279,7 +279,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // template_physical_id - computed: false, optional: true, required: false
-  private _templatePhysicalId?: string; 
+  private _templatePhysicalId?: string;
   public get templatePhysicalId() {
     return this.getStringAttribute('template_physical_id');
   }
@@ -295,7 +295,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // template_url - computed: false, optional: true, required: false
-  private _templateUrl?: string; 
+  private _templateUrl?: string;
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -311,7 +311,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -328,19 +328,19 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
 }
 export interface ServicecatalogProductTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#create ServicecatalogProduct#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#create ServicecatalogProduct#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#delete ServicecatalogProduct#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#delete ServicecatalogProduct#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#read ServicecatalogProduct#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#read ServicecatalogProduct#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#update ServicecatalogProduct#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#update ServicecatalogProduct#update}
   */
   readonly update?: string;
 }
@@ -456,7 +456,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -472,7 +472,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -488,7 +488,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string; 
+  private _read?: string;
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -504,7 +504,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -521,7 +521,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product aws_servicecatalog_product}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product aws_servicecatalog_product}
 */
 export class ServicecatalogProduct extends cdktn.TerraformResource {
 
@@ -537,7 +537,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicecatalogProduct resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogProduct to import
-  * @param importFromId The id of the existing ServicecatalogProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -549,7 +549,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,7 +560,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
       terraformResourceType: 'aws_servicecatalog_product',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -592,7 +592,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string; 
+  private _acceptLanguage?: string;
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -618,7 +618,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -634,7 +634,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // distributor - computed: true, optional: true, required: false
-  private _distributor?: string; 
+  private _distributor?: string;
   public get distributor() {
     return this.getStringAttribute('distributor');
   }
@@ -655,7 +655,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -671,7 +671,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -684,7 +684,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -697,7 +697,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -718,7 +718,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_description - computed: true, optional: true, required: false
-  private _supportDescription?: string; 
+  private _supportDescription?: string;
   public get supportDescription() {
     return this.getStringAttribute('support_description');
   }
@@ -734,7 +734,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_email - computed: true, optional: true, required: false
-  private _supportEmail?: string; 
+  private _supportEmail?: string;
   public get supportEmail() {
     return this.getStringAttribute('support_email');
   }
@@ -750,7 +750,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_url - computed: true, optional: true, required: false
-  private _supportUrl?: string; 
+  private _supportUrl?: string;
   public get supportUrl() {
     return this.getStringAttribute('support_url');
   }
@@ -766,7 +766,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -782,7 +782,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -798,7 +798,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

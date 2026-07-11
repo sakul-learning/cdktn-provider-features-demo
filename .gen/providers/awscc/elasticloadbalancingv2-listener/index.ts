@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface Elasticloadbalancingv2ListenerConfig extends cdktn.TerraformMet
   /**
   * [TLS listener] The name of the Application-Layer Protocol Negotiation (ALPN) policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#alpn_policy Elasticloadbalancingv2Listener#alpn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#alpn_policy Elasticloadbalancingv2Listener#alpn_policy}
   */
   readonly alpnPolicy?: string[];
   /**
@@ -18,51 +18,51 @@ export interface Elasticloadbalancingv2ListenerConfig extends cdktn.TerraformMet
   *  For an HTTPS listener, update requires some interruptions. For a TLS listener, update requires no interruption.
   *  To create a certificate list for a secure listener, use [AWS::ElasticLoadBalancingV2::ListenerCertificate](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenercertificate.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#certificates Elasticloadbalancingv2Listener#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#certificates Elasticloadbalancingv2Listener#certificates}
   */
   readonly certificates?: Elasticloadbalancingv2ListenerCertificates[] | cdktn.IResolvable;
   /**
   * The actions for the default rule. You cannot define a condition for a default rule.
   *  To create additional rules for an Application Load Balancer, use [AWS::ElasticLoadBalancingV2::ListenerRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#default_actions Elasticloadbalancingv2Listener#default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#default_actions Elasticloadbalancingv2Listener#default_actions}
   */
   readonly defaultActions: Elasticloadbalancingv2ListenerDefaultActions[] | cdktn.IResolvable;
   /**
   * The listener attributes. Attributes that you do not modify retain their current values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#listener_attributes Elasticloadbalancingv2Listener#listener_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#listener_attributes Elasticloadbalancingv2Listener#listener_attributes}
   */
   readonly listenerAttributes?: Elasticloadbalancingv2ListenerListenerAttributes[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#load_balancer_arn Elasticloadbalancingv2Listener#load_balancer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#load_balancer_arn Elasticloadbalancingv2Listener#load_balancer_arn}
   */
   readonly loadBalancerArn: string;
   /**
   * The mutual authentication configuration information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#mutual_authentication Elasticloadbalancingv2Listener#mutual_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#mutual_authentication Elasticloadbalancingv2Listener#mutual_authentication}
   */
   readonly mutualAuthentication?: Elasticloadbalancingv2ListenerMutualAuthentication;
   /**
   * The port on which the load balancer is listening. You can't specify a port for a Gateway Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
   */
   readonly port?: number;
   /**
   * The protocol for connections from clients to the load balancer. For Application Load Balancers, the supported protocols are HTTP and HTTPS. For Network Load Balancers, the supported protocols are TCP, TLS, UDP, TCP_UDP, QUIC, and TCP_QUIC. You can’t specify the UDP, TCP_UDP, QUIC, or TCP_QUIC protocol if dual-stack mode is enabled. You can't specify a protocol for a Gateway Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
   */
   readonly protocol?: string;
   /**
   * [HTTPS and TLS listeners] The security policy that defines which protocols and ciphers are supported. For more information, see [Security policies](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/describe-ssl-policies.html) in the *Application Load Balancers Guide* and [Security policies](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/describe-ssl-policies.html) in the *Network Load Balancers Guide*.
   *  [HTTPS listeners] Updating the security policy can result in interruptions if the load balancer is handling a high volume of traffic. To decrease the possibility of an interruption if your load balancer is handling a high volume of traffic, create an additional load balancer or request an LCU reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#ssl_policy Elasticloadbalancingv2Listener#ssl_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#ssl_policy Elasticloadbalancingv2Listener#ssl_policy}
   */
   readonly sslPolicy?: string;
 }
@@ -70,7 +70,7 @@ export interface Elasticloadbalancingv2ListenerCertificates {
   /**
   * The Amazon Resource Name (ARN) of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#certificate_arn Elasticloadbalancingv2Listener#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#certificate_arn Elasticloadbalancingv2Listener#certificate_arn}
   */
   readonly certificateArn?: string;
 }
@@ -149,7 +149,7 @@ export class Elasticloadbalancingv2ListenerCertificatesOutputReference extends c
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -188,7 +188,7 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognito
   /**
   * The query parameters (up to 10) to include in the redirect request to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
@@ -197,44 +197,44 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognito
   *   +  allow```` - Allow the request to be forwarded to the target.
   *   +  authenticate```` - Redirect the request to the IdP authorization endpoint. This is the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
   * The set of user claims to be requested from the IdP. The default is ``openid``.
   *  To verify which scope values your IdP supports and how to separate multiple values, see the documentation for your IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
   */
   readonly scope?: string;
   /**
   * The name of the cookie used to maintain session information. The default is AWSELBAuthSessionCookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * The maximum duration of the authentication session, in seconds. The default is 604800 seconds (7 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
   */
   readonly sessionTimeout?: string;
   /**
   * The Amazon Resource Name (ARN) of the Amazon Cognito user pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#user_pool_arn Elasticloadbalancingv2Listener#user_pool_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#user_pool_arn Elasticloadbalancingv2Listener#user_pool_arn}
   */
   readonly userPoolArn?: string;
   /**
   * The ID of the Amazon Cognito user pool client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#user_pool_client_id Elasticloadbalancingv2Listener#user_pool_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#user_pool_client_id Elasticloadbalancingv2Listener#user_pool_client_id}
   */
   readonly userPoolClientId?: string;
   /**
   * The domain prefix or fully-qualified domain name of the Amazon Cognito user pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#user_pool_domain Elasticloadbalancingv2Listener#user_pool_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#user_pool_domain Elasticloadbalancingv2Listener#user_pool_domain}
   */
   readonly userPoolDomain?: string;
 }
@@ -402,7 +402,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string }; 
+  private _authenticationRequestExtraParams?: { [key: string]: string };
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -418,7 +418,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string; 
+  private _onUnauthenticatedRequest?: string;
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -434,7 +434,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -450,7 +450,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string; 
+  private _sessionCookieName?: string;
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -466,7 +466,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: string; 
+  private _sessionTimeout?: string;
   public get sessionTimeout() {
     return this.getStringAttribute('session_timeout');
   }
@@ -482,7 +482,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_arn - computed: true, optional: true, required: false
-  private _userPoolArn?: string; 
+  private _userPoolArn?: string;
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -498,7 +498,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_client_id - computed: true, optional: true, required: false
-  private _userPoolClientId?: string; 
+  private _userPoolClientId?: string;
   public get userPoolClientId() {
     return this.getStringAttribute('user_pool_client_id');
   }
@@ -514,7 +514,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_domain - computed: true, optional: true, required: false
-  private _userPoolDomain?: string; 
+  private _userPoolDomain?: string;
   public get userPoolDomain() {
     return this.getStringAttribute('user_pool_domain');
   }
@@ -533,31 +533,31 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcCon
   /**
   * The query parameters (up to 10) to include in the redirect request to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
   * The authorization endpoint of the IdP. This must be a full URL, including the HTTPS protocol, the domain, and the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#authorization_endpoint Elasticloadbalancingv2Listener#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#authorization_endpoint Elasticloadbalancingv2Listener#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * The OAuth 2.0 client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#client_id Elasticloadbalancingv2Listener#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#client_id Elasticloadbalancingv2Listener#client_id}
   */
   readonly clientId?: string;
   /**
   * The OAuth 2.0 client secret. This parameter is required if you are creating a rule. If you are modifying a rule, you can omit this parameter if you set ``UseExistingClientSecret`` to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#client_secret Elasticloadbalancingv2Listener#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#client_secret Elasticloadbalancingv2Listener#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OIDC issuer identifier of the IdP. This must be a full URL, including the HTTPS protocol, the domain, and the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
   */
   readonly issuer?: string;
   /**
@@ -566,44 +566,44 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcCon
   *   +  allow```` - Allow the request to be forwarded to the target.
   *   +  authenticate```` - Redirect the request to the IdP authorization endpoint. This is the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
   * The set of user claims to be requested from the IdP. The default is ``openid``.
   *  To verify which scope values your IdP supports and how to separate multiple values, see the documentation for your IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
   */
   readonly scope?: string;
   /**
   * The name of the cookie used to maintain session information. The default is AWSELBAuthSessionCookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * The maximum duration of the authentication session, in seconds. The default is 604800 seconds (7 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
   */
   readonly sessionTimeout?: string;
   /**
   * The token endpoint of the IdP. This must be a full URL, including the HTTPS protocol, the domain, and the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#token_endpoint Elasticloadbalancingv2Listener#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#token_endpoint Elasticloadbalancingv2Listener#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Indicates whether to use the existing client secret when modifying a rule. If you are creating a rule, you can omit this parameter or set it to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#use_existing_client_secret Elasticloadbalancingv2Listener#use_existing_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#use_existing_client_secret Elasticloadbalancingv2Listener#use_existing_client_secret}
   */
   readonly useExistingClientSecret?: boolean | cdktn.IResolvable;
   /**
   * The user info endpoint of the IdP. This must be a full URL, including the HTTPS protocol, the domain, and the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#user_info_endpoint Elasticloadbalancingv2Listener#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#user_info_endpoint Elasticloadbalancingv2Listener#user_info_endpoint}
   */
   readonly userInfoEndpoint?: string;
 }
@@ -823,7 +823,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string }; 
+  private _authenticationRequestExtraParams?: { [key: string]: string };
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -839,7 +839,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string; 
+  private _authorizationEndpoint?: string;
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -855,7 +855,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -871,7 +871,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -887,7 +887,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -903,7 +903,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string; 
+  private _onUnauthenticatedRequest?: string;
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -919,7 +919,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -935,7 +935,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string; 
+  private _sessionCookieName?: string;
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -951,7 +951,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: string; 
+  private _sessionTimeout?: string;
   public get sessionTimeout() {
     return this.getStringAttribute('session_timeout');
   }
@@ -967,7 +967,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string; 
+  private _tokenEndpoint?: string;
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -983,7 +983,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // use_existing_client_secret - computed: true, optional: true, required: false
-  private _useExistingClientSecret?: boolean | cdktn.IResolvable; 
+  private _useExistingClientSecret?: boolean | cdktn.IResolvable;
   public get useExistingClientSecret() {
     return this.getBooleanAttribute('use_existing_client_secret');
   }
@@ -999,7 +999,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string; 
+  private _userInfoEndpoint?: string;
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -1019,19 +1019,19 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig
   * The content type.
   *  Valid Values: text/plain | text/css | text/html | application/javascript | application/json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#content_type Elasticloadbalancingv2Listener#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#content_type Elasticloadbalancingv2Listener#content_type}
   */
   readonly contentType?: string;
   /**
   * The message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#message_body Elasticloadbalancingv2Listener#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#message_body Elasticloadbalancingv2Listener#message_body}
   */
   readonly messageBody?: string;
   /**
   * The HTTP response code (2XX, 4XX, or 5XX).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
   */
   readonly statusCode?: string;
 }
@@ -1134,7 +1134,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1150,7 +1150,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // message_body - computed: true, optional: true, required: false
-  private _messageBody?: string; 
+  private _messageBody?: string;
   public get messageBody() {
     return this.getStringAttribute('message_body');
   }
@@ -1166,7 +1166,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string; 
+  private _statusCode?: string;
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1185,13 +1185,13 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTarget
   /**
   * [Application Load Balancers] The time period, in seconds, during which requests from a client should be routed to the same target group. The range is 1-604800 seconds (7 days). You must specify this value when enabling target group stickiness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Indicates whether target group stickiness is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1281,7 +1281,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // duration_seconds - computed: true, optional: true, required: false
-  private _durationSeconds?: number; 
+  private _durationSeconds?: number;
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -1297,7 +1297,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1316,13 +1316,13 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTarget
   /**
   * The Amazon Resource Name (ARN) of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
   * The weight. The range is 0 to 999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#weight Elasticloadbalancingv2Listener#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#weight Elasticloadbalancingv2Listener#weight}
   */
   readonly weight?: number;
 }
@@ -1414,7 +1414,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string; 
+  private _targetGroupArn?: string;
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -1430,7 +1430,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1469,13 +1469,13 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsForwardConfig {
   /**
   * Information about the target group stickiness for a rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#target_group_stickiness_config Elasticloadbalancingv2Listener#target_group_stickiness_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#target_group_stickiness_config Elasticloadbalancingv2Listener#target_group_stickiness_config}
   */
   readonly targetGroupStickinessConfig?: Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfig;
   /**
   * Information about how traffic will be distributed between multiple target groups in a forward rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#target_groups Elasticloadbalancingv2Listener#target_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#target_groups Elasticloadbalancingv2Listener#target_groups}
   */
   readonly targetGroups?: Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroups[] | cdktn.IResolvable;
 }
@@ -1600,19 +1600,19 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig
   /**
   * The format of the claim value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#format Elasticloadbalancingv2Listener#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#format Elasticloadbalancingv2Listener#format}
   */
   readonly format?: string;
   /**
   * The name of the claim. You can't specify ``exp``, ``iss``, ``nbf``, or ``iat`` because we validate them by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#name Elasticloadbalancingv2Listener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#name Elasticloadbalancingv2Listener#name}
   */
   readonly name?: string;
   /**
   * The claim value. The maximum size of the list is 10. Each value can be up to 256 characters in length. If the format is ``space-separated-values``, the values can't include spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#values Elasticloadbalancingv2Listener#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#values Elasticloadbalancingv2Listener#values}
   */
   readonly values?: string[];
 }
@@ -1717,7 +1717,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1733,7 +1733,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1749,7 +1749,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1786,15 +1786,15 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
 }
 export interface Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}
   */
   readonly additionalClaims?: Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaims[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}
   */
   readonly jwksEndpoint?: string;
 }
@@ -1913,7 +1913,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutp
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1929,7 +1929,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutp
   }
 
   // jwks_endpoint - computed: true, optional: true, required: false
-  private _jwksEndpoint?: string; 
+  private _jwksEndpoint?: string;
   public get jwksEndpoint() {
     return this.getStringAttribute('jwks_endpoint');
   }
@@ -1948,37 +1948,37 @@ export interface Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig {
   /**
   * The hostname. This component is not percent-encoded. The hostname can contain #{host}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
   */
   readonly host?: string;
   /**
   * The absolute path, starting with the leading "/". This component is not percent-encoded. The path can contain #{host}, #{path}, and #{port}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
   */
   readonly path?: string;
   /**
   * The port. You can specify a value from 1 to 65535 or #{port}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
   */
   readonly port?: string;
   /**
   * The protocol. You can specify HTTP, HTTPS, or #{protocol}. You can redirect HTTP to HTTP, HTTP to HTTPS, and HTTPS to HTTPS. You can't redirect HTTPS to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
   */
   readonly protocol?: string;
   /**
   * The query parameters, URL-encoded when necessary, but not percent-encoded. Do not include the leading "?", as it is automatically added. You can specify any of the reserved keywords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
   */
   readonly query?: string;
   /**
   * The HTTP redirect code. The redirect is either permanent (HTTP 301) or temporary (HTTP 302).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
   */
   readonly statusCode?: string;
 }
@@ -2120,7 +2120,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2136,7 +2136,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2152,7 +2152,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string; 
+  private _port?: string;
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -2168,7 +2168,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2184,7 +2184,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // query - computed: true, optional: true, required: false
-  private _query?: string; 
+  private _query?: string;
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -2200,7 +2200,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string; 
+  private _statusCode?: string;
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -2219,56 +2219,56 @@ export interface Elasticloadbalancingv2ListenerDefaultActions {
   /**
   * [HTTPS listeners] Information for using Amazon Cognito to authenticate users. Specify only when ``Type`` is ``authenticate-cognito``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#authenticate_cognito_config Elasticloadbalancingv2Listener#authenticate_cognito_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#authenticate_cognito_config Elasticloadbalancingv2Listener#authenticate_cognito_config}
   */
   readonly authenticateCognitoConfig?: Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfig;
   /**
   * [HTTPS listeners] Information about an identity provider that is compliant with OpenID Connect (OIDC). Specify only when ``Type`` is ``authenticate-oidc``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#authenticate_oidc_config Elasticloadbalancingv2Listener#authenticate_oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#authenticate_oidc_config Elasticloadbalancingv2Listener#authenticate_oidc_config}
   */
   readonly authenticateOidcConfig?: Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfig;
   /**
   * [Application Load Balancer] Information for creating an action that returns a custom HTTP response. Specify only when ``Type`` is ``fixed-response``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#fixed_response_config Elasticloadbalancingv2Listener#fixed_response_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#fixed_response_config Elasticloadbalancingv2Listener#fixed_response_config}
   */
   readonly fixedResponseConfig?: Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig;
   /**
   * Information for creating an action that distributes requests among multiple target groups. Specify only when ``Type`` is ``forward``.
   *  If you specify both ``ForwardConfig`` and ``TargetGroupArn``, you can specify only one target group using ``ForwardConfig`` and it must be the same target group specified in ``TargetGroupArn``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#forward_config Elasticloadbalancingv2Listener#forward_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#forward_config Elasticloadbalancingv2Listener#forward_config}
   */
   readonly forwardConfig?: Elasticloadbalancingv2ListenerDefaultActionsForwardConfig;
   /**
   * [HTTPS listeners] Information for validating JWT access tokens in client requests. Specify only when ``Type`` is ``jwt-validation``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#jwt_validation_config Elasticloadbalancingv2Listener#jwt_validation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#jwt_validation_config Elasticloadbalancingv2Listener#jwt_validation_config}
   */
   readonly jwtValidationConfig?: Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig;
   /**
   * The order for the action. This value is required for rules with multiple actions. The action with the lowest value for order is performed first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#order Elasticloadbalancingv2Listener#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#order Elasticloadbalancingv2Listener#order}
   */
   readonly order?: number;
   /**
   * [Application Load Balancer] Information for creating a redirect action. Specify only when ``Type`` is ``redirect``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#redirect_config Elasticloadbalancingv2Listener#redirect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#redirect_config Elasticloadbalancingv2Listener#redirect_config}
   */
   readonly redirectConfig?: Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig;
   /**
   * The Amazon Resource Name (ARN) of the target group. Specify only when ``Type`` is ``forward`` and you want to route to a single target group. To route to multiple target groups, you must use ``ForwardConfig`` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
   * The type of action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#type Elasticloadbalancingv2Listener#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#type Elasticloadbalancingv2Listener#type}
   */
   readonly type: string;
 }
@@ -2531,7 +2531,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number; 
+  private _order?: number;
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -2563,7 +2563,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string; 
+  private _targetGroupArn?: string;
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2579,7 +2579,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2616,7 +2616,7 @@ export interface Elasticloadbalancingv2ListenerListenerAttributes {
   * The name of the attribute.
   *  The following attribute is supported by Network Load Balancers, and Gateway Load Balancers.
   *   +  ``tcp.idle_timeout.seconds`` - The tcp idle timeout value, in seconds. The valid range is 60-6000 seconds. The default is 350 seconds.
-  *   
+  *
   *  The following attributes are only supported by Application Load Balancers.
   *   +  ``routing.http.request.x_amzn_mtls_clientcert_serial_number.header_name`` - Enables you to modify the header name of the *X-Amzn-Mtls-Clientcert-Serial-Number* HTTP request header.
   *   +  ``routing.http.request.x_amzn_mtls_clientcert_issuer.header_name`` - Enables you to modify the header name of the *X-Amzn-Mtls-Clientcert-Issuer* HTTP request header.
@@ -2638,13 +2638,13 @@ export interface Elasticloadbalancingv2ListenerListenerAttributes {
   *   +  ``routing.http.response.x_content_type_options.header_value`` - Indicates whether the MIME types advertised in the *Content-Type* headers should be followed and not be changed.
   *   +  ``routing.http.response.x_frame_options.header_value`` - Indicates whether the browser is allowed to render a page in a *frame*, *iframe*, *embed* or *object*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
   */
   readonly key?: string;
   /**
   * The value of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
   */
   readonly value?: string;
 }
@@ -2736,7 +2736,7 @@ export class Elasticloadbalancingv2ListenerListenerAttributesOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2752,7 +2752,7 @@ export class Elasticloadbalancingv2ListenerListenerAttributesOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2791,25 +2791,25 @@ export interface Elasticloadbalancingv2ListenerMutualAuthentication {
   /**
   * Indicates whether trust store CA certificate names are advertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#advertise_trust_store_ca_names Elasticloadbalancingv2Listener#advertise_trust_store_ca_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#advertise_trust_store_ca_names Elasticloadbalancingv2Listener#advertise_trust_store_ca_names}
   */
   readonly advertiseTrustStoreCaNames?: string;
   /**
   * Indicates whether expired client certificates are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#ignore_client_certificate_expiry Elasticloadbalancingv2Listener#ignore_client_certificate_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#ignore_client_certificate_expiry Elasticloadbalancingv2Listener#ignore_client_certificate_expiry}
   */
   readonly ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable;
   /**
   * The client certificate handling method. Options are ``off``, ``passthrough`` or ``verify``. The default value on initial resource creation is ``off``. After mutual authentication is turned on, you must explicitly set the ``Mode`` to ``off`` to turn it off; removing the property from your template will not turn it off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#mode Elasticloadbalancingv2Listener#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#mode Elasticloadbalancingv2Listener#mode}
   */
   readonly mode?: string;
   /**
   * The Amazon Resource Name (ARN) of the trust store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#trust_store_arn Elasticloadbalancingv2Listener#trust_store_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#trust_store_arn Elasticloadbalancingv2Listener#trust_store_arn}
   */
   readonly trustStoreArn?: string;
 }
@@ -2925,7 +2925,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // advertise_trust_store_ca_names - computed: true, optional: true, required: false
-  private _advertiseTrustStoreCaNames?: string; 
+  private _advertiseTrustStoreCaNames?: string;
   public get advertiseTrustStoreCaNames() {
     return this.getStringAttribute('advertise_trust_store_ca_names');
   }
@@ -2941,7 +2941,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // ignore_client_certificate_expiry - computed: true, optional: true, required: false
-  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable; 
+  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable;
   public get ignoreClientCertificateExpiry() {
     return this.getBooleanAttribute('ignore_client_certificate_expiry');
   }
@@ -2957,7 +2957,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2973,7 +2973,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // trust_store_arn - computed: true, optional: true, required: false
-  private _trustStoreArn?: string; 
+  private _trustStoreArn?: string;
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }
@@ -2990,7 +2990,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}
 */
 export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
 
@@ -3006,7 +3006,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Elasticloadbalancingv2Listener resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Elasticloadbalancingv2Listener to import
-  * @param importFromId The id of the existing Elasticloadbalancingv2Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Elasticloadbalancingv2Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Elasticloadbalancingv2Listener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3018,7 +3018,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3029,7 +3029,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticloadbalancingv2_listener',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3055,7 +3055,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   // ==========
 
   // alpn_policy - computed: true, optional: true, required: false
-  private _alpnPolicy?: string[]; 
+  private _alpnPolicy?: string[];
   public get alpnPolicy() {
     return this.getListAttribute('alpn_policy');
   }
@@ -3126,7 +3126,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // load_balancer_arn - computed: false, optional: false, required: true
-  private _loadBalancerArn?: string; 
+  private _loadBalancerArn?: string;
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -3155,7 +3155,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3171,7 +3171,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -3187,7 +3187,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // ssl_policy - computed: true, optional: true, required: false
-  private _sslPolicy?: string; 
+  private _sslPolicy?: string;
   public get sslPolicy() {
     return this.getStringAttribute('ssl_policy');
   }

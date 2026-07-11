@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface BatchJobDefinitionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource_properties BatchJobDefinition#consumable_resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource_properties BatchJobDefinition#consumable_resource_properties}
   */
   readonly consumableResourceProperties?: BatchJobDefinitionConsumableResourceProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_properties BatchJobDefinition#container_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_properties BatchJobDefinition#container_properties}
   */
   readonly containerProperties?: BatchJobDefinitionContainerProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}
   */
   readonly ecsProperties?: BatchJobDefinitionEcsProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
   */
   readonly eksProperties?: BatchJobDefinitionEksProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#job_definition_name BatchJobDefinition#job_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#job_definition_name BatchJobDefinition#job_definition_name}
   */
   readonly jobDefinitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#node_properties BatchJobDefinition#node_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#node_properties BatchJobDefinition#node_properties}
   */
   readonly nodeProperties?: BatchJobDefinitionNodeProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#parameters BatchJobDefinition#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#parameters BatchJobDefinition#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#platform_capabilities BatchJobDefinition#platform_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#platform_capabilities BatchJobDefinition#platform_capabilities}
   */
   readonly platformCapabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#propagate_tags BatchJobDefinition#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#propagate_tags BatchJobDefinition#propagate_tags}
   */
   readonly propagateTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resource_retention_policy BatchJobDefinition#resource_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resource_retention_policy BatchJobDefinition#resource_retention_policy}
   */
   readonly resourceRetentionPolicy?: BatchJobDefinitionResourceRetentionPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#retry_strategy BatchJobDefinition#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#retry_strategy BatchJobDefinition#retry_strategy}
   */
   readonly retryStrategy?: BatchJobDefinitionRetryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#scheduling_priority BatchJobDefinition#scheduling_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#scheduling_priority BatchJobDefinition#scheduling_priority}
   */
   readonly schedulingPriority?: number;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#tags BatchJobDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#tags BatchJobDefinition#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#timeout BatchJobDefinition#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#timeout BatchJobDefinition#timeout}
   */
   readonly timeout?: BatchJobDefinitionTimeout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type: string;
 }
@@ -74,11 +74,11 @@ export interface BatchJobDefinitionConsumableResourcePropertiesConsumableResourc
   /**
   * The ARN of the consumable resource the job definition should consume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource BatchJobDefinition#consumable_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource BatchJobDefinition#consumable_resource}
   */
   readonly consumableResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#quantity BatchJobDefinition#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#quantity BatchJobDefinition#quantity}
   */
   readonly quantity?: number;
 }
@@ -170,7 +170,7 @@ export class BatchJobDefinitionConsumableResourcePropertiesConsumableResourceLis
   }
 
   // consumable_resource - computed: true, optional: true, required: false
-  private _consumableResource?: string; 
+  private _consumableResource?: string;
   public get consumableResource() {
     return this.getStringAttribute('consumable_resource');
   }
@@ -186,7 +186,7 @@ export class BatchJobDefinitionConsumableResourcePropertiesConsumableResourceLis
   }
 
   // quantity - computed: true, optional: true, required: false
-  private _quantity?: number; 
+  private _quantity?: number;
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -223,7 +223,7 @@ export class BatchJobDefinitionConsumableResourcePropertiesConsumableResourceLis
 }
 export interface BatchJobDefinitionConsumableResourceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource_list BatchJobDefinition#consumable_resource_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource_list BatchJobDefinition#consumable_resource_list}
   */
   readonly consumableResourceList?: BatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStruct[] | cdktn.IResolvable;
 }
@@ -317,11 +317,11 @@ export class BatchJobDefinitionConsumableResourcePropertiesOutputReference exten
 }
 export interface BatchJobDefinitionContainerPropertiesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -413,7 +413,7 @@ export class BatchJobDefinitionContainerPropertiesEnvironmentOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -429,7 +429,7 @@ export class BatchJobDefinitionContainerPropertiesEnvironmentOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -466,7 +466,7 @@ export class BatchJobDefinitionContainerPropertiesEnvironmentList extends cdktn.
 }
 export interface BatchJobDefinitionContainerPropertiesEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -543,7 +543,7 @@ export class BatchJobDefinitionContainerPropertiesEphemeralStorageOutputReferenc
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number; 
+  private _sizeInGiB?: number;
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -560,7 +560,7 @@ export class BatchJobDefinitionContainerPropertiesEphemeralStorageOutputReferenc
 }
 export interface BatchJobDefinitionContainerPropertiesFargatePlatformConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#platform_version BatchJobDefinition#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#platform_version BatchJobDefinition#platform_version}
   */
   readonly platformVersion?: string;
 }
@@ -637,7 +637,7 @@ export class BatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOu
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -654,15 +654,15 @@ export class BatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOu
 }
 export interface BatchJobDefinitionContainerPropertiesLinuxParametersDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
   */
   readonly permissions?: string[];
 }
@@ -767,7 +767,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -783,7 +783,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string; 
+  private _hostPath?: string;
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -799,7 +799,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -836,15 +836,15 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesList ext
 }
 export interface BatchJobDefinitionContainerPropertiesLinuxParametersTmpfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
   */
   readonly mountOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
   */
   readonly size?: number;
 }
@@ -949,7 +949,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -965,7 +965,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[]; 
+  private _mountOptions?: string[];
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -981,7 +981,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1018,27 +1018,27 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsList exten
 }
 export interface BatchJobDefinitionContainerPropertiesLinuxParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
   */
   readonly devices?: BatchJobDefinitionContainerPropertiesLinuxParametersDevices[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
   */
   readonly initProcessEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
   */
   readonly maxSwap?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
   */
   readonly sharedMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
   */
   readonly swappiness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
   */
   readonly tmpfs?: BatchJobDefinitionContainerPropertiesLinuxParametersTmpfs[] | cdktn.IResolvable;
 }
@@ -1196,7 +1196,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
+  private _initProcessEnabled?: boolean | cdktn.IResolvable;
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -1212,7 +1212,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number; 
+  private _maxSwap?: number;
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -1228,7 +1228,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number; 
+  private _sharedMemorySize?: number;
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -1244,7 +1244,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number; 
+  private _swappiness?: number;
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -1277,11 +1277,11 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
 }
 export interface BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -1373,7 +1373,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1389,7 +1389,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsO
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -1426,15 +1426,15 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsL
 }
 export interface BatchJobDefinitionContainerPropertiesLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
   */
   readonly logDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
   */
   readonly secretOptions?: BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptions[] | cdktn.IResolvable;
 }
@@ -1537,7 +1537,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationOutputReferenc
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string; 
+  private _logDriver?: string;
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -1553,7 +1553,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationOutputReferenc
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -1586,15 +1586,15 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationOutputReferenc
 }
 export interface BatchJobDefinitionContainerPropertiesMountPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
   */
   readonly sourceVolume?: string;
 }
@@ -1699,7 +1699,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -1715,7 +1715,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -1731,7 +1731,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string; 
+  private _sourceVolume?: string;
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -1768,7 +1768,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsList extends cdktn.
 }
 export interface BatchJobDefinitionContainerPropertiesNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}
   */
   readonly assignPublicIp?: string;
 }
@@ -1845,7 +1845,7 @@ export class BatchJobDefinitionContainerPropertiesNetworkConfigurationOutputRefe
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string; 
+  private _assignPublicIp?: string;
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -1862,7 +1862,7 @@ export class BatchJobDefinitionContainerPropertiesNetworkConfigurationOutputRefe
 }
 export interface BatchJobDefinitionContainerPropertiesRepositoryCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
   */
   readonly credentialsParameter?: string;
 }
@@ -1939,7 +1939,7 @@ export class BatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputRef
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string; 
+  private _credentialsParameter?: string;
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -1956,11 +1956,11 @@ export class BatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputRef
 }
 export interface BatchJobDefinitionContainerPropertiesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -2052,7 +2052,7 @@ export class BatchJobDefinitionContainerPropertiesResourceRequirementsOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2068,7 +2068,7 @@ export class BatchJobDefinitionContainerPropertiesResourceRequirementsOutputRefe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2105,11 +2105,11 @@ export class BatchJobDefinitionContainerPropertiesResourceRequirementsList exten
 }
 export interface BatchJobDefinitionContainerPropertiesRuntimePlatform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
   */
   readonly operatingSystemFamily?: string;
 }
@@ -2199,7 +2199,7 @@ export class BatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string; 
+  private _cpuArchitecture?: string;
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -2215,7 +2215,7 @@ export class BatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string; 
+  private _operatingSystemFamily?: string;
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -2232,11 +2232,11 @@ export class BatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
 }
 export interface BatchJobDefinitionContainerPropertiesSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -2328,7 +2328,7 @@ export class BatchJobDefinitionContainerPropertiesSecretsOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2344,7 +2344,7 @@ export class BatchJobDefinitionContainerPropertiesSecretsOutputReference extends
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -2381,15 +2381,15 @@ export class BatchJobDefinitionContainerPropertiesSecretsList extends cdktn.Comp
 }
 export interface BatchJobDefinitionContainerPropertiesUlimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
   */
   readonly hardLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -2494,7 +2494,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number; 
+  private _hardLimit?: number;
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -2510,7 +2510,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2526,7 +2526,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number; 
+  private _softLimit?: number;
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -2563,11 +2563,11 @@ export class BatchJobDefinitionContainerPropertiesUlimitsList extends cdktn.Comp
 }
 export interface BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
   */
   readonly accessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
   */
   readonly iam?: string;
 }
@@ -2657,7 +2657,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationA
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string; 
+  private _accessPointId?: string;
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -2673,7 +2673,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationA
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string; 
+  private _iam?: string;
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -2690,23 +2690,23 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationA
 }
 export interface BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
   */
   readonly authorizationConfig?: BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
   */
   readonly transitEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -2851,7 +2851,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2867,7 +2867,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -2883,7 +2883,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string; 
+  private _transitEncryption?: string;
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -2899,7 +2899,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -2916,7 +2916,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
 }
 export interface BatchJobDefinitionContainerPropertiesVolumesHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
   */
   readonly sourcePath?: string;
 }
@@ -2993,7 +2993,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesHostOutputReference ext
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string; 
+  private _sourcePath?: string;
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -3010,19 +3010,19 @@ export class BatchJobDefinitionContainerPropertiesVolumesHostOutputReference ext
 }
 export interface BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
   */
   readonly fileSystemArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -3138,7 +3138,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -3154,7 +3154,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string; 
+  private _fileSystemArn?: string;
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -3170,7 +3170,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -3186,7 +3186,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -3203,19 +3203,19 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
 }
 export interface BatchJobDefinitionContainerPropertiesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
   */
   readonly efsVolumeConfiguration?: BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
   */
   readonly host?: BatchJobDefinitionContainerPropertiesVolumesHost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
   */
   readonly s3FilesVolumeConfiguration?: BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfiguration;
 }
@@ -3365,7 +3365,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3418,95 +3418,95 @@ export class BatchJobDefinitionContainerPropertiesVolumesList extends cdktn.Comp
 }
 export interface BatchJobDefinitionContainerProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
   */
   readonly environment?: BatchJobDefinitionContainerPropertiesEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
   */
   readonly ephemeralStorage?: BatchJobDefinitionContainerPropertiesEphemeralStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#fargate_platform_configuration BatchJobDefinition#fargate_platform_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#fargate_platform_configuration BatchJobDefinition#fargate_platform_configuration}
   */
   readonly fargatePlatformConfiguration?: BatchJobDefinitionContainerPropertiesFargatePlatformConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#job_role_arn BatchJobDefinition#job_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#job_role_arn BatchJobDefinition#job_role_arn}
   */
   readonly jobRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
   */
   readonly linuxParameters?: BatchJobDefinitionContainerPropertiesLinuxParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
   */
   readonly logConfiguration?: BatchJobDefinitionContainerPropertiesLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#memory BatchJobDefinition#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#memory BatchJobDefinition#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
   */
   readonly mountPoints?: BatchJobDefinitionContainerPropertiesMountPoints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#network_configuration BatchJobDefinition#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#network_configuration BatchJobDefinition#network_configuration}
   */
   readonly networkConfiguration?: BatchJobDefinitionContainerPropertiesNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
   */
   readonly readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
   */
   readonly repositoryCredentials?: BatchJobDefinitionContainerPropertiesRepositoryCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
   */
   readonly resourceRequirements?: BatchJobDefinitionContainerPropertiesResourceRequirements[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
   */
   readonly runtimePlatform?: BatchJobDefinitionContainerPropertiesRuntimePlatform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
   */
   readonly secrets?: BatchJobDefinitionContainerPropertiesSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
   */
   readonly ulimits?: BatchJobDefinitionContainerPropertiesUlimits[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#vcpus BatchJobDefinition#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#vcpus BatchJobDefinition#vcpus}
   */
   readonly vcpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionContainerPropertiesVolumes[] | cdktn.IResolvable;
 }
@@ -3869,7 +3869,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -3885,7 +3885,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -3933,7 +3933,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -3965,7 +3965,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -3981,7 +3981,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // job_role_arn - computed: true, optional: true, required: false
-  private _jobRoleArn?: string; 
+  private _jobRoleArn?: string;
   public get jobRoleArn() {
     return this.getStringAttribute('job_role_arn');
   }
@@ -4029,7 +4029,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number; 
+  private _memory?: number;
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -4077,7 +4077,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -4093,7 +4093,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -4189,7 +4189,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -4205,7 +4205,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // vcpus - computed: true, optional: true, required: false
-  private _vcpus?: number; 
+  private _vcpus?: number;
   public get vcpus() {
     return this.getNumberAttribute('vcpus');
   }
@@ -4238,11 +4238,11 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#condition BatchJobDefinition#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#condition BatchJobDefinition#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_name BatchJobDefinition#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_name BatchJobDefinition#container_name}
   */
   readonly containerName?: string;
 }
@@ -4334,7 +4334,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOut
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string; 
+  private _condition?: string;
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -4350,7 +4350,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOut
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string; 
+  private _containerName?: string;
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -4387,11 +4387,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnLis
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -4483,7 +4483,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4499,7 +4499,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4536,11 +4536,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentL
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
 }
@@ -4630,7 +4630,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConf
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -4646,7 +4646,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConf
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4663,15 +4663,15 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConf
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
   */
   readonly permissions?: string[];
 }
@@ -4776,7 +4776,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -4792,7 +4792,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string; 
+  private _hostPath?: string;
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -4808,7 +4808,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -4845,15 +4845,15 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
   */
   readonly mountOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
   */
   readonly size?: number;
 }
@@ -4958,7 +4958,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -4974,7 +4974,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[]; 
+  private _mountOptions?: string[];
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -4990,7 +4990,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -5027,27 +5027,27 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
   */
   readonly devices?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevices[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
   */
   readonly initProcessEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
   */
   readonly maxSwap?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
   */
   readonly sharedMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
   */
   readonly swappiness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
   */
   readonly tmpfs?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs[] | cdktn.IResolvable;
 }
@@ -5205,7 +5205,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
+  private _initProcessEnabled?: boolean | cdktn.IResolvable;
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -5221,7 +5221,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number; 
+  private _maxSwap?: number;
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -5237,7 +5237,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number; 
+  private _sharedMemorySize?: number;
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -5253,7 +5253,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number; 
+  private _swappiness?: number;
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -5286,11 +5286,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -5382,7 +5382,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5398,7 +5398,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -5435,15 +5435,15 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
   */
   readonly logDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
   */
   readonly secretOptions?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions[] | cdktn.IResolvable;
 }
@@ -5546,7 +5546,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string; 
+  private _logDriver?: string;
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -5562,7 +5562,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -5595,15 +5595,15 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
   */
   readonly sourceVolume?: string;
 }
@@ -5708,7 +5708,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -5724,7 +5724,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -5740,7 +5740,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string; 
+  private _sourceVolume?: string;
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -5777,7 +5777,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsL
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
   */
   readonly credentialsParameter?: string;
 }
@@ -5854,7 +5854,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCr
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string; 
+  private _credentialsParameter?: string;
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -5871,11 +5871,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCr
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -5967,7 +5967,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequ
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5983,7 +5983,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequ
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6020,11 +6020,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequ
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -6116,7 +6116,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6132,7 +6132,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutpu
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -6169,15 +6169,15 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsList 
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
   */
   readonly hardLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -6282,7 +6282,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number; 
+  private _hardLimit?: number;
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -6298,7 +6298,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6314,7 +6314,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number; 
+  private _softLimit?: number;
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -6351,79 +6351,79 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsList 
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#depends_on BatchJobDefinition#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#depends_on BatchJobDefinition#depends_on}
   */
   readonly dependsOn?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOn[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
   */
   readonly environment?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#essential BatchJobDefinition#essential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#essential BatchJobDefinition#essential}
   */
   readonly essential?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#firelens_configuration BatchJobDefinition#firelens_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#firelens_configuration BatchJobDefinition#firelens_configuration}
   */
   readonly firelensConfiguration?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
   */
   readonly linuxParameters?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
   */
   readonly logConfiguration?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
   */
   readonly mountPoints?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPoints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
   */
   readonly readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
   */
   readonly repositoryCredentials?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
   */
   readonly resourceRequirements?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirements[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
   */
   readonly secrets?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#start_timeout BatchJobDefinition#start_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#start_timeout BatchJobDefinition#start_timeout}
   */
   readonly startTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#stop_timeout BatchJobDefinition#stop_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#stop_timeout BatchJobDefinition#stop_timeout}
   */
   readonly stopTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
   */
   readonly ulimits?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimits[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
   */
   readonly user?: string;
 }
@@ -6736,7 +6736,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -6784,7 +6784,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable; 
+  private _essential?: boolean | cdktn.IResolvable;
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -6816,7 +6816,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -6880,7 +6880,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6896,7 +6896,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -6912,7 +6912,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -6976,7 +6976,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // start_timeout - computed: true, optional: true, required: false
-  private _startTimeout?: number; 
+  private _startTimeout?: number;
   public get startTimeout() {
     return this.getNumberAttribute('start_timeout');
   }
@@ -6992,7 +6992,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // stop_timeout - computed: true, optional: true, required: false
-  private _stopTimeout?: number; 
+  private _stopTimeout?: number;
   public get stopTimeout() {
     return this.getNumberAttribute('stop_timeout');
   }
@@ -7024,7 +7024,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -7061,7 +7061,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersList extends
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -7138,7 +7138,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutput
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number; 
+  private _sizeInGiB?: number;
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -7155,7 +7155,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutput
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}
   */
   readonly assignPublicIp?: string;
 }
@@ -7232,7 +7232,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOu
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string; 
+  private _assignPublicIp?: string;
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -7249,11 +7249,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOu
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
   */
   readonly operatingSystemFamily?: string;
 }
@@ -7343,7 +7343,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputR
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string; 
+  private _cpuArchitecture?: string;
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -7359,7 +7359,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputR
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string; 
+  private _operatingSystemFamily?: string;
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -7376,11 +7376,11 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputR
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
   */
   readonly accessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
   */
   readonly iam?: string;
 }
@@ -7470,7 +7470,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string; 
+  private _accessPointId?: string;
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -7486,7 +7486,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string; 
+  private _iam?: string;
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -7503,23 +7503,23 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
   */
   readonly authorizationConfig?: BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
   */
   readonly transitEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -7664,7 +7664,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -7680,7 +7680,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -7696,7 +7696,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string; 
+  private _transitEncryption?: string;
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -7712,7 +7712,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -7729,7 +7729,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
   */
   readonly sourcePath?: string;
 }
@@ -7806,7 +7806,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputRefer
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string; 
+  private _sourcePath?: string;
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -7823,19 +7823,19 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputRefer
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
   */
   readonly fileSystemArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -7951,7 +7951,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -7967,7 +7967,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string; 
+  private _fileSystemArn?: string;
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -7983,7 +7983,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -7999,7 +7999,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -8016,19 +8016,19 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
 }
 export interface BatchJobDefinitionEcsPropertiesTaskPropertiesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
   */
   readonly efsVolumeConfiguration?: BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
   */
   readonly host?: BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
   */
   readonly s3FilesVolumeConfiguration?: BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration;
 }
@@ -8178,7 +8178,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8231,47 +8231,47 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesList extends cd
 }
 export interface BatchJobDefinitionEcsPropertiesTaskProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
   */
   readonly containers?: BatchJobDefinitionEcsPropertiesTaskPropertiesContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
   */
   readonly ephemeralStorage?: BatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ipc_mode BatchJobDefinition#ipc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ipc_mode BatchJobDefinition#ipc_mode}
   */
   readonly ipcMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#network_configuration BatchJobDefinition#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#network_configuration BatchJobDefinition#network_configuration}
   */
   readonly networkConfiguration?: BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#pid_mode BatchJobDefinition#pid_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#pid_mode BatchJobDefinition#pid_mode}
   */
   readonly pidMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#platform_version BatchJobDefinition#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#platform_version BatchJobDefinition#platform_version}
   */
   readonly platformVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
   */
   readonly runtimePlatform?: BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#task_role_arn BatchJobDefinition#task_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#task_role_arn BatchJobDefinition#task_role_arn}
   */
   readonly taskRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionEcsPropertiesTaskPropertiesVolumes[] | cdktn.IResolvable;
 }
@@ -8496,7 +8496,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -8528,7 +8528,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -8544,7 +8544,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // ipc_mode - computed: true, optional: true, required: false
-  private _ipcMode?: string; 
+  private _ipcMode?: string;
   public get ipcMode() {
     return this.getStringAttribute('ipc_mode');
   }
@@ -8576,7 +8576,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // pid_mode - computed: true, optional: true, required: false
-  private _pidMode?: string; 
+  private _pidMode?: string;
   public get pidMode() {
     return this.getStringAttribute('pid_mode');
   }
@@ -8592,7 +8592,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -8624,7 +8624,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // task_role_arn - computed: true, optional: true, required: false
-  private _taskRoleArn?: string; 
+  private _taskRoleArn?: string;
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -8677,7 +8677,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesList extends cdktn.Com
 }
 export interface BatchJobDefinitionEcsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#task_properties BatchJobDefinition#task_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#task_properties BatchJobDefinition#task_properties}
   */
   readonly taskProperties?: BatchJobDefinitionEcsPropertiesTaskProperties[] | cdktn.IResolvable;
 }
@@ -8771,11 +8771,11 @@ export class BatchJobDefinitionEcsPropertiesOutputReference extends cdktn.Comple
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -8867,7 +8867,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputRefe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8883,7 +8883,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputRefe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8920,11 +8920,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersEnvList exten
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9014,7 +9014,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutp
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string }; 
+  private _limits?: { [key: string]: string };
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -9030,7 +9030,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutp
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string }; 
+  private _requests?: { [key: string]: string };
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -9047,27 +9047,27 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutp
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -9209,7 +9209,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -9225,7 +9225,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -9241,7 +9241,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -9257,7 +9257,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number; 
+  private _runAsGroup?: number;
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -9273,7 +9273,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
+  private _runAsNonRoot?: boolean | cdktn.IResolvable;
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -9289,7 +9289,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number; 
+  private _runAsUser?: number;
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -9306,19 +9306,19 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
   */
   readonly subPath?: string;
 }
@@ -9436,7 +9436,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -9452,7 +9452,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9468,7 +9468,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -9484,7 +9484,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string; 
+  private _subPath?: string;
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -9521,39 +9521,39 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsL
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
   */
   readonly env?: BatchJobDefinitionEksPropertiesPodPropertiesContainersEnv[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
   */
   readonly resources?: BatchJobDefinitionEksPropertiesPodPropertiesContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
   */
   readonly securityContext?: BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
   */
   readonly volumeMounts?: BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -9736,7 +9736,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -9752,7 +9752,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -9784,7 +9784,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -9800,7 +9800,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string; 
+  private _imagePullPolicy?: string;
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -9816,7 +9816,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9901,7 +9901,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersList extends 
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
 }
@@ -9980,7 +9980,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10017,11 +10017,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsList ex
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -10113,7 +10113,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutput
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10129,7 +10129,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutput
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10166,11 +10166,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvList e
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10260,7 +10260,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string }; 
+  private _limits?: { [key: string]: string };
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -10276,7 +10276,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string }; 
+  private _requests?: { [key: string]: string };
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -10293,27 +10293,27 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -10455,7 +10455,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -10471,7 +10471,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -10487,7 +10487,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -10503,7 +10503,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number; 
+  private _runAsGroup?: number;
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -10519,7 +10519,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
+  private _runAsNonRoot?: boolean | cdktn.IResolvable;
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -10535,7 +10535,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number; 
+  private _runAsUser?: number;
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -10552,19 +10552,19 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
   */
   readonly subPath?: string;
 }
@@ -10682,7 +10682,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -10698,7 +10698,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10714,7 +10714,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -10730,7 +10730,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string; 
+  private _subPath?: string;
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -10767,39 +10767,39 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
   */
   readonly env?: BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnv[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
   */
   readonly resources?: BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
   */
   readonly securityContext?: BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
   */
   readonly volumeMounts?: BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -10982,7 +10982,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -10998,7 +10998,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -11030,7 +11030,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -11046,7 +11046,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string; 
+  private _imagePullPolicy?: string;
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -11062,7 +11062,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11147,15 +11147,15 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersList exte
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#annotations BatchJobDefinition#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#annotations BatchJobDefinition#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#labels BatchJobDefinition#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#labels BatchJobDefinition#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#namespace BatchJobDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#namespace BatchJobDefinition#namespace}
   */
   readonly namespace?: string;
 }
@@ -11258,7 +11258,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // annotations - computed: true, optional: true, required: false
-  private _annotations?: { [key: string]: string }; 
+  private _annotations?: { [key: string]: string };
   public get annotations() {
     return this.getStringMapAttribute('annotations');
   }
@@ -11274,7 +11274,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
+  private _labels?: { [key: string]: string };
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -11290,7 +11290,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -11307,11 +11307,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -11401,7 +11401,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputRe
   }
 
   // medium - computed: true, optional: true, required: false
-  private _medium?: string; 
+  private _medium?: string;
   public get medium() {
     return this.getStringAttribute('medium');
   }
@@ -11417,7 +11417,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputRe
   }
 
   // size_limit - computed: true, optional: true, required: false
-  private _sizeLimit?: string; 
+  private _sizeLimit?: string;
   public get sizeLimit() {
     return this.getStringAttribute('size_limit');
   }
@@ -11434,7 +11434,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputRe
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}
   */
   readonly path?: string;
 }
@@ -11511,7 +11511,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputRe
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -11528,11 +11528,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputRe
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#claim_name BatchJobDefinition#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#claim_name BatchJobDefinition#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
 }
@@ -11622,7 +11622,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolume
   }
 
   // claim_name - computed: true, optional: true, required: false
-  private _claimName?: string; 
+  private _claimName?: string;
   public get claimName() {
     return this.getStringAttribute('claim_name');
   }
@@ -11638,7 +11638,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolume
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -11655,11 +11655,11 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolume
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}
   */
   readonly secretName?: string;
 }
@@ -11749,7 +11749,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputRefe
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable; 
+  private _optional?: boolean | cdktn.IResolvable;
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -11765,7 +11765,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputRefe
   }
 
   // secret_name - computed: true, optional: true, required: false
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -11782,23 +11782,23 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputRefe
 }
 export interface BatchJobDefinitionEksPropertiesPodPropertiesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
   */
   readonly emptyDir?: BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#persistent_volume_claim BatchJobDefinition#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#persistent_volume_claim BatchJobDefinition#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
   */
   readonly secret?: BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret;
 }
@@ -11961,7 +11961,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12030,39 +12030,39 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesList extends cdk
 }
 export interface BatchJobDefinitionEksPropertiesPodProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
   */
   readonly containers?: BatchJobDefinitionEksPropertiesPodPropertiesContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#dns_policy BatchJobDefinition#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#dns_policy BatchJobDefinition#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_network BatchJobDefinition#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_network BatchJobDefinition#host_network}
   */
   readonly hostNetwork?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_secrets BatchJobDefinition#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_secrets BatchJobDefinition#image_pull_secrets}
   */
   readonly imagePullSecrets?: BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_containers BatchJobDefinition#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_containers BatchJobDefinition#init_containers}
   */
   readonly initContainers?: BatchJobDefinitionEksPropertiesPodPropertiesInitContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#metadata BatchJobDefinition#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#metadata BatchJobDefinition#metadata}
   */
   readonly metadata?: BatchJobDefinitionEksPropertiesPodPropertiesMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#service_account_name BatchJobDefinition#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#service_account_name BatchJobDefinition#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#share_process_namespace BatchJobDefinition#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#share_process_namespace BatchJobDefinition#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionEksPropertiesPodPropertiesVolumes[] | cdktn.IResolvable;
 }
@@ -12259,7 +12259,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // dns_policy - computed: true, optional: true, required: false
-  private _dnsPolicy?: string; 
+  private _dnsPolicy?: string;
   public get dnsPolicy() {
     return this.getStringAttribute('dns_policy');
   }
@@ -12275,7 +12275,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // host_network - computed: true, optional: true, required: false
-  private _hostNetwork?: boolean | cdktn.IResolvable; 
+  private _hostNetwork?: boolean | cdktn.IResolvable;
   public get hostNetwork() {
     return this.getBooleanAttribute('host_network');
   }
@@ -12339,7 +12339,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // service_account_name - computed: true, optional: true, required: false
-  private _serviceAccountName?: string; 
+  private _serviceAccountName?: string;
   public get serviceAccountName() {
     return this.getStringAttribute('service_account_name');
   }
@@ -12355,7 +12355,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // share_process_namespace - computed: true, optional: true, required: false
-  private _shareProcessNamespace?: boolean | cdktn.IResolvable; 
+  private _shareProcessNamespace?: boolean | cdktn.IResolvable;
   public get shareProcessNamespace() {
     return this.getBooleanAttribute('share_process_namespace');
   }
@@ -12388,7 +12388,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
 }
 export interface BatchJobDefinitionEksProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
   */
   readonly podProperties?: BatchJobDefinitionEksPropertiesPodProperties;
 }
@@ -12484,11 +12484,11 @@ export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableRe
   /**
   * The ARN of the consumable resource the job definition should consume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource BatchJobDefinition#consumable_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource BatchJobDefinition#consumable_resource}
   */
   readonly consumableResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#quantity BatchJobDefinition#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#quantity BatchJobDefinition#quantity}
   */
   readonly quantity?: number;
 }
@@ -12580,7 +12580,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
   }
 
   // consumable_resource - computed: true, optional: true, required: false
-  private _consumableResource?: string; 
+  private _consumableResource?: string;
   public get consumableResource() {
     return this.getStringAttribute('consumable_resource');
   }
@@ -12596,7 +12596,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
   }
 
   // quantity - computed: true, optional: true, required: false
-  private _quantity?: number; 
+  private _quantity?: number;
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -12633,7 +12633,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource_list BatchJobDefinition#consumable_resource_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource_list BatchJobDefinition#consumable_resource_list}
   */
   readonly consumableResourceList?: BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStruct[] | cdktn.IResolvable;
 }
@@ -12727,11 +12727,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -12823,7 +12823,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnviron
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12839,7 +12839,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnviron
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12876,7 +12876,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnviron
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size_in_gi_b BatchJobDefinition#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -12953,7 +12953,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemer
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number; 
+  private _sizeInGiB?: number;
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -12970,15 +12970,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemer
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
   */
   readonly permissions?: string[];
 }
@@ -13083,7 +13083,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -13099,7 +13099,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string; 
+  private _hostPath?: string;
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -13115,7 +13115,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -13152,15 +13152,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
   */
   readonly mountOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
   */
   readonly size?: number;
 }
@@ -13265,7 +13265,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -13281,7 +13281,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[]; 
+  private _mountOptions?: string[];
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -13297,7 +13297,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -13334,27 +13334,27 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
   */
   readonly devices?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevices[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
   */
   readonly initProcessEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
   */
   readonly maxSwap?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
   */
   readonly sharedMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
   */
   readonly swappiness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
   */
   readonly tmpfs?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfs[] | cdktn.IResolvable;
 }
@@ -13512,7 +13512,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
+  private _initProcessEnabled?: boolean | cdktn.IResolvable;
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -13528,7 +13528,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number; 
+  private _maxSwap?: number;
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -13544,7 +13544,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number; 
+  private _sharedMemorySize?: number;
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -13560,7 +13560,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number; 
+  private _swappiness?: number;
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -13593,11 +13593,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -13689,7 +13689,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13705,7 +13705,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -13742,15 +13742,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
   */
   readonly logDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
   */
   readonly secretOptions?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptions[] | cdktn.IResolvable;
 }
@@ -13853,7 +13853,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string; 
+  private _logDriver?: string;
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -13869,7 +13869,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -13902,15 +13902,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
   */
   readonly sourceVolume?: string;
 }
@@ -14015,7 +14015,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -14031,7 +14031,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -14047,7 +14047,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string; 
+  private _sourceVolume?: string;
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -14084,7 +14084,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
   */
   readonly credentialsParameter?: string;
 }
@@ -14161,7 +14161,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerReposit
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string; 
+  private _credentialsParameter?: string;
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -14178,11 +14178,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerReposit
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -14274,7 +14274,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -14290,7 +14290,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14327,11 +14327,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourc
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#cpu_architecture BatchJobDefinition#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#operating_system_family BatchJobDefinition#operating_system_family}
   */
   readonly operatingSystemFamily?: string;
 }
@@ -14421,7 +14421,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntime
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string; 
+  private _cpuArchitecture?: string;
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -14437,7 +14437,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntime
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string; 
+  private _operatingSystemFamily?: string;
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -14454,11 +14454,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntime
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -14550,7 +14550,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14566,7 +14566,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -14603,15 +14603,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
   */
   readonly hardLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -14716,7 +14716,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number; 
+  private _hardLimit?: number;
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -14732,7 +14732,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14748,7 +14748,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number; 
+  private _softLimit?: number;
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -14785,11 +14785,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
   */
   readonly accessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
   */
   readonly iam?: string;
 }
@@ -14879,7 +14879,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string; 
+  private _accessPointId?: string;
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -14895,7 +14895,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string; 
+  private _iam?: string;
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -14912,23 +14912,23 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
   */
   readonly authorizationConfig?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
   */
   readonly transitEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -15073,7 +15073,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -15089,7 +15089,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -15105,7 +15105,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string; 
+  private _transitEncryption?: string;
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -15121,7 +15121,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -15138,7 +15138,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
   */
   readonly sourcePath?: string;
 }
@@ -15215,7 +15215,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string; 
+  private _sourcePath?: string;
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -15232,19 +15232,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
   */
   readonly fileSystemArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -15360,7 +15360,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -15376,7 +15376,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string; 
+  private _fileSystemArn?: string;
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -15392,7 +15392,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -15408,7 +15408,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -15425,19 +15425,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
   */
   readonly efsVolumeConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
   */
   readonly host?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
   */
   readonly s3FilesVolumeConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfiguration;
 }
@@ -15587,7 +15587,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -15640,91 +15640,91 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
   */
   readonly environment?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ephemeral_storage BatchJobDefinition#ephemeral_storage}
   */
   readonly ephemeralStorage?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#instance_type BatchJobDefinition#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#instance_type BatchJobDefinition#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#job_role_arn BatchJobDefinition#job_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#job_role_arn BatchJobDefinition#job_role_arn}
   */
   readonly jobRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
   */
   readonly linuxParameters?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
   */
   readonly logConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#memory BatchJobDefinition#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#memory BatchJobDefinition#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
   */
   readonly mountPoints?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPoints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
   */
   readonly readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
   */
   readonly repositoryCredentials?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
   */
   readonly resourceRequirements?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirements[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#runtime_platform BatchJobDefinition#runtime_platform}
   */
   readonly runtimePlatform?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
   */
   readonly secrets?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
   */
   readonly ulimits?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#vcpus BatchJobDefinition#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#vcpus BatchJobDefinition#vcpus}
   */
   readonly vcpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes[] | cdktn.IResolvable;
 }
@@ -16074,7 +16074,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -16090,7 +16090,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -16138,7 +16138,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -16154,7 +16154,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -16170,7 +16170,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -16186,7 +16186,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // job_role_arn - computed: true, optional: true, required: false
-  private _jobRoleArn?: string; 
+  private _jobRoleArn?: string;
   public get jobRoleArn() {
     return this.getStringAttribute('job_role_arn');
   }
@@ -16234,7 +16234,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number; 
+  private _memory?: number;
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -16266,7 +16266,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -16282,7 +16282,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -16378,7 +16378,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -16394,7 +16394,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // vcpus - computed: true, optional: true, required: false
-  private _vcpus?: number; 
+  private _vcpus?: number;
   public get vcpus() {
     return this.getNumberAttribute('vcpus');
   }
@@ -16427,11 +16427,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#condition BatchJobDefinition#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#condition BatchJobDefinition#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_name BatchJobDefinition#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_name BatchJobDefinition#container_name}
   */
   readonly containerName?: string;
 }
@@ -16523,7 +16523,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string; 
+  private _condition?: string;
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -16539,7 +16539,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string; 
+  private _containerName?: string;
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -16576,11 +16576,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -16672,7 +16672,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -16688,7 +16688,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16725,11 +16725,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
 }
@@ -16819,7 +16819,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -16835,7 +16835,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -16852,15 +16852,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#permissions BatchJobDefinition#permissions}
   */
   readonly permissions?: string[];
 }
@@ -16965,7 +16965,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -16981,7 +16981,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string; 
+  private _hostPath?: string;
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -16997,7 +16997,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -17034,15 +17034,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}
   */
   readonly mountOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}
   */
   readonly size?: number;
 }
@@ -17147,7 +17147,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -17163,7 +17163,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[]; 
+  private _mountOptions?: string[];
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -17179,7 +17179,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -17216,27 +17216,27 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#devices BatchJobDefinition#devices}
   */
   readonly devices?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevices[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_process_enabled BatchJobDefinition#init_process_enabled}
   */
   readonly initProcessEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#max_swap BatchJobDefinition#max_swap}
   */
   readonly maxSwap?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#shared_memory_size BatchJobDefinition#shared_memory_size}
   */
   readonly sharedMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#swappiness BatchJobDefinition#swappiness}
   */
   readonly swappiness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#tmpfs BatchJobDefinition#tmpfs}
   */
   readonly tmpfs?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs[] | cdktn.IResolvable;
 }
@@ -17394,7 +17394,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
+  private _initProcessEnabled?: boolean | cdktn.IResolvable;
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -17410,7 +17410,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number; 
+  private _maxSwap?: number;
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -17426,7 +17426,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number; 
+  private _sharedMemorySize?: number;
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -17442,7 +17442,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number; 
+  private _swappiness?: number;
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -17475,11 +17475,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -17571,7 +17571,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -17587,7 +17587,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -17624,15 +17624,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_driver BatchJobDefinition#log_driver}
   */
   readonly logDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#options BatchJobDefinition#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_options BatchJobDefinition#secret_options}
   */
   readonly secretOptions?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions[] | cdktn.IResolvable;
 }
@@ -17735,7 +17735,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string; 
+  private _logDriver?: string;
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -17751,7 +17751,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -17784,15 +17784,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_volume BatchJobDefinition#source_volume}
   */
   readonly sourceVolume?: string;
 }
@@ -17897,7 +17897,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string; 
+  private _containerPath?: string;
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -17913,7 +17913,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -17929,7 +17929,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string; 
+  private _sourceVolume?: string;
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -17966,7 +17966,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#credentials_parameter BatchJobDefinition#credentials_parameter}
   */
   readonly credentialsParameter?: string;
 }
@@ -18043,7 +18043,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string; 
+  private _credentialsParameter?: string;
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -18060,11 +18060,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -18156,7 +18156,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -18172,7 +18172,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -18209,11 +18209,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value_from BatchJobDefinition#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -18305,7 +18305,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18321,7 +18321,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -18358,15 +18358,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#hard_limit BatchJobDefinition#hard_limit}
   */
   readonly hardLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#soft_limit BatchJobDefinition#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -18471,7 +18471,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number; 
+  private _hardLimit?: number;
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -18487,7 +18487,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18503,7 +18503,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number; 
+  private _softLimit?: number;
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -18540,79 +18540,79 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#depends_on BatchJobDefinition#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#depends_on BatchJobDefinition#depends_on}
   */
   readonly dependsOn?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOn[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#environment BatchJobDefinition#environment}
   */
   readonly environment?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#essential BatchJobDefinition#essential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#essential BatchJobDefinition#essential}
   */
   readonly essential?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#firelens_configuration BatchJobDefinition#firelens_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#firelens_configuration BatchJobDefinition#firelens_configuration}
   */
   readonly firelensConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#linux_parameters BatchJobDefinition#linux_parameters}
   */
   readonly linuxParameters?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#log_configuration BatchJobDefinition#log_configuration}
   */
   readonly logConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_points BatchJobDefinition#mount_points}
   */
   readonly mountPoints?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPoints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#readonly_root_filesystem BatchJobDefinition#readonly_root_filesystem}
   */
   readonly readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#repository_credentials BatchJobDefinition#repository_credentials}
   */
   readonly repositoryCredentials?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resource_requirements BatchJobDefinition#resource_requirements}
   */
   readonly resourceRequirements?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirements[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secrets BatchJobDefinition#secrets}
   */
   readonly secrets?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#start_timeout BatchJobDefinition#start_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#start_timeout BatchJobDefinition#start_timeout}
   */
   readonly startTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#stop_timeout BatchJobDefinition#stop_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#stop_timeout BatchJobDefinition#stop_timeout}
   */
   readonly stopTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ulimits BatchJobDefinition#ulimits}
   */
   readonly ulimits?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimits[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#user BatchJobDefinition#user}
   */
   readonly user?: string;
 }
@@ -18925,7 +18925,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -18973,7 +18973,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable; 
+  private _essential?: boolean | cdktn.IResolvable;
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -19005,7 +19005,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -19069,7 +19069,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -19085,7 +19085,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -19101,7 +19101,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -19165,7 +19165,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // start_timeout - computed: true, optional: true, required: false
-  private _startTimeout?: number; 
+  private _startTimeout?: number;
   public get startTimeout() {
     return this.getNumberAttribute('start_timeout');
   }
@@ -19181,7 +19181,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // stop_timeout - computed: true, optional: true, required: false
-  private _stopTimeout?: number; 
+  private _stopTimeout?: number;
   public get stopTimeout() {
     return this.getNumberAttribute('stop_timeout');
   }
@@ -19213,7 +19213,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -19250,11 +19250,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_id BatchJobDefinition#access_point_id}
   */
   readonly accessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#iam BatchJobDefinition#iam}
   */
   readonly iam?: string;
 }
@@ -19344,7 +19344,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string; 
+  private _accessPointId?: string;
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -19360,7 +19360,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string; 
+  private _iam?: string;
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -19377,23 +19377,23 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#authorization_config BatchJobDefinition#authorization_config}
   */
   readonly authorizationConfig?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_id BatchJobDefinition#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption BatchJobDefinition#transit_encryption}
   */
   readonly transitEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -19538,7 +19538,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -19554,7 +19554,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -19570,7 +19570,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string; 
+  private _transitEncryption?: string;
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -19586,7 +19586,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -19603,7 +19603,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#source_path BatchJobDefinition#source_path}
   */
   readonly sourcePath?: string;
 }
@@ -19680,7 +19680,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string; 
+  private _sourcePath?: string;
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -19697,19 +19697,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#access_point_arn BatchJobDefinition#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#file_system_arn BatchJobDefinition#file_system_arn}
   */
   readonly fileSystemArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#root_directory BatchJobDefinition#root_directory}
   */
   readonly rootDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#transit_encryption_port BatchJobDefinition#transit_encryption_port}
   */
   readonly transitEncryptionPort?: number;
 }
@@ -19825,7 +19825,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -19841,7 +19841,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string; 
+  private _fileSystemArn?: string;
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -19857,7 +19857,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string; 
+  private _rootDirectory?: string;
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -19873,7 +19873,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number; 
+  private _transitEncryptionPort?: number;
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -19890,19 +19890,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#efs_volume_configuration BatchJobDefinition#efs_volume_configuration}
   */
   readonly efsVolumeConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host BatchJobDefinition#host}
   */
   readonly host?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#s3_files_volume_configuration BatchJobDefinition#s3_files_volume_configuration}
   */
   readonly s3FilesVolumeConfiguration?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration;
 }
@@ -20052,7 +20052,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -20105,31 +20105,31 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
   */
   readonly containers?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#enable_execute_command BatchJobDefinition#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#execution_role_arn BatchJobDefinition#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ipc_mode BatchJobDefinition#ipc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ipc_mode BatchJobDefinition#ipc_mode}
   */
   readonly ipcMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#pid_mode BatchJobDefinition#pid_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#pid_mode BatchJobDefinition#pid_mode}
   */
   readonly pidMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#task_role_arn BatchJobDefinition#task_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#task_role_arn BatchJobDefinition#task_role_arn}
   */
   readonly taskRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumes[] | cdktn.IResolvable;
 }
@@ -20302,7 +20302,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -20318,7 +20318,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -20334,7 +20334,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // ipc_mode - computed: true, optional: true, required: false
-  private _ipcMode?: string; 
+  private _ipcMode?: string;
   public get ipcMode() {
     return this.getStringAttribute('ipc_mode');
   }
@@ -20350,7 +20350,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // pid_mode - computed: true, optional: true, required: false
-  private _pidMode?: string; 
+  private _pidMode?: string;
   public get pidMode() {
     return this.getStringAttribute('pid_mode');
   }
@@ -20366,7 +20366,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // task_role_arn - computed: true, optional: true, required: false
-  private _taskRoleArn?: string; 
+  private _taskRoleArn?: string;
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -20419,7 +20419,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#task_properties BatchJobDefinition#task_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#task_properties BatchJobDefinition#task_properties}
   */
   readonly taskProperties?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskProperties[] | cdktn.IResolvable;
 }
@@ -20513,11 +20513,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesOut
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -20609,7 +20609,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -20625,7 +20625,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20662,11 +20662,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20756,7 +20756,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string }; 
+  private _limits?: { [key: string]: string };
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -20772,7 +20772,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string }; 
+  private _requests?: { [key: string]: string };
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -20789,27 +20789,27 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -20951,7 +20951,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -20967,7 +20967,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -20983,7 +20983,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -20999,7 +20999,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number; 
+  private _runAsGroup?: number;
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -21015,7 +21015,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
+  private _runAsNonRoot?: boolean | cdktn.IResolvable;
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -21031,7 +21031,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number; 
+  private _runAsUser?: number;
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -21048,19 +21048,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
   */
   readonly subPath?: string;
 }
@@ -21178,7 +21178,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -21194,7 +21194,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21210,7 +21210,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -21226,7 +21226,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string; 
+  private _subPath?: string;
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -21263,39 +21263,39 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
   */
   readonly env?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnv[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
   */
   readonly resources?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
   */
   readonly securityContext?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
   */
   readonly volumeMounts?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -21478,7 +21478,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -21494,7 +21494,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -21526,7 +21526,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -21542,7 +21542,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string; 
+  private _imagePullPolicy?: string;
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -21558,7 +21558,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21643,7 +21643,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
 }
@@ -21722,7 +21722,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21759,11 +21759,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#value BatchJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -21855,7 +21855,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21871,7 +21871,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -21908,11 +21908,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#limits BatchJobDefinition#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#requests BatchJobDefinition#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22002,7 +22002,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string }; 
+  private _limits?: { [key: string]: string };
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -22018,7 +22018,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string }; 
+  private _requests?: { [key: string]: string };
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -22035,27 +22035,27 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#allow_privilege_escalation BatchJobDefinition#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#privileged BatchJobDefinition#privileged}
   */
   readonly privileged?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only_root_filesystem BatchJobDefinition#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_group BatchJobDefinition#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_non_root BatchJobDefinition#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#run_as_user BatchJobDefinition#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -22197,7 +22197,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -22213,7 +22213,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable; 
+  private _privileged?: boolean | cdktn.IResolvable;
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -22229,7 +22229,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -22245,7 +22245,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number; 
+  private _runAsGroup?: number;
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -22261,7 +22261,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
+  private _runAsNonRoot?: boolean | cdktn.IResolvable;
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -22277,7 +22277,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number; 
+  private _runAsUser?: number;
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -22294,19 +22294,19 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}
   */
   readonly subPath?: string;
 }
@@ -22424,7 +22424,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -22440,7 +22440,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -22456,7 +22456,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -22472,7 +22472,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string; 
+  private _subPath?: string;
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -22509,39 +22509,39 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#args BatchJobDefinition#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#command BatchJobDefinition#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
   */
   readonly env?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnv[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image BatchJobDefinition#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_policy BatchJobDefinition#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#resources BatchJobDefinition#resources}
   */
   readonly resources?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#security_context BatchJobDefinition#security_context}
   */
   readonly securityContext?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
   */
   readonly volumeMounts?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -22724,7 +22724,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -22740,7 +22740,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -22772,7 +22772,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -22788,7 +22788,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string; 
+  private _imagePullPolicy?: string;
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -22804,7 +22804,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -22889,15 +22889,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#annotations BatchJobDefinition#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#annotations BatchJobDefinition#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#labels BatchJobDefinition#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#labels BatchJobDefinition#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#namespace BatchJobDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#namespace BatchJobDefinition#namespace}
   */
   readonly namespace?: string;
 }
@@ -23000,7 +23000,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // annotations - computed: true, optional: true, required: false
-  private _annotations?: { [key: string]: string }; 
+  private _annotations?: { [key: string]: string };
   public get annotations() {
     return this.getStringMapAttribute('annotations');
   }
@@ -23016,7 +23016,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
+  private _labels?: { [key: string]: string };
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -23032,7 +23032,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -23049,11 +23049,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#medium BatchJobDefinition#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#size_limit BatchJobDefinition#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -23143,7 +23143,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // medium - computed: true, optional: true, required: false
-  private _medium?: string; 
+  private _medium?: string;
   public get medium() {
     return this.getStringAttribute('medium');
   }
@@ -23159,7 +23159,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // size_limit - computed: true, optional: true, required: false
-  private _sizeLimit?: string; 
+  private _sizeLimit?: string;
   public get sizeLimit() {
     return this.getStringAttribute('size_limit');
   }
@@ -23176,7 +23176,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#path BatchJobDefinition#path}
   */
   readonly path?: string;
 }
@@ -23253,7 +23253,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -23270,11 +23270,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#claim_name BatchJobDefinition#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#claim_name BatchJobDefinition#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
 }
@@ -23364,7 +23364,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // claim_name - computed: true, optional: true, required: false
-  private _claimName?: string; 
+  private _claimName?: string;
   public get claimName() {
     return this.getStringAttribute('claim_name');
   }
@@ -23380,7 +23380,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -23397,11 +23397,11 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#optional BatchJobDefinition#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret_name BatchJobDefinition#secret_name}
   */
   readonly secretName?: string;
 }
@@ -23491,7 +23491,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable; 
+  private _optional?: boolean | cdktn.IResolvable;
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -23507,7 +23507,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // secret_name - computed: true, optional: true, required: false
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -23524,23 +23524,23 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#empty_dir BatchJobDefinition#empty_dir}
   */
   readonly emptyDir?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_path BatchJobDefinition#host_path}
   */
   readonly hostPath?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#persistent_volume_claim BatchJobDefinition#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#persistent_volume_claim BatchJobDefinition#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#secret BatchJobDefinition#secret}
   */
   readonly secret?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecret;
 }
@@ -23703,7 +23703,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -23772,39 +23772,39 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
   */
   readonly containers?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#dns_policy BatchJobDefinition#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#dns_policy BatchJobDefinition#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#host_network BatchJobDefinition#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#host_network BatchJobDefinition#host_network}
   */
   readonly hostNetwork?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#image_pull_secrets BatchJobDefinition#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#image_pull_secrets BatchJobDefinition#image_pull_secrets}
   */
   readonly imagePullSecrets?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecrets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#init_containers BatchJobDefinition#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#init_containers BatchJobDefinition#init_containers}
   */
   readonly initContainers?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainers[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#metadata BatchJobDefinition#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#metadata BatchJobDefinition#metadata}
   */
   readonly metadata?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#service_account_name BatchJobDefinition#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#service_account_name BatchJobDefinition#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#share_process_namespace BatchJobDefinition#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#share_process_namespace BatchJobDefinition#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
   */
   readonly volumes?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumes[] | cdktn.IResolvable;
 }
@@ -24001,7 +24001,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // dns_policy - computed: true, optional: true, required: false
-  private _dnsPolicy?: string; 
+  private _dnsPolicy?: string;
   public get dnsPolicy() {
     return this.getStringAttribute('dns_policy');
   }
@@ -24017,7 +24017,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // host_network - computed: true, optional: true, required: false
-  private _hostNetwork?: boolean | cdktn.IResolvable; 
+  private _hostNetwork?: boolean | cdktn.IResolvable;
   public get hostNetwork() {
     return this.getBooleanAttribute('host_network');
   }
@@ -24081,7 +24081,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // service_account_name - computed: true, optional: true, required: false
-  private _serviceAccountName?: string; 
+  private _serviceAccountName?: string;
   public get serviceAccountName() {
     return this.getStringAttribute('service_account_name');
   }
@@ -24097,7 +24097,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // share_process_namespace - computed: true, optional: true, required: false
-  private _shareProcessNamespace?: boolean | cdktn.IResolvable; 
+  private _shareProcessNamespace?: boolean | cdktn.IResolvable;
   public get shareProcessNamespace() {
     return this.getBooleanAttribute('share_process_namespace');
   }
@@ -24130,7 +24130,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangePropertiesEksProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}
   */
   readonly podProperties?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodProperties;
 }
@@ -24224,27 +24224,27 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesOut
 }
 export interface BatchJobDefinitionNodePropertiesNodeRangeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#consumable_resource_properties BatchJobDefinition#consumable_resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#consumable_resource_properties BatchJobDefinition#consumable_resource_properties}
   */
   readonly consumableResourceProperties?: BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourceProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#container BatchJobDefinition#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#container BatchJobDefinition#container}
   */
   readonly container?: BatchJobDefinitionNodePropertiesNodeRangePropertiesContainer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}
   */
   readonly ecsProperties?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
   */
   readonly eksProperties?: BatchJobDefinitionNodePropertiesNodeRangePropertiesEksProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#instance_types BatchJobDefinition#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#instance_types BatchJobDefinition#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#target_nodes BatchJobDefinition#target_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#target_nodes BatchJobDefinition#target_nodes}
   */
   readonly targetNodes?: string;
 }
@@ -24452,7 +24452,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference 
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[]; 
+  private _instanceTypes?: string[];
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -24468,7 +24468,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference 
   }
 
   // target_nodes - computed: true, optional: true, required: false
-  private _targetNodes?: string; 
+  private _targetNodes?: string;
   public get targetNodes() {
     return this.getStringAttribute('target_nodes');
   }
@@ -24505,15 +24505,15 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesList extends cdk
 }
 export interface BatchJobDefinitionNodeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#main_node BatchJobDefinition#main_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#main_node BatchJobDefinition#main_node}
   */
   readonly mainNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#node_range_properties BatchJobDefinition#node_range_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#node_range_properties BatchJobDefinition#node_range_properties}
   */
   readonly nodeRangeProperties?: BatchJobDefinitionNodePropertiesNodeRangeProperties[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#num_nodes BatchJobDefinition#num_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#num_nodes BatchJobDefinition#num_nodes}
   */
   readonly numNodes?: number;
 }
@@ -24616,7 +24616,7 @@ export class BatchJobDefinitionNodePropertiesOutputReference extends cdktn.Compl
   }
 
   // main_node - computed: true, optional: true, required: false
-  private _mainNode?: number; 
+  private _mainNode?: number;
   public get mainNode() {
     return this.getNumberAttribute('main_node');
   }
@@ -24648,7 +24648,7 @@ export class BatchJobDefinitionNodePropertiesOutputReference extends cdktn.Compl
   }
 
   // num_nodes - computed: true, optional: true, required: false
-  private _numNodes?: number; 
+  private _numNodes?: number;
   public get numNodes() {
     return this.getNumberAttribute('num_nodes');
   }
@@ -24665,7 +24665,7 @@ export class BatchJobDefinitionNodePropertiesOutputReference extends cdktn.Compl
 }
 export interface BatchJobDefinitionResourceRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#skip_deregister_on_update BatchJobDefinition#skip_deregister_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#skip_deregister_on_update BatchJobDefinition#skip_deregister_on_update}
   */
   readonly skipDeregisterOnUpdate?: boolean | cdktn.IResolvable;
 }
@@ -24742,7 +24742,7 @@ export class BatchJobDefinitionResourceRetentionPolicyOutputReference extends cd
   }
 
   // skip_deregister_on_update - computed: true, optional: true, required: false
-  private _skipDeregisterOnUpdate?: boolean | cdktn.IResolvable; 
+  private _skipDeregisterOnUpdate?: boolean | cdktn.IResolvable;
   public get skipDeregisterOnUpdate() {
     return this.getBooleanAttribute('skip_deregister_on_update');
   }
@@ -24759,19 +24759,19 @@ export class BatchJobDefinitionResourceRetentionPolicyOutputReference extends cd
 }
 export interface BatchJobDefinitionRetryStrategyEvaluateOnExit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#action BatchJobDefinition#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#on_exit_code BatchJobDefinition#on_exit_code}
   */
   readonly onExitCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#on_reason BatchJobDefinition#on_reason}
   */
   readonly onReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#on_status_reason BatchJobDefinition#on_status_reason}
   */
   readonly onStatusReason?: string;
 }
@@ -24889,7 +24889,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -24905,7 +24905,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_exit_code - computed: true, optional: true, required: false
-  private _onExitCode?: string; 
+  private _onExitCode?: string;
   public get onExitCode() {
     return this.getStringAttribute('on_exit_code');
   }
@@ -24921,7 +24921,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_reason - computed: true, optional: true, required: false
-  private _onReason?: string; 
+  private _onReason?: string;
   public get onReason() {
     return this.getStringAttribute('on_reason');
   }
@@ -24937,7 +24937,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_status_reason - computed: true, optional: true, required: false
-  private _onStatusReason?: string; 
+  private _onStatusReason?: string;
   public get onStatusReason() {
     return this.getStringAttribute('on_status_reason');
   }
@@ -24974,11 +24974,11 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitList extends cdktn.Com
 }
 export interface BatchJobDefinitionRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#attempts BatchJobDefinition#attempts}
   */
   readonly attempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#evaluate_on_exit BatchJobDefinition#evaluate_on_exit}
   */
   readonly evaluateOnExit?: BatchJobDefinitionRetryStrategyEvaluateOnExit[] | cdktn.IResolvable;
 }
@@ -25068,7 +25068,7 @@ export class BatchJobDefinitionRetryStrategyOutputReference extends cdktn.Comple
   }
 
   // attempts - computed: true, optional: true, required: false
-  private _attempts?: number; 
+  private _attempts?: number;
   public get attempts() {
     return this.getNumberAttribute('attempts');
   }
@@ -25101,7 +25101,7 @@ export class BatchJobDefinitionRetryStrategyOutputReference extends cdktn.Comple
 }
 export interface BatchJobDefinitionTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#attempt_duration_seconds BatchJobDefinition#attempt_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#attempt_duration_seconds BatchJobDefinition#attempt_duration_seconds}
   */
   readonly attemptDurationSeconds?: number;
 }
@@ -25178,7 +25178,7 @@ export class BatchJobDefinitionTimeoutOutputReference extends cdktn.ComplexObjec
   }
 
   // attempt_duration_seconds - computed: true, optional: true, required: false
-  private _attemptDurationSeconds?: number; 
+  private _attemptDurationSeconds?: number;
   public get attemptDurationSeconds() {
     return this.getNumberAttribute('attempt_duration_seconds');
   }
@@ -25195,7 +25195,7 @@ export class BatchJobDefinitionTimeoutOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition awscc_batch_job_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition awscc_batch_job_definition}
 */
 export class BatchJobDefinition extends cdktn.TerraformResource {
 
@@ -25211,7 +25211,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BatchJobDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchJobDefinition to import
-  * @param importFromId The id of the existing BatchJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchJobDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -25223,7 +25223,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25234,7 +25234,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_batch_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -25340,7 +25340,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // job_definition_name - computed: true, optional: true, required: false
-  private _jobDefinitionName?: string; 
+  private _jobDefinitionName?: string;
   public get jobDefinitionName() {
     return this.getStringAttribute('job_definition_name');
   }
@@ -25372,7 +25372,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -25388,7 +25388,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // platform_capabilities - computed: true, optional: true, required: false
-  private _platformCapabilities?: string[]; 
+  private _platformCapabilities?: string[];
   public get platformCapabilities() {
     return this.getListAttribute('platform_capabilities');
   }
@@ -25404,7 +25404,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: boolean | cdktn.IResolvable; 
+  private _propagateTags?: boolean | cdktn.IResolvable;
   public get propagateTags() {
     return this.getBooleanAttribute('propagate_tags');
   }
@@ -25452,7 +25452,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // scheduling_priority - computed: true, optional: true, required: false
-  private _schedulingPriority?: number; 
+  private _schedulingPriority?: number;
   public get schedulingPriority() {
     return this.getNumberAttribute('scheduling_priority');
   }
@@ -25468,7 +25468,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -25500,7 +25500,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface TransferUserConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#home_directory TransferUser#home_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#home_directory TransferUser#home_directory}
   */
   readonly homeDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#home_directory_type TransferUser#home_directory_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#home_directory_type TransferUser#home_directory_type}
   */
   readonly homeDirectoryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#id TransferUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#id TransferUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#policy TransferUser#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#policy TransferUser#policy}
   */
   readonly policy?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#region TransferUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#region TransferUser#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#role TransferUser#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#role TransferUser#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#server_id TransferUser#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#server_id TransferUser#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#tags TransferUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#tags TransferUser#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#tags_all TransferUser#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#tags_all TransferUser#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#user_name TransferUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#user_name TransferUser#user_name}
   */
   readonly userName: string;
   /**
   * home_directory_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#home_directory_mappings TransferUser#home_directory_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#home_directory_mappings TransferUser#home_directory_mappings}
   */
   readonly homeDirectoryMappings?: TransferUserHomeDirectoryMappings[] | cdktn.IResolvable;
   /**
   * posix_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#posix_profile TransferUser#posix_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#posix_profile TransferUser#posix_profile}
   */
   readonly posixProfile?: TransferUserPosixProfile;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#timeouts TransferUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#timeouts TransferUser#timeouts}
   */
   readonly timeouts?: TransferUserTimeouts;
 }
 export interface TransferUserHomeDirectoryMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#entry TransferUser#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#entry TransferUser#entry}
   */
   readonly entry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#target TransferUser#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#target TransferUser#target}
   */
   readonly target: string;
 }
@@ -169,7 +169,7 @@ export class TransferUserHomeDirectoryMappingsOutputReference extends cdktn.Comp
   }
 
   // entry - computed: false, optional: false, required: true
-  private _entry?: string; 
+  private _entry?: string;
   public get entry() {
     return this.getStringAttribute('entry');
   }
@@ -182,7 +182,7 @@ export class TransferUserHomeDirectoryMappingsOutputReference extends cdktn.Comp
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -216,15 +216,15 @@ export class TransferUserHomeDirectoryMappingsList extends cdktn.ComplexList {
 }
 export interface TransferUserPosixProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#gid TransferUser#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#gid TransferUser#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#secondary_gids TransferUser#secondary_gids}
   */
   readonly secondaryGids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#uid TransferUser#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#uid TransferUser#uid}
   */
   readonly uid: number;
 }
@@ -317,7 +317,7 @@ export class TransferUserPosixProfileOutputReference extends cdktn.ComplexObject
   }
 
   // gid - computed: false, optional: false, required: true
-  private _gid?: number; 
+  private _gid?: number;
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -330,7 +330,7 @@ export class TransferUserPosixProfileOutputReference extends cdktn.ComplexObject
   }
 
   // secondary_gids - computed: false, optional: true, required: false
-  private _secondaryGids?: number[]; 
+  private _secondaryGids?: number[];
   public get secondaryGids() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('secondary_gids')));
   }
@@ -346,7 +346,7 @@ export class TransferUserPosixProfileOutputReference extends cdktn.ComplexObject
   }
 
   // uid - computed: false, optional: false, required: true
-  private _uid?: number; 
+  private _uid?: number;
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -360,7 +360,7 @@ export class TransferUserPosixProfileOutputReference extends cdktn.ComplexObject
 }
 export interface TransferUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#delete TransferUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#delete TransferUser#delete}
   */
   readonly delete?: string;
 }
@@ -437,7 +437,7 @@ export class TransferUserTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -454,7 +454,7 @@ export class TransferUserTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user aws_transfer_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user aws_transfer_user}
 */
 export class TransferUser extends cdktn.TerraformResource {
 
@@ -470,7 +470,7 @@ export class TransferUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferUser to import
-  * @param importFromId The id of the existing TransferUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -482,7 +482,7 @@ export class TransferUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_user aws_transfer_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_user aws_transfer_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -493,7 +493,7 @@ export class TransferUser extends cdktn.TerraformResource {
       terraformResourceType: 'aws_transfer_user',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -528,7 +528,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // home_directory - computed: false, optional: true, required: false
-  private _homeDirectory?: string; 
+  private _homeDirectory?: string;
   public get homeDirectory() {
     return this.getStringAttribute('home_directory');
   }
@@ -544,7 +544,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // home_directory_type - computed: false, optional: true, required: false
-  private _homeDirectoryType?: string; 
+  private _homeDirectoryType?: string;
   public get homeDirectoryType() {
     return this.getStringAttribute('home_directory_type');
   }
@@ -560,7 +560,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -576,7 +576,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: true, required: false
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -592,7 +592,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -608,7 +608,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -621,7 +621,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // server_id - computed: false, optional: false, required: true
-  private _serverId?: string; 
+  private _serverId?: string;
   public get serverId() {
     return this.getStringAttribute('server_id');
   }
@@ -634,7 +634,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -650,7 +650,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -666,7 +666,7 @@ export class TransferUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string; 
+  private _userName?: string;
   public get userName() {
     return this.getStringAttribute('user_name');
   }

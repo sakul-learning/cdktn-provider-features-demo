@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface AutoscalingWarmPoolConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}
   */
   readonly autoScalingGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}
   */
   readonly instanceReusePolicy?: AutoscalingWarmPoolInstanceReusePolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}
   */
   readonly maxGroupPreparedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}
   */
   readonly poolState?: string;
 }
 export interface AutoscalingWarmPoolInstanceReusePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}
   */
   readonly reuseOnScaleIn?: boolean | cdktn.IResolvable;
 }
@@ -107,7 +107,7 @@ export class AutoscalingWarmPoolInstanceReusePolicyOutputReference extends cdktn
   }
 
   // reuse_on_scale_in - computed: true, optional: true, required: false
-  private _reuseOnScaleIn?: boolean | cdktn.IResolvable; 
+  private _reuseOnScaleIn?: boolean | cdktn.IResolvable;
   public get reuseOnScaleIn() {
     return this.getBooleanAttribute('reuse_on_scale_in');
   }
@@ -124,7 +124,7 @@ export class AutoscalingWarmPoolInstanceReusePolicyOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool}
 */
 export class AutoscalingWarmPool extends cdktn.TerraformResource {
 
@@ -140,7 +140,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingWarmPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingWarmPool to import
-  * @param importFromId The id of the existing AutoscalingWarmPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingWarmPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingWarmPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -152,7 +152,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,7 +163,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_autoscaling_warm_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -185,7 +185,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   // ==========
 
   // auto_scaling_group_name - computed: false, optional: false, required: true
-  private _autoScalingGroupName?: string; 
+  private _autoScalingGroupName?: string;
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -219,7 +219,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // max_group_prepared_capacity - computed: true, optional: true, required: false
-  private _maxGroupPreparedCapacity?: number; 
+  private _maxGroupPreparedCapacity?: number;
   public get maxGroupPreparedCapacity() {
     return this.getNumberAttribute('max_group_prepared_capacity');
   }
@@ -235,7 +235,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -251,7 +251,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // pool_state - computed: true, optional: true, required: false
-  private _poolState?: string; 
+  private _poolState?: string;
   public get poolState() {
     return this.getStringAttribute('pool_state');
   }

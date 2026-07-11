@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktn from 'cdktn';
 
 export interface PinpointAppConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#id PinpointApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#id PinpointApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#name PinpointApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#name PinpointApp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#name_prefix PinpointApp#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#name_prefix PinpointApp#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#region PinpointApp#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#region PinpointApp#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#tags PinpointApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#tags PinpointApp#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#tags_all PinpointApp#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#tags_all PinpointApp#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * campaign_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#campaign_hook PinpointApp#campaign_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#campaign_hook PinpointApp#campaign_hook}
   */
   readonly campaignHook?: PinpointAppCampaignHook;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#limits PinpointApp#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#limits PinpointApp#limits}
   */
   readonly limits?: PinpointAppLimits;
   /**
   * quiet_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#quiet_time PinpointApp#quiet_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#quiet_time PinpointApp#quiet_time}
   */
   readonly quietTime?: PinpointAppQuietTime;
 }
 export interface PinpointAppCampaignHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#lambda_function_name PinpointApp#lambda_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#lambda_function_name PinpointApp#lambda_function_name}
   */
   readonly lambdaFunctionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#mode PinpointApp#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#mode PinpointApp#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#web_url PinpointApp#web_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#web_url PinpointApp#web_url}
   */
   readonly webUrl?: string;
 }
@@ -158,7 +158,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // lambda_function_name - computed: false, optional: true, required: false
-  private _lambdaFunctionName?: string; 
+  private _lambdaFunctionName?: string;
   public get lambdaFunctionName() {
     return this.getStringAttribute('lambda_function_name');
   }
@@ -174,7 +174,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -190,7 +190,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // web_url - computed: false, optional: true, required: false
-  private _webUrl?: string; 
+  private _webUrl?: string;
   public get webUrl() {
     return this.getStringAttribute('web_url');
   }
@@ -207,19 +207,19 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
 }
 export interface PinpointAppLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#daily PinpointApp#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#daily PinpointApp#daily}
   */
   readonly daily?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#maximum_duration PinpointApp#maximum_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#maximum_duration PinpointApp#maximum_duration}
   */
   readonly maximumDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#messages_per_second PinpointApp#messages_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#messages_per_second PinpointApp#messages_per_second}
   */
   readonly messagesPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#total PinpointApp#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#total PinpointApp#total}
   */
   readonly total?: number;
 }
@@ -325,7 +325,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // daily - computed: false, optional: true, required: false
-  private _daily?: number; 
+  private _daily?: number;
   public get daily() {
     return this.getNumberAttribute('daily');
   }
@@ -341,7 +341,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // maximum_duration - computed: false, optional: true, required: false
-  private _maximumDuration?: number; 
+  private _maximumDuration?: number;
   public get maximumDuration() {
     return this.getNumberAttribute('maximum_duration');
   }
@@ -357,7 +357,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // messages_per_second - computed: false, optional: true, required: false
-  private _messagesPerSecond?: number; 
+  private _messagesPerSecond?: number;
   public get messagesPerSecond() {
     return this.getNumberAttribute('messages_per_second');
   }
@@ -373,7 +373,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // total - computed: false, optional: true, required: false
-  private _total?: number; 
+  private _total?: number;
   public get total() {
     return this.getNumberAttribute('total');
   }
@@ -390,11 +390,11 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
 }
 export interface PinpointAppQuietTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#end PinpointApp#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#end PinpointApp#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#start PinpointApp#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#start PinpointApp#start}
   */
   readonly start?: string;
 }
@@ -474,7 +474,7 @@ export class PinpointAppQuietTimeOutputReference extends cdktn.ComplexObject {
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string; 
+  private _end?: string;
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -490,7 +490,7 @@ export class PinpointAppQuietTimeOutputReference extends cdktn.ComplexObject {
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string; 
+  private _start?: string;
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -507,7 +507,7 @@ export class PinpointAppQuietTimeOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app aws_pinpoint_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app aws_pinpoint_app}
 */
 export class PinpointApp extends cdktn.TerraformResource {
 
@@ -523,7 +523,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PinpointApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PinpointApp to import
-  * @param importFromId The id of the existing PinpointApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PinpointApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PinpointApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -535,7 +535,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,7 +546,7 @@ export class PinpointApp extends cdktn.TerraformResource {
       terraformResourceType: 'aws_pinpoint_app',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -582,7 +582,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -598,7 +598,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -614,7 +614,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -630,7 +630,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -646,7 +646,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -662,7 +662,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

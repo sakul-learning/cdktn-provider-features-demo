@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataAwsEcrpublicImagesConfig extends cdktn.TerraformMetaArgumen
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#region DataAwsEcrpublicImages#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#region DataAwsEcrpublicImages#region}
   */
   readonly region?: string;
   /**
   * AWS account ID associated with the public registry that contains the repository. If not specified, the default public registry is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#registry_id DataAwsEcrpublicImages#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#registry_id DataAwsEcrpublicImages#registry_id}
   */
   readonly registryId?: string;
   /**
   * Name of the public repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#repository_name DataAwsEcrpublicImages#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#repository_name DataAwsEcrpublicImages#repository_name}
   */
   readonly repositoryName: string;
   /**
   * image_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#image_ids DataAwsEcrpublicImages#image_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#image_ids DataAwsEcrpublicImages#image_ids}
   */
   readonly imageIds?: DataAwsEcrpublicImagesImageIds[] | cdktn.IResolvable;
 }
@@ -146,13 +146,13 @@ export interface DataAwsEcrpublicImagesImageIds {
   /**
   * Image digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#image_digest DataAwsEcrpublicImages#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#image_digest DataAwsEcrpublicImages#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * Image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#image_tag DataAwsEcrpublicImages#image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#image_tag DataAwsEcrpublicImages#image_tag}
   */
   readonly imageTag?: string;
 }
@@ -244,7 +244,7 @@ export class DataAwsEcrpublicImagesImageIdsOutputReference extends cdktn.Complex
   }
 
   // image_digest - computed: false, optional: true, required: false
-  private _imageDigest?: string; 
+  private _imageDigest?: string;
   public get imageDigest() {
     return this.getStringAttribute('image_digest');
   }
@@ -260,7 +260,7 @@ export class DataAwsEcrpublicImagesImageIdsOutputReference extends cdktn.Complex
   }
 
   // image_tag - computed: false, optional: true, required: false
-  private _imageTag?: string; 
+  private _imageTag?: string;
   public get imageTag() {
     return this.getStringAttribute('image_tag');
   }
@@ -297,7 +297,7 @@ export class DataAwsEcrpublicImagesImageIdsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images}
 */
 export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
 
@@ -313,7 +313,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsEcrpublicImages resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsEcrpublicImages to import
-  * @param importFromId The id of the existing DataAwsEcrpublicImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsEcrpublicImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsEcrpublicImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -325,7 +325,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,7 +336,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_ecrpublic_images',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -363,7 +363,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -379,7 +379,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // registry_id - computed: false, optional: true, required: false
-  private _registryId?: string; 
+  private _registryId?: string;
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -395,7 +395,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string; 
+  private _repositoryName?: string;
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }

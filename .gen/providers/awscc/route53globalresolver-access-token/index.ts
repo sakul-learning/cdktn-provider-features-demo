@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverAccessTokenConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#client_token Route53GlobalresolverAccessToken#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#client_token Route53GlobalresolverAccessToken#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#dns_view_id Route53GlobalresolverAccessToken#dns_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#dns_view_id Route53GlobalresolverAccessToken#dns_view_id}
   */
   readonly dnsViewId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#expires_at Route53GlobalresolverAccessToken#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#expires_at Route53GlobalresolverAccessToken#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#name Route53GlobalresolverAccessToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#name Route53GlobalresolverAccessToken#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#tags Route53GlobalresolverAccessToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#tags Route53GlobalresolverAccessToken#tags}
   */
   readonly tags?: Route53GlobalresolverAccessTokenTags[] | cdktn.IResolvable;
 }
 export interface Route53GlobalresolverAccessTokenTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#key Route53GlobalresolverAccessToken#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#key Route53GlobalresolverAccessToken#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#value Route53GlobalresolverAccessToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#value Route53GlobalresolverAccessToken#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class Route53GlobalresolverAccessTokenTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class Route53GlobalresolverAccessTokenTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class Route53GlobalresolverAccessTokenTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token}
 */
 export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53GlobalresolverAccessToken resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverAccessToken to import
-  * @param importFromId The id of the existing Route53GlobalresolverAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverAccessToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53globalresolver_access_token',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -250,7 +250,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -271,7 +271,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   }
 
   // dns_view_id - computed: false, optional: false, required: true
-  private _dnsViewId?: string; 
+  private _dnsViewId?: string;
   public get dnsViewId() {
     return this.getStringAttribute('dns_view_id');
   }
@@ -284,7 +284,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   }
 
   // expires_at - computed: true, optional: true, required: false
-  private _expiresAt?: string; 
+  private _expiresAt?: string;
   public get expiresAt() {
     return this.getStringAttribute('expires_at');
   }
@@ -310,7 +310,7 @@ export class Route53GlobalresolverAccessToken extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

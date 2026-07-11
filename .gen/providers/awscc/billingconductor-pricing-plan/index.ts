@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface BillingconductorPricingPlanConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#description BillingconductorPricingPlan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#name BillingconductorPricingPlan#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#pricing_rule_arns BillingconductorPricingPlan#pricing_rule_arns}
   */
   readonly pricingRuleArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#tags BillingconductorPricingPlan#tags}
   */
   readonly tags?: BillingconductorPricingPlanTags[] | cdktn.IResolvable;
 }
 export interface BillingconductorPricingPlanTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#key BillingconductorPricingPlan#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#value BillingconductorPricingPlan#value}
   */
   readonly value?: string;
 }
@@ -122,7 +122,7 @@ export class BillingconductorPricingPlanTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class BillingconductorPricingPlanTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -175,7 +175,7 @@ export class BillingconductorPricingPlanTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}
 */
 export class BillingconductorPricingPlan extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BillingconductorPricingPlan resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingconductorPricingPlan to import
-  * @param importFromId The id of the existing BillingconductorPricingPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingconductorPricingPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingconductorPricingPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_billingconductor_pricing_plan',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -245,7 +245,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -271,7 +271,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -284,7 +284,7 @@ export class BillingconductorPricingPlan extends cdktn.TerraformResource {
   }
 
   // pricing_rule_arns - computed: true, optional: true, required: false
-  private _pricingRuleArns?: string[]; 
+  private _pricingRuleArns?: string[];
   public get pricingRuleArns() {
     return this.getListAttribute('pricing_rule_arns');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#configuration DeadlineFleet#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#configuration DeadlineFleet#configuration}
   */
   readonly configuration: DeadlineFleetConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#description DeadlineFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#description DeadlineFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#display_name DeadlineFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#display_name DeadlineFleet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#farm_id DeadlineFleet#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#farm_id DeadlineFleet#farm_id}
   */
   readonly farmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#host_configuration DeadlineFleet#host_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#host_configuration DeadlineFleet#host_configuration}
   */
   readonly hostConfiguration?: DeadlineFleetHostConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max_worker_count DeadlineFleet#max_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max_worker_count DeadlineFleet#max_worker_count}
   */
   readonly maxWorkerCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min_worker_count DeadlineFleet#min_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min_worker_count DeadlineFleet#min_worker_count}
   */
   readonly minWorkerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#role_arn DeadlineFleet#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#role_arn DeadlineFleet#role_arn}
   */
   readonly roleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#tags DeadlineFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#tags DeadlineFleet#tags}
   */
   readonly tags?: DeadlineFleetTags[] | cdktn.IResolvable;
 }
@@ -274,15 +274,15 @@ export class DeadlineFleetCapabilitiesOutputReference extends cdktn.ComplexObjec
 }
 export interface DeadlineFleetConfigurationCustomerManagedAutoScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#scale_out_workers_per_minute DeadlineFleet#scale_out_workers_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#scale_out_workers_per_minute DeadlineFleet#scale_out_workers_per_minute}
   */
   readonly scaleOutWorkersPerMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#standby_worker_count DeadlineFleet#standby_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#standby_worker_count DeadlineFleet#standby_worker_count}
   */
   readonly standbyWorkerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#worker_idle_duration_seconds DeadlineFleet#worker_idle_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#worker_idle_duration_seconds DeadlineFleet#worker_idle_duration_seconds}
   */
   readonly workerIdleDurationSeconds?: number;
 }
@@ -385,7 +385,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // scale_out_workers_per_minute - computed: true, optional: true, required: false
-  private _scaleOutWorkersPerMinute?: number; 
+  private _scaleOutWorkersPerMinute?: number;
   public get scaleOutWorkersPerMinute() {
     return this.getNumberAttribute('scale_out_workers_per_minute');
   }
@@ -401,7 +401,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // standby_worker_count - computed: true, optional: true, required: false
-  private _standbyWorkerCount?: number; 
+  private _standbyWorkerCount?: number;
   public get standbyWorkerCount() {
     return this.getNumberAttribute('standby_worker_count');
   }
@@ -417,7 +417,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // worker_idle_duration_seconds - computed: true, optional: true, required: false
-  private _workerIdleDurationSeconds?: number; 
+  private _workerIdleDurationSeconds?: number;
   public get workerIdleDurationSeconds() {
     return this.getNumberAttribute('worker_idle_duration_seconds');
   }
@@ -434,11 +434,11 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -528,7 +528,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -544,7 +544,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -561,11 +561,11 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -655,7 +655,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -671,7 +671,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -688,15 +688,15 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
   */
   readonly name?: string;
 }
@@ -801,7 +801,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -817,7 +817,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -833,7 +833,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -870,11 +870,11 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#values DeadlineFleet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#values DeadlineFleet#values}
   */
   readonly values?: string[];
 }
@@ -966,7 +966,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -982,7 +982,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAt
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1019,11 +1019,11 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAt
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -1113,7 +1113,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMi
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1129,7 +1129,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMi
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1146,11 +1146,11 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMi
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -1240,7 +1240,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCoun
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1256,7 +1256,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCoun
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1273,39 +1273,39 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCoun
 }
 export interface DeadlineFleetConfigurationCustomerManagedWorkerCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#accelerator_count DeadlineFleet#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#accelerator_count DeadlineFleet#accelerator_count}
   */
   readonly acceleratorCount?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#accelerator_total_memory_mi_b DeadlineFleet#accelerator_total_memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#accelerator_total_memory_mi_b DeadlineFleet#accelerator_total_memory_mi_b}
   */
   readonly acceleratorTotalMemoryMiB?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#accelerator_types DeadlineFleet#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#accelerator_types DeadlineFleet#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#cpu_architecture_type DeadlineFleet#cpu_architecture_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#cpu_architecture_type DeadlineFleet#cpu_architecture_type}
   */
   readonly cpuArchitectureType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#custom_amounts DeadlineFleet#custom_amounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#custom_amounts DeadlineFleet#custom_amounts}
   */
   readonly customAmounts?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmounts[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#custom_attributes DeadlineFleet#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#custom_attributes DeadlineFleet#custom_attributes}
   */
   readonly customAttributes?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#memory_mi_b DeadlineFleet#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#memory_mi_b DeadlineFleet#memory_mi_b}
   */
   readonly memoryMiB?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#os_family DeadlineFleet#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#os_family DeadlineFleet#os_family}
   */
   readonly osFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#v_cpu_count DeadlineFleet#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#v_cpu_count DeadlineFleet#v_cpu_count}
   */
   readonly vCpuCount?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCount;
 }
@@ -1518,7 +1518,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -1534,7 +1534,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // cpu_architecture_type - computed: true, optional: true, required: false
-  private _cpuArchitectureType?: string; 
+  private _cpuArchitectureType?: string;
   public get cpuArchitectureType() {
     return this.getStringAttribute('cpu_architecture_type');
   }
@@ -1598,7 +1598,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // os_family - computed: true, optional: true, required: false
-  private _osFamily?: string; 
+  private _osFamily?: string;
   public get osFamily() {
     return this.getStringAttribute('os_family');
   }
@@ -1631,23 +1631,23 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
 }
 export interface DeadlineFleetConfigurationCustomerManaged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#auto_scaling_configuration DeadlineFleet#auto_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#auto_scaling_configuration DeadlineFleet#auto_scaling_configuration}
   */
   readonly autoScalingConfiguration?: DeadlineFleetConfigurationCustomerManagedAutoScalingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#mode DeadlineFleet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#mode DeadlineFleet#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#storage_profile_id DeadlineFleet#storage_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#storage_profile_id DeadlineFleet#storage_profile_id}
   */
   readonly storageProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#tag_propagation_mode DeadlineFleet#tag_propagation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#tag_propagation_mode DeadlineFleet#tag_propagation_mode}
   */
   readonly tagPropagationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#worker_capabilities DeadlineFleet#worker_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#worker_capabilities DeadlineFleet#worker_capabilities}
   */
   readonly workerCapabilities?: DeadlineFleetConfigurationCustomerManagedWorkerCapabilities;
 }
@@ -1792,7 +1792,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1808,7 +1808,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // storage_profile_id - computed: true, optional: true, required: false
-  private _storageProfileId?: string; 
+  private _storageProfileId?: string;
   public get storageProfileId() {
     return this.getStringAttribute('storage_profile_id');
   }
@@ -1824,7 +1824,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // tag_propagation_mode - computed: true, optional: true, required: false
-  private _tagPropagationMode?: string; 
+  private _tagPropagationMode?: string;
   public get tagPropagationMode() {
     return this.getStringAttribute('tag_propagation_mode');
   }
@@ -1857,15 +1857,15 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#scale_out_workers_per_minute DeadlineFleet#scale_out_workers_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#scale_out_workers_per_minute DeadlineFleet#scale_out_workers_per_minute}
   */
   readonly scaleOutWorkersPerMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#standby_worker_count DeadlineFleet#standby_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#standby_worker_count DeadlineFleet#standby_worker_count}
   */
   readonly standbyWorkerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#worker_idle_duration_seconds DeadlineFleet#worker_idle_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#worker_idle_duration_seconds DeadlineFleet#worker_idle_duration_seconds}
   */
   readonly workerIdleDurationSeconds?: number;
 }
@@ -1968,7 +1968,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // scale_out_workers_per_minute - computed: true, optional: true, required: false
-  private _scaleOutWorkersPerMinute?: number; 
+  private _scaleOutWorkersPerMinute?: number;
   public get scaleOutWorkersPerMinute() {
     return this.getNumberAttribute('scale_out_workers_per_minute');
   }
@@ -1984,7 +1984,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // standby_worker_count - computed: true, optional: true, required: false
-  private _standbyWorkerCount?: number; 
+  private _standbyWorkerCount?: number;
   public get standbyWorkerCount() {
     return this.getNumberAttribute('standby_worker_count');
   }
@@ -2000,7 +2000,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // worker_idle_duration_seconds - computed: true, optional: true, required: false
-  private _workerIdleDurationSeconds?: number; 
+  private _workerIdleDurationSeconds?: number;
   public get workerIdleDurationSeconds() {
     return this.getNumberAttribute('worker_idle_duration_seconds');
   }
@@ -2017,11 +2017,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -2111,7 +2111,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2127,7 +2127,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2144,11 +2144,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#runtime DeadlineFleet#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#runtime DeadlineFleet#runtime}
   */
   readonly runtime?: string;
 }
@@ -2240,7 +2240,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2256,7 +2256,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -2293,11 +2293,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#count DeadlineFleet#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#count DeadlineFleet#count}
   */
   readonly count?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#selections DeadlineFleet#selections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#selections DeadlineFleet#selections}
   */
   readonly selections?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelections[] | cdktn.IResolvable;
 }
@@ -2420,15 +2420,15 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
   */
   readonly name?: string;
 }
@@ -2533,7 +2533,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2549,7 +2549,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2565,7 +2565,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2602,11 +2602,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#name DeadlineFleet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#values DeadlineFleet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#values DeadlineFleet#values}
   */
   readonly values?: string[];
 }
@@ -2698,7 +2698,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2714,7 +2714,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2751,11 +2751,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -2845,7 +2845,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemo
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2861,7 +2861,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemo
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2878,15 +2878,15 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemo
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#iops DeadlineFleet#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#iops DeadlineFleet#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#size_gi_b DeadlineFleet#size_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#size_gi_b DeadlineFleet#size_gi_b}
   */
   readonly sizeGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#throughput_mi_b DeadlineFleet#throughput_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#throughput_mi_b DeadlineFleet#throughput_mi_b}
   */
   readonly throughputMiB?: number;
 }
@@ -2989,7 +2989,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3005,7 +3005,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // size_gi_b - computed: true, optional: true, required: false
-  private _sizeGiB?: number; 
+  private _sizeGiB?: number;
   public get sizeGiB() {
     return this.getNumberAttribute('size_gi_b');
   }
@@ -3021,7 +3021,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // throughput_mi_b - computed: true, optional: true, required: false
-  private _throughputMiB?: number; 
+  private _throughputMiB?: number;
   public get throughputMiB() {
     return this.getNumberAttribute('throughput_mi_b');
   }
@@ -3038,11 +3038,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#max DeadlineFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#min DeadlineFleet#min}
   */
   readonly min?: number;
 }
@@ -3132,7 +3132,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpu
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3148,7 +3148,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpu
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3165,43 +3165,43 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpu
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#accelerator_capabilities DeadlineFleet#accelerator_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#accelerator_capabilities DeadlineFleet#accelerator_capabilities}
   */
   readonly acceleratorCapabilities?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#allowed_instance_types DeadlineFleet#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#allowed_instance_types DeadlineFleet#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#cpu_architecture_type DeadlineFleet#cpu_architecture_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#cpu_architecture_type DeadlineFleet#cpu_architecture_type}
   */
   readonly cpuArchitectureType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#custom_amounts DeadlineFleet#custom_amounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#custom_amounts DeadlineFleet#custom_amounts}
   */
   readonly customAmounts?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmounts[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#custom_attributes DeadlineFleet#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#custom_attributes DeadlineFleet#custom_attributes}
   */
   readonly customAttributes?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#excluded_instance_types DeadlineFleet#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#excluded_instance_types DeadlineFleet#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#memory_mi_b DeadlineFleet#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#memory_mi_b DeadlineFleet#memory_mi_b}
   */
   readonly memoryMiB?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#os_family DeadlineFleet#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#os_family DeadlineFleet#os_family}
   */
   readonly osFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#root_ebs_volume DeadlineFleet#root_ebs_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#root_ebs_volume DeadlineFleet#root_ebs_volume}
   */
   readonly rootEbsVolume?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#v_cpu_count DeadlineFleet#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#v_cpu_count DeadlineFleet#v_cpu_count}
   */
   readonly vCpuCount?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount;
 }
@@ -3411,7 +3411,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -3427,7 +3427,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // cpu_architecture_type - computed: true, optional: true, required: false
-  private _cpuArchitectureType?: string; 
+  private _cpuArchitectureType?: string;
   public get cpuArchitectureType() {
     return this.getStringAttribute('cpu_architecture_type');
   }
@@ -3475,7 +3475,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -3507,7 +3507,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // os_family - computed: true, optional: true, required: false
-  private _osFamily?: string; 
+  private _osFamily?: string;
   public get osFamily() {
     return this.getStringAttribute('os_family');
   }
@@ -3556,7 +3556,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#type DeadlineFleet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#type DeadlineFleet#type}
   */
   readonly type?: string;
 }
@@ -3633,7 +3633,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3650,23 +3650,23 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOut
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#iops DeadlineFleet#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#iops DeadlineFleet#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#last_used_ttl_hours DeadlineFleet#last_used_ttl_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#last_used_ttl_hours DeadlineFleet#last_used_ttl_hours}
   */
   readonly lastUsedTtlHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#mount_path DeadlineFleet#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#mount_path DeadlineFleet#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#size_gi_b DeadlineFleet#size_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#size_gi_b DeadlineFleet#size_gi_b}
   */
   readonly sizeGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#throughput_mi_b DeadlineFleet#throughput_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#throughput_mi_b DeadlineFleet#throughput_mi_b}
   */
   readonly throughputMiB?: number;
 }
@@ -3795,7 +3795,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3811,7 +3811,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // last_used_ttl_hours - computed: true, optional: true, required: false
-  private _lastUsedTtlHours?: number; 
+  private _lastUsedTtlHours?: number;
   public get lastUsedTtlHours() {
     return this.getNumberAttribute('last_used_ttl_hours');
   }
@@ -3827,7 +3827,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -3843,7 +3843,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // size_gi_b - computed: true, optional: true, required: false
-  private _sizeGiB?: number; 
+  private _sizeGiB?: number;
   public get sizeGiB() {
     return this.getNumberAttribute('size_gi_b');
   }
@@ -3859,7 +3859,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // throughput_mi_b - computed: true, optional: true, required: false
-  private _throughputMiB?: number; 
+  private _throughputMiB?: number;
   public get throughputMiB() {
     return this.getNumberAttribute('throughput_mi_b');
   }
@@ -3876,7 +3876,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2VpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#resource_configuration_arns DeadlineFleet#resource_configuration_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#resource_configuration_arns DeadlineFleet#resource_configuration_arns}
   */
   readonly resourceConfigurationArns?: string[];
 }
@@ -3953,7 +3953,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputRe
   }
 
   // resource_configuration_arns - computed: true, optional: true, required: false
-  private _resourceConfigurationArns?: string[]; 
+  private _resourceConfigurationArns?: string[];
   public get resourceConfigurationArns() {
     return this.getListAttribute('resource_configuration_arns');
   }
@@ -3970,27 +3970,27 @@ export class DeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputRe
 }
 export interface DeadlineFleetConfigurationServiceManagedEc2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#auto_scaling_configuration DeadlineFleet#auto_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#auto_scaling_configuration DeadlineFleet#auto_scaling_configuration}
   */
   readonly autoScalingConfiguration?: DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#instance_capabilities DeadlineFleet#instance_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#instance_capabilities DeadlineFleet#instance_capabilities}
   */
   readonly instanceCapabilities?: DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#instance_market_options DeadlineFleet#instance_market_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#instance_market_options DeadlineFleet#instance_market_options}
   */
   readonly instanceMarketOptions?: DeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#persistent_volume_configuration DeadlineFleet#persistent_volume_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#persistent_volume_configuration DeadlineFleet#persistent_volume_configuration}
   */
   readonly persistentVolumeConfiguration?: DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#storage_profile_id DeadlineFleet#storage_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#storage_profile_id DeadlineFleet#storage_profile_id}
   */
   readonly storageProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#vpc_configuration DeadlineFleet#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#vpc_configuration DeadlineFleet#vpc_configuration}
   */
   readonly vpcConfiguration?: DeadlineFleetConfigurationServiceManagedEc2VpcConfiguration;
 }
@@ -4196,7 +4196,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2OutputReference extends 
   }
 
   // storage_profile_id - computed: true, optional: true, required: false
-  private _storageProfileId?: string; 
+  private _storageProfileId?: string;
   public get storageProfileId() {
     return this.getStringAttribute('storage_profile_id');
   }
@@ -4229,11 +4229,11 @@ export class DeadlineFleetConfigurationServiceManagedEc2OutputReference extends 
 }
 export interface DeadlineFleetConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#customer_managed DeadlineFleet#customer_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#customer_managed DeadlineFleet#customer_managed}
   */
   readonly customerManaged?: DeadlineFleetConfigurationCustomerManaged;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#service_managed_ec_2 DeadlineFleet#service_managed_ec_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#service_managed_ec_2 DeadlineFleet#service_managed_ec_2}
   */
   readonly serviceManagedEc2?: DeadlineFleetConfigurationServiceManagedEc2;
 }
@@ -4356,11 +4356,11 @@ export class DeadlineFleetConfigurationOutputReference extends cdktn.ComplexObje
 }
 export interface DeadlineFleetHostConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#script_body DeadlineFleet#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#script_body DeadlineFleet#script_body}
   */
   readonly scriptBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#script_timeout_seconds DeadlineFleet#script_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#script_timeout_seconds DeadlineFleet#script_timeout_seconds}
   */
   readonly scriptTimeoutSeconds?: number;
 }
@@ -4450,7 +4450,7 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
   }
 
   // script_body - computed: true, optional: true, required: false
-  private _scriptBody?: string; 
+  private _scriptBody?: string;
   public get scriptBody() {
     return this.getStringAttribute('script_body');
   }
@@ -4466,7 +4466,7 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
   }
 
   // script_timeout_seconds - computed: true, optional: true, required: false
-  private _scriptTimeoutSeconds?: number; 
+  private _scriptTimeoutSeconds?: number;
   public get scriptTimeoutSeconds() {
     return this.getNumberAttribute('script_timeout_seconds');
   }
@@ -4483,15 +4483,15 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
 }
 export interface DeadlineFleetTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#key DeadlineFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#key DeadlineFleet#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#value DeadlineFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#value DeadlineFleet#value}
   */
   readonly value?: string;
 }
@@ -4583,7 +4583,7 @@ export class DeadlineFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4599,7 +4599,7 @@ export class DeadlineFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4636,7 +4636,7 @@ export class DeadlineFleetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet awscc_deadline_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet awscc_deadline_fleet}
 */
 export class DeadlineFleet extends cdktn.TerraformResource {
 
@@ -4652,7 +4652,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineFleet to import
-  * @param importFromId The id of the existing DeadlineFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4664,7 +4664,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4675,7 +4675,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4725,7 +4725,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4741,7 +4741,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -4754,7 +4754,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string; 
+  private _farmId?: string;
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -4793,7 +4793,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // max_worker_count - computed: false, optional: false, required: true
-  private _maxWorkerCount?: number; 
+  private _maxWorkerCount?: number;
   public get maxWorkerCount() {
     return this.getNumberAttribute('max_worker_count');
   }
@@ -4806,7 +4806,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // min_worker_count - computed: true, optional: true, required: false
-  private _minWorkerCount?: number; 
+  private _minWorkerCount?: number;
   public get minWorkerCount() {
     return this.getNumberAttribute('min_worker_count');
   }
@@ -4822,7 +4822,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

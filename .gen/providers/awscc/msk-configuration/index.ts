@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface MskConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#description MskConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#description MskConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}
   */
   readonly kafkaVersionsList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}
   */
   readonly latestRevision?: MskConfigurationLatestRevision;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#name MskConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#name MskConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}
   */
   readonly serverProperties: string;
 }
@@ -104,7 +104,7 @@ export class MskConfigurationLatestRevisionOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration awscc_msk_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration awscc_msk_configuration}
 */
 export class MskConfiguration extends cdktn.TerraformResource {
 
@@ -120,7 +120,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskConfiguration to import
-  * @param importFromId The id of the existing MskConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -132,7 +132,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_configuration awscc_msk_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_configuration awscc_msk_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +143,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_msk_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -170,7 +170,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   }
 
   // kafka_versions_list - computed: true, optional: true, required: false
-  private _kafkaVersionsList?: string[]; 
+  private _kafkaVersionsList?: string[];
   public get kafkaVersionsList() {
     return this.getListAttribute('kafka_versions_list');
   }
@@ -223,7 +223,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -236,7 +236,7 @@ export class MskConfiguration extends cdktn.TerraformResource {
   }
 
   // server_properties - computed: false, optional: false, required: true
-  private _serverProperties?: string; 
+  private _serverProperties?: string;
   public get serverProperties() {
     return this.getStringAttribute('server_properties');
   }

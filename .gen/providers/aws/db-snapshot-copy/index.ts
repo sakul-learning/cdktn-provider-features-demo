@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktn from 'cdktn';
 
 export interface DbSnapshotCopyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#copy_tags DbSnapshotCopy#copy_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#copy_tags DbSnapshotCopy#copy_tags}
   */
   readonly copyTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#destination_region DbSnapshotCopy#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#destination_region DbSnapshotCopy#destination_region}
   */
   readonly destinationRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#id DbSnapshotCopy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#id DbSnapshotCopy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#kms_key_id DbSnapshotCopy#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#kms_key_id DbSnapshotCopy#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#option_group_name DbSnapshotCopy#option_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#option_group_name DbSnapshotCopy#option_group_name}
   */
   readonly optionGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#presigned_url DbSnapshotCopy#presigned_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#presigned_url DbSnapshotCopy#presigned_url}
   */
   readonly presignedUrl?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#region DbSnapshotCopy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#region DbSnapshotCopy#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#shared_accounts DbSnapshotCopy#shared_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#shared_accounts DbSnapshotCopy#shared_accounts}
   */
   readonly sharedAccounts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#source_db_snapshot_identifier DbSnapshotCopy#source_db_snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#source_db_snapshot_identifier DbSnapshotCopy#source_db_snapshot_identifier}
   */
   readonly sourceDbSnapshotIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#tags DbSnapshotCopy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#tags DbSnapshotCopy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#tags_all DbSnapshotCopy#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#tags_all DbSnapshotCopy#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#target_custom_availability_zone DbSnapshotCopy#target_custom_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#target_custom_availability_zone DbSnapshotCopy#target_custom_availability_zone}
   */
   readonly targetCustomAvailabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#target_db_snapshot_identifier DbSnapshotCopy#target_db_snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#target_db_snapshot_identifier DbSnapshotCopy#target_db_snapshot_identifier}
   */
   readonly targetDbSnapshotIdentifier: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#timeouts DbSnapshotCopy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#timeouts DbSnapshotCopy#timeouts}
   */
   readonly timeouts?: DbSnapshotCopyTimeouts;
 }
 export interface DbSnapshotCopyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}
   */
   readonly create?: string;
 }
@@ -150,7 +150,7 @@ export class DbSnapshotCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class DbSnapshotCopyTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy aws_db_snapshot_copy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy aws_db_snapshot_copy}
 */
 export class DbSnapshotCopy extends cdktn.TerraformResource {
 
@@ -183,7 +183,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DbSnapshotCopy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbSnapshotCopy to import
-  * @param importFromId The id of the existing DbSnapshotCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbSnapshotCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbSnapshotCopy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -195,7 +195,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/db_snapshot_copy aws_db_snapshot_copy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_snapshot_copy aws_db_snapshot_copy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,7 +206,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_db_snapshot_copy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -247,7 +247,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // copy_tags - computed: false, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable; 
+  private _copyTags?: boolean | cdktn.IResolvable;
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -268,7 +268,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: false, optional: true, required: false
-  private _destinationRegion?: string; 
+  private _destinationRegion?: string;
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -299,7 +299,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -320,7 +320,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -341,7 +341,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // option_group_name - computed: true, optional: true, required: false
-  private _optionGroupName?: string; 
+  private _optionGroupName?: string;
   public get optionGroupName() {
     return this.getStringAttribute('option_group_name');
   }
@@ -362,7 +362,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // presigned_url - computed: false, optional: true, required: false
-  private _presignedUrl?: string; 
+  private _presignedUrl?: string;
   public get presignedUrl() {
     return this.getStringAttribute('presigned_url');
   }
@@ -378,7 +378,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -394,7 +394,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // shared_accounts - computed: false, optional: true, required: false
-  private _sharedAccounts?: string[]; 
+  private _sharedAccounts?: string[];
   public get sharedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('shared_accounts'));
   }
@@ -415,7 +415,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // source_db_snapshot_identifier - computed: false, optional: false, required: true
-  private _sourceDbSnapshotIdentifier?: string; 
+  private _sourceDbSnapshotIdentifier?: string;
   public get sourceDbSnapshotIdentifier() {
     return this.getStringAttribute('source_db_snapshot_identifier');
   }
@@ -438,7 +438,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -454,7 +454,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -470,7 +470,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // target_custom_availability_zone - computed: false, optional: true, required: false
-  private _targetCustomAvailabilityZone?: string; 
+  private _targetCustomAvailabilityZone?: string;
   public get targetCustomAvailabilityZone() {
     return this.getStringAttribute('target_custom_availability_zone');
   }
@@ -486,7 +486,7 @@ export class DbSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // target_db_snapshot_identifier - computed: false, optional: false, required: true
-  private _targetDbSnapshotIdentifier?: string; 
+  private _targetDbSnapshotIdentifier?: string;
   public get targetDbSnapshotIdentifier() {
     return this.getStringAttribute('target_db_snapshot_identifier');
   }

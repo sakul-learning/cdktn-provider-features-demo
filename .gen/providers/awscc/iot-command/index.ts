@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface IotCommandConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique identifier for the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#command_id IotCommand#command_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#command_id IotCommand#command_id}
   */
   readonly commandId: string;
   /**
   * The date and time when the command was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#created_at IotCommand#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#created_at IotCommand#created_at}
   */
   readonly createdAt?: string;
   /**
   * A flag indicating whether the command is deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#deprecated IotCommand#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#deprecated IotCommand#deprecated}
   */
   readonly deprecated?: boolean | cdktn.IResolvable;
   /**
   * The description of the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#description IotCommand#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#description IotCommand#description}
   */
   readonly description?: string;
   /**
   * The display name for the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#display_name IotCommand#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#display_name IotCommand#display_name}
   */
   readonly displayName?: string;
   /**
   * The date and time when the command was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#last_updated_at IotCommand#last_updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#last_updated_at IotCommand#last_updated_at}
   */
   readonly lastUpdatedAt?: string;
   /**
   * The list of mandatory parameters for the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#mandatory_parameters IotCommand#mandatory_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#mandatory_parameters IotCommand#mandatory_parameters}
   */
   readonly mandatoryParameters?: IotCommandMandatoryParameters[] | cdktn.IResolvable;
   /**
   * The namespace to which the command belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#namespace IotCommand#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#namespace IotCommand#namespace}
   */
   readonly namespace?: string;
   /**
   * The payload associated with the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#payload IotCommand#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#payload IotCommand#payload}
   */
   readonly payload?: IotCommandPayload;
   /**
   * The payload template associated with the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#payload_template IotCommand#payload_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#payload_template IotCommand#payload_template}
   */
   readonly payloadTemplate?: string;
   /**
   * A flag indicating whether the command is pending deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#pending_deletion IotCommand#pending_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#pending_deletion IotCommand#pending_deletion}
   */
   readonly pendingDeletion?: boolean | cdktn.IResolvable;
   /**
   * The command preprocessor configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#preprocessor IotCommand#preprocessor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#preprocessor IotCommand#preprocessor}
   */
   readonly preprocessor?: IotCommandPreprocessor;
   /**
   * The customer role associated with the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#role_arn IotCommand#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#role_arn IotCommand#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The tags to be associated with the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#tags IotCommand#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#tags IotCommand#tags}
   */
   readonly tags?: IotCommandTags[] | cdktn.IResolvable;
 }
 export interface IotCommandMandatoryParametersDefaultValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#b IotCommand#b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#b IotCommand#b}
   */
   readonly b?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#bin IotCommand#bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#bin IotCommand#bin}
   */
   readonly bin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#d IotCommand#d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#d IotCommand#d}
   */
   readonly d?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#i IotCommand#i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#i IotCommand#i}
   */
   readonly i?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#l IotCommand#l}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#l IotCommand#l}
   */
   readonly l?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#s IotCommand#s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#s IotCommand#s}
   */
   readonly s?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#ul IotCommand#ul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#ul IotCommand#ul}
   */
   readonly ul?: string;
 }
@@ -273,7 +273,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // b - computed: true, optional: true, required: false
-  private _b?: boolean | cdktn.IResolvable; 
+  private _b?: boolean | cdktn.IResolvable;
   public get b() {
     return this.getBooleanAttribute('b');
   }
@@ -289,7 +289,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // bin - computed: true, optional: true, required: false
-  private _bin?: string; 
+  private _bin?: string;
   public get bin() {
     return this.getStringAttribute('bin');
   }
@@ -305,7 +305,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // d - computed: true, optional: true, required: false
-  private _d?: number; 
+  private _d?: number;
   public get d() {
     return this.getNumberAttribute('d');
   }
@@ -321,7 +321,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // i - computed: true, optional: true, required: false
-  private _i?: number; 
+  private _i?: number;
   public get i() {
     return this.getNumberAttribute('i');
   }
@@ -337,7 +337,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // l - computed: true, optional: true, required: false
-  private _l?: string; 
+  private _l?: string;
   public get l() {
     return this.getStringAttribute('l');
   }
@@ -353,7 +353,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // s - computed: true, optional: true, required: false
-  private _s?: string; 
+  private _s?: string;
   public get s() {
     return this.getStringAttribute('s');
   }
@@ -369,7 +369,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // ul - computed: true, optional: true, required: false
-  private _ul?: string; 
+  private _ul?: string;
   public get ul() {
     return this.getStringAttribute('ul');
   }
@@ -386,31 +386,31 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
 }
 export interface IotCommandMandatoryParametersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#b IotCommand#b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#b IotCommand#b}
   */
   readonly b?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#bin IotCommand#bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#bin IotCommand#bin}
   */
   readonly bin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#d IotCommand#d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#d IotCommand#d}
   */
   readonly d?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#i IotCommand#i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#i IotCommand#i}
   */
   readonly i?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#l IotCommand#l}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#l IotCommand#l}
   */
   readonly l?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#s IotCommand#s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#s IotCommand#s}
   */
   readonly s?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#ul IotCommand#ul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#ul IotCommand#ul}
   */
   readonly ul?: string;
 }
@@ -565,7 +565,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // b - computed: true, optional: true, required: false
-  private _b?: boolean | cdktn.IResolvable; 
+  private _b?: boolean | cdktn.IResolvable;
   public get b() {
     return this.getBooleanAttribute('b');
   }
@@ -581,7 +581,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // bin - computed: true, optional: true, required: false
-  private _bin?: string; 
+  private _bin?: string;
   public get bin() {
     return this.getStringAttribute('bin');
   }
@@ -597,7 +597,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // d - computed: true, optional: true, required: false
-  private _d?: number; 
+  private _d?: number;
   public get d() {
     return this.getNumberAttribute('d');
   }
@@ -613,7 +613,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // i - computed: true, optional: true, required: false
-  private _i?: number; 
+  private _i?: number;
   public get i() {
     return this.getNumberAttribute('i');
   }
@@ -629,7 +629,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // l - computed: true, optional: true, required: false
-  private _l?: string; 
+  private _l?: string;
   public get l() {
     return this.getStringAttribute('l');
   }
@@ -645,7 +645,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // s - computed: true, optional: true, required: false
-  private _s?: string; 
+  private _s?: string;
   public get s() {
     return this.getStringAttribute('s');
   }
@@ -661,7 +661,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // ul - computed: true, optional: true, required: false
-  private _ul?: string; 
+  private _ul?: string;
   public get ul() {
     return this.getStringAttribute('ul');
   }
@@ -678,11 +678,11 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
 }
 export interface IotCommandMandatoryParametersValueConditionsOperandNumberRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#max IotCommand#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#max IotCommand#max}
   */
   readonly max?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#min IotCommand#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#min IotCommand#min}
   */
   readonly min?: string;
 }
@@ -772,7 +772,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandNumberRangeOutpu
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: string; 
+  private _max?: string;
   public get max() {
     return this.getStringAttribute('max');
   }
@@ -788,7 +788,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandNumberRangeOutpu
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: string; 
+  private _min?: string;
   public get min() {
     return this.getStringAttribute('min');
   }
@@ -805,23 +805,23 @@ export class IotCommandMandatoryParametersValueConditionsOperandNumberRangeOutpu
 }
 export interface IotCommandMandatoryParametersValueConditionsOperand {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#number IotCommand#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#number IotCommand#number}
   */
   readonly number?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#number_range IotCommand#number_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#number_range IotCommand#number_range}
   */
   readonly numberRange?: IotCommandMandatoryParametersValueConditionsOperandNumberRange;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#numbers IotCommand#numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#numbers IotCommand#numbers}
   */
   readonly numbers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#string IotCommand#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#string IotCommand#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#strings IotCommand#strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#strings IotCommand#strings}
   */
   readonly strings?: string[];
 }
@@ -950,7 +950,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // number - computed: true, optional: true, required: false
-  private _number?: string; 
+  private _number?: string;
   public get number() {
     return this.getStringAttribute('number');
   }
@@ -982,7 +982,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // numbers - computed: true, optional: true, required: false
-  private _numbers?: string[]; 
+  private _numbers?: string[];
   public get numbers() {
     return this.getListAttribute('numbers');
   }
@@ -998,7 +998,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // string - computed: true, optional: true, required: false
-  private _string?: string; 
+  private _string?: string;
   public get string() {
     return this.getStringAttribute('string');
   }
@@ -1014,7 +1014,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // strings - computed: true, optional: true, required: false
-  private _strings?: string[]; 
+  private _strings?: string[];
   public get strings() {
     return this.getListAttribute('strings');
   }
@@ -1031,11 +1031,11 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
 }
 export interface IotCommandMandatoryParametersValueConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#comparison_operator IotCommand#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#comparison_operator IotCommand#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#operand IotCommand#operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#operand IotCommand#operand}
   */
   readonly operand?: IotCommandMandatoryParametersValueConditionsOperand;
 }
@@ -1127,7 +1127,7 @@ export class IotCommandMandatoryParametersValueConditionsOutputReference extends
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string; 
+  private _comparisonOperator?: string;
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -1180,27 +1180,27 @@ export class IotCommandMandatoryParametersValueConditionsList extends cdktn.Comp
 }
 export interface IotCommandMandatoryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#default_value IotCommand#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#default_value IotCommand#default_value}
   */
   readonly defaultValue?: IotCommandMandatoryParametersDefaultValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#description IotCommand#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#description IotCommand#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#name IotCommand#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#name IotCommand#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#type IotCommand#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#type IotCommand#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#value IotCommand#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#value IotCommand#value}
   */
   readonly value?: IotCommandMandatoryParametersValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#value_conditions IotCommand#value_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#value_conditions IotCommand#value_conditions}
   */
   readonly valueConditions?: IotCommandMandatoryParametersValueConditions[] | cdktn.IResolvable;
 }
@@ -1360,7 +1360,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1376,7 +1376,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1392,7 +1392,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1461,11 +1461,11 @@ export class IotCommandMandatoryParametersList extends cdktn.ComplexList {
 }
 export interface IotCommandPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#content IotCommand#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#content IotCommand#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#content_type IotCommand#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#content_type IotCommand#content_type}
   */
   readonly contentType?: string;
 }
@@ -1555,7 +1555,7 @@ export class IotCommandPayloadOutputReference extends cdktn.ComplexObject {
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1571,7 +1571,7 @@ export class IotCommandPayloadOutputReference extends cdktn.ComplexObject {
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1588,7 +1588,7 @@ export class IotCommandPayloadOutputReference extends cdktn.ComplexObject {
 }
 export interface IotCommandPreprocessorAwsJsonSubstitution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#output_format IotCommand#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#output_format IotCommand#output_format}
   */
   readonly outputFormat?: string;
 }
@@ -1665,7 +1665,7 @@ export class IotCommandPreprocessorAwsJsonSubstitutionOutputReference extends cd
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string; 
+  private _outputFormat?: string;
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -1682,7 +1682,7 @@ export class IotCommandPreprocessorAwsJsonSubstitutionOutputReference extends cd
 }
 export interface IotCommandPreprocessor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#aws_json_substitution IotCommand#aws_json_substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#aws_json_substitution IotCommand#aws_json_substitution}
   */
   readonly awsJsonSubstitution?: IotCommandPreprocessorAwsJsonSubstitution;
 }
@@ -1778,13 +1778,13 @@ export interface IotCommandTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#key IotCommand#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#key IotCommand#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#value IotCommand#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#value IotCommand#value}
   */
   readonly value?: string;
 }
@@ -1876,7 +1876,7 @@ export class IotCommandTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1892,7 +1892,7 @@ export class IotCommandTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1929,7 +1929,7 @@ export class IotCommandTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command awscc_iot_command}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command awscc_iot_command}
 */
 export class IotCommand extends cdktn.TerraformResource {
 
@@ -1945,7 +1945,7 @@ export class IotCommand extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotCommand resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCommand to import
-  * @param importFromId The id of the existing IotCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCommand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1957,7 +1957,7 @@ export class IotCommand extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_command awscc_iot_command} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_command awscc_iot_command} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1968,7 +1968,7 @@ export class IotCommand extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_command',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2004,7 +2004,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // command_id - computed: false, optional: false, required: true
-  private _commandId?: string; 
+  private _commandId?: string;
   public get commandId() {
     return this.getStringAttribute('command_id');
   }
@@ -2017,7 +2017,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string; 
+  private _createdAt?: string;
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -2033,7 +2033,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // deprecated - computed: true, optional: true, required: false
-  private _deprecated?: boolean | cdktn.IResolvable; 
+  private _deprecated?: boolean | cdktn.IResolvable;
   public get deprecated() {
     return this.getBooleanAttribute('deprecated');
   }
@@ -2049,7 +2049,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2065,7 +2065,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -2086,7 +2086,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // last_updated_at - computed: true, optional: true, required: false
-  private _lastUpdatedAt?: string; 
+  private _lastUpdatedAt?: string;
   public get lastUpdatedAt() {
     return this.getStringAttribute('last_updated_at');
   }
@@ -2118,7 +2118,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2150,7 +2150,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // payload_template - computed: true, optional: true, required: false
-  private _payloadTemplate?: string; 
+  private _payloadTemplate?: string;
   public get payloadTemplate() {
     return this.getStringAttribute('payload_template');
   }
@@ -2166,7 +2166,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // pending_deletion - computed: true, optional: true, required: false
-  private _pendingDeletion?: boolean | cdktn.IResolvable; 
+  private _pendingDeletion?: boolean | cdktn.IResolvable;
   public get pendingDeletion() {
     return this.getBooleanAttribute('pending_deletion');
   }
@@ -2198,7 +2198,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

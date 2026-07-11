@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,166 +8,166 @@ import * as cdktn from 'cdktn';
 
 export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
   */
   readonly billingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#hash_key DynamodbTable#hash_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#hash_key DynamodbTable#hash_key}
   */
   readonly hashKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#id DynamodbTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#id DynamodbTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#name DynamodbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#name DynamodbTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
   */
   readonly rangeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#read_capacity DynamodbTable#read_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#read_capacity DynamodbTable#read_capacity}
   */
   readonly readCapacity?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#region DynamodbTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#region DynamodbTable#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#restore_backup_arn DynamodbTable#restore_backup_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#restore_backup_arn DynamodbTable#restore_backup_arn}
   */
   readonly restoreBackupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#restore_date_time DynamodbTable#restore_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#restore_date_time DynamodbTable#restore_date_time}
   */
   readonly restoreDateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#restore_source_name DynamodbTable#restore_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#restore_source_name DynamodbTable#restore_source_name}
   */
   readonly restoreSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#restore_source_table_arn DynamodbTable#restore_source_table_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#restore_source_table_arn DynamodbTable#restore_source_table_arn}
   */
   readonly restoreSourceTableArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#restore_to_latest_time DynamodbTable#restore_to_latest_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#restore_to_latest_time DynamodbTable#restore_to_latest_time}
   */
   readonly restoreToLatestTime?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#stream_enabled DynamodbTable#stream_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#stream_enabled DynamodbTable#stream_enabled}
   */
   readonly streamEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
   */
   readonly streamViewType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
   */
   readonly tableClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#tags_all DynamodbTable#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#tags_all DynamodbTable#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#write_capacity DynamodbTable#write_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#write_capacity DynamodbTable#write_capacity}
   */
   readonly writeCapacity?: number;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#attribute DynamodbTable#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#attribute DynamodbTable#attribute}
   */
   readonly attribute?: DynamodbTableAttribute[] | cdktn.IResolvable;
   /**
   * global_secondary_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#global_secondary_index DynamodbTable#global_secondary_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#global_secondary_index DynamodbTable#global_secondary_index}
   */
   readonly globalSecondaryIndex?: DynamodbTableGlobalSecondaryIndex[] | cdktn.IResolvable;
   /**
   * global_table_witness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#global_table_witness DynamodbTable#global_table_witness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#global_table_witness DynamodbTable#global_table_witness}
   */
   readonly globalTableWitness?: DynamodbTableGlobalTableWitness;
   /**
   * import_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#import_table DynamodbTable#import_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#import_table DynamodbTable#import_table}
   */
   readonly importTable?: DynamodbTableImportTable;
   /**
   * local_secondary_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#local_secondary_index DynamodbTable#local_secondary_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#local_secondary_index DynamodbTable#local_secondary_index}
   */
   readonly localSecondaryIndex?: DynamodbTableLocalSecondaryIndex[] | cdktn.IResolvable;
   /**
   * on_demand_throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
   */
   readonly onDemandThroughput?: DynamodbTableOnDemandThroughput;
   /**
   * point_in_time_recovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}
   */
   readonly pointInTimeRecovery?: DynamodbTablePointInTimeRecovery;
   /**
   * replica block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#replica DynamodbTable#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#replica DynamodbTable#replica}
   */
   readonly replica?: DynamodbTableReplica[] | cdktn.IResolvable;
   /**
   * server_side_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#server_side_encryption DynamodbTable#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#server_side_encryption DynamodbTable#server_side_encryption}
   */
   readonly serverSideEncryption?: DynamodbTableServerSideEncryption;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#timeouts DynamodbTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#timeouts DynamodbTable#timeouts}
   */
   readonly timeouts?: DynamodbTableTimeouts;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#ttl DynamodbTable#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#ttl DynamodbTable#ttl}
   */
   readonly ttl?: DynamodbTableTtl;
   /**
   * warm_throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbTableWarmThroughput;
 }
 export interface DynamodbTableAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#name DynamodbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#name DynamodbTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#type DynamodbTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#type DynamodbTable#type}
   */
   readonly type: string;
 }
@@ -259,7 +259,7 @@ export class DynamodbTableAttributeOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -272,7 +272,7 @@ export class DynamodbTableAttributeOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -306,11 +306,11 @@ export class DynamodbTableAttributeList extends cdktn.ComplexList {
 }
 export interface DynamodbTableGlobalSecondaryIndexKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
   */
   readonly keyType: string;
 }
@@ -402,7 +402,7 @@ export class DynamodbTableGlobalSecondaryIndexKeySchemaOutputReference extends c
   }
 
   // attribute_name - computed: false, optional: false, required: true
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -415,7 +415,7 @@ export class DynamodbTableGlobalSecondaryIndexKeySchemaOutputReference extends c
   }
 
   // key_type - computed: false, optional: false, required: true
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -449,11 +449,11 @@ export class DynamodbTableGlobalSecondaryIndexKeySchemaList extends cdktn.Comple
 }
 export interface DynamodbTableGlobalSecondaryIndexOnDemandThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -533,7 +533,7 @@ export class DynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference 
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -549,7 +549,7 @@ export class DynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference 
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -566,11 +566,11 @@ export class DynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference 
 }
 export interface DynamodbTableGlobalSecondaryIndexWarmThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -650,7 +650,7 @@ export class DynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference exte
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -666,7 +666,7 @@ export class DynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference exte
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -683,49 +683,49 @@ export class DynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference exte
 }
 export interface DynamodbTableGlobalSecondaryIndex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#hash_key DynamodbTable#hash_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#hash_key DynamodbTable#hash_key}
   */
   readonly hashKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#name DynamodbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#name DynamodbTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
   */
   readonly projectionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
   */
   readonly rangeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#read_capacity DynamodbTable#read_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#read_capacity DynamodbTable#read_capacity}
   */
   readonly readCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#write_capacity DynamodbTable#write_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#write_capacity DynamodbTable#write_capacity}
   */
   readonly writeCapacity?: number;
   /**
   * key_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
   */
   readonly keySchema?: DynamodbTableGlobalSecondaryIndexKeySchema[] | cdktn.IResolvable;
   /**
   * on_demand_throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
   */
   readonly onDemandThroughput?: DynamodbTableGlobalSecondaryIndexOnDemandThroughput;
   /**
   * warm_throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbTableGlobalSecondaryIndexWarmThroughput;
 }
@@ -921,7 +921,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // hash_key - computed: true, optional: true, required: false
-  private _hashKey?: string; 
+  private _hashKey?: string;
   public get hashKey() {
     return this.getStringAttribute('hash_key');
   }
@@ -937,7 +937,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -950,7 +950,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // non_key_attributes - computed: false, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('non_key_attributes'));
   }
@@ -966,7 +966,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // projection_type - computed: false, optional: false, required: true
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -979,7 +979,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // range_key - computed: false, optional: true, required: false
-  private _rangeKey?: string; 
+  private _rangeKey?: string;
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -995,7 +995,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // read_capacity - computed: true, optional: true, required: false
-  private _readCapacity?: number; 
+  private _readCapacity?: number;
   public get readCapacity() {
     return this.getNumberAttribute('read_capacity');
   }
@@ -1011,7 +1011,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // write_capacity - computed: true, optional: true, required: false
-  private _writeCapacity?: number; 
+  private _writeCapacity?: number;
   public get writeCapacity() {
     return this.getNumberAttribute('write_capacity');
   }
@@ -1096,7 +1096,7 @@ export class DynamodbTableGlobalSecondaryIndexList extends cdktn.ComplexList {
 }
 export interface DynamodbTableGlobalTableWitness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}
   */
   readonly regionName?: string;
 }
@@ -1163,7 +1163,7 @@ export class DynamodbTableGlobalTableWitnessOutputReference extends cdktn.Comple
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string; 
+  private _regionName?: string;
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -1180,11 +1180,11 @@ export class DynamodbTableGlobalTableWitnessOutputReference extends cdktn.Comple
 }
 export interface DynamodbTableImportTableInputFormatOptionsCsv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
   */
   readonly headerList?: string[];
 }
@@ -1264,7 +1264,7 @@ export class DynamodbTableImportTableInputFormatOptionsCsvOutputReference extend
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1280,7 +1280,7 @@ export class DynamodbTableImportTableInputFormatOptionsCsvOutputReference extend
   }
 
   // header_list - computed: false, optional: true, required: false
-  private _headerList?: string[]; 
+  private _headerList?: string[];
   public get headerList() {
     return cdktn.Fn.tolist(this.getListAttribute('header_list'));
   }
@@ -1299,7 +1299,7 @@ export interface DynamodbTableImportTableInputFormatOptions {
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
   */
   readonly csv?: DynamodbTableImportTableInputFormatOptionsCsv;
 }
@@ -1383,15 +1383,15 @@ export class DynamodbTableImportTableInputFormatOptionsOutputReference extends c
 }
 export interface DynamodbTableImportTableS3BucketSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#bucket DynamodbTable#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#bucket DynamodbTable#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#bucket_owner DynamodbTable#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#bucket_owner DynamodbTable#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#key_prefix DynamodbTable#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#key_prefix DynamodbTable#key_prefix}
   */
   readonly keyPrefix?: string;
 }
@@ -1484,7 +1484,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1497,7 +1497,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // bucket_owner - computed: false, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1513,7 +1513,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string; 
+  private _keyPrefix?: string;
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -1530,23 +1530,23 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
 }
 export interface DynamodbTableImportTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
   */
   readonly inputCompressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
   */
   readonly inputFormat: string;
   /**
   * input_format_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
   */
   readonly inputFormatOptions?: DynamodbTableImportTableInputFormatOptions;
   /**
   * s3_bucket_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
   */
   readonly s3BucketSource: DynamodbTableImportTableS3BucketSource;
 }
@@ -1652,7 +1652,7 @@ export class DynamodbTableImportTableOutputReference extends cdktn.ComplexObject
   }
 
   // input_compression_type - computed: false, optional: true, required: false
-  private _inputCompressionType?: string; 
+  private _inputCompressionType?: string;
   public get inputCompressionType() {
     return this.getStringAttribute('input_compression_type');
   }
@@ -1668,7 +1668,7 @@ export class DynamodbTableImportTableOutputReference extends cdktn.ComplexObject
   }
 
   // input_format - computed: false, optional: false, required: true
-  private _inputFormat?: string; 
+  private _inputFormat?: string;
   public get inputFormat() {
     return this.getStringAttribute('input_format');
   }
@@ -1711,19 +1711,19 @@ export class DynamodbTableImportTableOutputReference extends cdktn.ComplexObject
 }
 export interface DynamodbTableLocalSecondaryIndex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#name DynamodbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#name DynamodbTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
   */
   readonly projectionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#range_key DynamodbTable#range_key}
   */
   readonly rangeKey: string;
 }
@@ -1841,7 +1841,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1854,7 +1854,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // non_key_attributes - computed: false, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -1870,7 +1870,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // projection_type - computed: false, optional: false, required: true
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -1883,7 +1883,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // range_key - computed: false, optional: false, required: true
-  private _rangeKey?: string; 
+  private _rangeKey?: string;
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -1917,11 +1917,11 @@ export class DynamodbTableLocalSecondaryIndexList extends cdktn.ComplexList {
 }
 export interface DynamodbTableOnDemandThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -2001,7 +2001,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -2017,7 +2017,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -2034,11 +2034,11 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
 }
 export interface DynamodbTablePointInTimeRecovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
   */
   readonly recoveryPeriodInDays?: number;
 }
@@ -2118,7 +2118,7 @@ export class DynamodbTablePointInTimeRecoveryOutputReference extends cdktn.Compl
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2131,7 +2131,7 @@ export class DynamodbTablePointInTimeRecoveryOutputReference extends cdktn.Compl
   }
 
   // recovery_period_in_days - computed: true, optional: true, required: false
-  private _recoveryPeriodInDays?: number; 
+  private _recoveryPeriodInDays?: number;
   public get recoveryPeriodInDays() {
     return this.getNumberAttribute('recovery_period_in_days');
   }
@@ -2148,27 +2148,27 @@ export class DynamodbTablePointInTimeRecoveryOutputReference extends cdktn.Compl
 }
 export interface DynamodbTableReplica {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#consistency_mode DynamodbTable#consistency_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#consistency_mode DynamodbTable#consistency_mode}
   */
   readonly consistencyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}
   */
   readonly pointInTimeRecovery?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#propagate_tags DynamodbTable#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#propagate_tags DynamodbTable#propagate_tags}
   */
   readonly propagateTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}
   */
   readonly regionName: string;
 }
@@ -2317,7 +2317,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // consistency_mode - computed: false, optional: true, required: false
-  private _consistencyMode?: string; 
+  private _consistencyMode?: string;
   public get consistencyMode() {
     return this.getStringAttribute('consistency_mode');
   }
@@ -2333,7 +2333,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -2349,7 +2349,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2365,7 +2365,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // point_in_time_recovery - computed: false, optional: true, required: false
-  private _pointInTimeRecovery?: boolean | cdktn.IResolvable; 
+  private _pointInTimeRecovery?: boolean | cdktn.IResolvable;
   public get pointInTimeRecovery() {
     return this.getBooleanAttribute('point_in_time_recovery');
   }
@@ -2381,7 +2381,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: boolean | cdktn.IResolvable; 
+  private _propagateTags?: boolean | cdktn.IResolvable;
   public get propagateTags() {
     return this.getBooleanAttribute('propagate_tags');
   }
@@ -2397,7 +2397,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // region_name - computed: false, optional: false, required: true
-  private _regionName?: string; 
+  private _regionName?: string;
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -2441,11 +2441,11 @@ export class DynamodbTableReplicaList extends cdktn.ComplexList {
 }
 export interface DynamodbTableServerSideEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -2525,7 +2525,7 @@ export class DynamodbTableServerSideEncryptionOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2538,7 +2538,7 @@ export class DynamodbTableServerSideEncryptionOutputReference extends cdktn.Comp
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2555,15 +2555,15 @@ export class DynamodbTableServerSideEncryptionOutputReference extends cdktn.Comp
 }
 export interface DynamodbTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#create DynamodbTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#create DynamodbTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#delete DynamodbTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#delete DynamodbTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#update DynamodbTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#update DynamodbTable#update}
   */
   readonly update?: string;
 }
@@ -2666,7 +2666,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2682,7 +2682,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2698,7 +2698,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2715,11 +2715,11 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 export interface DynamodbTableTtl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -2799,7 +2799,7 @@ export class DynamodbTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // attribute_name - computed: false, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -2815,7 +2815,7 @@ export class DynamodbTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2832,11 +2832,11 @@ export class DynamodbTableTtlOutputReference extends cdktn.ComplexObject {
 }
 export interface DynamodbTableWarmThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -2916,7 +2916,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -2932,7 +2932,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -2949,7 +2949,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table aws_dynamodb_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table aws_dynamodb_table}
 */
 export class DynamodbTable extends cdktn.TerraformResource {
 
@@ -2965,7 +2965,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DynamodbTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamodbTable to import
-  * @param importFromId The id of the existing DynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamodbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamodbTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2977,7 +2977,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2988,7 +2988,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
       terraformResourceType: 'aws_dynamodb_table',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3041,7 +3041,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: false, optional: true, required: false
-  private _billingMode?: string; 
+  private _billingMode?: string;
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -3057,7 +3057,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: false, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -3073,7 +3073,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // hash_key - computed: true, optional: true, required: false
-  private _hashKey?: string; 
+  private _hashKey?: string;
   public get hashKey() {
     return this.getStringAttribute('hash_key');
   }
@@ -3089,7 +3089,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3105,7 +3105,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3118,7 +3118,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // range_key - computed: false, optional: true, required: false
-  private _rangeKey?: string; 
+  private _rangeKey?: string;
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -3134,7 +3134,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // read_capacity - computed: true, optional: true, required: false
-  private _readCapacity?: number; 
+  private _readCapacity?: number;
   public get readCapacity() {
     return this.getNumberAttribute('read_capacity');
   }
@@ -3150,7 +3150,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3166,7 +3166,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_backup_arn - computed: false, optional: true, required: false
-  private _restoreBackupArn?: string; 
+  private _restoreBackupArn?: string;
   public get restoreBackupArn() {
     return this.getStringAttribute('restore_backup_arn');
   }
@@ -3182,7 +3182,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_date_time - computed: false, optional: true, required: false
-  private _restoreDateTime?: string; 
+  private _restoreDateTime?: string;
   public get restoreDateTime() {
     return this.getStringAttribute('restore_date_time');
   }
@@ -3198,7 +3198,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_source_name - computed: false, optional: true, required: false
-  private _restoreSourceName?: string; 
+  private _restoreSourceName?: string;
   public get restoreSourceName() {
     return this.getStringAttribute('restore_source_name');
   }
@@ -3214,7 +3214,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_source_table_arn - computed: false, optional: true, required: false
-  private _restoreSourceTableArn?: string; 
+  private _restoreSourceTableArn?: string;
   public get restoreSourceTableArn() {
     return this.getStringAttribute('restore_source_table_arn');
   }
@@ -3230,7 +3230,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_to_latest_time - computed: false, optional: true, required: false
-  private _restoreToLatestTime?: boolean | cdktn.IResolvable; 
+  private _restoreToLatestTime?: boolean | cdktn.IResolvable;
   public get restoreToLatestTime() {
     return this.getBooleanAttribute('restore_to_latest_time');
   }
@@ -3251,7 +3251,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // stream_enabled - computed: false, optional: true, required: false
-  private _streamEnabled?: boolean | cdktn.IResolvable; 
+  private _streamEnabled?: boolean | cdktn.IResolvable;
   public get streamEnabled() {
     return this.getBooleanAttribute('stream_enabled');
   }
@@ -3272,7 +3272,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // stream_view_type - computed: true, optional: true, required: false
-  private _streamViewType?: string; 
+  private _streamViewType?: string;
   public get streamViewType() {
     return this.getStringAttribute('stream_view_type');
   }
@@ -3288,7 +3288,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_class - computed: false, optional: true, required: false
-  private _tableClass?: string; 
+  private _tableClass?: string;
   public get tableClass() {
     return this.getStringAttribute('table_class');
   }
@@ -3304,7 +3304,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3320,7 +3320,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -3336,7 +3336,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // write_capacity - computed: true, optional: true, required: false
-  private _writeCapacity?: number; 
+  private _writeCapacity?: number;
   public get writeCapacity() {
     return this.getNumberAttribute('write_capacity');
   }

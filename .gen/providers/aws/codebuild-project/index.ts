@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,180 +10,180 @@ export interface CodebuildProjectConfig extends cdktn.TerraformMetaArguments {
   /**
   * Maximum number of additional automatic retries after a failed build. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#auto_retry_limit CodebuildProject#auto_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#auto_retry_limit CodebuildProject#auto_retry_limit}
   */
   readonly autoRetryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#badge_enabled CodebuildProject#badge_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#badge_enabled CodebuildProject#badge_enabled}
   */
   readonly badgeEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_timeout CodebuildProject#build_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_timeout CodebuildProject#build_timeout}
   */
   readonly buildTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#concurrent_build_limit CodebuildProject#concurrent_build_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#concurrent_build_limit CodebuildProject#concurrent_build_limit}
   */
   readonly concurrentBuildLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#description CodebuildProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#description CodebuildProject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#encryption_key CodebuildProject#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#encryption_key CodebuildProject#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#id CodebuildProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#id CodebuildProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#name CodebuildProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#name CodebuildProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#project_visibility CodebuildProject#project_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#project_visibility CodebuildProject#project_visibility}
   */
   readonly projectVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#queued_timeout CodebuildProject#queued_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#queued_timeout CodebuildProject#queued_timeout}
   */
   readonly queuedTimeout?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#region CodebuildProject#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#region CodebuildProject#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#resource_access_role CodebuildProject#resource_access_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#resource_access_role CodebuildProject#resource_access_role}
   */
   readonly resourceAccessRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#service_role CodebuildProject#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#service_role CodebuildProject#service_role}
   */
   readonly serviceRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}
   */
   readonly sourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#tags CodebuildProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#tags CodebuildProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#tags_all CodebuildProject#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#tags_all CodebuildProject#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * artifacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#artifacts CodebuildProject#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#artifacts CodebuildProject#artifacts}
   */
   readonly artifacts: CodebuildProjectArtifacts;
   /**
   * build_batch_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_batch_config CodebuildProject#build_batch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_batch_config CodebuildProject#build_batch_config}
   */
   readonly buildBatchConfig?: CodebuildProjectBuildBatchConfig;
   /**
   * cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#cache CodebuildProject#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#cache CodebuildProject#cache}
   */
   readonly cache?: CodebuildProjectCache;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#environment CodebuildProject#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#environment CodebuildProject#environment}
   */
   readonly environment: CodebuildProjectEnvironment;
   /**
   * file_system_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#file_system_locations CodebuildProject#file_system_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#file_system_locations CodebuildProject#file_system_locations}
   */
   readonly fileSystemLocations?: CodebuildProjectFileSystemLocations[] | cdktn.IResolvable;
   /**
   * logs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#logs_config CodebuildProject#logs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#logs_config CodebuildProject#logs_config}
   */
   readonly logsConfig?: CodebuildProjectLogsConfig;
   /**
   * secondary_artifacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#secondary_artifacts CodebuildProject#secondary_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#secondary_artifacts CodebuildProject#secondary_artifacts}
   */
   readonly secondaryArtifacts?: CodebuildProjectSecondaryArtifacts[] | cdktn.IResolvable;
   /**
   * secondary_source_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#secondary_source_version CodebuildProject#secondary_source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#secondary_source_version CodebuildProject#secondary_source_version}
   */
   readonly secondarySourceVersion?: CodebuildProjectSecondarySourceVersion[] | cdktn.IResolvable;
   /**
   * secondary_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#secondary_sources CodebuildProject#secondary_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#secondary_sources CodebuildProject#secondary_sources}
   */
   readonly secondarySources?: CodebuildProjectSecondarySources[] | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source CodebuildProject#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source CodebuildProject#source}
   */
   readonly source: CodebuildProjectSource;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#vpc_config CodebuildProject#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#vpc_config CodebuildProject#vpc_config}
   */
   readonly vpcConfig?: CodebuildProjectVpcConfig;
 }
 export interface CodebuildProjectArtifacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}
   */
   readonly artifactIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
   */
   readonly bucketOwnerAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
   */
   readonly encryptionDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#name CodebuildProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#name CodebuildProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}
   */
   readonly namespaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}
   */
   readonly overrideArtifactName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}
   */
   readonly packaging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#path CodebuildProject#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#path CodebuildProject#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
 }
@@ -367,7 +367,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // artifact_identifier - computed: false, optional: true, required: false
-  private _artifactIdentifier?: string; 
+  private _artifactIdentifier?: string;
   public get artifactIdentifier() {
     return this.getStringAttribute('artifact_identifier');
   }
@@ -383,7 +383,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string; 
+  private _bucketOwnerAccess?: string;
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -399,7 +399,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
+  private _encryptionDisabled?: boolean | cdktn.IResolvable;
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -415,7 +415,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -431,7 +431,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -447,7 +447,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // namespace_type - computed: false, optional: true, required: false
-  private _namespaceType?: string; 
+  private _namespaceType?: string;
   public get namespaceType() {
     return this.getStringAttribute('namespace_type');
   }
@@ -463,7 +463,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // override_artifact_name - computed: false, optional: true, required: false
-  private _overrideArtifactName?: boolean | cdktn.IResolvable; 
+  private _overrideArtifactName?: boolean | cdktn.IResolvable;
   public get overrideArtifactName() {
     return this.getBooleanAttribute('override_artifact_name');
   }
@@ -479,7 +479,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // packaging - computed: false, optional: true, required: false
-  private _packaging?: string; 
+  private _packaging?: string;
   public get packaging() {
     return this.getStringAttribute('packaging');
   }
@@ -495,7 +495,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -511,7 +511,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -525,11 +525,11 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
 }
 export interface CodebuildProjectBuildBatchConfigRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#compute_types_allowed CodebuildProject#compute_types_allowed}
   */
   readonly computeTypesAllowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#maximum_builds_allowed CodebuildProject#maximum_builds_allowed}
   */
   readonly maximumBuildsAllowed?: number;
 }
@@ -609,7 +609,7 @@ export class CodebuildProjectBuildBatchConfigRestrictionsOutputReference extends
   }
 
   // compute_types_allowed - computed: false, optional: true, required: false
-  private _computeTypesAllowed?: string[]; 
+  private _computeTypesAllowed?: string[];
   public get computeTypesAllowed() {
     return this.getListAttribute('compute_types_allowed');
   }
@@ -625,7 +625,7 @@ export class CodebuildProjectBuildBatchConfigRestrictionsOutputReference extends
   }
 
   // maximum_builds_allowed - computed: false, optional: true, required: false
-  private _maximumBuildsAllowed?: number; 
+  private _maximumBuildsAllowed?: number;
   public get maximumBuildsAllowed() {
     return this.getNumberAttribute('maximum_builds_allowed');
   }
@@ -642,21 +642,21 @@ export class CodebuildProjectBuildBatchConfigRestrictionsOutputReference extends
 }
 export interface CodebuildProjectBuildBatchConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#combine_artifacts CodebuildProject#combine_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#combine_artifacts CodebuildProject#combine_artifacts}
   */
   readonly combineArtifacts?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#service_role CodebuildProject#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#service_role CodebuildProject#service_role}
   */
   readonly serviceRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#timeout_in_mins CodebuildProject#timeout_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#timeout_in_mins CodebuildProject#timeout_in_mins}
   */
   readonly timeoutInMins?: number;
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#restrictions CodebuildProject#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#restrictions CodebuildProject#restrictions}
   */
   readonly restrictions?: CodebuildProjectBuildBatchConfigRestrictions;
 }
@@ -762,7 +762,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // combine_artifacts - computed: false, optional: true, required: false
-  private _combineArtifacts?: boolean | cdktn.IResolvable; 
+  private _combineArtifacts?: boolean | cdktn.IResolvable;
   public get combineArtifacts() {
     return this.getBooleanAttribute('combine_artifacts');
   }
@@ -778,7 +778,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string; 
+  private _serviceRole?: string;
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -791,7 +791,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // timeout_in_mins - computed: false, optional: true, required: false
-  private _timeoutInMins?: number; 
+  private _timeoutInMins?: number;
   public get timeoutInMins() {
     return this.getNumberAttribute('timeout_in_mins');
   }
@@ -824,19 +824,19 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
 }
 export interface CodebuildProjectCache {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#cache_namespace CodebuildProject#cache_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#cache_namespace CodebuildProject#cache_namespace}
   */
   readonly cacheNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#modes CodebuildProject#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#modes CodebuildProject#modes}
   */
   readonly modes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type?: string;
 }
@@ -942,7 +942,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // cache_namespace - computed: false, optional: true, required: false
-  private _cacheNamespace?: string; 
+  private _cacheNamespace?: string;
   public get cacheNamespace() {
     return this.getStringAttribute('cache_namespace');
   }
@@ -958,7 +958,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -974,7 +974,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // modes - computed: false, optional: true, required: false
-  private _modes?: string[]; 
+  private _modes?: string[];
   public get modes() {
     return this.getListAttribute('modes');
   }
@@ -990,7 +990,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1007,11 +1007,11 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
 }
 export interface CodebuildProjectEnvironmentDockerServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}
   */
   readonly computeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#security_group_ids CodebuildProject#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#security_group_ids CodebuildProject#security_group_ids}
   */
   readonly securityGroupIds?: string[];
 }
@@ -1091,7 +1091,7 @@ export class CodebuildProjectEnvironmentDockerServerOutputReference extends cdkt
   }
 
   // compute_type - computed: false, optional: false, required: true
-  private _computeType?: string; 
+  private _computeType?: string;
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1104,7 +1104,7 @@ export class CodebuildProjectEnvironmentDockerServerOutputReference extends cdkt
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1121,15 +1121,15 @@ export class CodebuildProjectEnvironmentDockerServerOutputReference extends cdkt
 }
 export interface CodebuildProjectEnvironmentEnvironmentVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#name CodebuildProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#name CodebuildProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#value CodebuildProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#value CodebuildProject#value}
   */
   readonly value: string;
 }
@@ -1234,7 +1234,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1247,7 +1247,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1263,7 +1263,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1297,7 +1297,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableList extends cdktn.Co
 }
 export interface CodebuildProjectEnvironmentFleet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#fleet_arn CodebuildProject#fleet_arn}
   */
   readonly fleetArn?: string;
 }
@@ -1364,7 +1364,7 @@ export class CodebuildProjectEnvironmentFleetOutputReference extends cdktn.Compl
   }
 
   // fleet_arn - computed: false, optional: true, required: false
-  private _fleetArn?: string; 
+  private _fleetArn?: string;
   public get fleetArn() {
     return this.getStringAttribute('fleet_arn');
   }
@@ -1381,11 +1381,11 @@ export class CodebuildProjectEnvironmentFleetOutputReference extends cdktn.Compl
 }
 export interface CodebuildProjectEnvironmentRegistryCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#credential CodebuildProject#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#credential CodebuildProject#credential}
   */
   readonly credential: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#credential_provider CodebuildProject#credential_provider}
   */
   readonly credentialProvider: string;
 }
@@ -1465,7 +1465,7 @@ export class CodebuildProjectEnvironmentRegistryCredentialOutputReference extend
   }
 
   // credential - computed: false, optional: false, required: true
-  private _credential?: string; 
+  private _credential?: string;
   public get credential() {
     return this.getStringAttribute('credential');
   }
@@ -1478,7 +1478,7 @@ export class CodebuildProjectEnvironmentRegistryCredentialOutputReference extend
   }
 
   // credential_provider - computed: false, optional: false, required: true
-  private _credentialProvider?: string; 
+  private _credentialProvider?: string;
   public get credentialProvider() {
     return this.getStringAttribute('credential_provider');
   }
@@ -1492,51 +1492,55 @@ export class CodebuildProjectEnvironmentRegistryCredentialOutputReference extend
 }
 export interface CodebuildProjectEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#certificate CodebuildProject#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#certificate CodebuildProject#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#compute_type CodebuildProject#compute_type}
   */
   readonly computeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#image CodebuildProject#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#host_kernel CodebuildProject#host_kernel}
+  */
+  readonly hostKernel?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#image CodebuildProject#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#image_pull_credentials_type CodebuildProject#image_pull_credentials_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#image_pull_credentials_type CodebuildProject#image_pull_credentials_type}
   */
   readonly imagePullCredentialsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#privileged_mode CodebuildProject#privileged_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#privileged_mode CodebuildProject#privileged_mode}
   */
   readonly privilegedMode?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
   /**
   * docker_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#docker_server CodebuildProject#docker_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#docker_server CodebuildProject#docker_server}
   */
   readonly dockerServer?: CodebuildProjectEnvironmentDockerServer;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#environment_variable CodebuildProject#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#environment_variable CodebuildProject#environment_variable}
   */
   readonly environmentVariable?: CodebuildProjectEnvironmentEnvironmentVariable[] | cdktn.IResolvable;
   /**
   * fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#fleet CodebuildProject#fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#fleet CodebuildProject#fleet}
   */
   readonly fleet?: CodebuildProjectEnvironmentFleet;
   /**
   * registry_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#registry_credential CodebuildProject#registry_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#registry_credential CodebuildProject#registry_credential}
   */
   readonly registryCredential?: CodebuildProjectEnvironmentRegistryCredential;
 }
@@ -1549,6 +1553,7 @@ export function codebuildProjectEnvironmentToTerraform(struct?: CodebuildProject
   return {
     certificate: cdktn.stringToTerraform(struct!.certificate),
     compute_type: cdktn.stringToTerraform(struct!.computeType),
+    host_kernel: cdktn.stringToTerraform(struct!.hostKernel),
     image: cdktn.stringToTerraform(struct!.image),
     image_pull_credentials_type: cdktn.stringToTerraform(struct!.imagePullCredentialsType),
     privileged_mode: cdktn.booleanToTerraform(struct!.privilegedMode),
@@ -1575,6 +1580,12 @@ export function codebuildProjectEnvironmentToHclTerraform(struct?: CodebuildProj
     },
     compute_type: {
       value: cdktn.stringToHclTerraform(struct!.computeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    host_kernel: {
+      value: cdktn.stringToHclTerraform(struct!.hostKernel),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1655,6 +1666,10 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
       hasAnyValues = true;
       internalValueResult.computeType = this._computeType;
     }
+    if (this._hostKernel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostKernel = this._hostKernel;
+    }
     if (this._image !== undefined) {
       hasAnyValues = true;
       internalValueResult.image = this._image;
@@ -1695,6 +1710,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
       this.isEmptyObject = false;
       this._certificate = undefined;
       this._computeType = undefined;
+      this._hostKernel = undefined;
       this._image = undefined;
       this._imagePullCredentialsType = undefined;
       this._privilegedMode = undefined;
@@ -1708,6 +1724,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
       this.isEmptyObject = Object.keys(value).length === 0;
       this._certificate = value.certificate;
       this._computeType = value.computeType;
+      this._hostKernel = value.hostKernel;
       this._image = value.image;
       this._imagePullCredentialsType = value.imagePullCredentialsType;
       this._privilegedMode = value.privilegedMode;
@@ -1720,7 +1737,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // certificate - computed: false, optional: true, required: false
-  private _certificate?: string; 
+  private _certificate?: string;
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -1736,7 +1753,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // compute_type - computed: false, optional: false, required: true
-  private _computeType?: string; 
+  private _computeType?: string;
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1748,8 +1765,24 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
     return this._computeType;
   }
 
+  // host_kernel - computed: true, optional: true, required: false
+  private _hostKernel?: string;
+  public get hostKernel() {
+    return this.getStringAttribute('host_kernel');
+  }
+  public set hostKernel(value: string) {
+    this._hostKernel = value;
+  }
+  public resetHostKernel() {
+    this._hostKernel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostKernelInput() {
+    return this._hostKernel;
+  }
+
   // image - computed: false, optional: false, required: true
-  private _image?: string; 
+  private _image?: string;
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1762,7 +1795,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // image_pull_credentials_type - computed: false, optional: true, required: false
-  private _imagePullCredentialsType?: string; 
+  private _imagePullCredentialsType?: string;
   public get imagePullCredentialsType() {
     return this.getStringAttribute('image_pull_credentials_type');
   }
@@ -1778,7 +1811,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // privileged_mode - computed: false, optional: true, required: false
-  private _privilegedMode?: boolean | cdktn.IResolvable; 
+  private _privilegedMode?: boolean | cdktn.IResolvable;
   public get privilegedMode() {
     return this.getBooleanAttribute('privileged_mode');
   }
@@ -1794,7 +1827,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1872,23 +1905,23 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
 }
 export interface CodebuildProjectFileSystemLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#identifier CodebuildProject#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#identifier CodebuildProject#identifier}
   */
   readonly identifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#mount_options CodebuildProject#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#mount_options CodebuildProject#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#mount_point CodebuildProject#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#mount_point CodebuildProject#mount_point}
   */
   readonly mountPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type?: string;
 }
@@ -2019,7 +2052,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // identifier - computed: false, optional: true, required: false
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -2035,7 +2068,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2051,7 +2084,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // mount_options - computed: false, optional: true, required: false
-  private _mountOptions?: string; 
+  private _mountOptions?: string;
   public get mountOptions() {
     return this.getStringAttribute('mount_options');
   }
@@ -2067,7 +2100,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // mount_point - computed: false, optional: true, required: false
-  private _mountPoint?: string; 
+  private _mountPoint?: string;
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -2083,7 +2116,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2120,15 +2153,15 @@ export class CodebuildProjectFileSystemLocationsList extends cdktn.ComplexList {
 }
 export interface CodebuildProjectLogsConfigCloudwatchLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#group_name CodebuildProject#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#group_name CodebuildProject#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#status CodebuildProject#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#status CodebuildProject#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#stream_name CodebuildProject#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#stream_name CodebuildProject#stream_name}
   */
   readonly streamName?: string;
 }
@@ -2221,7 +2254,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // group_name - computed: false, optional: true, required: false
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -2237,7 +2270,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2253,7 +2286,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // stream_name - computed: false, optional: true, required: false
-  private _streamName?: string; 
+  private _streamName?: string;
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -2270,19 +2303,19 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
 }
 export interface CodebuildProjectLogsConfigS3Logs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
   */
   readonly bucketOwnerAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
   */
   readonly encryptionDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#status CodebuildProject#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#status CodebuildProject#status}
   */
   readonly status?: string;
 }
@@ -2388,7 +2421,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string; 
+  private _bucketOwnerAccess?: string;
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -2404,7 +2437,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
+  private _encryptionDisabled?: boolean | cdktn.IResolvable;
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -2420,7 +2453,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2436,7 +2469,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2455,13 +2488,13 @@ export interface CodebuildProjectLogsConfig {
   /**
   * cloudwatch_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#cloudwatch_logs CodebuildProject#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: CodebuildProjectLogsConfigCloudwatchLogs;
   /**
   * s3_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#s3_logs CodebuildProject#s3_logs}
   */
   readonly s3Logs?: CodebuildProjectLogsConfigS3Logs;
 }
@@ -2574,43 +2607,43 @@ export class CodebuildProjectLogsConfigOutputReference extends cdktn.ComplexObje
 }
 export interface CodebuildProjectSecondaryArtifacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#artifact_identifier CodebuildProject#artifact_identifier}
   */
   readonly artifactIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}
   */
   readonly bucketOwnerAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}
   */
   readonly encryptionDisabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#name CodebuildProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#name CodebuildProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#namespace_type CodebuildProject#namespace_type}
   */
   readonly namespaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#override_artifact_name CodebuildProject#override_artifact_name}
   */
   readonly overrideArtifactName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#packaging CodebuildProject#packaging}
   */
   readonly packaging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#path CodebuildProject#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#path CodebuildProject#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
 }
@@ -2806,7 +2839,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // artifact_identifier - computed: false, optional: false, required: true
-  private _artifactIdentifier?: string; 
+  private _artifactIdentifier?: string;
   public get artifactIdentifier() {
     return this.getStringAttribute('artifact_identifier');
   }
@@ -2819,7 +2852,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string; 
+  private _bucketOwnerAccess?: string;
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -2835,7 +2868,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
+  private _encryptionDisabled?: boolean | cdktn.IResolvable;
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -2851,7 +2884,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2867,7 +2900,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2883,7 +2916,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // namespace_type - computed: false, optional: true, required: false
-  private _namespaceType?: string; 
+  private _namespaceType?: string;
   public get namespaceType() {
     return this.getStringAttribute('namespace_type');
   }
@@ -2899,7 +2932,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // override_artifact_name - computed: false, optional: true, required: false
-  private _overrideArtifactName?: boolean | cdktn.IResolvable; 
+  private _overrideArtifactName?: boolean | cdktn.IResolvable;
   public get overrideArtifactName() {
     return this.getBooleanAttribute('override_artifact_name');
   }
@@ -2915,7 +2948,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // packaging - computed: false, optional: true, required: false
-  private _packaging?: string; 
+  private _packaging?: string;
   public get packaging() {
     return this.getStringAttribute('packaging');
   }
@@ -2931,7 +2964,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2947,7 +2980,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2981,11 +3014,11 @@ export class CodebuildProjectSecondaryArtifactsList extends cdktn.ComplexList {
 }
 export interface CodebuildProjectSecondarySourceVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}
   */
   readonly sourceIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_version CodebuildProject#source_version}
   */
   readonly sourceVersion: string;
 }
@@ -3077,7 +3110,7 @@ export class CodebuildProjectSecondarySourceVersionOutputReference extends cdktn
   }
 
   // source_identifier - computed: false, optional: false, required: true
-  private _sourceIdentifier?: string; 
+  private _sourceIdentifier?: string;
   public get sourceIdentifier() {
     return this.getStringAttribute('source_identifier');
   }
@@ -3090,7 +3123,7 @@ export class CodebuildProjectSecondarySourceVersionOutputReference extends cdktn
   }
 
   // source_version - computed: false, optional: false, required: true
-  private _sourceVersion?: string; 
+  private _sourceVersion?: string;
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -3124,11 +3157,11 @@ export class CodebuildProjectSecondarySourceVersionList extends cdktn.ComplexLis
 }
 export interface CodebuildProjectSecondarySourcesAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#resource CodebuildProject#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#resource CodebuildProject#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
 }
@@ -3208,7 +3241,7 @@ export class CodebuildProjectSecondarySourcesAuthOutputReference extends cdktn.C
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -3221,7 +3254,7 @@ export class CodebuildProjectSecondarySourcesAuthOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3235,11 +3268,11 @@ export class CodebuildProjectSecondarySourcesAuthOutputReference extends cdktn.C
 }
 export interface CodebuildProjectSecondarySourcesBuildStatusConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#context CodebuildProject#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#context CodebuildProject#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}
   */
   readonly targetUrl?: string;
 }
@@ -3319,7 +3352,7 @@ export class CodebuildProjectSecondarySourcesBuildStatusConfigOutputReference ex
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -3335,7 +3368,7 @@ export class CodebuildProjectSecondarySourcesBuildStatusConfigOutputReference ex
   }
 
   // target_url - computed: false, optional: true, required: false
-  private _targetUrl?: string; 
+  private _targetUrl?: string;
   public get targetUrl() {
     return this.getStringAttribute('target_url');
   }
@@ -3352,7 +3385,7 @@ export class CodebuildProjectSecondarySourcesBuildStatusConfigOutputReference ex
 }
 export interface CodebuildProjectSecondarySourcesGitSubmodulesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}
   */
   readonly fetchSubmodules: boolean | cdktn.IResolvable;
 }
@@ -3419,7 +3452,7 @@ export class CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference 
   }
 
   // fetch_submodules - computed: false, optional: false, required: true
-  private _fetchSubmodules?: boolean | cdktn.IResolvable; 
+  private _fetchSubmodules?: boolean | cdktn.IResolvable;
   public get fetchSubmodules() {
     return this.getBooleanAttribute('fetch_submodules');
   }
@@ -3433,49 +3466,49 @@ export class CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference 
 }
 export interface CodebuildProjectSecondarySources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}
   */
   readonly buildspec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}
   */
   readonly gitCloneDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}
   */
   readonly insecureSsl?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}
   */
   readonly reportBuildStatus?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}
   */
   readonly sourceIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
   */
   readonly auth?: CodebuildProjectSecondarySourcesAuth;
   /**
   * build_status_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
   */
   readonly buildStatusConfig?: CodebuildProjectSecondarySourcesBuildStatusConfig;
   /**
   * git_submodules_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
   */
   readonly gitSubmodulesConfig?: CodebuildProjectSecondarySourcesGitSubmodulesConfig;
 }
@@ -3671,7 +3704,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // buildspec - computed: false, optional: true, required: false
-  private _buildspec?: string; 
+  private _buildspec?: string;
   public get buildspec() {
     return this.getStringAttribute('buildspec');
   }
@@ -3687,7 +3720,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // git_clone_depth - computed: false, optional: true, required: false
-  private _gitCloneDepth?: number; 
+  private _gitCloneDepth?: number;
   public get gitCloneDepth() {
     return this.getNumberAttribute('git_clone_depth');
   }
@@ -3703,7 +3736,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktn.IResolvable; 
+  private _insecureSsl?: boolean | cdktn.IResolvable;
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
@@ -3719,7 +3752,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -3735,7 +3768,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // report_build_status - computed: false, optional: true, required: false
-  private _reportBuildStatus?: boolean | cdktn.IResolvable; 
+  private _reportBuildStatus?: boolean | cdktn.IResolvable;
   public get reportBuildStatus() {
     return this.getBooleanAttribute('report_build_status');
   }
@@ -3751,7 +3784,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // source_identifier - computed: false, optional: false, required: true
-  private _sourceIdentifier?: string; 
+  private _sourceIdentifier?: string;
   public get sourceIdentifier() {
     return this.getStringAttribute('source_identifier');
   }
@@ -3764,7 +3797,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3846,11 +3879,11 @@ export class CodebuildProjectSecondarySourcesList extends cdktn.ComplexList {
 }
 export interface CodebuildProjectSourceAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#resource CodebuildProject#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#resource CodebuildProject#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
 }
@@ -3930,7 +3963,7 @@ export class CodebuildProjectSourceAuthOutputReference extends cdktn.ComplexObje
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -3943,7 +3976,7 @@ export class CodebuildProjectSourceAuthOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3957,11 +3990,11 @@ export class CodebuildProjectSourceAuthOutputReference extends cdktn.ComplexObje
 }
 export interface CodebuildProjectSourceBuildStatusConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#context CodebuildProject#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#context CodebuildProject#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#target_url CodebuildProject#target_url}
   */
   readonly targetUrl?: string;
 }
@@ -4041,7 +4074,7 @@ export class CodebuildProjectSourceBuildStatusConfigOutputReference extends cdkt
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -4057,7 +4090,7 @@ export class CodebuildProjectSourceBuildStatusConfigOutputReference extends cdkt
   }
 
   // target_url - computed: false, optional: true, required: false
-  private _targetUrl?: string; 
+  private _targetUrl?: string;
   public get targetUrl() {
     return this.getStringAttribute('target_url');
   }
@@ -4074,7 +4107,7 @@ export class CodebuildProjectSourceBuildStatusConfigOutputReference extends cdkt
 }
 export interface CodebuildProjectSourceGitSubmodulesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}
   */
   readonly fetchSubmodules: boolean | cdktn.IResolvable;
 }
@@ -4141,7 +4174,7 @@ export class CodebuildProjectSourceGitSubmodulesConfigOutputReference extends cd
   }
 
   // fetch_submodules - computed: false, optional: false, required: true
-  private _fetchSubmodules?: boolean | cdktn.IResolvable; 
+  private _fetchSubmodules?: boolean | cdktn.IResolvable;
   public get fetchSubmodules() {
     return this.getBooleanAttribute('fetch_submodules');
   }
@@ -4155,45 +4188,45 @@ export class CodebuildProjectSourceGitSubmodulesConfigOutputReference extends cd
 }
 export interface CodebuildProjectSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}
   */
   readonly buildspec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}
   */
   readonly gitCloneDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}
   */
   readonly insecureSsl?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}
   */
   readonly reportBuildStatus?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}
   */
   readonly type: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
   */
   readonly auth?: CodebuildProjectSourceAuth;
   /**
   * build_status_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
   */
   readonly buildStatusConfig?: CodebuildProjectSourceBuildStatusConfig;
   /**
   * git_submodules_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
   */
   readonly gitSubmodulesConfig?: CodebuildProjectSourceGitSubmodulesConfig;
 }
@@ -4364,7 +4397,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // buildspec - computed: false, optional: true, required: false
-  private _buildspec?: string; 
+  private _buildspec?: string;
   public get buildspec() {
     return this.getStringAttribute('buildspec');
   }
@@ -4380,7 +4413,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // git_clone_depth - computed: false, optional: true, required: false
-  private _gitCloneDepth?: number; 
+  private _gitCloneDepth?: number;
   public get gitCloneDepth() {
     return this.getNumberAttribute('git_clone_depth');
   }
@@ -4396,7 +4429,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktn.IResolvable; 
+  private _insecureSsl?: boolean | cdktn.IResolvable;
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
@@ -4412,7 +4445,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -4428,7 +4461,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // report_build_status - computed: false, optional: true, required: false
-  private _reportBuildStatus?: boolean | cdktn.IResolvable; 
+  private _reportBuildStatus?: boolean | cdktn.IResolvable;
   public get reportBuildStatus() {
     return this.getBooleanAttribute('report_build_status');
   }
@@ -4444,7 +4477,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4506,15 +4539,15 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
 }
 export interface CodebuildProjectVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#security_group_ids CodebuildProject#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#security_group_ids CodebuildProject#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#subnets CodebuildProject#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#subnets CodebuildProject#subnets}
   */
   readonly subnets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#vpc_id CodebuildProject#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#vpc_id CodebuildProject#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -4607,7 +4640,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -4620,7 +4653,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -4633,7 +4666,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -4647,7 +4680,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project aws_codebuild_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project aws_codebuild_project}
 */
 export class CodebuildProject extends cdktn.TerraformResource {
 
@@ -4663,7 +4696,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodebuildProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodebuildProject to import
-  * @param importFromId The id of the existing CodebuildProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodebuildProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodebuildProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4675,7 +4708,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project aws_codebuild_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project aws_codebuild_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4686,7 +4719,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codebuild_project',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4735,7 +4768,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // auto_retry_limit - computed: true, optional: true, required: false
-  private _autoRetryLimit?: number; 
+  private _autoRetryLimit?: number;
   public get autoRetryLimit() {
     return this.getNumberAttribute('auto_retry_limit');
   }
@@ -4751,7 +4784,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // badge_enabled - computed: false, optional: true, required: false
-  private _badgeEnabled?: boolean | cdktn.IResolvable; 
+  private _badgeEnabled?: boolean | cdktn.IResolvable;
   public get badgeEnabled() {
     return this.getBooleanAttribute('badge_enabled');
   }
@@ -4772,7 +4805,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // build_timeout - computed: false, optional: true, required: false
-  private _buildTimeout?: number; 
+  private _buildTimeout?: number;
   public get buildTimeout() {
     return this.getNumberAttribute('build_timeout');
   }
@@ -4788,7 +4821,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // concurrent_build_limit - computed: false, optional: true, required: false
-  private _concurrentBuildLimit?: number; 
+  private _concurrentBuildLimit?: number;
   public get concurrentBuildLimit() {
     return this.getNumberAttribute('concurrent_build_limit');
   }
@@ -4804,7 +4837,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4820,7 +4853,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // encryption_key - computed: true, optional: true, required: false
-  private _encryptionKey?: string; 
+  private _encryptionKey?: string;
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -4836,7 +4869,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4852,7 +4885,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4865,7 +4898,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // project_visibility - computed: false, optional: true, required: false
-  private _projectVisibility?: string; 
+  private _projectVisibility?: string;
   public get projectVisibility() {
     return this.getStringAttribute('project_visibility');
   }
@@ -4886,7 +4919,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // queued_timeout - computed: false, optional: true, required: false
-  private _queuedTimeout?: number; 
+  private _queuedTimeout?: number;
   public get queuedTimeout() {
     return this.getNumberAttribute('queued_timeout');
   }
@@ -4902,7 +4935,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4918,7 +4951,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // resource_access_role - computed: false, optional: true, required: false
-  private _resourceAccessRole?: string; 
+  private _resourceAccessRole?: string;
   public get resourceAccessRole() {
     return this.getStringAttribute('resource_access_role');
   }
@@ -4934,7 +4967,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string; 
+  private _serviceRole?: string;
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -4947,7 +4980,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // source_version - computed: false, optional: true, required: false
-  private _sourceVersion?: string; 
+  private _sourceVersion?: string;
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -4963,7 +4996,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4979,7 +5012,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

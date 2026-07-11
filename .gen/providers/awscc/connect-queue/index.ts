@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ConnectQueueConfig extends cdktn.TerraformMetaArguments {
   /**
   * The email addresses that agents can use when replying to or initiating email contacts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#additional_email_addresses ConnectQueue#additional_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#additional_email_addresses ConnectQueue#additional_email_addresses}
   */
   readonly additionalEmailAddresses?: ConnectQueueAdditionalEmailAddresses[] | cdktn.IResolvable;
   /**
   * The description of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#description ConnectQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#description ConnectQueue#description}
   */
   readonly description?: string;
   /**
   * The identifier for the hours of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#hours_of_operation_arn ConnectQueue#hours_of_operation_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#hours_of_operation_arn ConnectQueue#hours_of_operation_arn}
   */
   readonly hoursOfOperationArn: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#instance_arn ConnectQueue#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#instance_arn ConnectQueue#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The maximum number of contacts that can be in the queue before it is considered full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}
   */
   readonly maxContacts?: number;
   /**
   * The name of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#name ConnectQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#name ConnectQueue#name}
   */
   readonly name: string;
   /**
   * The outbound caller ID name, number, and outbound whisper flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
   */
   readonly outboundCallerConfig?: ConnectQueueOutboundCallerConfig;
   /**
   * The outbound email address ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_email_config ConnectQueue#outbound_email_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_email_config ConnectQueue#outbound_email_config}
   */
   readonly outboundEmailConfig?: ConnectQueueOutboundEmailConfig;
   /**
   * The quick connects available to agents who are working the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#quick_connect_arns ConnectQueue#quick_connect_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#quick_connect_arns ConnectQueue#quick_connect_arns}
   */
   readonly quickConnectArns?: string[];
   /**
   * The status of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#status ConnectQueue#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#status ConnectQueue#status}
   */
   readonly status?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#tags ConnectQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#tags ConnectQueue#tags}
   */
   readonly tags?: ConnectQueueTags[] | cdktn.IResolvable;
 }
@@ -78,7 +78,7 @@ export interface ConnectQueueAdditionalEmailAddresses {
   /**
   * The Amazon Resource Name (ARN) of the email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
   */
   readonly emailAddressArn?: string;
 }
@@ -157,7 +157,7 @@ export class ConnectQueueAdditionalEmailAddressesOutputReference extends cdktn.C
   }
 
   // email_address_arn - computed: true, optional: true, required: false
-  private _emailAddressArn?: string; 
+  private _emailAddressArn?: string;
   public get emailAddressArn() {
     return this.getStringAttribute('email_address_arn');
   }
@@ -196,19 +196,19 @@ export interface ConnectQueueOutboundCallerConfig {
   /**
   * The caller ID name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}
   */
   readonly outboundCallerIdName?: string;
   /**
   * The caller ID number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_caller_id_number_arn ConnectQueue#outbound_caller_id_number_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_caller_id_number_arn ConnectQueue#outbound_caller_id_number_arn}
   */
   readonly outboundCallerIdNumberArn?: string;
   /**
   * The outbound whisper flow to be used during an outbound call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_flow_arn ConnectQueue#outbound_flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_flow_arn ConnectQueue#outbound_flow_arn}
   */
   readonly outboundFlowArn?: string;
 }
@@ -311,7 +311,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_caller_id_name - computed: true, optional: true, required: false
-  private _outboundCallerIdName?: string; 
+  private _outboundCallerIdName?: string;
   public get outboundCallerIdName() {
     return this.getStringAttribute('outbound_caller_id_name');
   }
@@ -327,7 +327,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_caller_id_number_arn - computed: true, optional: true, required: false
-  private _outboundCallerIdNumberArn?: string; 
+  private _outboundCallerIdNumberArn?: string;
   public get outboundCallerIdNumberArn() {
     return this.getStringAttribute('outbound_caller_id_number_arn');
   }
@@ -343,7 +343,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_flow_arn - computed: true, optional: true, required: false
-  private _outboundFlowArn?: string; 
+  private _outboundFlowArn?: string;
   public get outboundFlowArn() {
     return this.getStringAttribute('outbound_flow_arn');
   }
@@ -362,7 +362,7 @@ export interface ConnectQueueOutboundEmailConfig {
   /**
   * The email address connect resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#outbound_email_address_id ConnectQueue#outbound_email_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#outbound_email_address_id ConnectQueue#outbound_email_address_id}
   */
   readonly outboundEmailAddressId?: string;
 }
@@ -439,7 +439,7 @@ export class ConnectQueueOutboundEmailConfigOutputReference extends cdktn.Comple
   }
 
   // outbound_email_address_id - computed: true, optional: true, required: false
-  private _outboundEmailAddressId?: string; 
+  private _outboundEmailAddressId?: string;
   public get outboundEmailAddressId() {
     return this.getStringAttribute('outbound_email_address_id');
   }
@@ -458,13 +458,13 @@ export interface ConnectQueueTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#key ConnectQueue#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#key ConnectQueue#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#value ConnectQueue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#value ConnectQueue#value}
   */
   readonly value?: string;
 }
@@ -556,7 +556,7 @@ export class ConnectQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -572,7 +572,7 @@ export class ConnectQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -609,7 +609,7 @@ export class ConnectQueueTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue awscc_connect_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue awscc_connect_queue}
 */
 export class ConnectQueue extends cdktn.TerraformResource {
 
@@ -625,7 +625,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectQueue to import
-  * @param importFromId The id of the existing ConnectQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -637,7 +637,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_queue awscc_connect_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_queue awscc_connect_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -648,7 +648,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_queue',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -692,7 +692,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -708,7 +708,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // hours_of_operation_arn - computed: false, optional: false, required: true
-  private _hoursOfOperationArn?: string; 
+  private _hoursOfOperationArn?: string;
   public get hoursOfOperationArn() {
     return this.getStringAttribute('hours_of_operation_arn');
   }
@@ -726,7 +726,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -739,7 +739,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // max_contacts - computed: true, optional: true, required: false
-  private _maxContacts?: number; 
+  private _maxContacts?: number;
   public get maxContacts() {
     return this.getNumberAttribute('max_contacts');
   }
@@ -755,7 +755,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -805,7 +805,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // quick_connect_arns - computed: true, optional: true, required: false
-  private _quickConnectArns?: string[]; 
+  private _quickConnectArns?: string[];
   public get quickConnectArns() {
     return this.getListAttribute('quick_connect_arns');
   }
@@ -821,7 +821,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface BillingViewConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#description BillingView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#description BillingView#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#name BillingView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#name BillingView#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#source_views BillingView#source_views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#source_views BillingView#source_views}
   */
   readonly sourceViews?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#tags BillingView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#tags BillingView#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * data_filter_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#data_filter_expression BillingView#data_filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#data_filter_expression BillingView#data_filter_expression}
   */
   readonly dataFilterExpression?: BillingViewDataFilterExpression[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#timeouts BillingView#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#timeouts BillingView#timeouts}
   */
   readonly timeouts?: BillingViewTimeouts;
 }
 export interface BillingViewDataFilterExpressionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#key BillingView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#key BillingView#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#values BillingView#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#values BillingView#values}
   */
   readonly values: string[];
 }
@@ -134,7 +134,7 @@ export class BillingViewDataFilterExpressionDimensionsOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -147,7 +147,7 @@ export class BillingViewDataFilterExpressionDimensionsOutputReference extends cd
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -181,11 +181,11 @@ export class BillingViewDataFilterExpressionDimensionsList extends cdktn.Complex
 }
 export interface BillingViewDataFilterExpressionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#key BillingView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#key BillingView#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#values BillingView#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#values BillingView#values}
   */
   readonly values: string[];
 }
@@ -277,7 +277,7 @@ export class BillingViewDataFilterExpressionTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -290,7 +290,7 @@ export class BillingViewDataFilterExpressionTagsOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -324,11 +324,11 @@ export class BillingViewDataFilterExpressionTagsList extends cdktn.ComplexList {
 }
 export interface BillingViewDataFilterExpressionTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#begin_date_inclusive BillingView#begin_date_inclusive}
   */
   readonly beginDateInclusive: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#end_date_inclusive BillingView#end_date_inclusive}
   */
   readonly endDateInclusive: string;
 }
@@ -420,7 +420,7 @@ export class BillingViewDataFilterExpressionTimeRangeOutputReference extends cdk
   }
 
   // begin_date_inclusive - computed: false, optional: false, required: true
-  private _beginDateInclusive?: string; 
+  private _beginDateInclusive?: string;
   public get beginDateInclusive() {
     return this.getStringAttribute('begin_date_inclusive');
   }
@@ -433,7 +433,7 @@ export class BillingViewDataFilterExpressionTimeRangeOutputReference extends cdk
   }
 
   // end_date_inclusive - computed: false, optional: false, required: true
-  private _endDateInclusive?: string; 
+  private _endDateInclusive?: string;
   public get endDateInclusive() {
     return this.getStringAttribute('end_date_inclusive');
   }
@@ -469,19 +469,19 @@ export interface BillingViewDataFilterExpression {
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#dimensions BillingView#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#dimensions BillingView#dimensions}
   */
   readonly dimensions?: BillingViewDataFilterExpressionDimensions[] | cdktn.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#tags BillingView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#tags BillingView#tags}
   */
   readonly tags?: BillingViewDataFilterExpressionTags[] | cdktn.IResolvable;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#time_range BillingView#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#time_range BillingView#time_range}
   */
   readonly timeRange?: BillingViewDataFilterExpressionTimeRange[] | cdktn.IResolvable;
 }
@@ -657,19 +657,19 @@ export interface BillingViewTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#create BillingView#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#create BillingView#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#delete BillingView#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#delete BillingView#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#update BillingView#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#update BillingView#update}
   */
   readonly update?: string;
 }
@@ -772,7 +772,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -788,7 +788,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -804,7 +804,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -821,7 +821,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view aws_billing_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view aws_billing_view}
 */
 export class BillingView extends cdktn.TerraformResource {
 
@@ -837,7 +837,7 @@ export class BillingView extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BillingView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingView to import
-  * @param importFromId The id of the existing BillingView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -849,7 +849,7 @@ export class BillingView extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/billing_view aws_billing_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/billing_view aws_billing_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -860,7 +860,7 @@ export class BillingView extends cdktn.TerraformResource {
       terraformResourceType: 'aws_billing_view',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -903,7 +903,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -919,7 +919,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -947,7 +947,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // source_views - computed: false, optional: true, required: false
-  private _sourceViews?: string[]; 
+  private _sourceViews?: string[];
   public get sourceViews() {
     return this.getListAttribute('source_views');
   }
@@ -963,7 +963,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

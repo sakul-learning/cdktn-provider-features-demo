@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoIdentityProviderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#attribute_mapping CognitoIdentityProvider#attribute_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#attribute_mapping CognitoIdentityProvider#attribute_mapping}
   */
   readonly attributeMapping?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#id CognitoIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#id CognitoIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#idp_identifiers CognitoIdentityProvider#idp_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#idp_identifiers CognitoIdentityProvider#idp_identifiers}
   */
   readonly idpIdentifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#provider_details CognitoIdentityProvider#provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#provider_details CognitoIdentityProvider#provider_details}
   */
   readonly providerDetails: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#provider_name CognitoIdentityProvider#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#provider_name CognitoIdentityProvider#provider_name}
   */
   readonly providerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#provider_type CognitoIdentityProvider#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#provider_type CognitoIdentityProvider#provider_type}
   */
   readonly providerType: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#region CognitoIdentityProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#region CognitoIdentityProvider#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#user_pool_id CognitoIdentityProvider#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#user_pool_id CognitoIdentityProvider#user_pool_id}
   */
   readonly userPoolId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider aws_cognito_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider aws_cognito_identity_provider}
 */
 export class CognitoIdentityProvider extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoIdentityProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoIdentityProvider to import
-  * @param importFromId The id of the existing CognitoIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_identity_provider aws_cognito_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_identity_provider aws_cognito_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cognito_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   // ==========
 
   // attribute_mapping - computed: true, optional: true, required: false
-  private _attributeMapping?: { [key: string]: string }; 
+  private _attributeMapping?: { [key: string]: string };
   public get attributeMapping() {
     return this.getStringMapAttribute('attribute_mapping');
   }
@@ -127,7 +127,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -143,7 +143,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // idp_identifiers - computed: false, optional: true, required: false
-  private _idpIdentifiers?: string[]; 
+  private _idpIdentifiers?: string[];
   public get idpIdentifiers() {
     return this.getListAttribute('idp_identifiers');
   }
@@ -159,7 +159,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_details - computed: false, optional: false, required: true
-  private _providerDetails?: { [key: string]: string }; 
+  private _providerDetails?: { [key: string]: string };
   public get providerDetails() {
     return this.getStringMapAttribute('provider_details');
   }
@@ -172,7 +172,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string; 
+  private _providerName?: string;
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -185,7 +185,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: false, optional: false, required: true
-  private _providerType?: string; 
+  private _providerType?: string;
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -198,7 +198,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -214,7 +214,7 @@ export class CognitoIdentityProvider extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,67 +8,67 @@ import * as cdktn from 'cdktn';
 
 export interface RtbfabricResponderGatewayConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#acm_certificate_arn RtbfabricResponderGateway#acm_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#acm_certificate_arn RtbfabricResponderGateway#acm_certificate_arn}
   */
   readonly acmCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#description RtbfabricResponderGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#description RtbfabricResponderGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#domain_name RtbfabricResponderGateway#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#domain_name RtbfabricResponderGateway#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#gateway_type RtbfabricResponderGateway#gateway_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#gateway_type RtbfabricResponderGateway#gateway_type}
   */
   readonly gatewayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#listener_config RtbfabricResponderGateway#listener_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#listener_config RtbfabricResponderGateway#listener_config}
   */
   readonly listenerConfig?: RtbfabricResponderGatewayListenerConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#managed_endpoint_configuration RtbfabricResponderGateway#managed_endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#managed_endpoint_configuration RtbfabricResponderGateway#managed_endpoint_configuration}
   */
   readonly managedEndpointConfiguration?: RtbfabricResponderGatewayManagedEndpointConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#port RtbfabricResponderGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#port RtbfabricResponderGateway#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#protocol RtbfabricResponderGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#protocol RtbfabricResponderGateway#protocol}
   */
   readonly protocol: string;
   /**
   * The ID of one or more security groups in order to create a gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#security_group_ids RtbfabricResponderGateway#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#security_group_ids RtbfabricResponderGateway#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * The ID of one or more subnets in order to create a gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#subnet_ids RtbfabricResponderGateway#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#subnet_ids RtbfabricResponderGateway#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * Tags to assign to the Responder Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#tags RtbfabricResponderGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#tags RtbfabricResponderGateway#tags}
   */
   readonly tags?: RtbfabricResponderGatewayTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#trust_store_configuration RtbfabricResponderGateway#trust_store_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#trust_store_configuration RtbfabricResponderGateway#trust_store_configuration}
   */
   readonly trustStoreConfiguration?: RtbfabricResponderGatewayTrustStoreConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#vpc_id RtbfabricResponderGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#vpc_id RtbfabricResponderGateway#vpc_id}
   */
   readonly vpcId: string;
 }
 export interface RtbfabricResponderGatewayListenerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#protocols RtbfabricResponderGateway#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#protocols RtbfabricResponderGateway#protocols}
   */
   readonly protocols?: string[];
 }
@@ -145,7 +145,7 @@ export class RtbfabricResponderGatewayListenerConfigOutputReference extends cdkt
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -162,35 +162,35 @@ export class RtbfabricResponderGatewayListenerConfigOutputReference extends cdkt
 }
 export interface RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#healthy_threshold_count RtbfabricResponderGateway#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#healthy_threshold_count RtbfabricResponderGateway#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#interval_seconds RtbfabricResponderGateway#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#interval_seconds RtbfabricResponderGateway#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#path RtbfabricResponderGateway#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#path RtbfabricResponderGateway#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#port RtbfabricResponderGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#port RtbfabricResponderGateway#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#protocol RtbfabricResponderGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#protocol RtbfabricResponderGateway#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#status_code_matcher RtbfabricResponderGateway#status_code_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#status_code_matcher RtbfabricResponderGateway#status_code_matcher}
   */
   readonly statusCodeMatcher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#timeout_ms RtbfabricResponderGateway#timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#timeout_ms RtbfabricResponderGateway#timeout_ms}
   */
   readonly timeoutMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#unhealthy_threshold_count RtbfabricResponderGateway#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#unhealthy_threshold_count RtbfabricResponderGateway#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -358,7 +358,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // healthy_threshold_count - computed: true, optional: true, required: false
-  private _healthyThresholdCount?: number; 
+  private _healthyThresholdCount?: number;
   public get healthyThresholdCount() {
     return this.getNumberAttribute('healthy_threshold_count');
   }
@@ -374,7 +374,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // interval_seconds - computed: true, optional: true, required: false
-  private _intervalSeconds?: number; 
+  private _intervalSeconds?: number;
   public get intervalSeconds() {
     return this.getNumberAttribute('interval_seconds');
   }
@@ -390,7 +390,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -406,7 +406,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -422,7 +422,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -438,7 +438,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // status_code_matcher - computed: true, optional: true, required: false
-  private _statusCodeMatcher?: string; 
+  private _statusCodeMatcher?: string;
   public get statusCodeMatcher() {
     return this.getStringAttribute('status_code_matcher');
   }
@@ -454,7 +454,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // timeout_ms - computed: true, optional: true, required: false
-  private _timeoutMs?: number; 
+  private _timeoutMs?: number;
   public get timeoutMs() {
     return this.getNumberAttribute('timeout_ms');
   }
@@ -470,7 +470,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // unhealthy_threshold_count - computed: true, optional: true, required: false
-  private _unhealthyThresholdCount?: number; 
+  private _unhealthyThresholdCount?: number;
   public get unhealthyThresholdCount() {
     return this.getNumberAttribute('unhealthy_threshold_count');
   }
@@ -487,15 +487,15 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
 }
 export interface RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#auto_scaling_group_name_list RtbfabricResponderGateway#auto_scaling_group_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#auto_scaling_group_name_list RtbfabricResponderGateway#auto_scaling_group_name_list}
   */
   readonly autoScalingGroupNameList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#health_check_config RtbfabricResponderGateway#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#health_check_config RtbfabricResponderGateway#health_check_config}
   */
   readonly healthCheckConfig?: RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#role_arn RtbfabricResponderGateway#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#role_arn RtbfabricResponderGateway#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -598,7 +598,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // auto_scaling_group_name_list - computed: true, optional: true, required: false
-  private _autoScalingGroupNameList?: string[]; 
+  private _autoScalingGroupNameList?: string[];
   public get autoScalingGroupNameList() {
     return cdktn.Fn.tolist(this.getListAttribute('auto_scaling_group_name_list'));
   }
@@ -630,7 +630,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -647,27 +647,27 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
 }
 export interface RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#cluster_api_server_ca_certificate_chain RtbfabricResponderGateway#cluster_api_server_ca_certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#cluster_api_server_ca_certificate_chain RtbfabricResponderGateway#cluster_api_server_ca_certificate_chain}
   */
   readonly clusterApiServerCaCertificateChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#cluster_api_server_endpoint_uri RtbfabricResponderGateway#cluster_api_server_endpoint_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#cluster_api_server_endpoint_uri RtbfabricResponderGateway#cluster_api_server_endpoint_uri}
   */
   readonly clusterApiServerEndpointUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#cluster_name RtbfabricResponderGateway#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#cluster_name RtbfabricResponderGateway#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#endpoints_resource_name RtbfabricResponderGateway#endpoints_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#endpoints_resource_name RtbfabricResponderGateway#endpoints_resource_name}
   */
   readonly endpointsResourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#endpoints_resource_namespace RtbfabricResponderGateway#endpoints_resource_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#endpoints_resource_namespace RtbfabricResponderGateway#endpoints_resource_namespace}
   */
   readonly endpointsResourceNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#role_arn RtbfabricResponderGateway#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#role_arn RtbfabricResponderGateway#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -809,7 +809,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_api_server_ca_certificate_chain - computed: true, optional: true, required: false
-  private _clusterApiServerCaCertificateChain?: string; 
+  private _clusterApiServerCaCertificateChain?: string;
   public get clusterApiServerCaCertificateChain() {
     return this.getStringAttribute('cluster_api_server_ca_certificate_chain');
   }
@@ -825,7 +825,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_api_server_endpoint_uri - computed: true, optional: true, required: false
-  private _clusterApiServerEndpointUri?: string; 
+  private _clusterApiServerEndpointUri?: string;
   public get clusterApiServerEndpointUri() {
     return this.getStringAttribute('cluster_api_server_endpoint_uri');
   }
@@ -841,7 +841,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -857,7 +857,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // endpoints_resource_name - computed: true, optional: true, required: false
-  private _endpointsResourceName?: string; 
+  private _endpointsResourceName?: string;
   public get endpointsResourceName() {
     return this.getStringAttribute('endpoints_resource_name');
   }
@@ -873,7 +873,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // endpoints_resource_namespace - computed: true, optional: true, required: false
-  private _endpointsResourceNamespace?: string; 
+  private _endpointsResourceNamespace?: string;
   public get endpointsResourceNamespace() {
     return this.getStringAttribute('endpoints_resource_namespace');
   }
@@ -889,7 +889,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -906,11 +906,11 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
 }
 export interface RtbfabricResponderGatewayManagedEndpointConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#auto_scaling_groups_configuration RtbfabricResponderGateway#auto_scaling_groups_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#auto_scaling_groups_configuration RtbfabricResponderGateway#auto_scaling_groups_configuration}
   */
   readonly autoScalingGroupsConfiguration?: RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#eks_endpoints_configuration RtbfabricResponderGateway#eks_endpoints_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#eks_endpoints_configuration RtbfabricResponderGateway#eks_endpoints_configuration}
   */
   readonly eksEndpointsConfiguration?: RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfiguration;
 }
@@ -1033,15 +1033,15 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationOutputReferenc
 }
 export interface RtbfabricResponderGatewayTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#key RtbfabricResponderGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#key RtbfabricResponderGateway#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#value RtbfabricResponderGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#value RtbfabricResponderGateway#value}
   */
   readonly value?: string;
 }
@@ -1133,7 +1133,7 @@ export class RtbfabricResponderGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1149,7 +1149,7 @@ export class RtbfabricResponderGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1186,7 +1186,7 @@ export class RtbfabricResponderGatewayTagsList extends cdktn.ComplexList {
 }
 export interface RtbfabricResponderGatewayTrustStoreConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#certificate_authority_certificates RtbfabricResponderGateway#certificate_authority_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#certificate_authority_certificates RtbfabricResponderGateway#certificate_authority_certificates}
   */
   readonly certificateAuthorityCertificates?: string[];
 }
@@ -1263,7 +1263,7 @@ export class RtbfabricResponderGatewayTrustStoreConfigurationOutputReference ext
   }
 
   // certificate_authority_certificates - computed: true, optional: true, required: false
-  private _certificateAuthorityCertificates?: string[]; 
+  private _certificateAuthorityCertificates?: string[];
   public get certificateAuthorityCertificates() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_certificates'));
   }
@@ -1280,7 +1280,7 @@ export class RtbfabricResponderGatewayTrustStoreConfigurationOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}
 */
 export class RtbfabricResponderGateway extends cdktn.TerraformResource {
 
@@ -1296,7 +1296,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RtbfabricResponderGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RtbfabricResponderGateway to import
-  * @param importFromId The id of the existing RtbfabricResponderGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RtbfabricResponderGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RtbfabricResponderGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1308,7 +1308,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1319,7 +1319,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rtbfabric_responder_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1349,7 +1349,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   // ==========
 
   // acm_certificate_arn - computed: true, optional: true, required: false
-  private _acmCertificateArn?: string; 
+  private _acmCertificateArn?: string;
   public get acmCertificateArn() {
     return this.getStringAttribute('acm_certificate_arn');
   }
@@ -1380,7 +1380,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1396,7 +1396,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1422,7 +1422,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // gateway_type - computed: true, optional: true, required: false
-  private _gatewayType?: string; 
+  private _gatewayType?: string;
   public get gatewayType() {
     return this.getStringAttribute('gateway_type');
   }
@@ -1475,7 +1475,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1488,7 +1488,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1506,7 +1506,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1519,7 +1519,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1569,7 +1569,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IotFleetMetricConfig extends cdktn.TerraformMetaArguments {
   /**
   * The aggregation field to perform aggregation and metric emission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
   */
   readonly aggregationField?: string;
   /**
   * Aggregation types supported by Fleet Indexing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
   */
   readonly aggregationType?: IotFleetMetricAggregationType;
   /**
   * The description of a fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
   */
   readonly description?: string;
   /**
   * The index name of a fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
   */
   readonly indexName?: string;
   /**
   * The name of the fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
   */
   readonly metricName: string;
   /**
   * The period of metric emission in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
   */
   readonly period?: number;
   /**
   * The Fleet Indexing query used by a fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
   */
   readonly queryString?: string;
   /**
   * The version of a Fleet Indexing query used by a fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
   */
   readonly queryVersion?: string;
   /**
   * An array of key-value pairs to apply to this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
   */
   readonly tags?: IotFleetMetricTags[] | cdktn.IResolvable;
   /**
   * The unit of data points emitted by a fleet metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
   */
   readonly unit?: string;
 }
@@ -72,13 +72,13 @@ export interface IotFleetMetricAggregationType {
   /**
   * Fleet Indexing aggregation type names such as Statistics, Percentiles and Cardinality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
   */
   readonly name?: string;
   /**
   * Fleet Indexing aggregation type values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
   */
   readonly values?: string[];
 }
@@ -168,7 +168,7 @@ export class IotFleetMetricAggregationTypeOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -184,7 +184,7 @@ export class IotFleetMetricAggregationTypeOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -203,13 +203,13 @@ export interface IotFleetMetricTags {
   /**
   * The tag's key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
   */
   readonly key?: string;
   /**
   * The tag's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
   */
   readonly value?: string;
 }
@@ -301,7 +301,7 @@ export class IotFleetMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -317,7 +317,7 @@ export class IotFleetMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -354,7 +354,7 @@ export class IotFleetMetricTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}
 */
 export class IotFleetMetric extends cdktn.TerraformResource {
 
@@ -370,7 +370,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotFleetMetric resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotFleetMetric to import
-  * @param importFromId The id of the existing IotFleetMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotFleetMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotFleetMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -382,7 +382,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,7 +393,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_fleet_metric',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -420,7 +420,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   // ==========
 
   // aggregation_field - computed: true, optional: true, required: false
-  private _aggregationField?: string; 
+  private _aggregationField?: string;
   public get aggregationField() {
     return this.getStringAttribute('aggregation_field');
   }
@@ -457,7 +457,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -478,7 +478,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -504,7 +504,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -517,7 +517,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number; 
+  private _period?: number;
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -533,7 +533,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string; 
+  private _queryString?: string;
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -549,7 +549,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // query_version - computed: true, optional: true, required: false
-  private _queryVersion?: string; 
+  private _queryVersion?: string;
   public get queryVersion() {
     return this.getStringAttribute('query_version');
   }
@@ -581,7 +581,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }

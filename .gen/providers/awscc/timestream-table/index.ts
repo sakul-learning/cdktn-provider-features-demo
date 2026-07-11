@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TimestreamTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name for the database which the table to be created belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
   */
   readonly databaseName: string;
   /**
   * The properties that determine whether magnetic store writes are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
   */
   readonly magneticStoreWriteProperties?: TimestreamTableMagneticStoreWriteProperties;
   /**
   * The retention duration of the memory store and the magnetic store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
   */
   readonly retentionProperties?: TimestreamTableRetentionProperties;
   /**
   * A Schema specifies the expected data model of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#schema TimestreamTable#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#schema TimestreamTable#schema}
   */
   readonly schema?: TimestreamTableSchema;
   /**
   * The name for the table. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
   */
   readonly tableName?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#tags TimestreamTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#tags TimestreamTable#tags}
   */
   readonly tags?: TimestreamTableTags[] | cdktn.IResolvable;
 }
@@ -48,25 +48,25 @@ export interface TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejecte
   /**
   * The bucket name used to store the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Either SSE_KMS or SSE_S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
   */
   readonly encryptionOption?: string;
   /**
   * Must be provided if SSE_KMS is specified as the encryption option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * String used to prefix all data in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
   */
   readonly objectKeyPrefix?: string;
 }
@@ -182,7 +182,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -198,7 +198,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // encryption_option - computed: true, optional: true, required: false
-  private _encryptionOption?: string; 
+  private _encryptionOption?: string;
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -214,7 +214,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -230,7 +230,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // object_key_prefix - computed: true, optional: true, required: false
-  private _objectKeyPrefix?: string; 
+  private _objectKeyPrefix?: string;
   public get objectKeyPrefix() {
     return this.getStringAttribute('object_key_prefix');
   }
@@ -249,7 +249,7 @@ export interface TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejecte
   /**
   * S3 configuration for location to store rejections from magnetic store writes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
   */
   readonly s3Configuration?: TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration;
 }
@@ -345,13 +345,13 @@ export interface TimestreamTableMagneticStoreWriteProperties {
   /**
   * Boolean flag indicating whether magnetic store writes are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
   */
   readonly enableMagneticStoreWrites?: boolean | cdktn.IResolvable;
   /**
   * Location to store information about records that were asynchronously rejected during magnetic store writes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
   */
   readonly magneticStoreRejectedDataLocation?: TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation;
 }
@@ -441,7 +441,7 @@ export class TimestreamTableMagneticStoreWritePropertiesOutputReference extends 
   }
 
   // enable_magnetic_store_writes - computed: true, optional: true, required: false
-  private _enableMagneticStoreWrites?: boolean | cdktn.IResolvable; 
+  private _enableMagneticStoreWrites?: boolean | cdktn.IResolvable;
   public get enableMagneticStoreWrites() {
     return this.getBooleanAttribute('enable_magnetic_store_writes');
   }
@@ -476,13 +476,13 @@ export interface TimestreamTableRetentionProperties {
   /**
   * The duration for which data must be stored in the magnetic store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
   */
   readonly magneticStoreRetentionPeriodInDays?: string;
   /**
   * The duration for which data must be stored in the memory store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
   */
   readonly memoryStoreRetentionPeriodInHours?: string;
 }
@@ -572,7 +572,7 @@ export class TimestreamTableRetentionPropertiesOutputReference extends cdktn.Com
   }
 
   // magnetic_store_retention_period_in_days - computed: true, optional: true, required: false
-  private _magneticStoreRetentionPeriodInDays?: string; 
+  private _magneticStoreRetentionPeriodInDays?: string;
   public get magneticStoreRetentionPeriodInDays() {
     return this.getStringAttribute('magnetic_store_retention_period_in_days');
   }
@@ -588,7 +588,7 @@ export class TimestreamTableRetentionPropertiesOutputReference extends cdktn.Com
   }
 
   // memory_store_retention_period_in_hours - computed: true, optional: true, required: false
-  private _memoryStoreRetentionPeriodInHours?: string; 
+  private _memoryStoreRetentionPeriodInHours?: string;
   public get memoryStoreRetentionPeriodInHours() {
     return this.getStringAttribute('memory_store_retention_period_in_hours');
   }
@@ -607,19 +607,19 @@ export interface TimestreamTableSchemaCompositePartitionKey {
   /**
   * The level of enforcement for the specification of a dimension key in ingested records. Options are REQUIRED (dimension key must be specified) and OPTIONAL (dimension key does not have to be specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
   */
   readonly enforcementInRecord?: string;
   /**
   * The name of the attribute used for a dimension key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#name TimestreamTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#name TimestreamTable#name}
   */
   readonly name?: string;
   /**
   * The type of the partition key. Options are DIMENSION (dimension key) and MEASURE (measure key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#type TimestreamTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#type TimestreamTable#type}
   */
   readonly type?: string;
 }
@@ -724,7 +724,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // enforcement_in_record - computed: true, optional: true, required: false
-  private _enforcementInRecord?: string; 
+  private _enforcementInRecord?: string;
   public get enforcementInRecord() {
     return this.getStringAttribute('enforcement_in_record');
   }
@@ -740,7 +740,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -756,7 +756,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -795,7 +795,7 @@ export interface TimestreamTableSchema {
   /**
   * A list of partition keys defining the attributes used to partition the table data. The order of the list determines the partition hierarchy. The name and type of each partition key as well as the partition key order cannot be changed after the table is created. However, the enforcement level of each partition key can be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
   */
   readonly compositePartitionKey?: TimestreamTableSchemaCompositePartitionKey[] | cdktn.IResolvable;
 }
@@ -889,11 +889,11 @@ export class TimestreamTableSchemaOutputReference extends cdktn.ComplexObject {
 }
 export interface TimestreamTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#key TimestreamTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#key TimestreamTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#value TimestreamTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#value TimestreamTable#value}
   */
   readonly value?: string;
 }
@@ -985,7 +985,7 @@ export class TimestreamTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1001,7 +1001,7 @@ export class TimestreamTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1038,7 +1038,7 @@ export class TimestreamTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table awscc_timestream_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table awscc_timestream_table}
 */
 export class TimestreamTable extends cdktn.TerraformResource {
 
@@ -1054,7 +1054,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TimestreamTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimestreamTable to import
-  * @param importFromId The id of the existing TimestreamTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimestreamTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimestreamTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1066,7 +1066,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/timestream_table awscc_timestream_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_table awscc_timestream_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1077,7 +1077,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_timestream_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1105,7 +1105,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1176,7 +1176,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

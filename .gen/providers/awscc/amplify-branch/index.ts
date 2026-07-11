@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,73 +8,73 @@ import * as cdktn from 'cdktn';
 
 export interface AmplifyBranchConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}
   */
   readonly backend?: AmplifyBranchBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}
   */
   readonly basicAuthConfig?: AmplifyBranchBasicAuthConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}
   */
   readonly branchName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}
   */
   readonly buildSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}
   */
   readonly computeRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#description AmplifyBranch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#description AmplifyBranch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}
   */
   readonly enableAutoBuild?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}
   */
   readonly enablePerformanceMode?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}
   */
   readonly enablePullRequestPreview?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}
   */
   readonly enableSkewProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}
   */
   readonly environmentVariables?: AmplifyBranchEnvironmentVariables[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}
   */
   readonly framework?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}
   */
   readonly pullRequestEnvironmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}
   */
   readonly stage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}
   */
   readonly tags?: AmplifyBranchTags[] | cdktn.IResolvable;
 }
 export interface AmplifyBranchBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}
   */
   readonly stackArn?: string;
 }
@@ -151,7 +151,7 @@ export class AmplifyBranchBackendOutputReference extends cdktn.ComplexObject {
   }
 
   // stack_arn - computed: true, optional: true, required: false
-  private _stackArn?: string; 
+  private _stackArn?: string;
   public get stackArn() {
     return this.getStringAttribute('stack_arn');
   }
@@ -168,15 +168,15 @@ export class AmplifyBranchBackendOutputReference extends cdktn.ComplexObject {
 }
 export interface AmplifyBranchBasicAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}
   */
   readonly enableBasicAuth?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#password AmplifyBranch#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#password AmplifyBranch#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#username AmplifyBranch#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#username AmplifyBranch#username}
   */
   readonly username?: string;
 }
@@ -279,7 +279,7 @@ export class AmplifyBranchBasicAuthConfigOutputReference extends cdktn.ComplexOb
   }
 
   // enable_basic_auth - computed: true, optional: true, required: false
-  private _enableBasicAuth?: boolean | cdktn.IResolvable; 
+  private _enableBasicAuth?: boolean | cdktn.IResolvable;
   public get enableBasicAuth() {
     return this.getBooleanAttribute('enable_basic_auth');
   }
@@ -295,7 +295,7 @@ export class AmplifyBranchBasicAuthConfigOutputReference extends cdktn.ComplexOb
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -311,7 +311,7 @@ export class AmplifyBranchBasicAuthConfigOutputReference extends cdktn.ComplexOb
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -328,11 +328,11 @@ export class AmplifyBranchBasicAuthConfigOutputReference extends cdktn.ComplexOb
 }
 export interface AmplifyBranchEnvironmentVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#name AmplifyBranch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#name AmplifyBranch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#value AmplifyBranch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#value AmplifyBranch#value}
   */
   readonly value?: string;
 }
@@ -424,7 +424,7 @@ export class AmplifyBranchEnvironmentVariablesOutputReference extends cdktn.Comp
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -440,7 +440,7 @@ export class AmplifyBranchEnvironmentVariablesOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -477,11 +477,11 @@ export class AmplifyBranchEnvironmentVariablesList extends cdktn.ComplexList {
 }
 export interface AmplifyBranchTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#key AmplifyBranch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#key AmplifyBranch#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#value AmplifyBranch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#value AmplifyBranch#value}
   */
   readonly value?: string;
 }
@@ -573,7 +573,7 @@ export class AmplifyBranchTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -589,7 +589,7 @@ export class AmplifyBranchTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -626,7 +626,7 @@ export class AmplifyBranchTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch awscc_amplify_branch}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch awscc_amplify_branch}
 */
 export class AmplifyBranch extends cdktn.TerraformResource {
 
@@ -642,7 +642,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AmplifyBranch resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmplifyBranch to import
-  * @param importFromId The id of the existing AmplifyBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmplifyBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmplifyBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -654,7 +654,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_branch awscc_amplify_branch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_branch awscc_amplify_branch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -665,7 +665,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_amplify_branch',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -698,7 +698,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   // ==========
 
   // app_id - computed: false, optional: false, required: true
-  private _appId?: string; 
+  private _appId?: string;
   public get appId() {
     return this.getStringAttribute('app_id');
   }
@@ -748,7 +748,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // branch_name - computed: false, optional: false, required: true
-  private _branchName?: string; 
+  private _branchName?: string;
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -761,7 +761,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // build_spec - computed: true, optional: true, required: false
-  private _buildSpec?: string; 
+  private _buildSpec?: string;
   public get buildSpec() {
     return this.getStringAttribute('build_spec');
   }
@@ -777,7 +777,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // compute_role_arn - computed: true, optional: true, required: false
-  private _computeRoleArn?: string; 
+  private _computeRoleArn?: string;
   public get computeRoleArn() {
     return this.getStringAttribute('compute_role_arn');
   }
@@ -793,7 +793,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -809,7 +809,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // enable_auto_build - computed: true, optional: true, required: false
-  private _enableAutoBuild?: boolean | cdktn.IResolvable; 
+  private _enableAutoBuild?: boolean | cdktn.IResolvable;
   public get enableAutoBuild() {
     return this.getBooleanAttribute('enable_auto_build');
   }
@@ -825,7 +825,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // enable_performance_mode - computed: true, optional: true, required: false
-  private _enablePerformanceMode?: boolean | cdktn.IResolvable; 
+  private _enablePerformanceMode?: boolean | cdktn.IResolvable;
   public get enablePerformanceMode() {
     return this.getBooleanAttribute('enable_performance_mode');
   }
@@ -841,7 +841,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // enable_pull_request_preview - computed: true, optional: true, required: false
-  private _enablePullRequestPreview?: boolean | cdktn.IResolvable; 
+  private _enablePullRequestPreview?: boolean | cdktn.IResolvable;
   public get enablePullRequestPreview() {
     return this.getBooleanAttribute('enable_pull_request_preview');
   }
@@ -857,7 +857,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // enable_skew_protection - computed: true, optional: true, required: false
-  private _enableSkewProtection?: boolean | cdktn.IResolvable; 
+  private _enableSkewProtection?: boolean | cdktn.IResolvable;
   public get enableSkewProtection() {
     return this.getBooleanAttribute('enable_skew_protection');
   }
@@ -889,7 +889,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // framework - computed: true, optional: true, required: false
-  private _framework?: string; 
+  private _framework?: string;
   public get framework() {
     return this.getStringAttribute('framework');
   }
@@ -910,7 +910,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // pull_request_environment_name - computed: true, optional: true, required: false
-  private _pullRequestEnvironmentName?: string; 
+  private _pullRequestEnvironmentName?: string;
   public get pullRequestEnvironmentName() {
     return this.getStringAttribute('pull_request_environment_name');
   }
@@ -926,7 +926,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string; 
+  private _stage?: string;
   public get stage() {
     return this.getStringAttribute('stage');
   }

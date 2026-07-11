@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface MedialiveInputConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#id MedialiveInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#id MedialiveInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
   */
   readonly inputSecurityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#name MedialiveInput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#name MedialiveInput#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#region MedialiveInput#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#region MedialiveInput#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#tags MedialiveInput#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#tags MedialiveInput#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#tags_all MedialiveInput#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#tags_all MedialiveInput#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#type MedialiveInput#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#type MedialiveInput#type}
   */
   readonly type: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
   */
   readonly destinations?: MedialiveInputDestinations[] | cdktn.IResolvable;
   /**
   * input_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
   */
   readonly inputDevices?: MedialiveInputInputDevices[] | cdktn.IResolvable;
   /**
   * media_connect_flows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
   */
   readonly mediaConnectFlows?: MedialiveInputMediaConnectFlows[] | cdktn.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#sources MedialiveInput#sources}
   */
   readonly sources?: MedialiveInputSources[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#timeouts MedialiveInput#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#timeouts MedialiveInput#timeouts}
   */
   readonly timeouts?: MedialiveInputTimeouts;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
   */
   readonly vpc?: MedialiveInputVpc;
 }
 export interface MedialiveInputDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}
   */
   readonly streamName: string;
 }
@@ -162,7 +162,7 @@ export class MedialiveInputDestinationsOutputReference extends cdktn.ComplexObje
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string; 
+  private _streamName?: string;
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -196,7 +196,7 @@ export class MedialiveInputDestinationsList extends cdktn.ComplexList {
 }
 export interface MedialiveInputInputDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#id MedialiveInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#id MedialiveInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -278,7 +278,7 @@ export class MedialiveInputInputDevicesOutputReference extends cdktn.ComplexObje
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -312,7 +312,7 @@ export class MedialiveInputInputDevicesList extends cdktn.ComplexList {
 }
 export interface MedialiveInputMediaConnectFlows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}
   */
   readonly flowArn: string;
 }
@@ -391,7 +391,7 @@ export class MedialiveInputMediaConnectFlowsOutputReference extends cdktn.Comple
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string; 
+  private _flowArn?: string;
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -425,15 +425,15 @@ export class MedialiveInputMediaConnectFlowsList extends cdktn.ComplexList {
 }
 export interface MedialiveInputSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}
   */
   readonly passwordParam: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#url MedialiveInput#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#url MedialiveInput#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#username MedialiveInput#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#username MedialiveInput#username}
   */
   readonly username: string;
 }
@@ -538,7 +538,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // password_param - computed: false, optional: false, required: true
-  private _passwordParam?: string; 
+  private _passwordParam?: string;
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -551,7 +551,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // url - computed: false, optional: false, required: true
-  private _url?: string; 
+  private _url?: string;
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -564,7 +564,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -598,15 +598,15 @@ export class MedialiveInputSourcesList extends cdktn.ComplexList {
 }
 export interface MedialiveInputTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#create MedialiveInput#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#create MedialiveInput#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#delete MedialiveInput#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#delete MedialiveInput#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#update MedialiveInput#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#update MedialiveInput#update}
   */
   readonly update?: string;
 }
@@ -709,7 +709,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -725,7 +725,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -741,7 +741,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -758,11 +758,11 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 export interface MedialiveInputVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}
   */
   readonly subnetIds: string[];
 }
@@ -842,7 +842,7 @@ export class MedialiveInputVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -858,7 +858,7 @@ export class MedialiveInputVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -872,7 +872,7 @@ export class MedialiveInputVpcOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input aws_medialive_input}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input aws_medialive_input}
 */
 export class MedialiveInput extends cdktn.TerraformResource {
 
@@ -888,7 +888,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveInput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveInput to import
-  * @param importFromId The id of the existing MedialiveInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -900,7 +900,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/medialive_input aws_medialive_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_input aws_medialive_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -911,7 +911,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
       terraformResourceType: 'aws_medialive_input',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -952,7 +952,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -978,7 +978,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // input_security_groups - computed: false, optional: true, required: false
-  private _inputSecurityGroups?: string[]; 
+  private _inputSecurityGroups?: string[];
   public get inputSecurityGroups() {
     return this.getListAttribute('input_security_groups');
   }
@@ -999,7 +999,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1012,7 +1012,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1028,7 +1028,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1044,7 +1044,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1060,7 +1060,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1076,7 +1076,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

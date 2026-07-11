@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface AppsyncFunctionConfigurationConfig extends cdktn.TerraformMetaA
   /**
   * The AWS AppSync GraphQL API that you want to attach using this function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#api_id AppsyncFunctionConfiguration#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#api_id AppsyncFunctionConfiguration#api_id}
   */
   readonly apiId: string;
   /**
   * The resolver code that contains the request and response functions. When code is used, the runtime is required. The runtime value must be APPSYNC_JS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#code AppsyncFunctionConfiguration#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#code AppsyncFunctionConfiguration#code}
   */
   readonly code?: string;
   /**
   * The Amazon S3 endpoint (where the code is located??).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#code_s3_location AppsyncFunctionConfiguration#code_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#code_s3_location AppsyncFunctionConfiguration#code_s3_location}
   */
   readonly codeS3Location?: string;
   /**
   * The name of data source this function will attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#data_source_name AppsyncFunctionConfiguration#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#data_source_name AppsyncFunctionConfiguration#data_source_name}
   */
   readonly dataSourceName: string;
   /**
   * The function description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#description AppsyncFunctionConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#description AppsyncFunctionConfiguration#description}
   */
   readonly description?: string;
   /**
   * The version of the request mapping template. Currently, only the 2018-05-29 version of the template is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#function_version AppsyncFunctionConfiguration#function_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#function_version AppsyncFunctionConfiguration#function_version}
   */
   readonly functionVersion?: string;
   /**
   * The maximum number of resolver request inputs that will be sent to a single AWS Lambda function in a BatchInvoke operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#max_batch_size AppsyncFunctionConfiguration#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#max_batch_size AppsyncFunctionConfiguration#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * The name of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
   */
   readonly name: string;
   /**
   * The Function request mapping template. Functions support only the 2018-05-29 version of the request mapping template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#request_mapping_template AppsyncFunctionConfiguration#request_mapping_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#request_mapping_template AppsyncFunctionConfiguration#request_mapping_template}
   */
   readonly requestMappingTemplate?: string;
   /**
   * Describes a Sync configuration for a resolver. Contains information on which Conflict Detection, as well as Resolution strategy, should be performed when the resolver is invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#request_mapping_template_s3_location AppsyncFunctionConfiguration#request_mapping_template_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#request_mapping_template_s3_location AppsyncFunctionConfiguration#request_mapping_template_s3_location}
   */
   readonly requestMappingTemplateS3Location?: string;
   /**
   * The Function response mapping template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#response_mapping_template AppsyncFunctionConfiguration#response_mapping_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#response_mapping_template AppsyncFunctionConfiguration#response_mapping_template}
   */
   readonly responseMappingTemplate?: string;
   /**
   * The location of a response mapping template in an Amazon S3 bucket. Use this if you want to provision with a template file in Amazon S3 rather than embedding it in your CloudFormation template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#response_mapping_template_s3_location AppsyncFunctionConfiguration#response_mapping_template_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#response_mapping_template_s3_location AppsyncFunctionConfiguration#response_mapping_template_s3_location}
   */
   readonly responseMappingTemplateS3Location?: string;
   /**
   * Describes a runtime used by an AWS AppSync pipeline resolver or AWS AppSync function. Specifies the name and version of the runtime to use. Note that if a runtime is specified, code must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#runtime AppsyncFunctionConfiguration#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#runtime AppsyncFunctionConfiguration#runtime}
   */
   readonly runtime?: AppsyncFunctionConfigurationRuntime;
   /**
   * Describes a Sync configuration for a resolver. Specifies which Conflict Detection strategy and Resolution strategy to use when the resolver is invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#sync_config AppsyncFunctionConfiguration#sync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#sync_config AppsyncFunctionConfiguration#sync_config}
   */
   readonly syncConfig?: AppsyncFunctionConfigurationSyncConfig;
 }
@@ -96,13 +96,13 @@ export interface AppsyncFunctionConfigurationRuntime {
   /**
   * The name of the runtime to use. Currently, the only allowed value is APPSYNC_JS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
   */
   readonly name?: string;
   /**
   * The version of the runtime to use. Currently, the only allowed version is 1.0.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#runtime_version AppsyncFunctionConfiguration#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#runtime_version AppsyncFunctionConfiguration#runtime_version}
   */
   readonly runtimeVersion?: string;
 }
@@ -192,7 +192,7 @@ export class AppsyncFunctionConfigurationRuntimeOutputReference extends cdktn.Co
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -208,7 +208,7 @@ export class AppsyncFunctionConfigurationRuntimeOutputReference extends cdktn.Co
   }
 
   // runtime_version - computed: true, optional: true, required: false
-  private _runtimeVersion?: string; 
+  private _runtimeVersion?: string;
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -227,7 +227,7 @@ export interface AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConf
   /**
   * The Amazon Resource Name (ARN) for the Lambda function to use as the Conflict Handler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_arn AppsyncFunctionConfiguration#lambda_conflict_handler_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_arn AppsyncFunctionConfiguration#lambda_conflict_handler_arn}
   */
   readonly lambdaConflictHandlerArn?: string;
 }
@@ -304,7 +304,7 @@ export class AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOu
   }
 
   // lambda_conflict_handler_arn - computed: true, optional: true, required: false
-  private _lambdaConflictHandlerArn?: string; 
+  private _lambdaConflictHandlerArn?: string;
   public get lambdaConflictHandlerArn() {
     return this.getStringAttribute('lambda_conflict_handler_arn');
   }
@@ -323,19 +323,19 @@ export interface AppsyncFunctionConfigurationSyncConfig {
   /**
   * The Conflict Detection strategy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#conflict_detection AppsyncFunctionConfiguration#conflict_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#conflict_detection AppsyncFunctionConfiguration#conflict_detection}
   */
   readonly conflictDetection?: string;
   /**
   * The Conflict Resolution strategy to perform in the event of a conflict.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#conflict_handler AppsyncFunctionConfiguration#conflict_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#conflict_handler AppsyncFunctionConfiguration#conflict_handler}
   */
   readonly conflictHandler?: string;
   /**
   * The LambdaConflictHandlerConfig when configuring LAMBDA as the Conflict Handler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_config AppsyncFunctionConfiguration#lambda_conflict_handler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_config AppsyncFunctionConfiguration#lambda_conflict_handler_config}
   */
   readonly lambdaConflictHandlerConfig?: AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig;
 }
@@ -438,7 +438,7 @@ export class AppsyncFunctionConfigurationSyncConfigOutputReference extends cdktn
   }
 
   // conflict_detection - computed: true, optional: true, required: false
-  private _conflictDetection?: string; 
+  private _conflictDetection?: string;
   public get conflictDetection() {
     return this.getStringAttribute('conflict_detection');
   }
@@ -454,7 +454,7 @@ export class AppsyncFunctionConfigurationSyncConfigOutputReference extends cdktn
   }
 
   // conflict_handler - computed: true, optional: true, required: false
-  private _conflictHandler?: string; 
+  private _conflictHandler?: string;
   public get conflictHandler() {
     return this.getStringAttribute('conflict_handler');
   }
@@ -487,7 +487,7 @@ export class AppsyncFunctionConfigurationSyncConfigOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}
 */
 export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
 
@@ -503,7 +503,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncFunctionConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncFunctionConfiguration to import
-  * @param importFromId The id of the existing AppsyncFunctionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncFunctionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncFunctionConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -515,7 +515,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,7 +526,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_function_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -557,7 +557,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -570,7 +570,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: string; 
+  private _code?: string;
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -586,7 +586,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // code_s3_location - computed: true, optional: true, required: false
-  private _codeS3Location?: string; 
+  private _codeS3Location?: string;
   public get codeS3Location() {
     return this.getStringAttribute('code_s3_location');
   }
@@ -602,7 +602,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // data_source_name - computed: false, optional: false, required: true
-  private _dataSourceName?: string; 
+  private _dataSourceName?: string;
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -615,7 +615,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -641,7 +641,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // function_version - computed: true, optional: true, required: false
-  private _functionVersion?: string; 
+  private _functionVersion?: string;
   public get functionVersion() {
     return this.getStringAttribute('function_version');
   }
@@ -662,7 +662,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // max_batch_size - computed: true, optional: true, required: false
-  private _maxBatchSize?: number; 
+  private _maxBatchSize?: number;
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }
@@ -678,7 +678,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -691,7 +691,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // request_mapping_template - computed: true, optional: true, required: false
-  private _requestMappingTemplate?: string; 
+  private _requestMappingTemplate?: string;
   public get requestMappingTemplate() {
     return this.getStringAttribute('request_mapping_template');
   }
@@ -707,7 +707,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // request_mapping_template_s3_location - computed: true, optional: true, required: false
-  private _requestMappingTemplateS3Location?: string; 
+  private _requestMappingTemplateS3Location?: string;
   public get requestMappingTemplateS3Location() {
     return this.getStringAttribute('request_mapping_template_s3_location');
   }
@@ -723,7 +723,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // response_mapping_template - computed: true, optional: true, required: false
-  private _responseMappingTemplate?: string; 
+  private _responseMappingTemplate?: string;
   public get responseMappingTemplate() {
     return this.getStringAttribute('response_mapping_template');
   }
@@ -739,7 +739,7 @@ export class AppsyncFunctionConfiguration extends cdktn.TerraformResource {
   }
 
   // response_mapping_template_s3_location - computed: true, optional: true, required: false
-  private _responseMappingTemplateS3Location?: string; 
+  private _responseMappingTemplateS3Location?: string;
   public get responseMappingTemplateS3Location() {
     return this.getStringAttribute('response_mapping_template_s3_location');
   }

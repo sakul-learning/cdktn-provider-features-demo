@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IotScheduledAuditConfig extends cdktn.TerraformMetaArguments {
   /**
   * The day of the month on which the scheduled audit takes place. Can be 1 through 31 or LAST. This field is required if the frequency parameter is set to MONTHLY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#day_of_month IotScheduledAudit#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#day_of_month IotScheduledAudit#day_of_month}
   */
   readonly dayOfMonth?: string;
   /**
   * The day of the week on which the scheduled audit takes place. Can be one of SUN, MON, TUE,WED, THU, FRI, or SAT. This field is required if the frequency parameter is set to WEEKLY or BIWEEKLY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#day_of_week IotScheduledAudit#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#day_of_week IotScheduledAudit#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * How often the scheduled audit takes place. Can be one of DAILY, WEEKLY, BIWEEKLY, or MONTHLY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#frequency IotScheduledAudit#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#frequency IotScheduledAudit#frequency}
   */
   readonly frequency: string;
   /**
   * The name you want to give to the scheduled audit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#scheduled_audit_name IotScheduledAudit#scheduled_audit_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#scheduled_audit_name IotScheduledAudit#scheduled_audit_name}
   */
   readonly scheduledAuditName?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#tags IotScheduledAudit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#tags IotScheduledAudit#tags}
   */
   readonly tags?: IotScheduledAuditTags[] | cdktn.IResolvable;
   /**
   * Which checks are performed during the scheduled audit. Checks must be enabled for your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#target_check_names IotScheduledAudit#target_check_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#target_check_names IotScheduledAudit#target_check_names}
   */
   readonly targetCheckNames: string[];
 }
@@ -48,13 +48,13 @@ export interface IotScheduledAuditTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#key IotScheduledAudit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#key IotScheduledAudit#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#value IotScheduledAudit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#value IotScheduledAudit#value}
   */
   readonly value?: string;
 }
@@ -146,7 +146,7 @@ export class IotScheduledAuditTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class IotScheduledAuditTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -199,7 +199,7 @@ export class IotScheduledAuditTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit}
 */
 export class IotScheduledAudit extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotScheduledAudit resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotScheduledAudit to import
-  * @param importFromId The id of the existing IotScheduledAudit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotScheduledAudit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotScheduledAudit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_scheduled_audit',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -261,7 +261,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   // ==========
 
   // day_of_month - computed: true, optional: true, required: false
-  private _dayOfMonth?: string; 
+  private _dayOfMonth?: string;
   public get dayOfMonth() {
     return this.getStringAttribute('day_of_month');
   }
@@ -277,7 +277,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // day_of_week - computed: true, optional: true, required: false
-  private _dayOfWeek?: string; 
+  private _dayOfWeek?: string;
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -293,7 +293,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string; 
+  private _frequency?: string;
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -316,7 +316,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // scheduled_audit_name - computed: true, optional: true, required: false
-  private _scheduledAuditName?: string; 
+  private _scheduledAuditName?: string;
   public get scheduledAuditName() {
     return this.getStringAttribute('scheduled_audit_name');
   }
@@ -348,7 +348,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // target_check_names - computed: false, optional: false, required: true
-  private _targetCheckNames?: string[]; 
+  private _targetCheckNames?: string[];
   public get targetCheckNames() {
     return cdktn.Fn.tolist(this.getListAttribute('target_check_names'));
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SesTenantConfig extends cdktn.TerraformMetaArguments {
   /**
   * The list of resources to associate with the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
   */
   readonly resourceAssociations?: SesTenantResourceAssociations[] | cdktn.IResolvable;
   /**
   * The tags (keys and values) associated with the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#tags SesTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#tags SesTenant#tags}
   */
   readonly tags?: SesTenantTags[] | cdktn.IResolvable;
   /**
   * The name of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
   */
   readonly tenantName: string;
 }
@@ -30,7 +30,7 @@ export interface SesTenantResourceAssociations {
   /**
   * The ARN of the resource to associate with the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
   */
   readonly resourceArn?: string;
 }
@@ -109,7 +109,7 @@ export class SesTenantResourceAssociationsOutputReference extends cdktn.ComplexO
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -148,13 +148,13 @@ export interface SesTenantTags {
   /**
   * The key of the key-value tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#key SesTenant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#key SesTenant#key}
   */
   readonly key?: string;
   /**
   * The value of the key-value tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#value SesTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#value SesTenant#value}
   */
   readonly value?: string;
 }
@@ -246,7 +246,7 @@ export class SesTenantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -262,7 +262,7 @@ export class SesTenantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -299,7 +299,7 @@ export class SesTenantTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant awscc_ses_tenant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant awscc_ses_tenant}
 */
 export class SesTenant extends cdktn.TerraformResource {
 
@@ -315,7 +315,7 @@ export class SesTenant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesTenant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesTenant to import
-  * @param importFromId The id of the existing SesTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -327,7 +327,7 @@ export class SesTenant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_tenant awscc_ses_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_tenant awscc_ses_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,7 +338,7 @@ export class SesTenant extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_tenant',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -400,7 +400,7 @@ export class SesTenant extends cdktn.TerraformResource {
   }
 
   // tenant_name - computed: false, optional: false, required: true
-  private _tenantName?: string; 
+  private _tenantName?: string;
   public get tenantName() {
     return this.getStringAttribute('tenant_name');
   }

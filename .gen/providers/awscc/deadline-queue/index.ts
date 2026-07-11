@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineQueueConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#allowed_storage_profile_ids DeadlineQueue#allowed_storage_profile_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#allowed_storage_profile_ids DeadlineQueue#allowed_storage_profile_ids}
   */
   readonly allowedStorageProfileIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#default_budget_action DeadlineQueue#default_budget_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#default_budget_action DeadlineQueue#default_budget_action}
   */
   readonly defaultBudgetAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#description DeadlineQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#description DeadlineQueue#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#display_name DeadlineQueue#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#display_name DeadlineQueue#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#farm_id DeadlineQueue#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#farm_id DeadlineQueue#farm_id}
   */
   readonly farmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#job_attachment_settings DeadlineQueue#job_attachment_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#job_attachment_settings DeadlineQueue#job_attachment_settings}
   */
   readonly jobAttachmentSettings?: DeadlineQueueJobAttachmentSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#job_run_as_user DeadlineQueue#job_run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#job_run_as_user DeadlineQueue#job_run_as_user}
   */
   readonly jobRunAsUser?: DeadlineQueueJobRunAsUser;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#required_file_system_location_names DeadlineQueue#required_file_system_location_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#required_file_system_location_names DeadlineQueue#required_file_system_location_names}
   */
   readonly requiredFileSystemLocationNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#role_arn DeadlineQueue#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#role_arn DeadlineQueue#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#scheduling_configuration DeadlineQueue#scheduling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#scheduling_configuration DeadlineQueue#scheduling_configuration}
   */
   readonly schedulingConfiguration?: DeadlineQueueSchedulingConfiguration;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#tags DeadlineQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#tags DeadlineQueue#tags}
   */
   readonly tags?: DeadlineQueueTags[] | cdktn.IResolvable;
 }
 export interface DeadlineQueueJobAttachmentSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#root_prefix DeadlineQueue#root_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#root_prefix DeadlineQueue#root_prefix}
   */
   readonly rootPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#s3_bucket_name DeadlineQueue#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#s3_bucket_name DeadlineQueue#s3_bucket_name}
   */
   readonly s3BucketName?: string;
 }
@@ -150,7 +150,7 @@ export class DeadlineQueueJobAttachmentSettingsOutputReference extends cdktn.Com
   }
 
   // root_prefix - computed: true, optional: true, required: false
-  private _rootPrefix?: string; 
+  private _rootPrefix?: string;
   public get rootPrefix() {
     return this.getStringAttribute('root_prefix');
   }
@@ -166,7 +166,7 @@ export class DeadlineQueueJobAttachmentSettingsOutputReference extends cdktn.Com
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -183,11 +183,11 @@ export class DeadlineQueueJobAttachmentSettingsOutputReference extends cdktn.Com
 }
 export interface DeadlineQueueJobRunAsUserPosix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#group DeadlineQueue#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#group DeadlineQueue#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#user DeadlineQueue#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#user DeadlineQueue#user}
   */
   readonly user?: string;
 }
@@ -277,7 +277,7 @@ export class DeadlineQueueJobRunAsUserPosixOutputReference extends cdktn.Complex
   }
 
   // group - computed: true, optional: true, required: false
-  private _group?: string; 
+  private _group?: string;
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -293,7 +293,7 @@ export class DeadlineQueueJobRunAsUserPosixOutputReference extends cdktn.Complex
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -310,11 +310,11 @@ export class DeadlineQueueJobRunAsUserPosixOutputReference extends cdktn.Complex
 }
 export interface DeadlineQueueJobRunAsUserWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#password_arn DeadlineQueue#password_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#password_arn DeadlineQueue#password_arn}
   */
   readonly passwordArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#user DeadlineQueue#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#user DeadlineQueue#user}
   */
   readonly user?: string;
 }
@@ -404,7 +404,7 @@ export class DeadlineQueueJobRunAsUserWindowsOutputReference extends cdktn.Compl
   }
 
   // password_arn - computed: true, optional: true, required: false
-  private _passwordArn?: string; 
+  private _passwordArn?: string;
   public get passwordArn() {
     return this.getStringAttribute('password_arn');
   }
@@ -420,7 +420,7 @@ export class DeadlineQueueJobRunAsUserWindowsOutputReference extends cdktn.Compl
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string; 
+  private _user?: string;
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -437,15 +437,15 @@ export class DeadlineQueueJobRunAsUserWindowsOutputReference extends cdktn.Compl
 }
 export interface DeadlineQueueJobRunAsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#posix DeadlineQueue#posix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#posix DeadlineQueue#posix}
   */
   readonly posix?: DeadlineQueueJobRunAsUserPosix;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#run_as DeadlineQueue#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#run_as DeadlineQueue#run_as}
   */
   readonly runAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#windows DeadlineQueue#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#windows DeadlineQueue#windows}
   */
   readonly windows?: DeadlineQueueJobRunAsUserWindows;
 }
@@ -564,7 +564,7 @@ export class DeadlineQueueJobRunAsUserOutputReference extends cdktn.ComplexObjec
   }
 
   // run_as - computed: true, optional: true, required: false
-  private _runAs?: string; 
+  private _runAs?: string;
   public get runAs() {
     return this.getStringAttribute('run_as');
   }
@@ -597,7 +597,7 @@ export class DeadlineQueueJobRunAsUserOutputReference extends cdktn.ComplexObjec
 }
 export interface DeadlineQueueSchedulingConfigurationPriorityBalanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#rendering_task_buffer DeadlineQueue#rendering_task_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#rendering_task_buffer DeadlineQueue#rendering_task_buffer}
   */
   readonly renderingTaskBuffer?: number;
 }
@@ -674,7 +674,7 @@ export class DeadlineQueueSchedulingConfigurationPriorityBalancedOutputReference
   }
 
   // rendering_task_buffer - computed: true, optional: true, required: false
-  private _renderingTaskBuffer?: number; 
+  private _renderingTaskBuffer?: number;
   public get renderingTaskBuffer() {
     return this.getNumberAttribute('rendering_task_buffer');
   }
@@ -691,7 +691,7 @@ export class DeadlineQueueSchedulingConfigurationPriorityBalancedOutputReference
 }
 export interface DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#always_schedule_first DeadlineQueue#always_schedule_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#always_schedule_first DeadlineQueue#always_schedule_first}
   */
   readonly alwaysScheduleFirst?: string;
 }
@@ -768,7 +768,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOver
   }
 
   // always_schedule_first - computed: true, optional: true, required: false
-  private _alwaysScheduleFirst?: string; 
+  private _alwaysScheduleFirst?: string;
   public get alwaysScheduleFirst() {
     return this.getStringAttribute('always_schedule_first');
   }
@@ -785,7 +785,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOver
 }
 export interface DeadlineQueueSchedulingConfigurationWeightedBalancedMinPriorityOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#always_schedule_last DeadlineQueue#always_schedule_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#always_schedule_last DeadlineQueue#always_schedule_last}
   */
   readonly alwaysScheduleLast?: string;
 }
@@ -862,7 +862,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMinPriorityOver
   }
 
   // always_schedule_last - computed: true, optional: true, required: false
-  private _alwaysScheduleLast?: string; 
+  private _alwaysScheduleLast?: string;
   public get alwaysScheduleLast() {
     return this.getStringAttribute('always_schedule_last');
   }
@@ -879,31 +879,31 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMinPriorityOver
 }
 export interface DeadlineQueueSchedulingConfigurationWeightedBalanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#error_weight DeadlineQueue#error_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#error_weight DeadlineQueue#error_weight}
   */
   readonly errorWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#max_priority_override DeadlineQueue#max_priority_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#max_priority_override DeadlineQueue#max_priority_override}
   */
   readonly maxPriorityOverride?: DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#min_priority_override DeadlineQueue#min_priority_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#min_priority_override DeadlineQueue#min_priority_override}
   */
   readonly minPriorityOverride?: DeadlineQueueSchedulingConfigurationWeightedBalancedMinPriorityOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#priority_weight DeadlineQueue#priority_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#priority_weight DeadlineQueue#priority_weight}
   */
   readonly priorityWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#rendering_task_buffer DeadlineQueue#rendering_task_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#rendering_task_buffer DeadlineQueue#rendering_task_buffer}
   */
   readonly renderingTaskBuffer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#rendering_task_weight DeadlineQueue#rendering_task_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#rendering_task_weight DeadlineQueue#rendering_task_weight}
   */
   readonly renderingTaskWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#submission_time_weight DeadlineQueue#submission_time_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#submission_time_weight DeadlineQueue#submission_time_weight}
   */
   readonly submissionTimeWeight?: number;
 }
@@ -1058,7 +1058,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // error_weight - computed: true, optional: true, required: false
-  private _errorWeight?: number; 
+  private _errorWeight?: number;
   public get errorWeight() {
     return this.getNumberAttribute('error_weight');
   }
@@ -1106,7 +1106,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // priority_weight - computed: true, optional: true, required: false
-  private _priorityWeight?: number; 
+  private _priorityWeight?: number;
   public get priorityWeight() {
     return this.getNumberAttribute('priority_weight');
   }
@@ -1122,7 +1122,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // rendering_task_buffer - computed: true, optional: true, required: false
-  private _renderingTaskBuffer?: number; 
+  private _renderingTaskBuffer?: number;
   public get renderingTaskBuffer() {
     return this.getNumberAttribute('rendering_task_buffer');
   }
@@ -1138,7 +1138,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // rendering_task_weight - computed: true, optional: true, required: false
-  private _renderingTaskWeight?: number; 
+  private _renderingTaskWeight?: number;
   public get renderingTaskWeight() {
     return this.getNumberAttribute('rendering_task_weight');
   }
@@ -1154,7 +1154,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // submission_time_weight - computed: true, optional: true, required: false
-  private _submissionTimeWeight?: number; 
+  private _submissionTimeWeight?: number;
   public get submissionTimeWeight() {
     return this.getNumberAttribute('submission_time_weight');
   }
@@ -1171,15 +1171,15 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
 }
 export interface DeadlineQueueSchedulingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#priority_balanced DeadlineQueue#priority_balanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#priority_balanced DeadlineQueue#priority_balanced}
   */
   readonly priorityBalanced?: DeadlineQueueSchedulingConfigurationPriorityBalanced;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#priority_fifo DeadlineQueue#priority_fifo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#priority_fifo DeadlineQueue#priority_fifo}
   */
   readonly priorityFifo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#weighted_balanced DeadlineQueue#weighted_balanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#weighted_balanced DeadlineQueue#weighted_balanced}
   */
   readonly weightedBalanced?: DeadlineQueueSchedulingConfigurationWeightedBalanced;
 }
@@ -1298,7 +1298,7 @@ export class DeadlineQueueSchedulingConfigurationOutputReference extends cdktn.C
   }
 
   // priority_fifo - computed: true, optional: true, required: false
-  private _priorityFifo?: string; 
+  private _priorityFifo?: string;
   public get priorityFifo() {
     return this.getStringAttribute('priority_fifo');
   }
@@ -1331,15 +1331,15 @@ export class DeadlineQueueSchedulingConfigurationOutputReference extends cdktn.C
 }
 export interface DeadlineQueueTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#key DeadlineQueue#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#key DeadlineQueue#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#value DeadlineQueue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#value DeadlineQueue#value}
   */
   readonly value?: string;
 }
@@ -1431,7 +1431,7 @@ export class DeadlineQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1447,7 +1447,7 @@ export class DeadlineQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1484,7 +1484,7 @@ export class DeadlineQueueTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue awscc_deadline_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue awscc_deadline_queue}
 */
 export class DeadlineQueue extends cdktn.TerraformResource {
 
@@ -1500,7 +1500,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineQueue to import
-  * @param importFromId The id of the existing DeadlineQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1512,7 +1512,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue awscc_deadline_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue awscc_deadline_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1523,7 +1523,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_queue',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1551,7 +1551,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   // ==========
 
   // allowed_storage_profile_ids - computed: true, optional: true, required: false
-  private _allowedStorageProfileIds?: string[]; 
+  private _allowedStorageProfileIds?: string[];
   public get allowedStorageProfileIds() {
     return this.getListAttribute('allowed_storage_profile_ids');
   }
@@ -1572,7 +1572,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // default_budget_action - computed: true, optional: true, required: false
-  private _defaultBudgetAction?: string; 
+  private _defaultBudgetAction?: string;
   public get defaultBudgetAction() {
     return this.getStringAttribute('default_budget_action');
   }
@@ -1588,7 +1588,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1604,7 +1604,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1617,7 +1617,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string; 
+  private _farmId?: string;
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -1672,7 +1672,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // required_file_system_location_names - computed: true, optional: true, required: false
-  private _requiredFileSystemLocationNames?: string[]; 
+  private _requiredFileSystemLocationNames?: string[];
   public get requiredFileSystemLocationNames() {
     return this.getListAttribute('required_file_system_location_names');
   }
@@ -1688,7 +1688,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

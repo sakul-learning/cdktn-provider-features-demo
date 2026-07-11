@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktn from 'cdktn';
 
 export interface AppmeshVirtualNodeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#id AppmeshVirtualNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#id AppmeshVirtualNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#mesh_name AppmeshVirtualNode#mesh_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#mesh_name AppmeshVirtualNode#mesh_name}
   */
   readonly meshName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#mesh_owner AppmeshVirtualNode#mesh_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#mesh_owner AppmeshVirtualNode#mesh_owner}
   */
   readonly meshOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#name AppmeshVirtualNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#name AppmeshVirtualNode#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#region AppmeshVirtualNode#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#region AppmeshVirtualNode#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tags AppmeshVirtualNode#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tags AppmeshVirtualNode#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tags_all AppmeshVirtualNode#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tags_all AppmeshVirtualNode#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#spec AppmeshVirtualNode#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#spec AppmeshVirtualNode#spec}
   */
   readonly spec: AppmeshVirtualNodeSpec;
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
   */
   readonly privateKey: string;
 }
@@ -133,7 +133,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -146,7 +146,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -160,7 +160,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -227,7 +227,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -243,13 +243,13 @@ export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCerti
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateSds;
 }
@@ -362,7 +362,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
   */
   readonly exact: string[];
 }
@@ -429,7 +429,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[]; 
+  private _exact?: string[];
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -445,7 +445,7 @@ export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValid
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
   */
   readonly match: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatch;
 }
@@ -526,7 +526,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustAcm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_authority_arns AppmeshVirtualNode#certificate_authority_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_authority_arns AppmeshVirtualNode#certificate_authority_arns}
   */
   readonly certificateAuthorityArns: string[];
 }
@@ -593,7 +593,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // certificate_authority_arns - computed: false, optional: false, required: true
-  private _certificateAuthorityArns?: string[]; 
+  private _certificateAuthorityArns?: string[];
   public get certificateAuthorityArns() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_arns'));
   }
@@ -607,7 +607,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
 }
@@ -674,7 +674,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -688,7 +688,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -755,7 +755,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -771,19 +771,19 @@ export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValid
   /**
   * acm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
   */
   readonly acm?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustAcm;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustSds;
 }
@@ -927,13 +927,13 @@ export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValid
   /**
   * subject_alternative_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNames;
   /**
   * trust block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
   */
   readonly trust: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrust;
 }
@@ -1043,23 +1043,23 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#enforce AppmeshVirtualNode#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#enforce AppmeshVirtualNode#enforce}
   */
   readonly enforce?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#ports AppmeshVirtualNode#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#ports AppmeshVirtualNode#ports}
   */
   readonly ports?: number[];
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
   */
   readonly certificate?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificate;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
   */
   readonly validation: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidation;
 }
@@ -1165,7 +1165,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsOutputRef
   }
 
   // enforce - computed: false, optional: true, required: false
-  private _enforce?: boolean | cdktn.IResolvable; 
+  private _enforce?: boolean | cdktn.IResolvable;
   public get enforce() {
     return this.getBooleanAttribute('enforce');
   }
@@ -1181,7 +1181,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsOutputRef
   }
 
   // ports - computed: false, optional: true, required: false
-  private _ports?: number[]; 
+  private _ports?: number[];
   public get ports() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('ports')));
   }
@@ -1229,7 +1229,7 @@ export interface AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicy {
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
   */
   readonly tls?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTls;
 }
@@ -1313,13 +1313,13 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyOutputRefere
 }
 export interface AppmeshVirtualNodeSpecBackendVirtualService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#virtual_service_name AppmeshVirtualNode#virtual_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#virtual_service_name AppmeshVirtualNode#virtual_service_name}
   */
   readonly virtualServiceName: string;
   /**
   * client_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
   */
   readonly clientPolicy?: AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicy;
 }
@@ -1399,7 +1399,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceOutputReference extends 
   }
 
   // virtual_service_name - computed: false, optional: false, required: true
-  private _virtualServiceName?: string; 
+  private _virtualServiceName?: string;
   public get virtualServiceName() {
     return this.getStringAttribute('virtual_service_name');
   }
@@ -1431,7 +1431,7 @@ export interface AppmeshVirtualNodeSpecBackend {
   /**
   * virtual_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#virtual_service AppmeshVirtualNode#virtual_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#virtual_service AppmeshVirtualNode#virtual_service}
   */
   readonly virtualService: AppmeshVirtualNodeSpecBackendVirtualService;
 }
@@ -1544,11 +1544,11 @@ export class AppmeshVirtualNodeSpecBackendList extends cdktn.ComplexList {
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
   */
   readonly privateKey: string;
 }
@@ -1628,7 +1628,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -1641,7 +1641,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -1655,7 +1655,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -1722,7 +1722,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSdsO
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -1738,13 +1738,13 @@ export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificate
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSds;
 }
@@ -1857,7 +1857,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateOutp
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
   */
   readonly exact: string[];
 }
@@ -1924,7 +1924,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubje
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[]; 
+  private _exact?: string[];
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -1940,7 +1940,7 @@ export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationS
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
   */
   readonly match: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesMatch;
 }
@@ -2021,7 +2021,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubje
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustAcm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_authority_arns AppmeshVirtualNode#certificate_authority_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_authority_arns AppmeshVirtualNode#certificate_authority_arns}
   */
   readonly certificateAuthorityArns: string[];
 }
@@ -2088,7 +2088,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // certificate_authority_arns - computed: false, optional: false, required: true
-  private _certificateAuthorityArns?: string[]; 
+  private _certificateAuthorityArns?: string[];
   public get certificateAuthorityArns() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_arns'));
   }
@@ -2102,7 +2102,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
 }
@@ -2169,7 +2169,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -2183,7 +2183,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -2250,7 +2250,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -2266,19 +2266,19 @@ export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationT
   /**
   * acm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
   */
   readonly acm?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustAcm;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustSds;
 }
@@ -2422,13 +2422,13 @@ export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidation 
   /**
   * subject_alternative_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNames;
   /**
   * trust block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
   */
   readonly trust: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust;
 }
@@ -2538,23 +2538,23 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationOutpu
 }
 export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#enforce AppmeshVirtualNode#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#enforce AppmeshVirtualNode#enforce}
   */
   readonly enforce?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#ports AppmeshVirtualNode#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#ports AppmeshVirtualNode#ports}
   */
   readonly ports?: number[];
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
   */
   readonly certificate?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificate;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
   */
   readonly validation: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidation;
 }
@@ -2660,7 +2660,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsOutputReference
   }
 
   // enforce - computed: false, optional: true, required: false
-  private _enforce?: boolean | cdktn.IResolvable; 
+  private _enforce?: boolean | cdktn.IResolvable;
   public get enforce() {
     return this.getBooleanAttribute('enforce');
   }
@@ -2676,7 +2676,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsOutputReference
   }
 
   // ports - computed: false, optional: true, required: false
-  private _ports?: number[]; 
+  private _ports?: number[];
   public get ports() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('ports')));
   }
@@ -2724,7 +2724,7 @@ export interface AppmeshVirtualNodeSpecBackendDefaultsClientPolicy {
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
   */
   readonly tls?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTls;
 }
@@ -2810,7 +2810,7 @@ export interface AppmeshVirtualNodeSpecBackendDefaults {
   /**
   * client_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
   */
   readonly clientPolicy?: AppmeshVirtualNodeSpecBackendDefaultsClientPolicy;
 }
@@ -2894,7 +2894,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsOutputReference extends cdktn.
 }
 export interface AppmeshVirtualNodeSpecListenerConnectionPoolGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}
   */
   readonly maxRequests: number;
 }
@@ -2961,7 +2961,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolGrpcOutputReference ext
   }
 
   // max_requests - computed: false, optional: false, required: true
-  private _maxRequests?: number; 
+  private _maxRequests?: number;
   public get maxRequests() {
     return this.getNumberAttribute('max_requests');
   }
@@ -2975,11 +2975,11 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolGrpcOutputReference ext
 }
 export interface AppmeshVirtualNodeSpecListenerConnectionPoolHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}
   */
   readonly maxConnections: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_pending_requests AppmeshVirtualNode#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_pending_requests AppmeshVirtualNode#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
 }
@@ -3071,7 +3071,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttpOutputReference ext
   }
 
   // max_connections - computed: false, optional: false, required: true
-  private _maxConnections?: number; 
+  private _maxConnections?: number;
   public get maxConnections() {
     return this.getNumberAttribute('max_connections');
   }
@@ -3084,7 +3084,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttpOutputReference ext
   }
 
   // max_pending_requests - computed: false, optional: true, required: false
-  private _maxPendingRequests?: number; 
+  private _maxPendingRequests?: number;
   public get maxPendingRequests() {
     return this.getNumberAttribute('max_pending_requests');
   }
@@ -3121,7 +3121,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttpList extends cdktn.
 }
 export interface AppmeshVirtualNodeSpecListenerConnectionPoolHttp2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_requests AppmeshVirtualNode#max_requests}
   */
   readonly maxRequests: number;
 }
@@ -3200,7 +3200,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttp2OutputReference ex
   }
 
   // max_requests - computed: false, optional: false, required: true
-  private _maxRequests?: number; 
+  private _maxRequests?: number;
   public get maxRequests() {
     return this.getNumberAttribute('max_requests');
   }
@@ -3234,7 +3234,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttp2List extends cdktn
 }
 export interface AppmeshVirtualNodeSpecListenerConnectionPoolTcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_connections AppmeshVirtualNode#max_connections}
   */
   readonly maxConnections: number;
 }
@@ -3313,7 +3313,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolTcpOutputReference exte
   }
 
   // max_connections - computed: false, optional: false, required: true
-  private _maxConnections?: number; 
+  private _maxConnections?: number;
   public get maxConnections() {
     return this.getNumberAttribute('max_connections');
   }
@@ -3349,25 +3349,25 @@ export interface AppmeshVirtualNodeSpecListenerConnectionPool {
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
   */
   readonly grpc?: AppmeshVirtualNodeSpecListenerConnectionPoolGrpc;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
   */
   readonly http?: AppmeshVirtualNodeSpecListenerConnectionPoolHttp[] | cdktn.IResolvable;
   /**
   * http2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
   */
   readonly http2?: AppmeshVirtualNodeSpecListenerConnectionPoolHttp2[] | cdktn.IResolvable;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
   */
   readonly tcp?: AppmeshVirtualNodeSpecListenerConnectionPoolTcp[] | cdktn.IResolvable;
 }
@@ -3538,31 +3538,31 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolOutputReference extends
 }
 export interface AppmeshVirtualNodeSpecListenerHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#healthy_threshold AppmeshVirtualNode#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#healthy_threshold AppmeshVirtualNode#healthy_threshold}
   */
   readonly healthyThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#interval_millis AppmeshVirtualNode#interval_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#interval_millis AppmeshVirtualNode#interval_millis}
   */
   readonly intervalMillis: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#path AppmeshVirtualNode#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#path AppmeshVirtualNode#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#port AppmeshVirtualNode#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#port AppmeshVirtualNode#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#protocol AppmeshVirtualNode#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#protocol AppmeshVirtualNode#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#timeout_millis AppmeshVirtualNode#timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#timeout_millis AppmeshVirtualNode#timeout_millis}
   */
   readonly timeoutMillis: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unhealthy_threshold AppmeshVirtualNode#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unhealthy_threshold AppmeshVirtualNode#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
 }
@@ -3707,7 +3707,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // healthy_threshold - computed: false, optional: false, required: true
-  private _healthyThreshold?: number; 
+  private _healthyThreshold?: number;
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -3720,7 +3720,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // interval_millis - computed: false, optional: false, required: true
-  private _intervalMillis?: number; 
+  private _intervalMillis?: number;
   public get intervalMillis() {
     return this.getNumberAttribute('interval_millis');
   }
@@ -3733,7 +3733,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -3749,7 +3749,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3765,7 +3765,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -3778,7 +3778,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // timeout_millis - computed: false, optional: false, required: true
-  private _timeoutMillis?: number; 
+  private _timeoutMillis?: number;
   public get timeoutMillis() {
     return this.getNumberAttribute('timeout_millis');
   }
@@ -3791,7 +3791,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // unhealthy_threshold - computed: false, optional: false, required: true
-  private _unhealthyThreshold?: number; 
+  private _unhealthyThreshold?: number;
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -3805,11 +3805,11 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
 }
 export interface AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -3889,7 +3889,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3902,7 +3902,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3916,11 +3916,11 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationO
 }
 export interface AppmeshVirtualNodeSpecListenerOutlierDetectionInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -4000,7 +4000,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReferen
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4013,7 +4013,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4027,23 +4027,23 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReferen
 }
 export interface AppmeshVirtualNodeSpecListenerOutlierDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_ejection_percent AppmeshVirtualNode#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_ejection_percent AppmeshVirtualNode#max_ejection_percent}
   */
   readonly maxEjectionPercent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#max_server_errors AppmeshVirtualNode#max_server_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#max_server_errors AppmeshVirtualNode#max_server_errors}
   */
   readonly maxServerErrors: number;
   /**
   * base_ejection_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#base_ejection_duration AppmeshVirtualNode#base_ejection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#base_ejection_duration AppmeshVirtualNode#base_ejection_duration}
   */
   readonly baseEjectionDuration: AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDuration;
   /**
   * interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#interval AppmeshVirtualNode#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#interval AppmeshVirtualNode#interval}
   */
   readonly interval: AppmeshVirtualNodeSpecListenerOutlierDetectionInterval;
 }
@@ -4149,7 +4149,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference exten
   }
 
   // max_ejection_percent - computed: false, optional: false, required: true
-  private _maxEjectionPercent?: number; 
+  private _maxEjectionPercent?: number;
   public get maxEjectionPercent() {
     return this.getNumberAttribute('max_ejection_percent');
   }
@@ -4162,7 +4162,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference exten
   }
 
   // max_server_errors - computed: false, optional: false, required: true
-  private _maxServerErrors?: number; 
+  private _maxServerErrors?: number;
   public get maxServerErrors() {
     return this.getNumberAttribute('max_server_errors');
   }
@@ -4202,11 +4202,11 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference exten
 }
 export interface AppmeshVirtualNodeSpecListenerPortMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#port AppmeshVirtualNode#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#port AppmeshVirtualNode#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#protocol AppmeshVirtualNode#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#protocol AppmeshVirtualNode#protocol}
   */
   readonly protocol: string;
 }
@@ -4286,7 +4286,7 @@ export class AppmeshVirtualNodeSpecListenerPortMappingOutputReference extends cd
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4299,7 +4299,7 @@ export class AppmeshVirtualNodeSpecListenerPortMappingOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -4313,11 +4313,11 @@ export class AppmeshVirtualNodeSpecListenerPortMappingOutputReference extends cd
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutGrpcIdle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -4397,7 +4397,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference extend
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4410,7 +4410,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4424,11 +4424,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference extend
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -4508,7 +4508,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4521,7 +4521,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4537,13 +4537,13 @@ export interface AppmeshVirtualNodeSpecListenerTimeoutGrpc {
   /**
   * idle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
   */
   readonly idle?: AppmeshVirtualNodeSpecListenerTimeoutGrpcIdle;
   /**
   * per_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
   */
   readonly perRequest?: AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequest;
 }
@@ -4656,11 +4656,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcOutputReference extends cd
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutHttpIdle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -4740,7 +4740,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference extend
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4753,7 +4753,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4767,11 +4767,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference extend
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -4851,7 +4851,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4864,7 +4864,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4880,13 +4880,13 @@ export interface AppmeshVirtualNodeSpecListenerTimeoutHttp {
   /**
   * idle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
   */
   readonly idle?: AppmeshVirtualNodeSpecListenerTimeoutHttpIdle;
   /**
   * per_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
   */
   readonly perRequest?: AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequest;
 }
@@ -4999,11 +4999,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpOutputReference extends cd
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutHttp2Idle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -5083,7 +5083,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference exten
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5096,7 +5096,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5110,11 +5110,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference exten
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -5194,7 +5194,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestOutputReference
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5207,7 +5207,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5223,13 +5223,13 @@ export interface AppmeshVirtualNodeSpecListenerTimeoutHttp2 {
   /**
   * idle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
   */
   readonly idle?: AppmeshVirtualNodeSpecListenerTimeoutHttp2Idle;
   /**
   * per_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#per_request AppmeshVirtualNode#per_request}
   */
   readonly perRequest?: AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequest;
 }
@@ -5342,11 +5342,11 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2OutputReference extends c
 }
 export interface AppmeshVirtualNodeSpecListenerTimeoutTcpIdle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#unit AppmeshVirtualNode#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: number;
 }
@@ -5426,7 +5426,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutTcpIdleOutputReference extends
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5439,7 +5439,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutTcpIdleOutputReference extends
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5455,7 +5455,7 @@ export interface AppmeshVirtualNodeSpecListenerTimeoutTcp {
   /**
   * idle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#idle AppmeshVirtualNode#idle}
   */
   readonly idle?: AppmeshVirtualNodeSpecListenerTimeoutTcpIdle;
 }
@@ -5541,25 +5541,25 @@ export interface AppmeshVirtualNodeSpecListenerTimeout {
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
   */
   readonly grpc?: AppmeshVirtualNodeSpecListenerTimeoutGrpc;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
   */
   readonly http?: AppmeshVirtualNodeSpecListenerTimeoutHttp;
   /**
   * http2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
   */
   readonly http2?: AppmeshVirtualNodeSpecListenerTimeoutHttp2;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
   */
   readonly tcp?: AppmeshVirtualNodeSpecListenerTimeoutTcp;
 }
@@ -5730,7 +5730,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutOutputReference extends cdktn.
 }
 export interface AppmeshVirtualNodeSpecListenerTlsCertificateAcm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_arn AppmeshVirtualNode#certificate_arn}
   */
   readonly certificateArn: string;
 }
@@ -5797,7 +5797,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference exte
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string; 
+  private _certificateArn?: string;
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -5811,11 +5811,11 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference exte
 }
 export interface AppmeshVirtualNodeSpecListenerTlsCertificateFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#private_key AppmeshVirtualNode#private_key}
   */
   readonly privateKey: string;
 }
@@ -5895,7 +5895,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference ext
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -5908,7 +5908,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference ext
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -5922,7 +5922,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference ext
 }
 export interface AppmeshVirtualNodeSpecListenerTlsCertificateSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -5989,7 +5989,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateSdsOutputReference exte
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -6005,19 +6005,19 @@ export interface AppmeshVirtualNodeSpecListenerTlsCertificate {
   /**
   * acm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#acm AppmeshVirtualNode#acm}
   */
   readonly acm?: AppmeshVirtualNodeSpecListenerTlsCertificateAcm;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecListenerTlsCertificateFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecListenerTlsCertificateSds;
 }
@@ -6159,7 +6159,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateOutputReference extends
 }
 export interface AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#exact AppmeshVirtualNode#exact}
   */
   readonly exact: string[];
 }
@@ -6226,7 +6226,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesM
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[]; 
+  private _exact?: string[];
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -6242,7 +6242,7 @@ export interface AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNa
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#match AppmeshVirtualNode#match}
   */
   readonly match: AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatch;
 }
@@ -6323,7 +6323,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesO
 }
 export interface AppmeshVirtualNodeSpecListenerTlsValidationTrustFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}
   */
   readonly certificateChain: string;
 }
@@ -6390,7 +6390,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationTrustFileOutputReference
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -6404,7 +6404,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationTrustFileOutputReference
 }
 export interface AppmeshVirtualNodeSpecListenerTlsValidationTrustSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#secret_name AppmeshVirtualNode#secret_name}
   */
   readonly secretName: string;
 }
@@ -6471,7 +6471,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationTrustSdsOutputReference 
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string; 
+  private _secretName?: string;
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -6487,13 +6487,13 @@ export interface AppmeshVirtualNodeSpecListenerTlsValidationTrust {
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecListenerTlsValidationTrustFile;
   /**
   * sds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
   */
   readonly sds?: AppmeshVirtualNodeSpecListenerTlsValidationTrustSds;
 }
@@ -6608,13 +6608,13 @@ export interface AppmeshVirtualNodeSpecListenerTlsValidation {
   /**
   * subject_alternative_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#subject_alternative_names AppmeshVirtualNode#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNames;
   /**
   * trust block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#trust AppmeshVirtualNode#trust}
   */
   readonly trust: AppmeshVirtualNodeSpecListenerTlsValidationTrust;
 }
@@ -6724,19 +6724,19 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationOutputReference extends 
 }
 export interface AppmeshVirtualNodeSpecListenerTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#mode AppmeshVirtualNode#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#mode AppmeshVirtualNode#mode}
   */
   readonly mode: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#certificate AppmeshVirtualNode#certificate}
   */
   readonly certificate: AppmeshVirtualNodeSpecListenerTlsCertificate;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#validation AppmeshVirtualNode#validation}
   */
   readonly validation?: AppmeshVirtualNodeSpecListenerTlsValidation;
 }
@@ -6829,7 +6829,7 @@ export class AppmeshVirtualNodeSpecListenerTlsOutputReference extends cdktn.Comp
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -6874,37 +6874,37 @@ export interface AppmeshVirtualNodeSpecListener {
   /**
   * connection_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#connection_pool AppmeshVirtualNode#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#connection_pool AppmeshVirtualNode#connection_pool}
   */
   readonly connectionPool?: AppmeshVirtualNodeSpecListenerConnectionPool;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#health_check AppmeshVirtualNode#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#health_check AppmeshVirtualNode#health_check}
   */
   readonly healthCheck?: AppmeshVirtualNodeSpecListenerHealthCheck;
   /**
   * outlier_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#outlier_detection AppmeshVirtualNode#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#outlier_detection AppmeshVirtualNode#outlier_detection}
   */
   readonly outlierDetection?: AppmeshVirtualNodeSpecListenerOutlierDetection;
   /**
   * port_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#port_mapping AppmeshVirtualNode#port_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#port_mapping AppmeshVirtualNode#port_mapping}
   */
   readonly portMapping: AppmeshVirtualNodeSpecListenerPortMapping;
   /**
   * timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#timeout AppmeshVirtualNode#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#timeout AppmeshVirtualNode#timeout}
   */
   readonly timeout?: AppmeshVirtualNodeSpecListenerTimeout;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#tls AppmeshVirtualNode#tls}
   */
   readonly tls?: AppmeshVirtualNodeSpecListenerTls;
 }
@@ -7162,11 +7162,11 @@ export class AppmeshVirtualNodeSpecListenerList extends cdktn.ComplexList {
 }
 export interface AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#key AppmeshVirtualNode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#key AppmeshVirtualNode#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#value AppmeshVirtualNode#value}
   */
   readonly value: string;
 }
@@ -7258,7 +7258,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7271,7 +7271,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7305,13 +7305,13 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonList extends cd
 }
 export interface AppmeshVirtualNodeSpecLoggingAccessLogFileFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#text AppmeshVirtualNode#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#text AppmeshVirtualNode#text}
   */
   readonly text?: string;
   /**
   * json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#json AppmeshVirtualNode#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#json AppmeshVirtualNode#json}
   */
   readonly json?: AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson[] | cdktn.IResolvable;
 }
@@ -7391,7 +7391,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference ext
   }
 
   // text - computed: false, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -7424,13 +7424,13 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference ext
 }
 export interface AppmeshVirtualNodeSpecLoggingAccessLogFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#path AppmeshVirtualNode#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#path AppmeshVirtualNode#path}
   */
   readonly path: string;
   /**
   * format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#format AppmeshVirtualNode#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#format AppmeshVirtualNode#format}
   */
   readonly format?: AppmeshVirtualNodeSpecLoggingAccessLogFileFormat;
 }
@@ -7510,7 +7510,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileOutputReference extends c
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -7542,7 +7542,7 @@ export interface AppmeshVirtualNodeSpecLoggingAccessLog {
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
   */
   readonly file?: AppmeshVirtualNodeSpecLoggingAccessLogFile;
 }
@@ -7628,7 +7628,7 @@ export interface AppmeshVirtualNodeSpecLogging {
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#access_log AppmeshVirtualNode#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#access_log AppmeshVirtualNode#access_log}
   */
   readonly accessLog?: AppmeshVirtualNodeSpecLoggingAccessLog;
 }
@@ -7712,15 +7712,15 @@ export class AppmeshVirtualNodeSpecLoggingOutputReference extends cdktn.ComplexO
 }
 export interface AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#attributes AppmeshVirtualNode#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#attributes AppmeshVirtualNode#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#namespace_name AppmeshVirtualNode#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#namespace_name AppmeshVirtualNode#namespace_name}
   */
   readonly namespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#service_name AppmeshVirtualNode#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#service_name AppmeshVirtualNode#service_name}
   */
   readonly serviceName: string;
 }
@@ -7813,7 +7813,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -7829,7 +7829,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string; 
+  private _namespaceName?: string;
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -7842,7 +7842,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string; 
+  private _serviceName?: string;
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -7856,15 +7856,15 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
 }
 export interface AppmeshVirtualNodeSpecServiceDiscoveryDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#hostname AppmeshVirtualNode#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#hostname AppmeshVirtualNode#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#ip_preference AppmeshVirtualNode#ip_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#ip_preference AppmeshVirtualNode#ip_preference}
   */
   readonly ipPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#response_type AppmeshVirtualNode#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#response_type AppmeshVirtualNode#response_type}
   */
   readonly responseType?: string;
 }
@@ -7957,7 +7957,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // hostname - computed: false, optional: false, required: true
-  private _hostname?: string; 
+  private _hostname?: string;
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -7970,7 +7970,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // ip_preference - computed: false, optional: true, required: false
-  private _ipPreference?: string; 
+  private _ipPreference?: string;
   public get ipPreference() {
     return this.getStringAttribute('ip_preference');
   }
@@ -7986,7 +7986,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // response_type - computed: false, optional: true, required: false
-  private _responseType?: string; 
+  private _responseType?: string;
   public get responseType() {
     return this.getStringAttribute('response_type');
   }
@@ -8005,13 +8005,13 @@ export interface AppmeshVirtualNodeSpecServiceDiscovery {
   /**
   * aws_cloud_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
   */
   readonly awsCloudMap?: AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMap;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
   */
   readonly dns?: AppmeshVirtualNodeSpecServiceDiscoveryDns;
 }
@@ -8126,31 +8126,31 @@ export interface AppmeshVirtualNodeSpec {
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#backend AppmeshVirtualNode#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#backend AppmeshVirtualNode#backend}
   */
   readonly backend?: AppmeshVirtualNodeSpecBackend[] | cdktn.IResolvable;
   /**
   * backend_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#backend_defaults AppmeshVirtualNode#backend_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#backend_defaults AppmeshVirtualNode#backend_defaults}
   */
   readonly backendDefaults?: AppmeshVirtualNodeSpecBackendDefaults;
   /**
   * listener block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#listener AppmeshVirtualNode#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#listener AppmeshVirtualNode#listener}
   */
   readonly listener?: AppmeshVirtualNodeSpecListener[] | cdktn.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#logging AppmeshVirtualNode#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#logging AppmeshVirtualNode#logging}
   */
   readonly logging?: AppmeshVirtualNodeSpecLogging;
   /**
   * service_discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#service_discovery AppmeshVirtualNode#service_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#service_discovery AppmeshVirtualNode#service_discovery}
   */
   readonly serviceDiscovery?: AppmeshVirtualNodeSpecServiceDiscovery;
 }
@@ -8350,7 +8350,7 @@ export class AppmeshVirtualNodeSpecOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node}
 */
 export class AppmeshVirtualNode extends cdktn.TerraformResource {
 
@@ -8366,7 +8366,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppmeshVirtualNode resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppmeshVirtualNode to import
-  * @param importFromId The id of the existing AppmeshVirtualNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppmeshVirtualNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppmeshVirtualNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8378,7 +8378,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8389,7 +8389,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appmesh_virtual_node',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8424,7 +8424,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -8445,7 +8445,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // mesh_name - computed: false, optional: false, required: true
-  private _meshName?: string; 
+  private _meshName?: string;
   public get meshName() {
     return this.getStringAttribute('mesh_name');
   }
@@ -8458,7 +8458,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // mesh_owner - computed: true, optional: true, required: false
-  private _meshOwner?: string; 
+  private _meshOwner?: string;
   public get meshOwner() {
     return this.getStringAttribute('mesh_owner');
   }
@@ -8474,7 +8474,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8487,7 +8487,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -8508,7 +8508,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -8524,7 +8524,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

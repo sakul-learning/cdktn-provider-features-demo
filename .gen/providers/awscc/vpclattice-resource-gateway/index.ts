@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeResourceGatewayConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#ip_address_type VpclatticeResourceGateway#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * The number of IPv4 addresses to allocate per ENI for the resource gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#ipv_4_addresses_per_eni VpclatticeResourceGateway#ipv_4_addresses_per_eni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#ipv_4_addresses_per_eni VpclatticeResourceGateway#ipv_4_addresses_per_eni}
   */
   readonly ipv4AddressesPerEni?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#name VpclatticeResourceGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#resource_config_dns_resolution VpclatticeResourceGateway#resource_config_dns_resolution}
   */
   readonly resourceConfigDnsResolution?: string;
   /**
   * The ID of one or more security groups to associate with the endpoint network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#security_group_ids VpclatticeResourceGateway#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#security_group_ids VpclatticeResourceGateway#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of one or more subnets in which to create an endpoint network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#subnet_ids VpclatticeResourceGateway#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#subnet_ids VpclatticeResourceGateway#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#tags VpclatticeResourceGateway#tags}
   */
   readonly tags?: VpclatticeResourceGatewayTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#vpc_identifier VpclatticeResourceGateway#vpc_identifier}
   */
   readonly vpcIdentifier: string;
 }
 export interface VpclatticeResourceGatewayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#key VpclatticeResourceGateway#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#value VpclatticeResourceGateway#value}
   */
   readonly value?: string;
 }
@@ -144,7 +144,7 @@ export class VpclatticeResourceGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class VpclatticeResourceGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -197,7 +197,7 @@ export class VpclatticeResourceGatewayTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}
 */
 export class VpclatticeResourceGateway extends cdktn.TerraformResource {
 
@@ -213,7 +213,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeResourceGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeResourceGateway to import
-  * @param importFromId The id of the existing VpclatticeResourceGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeResourceGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeResourceGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -225,7 +225,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,7 +236,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_resource_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -271,7 +271,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -287,7 +287,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ipv_4_addresses_per_eni - computed: true, optional: true, required: false
-  private _ipv4AddressesPerEni?: number; 
+  private _ipv4AddressesPerEni?: number;
   public get ipv4AddressesPerEni() {
     return this.getNumberAttribute('ipv_4_addresses_per_eni');
   }
@@ -303,7 +303,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -316,7 +316,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // resource_config_dns_resolution - computed: true, optional: true, required: false
-  private _resourceConfigDnsResolution?: string; 
+  private _resourceConfigDnsResolution?: string;
   public get resourceConfigDnsResolution() {
     return this.getStringAttribute('resource_config_dns_resolution');
   }
@@ -337,7 +337,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -353,7 +353,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -382,7 +382,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // vpc_identifier - computed: false, optional: false, required: true
-  private _vpcIdentifier?: string; 
+  private _vpcIdentifier?: string;
   public get vpcIdentifier() {
     return this.getStringAttribute('vpc_identifier');
   }

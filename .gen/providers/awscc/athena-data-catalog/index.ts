@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface AthenaDataCatalogConfig extends cdktn.TerraformMetaArguments {
   /**
   * The type of connection for a FEDERATED data catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#connection_type AthenaDataCatalog#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#connection_type AthenaDataCatalog#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * A description of the data catalog to be created. 
+  * A description of the data catalog to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#description AthenaDataCatalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#description AthenaDataCatalog#description}
   */
   readonly description?: string;
   /**
   * Text of the error that occurred during data catalog creation or deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#error AthenaDataCatalog#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#error AthenaDataCatalog#error}
   */
   readonly error?: string;
   /**
-  * The name of the data catalog to create. The catalog name must be unique for the AWS account and can use a maximum of 128 alphanumeric, underscore, at sign, or hyphen characters. 
+  * The name of the data catalog to create. The catalog name must be unique for the AWS account and can use a maximum of 128 alphanumeric, underscore, at sign, or hyphen characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#name AthenaDataCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#name AthenaDataCatalog#name}
   */
   readonly name: string;
   /**
-  * Specifies the Lambda function or functions to use for creating the data catalog. This is a mapping whose values depend on the catalog type. 
+  * Specifies the Lambda function or functions to use for creating the data catalog. This is a mapping whose values depend on the catalog type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#parameters AthenaDataCatalog#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#parameters AthenaDataCatalog#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The status of the creation or deletion of the data catalog. LAMBDA, GLUE, and HIVE data catalog types are created synchronously. Their status is either CREATE_COMPLETE or CREATE_FAILED. The FEDERATED data catalog type is created asynchronously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#status AthenaDataCatalog#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#status AthenaDataCatalog#status}
   */
   readonly status?: string;
   /**
-  * A list of comma separated tags to add to the data catalog that is created. 
+  * A list of comma separated tags to add to the data catalog that is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#tags AthenaDataCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#tags AthenaDataCatalog#tags}
   */
   readonly tags?: AthenaDataCatalogTags[] | cdktn.IResolvable;
   /**
   * The type of data catalog to create: LAMBDA for a federated catalog, GLUE for AWS Glue Catalog, or HIVE for an external hive metastore. FEDERATED is a federated catalog for which Athena creates the connection and the Lambda function for you based on the parameters that you pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#type AthenaDataCatalog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#type AthenaDataCatalog#type}
   */
   readonly type: string;
 }
 export interface AthenaDataCatalogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}
   */
   readonly value?: string;
 }
@@ -154,7 +154,7 @@ export class AthenaDataCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -170,7 +170,7 @@ export class AthenaDataCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -207,7 +207,7 @@ export class AthenaDataCatalogTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}
 */
 export class AthenaDataCatalog extends cdktn.TerraformResource {
 
@@ -223,7 +223,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AthenaDataCatalog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AthenaDataCatalog to import
-  * @param importFromId The id of the existing AthenaDataCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AthenaDataCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AthenaDataCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -235,7 +235,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +246,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_athena_data_catalog',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -271,7 +271,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   // ==========
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string; 
+  private _connectionType?: string;
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -287,7 +287,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -303,7 +303,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // error - computed: true, optional: true, required: false
-  private _error?: string; 
+  private _error?: string;
   public get error() {
     return this.getStringAttribute('error');
   }
@@ -324,7 +324,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -337,7 +337,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -353,7 +353,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -385,7 +385,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

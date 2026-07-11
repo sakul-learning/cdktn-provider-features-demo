@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,174 +8,174 @@ import * as cdktn from 'cdktn';
 
 export interface EmrClusterConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}
   */
   readonly additionalInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#applications EmrCluster#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#applications EmrCluster#applications}
   */
   readonly applications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#autoscaling_role EmrCluster#autoscaling_role}
   */
   readonly autoscalingRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
   */
   readonly configurations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#configurations_json EmrCluster#configurations_json}
   */
   readonly configurationsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}
   */
   readonly customAmiId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}
   */
   readonly ebsRootVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#id EmrCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#id EmrCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}
   */
   readonly keepJobFlowAliveWhenNoSteps?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#list_steps_states EmrCluster#list_steps_states}
   */
   readonly listStepsStates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#log_encryption_kms_key_id EmrCluster#log_encryption_kms_key_id}
   */
   readonly logEncryptionKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}
   */
   readonly logUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#os_release_label EmrCluster#os_release_label}
   */
   readonly osReleaseLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#placement_group_config EmrCluster#placement_group_config}
   */
   readonly placementGroupConfig?: EmrClusterPlacementGroupConfig[] | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#region EmrCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#region EmrCluster#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#release_label EmrCluster#release_label}
   */
   readonly releaseLabel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}
   */
   readonly scaleDownBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#security_configuration EmrCluster#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#service_role EmrCluster#service_role}
   */
   readonly serviceRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#step EmrCluster#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#step EmrCluster#step}
   */
   readonly step?: EmrClusterStep[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}
   */
   readonly stepConcurrencyLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#tags EmrCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#tags EmrCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#tags_all EmrCluster#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#unhealthy_node_replacement EmrCluster#unhealthy_node_replacement}
   */
   readonly unhealthyNodeReplacement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}
   */
   readonly visibleToAllUsers?: boolean | cdktn.IResolvable;
   /**
   * auto_termination_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#auto_termination_policy EmrCluster#auto_termination_policy}
   */
   readonly autoTerminationPolicy?: EmrClusterAutoTerminationPolicy;
   /**
   * bootstrap_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
   */
   readonly bootstrapAction?: EmrClusterBootstrapAction[] | cdktn.IResolvable;
   /**
   * core_instance_fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#core_instance_fleet EmrCluster#core_instance_fleet}
   */
   readonly coreInstanceFleet?: EmrClusterCoreInstanceFleet;
   /**
   * core_instance_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#core_instance_group EmrCluster#core_instance_group}
   */
   readonly coreInstanceGroup?: EmrClusterCoreInstanceGroup;
   /**
   * ec2_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ec2_attributes EmrCluster#ec2_attributes}
   */
   readonly ec2Attributes?: EmrClusterEc2Attributes;
   /**
   * kerberos_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#kerberos_attributes EmrCluster#kerberos_attributes}
   */
   readonly kerberosAttributes?: EmrClusterKerberosAttributes;
   /**
   * master_instance_fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#master_instance_fleet EmrCluster#master_instance_fleet}
   */
   readonly masterInstanceFleet?: EmrClusterMasterInstanceFleet;
   /**
   * master_instance_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#master_instance_group EmrCluster#master_instance_group}
   */
   readonly masterInstanceGroup?: EmrClusterMasterInstanceGroup;
 }
 export interface EmrClusterPlacementGroupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_role EmrCluster#instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_role EmrCluster#instance_role}
   */
   readonly instanceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#placement_strategy EmrCluster#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#placement_strategy EmrCluster#placement_strategy}
   */
   readonly placementStrategy?: string;
 }
@@ -267,7 +267,7 @@ export class EmrClusterPlacementGroupConfigOutputReference extends cdktn.Complex
   }
 
   // instance_role - computed: false, optional: true, required: false
-  private _instanceRole?: string; 
+  private _instanceRole?: string;
   public get instanceRole() {
     return this.getStringAttribute('instance_role');
   }
@@ -283,7 +283,7 @@ export class EmrClusterPlacementGroupConfigOutputReference extends cdktn.Complex
   }
 
   // placement_strategy - computed: false, optional: true, required: false
-  private _placementStrategy?: string; 
+  private _placementStrategy?: string;
   public get placementStrategy() {
     return this.getStringAttribute('placement_strategy');
   }
@@ -320,19 +320,19 @@ export class EmrClusterPlacementGroupConfigList extends cdktn.ComplexList {
 }
 export interface EmrClusterStepHadoopJarStep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#args EmrCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#args EmrCluster#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#jar EmrCluster#jar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#jar EmrCluster#jar}
   */
   readonly jar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#main_class EmrCluster#main_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#main_class EmrCluster#main_class}
   */
   readonly mainClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#properties EmrCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#properties EmrCluster#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -450,7 +450,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -466,7 +466,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // jar - computed: true, optional: true, required: false
-  private _jar?: string; 
+  private _jar?: string;
   public get jar() {
     return this.getStringAttribute('jar');
   }
@@ -482,7 +482,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // main_class - computed: true, optional: true, required: false
-  private _mainClass?: string; 
+  private _mainClass?: string;
   public get mainClass() {
     return this.getStringAttribute('main_class');
   }
@@ -498,7 +498,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -535,15 +535,15 @@ export class EmrClusterStepHadoopJarStepList extends cdktn.ComplexList {
 }
 export interface EmrClusterStep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}
   */
   readonly actionOnFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}
   */
   readonly hadoopJarStep?: EmrClusterStepHadoopJarStep[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
 }
@@ -648,7 +648,7 @@ export class EmrClusterStepOutputReference extends cdktn.ComplexObject {
   }
 
   // action_on_failure - computed: true, optional: true, required: false
-  private _actionOnFailure?: string; 
+  private _actionOnFailure?: string;
   public get actionOnFailure() {
     return this.getStringAttribute('action_on_failure');
   }
@@ -680,7 +680,7 @@ export class EmrClusterStepOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -717,7 +717,7 @@ export class EmrClusterStepList extends cdktn.ComplexList {
 }
 export interface EmrClusterAutoTerminationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#idle_timeout EmrCluster#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#idle_timeout EmrCluster#idle_timeout}
   */
   readonly idleTimeout?: number;
 }
@@ -784,7 +784,7 @@ export class EmrClusterAutoTerminationPolicyOutputReference extends cdktn.Comple
   }
 
   // idle_timeout - computed: false, optional: true, required: false
-  private _idleTimeout?: number; 
+  private _idleTimeout?: number;
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -801,15 +801,15 @@ export class EmrClusterAutoTerminationPolicyOutputReference extends cdktn.Comple
 }
 export interface EmrClusterBootstrapAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#args EmrCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#args EmrCluster#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#path EmrCluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#path EmrCluster#path}
   */
   readonly path: string;
 }
@@ -914,7 +914,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // args - computed: false, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -930,7 +930,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -943,7 +943,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -977,11 +977,11 @@ export class EmrClusterBootstrapActionList extends cdktn.ComplexList {
 }
 export interface EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#classification EmrCluster#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#classification EmrCluster#classification}
   */
   readonly classification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#properties EmrCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#properties EmrCluster#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -1073,7 +1073,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputR
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -1089,7 +1089,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputR
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -1126,19 +1126,19 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsList ex
 }
 export interface EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#iops EmrCluster#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#iops EmrCluster#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#size EmrCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#size EmrCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#type EmrCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#type EmrCluster#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
   */
   readonly volumesPerInstance?: number;
 }
@@ -1256,7 +1256,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -1272,7 +1272,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1285,7 +1285,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1298,7 +1298,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number; 
+  private _volumesPerInstance?: number;
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -1335,31 +1335,31 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigList extends
 }
 export interface EmrClusterCoreInstanceFleetInstanceTypeConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
   */
   readonly bidPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}
   */
   readonly bidPriceAsPercentageOfOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}
   */
   readonly weightedCapacity?: number;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
   */
   readonly configurations?: EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurations[] | cdktn.IResolvable;
   /**
   * ebs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
   */
   readonly ebsConfig?: EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig[] | cdktn.IResolvable;
 }
@@ -1503,7 +1503,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string; 
+  private _bidPrice?: string;
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -1519,7 +1519,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // bid_price_as_percentage_of_on_demand_price - computed: false, optional: true, required: false
-  private _bidPriceAsPercentageOfOnDemandPrice?: number; 
+  private _bidPriceAsPercentageOfOnDemandPrice?: number;
   public get bidPriceAsPercentageOfOnDemandPrice() {
     return this.getNumberAttribute('bid_price_as_percentage_of_on_demand_price');
   }
@@ -1535,7 +1535,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1548,7 +1548,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number; 
+  private _weightedCapacity?: number;
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -1617,7 +1617,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsList extends cdktn.Co
 }
 export interface EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
   */
   readonly allocationStrategy: string;
 }
@@ -1696,7 +1696,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificatio
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -1730,19 +1730,19 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificatio
 }
 export interface EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
   */
   readonly allocationStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}
   */
   readonly blockDurationMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}
   */
   readonly timeoutAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}
   */
   readonly timeoutDurationMinutes: number;
 }
@@ -1860,7 +1860,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -1873,7 +1873,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // block_duration_minutes - computed: false, optional: true, required: false
-  private _blockDurationMinutes?: number; 
+  private _blockDurationMinutes?: number;
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -1889,7 +1889,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // timeout_action - computed: false, optional: false, required: true
-  private _timeoutAction?: string; 
+  private _timeoutAction?: string;
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -1902,7 +1902,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // timeout_duration_minutes - computed: false, optional: false, required: true
-  private _timeoutDurationMinutes?: number; 
+  private _timeoutDurationMinutes?: number;
   public get timeoutDurationMinutes() {
     return this.getNumberAttribute('timeout_duration_minutes');
   }
@@ -1938,13 +1938,13 @@ export interface EmrClusterCoreInstanceFleetLaunchSpecifications {
   /**
   * on_demand_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
   */
   readonly onDemandSpecification?: EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification[] | cdktn.IResolvable;
   /**
   * spot_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
   */
   readonly spotSpecification?: EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecification[] | cdktn.IResolvable;
 }
@@ -2057,27 +2057,27 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsOutputReference exte
 }
 export interface EmrClusterCoreInstanceFleet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#target_on_demand_capacity EmrCluster#target_on_demand_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#target_on_demand_capacity EmrCluster#target_on_demand_capacity}
   */
   readonly targetOnDemandCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#target_spot_capacity EmrCluster#target_spot_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#target_spot_capacity EmrCluster#target_spot_capacity}
   */
   readonly targetSpotCapacity?: number;
   /**
   * instance_type_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type_configs EmrCluster#instance_type_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type_configs EmrCluster#instance_type_configs}
   */
   readonly instanceTypeConfigs?: EmrClusterCoreInstanceFleetInstanceTypeConfigs[] | cdktn.IResolvable;
   /**
   * launch_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#launch_specifications EmrCluster#launch_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#launch_specifications EmrCluster#launch_specifications}
   */
   readonly launchSpecifications?: EmrClusterCoreInstanceFleetLaunchSpecifications;
 }
@@ -2201,7 +2201,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2227,7 +2227,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // target_on_demand_capacity - computed: false, optional: true, required: false
-  private _targetOnDemandCapacity?: number; 
+  private _targetOnDemandCapacity?: number;
   public get targetOnDemandCapacity() {
     return this.getNumberAttribute('target_on_demand_capacity');
   }
@@ -2243,7 +2243,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // target_spot_capacity - computed: false, optional: true, required: false
-  private _targetSpotCapacity?: number; 
+  private _targetSpotCapacity?: number;
   public get targetSpotCapacity() {
     return this.getNumberAttribute('target_spot_capacity');
   }
@@ -2292,23 +2292,23 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
 }
 export interface EmrClusterCoreInstanceGroupEbsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#iops EmrCluster#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#iops EmrCluster#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#size EmrCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#size EmrCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#throughput EmrCluster#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#throughput EmrCluster#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#type EmrCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#type EmrCluster#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
   */
   readonly volumesPerInstance?: number;
 }
@@ -2439,7 +2439,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -2455,7 +2455,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -2468,7 +2468,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // throughput - computed: false, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -2484,7 +2484,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2497,7 +2497,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number; 
+  private _volumesPerInstance?: number;
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -2534,29 +2534,29 @@ export class EmrClusterCoreInstanceGroupEbsConfigList extends cdktn.ComplexList 
 }
 export interface EmrClusterCoreInstanceGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#autoscaling_policy EmrCluster#autoscaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#autoscaling_policy EmrCluster#autoscaling_policy}
   */
   readonly autoscalingPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
   */
   readonly bidPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
   /**
   * ebs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
   */
   readonly ebsConfig?: EmrClusterCoreInstanceGroupEbsConfig[] | cdktn.IResolvable;
 }
@@ -2688,7 +2688,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // autoscaling_policy - computed: false, optional: true, required: false
-  private _autoscalingPolicy?: string; 
+  private _autoscalingPolicy?: string;
   public get autoscalingPolicy() {
     return this.getStringAttribute('autoscaling_policy');
   }
@@ -2704,7 +2704,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string; 
+  private _bidPrice?: string;
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -2725,7 +2725,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2741,7 +2741,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2754,7 +2754,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2787,39 +2787,39 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
 }
 export interface EmrClusterEc2Attributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#additional_master_security_groups EmrCluster#additional_master_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#additional_master_security_groups EmrCluster#additional_master_security_groups}
   */
   readonly additionalMasterSecurityGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#additional_slave_security_groups EmrCluster#additional_slave_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#additional_slave_security_groups EmrCluster#additional_slave_security_groups}
   */
   readonly additionalSlaveSecurityGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#emr_managed_master_security_group EmrCluster#emr_managed_master_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#emr_managed_master_security_group EmrCluster#emr_managed_master_security_group}
   */
   readonly emrManagedMasterSecurityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#emr_managed_slave_security_group EmrCluster#emr_managed_slave_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#emr_managed_slave_security_group EmrCluster#emr_managed_slave_security_group}
   */
   readonly emrManagedSlaveSecurityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_profile EmrCluster#instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_profile EmrCluster#instance_profile}
   */
   readonly instanceProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#key_name EmrCluster#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#key_name EmrCluster#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#service_access_security_group EmrCluster#service_access_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#service_access_security_group EmrCluster#service_access_security_group}
   */
   readonly serviceAccessSecurityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#subnet_id EmrCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#subnet_id EmrCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#subnet_ids EmrCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#subnet_ids EmrCluster#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -2990,7 +2990,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // additional_master_security_groups - computed: false, optional: true, required: false
-  private _additionalMasterSecurityGroups?: string; 
+  private _additionalMasterSecurityGroups?: string;
   public get additionalMasterSecurityGroups() {
     return this.getStringAttribute('additional_master_security_groups');
   }
@@ -3006,7 +3006,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // additional_slave_security_groups - computed: false, optional: true, required: false
-  private _additionalSlaveSecurityGroups?: string; 
+  private _additionalSlaveSecurityGroups?: string;
   public get additionalSlaveSecurityGroups() {
     return this.getStringAttribute('additional_slave_security_groups');
   }
@@ -3022,7 +3022,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // emr_managed_master_security_group - computed: true, optional: true, required: false
-  private _emrManagedMasterSecurityGroup?: string; 
+  private _emrManagedMasterSecurityGroup?: string;
   public get emrManagedMasterSecurityGroup() {
     return this.getStringAttribute('emr_managed_master_security_group');
   }
@@ -3038,7 +3038,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // emr_managed_slave_security_group - computed: true, optional: true, required: false
-  private _emrManagedSlaveSecurityGroup?: string; 
+  private _emrManagedSlaveSecurityGroup?: string;
   public get emrManagedSlaveSecurityGroup() {
     return this.getStringAttribute('emr_managed_slave_security_group');
   }
@@ -3054,7 +3054,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // instance_profile - computed: false, optional: false, required: true
-  private _instanceProfile?: string; 
+  private _instanceProfile?: string;
   public get instanceProfile() {
     return this.getStringAttribute('instance_profile');
   }
@@ -3067,7 +3067,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // key_name - computed: false, optional: true, required: false
-  private _keyName?: string; 
+  private _keyName?: string;
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -3083,7 +3083,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // service_access_security_group - computed: true, optional: true, required: false
-  private _serviceAccessSecurityGroup?: string; 
+  private _serviceAccessSecurityGroup?: string;
   public get serviceAccessSecurityGroup() {
     return this.getStringAttribute('service_access_security_group');
   }
@@ -3099,7 +3099,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3115,7 +3115,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -3132,23 +3132,23 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
 }
 export interface EmrClusterKerberosAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ad_domain_join_password EmrCluster#ad_domain_join_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ad_domain_join_password EmrCluster#ad_domain_join_password}
   */
   readonly adDomainJoinPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ad_domain_join_user EmrCluster#ad_domain_join_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ad_domain_join_user EmrCluster#ad_domain_join_user}
   */
   readonly adDomainJoinUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#cross_realm_trust_principal_password EmrCluster#cross_realm_trust_principal_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#cross_realm_trust_principal_password EmrCluster#cross_realm_trust_principal_password}
   */
   readonly crossRealmTrustPrincipalPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#kdc_admin_password EmrCluster#kdc_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#kdc_admin_password EmrCluster#kdc_admin_password}
   */
   readonly kdcAdminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#realm EmrCluster#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#realm EmrCluster#realm}
   */
   readonly realm: string;
 }
@@ -3267,7 +3267,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // ad_domain_join_password - computed: false, optional: true, required: false
-  private _adDomainJoinPassword?: string; 
+  private _adDomainJoinPassword?: string;
   public get adDomainJoinPassword() {
     return this.getStringAttribute('ad_domain_join_password');
   }
@@ -3283,7 +3283,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // ad_domain_join_user - computed: false, optional: true, required: false
-  private _adDomainJoinUser?: string; 
+  private _adDomainJoinUser?: string;
   public get adDomainJoinUser() {
     return this.getStringAttribute('ad_domain_join_user');
   }
@@ -3299,7 +3299,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // cross_realm_trust_principal_password - computed: false, optional: true, required: false
-  private _crossRealmTrustPrincipalPassword?: string; 
+  private _crossRealmTrustPrincipalPassword?: string;
   public get crossRealmTrustPrincipalPassword() {
     return this.getStringAttribute('cross_realm_trust_principal_password');
   }
@@ -3315,7 +3315,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // kdc_admin_password - computed: false, optional: false, required: true
-  private _kdcAdminPassword?: string; 
+  private _kdcAdminPassword?: string;
   public get kdcAdminPassword() {
     return this.getStringAttribute('kdc_admin_password');
   }
@@ -3328,7 +3328,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // realm - computed: false, optional: false, required: true
-  private _realm?: string; 
+  private _realm?: string;
   public get realm() {
     return this.getStringAttribute('realm');
   }
@@ -3342,11 +3342,11 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
 }
 export interface EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#classification EmrCluster#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#classification EmrCluster#classification}
   */
   readonly classification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#properties EmrCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#properties EmrCluster#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -3438,7 +3438,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutpu
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -3454,7 +3454,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutpu
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -3491,19 +3491,19 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsList 
 }
 export interface EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#iops EmrCluster#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#iops EmrCluster#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#size EmrCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#size EmrCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#type EmrCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#type EmrCluster#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
   */
   readonly volumesPerInstance?: number;
 }
@@ -3621,7 +3621,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3637,7 +3637,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -3650,7 +3650,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3663,7 +3663,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number; 
+  private _volumesPerInstance?: number;
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -3700,31 +3700,31 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigList exten
 }
 export interface EmrClusterMasterInstanceFleetInstanceTypeConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
   */
   readonly bidPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}
   */
   readonly bidPriceAsPercentageOfOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}
   */
   readonly weightedCapacity?: number;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
   */
   readonly configurations?: EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations[] | cdktn.IResolvable;
   /**
   * ebs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
   */
   readonly ebsConfig?: EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig[] | cdktn.IResolvable;
 }
@@ -3868,7 +3868,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string; 
+  private _bidPrice?: string;
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -3884,7 +3884,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // bid_price_as_percentage_of_on_demand_price - computed: false, optional: true, required: false
-  private _bidPriceAsPercentageOfOnDemandPrice?: number; 
+  private _bidPriceAsPercentageOfOnDemandPrice?: number;
   public get bidPriceAsPercentageOfOnDemandPrice() {
     return this.getNumberAttribute('bid_price_as_percentage_of_on_demand_price');
   }
@@ -3900,7 +3900,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3913,7 +3913,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number; 
+  private _weightedCapacity?: number;
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -3982,7 +3982,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsList extends cdktn.
 }
 export interface EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
   */
   readonly allocationStrategy: string;
 }
@@ -4061,7 +4061,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificat
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4095,19 +4095,19 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificat
 }
 export interface EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#allocation_strategy EmrCluster#allocation_strategy}
   */
   readonly allocationStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#block_duration_minutes EmrCluster#block_duration_minutes}
   */
   readonly blockDurationMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#timeout_action EmrCluster#timeout_action}
   */
   readonly timeoutAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#timeout_duration_minutes EmrCluster#timeout_duration_minutes}
   */
   readonly timeoutDurationMinutes: number;
 }
@@ -4225,7 +4225,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4238,7 +4238,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // block_duration_minutes - computed: false, optional: true, required: false
-  private _blockDurationMinutes?: number; 
+  private _blockDurationMinutes?: number;
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -4254,7 +4254,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // timeout_action - computed: false, optional: false, required: true
-  private _timeoutAction?: string; 
+  private _timeoutAction?: string;
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -4267,7 +4267,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // timeout_duration_minutes - computed: false, optional: false, required: true
-  private _timeoutDurationMinutes?: number; 
+  private _timeoutDurationMinutes?: number;
   public get timeoutDurationMinutes() {
     return this.getNumberAttribute('timeout_duration_minutes');
   }
@@ -4303,13 +4303,13 @@ export interface EmrClusterMasterInstanceFleetLaunchSpecifications {
   /**
   * on_demand_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
   */
   readonly onDemandSpecification?: EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification[] | cdktn.IResolvable;
   /**
   * spot_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
   */
   readonly spotSpecification?: EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification[] | cdktn.IResolvable;
 }
@@ -4422,27 +4422,27 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsOutputReference ex
 }
 export interface EmrClusterMasterInstanceFleet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#target_on_demand_capacity EmrCluster#target_on_demand_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#target_on_demand_capacity EmrCluster#target_on_demand_capacity}
   */
   readonly targetOnDemandCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#target_spot_capacity EmrCluster#target_spot_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#target_spot_capacity EmrCluster#target_spot_capacity}
   */
   readonly targetSpotCapacity?: number;
   /**
   * instance_type_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type_configs EmrCluster#instance_type_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type_configs EmrCluster#instance_type_configs}
   */
   readonly instanceTypeConfigs?: EmrClusterMasterInstanceFleetInstanceTypeConfigs[] | cdktn.IResolvable;
   /**
   * launch_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#launch_specifications EmrCluster#launch_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#launch_specifications EmrCluster#launch_specifications}
   */
   readonly launchSpecifications?: EmrClusterMasterInstanceFleetLaunchSpecifications;
 }
@@ -4566,7 +4566,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4592,7 +4592,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // target_on_demand_capacity - computed: false, optional: true, required: false
-  private _targetOnDemandCapacity?: number; 
+  private _targetOnDemandCapacity?: number;
   public get targetOnDemandCapacity() {
     return this.getNumberAttribute('target_on_demand_capacity');
   }
@@ -4608,7 +4608,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // target_spot_capacity - computed: false, optional: true, required: false
-  private _targetSpotCapacity?: number; 
+  private _targetSpotCapacity?: number;
   public get targetSpotCapacity() {
     return this.getNumberAttribute('target_spot_capacity');
   }
@@ -4657,23 +4657,23 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
 }
 export interface EmrClusterMasterInstanceGroupEbsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#iops EmrCluster#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#iops EmrCluster#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#size EmrCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#size EmrCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#throughput EmrCluster#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#throughput EmrCluster#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#type EmrCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#type EmrCluster#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#volumes_per_instance EmrCluster#volumes_per_instance}
   */
   readonly volumesPerInstance?: number;
 }
@@ -4804,7 +4804,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -4820,7 +4820,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -4833,7 +4833,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // throughput - computed: false, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -4849,7 +4849,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4862,7 +4862,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number; 
+  private _volumesPerInstance?: number;
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -4899,25 +4899,25 @@ export class EmrClusterMasterInstanceGroupEbsConfigList extends cdktn.ComplexLis
 }
 export interface EmrClusterMasterInstanceGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}
   */
   readonly bidPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
   /**
   * ebs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
   */
   readonly ebsConfig?: EmrClusterMasterInstanceGroupEbsConfig[] | cdktn.IResolvable;
 }
@@ -5036,7 +5036,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string; 
+  private _bidPrice?: string;
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -5057,7 +5057,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -5073,7 +5073,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5086,7 +5086,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5119,7 +5119,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster aws_emr_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster aws_emr_cluster}
 */
 export class EmrCluster extends cdktn.TerraformResource {
 
@@ -5135,7 +5135,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrCluster to import
-  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5147,7 +5147,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_cluster aws_emr_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster aws_emr_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5158,7 +5158,7 @@ export class EmrCluster extends cdktn.TerraformResource {
       terraformResourceType: 'aws_emr_cluster',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5210,7 +5210,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   // ==========
 
   // additional_info - computed: false, optional: true, required: false
-  private _additionalInfo?: string; 
+  private _additionalInfo?: string;
   public get additionalInfo() {
     return this.getStringAttribute('additional_info');
   }
@@ -5226,7 +5226,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // applications - computed: false, optional: true, required: false
-  private _applications?: string[]; 
+  private _applications?: string[];
   public get applications() {
     return cdktn.Fn.tolist(this.getListAttribute('applications'));
   }
@@ -5247,7 +5247,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // autoscaling_role - computed: false, optional: true, required: false
-  private _autoscalingRole?: string; 
+  private _autoscalingRole?: string;
   public get autoscalingRole() {
     return this.getStringAttribute('autoscaling_role');
   }
@@ -5268,7 +5268,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // configurations - computed: false, optional: true, required: false
-  private _configurations?: string; 
+  private _configurations?: string;
   public get configurations() {
     return this.getStringAttribute('configurations');
   }
@@ -5284,7 +5284,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // configurations_json - computed: false, optional: true, required: false
-  private _configurationsJson?: string; 
+  private _configurationsJson?: string;
   public get configurationsJson() {
     return this.getStringAttribute('configurations_json');
   }
@@ -5300,7 +5300,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // custom_ami_id - computed: false, optional: true, required: false
-  private _customAmiId?: string; 
+  private _customAmiId?: string;
   public get customAmiId() {
     return this.getStringAttribute('custom_ami_id');
   }
@@ -5316,7 +5316,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // ebs_root_volume_size - computed: false, optional: true, required: false
-  private _ebsRootVolumeSize?: number; 
+  private _ebsRootVolumeSize?: number;
   public get ebsRootVolumeSize() {
     return this.getNumberAttribute('ebs_root_volume_size');
   }
@@ -5332,7 +5332,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5348,7 +5348,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // keep_job_flow_alive_when_no_steps - computed: true, optional: true, required: false
-  private _keepJobFlowAliveWhenNoSteps?: boolean | cdktn.IResolvable; 
+  private _keepJobFlowAliveWhenNoSteps?: boolean | cdktn.IResolvable;
   public get keepJobFlowAliveWhenNoSteps() {
     return this.getBooleanAttribute('keep_job_flow_alive_when_no_steps');
   }
@@ -5364,7 +5364,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // list_steps_states - computed: false, optional: true, required: false
-  private _listStepsStates?: string[]; 
+  private _listStepsStates?: string[];
   public get listStepsStates() {
     return cdktn.Fn.tolist(this.getListAttribute('list_steps_states'));
   }
@@ -5380,7 +5380,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // log_encryption_kms_key_id - computed: false, optional: true, required: false
-  private _logEncryptionKmsKeyId?: string; 
+  private _logEncryptionKmsKeyId?: string;
   public get logEncryptionKmsKeyId() {
     return this.getStringAttribute('log_encryption_kms_key_id');
   }
@@ -5396,7 +5396,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: false, optional: true, required: false
-  private _logUri?: string; 
+  private _logUri?: string;
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -5417,7 +5417,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5430,7 +5430,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // os_release_label - computed: false, optional: true, required: false
-  private _osReleaseLabel?: string; 
+  private _osReleaseLabel?: string;
   public get osReleaseLabel() {
     return this.getStringAttribute('os_release_label');
   }
@@ -5462,7 +5462,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5478,7 +5478,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string; 
+  private _releaseLabel?: string;
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -5491,7 +5491,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // scale_down_behavior - computed: true, optional: true, required: false
-  private _scaleDownBehavior?: string; 
+  private _scaleDownBehavior?: string;
   public get scaleDownBehavior() {
     return this.getStringAttribute('scale_down_behavior');
   }
@@ -5507,7 +5507,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string; 
+  private _securityConfiguration?: string;
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -5523,7 +5523,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string; 
+  private _serviceRole?: string;
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -5552,7 +5552,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // step_concurrency_level - computed: false, optional: true, required: false
-  private _stepConcurrencyLevel?: number; 
+  private _stepConcurrencyLevel?: number;
   public get stepConcurrencyLevel() {
     return this.getNumberAttribute('step_concurrency_level');
   }
@@ -5568,7 +5568,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5584,7 +5584,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -5600,7 +5600,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // termination_protection - computed: true, optional: true, required: false
-  private _terminationProtection?: boolean | cdktn.IResolvable; 
+  private _terminationProtection?: boolean | cdktn.IResolvable;
   public get terminationProtection() {
     return this.getBooleanAttribute('termination_protection');
   }
@@ -5616,7 +5616,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // unhealthy_node_replacement - computed: false, optional: true, required: false
-  private _unhealthyNodeReplacement?: boolean | cdktn.IResolvable; 
+  private _unhealthyNodeReplacement?: boolean | cdktn.IResolvable;
   public get unhealthyNodeReplacement() {
     return this.getBooleanAttribute('unhealthy_node_replacement');
   }
@@ -5632,7 +5632,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // visible_to_all_users - computed: false, optional: true, required: false
-  private _visibleToAllUsers?: boolean | cdktn.IResolvable; 
+  private _visibleToAllUsers?: boolean | cdktn.IResolvable;
   public get visibleToAllUsers() {
     return this.getBooleanAttribute('visible_to_all_users');
   }

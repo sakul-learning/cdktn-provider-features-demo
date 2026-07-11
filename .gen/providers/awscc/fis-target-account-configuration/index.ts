@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface FisTargetAccountConfigurationConfig extends cdktn.TerraformMeta
   /**
   * The AWS account ID of the target account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
   */
   readonly accountId: string;
   /**
   * The description of the target account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
   */
   readonly description?: string;
   /**
   * The ID of the experiment template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
   */
   readonly experimentTemplateId: string;
   /**
   * The Amazon Resource Name (ARN) of an IAM role for the target account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
   */
   readonly roleArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration}
 */
 export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FisTargetAccountConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FisTargetAccountConfiguration to import
-  * @param importFromId The id of the existing FisTargetAccountConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FisTargetAccountConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FisTargetAccountConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fis_target_account_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -107,7 +107,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -123,7 +123,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // experiment_template_id - computed: false, optional: false, required: true
-  private _experimentTemplateId?: string; 
+  private _experimentTemplateId?: string;
   public get experimentTemplateId() {
     return this.getStringAttribute('experiment_template_id');
   }
@@ -141,7 +141,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface OdbCloudVmClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique identifier of the Exadata infrastructure that this VM cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#cloud_exadata_infrastructure_id OdbCloudVmCluster#cloud_exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#cloud_exadata_infrastructure_id OdbCloudVmCluster#cloud_exadata_infrastructure_id}
   */
   readonly cloudExadataInfrastructureId?: string;
   /**
   * The name of the Grid Infrastructure (GI) cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#cluster_name OdbCloudVmCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#cluster_name OdbCloudVmCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The number of CPU cores enabled on the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#cpu_core_count OdbCloudVmCluster#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#cpu_core_count OdbCloudVmCluster#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
   * The set of diagnostic collection options enabled for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#data_collection_options OdbCloudVmCluster#data_collection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#data_collection_options OdbCloudVmCluster#data_collection_options}
   */
   readonly dataCollectionOptions?: OdbCloudVmClusterDataCollectionOptions;
   /**
   * The size of the data disk group, in terabytes (TB), that's allocated for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#data_storage_size_in_t_bs OdbCloudVmCluster#data_storage_size_in_t_bs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#data_storage_size_in_t_bs OdbCloudVmCluster#data_storage_size_in_t_bs}
   */
   readonly dataStorageSizeInTBs?: number;
   /**
   * The amount of local node storage, in gigabytes (GB), that's allocated for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_node_storage_size_in_g_bs OdbCloudVmCluster#db_node_storage_size_in_g_bs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_node_storage_size_in_g_bs OdbCloudVmCluster#db_node_storage_size_in_g_bs}
   */
   readonly dbNodeStorageSizeInGBs?: number;
   /**
   * The DB nodes that are implicitly created and managed as part of this VM Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_nodes OdbCloudVmCluster#db_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_nodes OdbCloudVmCluster#db_nodes}
   */
   readonly dbNodes?: OdbCloudVmClusterDbNodes[] | cdktn.IResolvable;
   /**
   * The list of database servers for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_servers OdbCloudVmCluster#db_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_servers OdbCloudVmCluster#db_servers}
   */
   readonly dbServers?: string[];
   /**
   * The user-friendly name for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#display_name OdbCloudVmCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#display_name OdbCloudVmCluster#display_name}
   */
   readonly displayName?: string;
   /**
   * The software version of the Oracle Grid Infrastructure (GI) for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#gi_version OdbCloudVmCluster#gi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#gi_version OdbCloudVmCluster#gi_version}
   */
   readonly giVersion?: string;
   /**
   * The host name for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#hostname OdbCloudVmCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#hostname OdbCloudVmCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * The AWS Identity and Access Management (IAM) service roles associated with the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#iam_roles OdbCloudVmCluster#iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#iam_roles OdbCloudVmCluster#iam_roles}
   */
   readonly iamRoles?: OdbCloudVmClusterIamRoles[] | cdktn.IResolvable;
   /**
   * Indicates whether database backups to local Exadata storage is enabled for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#is_local_backup_enabled OdbCloudVmCluster#is_local_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#is_local_backup_enabled OdbCloudVmCluster#is_local_backup_enabled}
   */
   readonly isLocalBackupEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether the VM cluster is configured with a sparse disk group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#is_sparse_diskgroup_enabled OdbCloudVmCluster#is_sparse_diskgroup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#is_sparse_diskgroup_enabled OdbCloudVmCluster#is_sparse_diskgroup_enabled}
   */
   readonly isSparseDiskgroupEnabled?: boolean | cdktn.IResolvable;
   /**
   * The Oracle license model applied to the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#license_model OdbCloudVmCluster#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#license_model OdbCloudVmCluster#license_model}
   */
   readonly licenseModel?: string;
   /**
   * The amount of memory, in gigabytes (GB), that's allocated for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#memory_size_in_g_bs OdbCloudVmCluster#memory_size_in_g_bs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#memory_size_in_g_bs OdbCloudVmCluster#memory_size_in_g_bs}
   */
   readonly memorySizeInGBs?: number;
   /**
   * The unique identifier of the ODB network for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#odb_network_id OdbCloudVmCluster#odb_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#odb_network_id OdbCloudVmCluster#odb_network_id}
   */
   readonly odbNetworkId?: string;
   /**
   * Property description not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#scan_listener_port_tcp OdbCloudVmCluster#scan_listener_port_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#scan_listener_port_tcp OdbCloudVmCluster#scan_listener_port_tcp}
   */
   readonly scanListenerPortTcp?: number;
   /**
   * The public key portion of one or more key pairs used for SSH access to the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#ssh_public_keys OdbCloudVmCluster#ssh_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#ssh_public_keys OdbCloudVmCluster#ssh_public_keys}
   */
   readonly sshPublicKeys?: string[];
   /**
   * The operating system version of the image chosen for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#system_version OdbCloudVmCluster#system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#system_version OdbCloudVmCluster#system_version}
   */
   readonly systemVersion?: string;
   /**
   * Tags to assign to the Vm Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#tags OdbCloudVmCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#tags OdbCloudVmCluster#tags}
   */
   readonly tags?: OdbCloudVmClusterTags[] | cdktn.IResolvable;
   /**
   * The time zone of the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#time_zone OdbCloudVmCluster#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#time_zone OdbCloudVmCluster#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -144,19 +144,19 @@ export interface OdbCloudVmClusterDataCollectionOptions {
   /**
   * Indicates whether diagnostic collection is enabled for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#is_diagnostics_events_enabled OdbCloudVmCluster#is_diagnostics_events_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#is_diagnostics_events_enabled OdbCloudVmCluster#is_diagnostics_events_enabled}
   */
   readonly isDiagnosticsEventsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether health monitoring is enabled for the VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#is_health_monitoring_enabled OdbCloudVmCluster#is_health_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#is_health_monitoring_enabled OdbCloudVmCluster#is_health_monitoring_enabled}
   */
   readonly isHealthMonitoringEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether incident logs are enabled for the cloud VM cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#is_incident_logs_enabled OdbCloudVmCluster#is_incident_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#is_incident_logs_enabled OdbCloudVmCluster#is_incident_logs_enabled}
   */
   readonly isIncidentLogsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -259,7 +259,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_diagnostics_events_enabled - computed: true, optional: true, required: false
-  private _isDiagnosticsEventsEnabled?: boolean | cdktn.IResolvable; 
+  private _isDiagnosticsEventsEnabled?: boolean | cdktn.IResolvable;
   public get isDiagnosticsEventsEnabled() {
     return this.getBooleanAttribute('is_diagnostics_events_enabled');
   }
@@ -275,7 +275,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_health_monitoring_enabled - computed: true, optional: true, required: false
-  private _isHealthMonitoringEnabled?: boolean | cdktn.IResolvable; 
+  private _isHealthMonitoringEnabled?: boolean | cdktn.IResolvable;
   public get isHealthMonitoringEnabled() {
     return this.getBooleanAttribute('is_health_monitoring_enabled');
   }
@@ -291,7 +291,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_incident_logs_enabled - computed: true, optional: true, required: false
-  private _isIncidentLogsEnabled?: boolean | cdktn.IResolvable; 
+  private _isIncidentLogsEnabled?: boolean | cdktn.IResolvable;
   public get isIncidentLogsEnabled() {
     return this.getBooleanAttribute('is_incident_logs_enabled');
   }
@@ -310,13 +310,13 @@ export interface OdbCloudVmClusterDbNodesTags {
   /**
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., :, /, =, +, @, -, and ".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#key OdbCloudVmCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#key OdbCloudVmCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#value OdbCloudVmCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#value OdbCloudVmCluster#value}
   */
   readonly value?: string;
 }
@@ -408,7 +408,7 @@ export class OdbCloudVmClusterDbNodesTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -424,7 +424,7 @@ export class OdbCloudVmClusterDbNodesTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -463,95 +463,95 @@ export interface OdbCloudVmClusterDbNodes {
   /**
   * The Oracle Cloud ID (OCID) of the backup IP address that's associated with the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#backup_ip_id OdbCloudVmCluster#backup_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#backup_ip_id OdbCloudVmCluster#backup_ip_id}
   */
   readonly backupIpId?: string;
   /**
   * The OCID of the second backup virtual network interface card (VNIC) for the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#backup_vnic_2_id OdbCloudVmCluster#backup_vnic_2_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#backup_vnic_2_id OdbCloudVmCluster#backup_vnic_2_id}
   */
   readonly backupVnic2Id?: string;
   /**
   * The number of CPU cores enabled on the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#cpu_core_count OdbCloudVmCluster#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#cpu_core_count OdbCloudVmCluster#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
   * The Amazon Resource Name (ARN) of the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_node_arn OdbCloudVmCluster#db_node_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_node_arn OdbCloudVmCluster#db_node_arn}
   */
   readonly dbNodeArn?: string;
   /**
   * The unique identifier of the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_node_id OdbCloudVmCluster#db_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_node_id OdbCloudVmCluster#db_node_id}
   */
   readonly dbNodeId?: string;
   /**
   * The amount of local node storage, in gigabytes (GB), that's allocated on the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_node_storage_size_in_g_bs OdbCloudVmCluster#db_node_storage_size_in_g_bs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_node_storage_size_in_g_bs OdbCloudVmCluster#db_node_storage_size_in_g_bs}
   */
   readonly dbNodeStorageSizeInGBs?: number;
   /**
   * The unique identifier of the database server that's associated with the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_server_id OdbCloudVmCluster#db_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_server_id OdbCloudVmCluster#db_server_id}
   */
   readonly dbServerId?: string;
   /**
   * The OCID of the DB system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#db_system_id OdbCloudVmCluster#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#db_system_id OdbCloudVmCluster#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
   * The OCID of the host IP address that's associated with the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#host_ip_id OdbCloudVmCluster#host_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#host_ip_id OdbCloudVmCluster#host_ip_id}
   */
   readonly hostIpId?: string;
   /**
   * The host name for the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#hostname OdbCloudVmCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#hostname OdbCloudVmCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * The amount of memory, in gigabytes (GB), that allocated on the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#memory_size_in_g_bs OdbCloudVmCluster#memory_size_in_g_bs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#memory_size_in_g_bs OdbCloudVmCluster#memory_size_in_g_bs}
   */
   readonly memorySizeInGBs?: number;
   /**
   * The OCID of the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#ocid OdbCloudVmCluster#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#ocid OdbCloudVmCluster#ocid}
   */
   readonly ocid?: string;
   /**
   * The current status of the DB node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#status OdbCloudVmCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#status OdbCloudVmCluster#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#tags OdbCloudVmCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#tags OdbCloudVmCluster#tags}
   */
   readonly tags?: OdbCloudVmClusterDbNodesTags[] | cdktn.IResolvable;
   /**
   * The OCID of the second VNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#vnic_2_id OdbCloudVmCluster#vnic_2_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#vnic_2_id OdbCloudVmCluster#vnic_2_id}
   */
   readonly vnic2Id?: string;
   /**
   * The OCID of the VNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#vnic_id OdbCloudVmCluster#vnic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#vnic_id OdbCloudVmCluster#vnic_id}
   */
   readonly vnicId?: string;
 }
@@ -825,7 +825,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // backup_ip_id - computed: true, optional: true, required: false
-  private _backupIpId?: string; 
+  private _backupIpId?: string;
   public get backupIpId() {
     return this.getStringAttribute('backup_ip_id');
   }
@@ -841,7 +841,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // backup_vnic_2_id - computed: true, optional: true, required: false
-  private _backupVnic2Id?: string; 
+  private _backupVnic2Id?: string;
   public get backupVnic2Id() {
     return this.getStringAttribute('backup_vnic_2_id');
   }
@@ -857,7 +857,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // cpu_core_count - computed: true, optional: true, required: false
-  private _cpuCoreCount?: number; 
+  private _cpuCoreCount?: number;
   public get cpuCoreCount() {
     return this.getNumberAttribute('cpu_core_count');
   }
@@ -873,7 +873,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_arn - computed: true, optional: true, required: false
-  private _dbNodeArn?: string; 
+  private _dbNodeArn?: string;
   public get dbNodeArn() {
     return this.getStringAttribute('db_node_arn');
   }
@@ -889,7 +889,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_id - computed: true, optional: true, required: false
-  private _dbNodeId?: string; 
+  private _dbNodeId?: string;
   public get dbNodeId() {
     return this.getStringAttribute('db_node_id');
   }
@@ -905,7 +905,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_storage_size_in_g_bs - computed: true, optional: true, required: false
-  private _dbNodeStorageSizeInGBs?: number; 
+  private _dbNodeStorageSizeInGBs?: number;
   public get dbNodeStorageSizeInGBs() {
     return this.getNumberAttribute('db_node_storage_size_in_g_bs');
   }
@@ -921,7 +921,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_server_id - computed: true, optional: true, required: false
-  private _dbServerId?: string; 
+  private _dbServerId?: string;
   public get dbServerId() {
     return this.getStringAttribute('db_server_id');
   }
@@ -937,7 +937,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_system_id - computed: true, optional: true, required: false
-  private _dbSystemId?: string; 
+  private _dbSystemId?: string;
   public get dbSystemId() {
     return this.getStringAttribute('db_system_id');
   }
@@ -953,7 +953,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // host_ip_id - computed: true, optional: true, required: false
-  private _hostIpId?: string; 
+  private _hostIpId?: string;
   public get hostIpId() {
     return this.getStringAttribute('host_ip_id');
   }
@@ -969,7 +969,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // hostname - computed: true, optional: true, required: false
-  private _hostname?: string; 
+  private _hostname?: string;
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -985,7 +985,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // memory_size_in_g_bs - computed: true, optional: true, required: false
-  private _memorySizeInGBs?: number; 
+  private _memorySizeInGBs?: number;
   public get memorySizeInGBs() {
     return this.getNumberAttribute('memory_size_in_g_bs');
   }
@@ -1001,7 +1001,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // ocid - computed: true, optional: true, required: false
-  private _ocid?: string; 
+  private _ocid?: string;
   public get ocid() {
     return this.getStringAttribute('ocid');
   }
@@ -1017,7 +1017,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1049,7 +1049,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // vnic_2_id - computed: true, optional: true, required: false
-  private _vnic2Id?: string; 
+  private _vnic2Id?: string;
   public get vnic2Id() {
     return this.getStringAttribute('vnic_2_id');
   }
@@ -1065,7 +1065,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // vnic_id - computed: true, optional: true, required: false
-  private _vnicId?: string; 
+  private _vnicId?: string;
   public get vnicId() {
     return this.getStringAttribute('vnic_id');
   }
@@ -1104,19 +1104,19 @@ export interface OdbCloudVmClusterIamRoles {
   /**
   * The AWS integration configuration settings for the AWS Identity and Access Management (IAM) service role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#aws_integration OdbCloudVmCluster#aws_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#aws_integration OdbCloudVmCluster#aws_integration}
   */
   readonly awsIntegration?: string;
   /**
   * The Amazon Resource Name (ARN) of the AWS Identity and Access Management (IAM) service role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#iam_role_arn OdbCloudVmCluster#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#iam_role_arn OdbCloudVmCluster#iam_role_arn}
   */
   readonly iamRoleArn?: string;
   /**
   * The current status of the AWS Identity and Access Management (IAM) service role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#status OdbCloudVmCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#status OdbCloudVmCluster#status}
   */
   readonly status?: string;
 }
@@ -1221,7 +1221,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // aws_integration - computed: true, optional: true, required: false
-  private _awsIntegration?: string; 
+  private _awsIntegration?: string;
   public get awsIntegration() {
     return this.getStringAttribute('aws_integration');
   }
@@ -1237,7 +1237,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1253,7 +1253,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1292,13 +1292,13 @@ export interface OdbCloudVmClusterTags {
   /**
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., :, /, =, +, @, -, and ".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#key OdbCloudVmCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#key OdbCloudVmCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#value OdbCloudVmCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#value OdbCloudVmCluster#value}
   */
   readonly value?: string;
 }
@@ -1390,7 +1390,7 @@ export class OdbCloudVmClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1406,7 +1406,7 @@ export class OdbCloudVmClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1443,7 +1443,7 @@ export class OdbCloudVmClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster}
 */
 export class OdbCloudVmCluster extends cdktn.TerraformResource {
 
@@ -1459,7 +1459,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OdbCloudVmCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OdbCloudVmCluster to import
-  * @param importFromId The id of the existing OdbCloudVmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OdbCloudVmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OdbCloudVmCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1471,7 +1471,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1482,7 +1482,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_odb_cloud_vm_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1521,7 +1521,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   // ==========
 
   // cloud_exadata_infrastructure_id - computed: true, optional: true, required: false
-  private _cloudExadataInfrastructureId?: string; 
+  private _cloudExadataInfrastructureId?: string;
   public get cloudExadataInfrastructureId() {
     return this.getStringAttribute('cloud_exadata_infrastructure_id');
   }
@@ -1547,7 +1547,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1568,7 +1568,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // cpu_core_count - computed: true, optional: true, required: false
-  private _cpuCoreCount?: number; 
+  private _cpuCoreCount?: number;
   public get cpuCoreCount() {
     return this.getNumberAttribute('cpu_core_count');
   }
@@ -1600,7 +1600,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // data_storage_size_in_t_bs - computed: true, optional: true, required: false
-  private _dataStorageSizeInTBs?: number; 
+  private _dataStorageSizeInTBs?: number;
   public get dataStorageSizeInTBs() {
     return this.getNumberAttribute('data_storage_size_in_t_bs');
   }
@@ -1616,7 +1616,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // db_node_storage_size_in_g_bs - computed: true, optional: true, required: false
-  private _dbNodeStorageSizeInGBs?: number; 
+  private _dbNodeStorageSizeInGBs?: number;
   public get dbNodeStorageSizeInGBs() {
     return this.getNumberAttribute('db_node_storage_size_in_g_bs');
   }
@@ -1648,7 +1648,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // db_servers - computed: true, optional: true, required: false
-  private _dbServers?: string[]; 
+  private _dbServers?: string[];
   public get dbServers() {
     return this.getListAttribute('db_servers');
   }
@@ -1669,7 +1669,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1690,7 +1690,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // gi_version - computed: true, optional: true, required: false
-  private _giVersion?: string; 
+  private _giVersion?: string;
   public get giVersion() {
     return this.getStringAttribute('gi_version');
   }
@@ -1706,7 +1706,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // hostname - computed: true, optional: true, required: false
-  private _hostname?: string; 
+  private _hostname?: string;
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -1743,7 +1743,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // is_local_backup_enabled - computed: true, optional: true, required: false
-  private _isLocalBackupEnabled?: boolean | cdktn.IResolvable; 
+  private _isLocalBackupEnabled?: boolean | cdktn.IResolvable;
   public get isLocalBackupEnabled() {
     return this.getBooleanAttribute('is_local_backup_enabled');
   }
@@ -1759,7 +1759,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // is_sparse_diskgroup_enabled - computed: true, optional: true, required: false
-  private _isSparseDiskgroupEnabled?: boolean | cdktn.IResolvable; 
+  private _isSparseDiskgroupEnabled?: boolean | cdktn.IResolvable;
   public get isSparseDiskgroupEnabled() {
     return this.getBooleanAttribute('is_sparse_diskgroup_enabled');
   }
@@ -1775,7 +1775,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // license_model - computed: true, optional: true, required: false
-  private _licenseModel?: string; 
+  private _licenseModel?: string;
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -1796,7 +1796,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // memory_size_in_g_bs - computed: true, optional: true, required: false
-  private _memorySizeInGBs?: number; 
+  private _memorySizeInGBs?: number;
   public get memorySizeInGBs() {
     return this.getNumberAttribute('memory_size_in_g_bs');
   }
@@ -1832,7 +1832,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // odb_network_id - computed: true, optional: true, required: false
-  private _odbNetworkId?: string; 
+  private _odbNetworkId?: string;
   public get odbNetworkId() {
     return this.getStringAttribute('odb_network_id');
   }
@@ -1858,7 +1858,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // scan_listener_port_tcp - computed: true, optional: true, required: false
-  private _scanListenerPortTcp?: number; 
+  private _scanListenerPortTcp?: number;
   public get scanListenerPortTcp() {
     return this.getNumberAttribute('scan_listener_port_tcp');
   }
@@ -1879,7 +1879,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // ssh_public_keys - computed: true, optional: true, required: false
-  private _sshPublicKeys?: string[]; 
+  private _sshPublicKeys?: string[];
   public get sshPublicKeys() {
     return this.getListAttribute('ssh_public_keys');
   }
@@ -1900,7 +1900,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // system_version - computed: true, optional: true, required: false
-  private _systemVersion?: string; 
+  private _systemVersion?: string;
   public get systemVersion() {
     return this.getStringAttribute('system_version');
   }
@@ -1932,7 +1932,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string; 
+  private _timeZone?: string;
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

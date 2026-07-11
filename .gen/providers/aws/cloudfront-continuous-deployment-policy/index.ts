@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface CloudfrontContinuousDeploymentPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#enabled CloudfrontContinuousDeploymentPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#enabled CloudfrontContinuousDeploymentPolicy#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * staging_distribution_dns_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#staging_distribution_dns_names CloudfrontContinuousDeploymentPolicy#staging_distribution_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#staging_distribution_dns_names CloudfrontContinuousDeploymentPolicy#staging_distribution_dns_names}
   */
   readonly stagingDistributionDnsNames?: CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames[] | cdktn.IResolvable;
   /**
   * traffic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#traffic_config CloudfrontContinuousDeploymentPolicy#traffic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#traffic_config CloudfrontContinuousDeploymentPolicy#traffic_config}
   */
   readonly trafficConfig?: CloudfrontContinuousDeploymentPolicyTrafficConfig[] | cdktn.IResolvable;
 }
 export interface CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#items CloudfrontContinuousDeploymentPolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#items CloudfrontContinuousDeploymentPolicy#items}
   */
   readonly items?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#quantity CloudfrontContinuousDeploymentPolicy#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#quantity CloudfrontContinuousDeploymentPolicy#quantity}
   */
   readonly quantity: number;
 }
@@ -122,7 +122,7 @@ export class CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutp
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[]; 
+  private _items?: string[];
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -138,7 +138,7 @@ export class CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutp
   }
 
   // quantity - computed: false, optional: false, required: true
-  private _quantity?: number; 
+  private _quantity?: number;
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -172,11 +172,11 @@ export class CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesList
 }
 export interface CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#header CloudfrontContinuousDeploymentPolicy#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#header CloudfrontContinuousDeploymentPolicy#header}
   */
   readonly header: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#value CloudfrontContinuousDeploymentPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#value CloudfrontContinuousDeploymentPolicy#value}
   */
   readonly value: string;
 }
@@ -268,7 +268,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig
   }
 
   // header - computed: false, optional: false, required: true
-  private _header?: string; 
+  private _header?: string;
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -281,7 +281,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -315,11 +315,11 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig
 }
 export interface CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfigSessionStickinessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#idle_ttl CloudfrontContinuousDeploymentPolicy#idle_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#idle_ttl CloudfrontContinuousDeploymentPolicy#idle_ttl}
   */
   readonly idleTtl: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#maximum_ttl CloudfrontContinuousDeploymentPolicy#maximum_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#maximum_ttl CloudfrontContinuousDeploymentPolicy#maximum_ttl}
   */
   readonly maximumTtl: number;
 }
@@ -411,7 +411,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // idle_ttl - computed: false, optional: false, required: true
-  private _idleTtl?: number; 
+  private _idleTtl?: number;
   public get idleTtl() {
     return this.getNumberAttribute('idle_ttl');
   }
@@ -424,7 +424,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // maximum_ttl - computed: false, optional: false, required: true
-  private _maximumTtl?: number; 
+  private _maximumTtl?: number;
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -458,13 +458,13 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
 }
 export interface CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#weight CloudfrontContinuousDeploymentPolicy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#weight CloudfrontContinuousDeploymentPolicy#weight}
   */
   readonly weight: number;
   /**
   * session_stickiness_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#session_stickiness_config CloudfrontContinuousDeploymentPolicy#session_stickiness_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#session_stickiness_config CloudfrontContinuousDeploymentPolicy#session_stickiness_config}
   */
   readonly sessionStickinessConfig?: CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfigSessionStickinessConfig[] | cdktn.IResolvable;
 }
@@ -556,7 +556,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -606,19 +606,19 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
 }
 export interface CloudfrontContinuousDeploymentPolicyTrafficConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#type CloudfrontContinuousDeploymentPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#type CloudfrontContinuousDeploymentPolicy#type}
   */
   readonly type: string;
   /**
   * single_header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#single_header_config CloudfrontContinuousDeploymentPolicy#single_header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#single_header_config CloudfrontContinuousDeploymentPolicy#single_header_config}
   */
   readonly singleHeaderConfig?: CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig[] | cdktn.IResolvable;
   /**
   * single_weight_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#single_weight_config CloudfrontContinuousDeploymentPolicy#single_weight_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#single_weight_config CloudfrontContinuousDeploymentPolicy#single_weight_config}
   */
   readonly singleWeightConfig?: CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig[] | cdktn.IResolvable;
 }
@@ -723,7 +723,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -789,7 +789,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigList extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy}
 */
 export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResource {
 
@@ -805,7 +805,7 @@ export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a CloudfrontContinuousDeploymentPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontContinuousDeploymentPolicy to import
-  * @param importFromId The id of the existing CloudfrontContinuousDeploymentPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontContinuousDeploymentPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontContinuousDeploymentPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -817,7 +817,7 @@ export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -828,7 +828,7 @@ export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResourc
       terraformResourceType: 'aws_cloudfront_continuous_deployment_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -853,7 +853,7 @@ export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResourc
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }

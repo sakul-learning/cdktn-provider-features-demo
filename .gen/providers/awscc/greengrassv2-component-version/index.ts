@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface Greengrassv2ComponentVersionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#inline_recipe Greengrassv2ComponentVersion#inline_recipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#inline_recipe Greengrassv2ComponentVersion#inline_recipe}
   */
   readonly inlineRecipe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#lambda_function Greengrassv2ComponentVersion#lambda_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#lambda_function Greengrassv2ComponentVersion#lambda_function}
   */
   readonly lambdaFunction?: Greengrassv2ComponentVersionLambdaFunction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#tags Greengrassv2ComponentVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#tags Greengrassv2ComponentVersion#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#dependency_type Greengrassv2ComponentVersion#dependency_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#dependency_type Greengrassv2ComponentVersion#dependency_type}
   */
   readonly dependencyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#version_requirement Greengrassv2ComponentVersion#version_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#version_requirement Greengrassv2ComponentVersion#version_requirement}
   */
   readonly versionRequirement?: string;
 }
@@ -117,7 +117,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutp
   }
 
   // dependency_type - computed: true, optional: true, required: false
-  private _dependencyType?: string; 
+  private _dependencyType?: string;
   public get dependencyType() {
     return this.getStringAttribute('dependency_type');
   }
@@ -133,7 +133,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutp
   }
 
   // version_requirement - computed: true, optional: true, required: false
-  private _versionRequirement?: string; 
+  private _versionRequirement?: string;
   public get versionRequirement() {
     return this.getStringAttribute('version_requirement');
   }
@@ -169,11 +169,11 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentDependenciesMap 
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#topic Greengrassv2ComponentVersion#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#topic Greengrassv2ComponentVersion#topic}
   */
   readonly topic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#type Greengrassv2ComponentVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#type Greengrassv2ComponentVersion#type}
   */
   readonly type?: string;
 }
@@ -265,7 +265,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string; 
+  private _topic?: string;
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -281,7 +281,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -318,15 +318,15 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#add_group_owner Greengrassv2ComponentVersion#add_group_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#add_group_owner Greengrassv2ComponentVersion#add_group_owner}
   */
   readonly addGroupOwner?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#path Greengrassv2ComponentVersion#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#path Greengrassv2ComponentVersion#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#permission Greengrassv2ComponentVersion#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#permission Greengrassv2ComponentVersion#permission}
   */
   readonly permission?: string;
 }
@@ -431,7 +431,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // add_group_owner - computed: true, optional: true, required: false
-  private _addGroupOwner?: boolean | cdktn.IResolvable; 
+  private _addGroupOwner?: boolean | cdktn.IResolvable;
   public get addGroupOwner() {
     return this.getBooleanAttribute('add_group_owner');
   }
@@ -447,7 +447,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -463,7 +463,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string; 
+  private _permission?: string;
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -500,19 +500,19 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#add_group_owner Greengrassv2ComponentVersion#add_group_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#add_group_owner Greengrassv2ComponentVersion#add_group_owner}
   */
   readonly addGroupOwner?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#destination_path Greengrassv2ComponentVersion#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#destination_path Greengrassv2ComponentVersion#destination_path}
   */
   readonly destinationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#permission Greengrassv2ComponentVersion#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#permission Greengrassv2ComponentVersion#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#source_path Greengrassv2ComponentVersion#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#source_path Greengrassv2ComponentVersion#source_path}
   */
   readonly sourcePath?: string;
 }
@@ -630,7 +630,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // add_group_owner - computed: true, optional: true, required: false
-  private _addGroupOwner?: boolean | cdktn.IResolvable; 
+  private _addGroupOwner?: boolean | cdktn.IResolvable;
   public get addGroupOwner() {
     return this.getBooleanAttribute('add_group_owner');
   }
@@ -646,7 +646,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // destination_path - computed: true, optional: true, required: false
-  private _destinationPath?: string; 
+  private _destinationPath?: string;
   public get destinationPath() {
     return this.getStringAttribute('destination_path');
   }
@@ -662,7 +662,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string; 
+  private _permission?: string;
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -678,7 +678,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string; 
+  private _sourcePath?: string;
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -715,19 +715,19 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#devices Greengrassv2ComponentVersion#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#devices Greengrassv2ComponentVersion#devices}
   */
   readonly devices?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevices[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#memory_size_in_kb Greengrassv2ComponentVersion#memory_size_in_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#memory_size_in_kb Greengrassv2ComponentVersion#memory_size_in_kb}
   */
   readonly memorySizeInKb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#mount_ro_sysfs Greengrassv2ComponentVersion#mount_ro_sysfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#mount_ro_sysfs Greengrassv2ComponentVersion#mount_ro_sysfs}
   */
   readonly mountRoSysfs?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#volumes Greengrassv2ComponentVersion#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#volumes Greengrassv2ComponentVersion#volumes}
   */
   readonly volumes?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumes[] | cdktn.IResolvable;
 }
@@ -859,7 +859,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // memory_size_in_kb - computed: true, optional: true, required: false
-  private _memorySizeInKb?: number; 
+  private _memorySizeInKb?: number;
   public get memorySizeInKb() {
     return this.getNumberAttribute('memory_size_in_kb');
   }
@@ -875,7 +875,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // mount_ro_sysfs - computed: true, optional: true, required: false
-  private _mountRoSysfs?: boolean | cdktn.IResolvable; 
+  private _mountRoSysfs?: boolean | cdktn.IResolvable;
   public get mountRoSysfs() {
     return this.getBooleanAttribute('mount_ro_sysfs');
   }
@@ -908,11 +908,11 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#container_params Greengrassv2ComponentVersion#container_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#container_params Greengrassv2ComponentVersion#container_params}
   */
   readonly containerParams?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParams;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#isolation_mode Greengrassv2ComponentVersion#isolation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#isolation_mode Greengrassv2ComponentVersion#isolation_mode}
   */
   readonly isolationMode?: string;
 }
@@ -1018,7 +1018,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // isolation_mode - computed: true, optional: true, required: false
-  private _isolationMode?: string; 
+  private _isolationMode?: string;
   public get isolationMode() {
     return this.getStringAttribute('isolation_mode');
   }
@@ -1035,47 +1035,47 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#environment_variables Greengrassv2ComponentVersion#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#environment_variables Greengrassv2ComponentVersion#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#event_sources Greengrassv2ComponentVersion#event_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#event_sources Greengrassv2ComponentVersion#event_sources}
   */
   readonly eventSources?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSources[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#exec_args Greengrassv2ComponentVersion#exec_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#exec_args Greengrassv2ComponentVersion#exec_args}
   */
   readonly execArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#input_payload_encoding_type Greengrassv2ComponentVersion#input_payload_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#input_payload_encoding_type Greengrassv2ComponentVersion#input_payload_encoding_type}
   */
   readonly inputPayloadEncodingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#linux_process_params Greengrassv2ComponentVersion#linux_process_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#linux_process_params Greengrassv2ComponentVersion#linux_process_params}
   */
   readonly linuxProcessParams?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParams;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#max_idle_time_in_seconds Greengrassv2ComponentVersion#max_idle_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#max_idle_time_in_seconds Greengrassv2ComponentVersion#max_idle_time_in_seconds}
   */
   readonly maxIdleTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#max_instances_count Greengrassv2ComponentVersion#max_instances_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#max_instances_count Greengrassv2ComponentVersion#max_instances_count}
   */
   readonly maxInstancesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#max_queue_size Greengrassv2ComponentVersion#max_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#max_queue_size Greengrassv2ComponentVersion#max_queue_size}
   */
   readonly maxQueueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#pinned Greengrassv2ComponentVersion#pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#pinned Greengrassv2ComponentVersion#pinned}
   */
   readonly pinned?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#status_timeout_in_seconds Greengrassv2ComponentVersion#status_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#status_timeout_in_seconds Greengrassv2ComponentVersion#status_timeout_in_seconds}
   */
   readonly statusTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#timeout_in_seconds Greengrassv2ComponentVersion#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#timeout_in_seconds Greengrassv2ComponentVersion#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -1282,7 +1282,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // environment_variables - computed: true, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string }; 
+  private _environmentVariables?: { [key: string]: string };
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -1314,7 +1314,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // exec_args - computed: true, optional: true, required: false
-  private _execArgs?: string[]; 
+  private _execArgs?: string[];
   public get execArgs() {
     return this.getListAttribute('exec_args');
   }
@@ -1330,7 +1330,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // input_payload_encoding_type - computed: true, optional: true, required: false
-  private _inputPayloadEncodingType?: string; 
+  private _inputPayloadEncodingType?: string;
   public get inputPayloadEncodingType() {
     return this.getStringAttribute('input_payload_encoding_type');
   }
@@ -1362,7 +1362,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_idle_time_in_seconds - computed: true, optional: true, required: false
-  private _maxIdleTimeInSeconds?: number; 
+  private _maxIdleTimeInSeconds?: number;
   public get maxIdleTimeInSeconds() {
     return this.getNumberAttribute('max_idle_time_in_seconds');
   }
@@ -1378,7 +1378,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_instances_count - computed: true, optional: true, required: false
-  private _maxInstancesCount?: number; 
+  private _maxInstancesCount?: number;
   public get maxInstancesCount() {
     return this.getNumberAttribute('max_instances_count');
   }
@@ -1394,7 +1394,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_queue_size - computed: true, optional: true, required: false
-  private _maxQueueSize?: number; 
+  private _maxQueueSize?: number;
   public get maxQueueSize() {
     return this.getNumberAttribute('max_queue_size');
   }
@@ -1410,7 +1410,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // pinned - computed: true, optional: true, required: false
-  private _pinned?: boolean | cdktn.IResolvable; 
+  private _pinned?: boolean | cdktn.IResolvable;
   public get pinned() {
     return this.getBooleanAttribute('pinned');
   }
@@ -1426,7 +1426,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // status_timeout_in_seconds - computed: true, optional: true, required: false
-  private _statusTimeoutInSeconds?: number; 
+  private _statusTimeoutInSeconds?: number;
   public get statusTimeoutInSeconds() {
     return this.getNumberAttribute('status_timeout_in_seconds');
   }
@@ -1442,7 +1442,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number; 
+  private _timeoutInSeconds?: number;
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -1459,11 +1459,11 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
 }
 export interface Greengrassv2ComponentVersionLambdaFunctionComponentPlatforms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#attributes Greengrassv2ComponentVersion#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#attributes Greengrassv2ComponentVersion#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#name Greengrassv2ComponentVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#name Greengrassv2ComponentVersion#name}
   */
   readonly name?: string;
 }
@@ -1555,7 +1555,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputR
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -1571,7 +1571,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1608,27 +1608,27 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentPlatformsList ex
 }
 export interface Greengrassv2ComponentVersionLambdaFunction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#component_dependencies Greengrassv2ComponentVersion#component_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#component_dependencies Greengrassv2ComponentVersion#component_dependencies}
   */
   readonly componentDependencies?: { [key: string]: Greengrassv2ComponentVersionLambdaFunctionComponentDependencies } | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#component_lambda_parameters Greengrassv2ComponentVersion#component_lambda_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#component_lambda_parameters Greengrassv2ComponentVersion#component_lambda_parameters}
   */
   readonly componentLambdaParameters?: Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#component_name Greengrassv2ComponentVersion#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#component_name Greengrassv2ComponentVersion#component_name}
   */
   readonly componentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#component_platforms Greengrassv2ComponentVersion#component_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#component_platforms Greengrassv2ComponentVersion#component_platforms}
   */
   readonly componentPlatforms?: Greengrassv2ComponentVersionLambdaFunctionComponentPlatforms[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#component_version Greengrassv2ComponentVersion#component_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#component_version Greengrassv2ComponentVersion#component_version}
   */
   readonly componentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#lambda_arn Greengrassv2ComponentVersion#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#lambda_arn Greengrassv2ComponentVersion#lambda_arn}
   */
   readonly lambdaArn?: string;
 }
@@ -1802,7 +1802,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // component_name - computed: true, optional: true, required: false
-  private _componentName?: string; 
+  private _componentName?: string;
   public get componentName() {
     return this.getStringAttribute('component_name');
   }
@@ -1834,7 +1834,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // component_version - computed: true, optional: true, required: false
-  private _componentVersion?: string; 
+  private _componentVersion?: string;
   public get componentVersion() {
     return this.getStringAttribute('component_version');
   }
@@ -1850,7 +1850,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1867,7 +1867,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version}
 */
 export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
 
@@ -1883,7 +1883,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Greengrassv2ComponentVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Greengrassv2ComponentVersion to import
-  * @param importFromId The id of the existing Greengrassv2ComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Greengrassv2ComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Greengrassv2ComponentVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1895,7 +1895,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1906,7 +1906,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_greengrassv2_component_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1946,7 +1946,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   }
 
   // inline_recipe - computed: true, optional: true, required: false
-  private _inlineRecipe?: string; 
+  private _inlineRecipe?: string;
   public get inlineRecipe() {
     return this.getStringAttribute('inline_recipe');
   }
@@ -1978,7 +1978,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

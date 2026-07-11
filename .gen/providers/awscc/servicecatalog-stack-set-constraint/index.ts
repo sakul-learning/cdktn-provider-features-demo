@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ServicecatalogStackSetConstraintConfig extends cdktn.TerraformM
   /**
   * The language code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#accept_language ServicecatalogStackSetConstraint#accept_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#accept_language ServicecatalogStackSetConstraint#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
   * One or more AWS accounts that will have access to the provisioned product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#account_list ServicecatalogStackSetConstraint#account_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#account_list ServicecatalogStackSetConstraint#account_list}
   */
   readonly accountList: string[];
   /**
   * AdminRole ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#admin_role ServicecatalogStackSetConstraint#admin_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#admin_role ServicecatalogStackSetConstraint#admin_role}
   */
   readonly adminRole: string;
   /**
   * The description of the constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#description ServicecatalogStackSetConstraint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#description ServicecatalogStackSetConstraint#description}
   */
   readonly description: string;
   /**
   * ExecutionRole name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#execution_role ServicecatalogStackSetConstraint#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#execution_role ServicecatalogStackSetConstraint#execution_role}
   */
   readonly executionRole: string;
   /**
   * The portfolio identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#portfolio_id ServicecatalogStackSetConstraint#portfolio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#portfolio_id ServicecatalogStackSetConstraint#portfolio_id}
   */
   readonly portfolioId: string;
   /**
   * The product identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#product_id ServicecatalogStackSetConstraint#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#product_id ServicecatalogStackSetConstraint#product_id}
   */
   readonly productId: string;
   /**
   * One or more AWS Regions where the provisioned product will be available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#region_list ServicecatalogStackSetConstraint#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#region_list ServicecatalogStackSetConstraint#region_list}
   */
   readonly regionList: string[];
   /**
   * Permission to create, update, and delete stack instances. Choose from ALLOWED and NOT_ALLOWED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#stack_instance_control ServicecatalogStackSetConstraint#stack_instance_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#stack_instance_control ServicecatalogStackSetConstraint#stack_instance_control}
   */
   readonly stackInstanceControl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint}
 */
 export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
 
@@ -80,7 +80,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicecatalogStackSetConstraint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogStackSetConstraint to import
-  * @param importFromId The id of the existing ServicecatalogStackSetConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogStackSetConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogStackSetConstraint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -92,7 +92,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,7 +103,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_servicecatalog_stack_set_constraint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -129,7 +129,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string; 
+  private _acceptLanguage?: string;
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -145,7 +145,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // account_list - computed: false, optional: false, required: true
-  private _accountList?: string[]; 
+  private _accountList?: string[];
   public get accountList() {
     return this.getListAttribute('account_list');
   }
@@ -158,7 +158,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // admin_role - computed: false, optional: false, required: true
-  private _adminRole?: string; 
+  private _adminRole?: string;
   public get adminRole() {
     return this.getStringAttribute('admin_role');
   }
@@ -171,7 +171,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -184,7 +184,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string; 
+  private _executionRole?: string;
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -202,7 +202,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string; 
+  private _portfolioId?: string;
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -215,7 +215,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string; 
+  private _productId?: string;
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -228,7 +228,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // region_list - computed: false, optional: false, required: true
-  private _regionList?: string[]; 
+  private _regionList?: string[];
   public get regionList() {
     return this.getListAttribute('region_list');
   }
@@ -241,7 +241,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // stack_instance_control - computed: false, optional: false, required: true
-  private _stackInstanceControl?: string; 
+  private _stackInstanceControl?: string;
   public get stackInstanceControl() {
     return this.getStringAttribute('stack_instance_control');
   }

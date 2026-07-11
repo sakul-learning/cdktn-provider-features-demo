@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktn from 'cdktn';
 
 export interface GlueMlTransformConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
   */
   readonly glueVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#id GlueMlTransform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#id GlueMlTransform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
   */
   readonly numberOfWorkers?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#region GlueMlTransform#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#region GlueMlTransform#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#role_arn GlueMlTransform#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#role_arn GlueMlTransform#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#tags_all GlueMlTransform#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#tags_all GlueMlTransform#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
   */
   readonly workerType?: string;
   /**
   * input_record_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
   */
   readonly inputRecordTables: GlueMlTransformInputRecordTables[] | cdktn.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#parameters GlueMlTransform#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#parameters GlueMlTransform#parameters}
   */
   readonly parameters: GlueMlTransformParameters;
 }
@@ -159,19 +159,19 @@ export class GlueMlTransformSchemaList extends cdktn.ComplexList {
 }
 export interface GlueMlTransformInputRecordTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
   */
   readonly tableName: string;
 }
@@ -289,7 +289,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -305,7 +305,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -321,7 +321,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -334,7 +334,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -368,19 +368,19 @@ export class GlueMlTransformInputRecordTablesList extends cdktn.ComplexList {
 }
 export interface GlueMlTransformParametersFindMatchesParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#accuracy_cost_trade_off GlueMlTransform#accuracy_cost_trade_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#accuracy_cost_trade_off GlueMlTransform#accuracy_cost_trade_off}
   */
   readonly accuracyCostTradeOff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
   */
   readonly enforceProvidedLabels?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#precision_recall_trade_off GlueMlTransform#precision_recall_trade_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#precision_recall_trade_off GlueMlTransform#precision_recall_trade_off}
   */
   readonly precisionRecallTradeOff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
   */
   readonly primaryKeyColumnName?: string;
 }
@@ -486,7 +486,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // accuracy_cost_trade_off - computed: false, optional: true, required: false
-  private _accuracyCostTradeOff?: number; 
+  private _accuracyCostTradeOff?: number;
   public get accuracyCostTradeOff() {
     return this.getNumberAttribute('accuracy_cost_trade_off');
   }
@@ -502,7 +502,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // enforce_provided_labels - computed: false, optional: true, required: false
-  private _enforceProvidedLabels?: boolean | cdktn.IResolvable; 
+  private _enforceProvidedLabels?: boolean | cdktn.IResolvable;
   public get enforceProvidedLabels() {
     return this.getBooleanAttribute('enforce_provided_labels');
   }
@@ -518,7 +518,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // precision_recall_trade_off - computed: false, optional: true, required: false
-  private _precisionRecallTradeOff?: number; 
+  private _precisionRecallTradeOff?: number;
   public get precisionRecallTradeOff() {
     return this.getNumberAttribute('precision_recall_trade_off');
   }
@@ -534,7 +534,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // primary_key_column_name - computed: false, optional: true, required: false
-  private _primaryKeyColumnName?: string; 
+  private _primaryKeyColumnName?: string;
   public get primaryKeyColumnName() {
     return this.getStringAttribute('primary_key_column_name');
   }
@@ -551,13 +551,13 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
 }
 export interface GlueMlTransformParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
   */
   readonly transformType: string;
   /**
   * find_matches_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
   */
   readonly findMatchesParameters: GlueMlTransformParametersFindMatchesParameters;
 }
@@ -637,7 +637,7 @@ export class GlueMlTransformParametersOutputReference extends cdktn.ComplexObjec
   }
 
   // transform_type - computed: false, optional: false, required: true
-  private _transformType?: string; 
+  private _transformType?: string;
   public get transformType() {
     return this.getStringAttribute('transform_type');
   }
@@ -664,7 +664,7 @@ export class GlueMlTransformParametersOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform aws_glue_ml_transform}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform aws_glue_ml_transform}
 */
 export class GlueMlTransform extends cdktn.TerraformResource {
 
@@ -680,7 +680,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueMlTransform resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueMlTransform to import
-  * @param importFromId The id of the existing GlueMlTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueMlTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueMlTransform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -692,7 +692,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -703,7 +703,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_ml_transform',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -740,7 +740,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -756,7 +756,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string; 
+  private _glueVersion?: string;
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -772,7 +772,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -793,7 +793,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -809,7 +809,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: false, optional: true, required: false
-  private _maxRetries?: number; 
+  private _maxRetries?: number;
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -825,7 +825,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -838,7 +838,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: false, optional: true, required: false
-  private _numberOfWorkers?: number; 
+  private _numberOfWorkers?: number;
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -854,7 +854,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -870,7 +870,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -889,7 +889,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -905,7 +905,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -921,7 +921,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // timeout - computed: false, optional: true, required: false
-  private _timeout?: number; 
+  private _timeout?: number;
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -937,7 +937,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: false, optional: true, required: false
-  private _workerType?: string; 
+  private _workerType?: string;
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

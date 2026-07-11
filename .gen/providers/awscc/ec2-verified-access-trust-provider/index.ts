@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface Ec2VerifiedAccessTrustProviderConfig extends cdktn.TerraformMet
   /**
   * A description for the Amazon Web Services Verified Access trust provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#description Ec2VerifiedAccessTrustProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#description Ec2VerifiedAccessTrustProvider#description}
   */
   readonly description?: string;
   /**
   * The options for device identity based trust providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#device_options Ec2VerifiedAccessTrustProvider#device_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#device_options Ec2VerifiedAccessTrustProvider#device_options}
   */
   readonly deviceOptions?: Ec2VerifiedAccessTrustProviderDeviceOptions;
   /**
   * The type of device-based trust provider. Possible values: jamf|crowdstrike
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#device_trust_provider_type Ec2VerifiedAccessTrustProvider#device_trust_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#device_trust_provider_type Ec2VerifiedAccessTrustProvider#device_trust_provider_type}
   */
   readonly deviceTrustProviderType?: string;
   /**
   * The OpenID Connect details for an oidc -type, user-identity based trust provider for L4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#native_application_oidc_options Ec2VerifiedAccessTrustProvider#native_application_oidc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#native_application_oidc_options Ec2VerifiedAccessTrustProvider#native_application_oidc_options}
   */
   readonly nativeApplicationOidcOptions?: Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptions;
   /**
   * The OpenID Connect details for an oidc -type, user-identity based trust provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#oidc_options Ec2VerifiedAccessTrustProvider#oidc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#oidc_options Ec2VerifiedAccessTrustProvider#oidc_options}
   */
   readonly oidcOptions?: Ec2VerifiedAccessTrustProviderOidcOptions;
   /**
   * The identifier to be used when working with policy rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#policy_reference_name Ec2VerifiedAccessTrustProvider#policy_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#policy_reference_name Ec2VerifiedAccessTrustProvider#policy_reference_name}
   */
   readonly policyReferenceName: string;
   /**
   * The configuration options for customer provided KMS encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#sse_specification Ec2VerifiedAccessTrustProvider#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#sse_specification Ec2VerifiedAccessTrustProvider#sse_specification}
   */
   readonly sseSpecification?: Ec2VerifiedAccessTrustProviderSseSpecification;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#tags Ec2VerifiedAccessTrustProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#tags Ec2VerifiedAccessTrustProvider#tags}
   */
   readonly tags?: Ec2VerifiedAccessTrustProviderTags[] | cdktn.IResolvable;
   /**
   * Type of trust provider. Possible values: user|device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#trust_provider_type Ec2VerifiedAccessTrustProvider#trust_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#trust_provider_type Ec2VerifiedAccessTrustProvider#trust_provider_type}
   */
   readonly trustProviderType: string;
   /**
   * The type of device-based trust provider. Possible values: oidc|iam-identity-center
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#user_trust_provider_type Ec2VerifiedAccessTrustProvider#user_trust_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#user_trust_provider_type Ec2VerifiedAccessTrustProvider#user_trust_provider_type}
   */
   readonly userTrustProviderType?: string;
 }
@@ -72,13 +72,13 @@ export interface Ec2VerifiedAccessTrustProviderDeviceOptions {
   /**
   * URL Verified Access will use to verify authenticity of the device tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#public_signing_key_url Ec2VerifiedAccessTrustProvider#public_signing_key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#public_signing_key_url Ec2VerifiedAccessTrustProvider#public_signing_key_url}
   */
   readonly publicSigningKeyUrl?: string;
   /**
   * The ID of the tenant application with the device-identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#tenant_id Ec2VerifiedAccessTrustProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#tenant_id Ec2VerifiedAccessTrustProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -168,7 +168,7 @@ export class Ec2VerifiedAccessTrustProviderDeviceOptionsOutputReference extends 
   }
 
   // public_signing_key_url - computed: true, optional: true, required: false
-  private _publicSigningKeyUrl?: string; 
+  private _publicSigningKeyUrl?: string;
   public get publicSigningKeyUrl() {
     return this.getStringAttribute('public_signing_key_url');
   }
@@ -184,7 +184,7 @@ export class Ec2VerifiedAccessTrustProviderDeviceOptionsOutputReference extends 
   }
 
   // tenant_id - computed: true, optional: true, required: false
-  private _tenantId?: string; 
+  private _tenantId?: string;
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -203,49 +203,49 @@ export interface Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptions {
   /**
   * The OIDC authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#authorization_endpoint Ec2VerifiedAccessTrustProvider#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#authorization_endpoint Ec2VerifiedAccessTrustProvider#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * The client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#client_id Ec2VerifiedAccessTrustProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#client_id Ec2VerifiedAccessTrustProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#client_secret Ec2VerifiedAccessTrustProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#client_secret Ec2VerifiedAccessTrustProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OIDC issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#issuer Ec2VerifiedAccessTrustProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#issuer Ec2VerifiedAccessTrustProvider#issuer}
   */
   readonly issuer?: string;
   /**
   * The public signing key for endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#public_signing_key_endpoint Ec2VerifiedAccessTrustProvider#public_signing_key_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#public_signing_key_endpoint Ec2VerifiedAccessTrustProvider#public_signing_key_endpoint}
   */
   readonly publicSigningKeyEndpoint?: string;
   /**
   * OpenID Connect (OIDC) scopes are used by an application during authentication to authorize access to details of a user. Each scope returns a specific set of user attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#scope Ec2VerifiedAccessTrustProvider#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#scope Ec2VerifiedAccessTrustProvider#scope}
   */
   readonly scope?: string;
   /**
   * The OIDC token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#token_endpoint Ec2VerifiedAccessTrustProvider#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#token_endpoint Ec2VerifiedAccessTrustProvider#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * The OIDC user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#user_info_endpoint Ec2VerifiedAccessTrustProvider#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#user_info_endpoint Ec2VerifiedAccessTrustProvider#user_info_endpoint}
   */
   readonly userInfoEndpoint?: string;
 }
@@ -413,7 +413,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string; 
+  private _authorizationEndpoint?: string;
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -429,7 +429,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -445,7 +445,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -461,7 +461,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -477,7 +477,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // public_signing_key_endpoint - computed: true, optional: true, required: false
-  private _publicSigningKeyEndpoint?: string; 
+  private _publicSigningKeyEndpoint?: string;
   public get publicSigningKeyEndpoint() {
     return this.getStringAttribute('public_signing_key_endpoint');
   }
@@ -493,7 +493,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -509,7 +509,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string; 
+  private _tokenEndpoint?: string;
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -525,7 +525,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string; 
+  private _userInfoEndpoint?: string;
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -544,43 +544,43 @@ export interface Ec2VerifiedAccessTrustProviderOidcOptions {
   /**
   * The OIDC authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#authorization_endpoint Ec2VerifiedAccessTrustProvider#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#authorization_endpoint Ec2VerifiedAccessTrustProvider#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * The client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#client_id Ec2VerifiedAccessTrustProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#client_id Ec2VerifiedAccessTrustProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#client_secret Ec2VerifiedAccessTrustProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#client_secret Ec2VerifiedAccessTrustProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OIDC issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#issuer Ec2VerifiedAccessTrustProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#issuer Ec2VerifiedAccessTrustProvider#issuer}
   */
   readonly issuer?: string;
   /**
   * OpenID Connect (OIDC) scopes are used by an application during authentication to authorize access to details of a user. Each scope returns a specific set of user attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#scope Ec2VerifiedAccessTrustProvider#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#scope Ec2VerifiedAccessTrustProvider#scope}
   */
   readonly scope?: string;
   /**
   * The OIDC token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#token_endpoint Ec2VerifiedAccessTrustProvider#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#token_endpoint Ec2VerifiedAccessTrustProvider#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * The OIDC user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#user_info_endpoint Ec2VerifiedAccessTrustProvider#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#user_info_endpoint Ec2VerifiedAccessTrustProvider#user_info_endpoint}
   */
   readonly userInfoEndpoint?: string;
 }
@@ -735,7 +735,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string; 
+  private _authorizationEndpoint?: string;
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -751,7 +751,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -767,7 +767,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -783,7 +783,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -799,7 +799,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -815,7 +815,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string; 
+  private _tokenEndpoint?: string;
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -831,7 +831,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string; 
+  private _userInfoEndpoint?: string;
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -850,13 +850,13 @@ export interface Ec2VerifiedAccessTrustProviderSseSpecification {
   /**
   * Whether to encrypt the policy with the provided key or disable encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#customer_managed_key_enabled Ec2VerifiedAccessTrustProvider#customer_managed_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#customer_managed_key_enabled Ec2VerifiedAccessTrustProvider#customer_managed_key_enabled}
   */
   readonly customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
   /**
   * KMS Key Arn used to encrypt the group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#kms_key_arn Ec2VerifiedAccessTrustProvider#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#kms_key_arn Ec2VerifiedAccessTrustProvider#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -946,7 +946,7 @@ export class Ec2VerifiedAccessTrustProviderSseSpecificationOutputReference exten
   }
 
   // customer_managed_key_enabled - computed: true, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -962,7 +962,7 @@ export class Ec2VerifiedAccessTrustProviderSseSpecificationOutputReference exten
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -981,13 +981,13 @@ export interface Ec2VerifiedAccessTrustProviderTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#key Ec2VerifiedAccessTrustProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#key Ec2VerifiedAccessTrustProvider#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#value Ec2VerifiedAccessTrustProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#value Ec2VerifiedAccessTrustProvider#value}
   */
   readonly value?: string;
 }
@@ -1079,7 +1079,7 @@ export class Ec2VerifiedAccessTrustProviderTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1095,7 +1095,7 @@ export class Ec2VerifiedAccessTrustProviderTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1132,7 +1132,7 @@ export class Ec2VerifiedAccessTrustProviderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider}
 */
 export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
 
@@ -1148,7 +1148,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VerifiedAccessTrustProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VerifiedAccessTrustProvider to import
-  * @param importFromId The id of the existing Ec2VerifiedAccessTrustProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VerifiedAccessTrustProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VerifiedAccessTrustProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1160,7 +1160,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1171,7 +1171,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_verified_access_trust_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1203,7 +1203,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1235,7 +1235,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // device_trust_provider_type - computed: true, optional: true, required: false
-  private _deviceTrustProviderType?: string; 
+  private _deviceTrustProviderType?: string;
   public get deviceTrustProviderType() {
     return this.getStringAttribute('device_trust_provider_type');
   }
@@ -1293,7 +1293,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // policy_reference_name - computed: false, optional: false, required: true
-  private _policyReferenceName?: string; 
+  private _policyReferenceName?: string;
   public get policyReferenceName() {
     return this.getStringAttribute('policy_reference_name');
   }
@@ -1338,7 +1338,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // trust_provider_type - computed: false, optional: false, required: true
-  private _trustProviderType?: string; 
+  private _trustProviderType?: string;
   public get trustProviderType() {
     return this.getStringAttribute('trust_provider_type');
   }
@@ -1351,7 +1351,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // user_trust_provider_type - computed: true, optional: true, required: false
-  private _userTrustProviderType?: string; 
+  private _userTrustProviderType?: string;
   public get userTrustProviderType() {
     return this.getStringAttribute('user_trust_provider_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether the volume is auto-enabled for I/O operations. By default, EBS disables I/O to the volume from attached EC2 instances when it determines that a volume's data is potentially inconsistent. If the consistency of the volume is not a concern, and you prefer that the volume be made available immediately if it's impaired, you can configure the volume to automatically enable I/O.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#auto_enable_io Ec2Volume#auto_enable_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#auto_enable_io Ec2Volume#auto_enable_io}
   */
   readonly autoEnableIo?: boolean | cdktn.IResolvable;
   /**
@@ -18,7 +18,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *  Either ``AvailabilityZone`` or ``AvailabilityZoneId`` must be specified, but not both.
   *  If you are creating a volume copy, omit this parameter. The volume copy is created in the same Availability Zone as the source volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#availability_zone Ec2Volume#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#availability_zone Ec2Volume#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
@@ -26,26 +26,26 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *  Either ``AvailabilityZone`` or ``AvailabilityZoneId`` must be specified, but not both.
   *  If you are creating a volume copy, omit this parameter. The volume copy is created in the same Availability Zone as the source volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#availability_zone_id Ec2Volume#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#availability_zone_id Ec2Volume#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
   * Indicates whether the volume should be encrypted. The effect of setting the encryption state to ``true`` depends on the volume origin (new, from a snapshot, or from an existing volume), starting encryption state, ownership, and whether encryption by default is enabled. For more information, see [Encryption by default](https://docs.aws.amazon.com/ebs/latest/userguide/work-with-ebs-encr.html#encryption-by-default) in the *Amazon EBS User Guide*.
   *  If you are creating a volume copy, omit this parameter. The volume is automatically encrypted with the same KMS key as the source volume. You can't copy unencrypted volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#encrypted Ec2Volume#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#encrypted Ec2Volume#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * The number of I/O operations per second (IOPS) to provision for the volume. Required for ``io1`` and ``io2`` volumes. Optional for ``gp3`` volumes. Omit for all other volume types. 
+  * The number of I/O operations per second (IOPS) to provision for the volume. Required for ``io1`` and ``io2`` volumes. Optional for ``gp3`` volumes. Omit for all other volume types.
   *  Valid ranges:
   *   +  gp3: ``3,000``(*default*)``- 80,000`` IOPS
   *   +  io1: ``100 - 64,000`` IOPS
   *   +  io2: ``100 - 256,000`` IOPS
-  *   
+  *
   *   [Instances built on the Nitro System](https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html) can support up to 256,000 IOPS. Other instances can support up to 32,000 IOPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#iops Ec2Volume#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#iops Ec2Volume#iops}
   */
   readonly iops?: number;
   /**
@@ -56,31 +56,31 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  Key alias. Specify the alias for the key, prefixed with ``alias/``. For example, for a key with the alias ``my_cmk``, use ``alias/my_cmk``. Or to specify the aws-managed-key, use ``alias/aws/ebs``.
   *   +  Key ARN. For example, arn:aws:kms:us-east-1:012345678910:key/1234abcd-12ab-34cd-56ef-1234567890ab.
   *   +  Alias ARN. For example, arn:aws:kms:us-east-1:012345678910:alias/ExampleAlias.
-  *   
+  *
   *  If you are creating a volume copy, omit this parameter. The volume is automatically encrypted with the same KMS key as the source volume. You can't copy unencrypted volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#kms_key_id Ec2Volume#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#kms_key_id Ec2Volume#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Indicates whether Amazon EBS Multi-Attach is enabled.
   *  CFNlong does not currently support updating a single-attach volume to be multi-attach enabled, updating a multi-attach enabled volume to be single-attach, or updating the size or number of I/O operations per second (IOPS) of a multi-attach enabled volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#multi_attach_enabled Ec2Volume#multi_attach_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#multi_attach_enabled Ec2Volume#multi_attach_enabled}
   */
   readonly multiAttachEnabled?: boolean | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the Outpost on which to create the volume.
   *  If you intend to use a volume with an instance running on an outpost, then you must create the volume on the same outpost as the instance. You can't use a volume created in an AWS Region with an instance on an AWS outpost, or the other way around.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#outpost_arn Ec2Volume#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#outpost_arn Ec2Volume#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
   * The size of the volume, in GiBs.
   *   +  Required for new empty volumes.
   *   +  Optional for volumes created from snapshots and volume copies. In this case, the size defaults to the size of the snapshot or source volume. You can optionally specify a size that is equal to or larger than the size of the source snapshot or volume.
-  *   
+  *
   *  Supported volume sizes:
   *   +  gp2: ``1 - 16,384`` GiB
   *   +  gp3: ``1 - 65,536`` GiB
@@ -89,25 +89,25 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  st1 and sc1: ``125 - 16,384`` GiB
   *   +  standard: ``1 - 1024`` GiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#size Ec2Volume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#size Ec2Volume#size}
   */
   readonly size?: number;
   /**
   * The snapshot from which to create the volume. Only specify to create a volume from a snapshot. To create a new empty volume, omit this parameter and specify a value for ``Size`` instead. To create a volume copy, omit this parameter and specify ``SourceVolumeId`` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#snapshot_id Ec2Volume#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#snapshot_id Ec2Volume#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The ID of the source EBS volume to copy. When specified, the volume is created as an exact copy of the specified volume. Only specify to create a volume copy. To create a new empty volume or to create a volume from a snapshot, omit this parameter,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#source_volume_id Ec2Volume#source_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#source_volume_id Ec2Volume#source_volume_id}
   */
   readonly sourceVolumeId?: string;
   /**
   * The tags to apply to the volume during creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#tags Ec2Volume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#tags Ec2Volume#tags}
   */
   readonly tags?: Ec2VolumeTags[] | cdktn.IResolvable;
   /**
@@ -116,7 +116,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *  Valid Range: Minimum value of 125. Maximum value of 2000.
   *  The maximum ratio of throughput to IOPS is 0.25 MiB/s per IOPS. For example, a volume with 3,000 IOPS can have a maximum throughput of 750 MiB/s (3,000 x 0.25).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#throughput Ec2Volume#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#throughput Ec2Volume#throughput}
   */
   readonly throughput?: number;
   /**
@@ -125,11 +125,11 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  You want to create the volume using fast snapshot restore. You must specify a snapshot that is enabled for fast snapshot restore. In this case, the volume is fully initialized at creation.
   *   If you specify a snapshot that is enabled for fast snapshot restore and a volume initialization rate, the volume will be initialized at the specified rate instead of fast snapshot restore.
   *    +  You want to create a volume that is initialized at the default rate.
-  *   
+  *
   *  For more information, see [Initialize Amazon EBS volumes](https://docs.aws.amazon.com/ebs/latest/userguide/initalize-volume.html) in the *Amazon EC2 User Guide*.
   *  Valid range: 100 - 300 MiB/s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#volume_initialization_rate Ec2Volume#volume_initialization_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#volume_initialization_rate Ec2Volume#volume_initialization_rate}
   */
   readonly volumeInitializationRate?: number;
   /**
@@ -139,12 +139,12 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  Throughput Optimized HDD: ``st1``
   *   +  Cold HDD: ``sc1``
   *   +  Magnetic: ``standard``
-  *   
+  *
   *   Throughput Optimized HDD (``st1``) and Cold HDD (``sc1``) volumes can't be used as boot volumes.
   *   For more information, see [Amazon EBS volume types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html) in the *Amazon EBS User Guide*.
   *  Default: ``gp2``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#volume_type Ec2Volume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#volume_type Ec2Volume#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -152,13 +152,13 @@ export interface Ec2VolumeTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#key Ec2Volume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#key Ec2Volume#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#value Ec2Volume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#value Ec2Volume#value}
   */
   readonly value?: string;
 }
@@ -250,7 +250,7 @@ export class Ec2VolumeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -266,7 +266,7 @@ export class Ec2VolumeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -303,7 +303,7 @@ export class Ec2VolumeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume awscc_ec2_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume awscc_ec2_volume}
 */
 export class Ec2Volume extends cdktn.TerraformResource {
 
@@ -319,7 +319,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Volume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Volume to import
-  * @param importFromId The id of the existing Ec2Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Volume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -331,7 +331,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_volume awscc_ec2_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume awscc_ec2_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,7 +342,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_volume',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -374,7 +374,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   // ==========
 
   // auto_enable_io - computed: true, optional: true, required: false
-  private _autoEnableIo?: boolean | cdktn.IResolvable; 
+  private _autoEnableIo?: boolean | cdktn.IResolvable;
   public get autoEnableIo() {
     return this.getBooleanAttribute('auto_enable_io');
   }
@@ -390,7 +390,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -406,7 +406,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -422,7 +422,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -443,7 +443,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -459,7 +459,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -475,7 +475,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // multi_attach_enabled - computed: true, optional: true, required: false
-  private _multiAttachEnabled?: boolean | cdktn.IResolvable; 
+  private _multiAttachEnabled?: boolean | cdktn.IResolvable;
   public get multiAttachEnabled() {
     return this.getBooleanAttribute('multi_attach_enabled');
   }
@@ -491,7 +491,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -507,7 +507,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -523,7 +523,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -539,7 +539,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // source_volume_id - computed: true, optional: true, required: false
-  private _sourceVolumeId?: string; 
+  private _sourceVolumeId?: string;
   public get sourceVolumeId() {
     return this.getStringAttribute('source_volume_id');
   }
@@ -571,7 +571,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -592,7 +592,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // volume_initialization_rate - computed: true, optional: true, required: false
-  private _volumeInitializationRate?: number; 
+  private _volumeInitializationRate?: number;
   public get volumeInitializationRate() {
     return this.getNumberAttribute('volume_initialization_rate');
   }
@@ -608,7 +608,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ses_mail_manager_addon_instances
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ses_mail_manager_addon_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSesMailManagerAddonInstancesConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ses_mail_manager_addon_instances awscc_ses_mail_manager_addon_instances}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ses_mail_manager_addon_instances awscc_ses_mail_manager_addon_instances}
 */
 export class DataAwsccSesMailManagerAddonInstances extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccSesMailManagerAddonInstances extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccSesMailManagerAddonInstances resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSesMailManagerAddonInstances to import
-  * @param importFromId The id of the existing DataAwsccSesMailManagerAddonInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ses_mail_manager_addon_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSesMailManagerAddonInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ses_mail_manager_addon_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSesMailManagerAddonInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccSesMailManagerAddonInstances extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ses_mail_manager_addon_instances awscc_ses_mail_manager_addon_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ses_mail_manager_addon_instances awscc_ses_mail_manager_addon_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccSesMailManagerAddonInstances extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_ses_mail_manager_addon_instances',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

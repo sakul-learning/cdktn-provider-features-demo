@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SagemakerModelBiasJobDefinitionConfig extends cdktn.TerraformMe
   /**
   * The name of the endpoint used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_name SagemakerModelBiasJobDefinition#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_name SagemakerModelBiasJobDefinition#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * The name of the job definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#job_definition_name SagemakerModelBiasJobDefinition#job_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#job_definition_name SagemakerModelBiasJobDefinition#job_definition_name}
   */
   readonly jobDefinitionName?: string;
   /**
   * Identifies the resources to deploy for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#job_resources SagemakerModelBiasJobDefinition#job_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#job_resources SagemakerModelBiasJobDefinition#job_resources}
   */
   readonly jobResources: SagemakerModelBiasJobDefinitionJobResources;
   /**
   * Container image configuration object for the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_app_specification SagemakerModelBiasJobDefinition#model_bias_app_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_app_specification SagemakerModelBiasJobDefinition#model_bias_app_specification}
   */
   readonly modelBiasAppSpecification: SagemakerModelBiasJobDefinitionModelBiasAppSpecification;
   /**
   * Baseline configuration used to validate that the data conforms to the specified constraints and statistics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_baseline_config SagemakerModelBiasJobDefinition#model_bias_baseline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_baseline_config SagemakerModelBiasJobDefinition#model_bias_baseline_config}
   */
   readonly modelBiasBaselineConfig?: SagemakerModelBiasJobDefinitionModelBiasBaselineConfig;
   /**
   * The inputs for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_job_input SagemakerModelBiasJobDefinition#model_bias_job_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_job_input SagemakerModelBiasJobDefinition#model_bias_job_input}
   */
   readonly modelBiasJobInput: SagemakerModelBiasJobDefinitionModelBiasJobInput;
   /**
   * The output configuration for monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_job_output_config SagemakerModelBiasJobDefinition#model_bias_job_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#model_bias_job_output_config SagemakerModelBiasJobDefinition#model_bias_job_output_config}
   */
   readonly modelBiasJobOutputConfig: SagemakerModelBiasJobDefinitionModelBiasJobOutputConfig;
   /**
   * Networking options for a job, such as network traffic encryption between containers, whether to allow inbound and outbound network calls to and from containers, and the VPC subnets and security groups to use for VPC-enabled jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#network_config SagemakerModelBiasJobDefinition#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#network_config SagemakerModelBiasJobDefinition#network_config}
   */
   readonly networkConfig?: SagemakerModelBiasJobDefinitionNetworkConfig;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#role_arn SagemakerModelBiasJobDefinition#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#role_arn SagemakerModelBiasJobDefinition#role_arn}
   */
   readonly roleArn: string;
   /**
   * Specifies a time limit for how long the monitoring job is allowed to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#stopping_condition SagemakerModelBiasJobDefinition#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#stopping_condition SagemakerModelBiasJobDefinition#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerModelBiasJobDefinitionStoppingCondition;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#tags SagemakerModelBiasJobDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#tags SagemakerModelBiasJobDefinition#tags}
   */
   readonly tags?: SagemakerModelBiasJobDefinitionTags[] | cdktn.IResolvable;
 }
@@ -78,25 +78,25 @@ export interface SagemakerModelBiasJobDefinitionJobResourcesClusterConfig {
   /**
   * The number of ML compute instances to use in the model monitoring job. For distributed processing jobs, specify a value greater than 1. The default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#instance_count SagemakerModelBiasJobDefinition#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#instance_count SagemakerModelBiasJobDefinition#instance_count}
   */
   readonly instanceCount: number;
   /**
   * The ML compute instance type for the processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#instance_type SagemakerModelBiasJobDefinition#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#instance_type SagemakerModelBiasJobDefinition#instance_type}
   */
   readonly instanceType: string;
   /**
   * The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance(s) that run the model monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#volume_kms_key_id SagemakerModelBiasJobDefinition#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#volume_kms_key_id SagemakerModelBiasJobDefinition#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * The size of the ML storage volume, in gigabytes, that you want to provision. You must specify sufficient ML storage for your scenario.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#volume_size_in_gb SagemakerModelBiasJobDefinition#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#volume_size_in_gb SagemakerModelBiasJobDefinition#volume_size_in_gb}
   */
   readonly volumeSizeInGb: number;
 }
@@ -212,7 +212,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -225,7 +225,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -238,7 +238,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -254,7 +254,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // volume_size_in_gb - computed: false, optional: false, required: true
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -270,7 +270,7 @@ export interface SagemakerModelBiasJobDefinitionJobResources {
   /**
   * Configuration for the cluster used to run model monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#cluster_config SagemakerModelBiasJobDefinition#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#cluster_config SagemakerModelBiasJobDefinition#cluster_config}
   */
   readonly clusterConfig: SagemakerModelBiasJobDefinitionJobResourcesClusterConfig;
 }
@@ -363,19 +363,19 @@ export interface SagemakerModelBiasJobDefinitionModelBiasAppSpecification {
   /**
   * The S3 URI to an analysis configuration file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#config_uri SagemakerModelBiasJobDefinition#config_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#config_uri SagemakerModelBiasJobDefinition#config_uri}
   */
   readonly configUri: string;
   /**
   * Sets the environment variables in the Docker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#environment SagemakerModelBiasJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#environment SagemakerModelBiasJobDefinition#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * The container image to be run by the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#image_uri SagemakerModelBiasJobDefinition#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#image_uri SagemakerModelBiasJobDefinition#image_uri}
   */
   readonly imageUri: string;
 }
@@ -478,7 +478,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // config_uri - computed: false, optional: false, required: true
-  private _configUri?: string; 
+  private _configUri?: string;
   public get configUri() {
     return this.getStringAttribute('config_uri');
   }
@@ -491,7 +491,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -507,7 +507,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -523,7 +523,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstrain
   /**
   * The Amazon S3 URI for baseline constraint file in Amazon S3 that the current monitoring job should validated against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -600,7 +600,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsRe
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -619,13 +619,13 @@ export interface SagemakerModelBiasJobDefinitionModelBiasBaselineConfig {
   /**
   * The name of a processing job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#baselining_job_name SagemakerModelBiasJobDefinition#baselining_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#baselining_job_name SagemakerModelBiasJobDefinition#baselining_job_name}
   */
   readonly baseliningJobName?: string;
   /**
   * The baseline constraints resource for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#constraints_resource SagemakerModelBiasJobDefinition#constraints_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#constraints_resource SagemakerModelBiasJobDefinition#constraints_resource}
   */
   readonly constraintsResource?: SagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResource;
 }
@@ -715,7 +715,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasBaselineConfigOutputReferen
   }
 
   // baselining_job_name - computed: true, optional: true, required: false
-  private _baseliningJobName?: string; 
+  private _baseliningJobName?: string;
   public get baseliningJobName() {
     return this.getStringAttribute('baselining_job_name');
   }
@@ -750,7 +750,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformI
   /**
   * A boolean flag indicating if given CSV has header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#header SagemakerModelBiasJobDefinition#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#header SagemakerModelBiasJobDefinition#header}
   */
   readonly header?: boolean | cdktn.IResolvable;
 }
@@ -827,7 +827,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable; 
+  private _header?: boolean | cdktn.IResolvable;
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -846,7 +846,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformI
   /**
   * A boolean flag indicating if it is JSON line format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#line SagemakerModelBiasJobDefinition#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#line SagemakerModelBiasJobDefinition#line}
   */
   readonly line?: boolean | cdktn.IResolvable;
 }
@@ -923,7 +923,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // line - computed: true, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable; 
+  private _line?: boolean | cdktn.IResolvable;
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -942,19 +942,19 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformI
   /**
   * The CSV format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#csv SagemakerModelBiasJobDefinition#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#csv SagemakerModelBiasJobDefinition#csv}
   */
   readonly csv?: SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsv;
   /**
   * The Json format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#json SagemakerModelBiasJobDefinition#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#json SagemakerModelBiasJobDefinition#json}
   */
   readonly json?: SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJson;
   /**
   * A flag indicate if the dataset format is Parquet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#parquet SagemakerModelBiasJobDefinition#parquet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#parquet SagemakerModelBiasJobDefinition#parquet}
   */
   readonly parquet?: boolean | cdktn.IResolvable;
 }
@@ -1089,7 +1089,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // parquet - computed: true, optional: true, required: false
-  private _parquet?: boolean | cdktn.IResolvable; 
+  private _parquet?: boolean | cdktn.IResolvable;
   public get parquet() {
     return this.getBooleanAttribute('parquet');
   }
@@ -1108,65 +1108,65 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformI
   /**
   * A URI that identifies the Amazon S3 storage location where Batch Transform Job captures data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#data_captured_destination_s3_uri SagemakerModelBiasJobDefinition#data_captured_destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#data_captured_destination_s3_uri SagemakerModelBiasJobDefinition#data_captured_destination_s3_uri}
   */
   readonly dataCapturedDestinationS3Uri?: string;
   /**
   * The dataset format of the data to monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#dataset_format SagemakerModelBiasJobDefinition#dataset_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#dataset_format SagemakerModelBiasJobDefinition#dataset_format}
   */
   readonly datasetFormat?: SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormat;
   /**
   * Monitoring end time offset, e.g. PT0H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#end_time_offset SagemakerModelBiasJobDefinition#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#end_time_offset SagemakerModelBiasJobDefinition#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
   * JSONpath to locate features in JSONlines dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#features_attribute SagemakerModelBiasJobDefinition#features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#features_attribute SagemakerModelBiasJobDefinition#features_attribute}
   */
   readonly featuresAttribute?: string;
   /**
   * Index or JSONpath to locate predicted label(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#inference_attribute SagemakerModelBiasJobDefinition#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#inference_attribute SagemakerModelBiasJobDefinition#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
   * Path to the filesystem where the endpoint data is available to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
   */
   readonly localPath?: string;
   /**
   * Index or JSONpath to locate probabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#probability_attribute SagemakerModelBiasJobDefinition#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#probability_attribute SagemakerModelBiasJobDefinition#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#probability_threshold_attribute SagemakerModelBiasJobDefinition#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#probability_threshold_attribute SagemakerModelBiasJobDefinition#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
   * Whether input data distributed in Amazon S3 is fully replicated or sharded by an S3 key. Defauts to FullyReplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_data_distribution_type SagemakerModelBiasJobDefinition#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_data_distribution_type SagemakerModelBiasJobDefinition#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
   * Whether the Pipe or File is used as the input mode for transfering data for the monitoring job. Pipe mode is recommended for large datasets. File mode is useful for small files that fit in memory. Defaults to File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_input_mode SagemakerModelBiasJobDefinition#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_input_mode SagemakerModelBiasJobDefinition#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
   * Monitoring start time offset, e.g. -PT1H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#start_time_offset SagemakerModelBiasJobDefinition#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#start_time_offset SagemakerModelBiasJobDefinition#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1373,7 +1373,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // data_captured_destination_s3_uri - computed: true, optional: true, required: false
-  private _dataCapturedDestinationS3Uri?: string; 
+  private _dataCapturedDestinationS3Uri?: string;
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1405,7 +1405,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1421,7 +1421,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // features_attribute - computed: true, optional: true, required: false
-  private _featuresAttribute?: string; 
+  private _featuresAttribute?: string;
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1437,7 +1437,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1453,7 +1453,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1469,7 +1469,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1485,7 +1485,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1501,7 +1501,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1517,7 +1517,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1533,7 +1533,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1552,59 +1552,59 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInput {
   /**
   * Monitoring end time offset, e.g. PT0H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#end_time_offset SagemakerModelBiasJobDefinition#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#end_time_offset SagemakerModelBiasJobDefinition#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
   * The name of the endpoint used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_name SagemakerModelBiasJobDefinition#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_name SagemakerModelBiasJobDefinition#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * JSONpath to locate features in JSONlines dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#features_attribute SagemakerModelBiasJobDefinition#features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#features_attribute SagemakerModelBiasJobDefinition#features_attribute}
   */
   readonly featuresAttribute?: string;
   /**
   * Index or JSONpath to locate predicted label(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#inference_attribute SagemakerModelBiasJobDefinition#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#inference_attribute SagemakerModelBiasJobDefinition#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
   * Path to the filesystem where the endpoint data is available to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
   */
   readonly localPath?: string;
   /**
   * Index or JSONpath to locate probabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#probability_attribute SagemakerModelBiasJobDefinition#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#probability_attribute SagemakerModelBiasJobDefinition#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#probability_threshold_attribute SagemakerModelBiasJobDefinition#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#probability_threshold_attribute SagemakerModelBiasJobDefinition#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
   * Whether input data distributed in Amazon S3 is fully replicated or sharded by an S3 key. Defauts to FullyReplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_data_distribution_type SagemakerModelBiasJobDefinition#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_data_distribution_type SagemakerModelBiasJobDefinition#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
   * Whether the Pipe or File is used as the input mode for transfering data for the monitoring job. Pipe mode is recommended for large datasets. File mode is useful for small files that fit in memory. Defaults to File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_input_mode SagemakerModelBiasJobDefinition#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_input_mode SagemakerModelBiasJobDefinition#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
   * Monitoring start time offset, e.g. -PT1H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#start_time_offset SagemakerModelBiasJobDefinition#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#start_time_offset SagemakerModelBiasJobDefinition#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1798,7 +1798,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1814,7 +1814,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1830,7 +1830,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // features_attribute - computed: true, optional: true, required: false
-  private _featuresAttribute?: string; 
+  private _featuresAttribute?: string;
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1846,7 +1846,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1862,7 +1862,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1878,7 +1878,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1894,7 +1894,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1910,7 +1910,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1926,7 +1926,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1942,7 +1942,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1961,7 +1961,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3In
   /**
   * A URI that identifies the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -2038,7 +2038,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3InputO
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2054,19 +2054,19 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInput {
   /**
   * The batch transform input for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#batch_transform_input SagemakerModelBiasJobDefinition#batch_transform_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#batch_transform_input SagemakerModelBiasJobDefinition#batch_transform_input}
   */
   readonly batchTransformInput?: SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput;
   /**
   * The endpoint for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_input SagemakerModelBiasJobDefinition#endpoint_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#endpoint_input SagemakerModelBiasJobDefinition#endpoint_input}
   */
   readonly endpointInput?: SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInput;
   /**
-  * Ground truth input provided in S3 
+  * Ground truth input provided in S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#ground_truth_s3_input SagemakerModelBiasJobDefinition#ground_truth_s3_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#ground_truth_s3_input SagemakerModelBiasJobDefinition#ground_truth_s3_input}
   */
   readonly groundTruthS3Input: SagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3Input;
 }
@@ -2217,19 +2217,19 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitori
   /**
   * The local path to the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job. LocalPath is an absolute path for the output data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#local_path SagemakerModelBiasJobDefinition#local_path}
   */
   readonly localPath: string;
   /**
   * Whether to upload the results of the monitoring job continuously or after the job completes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_upload_mode SagemakerModelBiasJobDefinition#s3_upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_upload_mode SagemakerModelBiasJobDefinition#s3_upload_mode}
   */
   readonly s3UploadMode?: string;
   /**
   * A URI that identifies the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_uri SagemakerModelBiasJobDefinition#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -2332,7 +2332,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -2345,7 +2345,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string; 
+  private _s3UploadMode?: string;
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -2361,7 +2361,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2377,7 +2377,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitori
   /**
   * Information about where and how to store the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#s3_output SagemakerModelBiasJobDefinition#s3_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#s3_output SagemakerModelBiasJobDefinition#s3_output}
   */
   readonly s3Output: SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3Output;
 }
@@ -2492,13 +2492,13 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobOutputConfig {
   /**
   * The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artifacts at rest using Amazon S3 server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#kms_key_id SagemakerModelBiasJobDefinition#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#kms_key_id SagemakerModelBiasJobDefinition#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Monitoring outputs for monitoring jobs. This is where the output of the periodic monitoring jobs is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#monitoring_outputs SagemakerModelBiasJobDefinition#monitoring_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#monitoring_outputs SagemakerModelBiasJobDefinition#monitoring_outputs}
   */
   readonly monitoringOutputs: SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputs[] | cdktn.IResolvable;
 }
@@ -2588,7 +2588,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigOutputRefere
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2620,13 +2620,13 @@ export interface SagemakerModelBiasJobDefinitionNetworkConfigVpcConfig {
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. Specify the security groups for the VPC that is specified in the Subnets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#security_group_ids SagemakerModelBiasJobDefinition#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#security_group_ids SagemakerModelBiasJobDefinition#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect to your monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#subnets SagemakerModelBiasJobDefinition#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#subnets SagemakerModelBiasJobDefinition#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2716,7 +2716,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReferenc
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2732,7 +2732,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReferenc
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -2751,19 +2751,19 @@ export interface SagemakerModelBiasJobDefinitionNetworkConfig {
   /**
   * Whether to encrypt all communications between distributed processing jobs. Choose True to encrypt communications. Encryption provides greater security for distributed processing jobs, but the processing might take longer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#enable_inter_container_traffic_encryption SagemakerModelBiasJobDefinition#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#enable_inter_container_traffic_encryption SagemakerModelBiasJobDefinition#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
   * Whether to allow inbound and outbound network calls to and from the containers used for the processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#enable_network_isolation SagemakerModelBiasJobDefinition#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#enable_network_isolation SagemakerModelBiasJobDefinition#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
   * Specifies a VPC that your training jobs and hosted models have access to. Control access to and from your training and model containers by configuring the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#vpc_config SagemakerModelBiasJobDefinition#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#vpc_config SagemakerModelBiasJobDefinition#vpc_config}
   */
   readonly vpcConfig?: SagemakerModelBiasJobDefinitionNetworkConfigVpcConfig;
 }
@@ -2866,7 +2866,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigOutputReference extends
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2882,7 +2882,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigOutputReference extends
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -2917,7 +2917,7 @@ export interface SagemakerModelBiasJobDefinitionStoppingCondition {
   /**
   * The maximum runtime allowed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#max_runtime_in_seconds SagemakerModelBiasJobDefinition#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#max_runtime_in_seconds SagemakerModelBiasJobDefinition#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -2994,7 +2994,7 @@ export class SagemakerModelBiasJobDefinitionStoppingConditionOutputReference ext
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -3011,15 +3011,15 @@ export class SagemakerModelBiasJobDefinitionStoppingConditionOutputReference ext
 }
 export interface SagemakerModelBiasJobDefinitionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#key SagemakerModelBiasJobDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#key SagemakerModelBiasJobDefinition#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#value SagemakerModelBiasJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#value SagemakerModelBiasJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -3111,7 +3111,7 @@ export class SagemakerModelBiasJobDefinitionTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3127,7 +3127,7 @@ export class SagemakerModelBiasJobDefinitionTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3164,7 +3164,7 @@ export class SagemakerModelBiasJobDefinitionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}
 */
 export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
 
@@ -3180,7 +3180,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerModelBiasJobDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerModelBiasJobDefinition to import
-  * @param importFromId The id of the existing SagemakerModelBiasJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerModelBiasJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerModelBiasJobDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3192,7 +3192,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3203,7 +3203,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_model_bias_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3236,7 +3236,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -3262,7 +3262,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // job_definition_name - computed: true, optional: true, required: false
-  private _jobDefinitionName?: string; 
+  private _jobDefinitionName?: string;
   public get jobDefinitionName() {
     return this.getStringAttribute('job_definition_name');
   }
@@ -3362,7 +3362,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

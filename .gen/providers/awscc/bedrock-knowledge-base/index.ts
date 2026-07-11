@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BedrockKnowledgeBaseConfig extends cdktn.TerraformMetaArguments
   /**
   * Description of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
   */
   readonly description?: string;
   /**
   * Contains details about the embeddings model used for the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
   */
   readonly knowledgeBaseConfiguration: BedrockKnowledgeBaseKnowledgeBaseConfiguration;
   /**
   * The name of the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
   */
   readonly name: string;
   /**
   * The ARN of the IAM role with permissions to invoke API operations on the knowledge base. The ARN must begin with AmazonBedrockExecutionRoleForKnowledgeBase_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
   */
   readonly roleArn: string;
   /**
   * The vector store service in which the knowledge base is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
   */
   readonly storageConfiguration?: BedrockKnowledgeBaseStorageConfiguration;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -48,7 +48,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBa
   /**
   * Arn of a Kendra index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
   */
   readonly kendraIndexArn?: string;
 }
@@ -125,7 +125,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseCo
   }
 
   // kendra_index_arn - computed: true, optional: true, required: false
-  private _kendraIndexArn?: string; 
+  private _kendraIndexArn?: string;
   public get kendraIndexArn() {
     return this.getStringAttribute('kendra_index_arn');
   }
@@ -144,7 +144,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * Duration in seconds to segment the multi modal media
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
   */
   readonly fixedLengthDuration?: number;
 }
@@ -221,7 +221,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // fixed_length_duration - computed: true, optional: true, required: false
-  private _fixedLengthDuration?: number; 
+  private _fixedLengthDuration?: number;
   public get fixedLengthDuration() {
     return this.getNumberAttribute('fixed_length_duration');
   }
@@ -240,7 +240,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * Configure the audio segmentation configuration for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
   */
   readonly segmentationConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration;
 }
@@ -358,7 +358,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * Duration in seconds to segment the multi modal media
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
   */
   readonly fixedLengthDuration?: number;
 }
@@ -435,7 +435,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // fixed_length_duration - computed: true, optional: true, required: false
-  private _fixedLengthDuration?: number; 
+  private _fixedLengthDuration?: number;
   public get fixedLengthDuration() {
     return this.getNumberAttribute('fixed_length_duration');
   }
@@ -454,7 +454,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * Configure the video segmentation configuration for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
   */
   readonly segmentationConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration;
 }
@@ -572,25 +572,25 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * List of audio configurations for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
   */
   readonly audio?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio[] | cdktn.IResolvable;
   /**
   * The dimensions details for the vector configuration used on the Bedrock embeddings model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
   */
   readonly dimensions?: number;
   /**
   * The data type for the vectors when using a model to convert text into vector embeddings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
   */
   readonly embeddingDataType?: string;
   /**
   * List of video configurations for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
   */
   readonly video?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo[] | cdktn.IResolvable;
 }
@@ -722,7 +722,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // dimensions - computed: true, optional: true, required: false
-  private _dimensions?: number; 
+  private _dimensions?: number;
   public get dimensions() {
     return this.getNumberAttribute('dimensions');
   }
@@ -738,7 +738,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // embedding_data_type - computed: true, optional: true, required: false
-  private _embeddingDataType?: string; 
+  private _embeddingDataType?: string;
   public get embeddingDataType() {
     return this.getStringAttribute('embedding_data_type');
   }
@@ -773,7 +773,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * The vector configuration details for the Bedrock embeddings model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
   */
   readonly bedrockEmbeddingModelConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration;
 }
@@ -869,7 +869,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * The ARN of the AWS KMS key used to encrypt the managed knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -946,7 +946,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -965,25 +965,25 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeB
   /**
   * The ARN of the model used to create vector embeddings for the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
   */
   readonly embeddingModelArn?: string;
   /**
   * The embeddings model configuration details for the vector model used in Knowledge Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
   */
   readonly embeddingModelConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration;
   /**
   * The type of embedding model to use for the managed knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
   */
   readonly embeddingModelType?: string;
   /**
   * Contains details about the server-side encryption for the managed knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
   */
   readonly serverSideEncryptionConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration;
 }
@@ -1099,7 +1099,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // embedding_model_arn - computed: true, optional: true, required: false
-  private _embeddingModelArn?: string; 
+  private _embeddingModelArn?: string;
   public get embeddingModelArn() {
     return this.getStringAttribute('embedding_model_arn');
   }
@@ -1131,7 +1131,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseC
   }
 
   // embedding_model_type - computed: true, optional: true, required: false
-  private _embeddingModelType?: string; 
+  private _embeddingModelType?: string;
   public get embeddingModelType() {
     return this.getStringAttribute('embedding_model_type');
   }
@@ -1166,19 +1166,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Redshift database user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
   */
   readonly databaseUser?: string;
   /**
   * Provisioned Redshift auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
   /**
   * Arn of a SecretsManager Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
   */
   readonly usernamePasswordSecretArn?: string;
 }
@@ -1281,7 +1281,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // database_user - computed: true, optional: true, required: false
-  private _databaseUser?: string; 
+  private _databaseUser?: string;
   public get databaseUser() {
     return this.getStringAttribute('database_user');
   }
@@ -1297,7 +1297,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1313,7 +1313,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // username_password_secret_arn - computed: true, optional: true, required: false
-  private _usernamePasswordSecretArn?: string; 
+  private _usernamePasswordSecretArn?: string;
   public get usernamePasswordSecretArn() {
     return this.getStringAttribute('username_password_secret_arn');
   }
@@ -1332,13 +1332,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for Redshift query engine provisioned auth setup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
   */
   readonly authConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration;
   /**
   * Redshift cluster identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
 }
@@ -1444,7 +1444,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -1463,13 +1463,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Serverless Redshift auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
   /**
   * Arn of a SecretsManager Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
   */
   readonly usernamePasswordSecretArn?: string;
 }
@@ -1559,7 +1559,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1575,7 +1575,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // username_password_secret_arn - computed: true, optional: true, required: false
-  private _usernamePasswordSecretArn?: string; 
+  private _usernamePasswordSecretArn?: string;
   public get usernamePasswordSecretArn() {
     return this.getStringAttribute('username_password_secret_arn');
   }
@@ -1594,13 +1594,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for Redshift query engine serverless auth setup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
   */
   readonly authConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration;
   /**
   * Workgroup arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
   */
   readonly workgroupArn?: string;
 }
@@ -1706,7 +1706,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // workgroup_arn - computed: true, optional: true, required: false
-  private _workgroupArn?: string; 
+  private _workgroupArn?: string;
   public get workgroupArn() {
     return this.getStringAttribute('workgroup_arn');
   }
@@ -1725,19 +1725,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for provisioned Redshift query engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
   */
   readonly provisionedConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration;
   /**
   * Configurations for serverless Redshift query engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
   */
   readonly serverlessConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration;
   /**
   * Redshift query engine type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
 }
@@ -1872,7 +1872,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1891,13 +1891,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Question for the curated query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
   */
   readonly naturalLanguage?: string;
   /**
   * Answer for the curated query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
   */
   readonly sql?: string;
 }
@@ -1989,7 +1989,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // natural_language - computed: true, optional: true, required: false
-  private _naturalLanguage?: string; 
+  private _naturalLanguage?: string;
   public get naturalLanguage() {
     return this.getStringAttribute('natural_language');
   }
@@ -2005,7 +2005,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // sql - computed: true, optional: true, required: false
-  private _sql?: string; 
+  private _sql?: string;
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -2044,19 +2044,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Description for the attached entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
   */
   readonly description?: string;
   /**
   * Include or Exclude status for an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
   */
   readonly inclusion?: string;
   /**
   * Query generation column name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
   */
   readonly name?: string;
 }
@@ -2161,7 +2161,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2177,7 +2177,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // inclusion - computed: true, optional: true, required: false
-  private _inclusion?: string; 
+  private _inclusion?: string;
   public get inclusion() {
     return this.getStringAttribute('inclusion');
   }
@@ -2193,7 +2193,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2232,25 +2232,25 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * List of Redshift query generation columns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
   */
   readonly columns?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumns[] | cdktn.IResolvable;
   /**
   * Description for the attached entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
   */
   readonly description?: string;
   /**
   * Include or Exclude status for an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
   */
   readonly inclusion?: string;
   /**
   * Query generation table name. Must follow three-part notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
   */
   readonly name?: string;
 }
@@ -2384,7 +2384,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2400,7 +2400,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // inclusion - computed: true, optional: true, required: false
-  private _inclusion?: string; 
+  private _inclusion?: string;
   public get inclusion() {
     return this.getStringAttribute('inclusion');
   }
@@ -2416,7 +2416,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2455,13 +2455,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * List of example queries and results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
   */
   readonly curatedQueries?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries[] | cdktn.IResolvable;
   /**
   * List of tables used for Redshift query generation context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
   */
   readonly tables?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTables[] | cdktn.IResolvable;
 }
@@ -2586,13 +2586,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Max query execution timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
   */
   readonly executionTimeoutSeconds?: number;
   /**
   * Context used to improve query generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
   */
   readonly generationContext?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext;
 }
@@ -2682,7 +2682,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // execution_timeout_seconds - computed: true, optional: true, required: false
-  private _executionTimeoutSeconds?: number; 
+  private _executionTimeoutSeconds?: number;
   public get executionTimeoutSeconds() {
     return this.getNumberAttribute('execution_timeout_seconds');
   }
@@ -2717,7 +2717,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * List of table names in AWS Data Catalog. Must follow two part notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
   */
   readonly tableNames?: string[];
 }
@@ -2794,7 +2794,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // table_names - computed: true, optional: true, required: false
-  private _tableNames?: string[]; 
+  private _tableNames?: string[];
   public get tableNames() {
     return this.getListAttribute('table_names');
   }
@@ -2813,7 +2813,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Redshift database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
   */
   readonly databaseName?: string;
 }
@@ -2890,7 +2890,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2909,19 +2909,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for Redshift query engine AWS Data Catalog backed storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
   */
   readonly awsDataCatalogConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration;
   /**
   * Configurations for Redshift query engine Redshift backed storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
   */
   readonly redshiftConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration;
   /**
   * Redshift query engine storage type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
 }
@@ -3058,7 +3058,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3097,19 +3097,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for Redshift query engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
   */
   readonly queryEngineConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration;
   /**
   * Configurations for generating Redshift engine queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
   */
   readonly queryGenerationConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration;
   /**
   * List of configurations for available Redshift query engine storage types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
   */
   readonly storageConfigurations?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurations[] | cdktn.IResolvable;
 }
@@ -3263,13 +3263,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseC
   /**
   * Configurations for a Redshift knowledge base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
   */
   readonly redshiftConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration;
   /**
   * SQL query engine type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
 }
@@ -3375,7 +3375,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3394,7 +3394,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * Duration in seconds to segment the multi modal media
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
   */
   readonly fixedLengthDuration?: number;
 }
@@ -3471,7 +3471,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // fixed_length_duration - computed: true, optional: true, required: false
-  private _fixedLengthDuration?: number; 
+  private _fixedLengthDuration?: number;
   public get fixedLengthDuration() {
     return this.getNumberAttribute('fixed_length_duration');
   }
@@ -3490,7 +3490,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * Configure the audio segmentation configuration for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
   */
   readonly segmentationConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration;
 }
@@ -3608,7 +3608,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * Duration in seconds to segment the multi modal media
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
   */
   readonly fixedLengthDuration?: number;
 }
@@ -3685,7 +3685,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // fixed_length_duration - computed: true, optional: true, required: false
-  private _fixedLengthDuration?: number; 
+  private _fixedLengthDuration?: number;
   public get fixedLengthDuration() {
     return this.getNumberAttribute('fixed_length_duration');
   }
@@ -3704,7 +3704,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * Configure the video segmentation configuration for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
   */
   readonly segmentationConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration;
 }
@@ -3822,25 +3822,25 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * List of audio configurations for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
   */
   readonly audio?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio[] | cdktn.IResolvable;
   /**
   * The dimensions details for the vector configuration used on the Bedrock embeddings model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
   */
   readonly dimensions?: number;
   /**
   * The data type for the vectors when using a model to convert text into vector embeddings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
   */
   readonly embeddingDataType?: string;
   /**
   * List of video configurations for multi modal ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
   */
   readonly video?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo[] | cdktn.IResolvable;
 }
@@ -3972,7 +3972,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // dimensions - computed: true, optional: true, required: false
-  private _dimensions?: number; 
+  private _dimensions?: number;
   public get dimensions() {
     return this.getNumberAttribute('dimensions');
   }
@@ -3988,7 +3988,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // embedding_data_type - computed: true, optional: true, required: false
-  private _embeddingDataType?: string; 
+  private _embeddingDataType?: string;
   public get embeddingDataType() {
     return this.getStringAttribute('embedding_data_type');
   }
@@ -4023,7 +4023,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * The vector configuration details for the Bedrock embeddings model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
   */
   readonly bedrockEmbeddingModelConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration;
 }
@@ -4119,7 +4119,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * The location's URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
   */
   readonly uri?: string;
 }
@@ -4196,7 +4196,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -4215,13 +4215,13 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * An Amazon S3 location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
   */
   readonly s3Location?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location;
   /**
   * Supplemental data storage location type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
   */
   readonly supplementalDataStorageLocationType?: string;
 }
@@ -4329,7 +4329,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // supplemental_data_storage_location_type - computed: true, optional: true, required: false
-  private _supplementalDataStorageLocationType?: string; 
+  private _supplementalDataStorageLocationType?: string;
   public get supplementalDataStorageLocationType() {
     return this.getStringAttribute('supplemental_data_storage_location_type');
   }
@@ -4368,7 +4368,7 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * List of supplemental data storage locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
   */
   readonly supplementalDataStorageLocations?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations[] | cdktn.IResolvable;
 }
@@ -4464,19 +4464,19 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBa
   /**
   * The ARN of the model used to create vector embeddings for the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
   */
   readonly embeddingModelArn?: string;
   /**
   * The embeddings model configuration details for the vector model used in Knowledge Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
   */
   readonly embeddingModelConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration;
   /**
   * Configurations for supplemental data storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
   */
   readonly supplementalDataStorageConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration;
 }
@@ -4579,7 +4579,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseCo
   }
 
   // embedding_model_arn - computed: true, optional: true, required: false
-  private _embeddingModelArn?: string; 
+  private _embeddingModelArn?: string;
   public get embeddingModelArn() {
     return this.getStringAttribute('embedding_model_arn');
   }
@@ -4630,31 +4630,31 @@ export interface BedrockKnowledgeBaseKnowledgeBaseConfiguration {
   /**
   * Configurations for a Kendra knowledge base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
   */
   readonly kendraKnowledgeBaseConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration;
   /**
   * Contains details about the model used to create vector embeddings for a managed knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
   */
   readonly managedKnowledgeBaseConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration;
   /**
   * Configurations for a SQL knowledge base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
   */
   readonly sqlKnowledgeBaseConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration;
   /**
   * The type of a knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type: string;
   /**
   * Contains details about the model used to create vector embeddings for the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
   */
   readonly vectorKnowledgeBaseConfiguration?: BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration;
 }
@@ -4831,7 +4831,7 @@ export class BedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference exten
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4863,19 +4863,19 @@ export interface BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurati
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
   */
   readonly vectorField?: string;
 }
@@ -4978,7 +4978,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFi
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -4994,7 +4994,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFi
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -5010,7 +5010,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFi
   }
 
   // vector_field - computed: true, optional: true, required: false
-  private _vectorField?: string; 
+  private _vectorField?: string;
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -5029,49 +5029,49 @@ export interface BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurati
   /**
   * Name of the collection within MongoDB Atlas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
   */
   readonly collectionName?: string;
   /**
   * The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon Mongo database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
   */
   readonly credentialsSecretArn?: string;
   /**
   * Name of the database within MongoDB Atlas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
   */
   readonly databaseName?: string;
   /**
   * MongoDB Atlas endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
   */
   readonly endpoint?: string;
   /**
   * MongoDB Atlas endpoint service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
   */
   readonly endpointServiceName?: string;
   /**
   * Contains the names of the fields to which to map information about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping;
   /**
   * Name of a MongoDB Atlas text index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
   */
   readonly textIndexName?: string;
   /**
   * Name of a MongoDB Atlas index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
   */
   readonly vectorIndexName?: string;
 }
@@ -5239,7 +5239,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // collection_name - computed: true, optional: true, required: false
-  private _collectionName?: string; 
+  private _collectionName?: string;
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -5255,7 +5255,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // credentials_secret_arn - computed: true, optional: true, required: false
-  private _credentialsSecretArn?: string; 
+  private _credentialsSecretArn?: string;
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -5271,7 +5271,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -5287,7 +5287,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string; 
+  private _endpoint?: string;
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -5303,7 +5303,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // endpoint_service_name - computed: true, optional: true, required: false
-  private _endpointServiceName?: string; 
+  private _endpointServiceName?: string;
   public get endpointServiceName() {
     return this.getStringAttribute('endpoint_service_name');
   }
@@ -5335,7 +5335,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // text_index_name - computed: true, optional: true, required: false
-  private _textIndexName?: string; 
+  private _textIndexName?: string;
   public get textIndexName() {
     return this.getStringAttribute('text_index_name');
   }
@@ -5351,7 +5351,7 @@ export class BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOu
   }
 
   // vector_index_name - computed: true, optional: true, required: false
-  private _vectorIndexName?: string; 
+  private _vectorIndexName?: string;
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -5370,13 +5370,13 @@ export interface BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigu
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
 }
@@ -5466,7 +5466,7 @@ export class BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurati
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -5482,7 +5482,7 @@ export class BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurati
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -5501,13 +5501,13 @@ export interface BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigu
   /**
   * A mapping of Bedrock Knowledge Base fields to Neptune Analytics fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping;
   /**
   * ARN for Neptune Analytics graph database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
   */
   readonly graphArn?: string;
 }
@@ -5613,7 +5613,7 @@ export class BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurati
   }
 
   // graph_arn - computed: true, optional: true, required: false
-  private _graphArn?: string; 
+  private _graphArn?: string;
   public get graphArn() {
     return this.getStringAttribute('graph_arn');
   }
@@ -5632,19 +5632,19 @@ export interface BedrockKnowledgeBaseStorageConfigurationOpensearchManagedCluste
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
   */
   readonly vectorField?: string;
 }
@@ -5747,7 +5747,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -5763,7 +5763,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -5779,7 +5779,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // vector_field - computed: true, optional: true, required: false
-  private _vectorField?: string; 
+  private _vectorField?: string;
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -5798,25 +5798,25 @@ export interface BedrockKnowledgeBaseStorageConfigurationOpensearchManagedCluste
   /**
   * The Amazon Resource Name (ARN) of the OpenSearch domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
   */
   readonly domainArn?: string;
   /**
   * The endpoint URL the OpenSearch domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
   */
   readonly domainEndpoint?: string;
   /**
   * A mapping of Bedrock Knowledge Base fields to OpenSearch Managed Cluster field names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping;
   /**
   * The name of the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
   */
   readonly vectorIndexName?: string;
 }
@@ -5932,7 +5932,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // domain_arn - computed: true, optional: true, required: false
-  private _domainArn?: string; 
+  private _domainArn?: string;
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -5948,7 +5948,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // domain_endpoint - computed: true, optional: true, required: false
-  private _domainEndpoint?: string; 
+  private _domainEndpoint?: string;
   public get domainEndpoint() {
     return this.getStringAttribute('domain_endpoint');
   }
@@ -5980,7 +5980,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
   }
 
   // vector_index_name - computed: true, optional: true, required: false
-  private _vectorIndexName?: string; 
+  private _vectorIndexName?: string;
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -5999,19 +5999,19 @@ export interface BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessCon
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
   */
   readonly vectorField?: string;
 }
@@ -6114,7 +6114,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -6130,7 +6130,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -6146,7 +6146,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
   }
 
   // vector_field - computed: true, optional: true, required: false
-  private _vectorField?: string; 
+  private _vectorField?: string;
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -6165,19 +6165,19 @@ export interface BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessCon
   /**
   * The ARN of the OpenSearch Service vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
   */
   readonly collectionArn?: string;
   /**
   * A mapping of Bedrock Knowledge Base fields to OpenSearch Serverless field names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping;
   /**
   * The name of the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
   */
   readonly vectorIndexName?: string;
 }
@@ -6280,7 +6280,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
   }
 
   // collection_arn - computed: true, optional: true, required: false
-  private _collectionArn?: string; 
+  private _collectionArn?: string;
   public get collectionArn() {
     return this.getStringAttribute('collection_arn');
   }
@@ -6312,7 +6312,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
   }
 
   // vector_index_name - computed: true, optional: true, required: false
-  private _vectorIndexName?: string; 
+  private _vectorIndexName?: string;
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -6331,13 +6331,13 @@ export interface BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFi
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
 }
@@ -6427,7 +6427,7 @@ export class BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldM
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -6443,7 +6443,7 @@ export class BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldM
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -6462,25 +6462,25 @@ export interface BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration {
   /**
   * The endpoint URL for your index management page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
   */
   readonly connectionString?: string;
   /**
   * The ARN of the secret that you created in AWS Secrets Manager that is linked to your Pinecone API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
   */
   readonly credentialsSecretArn?: string;
   /**
   * Contains the names of the fields to which to map information about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping;
   /**
   * The namespace to be used to write new data to your database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
   */
   readonly namespace?: string;
 }
@@ -6596,7 +6596,7 @@ export class BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutput
   }
 
   // connection_string - computed: true, optional: true, required: false
-  private _connectionString?: string; 
+  private _connectionString?: string;
   public get connectionString() {
     return this.getStringAttribute('connection_string');
   }
@@ -6612,7 +6612,7 @@ export class BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutput
   }
 
   // credentials_secret_arn - computed: true, optional: true, required: false
-  private _credentialsSecretArn?: string; 
+  private _credentialsSecretArn?: string;
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -6644,7 +6644,7 @@ export class BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutput
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -6663,31 +6663,31 @@ export interface BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMa
   /**
   * The name of the field in which Amazon Bedrock stores custom metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
   */
   readonly customMetadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores metadata about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
   */
   readonly metadataField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the ID for each entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
   */
   readonly primaryKeyField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the raw text from your data. The text is split according to the chunking strategy you choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
   */
   readonly textField?: string;
   /**
   * The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
   */
   readonly vectorField?: string;
 }
@@ -6816,7 +6816,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
   }
 
   // custom_metadata_field - computed: true, optional: true, required: false
-  private _customMetadataField?: string; 
+  private _customMetadataField?: string;
   public get customMetadataField() {
     return this.getStringAttribute('custom_metadata_field');
   }
@@ -6832,7 +6832,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
   }
 
   // metadata_field - computed: true, optional: true, required: false
-  private _metadataField?: string; 
+  private _metadataField?: string;
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -6848,7 +6848,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
   }
 
   // primary_key_field - computed: true, optional: true, required: false
-  private _primaryKeyField?: string; 
+  private _primaryKeyField?: string;
   public get primaryKeyField() {
     return this.getStringAttribute('primary_key_field');
   }
@@ -6864,7 +6864,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
   }
 
   // text_field - computed: true, optional: true, required: false
-  private _textField?: string; 
+  private _textField?: string;
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -6880,7 +6880,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
   }
 
   // vector_field - computed: true, optional: true, required: false
-  private _vectorField?: string; 
+  private _vectorField?: string;
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -6899,31 +6899,31 @@ export interface BedrockKnowledgeBaseStorageConfigurationRdsConfiguration {
   /**
   * The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon RDS database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
   */
   readonly credentialsSecretArn?: string;
   /**
   * The name of your Amazon RDS database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
   */
   readonly databaseName?: string;
   /**
   * Contains the names of the fields to which to map information about the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
   */
   readonly fieldMapping?: BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping;
   /**
   * The ARN of the vector store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
   */
   readonly resourceArn?: string;
   /**
   * The name of the table in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
   */
   readonly tableName?: string;
 }
@@ -7052,7 +7052,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputRefer
   }
 
   // credentials_secret_arn - computed: true, optional: true, required: false
-  private _credentialsSecretArn?: string; 
+  private _credentialsSecretArn?: string;
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -7068,7 +7068,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputRefer
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -7100,7 +7100,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputRefer
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -7116,7 +7116,7 @@ export class BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputRefer
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -7135,19 +7135,19 @@ export interface BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration 
   /**
   * The Amazon Resource Name (ARN) of the vector index used for the knowledge base. This ARN identifies the specific vector index resource within Amazon Bedrock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
   */
   readonly indexArn?: string;
   /**
   * The name of the vector index used for the knowledge base. This name identifies the vector index within the Amazon Bedrock service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
   */
   readonly indexName?: string;
   /**
   * The Amazon Resource Name (ARN) of the S3 bucket where vector embeddings are stored. This bucket contains the vector data used by the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
   */
   readonly vectorBucketArn?: string;
 }
@@ -7250,7 +7250,7 @@ export class BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutpu
   }
 
   // index_arn - computed: true, optional: true, required: false
-  private _indexArn?: string; 
+  private _indexArn?: string;
   public get indexArn() {
     return this.getStringAttribute('index_arn');
   }
@@ -7266,7 +7266,7 @@ export class BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutpu
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -7282,7 +7282,7 @@ export class BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutpu
   }
 
   // vector_bucket_arn - computed: true, optional: true, required: false
-  private _vectorBucketArn?: string; 
+  private _vectorBucketArn?: string;
   public get vectorBucketArn() {
     return this.getStringAttribute('vector_bucket_arn');
   }
@@ -7301,49 +7301,49 @@ export interface BedrockKnowledgeBaseStorageConfiguration {
   /**
   * Contains the storage configuration of the knowledge base in MongoDb Atlas Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
   */
   readonly mongoDbAtlasConfiguration?: BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration;
   /**
   * Contains the configurations to use Neptune Analytics as Vector Store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
   */
   readonly neptuneAnalyticsConfiguration?: BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration;
   /**
   * Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
   */
   readonly opensearchManagedClusterConfiguration?: BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration;
   /**
   * Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
   */
   readonly opensearchServerlessConfiguration?: BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration;
   /**
   * Contains the storage configuration of the knowledge base in Pinecone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
   */
   readonly pineconeConfiguration?: BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration;
   /**
   * Contains details about the storage configuration of the knowledge base in Amazon RDS. For more information, see Create a vector index in Amazon RDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
   */
   readonly rdsConfiguration?: BedrockKnowledgeBaseStorageConfigurationRdsConfiguration;
   /**
   * Contains the storage configuration of the knowledge base for S3 vectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
   */
   readonly s3VectorsConfiguration?: BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration;
   /**
   * The storage type of a knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
   */
   readonly type?: string;
 }
@@ -7623,7 +7623,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOutputReference extends cdk
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7640,7 +7640,7 @@ export class BedrockKnowledgeBaseStorageConfigurationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}
 */
 export class BedrockKnowledgeBase extends cdktn.TerraformResource {
 
@@ -7656,7 +7656,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockKnowledgeBase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockKnowledgeBase to import
-  * @param importFromId The id of the existing BedrockKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockKnowledgeBase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockKnowledgeBase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7668,7 +7668,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7679,7 +7679,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_knowledge_base',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -7707,7 +7707,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7756,7 +7756,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7769,7 +7769,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7803,7 +7803,7 @@ export class BedrockKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

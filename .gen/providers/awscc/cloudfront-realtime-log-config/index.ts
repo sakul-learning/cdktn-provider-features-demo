@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface CloudfrontRealtimeLogConfigConfig extends cdktn.TerraformMetaAr
   /**
   * Contains information about the Amazon Kinesis data stream where you are sending real-time log data for this real-time log configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#end_points CloudfrontRealtimeLogConfig#end_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#end_points CloudfrontRealtimeLogConfig#end_points}
   */
   readonly endPoints: CloudfrontRealtimeLogConfigEndPoints[] | cdktn.IResolvable;
   /**
   * A list of fields that are included in each real-time log record. In an API response, the fields are provided in the same order in which they are sent to the Amazon Kinesis data stream.
   *  For more information about fields, see [Real-time log configuration fields](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/real-time-logs.html#understand-real-time-log-config-fields) in the *Amazon CloudFront Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#fields CloudfrontRealtimeLogConfig#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#fields CloudfrontRealtimeLogConfig#fields}
   */
   readonly fields: string[];
   /**
   * The unique name of this real-time log configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#name CloudfrontRealtimeLogConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#name CloudfrontRealtimeLogConfig#name}
   */
   readonly name: string;
   /**
   * The sampling rate for this real-time log configuration. The sampling rate determines the percentage of viewer requests that are represented in the real-time log data. The sampling rate is an integer between 1 and 100, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#sampling_rate CloudfrontRealtimeLogConfig#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#sampling_rate CloudfrontRealtimeLogConfig#sampling_rate}
   */
   readonly samplingRate: number;
 }
@@ -38,13 +38,13 @@ export interface CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfig {
   * The Amazon Resource Name (ARN) of an IAMlong (IAM) role that CloudFront can use to send real-time log data to your Kinesis data stream.
   *  For more information the IAM role, see [Real-time log configuration IAM role](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/real-time-logs.html#understand-real-time-log-config-iam-role) in the *Amazon CloudFront Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#role_arn CloudfrontRealtimeLogConfig#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#role_arn CloudfrontRealtimeLogConfig#role_arn}
   */
   readonly roleArn: string;
   /**
   * The Amazon Resource Name (ARN) of the Kinesis data stream where you are sending real-time log data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#stream_arn CloudfrontRealtimeLogConfig#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#stream_arn CloudfrontRealtimeLogConfig#stream_arn}
   */
   readonly streamArn: string;
 }
@@ -134,7 +134,7 @@ export class CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputRefere
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -147,7 +147,7 @@ export class CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputRefere
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -163,13 +163,13 @@ export interface CloudfrontRealtimeLogConfigEndPoints {
   /**
   * Contains information about the Amazon Kinesis data stream where you are sending real-time log data in a real-time log configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#kinesis_stream_config CloudfrontRealtimeLogConfig#kinesis_stream_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#kinesis_stream_config CloudfrontRealtimeLogConfig#kinesis_stream_config}
   */
   readonly kinesisStreamConfig: CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfig;
   /**
   * The type of data stream where you are sending real-time log data. The only valid value is ``Kinesis``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#stream_type CloudfrontRealtimeLogConfig#stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#stream_type CloudfrontRealtimeLogConfig#stream_type}
   */
   readonly streamType: string;
 }
@@ -274,7 +274,7 @@ export class CloudfrontRealtimeLogConfigEndPointsOutputReference extends cdktn.C
   }
 
   // stream_type - computed: false, optional: false, required: true
-  private _streamType?: string; 
+  private _streamType?: string;
   public get streamType() {
     return this.getStringAttribute('stream_type');
   }
@@ -308,7 +308,7 @@ export class CloudfrontRealtimeLogConfigEndPointsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}
 */
 export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
 
@@ -324,7 +324,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontRealtimeLogConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontRealtimeLogConfig to import
-  * @param importFromId The id of the existing CloudfrontRealtimeLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontRealtimeLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontRealtimeLogConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -336,7 +336,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,7 +347,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_realtime_log_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -386,7 +386,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // fields - computed: false, optional: false, required: true
-  private _fields?: string[]; 
+  private _fields?: string[];
   public get fields() {
     return this.getListAttribute('fields');
   }
@@ -404,7 +404,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -417,7 +417,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // sampling_rate - computed: false, optional: false, required: true
-  private _samplingRate?: number; 
+  private _samplingRate?: number;
   public get samplingRate() {
     return this.getNumberAttribute('sampling_rate');
   }

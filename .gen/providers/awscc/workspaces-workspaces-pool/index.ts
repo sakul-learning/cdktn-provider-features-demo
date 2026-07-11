@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspacesWorkspacesPoolConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#application_settings WorkspacesWorkspacesPool#application_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#application_settings WorkspacesWorkspacesPool#application_settings}
   */
   readonly applicationSettings?: WorkspacesWorkspacesPoolApplicationSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#bundle_id WorkspacesWorkspacesPool#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#bundle_id WorkspacesWorkspacesPool#bundle_id}
   */
   readonly bundleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#capacity WorkspacesWorkspacesPool#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#capacity WorkspacesWorkspacesPool#capacity}
   */
   readonly capacity: WorkspacesWorkspacesPoolCapacity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#description WorkspacesWorkspacesPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#description WorkspacesWorkspacesPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#directory_id WorkspacesWorkspacesPool#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#directory_id WorkspacesWorkspacesPool#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#pool_name WorkspacesWorkspacesPool#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#pool_name WorkspacesWorkspacesPool#pool_name}
   */
   readonly poolName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#running_mode WorkspacesWorkspacesPool#running_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#running_mode WorkspacesWorkspacesPool#running_mode}
   */
   readonly runningMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#tags WorkspacesWorkspacesPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#tags WorkspacesWorkspacesPool#tags}
   */
   readonly tags?: WorkspacesWorkspacesPoolTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#timeout_settings WorkspacesWorkspacesPool#timeout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#timeout_settings WorkspacesWorkspacesPool#timeout_settings}
   */
   readonly timeoutSettings?: WorkspacesWorkspacesPoolTimeoutSettings;
 }
 export interface WorkspacesWorkspacesPoolApplicationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#settings_group WorkspacesWorkspacesPool#settings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#settings_group WorkspacesWorkspacesPool#settings_group}
   */
   readonly settingsGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#status WorkspacesWorkspacesPool#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#status WorkspacesWorkspacesPool#status}
   */
   readonly status?: string;
 }
@@ -140,7 +140,7 @@ export class WorkspacesWorkspacesPoolApplicationSettingsOutputReference extends 
   }
 
   // settings_group - computed: true, optional: true, required: false
-  private _settingsGroup?: string; 
+  private _settingsGroup?: string;
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -156,7 +156,7 @@ export class WorkspacesWorkspacesPoolApplicationSettingsOutputReference extends 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -173,7 +173,7 @@ export class WorkspacesWorkspacesPoolApplicationSettingsOutputReference extends 
 }
 export interface WorkspacesWorkspacesPoolCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#desired_user_sessions WorkspacesWorkspacesPool#desired_user_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#desired_user_sessions WorkspacesWorkspacesPool#desired_user_sessions}
   */
   readonly desiredUserSessions: number;
 }
@@ -250,7 +250,7 @@ export class WorkspacesWorkspacesPoolCapacityOutputReference extends cdktn.Compl
   }
 
   // desired_user_sessions - computed: false, optional: false, required: true
-  private _desiredUserSessions?: number; 
+  private _desiredUserSessions?: number;
   public get desiredUserSessions() {
     return this.getNumberAttribute('desired_user_sessions');
   }
@@ -264,11 +264,11 @@ export class WorkspacesWorkspacesPoolCapacityOutputReference extends cdktn.Compl
 }
 export interface WorkspacesWorkspacesPoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#key WorkspacesWorkspacesPool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#key WorkspacesWorkspacesPool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#value WorkspacesWorkspacesPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#value WorkspacesWorkspacesPool#value}
   */
   readonly value?: string;
 }
@@ -360,7 +360,7 @@ export class WorkspacesWorkspacesPoolTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -376,7 +376,7 @@ export class WorkspacesWorkspacesPoolTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -413,15 +413,15 @@ export class WorkspacesWorkspacesPoolTagsList extends cdktn.ComplexList {
 }
 export interface WorkspacesWorkspacesPoolTimeoutSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#disconnect_timeout_in_seconds WorkspacesWorkspacesPool#disconnect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#disconnect_timeout_in_seconds WorkspacesWorkspacesPool#disconnect_timeout_in_seconds}
   */
   readonly disconnectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#idle_disconnect_timeout_in_seconds WorkspacesWorkspacesPool#idle_disconnect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#idle_disconnect_timeout_in_seconds WorkspacesWorkspacesPool#idle_disconnect_timeout_in_seconds}
   */
   readonly idleDisconnectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#max_user_duration_in_seconds WorkspacesWorkspacesPool#max_user_duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#max_user_duration_in_seconds WorkspacesWorkspacesPool#max_user_duration_in_seconds}
   */
   readonly maxUserDurationInSeconds?: number;
 }
@@ -524,7 +524,7 @@ export class WorkspacesWorkspacesPoolTimeoutSettingsOutputReference extends cdkt
   }
 
   // disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _disconnectTimeoutInSeconds?: number; 
+  private _disconnectTimeoutInSeconds?: number;
   public get disconnectTimeoutInSeconds() {
     return this.getNumberAttribute('disconnect_timeout_in_seconds');
   }
@@ -540,7 +540,7 @@ export class WorkspacesWorkspacesPoolTimeoutSettingsOutputReference extends cdkt
   }
 
   // idle_disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _idleDisconnectTimeoutInSeconds?: number; 
+  private _idleDisconnectTimeoutInSeconds?: number;
   public get idleDisconnectTimeoutInSeconds() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_seconds');
   }
@@ -556,7 +556,7 @@ export class WorkspacesWorkspacesPoolTimeoutSettingsOutputReference extends cdkt
   }
 
   // max_user_duration_in_seconds - computed: true, optional: true, required: false
-  private _maxUserDurationInSeconds?: number; 
+  private _maxUserDurationInSeconds?: number;
   public get maxUserDurationInSeconds() {
     return this.getNumberAttribute('max_user_duration_in_seconds');
   }
@@ -573,7 +573,7 @@ export class WorkspacesWorkspacesPoolTimeoutSettingsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}
 */
 export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
 
@@ -589,7 +589,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspacesWorkspacesPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspacesWorkspacesPool to import
-  * @param importFromId The id of the existing WorkspacesWorkspacesPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspacesWorkspacesPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspacesWorkspacesPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -601,7 +601,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -612,7 +612,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspaces_workspaces_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -654,7 +654,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string; 
+  private _bundleId?: string;
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -685,7 +685,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -701,7 +701,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string; 
+  private _directoryId?: string;
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -729,7 +729,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   }
 
   // pool_name - computed: false, optional: false, required: true
-  private _poolName?: string; 
+  private _poolName?: string;
   public get poolName() {
     return this.getStringAttribute('pool_name');
   }
@@ -742,7 +742,7 @@ export class WorkspacesWorkspacesPool extends cdktn.TerraformResource {
   }
 
   // running_mode - computed: true, optional: true, required: false
-  private _runningMode?: string; 
+  private _runningMode?: string;
   public get runningMode() {
     return this.getStringAttribute('running_mode');
   }

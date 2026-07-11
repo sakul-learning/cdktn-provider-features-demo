@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktn from 'cdktn';
 
 export interface EmrcontainersJobTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#id EmrcontainersJobTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#id EmrcontainersJobTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#kms_key_arn EmrcontainersJobTemplate#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#kms_key_arn EmrcontainersJobTemplate#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#name EmrcontainersJobTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#name EmrcontainersJobTemplate#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#region EmrcontainersJobTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#region EmrcontainersJobTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#tags EmrcontainersJobTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#tags EmrcontainersJobTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#tags_all EmrcontainersJobTemplate#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#tags_all EmrcontainersJobTemplate#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * job_template_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#job_template_data EmrcontainersJobTemplate#job_template_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#job_template_data EmrcontainersJobTemplate#job_template_data}
   */
   readonly jobTemplateData: EmrcontainersJobTemplateJobTemplateData;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#timeouts EmrcontainersJobTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#timeouts EmrcontainersJobTemplate#timeouts}
   */
   readonly timeouts?: EmrcontainersJobTemplateTimeouts;
 }
 export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfigurationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}
   */
   readonly classification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -147,7 +147,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -163,7 +163,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -200,17 +200,17 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
 }
 export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}
   */
   readonly classification: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
   */
   readonly configurations?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfigurationConfigurations[] | cdktn.IResolvable;
 }
@@ -315,7 +315,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // classification - computed: false, optional: false, required: true
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -328,7 +328,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -381,11 +381,11 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
 }
 export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationCloudWatchMonitoringConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#log_group_name EmrcontainersJobTemplate#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#log_group_name EmrcontainersJobTemplate#log_group_name}
   */
   readonly logGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#log_stream_name_prefix EmrcontainersJobTemplate#log_stream_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#log_stream_name_prefix EmrcontainersJobTemplate#log_stream_name_prefix}
   */
   readonly logStreamNamePrefix?: string;
 }
@@ -465,7 +465,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string; 
+  private _logGroupName?: string;
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -478,7 +478,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_stream_name_prefix - computed: false, optional: true, required: false
-  private _logStreamNamePrefix?: string; 
+  private _logStreamNamePrefix?: string;
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -495,7 +495,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
 }
 export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationS3MonitoringConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#log_uri EmrcontainersJobTemplate#log_uri}
   */
   readonly logUri: string;
 }
@@ -562,7 +562,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_uri - computed: false, optional: false, required: true
-  private _logUri?: string; 
+  private _logUri?: string;
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -576,19 +576,19 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
 }
 export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#persistent_app_ui EmrcontainersJobTemplate#persistent_app_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#persistent_app_ui EmrcontainersJobTemplate#persistent_app_ui}
   */
   readonly persistentAppUi?: string;
   /**
   * cloud_watch_monitoring_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#cloud_watch_monitoring_configuration EmrcontainersJobTemplate#cloud_watch_monitoring_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#cloud_watch_monitoring_configuration EmrcontainersJobTemplate#cloud_watch_monitoring_configuration}
   */
   readonly cloudWatchMonitoringConfiguration?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationCloudWatchMonitoringConfiguration;
   /**
   * s3_monitoring_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#s3_monitoring_configuration EmrcontainersJobTemplate#s3_monitoring_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#s3_monitoring_configuration EmrcontainersJobTemplate#s3_monitoring_configuration}
   */
   readonly s3MonitoringConfiguration?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfigurationS3MonitoringConfiguration;
 }
@@ -681,7 +681,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // persistent_app_ui - computed: true, optional: true, required: false
-  private _persistentAppUi?: string; 
+  private _persistentAppUi?: string;
   public get persistentAppUi() {
     return this.getStringAttribute('persistent_app_ui');
   }
@@ -732,13 +732,13 @@ export interface EmrcontainersJobTemplateJobTemplateDataConfigurationOverrides {
   /**
   * application_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#application_configuration EmrcontainersJobTemplate#application_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#application_configuration EmrcontainersJobTemplate#application_configuration}
   */
   readonly applicationConfiguration?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfiguration[] | cdktn.IResolvable;
   /**
   * monitoring_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#monitoring_configuration EmrcontainersJobTemplate#monitoring_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#monitoring_configuration EmrcontainersJobTemplate#monitoring_configuration}
   */
   readonly monitoringConfiguration?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonitoringConfiguration;
 }
@@ -851,11 +851,11 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesOutput
 }
 export interface EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}
   */
   readonly entryPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#spark_sql_parameters EmrcontainersJobTemplate#spark_sql_parameters}
   */
   readonly sparkSqlParameters?: string;
 }
@@ -935,7 +935,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriverOu
   }
 
   // entry_point - computed: false, optional: true, required: false
-  private _entryPoint?: string; 
+  private _entryPoint?: string;
   public get entryPoint() {
     return this.getStringAttribute('entry_point');
   }
@@ -951,7 +951,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriverOu
   }
 
   // spark_sql_parameters - computed: false, optional: true, required: false
-  private _sparkSqlParameters?: string; 
+  private _sparkSqlParameters?: string;
   public get sparkSqlParameters() {
     return this.getStringAttribute('spark_sql_parameters');
   }
@@ -968,15 +968,15 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriverOu
 }
 export interface EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDriver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#entry_point EmrcontainersJobTemplate#entry_point}
   */
   readonly entryPoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#entry_point_arguments EmrcontainersJobTemplate#entry_point_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#entry_point_arguments EmrcontainersJobTemplate#entry_point_arguments}
   */
   readonly entryPointArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#spark_submit_parameters EmrcontainersJobTemplate#spark_submit_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#spark_submit_parameters EmrcontainersJobTemplate#spark_submit_parameters}
   */
   readonly sparkSubmitParameters?: string;
 }
@@ -1069,7 +1069,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // entry_point - computed: false, optional: false, required: true
-  private _entryPoint?: string; 
+  private _entryPoint?: string;
   public get entryPoint() {
     return this.getStringAttribute('entry_point');
   }
@@ -1082,7 +1082,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // entry_point_arguments - computed: false, optional: true, required: false
-  private _entryPointArguments?: string[]; 
+  private _entryPointArguments?: string[];
   public get entryPointArguments() {
     return cdktn.Fn.tolist(this.getListAttribute('entry_point_arguments'));
   }
@@ -1098,7 +1098,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // spark_submit_parameters - computed: false, optional: true, required: false
-  private _sparkSubmitParameters?: string; 
+  private _sparkSubmitParameters?: string;
   public get sparkSubmitParameters() {
     return this.getStringAttribute('spark_submit_parameters');
   }
@@ -1117,13 +1117,13 @@ export interface EmrcontainersJobTemplateJobTemplateDataJobDriver {
   /**
   * spark_sql_job_driver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#spark_sql_job_driver EmrcontainersJobTemplate#spark_sql_job_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#spark_sql_job_driver EmrcontainersJobTemplate#spark_sql_job_driver}
   */
   readonly sparkSqlJobDriver?: EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver;
   /**
   * spark_submit_job_driver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#spark_submit_job_driver EmrcontainersJobTemplate#spark_submit_job_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#spark_submit_job_driver EmrcontainersJobTemplate#spark_submit_job_driver}
   */
   readonly sparkSubmitJobDriver?: EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDriver;
 }
@@ -1236,27 +1236,27 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference ext
 }
 export interface EmrcontainersJobTemplateJobTemplateData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#execution_role_arn EmrcontainersJobTemplate#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#job_tags EmrcontainersJobTemplate#job_tags}
   */
   readonly jobTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#release_label EmrcontainersJobTemplate#release_label}
   */
   readonly releaseLabel: string;
   /**
   * configuration_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#configuration_overrides EmrcontainersJobTemplate#configuration_overrides}
   */
   readonly configurationOverrides?: EmrcontainersJobTemplateJobTemplateDataConfigurationOverrides;
   /**
   * job_driver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#job_driver EmrcontainersJobTemplate#job_driver}
   */
   readonly jobDriver: EmrcontainersJobTemplateJobTemplateDataJobDriver;
 }
@@ -1375,7 +1375,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1388,7 +1388,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // job_tags - computed: false, optional: true, required: false
-  private _jobTags?: { [key: string]: string }; 
+  private _jobTags?: { [key: string]: string };
   public get jobTags() {
     return this.getStringMapAttribute('job_tags');
   }
@@ -1404,7 +1404,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string; 
+  private _releaseLabel?: string;
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -1447,7 +1447,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
 }
 export interface EmrcontainersJobTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#delete EmrcontainersJobTemplate#delete}
   */
   readonly delete?: string;
 }
@@ -1524,7 +1524,7 @@ export class EmrcontainersJobTemplateTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1541,7 +1541,7 @@ export class EmrcontainersJobTemplateTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template aws_emrcontainers_job_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template aws_emrcontainers_job_template}
 */
 export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
 
@@ -1557,7 +1557,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrcontainersJobTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrcontainersJobTemplate to import
-  * @param importFromId The id of the existing EmrcontainersJobTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrcontainersJobTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrcontainersJobTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1569,7 +1569,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emrcontainers_job_template aws_emrcontainers_job_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template aws_emrcontainers_job_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1580,7 +1580,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'aws_emrcontainers_job_template',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1610,7 +1610,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1626,7 +1626,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1642,7 +1642,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1655,7 +1655,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1671,7 +1671,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1687,7 +1687,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

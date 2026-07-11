@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface LocationApiKeyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#description LocationApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#description LocationApiKey#description}
   */
   readonly description?: string;
   /**
   * The datetime value in ISO 8601 format. The timezone is always UTC. (YYYY-MM-DDThh:mm:ss.sssZ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#expire_time LocationApiKey#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#expire_time LocationApiKey#expire_time}
   */
   readonly expireTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#force_delete LocationApiKey#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#force_delete LocationApiKey#force_delete}
   */
   readonly forceDelete?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#force_update LocationApiKey#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#force_update LocationApiKey#force_update}
   */
   readonly forceUpdate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#key_name LocationApiKey#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#key_name LocationApiKey#key_name}
   */
   readonly keyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#no_expiry LocationApiKey#no_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#no_expiry LocationApiKey#no_expiry}
   */
   readonly noExpiry?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#restrictions LocationApiKey#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#restrictions LocationApiKey#restrictions}
   */
   readonly restrictions: LocationApiKeyRestrictions;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#tags LocationApiKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#tags LocationApiKey#tags}
   */
   readonly tags?: LocationApiKeyTags[] | cdktn.IResolvable;
 }
 export interface LocationApiKeyRestrictionsAllowAndroidApps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#certificate_fingerprint LocationApiKey#certificate_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#certificate_fingerprint LocationApiKey#certificate_fingerprint}
   */
   readonly certificateFingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#package LocationApiKey#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#package LocationApiKey#package}
   */
   readonly package?: string;
 }
@@ -142,7 +142,7 @@ export class LocationApiKeyRestrictionsAllowAndroidAppsOutputReference extends c
   }
 
   // certificate_fingerprint - computed: true, optional: true, required: false
-  private _certificateFingerprint?: string; 
+  private _certificateFingerprint?: string;
   public get certificateFingerprint() {
     return this.getStringAttribute('certificate_fingerprint');
   }
@@ -158,7 +158,7 @@ export class LocationApiKeyRestrictionsAllowAndroidAppsOutputReference extends c
   }
 
   // package - computed: true, optional: true, required: false
-  private _package?: string; 
+  private _package?: string;
   public get package() {
     return this.getStringAttribute('package');
   }
@@ -195,7 +195,7 @@ export class LocationApiKeyRestrictionsAllowAndroidAppsList extends cdktn.Comple
 }
 export interface LocationApiKeyRestrictionsAllowAppleApps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#bundle_id LocationApiKey#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#bundle_id LocationApiKey#bundle_id}
   */
   readonly bundleId?: string;
 }
@@ -274,7 +274,7 @@ export class LocationApiKeyRestrictionsAllowAppleAppsOutputReference extends cdk
   }
 
   // bundle_id - computed: true, optional: true, required: false
-  private _bundleId?: string; 
+  private _bundleId?: string;
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -311,23 +311,23 @@ export class LocationApiKeyRestrictionsAllowAppleAppsList extends cdktn.ComplexL
 }
 export interface LocationApiKeyRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#allow_actions LocationApiKey#allow_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#allow_actions LocationApiKey#allow_actions}
   */
   readonly allowActions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#allow_android_apps LocationApiKey#allow_android_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#allow_android_apps LocationApiKey#allow_android_apps}
   */
   readonly allowAndroidApps?: LocationApiKeyRestrictionsAllowAndroidApps[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#allow_apple_apps LocationApiKey#allow_apple_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#allow_apple_apps LocationApiKey#allow_apple_apps}
   */
   readonly allowAppleApps?: LocationApiKeyRestrictionsAllowAppleApps[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#allow_referers LocationApiKey#allow_referers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#allow_referers LocationApiKey#allow_referers}
   */
   readonly allowReferers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#allow_resources LocationApiKey#allow_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#allow_resources LocationApiKey#allow_resources}
   */
   readonly allowResources: string[];
 }
@@ -456,7 +456,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_actions - computed: false, optional: false, required: true
-  private _allowActions?: string[]; 
+  private _allowActions?: string[];
   public get allowActions() {
     return this.getListAttribute('allow_actions');
   }
@@ -501,7 +501,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_referers - computed: true, optional: true, required: false
-  private _allowReferers?: string[]; 
+  private _allowReferers?: string[];
   public get allowReferers() {
     return this.getListAttribute('allow_referers');
   }
@@ -517,7 +517,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_resources - computed: false, optional: false, required: true
-  private _allowResources?: string[]; 
+  private _allowResources?: string[];
   public get allowResources() {
     return this.getListAttribute('allow_resources');
   }
@@ -533,13 +533,13 @@ export interface LocationApiKeyTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#key LocationApiKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#key LocationApiKey#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#value LocationApiKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#value LocationApiKey#value}
   */
   readonly value?: string;
 }
@@ -631,7 +631,7 @@ export class LocationApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -647,7 +647,7 @@ export class LocationApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -684,7 +684,7 @@ export class LocationApiKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key awscc_location_api_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key awscc_location_api_key}
 */
 export class LocationApiKey extends cdktn.TerraformResource {
 
@@ -700,7 +700,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LocationApiKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocationApiKey to import
-  * @param importFromId The id of the existing LocationApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocationApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocationApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -712,7 +712,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/location_api_key awscc_location_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/location_api_key awscc_location_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -723,7 +723,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_location_api_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -758,7 +758,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -774,7 +774,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // expire_time - computed: true, optional: true, required: false
-  private _expireTime?: string; 
+  private _expireTime?: string;
   public get expireTime() {
     return this.getStringAttribute('expire_time');
   }
@@ -790,7 +790,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: true, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable; 
+  private _forceDelete?: boolean | cdktn.IResolvable;
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -806,7 +806,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // force_update - computed: true, optional: true, required: false
-  private _forceUpdate?: boolean | cdktn.IResolvable; 
+  private _forceUpdate?: boolean | cdktn.IResolvable;
   public get forceUpdate() {
     return this.getBooleanAttribute('force_update');
   }
@@ -832,7 +832,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // key_name - computed: false, optional: false, required: true
-  private _keyName?: string; 
+  private _keyName?: string;
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -845,7 +845,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // no_expiry - computed: true, optional: true, required: false
-  private _noExpiry?: boolean | cdktn.IResolvable; 
+  private _noExpiry?: boolean | cdktn.IResolvable;
   public get noExpiry() {
     return this.getBooleanAttribute('no_expiry');
   }

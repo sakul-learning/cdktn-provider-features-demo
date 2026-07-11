@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface OdbCloudExadataInfrastructureConfig extends cdktn.TerraformMeta
   /**
   * The name of the Availability Zone (AZ) where the Exadata infrastructure is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone OdbCloudExadataInfrastructure#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone OdbCloudExadataInfrastructure#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The AZ ID of the AZ where the Exadata infrastructure is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone_id OdbCloudExadataInfrastructure#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone_id OdbCloudExadataInfrastructure#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
   * The number of database servers for the Exadata infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#compute_count OdbCloudExadataInfrastructure#compute_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#compute_count OdbCloudExadataInfrastructure#compute_count}
   */
   readonly computeCount?: number;
   /**
   * The email addresses of contacts to receive notification from Oracle about maintenance updates for the Exadata infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#customer_contacts_to_send_to_oci OdbCloudExadataInfrastructure#customer_contacts_to_send_to_oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#customer_contacts_to_send_to_oci OdbCloudExadataInfrastructure#customer_contacts_to_send_to_oci}
   */
   readonly customerContactsToSendToOci?: OdbCloudExadataInfrastructureCustomerContactsToSendToOci[] | cdktn.IResolvable;
   /**
   * The database server model type of the Exadata infrastructure. For the list of valid model names, use the ListDbSystemShapes operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#database_server_type OdbCloudExadataInfrastructure#database_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#database_server_type OdbCloudExadataInfrastructure#database_server_type}
   */
   readonly databaseServerType?: string;
   /**
   * The user-friendly name for the Exadata infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#display_name OdbCloudExadataInfrastructure#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#display_name OdbCloudExadataInfrastructure#display_name}
   */
   readonly displayName?: string;
   /**
   * The scheduling details for the maintenance window. Patching and system updates take place during the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#maintenance_window OdbCloudExadataInfrastructure#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#maintenance_window OdbCloudExadataInfrastructure#maintenance_window}
   */
   readonly maintenanceWindow?: OdbCloudExadataInfrastructureMaintenanceWindow;
   /**
   * The model name of the Exadata infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#shape OdbCloudExadataInfrastructure#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#shape OdbCloudExadataInfrastructure#shape}
   */
   readonly shape?: string;
   /**
   * The number of storage servers that are activated for the Exadata infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#storage_count OdbCloudExadataInfrastructure#storage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#storage_count OdbCloudExadataInfrastructure#storage_count}
   */
   readonly storageCount?: number;
   /**
   * The storage server model type of the Exadata infrastructure. For the list of valid model names, use the ListDbSystemShapes operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#storage_server_type OdbCloudExadataInfrastructure#storage_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#storage_server_type OdbCloudExadataInfrastructure#storage_server_type}
   */
   readonly storageServerType?: string;
   /**
   * Tags to assign to the Exadata Infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#tags OdbCloudExadataInfrastructure#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#tags OdbCloudExadataInfrastructure#tags}
   */
   readonly tags?: OdbCloudExadataInfrastructureTags[] | cdktn.IResolvable;
 }
@@ -78,7 +78,7 @@ export interface OdbCloudExadataInfrastructureCustomerContactsToSendToOci {
   /**
   * The email address of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#email OdbCloudExadataInfrastructure#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#email OdbCloudExadataInfrastructure#email}
   */
   readonly email?: string;
 }
@@ -157,7 +157,7 @@ export class OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputRefer
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -196,55 +196,55 @@ export interface OdbCloudExadataInfrastructureMaintenanceWindow {
   /**
   * The timeout duration for custom actions in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#custom_action_timeout_in_mins OdbCloudExadataInfrastructure#custom_action_timeout_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#custom_action_timeout_in_mins OdbCloudExadataInfrastructure#custom_action_timeout_in_mins}
   */
   readonly customActionTimeoutInMins?: number;
   /**
   * The days of the week when maintenance can be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#days_of_week OdbCloudExadataInfrastructure#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#days_of_week OdbCloudExadataInfrastructure#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * The hours of the day when maintenance can be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#hours_of_day OdbCloudExadataInfrastructure#hours_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#hours_of_day OdbCloudExadataInfrastructure#hours_of_day}
   */
   readonly hoursOfDay?: number[];
   /**
   * Indicates whether custom action timeout is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#is_custom_action_timeout_enabled OdbCloudExadataInfrastructure#is_custom_action_timeout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#is_custom_action_timeout_enabled OdbCloudExadataInfrastructure#is_custom_action_timeout_enabled}
   */
   readonly isCustomActionTimeoutEnabled?: boolean | cdktn.IResolvable;
   /**
   * The lead time in weeks before the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#lead_time_in_weeks OdbCloudExadataInfrastructure#lead_time_in_weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#lead_time_in_weeks OdbCloudExadataInfrastructure#lead_time_in_weeks}
   */
   readonly leadTimeInWeeks?: number;
   /**
   * The months when maintenance can be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#months OdbCloudExadataInfrastructure#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#months OdbCloudExadataInfrastructure#months}
   */
   readonly months?: string[];
   /**
   * The patching mode for the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#patching_mode OdbCloudExadataInfrastructure#patching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#patching_mode OdbCloudExadataInfrastructure#patching_mode}
   */
   readonly patchingMode?: string;
   /**
   * The preference for the maintenance window scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#preference OdbCloudExadataInfrastructure#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#preference OdbCloudExadataInfrastructure#preference}
   */
   readonly preference?: string;
   /**
   * The weeks of the month when maintenance can be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#weeks_of_month OdbCloudExadataInfrastructure#weeks_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#weeks_of_month OdbCloudExadataInfrastructure#weeks_of_month}
   */
   readonly weeksOfMonth?: number[];
 }
@@ -425,7 +425,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // custom_action_timeout_in_mins - computed: true, optional: true, required: false
-  private _customActionTimeoutInMins?: number; 
+  private _customActionTimeoutInMins?: number;
   public get customActionTimeoutInMins() {
     return this.getNumberAttribute('custom_action_timeout_in_mins');
   }
@@ -441,7 +441,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // days_of_week - computed: true, optional: true, required: false
-  private _daysOfWeek?: string[]; 
+  private _daysOfWeek?: string[];
   public get daysOfWeek() {
     return this.getListAttribute('days_of_week');
   }
@@ -457,7 +457,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // hours_of_day - computed: true, optional: true, required: false
-  private _hoursOfDay?: number[]; 
+  private _hoursOfDay?: number[];
   public get hoursOfDay() {
     return this.getNumberListAttribute('hours_of_day');
   }
@@ -473,7 +473,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // is_custom_action_timeout_enabled - computed: true, optional: true, required: false
-  private _isCustomActionTimeoutEnabled?: boolean | cdktn.IResolvable; 
+  private _isCustomActionTimeoutEnabled?: boolean | cdktn.IResolvable;
   public get isCustomActionTimeoutEnabled() {
     return this.getBooleanAttribute('is_custom_action_timeout_enabled');
   }
@@ -489,7 +489,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // lead_time_in_weeks - computed: true, optional: true, required: false
-  private _leadTimeInWeeks?: number; 
+  private _leadTimeInWeeks?: number;
   public get leadTimeInWeeks() {
     return this.getNumberAttribute('lead_time_in_weeks');
   }
@@ -505,7 +505,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // months - computed: true, optional: true, required: false
-  private _months?: string[]; 
+  private _months?: string[];
   public get months() {
     return this.getListAttribute('months');
   }
@@ -521,7 +521,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // patching_mode - computed: true, optional: true, required: false
-  private _patchingMode?: string; 
+  private _patchingMode?: string;
   public get patchingMode() {
     return this.getStringAttribute('patching_mode');
   }
@@ -537,7 +537,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // preference - computed: true, optional: true, required: false
-  private _preference?: string; 
+  private _preference?: string;
   public get preference() {
     return this.getStringAttribute('preference');
   }
@@ -553,7 +553,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // weeks_of_month - computed: true, optional: true, required: false
-  private _weeksOfMonth?: number[]; 
+  private _weeksOfMonth?: number[];
   public get weeksOfMonth() {
     return this.getNumberListAttribute('weeks_of_month');
   }
@@ -572,13 +572,13 @@ export interface OdbCloudExadataInfrastructureTags {
   /**
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., :, /, =, +, @, -, and ".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#key OdbCloudExadataInfrastructure#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#key OdbCloudExadataInfrastructure#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#value OdbCloudExadataInfrastructure#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#value OdbCloudExadataInfrastructure#value}
   */
   readonly value?: string;
 }
@@ -670,7 +670,7 @@ export class OdbCloudExadataInfrastructureTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -686,7 +686,7 @@ export class OdbCloudExadataInfrastructureTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -723,7 +723,7 @@ export class OdbCloudExadataInfrastructureTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}
 */
 export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
 
@@ -739,7 +739,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OdbCloudExadataInfrastructure resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OdbCloudExadataInfrastructure to import
-  * @param importFromId The id of the existing OdbCloudExadataInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OdbCloudExadataInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OdbCloudExadataInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -751,7 +751,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,7 +762,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_odb_cloud_exadata_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -800,7 +800,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -816,7 +816,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -847,7 +847,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // compute_count - computed: true, optional: true, required: false
-  private _computeCount?: number; 
+  private _computeCount?: number;
   public get computeCount() {
     return this.getNumberAttribute('compute_count');
   }
@@ -894,7 +894,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // database_server_type - computed: true, optional: true, required: false
-  private _databaseServerType?: string; 
+  private _databaseServerType?: string;
   public get databaseServerType() {
     return this.getStringAttribute('database_server_type');
   }
@@ -925,7 +925,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1002,7 +1002,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // shape - computed: true, optional: true, required: false
-  private _shape?: string; 
+  private _shape?: string;
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -1018,7 +1018,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // storage_count - computed: true, optional: true, required: false
-  private _storageCount?: number; 
+  private _storageCount?: number;
   public get storageCount() {
     return this.getNumberAttribute('storage_count');
   }
@@ -1034,7 +1034,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // storage_server_type - computed: true, optional: true, required: false
-  private _storageServerType?: string; 
+  private _storageServerType?: string;
   public get storageServerType() {
     return this.getStringAttribute('storage_server_type');
   }

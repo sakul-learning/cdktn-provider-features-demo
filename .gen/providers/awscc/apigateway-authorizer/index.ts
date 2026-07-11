@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayAuthorizerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#auth_type ApigatewayAuthorizer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#auth_type ApigatewayAuthorizer#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#authorizer_credentials ApigatewayAuthorizer#authorizer_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#authorizer_credentials ApigatewayAuthorizer#authorizer_credentials}
   */
   readonly authorizerCredentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#authorizer_result_ttl_in_seconds ApigatewayAuthorizer#authorizer_result_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#authorizer_result_ttl_in_seconds ApigatewayAuthorizer#authorizer_result_ttl_in_seconds}
   */
   readonly authorizerResultTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#authorizer_uri ApigatewayAuthorizer#authorizer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#authorizer_uri ApigatewayAuthorizer#authorizer_uri}
   */
   readonly authorizerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#identity_source ApigatewayAuthorizer#identity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#identity_source ApigatewayAuthorizer#identity_source}
   */
   readonly identitySource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#identity_validation_expression ApigatewayAuthorizer#identity_validation_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#identity_validation_expression ApigatewayAuthorizer#identity_validation_expression}
   */
   readonly identityValidationExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#name ApigatewayAuthorizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#name ApigatewayAuthorizer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#provider_ar_ns ApigatewayAuthorizer#provider_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#provider_ar_ns ApigatewayAuthorizer#provider_ar_ns}
   */
   readonly providerArNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#rest_api_id ApigatewayAuthorizer#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#rest_api_id ApigatewayAuthorizer#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#type ApigatewayAuthorizer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#type ApigatewayAuthorizer#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer}
 */
 export class ApigatewayAuthorizer extends cdktn.TerraformResource {
 
@@ -66,7 +66,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayAuthorizer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayAuthorizer to import
-  * @param importFromId The id of the existing ApigatewayAuthorizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayAuthorizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayAuthorizer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -78,7 +78,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,7 +89,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_authorizer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,7 +116,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   // ==========
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string; 
+  private _authType?: string;
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -132,7 +132,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_credentials - computed: true, optional: true, required: false
-  private _authorizerCredentials?: string; 
+  private _authorizerCredentials?: string;
   public get authorizerCredentials() {
     return this.getStringAttribute('authorizer_credentials');
   }
@@ -153,7 +153,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number; 
+  private _authorizerResultTtlInSeconds?: number;
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -169,7 +169,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_uri - computed: true, optional: true, required: false
-  private _authorizerUri?: string; 
+  private _authorizerUri?: string;
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -190,7 +190,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // identity_source - computed: true, optional: true, required: false
-  private _identitySource?: string; 
+  private _identitySource?: string;
   public get identitySource() {
     return this.getStringAttribute('identity_source');
   }
@@ -206,7 +206,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // identity_validation_expression - computed: true, optional: true, required: false
-  private _identityValidationExpression?: string; 
+  private _identityValidationExpression?: string;
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -222,7 +222,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -235,7 +235,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // provider_ar_ns - computed: true, optional: true, required: false
-  private _providerArNs?: string[]; 
+  private _providerArNs?: string[];
   public get providerArNs() {
     return cdktn.Fn.tolist(this.getListAttribute('provider_ar_ns'));
   }
@@ -251,7 +251,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -264,7 +264,7 @@ export class ApigatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

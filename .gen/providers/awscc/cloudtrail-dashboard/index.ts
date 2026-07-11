@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudtrailDashboardConfig extends cdktn.TerraformMetaArguments 
   /**
   * The name of the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
   */
   readonly name?: string;
   /**
   * Configures the automatic refresh schedule for the dashboard. Includes the frequency unit (DAYS or HOURS) and value, as well as the status (ENABLED or DISABLED) of the refresh schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
   */
   readonly refreshSchedule?: CloudtrailDashboardRefreshSchedule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}
   */
   readonly tags?: CloudtrailDashboardTags[] | cdktn.IResolvable;
   /**
   * Indicates whether the dashboard is protected from termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
   */
   readonly terminationProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * List of widgets on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
   */
   readonly widgets?: CloudtrailDashboardWidgets[] | cdktn.IResolvable;
 }
@@ -40,13 +40,13 @@ export interface CloudtrailDashboardRefreshScheduleFrequency {
   /**
   * The frequency unit. Supported values are HOURS and DAYS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
   */
   readonly unit?: string;
   /**
   * The frequency value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
   */
   readonly value?: number;
 }
@@ -136,7 +136,7 @@ export class CloudtrailDashboardRefreshScheduleFrequencyOutputReference extends 
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -152,7 +152,7 @@ export class CloudtrailDashboardRefreshScheduleFrequencyOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -169,19 +169,19 @@ export class CloudtrailDashboardRefreshScheduleFrequencyOutputReference extends 
 }
 export interface CloudtrailDashboardRefreshSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}
   */
   readonly frequency?: CloudtrailDashboardRefreshScheduleFrequency;
   /**
   * The status of the schedule. Supported values are ENABLED and DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
   */
   readonly status?: string;
   /**
   * StartTime of the automatic schedule refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
   */
   readonly timeOfDay?: string;
 }
@@ -300,7 +300,7 @@ export class CloudtrailDashboardRefreshScheduleOutputReference extends cdktn.Com
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -316,7 +316,7 @@ export class CloudtrailDashboardRefreshScheduleOutputReference extends cdktn.Com
   }
 
   // time_of_day - computed: true, optional: true, required: false
-  private _timeOfDay?: string; 
+  private _timeOfDay?: string;
   public get timeOfDay() {
     return this.getStringAttribute('time_of_day');
   }
@@ -335,13 +335,13 @@ export interface CloudtrailDashboardTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
   */
   readonly value?: string;
 }
@@ -433,7 +433,7 @@ export class CloudtrailDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -449,7 +449,7 @@ export class CloudtrailDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -488,19 +488,19 @@ export interface CloudtrailDashboardWidgets {
   /**
   * The placeholder keys in the QueryStatement. For example: $StartTime$, $EndTime$, $Period$.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
   */
   readonly queryParameters?: string[];
   /**
   * The SQL query statement on one or more event data stores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
   */
   readonly queryStatement?: string;
   /**
   * The view properties of the widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
   */
   readonly viewProperties?: { [key: string]: string };
 }
@@ -605,7 +605,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // query_parameters - computed: true, optional: true, required: false
-  private _queryParameters?: string[]; 
+  private _queryParameters?: string[];
   public get queryParameters() {
     return this.getListAttribute('query_parameters');
   }
@@ -621,7 +621,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // query_statement - computed: true, optional: true, required: false
-  private _queryStatement?: string; 
+  private _queryStatement?: string;
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -637,7 +637,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // view_properties - computed: true, optional: true, required: false
-  private _viewProperties?: { [key: string]: string }; 
+  private _viewProperties?: { [key: string]: string };
   public get viewProperties() {
     return this.getStringMapAttribute('view_properties');
   }
@@ -674,7 +674,7 @@ export class CloudtrailDashboardWidgetsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}
 */
 export class CloudtrailDashboard extends cdktn.TerraformResource {
 
@@ -690,7 +690,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudtrailDashboard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudtrailDashboard to import
-  * @param importFromId The id of the existing CloudtrailDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudtrailDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudtrailDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -702,7 +702,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -713,7 +713,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudtrail_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -750,7 +750,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -803,7 +803,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   }
 
   // termination_protection_enabled - computed: true, optional: true, required: false
-  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable;
   public get terminationProtectionEnabled() {
     return this.getBooleanAttribute('termination_protection_enabled');
   }

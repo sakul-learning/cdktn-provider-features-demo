@@ -1,3 +1,3 @@
 # `data_awscc_workspacesweb_portal`
 
-Refer to the Terraform Registry for docs: [`data_awscc_workspacesweb_portal`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/workspacesweb_portal).
+Refer to the Terraform Registry for docs: [`data_awscc_workspacesweb_portal`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/workspacesweb_portal).

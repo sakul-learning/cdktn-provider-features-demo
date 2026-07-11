@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IotLoggingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Your 12-digit account ID (used as the primary identifier for the CloudFormation resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#account_id IotLogging#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#account_id IotLogging#account_id}
   */
   readonly accountId: string;
   /**
   * The log level to use. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
   */
   readonly defaultLogLevel: string;
   /**
   * Configurations for event-based logging that specifies which event types to log and their logging settings. Overrides account-level logging for the specified event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
   */
   readonly eventConfigurations?: IotLoggingEventConfigurations[] | cdktn.IResolvable;
   /**
   * The ARN of the role that allows IoT to write to Cloudwatch logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
   */
   readonly roleArn: string;
 }
@@ -36,19 +36,19 @@ export interface IotLoggingEventConfigurations {
   /**
   * The type of event to log. These include event types like Connect, Publish, and Disconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#event_type IotLogging#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#event_type IotLogging#event_type}
   */
   readonly eventType?: string;
   /**
   * CloudWatch Log Group for event-based logging. Specifies where log events should be sent. The log destination for event-based logging overrides default Log Group for the specified event type and applies to all resources associated with that event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
   */
   readonly logDestination?: string;
   /**
   * The logging level for the specified event type. Determines the verbosity of log messages generated for this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#log_level IotLogging#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#log_level IotLogging#log_level}
   */
   readonly logLevel?: string;
 }
@@ -153,7 +153,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // event_type - computed: true, optional: true, required: false
-  private _eventType?: string; 
+  private _eventType?: string;
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -169,7 +169,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // log_destination - computed: true, optional: true, required: false
-  private _logDestination?: string; 
+  private _logDestination?: string;
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -185,7 +185,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -222,7 +222,7 @@ export class IotLoggingEventConfigurationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging awscc_iot_logging}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging awscc_iot_logging}
 */
 export class IotLogging extends cdktn.TerraformResource {
 
@@ -238,7 +238,7 @@ export class IotLogging extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotLogging resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotLogging to import
-  * @param importFromId The id of the existing IotLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -250,7 +250,7 @@ export class IotLogging extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_logging awscc_iot_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_logging awscc_iot_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,7 +261,7 @@ export class IotLogging extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_logging',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -282,7 +282,7 @@ export class IotLogging extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -295,7 +295,7 @@ export class IotLogging extends cdktn.TerraformResource {
   }
 
   // default_log_level - computed: false, optional: false, required: true
-  private _defaultLogLevel?: string; 
+  private _defaultLogLevel?: string;
   public get defaultLogLevel() {
     return this.getStringAttribute('default_log_level');
   }
@@ -329,7 +329,7 @@ export class IotLogging extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

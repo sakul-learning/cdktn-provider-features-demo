@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktn from 'cdktn';
 
 export interface ElastictranscoderPipelineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#aws_kms_key_arn ElastictranscoderPipeline#aws_kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#aws_kms_key_arn ElastictranscoderPipeline#aws_kms_key_arn}
   */
   readonly awsKmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#id ElastictranscoderPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#id ElastictranscoderPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#input_bucket ElastictranscoderPipeline#input_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#input_bucket ElastictranscoderPipeline#input_bucket}
   */
   readonly inputBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#name ElastictranscoderPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#name ElastictranscoderPipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#output_bucket ElastictranscoderPipeline#output_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#output_bucket ElastictranscoderPipeline#output_bucket}
   */
   readonly outputBucket?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#region ElastictranscoderPipeline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#region ElastictranscoderPipeline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#role ElastictranscoderPipeline#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#role ElastictranscoderPipeline#role}
   */
   readonly role: string;
   /**
   * content_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#content_config ElastictranscoderPipeline#content_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#content_config ElastictranscoderPipeline#content_config}
   */
   readonly contentConfig?: ElastictranscoderPipelineContentConfig;
   /**
   * content_config_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#content_config_permissions ElastictranscoderPipeline#content_config_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#content_config_permissions ElastictranscoderPipeline#content_config_permissions}
   */
   readonly contentConfigPermissions?: ElastictranscoderPipelineContentConfigPermissions[] | cdktn.IResolvable;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#notifications ElastictranscoderPipeline#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#notifications ElastictranscoderPipeline#notifications}
   */
   readonly notifications?: ElastictranscoderPipelineNotifications;
   /**
   * thumbnail_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#thumbnail_config ElastictranscoderPipeline#thumbnail_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#thumbnail_config ElastictranscoderPipeline#thumbnail_config}
   */
   readonly thumbnailConfig?: ElastictranscoderPipelineThumbnailConfig;
   /**
   * thumbnail_config_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#thumbnail_config_permissions ElastictranscoderPipeline#thumbnail_config_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#thumbnail_config_permissions ElastictranscoderPipeline#thumbnail_config_permissions}
   */
   readonly thumbnailConfigPermissions?: ElastictranscoderPipelineThumbnailConfigPermissions[] | cdktn.IResolvable;
 }
 export interface ElastictranscoderPipelineContentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -157,7 +157,7 @@ export class ElastictranscoderPipelineContentConfigOutputReference extends cdktn
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -173,7 +173,7 @@ export class ElastictranscoderPipelineContentConfigOutputReference extends cdktn
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string; 
+  private _storageClass?: string;
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -190,15 +190,15 @@ export class ElastictranscoderPipelineContentConfigOutputReference extends cdktn
 }
 export interface ElastictranscoderPipelineContentConfigPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}
   */
   readonly access?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}
   */
   readonly grantee?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}
   */
   readonly granteeType?: string;
 }
@@ -303,7 +303,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // access - computed: false, optional: true, required: false
-  private _access?: string[]; 
+  private _access?: string[];
   public get access() {
     return this.getListAttribute('access');
   }
@@ -319,7 +319,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // grantee - computed: false, optional: true, required: false
-  private _grantee?: string; 
+  private _grantee?: string;
   public get grantee() {
     return this.getStringAttribute('grantee');
   }
@@ -335,7 +335,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // grantee_type - computed: false, optional: true, required: false
-  private _granteeType?: string; 
+  private _granteeType?: string;
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -372,19 +372,19 @@ export class ElastictranscoderPipelineContentConfigPermissionsList extends cdktn
 }
 export interface ElastictranscoderPipelineNotifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#completed ElastictranscoderPipeline#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#completed ElastictranscoderPipeline#completed}
   */
   readonly completed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#error ElastictranscoderPipeline#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#error ElastictranscoderPipeline#error}
   */
   readonly error?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#progressing ElastictranscoderPipeline#progressing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#progressing ElastictranscoderPipeline#progressing}
   */
   readonly progressing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#warning ElastictranscoderPipeline#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#warning ElastictranscoderPipeline#warning}
   */
   readonly warning?: string;
 }
@@ -490,7 +490,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // completed - computed: false, optional: true, required: false
-  private _completed?: string; 
+  private _completed?: string;
   public get completed() {
     return this.getStringAttribute('completed');
   }
@@ -506,7 +506,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // error - computed: false, optional: true, required: false
-  private _error?: string; 
+  private _error?: string;
   public get error() {
     return this.getStringAttribute('error');
   }
@@ -522,7 +522,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // progressing - computed: false, optional: true, required: false
-  private _progressing?: string; 
+  private _progressing?: string;
   public get progressing() {
     return this.getStringAttribute('progressing');
   }
@@ -538,7 +538,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // warning - computed: false, optional: true, required: false
-  private _warning?: string; 
+  private _warning?: string;
   public get warning() {
     return this.getStringAttribute('warning');
   }
@@ -555,11 +555,11 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
 }
 export interface ElastictranscoderPipelineThumbnailConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#bucket ElastictranscoderPipeline#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#storage_class ElastictranscoderPipeline#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -639,7 +639,7 @@ export class ElastictranscoderPipelineThumbnailConfigOutputReference extends cdk
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -655,7 +655,7 @@ export class ElastictranscoderPipelineThumbnailConfigOutputReference extends cdk
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string; 
+  private _storageClass?: string;
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -672,15 +672,15 @@ export class ElastictranscoderPipelineThumbnailConfigOutputReference extends cdk
 }
 export interface ElastictranscoderPipelineThumbnailConfigPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#access ElastictranscoderPipeline#access}
   */
   readonly access?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#grantee ElastictranscoderPipeline#grantee}
   */
   readonly grantee?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#grantee_type ElastictranscoderPipeline#grantee_type}
   */
   readonly granteeType?: string;
 }
@@ -785,7 +785,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // access - computed: false, optional: true, required: false
-  private _access?: string[]; 
+  private _access?: string[];
   public get access() {
     return this.getListAttribute('access');
   }
@@ -801,7 +801,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // grantee - computed: false, optional: true, required: false
-  private _grantee?: string; 
+  private _grantee?: string;
   public get grantee() {
     return this.getStringAttribute('grantee');
   }
@@ -817,7 +817,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // grantee_type - computed: false, optional: true, required: false
-  private _granteeType?: string; 
+  private _granteeType?: string;
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -854,7 +854,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline}
 */
 export class ElastictranscoderPipeline extends cdktn.TerraformResource {
 
@@ -870,7 +870,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElastictranscoderPipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElastictranscoderPipeline to import
-  * @param importFromId The id of the existing ElastictranscoderPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElastictranscoderPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElastictranscoderPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -882,7 +882,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -893,7 +893,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
       terraformResourceType: 'aws_elastictranscoder_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -927,7 +927,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // aws_kms_key_arn - computed: false, optional: true, required: false
-  private _awsKmsKeyArn?: string; 
+  private _awsKmsKeyArn?: string;
   public get awsKmsKeyArn() {
     return this.getStringAttribute('aws_kms_key_arn');
   }
@@ -943,7 +943,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -959,7 +959,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // input_bucket - computed: false, optional: false, required: true
-  private _inputBucket?: string; 
+  private _inputBucket?: string;
   public get inputBucket() {
     return this.getStringAttribute('input_bucket');
   }
@@ -972,7 +972,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -988,7 +988,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // output_bucket - computed: true, optional: true, required: false
-  private _outputBucket?: string; 
+  private _outputBucket?: string;
   public get outputBucket() {
     return this.getStringAttribute('output_bucket');
   }
@@ -1004,7 +1004,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1020,7 +1020,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }

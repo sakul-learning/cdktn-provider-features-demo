@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface Macie2ClassificationJobConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#custom_data_identifier_ids Macie2ClassificationJob#custom_data_identifier_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#custom_data_identifier_ids Macie2ClassificationJob#custom_data_identifier_ids}
   */
   readonly customDataIdentifierIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#description Macie2ClassificationJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#description Macie2ClassificationJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#id Macie2ClassificationJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#id Macie2ClassificationJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#initial_run Macie2ClassificationJob#initial_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#initial_run Macie2ClassificationJob#initial_run}
   */
   readonly initialRun?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#job_status Macie2ClassificationJob#job_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#job_status Macie2ClassificationJob#job_status}
   */
   readonly jobStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#job_type Macie2ClassificationJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#job_type Macie2ClassificationJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#name Macie2ClassificationJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#name Macie2ClassificationJob#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#name_prefix Macie2ClassificationJob#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#name_prefix Macie2ClassificationJob#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#region Macie2ClassificationJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#region Macie2ClassificationJob#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#sampling_percentage Macie2ClassificationJob#sampling_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#sampling_percentage Macie2ClassificationJob#sampling_percentage}
   */
   readonly samplingPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tags Macie2ClassificationJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tags Macie2ClassificationJob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tags_all Macie2ClassificationJob#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tags_all Macie2ClassificationJob#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * s3_job_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#s3_job_definition Macie2ClassificationJob#s3_job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#s3_job_definition Macie2ClassificationJob#s3_job_definition}
   */
   readonly s3JobDefinition: Macie2ClassificationJobS3JobDefinition;
   /**
   * schedule_frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#schedule_frequency Macie2ClassificationJob#schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#schedule_frequency Macie2ClassificationJob#schedule_frequency}
   */
   readonly scheduleFrequency?: Macie2ClassificationJobScheduleFrequency;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#timeouts Macie2ClassificationJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#timeouts Macie2ClassificationJob#timeouts}
   */
   readonly timeouts?: Macie2ClassificationJobTimeouts;
 }
@@ -166,15 +166,15 @@ export class Macie2ClassificationJobUserPausedDetailsList extends cdktn.ComplexL
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimpleCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
   */
   readonly values?: string[];
 }
@@ -267,7 +267,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -283,7 +283,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -299,7 +299,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -316,11 +316,11 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
   */
   readonly value?: string;
 }
@@ -412,7 +412,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -428,7 +428,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -465,13 +465,13 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
   * tag_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
   */
   readonly tagValues?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValues[] | cdktn.IResolvable;
 }
@@ -551,7 +551,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -586,13 +586,13 @@ export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAnd
   /**
   * simple_criterion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#simple_criterion Macie2ClassificationJob#simple_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#simple_criterion Macie2ClassificationJob#simple_criterion}
   */
   readonly simpleCriterion?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimpleCriterion;
   /**
   * tag_criterion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_criterion Macie2ClassificationJob#tag_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_criterion Macie2ClassificationJob#tag_criterion}
   */
   readonly tagCriterion?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagCriterion;
 }
@@ -739,7 +739,7 @@ export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludes {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
   */
   readonly and?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAnd[] | cdktn.IResolvable;
 }
@@ -823,15 +823,15 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesOutputR
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimpleCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
   */
   readonly values?: string[];
 }
@@ -924,7 +924,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -940,7 +940,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -956,7 +956,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -973,11 +973,11 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
   */
   readonly value?: string;
 }
@@ -1069,7 +1069,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1085,7 +1085,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1122,13 +1122,13 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
   * tag_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
   */
   readonly tagValues?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues[] | cdktn.IResolvable;
 }
@@ -1208,7 +1208,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -1243,13 +1243,13 @@ export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAnd
   /**
   * simple_criterion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#simple_criterion Macie2ClassificationJob#simple_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#simple_criterion Macie2ClassificationJob#simple_criterion}
   */
   readonly simpleCriterion?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimpleCriterion;
   /**
   * tag_criterion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_criterion Macie2ClassificationJob#tag_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_criterion Macie2ClassificationJob#tag_criterion}
   */
   readonly tagCriterion?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterion;
 }
@@ -1396,7 +1396,7 @@ export interface Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludes {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
   */
   readonly and?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAnd[] | cdktn.IResolvable;
 }
@@ -1482,13 +1482,13 @@ export interface Macie2ClassificationJobS3JobDefinitionBucketCriteria {
   /**
   * excludes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#excludes Macie2ClassificationJob#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#excludes Macie2ClassificationJob#excludes}
   */
   readonly excludes?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludes;
   /**
   * includes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#includes Macie2ClassificationJob#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#includes Macie2ClassificationJob#includes}
   */
   readonly includes?: Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludes;
 }
@@ -1601,11 +1601,11 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaOutputReference
 }
 export interface Macie2ClassificationJobS3JobDefinitionBucketDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#account_id Macie2ClassificationJob#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#account_id Macie2ClassificationJob#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#buckets Macie2ClassificationJob#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#buckets Macie2ClassificationJob#buckets}
   */
   readonly buckets: string[];
 }
@@ -1697,7 +1697,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketDefinitionsOutputRefere
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1710,7 +1710,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketDefinitionsOutputRefere
   }
 
   // buckets - computed: false, optional: false, required: true
-  private _buckets?: string[]; 
+  private _buckets?: string[];
   public get buckets() {
     return this.getListAttribute('buckets');
   }
@@ -1744,15 +1744,15 @@ export class Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList extends
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScopeTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
   */
   readonly values?: string[];
 }
@@ -1845,7 +1845,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -1861,7 +1861,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1877,7 +1877,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1894,11 +1894,11 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTermTagValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
   */
   readonly value?: string;
 }
@@ -1990,7 +1990,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2006,7 +2006,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2043,21 +2043,21 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#target Macie2ClassificationJob#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#target Macie2ClassificationJob#target}
   */
   readonly target?: string;
   /**
   * tag_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
   */
   readonly tagValues?: Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTermTagValues[] | cdktn.IResolvable;
 }
@@ -2163,7 +2163,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2179,7 +2179,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2195,7 +2195,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2230,13 +2230,13 @@ export interface Macie2ClassificationJobS3JobDefinitionScopingExcludesAnd {
   /**
   * simple_scope_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#simple_scope_term Macie2ClassificationJob#simple_scope_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#simple_scope_term Macie2ClassificationJob#simple_scope_term}
   */
   readonly simpleScopeTerm?: Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScopeTerm;
   /**
   * tag_scope_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_scope_term Macie2ClassificationJob#tag_scope_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_scope_term Macie2ClassificationJob#tag_scope_term}
   */
   readonly tagScopeTerm?: Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTerm;
 }
@@ -2383,7 +2383,7 @@ export interface Macie2ClassificationJobS3JobDefinitionScopingExcludes {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
   */
   readonly and?: Macie2ClassificationJobS3JobDefinitionScopingExcludesAnd[] | cdktn.IResolvable;
 }
@@ -2467,15 +2467,15 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesOutputReferenc
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScopeTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#values Macie2ClassificationJob#values}
   */
   readonly values?: string[];
 }
@@ -2568,7 +2568,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2584,7 +2584,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2600,7 +2600,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2617,11 +2617,11 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTermTagValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#value Macie2ClassificationJob#value}
   */
   readonly value?: string;
 }
@@ -2713,7 +2713,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2729,7 +2729,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2766,21 +2766,21 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
 }
 export interface Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#key Macie2ClassificationJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#target Macie2ClassificationJob#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#target Macie2ClassificationJob#target}
   */
   readonly target?: string;
   /**
   * tag_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
   */
   readonly tagValues?: Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTermTagValues[] | cdktn.IResolvable;
 }
@@ -2886,7 +2886,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string; 
+  private _comparator?: string;
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2902,7 +2902,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2918,7 +2918,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2953,13 +2953,13 @@ export interface Macie2ClassificationJobS3JobDefinitionScopingIncludesAnd {
   /**
   * simple_scope_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#simple_scope_term Macie2ClassificationJob#simple_scope_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#simple_scope_term Macie2ClassificationJob#simple_scope_term}
   */
   readonly simpleScopeTerm?: Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScopeTerm;
   /**
   * tag_scope_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#tag_scope_term Macie2ClassificationJob#tag_scope_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#tag_scope_term Macie2ClassificationJob#tag_scope_term}
   */
   readonly tagScopeTerm?: Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTerm;
 }
@@ -3106,7 +3106,7 @@ export interface Macie2ClassificationJobS3JobDefinitionScopingIncludes {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
   */
   readonly and?: Macie2ClassificationJobS3JobDefinitionScopingIncludesAnd[] | cdktn.IResolvable;
 }
@@ -3192,13 +3192,13 @@ export interface Macie2ClassificationJobS3JobDefinitionScoping {
   /**
   * excludes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#excludes Macie2ClassificationJob#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#excludes Macie2ClassificationJob#excludes}
   */
   readonly excludes?: Macie2ClassificationJobS3JobDefinitionScopingExcludes;
   /**
   * includes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#includes Macie2ClassificationJob#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#includes Macie2ClassificationJob#includes}
   */
   readonly includes?: Macie2ClassificationJobS3JobDefinitionScopingIncludes;
 }
@@ -3313,19 +3313,19 @@ export interface Macie2ClassificationJobS3JobDefinition {
   /**
   * bucket_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#bucket_criteria Macie2ClassificationJob#bucket_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#bucket_criteria Macie2ClassificationJob#bucket_criteria}
   */
   readonly bucketCriteria?: Macie2ClassificationJobS3JobDefinitionBucketCriteria;
   /**
   * bucket_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#bucket_definitions Macie2ClassificationJob#bucket_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#bucket_definitions Macie2ClassificationJob#bucket_definitions}
   */
   readonly bucketDefinitions?: Macie2ClassificationJobS3JobDefinitionBucketDefinitions[] | cdktn.IResolvable;
   /**
   * scoping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#scoping Macie2ClassificationJob#scoping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#scoping Macie2ClassificationJob#scoping}
   */
   readonly scoping?: Macie2ClassificationJobS3JobDefinitionScoping;
 }
@@ -3467,15 +3467,15 @@ export class Macie2ClassificationJobS3JobDefinitionOutputReference extends cdktn
 }
 export interface Macie2ClassificationJobScheduleFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#daily_schedule Macie2ClassificationJob#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#daily_schedule Macie2ClassificationJob#daily_schedule}
   */
   readonly dailySchedule?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#monthly_schedule Macie2ClassificationJob#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#monthly_schedule Macie2ClassificationJob#monthly_schedule}
   */
   readonly monthlySchedule?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#weekly_schedule Macie2ClassificationJob#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#weekly_schedule Macie2ClassificationJob#weekly_schedule}
   */
   readonly weeklySchedule?: string;
 }
@@ -3568,7 +3568,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // daily_schedule - computed: false, optional: true, required: false
-  private _dailySchedule?: boolean | cdktn.IResolvable; 
+  private _dailySchedule?: boolean | cdktn.IResolvable;
   public get dailySchedule() {
     return this.getBooleanAttribute('daily_schedule');
   }
@@ -3584,7 +3584,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // monthly_schedule - computed: true, optional: true, required: false
-  private _monthlySchedule?: number; 
+  private _monthlySchedule?: number;
   public get monthlySchedule() {
     return this.getNumberAttribute('monthly_schedule');
   }
@@ -3600,7 +3600,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // weekly_schedule - computed: true, optional: true, required: false
-  private _weeklySchedule?: string; 
+  private _weeklySchedule?: string;
   public get weeklySchedule() {
     return this.getStringAttribute('weekly_schedule');
   }
@@ -3617,11 +3617,11 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
 }
 export interface Macie2ClassificationJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#create Macie2ClassificationJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#create Macie2ClassificationJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#update Macie2ClassificationJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#update Macie2ClassificationJob#update}
   */
   readonly update?: string;
 }
@@ -3711,7 +3711,7 @@ export class Macie2ClassificationJobTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -3727,7 +3727,7 @@ export class Macie2ClassificationJobTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3744,7 +3744,7 @@ export class Macie2ClassificationJobTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job aws_macie2_classification_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job aws_macie2_classification_job}
 */
 export class Macie2ClassificationJob extends cdktn.TerraformResource {
 
@@ -3760,7 +3760,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Macie2ClassificationJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Macie2ClassificationJob to import
-  * @param importFromId The id of the existing Macie2ClassificationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Macie2ClassificationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Macie2ClassificationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3772,7 +3772,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3783,7 +3783,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
       terraformResourceType: 'aws_macie2_classification_job',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3820,7 +3820,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // custom_data_identifier_ids - computed: true, optional: true, required: false
-  private _customDataIdentifierIds?: string[]; 
+  private _customDataIdentifierIds?: string[];
   public get customDataIdentifierIds() {
     return this.getListAttribute('custom_data_identifier_ids');
   }
@@ -3836,7 +3836,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3852,7 +3852,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3868,7 +3868,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // initial_run - computed: false, optional: true, required: false
-  private _initialRun?: boolean | cdktn.IResolvable; 
+  private _initialRun?: boolean | cdktn.IResolvable;
   public get initialRun() {
     return this.getBooleanAttribute('initial_run');
   }
@@ -3894,7 +3894,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // job_status - computed: true, optional: true, required: false
-  private _jobStatus?: string; 
+  private _jobStatus?: string;
   public get jobStatus() {
     return this.getStringAttribute('job_status');
   }
@@ -3910,7 +3910,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // job_type - computed: false, optional: false, required: true
-  private _jobType?: string; 
+  private _jobType?: string;
   public get jobType() {
     return this.getStringAttribute('job_type');
   }
@@ -3923,7 +3923,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3939,7 +3939,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -3955,7 +3955,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3971,7 +3971,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // sampling_percentage - computed: true, optional: true, required: false
-  private _samplingPercentage?: number; 
+  private _samplingPercentage?: number;
   public get samplingPercentage() {
     return this.getNumberAttribute('sampling_percentage');
   }
@@ -3987,7 +3987,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4003,7 +4003,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

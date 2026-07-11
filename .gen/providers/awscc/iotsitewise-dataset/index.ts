@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IotsitewiseDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description about the dataset, and its functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
   */
   readonly datasetDescription?: string;
   /**
   * The name of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
   */
   readonly datasetName: string;
   /**
   * The data source for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
   */
   readonly datasetSource: IotsitewiseDatasetDatasetSource;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
   */
   readonly tags?: IotsitewiseDatasetTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface IotsitewiseDatasetDatasetSourceSourceDetailKendra {
   /**
   * The knowledgeBaseArn details for the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
   */
   readonly knowledgeBaseArn?: string;
   /**
   * The roleARN details for the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -132,7 +132,7 @@ export class IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference ex
   }
 
   // knowledge_base_arn - computed: true, optional: true, required: false
-  private _knowledgeBaseArn?: string; 
+  private _knowledgeBaseArn?: string;
   public get knowledgeBaseArn() {
     return this.getStringAttribute('knowledge_base_arn');
   }
@@ -148,7 +148,7 @@ export class IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -167,7 +167,7 @@ export interface IotsitewiseDatasetDatasetSourceSourceDetail {
   /**
   * Contains details about the Kendra dataset source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
   */
   readonly kendra?: IotsitewiseDatasetDatasetSourceSourceDetailKendra;
 }
@@ -263,19 +263,19 @@ export interface IotsitewiseDatasetDatasetSource {
   /**
   * The details of the dataset source associated with the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
   */
   readonly sourceDetail?: IotsitewiseDatasetDatasetSourceSourceDetail;
   /**
   * The format of the dataset source associated with the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
   */
   readonly sourceFormat: string;
   /**
   * The type of data source for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
   */
   readonly sourceType: string;
 }
@@ -394,7 +394,7 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
   }
 
   // source_format - computed: false, optional: false, required: true
-  private _sourceFormat?: string; 
+  private _sourceFormat?: string;
   public get sourceFormat() {
     return this.getStringAttribute('source_format');
   }
@@ -407,7 +407,7 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
   }
 
   // source_type - computed: false, optional: false, required: true
-  private _sourceType?: string; 
+  private _sourceType?: string;
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -421,11 +421,11 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
 }
 export interface IotsitewiseDatasetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}
   */
   readonly value?: string;
 }
@@ -517,7 +517,7 @@ export class IotsitewiseDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -533,7 +533,7 @@ export class IotsitewiseDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -570,7 +570,7 @@ export class IotsitewiseDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}
 */
 export class IotsitewiseDataset extends cdktn.TerraformResource {
 
@@ -586,7 +586,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewiseDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewiseDataset to import
-  * @param importFromId The id of the existing IotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewiseDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewiseDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -598,7 +598,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,7 +609,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -635,7 +635,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   }
 
   // dataset_description - computed: true, optional: true, required: false
-  private _datasetDescription?: string; 
+  private _datasetDescription?: string;
   public get datasetDescription() {
     return this.getStringAttribute('dataset_description');
   }
@@ -656,7 +656,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   }
 
   // dataset_name - computed: false, optional: false, required: true
-  private _datasetName?: string; 
+  private _datasetName?: string;
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }

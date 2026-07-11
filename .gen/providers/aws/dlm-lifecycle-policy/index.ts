@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface DlmLifecyclePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#default_policy DlmLifecyclePolicy#default_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#default_policy DlmLifecyclePolicy#default_policy}
   */
   readonly defaultPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#description DlmLifecyclePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#description DlmLifecyclePolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#execution_role_arn DlmLifecyclePolicy#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#execution_role_arn DlmLifecyclePolicy#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#id DlmLifecyclePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#id DlmLifecyclePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface DlmLifecyclePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#region DlmLifecyclePolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#region DlmLifecyclePolicy#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#state DlmLifecyclePolicy#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#state DlmLifecyclePolicy#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#tags DlmLifecyclePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#tags DlmLifecyclePolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#tags_all DlmLifecyclePolicy#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#tags_all DlmLifecyclePolicy#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * policy_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#policy_details DlmLifecyclePolicy#policy_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#policy_details DlmLifecyclePolicy#policy_details}
   */
   readonly policyDetails: DlmLifecyclePolicyPolicyDetails;
 }
 export interface DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#cmk_arn DlmLifecyclePolicy#cmk_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#cmk_arn DlmLifecyclePolicy#cmk_arn}
   */
   readonly cmkArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#encrypted DlmLifecyclePolicy#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#encrypted DlmLifecyclePolicy#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
 }
@@ -137,7 +137,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfi
   }
 
   // cmk_arn - computed: false, optional: true, required: false
-  private _cmkArn?: string; 
+  private _cmkArn?: string;
   public get cmkArn() {
     return this.getStringAttribute('cmk_arn');
   }
@@ -153,7 +153,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfi
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -170,11 +170,11 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfi
 }
 export interface DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit: string;
 }
@@ -254,7 +254,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRuleOutpu
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -267,7 +267,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRuleOutpu
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -281,19 +281,19 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRuleOutpu
 }
 export interface DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#target DlmLifecyclePolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#target DlmLifecyclePolicy#target}
   */
   readonly target: string;
   /**
   * encryption_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#encryption_configuration DlmLifecyclePolicy#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#encryption_configuration DlmLifecyclePolicy#encryption_configuration}
   */
   readonly encryptionConfiguration: DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfiguration;
   /**
   * retain_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
   */
   readonly retainRule?: DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRule;
 }
@@ -398,7 +398,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyOutputReference
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -461,13 +461,13 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyList extends cd
 }
 export interface DlmLifecyclePolicyPolicyDetailsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#name DlmLifecyclePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#name DlmLifecyclePolicy#name}
   */
   readonly name: string;
   /**
   * cross_region_copy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#cross_region_copy DlmLifecyclePolicy#cross_region_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#cross_region_copy DlmLifecyclePolicy#cross_region_copy}
   */
   readonly crossRegionCopy: DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy[] | cdktn.IResolvable;
 }
@@ -547,7 +547,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -574,15 +574,15 @@ export class DlmLifecyclePolicyPolicyDetailsActionOutputReference extends cdktn.
 }
 export interface DlmLifecyclePolicyPolicyDetailsEventSourceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#description_regex DlmLifecyclePolicy#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#description_regex DlmLifecyclePolicy#description_regex}
   */
   readonly descriptionRegex: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#event_type DlmLifecyclePolicy#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#event_type DlmLifecyclePolicy#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#snapshot_owner DlmLifecyclePolicy#snapshot_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#snapshot_owner DlmLifecyclePolicy#snapshot_owner}
   */
   readonly snapshotOwner: string[];
 }
@@ -675,7 +675,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // description_regex - computed: false, optional: false, required: true
-  private _descriptionRegex?: string; 
+  private _descriptionRegex?: string;
   public get descriptionRegex() {
     return this.getStringAttribute('description_regex');
   }
@@ -688,7 +688,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // event_type - computed: false, optional: false, required: true
-  private _eventType?: string; 
+  private _eventType?: string;
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -701,7 +701,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // snapshot_owner - computed: false, optional: false, required: true
-  private _snapshotOwner?: string[]; 
+  private _snapshotOwner?: string[];
   public get snapshotOwner() {
     return cdktn.Fn.tolist(this.getListAttribute('snapshot_owner'));
   }
@@ -715,13 +715,13 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
 }
 export interface DlmLifecyclePolicyPolicyDetailsEventSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}
   */
   readonly type: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
   */
   readonly parameters: DlmLifecyclePolicyPolicyDetailsEventSourceParameters;
 }
@@ -801,7 +801,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -828,15 +828,15 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceOutputReference extends c
 }
 export interface DlmLifecyclePolicyPolicyDetailsExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#exclude_boot_volumes DlmLifecyclePolicy#exclude_boot_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#exclude_boot_volumes DlmLifecyclePolicy#exclude_boot_volumes}
   */
   readonly excludeBootVolumes?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#exclude_tags DlmLifecyclePolicy#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#exclude_tags DlmLifecyclePolicy#exclude_tags}
   */
   readonly excludeTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#exclude_volume_types DlmLifecyclePolicy#exclude_volume_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#exclude_volume_types DlmLifecyclePolicy#exclude_volume_types}
   */
   readonly excludeVolumeTypes?: string[];
 }
@@ -929,7 +929,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_boot_volumes - computed: false, optional: true, required: false
-  private _excludeBootVolumes?: boolean | cdktn.IResolvable; 
+  private _excludeBootVolumes?: boolean | cdktn.IResolvable;
   public get excludeBootVolumes() {
     return this.getBooleanAttribute('exclude_boot_volumes');
   }
@@ -945,7 +945,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_tags - computed: false, optional: true, required: false
-  private _excludeTags?: { [key: string]: string }; 
+  private _excludeTags?: { [key: string]: string };
   public get excludeTags() {
     return this.getStringMapAttribute('exclude_tags');
   }
@@ -961,7 +961,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_volume_types - computed: false, optional: true, required: false
-  private _excludeVolumeTypes?: string[]; 
+  private _excludeVolumeTypes?: string[];
   public get excludeVolumeTypes() {
     return this.getListAttribute('exclude_volume_types');
   }
@@ -978,11 +978,11 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
 }
 export interface DlmLifecyclePolicyPolicyDetailsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#exclude_boot_volume DlmLifecyclePolicy#exclude_boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#exclude_boot_volume DlmLifecyclePolicy#exclude_boot_volume}
   */
   readonly excludeBootVolume?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#no_reboot DlmLifecyclePolicy#no_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#no_reboot DlmLifecyclePolicy#no_reboot}
   */
   readonly noReboot?: boolean | cdktn.IResolvable;
 }
@@ -1062,7 +1062,7 @@ export class DlmLifecyclePolicyPolicyDetailsParametersOutputReference extends cd
   }
 
   // exclude_boot_volume - computed: false, optional: true, required: false
-  private _excludeBootVolume?: boolean | cdktn.IResolvable; 
+  private _excludeBootVolume?: boolean | cdktn.IResolvable;
   public get excludeBootVolume() {
     return this.getBooleanAttribute('exclude_boot_volume');
   }
@@ -1078,7 +1078,7 @@ export class DlmLifecyclePolicyPolicyDetailsParametersOutputReference extends cd
   }
 
   // no_reboot - computed: false, optional: true, required: false
-  private _noReboot?: boolean | cdktn.IResolvable; 
+  private _noReboot?: boolean | cdktn.IResolvable;
   public get noReboot() {
     return this.getBooleanAttribute('no_reboot');
   }
@@ -1095,15 +1095,15 @@ export class DlmLifecyclePolicyPolicyDetailsParametersOutputReference extends cd
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRuleRetentionArchiveTier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit?: string;
 }
@@ -1196,7 +1196,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number; 
+  private _count?: number;
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1212,7 +1212,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1228,7 +1228,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -1247,7 +1247,7 @@ export interface DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetain
   /**
   * retention_archive_tier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#retention_archive_tier DlmLifecyclePolicy#retention_archive_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#retention_archive_tier DlmLifecyclePolicy#retention_archive_tier}
   */
   readonly retentionArchiveTier: DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRuleRetentionArchiveTier;
 }
@@ -1330,7 +1330,7 @@ export interface DlmLifecyclePolicyPolicyDetailsScheduleArchiveRule {
   /**
   * archive_retain_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#archive_retain_rule DlmLifecyclePolicy#archive_retain_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#archive_retain_rule DlmLifecyclePolicy#archive_retain_rule}
   */
   readonly archiveRetainRule: DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule;
 }
@@ -1411,27 +1411,27 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleOutputReference e
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScripts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#execute_operation_on_script_failure DlmLifecyclePolicy#execute_operation_on_script_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#execute_operation_on_script_failure DlmLifecyclePolicy#execute_operation_on_script_failure}
   */
   readonly executeOperationOnScriptFailure?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#execution_handler DlmLifecyclePolicy#execution_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#execution_handler DlmLifecyclePolicy#execution_handler}
   */
   readonly executionHandler: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#execution_handler_service DlmLifecyclePolicy#execution_handler_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#execution_handler_service DlmLifecyclePolicy#execution_handler_service}
   */
   readonly executionHandlerService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#execution_timeout DlmLifecyclePolicy#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#execution_timeout DlmLifecyclePolicy#execution_timeout}
   */
   readonly executionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#maximum_retry_count DlmLifecyclePolicy#maximum_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#maximum_retry_count DlmLifecyclePolicy#maximum_retry_count}
   */
   readonly maximumRetryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#stages DlmLifecyclePolicy#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#stages DlmLifecyclePolicy#stages}
   */
   readonly stages?: string[];
 }
@@ -1563,7 +1563,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execute_operation_on_script_failure - computed: true, optional: true, required: false
-  private _executeOperationOnScriptFailure?: boolean | cdktn.IResolvable; 
+  private _executeOperationOnScriptFailure?: boolean | cdktn.IResolvable;
   public get executeOperationOnScriptFailure() {
     return this.getBooleanAttribute('execute_operation_on_script_failure');
   }
@@ -1579,7 +1579,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_handler - computed: false, optional: false, required: true
-  private _executionHandler?: string; 
+  private _executionHandler?: string;
   public get executionHandler() {
     return this.getStringAttribute('execution_handler');
   }
@@ -1592,7 +1592,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_handler_service - computed: true, optional: true, required: false
-  private _executionHandlerService?: string; 
+  private _executionHandlerService?: string;
   public get executionHandlerService() {
     return this.getStringAttribute('execution_handler_service');
   }
@@ -1608,7 +1608,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_timeout - computed: true, optional: true, required: false
-  private _executionTimeout?: number; 
+  private _executionTimeout?: number;
   public get executionTimeout() {
     return this.getNumberAttribute('execution_timeout');
   }
@@ -1624,7 +1624,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // maximum_retry_count - computed: true, optional: true, required: false
-  private _maximumRetryCount?: number; 
+  private _maximumRetryCount?: number;
   public get maximumRetryCount() {
     return this.getNumberAttribute('maximum_retry_count');
   }
@@ -1640,7 +1640,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // stages - computed: false, optional: true, required: false
-  private _stages?: string[]; 
+  private _stages?: string[];
   public get stages() {
     return this.getListAttribute('stages');
   }
@@ -1657,29 +1657,29 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleCreateRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#cron_expression DlmLifecyclePolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#cron_expression DlmLifecyclePolicy#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#location DlmLifecyclePolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#location DlmLifecyclePolicy#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#times DlmLifecyclePolicy#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#times DlmLifecyclePolicy#times}
   */
   readonly times?: string[];
   /**
   * scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#scripts DlmLifecyclePolicy#scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#scripts DlmLifecyclePolicy#scripts}
   */
   readonly scripts?: DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScripts;
 }
@@ -1811,7 +1811,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // cron_expression - computed: false, optional: true, required: false
-  private _cronExpression?: string; 
+  private _cronExpression?: string;
   public get cronExpression() {
     return this.getStringAttribute('cron_expression');
   }
@@ -1827,7 +1827,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1843,7 +1843,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // interval_unit - computed: true, optional: true, required: false
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -1859,7 +1859,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // location - computed: true, optional: true, required: false
-  private _location?: string; 
+  private _location?: string;
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1875,7 +1875,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // times - computed: true, optional: true, required: false
-  private _times?: string[]; 
+  private _times?: string[];
   public get times() {
     return this.getListAttribute('times');
   }
@@ -1908,11 +1908,11 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecateRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit: string;
 }
@@ -1992,7 +1992,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecate
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2005,7 +2005,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecate
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2019,11 +2019,11 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecate
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit: string;
 }
@@ -2103,7 +2103,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRul
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2116,7 +2116,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRul
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2130,35 +2130,35 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRul
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#cmk_arn DlmLifecyclePolicy#cmk_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#cmk_arn DlmLifecyclePolicy#cmk_arn}
   */
   readonly cmkArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
   */
   readonly copyTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#encrypted DlmLifecyclePolicy#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#encrypted DlmLifecyclePolicy#encrypted}
   */
   readonly encrypted: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#target DlmLifecyclePolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#target DlmLifecyclePolicy#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#target_region DlmLifecyclePolicy#target_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#target_region DlmLifecyclePolicy#target_region}
   */
   readonly targetRegion?: string;
   /**
   * deprecate_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#deprecate_rule DlmLifecyclePolicy#deprecate_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#deprecate_rule DlmLifecyclePolicy#deprecate_rule}
   */
   readonly deprecateRule?: DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecateRule;
   /**
   * retain_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
   */
   readonly retainRule?: DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRule;
 }
@@ -2315,7 +2315,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // cmk_arn - computed: false, optional: true, required: false
-  private _cmkArn?: string; 
+  private _cmkArn?: string;
   public get cmkArn() {
     return this.getStringAttribute('cmk_arn');
   }
@@ -2331,7 +2331,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // copy_tags - computed: true, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable; 
+  private _copyTags?: boolean | cdktn.IResolvable;
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -2347,7 +2347,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // encrypted - computed: false, optional: false, required: true
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -2360,7 +2360,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // target - computed: false, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2376,7 +2376,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // target_region - computed: false, optional: true, required: false
-  private _targetRegion?: string; 
+  private _targetRegion?: string;
   public get targetRegion() {
     return this.getStringAttribute('target_region');
   }
@@ -2445,15 +2445,15 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleList exte
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit?: string;
 }
@@ -2546,7 +2546,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number; 
+  private _count?: number;
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2562,7 +2562,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2578,7 +2578,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2595,19 +2595,19 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#availability_zones DlmLifecyclePolicy#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#availability_zones DlmLifecyclePolicy#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit?: string;
 }
@@ -2713,7 +2713,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // availability_zones - computed: false, optional: false, required: true
-  private _availabilityZones?: string[]; 
+  private _availabilityZones?: string[];
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -2726,7 +2726,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number; 
+  private _count?: number;
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2742,7 +2742,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2758,7 +2758,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2775,15 +2775,15 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleRetainRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#count DlmLifecyclePolicy#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval DlmLifecyclePolicy#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#interval_unit DlmLifecyclePolicy#interval_unit}
   */
   readonly intervalUnit?: string;
 }
@@ -2876,7 +2876,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number; 
+  private _count?: number;
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2892,7 +2892,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number; 
+  private _interval?: number;
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2908,7 +2908,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string; 
+  private _intervalUnit?: string;
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2925,15 +2925,15 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
 }
 export interface DlmLifecyclePolicyPolicyDetailsScheduleShareRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#target_accounts DlmLifecyclePolicy#target_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#target_accounts DlmLifecyclePolicy#target_accounts}
   */
   readonly targetAccounts: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#unshare_interval DlmLifecyclePolicy#unshare_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#unshare_interval DlmLifecyclePolicy#unshare_interval}
   */
   readonly unshareInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#unshare_interval_unit DlmLifecyclePolicy#unshare_interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#unshare_interval_unit DlmLifecyclePolicy#unshare_interval_unit}
   */
   readonly unshareIntervalUnit?: string;
 }
@@ -3026,7 +3026,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // target_accounts - computed: false, optional: false, required: true
-  private _targetAccounts?: string[]; 
+  private _targetAccounts?: string[];
   public get targetAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('target_accounts'));
   }
@@ -3039,7 +3039,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // unshare_interval - computed: false, optional: true, required: false
-  private _unshareInterval?: number; 
+  private _unshareInterval?: number;
   public get unshareInterval() {
     return this.getNumberAttribute('unshare_interval');
   }
@@ -3055,7 +3055,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // unshare_interval_unit - computed: false, optional: true, required: false
-  private _unshareIntervalUnit?: string; 
+  private _unshareIntervalUnit?: string;
   public get unshareIntervalUnit() {
     return this.getStringAttribute('unshare_interval_unit');
   }
@@ -3072,61 +3072,61 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
 }
 export interface DlmLifecyclePolicyPolicyDetailsSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
   */
   readonly copyTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#name DlmLifecyclePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#name DlmLifecyclePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#tags_to_add DlmLifecyclePolicy#tags_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#tags_to_add DlmLifecyclePolicy#tags_to_add}
   */
   readonly tagsToAdd?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#variable_tags DlmLifecyclePolicy#variable_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#variable_tags DlmLifecyclePolicy#variable_tags}
   */
   readonly variableTags?: { [key: string]: string };
   /**
   * archive_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#archive_rule DlmLifecyclePolicy#archive_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#archive_rule DlmLifecyclePolicy#archive_rule}
   */
   readonly archiveRule?: DlmLifecyclePolicyPolicyDetailsScheduleArchiveRule;
   /**
   * create_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#create_rule DlmLifecyclePolicy#create_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#create_rule DlmLifecyclePolicy#create_rule}
   */
   readonly createRule: DlmLifecyclePolicyPolicyDetailsScheduleCreateRule;
   /**
   * cross_region_copy_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#cross_region_copy_rule DlmLifecyclePolicy#cross_region_copy_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#cross_region_copy_rule DlmLifecyclePolicy#cross_region_copy_rule}
   */
   readonly crossRegionCopyRule?: DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRule[] | cdktn.IResolvable;
   /**
   * deprecate_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#deprecate_rule DlmLifecyclePolicy#deprecate_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#deprecate_rule DlmLifecyclePolicy#deprecate_rule}
   */
   readonly deprecateRule?: DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRule;
   /**
   * fast_restore_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#fast_restore_rule DlmLifecyclePolicy#fast_restore_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#fast_restore_rule DlmLifecyclePolicy#fast_restore_rule}
   */
   readonly fastRestoreRule?: DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRule;
   /**
   * retain_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#retain_rule DlmLifecyclePolicy#retain_rule}
   */
   readonly retainRule: DlmLifecyclePolicyPolicyDetailsScheduleRetainRule;
   /**
   * share_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#share_rule DlmLifecyclePolicy#share_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#share_rule DlmLifecyclePolicy#share_rule}
   */
   readonly shareRule?: DlmLifecyclePolicyPolicyDetailsScheduleShareRule;
 }
@@ -3335,7 +3335,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // copy_tags - computed: true, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable; 
+  private _copyTags?: boolean | cdktn.IResolvable;
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -3351,7 +3351,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3364,7 +3364,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // tags_to_add - computed: false, optional: true, required: false
-  private _tagsToAdd?: { [key: string]: string }; 
+  private _tagsToAdd?: { [key: string]: string };
   public get tagsToAdd() {
     return this.getStringMapAttribute('tags_to_add');
   }
@@ -3380,7 +3380,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // variable_tags - computed: false, optional: true, required: false
-  private _variableTags?: { [key: string]: string }; 
+  private _variableTags?: { [key: string]: string };
   public get variableTags() {
     return this.getStringMapAttribute('variable_tags');
   }
@@ -3523,73 +3523,73 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleList extends cdktn.ComplexLi
 }
 export interface DlmLifecyclePolicyPolicyDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#copy_tags DlmLifecyclePolicy#copy_tags}
   */
   readonly copyTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#create_interval DlmLifecyclePolicy#create_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#create_interval DlmLifecyclePolicy#create_interval}
   */
   readonly createInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#extend_deletion DlmLifecyclePolicy#extend_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#extend_deletion DlmLifecyclePolicy#extend_deletion}
   */
   readonly extendDeletion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#policy_language DlmLifecyclePolicy#policy_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#policy_language DlmLifecyclePolicy#policy_language}
   */
   readonly policyLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#policy_type DlmLifecyclePolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#policy_type DlmLifecyclePolicy#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#resource_locations DlmLifecyclePolicy#resource_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#resource_locations DlmLifecyclePolicy#resource_locations}
   */
   readonly resourceLocations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#resource_type DlmLifecyclePolicy#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#resource_type DlmLifecyclePolicy#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#resource_types DlmLifecyclePolicy#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#resource_types DlmLifecyclePolicy#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#retain_interval DlmLifecyclePolicy#retain_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#retain_interval DlmLifecyclePolicy#retain_interval}
   */
   readonly retainInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#target_tags DlmLifecyclePolicy#target_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#target_tags DlmLifecyclePolicy#target_tags}
   */
   readonly targetTags?: { [key: string]: string };
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#action DlmLifecyclePolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#action DlmLifecyclePolicy#action}
   */
   readonly action?: DlmLifecyclePolicyPolicyDetailsAction;
   /**
   * event_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#event_source DlmLifecyclePolicy#event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#event_source DlmLifecyclePolicy#event_source}
   */
   readonly eventSource?: DlmLifecyclePolicyPolicyDetailsEventSource;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#exclusions DlmLifecyclePolicy#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#exclusions DlmLifecyclePolicy#exclusions}
   */
   readonly exclusions?: DlmLifecyclePolicyPolicyDetailsExclusions;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
   */
   readonly parameters?: DlmLifecyclePolicyPolicyDetailsParameters;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#schedule DlmLifecyclePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#schedule DlmLifecyclePolicy#schedule}
   */
   readonly schedule?: DlmLifecyclePolicyPolicyDetailsSchedule[] | cdktn.IResolvable;
 }
@@ -3838,7 +3838,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // copy_tags - computed: false, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable; 
+  private _copyTags?: boolean | cdktn.IResolvable;
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -3854,7 +3854,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // create_interval - computed: false, optional: true, required: false
-  private _createInterval?: number; 
+  private _createInterval?: number;
   public get createInterval() {
     return this.getNumberAttribute('create_interval');
   }
@@ -3870,7 +3870,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // extend_deletion - computed: false, optional: true, required: false
-  private _extendDeletion?: boolean | cdktn.IResolvable; 
+  private _extendDeletion?: boolean | cdktn.IResolvable;
   public get extendDeletion() {
     return this.getBooleanAttribute('extend_deletion');
   }
@@ -3886,7 +3886,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // policy_language - computed: true, optional: true, required: false
-  private _policyLanguage?: string; 
+  private _policyLanguage?: string;
   public get policyLanguage() {
     return this.getStringAttribute('policy_language');
   }
@@ -3902,7 +3902,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // policy_type - computed: false, optional: true, required: false
-  private _policyType?: string; 
+  private _policyType?: string;
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -3918,7 +3918,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_locations - computed: true, optional: true, required: false
-  private _resourceLocations?: string[]; 
+  private _resourceLocations?: string[];
   public get resourceLocations() {
     return this.getListAttribute('resource_locations');
   }
@@ -3934,7 +3934,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_type - computed: false, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -3950,7 +3950,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -3966,7 +3966,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // retain_interval - computed: false, optional: true, required: false
-  private _retainInterval?: number; 
+  private _retainInterval?: number;
   public get retainInterval() {
     return this.getNumberAttribute('retain_interval');
   }
@@ -3982,7 +3982,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // target_tags - computed: false, optional: true, required: false
-  private _targetTags?: { [key: string]: string }; 
+  private _targetTags?: { [key: string]: string };
   public get targetTags() {
     return this.getStringMapAttribute('target_tags');
   }
@@ -4079,7 +4079,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}
 */
 export class DlmLifecyclePolicy extends cdktn.TerraformResource {
 
@@ -4095,7 +4095,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DlmLifecyclePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlmLifecyclePolicy to import
-  * @param importFromId The id of the existing DlmLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlmLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlmLifecyclePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4107,7 +4107,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4118,7 +4118,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_dlm_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4149,7 +4149,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // default_policy - computed: false, optional: true, required: false
-  private _defaultPolicy?: string; 
+  private _defaultPolicy?: string;
   public get defaultPolicy() {
     return this.getStringAttribute('default_policy');
   }
@@ -4165,7 +4165,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4178,7 +4178,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -4191,7 +4191,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4207,7 +4207,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4223,7 +4223,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4239,7 +4239,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4255,7 +4255,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

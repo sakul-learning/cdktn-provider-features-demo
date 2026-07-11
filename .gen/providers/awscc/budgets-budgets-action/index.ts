@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface BudgetsBudgetsActionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#action_threshold BudgetsBudgetsAction#action_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#action_threshold BudgetsBudgetsAction#action_threshold}
   */
   readonly actionThreshold: BudgetsBudgetsActionActionThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#action_type BudgetsBudgetsAction#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#action_type BudgetsBudgetsAction#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#approval_model BudgetsBudgetsAction#approval_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#approval_model BudgetsBudgetsAction#approval_model}
   */
   readonly approvalModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#budget_name BudgetsBudgetsAction#budget_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#budget_name BudgetsBudgetsAction#budget_name}
   */
   readonly budgetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#definition BudgetsBudgetsAction#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#definition BudgetsBudgetsAction#definition}
   */
   readonly definition: BudgetsBudgetsActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#execution_role_arn BudgetsBudgetsAction#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#execution_role_arn BudgetsBudgetsAction#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#notification_type BudgetsBudgetsAction#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#notification_type BudgetsBudgetsAction#notification_type}
   */
   readonly notificationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#resource_tags BudgetsBudgetsAction#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#resource_tags BudgetsBudgetsAction#resource_tags}
   */
   readonly resourceTags?: BudgetsBudgetsActionResourceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#subscribers BudgetsBudgetsAction#subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#subscribers BudgetsBudgetsAction#subscribers}
   */
   readonly subscribers: BudgetsBudgetsActionSubscribers[] | cdktn.IResolvable;
 }
 export interface BudgetsBudgetsActionActionThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}
   */
   readonly value: number;
 }
@@ -140,7 +140,7 @@ export class BudgetsBudgetsActionActionThresholdOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -153,7 +153,7 @@ export class BudgetsBudgetsActionActionThresholdOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -167,19 +167,19 @@ export class BudgetsBudgetsActionActionThresholdOutputReference extends cdktn.Co
 }
 export interface BudgetsBudgetsActionDefinitionIamActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#groups BudgetsBudgetsAction#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#groups BudgetsBudgetsAction#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#policy_arn BudgetsBudgetsAction#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#policy_arn BudgetsBudgetsAction#policy_arn}
   */
   readonly policyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#roles BudgetsBudgetsAction#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#roles BudgetsBudgetsAction#roles}
   */
   readonly roles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#users BudgetsBudgetsAction#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#users BudgetsBudgetsAction#users}
   */
   readonly users?: string[];
 }
@@ -295,7 +295,7 @@ export class BudgetsBudgetsActionDefinitionIamActionDefinitionOutputReference ex
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[]; 
+  private _groups?: string[];
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -311,7 +311,7 @@ export class BudgetsBudgetsActionDefinitionIamActionDefinitionOutputReference ex
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string; 
+  private _policyArn?: string;
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -327,7 +327,7 @@ export class BudgetsBudgetsActionDefinitionIamActionDefinitionOutputReference ex
   }
 
   // roles - computed: true, optional: true, required: false
-  private _roles?: string[]; 
+  private _roles?: string[];
   public get roles() {
     return this.getListAttribute('roles');
   }
@@ -343,7 +343,7 @@ export class BudgetsBudgetsActionDefinitionIamActionDefinitionOutputReference ex
   }
 
   // users - computed: true, optional: true, required: false
-  private _users?: string[]; 
+  private _users?: string[];
   public get users() {
     return this.getListAttribute('users');
   }
@@ -360,11 +360,11 @@ export class BudgetsBudgetsActionDefinitionIamActionDefinitionOutputReference ex
 }
 export interface BudgetsBudgetsActionDefinitionScpActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#policy_id BudgetsBudgetsAction#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#policy_id BudgetsBudgetsAction#policy_id}
   */
   readonly policyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#target_ids BudgetsBudgetsAction#target_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#target_ids BudgetsBudgetsAction#target_ids}
   */
   readonly targetIds?: string[];
 }
@@ -454,7 +454,7 @@ export class BudgetsBudgetsActionDefinitionScpActionDefinitionOutputReference ex
   }
 
   // policy_id - computed: true, optional: true, required: false
-  private _policyId?: string; 
+  private _policyId?: string;
   public get policyId() {
     return this.getStringAttribute('policy_id');
   }
@@ -470,7 +470,7 @@ export class BudgetsBudgetsActionDefinitionScpActionDefinitionOutputReference ex
   }
 
   // target_ids - computed: true, optional: true, required: false
-  private _targetIds?: string[]; 
+  private _targetIds?: string[];
   public get targetIds() {
     return this.getListAttribute('target_ids');
   }
@@ -487,15 +487,15 @@ export class BudgetsBudgetsActionDefinitionScpActionDefinitionOutputReference ex
 }
 export interface BudgetsBudgetsActionDefinitionSsmActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#instance_ids BudgetsBudgetsAction#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#instance_ids BudgetsBudgetsAction#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#region BudgetsBudgetsAction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#region BudgetsBudgetsAction#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#subtype BudgetsBudgetsAction#subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#subtype BudgetsBudgetsAction#subtype}
   */
   readonly subtype?: string;
 }
@@ -598,7 +598,7 @@ export class BudgetsBudgetsActionDefinitionSsmActionDefinitionOutputReference ex
   }
 
   // instance_ids - computed: true, optional: true, required: false
-  private _instanceIds?: string[]; 
+  private _instanceIds?: string[];
   public get instanceIds() {
     return this.getListAttribute('instance_ids');
   }
@@ -614,7 +614,7 @@ export class BudgetsBudgetsActionDefinitionSsmActionDefinitionOutputReference ex
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -630,7 +630,7 @@ export class BudgetsBudgetsActionDefinitionSsmActionDefinitionOutputReference ex
   }
 
   // subtype - computed: true, optional: true, required: false
-  private _subtype?: string; 
+  private _subtype?: string;
   public get subtype() {
     return this.getStringAttribute('subtype');
   }
@@ -647,15 +647,15 @@ export class BudgetsBudgetsActionDefinitionSsmActionDefinitionOutputReference ex
 }
 export interface BudgetsBudgetsActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#iam_action_definition BudgetsBudgetsAction#iam_action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#iam_action_definition BudgetsBudgetsAction#iam_action_definition}
   */
   readonly iamActionDefinition?: BudgetsBudgetsActionDefinitionIamActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#scp_action_definition BudgetsBudgetsAction#scp_action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#scp_action_definition BudgetsBudgetsAction#scp_action_definition}
   */
   readonly scpActionDefinition?: BudgetsBudgetsActionDefinitionScpActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#ssm_action_definition BudgetsBudgetsAction#ssm_action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#ssm_action_definition BudgetsBudgetsAction#ssm_action_definition}
   */
   readonly ssmActionDefinition?: BudgetsBudgetsActionDefinitionSsmActionDefinition;
 }
@@ -807,11 +807,11 @@ export class BudgetsBudgetsActionDefinitionOutputReference extends cdktn.Complex
 }
 export interface BudgetsBudgetsActionResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#key BudgetsBudgetsAction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#key BudgetsBudgetsAction#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}
   */
   readonly value?: string;
 }
@@ -903,7 +903,7 @@ export class BudgetsBudgetsActionResourceTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -919,7 +919,7 @@ export class BudgetsBudgetsActionResourceTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -956,11 +956,11 @@ export class BudgetsBudgetsActionResourceTagsList extends cdktn.ComplexList {
 }
 export interface BudgetsBudgetsActionSubscribers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#address BudgetsBudgetsAction#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#address BudgetsBudgetsAction#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}
   */
   readonly type: string;
 }
@@ -1052,7 +1052,7 @@ export class BudgetsBudgetsActionSubscribersOutputReference extends cdktn.Comple
   }
 
   // address - computed: false, optional: false, required: true
-  private _address?: string; 
+  private _address?: string;
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -1065,7 +1065,7 @@ export class BudgetsBudgetsActionSubscribersOutputReference extends cdktn.Comple
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1099,7 +1099,7 @@ export class BudgetsBudgetsActionSubscribersList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action}
 */
 export class BudgetsBudgetsAction extends cdktn.TerraformResource {
 
@@ -1115,7 +1115,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BudgetsBudgetsAction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BudgetsBudgetsAction to import
-  * @param importFromId The id of the existing BudgetsBudgetsAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BudgetsBudgetsAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BudgetsBudgetsAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1127,7 +1127,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,7 +1138,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_budgets_budgets_action',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1182,7 +1182,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   }
 
   // action_type - computed: false, optional: false, required: true
-  private _actionType?: string; 
+  private _actionType?: string;
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -1195,7 +1195,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   }
 
   // approval_model - computed: true, optional: true, required: false
-  private _approvalModel?: string; 
+  private _approvalModel?: string;
   public get approvalModel() {
     return this.getStringAttribute('approval_model');
   }
@@ -1211,7 +1211,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   }
 
   // budget_name - computed: false, optional: false, required: true
-  private _budgetName?: string; 
+  private _budgetName?: string;
   public get budgetName() {
     return this.getStringAttribute('budget_name');
   }
@@ -1237,7 +1237,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1255,7 +1255,7 @@ export class BudgetsBudgetsAction extends cdktn.TerraformResource {
   }
 
   // notification_type - computed: false, optional: false, required: true
-  private _notificationType?: string; 
+  private _notificationType?: string;
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }

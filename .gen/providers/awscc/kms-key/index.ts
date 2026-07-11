@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,13 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  For more information, see [Default key policy](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html#prevent-unmanageable-key) in the *Developer Guide*.
   *   Use this parameter only when you intend to prevent the principal that is making the request from making a subsequent [PutKeyPolicy](https://docs.aws.amazon.com/kms/latest/APIReference/API_PutKeyPolicy.html) request on the KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#bypass_policy_lockout_safety_check KmsKey#bypass_policy_lockout_safety_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#bypass_policy_lockout_safety_check KmsKey#bypass_policy_lockout_safety_check}
   */
   readonly bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable;
   /**
   * A description of the KMS key. Use a description that helps you to distinguish this KMS key from others in the account, such as its intended use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#description KmsKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#description KmsKey#description}
   */
   readonly description?: string;
   /**
@@ -28,7 +28,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  To enable automatic key rotation of the key material for a multi-Region KMS key, set ``EnableKeyRotation`` to ``true`` on the primary key (created by using ``AWS::KMS::Key``). KMS copies the rotation status to all replica keys. For details, see [Rotating multi-Region keys](https://docs.aws.amazon.com/kms/latest/developerguide/multi-region-keys-manage.html#multi-region-rotate) in the *Developer Guide*.
   *  When you enable automatic rotation, KMS automatically creates new key material for the KMS key one year after the enable date and every year thereafter. KMS retains all key material until you delete the KMS key. For detailed information about automatic key rotation, see [Rotating KMS keys](https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#enable_key_rotation KmsKey#enable_key_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#enable_key_rotation KmsKey#enable_key_rotation}
   */
   readonly enableKeyRotation?: boolean | cdktn.IResolvable;
   /**
@@ -37,7 +37,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  The actual key state of the KMS key might be affected by actions taken outside of CloudFormation, such as running the [EnableKey](https://docs.aws.amazon.com/kms/latest/APIReference/API_EnableKey.html), [DisableKey](https://docs.aws.amazon.com/kms/latest/APIReference/API_DisableKey.html), or [ScheduleKeyDeletion](https://docs.aws.amazon.com/kms/latest/APIReference/API_ScheduleKeyDeletion.html) operations.
   *  For information about the key states of a KMS key, see [Key state: Effect on your KMS key](https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#enabled KmsKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#enabled KmsKey#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
@@ -45,17 +45,17 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  If you provide a key policy, it must meet the following criteria:
   *   +  The key policy must allow the caller to make a subsequent [PutKeyPolicy](https://docs.aws.amazon.com/kms/latest/APIReference/API_PutKeyPolicy.html) request on the KMS key. This reduces the risk that the KMS key becomes unmanageable. For more information, see [Default key policy](https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html#key-policy-default-allow-root-enable-iam) in the *Developer Guide*. (To omit this condition, set ``BypassPolicyLockoutSafetyCheck`` to true.)
   *   +  Each statement in the key policy must contain one or more principals. The principals in the key policy must exist and be visible to KMS. When you create a new AWS principal (for example, an IAM user or role), you might need to enforce a delay before including the new principal in a key policy because the new principal might not be immediately visible to KMS. For more information, see [Changes that I make are not always immediately visible](https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_general.html#troubleshoot_general_eventual-consistency) in the *User Guide*.
-  *   
+  *
   *  If you do not provide a key policy, KMS attaches a default key policy to the KMS key. For more information, see [Default key policy](https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html#key-policy-default) in the *Developer Guide*.
   *  A key policy document can include only the following characters:
   *   +  Printable ASCII characters
   *   +  Printable characters in the Basic Latin and Latin-1 Supplement character set
   *   +  The tab (``\u0009``), line feed (``\u000A``), and carriage return (``\u000D``) special characters
-  *   
+  *
   *  *Minimum*: ``1``
   *  *Maximum*: ``32768``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#key_policy KmsKey#key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#key_policy KmsKey#key_policy}
   */
   readonly keyPolicy?: string;
   /**
@@ -66,38 +66,38 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *   KMS supports the following key specs for KMS keys:
   *   +  Symmetric encryption key (default)
   *   +  ``SYMMETRIC_DEFAULT`` (AES-256-GCM)
-  *   
+  *
   *   +  HMAC keys (symmetric)
-  *   +   ``HMAC_224`` 
-  *   +   ``HMAC_256`` 
-  *   +   ``HMAC_384`` 
-  *   +   ``HMAC_512`` 
-  *   
+  *   +   ``HMAC_224``
+  *   +   ``HMAC_256``
+  *   +   ``HMAC_384``
+  *   +   ``HMAC_512``
+  *
   *   +  Asymmetric RSA key pairs (encryption and decryption *or* signing and verification)
-  *   +   ``RSA_2048`` 
-  *   +   ``RSA_3072`` 
-  *   +   ``RSA_4096`` 
-  *   
+  *   +   ``RSA_2048``
+  *   +   ``RSA_3072``
+  *   +   ``RSA_4096``
+  *
   *   +  Asymmetric NIST-recommended elliptic curve key pairs (signing and verification *or* deriving shared secrets)
   *   +  ``ECC_NIST_P256`` (secp256r1)
   *   +  ``ECC_NIST_P384`` (secp384r1)
   *   +  ``ECC_NIST_P521`` (secp521r1)
   *   +  ``ECC_NIST_EDWARDS25519`` (ed25519) - signing and verification only
   *   +  *Note:* For ECC_NIST_EDWARDS25519 KMS keys, the ED25519_SHA_512 signing algorithm requires [MessageType:RAW](https://docs.aws.amazon.com/kms/latest/APIReference/API_Sign.html#KMS-Sign-request-MessageType), while ED25519_PH_SHA_512 requires [MessageType:DIGEST](https://docs.aws.amazon.com/kms/latest/APIReference/API_Sign.html#KMS-Sign-request-MessageType). These message types cannot be used interchangeably.
-  *   
-  *   
+  *
+  *
   *   +  Other asymmetric elliptic curve key pairs (signing and verification)
   *   +  ``ECC_SECG_P256K1`` (secp256k1), commonly used for cryptocurrencies.
-  *   
+  *
   *   +  Asymmetric ML-DSA key pairs (signing and verification)
-  *   +   ``ML_DSA_44`` 
-  *   +   ``ML_DSA_65`` 
-  *   +   ``ML_DSA_87`` 
-  *   
+  *   +   ``ML_DSA_44``
+  *   +   ``ML_DSA_65``
+  *   +   ``ML_DSA_87``
+  *
   *   +  SM2 key pairs (encryption and decryption *or* signing and verification *or* deriving shared secrets)
   *   +  ``SM2`` (China Regions only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#key_spec KmsKey#key_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#key_spec KmsKey#key_spec}
   */
   readonly keySpec?: string;
   /**
@@ -112,7 +112,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *   +  For asymmetric KMS keys with ML-DSA key pairs, specify ``SIGN_VERIFY``.
   *   +  For asymmetric KMS keys with SM2 key pairs (China Regions only), specify ``ENCRYPT_DECRYPT``, ``SIGN_VERIFY``, or ``KEY_AGREEMENT``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#key_usage KmsKey#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#key_usage KmsKey#key_usage}
   */
   readonly keyUsage?: string;
   /**
@@ -124,17 +124,17 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  You can create a symmetric encryption, HMAC, or asymmetric multi-Region KMS key, and you can create a multi-Region key with imported key material. However, you cannot create a multi-Region key in a custom key store.
   *  To create a replica of this primary key in a different AWS-Region , create an [AWS::KMS::ReplicaKey](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html) resource in a CloudFormation stack in the replica Region. Specify the key ARN of this primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#multi_region KmsKey#multi_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#multi_region KmsKey#multi_region}
   */
   readonly multiRegion?: boolean | cdktn.IResolvable;
   /**
   * The source of the key material for the KMS key. You cannot change the origin after you create the KMS key. The default is ``AWS_KMS``, which means that KMS creates the key material.
   *  To [create a KMS key with no key material](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys-create-cmk.html) (for imported key material), set this value to ``EXTERNAL``. For more information about importing key material into KMS, see [Importing Key Material](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) in the *Developer Guide*.
-  *  You can ignore ``ENABLED`` when Origin is ``EXTERNAL``. When a KMS key with Origin ``EXTERNAL`` is created, the key state is ``PENDING_IMPORT`` and ``ENABLED`` is ``false``. After you import the key material, ``ENABLED`` updated to ``true``. The KMS key can then be used for Cryptographic Operations. 
+  *  You can ignore ``ENABLED`` when Origin is ``EXTERNAL``. When a KMS key with Origin ``EXTERNAL`` is created, the key state is ``PENDING_IMPORT`` and ``ENABLED`` is ``false``. After you import the key material, ``ENABLED`` updated to ``true``. The KMS key can then be used for Cryptographic Operations.
   *    +  CFN doesn't support creating an ``Origin`` parameter of the ``AWS_CLOUDHSM`` or ``EXTERNAL_KEY_STORE`` values.
   *   +  ``EXTERNAL`` is not supported for ML-DSA keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#origin KmsKey#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#origin KmsKey#origin}
   */
   readonly origin?: string;
   /**
@@ -144,7 +144,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  You cannot use a CloudFormation template to cancel deletion of the KMS key after you remove it from the stack, regardless of the waiting period. If you specify a KMS key in your template, even one with the same name, CloudFormation creates a new KMS key. To cancel deletion of a KMS key, use the KMS console or the [CancelKeyDeletion](https://docs.aws.amazon.com/kms/latest/APIReference/API_CancelKeyDeletion.html) operation.
   *  For information about the ``Pending Deletion`` and ``Pending Replica Deletion`` key states, see [Key state: Effect on your KMS key](https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html) in the *Developer Guide*. For more information about deleting KMS keys, see the [ScheduleKeyDeletion](https://docs.aws.amazon.com/kms/latest/APIReference/API_ScheduleKeyDeletion.html) operation in the *API Reference* and [Deleting KMS keys](https://docs.aws.amazon.com/kms/latest/developerguide/deleting-keys.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#pending_window_in_days KmsKey#pending_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#pending_window_in_days KmsKey#pending_window_in_days}
   */
   readonly pendingWindowInDays?: number;
   /**
@@ -153,7 +153,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *  You can use the [kms:RotationPeriodInDays](https://docs.aws.amazon.com/kms/latest/developerguide/conditions-kms.html#conditions-kms-rotation-period-in-days) condition key to further constrain the values that principals can specify in the ``RotationPeriodInDays`` parameter.
   *  For more information about rotating KMS keys and automatic rotation, see [Rotating keys](https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#rotation_period_in_days KmsKey#rotation_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#rotation_period_in_days KmsKey#rotation_period_in_days}
   */
   readonly rotationPeriodInDays?: number;
   /**
@@ -161,7 +161,7 @@ export interface KmsKeyConfig extends cdktn.TerraformMetaArguments {
   *   Tagging or untagging a KMS key can allow or deny permission to the KMS key. For details, see [ABAC for](https://docs.aws.amazon.com/kms/latest/developerguide/abac.html) in the *Developer Guide*.
   *   For information about tags in KMS, see [Tagging keys](https://docs.aws.amazon.com/kms/latest/developerguide/tagging-keys.html) in the *Developer Guide*. For information about tags in CloudFormation, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#tags KmsKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#tags KmsKey#tags}
   */
   readonly tags?: KmsKeyTags[] | cdktn.IResolvable;
 }
@@ -170,14 +170,14 @@ export interface KmsKeyTags {
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with ``aws:``. digits, whitespace, ``_``, ``.``, ``:``, ``/``, ``=``, ``+``, ``@``, ``-``, and ``"``.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#key KmsKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#key KmsKey#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, ``_``, ``.``, ``/``, ``=``, ``+``, and ``-``.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#value KmsKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#value KmsKey#value}
   */
   readonly value?: string;
 }
@@ -269,7 +269,7 @@ export class KmsKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -285,7 +285,7 @@ export class KmsKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -322,7 +322,7 @@ export class KmsKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key awscc_kms_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key awscc_kms_key}
 */
 export class KmsKey extends cdktn.TerraformResource {
 
@@ -338,7 +338,7 @@ export class KmsKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KmsKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsKey to import
-  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -350,7 +350,7 @@ export class KmsKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kms_key awscc_kms_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_key awscc_kms_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,7 +361,7 @@ export class KmsKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kms_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -395,7 +395,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // bypass_policy_lockout_safety_check - computed: true, optional: true, required: false
-  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable; 
+  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable;
   public get bypassPolicyLockoutSafetyCheck() {
     return this.getBooleanAttribute('bypass_policy_lockout_safety_check');
   }
@@ -411,7 +411,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -427,7 +427,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // enable_key_rotation - computed: true, optional: true, required: false
-  private _enableKeyRotation?: boolean | cdktn.IResolvable; 
+  private _enableKeyRotation?: boolean | cdktn.IResolvable;
   public get enableKeyRotation() {
     return this.getBooleanAttribute('enable_key_rotation');
   }
@@ -443,7 +443,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -469,7 +469,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // key_policy - computed: true, optional: true, required: false
-  private _keyPolicy?: string; 
+  private _keyPolicy?: string;
   public get keyPolicy() {
     return this.getStringAttribute('key_policy');
   }
@@ -485,7 +485,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // key_spec - computed: true, optional: true, required: false
-  private _keySpec?: string; 
+  private _keySpec?: string;
   public get keySpec() {
     return this.getStringAttribute('key_spec');
   }
@@ -501,7 +501,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // key_usage - computed: true, optional: true, required: false
-  private _keyUsage?: string; 
+  private _keyUsage?: string;
   public get keyUsage() {
     return this.getStringAttribute('key_usage');
   }
@@ -517,7 +517,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // multi_region - computed: true, optional: true, required: false
-  private _multiRegion?: boolean | cdktn.IResolvable; 
+  private _multiRegion?: boolean | cdktn.IResolvable;
   public get multiRegion() {
     return this.getBooleanAttribute('multi_region');
   }
@@ -533,7 +533,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // origin - computed: true, optional: true, required: false
-  private _origin?: string; 
+  private _origin?: string;
   public get origin() {
     return this.getStringAttribute('origin');
   }
@@ -549,7 +549,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // pending_window_in_days - computed: true, optional: true, required: false
-  private _pendingWindowInDays?: number; 
+  private _pendingWindowInDays?: number;
   public get pendingWindowInDays() {
     return this.getNumberAttribute('pending_window_in_days');
   }
@@ -565,7 +565,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // rotation_period_in_days - computed: true, optional: true, required: false
-  private _rotationPeriodInDays?: number; 
+  private _rotationPeriodInDays?: number;
   public get rotationPeriodInDays() {
     return this.getNumberAttribute('rotation_period_in_days');
   }

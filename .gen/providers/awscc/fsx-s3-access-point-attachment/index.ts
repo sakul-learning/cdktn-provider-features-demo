@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface FsxS3AccessPointAttachmentConfig extends cdktn.TerraformMetaArg
   /**
   * The name of the S3 access point attachment; also used for the name of the S3 access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
   */
   readonly name: string;
   /**
   * The OntapConfiguration of the S3 access point attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
   */
   readonly ontapConfiguration?: FsxS3AccessPointAttachmentOntapConfiguration;
   /**
   * The OpenZFSConfiguration of the S3 access point attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
   */
   readonly openZfsConfiguration?: FsxS3AccessPointAttachmentOpenZfsConfiguration;
   /**
   * The S3 access point configuration of the S3 access point attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
   */
   readonly s3AccessPoint?: FsxS3AccessPointAttachmentS3AccessPoint;
   /**
   * The type of Amazon FSx volume that the S3 access point is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
   */
   readonly type: string;
 }
@@ -42,7 +42,7 @@ export interface FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityU
   /**
   * The name of the UNIX user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
   */
   readonly name?: string;
 }
@@ -119,7 +119,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixU
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -138,7 +138,7 @@ export interface FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityW
   /**
   * The name of the Windows user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
   */
   readonly name?: string;
 }
@@ -215,7 +215,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindo
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -234,19 +234,19 @@ export interface FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity 
   /**
   * Specifies the FSx for ONTAP user identity type, accepts either UNIX or WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
   */
   readonly type?: string;
   /**
   * Specifies the properties of the file system UNIX user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
   */
   readonly unixUser?: FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser;
   /**
   * Specifies the properties of the file system Windows user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
   */
   readonly windowsUser?: FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser;
 }
@@ -349,7 +349,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -400,13 +400,13 @@ export interface FsxS3AccessPointAttachmentOntapConfiguration {
   /**
   * The file system identity used to authorize file access requests made using the S3 access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
   */
   readonly fileSystemIdentity?: FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity;
   /**
   * The ID of the FSx for ONTAP volume that the S3 access point is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -512,7 +512,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationOutputReference extends
   }
 
   // volume_id - computed: true, optional: true, required: false
-  private _volumeId?: string; 
+  private _volumeId?: string;
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -531,7 +531,7 @@ export interface FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentit
   /**
   * The GID of the file system user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
   */
   readonly gid?: number;
 }
@@ -610,7 +610,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: number; 
+  private _gid?: number;
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -649,19 +649,19 @@ export interface FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentit
   /**
   * The GID of the file system user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
   */
   readonly gid?: number;
   /**
   * The list of secondary GIDs for the file system user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
   */
   readonly secondaryGids?: FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGids[] | cdktn.IResolvable;
   /**
   * The UID of the file system user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
   */
   readonly uid?: number;
 }
@@ -764,7 +764,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: number; 
+  private _gid?: number;
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -796,7 +796,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: number; 
+  private _uid?: number;
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -815,13 +815,13 @@ export interface FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentit
   /**
   * Specifies the UID and GIDs of the file system POSIX user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
   */
   readonly posixUser?: FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser;
   /**
   * Specifies the FSx for OpenZFS user identity type, accepts only POSIX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
   */
   readonly type?: string;
 }
@@ -927,7 +927,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -946,13 +946,13 @@ export interface FsxS3AccessPointAttachmentOpenZfsConfiguration {
   /**
   * The file system identity used to authorize file access requests made using the S3 access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
   */
   readonly fileSystemIdentity?: FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity;
   /**
   * The ID of the FSx for OpenZFS volume that the S3 access point is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -1058,7 +1058,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference exten
   }
 
   // volume_id - computed: true, optional: true, required: false
-  private _volumeId?: string; 
+  private _volumeId?: string;
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -1077,7 +1077,7 @@ export interface FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration {
   /**
   * Specifies the virtual private cloud (VPC) for the S3 access point VPC configuration, if one exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1154,7 +1154,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputRefere
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1173,13 +1173,13 @@ export interface FsxS3AccessPointAttachmentS3AccessPoint {
   /**
   * The S3 access point's policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
   */
   readonly policy?: string;
   /**
   * The S3 access point's virtual private cloud (VPC) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
   */
   readonly vpcConfiguration?: FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration;
 }
@@ -1274,7 +1274,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointOutputReference extends cdkt
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -1312,7 +1312,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}
 */
 export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
 
@@ -1328,7 +1328,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxS3AccessPointAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxS3AccessPointAttachment to import
-  * @param importFromId The id of the existing FsxS3AccessPointAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxS3AccessPointAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxS3AccessPointAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1340,7 +1340,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1351,7 +1351,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fsx_s3_access_point_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1378,7 +1378,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1439,7 +1439,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

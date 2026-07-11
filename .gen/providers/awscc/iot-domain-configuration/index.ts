@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface IotDomainConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}
   */
   readonly applicationProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}
   */
   readonly authenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
   */
   readonly authorizerConfig?: IotDomainConfigurationAuthorizerConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#client_certificate_config IotDomainConfiguration#client_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#client_certificate_config IotDomainConfiguration#client_certificate_config}
   */
   readonly clientCertificateConfig?: IotDomainConfigurationClientCertificateConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#domain_configuration_name IotDomainConfiguration#domain_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#domain_configuration_name IotDomainConfiguration#domain_configuration_name}
   */
   readonly domainConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#domain_configuration_status IotDomainConfiguration#domain_configuration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#domain_configuration_status IotDomainConfiguration#domain_configuration_status}
   */
   readonly domainConfigurationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}
   */
   readonly serverCertificateArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#server_certificate_config IotDomainConfiguration#server_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#server_certificate_config IotDomainConfiguration#server_certificate_config}
   */
   readonly serverCertificateConfig?: IotDomainConfigurationServerCertificateConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}
   */
   readonly tags?: IotDomainConfigurationTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
   */
   readonly tlsConfig?: IotDomainConfigurationTlsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}
   */
   readonly validationCertificateArn?: string;
 }
 export interface IotDomainConfigurationAuthorizerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#allow_authorizer_override IotDomainConfiguration#allow_authorizer_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#allow_authorizer_override IotDomainConfiguration#allow_authorizer_override}
   */
   readonly allowAuthorizerOverride?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#default_authorizer_name IotDomainConfiguration#default_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#default_authorizer_name IotDomainConfiguration#default_authorizer_name}
   */
   readonly defaultAuthorizerName?: string;
 }
@@ -156,7 +156,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // allow_authorizer_override - computed: true, optional: true, required: false
-  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable; 
+  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable;
   public get allowAuthorizerOverride() {
     return this.getBooleanAttribute('allow_authorizer_override');
   }
@@ -172,7 +172,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // default_authorizer_name - computed: true, optional: true, required: false
-  private _defaultAuthorizerName?: string; 
+  private _defaultAuthorizerName?: string;
   public get defaultAuthorizerName() {
     return this.getStringAttribute('default_authorizer_name');
   }
@@ -189,7 +189,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
 }
 export interface IotDomainConfigurationClientCertificateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#client_certificate_callback_arn IotDomainConfiguration#client_certificate_callback_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#client_certificate_callback_arn IotDomainConfiguration#client_certificate_callback_arn}
   */
   readonly clientCertificateCallbackArn?: string;
 }
@@ -266,7 +266,7 @@ export class IotDomainConfigurationClientCertificateConfigOutputReference extend
   }
 
   // client_certificate_callback_arn - computed: true, optional: true, required: false
-  private _clientCertificateCallbackArn?: string; 
+  private _clientCertificateCallbackArn?: string;
   public get clientCertificateCallbackArn() {
     return this.getStringAttribute('client_certificate_callback_arn');
   }
@@ -283,15 +283,15 @@ export class IotDomainConfigurationClientCertificateConfigOutputReference extend
 }
 export interface IotDomainConfigurationServerCertificateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#enable_ocsp_check IotDomainConfiguration#enable_ocsp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#enable_ocsp_check IotDomainConfiguration#enable_ocsp_check}
   */
   readonly enableOcspCheck?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#ocsp_authorized_responder_arn IotDomainConfiguration#ocsp_authorized_responder_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#ocsp_authorized_responder_arn IotDomainConfiguration#ocsp_authorized_responder_arn}
   */
   readonly ocspAuthorizedResponderArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#ocsp_lambda_arn IotDomainConfiguration#ocsp_lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#ocsp_lambda_arn IotDomainConfiguration#ocsp_lambda_arn}
   */
   readonly ocspLambdaArn?: string;
 }
@@ -394,7 +394,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // enable_ocsp_check - computed: true, optional: true, required: false
-  private _enableOcspCheck?: boolean | cdktn.IResolvable; 
+  private _enableOcspCheck?: boolean | cdktn.IResolvable;
   public get enableOcspCheck() {
     return this.getBooleanAttribute('enable_ocsp_check');
   }
@@ -410,7 +410,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // ocsp_authorized_responder_arn - computed: true, optional: true, required: false
-  private _ocspAuthorizedResponderArn?: string; 
+  private _ocspAuthorizedResponderArn?: string;
   public get ocspAuthorizedResponderArn() {
     return this.getStringAttribute('ocsp_authorized_responder_arn');
   }
@@ -426,7 +426,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // ocsp_lambda_arn - computed: true, optional: true, required: false
-  private _ocspLambdaArn?: string; 
+  private _ocspLambdaArn?: string;
   public get ocspLambdaArn() {
     return this.getStringAttribute('ocsp_lambda_arn');
   }
@@ -528,11 +528,11 @@ export class IotDomainConfigurationServerCertificatesList extends cdktn.ComplexL
 }
 export interface IotDomainConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#key IotDomainConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#key IotDomainConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#value IotDomainConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#value IotDomainConfiguration#value}
   */
   readonly value?: string;
 }
@@ -624,7 +624,7 @@ export class IotDomainConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -640,7 +640,7 @@ export class IotDomainConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -677,7 +677,7 @@ export class IotDomainConfigurationTagsList extends cdktn.ComplexList {
 }
 export interface IotDomainConfigurationTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}
   */
   readonly securityPolicy?: string;
 }
@@ -754,7 +754,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string; 
+  private _securityPolicy?: string;
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }
@@ -771,7 +771,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration awscc_iot_domain_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration awscc_iot_domain_configuration}
 */
 export class IotDomainConfiguration extends cdktn.TerraformResource {
 
@@ -787,7 +787,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotDomainConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotDomainConfiguration to import
-  * @param importFromId The id of the existing IotDomainConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotDomainConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotDomainConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -799,7 +799,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_domain_configuration awscc_iot_domain_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_domain_configuration awscc_iot_domain_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -810,7 +810,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_domain_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -840,7 +840,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // application_protocol - computed: true, optional: true, required: false
-  private _applicationProtocol?: string; 
+  private _applicationProtocol?: string;
   public get applicationProtocol() {
     return this.getStringAttribute('application_protocol');
   }
@@ -861,7 +861,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -909,7 +909,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_configuration_name - computed: true, optional: true, required: false
-  private _domainConfigurationName?: string; 
+  private _domainConfigurationName?: string;
   public get domainConfigurationName() {
     return this.getStringAttribute('domain_configuration_name');
   }
@@ -925,7 +925,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_configuration_status - computed: true, optional: true, required: false
-  private _domainConfigurationStatus?: string; 
+  private _domainConfigurationStatus?: string;
   public get domainConfigurationStatus() {
     return this.getStringAttribute('domain_configuration_status');
   }
@@ -941,7 +941,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -967,7 +967,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // server_certificate_arns - computed: true, optional: true, required: false
-  private _serverCertificateArns?: string[]; 
+  private _serverCertificateArns?: string[];
   public get serverCertificateArns() {
     return this.getListAttribute('server_certificate_arns');
   }
@@ -1005,7 +1005,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // service_type - computed: true, optional: true, required: false
-  private _serviceType?: string; 
+  private _serviceType?: string;
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -1053,7 +1053,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // validation_certificate_arn - computed: true, optional: true, required: false
-  private _validationCertificateArn?: string; 
+  private _validationCertificateArn?: string;
   public get validationCertificateArn() {
     return this.getStringAttribute('validation_certificate_arn');
   }

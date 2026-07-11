@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,252 +8,252 @@ import * as cdktn from 'cdktn';
 
 export interface VpnConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
   */
   readonly customerGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#enable_acceleration VpnConnection#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#enable_acceleration VpnConnection#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#id VpnConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#id VpnConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#local_ipv4_network_cidr VpnConnection#local_ipv4_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#local_ipv4_network_cidr VpnConnection#local_ipv4_network_cidr}
   */
   readonly localIpv4NetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#local_ipv6_network_cidr VpnConnection#local_ipv6_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#local_ipv6_network_cidr VpnConnection#local_ipv6_network_cidr}
   */
   readonly localIpv6NetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#outside_ip_address_type VpnConnection#outside_ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#outside_ip_address_type VpnConnection#outside_ip_address_type}
   */
   readonly outsideIpAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#preshared_key_storage VpnConnection#preshared_key_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#preshared_key_storage VpnConnection#preshared_key_storage}
   */
   readonly presharedKeyStorage?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#region VpnConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#region VpnConnection#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#remote_ipv4_network_cidr VpnConnection#remote_ipv4_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#remote_ipv4_network_cidr VpnConnection#remote_ipv4_network_cidr}
   */
   readonly remoteIpv4NetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#remote_ipv6_network_cidr VpnConnection#remote_ipv6_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#remote_ipv6_network_cidr VpnConnection#remote_ipv6_network_cidr}
   */
   readonly remoteIpv6NetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#static_routes_only VpnConnection#static_routes_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#static_routes_only VpnConnection#static_routes_only}
   */
   readonly staticRoutesOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tags VpnConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tags VpnConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tags_all VpnConnection#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tags_all VpnConnection#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#transit_gateway_id VpnConnection#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#transit_gateway_id VpnConnection#transit_gateway_id}
   */
   readonly transitGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#transport_transit_gateway_attachment_id VpnConnection#transport_transit_gateway_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#transport_transit_gateway_attachment_id VpnConnection#transport_transit_gateway_attachment_id}
   */
   readonly transportTransitGatewayAttachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_dpd_timeout_action VpnConnection#tunnel1_dpd_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_dpd_timeout_action VpnConnection#tunnel1_dpd_timeout_action}
   */
   readonly tunnel1DpdTimeoutAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_dpd_timeout_seconds VpnConnection#tunnel1_dpd_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_dpd_timeout_seconds VpnConnection#tunnel1_dpd_timeout_seconds}
   */
   readonly tunnel1DpdTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_enable_tunnel_lifecycle_control VpnConnection#tunnel1_enable_tunnel_lifecycle_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_enable_tunnel_lifecycle_control VpnConnection#tunnel1_enable_tunnel_lifecycle_control}
   */
   readonly tunnel1EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_ike_versions VpnConnection#tunnel1_ike_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_ike_versions VpnConnection#tunnel1_ike_versions}
   */
   readonly tunnel1IkeVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_inside_cidr VpnConnection#tunnel1_inside_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_inside_cidr VpnConnection#tunnel1_inside_cidr}
   */
   readonly tunnel1InsideCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_inside_ipv6_cidr VpnConnection#tunnel1_inside_ipv6_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_inside_ipv6_cidr VpnConnection#tunnel1_inside_ipv6_cidr}
   */
   readonly tunnel1InsideIpv6Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase1_dh_group_numbers VpnConnection#tunnel1_phase1_dh_group_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase1_dh_group_numbers VpnConnection#tunnel1_phase1_dh_group_numbers}
   */
   readonly tunnel1Phase1DhGroupNumbers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase1_encryption_algorithms VpnConnection#tunnel1_phase1_encryption_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase1_encryption_algorithms VpnConnection#tunnel1_phase1_encryption_algorithms}
   */
   readonly tunnel1Phase1EncryptionAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase1_integrity_algorithms VpnConnection#tunnel1_phase1_integrity_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase1_integrity_algorithms VpnConnection#tunnel1_phase1_integrity_algorithms}
   */
   readonly tunnel1Phase1IntegrityAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase1_lifetime_seconds VpnConnection#tunnel1_phase1_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase1_lifetime_seconds VpnConnection#tunnel1_phase1_lifetime_seconds}
   */
   readonly tunnel1Phase1LifetimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase2_dh_group_numbers VpnConnection#tunnel1_phase2_dh_group_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase2_dh_group_numbers VpnConnection#tunnel1_phase2_dh_group_numbers}
   */
   readonly tunnel1Phase2DhGroupNumbers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase2_encryption_algorithms VpnConnection#tunnel1_phase2_encryption_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase2_encryption_algorithms VpnConnection#tunnel1_phase2_encryption_algorithms}
   */
   readonly tunnel1Phase2EncryptionAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase2_integrity_algorithms VpnConnection#tunnel1_phase2_integrity_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase2_integrity_algorithms VpnConnection#tunnel1_phase2_integrity_algorithms}
   */
   readonly tunnel1Phase2IntegrityAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_phase2_lifetime_seconds VpnConnection#tunnel1_phase2_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_phase2_lifetime_seconds VpnConnection#tunnel1_phase2_lifetime_seconds}
   */
   readonly tunnel1Phase2LifetimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_preshared_key VpnConnection#tunnel1_preshared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_preshared_key VpnConnection#tunnel1_preshared_key}
   */
   readonly tunnel1PresharedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_rekey_fuzz_percentage VpnConnection#tunnel1_rekey_fuzz_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_rekey_fuzz_percentage VpnConnection#tunnel1_rekey_fuzz_percentage}
   */
   readonly tunnel1RekeyFuzzPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_rekey_margin_time_seconds VpnConnection#tunnel1_rekey_margin_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_rekey_margin_time_seconds VpnConnection#tunnel1_rekey_margin_time_seconds}
   */
   readonly tunnel1RekeyMarginTimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_replay_window_size VpnConnection#tunnel1_replay_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_replay_window_size VpnConnection#tunnel1_replay_window_size}
   */
   readonly tunnel1ReplayWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_startup_action VpnConnection#tunnel1_startup_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_startup_action VpnConnection#tunnel1_startup_action}
   */
   readonly tunnel1StartupAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_dpd_timeout_action VpnConnection#tunnel2_dpd_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_dpd_timeout_action VpnConnection#tunnel2_dpd_timeout_action}
   */
   readonly tunnel2DpdTimeoutAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_dpd_timeout_seconds VpnConnection#tunnel2_dpd_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_dpd_timeout_seconds VpnConnection#tunnel2_dpd_timeout_seconds}
   */
   readonly tunnel2DpdTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_enable_tunnel_lifecycle_control VpnConnection#tunnel2_enable_tunnel_lifecycle_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_enable_tunnel_lifecycle_control VpnConnection#tunnel2_enable_tunnel_lifecycle_control}
   */
   readonly tunnel2EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_ike_versions VpnConnection#tunnel2_ike_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_ike_versions VpnConnection#tunnel2_ike_versions}
   */
   readonly tunnel2IkeVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_inside_cidr VpnConnection#tunnel2_inside_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_inside_cidr VpnConnection#tunnel2_inside_cidr}
   */
   readonly tunnel2InsideCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_inside_ipv6_cidr VpnConnection#tunnel2_inside_ipv6_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_inside_ipv6_cidr VpnConnection#tunnel2_inside_ipv6_cidr}
   */
   readonly tunnel2InsideIpv6Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase1_dh_group_numbers VpnConnection#tunnel2_phase1_dh_group_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase1_dh_group_numbers VpnConnection#tunnel2_phase1_dh_group_numbers}
   */
   readonly tunnel2Phase1DhGroupNumbers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase1_encryption_algorithms VpnConnection#tunnel2_phase1_encryption_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase1_encryption_algorithms VpnConnection#tunnel2_phase1_encryption_algorithms}
   */
   readonly tunnel2Phase1EncryptionAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase1_integrity_algorithms VpnConnection#tunnel2_phase1_integrity_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase1_integrity_algorithms VpnConnection#tunnel2_phase1_integrity_algorithms}
   */
   readonly tunnel2Phase1IntegrityAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase1_lifetime_seconds VpnConnection#tunnel2_phase1_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase1_lifetime_seconds VpnConnection#tunnel2_phase1_lifetime_seconds}
   */
   readonly tunnel2Phase1LifetimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase2_dh_group_numbers VpnConnection#tunnel2_phase2_dh_group_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase2_dh_group_numbers VpnConnection#tunnel2_phase2_dh_group_numbers}
   */
   readonly tunnel2Phase2DhGroupNumbers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase2_encryption_algorithms VpnConnection#tunnel2_phase2_encryption_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase2_encryption_algorithms VpnConnection#tunnel2_phase2_encryption_algorithms}
   */
   readonly tunnel2Phase2EncryptionAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase2_integrity_algorithms VpnConnection#tunnel2_phase2_integrity_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase2_integrity_algorithms VpnConnection#tunnel2_phase2_integrity_algorithms}
   */
   readonly tunnel2Phase2IntegrityAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_phase2_lifetime_seconds VpnConnection#tunnel2_phase2_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_phase2_lifetime_seconds VpnConnection#tunnel2_phase2_lifetime_seconds}
   */
   readonly tunnel2Phase2LifetimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_preshared_key VpnConnection#tunnel2_preshared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_preshared_key VpnConnection#tunnel2_preshared_key}
   */
   readonly tunnel2PresharedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_rekey_fuzz_percentage VpnConnection#tunnel2_rekey_fuzz_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_rekey_fuzz_percentage VpnConnection#tunnel2_rekey_fuzz_percentage}
   */
   readonly tunnel2RekeyFuzzPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_rekey_margin_time_seconds VpnConnection#tunnel2_rekey_margin_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_rekey_margin_time_seconds VpnConnection#tunnel2_rekey_margin_time_seconds}
   */
   readonly tunnel2RekeyMarginTimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_replay_window_size VpnConnection#tunnel2_replay_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_replay_window_size VpnConnection#tunnel2_replay_window_size}
   */
   readonly tunnel2ReplayWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_startup_action VpnConnection#tunnel2_startup_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_startup_action VpnConnection#tunnel2_startup_action}
   */
   readonly tunnel2StartupAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel_bandwidth VpnConnection#tunnel_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel_bandwidth VpnConnection#tunnel_bandwidth}
   */
   readonly tunnelBandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel_inside_ip_version VpnConnection#tunnel_inside_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel_inside_ip_version VpnConnection#tunnel_inside_ip_version}
   */
   readonly tunnelInsideIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#type VpnConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#type VpnConnection#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#vpn_concentrator_id VpnConnection#vpn_concentrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#vpn_concentrator_id VpnConnection#vpn_concentrator_id}
   */
   readonly vpnConcentratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#vpn_gateway_id VpnConnection#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#vpn_gateway_id VpnConnection#vpn_gateway_id}
   */
   readonly vpnGatewayId?: string;
   /**
   * tunnel1_log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel1_log_options VpnConnection#tunnel1_log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel1_log_options VpnConnection#tunnel1_log_options}
   */
   readonly tunnel1LogOptions?: VpnConnectionTunnel1LogOptions;
   /**
   * tunnel2_log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#tunnel2_log_options VpnConnection#tunnel2_log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#tunnel2_log_options VpnConnection#tunnel2_log_options}
   */
   readonly tunnel2LogOptions?: VpnConnectionTunnel2LogOptions;
 }
@@ -444,27 +444,27 @@ export class VpnConnectionVgwTelemetryList extends cdktn.ComplexList {
 }
 export interface VpnConnectionTunnel1LogOptionsCloudwatchLogOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}
   */
   readonly bgpLogEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}
   */
   readonly bgpLogGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}
   */
   readonly bgpLogOutputFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}
   */
   readonly logEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}
   */
   readonly logGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}
   */
   readonly logOutputFormat?: string;
 }
@@ -596,7 +596,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_enabled - computed: false, optional: true, required: false
-  private _bgpLogEnabled?: boolean | cdktn.IResolvable; 
+  private _bgpLogEnabled?: boolean | cdktn.IResolvable;
   public get bgpLogEnabled() {
     return this.getBooleanAttribute('bgp_log_enabled');
   }
@@ -612,7 +612,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_group_arn - computed: false, optional: true, required: false
-  private _bgpLogGroupArn?: string; 
+  private _bgpLogGroupArn?: string;
   public get bgpLogGroupArn() {
     return this.getStringAttribute('bgp_log_group_arn');
   }
@@ -628,7 +628,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_output_format - computed: false, optional: true, required: false
-  private _bgpLogOutputFormat?: string; 
+  private _bgpLogOutputFormat?: string;
   public get bgpLogOutputFormat() {
     return this.getStringAttribute('bgp_log_output_format');
   }
@@ -644,7 +644,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_enabled - computed: false, optional: true, required: false
-  private _logEnabled?: boolean | cdktn.IResolvable; 
+  private _logEnabled?: boolean | cdktn.IResolvable;
   public get logEnabled() {
     return this.getBooleanAttribute('log_enabled');
   }
@@ -660,7 +660,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_group_arn - computed: false, optional: true, required: false
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -676,7 +676,7 @@ export class VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_output_format - computed: false, optional: true, required: false
-  private _logOutputFormat?: string; 
+  private _logOutputFormat?: string;
   public get logOutputFormat() {
     return this.getStringAttribute('log_output_format');
   }
@@ -695,7 +695,7 @@ export interface VpnConnectionTunnel1LogOptions {
   /**
   * cloudwatch_log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#cloudwatch_log_options VpnConnection#cloudwatch_log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#cloudwatch_log_options VpnConnection#cloudwatch_log_options}
   */
   readonly cloudwatchLogOptions?: VpnConnectionTunnel1LogOptionsCloudwatchLogOptions;
 }
@@ -779,27 +779,27 @@ export class VpnConnectionTunnel1LogOptionsOutputReference extends cdktn.Complex
 }
 export interface VpnConnectionTunnel2LogOptionsCloudwatchLogOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}
   */
   readonly bgpLogEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}
   */
   readonly bgpLogGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}
   */
   readonly bgpLogOutputFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}
   */
   readonly logEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}
   */
   readonly logGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}
   */
   readonly logOutputFormat?: string;
 }
@@ -931,7 +931,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_enabled - computed: false, optional: true, required: false
-  private _bgpLogEnabled?: boolean | cdktn.IResolvable; 
+  private _bgpLogEnabled?: boolean | cdktn.IResolvable;
   public get bgpLogEnabled() {
     return this.getBooleanAttribute('bgp_log_enabled');
   }
@@ -947,7 +947,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_group_arn - computed: false, optional: true, required: false
-  private _bgpLogGroupArn?: string; 
+  private _bgpLogGroupArn?: string;
   public get bgpLogGroupArn() {
     return this.getStringAttribute('bgp_log_group_arn');
   }
@@ -963,7 +963,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // bgp_log_output_format - computed: false, optional: true, required: false
-  private _bgpLogOutputFormat?: string; 
+  private _bgpLogOutputFormat?: string;
   public get bgpLogOutputFormat() {
     return this.getStringAttribute('bgp_log_output_format');
   }
@@ -979,7 +979,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_enabled - computed: false, optional: true, required: false
-  private _logEnabled?: boolean | cdktn.IResolvable; 
+  private _logEnabled?: boolean | cdktn.IResolvable;
   public get logEnabled() {
     return this.getBooleanAttribute('log_enabled');
   }
@@ -995,7 +995,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_group_arn - computed: false, optional: true, required: false
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -1011,7 +1011,7 @@ export class VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference e
   }
 
   // log_output_format - computed: false, optional: true, required: false
-  private _logOutputFormat?: string; 
+  private _logOutputFormat?: string;
   public get logOutputFormat() {
     return this.getStringAttribute('log_output_format');
   }
@@ -1030,7 +1030,7 @@ export interface VpnConnectionTunnel2LogOptions {
   /**
   * cloudwatch_log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#cloudwatch_log_options VpnConnection#cloudwatch_log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#cloudwatch_log_options VpnConnection#cloudwatch_log_options}
   */
   readonly cloudwatchLogOptions?: VpnConnectionTunnel2LogOptionsCloudwatchLogOptions;
 }
@@ -1114,7 +1114,7 @@ export class VpnConnectionTunnel2LogOptionsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection aws_vpn_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection aws_vpn_connection}
 */
 export class VpnConnection extends cdktn.TerraformResource {
 
@@ -1130,7 +1130,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpnConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnConnection to import
-  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1142,7 +1142,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpn_connection aws_vpn_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpn_connection aws_vpn_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1153,7 +1153,7 @@ export class VpnConnection extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpn_connection',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1250,7 +1250,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // customer_gateway_id - computed: false, optional: false, required: true
-  private _customerGatewayId?: string; 
+  private _customerGatewayId?: string;
   public get customerGatewayId() {
     return this.getStringAttribute('customer_gateway_id');
   }
@@ -1263,7 +1263,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // enable_acceleration - computed: true, optional: true, required: false
-  private _enableAcceleration?: boolean | cdktn.IResolvable; 
+  private _enableAcceleration?: boolean | cdktn.IResolvable;
   public get enableAcceleration() {
     return this.getBooleanAttribute('enable_acceleration');
   }
@@ -1279,7 +1279,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1295,7 +1295,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // local_ipv4_network_cidr - computed: true, optional: true, required: false
-  private _localIpv4NetworkCidr?: string; 
+  private _localIpv4NetworkCidr?: string;
   public get localIpv4NetworkCidr() {
     return this.getStringAttribute('local_ipv4_network_cidr');
   }
@@ -1311,7 +1311,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // local_ipv6_network_cidr - computed: true, optional: true, required: false
-  private _localIpv6NetworkCidr?: string; 
+  private _localIpv6NetworkCidr?: string;
   public get localIpv6NetworkCidr() {
     return this.getStringAttribute('local_ipv6_network_cidr');
   }
@@ -1327,7 +1327,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // outside_ip_address_type - computed: true, optional: true, required: false
-  private _outsideIpAddressType?: string; 
+  private _outsideIpAddressType?: string;
   public get outsideIpAddressType() {
     return this.getStringAttribute('outside_ip_address_type');
   }
@@ -1348,7 +1348,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // preshared_key_storage - computed: true, optional: true, required: false
-  private _presharedKeyStorage?: string; 
+  private _presharedKeyStorage?: string;
   public get presharedKeyStorage() {
     return this.getStringAttribute('preshared_key_storage');
   }
@@ -1364,7 +1364,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1380,7 +1380,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // remote_ipv4_network_cidr - computed: true, optional: true, required: false
-  private _remoteIpv4NetworkCidr?: string; 
+  private _remoteIpv4NetworkCidr?: string;
   public get remoteIpv4NetworkCidr() {
     return this.getStringAttribute('remote_ipv4_network_cidr');
   }
@@ -1396,7 +1396,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // remote_ipv6_network_cidr - computed: true, optional: true, required: false
-  private _remoteIpv6NetworkCidr?: string; 
+  private _remoteIpv6NetworkCidr?: string;
   public get remoteIpv6NetworkCidr() {
     return this.getStringAttribute('remote_ipv6_network_cidr');
   }
@@ -1418,7 +1418,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // static_routes_only - computed: true, optional: true, required: false
-  private _staticRoutesOnly?: boolean | cdktn.IResolvable; 
+  private _staticRoutesOnly?: boolean | cdktn.IResolvable;
   public get staticRoutesOnly() {
     return this.getBooleanAttribute('static_routes_only');
   }
@@ -1434,7 +1434,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1450,7 +1450,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1471,7 +1471,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: true, required: false
-  private _transitGatewayId?: string; 
+  private _transitGatewayId?: string;
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -1487,7 +1487,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // transport_transit_gateway_attachment_id - computed: false, optional: true, required: false
-  private _transportTransitGatewayAttachmentId?: string; 
+  private _transportTransitGatewayAttachmentId?: string;
   public get transportTransitGatewayAttachmentId() {
     return this.getStringAttribute('transport_transit_gateway_attachment_id');
   }
@@ -1523,7 +1523,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_dpd_timeout_action - computed: false, optional: true, required: false
-  private _tunnel1DpdTimeoutAction?: string; 
+  private _tunnel1DpdTimeoutAction?: string;
   public get tunnel1DpdTimeoutAction() {
     return this.getStringAttribute('tunnel1_dpd_timeout_action');
   }
@@ -1539,7 +1539,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_dpd_timeout_seconds - computed: false, optional: true, required: false
-  private _tunnel1DpdTimeoutSeconds?: number; 
+  private _tunnel1DpdTimeoutSeconds?: number;
   public get tunnel1DpdTimeoutSeconds() {
     return this.getNumberAttribute('tunnel1_dpd_timeout_seconds');
   }
@@ -1555,7 +1555,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_enable_tunnel_lifecycle_control - computed: false, optional: true, required: false
-  private _tunnel1EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable; 
+  private _tunnel1EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable;
   public get tunnel1EnableTunnelLifecycleControl() {
     return this.getBooleanAttribute('tunnel1_enable_tunnel_lifecycle_control');
   }
@@ -1571,7 +1571,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_ike_versions - computed: false, optional: true, required: false
-  private _tunnel1IkeVersions?: string[]; 
+  private _tunnel1IkeVersions?: string[];
   public get tunnel1IkeVersions() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel1_ike_versions'));
   }
@@ -1587,7 +1587,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_inside_cidr - computed: true, optional: true, required: false
-  private _tunnel1InsideCidr?: string; 
+  private _tunnel1InsideCidr?: string;
   public get tunnel1InsideCidr() {
     return this.getStringAttribute('tunnel1_inside_cidr');
   }
@@ -1603,7 +1603,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_inside_ipv6_cidr - computed: true, optional: true, required: false
-  private _tunnel1InsideIpv6Cidr?: string; 
+  private _tunnel1InsideIpv6Cidr?: string;
   public get tunnel1InsideIpv6Cidr() {
     return this.getStringAttribute('tunnel1_inside_ipv6_cidr');
   }
@@ -1619,7 +1619,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase1_dh_group_numbers - computed: false, optional: true, required: false
-  private _tunnel1Phase1DhGroupNumbers?: number[]; 
+  private _tunnel1Phase1DhGroupNumbers?: number[];
   public get tunnel1Phase1DhGroupNumbers() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('tunnel1_phase1_dh_group_numbers')));
   }
@@ -1635,7 +1635,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase1_encryption_algorithms - computed: false, optional: true, required: false
-  private _tunnel1Phase1EncryptionAlgorithms?: string[]; 
+  private _tunnel1Phase1EncryptionAlgorithms?: string[];
   public get tunnel1Phase1EncryptionAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel1_phase1_encryption_algorithms'));
   }
@@ -1651,7 +1651,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase1_integrity_algorithms - computed: false, optional: true, required: false
-  private _tunnel1Phase1IntegrityAlgorithms?: string[]; 
+  private _tunnel1Phase1IntegrityAlgorithms?: string[];
   public get tunnel1Phase1IntegrityAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel1_phase1_integrity_algorithms'));
   }
@@ -1667,7 +1667,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase1_lifetime_seconds - computed: false, optional: true, required: false
-  private _tunnel1Phase1LifetimeSeconds?: number; 
+  private _tunnel1Phase1LifetimeSeconds?: number;
   public get tunnel1Phase1LifetimeSeconds() {
     return this.getNumberAttribute('tunnel1_phase1_lifetime_seconds');
   }
@@ -1683,7 +1683,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase2_dh_group_numbers - computed: false, optional: true, required: false
-  private _tunnel1Phase2DhGroupNumbers?: number[]; 
+  private _tunnel1Phase2DhGroupNumbers?: number[];
   public get tunnel1Phase2DhGroupNumbers() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('tunnel1_phase2_dh_group_numbers')));
   }
@@ -1699,7 +1699,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase2_encryption_algorithms - computed: false, optional: true, required: false
-  private _tunnel1Phase2EncryptionAlgorithms?: string[]; 
+  private _tunnel1Phase2EncryptionAlgorithms?: string[];
   public get tunnel1Phase2EncryptionAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel1_phase2_encryption_algorithms'));
   }
@@ -1715,7 +1715,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase2_integrity_algorithms - computed: false, optional: true, required: false
-  private _tunnel1Phase2IntegrityAlgorithms?: string[]; 
+  private _tunnel1Phase2IntegrityAlgorithms?: string[];
   public get tunnel1Phase2IntegrityAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel1_phase2_integrity_algorithms'));
   }
@@ -1731,7 +1731,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_phase2_lifetime_seconds - computed: false, optional: true, required: false
-  private _tunnel1Phase2LifetimeSeconds?: number; 
+  private _tunnel1Phase2LifetimeSeconds?: number;
   public get tunnel1Phase2LifetimeSeconds() {
     return this.getNumberAttribute('tunnel1_phase2_lifetime_seconds');
   }
@@ -1747,7 +1747,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_preshared_key - computed: true, optional: true, required: false
-  private _tunnel1PresharedKey?: string; 
+  private _tunnel1PresharedKey?: string;
   public get tunnel1PresharedKey() {
     return this.getStringAttribute('tunnel1_preshared_key');
   }
@@ -1763,7 +1763,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_rekey_fuzz_percentage - computed: false, optional: true, required: false
-  private _tunnel1RekeyFuzzPercentage?: number; 
+  private _tunnel1RekeyFuzzPercentage?: number;
   public get tunnel1RekeyFuzzPercentage() {
     return this.getNumberAttribute('tunnel1_rekey_fuzz_percentage');
   }
@@ -1779,7 +1779,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_rekey_margin_time_seconds - computed: false, optional: true, required: false
-  private _tunnel1RekeyMarginTimeSeconds?: number; 
+  private _tunnel1RekeyMarginTimeSeconds?: number;
   public get tunnel1RekeyMarginTimeSeconds() {
     return this.getNumberAttribute('tunnel1_rekey_margin_time_seconds');
   }
@@ -1795,7 +1795,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_replay_window_size - computed: false, optional: true, required: false
-  private _tunnel1ReplayWindowSize?: number; 
+  private _tunnel1ReplayWindowSize?: number;
   public get tunnel1ReplayWindowSize() {
     return this.getNumberAttribute('tunnel1_replay_window_size');
   }
@@ -1811,7 +1811,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel1_startup_action - computed: false, optional: true, required: false
-  private _tunnel1StartupAction?: string; 
+  private _tunnel1StartupAction?: string;
   public get tunnel1StartupAction() {
     return this.getStringAttribute('tunnel1_startup_action');
   }
@@ -1852,7 +1852,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_dpd_timeout_action - computed: false, optional: true, required: false
-  private _tunnel2DpdTimeoutAction?: string; 
+  private _tunnel2DpdTimeoutAction?: string;
   public get tunnel2DpdTimeoutAction() {
     return this.getStringAttribute('tunnel2_dpd_timeout_action');
   }
@@ -1868,7 +1868,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_dpd_timeout_seconds - computed: false, optional: true, required: false
-  private _tunnel2DpdTimeoutSeconds?: number; 
+  private _tunnel2DpdTimeoutSeconds?: number;
   public get tunnel2DpdTimeoutSeconds() {
     return this.getNumberAttribute('tunnel2_dpd_timeout_seconds');
   }
@@ -1884,7 +1884,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_enable_tunnel_lifecycle_control - computed: false, optional: true, required: false
-  private _tunnel2EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable; 
+  private _tunnel2EnableTunnelLifecycleControl?: boolean | cdktn.IResolvable;
   public get tunnel2EnableTunnelLifecycleControl() {
     return this.getBooleanAttribute('tunnel2_enable_tunnel_lifecycle_control');
   }
@@ -1900,7 +1900,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_ike_versions - computed: false, optional: true, required: false
-  private _tunnel2IkeVersions?: string[]; 
+  private _tunnel2IkeVersions?: string[];
   public get tunnel2IkeVersions() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel2_ike_versions'));
   }
@@ -1916,7 +1916,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_inside_cidr - computed: true, optional: true, required: false
-  private _tunnel2InsideCidr?: string; 
+  private _tunnel2InsideCidr?: string;
   public get tunnel2InsideCidr() {
     return this.getStringAttribute('tunnel2_inside_cidr');
   }
@@ -1932,7 +1932,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_inside_ipv6_cidr - computed: true, optional: true, required: false
-  private _tunnel2InsideIpv6Cidr?: string; 
+  private _tunnel2InsideIpv6Cidr?: string;
   public get tunnel2InsideIpv6Cidr() {
     return this.getStringAttribute('tunnel2_inside_ipv6_cidr');
   }
@@ -1948,7 +1948,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase1_dh_group_numbers - computed: false, optional: true, required: false
-  private _tunnel2Phase1DhGroupNumbers?: number[]; 
+  private _tunnel2Phase1DhGroupNumbers?: number[];
   public get tunnel2Phase1DhGroupNumbers() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('tunnel2_phase1_dh_group_numbers')));
   }
@@ -1964,7 +1964,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase1_encryption_algorithms - computed: false, optional: true, required: false
-  private _tunnel2Phase1EncryptionAlgorithms?: string[]; 
+  private _tunnel2Phase1EncryptionAlgorithms?: string[];
   public get tunnel2Phase1EncryptionAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel2_phase1_encryption_algorithms'));
   }
@@ -1980,7 +1980,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase1_integrity_algorithms - computed: false, optional: true, required: false
-  private _tunnel2Phase1IntegrityAlgorithms?: string[]; 
+  private _tunnel2Phase1IntegrityAlgorithms?: string[];
   public get tunnel2Phase1IntegrityAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel2_phase1_integrity_algorithms'));
   }
@@ -1996,7 +1996,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase1_lifetime_seconds - computed: false, optional: true, required: false
-  private _tunnel2Phase1LifetimeSeconds?: number; 
+  private _tunnel2Phase1LifetimeSeconds?: number;
   public get tunnel2Phase1LifetimeSeconds() {
     return this.getNumberAttribute('tunnel2_phase1_lifetime_seconds');
   }
@@ -2012,7 +2012,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase2_dh_group_numbers - computed: false, optional: true, required: false
-  private _tunnel2Phase2DhGroupNumbers?: number[]; 
+  private _tunnel2Phase2DhGroupNumbers?: number[];
   public get tunnel2Phase2DhGroupNumbers() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('tunnel2_phase2_dh_group_numbers')));
   }
@@ -2028,7 +2028,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase2_encryption_algorithms - computed: false, optional: true, required: false
-  private _tunnel2Phase2EncryptionAlgorithms?: string[]; 
+  private _tunnel2Phase2EncryptionAlgorithms?: string[];
   public get tunnel2Phase2EncryptionAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel2_phase2_encryption_algorithms'));
   }
@@ -2044,7 +2044,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase2_integrity_algorithms - computed: false, optional: true, required: false
-  private _tunnel2Phase2IntegrityAlgorithms?: string[]; 
+  private _tunnel2Phase2IntegrityAlgorithms?: string[];
   public get tunnel2Phase2IntegrityAlgorithms() {
     return cdktn.Fn.tolist(this.getListAttribute('tunnel2_phase2_integrity_algorithms'));
   }
@@ -2060,7 +2060,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_phase2_lifetime_seconds - computed: false, optional: true, required: false
-  private _tunnel2Phase2LifetimeSeconds?: number; 
+  private _tunnel2Phase2LifetimeSeconds?: number;
   public get tunnel2Phase2LifetimeSeconds() {
     return this.getNumberAttribute('tunnel2_phase2_lifetime_seconds');
   }
@@ -2076,7 +2076,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_preshared_key - computed: true, optional: true, required: false
-  private _tunnel2PresharedKey?: string; 
+  private _tunnel2PresharedKey?: string;
   public get tunnel2PresharedKey() {
     return this.getStringAttribute('tunnel2_preshared_key');
   }
@@ -2092,7 +2092,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_rekey_fuzz_percentage - computed: false, optional: true, required: false
-  private _tunnel2RekeyFuzzPercentage?: number; 
+  private _tunnel2RekeyFuzzPercentage?: number;
   public get tunnel2RekeyFuzzPercentage() {
     return this.getNumberAttribute('tunnel2_rekey_fuzz_percentage');
   }
@@ -2108,7 +2108,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_rekey_margin_time_seconds - computed: false, optional: true, required: false
-  private _tunnel2RekeyMarginTimeSeconds?: number; 
+  private _tunnel2RekeyMarginTimeSeconds?: number;
   public get tunnel2RekeyMarginTimeSeconds() {
     return this.getNumberAttribute('tunnel2_rekey_margin_time_seconds');
   }
@@ -2124,7 +2124,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_replay_window_size - computed: false, optional: true, required: false
-  private _tunnel2ReplayWindowSize?: number; 
+  private _tunnel2ReplayWindowSize?: number;
   public get tunnel2ReplayWindowSize() {
     return this.getNumberAttribute('tunnel2_replay_window_size');
   }
@@ -2140,7 +2140,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel2_startup_action - computed: false, optional: true, required: false
-  private _tunnel2StartupAction?: string; 
+  private _tunnel2StartupAction?: string;
   public get tunnel2StartupAction() {
     return this.getStringAttribute('tunnel2_startup_action');
   }
@@ -2161,7 +2161,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel_bandwidth - computed: true, optional: true, required: false
-  private _tunnelBandwidth?: string; 
+  private _tunnelBandwidth?: string;
   public get tunnelBandwidth() {
     return this.getStringAttribute('tunnel_bandwidth');
   }
@@ -2177,7 +2177,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // tunnel_inside_ip_version - computed: true, optional: true, required: false
-  private _tunnelInsideIpVersion?: string; 
+  private _tunnelInsideIpVersion?: string;
   public get tunnelInsideIpVersion() {
     return this.getStringAttribute('tunnel_inside_ip_version');
   }
@@ -2193,7 +2193,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2212,7 +2212,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // vpn_concentrator_id - computed: false, optional: true, required: false
-  private _vpnConcentratorId?: string; 
+  private _vpnConcentratorId?: string;
   public get vpnConcentratorId() {
     return this.getStringAttribute('vpn_concentrator_id');
   }
@@ -2228,7 +2228,7 @@ export class VpnConnection extends cdktn.TerraformResource {
   }
 
   // vpn_gateway_id - computed: false, optional: true, required: false
-  private _vpnGatewayId?: string; 
+  private _vpnGatewayId?: string;
   public get vpnGatewayId() {
     return this.getStringAttribute('vpn_gateway_id');
   }

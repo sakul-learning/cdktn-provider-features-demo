@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TransferWorkflowConfig extends cdktn.TerraformMetaArguments {
   /**
   * A textual description for the workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
   */
   readonly description?: string;
   /**
   * Specifies the steps (actions) to take if any errors are encountered during execution of the workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
   */
   readonly onExceptionSteps?: TransferWorkflowOnExceptionSteps[] | cdktn.IResolvable;
   /**
   * Specifies the details for the steps that are in the specified workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
   */
   readonly steps: TransferWorkflowSteps[] | cdktn.IResolvable;
   /**
   * Key-value pairs that can be used to group and search for workflows. Tags are metadata attached to workflows for any purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
   */
   readonly tags?: TransferWorkflowTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileL
   /**
   * Specifies the S3 bucket that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
   */
   readonly bucket?: string;
   /**
   * The name assigned to the file when it was created in S3. You use the object key to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
 }
@@ -132,7 +132,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocat
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -148,7 +148,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -167,7 +167,7 @@ export interface TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileL
   /**
   * Specifies the details for a S3 file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
   */
   readonly s3FileLocation?: TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation;
 }
@@ -263,25 +263,25 @@ export interface TransferWorkflowOnExceptionStepsCopyStepDetails {
   /**
   * Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
   */
   readonly destinationFileLocation?: TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation;
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * A flag that indicates whether or not to overwrite an existing file of the same name. The default is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
   */
   readonly overwriteExisting?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
 }
@@ -413,7 +413,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -429,7 +429,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string; 
+  private _overwriteExisting?: string;
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -445,7 +445,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -464,25 +464,25 @@ export interface TransferWorkflowOnExceptionStepsCustomStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * The ARN for the lambda function that is being called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
   */
   readonly target?: string;
   /**
   * Timeout, in seconds, for the step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -598,7 +598,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -614,7 +614,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -630,7 +630,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -646,7 +646,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number; 
+  private _timeoutSeconds?: number;
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -665,13 +665,13 @@ export interface TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFi
   /**
   * Specifies the EFS filesystem that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
   * The name assigned to the file when it was created in EFS. You use the object path to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
   */
   readonly path?: string;
 }
@@ -761,7 +761,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -777,7 +777,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -796,13 +796,13 @@ export interface TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFi
   /**
   * Specifies the S3 bucket that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
   */
   readonly bucket?: string;
   /**
   * The name assigned to the file when it was created in S3. You use the object key to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
 }
@@ -892,7 +892,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -908,7 +908,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -927,13 +927,13 @@ export interface TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFi
   /**
   * Specifies the details for an EFS file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
   */
   readonly efsFileLocation?: TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation;
   /**
   * Specifies the details for a S3 file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
   */
   readonly s3FileLocation?: TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation;
 }
@@ -1058,31 +1058,31 @@ export interface TransferWorkflowOnExceptionStepsDecryptStepDetails {
   /**
   * Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
   */
   readonly destinationFileLocation?: TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation;
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * A flag that indicates whether or not to overwrite an existing file of the same name. The default is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
   */
   readonly overwriteExisting?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * Specifies which encryption method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
   */
   readonly type?: string;
 }
@@ -1227,7 +1227,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1243,7 +1243,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string; 
+  private _overwriteExisting?: string;
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -1259,7 +1259,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1275,7 +1275,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1294,13 +1294,13 @@ export interface TransferWorkflowOnExceptionStepsDeleteStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
 }
@@ -1390,7 +1390,7 @@ export class TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1406,7 +1406,7 @@ export class TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference ex
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1425,13 +1425,13 @@ export interface TransferWorkflowOnExceptionStepsTagStepDetailsTags {
   /**
   * The name assigned to the tag that you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
   /**
   * The value that corresponds to the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
   */
   readonly value?: string;
 }
@@ -1523,7 +1523,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference e
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1539,7 +1539,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1578,19 +1578,19 @@ export interface TransferWorkflowOnExceptionStepsTagStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * Array that contains from 1 to 10 key/value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
   */
   readonly tags?: TransferWorkflowOnExceptionStepsTagStepDetailsTags[] | cdktn.IResolvable;
 }
@@ -1693,7 +1693,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1709,7 +1709,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference exten
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1744,35 +1744,35 @@ export interface TransferWorkflowOnExceptionSteps {
   /**
   * Details for a step that performs a file copy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
   */
   readonly copyStepDetails?: TransferWorkflowOnExceptionStepsCopyStepDetails;
   /**
   * Details for a step that invokes a lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
   */
   readonly customStepDetails?: TransferWorkflowOnExceptionStepsCustomStepDetails;
   /**
   * Details for a step that performs a file decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
   */
   readonly decryptStepDetails?: TransferWorkflowOnExceptionStepsDecryptStepDetails;
   /**
   * Details for a step that deletes the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
   */
   readonly deleteStepDetails?: TransferWorkflowOnExceptionStepsDeleteStepDetails;
   /**
   * Details for a step that creates one or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
   */
   readonly tagStepDetails?: TransferWorkflowOnExceptionStepsTagStepDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
   */
   readonly type?: string;
 }
@@ -1996,7 +1996,7 @@ export class TransferWorkflowOnExceptionStepsOutputReference extends cdktn.Compl
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2035,13 +2035,13 @@ export interface TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3Fi
   /**
   * Specifies the S3 bucket that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
   */
   readonly bucket?: string;
   /**
   * The name assigned to the file when it was created in S3. You use the object key to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
 }
@@ -2131,7 +2131,7 @@ export class TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLo
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2147,7 +2147,7 @@ export class TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2166,7 +2166,7 @@ export interface TransferWorkflowStepsCopyStepDetailsDestinationFileLocation {
   /**
   * Specifies the details for a S3 file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
   */
   readonly s3FileLocation?: TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation;
 }
@@ -2262,25 +2262,25 @@ export interface TransferWorkflowStepsCopyStepDetails {
   /**
   * Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
   */
   readonly destinationFileLocation?: TransferWorkflowStepsCopyStepDetailsDestinationFileLocation;
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * A flag that indicates whether or not to overwrite an existing file of the same name. The default is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
   */
   readonly overwriteExisting?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
 }
@@ -2412,7 +2412,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2428,7 +2428,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string; 
+  private _overwriteExisting?: string;
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -2444,7 +2444,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -2463,25 +2463,25 @@ export interface TransferWorkflowStepsCustomStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * The ARN for the lambda function that is being called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
   */
   readonly target?: string;
   /**
   * Timeout, in seconds, for the step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2597,7 +2597,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2613,7 +2613,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -2629,7 +2629,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2645,7 +2645,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number; 
+  private _timeoutSeconds?: number;
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -2664,13 +2664,13 @@ export interface TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationE
   /**
   * Specifies the EFS filesystem that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
   * The name assigned to the file when it was created in EFS. You use the object path to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
   */
   readonly path?: string;
 }
@@ -2760,7 +2760,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFi
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2776,7 +2776,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFi
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2795,13 +2795,13 @@ export interface TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS
   /**
   * Specifies the S3 bucket that contains the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
   */
   readonly bucket?: string;
   /**
   * The name assigned to the file when it was created in S3. You use the object key to retrieve the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
 }
@@ -2891,7 +2891,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3Fil
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2907,7 +2907,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3Fil
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2926,13 +2926,13 @@ export interface TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation 
   /**
   * Specifies the details for an EFS file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
   */
   readonly efsFileLocation?: TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation;
   /**
   * Specifies the details for a S3 file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
   */
   readonly s3FileLocation?: TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation;
 }
@@ -3057,31 +3057,31 @@ export interface TransferWorkflowStepsDecryptStepDetails {
   /**
   * Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
   */
   readonly destinationFileLocation?: TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation;
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * A flag that indicates whether or not to overwrite an existing file of the same name. The default is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
   */
   readonly overwriteExisting?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * Specifies which encryption method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
   */
   readonly type?: string;
 }
@@ -3226,7 +3226,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3242,7 +3242,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string; 
+  private _overwriteExisting?: string;
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -3258,7 +3258,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3274,7 +3274,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3293,13 +3293,13 @@ export interface TransferWorkflowStepsDeleteStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
 }
@@ -3389,7 +3389,7 @@ export class TransferWorkflowStepsDeleteStepDetailsOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3405,7 +3405,7 @@ export class TransferWorkflowStepsDeleteStepDetailsOutputReference extends cdktn
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3424,13 +3424,13 @@ export interface TransferWorkflowStepsTagStepDetailsTags {
   /**
   * The name assigned to the tag that you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
   /**
   * The value that corresponds to the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
   */
   readonly value?: string;
 }
@@ -3522,7 +3522,7 @@ export class TransferWorkflowStepsTagStepDetailsTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3538,7 +3538,7 @@ export class TransferWorkflowStepsTagStepDetailsTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3577,19 +3577,19 @@ export interface TransferWorkflowStepsTagStepDetails {
   /**
   * The name of the step, used as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
   */
   readonly name?: string;
   /**
   * Specifies which file to use as input to the workflow step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
   */
   readonly sourceFileLocation?: string;
   /**
   * Array that contains from 1 to 10 key/value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
   */
   readonly tags?: TransferWorkflowStepsTagStepDetailsTags[] | cdktn.IResolvable;
 }
@@ -3692,7 +3692,7 @@ export class TransferWorkflowStepsTagStepDetailsOutputReference extends cdktn.Co
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3708,7 +3708,7 @@ export class TransferWorkflowStepsTagStepDetailsOutputReference extends cdktn.Co
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string; 
+  private _sourceFileLocation?: string;
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3743,35 +3743,35 @@ export interface TransferWorkflowSteps {
   /**
   * Details for a step that performs a file copy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
   */
   readonly copyStepDetails?: TransferWorkflowStepsCopyStepDetails;
   /**
   * Details for a step that invokes a lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
   */
   readonly customStepDetails?: TransferWorkflowStepsCustomStepDetails;
   /**
   * Details for a step that performs a file decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
   */
   readonly decryptStepDetails?: TransferWorkflowStepsDecryptStepDetails;
   /**
   * Details for a step that deletes the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
   */
   readonly deleteStepDetails?: TransferWorkflowStepsDeleteStepDetails;
   /**
   * Details for a step that creates one or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
   */
   readonly tagStepDetails?: TransferWorkflowStepsTagStepDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
   */
   readonly type?: string;
 }
@@ -3995,7 +3995,7 @@ export class TransferWorkflowStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4034,13 +4034,13 @@ export interface TransferWorkflowTags {
   /**
   * The name assigned to the tag that you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
   */
   readonly key?: string;
   /**
   * Contains one or more values that you assigned to the key name you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
   */
   readonly value?: string;
 }
@@ -4132,7 +4132,7 @@ export class TransferWorkflowTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4148,7 +4148,7 @@ export class TransferWorkflowTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4185,7 +4185,7 @@ export class TransferWorkflowTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow awscc_transfer_workflow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow awscc_transfer_workflow}
 */
 export class TransferWorkflow extends cdktn.TerraformResource {
 
@@ -4201,7 +4201,7 @@ export class TransferWorkflow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferWorkflow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferWorkflow to import
-  * @param importFromId The id of the existing TransferWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4213,7 +4213,7 @@ export class TransferWorkflow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4224,7 +4224,7 @@ export class TransferWorkflow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_workflow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4250,7 +4250,7 @@ export class TransferWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }

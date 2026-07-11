@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,85 +8,85 @@ import * as cdktn from 'cdktn';
 
 export interface DynamodbGlobalTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}
   */
   readonly attributeDefinitions?: DynamodbGlobalTableAttributeDefinitions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}
   */
   readonly billingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}
   */
   readonly globalSecondaryIndexes?: DynamodbGlobalTableGlobalSecondaryIndexes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}
   */
   readonly globalTableSourceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}
   */
   readonly globalTableWitnesses?: DynamodbGlobalTableGlobalTableWitnesses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
   */
   readonly keySchema?: DynamodbGlobalTableKeySchema[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}
   */
   readonly localSecondaryIndexes?: DynamodbGlobalTableLocalSecondaryIndexes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}
   */
   readonly multiRegionConsistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
   */
   readonly readOnDemandThroughputSettings?: DynamodbGlobalTableReadOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
   */
   readonly readProvisionedThroughputSettings?: DynamodbGlobalTableReadProvisionedThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}
   */
   readonly replicas: DynamodbGlobalTableReplicas[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}
   */
   readonly sseSpecification?: DynamodbGlobalTableSseSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}
   */
   readonly streamSpecification?: DynamodbGlobalTableStreamSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}
   */
   readonly timeToLiveSpecification?: DynamodbGlobalTableTimeToLiveSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbGlobalTableWarmThroughput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}
   */
   readonly writeOnDemandThroughputSettings?: DynamodbGlobalTableWriteOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}
   */
   readonly writeProvisionedThroughputSettings?: DynamodbGlobalTableWriteProvisionedThroughputSettings;
 }
 export interface DynamodbGlobalTableAttributeDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}
   */
   readonly attributeType?: string;
 }
@@ -178,7 +178,7 @@ export class DynamodbGlobalTableAttributeDefinitionsOutputReference extends cdkt
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -194,7 +194,7 @@ export class DynamodbGlobalTableAttributeDefinitionsOutputReference extends cdkt
   }
 
   // attribute_type - computed: true, optional: true, required: false
-  private _attributeType?: string; 
+  private _attributeType?: string;
   public get attributeType() {
     return this.getStringAttribute('attribute_type');
   }
@@ -231,11 +231,11 @@ export class DynamodbGlobalTableAttributeDefinitionsList extends cdktn.ComplexLi
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
   */
   readonly keyType?: string;
 }
@@ -327,7 +327,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesKeySchemaOutputReference e
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -343,7 +343,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesKeySchemaOutputReference e
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -380,11 +380,11 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesKeySchemaList extends cdkt
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesProjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -474,7 +474,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesProjectionOutputReference 
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('non_key_attributes'));
   }
@@ -490,7 +490,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesProjectionOutputReference 
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -507,7 +507,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesProjectionOutputReference 
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
 }
@@ -584,7 +584,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSett
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -601,7 +601,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSett
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
 }
@@ -678,7 +678,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputS
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -695,11 +695,11 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputS
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -789,7 +789,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughputOutputRefere
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -805,7 +805,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughputOutputRefere
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -822,7 +822,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughputOutputRefere
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -899,7 +899,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSet
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -916,19 +916,19 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSet
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -1044,7 +1044,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable; 
+  private _disableScaleIn?: boolean | cdktn.IResolvable;
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -1060,7 +1060,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number; 
+  private _scaleInCooldown?: number;
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -1076,7 +1076,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number; 
+  private _scaleOutCooldown?: number;
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -1092,7 +1092,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -1109,19 +1109,19 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
   */
   readonly seedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration;
 }
@@ -1237,7 +1237,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1253,7 +1253,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number; 
+  private _minCapacity?: number;
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -1269,7 +1269,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
   }
 
   // seed_capacity - computed: true, optional: true, required: false
-  private _seedCapacity?: number; 
+  private _seedCapacity?: number;
   public get seedCapacity() {
     return this.getNumberAttribute('seed_capacity');
   }
@@ -1302,7 +1302,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}
   */
   readonly writeCapacityAutoScalingSettings?: DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings;
 }
@@ -1396,35 +1396,35 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughput
 }
 export interface DynamodbGlobalTableGlobalSecondaryIndexes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
   */
   readonly keySchema?: DynamodbGlobalTableGlobalSecondaryIndexesKeySchema[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}
   */
   readonly projection?: DynamodbGlobalTableGlobalSecondaryIndexesProjection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
   */
   readonly readOnDemandThroughputSettings?: DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
   */
   readonly readProvisionedThroughputSettings?: DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}
   */
   readonly warmThroughput?: DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}
   */
   readonly writeOnDemandThroughputSettings?: DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}
   */
   readonly writeProvisionedThroughputSettings?: DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings;
 }
@@ -1594,7 +1594,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesOutputReference extends cd
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -1743,7 +1743,7 @@ export class DynamodbGlobalTableGlobalSecondaryIndexesList extends cdktn.Complex
 }
 export interface DynamodbGlobalTableGlobalTableWitnesses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}
   */
   readonly region?: string;
 }
@@ -1822,7 +1822,7 @@ export class DynamodbGlobalTableGlobalTableWitnessesOutputReference extends cdkt
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1859,11 +1859,11 @@ export class DynamodbGlobalTableGlobalTableWitnessesList extends cdktn.ComplexLi
 }
 export interface DynamodbGlobalTableKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
   */
   readonly keyType?: string;
 }
@@ -1955,7 +1955,7 @@ export class DynamodbGlobalTableKeySchemaOutputReference extends cdktn.ComplexOb
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -1971,7 +1971,7 @@ export class DynamodbGlobalTableKeySchemaOutputReference extends cdktn.ComplexOb
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -2008,11 +2008,11 @@ export class DynamodbGlobalTableKeySchemaList extends cdktn.ComplexList {
 }
 export interface DynamodbGlobalTableLocalSecondaryIndexesKeySchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}
   */
   readonly keyType?: string;
 }
@@ -2104,7 +2104,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesKeySchemaOutputReference ex
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -2120,7 +2120,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesKeySchemaOutputReference ex
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string; 
+  private _keyType?: string;
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -2157,11 +2157,11 @@ export class DynamodbGlobalTableLocalSecondaryIndexesKeySchemaList extends cdktn
 }
 export interface DynamodbGlobalTableLocalSecondaryIndexesProjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}
   */
   readonly projectionType?: string;
 }
@@ -2251,7 +2251,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesProjectionOutputReference e
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[]; 
+  private _nonKeyAttributes?: string[];
   public get nonKeyAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('non_key_attributes'));
   }
@@ -2267,7 +2267,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesProjectionOutputReference e
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string; 
+  private _projectionType?: string;
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -2284,15 +2284,15 @@ export class DynamodbGlobalTableLocalSecondaryIndexesProjectionOutputReference e
 }
 export interface DynamodbGlobalTableLocalSecondaryIndexes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}
   */
   readonly keySchema?: DynamodbGlobalTableLocalSecondaryIndexesKeySchema[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}
   */
   readonly projection?: DynamodbGlobalTableLocalSecondaryIndexesProjection;
 }
@@ -2397,7 +2397,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesOutputReference extends cdk
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -2466,7 +2466,7 @@ export class DynamodbGlobalTableLocalSecondaryIndexesList extends cdktn.ComplexL
 }
 export interface DynamodbGlobalTableReadOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
 }
@@ -2543,7 +2543,7 @@ export class DynamodbGlobalTableReadOnDemandThroughputSettingsOutputReference ex
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -2560,7 +2560,7 @@ export class DynamodbGlobalTableReadOnDemandThroughputSettingsOutputReference ex
 }
 export interface DynamodbGlobalTableReadProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
 }
@@ -2637,7 +2637,7 @@ export class DynamodbGlobalTableReadProvisionedThroughputSettingsOutputReference
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -2654,11 +2654,11 @@ export class DynamodbGlobalTableReadProvisionedThroughputSettingsOutputReference
 }
 export interface DynamodbGlobalTableReplicasContributorInsightsSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}
   */
   readonly mode?: string;
 }
@@ -2748,7 +2748,7 @@ export class DynamodbGlobalTableReplicasContributorInsightsSpecificationOutputRe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2764,7 +2764,7 @@ export class DynamodbGlobalTableReplicasContributorInsightsSpecificationOutputRe
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2781,11 +2781,11 @@ export class DynamodbGlobalTableReplicasContributorInsightsSpecificationOutputRe
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}
   */
   readonly mode?: string;
 }
@@ -2875,7 +2875,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsight
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2891,7 +2891,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsight
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2908,7 +2908,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsight
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
 }
@@ -2985,7 +2985,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroug
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -3002,19 +3002,19 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroug
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -3130,7 +3130,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable; 
+  private _disableScaleIn?: boolean | cdktn.IResolvable;
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -3146,7 +3146,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number; 
+  private _scaleInCooldown?: number;
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -3162,7 +3162,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number; 
+  private _scaleOutCooldown?: number;
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -3178,7 +3178,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -3195,19 +3195,19 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
   */
   readonly seedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration;
 }
@@ -3323,7 +3323,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -3339,7 +3339,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number; 
+  private _minCapacity?: number;
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -3355,7 +3355,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // seed_capacity - computed: true, optional: true, required: false
-  private _seedCapacity?: number; 
+  private _seedCapacity?: number;
   public get seedCapacity() {
     return this.getNumberAttribute('seed_capacity');
   }
@@ -3388,11 +3388,11 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}
   */
   readonly readCapacityAutoScalingSettings?: DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
 }
@@ -3498,7 +3498,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -3515,19 +3515,19 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThr
 }
 export interface DynamodbGlobalTableReplicasGlobalSecondaryIndexes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}
   */
   readonly contributorInsightsSpecification?: DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
   */
   readonly readOnDemandThroughputSettings?: DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
   */
   readonly readProvisionedThroughputSettings?: DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings;
 }
@@ -3661,7 +3661,7 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesOutputReference ex
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string; 
+  private _indexName?: string;
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -3730,11 +3730,11 @@ export class DynamodbGlobalTableReplicasGlobalSecondaryIndexesList extends cdktn
 }
 export interface DynamodbGlobalTableReplicasKinesisStreamSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}
   */
   readonly approximateCreationDateTimePrecision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}
   */
   readonly streamArn?: string;
 }
@@ -3824,7 +3824,7 @@ export class DynamodbGlobalTableReplicasKinesisStreamSpecificationOutputReferenc
   }
 
   // approximate_creation_date_time_precision - computed: true, optional: true, required: false
-  private _approximateCreationDateTimePrecision?: string; 
+  private _approximateCreationDateTimePrecision?: string;
   public get approximateCreationDateTimePrecision() {
     return this.getStringAttribute('approximate_creation_date_time_precision');
   }
@@ -3840,7 +3840,7 @@ export class DynamodbGlobalTableReplicasKinesisStreamSpecificationOutputReferenc
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -3857,11 +3857,11 @@ export class DynamodbGlobalTableReplicasKinesisStreamSpecificationOutputReferenc
 }
 export interface DynamodbGlobalTableReplicasPointInTimeRecoverySpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}
   */
   readonly pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}
   */
   readonly recoveryPeriodInDays?: number;
 }
@@ -3951,7 +3951,7 @@ export class DynamodbGlobalTableReplicasPointInTimeRecoverySpecificationOutputRe
   }
 
   // point_in_time_recovery_enabled - computed: true, optional: true, required: false
-  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable; 
+  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   public get pointInTimeRecoveryEnabled() {
     return this.getBooleanAttribute('point_in_time_recovery_enabled');
   }
@@ -3967,7 +3967,7 @@ export class DynamodbGlobalTableReplicasPointInTimeRecoverySpecificationOutputRe
   }
 
   // recovery_period_in_days - computed: true, optional: true, required: false
-  private _recoveryPeriodInDays?: number; 
+  private _recoveryPeriodInDays?: number;
   public get recoveryPeriodInDays() {
     return this.getNumberAttribute('recovery_period_in_days');
   }
@@ -3984,7 +3984,7 @@ export class DynamodbGlobalTableReplicasPointInTimeRecoverySpecificationOutputRe
 }
 export interface DynamodbGlobalTableReplicasReadOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}
   */
   readonly maxReadRequestUnits?: number;
 }
@@ -4061,7 +4061,7 @@ export class DynamodbGlobalTableReplicasReadOnDemandThroughputSettingsOutputRefe
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number; 
+  private _maxReadRequestUnits?: number;
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -4078,19 +4078,19 @@ export class DynamodbGlobalTableReplicasReadOnDemandThroughputSettingsOutputRefe
 }
 export interface DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -4206,7 +4206,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable; 
+  private _disableScaleIn?: boolean | cdktn.IResolvable;
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -4222,7 +4222,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number; 
+  private _scaleInCooldown?: number;
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -4238,7 +4238,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number; 
+  private _scaleOutCooldown?: number;
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -4254,7 +4254,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -4271,19 +4271,19 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
 }
 export interface DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
   */
   readonly seedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration;
 }
@@ -4399,7 +4399,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -4415,7 +4415,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number; 
+  private _minCapacity?: number;
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -4431,7 +4431,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
   }
 
   // seed_capacity - computed: true, optional: true, required: false
-  private _seedCapacity?: number; 
+  private _seedCapacity?: number;
   public get seedCapacity() {
     return this.getNumberAttribute('seed_capacity');
   }
@@ -4464,11 +4464,11 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCap
 }
 export interface DynamodbGlobalTableReplicasReadProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}
   */
   readonly readCapacityAutoScalingSettings?: DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
 }
@@ -4574,7 +4574,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsOutputR
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -4591,7 +4591,7 @@ export class DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsOutputR
 }
 export interface DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}
   */
   readonly policyDocument?: string;
 }
@@ -4668,7 +4668,7 @@ export class DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -4685,7 +4685,7 @@ export class DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy
 }
 export interface DynamodbGlobalTableReplicasReplicaStreamSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}
   */
   readonly resourcePolicy?: DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy;
 }
@@ -4779,7 +4779,7 @@ export class DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReferenc
 }
 export interface DynamodbGlobalTableReplicasResourcePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}
   */
   readonly policyDocument?: string;
 }
@@ -4856,7 +4856,7 @@ export class DynamodbGlobalTableReplicasResourcePolicyOutputReference extends cd
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -4873,7 +4873,7 @@ export class DynamodbGlobalTableReplicasResourcePolicyOutputReference extends cd
 }
 export interface DynamodbGlobalTableReplicasSseSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
 }
@@ -4950,7 +4950,7 @@ export class DynamodbGlobalTableReplicasSseSpecificationOutputReference extends 
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string; 
+  private _kmsMasterKeyId?: string;
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -4967,11 +4967,11 @@ export class DynamodbGlobalTableReplicasSseSpecificationOutputReference extends 
 }
 export interface DynamodbGlobalTableReplicasTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}
   */
   readonly value?: string;
 }
@@ -5063,7 +5063,7 @@ export class DynamodbGlobalTableReplicasTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5079,7 +5079,7 @@ export class DynamodbGlobalTableReplicasTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5116,59 +5116,59 @@ export class DynamodbGlobalTableReplicasTagsList extends cdktn.ComplexList {
 }
 export interface DynamodbGlobalTableReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}
   */
   readonly contributorInsightsSpecification?: DynamodbGlobalTableReplicasContributorInsightsSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}
   */
   readonly globalSecondaryIndexes?: DynamodbGlobalTableReplicasGlobalSecondaryIndexes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}
   */
   readonly globalTableSettingsReplicationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}
   */
   readonly kinesisStreamSpecification?: DynamodbGlobalTableReplicasKinesisStreamSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}
   */
   readonly pointInTimeRecoverySpecification?: DynamodbGlobalTableReplicasPointInTimeRecoverySpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}
   */
   readonly readOnDemandThroughputSettings?: DynamodbGlobalTableReplicasReadOnDemandThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}
   */
   readonly readProvisionedThroughputSettings?: DynamodbGlobalTableReplicasReadProvisionedThroughputSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}
   */
   readonly replicaStreamSpecification?: DynamodbGlobalTableReplicasReplicaStreamSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}
   */
   readonly resourcePolicy?: DynamodbGlobalTableReplicasResourcePolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}
   */
   readonly sseSpecification?: DynamodbGlobalTableReplicasSseSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}
   */
   readonly tableClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}
   */
   readonly tags?: DynamodbGlobalTableReplicasTags[] | cdktn.IResolvable;
 }
@@ -5432,7 +5432,7 @@ export class DynamodbGlobalTableReplicasOutputReference extends cdktn.ComplexObj
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -5464,7 +5464,7 @@ export class DynamodbGlobalTableReplicasOutputReference extends cdktn.ComplexObj
   }
 
   // global_table_settings_replication_mode - computed: true, optional: true, required: false
-  private _globalTableSettingsReplicationMode?: string; 
+  private _globalTableSettingsReplicationMode?: string;
   public get globalTableSettingsReplicationMode() {
     return this.getStringAttribute('global_table_settings_replication_mode');
   }
@@ -5544,7 +5544,7 @@ export class DynamodbGlobalTableReplicasOutputReference extends cdktn.ComplexObj
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5605,7 +5605,7 @@ export class DynamodbGlobalTableReplicasOutputReference extends cdktn.ComplexObj
   }
 
   // table_class - computed: true, optional: true, required: false
-  private _tableClass?: string; 
+  private _tableClass?: string;
   public get tableClass() {
     return this.getStringAttribute('table_class');
   }
@@ -5658,11 +5658,11 @@ export class DynamodbGlobalTableReplicasList extends cdktn.ComplexList {
 }
 export interface DynamodbGlobalTableSseSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}
   */
   readonly sseEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}
   */
   readonly sseType?: string;
 }
@@ -5752,7 +5752,7 @@ export class DynamodbGlobalTableSseSpecificationOutputReference extends cdktn.Co
   }
 
   // sse_enabled - computed: true, optional: true, required: false
-  private _sseEnabled?: boolean | cdktn.IResolvable; 
+  private _sseEnabled?: boolean | cdktn.IResolvable;
   public get sseEnabled() {
     return this.getBooleanAttribute('sse_enabled');
   }
@@ -5768,7 +5768,7 @@ export class DynamodbGlobalTableSseSpecificationOutputReference extends cdktn.Co
   }
 
   // sse_type - computed: true, optional: true, required: false
-  private _sseType?: string; 
+  private _sseType?: string;
   public get sseType() {
     return this.getStringAttribute('sse_type');
   }
@@ -5785,7 +5785,7 @@ export class DynamodbGlobalTableSseSpecificationOutputReference extends cdktn.Co
 }
 export interface DynamodbGlobalTableStreamSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}
   */
   readonly streamViewType?: string;
 }
@@ -5862,7 +5862,7 @@ export class DynamodbGlobalTableStreamSpecificationOutputReference extends cdktn
   }
 
   // stream_view_type - computed: true, optional: true, required: false
-  private _streamViewType?: string; 
+  private _streamViewType?: string;
   public get streamViewType() {
     return this.getStringAttribute('stream_view_type');
   }
@@ -5879,11 +5879,11 @@ export class DynamodbGlobalTableStreamSpecificationOutputReference extends cdktn
 }
 export interface DynamodbGlobalTableTimeToLiveSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}
   */
   readonly attributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -5973,7 +5973,7 @@ export class DynamodbGlobalTableTimeToLiveSpecificationOutputReference extends c
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -5989,7 +5989,7 @@ export class DynamodbGlobalTableTimeToLiveSpecificationOutputReference extends c
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -6006,11 +6006,11 @@ export class DynamodbGlobalTableTimeToLiveSpecificationOutputReference extends c
 }
 export interface DynamodbGlobalTableWarmThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}
   */
   readonly readUnitsPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}
   */
   readonly writeUnitsPerSecond?: number;
 }
@@ -6100,7 +6100,7 @@ export class DynamodbGlobalTableWarmThroughputOutputReference extends cdktn.Comp
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number; 
+  private _readUnitsPerSecond?: number;
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -6116,7 +6116,7 @@ export class DynamodbGlobalTableWarmThroughputOutputReference extends cdktn.Comp
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number; 
+  private _writeUnitsPerSecond?: number;
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -6133,7 +6133,7 @@ export class DynamodbGlobalTableWarmThroughputOutputReference extends cdktn.Comp
 }
 export interface DynamodbGlobalTableWriteOnDemandThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}
   */
   readonly maxWriteRequestUnits?: number;
 }
@@ -6210,7 +6210,7 @@ export class DynamodbGlobalTableWriteOnDemandThroughputSettingsOutputReference e
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number; 
+  private _maxWriteRequestUnits?: number;
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -6227,19 +6227,19 @@ export class DynamodbGlobalTableWriteOnDemandThroughputSettingsOutputReference e
 }
 export interface DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}
   */
   readonly targetValue?: number;
 }
@@ -6355,7 +6355,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable; 
+  private _disableScaleIn?: boolean | cdktn.IResolvable;
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -6371,7 +6371,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number; 
+  private _scaleInCooldown?: number;
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -6387,7 +6387,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number; 
+  private _scaleOutCooldown?: number;
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -6403,7 +6403,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -6420,19 +6420,19 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
 }
 export interface DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}
   */
   readonly seedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration;
 }
@@ -6548,7 +6548,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -6564,7 +6564,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number; 
+  private _minCapacity?: number;
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -6580,7 +6580,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
   }
 
   // seed_capacity - computed: true, optional: true, required: false
-  private _seedCapacity?: number; 
+  private _seedCapacity?: number;
   public get seedCapacity() {
     return this.getNumberAttribute('seed_capacity');
   }
@@ -6613,7 +6613,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityA
 }
 export interface DynamodbGlobalTableWriteProvisionedThroughputSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}
   */
   readonly writeCapacityAutoScalingSettings?: DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings;
 }
@@ -6707,7 +6707,7 @@ export class DynamodbGlobalTableWriteProvisionedThroughputSettingsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}
 */
 export class DynamodbGlobalTable extends cdktn.TerraformResource {
 
@@ -6723,7 +6723,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DynamodbGlobalTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamodbGlobalTable to import
-  * @param importFromId The id of the existing DynamodbGlobalTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamodbGlobalTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamodbGlobalTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6735,7 +6735,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6746,7 +6746,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dynamodb_global_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6802,7 +6802,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: true, optional: true, required: false
-  private _billingMode?: string; 
+  private _billingMode?: string;
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -6834,7 +6834,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   }
 
   // global_table_source_arn - computed: true, optional: true, required: false
-  private _globalTableSourceArn?: string; 
+  private _globalTableSourceArn?: string;
   public get globalTableSourceArn() {
     return this.getStringAttribute('global_table_source_arn');
   }
@@ -6903,7 +6903,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   }
 
   // multi_region_consistency - computed: true, optional: true, required: false
-  private _multiRegionConsistency?: string; 
+  private _multiRegionConsistency?: string;
   public get multiRegionConsistency() {
     return this.getStringAttribute('multi_region_consistency');
   }
@@ -7006,7 +7006,7 @@ export class DynamodbGlobalTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

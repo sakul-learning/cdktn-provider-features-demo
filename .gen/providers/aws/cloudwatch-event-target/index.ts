@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktn from 'cdktn';
 
 export interface CloudwatchEventTargetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#event_bus_name CloudwatchEventTarget#event_bus_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#event_bus_name CloudwatchEventTarget#event_bus_name}
   */
   readonly eventBusName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#force_destroy CloudwatchEventTarget#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#force_destroy CloudwatchEventTarget#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#id CloudwatchEventTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#id CloudwatchEventTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#input CloudwatchEventTarget#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#input CloudwatchEventTarget#input}
   */
   readonly input?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#input_path CloudwatchEventTarget#input_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#input_path CloudwatchEventTarget#input_path}
   */
   readonly inputPath?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#region CloudwatchEventTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#region CloudwatchEventTarget#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#role_arn CloudwatchEventTarget#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#role_arn CloudwatchEventTarget#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#rule CloudwatchEventTarget#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#rule CloudwatchEventTarget#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#target_id CloudwatchEventTarget#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#target_id CloudwatchEventTarget#target_id}
   */
   readonly targetId?: string;
   /**
   * appsync_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#appsync_target CloudwatchEventTarget#appsync_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#appsync_target CloudwatchEventTarget#appsync_target}
   */
   readonly appsyncTarget?: CloudwatchEventTargetAppsyncTarget;
   /**
   * batch_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#batch_target CloudwatchEventTarget#batch_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#batch_target CloudwatchEventTarget#batch_target}
   */
   readonly batchTarget?: CloudwatchEventTargetBatchTarget;
   /**
   * dead_letter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#dead_letter_config CloudwatchEventTarget#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#dead_letter_config CloudwatchEventTarget#dead_letter_config}
   */
   readonly deadLetterConfig?: CloudwatchEventTargetDeadLetterConfig;
   /**
   * ecs_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#ecs_target CloudwatchEventTarget#ecs_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#ecs_target CloudwatchEventTarget#ecs_target}
   */
   readonly ecsTarget?: CloudwatchEventTargetEcsTarget;
   /**
   * http_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#http_target CloudwatchEventTarget#http_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#http_target CloudwatchEventTarget#http_target}
   */
   readonly httpTarget?: CloudwatchEventTargetHttpTarget;
   /**
   * input_transformer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#input_transformer CloudwatchEventTarget#input_transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#input_transformer CloudwatchEventTarget#input_transformer}
   */
   readonly inputTransformer?: CloudwatchEventTargetInputTransformer;
   /**
   * kinesis_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#kinesis_target CloudwatchEventTarget#kinesis_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#kinesis_target CloudwatchEventTarget#kinesis_target}
   */
   readonly kinesisTarget?: CloudwatchEventTargetKinesisTarget;
   /**
   * redshift_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#redshift_target CloudwatchEventTarget#redshift_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#redshift_target CloudwatchEventTarget#redshift_target}
   */
   readonly redshiftTarget?: CloudwatchEventTargetRedshiftTarget;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#retry_policy CloudwatchEventTarget#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#retry_policy CloudwatchEventTarget#retry_policy}
   */
   readonly retryPolicy?: CloudwatchEventTargetRetryPolicy;
   /**
   * run_command_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#run_command_targets CloudwatchEventTarget#run_command_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#run_command_targets CloudwatchEventTarget#run_command_targets}
   */
   readonly runCommandTargets?: CloudwatchEventTargetRunCommandTargets[] | cdktn.IResolvable;
   /**
   * sagemaker_pipeline_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#sagemaker_pipeline_target CloudwatchEventTarget#sagemaker_pipeline_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#sagemaker_pipeline_target CloudwatchEventTarget#sagemaker_pipeline_target}
   */
   readonly sagemakerPipelineTarget?: CloudwatchEventTargetSagemakerPipelineTarget;
   /**
   * sqs_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#sqs_target CloudwatchEventTarget#sqs_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#sqs_target CloudwatchEventTarget#sqs_target}
   */
   readonly sqsTarget?: CloudwatchEventTargetSqsTarget;
 }
 export interface CloudwatchEventTargetAppsyncTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#graphql_operation CloudwatchEventTarget#graphql_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#graphql_operation CloudwatchEventTarget#graphql_operation}
   */
   readonly graphqlOperation?: string;
 }
@@ -194,7 +194,7 @@ export class CloudwatchEventTargetAppsyncTargetOutputReference extends cdktn.Com
   }
 
   // graphql_operation - computed: false, optional: true, required: false
-  private _graphqlOperation?: string; 
+  private _graphqlOperation?: string;
   public get graphqlOperation() {
     return this.getStringAttribute('graphql_operation');
   }
@@ -211,19 +211,19 @@ export class CloudwatchEventTargetAppsyncTargetOutputReference extends cdktn.Com
 }
 export interface CloudwatchEventTargetBatchTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#array_size CloudwatchEventTarget#array_size}
   */
   readonly arraySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#job_attempts CloudwatchEventTarget#job_attempts}
   */
   readonly jobAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#job_definition CloudwatchEventTarget#job_definition}
   */
   readonly jobDefinition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#job_name CloudwatchEventTarget#job_name}
   */
   readonly jobName: string;
 }
@@ -329,7 +329,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // array_size - computed: false, optional: true, required: false
-  private _arraySize?: number; 
+  private _arraySize?: number;
   public get arraySize() {
     return this.getNumberAttribute('array_size');
   }
@@ -345,7 +345,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_attempts - computed: false, optional: true, required: false
-  private _jobAttempts?: number; 
+  private _jobAttempts?: number;
   public get jobAttempts() {
     return this.getNumberAttribute('job_attempts');
   }
@@ -361,7 +361,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_definition - computed: false, optional: false, required: true
-  private _jobDefinition?: string; 
+  private _jobDefinition?: string;
   public get jobDefinition() {
     return this.getStringAttribute('job_definition');
   }
@@ -374,7 +374,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_name - computed: false, optional: false, required: true
-  private _jobName?: string; 
+  private _jobName?: string;
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -388,7 +388,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
 }
 export interface CloudwatchEventTargetDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#arn CloudwatchEventTarget#arn}
   */
   readonly arn?: string;
 }
@@ -455,7 +455,7 @@ export class CloudwatchEventTargetDeadLetterConfigOutputReference extends cdktn.
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -472,15 +472,15 @@ export class CloudwatchEventTargetDeadLetterConfigOutputReference extends cdktn.
 }
 export interface CloudwatchEventTargetEcsTargetCapacityProviderStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#base CloudwatchEventTarget#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#base CloudwatchEventTarget#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#capacity_provider CloudwatchEventTarget#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#capacity_provider CloudwatchEventTarget#capacity_provider}
   */
   readonly capacityProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#weight CloudwatchEventTarget#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#weight CloudwatchEventTarget#weight}
   */
   readonly weight?: number;
 }
@@ -585,7 +585,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number; 
+  private _base?: number;
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -601,7 +601,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string; 
+  private _capacityProvider?: string;
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -614,7 +614,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -651,15 +651,15 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyList extends 
 }
 export interface CloudwatchEventTargetEcsTargetNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#assign_public_ip CloudwatchEventTarget#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#assign_public_ip CloudwatchEventTarget#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#security_groups CloudwatchEventTarget#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#security_groups CloudwatchEventTarget#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#subnets CloudwatchEventTarget#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#subnets CloudwatchEventTarget#subnets}
   */
   readonly subnets: string[];
 }
@@ -752,7 +752,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: boolean | cdktn.IResolvable; 
+  private _assignPublicIp?: boolean | cdktn.IResolvable;
   public get assignPublicIp() {
     return this.getBooleanAttribute('assign_public_ip');
   }
@@ -768,7 +768,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -784,7 +784,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -798,11 +798,11 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
 }
 export interface CloudwatchEventTargetEcsTargetOrderedPlacementStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#field CloudwatchEventTarget#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#field CloudwatchEventTarget#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}
   */
   readonly type: string;
 }
@@ -894,7 +894,7 @@ export class CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReferen
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -910,7 +910,7 @@ export class CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReferen
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -944,11 +944,11 @@ export class CloudwatchEventTargetEcsTargetOrderedPlacementStrategyList extends 
 }
 export interface CloudwatchEventTargetEcsTargetPlacementConstraint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#expression CloudwatchEventTarget#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#expression CloudwatchEventTarget#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#type CloudwatchEventTarget#type}
   */
   readonly type: string;
 }
@@ -1040,7 +1040,7 @@ export class CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference ex
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1056,7 +1056,7 @@ export class CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1090,63 +1090,63 @@ export class CloudwatchEventTargetEcsTargetPlacementConstraintList extends cdktn
 }
 export interface CloudwatchEventTargetEcsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#enable_ecs_managed_tags CloudwatchEventTarget#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#enable_ecs_managed_tags CloudwatchEventTarget#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#enable_execute_command CloudwatchEventTarget#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#enable_execute_command CloudwatchEventTarget#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#group CloudwatchEventTarget#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#group CloudwatchEventTarget#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#launch_type CloudwatchEventTarget#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#launch_type CloudwatchEventTarget#launch_type}
   */
   readonly launchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#platform_version CloudwatchEventTarget#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#platform_version CloudwatchEventTarget#platform_version}
   */
   readonly platformVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#propagate_tags CloudwatchEventTarget#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#propagate_tags CloudwatchEventTarget#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#tags CloudwatchEventTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#tags CloudwatchEventTarget#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#task_count CloudwatchEventTarget#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#task_count CloudwatchEventTarget#task_count}
   */
   readonly taskCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#task_definition_arn CloudwatchEventTarget#task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#task_definition_arn CloudwatchEventTarget#task_definition_arn}
   */
   readonly taskDefinitionArn: string;
   /**
   * capacity_provider_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#capacity_provider_strategy CloudwatchEventTarget#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#capacity_provider_strategy CloudwatchEventTarget#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: CloudwatchEventTargetEcsTargetCapacityProviderStrategy[] | cdktn.IResolvable;
   /**
   * network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#network_configuration CloudwatchEventTarget#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#network_configuration CloudwatchEventTarget#network_configuration}
   */
   readonly networkConfiguration?: CloudwatchEventTargetEcsTargetNetworkConfiguration;
   /**
   * ordered_placement_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#ordered_placement_strategy CloudwatchEventTarget#ordered_placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#ordered_placement_strategy CloudwatchEventTarget#ordered_placement_strategy}
   */
   readonly orderedPlacementStrategy?: CloudwatchEventTargetEcsTargetOrderedPlacementStrategy[] | cdktn.IResolvable;
   /**
   * placement_constraint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#placement_constraint CloudwatchEventTarget#placement_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#placement_constraint CloudwatchEventTarget#placement_constraint}
   */
   readonly placementConstraint?: CloudwatchEventTargetEcsTargetPlacementConstraint[] | cdktn.IResolvable;
 }
@@ -1369,7 +1369,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1385,7 +1385,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -1401,7 +1401,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string; 
+  private _group?: string;
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -1417,7 +1417,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // launch_type - computed: false, optional: true, required: false
-  private _launchType?: string; 
+  private _launchType?: string;
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1433,7 +1433,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // platform_version - computed: false, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1449,7 +1449,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -1465,7 +1465,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1481,7 +1481,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // task_count - computed: false, optional: true, required: false
-  private _taskCount?: number; 
+  private _taskCount?: number;
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -1497,7 +1497,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // task_definition_arn - computed: false, optional: false, required: true
-  private _taskDefinitionArn?: string; 
+  private _taskDefinitionArn?: string;
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -1575,15 +1575,15 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
 }
 export interface CloudwatchEventTargetHttpTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#header_parameters CloudwatchEventTarget#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#header_parameters CloudwatchEventTarget#header_parameters}
   */
   readonly headerParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#path_parameter_values CloudwatchEventTarget#path_parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#path_parameter_values CloudwatchEventTarget#path_parameter_values}
   */
   readonly pathParameterValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#query_string_parameters CloudwatchEventTarget#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#query_string_parameters CloudwatchEventTarget#query_string_parameters}
   */
   readonly queryStringParameters?: { [key: string]: string };
 }
@@ -1676,7 +1676,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // header_parameters - computed: false, optional: true, required: false
-  private _headerParameters?: { [key: string]: string }; 
+  private _headerParameters?: { [key: string]: string };
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -1692,7 +1692,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // path_parameter_values - computed: false, optional: true, required: false
-  private _pathParameterValues?: string[]; 
+  private _pathParameterValues?: string[];
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -1708,7 +1708,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // query_string_parameters - computed: false, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string }; 
+  private _queryStringParameters?: { [key: string]: string };
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -1725,11 +1725,11 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
 }
 export interface CloudwatchEventTargetInputTransformer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#input_paths CloudwatchEventTarget#input_paths}
   */
   readonly inputPaths?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#input_template CloudwatchEventTarget#input_template}
   */
   readonly inputTemplate: string;
 }
@@ -1809,7 +1809,7 @@ export class CloudwatchEventTargetInputTransformerOutputReference extends cdktn.
   }
 
   // input_paths - computed: false, optional: true, required: false
-  private _inputPaths?: { [key: string]: string }; 
+  private _inputPaths?: { [key: string]: string };
   public get inputPaths() {
     return this.getStringMapAttribute('input_paths');
   }
@@ -1825,7 +1825,7 @@ export class CloudwatchEventTargetInputTransformerOutputReference extends cdktn.
   }
 
   // input_template - computed: false, optional: false, required: true
-  private _inputTemplate?: string; 
+  private _inputTemplate?: string;
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -1839,7 +1839,7 @@ export class CloudwatchEventTargetInputTransformerOutputReference extends cdktn.
 }
 export interface CloudwatchEventTargetKinesisTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#partition_key_path CloudwatchEventTarget#partition_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#partition_key_path CloudwatchEventTarget#partition_key_path}
   */
   readonly partitionKeyPath?: string;
 }
@@ -1906,7 +1906,7 @@ export class CloudwatchEventTargetKinesisTargetOutputReference extends cdktn.Com
   }
 
   // partition_key_path - computed: false, optional: true, required: false
-  private _partitionKeyPath?: string; 
+  private _partitionKeyPath?: string;
   public get partitionKeyPath() {
     return this.getStringAttribute('partition_key_path');
   }
@@ -1923,27 +1923,27 @@ export class CloudwatchEventTargetKinesisTargetOutputReference extends cdktn.Com
 }
 export interface CloudwatchEventTargetRedshiftTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#database CloudwatchEventTarget#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#database CloudwatchEventTarget#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#db_user CloudwatchEventTarget#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#db_user CloudwatchEventTarget#db_user}
   */
   readonly dbUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#secrets_manager_arn CloudwatchEventTarget#secrets_manager_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#secrets_manager_arn CloudwatchEventTarget#secrets_manager_arn}
   */
   readonly secretsManagerArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#sql CloudwatchEventTarget#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#sql CloudwatchEventTarget#sql}
   */
   readonly sql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#statement_name CloudwatchEventTarget#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#statement_name CloudwatchEventTarget#statement_name}
   */
   readonly statementName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#with_event CloudwatchEventTarget#with_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#with_event CloudwatchEventTarget#with_event}
   */
   readonly withEvent?: boolean | cdktn.IResolvable;
 }
@@ -2075,7 +2075,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2088,7 +2088,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // db_user - computed: false, optional: true, required: false
-  private _dbUser?: string; 
+  private _dbUser?: string;
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -2104,7 +2104,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // secrets_manager_arn - computed: false, optional: true, required: false
-  private _secretsManagerArn?: string; 
+  private _secretsManagerArn?: string;
   public get secretsManagerArn() {
     return this.getStringAttribute('secrets_manager_arn');
   }
@@ -2120,7 +2120,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // sql - computed: false, optional: true, required: false
-  private _sql?: string; 
+  private _sql?: string;
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -2136,7 +2136,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // statement_name - computed: false, optional: true, required: false
-  private _statementName?: string; 
+  private _statementName?: string;
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -2152,7 +2152,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // with_event - computed: false, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable; 
+  private _withEvent?: boolean | cdktn.IResolvable;
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -2169,11 +2169,11 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
 }
 export interface CloudwatchEventTargetRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#maximum_event_age_in_seconds CloudwatchEventTarget#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#maximum_event_age_in_seconds CloudwatchEventTarget#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#maximum_retry_attempts CloudwatchEventTarget#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#maximum_retry_attempts CloudwatchEventTarget#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -2253,7 +2253,7 @@ export class CloudwatchEventTargetRetryPolicyOutputReference extends cdktn.Compl
   }
 
   // maximum_event_age_in_seconds - computed: false, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number; 
+  private _maximumEventAgeInSeconds?: number;
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -2269,7 +2269,7 @@ export class CloudwatchEventTargetRetryPolicyOutputReference extends cdktn.Compl
   }
 
   // maximum_retry_attempts - computed: false, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2286,11 +2286,11 @@ export class CloudwatchEventTargetRetryPolicyOutputReference extends cdktn.Compl
 }
 export interface CloudwatchEventTargetRunCommandTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#key CloudwatchEventTarget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#values CloudwatchEventTarget#values}
   */
   readonly values: string[];
 }
@@ -2382,7 +2382,7 @@ export class CloudwatchEventTargetRunCommandTargetsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2395,7 +2395,7 @@ export class CloudwatchEventTargetRunCommandTargetsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2429,11 +2429,11 @@ export class CloudwatchEventTargetRunCommandTargetsList extends cdktn.ComplexLis
 }
 export interface CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#name CloudwatchEventTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#name CloudwatchEventTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#value CloudwatchEventTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#value CloudwatchEventTarget#value}
   */
   readonly value: string;
 }
@@ -2525,7 +2525,7 @@ export class CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListSt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2538,7 +2538,7 @@ export class CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListSt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2574,7 +2574,7 @@ export interface CloudwatchEventTargetSagemakerPipelineTarget {
   /**
   * pipeline_parameter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#pipeline_parameter_list CloudwatchEventTarget#pipeline_parameter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#pipeline_parameter_list CloudwatchEventTarget#pipeline_parameter_list}
   */
   readonly pipelineParameterList?: CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct[] | cdktn.IResolvable;
 }
@@ -2658,7 +2658,7 @@ export class CloudwatchEventTargetSagemakerPipelineTargetOutputReference extends
 }
 export interface CloudwatchEventTargetSqsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#message_group_id CloudwatchEventTarget#message_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#message_group_id CloudwatchEventTarget#message_group_id}
   */
   readonly messageGroupId?: string;
 }
@@ -2725,7 +2725,7 @@ export class CloudwatchEventTargetSqsTargetOutputReference extends cdktn.Complex
   }
 
   // message_group_id - computed: false, optional: true, required: false
-  private _messageGroupId?: string; 
+  private _messageGroupId?: string;
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -2742,7 +2742,7 @@ export class CloudwatchEventTargetSqsTargetOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target}
 */
 export class CloudwatchEventTarget extends cdktn.TerraformResource {
 
@@ -2758,7 +2758,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchEventTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchEventTarget to import
-  * @param importFromId The id of the existing CloudwatchEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchEventTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2770,7 +2770,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2781,7 +2781,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudwatch_event_target',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2820,7 +2820,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2833,7 +2833,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: false, optional: true, required: false
-  private _eventBusName?: string; 
+  private _eventBusName?: string;
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -2849,7 +2849,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable; 
+  private _forceDestroy?: boolean | cdktn.IResolvable;
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -2865,7 +2865,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2881,7 +2881,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // input - computed: false, optional: true, required: false
-  private _input?: string; 
+  private _input?: string;
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -2897,7 +2897,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // input_path - computed: false, optional: true, required: false
-  private _inputPath?: string; 
+  private _inputPath?: string;
   public get inputPath() {
     return this.getStringAttribute('input_path');
   }
@@ -2913,7 +2913,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2929,7 +2929,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2945,7 +2945,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // rule - computed: false, optional: false, required: true
-  private _rule?: string; 
+  private _rule?: string;
   public get rule() {
     return this.getStringAttribute('rule');
   }
@@ -2958,7 +2958,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // target_id - computed: true, optional: true, required: false
-  private _targetId?: string; 
+  private _targetId?: string;
   public get targetId() {
     return this.getStringAttribute('target_id');
   }

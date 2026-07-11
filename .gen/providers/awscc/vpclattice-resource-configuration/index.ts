@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeResourceConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#allow_association_to_sharable_service_network VpclatticeResourceConfiguration#allow_association_to_sharable_service_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#allow_association_to_sharable_service_network VpclatticeResourceConfiguration#allow_association_to_sharable_service_network}
   */
   readonly allowAssociationToSharableServiceNetwork?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#custom_domain_name VpclatticeResourceConfiguration#custom_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#custom_domain_name VpclatticeResourceConfiguration#custom_domain_name}
   */
   readonly customDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#domain_verification_id VpclatticeResourceConfiguration#domain_verification_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#domain_verification_id VpclatticeResourceConfiguration#domain_verification_id}
   */
   readonly domainVerificationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#group_domain VpclatticeResourceConfiguration#group_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#group_domain VpclatticeResourceConfiguration#group_domain}
   */
   readonly groupDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#name VpclatticeResourceConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#name VpclatticeResourceConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#port_ranges VpclatticeResourceConfiguration#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#port_ranges VpclatticeResourceConfiguration#port_ranges}
   */
   readonly portRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#protocol_type VpclatticeResourceConfiguration#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#protocol_type VpclatticeResourceConfiguration#protocol_type}
   */
   readonly protocolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#resource_configuration_auth_type VpclatticeResourceConfiguration#resource_configuration_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#resource_configuration_auth_type VpclatticeResourceConfiguration#resource_configuration_auth_type}
   */
   readonly resourceConfigurationAuthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#resource_configuration_definition VpclatticeResourceConfiguration#resource_configuration_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#resource_configuration_definition VpclatticeResourceConfiguration#resource_configuration_definition}
   */
   readonly resourceConfigurationDefinition?: VpclatticeResourceConfigurationResourceConfigurationDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#resource_configuration_group_id VpclatticeResourceConfiguration#resource_configuration_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#resource_configuration_group_id VpclatticeResourceConfiguration#resource_configuration_group_id}
   */
   readonly resourceConfigurationGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#resource_configuration_type VpclatticeResourceConfiguration#resource_configuration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#resource_configuration_type VpclatticeResourceConfiguration#resource_configuration_type}
   */
   readonly resourceConfigurationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#resource_gateway_id VpclatticeResourceConfiguration#resource_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#resource_gateway_id VpclatticeResourceConfiguration#resource_gateway_id}
   */
   readonly resourceGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#tags VpclatticeResourceConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#tags VpclatticeResourceConfiguration#tags}
   */
   readonly tags?: VpclatticeResourceConfigurationTags[] | cdktn.IResolvable;
 }
 export interface VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#domain_name VpclatticeResourceConfiguration#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#domain_name VpclatticeResourceConfiguration#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#ip_address_type VpclatticeResourceConfiguration#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#ip_address_type VpclatticeResourceConfiguration#ip_address_type}
   */
   readonly ipAddressType?: string;
 }
@@ -156,7 +156,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -172,7 +172,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -189,15 +189,15 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
 }
 export interface VpclatticeResourceConfigurationResourceConfigurationDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#arn_resource VpclatticeResourceConfiguration#arn_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#arn_resource VpclatticeResourceConfiguration#arn_resource}
   */
   readonly arnResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#dns_resource VpclatticeResourceConfiguration#dns_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#dns_resource VpclatticeResourceConfiguration#dns_resource}
   */
   readonly dnsResource?: VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#ip_resource VpclatticeResourceConfiguration#ip_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#ip_resource VpclatticeResourceConfiguration#ip_resource}
   */
   readonly ipResource?: string;
 }
@@ -300,7 +300,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionOutpu
   }
 
   // arn_resource - computed: true, optional: true, required: false
-  private _arnResource?: string; 
+  private _arnResource?: string;
   public get arnResource() {
     return this.getStringAttribute('arn_resource');
   }
@@ -332,7 +332,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionOutpu
   }
 
   // ip_resource - computed: true, optional: true, required: false
-  private _ipResource?: string; 
+  private _ipResource?: string;
   public get ipResource() {
     return this.getStringAttribute('ip_resource');
   }
@@ -349,11 +349,11 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionOutpu
 }
 export interface VpclatticeResourceConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#key VpclatticeResourceConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#key VpclatticeResourceConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#value VpclatticeResourceConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#value VpclatticeResourceConfiguration#value}
   */
   readonly value?: string;
 }
@@ -445,7 +445,7 @@ export class VpclatticeResourceConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class VpclatticeResourceConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -498,7 +498,7 @@ export class VpclatticeResourceConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}
 */
 export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
 
@@ -514,7 +514,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeResourceConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeResourceConfiguration to import
-  * @param importFromId The id of the existing VpclatticeResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeResourceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -526,7 +526,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,7 +537,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_resource_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -567,7 +567,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // allow_association_to_sharable_service_network - computed: true, optional: true, required: false
-  private _allowAssociationToSharableServiceNetwork?: boolean | cdktn.IResolvable; 
+  private _allowAssociationToSharableServiceNetwork?: boolean | cdktn.IResolvable;
   public get allowAssociationToSharableServiceNetwork() {
     return this.getBooleanAttribute('allow_association_to_sharable_service_network');
   }
@@ -588,7 +588,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: true, optional: true, required: false
-  private _customDomainName?: string; 
+  private _customDomainName?: string;
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -604,7 +604,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_verification_id - computed: true, optional: true, required: false
-  private _domainVerificationId?: string; 
+  private _domainVerificationId?: string;
   public get domainVerificationId() {
     return this.getStringAttribute('domain_verification_id');
   }
@@ -620,7 +620,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // group_domain - computed: true, optional: true, required: false
-  private _groupDomain?: string; 
+  private _groupDomain?: string;
   public get groupDomain() {
     return this.getStringAttribute('group_domain');
   }
@@ -641,7 +641,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -654,7 +654,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // port_ranges - computed: true, optional: true, required: false
-  private _portRanges?: string[]; 
+  private _portRanges?: string[];
   public get portRanges() {
     return this.getListAttribute('port_ranges');
   }
@@ -670,7 +670,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // protocol_type - computed: true, optional: true, required: false
-  private _protocolType?: string; 
+  private _protocolType?: string;
   public get protocolType() {
     return this.getStringAttribute('protocol_type');
   }
@@ -686,7 +686,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_auth_type - computed: true, optional: true, required: false
-  private _resourceConfigurationAuthType?: string; 
+  private _resourceConfigurationAuthType?: string;
   public get resourceConfigurationAuthType() {
     return this.getStringAttribute('resource_configuration_auth_type');
   }
@@ -718,7 +718,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_group_id - computed: true, optional: true, required: false
-  private _resourceConfigurationGroupId?: string; 
+  private _resourceConfigurationGroupId?: string;
   public get resourceConfigurationGroupId() {
     return this.getStringAttribute('resource_configuration_group_id');
   }
@@ -739,7 +739,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_type - computed: false, optional: false, required: true
-  private _resourceConfigurationType?: string; 
+  private _resourceConfigurationType?: string;
   public get resourceConfigurationType() {
     return this.getStringAttribute('resource_configuration_type');
   }
@@ -752,7 +752,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_gateway_id - computed: true, optional: true, required: false
-  private _resourceGatewayId?: string; 
+  private _resourceGatewayId?: string;
   public get resourceGatewayId() {
     return this.getStringAttribute('resource_gateway_id');
   }

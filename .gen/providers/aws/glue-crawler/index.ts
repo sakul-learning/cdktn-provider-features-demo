@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,154 +8,154 @@ import * as cdktn from 'cdktn';
 
 export interface GlueCrawlerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#classifiers GlueCrawler#classifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#classifiers GlueCrawler#classifiers}
   */
   readonly classifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#configuration GlueCrawler#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#configuration GlueCrawler#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#description GlueCrawler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#description GlueCrawler#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#id GlueCrawler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#id GlueCrawler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#name GlueCrawler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#name GlueCrawler#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#region GlueCrawler#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#region GlueCrawler#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#role GlueCrawler#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#role GlueCrawler#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#schedule GlueCrawler#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#schedule GlueCrawler#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#security_configuration GlueCrawler#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#security_configuration GlueCrawler#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#table_prefix GlueCrawler#table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#table_prefix GlueCrawler#table_prefix}
   */
   readonly tablePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#tags GlueCrawler#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#tags GlueCrawler#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#tags_all GlueCrawler#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#tags_all GlueCrawler#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * catalog_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#catalog_target GlueCrawler#catalog_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#catalog_target GlueCrawler#catalog_target}
   */
   readonly catalogTarget?: GlueCrawlerCatalogTarget[] | cdktn.IResolvable;
   /**
   * delta_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#delta_target GlueCrawler#delta_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#delta_target GlueCrawler#delta_target}
   */
   readonly deltaTarget?: GlueCrawlerDeltaTarget[] | cdktn.IResolvable;
   /**
   * dynamodb_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#dynamodb_target GlueCrawler#dynamodb_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#dynamodb_target GlueCrawler#dynamodb_target}
   */
   readonly dynamodbTarget?: GlueCrawlerDynamodbTarget[] | cdktn.IResolvable;
   /**
   * hudi_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#hudi_target GlueCrawler#hudi_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#hudi_target GlueCrawler#hudi_target}
   */
   readonly hudiTarget?: GlueCrawlerHudiTarget[] | cdktn.IResolvable;
   /**
   * iceberg_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#iceberg_target GlueCrawler#iceberg_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#iceberg_target GlueCrawler#iceberg_target}
   */
   readonly icebergTarget?: GlueCrawlerIcebergTarget[] | cdktn.IResolvable;
   /**
   * jdbc_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#jdbc_target GlueCrawler#jdbc_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#jdbc_target GlueCrawler#jdbc_target}
   */
   readonly jdbcTarget?: GlueCrawlerJdbcTarget[] | cdktn.IResolvable;
   /**
   * lake_formation_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#lake_formation_configuration GlueCrawler#lake_formation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#lake_formation_configuration GlueCrawler#lake_formation_configuration}
   */
   readonly lakeFormationConfiguration?: GlueCrawlerLakeFormationConfiguration;
   /**
   * lineage_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#lineage_configuration GlueCrawler#lineage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#lineage_configuration GlueCrawler#lineage_configuration}
   */
   readonly lineageConfiguration?: GlueCrawlerLineageConfiguration;
   /**
   * mongodb_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#mongodb_target GlueCrawler#mongodb_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#mongodb_target GlueCrawler#mongodb_target}
   */
   readonly mongodbTarget?: GlueCrawlerMongodbTarget[] | cdktn.IResolvable;
   /**
   * recrawl_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#recrawl_policy GlueCrawler#recrawl_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#recrawl_policy GlueCrawler#recrawl_policy}
   */
   readonly recrawlPolicy?: GlueCrawlerRecrawlPolicy;
   /**
   * s3_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#s3_target GlueCrawler#s3_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#s3_target GlueCrawler#s3_target}
   */
   readonly s3Target?: GlueCrawlerS3Target[] | cdktn.IResolvable;
   /**
   * schema_change_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#schema_change_policy GlueCrawler#schema_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#schema_change_policy GlueCrawler#schema_change_policy}
   */
   readonly schemaChangePolicy?: GlueCrawlerSchemaChangePolicy;
 }
 export interface GlueCrawlerCatalogTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
   */
   readonly dlqEventQueueArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
   */
   readonly eventQueueArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#tables GlueCrawler#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#tables GlueCrawler#tables}
   */
   readonly tables: string[];
 }
@@ -286,7 +286,7 @@ export class GlueCrawlerCatalogTargetOutputReference extends cdktn.ComplexObject
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -302,7 +302,7 @@ export class GlueCrawlerCatalogTargetOutputReference extends cdktn.ComplexObject
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -315,7 +315,7 @@ export class GlueCrawlerCatalogTargetOutputReference extends cdktn.ComplexObject
   }
 
   // dlq_event_queue_arn - computed: false, optional: true, required: false
-  private _dlqEventQueueArn?: string; 
+  private _dlqEventQueueArn?: string;
   public get dlqEventQueueArn() {
     return this.getStringAttribute('dlq_event_queue_arn');
   }
@@ -331,7 +331,7 @@ export class GlueCrawlerCatalogTargetOutputReference extends cdktn.ComplexObject
   }
 
   // event_queue_arn - computed: false, optional: true, required: false
-  private _eventQueueArn?: string; 
+  private _eventQueueArn?: string;
   public get eventQueueArn() {
     return this.getStringAttribute('event_queue_arn');
   }
@@ -347,7 +347,7 @@ export class GlueCrawlerCatalogTargetOutputReference extends cdktn.ComplexObject
   }
 
   // tables - computed: false, optional: false, required: true
-  private _tables?: string[]; 
+  private _tables?: string[];
   public get tables() {
     return this.getListAttribute('tables');
   }
@@ -381,19 +381,19 @@ export class GlueCrawlerCatalogTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerDeltaTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}
   */
   readonly createNativeDeltaTable?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}
   */
   readonly deltaTables: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}
   */
   readonly writeManifest: boolean | cdktn.IResolvable;
 }
@@ -511,7 +511,7 @@ export class GlueCrawlerDeltaTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -527,7 +527,7 @@ export class GlueCrawlerDeltaTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // create_native_delta_table - computed: false, optional: true, required: false
-  private _createNativeDeltaTable?: boolean | cdktn.IResolvable; 
+  private _createNativeDeltaTable?: boolean | cdktn.IResolvable;
   public get createNativeDeltaTable() {
     return this.getBooleanAttribute('create_native_delta_table');
   }
@@ -543,7 +543,7 @@ export class GlueCrawlerDeltaTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // delta_tables - computed: false, optional: false, required: true
-  private _deltaTables?: string[]; 
+  private _deltaTables?: string[];
   public get deltaTables() {
     return cdktn.Fn.tolist(this.getListAttribute('delta_tables'));
   }
@@ -556,7 +556,7 @@ export class GlueCrawlerDeltaTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // write_manifest - computed: false, optional: false, required: true
-  private _writeManifest?: boolean | cdktn.IResolvable; 
+  private _writeManifest?: boolean | cdktn.IResolvable;
   public get writeManifest() {
     return this.getBooleanAttribute('write_manifest');
   }
@@ -590,15 +590,15 @@ export class GlueCrawlerDeltaTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerDynamodbTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#path GlueCrawler#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#path GlueCrawler#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
   */
   readonly scanAll?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}
   */
   readonly scanRate?: number;
 }
@@ -703,7 +703,7 @@ export class GlueCrawlerDynamodbTargetOutputReference extends cdktn.ComplexObjec
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -716,7 +716,7 @@ export class GlueCrawlerDynamodbTargetOutputReference extends cdktn.ComplexObjec
   }
 
   // scan_all - computed: false, optional: true, required: false
-  private _scanAll?: boolean | cdktn.IResolvable; 
+  private _scanAll?: boolean | cdktn.IResolvable;
   public get scanAll() {
     return this.getBooleanAttribute('scan_all');
   }
@@ -732,7 +732,7 @@ export class GlueCrawlerDynamodbTargetOutputReference extends cdktn.ComplexObjec
   }
 
   // scan_rate - computed: false, optional: true, required: false
-  private _scanRate?: number; 
+  private _scanRate?: number;
   public get scanRate() {
     return this.getNumberAttribute('scan_rate');
   }
@@ -769,19 +769,19 @@ export class GlueCrawlerDynamodbTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerHudiTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
   */
   readonly maximumTraversalDepth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
   */
   readonly paths: string[];
 }
@@ -899,7 +899,7 @@ export class GlueCrawlerHudiTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -915,7 +915,7 @@ export class GlueCrawlerHudiTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // exclusions - computed: false, optional: true, required: false
-  private _exclusions?: string[]; 
+  private _exclusions?: string[];
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -931,7 +931,7 @@ export class GlueCrawlerHudiTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // maximum_traversal_depth - computed: false, optional: false, required: true
-  private _maximumTraversalDepth?: number; 
+  private _maximumTraversalDepth?: number;
   public get maximumTraversalDepth() {
     return this.getNumberAttribute('maximum_traversal_depth');
   }
@@ -944,7 +944,7 @@ export class GlueCrawlerHudiTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // paths - computed: false, optional: false, required: true
-  private _paths?: string[]; 
+  private _paths?: string[];
   public get paths() {
     return cdktn.Fn.tolist(this.getListAttribute('paths'));
   }
@@ -978,19 +978,19 @@ export class GlueCrawlerHudiTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerIcebergTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
   */
   readonly maximumTraversalDepth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
   */
   readonly paths: string[];
 }
@@ -1108,7 +1108,7 @@ export class GlueCrawlerIcebergTargetOutputReference extends cdktn.ComplexObject
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1124,7 +1124,7 @@ export class GlueCrawlerIcebergTargetOutputReference extends cdktn.ComplexObject
   }
 
   // exclusions - computed: false, optional: true, required: false
-  private _exclusions?: string[]; 
+  private _exclusions?: string[];
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -1140,7 +1140,7 @@ export class GlueCrawlerIcebergTargetOutputReference extends cdktn.ComplexObject
   }
 
   // maximum_traversal_depth - computed: false, optional: false, required: true
-  private _maximumTraversalDepth?: number; 
+  private _maximumTraversalDepth?: number;
   public get maximumTraversalDepth() {
     return this.getNumberAttribute('maximum_traversal_depth');
   }
@@ -1153,7 +1153,7 @@ export class GlueCrawlerIcebergTargetOutputReference extends cdktn.ComplexObject
   }
 
   // paths - computed: false, optional: false, required: true
-  private _paths?: string[]; 
+  private _paths?: string[];
   public get paths() {
     return cdktn.Fn.tolist(this.getListAttribute('paths'));
   }
@@ -1187,19 +1187,19 @@ export class GlueCrawlerIcebergTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerJdbcTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}
   */
   readonly enableAdditionalMetadata?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#path GlueCrawler#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#path GlueCrawler#path}
   */
   readonly path: string;
 }
@@ -1317,7 +1317,7 @@ export class GlueCrawlerJdbcTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // connection_name - computed: false, optional: false, required: true
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1330,7 +1330,7 @@ export class GlueCrawlerJdbcTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // enable_additional_metadata - computed: false, optional: true, required: false
-  private _enableAdditionalMetadata?: string[]; 
+  private _enableAdditionalMetadata?: string[];
   public get enableAdditionalMetadata() {
     return this.getListAttribute('enable_additional_metadata');
   }
@@ -1346,7 +1346,7 @@ export class GlueCrawlerJdbcTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // exclusions - computed: false, optional: true, required: false
-  private _exclusions?: string[]; 
+  private _exclusions?: string[];
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -1362,7 +1362,7 @@ export class GlueCrawlerJdbcTargetOutputReference extends cdktn.ComplexObject {
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1396,11 +1396,11 @@ export class GlueCrawlerJdbcTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerLakeFormationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}
   */
   readonly useLakeFormationCredentials?: boolean | cdktn.IResolvable;
 }
@@ -1480,7 +1480,7 @@ export class GlueCrawlerLakeFormationConfigurationOutputReference extends cdktn.
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1496,7 +1496,7 @@ export class GlueCrawlerLakeFormationConfigurationOutputReference extends cdktn.
   }
 
   // use_lake_formation_credentials - computed: false, optional: true, required: false
-  private _useLakeFormationCredentials?: boolean | cdktn.IResolvable; 
+  private _useLakeFormationCredentials?: boolean | cdktn.IResolvable;
   public get useLakeFormationCredentials() {
     return this.getBooleanAttribute('use_lake_formation_credentials');
   }
@@ -1513,7 +1513,7 @@ export class GlueCrawlerLakeFormationConfigurationOutputReference extends cdktn.
 }
 export interface GlueCrawlerLineageConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#crawler_lineage_settings GlueCrawler#crawler_lineage_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#crawler_lineage_settings GlueCrawler#crawler_lineage_settings}
   */
   readonly crawlerLineageSettings?: string;
 }
@@ -1580,7 +1580,7 @@ export class GlueCrawlerLineageConfigurationOutputReference extends cdktn.Comple
   }
 
   // crawler_lineage_settings - computed: false, optional: true, required: false
-  private _crawlerLineageSettings?: string; 
+  private _crawlerLineageSettings?: string;
   public get crawlerLineageSettings() {
     return this.getStringAttribute('crawler_lineage_settings');
   }
@@ -1597,15 +1597,15 @@ export class GlueCrawlerLineageConfigurationOutputReference extends cdktn.Comple
 }
 export interface GlueCrawlerMongodbTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#path GlueCrawler#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#path GlueCrawler#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
   */
   readonly scanAll?: boolean | cdktn.IResolvable;
 }
@@ -1710,7 +1710,7 @@ export class GlueCrawlerMongodbTargetOutputReference extends cdktn.ComplexObject
   }
 
   // connection_name - computed: false, optional: false, required: true
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1723,7 +1723,7 @@ export class GlueCrawlerMongodbTargetOutputReference extends cdktn.ComplexObject
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1736,7 +1736,7 @@ export class GlueCrawlerMongodbTargetOutputReference extends cdktn.ComplexObject
   }
 
   // scan_all - computed: false, optional: true, required: false
-  private _scanAll?: boolean | cdktn.IResolvable; 
+  private _scanAll?: boolean | cdktn.IResolvable;
   public get scanAll() {
     return this.getBooleanAttribute('scan_all');
   }
@@ -1773,7 +1773,7 @@ export class GlueCrawlerMongodbTargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerRecrawlPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}
   */
   readonly recrawlBehavior?: string;
 }
@@ -1840,7 +1840,7 @@ export class GlueCrawlerRecrawlPolicyOutputReference extends cdktn.ComplexObject
   }
 
   // recrawl_behavior - computed: false, optional: true, required: false
-  private _recrawlBehavior?: string; 
+  private _recrawlBehavior?: string;
   public get recrawlBehavior() {
     return this.getStringAttribute('recrawl_behavior');
   }
@@ -1857,27 +1857,27 @@ export class GlueCrawlerRecrawlPolicyOutputReference extends cdktn.ComplexObject
 }
 export interface GlueCrawlerS3Target {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
   */
   readonly connectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
   */
   readonly dlqEventQueueArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
   */
   readonly eventQueueArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#path GlueCrawler#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#path GlueCrawler#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#sample_size GlueCrawler#sample_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#sample_size GlueCrawler#sample_size}
   */
   readonly sampleSize?: number;
 }
@@ -2021,7 +2021,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -2037,7 +2037,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // dlq_event_queue_arn - computed: false, optional: true, required: false
-  private _dlqEventQueueArn?: string; 
+  private _dlqEventQueueArn?: string;
   public get dlqEventQueueArn() {
     return this.getStringAttribute('dlq_event_queue_arn');
   }
@@ -2053,7 +2053,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // event_queue_arn - computed: false, optional: true, required: false
-  private _eventQueueArn?: string; 
+  private _eventQueueArn?: string;
   public get eventQueueArn() {
     return this.getStringAttribute('event_queue_arn');
   }
@@ -2069,7 +2069,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // exclusions - computed: false, optional: true, required: false
-  private _exclusions?: string[]; 
+  private _exclusions?: string[];
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -2085,7 +2085,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2098,7 +2098,7 @@ export class GlueCrawlerS3TargetOutputReference extends cdktn.ComplexObject {
   }
 
   // sample_size - computed: false, optional: true, required: false
-  private _sampleSize?: number; 
+  private _sampleSize?: number;
   public get sampleSize() {
     return this.getNumberAttribute('sample_size');
   }
@@ -2135,11 +2135,11 @@ export class GlueCrawlerS3TargetList extends cdktn.ComplexList {
 }
 export interface GlueCrawlerSchemaChangePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}
   */
   readonly deleteBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}
   */
   readonly updateBehavior?: string;
 }
@@ -2219,7 +2219,7 @@ export class GlueCrawlerSchemaChangePolicyOutputReference extends cdktn.ComplexO
   }
 
   // delete_behavior - computed: false, optional: true, required: false
-  private _deleteBehavior?: string; 
+  private _deleteBehavior?: string;
   public get deleteBehavior() {
     return this.getStringAttribute('delete_behavior');
   }
@@ -2235,7 +2235,7 @@ export class GlueCrawlerSchemaChangePolicyOutputReference extends cdktn.ComplexO
   }
 
   // update_behavior - computed: false, optional: true, required: false
-  private _updateBehavior?: string; 
+  private _updateBehavior?: string;
   public get updateBehavior() {
     return this.getStringAttribute('update_behavior');
   }
@@ -2252,7 +2252,7 @@ export class GlueCrawlerSchemaChangePolicyOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler aws_glue_crawler}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler aws_glue_crawler}
 */
 export class GlueCrawler extends cdktn.TerraformResource {
 
@@ -2268,7 +2268,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueCrawler resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueCrawler to import
-  * @param importFromId The id of the existing GlueCrawler that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueCrawler that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueCrawler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2280,7 +2280,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_crawler aws_glue_crawler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_crawler aws_glue_crawler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2291,7 +2291,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
       terraformResourceType: 'aws_glue_crawler',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2338,7 +2338,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // classifiers - computed: false, optional: true, required: false
-  private _classifiers?: string[]; 
+  private _classifiers?: string[];
   public get classifiers() {
     return this.getListAttribute('classifiers');
   }
@@ -2354,7 +2354,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: string; 
+  private _configuration?: string;
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -2370,7 +2370,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2383,7 +2383,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2399,7 +2399,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2415,7 +2415,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2428,7 +2428,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2444,7 +2444,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -2457,7 +2457,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: true, required: false
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -2473,7 +2473,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string; 
+  private _securityConfiguration?: string;
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -2489,7 +2489,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // table_prefix - computed: false, optional: true, required: false
-  private _tablePrefix?: string; 
+  private _tablePrefix?: string;
   public get tablePrefix() {
     return this.getStringAttribute('table_prefix');
   }
@@ -2505,7 +2505,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2521,7 +2521,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

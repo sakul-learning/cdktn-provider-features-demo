@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerHyperParameterTuningJobConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#region SagemakerHyperParameterTuningJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#region SagemakerHyperParameterTuningJob#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tags SagemakerHyperParameterTuningJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tags SagemakerHyperParameterTuningJob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * autotune block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#autotune SagemakerHyperParameterTuningJob#autotune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#autotune SagemakerHyperParameterTuningJob#autotune}
   */
   readonly autotune?: SagemakerHyperParameterTuningJobAutotune[] | cdktn.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#config SagemakerHyperParameterTuningJob#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#config SagemakerHyperParameterTuningJob#config}
   */
   readonly config?: SagemakerHyperParameterTuningJobConfigA[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#timeouts SagemakerHyperParameterTuningJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#timeouts SagemakerHyperParameterTuningJob#timeouts}
   */
   readonly timeouts?: SagemakerHyperParameterTuningJobTimeouts;
   /**
   * training_job_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_definition SagemakerHyperParameterTuningJob#training_job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_definition SagemakerHyperParameterTuningJob#training_job_definition}
   */
   readonly trainingJobDefinition?: SagemakerHyperParameterTuningJobTrainingJobDefinition[] | cdktn.IResolvable;
   /**
   * training_job_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_definitions SagemakerHyperParameterTuningJob#training_job_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_definitions SagemakerHyperParameterTuningJob#training_job_definitions}
   */
   readonly trainingJobDefinitions?: SagemakerHyperParameterTuningJobTrainingJobDefinitions[] | cdktn.IResolvable;
   /**
   * warm_start_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_config SagemakerHyperParameterTuningJob#warm_start_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_config SagemakerHyperParameterTuningJob#warm_start_config}
   */
   readonly warmStartConfig?: SagemakerHyperParameterTuningJobWarmStartConfig[] | cdktn.IResolvable;
 }
 export interface SagemakerHyperParameterTuningJobAutotune {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#mode SagemakerHyperParameterTuningJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#mode SagemakerHyperParameterTuningJob#mode}
   */
   readonly mode: string;
 }
@@ -139,7 +139,7 @@ export class SagemakerHyperParameterTuningJobAutotuneOutputReference extends cdk
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -173,11 +173,11 @@ export class SagemakerHyperParameterTuningJobAutotuneList extends cdktn.ComplexL
 }
 export interface SagemakerHyperParameterTuningJobConfigObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
   */
   readonly type: string;
 }
@@ -269,7 +269,7 @@ export class SagemakerHyperParameterTuningJobConfigObjectiveOutputReference exte
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -282,7 +282,7 @@ export class SagemakerHyperParameterTuningJobConfigObjectiveOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -316,11 +316,11 @@ export class SagemakerHyperParameterTuningJobConfigObjectiveList extends cdktn.C
 }
 export interface SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
   */
   readonly valueHint: string;
 }
@@ -412,7 +412,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -425,7 +425,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string; 
+  private _valueHint?: string;
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -459,11 +459,11 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters
 }
 export interface SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
   */
   readonly values: string[];
 }
@@ -555,7 +555,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalPar
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -568,7 +568,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalPar
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -602,19 +602,19 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalPar
 }
 export interface SagemakerHyperParameterTuningJobConfigParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -732,7 +732,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -745,7 +745,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -758,7 +758,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -771,7 +771,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -808,19 +808,19 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
 }
 export interface SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -938,7 +938,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -951,7 +951,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -964,7 +964,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -977,7 +977,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -1016,25 +1016,25 @@ export interface SagemakerHyperParameterTuningJobConfigParameterRanges {
   /**
   * auto_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
   */
   readonly autoParameters?: SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters[] | cdktn.IResolvable;
   /**
   * categorical_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalParameterRanges[] | cdktn.IResolvable;
   /**
   * continuous_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: SagemakerHyperParameterTuningJobConfigParameterRangesContinuousParameterRanges[] | cdktn.IResolvable;
   /**
   * integer_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParameterRanges[] | cdktn.IResolvable;
 }
@@ -1237,15 +1237,15 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesList extends c
 }
 export interface SagemakerHyperParameterTuningJobConfigResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_number_of_training_jobs SagemakerHyperParameterTuningJob#max_number_of_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_number_of_training_jobs SagemakerHyperParameterTuningJob#max_number_of_training_jobs}
   */
   readonly maxNumberOfTrainingJobs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_parallel_training_jobs SagemakerHyperParameterTuningJob#max_parallel_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_parallel_training_jobs SagemakerHyperParameterTuningJob#max_parallel_training_jobs}
   */
   readonly maxParallelTrainingJobs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -1350,7 +1350,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_number_of_training_jobs - computed: true, optional: true, required: false
-  private _maxNumberOfTrainingJobs?: number; 
+  private _maxNumberOfTrainingJobs?: number;
   public get maxNumberOfTrainingJobs() {
     return this.getNumberAttribute('max_number_of_training_jobs');
   }
@@ -1366,7 +1366,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_parallel_training_jobs - computed: false, optional: false, required: true
-  private _maxParallelTrainingJobs?: number; 
+  private _maxParallelTrainingJobs?: number;
   public get maxParallelTrainingJobs() {
     return this.getNumberAttribute('max_parallel_training_jobs');
   }
@@ -1379,7 +1379,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -1416,11 +1416,11 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsList extends cd
 }
 export interface SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_resource SagemakerHyperParameterTuningJob#max_resource}
   */
   readonly maxResource?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_resource SagemakerHyperParameterTuningJob#min_resource}
   */
   readonly minResource?: number;
 }
@@ -1512,7 +1512,7 @@ export class SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrate
   }
 
   // max_resource - computed: false, optional: true, required: false
-  private _maxResource?: number; 
+  private _maxResource?: number;
   public get maxResource() {
     return this.getNumberAttribute('max_resource');
   }
@@ -1528,7 +1528,7 @@ export class SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrate
   }
 
   // min_resource - computed: false, optional: true, required: false
-  private _minResource?: number; 
+  private _minResource?: number;
   public get minResource() {
     return this.getNumberAttribute('min_resource');
   }
@@ -1567,7 +1567,7 @@ export interface SagemakerHyperParameterTuningJobConfigStrategyConfig {
   /**
   * hyperband_strategy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
   */
   readonly hyperbandStrategyConfig?: SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrategyConfig[] | cdktn.IResolvable;
 }
@@ -1683,7 +1683,7 @@ export class SagemakerHyperParameterTuningJobConfigStrategyConfigList extends cd
 }
 export interface SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBestObjectiveNotImproving {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_number_of_training_jobs_not_improving SagemakerHyperParameterTuningJob#max_number_of_training_jobs_not_improving}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_number_of_training_jobs_not_improving SagemakerHyperParameterTuningJob#max_number_of_training_jobs_not_improving}
   */
   readonly maxNumberOfTrainingJobsNotImproving?: number;
 }
@@ -1762,7 +1762,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBe
   }
 
   // max_number_of_training_jobs_not_improving - computed: true, optional: true, required: false
-  private _maxNumberOfTrainingJobsNotImproving?: number; 
+  private _maxNumberOfTrainingJobsNotImproving?: number;
   public get maxNumberOfTrainingJobsNotImproving() {
     return this.getNumberAttribute('max_number_of_training_jobs_not_improving');
   }
@@ -1799,7 +1799,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBe
 }
 export interface SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}
   */
   readonly completeOnConvergence?: string;
 }
@@ -1878,7 +1878,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaCo
   }
 
   // complete_on_convergence - computed: false, optional: true, required: false
-  private _completeOnConvergence?: string; 
+  private _completeOnConvergence?: string;
   public get completeOnConvergence() {
     return this.getStringAttribute('complete_on_convergence');
   }
@@ -1915,19 +1915,19 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaCo
 }
 export interface SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#target_objective_metric_value SagemakerHyperParameterTuningJob#target_objective_metric_value}
   */
   readonly targetObjectiveMetricValue?: number;
   /**
   * best_objective_not_improving block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#best_objective_not_improving SagemakerHyperParameterTuningJob#best_objective_not_improving}
   */
   readonly bestObjectiveNotImproving?: SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBestObjectiveNotImproving[] | cdktn.IResolvable;
   /**
   * convergence_detected block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#convergence_detected SagemakerHyperParameterTuningJob#convergence_detected}
   */
   readonly convergenceDetected?: SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected[] | cdktn.IResolvable;
 }
@@ -2032,7 +2032,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaOu
   }
 
   // target_objective_metric_value - computed: false, optional: true, required: false
-  private _targetObjectiveMetricValue?: number; 
+  private _targetObjectiveMetricValue?: number;
   public get targetObjectiveMetricValue() {
     return this.getNumberAttribute('target_objective_metric_value');
   }
@@ -2101,45 +2101,45 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaLi
 }
 export interface SagemakerHyperParameterTuningJobConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#random_seed SagemakerHyperParameterTuningJob#random_seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#random_seed SagemakerHyperParameterTuningJob#random_seed}
   */
   readonly randomSeed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy SagemakerHyperParameterTuningJob#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy SagemakerHyperParameterTuningJob#strategy}
   */
   readonly strategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_early_stopping_type SagemakerHyperParameterTuningJob#training_job_early_stopping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_early_stopping_type SagemakerHyperParameterTuningJob#training_job_early_stopping_type}
   */
   readonly trainingJobEarlyStoppingType?: string;
   /**
   * objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#objective SagemakerHyperParameterTuningJob#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#objective SagemakerHyperParameterTuningJob#objective}
   */
   readonly objective?: SagemakerHyperParameterTuningJobConfigObjective[] | cdktn.IResolvable;
   /**
   * parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parameter_ranges SagemakerHyperParameterTuningJob#parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parameter_ranges SagemakerHyperParameterTuningJob#parameter_ranges}
   */
   readonly parameterRanges?: SagemakerHyperParameterTuningJobConfigParameterRanges[] | cdktn.IResolvable;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_limits SagemakerHyperParameterTuningJob#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_limits SagemakerHyperParameterTuningJob#resource_limits}
   */
   readonly resourceLimits?: SagemakerHyperParameterTuningJobConfigResourceLimits[] | cdktn.IResolvable;
   /**
   * strategy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy_config SagemakerHyperParameterTuningJob#strategy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy_config SagemakerHyperParameterTuningJob#strategy_config}
   */
   readonly strategyConfig?: SagemakerHyperParameterTuningJobConfigStrategyConfig[] | cdktn.IResolvable;
   /**
   * tuning_job_completion_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_job_completion_criteria SagemakerHyperParameterTuningJob#tuning_job_completion_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_job_completion_criteria SagemakerHyperParameterTuningJob#tuning_job_completion_criteria}
   */
   readonly tuningJobCompletionCriteria?: SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteria[] | cdktn.IResolvable;
 }
@@ -2309,7 +2309,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // random_seed - computed: false, optional: true, required: false
-  private _randomSeed?: number; 
+  private _randomSeed?: number;
   public get randomSeed() {
     return this.getNumberAttribute('random_seed');
   }
@@ -2325,7 +2325,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // strategy - computed: false, optional: false, required: true
-  private _strategy?: string; 
+  private _strategy?: string;
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -2338,7 +2338,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // training_job_early_stopping_type - computed: true, optional: true, required: false
-  private _trainingJobEarlyStoppingType?: string; 
+  private _trainingJobEarlyStoppingType?: string;
   public get trainingJobEarlyStoppingType() {
     return this.getStringAttribute('training_job_early_stopping_type');
   }
@@ -2457,13 +2457,13 @@ export interface SagemakerHyperParameterTuningJobTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#create SagemakerHyperParameterTuningJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#create SagemakerHyperParameterTuningJob#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#delete SagemakerHyperParameterTuningJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#delete SagemakerHyperParameterTuningJob#delete}
   */
   readonly delete?: string;
 }
@@ -2553,7 +2553,7 @@ export class SagemakerHyperParameterTuningJobTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2569,7 +2569,7 @@ export class SagemakerHyperParameterTuningJobTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2586,7 +2586,7 @@ export class SagemakerHyperParameterTuningJobTimeoutsOutputReference extends cdk
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -2665,7 +2665,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategyO
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2702,11 +2702,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategyL
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#regex SagemakerHyperParameterTuningJob#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#regex SagemakerHyperParameterTuningJob#regex}
   */
   readonly regex: string;
 }
@@ -2798,7 +2798,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2811,7 +2811,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string; 
+  private _regex?: string;
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2845,21 +2845,21 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}
   */
   readonly trainingImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}
   */
   readonly trainingInputMode: string;
   /**
   * metric_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
   */
   readonly metricDefinitions?: SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions[] | cdktn.IResolvable;
 }
@@ -2977,7 +2977,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // algorithm_name - computed: true, optional: true, required: false
-  private _algorithmName?: string; 
+  private _algorithmName?: string;
   public get algorithmName() {
     return this.getStringAttribute('algorithm_name');
   }
@@ -2993,7 +2993,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // training_image - computed: true, optional: true, required: false
-  private _trainingImage?: string; 
+  private _trainingImage?: string;
   public get trainingImage() {
     return this.getStringAttribute('training_image');
   }
@@ -3009,7 +3009,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // training_input_mode - computed: false, optional: false, required: true
-  private _trainingInputMode?: string; 
+  private _trainingInputMode?: string;
   public get trainingInputMode() {
     return this.getStringAttribute('training_input_mode');
   }
@@ -3059,11 +3059,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#local_path SagemakerHyperParameterTuningJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#local_path SagemakerHyperParameterTuningJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -3155,7 +3155,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConf
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -3171,7 +3171,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConf
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -3205,11 +3205,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
   */
   readonly valueHint: string;
 }
@@ -3301,7 +3301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3314,7 +3314,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string; 
+  private _valueHint?: string;
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -3348,11 +3348,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
   */
   readonly values: string[];
 }
@@ -3444,7 +3444,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3457,7 +3457,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3491,19 +3491,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -3621,7 +3621,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -3634,7 +3634,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -3647,7 +3647,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3660,7 +3660,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -3697,19 +3697,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -3827,7 +3827,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -3840,7 +3840,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -3853,7 +3853,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3866,7 +3866,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -3905,25 +3905,25 @@ export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParam
   /**
   * auto_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
   */
   readonly autoParameters?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesAutoParameters[] | cdktn.IResolvable;
   /**
   * categorical_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesCategoricalParameterRanges[] | cdktn.IResolvable;
   /**
   * continuous_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesContinuousParameterRanges[] | cdktn.IResolvable;
   /**
   * integer_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRangesIntegerParameterRanges[] | cdktn.IResolvable;
 }
@@ -4126,15 +4126,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -4239,7 +4239,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4255,7 +4255,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4271,7 +4271,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -4308,29 +4308,29 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterTuningResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#allocation_strategy SagemakerHyperParameterTuningJob#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#allocation_strategy SagemakerHyperParameterTuningJob#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
   * instance_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_configs SagemakerHyperParameterTuningJob#instance_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_configs SagemakerHyperParameterTuningJob#instance_configs}
   */
   readonly instanceConfigs?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigs[] | cdktn.IResolvable;
 }
@@ -4474,7 +4474,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4490,7 +4490,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4506,7 +4506,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4522,7 +4522,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -4538,7 +4538,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -4591,19 +4591,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#directory_path SagemakerHyperParameterTuningJob#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#directory_path SagemakerHyperParameterTuningJob#directory_path}
   */
   readonly directoryPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_access_mode SagemakerHyperParameterTuningJob#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_access_mode SagemakerHyperParameterTuningJob#file_system_access_mode}
   */
   readonly fileSystemAccessMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_id SagemakerHyperParameterTuningJob#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_id SagemakerHyperParameterTuningJob#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_type SagemakerHyperParameterTuningJob#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_type SagemakerHyperParameterTuningJob#file_system_type}
   */
   readonly fileSystemType: string;
 }
@@ -4721,7 +4721,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // directory_path - computed: false, optional: false, required: true
-  private _directoryPath?: string; 
+  private _directoryPath?: string;
   public get directoryPath() {
     return this.getStringAttribute('directory_path');
   }
@@ -4734,7 +4734,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_access_mode - computed: false, optional: false, required: true
-  private _fileSystemAccessMode?: string; 
+  private _fileSystemAccessMode?: string;
   public get fileSystemAccessMode() {
     return this.getStringAttribute('file_system_access_mode');
   }
@@ -4747,7 +4747,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -4760,7 +4760,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_type - computed: false, optional: false, required: true
-  private _fileSystemType?: string; 
+  private _fileSystemType?: string;
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -4794,7 +4794,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}
   */
   readonly hubContentArn: string;
 }
@@ -4873,7 +4873,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // hub_content_arn - computed: false, optional: false, required: true
-  private _hubContentArn?: string; 
+  private _hubContentArn?: string;
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -4907,7 +4907,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}
   */
   readonly acceptEula: boolean | cdktn.IResolvable;
 }
@@ -4986,7 +4986,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable; 
+  private _acceptEula?: boolean | cdktn.IResolvable;
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -5020,35 +5020,35 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}
   */
   readonly s3DataType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
   */
   readonly s3Uri: string;
   /**
   * hub_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
   */
   readonly hubAccessConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfig[] | cdktn.IResolvable;
   /**
   * model_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
   */
   readonly modelAccessConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfig[] | cdktn.IResolvable;
 }
@@ -5205,7 +5205,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // attribute_names - computed: false, optional: true, required: false
-  private _attributeNames?: string[]; 
+  private _attributeNames?: string[];
   public get attributeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_names'));
   }
@@ -5221,7 +5221,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // instance_group_names - computed: false, optional: true, required: false
-  private _instanceGroupNames?: string[]; 
+  private _instanceGroupNames?: string[];
   public get instanceGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_group_names'));
   }
@@ -5237,7 +5237,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_data_distribution_type - computed: false, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -5253,7 +5253,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string; 
+  private _s3DataType?: string;
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -5266,7 +5266,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -5334,13 +5334,13 @@ export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataC
   /**
   * file_system_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_data_source SagemakerHyperParameterTuningJob#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_data_source SagemakerHyperParameterTuningJob#file_system_data_source}
   */
   readonly fileSystemDataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSource[] | cdktn.IResolvable;
   /**
   * s3_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_source SagemakerHyperParameterTuningJob#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_source SagemakerHyperParameterTuningJob#s3_data_source}
   */
   readonly s3DataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSource[] | cdktn.IResolvable;
 }
@@ -5485,7 +5485,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}
   */
   readonly seed: number;
 }
@@ -5564,7 +5564,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // seed - computed: false, optional: false, required: true
-  private _seed?: number; 
+  private _seed?: number;
   public get seed() {
     return this.getNumberAttribute('seed');
   }
@@ -5598,35 +5598,35 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#channel_name SagemakerHyperParameterTuningJob#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#channel_name SagemakerHyperParameterTuningJob#channel_name}
   */
   readonly channelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#content_type SagemakerHyperParameterTuningJob#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#content_type SagemakerHyperParameterTuningJob#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_mode SagemakerHyperParameterTuningJob#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_mode SagemakerHyperParameterTuningJob#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#record_wrapper_type SagemakerHyperParameterTuningJob#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#record_wrapper_type SagemakerHyperParameterTuningJob#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#data_source SagemakerHyperParameterTuningJob#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#data_source SagemakerHyperParameterTuningJob#data_source}
   */
   readonly dataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSource[] | cdktn.IResolvable;
   /**
   * shuffle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#shuffle_config SagemakerHyperParameterTuningJob#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#shuffle_config SagemakerHyperParameterTuningJob#shuffle_config}
   */
   readonly shuffleConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigShuffleConfig[] | cdktn.IResolvable;
 }
@@ -5783,7 +5783,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -5796,7 +5796,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -5812,7 +5812,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // content_type - computed: false, optional: true, required: false
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -5828,7 +5828,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // input_mode - computed: false, optional: true, required: false
-  private _inputMode?: string; 
+  private _inputMode?: string;
   public get inputMode() {
     return this.getStringAttribute('input_mode');
   }
@@ -5844,7 +5844,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // record_wrapper_type - computed: false, optional: true, required: false
-  private _recordWrapperType?: string; 
+  private _recordWrapperType?: string;
   public get recordWrapperType() {
     return this.getStringAttribute('record_wrapper_type');
   }
@@ -5913,15 +5913,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#kms_key_id SagemakerHyperParameterTuningJob#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#kms_key_id SagemakerHyperParameterTuningJob#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_output_path SagemakerHyperParameterTuningJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_output_path SagemakerHyperParameterTuningJob#s3_output_path}
   */
   readonly s3OutputPath: string;
 }
@@ -6026,7 +6026,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -6042,7 +6042,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -6058,7 +6058,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -6092,15 +6092,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_name SagemakerHyperParameterTuningJob#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_name SagemakerHyperParameterTuningJob#instance_group_name}
   */
   readonly instanceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType: string;
 }
@@ -6205,7 +6205,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6218,7 +6218,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_group_name - computed: false, optional: false, required: true
-  private _instanceGroupName?: string; 
+  private _instanceGroupName?: string;
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -6231,7 +6231,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -6265,11 +6265,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#ultra_server_id SagemakerHyperParameterTuningJob#ultra_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#ultra_server_id SagemakerHyperParameterTuningJob#ultra_server_id}
   */
   readonly ultraServerId?: string;
 }
@@ -6361,7 +6361,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6374,7 +6374,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // ultra_server_id - computed: false, optional: true, required: false
-  private _ultraServerId?: string; 
+  private _ultraServerId?: string;
   public get ultraServerId() {
     return this.getStringAttribute('ultra_server_id');
   }
@@ -6411,13 +6411,13 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstancePlacementConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}
   */
   readonly enableMultipleJobs?: boolean | cdktn.IResolvable;
   /**
   * placement_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
   */
   readonly placementSpecifications?: SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecifications[] | cdktn.IResolvable;
 }
@@ -6509,7 +6509,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // enable_multiple_jobs - computed: false, optional: true, required: false
-  private _enableMultipleJobs?: boolean | cdktn.IResolvable; 
+  private _enableMultipleJobs?: boolean | cdktn.IResolvable;
   public get enableMultipleJobs() {
     return this.getBooleanAttribute('enable_multiple_jobs');
   }
@@ -6562,39 +6562,39 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#keep_alive_period_in_seconds SagemakerHyperParameterTuningJob#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#keep_alive_period_in_seconds SagemakerHyperParameterTuningJob#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_plan_arn SagemakerHyperParameterTuningJob#training_plan_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_plan_arn SagemakerHyperParameterTuningJob#training_plan_arn}
   */
   readonly trainingPlanArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
   * instance_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_groups SagemakerHyperParameterTuningJob#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_groups SagemakerHyperParameterTuningJob#instance_groups}
   */
   readonly instanceGroups?: SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstanceGroups[] | cdktn.IResolvable;
   /**
   * instance_placement_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_placement_config SagemakerHyperParameterTuningJob#instance_placement_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_placement_config SagemakerHyperParameterTuningJob#instance_placement_config}
   */
   readonly instancePlacementConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfigInstancePlacementConfig[] | cdktn.IResolvable;
 }
@@ -6764,7 +6764,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6780,7 +6780,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -6796,7 +6796,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // keep_alive_period_in_seconds - computed: false, optional: true, required: false
-  private _keepAlivePeriodInSeconds?: number; 
+  private _keepAlivePeriodInSeconds?: number;
   public get keepAlivePeriodInSeconds() {
     return this.getNumberAttribute('keep_alive_period_in_seconds');
   }
@@ -6812,7 +6812,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // training_plan_arn - computed: false, optional: true, required: false
-  private _trainingPlanArn?: string; 
+  private _trainingPlanArn?: string;
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -6828,7 +6828,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -6844,7 +6844,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -6913,15 +6913,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_pending_time_in_seconds SagemakerHyperParameterTuningJob#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_pending_time_in_seconds SagemakerHyperParameterTuningJob#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_wait_time_in_seconds SagemakerHyperParameterTuningJob#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_wait_time_in_seconds SagemakerHyperParameterTuningJob#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -7026,7 +7026,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_pending_time_in_seconds - computed: false, optional: true, required: false
-  private _maxPendingTimeInSeconds?: number; 
+  private _maxPendingTimeInSeconds?: number;
   public get maxPendingTimeInSeconds() {
     return this.getNumberAttribute('max_pending_time_in_seconds');
   }
@@ -7042,7 +7042,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_runtime_in_seconds - computed: false, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -7058,7 +7058,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_wait_time_in_seconds - computed: false, optional: true, required: false
-  private _maxWaitTimeInSeconds?: number; 
+  private _maxWaitTimeInSeconds?: number;
   public get maxWaitTimeInSeconds() {
     return this.getNumberAttribute('max_wait_time_in_seconds');
   }
@@ -7095,11 +7095,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
   */
   readonly type: string;
 }
@@ -7191,7 +7191,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjectiv
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -7204,7 +7204,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjectiv
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7238,11 +7238,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjectiv
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#security_group_ids SagemakerHyperParameterTuningJob#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#security_group_ids SagemakerHyperParameterTuningJob#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#subnets SagemakerHyperParameterTuningJob#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#subnets SagemakerHyperParameterTuningJob#subnets}
   */
   readonly subnets: string[];
 }
@@ -7334,7 +7334,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfigOutpu
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -7347,7 +7347,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfigOutpu
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -7381,95 +7381,95 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfigList 
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#definition_name SagemakerHyperParameterTuningJob#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#definition_name SagemakerHyperParameterTuningJob#definition_name}
   */
   readonly definitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_inter_container_traffic_encryption SagemakerHyperParameterTuningJob#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_inter_container_traffic_encryption SagemakerHyperParameterTuningJob#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_managed_spot_training SagemakerHyperParameterTuningJob#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_managed_spot_training SagemakerHyperParameterTuningJob#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_network_isolation SagemakerHyperParameterTuningJob#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_network_isolation SagemakerHyperParameterTuningJob#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#environment SagemakerHyperParameterTuningJob#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#environment SagemakerHyperParameterTuningJob#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#retry_strategy SagemakerHyperParameterTuningJob#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#retry_strategy SagemakerHyperParameterTuningJob#retry_strategy}
   */
   readonly retryStrategy?: SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategy[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#role_arn SagemakerHyperParameterTuningJob#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#role_arn SagemakerHyperParameterTuningJob#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#static_hyper_parameters SagemakerHyperParameterTuningJob#static_hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#static_hyper_parameters SagemakerHyperParameterTuningJob#static_hyper_parameters}
   */
   readonly staticHyperParameters?: { [key: string]: string };
   /**
   * algorithm_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_specification SagemakerHyperParameterTuningJob#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_specification SagemakerHyperParameterTuningJob#algorithm_specification}
   */
   readonly algorithmSpecification?: SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecification[] | cdktn.IResolvable;
   /**
   * checkpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#checkpoint_config SagemakerHyperParameterTuningJob#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#checkpoint_config SagemakerHyperParameterTuningJob#checkpoint_config}
   */
   readonly checkpointConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConfig[] | cdktn.IResolvable;
   /**
   * hyper_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_ranges SagemakerHyperParameterTuningJob#hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_ranges SagemakerHyperParameterTuningJob#hyper_parameter_ranges}
   */
   readonly hyperParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterRanges[] | cdktn.IResolvable;
   /**
   * hyper_parameter_tuning_resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_tuning_resource_config SagemakerHyperParameterTuningJob#hyper_parameter_tuning_resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_tuning_resource_config SagemakerHyperParameterTuningJob#hyper_parameter_tuning_resource_config}
   */
   readonly hyperParameterTuningResourceConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameterTuningResourceConfig[] | cdktn.IResolvable;
   /**
   * input_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_data_config SagemakerHyperParameterTuningJob#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_data_config SagemakerHyperParameterTuningJob#input_data_config}
   */
   readonly inputDataConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfig[] | cdktn.IResolvable;
   /**
   * output_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#output_data_config SagemakerHyperParameterTuningJob#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#output_data_config SagemakerHyperParameterTuningJob#output_data_config}
   */
   readonly outputDataConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConfig[] | cdktn.IResolvable;
   /**
   * resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_config SagemakerHyperParameterTuningJob#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_config SagemakerHyperParameterTuningJob#resource_config}
   */
   readonly resourceConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig[] | cdktn.IResolvable;
   /**
   * stopping_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#stopping_condition SagemakerHyperParameterTuningJob#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#stopping_condition SagemakerHyperParameterTuningJob#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondition[] | cdktn.IResolvable;
   /**
   * tuning_objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_objective SagemakerHyperParameterTuningJob#tuning_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_objective SagemakerHyperParameterTuningJob#tuning_objective}
   */
   readonly tuningObjective?: SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjective[] | cdktn.IResolvable;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#vpc_config SagemakerHyperParameterTuningJob#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#vpc_config SagemakerHyperParameterTuningJob#vpc_config}
   */
   readonly vpcConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfig[] | cdktn.IResolvable;
 }
@@ -7769,7 +7769,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // definition_name - computed: false, optional: true, required: false
-  private _definitionName?: string; 
+  private _definitionName?: string;
   public get definitionName() {
     return this.getStringAttribute('definition_name');
   }
@@ -7785,7 +7785,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -7801,7 +7801,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_managed_spot_training - computed: true, optional: true, required: false
-  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable; 
+  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   public get enableManagedSpotTraining() {
     return this.getBooleanAttribute('enable_managed_spot_training');
   }
@@ -7817,7 +7817,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -7833,7 +7833,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -7865,7 +7865,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7878,7 +7878,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // static_hyper_parameters - computed: true, optional: true, required: false
-  private _staticHyperParameters?: { [key: string]: string }; 
+  private _staticHyperParameters?: { [key: string]: string };
   public get staticHyperParameters() {
     return this.getStringMapAttribute('static_hyper_parameters');
   }
@@ -8075,7 +8075,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionList extends c
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -8154,7 +8154,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsRetryStrategy
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -8191,11 +8191,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsRetryStrategy
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#regex SagemakerHyperParameterTuningJob#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#regex SagemakerHyperParameterTuningJob#regex}
   */
   readonly regex: string;
 }
@@ -8287,7 +8287,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8300,7 +8300,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string; 
+  private _regex?: string;
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -8334,21 +8334,21 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}
   */
   readonly trainingImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}
   */
   readonly trainingInputMode: string;
   /**
   * metric_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
   */
   readonly metricDefinitions?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpecificationMetricDefinitions[] | cdktn.IResolvable;
 }
@@ -8466,7 +8466,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // algorithm_name - computed: true, optional: true, required: false
-  private _algorithmName?: string; 
+  private _algorithmName?: string;
   public get algorithmName() {
     return this.getStringAttribute('algorithm_name');
   }
@@ -8482,7 +8482,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // training_image - computed: true, optional: true, required: false
-  private _trainingImage?: string; 
+  private _trainingImage?: string;
   public get trainingImage() {
     return this.getStringAttribute('training_image');
   }
@@ -8498,7 +8498,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // training_input_mode - computed: false, optional: false, required: true
-  private _trainingInputMode?: string; 
+  private _trainingInputMode?: string;
   public get trainingInputMode() {
     return this.getStringAttribute('training_input_mode');
   }
@@ -8548,11 +8548,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#local_path SagemakerHyperParameterTuningJob#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#local_path SagemakerHyperParameterTuningJob#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -8644,7 +8644,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointCon
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -8660,7 +8660,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointCon
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -8694,11 +8694,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointCon
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#value_hint SagemakerHyperParameterTuningJob#value_hint}
   */
   readonly valueHint: string;
 }
@@ -8790,7 +8790,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8803,7 +8803,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string; 
+  private _valueHint?: string;
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -8837,11 +8837,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#values SagemakerHyperParameterTuningJob#values}
   */
   readonly values: string[];
 }
@@ -8933,7 +8933,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8946,7 +8946,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -8980,19 +8980,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -9110,7 +9110,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -9123,7 +9123,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -9136,7 +9136,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9149,7 +9149,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -9186,19 +9186,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_value SagemakerHyperParameterTuningJob#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#min_value SagemakerHyperParameterTuningJob#min_value}
   */
   readonly minValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#scaling_type SagemakerHyperParameterTuningJob#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -9316,7 +9316,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string; 
+  private _maxValue?: string;
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -9329,7 +9329,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string; 
+  private _minValue?: string;
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -9342,7 +9342,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9355,7 +9355,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -9394,25 +9394,25 @@ export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperPara
   /**
   * auto_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#auto_parameters SagemakerHyperParameterTuningJob#auto_parameters}
   */
   readonly autoParameters?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesAutoParameters[] | cdktn.IResolvable;
   /**
   * categorical_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#categorical_parameter_ranges SagemakerHyperParameterTuningJob#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesCategoricalParameterRanges[] | cdktn.IResolvable;
   /**
   * continuous_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#continuous_parameter_ranges SagemakerHyperParameterTuningJob#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesContinuousParameterRanges[] | cdktn.IResolvable;
   /**
   * integer_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#integer_parameter_ranges SagemakerHyperParameterTuningJob#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRangesIntegerParameterRanges[] | cdktn.IResolvable;
 }
@@ -9615,15 +9615,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -9728,7 +9728,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -9744,7 +9744,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -9760,7 +9760,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -9797,29 +9797,29 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterTuningResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#allocation_strategy SagemakerHyperParameterTuningJob#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#allocation_strategy SagemakerHyperParameterTuningJob#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
   * instance_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_configs SagemakerHyperParameterTuningJob#instance_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_configs SagemakerHyperParameterTuningJob#instance_configs}
   */
   readonly instanceConfigs?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigs[] | cdktn.IResolvable;
 }
@@ -9963,7 +9963,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -9979,7 +9979,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -9995,7 +9995,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -10011,7 +10011,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -10027,7 +10027,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -10080,19 +10080,19 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#directory_path SagemakerHyperParameterTuningJob#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#directory_path SagemakerHyperParameterTuningJob#directory_path}
   */
   readonly directoryPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_access_mode SagemakerHyperParameterTuningJob#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_access_mode SagemakerHyperParameterTuningJob#file_system_access_mode}
   */
   readonly fileSystemAccessMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_id SagemakerHyperParameterTuningJob#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_id SagemakerHyperParameterTuningJob#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_type SagemakerHyperParameterTuningJob#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_type SagemakerHyperParameterTuningJob#file_system_type}
   */
   readonly fileSystemType: string;
 }
@@ -10210,7 +10210,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // directory_path - computed: false, optional: false, required: true
-  private _directoryPath?: string; 
+  private _directoryPath?: string;
   public get directoryPath() {
     return this.getStringAttribute('directory_path');
   }
@@ -10223,7 +10223,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_access_mode - computed: false, optional: false, required: true
-  private _fileSystemAccessMode?: string; 
+  private _fileSystemAccessMode?: string;
   public get fileSystemAccessMode() {
     return this.getStringAttribute('file_system_access_mode');
   }
@@ -10236,7 +10236,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -10249,7 +10249,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_type - computed: false, optional: false, required: true
-  private _fileSystemType?: string; 
+  private _fileSystemType?: string;
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -10283,7 +10283,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_content_arn SagemakerHyperParameterTuningJob#hub_content_arn}
   */
   readonly hubContentArn: string;
 }
@@ -10362,7 +10362,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // hub_content_arn - computed: false, optional: false, required: true
-  private _hubContentArn?: string; 
+  private _hubContentArn?: string;
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -10396,7 +10396,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}
   */
   readonly acceptEula: boolean | cdktn.IResolvable;
 }
@@ -10475,7 +10475,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable; 
+  private _acceptEula?: boolean | cdktn.IResolvable;
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -10509,35 +10509,35 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}
   */
   readonly s3DataType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}
   */
   readonly s3Uri: string;
   /**
   * hub_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
   */
   readonly hubAccessConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfig[] | cdktn.IResolvable;
   /**
   * model_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
   */
   readonly modelAccessConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfig[] | cdktn.IResolvable;
 }
@@ -10694,7 +10694,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // attribute_names - computed: false, optional: true, required: false
-  private _attributeNames?: string[]; 
+  private _attributeNames?: string[];
   public get attributeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_names'));
   }
@@ -10710,7 +10710,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // instance_group_names - computed: false, optional: true, required: false
-  private _instanceGroupNames?: string[]; 
+  private _instanceGroupNames?: string[];
   public get instanceGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_group_names'));
   }
@@ -10726,7 +10726,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_data_distribution_type - computed: false, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -10742,7 +10742,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string; 
+  private _s3DataType?: string;
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -10755,7 +10755,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -10823,13 +10823,13 @@ export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputData
   /**
   * file_system_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_data_source SagemakerHyperParameterTuningJob#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#file_system_data_source SagemakerHyperParameterTuningJob#file_system_data_source}
   */
   readonly fileSystemDataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSource[] | cdktn.IResolvable;
   /**
   * s3_data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_source SagemakerHyperParameterTuningJob#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_source SagemakerHyperParameterTuningJob#s3_data_source}
   */
   readonly s3DataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource[] | cdktn.IResolvable;
 }
@@ -10974,7 +10974,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}
   */
   readonly seed: number;
 }
@@ -11053,7 +11053,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // seed - computed: false, optional: false, required: true
-  private _seed?: number; 
+  private _seed?: number;
   public get seed() {
     return this.getNumberAttribute('seed');
   }
@@ -11087,35 +11087,35 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#channel_name SagemakerHyperParameterTuningJob#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#channel_name SagemakerHyperParameterTuningJob#channel_name}
   */
   readonly channelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#content_type SagemakerHyperParameterTuningJob#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#content_type SagemakerHyperParameterTuningJob#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_mode SagemakerHyperParameterTuningJob#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_mode SagemakerHyperParameterTuningJob#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#record_wrapper_type SagemakerHyperParameterTuningJob#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#record_wrapper_type SagemakerHyperParameterTuningJob#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#data_source SagemakerHyperParameterTuningJob#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#data_source SagemakerHyperParameterTuningJob#data_source}
   */
   readonly dataSource?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSource[] | cdktn.IResolvable;
   /**
   * shuffle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#shuffle_config SagemakerHyperParameterTuningJob#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#shuffle_config SagemakerHyperParameterTuningJob#shuffle_config}
   */
   readonly shuffleConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigShuffleConfig[] | cdktn.IResolvable;
 }
@@ -11272,7 +11272,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string; 
+  private _channelName?: string;
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -11285,7 +11285,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -11301,7 +11301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // content_type - computed: false, optional: true, required: false
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -11317,7 +11317,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // input_mode - computed: false, optional: true, required: false
-  private _inputMode?: string; 
+  private _inputMode?: string;
   public get inputMode() {
     return this.getStringAttribute('input_mode');
   }
@@ -11333,7 +11333,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // record_wrapper_type - computed: false, optional: true, required: false
-  private _recordWrapperType?: string; 
+  private _recordWrapperType?: string;
   public get recordWrapperType() {
     return this.getStringAttribute('record_wrapper_type');
   }
@@ -11402,15 +11402,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#compression_type SagemakerHyperParameterTuningJob#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#kms_key_id SagemakerHyperParameterTuningJob#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#kms_key_id SagemakerHyperParameterTuningJob#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_output_path SagemakerHyperParameterTuningJob#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_output_path SagemakerHyperParameterTuningJob#s3_output_path}
   */
   readonly s3OutputPath: string;
 }
@@ -11515,7 +11515,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string; 
+  private _compressionType?: string;
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -11531,7 +11531,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -11547,7 +11547,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string; 
+  private _s3OutputPath?: string;
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -11581,15 +11581,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_name SagemakerHyperParameterTuningJob#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_name SagemakerHyperParameterTuningJob#instance_group_name}
   */
   readonly instanceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType: string;
 }
@@ -11694,7 +11694,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -11707,7 +11707,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_group_name - computed: false, optional: false, required: true
-  private _instanceGroupName?: string; 
+  private _instanceGroupName?: string;
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -11720,7 +11720,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -11754,11 +11754,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#ultra_server_id SagemakerHyperParameterTuningJob#ultra_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#ultra_server_id SagemakerHyperParameterTuningJob#ultra_server_id}
   */
   readonly ultraServerId?: string;
 }
@@ -11850,7 +11850,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -11863,7 +11863,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // ultra_server_id - computed: false, optional: true, required: false
-  private _ultraServerId?: string; 
+  private _ultraServerId?: string;
   public get ultraServerId() {
     return this.getStringAttribute('ultra_server_id');
   }
@@ -11900,13 +11900,13 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstancePlacementConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}
   */
   readonly enableMultipleJobs?: boolean | cdktn.IResolvable;
   /**
   * placement_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
   */
   readonly placementSpecifications?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecifications[] | cdktn.IResolvable;
 }
@@ -11998,7 +11998,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // enable_multiple_jobs - computed: false, optional: true, required: false
-  private _enableMultipleJobs?: boolean | cdktn.IResolvable; 
+  private _enableMultipleJobs?: boolean | cdktn.IResolvable;
   public get enableMultipleJobs() {
     return this.getBooleanAttribute('enable_multiple_jobs');
   }
@@ -12051,39 +12051,39 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_count SagemakerHyperParameterTuningJob#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_type SagemakerHyperParameterTuningJob#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#keep_alive_period_in_seconds SagemakerHyperParameterTuningJob#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#keep_alive_period_in_seconds SagemakerHyperParameterTuningJob#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_plan_arn SagemakerHyperParameterTuningJob#training_plan_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_plan_arn SagemakerHyperParameterTuningJob#training_plan_arn}
   */
   readonly trainingPlanArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_kms_key_id SagemakerHyperParameterTuningJob#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#volume_size_in_gb SagemakerHyperParameterTuningJob#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
   /**
   * instance_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_groups SagemakerHyperParameterTuningJob#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_groups SagemakerHyperParameterTuningJob#instance_groups}
   */
   readonly instanceGroups?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstanceGroups[] | cdktn.IResolvable;
   /**
   * instance_placement_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_placement_config SagemakerHyperParameterTuningJob#instance_placement_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_placement_config SagemakerHyperParameterTuningJob#instance_placement_config}
   */
   readonly instancePlacementConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstancePlacementConfig[] | cdktn.IResolvable;
 }
@@ -12253,7 +12253,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -12269,7 +12269,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -12285,7 +12285,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // keep_alive_period_in_seconds - computed: false, optional: true, required: false
-  private _keepAlivePeriodInSeconds?: number; 
+  private _keepAlivePeriodInSeconds?: number;
   public get keepAlivePeriodInSeconds() {
     return this.getNumberAttribute('keep_alive_period_in_seconds');
   }
@@ -12301,7 +12301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // training_plan_arn - computed: false, optional: true, required: false
-  private _trainingPlanArn?: string; 
+  private _trainingPlanArn?: string;
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -12317,7 +12317,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -12333,7 +12333,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -12402,15 +12402,15 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_pending_time_in_seconds SagemakerHyperParameterTuningJob#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_pending_time_in_seconds SagemakerHyperParameterTuningJob#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_runtime_in_seconds SagemakerHyperParameterTuningJob#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_wait_time_in_seconds SagemakerHyperParameterTuningJob#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#max_wait_time_in_seconds SagemakerHyperParameterTuningJob#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -12515,7 +12515,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_pending_time_in_seconds - computed: false, optional: true, required: false
-  private _maxPendingTimeInSeconds?: number; 
+  private _maxPendingTimeInSeconds?: number;
   public get maxPendingTimeInSeconds() {
     return this.getNumberAttribute('max_pending_time_in_seconds');
   }
@@ -12531,7 +12531,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_runtime_in_seconds - computed: false, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -12547,7 +12547,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_wait_time_in_seconds - computed: false, optional: true, required: false
-  private _maxWaitTimeInSeconds?: number; 
+  private _maxWaitTimeInSeconds?: number;
   public get maxWaitTimeInSeconds() {
     return this.getNumberAttribute('max_wait_time_in_seconds');
   }
@@ -12584,11 +12584,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_name SagemakerHyperParameterTuningJob#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#type SagemakerHyperParameterTuningJob#type}
   */
   readonly type: string;
 }
@@ -12680,7 +12680,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjecti
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -12693,7 +12693,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjecti
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12727,11 +12727,11 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjecti
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#security_group_ids SagemakerHyperParameterTuningJob#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#security_group_ids SagemakerHyperParameterTuningJob#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#subnets SagemakerHyperParameterTuningJob#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#subnets SagemakerHyperParameterTuningJob#subnets}
   */
   readonly subnets: string[];
 }
@@ -12823,7 +12823,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfigOutp
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -12836,7 +12836,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfigOutp
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -12870,95 +12870,95 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfigList
 }
 export interface SagemakerHyperParameterTuningJobTrainingJobDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#definition_name SagemakerHyperParameterTuningJob#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#definition_name SagemakerHyperParameterTuningJob#definition_name}
   */
   readonly definitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_inter_container_traffic_encryption SagemakerHyperParameterTuningJob#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_inter_container_traffic_encryption SagemakerHyperParameterTuningJob#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_managed_spot_training SagemakerHyperParameterTuningJob#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_managed_spot_training SagemakerHyperParameterTuningJob#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_network_isolation SagemakerHyperParameterTuningJob#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_network_isolation SagemakerHyperParameterTuningJob#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#environment SagemakerHyperParameterTuningJob#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#environment SagemakerHyperParameterTuningJob#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#retry_strategy SagemakerHyperParameterTuningJob#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#retry_strategy SagemakerHyperParameterTuningJob#retry_strategy}
   */
   readonly retryStrategy?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsRetryStrategy[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#role_arn SagemakerHyperParameterTuningJob#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#role_arn SagemakerHyperParameterTuningJob#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#static_hyper_parameters SagemakerHyperParameterTuningJob#static_hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#static_hyper_parameters SagemakerHyperParameterTuningJob#static_hyper_parameters}
   */
   readonly staticHyperParameters?: { [key: string]: string };
   /**
   * algorithm_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_specification SagemakerHyperParameterTuningJob#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_specification SagemakerHyperParameterTuningJob#algorithm_specification}
   */
   readonly algorithmSpecification?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpecification[] | cdktn.IResolvable;
   /**
   * checkpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#checkpoint_config SagemakerHyperParameterTuningJob#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#checkpoint_config SagemakerHyperParameterTuningJob#checkpoint_config}
   */
   readonly checkpointConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointConfig[] | cdktn.IResolvable;
   /**
   * hyper_parameter_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_ranges SagemakerHyperParameterTuningJob#hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_ranges SagemakerHyperParameterTuningJob#hyper_parameter_ranges}
   */
   readonly hyperParameterRanges?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterRanges[] | cdktn.IResolvable;
   /**
   * hyper_parameter_tuning_resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_tuning_resource_config SagemakerHyperParameterTuningJob#hyper_parameter_tuning_resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyper_parameter_tuning_resource_config SagemakerHyperParameterTuningJob#hyper_parameter_tuning_resource_config}
   */
   readonly hyperParameterTuningResourceConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParameterTuningResourceConfig[] | cdktn.IResolvable;
   /**
   * input_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_data_config SagemakerHyperParameterTuningJob#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#input_data_config SagemakerHyperParameterTuningJob#input_data_config}
   */
   readonly inputDataConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfig[] | cdktn.IResolvable;
   /**
   * output_data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#output_data_config SagemakerHyperParameterTuningJob#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#output_data_config SagemakerHyperParameterTuningJob#output_data_config}
   */
   readonly outputDataConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataConfig[] | cdktn.IResolvable;
   /**
   * resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_config SagemakerHyperParameterTuningJob#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_config SagemakerHyperParameterTuningJob#resource_config}
   */
   readonly resourceConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfig[] | cdktn.IResolvable;
   /**
   * stopping_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#stopping_condition SagemakerHyperParameterTuningJob#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#stopping_condition SagemakerHyperParameterTuningJob#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondition[] | cdktn.IResolvable;
   /**
   * tuning_objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_objective SagemakerHyperParameterTuningJob#tuning_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_objective SagemakerHyperParameterTuningJob#tuning_objective}
   */
   readonly tuningObjective?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjective[] | cdktn.IResolvable;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#vpc_config SagemakerHyperParameterTuningJob#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#vpc_config SagemakerHyperParameterTuningJob#vpc_config}
   */
   readonly vpcConfig?: SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfig[] | cdktn.IResolvable;
 }
@@ -13258,7 +13258,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // definition_name - computed: false, optional: true, required: false
-  private _definitionName?: string; 
+  private _definitionName?: string;
   public get definitionName() {
     return this.getStringAttribute('definition_name');
   }
@@ -13274,7 +13274,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -13290,7 +13290,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_managed_spot_training - computed: true, optional: true, required: false
-  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable; 
+  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable;
   public get enableManagedSpotTraining() {
     return this.getBooleanAttribute('enable_managed_spot_training');
   }
@@ -13306,7 +13306,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -13322,7 +13322,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -13354,7 +13354,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13367,7 +13367,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // static_hyper_parameters - computed: true, optional: true, required: false
-  private _staticHyperParameters?: { [key: string]: string }; 
+  private _staticHyperParameters?: { [key: string]: string };
   public get staticHyperParameters() {
     return this.getStringMapAttribute('static_hyper_parameters');
   }
@@ -13564,7 +13564,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsList extends 
 }
 export interface SagemakerHyperParameterTuningJobWarmStartConfigParentHyperParameterTuningJobs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#name SagemakerHyperParameterTuningJob#name}
   */
   readonly name: string;
 }
@@ -13643,7 +13643,7 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigParentHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13677,13 +13677,13 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigParentHyperParameter
 }
 export interface SagemakerHyperParameterTuningJobWarmStartConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_type SagemakerHyperParameterTuningJob#warm_start_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_type SagemakerHyperParameterTuningJob#warm_start_type}
   */
   readonly warmStartType?: string;
   /**
   * parent_hyper_parameter_tuning_jobs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parent_hyper_parameter_tuning_jobs SagemakerHyperParameterTuningJob#parent_hyper_parameter_tuning_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parent_hyper_parameter_tuning_jobs SagemakerHyperParameterTuningJob#parent_hyper_parameter_tuning_jobs}
   */
   readonly parentHyperParameterTuningJobs?: SagemakerHyperParameterTuningJobWarmStartConfigParentHyperParameterTuningJobs[] | cdktn.IResolvable;
 }
@@ -13775,7 +13775,7 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigOutputReference exte
   }
 
   // warm_start_type - computed: false, optional: true, required: false
-  private _warmStartType?: string; 
+  private _warmStartType?: string;
   public get warmStartType() {
     return this.getStringAttribute('warm_start_type');
   }
@@ -13828,7 +13828,7 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigList extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}
 */
 export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
 
@@ -13844,7 +13844,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerHyperParameterTuningJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerHyperParameterTuningJob to import
-  * @param importFromId The id of the existing SagemakerHyperParameterTuningJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerHyperParameterTuningJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerHyperParameterTuningJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -13856,7 +13856,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13867,7 +13867,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_hyper_parameter_tuning_job',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -13903,7 +13903,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13916,7 +13916,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -13937,7 +13937,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

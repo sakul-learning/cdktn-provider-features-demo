@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktn from 'cdktn';
 
 export interface FsxFileCacheConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#copy_tags_to_data_repository_associations FsxFileCache#copy_tags_to_data_repository_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#copy_tags_to_data_repository_associations FsxFileCache#copy_tags_to_data_repository_associations}
   */
   readonly copyTagsToDataRepositoryAssociations?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#file_cache_type FsxFileCache#file_cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#file_cache_type FsxFileCache#file_cache_type}
   */
   readonly fileCacheType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#file_cache_type_version FsxFileCache#file_cache_type_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#file_cache_type_version FsxFileCache#file_cache_type_version}
   */
   readonly fileCacheTypeVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#id FsxFileCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#id FsxFileCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#kms_key_id FsxFileCache#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#kms_key_id FsxFileCache#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#region FsxFileCache#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#region FsxFileCache#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#security_group_ids FsxFileCache#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#security_group_ids FsxFileCache#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}
   */
   readonly storageCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#subnet_ids FsxFileCache#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#subnet_ids FsxFileCache#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#tags_all FsxFileCache#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#tags_all FsxFileCache#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * data_repository_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#data_repository_association FsxFileCache#data_repository_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#data_repository_association FsxFileCache#data_repository_association}
   */
   readonly dataRepositoryAssociation?: FsxFileCacheDataRepositoryAssociation[] | cdktn.IResolvable;
   /**
   * lustre_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#lustre_configuration FsxFileCache#lustre_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#lustre_configuration FsxFileCache#lustre_configuration}
   */
   readonly lustreConfiguration?: FsxFileCacheLustreConfiguration[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#timeouts FsxFileCache#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#timeouts FsxFileCache#timeouts}
   */
   readonly timeouts?: FsxFileCacheTimeouts;
 }
 export interface FsxFileCacheDataRepositoryAssociationNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#dns_ips FsxFileCache#dns_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#dns_ips FsxFileCache#dns_ips}
   */
   readonly dnsIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#version FsxFileCache#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#version FsxFileCache#version}
   */
   readonly version: string;
 }
@@ -173,7 +173,7 @@ export class FsxFileCacheDataRepositoryAssociationNfsOutputReference extends cdk
   }
 
   // dns_ips - computed: false, optional: true, required: false
-  private _dnsIps?: string[]; 
+  private _dnsIps?: string[];
   public get dnsIps() {
     return cdktn.Fn.tolist(this.getListAttribute('dns_ips'));
   }
@@ -189,7 +189,7 @@ export class FsxFileCacheDataRepositoryAssociationNfsOutputReference extends cdk
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -223,25 +223,25 @@ export class FsxFileCacheDataRepositoryAssociationNfsList extends cdktn.ComplexL
 }
 export interface FsxFileCacheDataRepositoryAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}
   */
   readonly dataRepositoryPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}
   */
   readonly dataRepositorySubdirectories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}
   */
   readonly fileCachePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
   */
   readonly nfs?: FsxFileCacheDataRepositoryAssociationNfs[] | cdktn.IResolvable;
 }
@@ -377,7 +377,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // data_repository_path - computed: false, optional: false, required: true
-  private _dataRepositoryPath?: string; 
+  private _dataRepositoryPath?: string;
   public get dataRepositoryPath() {
     return this.getStringAttribute('data_repository_path');
   }
@@ -390,7 +390,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // data_repository_subdirectories - computed: false, optional: true, required: false
-  private _dataRepositorySubdirectories?: string[]; 
+  private _dataRepositorySubdirectories?: string[];
   public get dataRepositorySubdirectories() {
     return cdktn.Fn.tolist(this.getListAttribute('data_repository_subdirectories'));
   }
@@ -411,7 +411,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // file_cache_path - computed: false, optional: false, required: true
-  private _fileCachePath?: string; 
+  private _fileCachePath?: string;
   public get fileCachePath() {
     return this.getStringAttribute('file_cache_path');
   }
@@ -444,7 +444,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -577,7 +577,7 @@ export class FsxFileCacheLustreConfigurationLogConfigurationList extends cdktn.C
 }
 export interface FsxFileCacheLustreConfigurationMetadataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}
   */
   readonly storageCapacity: number;
 }
@@ -656,7 +656,7 @@ export class FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference
   }
 
   // storage_capacity - computed: false, optional: false, required: true
-  private _storageCapacity?: number; 
+  private _storageCapacity?: number;
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -690,21 +690,21 @@ export class FsxFileCacheLustreConfigurationMetadataConfigurationList extends cd
 }
 export interface FsxFileCacheLustreConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#deployment_type FsxFileCache#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#deployment_type FsxFileCache#deployment_type}
   */
   readonly deploymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#per_unit_storage_throughput FsxFileCache#per_unit_storage_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#per_unit_storage_throughput FsxFileCache#per_unit_storage_throughput}
   */
   readonly perUnitStorageThroughput: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#weekly_maintenance_start_time FsxFileCache#weekly_maintenance_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#weekly_maintenance_start_time FsxFileCache#weekly_maintenance_start_time}
   */
   readonly weeklyMaintenanceStartTime?: string;
   /**
   * metadata_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#metadata_configuration FsxFileCache#metadata_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#metadata_configuration FsxFileCache#metadata_configuration}
   */
   readonly metadataConfiguration: FsxFileCacheLustreConfigurationMetadataConfiguration[] | cdktn.IResolvable;
 }
@@ -822,7 +822,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // deployment_type - computed: false, optional: false, required: true
-  private _deploymentType?: string; 
+  private _deploymentType?: string;
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -846,7 +846,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // per_unit_storage_throughput - computed: false, optional: false, required: true
-  private _perUnitStorageThroughput?: number; 
+  private _perUnitStorageThroughput?: number;
   public get perUnitStorageThroughput() {
     return this.getNumberAttribute('per_unit_storage_throughput');
   }
@@ -859,7 +859,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // weekly_maintenance_start_time - computed: false, optional: true, required: false
-  private _weeklyMaintenanceStartTime?: string; 
+  private _weeklyMaintenanceStartTime?: string;
   public get weeklyMaintenanceStartTime() {
     return this.getStringAttribute('weekly_maintenance_start_time');
   }
@@ -909,15 +909,15 @@ export class FsxFileCacheLustreConfigurationList extends cdktn.ComplexList {
 }
 export interface FsxFileCacheTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#create FsxFileCache#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#create FsxFileCache#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#delete FsxFileCache#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#delete FsxFileCache#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#update FsxFileCache#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#update FsxFileCache#update}
   */
   readonly update?: string;
 }
@@ -1020,7 +1020,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1036,7 +1036,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1052,7 +1052,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1069,7 +1069,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache aws_fsx_file_cache}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache aws_fsx_file_cache}
 */
 export class FsxFileCache extends cdktn.TerraformResource {
 
@@ -1085,7 +1085,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxFileCache resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxFileCache to import
-  * @param importFromId The id of the existing FsxFileCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxFileCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxFileCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1097,7 +1097,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1108,7 +1108,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
       terraformResourceType: 'aws_fsx_file_cache',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1144,7 +1144,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_data_repository_associations - computed: false, optional: true, required: false
-  private _copyTagsToDataRepositoryAssociations?: boolean | cdktn.IResolvable; 
+  private _copyTagsToDataRepositoryAssociations?: boolean | cdktn.IResolvable;
   public get copyTagsToDataRepositoryAssociations() {
     return this.getBooleanAttribute('copy_tags_to_data_repository_associations');
   }
@@ -1175,7 +1175,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // file_cache_type - computed: false, optional: false, required: true
-  private _fileCacheType?: string; 
+  private _fileCacheType?: string;
   public get fileCacheType() {
     return this.getStringAttribute('file_cache_type');
   }
@@ -1188,7 +1188,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // file_cache_type_version - computed: false, optional: false, required: true
-  private _fileCacheTypeVersion?: string; 
+  private _fileCacheTypeVersion?: string;
   public get fileCacheTypeVersion() {
     return this.getStringAttribute('file_cache_type_version');
   }
@@ -1201,7 +1201,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1217,7 +1217,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1243,7 +1243,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1259,7 +1259,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1275,7 +1275,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: false, optional: false, required: true
-  private _storageCapacity?: number; 
+  private _storageCapacity?: number;
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -1288,7 +1288,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1301,7 +1301,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1317,7 +1317,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

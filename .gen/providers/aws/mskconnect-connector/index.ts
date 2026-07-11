@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktn from 'cdktn';
 
 export interface MskconnectConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}
   */
   readonly connectorConfiguration: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}
   */
   readonly kafkaconnectVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}
   */
   readonly serviceExecutionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
   */
   readonly capacity: MskconnectConnectorCapacity;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
   */
   readonly kafkaCluster: MskconnectConnectorKafkaCluster;
   /**
   * kafka_cluster_client_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
   */
   readonly kafkaClusterClientAuthentication: MskconnectConnectorKafkaClusterClientAuthentication;
   /**
   * kafka_cluster_encryption_in_transit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
   */
   readonly kafkaClusterEncryptionInTransit: MskconnectConnectorKafkaClusterEncryptionInTransit;
   /**
   * log_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
   */
   readonly logDelivery?: MskconnectConnectorLogDelivery;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
   */
   readonly plugin: MskconnectConnectorPlugin[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
   */
   readonly timeouts?: MskconnectConnectorTimeouts;
   /**
   * worker_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
   */
   readonly workerConfiguration?: MskconnectConnectorWorkerConfiguration;
 }
 export interface MskconnectConnectorCapacityAutoscalingScaleInPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#cpu_utilization_percentage MskconnectConnector#cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#cpu_utilization_percentage MskconnectConnector#cpu_utilization_percentage}
   */
   readonly cpuUtilizationPercentage?: number;
 }
@@ -166,7 +166,7 @@ export class MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference 
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number; 
+  private _cpuUtilizationPercentage?: number;
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -183,7 +183,7 @@ export class MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference 
 }
 export interface MskconnectConnectorCapacityAutoscalingScaleOutPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#cpu_utilization_percentage MskconnectConnector#cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#cpu_utilization_percentage MskconnectConnector#cpu_utilization_percentage}
   */
   readonly cpuUtilizationPercentage?: number;
 }
@@ -250,7 +250,7 @@ export class MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number; 
+  private _cpuUtilizationPercentage?: number;
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -267,27 +267,27 @@ export class MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference
 }
 export interface MskconnectConnectorCapacityAutoscaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#max_worker_count MskconnectConnector#max_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#max_worker_count MskconnectConnector#max_worker_count}
   */
   readonly maxWorkerCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}
   */
   readonly mcuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#min_worker_count MskconnectConnector#min_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#min_worker_count MskconnectConnector#min_worker_count}
   */
   readonly minWorkerCount: number;
   /**
   * scale_in_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#scale_in_policy MskconnectConnector#scale_in_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#scale_in_policy MskconnectConnector#scale_in_policy}
   */
   readonly scaleInPolicy?: MskconnectConnectorCapacityAutoscalingScaleInPolicy;
   /**
   * scale_out_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#scale_out_policy MskconnectConnector#scale_out_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#scale_out_policy MskconnectConnector#scale_out_policy}
   */
   readonly scaleOutPolicy?: MskconnectConnectorCapacityAutoscalingScaleOutPolicy;
 }
@@ -406,7 +406,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // max_worker_count - computed: false, optional: false, required: true
-  private _maxWorkerCount?: number; 
+  private _maxWorkerCount?: number;
   public get maxWorkerCount() {
     return this.getNumberAttribute('max_worker_count');
   }
@@ -419,7 +419,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // mcu_count - computed: false, optional: true, required: false
-  private _mcuCount?: number; 
+  private _mcuCount?: number;
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -435,7 +435,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // min_worker_count - computed: false, optional: false, required: true
-  private _minWorkerCount?: number; 
+  private _minWorkerCount?: number;
   public get minWorkerCount() {
     return this.getNumberAttribute('min_worker_count');
   }
@@ -481,11 +481,11 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
 }
 export interface MskconnectConnectorCapacityProvisionedCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#mcu_count MskconnectConnector#mcu_count}
   */
   readonly mcuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#worker_count MskconnectConnector#worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#worker_count MskconnectConnector#worker_count}
   */
   readonly workerCount: number;
 }
@@ -565,7 +565,7 @@ export class MskconnectConnectorCapacityProvisionedCapacityOutputReference exten
   }
 
   // mcu_count - computed: false, optional: true, required: false
-  private _mcuCount?: number; 
+  private _mcuCount?: number;
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -581,7 +581,7 @@ export class MskconnectConnectorCapacityProvisionedCapacityOutputReference exten
   }
 
   // worker_count - computed: false, optional: false, required: true
-  private _workerCount?: number; 
+  private _workerCount?: number;
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -597,13 +597,13 @@ export interface MskconnectConnectorCapacity {
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#autoscaling MskconnectConnector#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#autoscaling MskconnectConnector#autoscaling}
   */
   readonly autoscaling?: MskconnectConnectorCapacityAutoscaling;
   /**
   * provisioned_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#provisioned_capacity MskconnectConnector#provisioned_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#provisioned_capacity MskconnectConnector#provisioned_capacity}
   */
   readonly provisionedCapacity?: MskconnectConnectorCapacityProvisionedCapacity;
 }
@@ -716,11 +716,11 @@ export class MskconnectConnectorCapacityOutputReference extends cdktn.ComplexObj
 }
 export interface MskconnectConnectorKafkaClusterApacheKafkaClusterVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#security_groups MskconnectConnector#security_groups}
   */
   readonly securityGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#subnets MskconnectConnector#subnets}
   */
   readonly subnets: string[];
 }
@@ -800,7 +800,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -813,7 +813,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -827,13 +827,13 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
 }
 export interface MskconnectConnectorKafkaClusterApacheKafkaCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#bootstrap_servers MskconnectConnector#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#vpc MskconnectConnector#vpc}
   */
   readonly vpc: MskconnectConnectorKafkaClusterApacheKafkaClusterVpc;
 }
@@ -913,7 +913,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference ex
   }
 
   // bootstrap_servers - computed: false, optional: false, required: true
-  private _bootstrapServers?: string; 
+  private _bootstrapServers?: string;
   public get bootstrapServers() {
     return this.getStringAttribute('bootstrap_servers');
   }
@@ -942,7 +942,7 @@ export interface MskconnectConnectorKafkaCluster {
   /**
   * apache_kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#apache_kafka_cluster MskconnectConnector#apache_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#apache_kafka_cluster MskconnectConnector#apache_kafka_cluster}
   */
   readonly apacheKafkaCluster: MskconnectConnectorKafkaClusterApacheKafkaCluster;
 }
@@ -1023,7 +1023,7 @@ export class MskconnectConnectorKafkaClusterOutputReference extends cdktn.Comple
 }
 export interface MskconnectConnectorKafkaClusterClientAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#authentication_type MskconnectConnector#authentication_type}
   */
   readonly authenticationType?: string;
 }
@@ -1090,7 +1090,7 @@ export class MskconnectConnectorKafkaClusterClientAuthenticationOutputReference 
   }
 
   // authentication_type - computed: false, optional: true, required: false
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1107,7 +1107,7 @@ export class MskconnectConnectorKafkaClusterClientAuthenticationOutputReference 
 }
 export interface MskconnectConnectorKafkaClusterEncryptionInTransit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#encryption_type MskconnectConnector#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#encryption_type MskconnectConnector#encryption_type}
   */
   readonly encryptionType?: string;
 }
@@ -1174,7 +1174,7 @@ export class MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference e
   }
 
   // encryption_type - computed: false, optional: true, required: false
-  private _encryptionType?: string; 
+  private _encryptionType?: string;
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -1191,11 +1191,11 @@ export class MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference e
 }
 export interface MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}
   */
   readonly logGroup?: string;
 }
@@ -1275,7 +1275,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutput
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1288,7 +1288,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutput
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1305,11 +1305,11 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutput
 }
 export interface MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#delivery_stream MskconnectConnector#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#delivery_stream MskconnectConnector#delivery_stream}
   */
   readonly deliveryStream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1389,7 +1389,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefere
   }
 
   // delivery_stream - computed: false, optional: true, required: false
-  private _deliveryStream?: string; 
+  private _deliveryStream?: string;
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -1405,7 +1405,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefere
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1419,15 +1419,15 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefere
 }
 export interface MskconnectConnectorLogDeliveryWorkerLogDeliveryS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#bucket MskconnectConnector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#bucket MskconnectConnector#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#prefix MskconnectConnector#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#prefix MskconnectConnector#prefix}
   */
   readonly prefix?: string;
 }
@@ -1520,7 +1520,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1536,7 +1536,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1549,7 +1549,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1568,19 +1568,19 @@ export interface MskconnectConnectorLogDeliveryWorkerLogDelivery {
   /**
   * cloudwatch_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#cloudwatch_logs MskconnectConnector#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#cloudwatch_logs MskconnectConnector#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs;
   /**
   * firehose block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#firehose MskconnectConnector#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#firehose MskconnectConnector#firehose}
   */
   readonly firehose?: MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehose;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#s3 MskconnectConnector#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#s3 MskconnectConnector#s3}
   */
   readonly s3?: MskconnectConnectorLogDeliveryWorkerLogDeliveryS3;
 }
@@ -1724,7 +1724,7 @@ export interface MskconnectConnectorLogDelivery {
   /**
   * worker_log_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#worker_log_delivery MskconnectConnector#worker_log_delivery}
   */
   readonly workerLogDelivery: MskconnectConnectorLogDeliveryWorkerLogDelivery;
 }
@@ -1805,11 +1805,11 @@ export class MskconnectConnectorLogDeliveryOutputReference extends cdktn.Complex
 }
 export interface MskconnectConnectorPluginCustomPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}
   */
   readonly revision: number;
 }
@@ -1889,7 +1889,7 @@ export class MskconnectConnectorPluginCustomPluginOutputReference extends cdktn.
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1902,7 +1902,7 @@ export class MskconnectConnectorPluginCustomPluginOutputReference extends cdktn.
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number; 
+  private _revision?: number;
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -1918,7 +1918,7 @@ export interface MskconnectConnectorPlugin {
   /**
   * custom_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#custom_plugin MskconnectConnector#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#custom_plugin MskconnectConnector#custom_plugin}
   */
   readonly customPlugin: MskconnectConnectorPluginCustomPlugin;
 }
@@ -2031,15 +2031,15 @@ export class MskconnectConnectorPluginList extends cdktn.ComplexList {
 }
 export interface MskconnectConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#create MskconnectConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#create MskconnectConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#delete MskconnectConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#delete MskconnectConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#update MskconnectConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#update MskconnectConnector#update}
   */
   readonly update?: string;
 }
@@ -2142,7 +2142,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2158,7 +2158,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2174,7 +2174,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2191,11 +2191,11 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
 }
 export interface MskconnectConnectorWorkerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#arn MskconnectConnector#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#revision MskconnectConnector#revision}
   */
   readonly revision: number;
 }
@@ -2275,7 +2275,7 @@ export class MskconnectConnectorWorkerConfigurationOutputReference extends cdktn
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2288,7 +2288,7 @@ export class MskconnectConnectorWorkerConfigurationOutputReference extends cdktn
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number; 
+  private _revision?: number;
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2302,7 +2302,7 @@ export class MskconnectConnectorWorkerConfigurationOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector aws_mskconnect_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector aws_mskconnect_connector}
 */
 export class MskconnectConnector extends cdktn.TerraformResource {
 
@@ -2318,7 +2318,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskconnectConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskconnectConnector to import
-  * @param importFromId The id of the existing MskconnectConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskconnectConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskconnectConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2330,7 +2330,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2341,7 +2341,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
       terraformResourceType: 'aws_mskconnect_connector',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2380,7 +2380,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // connector_configuration - computed: false, optional: false, required: true
-  private _connectorConfiguration?: { [key: string]: string }; 
+  private _connectorConfiguration?: { [key: string]: string };
   public get connectorConfiguration() {
     return this.getStringMapAttribute('connector_configuration');
   }
@@ -2393,7 +2393,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2409,7 +2409,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2425,7 +2425,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // kafkaconnect_version - computed: false, optional: false, required: true
-  private _kafkaconnectVersion?: string; 
+  private _kafkaconnectVersion?: string;
   public get kafkaconnectVersion() {
     return this.getStringAttribute('kafkaconnect_version');
   }
@@ -2438,7 +2438,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2451,7 +2451,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2467,7 +2467,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // service_execution_role_arn - computed: false, optional: false, required: true
-  private _serviceExecutionRoleArn?: string; 
+  private _serviceExecutionRoleArn?: string;
   public get serviceExecutionRoleArn() {
     return this.getStringAttribute('service_execution_role_arn');
   }
@@ -2480,7 +2480,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2496,7 +2496,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LookoutmetricsAlertConfig extends cdktn.TerraformMetaArguments 
   /**
   * The action to be taken by the alert when an anomaly is detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#action LookoutmetricsAlert#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#action LookoutmetricsAlert#action}
   */
   readonly action: LookoutmetricsAlertAction;
   /**
   * A description for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#alert_description LookoutmetricsAlert#alert_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#alert_description LookoutmetricsAlert#alert_description}
   */
   readonly alertDescription?: string;
   /**
   * The name of the alert. If not provided, a name is generated automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#alert_name LookoutmetricsAlert#alert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#alert_name LookoutmetricsAlert#alert_name}
   */
   readonly alertName?: string;
   /**
   * A number between 0 and 100 (inclusive) that tunes the sensitivity of the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#alert_sensitivity_threshold LookoutmetricsAlert#alert_sensitivity_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#alert_sensitivity_threshold LookoutmetricsAlert#alert_sensitivity_threshold}
   */
   readonly alertSensitivityThreshold: number;
   /**
   * The Amazon resource name (ARN) of the Anomaly Detector to alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#anomaly_detector_arn LookoutmetricsAlert#anomaly_detector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#anomaly_detector_arn LookoutmetricsAlert#anomaly_detector_arn}
   */
   readonly anomalyDetectorArn: string;
 }
@@ -42,13 +42,13 @@ export interface LookoutmetricsAlertActionLambdaConfiguration {
   /**
   * ARN of a Lambda to send alert notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#lambda_arn LookoutmetricsAlert#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#lambda_arn LookoutmetricsAlert#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
   * ARN of an IAM role that LookoutMetrics should assume to access the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -138,7 +138,7 @@ export class LookoutmetricsAlertActionLambdaConfigurationOutputReference extends
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -154,7 +154,7 @@ export class LookoutmetricsAlertActionLambdaConfigurationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -173,13 +173,13 @@ export interface LookoutmetricsAlertActionSnsConfiguration {
   /**
   * ARN of an IAM role that LookoutMetrics should assume to access the SNS topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
   */
   readonly roleArn?: string;
   /**
   * ARN of an SNS topic to send alert notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#sns_topic_arn LookoutmetricsAlert#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#sns_topic_arn LookoutmetricsAlert#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
 }
@@ -269,7 +269,7 @@ export class LookoutmetricsAlertActionSnsConfigurationOutputReference extends cd
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -285,7 +285,7 @@ export class LookoutmetricsAlertActionSnsConfigurationOutputReference extends cd
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string; 
+  private _snsTopicArn?: string;
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -304,13 +304,13 @@ export interface LookoutmetricsAlertAction {
   /**
   * Configuration options for a Lambda alert action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#lambda_configuration LookoutmetricsAlert#lambda_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#lambda_configuration LookoutmetricsAlert#lambda_configuration}
   */
   readonly lambdaConfiguration?: LookoutmetricsAlertActionLambdaConfiguration;
   /**
   * Configuration options for an SNS alert action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#sns_configuration LookoutmetricsAlert#sns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#sns_configuration LookoutmetricsAlert#sns_configuration}
   */
   readonly snsConfiguration?: LookoutmetricsAlertActionSnsConfiguration;
 }
@@ -433,7 +433,7 @@ export class LookoutmetricsAlertActionOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}
 */
 export class LookoutmetricsAlert extends cdktn.TerraformResource {
 
@@ -449,7 +449,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LookoutmetricsAlert resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LookoutmetricsAlert to import
-  * @param importFromId The id of the existing LookoutmetricsAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LookoutmetricsAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LookoutmetricsAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -461,7 +461,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,7 +472,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lookoutmetrics_alert',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -507,7 +507,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_description - computed: true, optional: true, required: false
-  private _alertDescription?: string; 
+  private _alertDescription?: string;
   public get alertDescription() {
     return this.getStringAttribute('alert_description');
   }
@@ -523,7 +523,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_name - computed: true, optional: true, required: false
-  private _alertName?: string; 
+  private _alertName?: string;
   public get alertName() {
     return this.getStringAttribute('alert_name');
   }
@@ -539,7 +539,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_sensitivity_threshold - computed: false, optional: false, required: true
-  private _alertSensitivityThreshold?: number; 
+  private _alertSensitivityThreshold?: number;
   public get alertSensitivityThreshold() {
     return this.getNumberAttribute('alert_sensitivity_threshold');
   }
@@ -552,7 +552,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_arn - computed: false, optional: false, required: true
-  private _anomalyDetectorArn?: string; 
+  private _anomalyDetectorArn?: string;
   public get anomalyDetectorArn() {
     return this.getStringAttribute('anomaly_detector_arn');
   }

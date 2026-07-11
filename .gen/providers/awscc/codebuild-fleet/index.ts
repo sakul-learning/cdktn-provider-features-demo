@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,73 +8,73 @@ import * as cdktn from 'cdktn';
 
 export interface CodebuildFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#base_capacity CodebuildFleet#base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#base_capacity CodebuildFleet#base_capacity}
   */
   readonly baseCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#compute_configuration CodebuildFleet#compute_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#compute_configuration CodebuildFleet#compute_configuration}
   */
   readonly computeConfiguration?: CodebuildFleetComputeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#compute_type CodebuildFleet#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#compute_type CodebuildFleet#compute_type}
   */
   readonly computeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#environment_type CodebuildFleet#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#environment_type CodebuildFleet#environment_type}
   */
   readonly environmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#fleet_proxy_configuration CodebuildFleet#fleet_proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#fleet_proxy_configuration CodebuildFleet#fleet_proxy_configuration}
   */
   readonly fleetProxyConfiguration?: CodebuildFleetFleetProxyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#fleet_service_role CodebuildFleet#fleet_service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#fleet_service_role CodebuildFleet#fleet_service_role}
   */
   readonly fleetServiceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#fleet_vpc_config CodebuildFleet#fleet_vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#fleet_vpc_config CodebuildFleet#fleet_vpc_config}
   */
   readonly fleetVpcConfig?: CodebuildFleetFleetVpcConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#image_id CodebuildFleet#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#image_id CodebuildFleet#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#name CodebuildFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#name CodebuildFleet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#overflow_behavior CodebuildFleet#overflow_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#overflow_behavior CodebuildFleet#overflow_behavior}
   */
   readonly overflowBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#scaling_configuration CodebuildFleet#scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#scaling_configuration CodebuildFleet#scaling_configuration}
   */
   readonly scalingConfiguration?: CodebuildFleetScalingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#tags CodebuildFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#tags CodebuildFleet#tags}
   */
   readonly tags?: CodebuildFleetTags[] | cdktn.IResolvable;
 }
 export interface CodebuildFleetComputeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#disk CodebuildFleet#disk}
   */
   readonly disk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#instance_type CodebuildFleet#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#machine_type CodebuildFleet#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#memory CodebuildFleet#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#v_cpu CodebuildFleet#v_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#v_cpu CodebuildFleet#v_cpu}
   */
   readonly vCpu?: number;
 }
@@ -203,7 +203,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: number; 
+  private _disk?: number;
   public get disk() {
     return this.getNumberAttribute('disk');
   }
@@ -219,7 +219,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -235,7 +235,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: string; 
+  private _machineType?: string;
   public get machineType() {
     return this.getStringAttribute('machine_type');
   }
@@ -251,7 +251,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number; 
+  private _memory?: number;
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -267,7 +267,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // v_cpu - computed: true, optional: true, required: false
-  private _vCpu?: number; 
+  private _vCpu?: number;
   public get vCpu() {
     return this.getNumberAttribute('v_cpu');
   }
@@ -284,15 +284,15 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
 }
 export interface CodebuildFleetFleetProxyConfigurationOrderedProxyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#effect CodebuildFleet#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#effect CodebuildFleet#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#entities CodebuildFleet#entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#entities CodebuildFleet#entities}
   */
   readonly entities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#type CodebuildFleet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#type CodebuildFleet#type}
   */
   readonly type?: string;
 }
@@ -397,7 +397,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // effect - computed: true, optional: true, required: false
-  private _effect?: string; 
+  private _effect?: string;
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -413,7 +413,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // entities - computed: true, optional: true, required: false
-  private _entities?: string[]; 
+  private _entities?: string[];
   public get entities() {
     return this.getListAttribute('entities');
   }
@@ -429,7 +429,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -466,11 +466,11 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesList extends 
 }
 export interface CodebuildFleetFleetProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#default_behavior CodebuildFleet#default_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#default_behavior CodebuildFleet#default_behavior}
   */
   readonly defaultBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#ordered_proxy_rules CodebuildFleet#ordered_proxy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#ordered_proxy_rules CodebuildFleet#ordered_proxy_rules}
   */
   readonly orderedProxyRules?: CodebuildFleetFleetProxyConfigurationOrderedProxyRules[] | cdktn.IResolvable;
 }
@@ -560,7 +560,7 @@ export class CodebuildFleetFleetProxyConfigurationOutputReference extends cdktn.
   }
 
   // default_behavior - computed: true, optional: true, required: false
-  private _defaultBehavior?: string; 
+  private _defaultBehavior?: string;
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -593,15 +593,15 @@ export class CodebuildFleetFleetProxyConfigurationOutputReference extends cdktn.
 }
 export interface CodebuildFleetFleetVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#security_group_ids CodebuildFleet#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#security_group_ids CodebuildFleet#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#subnets CodebuildFleet#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#subnets CodebuildFleet#subnets}
   */
   readonly subnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#vpc_id CodebuildFleet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#vpc_id CodebuildFleet#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -704,7 +704,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -720,7 +720,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -736,7 +736,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -753,11 +753,11 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
 }
 export interface CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#metric_type CodebuildFleet#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#target_value CodebuildFleet#target_value}
   */
   readonly targetValue?: number;
 }
@@ -849,7 +849,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // metric_type - computed: true, optional: true, required: false
-  private _metricType?: string; 
+  private _metricType?: string;
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }
@@ -865,7 +865,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number; 
+  private _targetValue?: number;
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -902,15 +902,15 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList 
 }
 export interface CodebuildFleetScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}
   */
   readonly scalingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
   */
   readonly targetTrackingScalingConfigs?: CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs[] | cdktn.IResolvable;
 }
@@ -1013,7 +1013,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number; 
+  private _maxCapacity?: number;
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1029,7 +1029,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string; 
+  private _scalingType?: string;
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -1062,15 +1062,15 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
 }
 export interface CodebuildFleetTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#key CodebuildFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#key CodebuildFleet#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#value CodebuildFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#value CodebuildFleet#value}
   */
   readonly value?: string;
 }
@@ -1162,7 +1162,7 @@ export class CodebuildFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1178,7 +1178,7 @@ export class CodebuildFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1215,7 +1215,7 @@ export class CodebuildFleetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet awscc_codebuild_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet awscc_codebuild_fleet}
 */
 export class CodebuildFleet extends cdktn.TerraformResource {
 
@@ -1231,7 +1231,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodebuildFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodebuildFleet to import
-  * @param importFromId The id of the existing CodebuildFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodebuildFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodebuildFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1243,7 +1243,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codebuild_fleet awscc_codebuild_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet awscc_codebuild_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1254,7 +1254,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codebuild_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1288,7 +1288,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // base_capacity - computed: true, optional: true, required: false
-  private _baseCapacity?: number; 
+  private _baseCapacity?: number;
   public get baseCapacity() {
     return this.getNumberAttribute('base_capacity');
   }
@@ -1320,7 +1320,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // compute_type - computed: true, optional: true, required: false
-  private _computeType?: string; 
+  private _computeType?: string;
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1336,7 +1336,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // environment_type - computed: true, optional: true, required: false
-  private _environmentType?: string; 
+  private _environmentType?: string;
   public get environmentType() {
     return this.getStringAttribute('environment_type');
   }
@@ -1368,7 +1368,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // fleet_service_role - computed: true, optional: true, required: false
-  private _fleetServiceRole?: string; 
+  private _fleetServiceRole?: string;
   public get fleetServiceRole() {
     return this.getStringAttribute('fleet_service_role');
   }
@@ -1405,7 +1405,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1421,7 +1421,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1437,7 +1437,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // overflow_behavior - computed: true, optional: true, required: false
-  private _overflowBehavior?: string; 
+  private _overflowBehavior?: string;
   public get overflowBehavior() {
     return this.getStringAttribute('overflow_behavior');
   }

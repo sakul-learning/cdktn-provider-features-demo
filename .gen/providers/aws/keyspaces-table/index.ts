@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktn from 'cdktn';
 
 export interface KeyspacesTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#default_time_to_live KeyspacesTable#default_time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#default_time_to_live KeyspacesTable#default_time_to_live}
   */
   readonly defaultTimeToLive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#id KeyspacesTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#id KeyspacesTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#keyspace_name KeyspacesTable#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#keyspace_name KeyspacesTable#keyspace_name}
   */
   readonly keyspaceName: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#region KeyspacesTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#region KeyspacesTable#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#table_name KeyspacesTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#table_name KeyspacesTable#table_name}
   */
   readonly tableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#tags KeyspacesTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#tags KeyspacesTable#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#tags_all KeyspacesTable#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#tags_all KeyspacesTable#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * capacity_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#capacity_specification KeyspacesTable#capacity_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#capacity_specification KeyspacesTable#capacity_specification}
   */
   readonly capacitySpecification?: KeyspacesTableCapacitySpecification;
   /**
   * client_side_timestamps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#client_side_timestamps KeyspacesTable#client_side_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#client_side_timestamps KeyspacesTable#client_side_timestamps}
   */
   readonly clientSideTimestamps?: KeyspacesTableClientSideTimestamps;
   /**
   * comment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#comment KeyspacesTable#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#comment KeyspacesTable#comment}
   */
   readonly comment?: KeyspacesTableComment;
   /**
   * encryption_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#encryption_specification KeyspacesTable#encryption_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#encryption_specification KeyspacesTable#encryption_specification}
   */
   readonly encryptionSpecification?: KeyspacesTableEncryptionSpecification;
   /**
   * point_in_time_recovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#point_in_time_recovery KeyspacesTable#point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#point_in_time_recovery KeyspacesTable#point_in_time_recovery}
   */
   readonly pointInTimeRecovery?: KeyspacesTablePointInTimeRecovery;
   /**
   * schema_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#schema_definition KeyspacesTable#schema_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#schema_definition KeyspacesTable#schema_definition}
   */
   readonly schemaDefinition: KeyspacesTableSchemaDefinition;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#timeouts KeyspacesTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#timeouts KeyspacesTable#timeouts}
   */
   readonly timeouts?: KeyspacesTableTimeouts;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#ttl KeyspacesTable#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#ttl KeyspacesTable#ttl}
   */
   readonly ttl?: KeyspacesTableTtl;
 }
 export interface KeyspacesTableCapacitySpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#read_capacity_units KeyspacesTable#read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#read_capacity_units KeyspacesTable#read_capacity_units}
   */
   readonly readCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#throughput_mode KeyspacesTable#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#throughput_mode KeyspacesTable#throughput_mode}
   */
   readonly throughputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#write_capacity_units KeyspacesTable#write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#write_capacity_units KeyspacesTable#write_capacity_units}
   */
   readonly writeCapacityUnits?: number;
 }
@@ -192,7 +192,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // read_capacity_units - computed: false, optional: true, required: false
-  private _readCapacityUnits?: number; 
+  private _readCapacityUnits?: number;
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -208,7 +208,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // throughput_mode - computed: true, optional: true, required: false
-  private _throughputMode?: string; 
+  private _throughputMode?: string;
   public get throughputMode() {
     return this.getStringAttribute('throughput_mode');
   }
@@ -224,7 +224,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // write_capacity_units - computed: false, optional: true, required: false
-  private _writeCapacityUnits?: number; 
+  private _writeCapacityUnits?: number;
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -241,7 +241,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
 }
 export interface KeyspacesTableClientSideTimestamps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
   */
   readonly status: string;
 }
@@ -308,7 +308,7 @@ export class KeyspacesTableClientSideTimestampsOutputReference extends cdktn.Com
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -322,7 +322,7 @@ export class KeyspacesTableClientSideTimestampsOutputReference extends cdktn.Com
 }
 export interface KeyspacesTableComment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#message KeyspacesTable#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#message KeyspacesTable#message}
   */
   readonly message?: string;
 }
@@ -389,7 +389,7 @@ export class KeyspacesTableCommentOutputReference extends cdktn.ComplexObject {
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string; 
+  private _message?: string;
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -406,11 +406,11 @@ export class KeyspacesTableCommentOutputReference extends cdktn.ComplexObject {
 }
 export interface KeyspacesTableEncryptionSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#kms_key_identifier KeyspacesTable#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#kms_key_identifier KeyspacesTable#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#type KeyspacesTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#type KeyspacesTable#type}
   */
   readonly type?: string;
 }
@@ -490,7 +490,7 @@ export class KeyspacesTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string; 
+  private _kmsKeyIdentifier?: string;
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -506,7 +506,7 @@ export class KeyspacesTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -523,7 +523,7 @@ export class KeyspacesTableEncryptionSpecificationOutputReference extends cdktn.
 }
 export interface KeyspacesTablePointInTimeRecovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
   */
   readonly status?: string;
 }
@@ -590,7 +590,7 @@ export class KeyspacesTablePointInTimeRecoveryOutputReference extends cdktn.Comp
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -607,11 +607,11 @@ export class KeyspacesTablePointInTimeRecoveryOutputReference extends cdktn.Comp
 }
 export interface KeyspacesTableSchemaDefinitionClusteringKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#order_by KeyspacesTable#order_by}
   */
   readonly orderBy: string;
 }
@@ -703,7 +703,7 @@ export class KeyspacesTableSchemaDefinitionClusteringKeyOutputReference extends 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -716,7 +716,7 @@ export class KeyspacesTableSchemaDefinitionClusteringKeyOutputReference extends 
   }
 
   // order_by - computed: false, optional: false, required: true
-  private _orderBy?: string; 
+  private _orderBy?: string;
   public get orderBy() {
     return this.getStringAttribute('order_by');
   }
@@ -750,11 +750,11 @@ export class KeyspacesTableSchemaDefinitionClusteringKeyList extends cdktn.Compl
 }
 export interface KeyspacesTableSchemaDefinitionColumn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#type KeyspacesTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#type KeyspacesTable#type}
   */
   readonly type: string;
 }
@@ -846,7 +846,7 @@ export class KeyspacesTableSchemaDefinitionColumnOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -859,7 +859,7 @@ export class KeyspacesTableSchemaDefinitionColumnOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -893,7 +893,7 @@ export class KeyspacesTableSchemaDefinitionColumnList extends cdktn.ComplexList 
 }
 export interface KeyspacesTableSchemaDefinitionPartitionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
   */
   readonly name: string;
 }
@@ -972,7 +972,7 @@ export class KeyspacesTableSchemaDefinitionPartitionKeyOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1006,7 +1006,7 @@ export class KeyspacesTableSchemaDefinitionPartitionKeyList extends cdktn.Comple
 }
 export interface KeyspacesTableSchemaDefinitionStaticColumn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#name KeyspacesTable#name}
   */
   readonly name: string;
 }
@@ -1085,7 +1085,7 @@ export class KeyspacesTableSchemaDefinitionStaticColumnOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1121,25 +1121,25 @@ export interface KeyspacesTableSchemaDefinition {
   /**
   * clustering_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
   */
   readonly clusteringKey?: KeyspacesTableSchemaDefinitionClusteringKey[] | cdktn.IResolvable;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
   */
   readonly column: KeyspacesTableSchemaDefinitionColumn[] | cdktn.IResolvable;
   /**
   * partition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
   */
   readonly partitionKey: KeyspacesTableSchemaDefinitionPartitionKey[] | cdktn.IResolvable;
   /**
   * static_column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
   */
   readonly staticColumn?: KeyspacesTableSchemaDefinitionStaticColumn[] | cdktn.IResolvable;
 }
@@ -1304,15 +1304,15 @@ export class KeyspacesTableSchemaDefinitionOutputReference extends cdktn.Complex
 }
 export interface KeyspacesTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#create KeyspacesTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#create KeyspacesTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#delete KeyspacesTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#delete KeyspacesTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#update KeyspacesTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#update KeyspacesTable#update}
   */
   readonly update?: string;
 }
@@ -1415,7 +1415,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1431,7 +1431,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1447,7 +1447,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1464,7 +1464,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 export interface KeyspacesTableTtl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#status KeyspacesTable#status}
   */
   readonly status: string;
 }
@@ -1531,7 +1531,7 @@ export class KeyspacesTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1545,7 +1545,7 @@ export class KeyspacesTableTtlOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table aws_keyspaces_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table aws_keyspaces_table}
 */
 export class KeyspacesTable extends cdktn.TerraformResource {
 
@@ -1561,7 +1561,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KeyspacesTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyspacesTable to import
-  * @param importFromId The id of the existing KeyspacesTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyspacesTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyspacesTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1573,7 +1573,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1584,7 +1584,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
       terraformResourceType: 'aws_keyspaces_table',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1621,7 +1621,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // default_time_to_live - computed: false, optional: true, required: false
-  private _defaultTimeToLive?: number; 
+  private _defaultTimeToLive?: number;
   public get defaultTimeToLive() {
     return this.getNumberAttribute('default_time_to_live');
   }
@@ -1637,7 +1637,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1653,7 +1653,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // keyspace_name - computed: false, optional: false, required: true
-  private _keyspaceName?: string; 
+  private _keyspaceName?: string;
   public get keyspaceName() {
     return this.getStringAttribute('keyspace_name');
   }
@@ -1666,7 +1666,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1682,7 +1682,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1695,7 +1695,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1711,7 +1711,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CustomerprofilesEventTriggerConfig extends cdktn.TerraformMetaA
   /**
   * The description of the event trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
   */
   readonly description?: string;
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
   */
   readonly domainName: string;
   /**
   * A list of conditions that determine when an event should trigger the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
   */
   readonly eventTriggerConditions: CustomerprofilesEventTriggerEventTriggerConditions[] | cdktn.IResolvable;
   /**
   * Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
   */
   readonly eventTriggerLimits?: CustomerprofilesEventTriggerEventTriggerLimits;
   /**
   * The unique name of the event trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
   */
   readonly eventTriggerName: string;
   /**
   * The unique name of the object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
   */
   readonly objectTypeName: string;
   /**
   * The destination is triggered only for profiles that meet the criteria of a segment definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
   */
   readonly segmentFilter?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
   */
   readonly tags?: CustomerprofilesEventTriggerTags[] | cdktn.IResolvable;
 }
@@ -60,25 +60,25 @@ export interface CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerD
   /**
   * The operator used to compare an attribute against a list of values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * A field defined within an object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
   */
   readonly fieldName?: string;
   /**
   * An attribute contained within a source object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
   */
   readonly source?: string;
   /**
   * A list of attribute values used for comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
   */
   readonly values: string[];
 }
@@ -196,7 +196,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string; 
+  private _comparisonOperator?: string;
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -209,7 +209,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string; 
+  private _fieldName?: string;
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -225,7 +225,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -241,7 +241,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -277,7 +277,7 @@ export interface CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerD
   /**
   * A list of object attributes to be evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
   */
   readonly objectAttributes: CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributes[] | cdktn.IResolvable;
 }
@@ -392,13 +392,13 @@ export interface CustomerprofilesEventTriggerEventTriggerConditions {
   /**
   * A list of dimensions to be evaluated for the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
   */
   readonly eventTriggerDimensions: CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensions[] | cdktn.IResolvable;
   /**
   * The operator used to combine multiple dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
   */
   readonly logicalOperator: string;
 }
@@ -503,7 +503,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsOutputReference e
   }
 
   // logical_operator - computed: false, optional: false, required: true
-  private _logicalOperator?: string; 
+  private _logicalOperator?: string;
   public get logicalOperator() {
     return this.getStringAttribute('logical_operator');
   }
@@ -539,25 +539,25 @@ export interface CustomerprofilesEventTriggerEventTriggerLimitsPeriods {
   /**
   * The maximum allowed number of destination invocations per profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
   */
   readonly maxInvocationsPerProfile?: number;
   /**
   * The unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
   */
   readonly unit?: string;
   /**
   * If set to true, there is no limit on the number of destination invocations per profile. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
   */
   readonly unlimited?: boolean | cdktn.IResolvable;
   /**
   * The amount of time of the specified unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
   */
   readonly value?: number;
 }
@@ -675,7 +675,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // max_invocations_per_profile - computed: true, optional: true, required: false
-  private _maxInvocationsPerProfile?: number; 
+  private _maxInvocationsPerProfile?: number;
   public get maxInvocationsPerProfile() {
     return this.getNumberAttribute('max_invocations_per_profile');
   }
@@ -691,7 +691,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string; 
+  private _unit?: string;
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -707,7 +707,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // unlimited - computed: true, optional: true, required: false
-  private _unlimited?: boolean | cdktn.IResolvable; 
+  private _unlimited?: boolean | cdktn.IResolvable;
   public get unlimited() {
     return this.getBooleanAttribute('unlimited');
   }
@@ -723,7 +723,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -762,13 +762,13 @@ export interface CustomerprofilesEventTriggerEventTriggerLimits {
   /**
   * Specifies that an event will only trigger the destination if it is processed within a certain latency period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
   */
   readonly eventExpiration?: number;
   /**
   * A list of time periods during which the limits apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
   */
   readonly periods?: CustomerprofilesEventTriggerEventTriggerLimitsPeriods[] | cdktn.IResolvable;
 }
@@ -858,7 +858,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsOutputReference exten
   }
 
   // event_expiration - computed: true, optional: true, required: false
-  private _eventExpiration?: number; 
+  private _eventExpiration?: number;
   public get eventExpiration() {
     return this.getNumberAttribute('event_expiration');
   }
@@ -893,13 +893,13 @@ export interface CustomerprofilesEventTriggerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
   */
   readonly value?: string;
 }
@@ -991,7 +991,7 @@ export class CustomerprofilesEventTriggerTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1007,7 +1007,7 @@ export class CustomerprofilesEventTriggerTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1044,7 +1044,7 @@ export class CustomerprofilesEventTriggerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}
 */
 export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
 
@@ -1060,7 +1060,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesEventTrigger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesEventTrigger to import
-  * @param importFromId The id of the existing CustomerprofilesEventTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesEventTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesEventTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1072,7 +1072,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1083,7 +1083,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_event_trigger',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1113,7 +1113,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1129,7 +1129,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1171,7 +1171,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // event_trigger_name - computed: false, optional: false, required: true
-  private _eventTriggerName?: string; 
+  private _eventTriggerName?: string;
   public get eventTriggerName() {
     return this.getStringAttribute('event_trigger_name');
   }
@@ -1194,7 +1194,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: false, optional: false, required: true
-  private _objectTypeName?: string; 
+  private _objectTypeName?: string;
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -1207,7 +1207,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // segment_filter - computed: true, optional: true, required: false
-  private _segmentFilter?: string; 
+  private _segmentFilter?: string;
   public get segmentFilter() {
     return this.getStringAttribute('segment_filter');
   }

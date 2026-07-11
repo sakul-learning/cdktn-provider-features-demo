@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface OamLinkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#label_template OamLink#label_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#label_template OamLink#label_template}
   */
   readonly labelTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}
   */
   readonly linkConfiguration?: OamLinkLinkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#resource_types OamLink#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#resource_types OamLink#resource_types}
   */
   readonly resourceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}
   */
   readonly sinkIdentifier: string;
   /**
   * Tags to apply to the link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#tags OamLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#tags OamLink#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface OamLinkLinkConfigurationLogGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#filter OamLink#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#filter OamLink#filter}
   */
   readonly filter?: string;
 }
@@ -109,7 +109,7 @@ export class OamLinkLinkConfigurationLogGroupConfigurationOutputReference extend
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string; 
+  private _filter?: string;
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -126,7 +126,7 @@ export class OamLinkLinkConfigurationLogGroupConfigurationOutputReference extend
 }
 export interface OamLinkLinkConfigurationMetricConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#filter OamLink#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#filter OamLink#filter}
   */
   readonly filter?: string;
 }
@@ -203,7 +203,7 @@ export class OamLinkLinkConfigurationMetricConfigurationOutputReference extends 
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string; 
+  private _filter?: string;
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -220,11 +220,11 @@ export class OamLinkLinkConfigurationMetricConfigurationOutputReference extends 
 }
 export interface OamLinkLinkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}
   */
   readonly logGroupConfiguration?: OamLinkLinkConfigurationLogGroupConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}
   */
   readonly metricConfiguration?: OamLinkLinkConfigurationMetricConfiguration;
 }
@@ -347,7 +347,7 @@ export class OamLinkLinkConfigurationOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link awscc_oam_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link awscc_oam_link}
 */
 export class OamLink extends cdktn.TerraformResource {
 
@@ -363,7 +363,7 @@ export class OamLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OamLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OamLink to import
-  * @param importFromId The id of the existing OamLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OamLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OamLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -375,7 +375,7 @@ export class OamLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/oam_link awscc_oam_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/oam_link awscc_oam_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,7 +386,7 @@ export class OamLink extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_oam_link',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -423,7 +423,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // label_template - computed: true, optional: true, required: false
-  private _labelTemplate?: string; 
+  private _labelTemplate?: string;
   public get labelTemplate() {
     return this.getStringAttribute('label_template');
   }
@@ -455,7 +455,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // resource_types - computed: false, optional: false, required: true
-  private _resourceTypes?: string[]; 
+  private _resourceTypes?: string[];
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -468,7 +468,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // sink_identifier - computed: false, optional: false, required: true
-  private _sinkIdentifier?: string; 
+  private _sinkIdentifier?: string;
   public get sinkIdentifier() {
     return this.getStringAttribute('sink_identifier');
   }
@@ -481,7 +481,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

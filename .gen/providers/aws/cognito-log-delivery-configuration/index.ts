@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CognitoLogDeliveryConfigurationConfig extends cdktn.TerraformMe
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#region CognitoLogDeliveryConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#region CognitoLogDeliveryConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#user_pool_id CognitoLogDeliveryConfiguration#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#user_pool_id CognitoLogDeliveryConfiguration#user_pool_id}
   */
   readonly userPoolId: string;
   /**
   * log_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#log_configurations CognitoLogDeliveryConfiguration#log_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#log_configurations CognitoLogDeliveryConfiguration#log_configurations}
   */
   readonly logConfigurations?: CognitoLogDeliveryConfigurationLogConfigurations[] | cdktn.IResolvable;
 }
 export interface CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#log_group_arn CognitoLogDeliveryConfiguration#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#log_group_arn CognitoLogDeliveryConfiguration#log_group_arn}
   */
   readonly logGroupArn?: string;
 }
@@ -105,7 +105,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfi
   }
 
   // log_group_arn - computed: false, optional: true, required: false
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -142,7 +142,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfi
 }
 export interface CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#stream_arn CognitoLogDeliveryConfiguration#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#stream_arn CognitoLogDeliveryConfiguration#stream_arn}
   */
   readonly streamArn?: string;
 }
@@ -221,7 +221,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurati
   }
 
   // stream_arn - computed: false, optional: true, required: false
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -258,7 +258,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurati
 }
 export interface CognitoLogDeliveryConfigurationLogConfigurationsS3Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#bucket_arn CognitoLogDeliveryConfiguration#bucket_arn}
   */
   readonly bucketArn?: string;
 }
@@ -337,7 +337,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsS3ConfigurationOutp
   }
 
   // bucket_arn - computed: false, optional: true, required: false
-  private _bucketArn?: string; 
+  private _bucketArn?: string;
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -374,29 +374,29 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsS3ConfigurationList
 }
 export interface CognitoLogDeliveryConfigurationLogConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#event_source CognitoLogDeliveryConfiguration#event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#event_source CognitoLogDeliveryConfiguration#event_source}
   */
   readonly eventSource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#log_level CognitoLogDeliveryConfiguration#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#log_level CognitoLogDeliveryConfiguration#log_level}
   */
   readonly logLevel: string;
   /**
   * cloud_watch_logs_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#cloud_watch_logs_configuration CognitoLogDeliveryConfiguration#cloud_watch_logs_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#cloud_watch_logs_configuration CognitoLogDeliveryConfiguration#cloud_watch_logs_configuration}
   */
   readonly cloudWatchLogsConfiguration?: CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfiguration[] | cdktn.IResolvable;
   /**
   * firehose_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#firehose_configuration CognitoLogDeliveryConfiguration#firehose_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#firehose_configuration CognitoLogDeliveryConfiguration#firehose_configuration}
   */
   readonly firehoseConfiguration?: CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfiguration[] | cdktn.IResolvable;
   /**
   * s3_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#s3_configuration CognitoLogDeliveryConfiguration#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#s3_configuration CognitoLogDeliveryConfiguration#s3_configuration}
   */
   readonly s3Configuration?: CognitoLogDeliveryConfigurationLogConfigurationsS3Configuration[] | cdktn.IResolvable;
 }
@@ -527,7 +527,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsOutputReference ext
   }
 
   // event_source - computed: false, optional: false, required: true
-  private _eventSource?: string; 
+  private _eventSource?: string;
   public get eventSource() {
     return this.getStringAttribute('event_source');
   }
@@ -540,7 +540,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsOutputReference ext
   }
 
   // log_level - computed: false, optional: false, required: true
-  private _logLevel?: string; 
+  private _logLevel?: string;
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -622,7 +622,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsList extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration aws_cognito_log_delivery_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration aws_cognito_log_delivery_configuration}
 */
 export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
 
@@ -638,7 +638,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoLogDeliveryConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoLogDeliveryConfiguration to import
-  * @param importFromId The id of the existing CognitoLogDeliveryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoLogDeliveryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoLogDeliveryConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -650,7 +650,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cognito_log_delivery_configuration aws_cognito_log_delivery_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cognito_log_delivery_configuration aws_cognito_log_delivery_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -661,7 +661,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cognito_log_delivery_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -681,7 +681,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -697,7 +697,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

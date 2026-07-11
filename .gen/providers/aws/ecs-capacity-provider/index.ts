@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktn from 'cdktn';
 
 export interface EcsCapacityProviderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#cluster EcsCapacityProvider#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#cluster EcsCapacityProvider#cluster}
   */
   readonly cluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#id EcsCapacityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#id EcsCapacityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#name EcsCapacityProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#name EcsCapacityProvider#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#region EcsCapacityProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#region EcsCapacityProvider#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#tags EcsCapacityProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#tags EcsCapacityProvider#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#tags_all EcsCapacityProvider#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#tags_all EcsCapacityProvider#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * auto_scaling_group_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#auto_scaling_group_provider EcsCapacityProvider#auto_scaling_group_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#auto_scaling_group_provider EcsCapacityProvider#auto_scaling_group_provider}
   */
   readonly autoScalingGroupProvider?: EcsCapacityProviderAutoScalingGroupProvider;
   /**
   * managed_instances_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#managed_instances_provider EcsCapacityProvider#managed_instances_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#managed_instances_provider EcsCapacityProvider#managed_instances_provider}
   */
   readonly managedInstancesProvider?: EcsCapacityProviderManagedInstancesProvider;
 }
 export interface EcsCapacityProviderAutoScalingGroupProviderManagedScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#instance_warmup_period EcsCapacityProvider#instance_warmup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#instance_warmup_period EcsCapacityProvider#instance_warmup_period}
   */
   readonly instanceWarmupPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#maximum_scaling_step_size EcsCapacityProvider#maximum_scaling_step_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#maximum_scaling_step_size EcsCapacityProvider#maximum_scaling_step_size}
   */
   readonly maximumScalingStepSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#minimum_scaling_step_size EcsCapacityProvider#minimum_scaling_step_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#minimum_scaling_step_size EcsCapacityProvider#minimum_scaling_step_size}
   */
   readonly minimumScalingStepSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#status EcsCapacityProvider#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#status EcsCapacityProvider#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#target_capacity EcsCapacityProvider#target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#target_capacity EcsCapacityProvider#target_capacity}
   */
   readonly targetCapacity?: number;
 }
@@ -186,7 +186,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
   }
 
   // instance_warmup_period - computed: true, optional: true, required: false
-  private _instanceWarmupPeriod?: number; 
+  private _instanceWarmupPeriod?: number;
   public get instanceWarmupPeriod() {
     return this.getNumberAttribute('instance_warmup_period');
   }
@@ -202,7 +202,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
   }
 
   // maximum_scaling_step_size - computed: true, optional: true, required: false
-  private _maximumScalingStepSize?: number; 
+  private _maximumScalingStepSize?: number;
   public get maximumScalingStepSize() {
     return this.getNumberAttribute('maximum_scaling_step_size');
   }
@@ -218,7 +218,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
   }
 
   // minimum_scaling_step_size - computed: true, optional: true, required: false
-  private _minimumScalingStepSize?: number; 
+  private _minimumScalingStepSize?: number;
   public get minimumScalingStepSize() {
     return this.getNumberAttribute('minimum_scaling_step_size');
   }
@@ -234,7 +234,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -250,7 +250,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
   }
 
   // target_capacity - computed: true, optional: true, required: false
-  private _targetCapacity?: number; 
+  private _targetCapacity?: number;
   public get targetCapacity() {
     return this.getNumberAttribute('target_capacity');
   }
@@ -267,21 +267,21 @@ export class EcsCapacityProviderAutoScalingGroupProviderManagedScalingOutputRefe
 }
 export interface EcsCapacityProviderAutoScalingGroupProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#auto_scaling_group_arn EcsCapacityProvider#auto_scaling_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#auto_scaling_group_arn EcsCapacityProvider#auto_scaling_group_arn}
   */
   readonly autoScalingGroupArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#managed_draining EcsCapacityProvider#managed_draining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#managed_draining EcsCapacityProvider#managed_draining}
   */
   readonly managedDraining?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#managed_termination_protection EcsCapacityProvider#managed_termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#managed_termination_protection EcsCapacityProvider#managed_termination_protection}
   */
   readonly managedTerminationProtection?: string;
   /**
   * managed_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#managed_scaling EcsCapacityProvider#managed_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#managed_scaling EcsCapacityProvider#managed_scaling}
   */
   readonly managedScaling?: EcsCapacityProviderAutoScalingGroupProviderManagedScaling;
 }
@@ -387,7 +387,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderOutputReference extends 
   }
 
   // auto_scaling_group_arn - computed: false, optional: false, required: true
-  private _autoScalingGroupArn?: string; 
+  private _autoScalingGroupArn?: string;
   public get autoScalingGroupArn() {
     return this.getStringAttribute('auto_scaling_group_arn');
   }
@@ -400,7 +400,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderOutputReference extends 
   }
 
   // managed_draining - computed: true, optional: true, required: false
-  private _managedDraining?: string; 
+  private _managedDraining?: string;
   public get managedDraining() {
     return this.getStringAttribute('managed_draining');
   }
@@ -416,7 +416,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderOutputReference extends 
   }
 
   // managed_termination_protection - computed: true, optional: true, required: false
-  private _managedTerminationProtection?: string; 
+  private _managedTerminationProtection?: string;
   public get managedTerminationProtection() {
     return this.getStringAttribute('managed_termination_protection');
   }
@@ -449,7 +449,7 @@ export class EcsCapacityProviderAutoScalingGroupProviderOutputReference extends 
 }
 export interface EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#scale_in_after EcsCapacityProvider#scale_in_after}
   */
   readonly scaleInAfter?: number;
 }
@@ -516,7 +516,7 @@ export class EcsCapacityProviderManagedInstancesProviderInfrastructureOptimizati
   }
 
   // scale_in_after - computed: false, optional: true, required: false
-  private _scaleInAfter?: number; 
+  private _scaleInAfter?: number;
   public get scaleInAfter() {
     return this.getNumberAttribute('scale_in_after');
   }
@@ -533,11 +533,11 @@ export class EcsCapacityProviderManagedInstancesProviderInfrastructureOptimizati
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -617,7 +617,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -633,7 +633,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -650,11 +650,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -734,7 +734,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -750,7 +750,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -767,11 +767,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -851,7 +851,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -867,7 +867,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -884,11 +884,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsMemoryGibPerVcpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -968,7 +968,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -984,7 +984,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1001,11 +1001,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsMemoryMib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min: number;
 }
@@ -1085,7 +1085,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1101,7 +1101,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: false, required: true
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1115,11 +1115,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsNetworkBandwidthGbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -1199,7 +1199,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1215,7 +1215,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1232,11 +1232,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsNetworkInterfaceCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -1316,7 +1316,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1332,7 +1332,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1349,11 +1349,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsTotalLocalStorageGb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min?: number;
 }
@@ -1433,7 +1433,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1449,7 +1449,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1466,11 +1466,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsVcpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max EcsCapacityProvider#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#min EcsCapacityProvider#min}
   */
   readonly min: number;
 }
@@ -1550,7 +1550,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1566,7 +1566,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // min - computed: false, optional: false, required: true
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1580,117 +1580,117 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#accelerator_manufacturers EcsCapacityProvider#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#accelerator_manufacturers EcsCapacityProvider#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#accelerator_names EcsCapacityProvider#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#accelerator_names EcsCapacityProvider#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#accelerator_types EcsCapacityProvider#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#accelerator_types EcsCapacityProvider#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#allowed_instance_types EcsCapacityProvider#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#allowed_instance_types EcsCapacityProvider#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#bare_metal EcsCapacityProvider#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#bare_metal EcsCapacityProvider#bare_metal}
   */
   readonly bareMetal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#burstable_performance EcsCapacityProvider#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#burstable_performance EcsCapacityProvider#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#cpu_manufacturers EcsCapacityProvider#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#cpu_manufacturers EcsCapacityProvider#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#excluded_instance_types EcsCapacityProvider#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#excluded_instance_types EcsCapacityProvider#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#instance_generations EcsCapacityProvider#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#instance_generations EcsCapacityProvider#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#local_storage EcsCapacityProvider#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#local_storage EcsCapacityProvider#local_storage}
   */
   readonly localStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#local_storage_types EcsCapacityProvider#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#local_storage_types EcsCapacityProvider#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#max_spot_price_as_percentage_of_optimal_on_demand_price EcsCapacityProvider#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#max_spot_price_as_percentage_of_optimal_on_demand_price EcsCapacityProvider#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#on_demand_max_price_percentage_over_lowest_price EcsCapacityProvider#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#on_demand_max_price_percentage_over_lowest_price EcsCapacityProvider#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#require_hibernate_support EcsCapacityProvider#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#require_hibernate_support EcsCapacityProvider#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#spot_max_price_percentage_over_lowest_price EcsCapacityProvider#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#spot_max_price_percentage_over_lowest_price EcsCapacityProvider#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
   * accelerator_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#accelerator_count EcsCapacityProvider#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#accelerator_count EcsCapacityProvider#accelerator_count}
   */
   readonly acceleratorCount?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsAcceleratorCount;
   /**
   * accelerator_total_memory_mib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#accelerator_total_memory_mib EcsCapacityProvider#accelerator_total_memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#accelerator_total_memory_mib EcsCapacityProvider#accelerator_total_memory_mib}
   */
   readonly acceleratorTotalMemoryMib?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMib;
   /**
   * baseline_ebs_bandwidth_mbps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#baseline_ebs_bandwidth_mbps EcsCapacityProvider#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#baseline_ebs_bandwidth_mbps EcsCapacityProvider#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
   * memory_gib_per_vcpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#memory_gib_per_vcpu EcsCapacityProvider#memory_gib_per_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#memory_gib_per_vcpu EcsCapacityProvider#memory_gib_per_vcpu}
   */
   readonly memoryGibPerVcpu?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsMemoryGibPerVcpu;
   /**
   * memory_mib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#memory_mib EcsCapacityProvider#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#memory_mib EcsCapacityProvider#memory_mib}
   */
   readonly memoryMib: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsMemoryMib;
   /**
   * network_bandwidth_gbps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#network_bandwidth_gbps EcsCapacityProvider#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#network_bandwidth_gbps EcsCapacityProvider#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsNetworkBandwidthGbps;
   /**
   * network_interface_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#network_interface_count EcsCapacityProvider#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#network_interface_count EcsCapacityProvider#network_interface_count}
   */
   readonly networkInterfaceCount?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsNetworkInterfaceCount;
   /**
   * total_local_storage_gb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#total_local_storage_gb EcsCapacityProvider#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#total_local_storage_gb EcsCapacityProvider#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsTotalLocalStorageGb;
   /**
   * vcpu_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#vcpu_count EcsCapacityProvider#vcpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#vcpu_count EcsCapacityProvider#vcpu_count}
   */
   readonly vcpuCount: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsVcpuCount;
 }
@@ -2056,7 +2056,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // accelerator_manufacturers - computed: false, optional: true, required: false
-  private _acceleratorManufacturers?: string[]; 
+  private _acceleratorManufacturers?: string[];
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -2072,7 +2072,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // accelerator_names - computed: false, optional: true, required: false
-  private _acceleratorNames?: string[]; 
+  private _acceleratorNames?: string[];
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -2088,7 +2088,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // accelerator_types - computed: false, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -2104,7 +2104,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // allowed_instance_types - computed: false, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_instance_types'));
   }
@@ -2120,7 +2120,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // bare_metal - computed: false, optional: true, required: false
-  private _bareMetal?: string; 
+  private _bareMetal?: string;
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -2136,7 +2136,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // burstable_performance - computed: false, optional: true, required: false
-  private _burstablePerformance?: string; 
+  private _burstablePerformance?: string;
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -2152,7 +2152,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // cpu_manufacturers - computed: false, optional: true, required: false
-  private _cpuManufacturers?: string[]; 
+  private _cpuManufacturers?: string[];
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -2168,7 +2168,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // excluded_instance_types - computed: false, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_instance_types'));
   }
@@ -2184,7 +2184,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // instance_generations - computed: false, optional: true, required: false
-  private _instanceGenerations?: string[]; 
+  private _instanceGenerations?: string[];
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -2200,7 +2200,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // local_storage - computed: false, optional: true, required: false
-  private _localStorage?: string; 
+  private _localStorage?: string;
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -2216,7 +2216,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // local_storage_types - computed: false, optional: true, required: false
-  private _localStorageTypes?: string[]; 
+  private _localStorageTypes?: string[];
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -2232,7 +2232,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: false, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -2248,7 +2248,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
+  private _onDemandMaxPricePercentageOverLowestPrice?: number;
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -2264,7 +2264,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // require_hibernate_support - computed: false, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -2280,7 +2280,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number; 
+  private _spotMaxPricePercentageOverLowestPrice?: number;
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -2435,11 +2435,11 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateIn
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#security_groups EcsCapacityProvider#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#security_groups EcsCapacityProvider#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#subnets EcsCapacityProvider#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#subnets EcsCapacityProvider#subnets}
   */
   readonly subnets: string[];
 }
@@ -2519,7 +2519,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNe
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -2535,7 +2535,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNe
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -2549,7 +2549,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNe
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#storage_size_gib EcsCapacityProvider#storage_size_gib}
   */
   readonly storageSizeGib: number;
 }
@@ -2616,7 +2616,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateSt
   }
 
   // storage_size_gib - computed: false, optional: false, required: true
-  private _storageSizeGib?: number; 
+  private _storageSizeGib?: number;
   public get storageSizeGib() {
     return this.getNumberAttribute('storage_size_gib');
   }
@@ -2630,33 +2630,33 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateSt
 }
 export interface EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#capacity_option_type EcsCapacityProvider#capacity_option_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#capacity_option_type EcsCapacityProvider#capacity_option_type}
   */
   readonly capacityOptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#ec2_instance_profile_arn EcsCapacityProvider#ec2_instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#ec2_instance_profile_arn EcsCapacityProvider#ec2_instance_profile_arn}
   */
   readonly ec2InstanceProfileArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#monitoring EcsCapacityProvider#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#monitoring EcsCapacityProvider#monitoring}
   */
   readonly monitoring?: string;
   /**
   * instance_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#instance_requirements EcsCapacityProvider#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#instance_requirements EcsCapacityProvider#instance_requirements}
   */
   readonly instanceRequirements?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements;
   /**
   * network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#network_configuration EcsCapacityProvider#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#network_configuration EcsCapacityProvider#network_configuration}
   */
   readonly networkConfiguration: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration;
   /**
   * storage_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#storage_configuration EcsCapacityProvider#storage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#storage_configuration EcsCapacityProvider#storage_configuration}
   */
   readonly storageConfiguration?: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration;
 }
@@ -2788,7 +2788,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOu
   }
 
   // capacity_option_type - computed: true, optional: true, required: false
-  private _capacityOptionType?: string; 
+  private _capacityOptionType?: string;
   public get capacityOptionType() {
     return this.getStringAttribute('capacity_option_type');
   }
@@ -2804,7 +2804,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOu
   }
 
   // ec2_instance_profile_arn - computed: false, optional: false, required: true
-  private _ec2InstanceProfileArn?: string; 
+  private _ec2InstanceProfileArn?: string;
   public get ec2InstanceProfileArn() {
     return this.getStringAttribute('ec2_instance_profile_arn');
   }
@@ -2817,7 +2817,7 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOu
   }
 
   // monitoring - computed: false, optional: true, required: false
-  private _monitoring?: string; 
+  private _monitoring?: string;
   public get monitoring() {
     return this.getStringAttribute('monitoring');
   }
@@ -2879,23 +2879,23 @@ export class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOu
 }
 export interface EcsCapacityProviderManagedInstancesProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#infrastructure_role_arn EcsCapacityProvider#infrastructure_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#infrastructure_role_arn EcsCapacityProvider#infrastructure_role_arn}
   */
   readonly infrastructureRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#propagate_tags EcsCapacityProvider#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#propagate_tags EcsCapacityProvider#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
   * infrastructure_optimization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#infrastructure_optimization EcsCapacityProvider#infrastructure_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#infrastructure_optimization EcsCapacityProvider#infrastructure_optimization}
   */
   readonly infrastructureOptimization?: EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization;
   /**
   * instance_launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#instance_launch_template EcsCapacityProvider#instance_launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#instance_launch_template EcsCapacityProvider#instance_launch_template}
   */
   readonly instanceLaunchTemplate: EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate;
 }
@@ -3001,7 +3001,7 @@ export class EcsCapacityProviderManagedInstancesProviderOutputReference extends 
   }
 
   // infrastructure_role_arn - computed: false, optional: false, required: true
-  private _infrastructureRoleArn?: string; 
+  private _infrastructureRoleArn?: string;
   public get infrastructureRoleArn() {
     return this.getStringAttribute('infrastructure_role_arn');
   }
@@ -3014,7 +3014,7 @@ export class EcsCapacityProviderManagedInstancesProviderOutputReference extends 
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -3060,7 +3060,7 @@ export class EcsCapacityProviderManagedInstancesProviderOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider}
 */
 export class EcsCapacityProvider extends cdktn.TerraformResource {
 
@@ -3076,7 +3076,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcsCapacityProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsCapacityProvider to import
-  * @param importFromId The id of the existing EcsCapacityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsCapacityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsCapacityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3088,7 +3088,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3099,7 +3099,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ecs_capacity_provider',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3129,7 +3129,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // cluster - computed: false, optional: true, required: false
-  private _cluster?: string; 
+  private _cluster?: string;
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -3145,7 +3145,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3161,7 +3161,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3174,7 +3174,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3190,7 +3190,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3206,7 +3206,7 @@ export class EcsCapacityProvider extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

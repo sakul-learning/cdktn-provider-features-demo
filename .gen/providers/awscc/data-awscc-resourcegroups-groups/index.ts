@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/resourcegroups_groups
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccResourcegroupsGroupsConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}
 */
 export class DataAwsccResourcegroupsGroups extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccResourcegroupsGroups extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccResourcegroupsGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccResourcegroupsGroups to import
-  * @param importFromId The id of the existing DataAwsccResourcegroupsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/resourcegroups_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccResourcegroupsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccResourcegroupsGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccResourcegroupsGroups extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccResourcegroupsGroups extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_resourcegroups_groups',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

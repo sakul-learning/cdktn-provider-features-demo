@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,197 @@ export interface RumAppMonitorConfig extends cdktn.TerraformMetaArguments {
   /**
   * AppMonitor configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#app_monitor_configuration RumAppMonitor#app_monitor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#app_monitor_configuration RumAppMonitor#app_monitor_configuration}
   */
   readonly appMonitorConfiguration?: RumAppMonitorAppMonitorConfiguration;
   /**
   * AppMonitor custom events configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#custom_events RumAppMonitor#custom_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#custom_events RumAppMonitor#custom_events}
   */
   readonly customEvents?: RumAppMonitorCustomEvents;
   /**
   * Data collected by RUM is kept by RUM for 30 days and then deleted. This parameter specifies whether RUM sends a copy of this telemetry data to CWLlong in your account. This enables you to keep the telemetry data for more than 30 days, but it does incur CWLlong charges. If you omit this parameter, the default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#cw_log_enabled RumAppMonitor#cw_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#cw_log_enabled RumAppMonitor#cw_log_enabled}
   */
   readonly cwLogEnabled?: boolean | cdktn.IResolvable;
   /**
   * A structure that contains the configuration for how an app monitor can deobfuscate stack traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#deobfuscation_configuration RumAppMonitor#deobfuscation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#deobfuscation_configuration RumAppMonitor#deobfuscation_configuration}
   */
   readonly deobfuscationConfiguration?: RumAppMonitorDeobfuscationConfiguration;
   /**
   * The top-level internet domain name for which your application has administrative authority. The CreateAppMonitor requires either the domain or the domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#domain RumAppMonitor#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#domain RumAppMonitor#domain}
   */
   readonly domain?: string;
   /**
   * The top-level internet domain names for which your application has administrative authority. The CreateAppMonitor requires either the domain or the domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#domain_list RumAppMonitor#domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#domain_list RumAppMonitor#domain_list}
   */
   readonly domainList?: string[];
   /**
   * A name for the app monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}
   */
   readonly platform?: string;
   /**
   * A structure that defines resource policy attached to your app monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#resource_policy RumAppMonitor#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#resource_policy RumAppMonitor#resource_policy}
   */
   readonly resourcePolicy?: RumAppMonitorResourcePolicy;
   /**
   * Assigns one or more tags (key-value pairs) to the app monitor. Tags can help you organize and categorize your resources. You can also use them to scope user permissions by granting a user permission to access or change only resources with certain tag values. Tags don't have any semantic meaning to AWS and are interpreted strictly as strings of characters.You can associate as many as 50 tags with an app monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#tags RumAppMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#tags RumAppMonitor#tags}
   */
   readonly tags?: RumAppMonitorTags[] | cdktn.IResolvable;
 }
 export interface RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions {
   /**
   * Use this field only if you are sending the metric to CloudWatch.
-  * 
+  *
   * This field is a map of field paths to dimension names. It defines the dimensions to associate with this metric in CloudWatch. For extended metrics, valid values for the entries in this field are the following:
-  * 
+  *
   * "metadata.pageId": "PageId"
-  * 
+  *
   * "metadata.browserName": "BrowserName"
-  * 
+  *
   * "metadata.deviceType": "DeviceType"
-  * 
+  *
   * "metadata.osName": "OSName"
-  * 
+  *
   * "metadata.countryCode": "CountryCode"
-  * 
+  *
   * "event_details.fileType": "FileType"
-  * 
+  *
   * All dimensions listed in this field must also be included in EventPattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
   */
   readonly dimensionKeys?: { [key: string]: string };
   /**
   * The pattern that defines the metric, specified as a JSON object. RUM checks events that happen in a user's session against the pattern, and events that match the pattern are sent to the metric destination.
-  * 
+  *
   * When you define extended metrics, the metric definition is not valid if EventPattern is omitted.
-  * 
+  *
   * Example event patterns:
-  * 
+  *
   * '{ "event_type": ["com.amazon.rum.js_error_event"], "metadata": { "browserName": [ "Chrome", "Safari" ], } }'
-  * 
+  *
   * '{ "event_type": ["com.amazon.rum.performance_navigation_event"], "metadata": { "browserName": [ "Chrome", "Firefox" ] }, "event_details": { "duration": [{ "numeric": [ "<", 2000 ] }] } }'
-  * 
+  *
   * '{ "event_type": ["com.amazon.rum.performance_navigation_event"], "metadata": { "browserName": [ "Chrome", "Safari" ], "countryCode": [ "US" ] }, "event_details": { "duration": [{ "numeric": [ ">=", 2000, "<", 8000 ] }] } }'
-  * 
+  *
   * If the metrics destination' is CloudWatch and the event also matches a value in DimensionKeys, then the metric is published with the specified dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
   */
   readonly eventPattern?: string;
   /**
   * The name for the metric that is defined in this structure. For extended metrics, valid values are the following:
-  * 
+  *
   * PerformanceNavigationDuration
-  * 
+  *
   * PerformanceResourceDuration
-  * 
+  *
   * NavigationSatisfiedTransaction
-  * 
+  *
   * NavigationToleratedTransaction
-  * 
+  *
   * NavigationFrustratedTransaction
-  * 
+  *
   * WebVitalsCumulativeLayoutShift
-  * 
+  *
   * WebVitalsFirstInputDelay
-  * 
+  *
   * WebVitalsLargestContentfulPaint
-  * 
+  *
   * WebVitalsInteractionToNextPaint
-  * 
+  *
   * JsErrorCount
-  * 
+  *
   * HttpErrorCount
-  * 
+  *
   * SessionCount
-  * 
+  *
   * PageViewCount
-  * 
+  *
   * Http4xxCount
-  * 
+  *
   * Http5xxCount
-  * 
+  *
   * SessionDuration
-  * 
+  *
   * PageViewCountPerSession
-  * 
+  *
   * JsErrorCountPerSession
-  * 
+  *
   * Http4xxCountPerSession
-  * 
+  *
   * Http5xxCountPerSession
-  * 
+  *
   * JsErrorCountPerPageView
-  * 
+  *
   * Http4xxCountPerPageView
-  * 
+  *
   * Http5xxCountPerPageView
-  * 
+  *
   * TimeOnPage
-  * 
+  *
   * ColdLaunchTime
-  * 
+  *
   * WarmLaunchTime
-  * 
+  *
   * CrashCount
-  * 
+  *
   * ANRCount
-  * 
+  *
   * AppHangCount
-  * 
+  *
   * ScreenLoadCount
-  * 
+  *
   * ScreenLoadTime
-  * 
+  *
   * NetworkLatency
-  * 
+  *
   * SpanPayloadSize
-  * 
+  *
   * LogEventPayloadSize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
   */
   readonly name?: string;
   /**
   * The namespace used by CloudWatch Metrics for the metric that is defined in this structure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
   */
   readonly namespace?: string;
   /**
   * The CloudWatch metric unit to use for this metric. If you omit this field, the metric is recorded with no unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
   */
   readonly unitLabel?: string;
   /**
   * The field within the event object that the metric value is sourced from.
-  * 
+  *
   * If you omit this field, a hardcoded value of 1 is pushed as the metric value. This is useful if you just want to count the number of events that the filter catches.
-  * 
+  *
   * If this metric is sent to Evidently, this field will be passed to Evidently raw and Evidently will handle data extraction from the event. Note: Evidently has been discontinued.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
   */
   readonly valueKey?: string;
 }
@@ -344,7 +344,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // dimension_keys - computed: true, optional: true, required: false
-  private _dimensionKeys?: { [key: string]: string }; 
+  private _dimensionKeys?: { [key: string]: string };
   public get dimensionKeys() {
     return this.getStringMapAttribute('dimension_keys');
   }
@@ -360,7 +360,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string; 
+  private _eventPattern?: string;
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -376,7 +376,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -392,7 +392,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -408,7 +408,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // unit_label - computed: true, optional: true, required: false
-  private _unitLabel?: string; 
+  private _unitLabel?: string;
   public get unitLabel() {
     return this.getStringAttribute('unit_label');
   }
@@ -424,7 +424,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // value_key - computed: true, optional: true, required: false
-  private _valueKey?: string; 
+  private _valueKey?: string;
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -463,29 +463,29 @@ export interface RumAppMonitorAppMonitorConfigurationMetricDestinations {
   /**
   * Defines the destination to send the metrics to. Valid values are CloudWatch and Evidently. Note: Evidently has been discontinued and is no longer supported - requests with Evidently will be rejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#destination RumAppMonitor#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#destination RumAppMonitor#destination}
   */
   readonly destination?: string;
   /**
-  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter. 
-  * 
+  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter.
+  *
   * This parameter specifies the ARN of the Evidently experiment that will receive the extended metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#destination_arn RumAppMonitor#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#destination_arn RumAppMonitor#destination_arn}
   */
   readonly destinationArn?: string;
   /**
-  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter. 
-  * 
+  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter.
+  *
   * This parameter specifies the ARN of an IAM role that RUM will assume to write to the Evidently experiment that you are sending metrics to. This role must have permission to write to that experiment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#iam_role_arn RumAppMonitor#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#iam_role_arn RumAppMonitor#iam_role_arn}
   */
   readonly iamRoleArn?: string;
   /**
   * An array of structures which define the metrics that you want to send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#metric_definitions RumAppMonitor#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#metric_definitions RumAppMonitor#metric_definitions}
   */
   readonly metricDefinitions?: RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions[] | cdktn.IResolvable;
 }
@@ -603,7 +603,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string; 
+  private _destination?: string;
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -619,7 +619,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string; 
+  private _destinationArn?: string;
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -635,7 +635,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string; 
+  private _iamRoleArn?: string;
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -690,61 +690,61 @@ export interface RumAppMonitorAppMonitorConfiguration {
   /**
   * If you set this to true, the RUM web client sets two cookies, a session cookie and a user cookie. The cookies allow the RUM web client to collect data relating to the number of users an application has and the behavior of the application across a sequence of events. Cookies are stored in the top-level domain of the current page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#allow_cookies RumAppMonitor#allow_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#allow_cookies RumAppMonitor#allow_cookies}
   */
   readonly allowCookies?: boolean | cdktn.IResolvable;
   /**
   * If you set this to true, RUM enables xray tracing for the user sessions that RUM samples. RUM adds an xray trace header to allowed HTTP requests. It also records an xray segment for allowed HTTP requests. You can see traces and segments from these user sessions in the xray console and the CW ServiceLens console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#enable_x_ray RumAppMonitor#enable_x_ray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#enable_x_ray RumAppMonitor#enable_x_ray}
   */
   readonly enableXRay?: boolean | cdktn.IResolvable;
   /**
   * A list of URLs in your website or application to exclude from RUM data collection. You can't include both ExcludedPages and IncludedPages in the same operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#excluded_pages RumAppMonitor#excluded_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#excluded_pages RumAppMonitor#excluded_pages}
   */
   readonly excludedPages?: string[];
   /**
   * A list of pages in the RUM console that are to be displayed with a favorite icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#favorite_pages RumAppMonitor#favorite_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#favorite_pages RumAppMonitor#favorite_pages}
   */
   readonly favoritePages?: string[];
   /**
   * The ARN of the guest IAM role that is attached to the identity pool that is used to authorize the sending of data to RUM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#guest_role_arn RumAppMonitor#guest_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#guest_role_arn RumAppMonitor#guest_role_arn}
   */
   readonly guestRoleArn?: string;
   /**
   * The ID of the identity pool that is used to authorize the sending of data to RUM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#identity_pool_id RumAppMonitor#identity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#identity_pool_id RumAppMonitor#identity_pool_id}
   */
   readonly identityPoolId?: string;
   /**
   * If this app monitor is to collect data from only certain pages in your application, this structure lists those pages. You can't include both ExcludedPages and IncludedPages in the same operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#included_pages RumAppMonitor#included_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#included_pages RumAppMonitor#included_pages}
   */
   readonly includedPages?: string[];
   /**
   * An array of structures which define the destinations and the metrics that you want to send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#metric_destinations RumAppMonitor#metric_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#metric_destinations RumAppMonitor#metric_destinations}
   */
   readonly metricDestinations?: RumAppMonitorAppMonitorConfigurationMetricDestinations[] | cdktn.IResolvable;
   /**
   * Specifies the percentage of user sessions to use for RUM data collection. Choosing a higher percentage gives you more data but also incurs more costs. The number you specify is the percentage of user sessions that will be used. If you omit this parameter, the default of 10 is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#session_sample_rate RumAppMonitor#session_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#session_sample_rate RumAppMonitor#session_sample_rate}
   */
   readonly sessionSampleRate?: number;
   /**
   * An array that lists the types of telemetry data that this app monitor is to collect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#telemetries RumAppMonitor#telemetries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#telemetries RumAppMonitor#telemetries}
   */
   readonly telemetries?: string[];
 }
@@ -938,7 +938,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // allow_cookies - computed: true, optional: true, required: false
-  private _allowCookies?: boolean | cdktn.IResolvable; 
+  private _allowCookies?: boolean | cdktn.IResolvable;
   public get allowCookies() {
     return this.getBooleanAttribute('allow_cookies');
   }
@@ -954,7 +954,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // enable_x_ray - computed: true, optional: true, required: false
-  private _enableXRay?: boolean | cdktn.IResolvable; 
+  private _enableXRay?: boolean | cdktn.IResolvable;
   public get enableXRay() {
     return this.getBooleanAttribute('enable_x_ray');
   }
@@ -970,7 +970,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // excluded_pages - computed: true, optional: true, required: false
-  private _excludedPages?: string[]; 
+  private _excludedPages?: string[];
   public get excludedPages() {
     return this.getListAttribute('excluded_pages');
   }
@@ -986,7 +986,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // favorite_pages - computed: true, optional: true, required: false
-  private _favoritePages?: string[]; 
+  private _favoritePages?: string[];
   public get favoritePages() {
     return this.getListAttribute('favorite_pages');
   }
@@ -1002,7 +1002,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // guest_role_arn - computed: true, optional: true, required: false
-  private _guestRoleArn?: string; 
+  private _guestRoleArn?: string;
   public get guestRoleArn() {
     return this.getStringAttribute('guest_role_arn');
   }
@@ -1018,7 +1018,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // identity_pool_id - computed: true, optional: true, required: false
-  private _identityPoolId?: string; 
+  private _identityPoolId?: string;
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -1034,7 +1034,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // included_pages - computed: true, optional: true, required: false
-  private _includedPages?: string[]; 
+  private _includedPages?: string[];
   public get includedPages() {
     return this.getListAttribute('included_pages');
   }
@@ -1066,7 +1066,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // session_sample_rate - computed: true, optional: true, required: false
-  private _sessionSampleRate?: number; 
+  private _sessionSampleRate?: number;
   public get sessionSampleRate() {
     return this.getNumberAttribute('session_sample_rate');
   }
@@ -1082,7 +1082,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // telemetries - computed: true, optional: true, required: false
-  private _telemetries?: string[]; 
+  private _telemetries?: string[];
   public get telemetries() {
     return this.getListAttribute('telemetries');
   }
@@ -1101,7 +1101,7 @@ export interface RumAppMonitorCustomEvents {
   /**
   * Indicates whether AppMonitor accepts custom events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
   */
   readonly status?: string;
 }
@@ -1178,7 +1178,7 @@ export class RumAppMonitorCustomEventsOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1197,13 +1197,13 @@ export interface RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps {
   /**
   * The S3Uri of the bucket or folder that stores the source map files. It is required if status is ENABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#s3_uri RumAppMonitor#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#s3_uri RumAppMonitor#s3_uri}
   */
   readonly s3Uri?: string;
   /**
   * Specifies whether JavaScript error stack traces should be unminified for this app monitor. The default is for JavaScript error stack trace unminification to be DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
   */
   readonly status?: string;
 }
@@ -1293,7 +1293,7 @@ export class RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputRe
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1309,7 +1309,7 @@ export class RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputRe
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1328,7 +1328,7 @@ export interface RumAppMonitorDeobfuscationConfiguration {
   /**
   * A structure that contains the configuration for how an app monitor can unminify JavaScript error stack traces using source maps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#java_script_source_maps RumAppMonitor#java_script_source_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#java_script_source_maps RumAppMonitor#java_script_source_maps}
   */
   readonly javaScriptSourceMaps?: RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps;
 }
@@ -1422,17 +1422,17 @@ export class RumAppMonitorDeobfuscationConfigurationOutputReference extends cdkt
 }
 export interface RumAppMonitorResourcePolicy {
   /**
-  * The JSON to use as the resource policy. The document can be up to 4 KB in size. 
+  * The JSON to use as the resource policy. The document can be up to 4 KB in size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#policy_document RumAppMonitor#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#policy_document RumAppMonitor#policy_document}
   */
   readonly policyDocument?: string;
   /**
-  * A string value that you can use to conditionally update your policy. You can provide the revision ID of your existing policy to make mutating requests against that policy. 
-  * 
+  * A string value that you can use to conditionally update your policy. You can provide the revision ID of your existing policy to make mutating requests against that policy.
+  *
   *  When you assign a policy revision ID, then later requests about that policy will be rejected with an InvalidPolicyRevisionIdException error if they don't provide the correct current revision ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#policy_revision_id RumAppMonitor#policy_revision_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#policy_revision_id RumAppMonitor#policy_revision_id}
   */
   readonly policyRevisionId?: string;
 }
@@ -1522,7 +1522,7 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -1538,7 +1538,7 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_revision_id - computed: true, optional: true, required: false
-  private _policyRevisionId?: string; 
+  private _policyRevisionId?: string;
   public get policyRevisionId() {
     return this.getStringAttribute('policy_revision_id');
   }
@@ -1555,15 +1555,15 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
 }
 export interface RumAppMonitorTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#key RumAppMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#key RumAppMonitor#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#value RumAppMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#value RumAppMonitor#value}
   */
   readonly value?: string;
 }
@@ -1655,7 +1655,7 @@ export class RumAppMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1671,7 +1671,7 @@ export class RumAppMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1708,7 +1708,7 @@ export class RumAppMonitorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor awscc_rum_app_monitor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor awscc_rum_app_monitor}
 */
 export class RumAppMonitor extends cdktn.TerraformResource {
 
@@ -1724,7 +1724,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RumAppMonitor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumAppMonitor to import
-  * @param importFromId The id of the existing RumAppMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumAppMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumAppMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1736,7 +1736,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rum_app_monitor awscc_rum_app_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor awscc_rum_app_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1747,7 +1747,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rum_app_monitor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1811,7 +1811,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // cw_log_enabled - computed: true, optional: true, required: false
-  private _cwLogEnabled?: boolean | cdktn.IResolvable; 
+  private _cwLogEnabled?: boolean | cdktn.IResolvable;
   public get cwLogEnabled() {
     return this.getBooleanAttribute('cw_log_enabled');
   }
@@ -1843,7 +1843,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1859,7 +1859,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain_list - computed: true, optional: true, required: false
-  private _domainList?: string[]; 
+  private _domainList?: string[];
   public get domainList() {
     return this.getListAttribute('domain_list');
   }
@@ -1880,7 +1880,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1893,7 +1893,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // platform - computed: true, optional: true, required: false
-  private _platform?: string; 
+  private _platform?: string;
   public get platform() {
     return this.getStringAttribute('platform');
   }

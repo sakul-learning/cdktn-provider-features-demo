@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface Ec2FlowLogConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ARN of the IAM role that allows Amazon EC2 to publish flow logs across accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#deliver_cross_account_role Ec2FlowLog#deliver_cross_account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#deliver_cross_account_role Ec2FlowLog#deliver_cross_account_role}
   */
   readonly deliverCrossAccountRole?: string;
   /**
   * The ARN for the IAM role that permits Amazon EC2 to publish flow logs to a CloudWatch Logs log group in your account. If you specify LogDestinationType as s3 or kinesis-data-firehose, do not specify DeliverLogsPermissionArn or LogGroupName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#deliver_logs_permission_arn Ec2FlowLog#deliver_logs_permission_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#deliver_logs_permission_arn Ec2FlowLog#deliver_logs_permission_arn}
   */
   readonly deliverLogsPermissionArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}
   */
   readonly destinationOptions?: Ec2FlowLogDestinationOptions;
   /**
   * Specifies the destination to which the flow log data is to be published. Flow log data can be published to a CloudWatch Logs log group, an Amazon S3 bucket, or a Kinesis Firehose stream. The value specified for this parameter depends on the value specified for LogDestinationType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#log_destination Ec2FlowLog#log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#log_destination Ec2FlowLog#log_destination}
   */
   readonly logDestination?: string;
   /**
   * Specifies the type of destination to which the flow log data is to be published. Flow log data can be published to CloudWatch Logs or Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#log_destination_type Ec2FlowLog#log_destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#log_destination_type Ec2FlowLog#log_destination_type}
   */
   readonly logDestinationType?: string;
   /**
   * The fields to include in the flow log record, in the order in which they should appear.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#log_format Ec2FlowLog#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#log_format Ec2FlowLog#log_format}
   */
   readonly logFormat?: string;
   /**
   * The name of a new or existing CloudWatch Logs log group where Amazon EC2 publishes your flow logs. If you specify LogDestinationType as s3 or kinesis-data-firehose, do not specify DeliverLogsPermissionArn or LogGroupName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#log_group_name Ec2FlowLog#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#log_group_name Ec2FlowLog#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The maximum interval of time during which a flow of packets is captured and aggregated into a flow log record. You can specify 60 seconds (1 minute) or 600 seconds (10 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#max_aggregation_interval Ec2FlowLog#max_aggregation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#max_aggregation_interval Ec2FlowLog#max_aggregation_interval}
   */
   readonly maxAggregationInterval?: number;
   /**
   * The ID of the subnet, network interface, or VPC for which you want to create a flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#resource_id Ec2FlowLog#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#resource_id Ec2FlowLog#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of resource for which to create the flow log. For example, if you specified a VPC ID for the ResourceId property, specify VPC for this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
   */
   readonly resourceType: string;
   /**
   * The resource types and associated tags for EC2 resources associated with the EC2 Tags feature for log enrichment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#tag_field_specifications Ec2FlowLog#tag_field_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#tag_field_specifications Ec2FlowLog#tag_field_specifications}
   */
   readonly tagFieldSpecifications?: Ec2FlowLogTagFieldSpecifications[] | cdktn.IResolvable;
   /**
   * The tags to apply to the flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#tags Ec2FlowLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#tags Ec2FlowLog#tags}
   */
   readonly tags?: Ec2FlowLogTags[] | cdktn.IResolvable;
   /**
   * The type of traffic to log. You can log traffic that the resource accepts or rejects, or all traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#traffic_type Ec2FlowLog#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#traffic_type Ec2FlowLog#traffic_type}
   */
   readonly trafficType?: string;
 }
 export interface Ec2FlowLogDestinationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}
   */
   readonly fileFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}
   */
   readonly hiveCompatiblePartitions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}
   */
   readonly perHourPartition?: boolean | cdktn.IResolvable;
 }
@@ -197,7 +197,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // file_format - computed: true, optional: true, required: false
-  private _fileFormat?: string; 
+  private _fileFormat?: string;
   public get fileFormat() {
     return this.getStringAttribute('file_format');
   }
@@ -213,7 +213,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // hive_compatible_partitions - computed: true, optional: true, required: false
-  private _hiveCompatiblePartitions?: boolean | cdktn.IResolvable; 
+  private _hiveCompatiblePartitions?: boolean | cdktn.IResolvable;
   public get hiveCompatiblePartitions() {
     return this.getBooleanAttribute('hive_compatible_partitions');
   }
@@ -229,7 +229,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // per_hour_partition - computed: true, optional: true, required: false
-  private _perHourPartition?: boolean | cdktn.IResolvable; 
+  private _perHourPartition?: boolean | cdktn.IResolvable;
   public get perHourPartition() {
     return this.getBooleanAttribute('per_hour_partition');
   }
@@ -246,11 +246,11 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
 }
 export interface Ec2FlowLogTagFieldSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}
   */
   readonly tagKeys?: string[];
 }
@@ -342,7 +342,7 @@ export class Ec2FlowLogTagFieldSpecificationsOutputReference extends cdktn.Compl
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -358,7 +358,7 @@ export class Ec2FlowLogTagFieldSpecificationsOutputReference extends cdktn.Compl
   }
 
   // tag_keys - computed: true, optional: true, required: false
-  private _tagKeys?: string[]; 
+  private _tagKeys?: string[];
   public get tagKeys() {
     return this.getListAttribute('tag_keys');
   }
@@ -395,11 +395,11 @@ export class Ec2FlowLogTagFieldSpecificationsList extends cdktn.ComplexList {
 }
 export interface Ec2FlowLogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}
   */
   readonly value?: string;
 }
@@ -491,7 +491,7 @@ export class Ec2FlowLogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -507,7 +507,7 @@ export class Ec2FlowLogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -544,7 +544,7 @@ export class Ec2FlowLogTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}
 */
 export class Ec2FlowLog extends cdktn.TerraformResource {
 
@@ -560,7 +560,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2FlowLog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2FlowLog to import
-  * @param importFromId The id of the existing Ec2FlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2FlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2FlowLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -572,7 +572,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -583,7 +583,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_flow_log',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -613,7 +613,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   // ==========
 
   // deliver_cross_account_role - computed: true, optional: true, required: false
-  private _deliverCrossAccountRole?: string; 
+  private _deliverCrossAccountRole?: string;
   public get deliverCrossAccountRole() {
     return this.getStringAttribute('deliver_cross_account_role');
   }
@@ -629,7 +629,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // deliver_logs_permission_arn - computed: true, optional: true, required: false
-  private _deliverLogsPermissionArn?: string; 
+  private _deliverLogsPermissionArn?: string;
   public get deliverLogsPermissionArn() {
     return this.getStringAttribute('deliver_logs_permission_arn');
   }
@@ -671,7 +671,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_destination - computed: true, optional: true, required: false
-  private _logDestination?: string; 
+  private _logDestination?: string;
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -687,7 +687,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_destination_type - computed: true, optional: true, required: false
-  private _logDestinationType?: string; 
+  private _logDestinationType?: string;
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -703,7 +703,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string; 
+  private _logFormat?: string;
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -719,7 +719,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string; 
+  private _logGroupName?: string;
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -735,7 +735,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // max_aggregation_interval - computed: true, optional: true, required: false
-  private _maxAggregationInterval?: number; 
+  private _maxAggregationInterval?: number;
   public get maxAggregationInterval() {
     return this.getNumberAttribute('max_aggregation_interval');
   }
@@ -751,7 +751,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string; 
+  private _resourceId?: string;
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -764,7 +764,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -809,7 +809,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // traffic_type - computed: true, optional: true, required: false
-  private _trafficType?: string; 
+  private _trafficType?: string;
   public get trafficType() {
     return this.getStringAttribute('traffic_type');
   }

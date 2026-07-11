@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface XrayGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
   */
   readonly filterExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#group_name XrayGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#group_name XrayGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#id XrayGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#id XrayGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface XrayGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#region XrayGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#region XrayGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#tags XrayGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#tags XrayGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#tags_all XrayGroup#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#tags_all XrayGroup#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * insights_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}
   */
   readonly insightsConfiguration?: XrayGroupInsightsConfiguration;
 }
 export interface XrayGroupInsightsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#insights_enabled XrayGroup#insights_enabled}
   */
   readonly insightsEnabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#notifications_enabled XrayGroup#notifications_enabled}
   */
   readonly notificationsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -129,7 +129,7 @@ export class XrayGroupInsightsConfigurationOutputReference extends cdktn.Complex
   }
 
   // insights_enabled - computed: false, optional: false, required: true
-  private _insightsEnabled?: boolean | cdktn.IResolvable; 
+  private _insightsEnabled?: boolean | cdktn.IResolvable;
   public get insightsEnabled() {
     return this.getBooleanAttribute('insights_enabled');
   }
@@ -142,7 +142,7 @@ export class XrayGroupInsightsConfigurationOutputReference extends cdktn.Complex
   }
 
   // notifications_enabled - computed: true, optional: true, required: false
-  private _notificationsEnabled?: boolean | cdktn.IResolvable; 
+  private _notificationsEnabled?: boolean | cdktn.IResolvable;
   public get notificationsEnabled() {
     return this.getBooleanAttribute('notifications_enabled');
   }
@@ -159,7 +159,7 @@ export class XrayGroupInsightsConfigurationOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group aws_xray_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group aws_xray_group}
 */
 export class XrayGroup extends cdktn.TerraformResource {
 
@@ -175,7 +175,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a XrayGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the XrayGroup to import
-  * @param importFromId The id of the existing XrayGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing XrayGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the XrayGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -187,7 +187,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_group aws_xray_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_group aws_xray_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,7 +198,7 @@ export class XrayGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_xray_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -227,7 +227,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // filter_expression - computed: false, optional: false, required: true
-  private _filterExpression?: string; 
+  private _filterExpression?: string;
   public get filterExpression() {
     return this.getStringAttribute('filter_expression');
   }
@@ -240,7 +240,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -253,7 +253,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -269,7 +269,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -301,7 +301,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

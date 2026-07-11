@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface BedrockResourcePolicyConfig extends cdktn.TerraformMetaArgument
   /**
   * The IAM policy document defining access permissions for the guardrail and guardrail profile resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy#policy_document BedrockResourcePolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy#policy_document BedrockResourcePolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
   * The ARN of the Bedrock Guardrail or Guardrail Profile resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy#resource_arn BedrockResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy#resource_arn BedrockResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy}
 */
 export class BedrockResourcePolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class BedrockResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockResourcePolicy to import
-  * @param importFromId The id of the existing BedrockResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class BedrockResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class BedrockResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class BedrockResourcePolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -98,7 +98,7 @@ export class BedrockResourcePolicy extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

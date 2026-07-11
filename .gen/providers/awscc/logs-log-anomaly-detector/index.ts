@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface LogsLogAnomalyDetectorConfig extends cdktn.TerraformMetaArgumen
   /**
   * Account ID for owner of detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#account_id LogsLogAnomalyDetector#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#account_id LogsLogAnomalyDetector#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#anomaly_visibility_time LogsLogAnomalyDetector#anomaly_visibility_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#anomaly_visibility_time LogsLogAnomalyDetector#anomaly_visibility_time}
   */
   readonly anomalyVisibilityTime?: number;
   /**
   * Name of detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#detector_name LogsLogAnomalyDetector#detector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#detector_name LogsLogAnomalyDetector#detector_name}
   */
   readonly detectorName?: string;
   /**
   * How often log group is evaluated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#evaluation_frequency LogsLogAnomalyDetector#evaluation_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#evaluation_frequency LogsLogAnomalyDetector#evaluation_frequency}
   */
   readonly evaluationFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#filter_pattern LogsLogAnomalyDetector#filter_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#filter_pattern LogsLogAnomalyDetector#filter_pattern}
   */
   readonly filterPattern?: string;
   /**
   * The Amazon Resource Name (ARN) of the CMK to use when encrypting log data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#kms_key_id LogsLogAnomalyDetector#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#kms_key_id LogsLogAnomalyDetector#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * List of Arns for the given log group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#log_group_arn_list LogsLogAnomalyDetector#log_group_arn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#log_group_arn_list LogsLogAnomalyDetector#log_group_arn_list}
   */
   readonly logGroupArnList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}
 */
 export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
 
@@ -64,7 +64,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsLogAnomalyDetector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsLogAnomalyDetector to import
-  * @param importFromId The id of the existing LogsLogAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsLogAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsLogAnomalyDetector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -76,7 +76,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,7 +87,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_log_anomaly_detector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -137,7 +137,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_visibility_time - computed: true, optional: true, required: false
-  private _anomalyVisibilityTime?: number; 
+  private _anomalyVisibilityTime?: number;
   public get anomalyVisibilityTime() {
     return this.getNumberAttribute('anomaly_visibility_time');
   }
@@ -158,7 +158,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // detector_name - computed: true, optional: true, required: false
-  private _detectorName?: string; 
+  private _detectorName?: string;
   public get detectorName() {
     return this.getStringAttribute('detector_name');
   }
@@ -174,7 +174,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // evaluation_frequency - computed: true, optional: true, required: false
-  private _evaluationFrequency?: string; 
+  private _evaluationFrequency?: string;
   public get evaluationFrequency() {
     return this.getStringAttribute('evaluation_frequency');
   }
@@ -190,7 +190,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: true, optional: true, required: false
-  private _filterPattern?: string; 
+  private _filterPattern?: string;
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -211,7 +211,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -232,7 +232,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // log_group_arn_list - computed: true, optional: true, required: false
-  private _logGroupArnList?: string[]; 
+  private _logGroupArnList?: string[];
   public get logGroupArnList() {
     return cdktn.Fn.tolist(this.getListAttribute('log_group_arn_list'));
   }

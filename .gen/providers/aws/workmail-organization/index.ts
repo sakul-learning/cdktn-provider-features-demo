@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface WorkmailOrganizationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}
   */
   readonly deleteDirectory?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}
   */
   readonly deleteIdentityCenterApplication?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}
   */
   readonly directoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}
   */
   readonly interoperabilityEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}
   */
   readonly organizationAlias: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
   */
   readonly timeouts?: WorkmailOrganizationTimeouts;
 }
@@ -52,13 +52,13 @@ export interface WorkmailOrganizationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#create WorkmailOrganization#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#create WorkmailOrganization#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#delete WorkmailOrganization#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#delete WorkmailOrganization#delete}
   */
   readonly delete?: string;
 }
@@ -148,7 +148,7 @@ export class WorkmailOrganizationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -164,7 +164,7 @@ export class WorkmailOrganizationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -181,7 +181,7 @@ export class WorkmailOrganizationTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization aws_workmail_organization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization aws_workmail_organization}
 */
 export class WorkmailOrganization extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkmailOrganization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkmailOrganization to import
-  * @param importFromId The id of the existing WorkmailOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkmailOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkmailOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_organization aws_workmail_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_organization aws_workmail_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workmail_organization',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -261,7 +261,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // delete_directory - computed: false, optional: true, required: false
-  private _deleteDirectory?: boolean | cdktn.IResolvable; 
+  private _deleteDirectory?: boolean | cdktn.IResolvable;
   public get deleteDirectory() {
     return this.getBooleanAttribute('delete_directory');
   }
@@ -277,7 +277,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // delete_identity_center_application - computed: false, optional: true, required: false
-  private _deleteIdentityCenterApplication?: boolean | cdktn.IResolvable; 
+  private _deleteIdentityCenterApplication?: boolean | cdktn.IResolvable;
   public get deleteIdentityCenterApplication() {
     return this.getBooleanAttribute('delete_identity_center_application');
   }
@@ -293,7 +293,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: true, optional: true, required: false
-  private _directoryId?: string; 
+  private _directoryId?: string;
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -314,7 +314,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // interoperability_enabled - computed: true, optional: true, required: false
-  private _interoperabilityEnabled?: boolean | cdktn.IResolvable; 
+  private _interoperabilityEnabled?: boolean | cdktn.IResolvable;
   public get interoperabilityEnabled() {
     return this.getBooleanAttribute('interoperability_enabled');
   }
@@ -330,7 +330,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -351,7 +351,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // organization_alias - computed: false, optional: false, required: true
-  private _organizationAlias?: string; 
+  private _organizationAlias?: string;
   public get organizationAlias() {
     return this.getStringAttribute('organization_alias');
   }
@@ -369,7 +369,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -390,7 +390,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

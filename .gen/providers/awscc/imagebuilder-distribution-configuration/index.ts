@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ImagebuilderDistributionConfigurationConfig extends cdktn.Terra
   /**
   * The description of the distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
   */
   readonly description?: string;
   /**
   * The distributions of the distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#distributions ImagebuilderDistributionConfiguration#distributions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#distributions ImagebuilderDistributionConfiguration#distributions}
   */
   readonly distributions: ImagebuilderDistributionConfigurationDistributions[] | cdktn.IResolvable;
   /**
   * The name of the distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#name ImagebuilderDistributionConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#name ImagebuilderDistributionConfiguration#name}
   */
   readonly name: string;
   /**
   * The tags associated with the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#tags ImagebuilderDistributionConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#tags ImagebuilderDistributionConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -36,25 +36,25 @@ export interface ImagebuilderDistributionConfigurationDistributionsAmiDistributi
   /**
   * The ARN for an Amazon Web Services Organization that you want to share your AMI with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#organization_arns ImagebuilderDistributionConfiguration#organization_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#organization_arns ImagebuilderDistributionConfiguration#organization_arns}
   */
   readonly organizationArns?: string[];
   /**
   * The ARN for an Organizations organizational unit (OU) that you want to share your AMI with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#organizational_unit_arns ImagebuilderDistributionConfiguration#organizational_unit_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#organizational_unit_arns ImagebuilderDistributionConfiguration#organizational_unit_arns}
   */
   readonly organizationalUnitArns?: string[];
   /**
   * The name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#user_groups ImagebuilderDistributionConfiguration#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#user_groups ImagebuilderDistributionConfiguration#user_groups}
   */
   readonly userGroups?: string[];
   /**
   * The AWS account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#user_ids ImagebuilderDistributionConfiguration#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#user_ids ImagebuilderDistributionConfiguration#user_ids}
   */
   readonly userIds?: string[];
 }
@@ -170,7 +170,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // organization_arns - computed: true, optional: true, required: false
-  private _organizationArns?: string[]; 
+  private _organizationArns?: string[];
   public get organizationArns() {
     return this.getListAttribute('organization_arns');
   }
@@ -186,7 +186,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // organizational_unit_arns - computed: true, optional: true, required: false
-  private _organizationalUnitArns?: string[]; 
+  private _organizationalUnitArns?: string[];
   public get organizationalUnitArns() {
     return this.getListAttribute('organizational_unit_arns');
   }
@@ -202,7 +202,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // user_groups - computed: true, optional: true, required: false
-  private _userGroups?: string[]; 
+  private _userGroups?: string[];
   public get userGroups() {
     return this.getListAttribute('user_groups');
   }
@@ -218,7 +218,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // user_ids - computed: true, optional: true, required: false
-  private _userIds?: string[]; 
+  private _userIds?: string[];
   public get userIds() {
     return this.getListAttribute('user_ids');
   }
@@ -237,37 +237,37 @@ export interface ImagebuilderDistributionConfigurationDistributionsAmiDistributi
   /**
   * The tags to apply to AMIs distributed to this Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#ami_tags ImagebuilderDistributionConfiguration#ami_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#ami_tags ImagebuilderDistributionConfiguration#ami_tags}
   */
   readonly amiTags?: { [key: string]: string };
   /**
   * The description of the AMI distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
   */
   readonly description?: string;
   /**
   * The KMS key identifier used to encrypt the distributed image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#kms_key_id ImagebuilderDistributionConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#kms_key_id ImagebuilderDistributionConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Launch permissions can be used to configure which AWS accounts can use the AMI to launch instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_permission_configuration ImagebuilderDistributionConfiguration#launch_permission_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_permission_configuration ImagebuilderDistributionConfiguration#launch_permission_configuration}
   */
   readonly launchPermissionConfiguration?: ImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationLaunchPermissionConfiguration;
   /**
   * The name of the AMI distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#name ImagebuilderDistributionConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#name ImagebuilderDistributionConfiguration#name}
   */
   readonly name?: string;
   /**
   * The ID of accounts to which you want to distribute an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#target_account_ids ImagebuilderDistributionConfiguration#target_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#target_account_ids ImagebuilderDistributionConfiguration#target_account_ids}
   */
   readonly targetAccountIds?: string[];
 }
@@ -409,7 +409,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // ami_tags - computed: true, optional: true, required: false
-  private _amiTags?: { [key: string]: string }; 
+  private _amiTags?: { [key: string]: string };
   public get amiTags() {
     return this.getStringMapAttribute('ami_tags');
   }
@@ -425,7 +425,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -441,7 +441,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -473,7 +473,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -489,7 +489,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // target_account_ids - computed: true, optional: true, required: false
-  private _targetAccountIds?: string[]; 
+  private _targetAccountIds?: string[];
   public get targetAccountIds() {
     return this.getListAttribute('target_account_ids');
   }
@@ -508,13 +508,13 @@ export interface ImagebuilderDistributionConfigurationDistributionsContainerDist
   /**
   * The repository name of target container repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#repository_name ImagebuilderDistributionConfiguration#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#repository_name ImagebuilderDistributionConfiguration#repository_name}
   */
   readonly repositoryName?: string;
   /**
   * The service of target container repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#service ImagebuilderDistributionConfiguration#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#service ImagebuilderDistributionConfiguration#service}
   */
   readonly service?: string;
 }
@@ -604,7 +604,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // repository_name - computed: true, optional: true, required: false
-  private _repositoryName?: string; 
+  private _repositoryName?: string;
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -620,7 +620,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string; 
+  private _service?: string;
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -639,19 +639,19 @@ export interface ImagebuilderDistributionConfigurationDistributionsContainerDist
   /**
   * Tags that are attached to the container distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#container_tags ImagebuilderDistributionConfiguration#container_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#container_tags ImagebuilderDistributionConfiguration#container_tags}
   */
   readonly containerTags?: string[];
   /**
   * The description of the container distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#description ImagebuilderDistributionConfiguration#description}
   */
   readonly description?: string;
   /**
   * The destination repository for the container distribution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#target_repository ImagebuilderDistributionConfiguration#target_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#target_repository ImagebuilderDistributionConfiguration#target_repository}
   */
   readonly targetRepository?: ImagebuilderDistributionConfigurationDistributionsContainerDistributionConfigurationTargetRepository;
 }
@@ -754,7 +754,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // container_tags - computed: true, optional: true, required: false
-  private _containerTags?: string[]; 
+  private _containerTags?: string[];
   public get containerTags() {
     return this.getListAttribute('container_tags');
   }
@@ -770,7 +770,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -805,19 +805,19 @@ export interface ImagebuilderDistributionConfigurationDistributionsFastLaunchCon
   /**
   * The ID of the launch template to use for faster launching for a Windows AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template_id ImagebuilderDistributionConfiguration#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template_id ImagebuilderDistributionConfiguration#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * The name of the launch template to use for faster launching for a Windows AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template_name ImagebuilderDistributionConfiguration#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template_name ImagebuilderDistributionConfiguration#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
   * The version of the launch template to use for faster launching for a Windows AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template_version ImagebuilderDistributionConfiguration#launch_template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template_version ImagebuilderDistributionConfiguration#launch_template_version}
   */
   readonly launchTemplateVersion?: string;
 }
@@ -920,7 +920,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -936,7 +936,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -952,7 +952,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_version - computed: true, optional: true, required: false
-  private _launchTemplateVersion?: string; 
+  private _launchTemplateVersion?: string;
   public get launchTemplateVersion() {
     return this.getStringAttribute('launch_template_version');
   }
@@ -971,7 +971,7 @@ export interface ImagebuilderDistributionConfigurationDistributionsFastLaunchCon
   /**
   * The number of pre-provisioned snapshots to keep on hand for a fast-launch enabled Windows AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#target_resource_count ImagebuilderDistributionConfiguration#target_resource_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#target_resource_count ImagebuilderDistributionConfiguration#target_resource_count}
   */
   readonly targetResourceCount?: number;
 }
@@ -1048,7 +1048,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // target_resource_count - computed: true, optional: true, required: false
-  private _targetResourceCount?: number; 
+  private _targetResourceCount?: number;
   public get targetResourceCount() {
     return this.getNumberAttribute('target_resource_count');
   }
@@ -1067,31 +1067,31 @@ export interface ImagebuilderDistributionConfigurationDistributionsFastLaunchCon
   /**
   * The owner account ID for the fast-launch enabled Windows AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#account_id ImagebuilderDistributionConfiguration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#account_id ImagebuilderDistributionConfiguration#account_id}
   */
   readonly accountId?: string;
   /**
   * A Boolean that represents the current state of faster launching for the Windows AMI. Set to true to start using Windows faster launching, or false to stop using it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#enabled ImagebuilderDistributionConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#enabled ImagebuilderDistributionConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The launch template that the fast-launch enabled Windows AMI uses when it launches Windows instances to create pre-provisioned snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template ImagebuilderDistributionConfiguration#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template ImagebuilderDistributionConfiguration#launch_template}
   */
   readonly launchTemplate?: ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigurationsLaunchTemplate;
   /**
   * The maximum number of parallel instances that are launched for creating resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#max_parallel_launches ImagebuilderDistributionConfiguration#max_parallel_launches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#max_parallel_launches ImagebuilderDistributionConfiguration#max_parallel_launches}
   */
   readonly maxParallelLaunches?: number;
   /**
   * Configuration settings for managing the number of snapshots that are created from pre-provisioned instances for the Windows AMI when faster launching is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#snapshot_configuration ImagebuilderDistributionConfiguration#snapshot_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#snapshot_configuration ImagebuilderDistributionConfiguration#snapshot_configuration}
   */
   readonly snapshotConfiguration?: ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigurationsSnapshotConfiguration;
 }
@@ -1222,7 +1222,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1238,7 +1238,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1270,7 +1270,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // max_parallel_launches - computed: true, optional: true, required: false
-  private _maxParallelLaunches?: number; 
+  private _maxParallelLaunches?: number;
   public get maxParallelLaunches() {
     return this.getNumberAttribute('max_parallel_launches');
   }
@@ -1325,19 +1325,19 @@ export interface ImagebuilderDistributionConfigurationDistributionsLaunchTemplat
   /**
   * The account ID that this configuration applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#account_id ImagebuilderDistributionConfiguration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#account_id ImagebuilderDistributionConfiguration#account_id}
   */
   readonly accountId?: string;
   /**
   * Identifies the EC2 launch template to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template_id ImagebuilderDistributionConfiguration#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template_id ImagebuilderDistributionConfiguration#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * Set the specified EC2 launch template as the default launch template for the specified account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#set_default_version ImagebuilderDistributionConfiguration#set_default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#set_default_version ImagebuilderDistributionConfiguration#set_default_version}
   */
   readonly setDefaultVersion?: boolean | cdktn.IResolvable;
 }
@@ -1442,7 +1442,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1458,7 +1458,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -1474,7 +1474,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // set_default_version - computed: true, optional: true, required: false
-  private _setDefaultVersion?: boolean | cdktn.IResolvable; 
+  private _setDefaultVersion?: boolean | cdktn.IResolvable;
   public get setDefaultVersion() {
     return this.getBooleanAttribute('set_default_version');
   }
@@ -1513,19 +1513,19 @@ export interface ImagebuilderDistributionConfigurationDistributionsSsmParameterC
   /**
   * The account ID for the AMI to update the parameter with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#ami_account_id ImagebuilderDistributionConfiguration#ami_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#ami_account_id ImagebuilderDistributionConfiguration#ami_account_id}
   */
   readonly amiAccountId?: string;
   /**
   * The data type of the SSM parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#data_type ImagebuilderDistributionConfiguration#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#data_type ImagebuilderDistributionConfiguration#data_type}
   */
   readonly dataType?: string;
   /**
   * The name of the SSM parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#parameter_name ImagebuilderDistributionConfiguration#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#parameter_name ImagebuilderDistributionConfiguration#parameter_name}
   */
   readonly parameterName?: string;
 }
@@ -1630,7 +1630,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // ami_account_id - computed: true, optional: true, required: false
-  private _amiAccountId?: string; 
+  private _amiAccountId?: string;
   public get amiAccountId() {
     return this.getStringAttribute('ami_account_id');
   }
@@ -1646,7 +1646,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string; 
+  private _dataType?: string;
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -1662,7 +1662,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string; 
+  private _parameterName?: string;
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -1701,43 +1701,43 @@ export interface ImagebuilderDistributionConfigurationDistributions {
   /**
   * The specific AMI settings (for example, launch permissions, AMI tags).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#ami_distribution_configuration ImagebuilderDistributionConfiguration#ami_distribution_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#ami_distribution_configuration ImagebuilderDistributionConfiguration#ami_distribution_configuration}
   */
   readonly amiDistributionConfiguration?: ImagebuilderDistributionConfigurationDistributionsAmiDistributionConfiguration;
   /**
   * Container distribution settings for encryption, licensing, and sharing in a specific Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#container_distribution_configuration ImagebuilderDistributionConfiguration#container_distribution_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#container_distribution_configuration ImagebuilderDistributionConfiguration#container_distribution_configuration}
   */
   readonly containerDistributionConfiguration?: ImagebuilderDistributionConfigurationDistributionsContainerDistributionConfiguration;
   /**
   * The Windows faster-launching configurations to use for AMI distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#fast_launch_configurations ImagebuilderDistributionConfiguration#fast_launch_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#fast_launch_configurations ImagebuilderDistributionConfiguration#fast_launch_configurations}
   */
   readonly fastLaunchConfigurations?: ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigurations[] | cdktn.IResolvable;
   /**
   * A group of launchTemplateConfiguration settings that apply to image distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#launch_template_configurations ImagebuilderDistributionConfiguration#launch_template_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#launch_template_configurations ImagebuilderDistributionConfiguration#launch_template_configurations}
   */
   readonly launchTemplateConfigurations?: ImagebuilderDistributionConfigurationDistributionsLaunchTemplateConfigurations[] | cdktn.IResolvable;
   /**
   * The License Manager Configuration to associate with the AMI in the specified Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#license_configuration_arns ImagebuilderDistributionConfiguration#license_configuration_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#license_configuration_arns ImagebuilderDistributionConfiguration#license_configuration_arns}
   */
   readonly licenseConfigurationArns?: string[];
   /**
   * region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#region ImagebuilderDistributionConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#region ImagebuilderDistributionConfiguration#region}
   */
   readonly region: string;
   /**
   * The SSM parameter configurations to use for AMI distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#ssm_parameter_configurations ImagebuilderDistributionConfiguration#ssm_parameter_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#ssm_parameter_configurations ImagebuilderDistributionConfiguration#ssm_parameter_configurations}
   */
   readonly ssmParameterConfigurations?: ImagebuilderDistributionConfigurationDistributionsSsmParameterConfigurations[] | cdktn.IResolvable;
 }
@@ -1958,7 +1958,7 @@ export class ImagebuilderDistributionConfigurationDistributionsOutputReference e
   }
 
   // license_configuration_arns - computed: true, optional: true, required: false
-  private _licenseConfigurationArns?: string[]; 
+  private _licenseConfigurationArns?: string[];
   public get licenseConfigurationArns() {
     return this.getListAttribute('license_configuration_arns');
   }
@@ -1974,7 +1974,7 @@ export class ImagebuilderDistributionConfigurationDistributionsOutputReference e
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2024,7 +2024,7 @@ export class ImagebuilderDistributionConfigurationDistributionsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration}
 */
 export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResource {
 
@@ -2040,7 +2040,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   * Generates CDKTN code for importing a ImagebuilderDistributionConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagebuilderDistributionConfiguration to import
-  * @param importFromId The id of the existing ImagebuilderDistributionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagebuilderDistributionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagebuilderDistributionConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2052,7 +2052,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2063,7 +2063,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
       terraformResourceType: 'awscc_imagebuilder_distribution_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2089,7 +2089,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2123,7 +2123,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2136,7 +2136,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

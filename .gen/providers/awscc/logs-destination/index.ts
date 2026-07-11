@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LogsDestinationConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the destination resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
   */
   readonly destinationName: string;
   /**
   * An IAM policy document that governs which AWS accounts can create subscription filters against this destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
   */
   readonly destinationPolicy?: string;
   /**
   * The ARN of an IAM role that permits CloudWatch Logs to send data to the specified AWS resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
   */
   readonly roleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#tags LogsDestination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#tags LogsDestination#tags}
   */
   readonly tags?: LogsDestinationTags[] | cdktn.IResolvable;
   /**
   * The ARN of the physical target where the log events are delivered (for example, a Kinesis stream)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
   */
   readonly targetArn: string;
 }
@@ -42,13 +42,13 @@ export interface LogsDestinationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., :, /, =, +, - and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#key LogsDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#key LogsDestination#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., :, /, =, +, - and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#value LogsDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#value LogsDestination#value}
   */
   readonly value?: string;
 }
@@ -140,7 +140,7 @@ export class LogsDestinationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class LogsDestinationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -193,7 +193,7 @@ export class LogsDestinationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination awscc_logs_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination awscc_logs_destination}
 */
 export class LogsDestination extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsDestination to import
-  * @param importFromId The id of the existing LogsDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_destination awscc_logs_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_destination awscc_logs_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class LogsDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,7 +259,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // destination_name - computed: false, optional: false, required: true
-  private _destinationName?: string; 
+  private _destinationName?: string;
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }
@@ -272,7 +272,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // destination_policy - computed: true, optional: true, required: false
-  private _destinationPolicy?: string; 
+  private _destinationPolicy?: string;
   public get destinationPolicy() {
     return this.getStringAttribute('destination_policy');
   }
@@ -293,7 +293,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -322,7 +322,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string; 
+  private _targetArn?: string;
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

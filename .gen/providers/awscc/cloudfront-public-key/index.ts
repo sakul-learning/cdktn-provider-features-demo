@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CloudfrontPublicKeyConfig extends cdktn.TerraformMetaArguments 
   /**
   * Configuration information about a public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
   */
   readonly publicKeyConfig: CloudfrontPublicKeyPublicKeyConfig;
 }
@@ -18,25 +18,25 @@ export interface CloudfrontPublicKeyPublicKeyConfig {
   /**
   * A string included in the request to help make sure that the request can't be replayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#caller_reference CloudfrontPublicKey#caller_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#caller_reference CloudfrontPublicKey#caller_reference}
   */
   readonly callerReference: string;
   /**
   * A comment to describe the public key. The comment cannot be longer than 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#comment CloudfrontPublicKey#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#comment CloudfrontPublicKey#comment}
   */
   readonly comment?: string;
   /**
   * The public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#encoded_key CloudfrontPublicKey#encoded_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#encoded_key CloudfrontPublicKey#encoded_key}
   */
   readonly encodedKey: string;
   /**
   * A name to help identify the public key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#name CloudfrontPublicKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#name CloudfrontPublicKey#name}
   */
   readonly name: string;
 }
@@ -152,7 +152,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // caller_reference - computed: false, optional: false, required: true
-  private _callerReference?: string; 
+  private _callerReference?: string;
   public get callerReference() {
     return this.getStringAttribute('caller_reference');
   }
@@ -165,7 +165,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string; 
+  private _comment?: string;
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -181,7 +181,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // encoded_key - computed: false, optional: false, required: true
-  private _encodedKey?: string; 
+  private _encodedKey?: string;
   public get encodedKey() {
     return this.getStringAttribute('encoded_key');
   }
@@ -194,7 +194,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -208,7 +208,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key}
 */
 export class CloudfrontPublicKey extends cdktn.TerraformResource {
 
@@ -224,7 +224,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontPublicKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontPublicKey to import
-  * @param importFromId The id of the existing CloudfrontPublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontPublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontPublicKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -236,7 +236,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_public_key awscc_cloudfront_public_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,7 +247,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_public_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

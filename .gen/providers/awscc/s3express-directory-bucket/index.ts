@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface S3ExpressDirectoryBucketConfig extends cdktn.TerraformMetaArgum
   /**
   * Specifies default encryption for a bucket using server-side encryption with Amazon S3 managed keys (SSE-S3) or AWS KMS keys (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#bucket_encryption S3ExpressDirectoryBucket#bucket_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_encryption S3ExpressDirectoryBucket#bucket_encryption}
   */
   readonly bucketEncryption?: S3ExpressDirectoryBucketBucketEncryption;
   /**
   * Specifies a name for the bucket. The bucket name must contain only lowercase letters, numbers, and hyphens (-). A directory bucket name must be unique in the chosen Availability Zone or Local Zone. The bucket name must also follow the format 'bucket_base_name--zone_id--x-s3'. The zone_id can be the ID of an Availability Zone or a Local Zone. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#bucket_name S3ExpressDirectoryBucket#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_name S3ExpressDirectoryBucket#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Specifies the number of Availability Zone or Local Zone that's used for redundancy for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#data_redundancy S3ExpressDirectoryBucket#data_redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#data_redundancy S3ExpressDirectoryBucket#data_redundancy}
   */
   readonly dataRedundancy: string;
   /**
   * The inventory configuration for an Amazon S3 Express bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#inventory_configurations S3ExpressDirectoryBucket#inventory_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#inventory_configurations S3ExpressDirectoryBucket#inventory_configurations}
   */
   readonly inventoryConfigurations?: S3ExpressDirectoryBucketInventoryConfigurations[] | cdktn.IResolvable;
   /**
   * Lifecycle rules that define how Amazon S3 Express manages objects during their lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#lifecycle_configuration S3ExpressDirectoryBucket#lifecycle_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#lifecycle_configuration S3ExpressDirectoryBucket#lifecycle_configuration}
   */
   readonly lifecycleConfiguration?: S3ExpressDirectoryBucketLifecycleConfiguration;
   /**
   * Specifies the Zone ID of the Availability Zone or Local Zone where the directory bucket will be created. An example Availability Zone ID value is 'use1-az5'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#location_name S3ExpressDirectoryBucket#location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#location_name S3ExpressDirectoryBucket#location_name}
   */
   readonly locationName: string;
   /**
   * Specifies the metrics configurations for the Amazon S3 Express bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#metrics_configurations S3ExpressDirectoryBucket#metrics_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#metrics_configurations S3ExpressDirectoryBucket#metrics_configurations}
   */
   readonly metricsConfigurations?: S3ExpressDirectoryBucketMetricsConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#tags S3ExpressDirectoryBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#tags S3ExpressDirectoryBucket#tags}
   */
   readonly tags?: S3ExpressDirectoryBucketTags[] | cdktn.IResolvable;
 }
@@ -58,11 +58,11 @@ export interface S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionCon
   /**
   * AWS Key Management Service (KMS) customer managed key ID to use for the default encryption. This parameter is allowed only if SSEAlgorithm is set to aws:kms. You can specify this parameter with the key ID or the Amazon Resource Name (ARN) of the KMS key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#kms_master_key_id S3ExpressDirectoryBucket#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#kms_master_key_id S3ExpressDirectoryBucket#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#sse_algorithm S3ExpressDirectoryBucket#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#sse_algorithm S3ExpressDirectoryBucket#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -152,7 +152,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string; 
+  private _kmsMasterKeyId?: string;
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -168,7 +168,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string; 
+  private _sseAlgorithm?: string;
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -187,13 +187,13 @@ export interface S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionCon
   /**
   * Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encryption using KMS (SSE-KMS) for new objects in the bucket. Existing objects are not affected. Amazon S3 Express One Zone uses an S3 Bucket Key with SSE-KMS and S3 Bucket Key cannot be disabled. It's only allowed to set the BucketKeyEnabled element to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#bucket_key_enabled S3ExpressDirectoryBucket#bucket_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_key_enabled S3ExpressDirectoryBucket#bucket_key_enabled}
   */
   readonly bucketKeyEnabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the default server-side encryption to apply to new objects in the bucket. If a PUT Object request doesn't specify any server-side encryption, this default encryption will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#server_side_encryption_by_default S3ExpressDirectoryBucket#server_side_encryption_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#server_side_encryption_by_default S3ExpressDirectoryBucket#server_side_encryption_by_default}
   */
   readonly serverSideEncryptionByDefault?: S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault;
 }
@@ -285,7 +285,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // bucket_key_enabled - computed: true, optional: true, required: false
-  private _bucketKeyEnabled?: boolean | cdktn.IResolvable; 
+  private _bucketKeyEnabled?: boolean | cdktn.IResolvable;
   public get bucketKeyEnabled() {
     return this.getBooleanAttribute('bucket_key_enabled');
   }
@@ -340,7 +340,7 @@ export interface S3ExpressDirectoryBucketBucketEncryption {
   /**
   * Specifies the default server-side-encryption configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#server_side_encryption_configuration S3ExpressDirectoryBucket#server_side_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#server_side_encryption_configuration S3ExpressDirectoryBucket#server_side_encryption_configuration}
   */
   readonly serverSideEncryptionConfiguration?: S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfiguration[] | cdktn.IResolvable;
 }
@@ -434,27 +434,27 @@ export class S3ExpressDirectoryBucketBucketEncryptionOutputReference extends cdk
 }
 export interface S3ExpressDirectoryBucketInventoryConfigurationsDestination {
   /**
-  * The account ID that owns the destination S3 bucket. 
+  * The account ID that owns the destination S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#bucket_account_id S3ExpressDirectoryBucket#bucket_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_account_id S3ExpressDirectoryBucket#bucket_account_id}
   */
   readonly bucketAccountId?: string;
   /**
   * The Amazon Resource Name (ARN) of the destination Amazon S3 bucket to which data is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#bucket_arn S3ExpressDirectoryBucket#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_arn S3ExpressDirectoryBucket#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
   * Specifies the file format used when exporting data to Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#format S3ExpressDirectoryBucket#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#format S3ExpressDirectoryBucket#format}
   */
   readonly format?: string;
   /**
   * The prefix to use when exporting data. The prefix is prepended to all results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
   */
   readonly prefix?: string;
 }
@@ -570,7 +570,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // bucket_account_id - computed: true, optional: true, required: false
-  private _bucketAccountId?: string; 
+  private _bucketAccountId?: string;
   public get bucketAccountId() {
     return this.getStringAttribute('bucket_account_id');
   }
@@ -586,7 +586,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string; 
+  private _bucketArn?: string;
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -602,7 +602,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -618,7 +618,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -637,19 +637,19 @@ export interface S3ExpressDirectoryBucketInventoryConfigurations {
   /**
   * Specifies information about where to publish inventory reports for an Amazon S3 Express bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#destination S3ExpressDirectoryBucket#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#destination S3ExpressDirectoryBucket#destination}
   */
   readonly destination?: S3ExpressDirectoryBucketInventoryConfigurationsDestination;
   /**
   * Specifies whether the inventory is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#enabled S3ExpressDirectoryBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#enabled S3ExpressDirectoryBucket#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The ID used to identify the inventory configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -658,25 +658,25 @@ export interface S3ExpressDirectoryBucketInventoryConfigurations {
   /**
   * Object versions to include in the inventory list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#included_object_versions S3ExpressDirectoryBucket#included_object_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#included_object_versions S3ExpressDirectoryBucket#included_object_versions}
   */
   readonly includedObjectVersions?: string;
   /**
   * Contains the optional fields that are included in the inventory results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#optional_fields S3ExpressDirectoryBucket#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#optional_fields S3ExpressDirectoryBucket#optional_fields}
   */
   readonly optionalFields?: string[];
   /**
   * The prefix that is prepended to all inventory results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * Specifies the schedule for generating inventory results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#schedule_frequency S3ExpressDirectoryBucket#schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#schedule_frequency S3ExpressDirectoryBucket#schedule_frequency}
   */
   readonly scheduleFrequency?: string;
 }
@@ -849,7 +849,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -865,7 +865,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -881,7 +881,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // included_object_versions - computed: true, optional: true, required: false
-  private _includedObjectVersions?: string; 
+  private _includedObjectVersions?: string;
   public get includedObjectVersions() {
     return this.getStringAttribute('included_object_versions');
   }
@@ -897,7 +897,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // optional_fields - computed: true, optional: true, required: false
-  private _optionalFields?: string[]; 
+  private _optionalFields?: string[];
   public get optionalFields() {
     return this.getListAttribute('optional_fields');
   }
@@ -913,7 +913,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -929,7 +929,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // schedule_frequency - computed: true, optional: true, required: false
-  private _scheduleFrequency?: string; 
+  private _scheduleFrequency?: string;
   public get scheduleFrequency() {
     return this.getStringAttribute('schedule_frequency');
   }
@@ -968,7 +968,7 @@ export interface S3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompl
   /**
   * Specifies the number of days after which Amazon S3 aborts an incomplete multipart upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#days_after_initiation S3ExpressDirectoryBucket#days_after_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#days_after_initiation S3ExpressDirectoryBucket#days_after_initiation}
   */
   readonly daysAfterInitiation?: number;
 }
@@ -1045,7 +1045,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteM
   }
 
   // days_after_initiation - computed: true, optional: true, required: false
-  private _daysAfterInitiation?: number; 
+  private _daysAfterInitiation?: number;
   public get daysAfterInitiation() {
     return this.getNumberAttribute('days_after_initiation');
   }
@@ -1064,34 +1064,34 @@ export interface S3ExpressDirectoryBucketLifecycleConfigurationRules {
   /**
   * Specifies the days since the initiation of an incomplete multipart upload that Amazon S3 will wait before permanently removing all parts of the upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#abort_incomplete_multipart_upload S3ExpressDirectoryBucket#abort_incomplete_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#abort_incomplete_multipart_upload S3ExpressDirectoryBucket#abort_incomplete_multipart_upload}
   */
   readonly abortIncompleteMultipartUpload?: S3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#expiration_in_days S3ExpressDirectoryBucket#expiration_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#expiration_in_days S3ExpressDirectoryBucket#expiration_in_days}
   */
   readonly expirationInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#object_size_greater_than S3ExpressDirectoryBucket#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#object_size_greater_than S3ExpressDirectoryBucket#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#object_size_less_than S3ExpressDirectoryBucket#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#object_size_less_than S3ExpressDirectoryBucket#object_size_less_than}
   */
   readonly objectSizeLessThan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#status S3ExpressDirectoryBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#status S3ExpressDirectoryBucket#status}
   */
   readonly status?: string;
 }
@@ -1264,7 +1264,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // expiration_in_days - computed: true, optional: true, required: false
-  private _expirationInDays?: number; 
+  private _expirationInDays?: number;
   public get expirationInDays() {
     return this.getNumberAttribute('expiration_in_days');
   }
@@ -1280,7 +1280,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1296,7 +1296,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // object_size_greater_than - computed: true, optional: true, required: false
-  private _objectSizeGreaterThan?: string; 
+  private _objectSizeGreaterThan?: string;
   public get objectSizeGreaterThan() {
     return this.getStringAttribute('object_size_greater_than');
   }
@@ -1312,7 +1312,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // object_size_less_than - computed: true, optional: true, required: false
-  private _objectSizeLessThan?: string; 
+  private _objectSizeLessThan?: string;
   public get objectSizeLessThan() {
     return this.getStringAttribute('object_size_less_than');
   }
@@ -1328,7 +1328,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1344,7 +1344,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1383,7 +1383,7 @@ export interface S3ExpressDirectoryBucketLifecycleConfiguration {
   /**
   * A lifecycle rule for individual objects in an Amazon S3 Express bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#rules S3ExpressDirectoryBucket#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#rules S3ExpressDirectoryBucket#rules}
   */
   readonly rules?: S3ExpressDirectoryBucketLifecycleConfigurationRules[] | cdktn.IResolvable;
 }
@@ -1479,13 +1479,13 @@ export interface S3ExpressDirectoryBucketMetricsConfigurations {
   /**
   * The access point ARN used when evaluating a metrics filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#access_point_arn S3ExpressDirectoryBucket#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#access_point_arn S3ExpressDirectoryBucket#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
   * The ID used to identify the metrics configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#id S3ExpressDirectoryBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1494,7 +1494,7 @@ export interface S3ExpressDirectoryBucketMetricsConfigurations {
   /**
   * The prefix used when evaluating a metrics filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#prefix S3ExpressDirectoryBucket#prefix}
   */
   readonly prefix?: string;
 }
@@ -1599,7 +1599,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -1615,7 +1615,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1631,7 +1631,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1668,11 +1668,11 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsList extends cdktn.Com
 }
 export interface S3ExpressDirectoryBucketTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#key S3ExpressDirectoryBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#key S3ExpressDirectoryBucket#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#value S3ExpressDirectoryBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#value S3ExpressDirectoryBucket#value}
   */
   readonly value?: string;
 }
@@ -1764,7 +1764,7 @@ export class S3ExpressDirectoryBucketTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1780,7 +1780,7 @@ export class S3ExpressDirectoryBucketTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1817,7 +1817,7 @@ export class S3ExpressDirectoryBucketTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket}
 */
 export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
 
@@ -1833,7 +1833,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3ExpressDirectoryBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3ExpressDirectoryBucket to import
-  * @param importFromId The id of the existing S3ExpressDirectoryBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3ExpressDirectoryBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3ExpressDirectoryBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1845,7 +1845,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1856,7 +1856,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3express_directory_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1907,7 +1907,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1923,7 +1923,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // data_redundancy - computed: false, optional: false, required: true
-  private _dataRedundancy?: string; 
+  private _dataRedundancy?: string;
   public get dataRedundancy() {
     return this.getStringAttribute('data_redundancy');
   }
@@ -1973,7 +1973,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // location_name - computed: false, optional: false, required: true
-  private _locationName?: string; 
+  private _locationName?: string;
   public get locationName() {
     return this.getStringAttribute('location_name');
   }

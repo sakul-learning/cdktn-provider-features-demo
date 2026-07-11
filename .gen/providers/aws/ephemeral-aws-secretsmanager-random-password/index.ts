@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface EphemeralAwsSecretsmanagerRandomPasswordConfig extends cdktn.TerraformEphemeralMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_characters EphemeralAwsSecretsmanagerRandomPassword#exclude_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_characters EphemeralAwsSecretsmanagerRandomPassword#exclude_characters}
   */
   readonly excludeCharacters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_lowercase EphemeralAwsSecretsmanagerRandomPassword#exclude_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_lowercase EphemeralAwsSecretsmanagerRandomPassword#exclude_lowercase}
   */
   readonly excludeLowercase?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_numbers EphemeralAwsSecretsmanagerRandomPassword#exclude_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_numbers EphemeralAwsSecretsmanagerRandomPassword#exclude_numbers}
   */
   readonly excludeNumbers?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_punctuation EphemeralAwsSecretsmanagerRandomPassword#exclude_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_punctuation EphemeralAwsSecretsmanagerRandomPassword#exclude_punctuation}
   */
   readonly excludePunctuation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_uppercase EphemeralAwsSecretsmanagerRandomPassword#exclude_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#exclude_uppercase EphemeralAwsSecretsmanagerRandomPassword#exclude_uppercase}
   */
   readonly excludeUppercase?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#include_space EphemeralAwsSecretsmanagerRandomPassword#include_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#include_space EphemeralAwsSecretsmanagerRandomPassword#include_space}
   */
   readonly includeSpace?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#password_length EphemeralAwsSecretsmanagerRandomPassword#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#password_length EphemeralAwsSecretsmanagerRandomPassword#password_length}
   */
   readonly passwordLength?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#region EphemeralAwsSecretsmanagerRandomPassword#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#region EphemeralAwsSecretsmanagerRandomPassword#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password#require_each_included_type EphemeralAwsSecretsmanagerRandomPassword#require_each_included_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password#require_each_included_type EphemeralAwsSecretsmanagerRandomPassword#require_each_included_type}
   */
   readonly requireEachIncludedType?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password}
 */
 export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEphemeralResource {
 
@@ -62,7 +62,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
       terraformResourceType: 'aws_secretsmanager_random_password',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,7 +97,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   // ==========
 
   // exclude_characters - computed: false, optional: true, required: false
-  private _excludeCharacters?: string; 
+  private _excludeCharacters?: string;
   public get excludeCharacters() {
     return this.getStringAttribute('exclude_characters');
   }
@@ -113,7 +113,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_lowercase - computed: false, optional: true, required: false
-  private _excludeLowercase?: boolean | cdktn.IResolvable; 
+  private _excludeLowercase?: boolean | cdktn.IResolvable;
   public get excludeLowercase() {
     return this.getBooleanAttribute('exclude_lowercase');
   }
@@ -129,7 +129,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_numbers - computed: false, optional: true, required: false
-  private _excludeNumbers?: boolean | cdktn.IResolvable; 
+  private _excludeNumbers?: boolean | cdktn.IResolvable;
   public get excludeNumbers() {
     return this.getBooleanAttribute('exclude_numbers');
   }
@@ -145,7 +145,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_punctuation - computed: false, optional: true, required: false
-  private _excludePunctuation?: boolean | cdktn.IResolvable; 
+  private _excludePunctuation?: boolean | cdktn.IResolvable;
   public get excludePunctuation() {
     return this.getBooleanAttribute('exclude_punctuation');
   }
@@ -161,7 +161,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_uppercase - computed: false, optional: true, required: false
-  private _excludeUppercase?: boolean | cdktn.IResolvable; 
+  private _excludeUppercase?: boolean | cdktn.IResolvable;
   public get excludeUppercase() {
     return this.getBooleanAttribute('exclude_uppercase');
   }
@@ -177,7 +177,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // include_space - computed: false, optional: true, required: false
-  private _includeSpace?: boolean | cdktn.IResolvable; 
+  private _includeSpace?: boolean | cdktn.IResolvable;
   public get includeSpace() {
     return this.getBooleanAttribute('include_space');
   }
@@ -193,7 +193,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // password_length - computed: false, optional: true, required: false
-  private _passwordLength?: number; 
+  private _passwordLength?: number;
   public get passwordLength() {
     return this.getNumberAttribute('password_length');
   }
@@ -214,7 +214,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -230,7 +230,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // require_each_included_type - computed: false, optional: true, required: false
-  private _requireEachIncludedType?: boolean | cdktn.IResolvable; 
+  private _requireEachIncludedType?: boolean | cdktn.IResolvable;
   public get requireEachIncludedType() {
     return this.getBooleanAttribute('require_each_included_type');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ConnectEmailAddressConfig extends cdktn.TerraformMetaArguments 
   /**
   * List of alias configurations for the email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
   */
   readonly aliasConfigurations?: ConnectEmailAddressAliasConfigurations[] | cdktn.IResolvable;
   /**
   * A description for the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
   */
   readonly description?: string;
   /**
   * The display name for the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
   */
   readonly displayName?: string;
   /**
   * Email address to be created for this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
   */
   readonly emailAddress: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
   */
   readonly tags?: ConnectEmailAddressTags[] | cdktn.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface ConnectEmailAddressAliasConfigurations {
   /**
   * The identifier of the email address alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
   */
   readonly emailAddressArn?: string;
 }
@@ -127,7 +127,7 @@ export class ConnectEmailAddressAliasConfigurationsOutputReference extends cdktn
   }
 
   // email_address_arn - computed: true, optional: true, required: false
-  private _emailAddressArn?: string; 
+  private _emailAddressArn?: string;
   public get emailAddressArn() {
     return this.getStringAttribute('email_address_arn');
   }
@@ -166,13 +166,13 @@ export interface ConnectEmailAddressTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
   */
   readonly value?: string;
 }
@@ -264,7 +264,7 @@ export class ConnectEmailAddressTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -280,7 +280,7 @@ export class ConnectEmailAddressTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -317,7 +317,7 @@ export class ConnectEmailAddressTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address awscc_connect_email_address}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address awscc_connect_email_address}
 */
 export class ConnectEmailAddress extends cdktn.TerraformResource {
 
@@ -333,7 +333,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectEmailAddress resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectEmailAddress to import
-  * @param importFromId The id of the existing ConnectEmailAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectEmailAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectEmailAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -345,7 +345,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_email_address awscc_connect_email_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_email_address awscc_connect_email_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,7 +356,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_email_address',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -395,7 +395,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -411,7 +411,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -427,7 +427,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: false, required: true
-  private _emailAddress?: string; 
+  private _emailAddress?: string;
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -450,7 +450,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }

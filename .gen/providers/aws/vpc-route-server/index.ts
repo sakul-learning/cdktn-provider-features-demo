@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface VpcRouteServerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#amazon_side_asn VpcRouteServer#amazon_side_asn}
   */
   readonly amazonSideAsn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#persist_routes VpcRouteServer#persist_routes}
   */
   readonly persistRoutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#persist_routes_duration VpcRouteServer#persist_routes_duration}
   */
   readonly persistRoutesDuration?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#region VpcRouteServer#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#sns_notifications_enabled VpcRouteServer#sns_notifications_enabled}
   */
   readonly snsNotificationsEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#tags VpcRouteServer#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#timeouts VpcRouteServer#timeouts}
   */
   readonly timeouts?: VpcRouteServerTimeouts;
 }
@@ -44,19 +44,19 @@ export interface VpcRouteServerTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#create VpcRouteServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#create VpcRouteServer#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#delete VpcRouteServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#delete VpcRouteServer#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#update VpcRouteServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#update VpcRouteServer#update}
   */
   readonly update?: string;
 }
@@ -159,7 +159,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -175,7 +175,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -191,7 +191,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -208,7 +208,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server aws_vpc_route_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server aws_vpc_route_server}
 */
 export class VpcRouteServer extends cdktn.TerraformResource {
 
@@ -224,7 +224,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpcRouteServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcRouteServer to import
-  * @param importFromId The id of the existing VpcRouteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcRouteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcRouteServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -236,7 +236,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,7 +247,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpc_route_server',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -271,7 +271,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: false, optional: false, required: true
-  private _amazonSideAsn?: number; 
+  private _amazonSideAsn?: number;
   public get amazonSideAsn() {
     return this.getNumberAttribute('amazon_side_asn');
   }
@@ -289,7 +289,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes - computed: true, optional: true, required: false
-  private _persistRoutes?: string; 
+  private _persistRoutes?: string;
   public get persistRoutes() {
     return this.getStringAttribute('persist_routes');
   }
@@ -305,7 +305,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes_duration - computed: false, optional: true, required: false
-  private _persistRoutesDuration?: number; 
+  private _persistRoutesDuration?: number;
   public get persistRoutesDuration() {
     return this.getNumberAttribute('persist_routes_duration');
   }
@@ -321,7 +321,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -342,7 +342,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // sns_notifications_enabled - computed: true, optional: true, required: false
-  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable; 
+  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable;
   public get snsNotificationsEnabled() {
     return this.getBooleanAttribute('sns_notifications_enabled');
   }
@@ -363,7 +363,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

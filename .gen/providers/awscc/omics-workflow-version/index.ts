@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface OmicsWorkflowVersionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#accelerators OmicsWorkflowVersion#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#accelerators OmicsWorkflowVersion#accelerators}
   */
   readonly accelerators?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#definition_uri OmicsWorkflowVersion#definition_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#definition_uri OmicsWorkflowVersion#definition_uri}
   */
   readonly definitionUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#engine OmicsWorkflowVersion#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#engine OmicsWorkflowVersion#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#main OmicsWorkflowVersion#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#main OmicsWorkflowVersion#main}
   */
   readonly main?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#parameter_template OmicsWorkflowVersion#parameter_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#parameter_template OmicsWorkflowVersion#parameter_template}
   */
   readonly parameterTemplate?: { [key: string]: OmicsWorkflowVersionParameterTemplate } | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#storage_capacity OmicsWorkflowVersion#storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#storage_capacity OmicsWorkflowVersion#storage_capacity}
   */
   readonly storageCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#storage_type OmicsWorkflowVersion#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#storage_type OmicsWorkflowVersion#storage_type}
   */
   readonly storageType?: string;
   /**
   * A map of resource tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#tags OmicsWorkflowVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#tags OmicsWorkflowVersion#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#version_name OmicsWorkflowVersion#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#version_name OmicsWorkflowVersion#version_name}
   */
   readonly versionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#workflow_bucket_owner_id OmicsWorkflowVersion#workflow_bucket_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#workflow_bucket_owner_id OmicsWorkflowVersion#workflow_bucket_owner_id}
   */
   readonly workflowBucketOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#workflow_id OmicsWorkflowVersion#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#workflow_id OmicsWorkflowVersion#workflow_id}
   */
   readonly workflowId: string;
 }
 export interface OmicsWorkflowVersionParameterTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#optional OmicsWorkflowVersion#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#optional OmicsWorkflowVersion#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
 }
@@ -155,7 +155,7 @@ export class OmicsWorkflowVersionParameterTemplateOutputReference extends cdktn.
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -171,7 +171,7 @@ export class OmicsWorkflowVersionParameterTemplateOutputReference extends cdktn.
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable; 
+  private _optional?: boolean | cdktn.IResolvable;
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -207,7 +207,7 @@ export class OmicsWorkflowVersionParameterTemplateMap extends cdktn.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}
 */
 export class OmicsWorkflowVersion extends cdktn.TerraformResource {
 
@@ -223,7 +223,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsWorkflowVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsWorkflowVersion to import
-  * @param importFromId The id of the existing OmicsWorkflowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsWorkflowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsWorkflowVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -235,7 +235,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +246,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_workflow_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,7 +275,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   // ==========
 
   // accelerators - computed: true, optional: true, required: false
-  private _accelerators?: string; 
+  private _accelerators?: string;
   public get accelerators() {
     return this.getStringAttribute('accelerators');
   }
@@ -301,7 +301,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // definition_uri - computed: true, optional: true, required: false
-  private _definitionUri?: string; 
+  private _definitionUri?: string;
   public get definitionUri() {
     return this.getStringAttribute('definition_uri');
   }
@@ -317,7 +317,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -333,7 +333,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -354,7 +354,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // main - computed: true, optional: true, required: false
-  private _main?: string; 
+  private _main?: string;
   public get main() {
     return this.getStringAttribute('main');
   }
@@ -391,7 +391,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: true, optional: true, required: false
-  private _storageCapacity?: number; 
+  private _storageCapacity?: number;
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -407,7 +407,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string; 
+  private _storageType?: string;
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -423,7 +423,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -449,7 +449,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // version_name - computed: false, optional: false, required: true
-  private _versionName?: string; 
+  private _versionName?: string;
   public get versionName() {
     return this.getStringAttribute('version_name');
   }
@@ -462,7 +462,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // workflow_bucket_owner_id - computed: true, optional: true, required: false
-  private _workflowBucketOwnerId?: string; 
+  private _workflowBucketOwnerId?: string;
   public get workflowBucketOwnerId() {
     return this.getStringAttribute('workflow_bucket_owner_id');
   }
@@ -478,7 +478,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // workflow_id - computed: false, optional: false, required: true
-  private _workflowId?: string; 
+  private _workflowId?: string;
   public get workflowId() {
     return this.getStringAttribute('workflow_id');
   }

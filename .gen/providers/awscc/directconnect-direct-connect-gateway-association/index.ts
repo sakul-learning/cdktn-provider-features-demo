@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DirectconnectDirectConnectGatewayAssociationConfig extends cdkt
   /**
   * The Amazon Resource Name (ARN) of the role to accept the Direct Connect Gateway association proposal. Needs directconnect:AcceptDirectConnectGatewayAssociationProposal permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association#accept_direct_connect_gateway_association_proposal_role_arn DirectconnectDirectConnectGatewayAssociation#accept_direct_connect_gateway_association_proposal_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association#accept_direct_connect_gateway_association_proposal_role_arn DirectconnectDirectConnectGatewayAssociation#accept_direct_connect_gateway_association_proposal_role_arn}
   */
   readonly acceptDirectConnectGatewayAssociationProposalRoleArn?: string;
   /**
   * The Amazon VPC prefixes to advertise to the Direct Connect gateway. This parameter is required when you create an association to a transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association#allowed_prefixes_to_direct_connect_gateway DirectconnectDirectConnectGatewayAssociation#allowed_prefixes_to_direct_connect_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association#allowed_prefixes_to_direct_connect_gateway DirectconnectDirectConnectGatewayAssociation#allowed_prefixes_to_direct_connect_gateway}
   */
   readonly allowedPrefixesToDirectConnectGateway?: string[];
   /**
   * The ID or ARN of the virtual private gateway or transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association#associated_gateway_id DirectconnectDirectConnectGatewayAssociation#associated_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association#associated_gateway_id DirectconnectDirectConnectGatewayAssociation#associated_gateway_id}
   */
   readonly associatedGatewayId: string;
   /**
   * The ID or ARN of the Direct Connect gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association#direct_connect_gateway_id DirectconnectDirectConnectGatewayAssociation#direct_connect_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association#direct_connect_gateway_id DirectconnectDirectConnectGatewayAssociation#direct_connect_gateway_id}
   */
   readonly directConnectGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}
 */
 export class DirectconnectDirectConnectGatewayAssociation extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   * Generates CDKTN code for importing a DirectconnectDirectConnectGatewayAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectconnectDirectConnectGatewayAssociation to import
-  * @param importFromId The id of the existing DirectconnectDirectConnectGatewayAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectconnectDirectConnectGatewayAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectconnectDirectConnectGatewayAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
       terraformResourceType: 'awscc_directconnect_direct_connect_gateway_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   // ==========
 
   // accept_direct_connect_gateway_association_proposal_role_arn - computed: true, optional: true, required: false
-  private _acceptDirectConnectGatewayAssociationProposalRoleArn?: string; 
+  private _acceptDirectConnectGatewayAssociationProposalRoleArn?: string;
   public get acceptDirectConnectGatewayAssociationProposalRoleArn() {
     return this.getStringAttribute('accept_direct_connect_gateway_association_proposal_role_arn');
   }
@@ -110,7 +110,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // allowed_prefixes_to_direct_connect_gateway - computed: true, optional: true, required: false
-  private _allowedPrefixesToDirectConnectGateway?: string[]; 
+  private _allowedPrefixesToDirectConnectGateway?: string[];
   public get allowedPrefixesToDirectConnectGateway() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_prefixes_to_direct_connect_gateway'));
   }
@@ -126,7 +126,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // associated_gateway_id - computed: false, optional: false, required: true
-  private _associatedGatewayId?: string; 
+  private _associatedGatewayId?: string;
   public get associatedGatewayId() {
     return this.getStringAttribute('associated_gateway_id');
   }
@@ -144,7 +144,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // direct_connect_gateway_id - computed: false, optional: false, required: true
-  private _directConnectGatewayId?: string; 
+  private _directConnectGatewayId?: string;
   public get directConnectGatewayId() {
     return this.getStringAttribute('direct_connect_gateway_id');
   }

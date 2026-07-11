@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MemorydbParameterGroupConfig extends cdktn.TerraformMetaArgumen
   /**
   * A description of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the parameter group family that this parameter group is compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
   */
   readonly family: string;
   /**
   * The name of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
   */
   readonly parameterGroupName: string;
   /**
   * An map of parameter names and values for the parameter update. You must supply at least one parameter name and value; subsequent arguments are optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
   */
   readonly parameters?: string;
   /**
   * An array of key-value pairs to apply to this parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
   */
   readonly tags?: MemorydbParameterGroupTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface MemorydbParameterGroupTags {
   /**
   * The key for the tag. May not be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
   */
   readonly key?: string;
   /**
   * The tag's value. May be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
   */
   readonly value?: string;
 }
@@ -140,7 +140,7 @@ export class MemorydbParameterGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class MemorydbParameterGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -193,7 +193,7 @@ export class MemorydbParameterGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}
 */
 export class MemorydbParameterGroup extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MemorydbParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MemorydbParameterGroup to import
-  * @param importFromId The id of the existing MemorydbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MemorydbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MemorydbParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_memorydb_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,7 +259,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -275,7 +275,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string; 
+  private _family?: string;
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -293,7 +293,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: false, optional: false, required: true
-  private _parameterGroupName?: string; 
+  private _parameterGroupName?: string;
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -306,7 +306,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string; 
+  private _parameters?: string;
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

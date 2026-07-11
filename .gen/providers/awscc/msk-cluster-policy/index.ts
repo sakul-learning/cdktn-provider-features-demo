@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MskClusterPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The arn of the cluster for the resource policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
   */
   readonly clusterArn: string;
   /**
   * A policy document containing permissions to add to the specified cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
   */
   readonly policy: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}
 */
 export class MskClusterPolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MskClusterPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskClusterPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskClusterPolicy to import
-  * @param importFromId The id of the existing MskClusterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskClusterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskClusterPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MskClusterPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class MskClusterPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_msk_cluster_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -80,7 +80,7 @@ export class MskClusterPolicy extends cdktn.TerraformResource {
   // ==========
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string; 
+  private _clusterArn?: string;
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -103,7 +103,7 @@ export class MskClusterPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }

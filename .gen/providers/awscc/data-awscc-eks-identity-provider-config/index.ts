@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_identity_provider_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/eks_identity_provider_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEksIdentityProviderConfigConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_identity_provider_config#id DataAwsccEksIdentityProviderConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/eks_identity_provider_config#id DataAwsccEksIdentityProviderConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -264,7 +264,7 @@ export class DataAwsccEksIdentityProviderConfigTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config}
 */
 export class DataAwsccEksIdentityProviderConfig extends cdktn.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataAwsccEksIdentityProviderConfig extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccEksIdentityProviderConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEksIdentityProviderConfig to import
-  * @param importFromId The id of the existing DataAwsccEksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEksIdentityProviderConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataAwsccEksIdentityProviderConfig extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,7 +303,7 @@ export class DataAwsccEksIdentityProviderConfig extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_eks_identity_provider_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -326,7 +326,7 @@ export class DataAwsccEksIdentityProviderConfig extends cdktn.TerraformDataSourc
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayBasePathMappingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping#base_path ApigatewayBasePathMapping#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping#domain_name ApigatewayBasePathMapping#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping#rest_api_id ApigatewayBasePathMapping#rest_api_id}
   */
   readonly restApiId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping#stage ApigatewayBasePathMapping#stage}
   */
   readonly stage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}
 */
 export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayBasePathMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayBasePathMapping to import
-  * @param importFromId The id of the existing ApigatewayBasePathMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayBasePathMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayBasePathMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_base_path_mapping',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -86,7 +86,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   // ==========
 
   // base_path - computed: true, optional: true, required: false
-  private _basePath?: string; 
+  private _basePath?: string;
   public get basePath() {
     return this.getStringAttribute('base_path');
   }
@@ -102,7 +102,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -120,7 +120,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: true, optional: true, required: false
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -136,7 +136,7 @@ export class ApigatewayBasePathMapping extends cdktn.TerraformResource {
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string; 
+  private _stage?: string;
   public get stage() {
     return this.getStringAttribute('stage');
   }

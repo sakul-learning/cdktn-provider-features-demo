@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BedrockagentcorePaymentConnectorConfig extends cdktn.TerraformM
   /**
   * The name of the payment connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#connector_name BedrockagentcorePaymentConnector#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#connector_name BedrockagentcorePaymentConnector#connector_name}
   */
   readonly connectorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#connector_type BedrockagentcorePaymentConnector#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#connector_type BedrockagentcorePaymentConnector#connector_type}
   */
   readonly connectorType: string;
   /**
   * The credential provider configurations for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_configurations BedrockagentcorePaymentConnector#credential_provider_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_configurations BedrockagentcorePaymentConnector#credential_provider_configurations}
   */
   readonly credentialProviderConfigurations: BedrockagentcorePaymentConnectorCredentialProviderConfigurations[] | cdktn.IResolvable;
   /**
   * A description of the payment connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#description BedrockagentcorePaymentConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#description BedrockagentcorePaymentConnector#description}
   */
   readonly description?: string;
   /**
   * The identifier of the parent payment manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#payment_manager_id BedrockagentcorePaymentConnector#payment_manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#payment_manager_id BedrockagentcorePaymentConnector#payment_manager_id}
   */
   readonly paymentManagerId: string;
 }
@@ -40,7 +40,7 @@ export interface BedrockagentcorePaymentConnectorCredentialProviderConfiguration
   /**
   * The ARN of the payment credential provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
   */
   readonly credentialProviderArn?: string;
 }
@@ -117,7 +117,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoi
   }
 
   // credential_provider_arn - computed: true, optional: true, required: false
-  private _credentialProviderArn?: string; 
+  private _credentialProviderArn?: string;
   public get credentialProviderArn() {
     return this.getStringAttribute('credential_provider_arn');
   }
@@ -136,7 +136,7 @@ export interface BedrockagentcorePaymentConnectorCredentialProviderConfiguration
   /**
   * The ARN of the payment credential provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
   */
   readonly credentialProviderArn?: string;
 }
@@ -213,7 +213,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStr
   }
 
   // credential_provider_arn - computed: true, optional: true, required: false
-  private _credentialProviderArn?: string; 
+  private _credentialProviderArn?: string;
   public get credentialProviderArn() {
     return this.getStringAttribute('credential_provider_arn');
   }
@@ -230,11 +230,11 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStr
 }
 export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#coinbase_cdp BedrockagentcorePaymentConnector#coinbase_cdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#coinbase_cdp BedrockagentcorePaymentConnector#coinbase_cdp}
   */
   readonly coinbaseCdp?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#stripe_privy BedrockagentcorePaymentConnector#stripe_privy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#stripe_privy BedrockagentcorePaymentConnector#stripe_privy}
   */
   readonly stripePrivy?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivy;
 }
@@ -379,7 +379,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}
 */
 export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
 
@@ -395,7 +395,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcorePaymentConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcorePaymentConnector to import
-  * @param importFromId The id of the existing BedrockagentcorePaymentConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcorePaymentConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcorePaymentConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -407,7 +407,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,7 +418,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_payment_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -450,7 +450,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // connector_name - computed: false, optional: false, required: true
-  private _connectorName?: string; 
+  private _connectorName?: string;
   public get connectorName() {
     return this.getStringAttribute('connector_name');
   }
@@ -468,7 +468,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string; 
+  private _connectorType?: string;
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -494,7 +494,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -525,7 +525,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // payment_manager_id - computed: false, optional: false, required: true
-  private _paymentManagerId?: string; 
+  private _paymentManagerId?: string;
   public get paymentManagerId() {
     return this.getStringAttribute('payment_manager_id');
   }

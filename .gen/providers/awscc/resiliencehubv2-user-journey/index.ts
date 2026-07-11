@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Resiliencehubv2UserJourneyConfig extends cdktn.TerraformMetaArg
   /**
   * The description of the user journey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
   */
   readonly description?: string;
   /**
   * The name of the user journey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
   */
   readonly name: string;
   /**
   * The ARN of the resilience policy to associate with this user journey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
   */
   readonly policyArn?: string;
   /**
   * The system ARN or system ID that owns this user journey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
   */
   readonly systemIdentifier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}
 */
 export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resiliencehubv2UserJourney resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resiliencehubv2UserJourney to import
-  * @param importFromId The id of the existing Resiliencehubv2UserJourney that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resiliencehubv2UserJourney that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resiliencehubv2UserJourney to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehubv2_user_journey',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +99,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -133,7 +133,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string; 
+  private _policyArn?: string;
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -149,7 +149,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // system_identifier - computed: false, optional: false, required: true
-  private _systemIdentifier?: string; 
+  private _systemIdentifier?: string;
   public get systemIdentifier() {
     return this.getStringAttribute('system_identifier');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CustomerprofilesEventStreamConfig extends cdktn.TerraformMetaAr
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
   */
   readonly domainName: string;
   /**
   * The name of the event stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
   */
   readonly eventStreamName: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
   */
   readonly tags?: CustomerprofilesEventStreamTags[] | cdktn.IResolvable;
   /**
   * The StreamARN of the destination to deliver profile events to. For example, arn:aws:kinesis:region:account-id:stream/stream-name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
   */
   readonly uri: string;
 }
@@ -95,13 +95,13 @@ export interface CustomerprofilesEventStreamTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
   */
   readonly value?: string;
 }
@@ -193,7 +193,7 @@ export class CustomerprofilesEventStreamTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -209,7 +209,7 @@ export class CustomerprofilesEventStreamTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -246,7 +246,7 @@ export class CustomerprofilesEventStreamTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}
 */
 export class CustomerprofilesEventStream extends cdktn.TerraformResource {
 
@@ -262,7 +262,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesEventStream resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesEventStream to import
-  * @param importFromId The id of the existing CustomerprofilesEventStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesEventStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesEventStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -274,7 +274,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,7 +285,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_event_stream',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -317,7 +317,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -335,7 +335,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // event_stream_name - computed: false, optional: false, required: true
-  private _eventStreamName?: string; 
+  private _eventStreamName?: string;
   public get eventStreamName() {
     return this.getStringAttribute('event_stream_name');
   }
@@ -374,7 +374,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }

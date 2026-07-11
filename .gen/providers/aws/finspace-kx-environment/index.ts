@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktn from 'cdktn';
 
 export interface FinspaceKxEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#description FinspaceKxEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#description FinspaceKxEnvironment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#kms_key_id FinspaceKxEnvironment#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#kms_key_id FinspaceKxEnvironment#kms_key_id}
   */
   readonly kmsKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#name FinspaceKxEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#name FinspaceKxEnvironment#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#region FinspaceKxEnvironment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#region FinspaceKxEnvironment#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#tags FinspaceKxEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#tags FinspaceKxEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#tags_all FinspaceKxEnvironment#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#tags_all FinspaceKxEnvironment#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * custom_dns_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#custom_dns_configuration FinspaceKxEnvironment#custom_dns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#custom_dns_configuration FinspaceKxEnvironment#custom_dns_configuration}
   */
   readonly customDnsConfiguration?: FinspaceKxEnvironmentCustomDnsConfiguration[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#timeouts FinspaceKxEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#timeouts FinspaceKxEnvironment#timeouts}
   */
   readonly timeouts?: FinspaceKxEnvironmentTimeouts;
   /**
   * transit_gateway_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#transit_gateway_configuration FinspaceKxEnvironment#transit_gateway_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#transit_gateway_configuration FinspaceKxEnvironment#transit_gateway_configuration}
   */
   readonly transitGatewayConfiguration?: FinspaceKxEnvironmentTransitGatewayConfiguration;
 }
 export interface FinspaceKxEnvironmentCustomDnsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#custom_dns_server_ip FinspaceKxEnvironment#custom_dns_server_ip}
   */
   readonly customDnsServerIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#custom_dns_server_name FinspaceKxEnvironment#custom_dns_server_name}
   */
   readonly customDnsServerName: string;
 }
@@ -150,7 +150,7 @@ export class FinspaceKxEnvironmentCustomDnsConfigurationOutputReference extends 
   }
 
   // custom_dns_server_ip - computed: false, optional: false, required: true
-  private _customDnsServerIp?: string; 
+  private _customDnsServerIp?: string;
   public get customDnsServerIp() {
     return this.getStringAttribute('custom_dns_server_ip');
   }
@@ -163,7 +163,7 @@ export class FinspaceKxEnvironmentCustomDnsConfigurationOutputReference extends 
   }
 
   // custom_dns_server_name - computed: false, optional: false, required: true
-  private _customDnsServerName?: string; 
+  private _customDnsServerName?: string;
   public get customDnsServerName() {
     return this.getStringAttribute('custom_dns_server_name');
   }
@@ -197,15 +197,15 @@ export class FinspaceKxEnvironmentCustomDnsConfigurationList extends cdktn.Compl
 }
 export interface FinspaceKxEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#create FinspaceKxEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#create FinspaceKxEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#delete FinspaceKxEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#delete FinspaceKxEnvironment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#update FinspaceKxEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#update FinspaceKxEnvironment#update}
   */
   readonly update?: string;
 }
@@ -308,7 +308,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -324,7 +324,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -340,7 +340,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -357,11 +357,11 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
 }
 export interface FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}
   */
   readonly code: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}
   */
   readonly type: number;
 }
@@ -441,7 +441,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // code - computed: false, optional: false, required: true
-  private _code?: number; 
+  private _code?: number;
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -454,7 +454,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: number; 
+  private _type?: number;
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -468,11 +468,11 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
 }
 export interface FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#from FinspaceKxEnvironment#from}
   */
   readonly from: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#to FinspaceKxEnvironment#to}
   */
   readonly to: number;
 }
@@ -552,7 +552,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // from - computed: false, optional: false, required: true
-  private _from?: number; 
+  private _from?: number;
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -565,7 +565,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // to - computed: false, optional: false, required: true
-  private _to?: number; 
+  private _to?: number;
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -579,31 +579,31 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
 }
 export interface FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#cidr_block FinspaceKxEnvironment#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#cidr_block FinspaceKxEnvironment#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#protocol FinspaceKxEnvironment#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#protocol FinspaceKxEnvironment#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#rule_action FinspaceKxEnvironment#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#rule_action FinspaceKxEnvironment#rule_action}
   */
   readonly ruleAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#rule_number FinspaceKxEnvironment#rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#rule_number FinspaceKxEnvironment#rule_number}
   */
   readonly ruleNumber: number;
   /**
   * icmp_type_code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#icmp_type_code FinspaceKxEnvironment#icmp_type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#icmp_type_code FinspaceKxEnvironment#icmp_type_code}
   */
   readonly icmpTypeCode?: FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode;
   /**
   * port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#port_range FinspaceKxEnvironment#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#port_range FinspaceKxEnvironment#port_range}
   */
   readonly portRange?: FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationPortRange;
 }
@@ -747,7 +747,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // cidr_block - computed: false, optional: false, required: true
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -760,7 +760,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -773,7 +773,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // rule_action - computed: false, optional: false, required: true
-  private _ruleAction?: string; 
+  private _ruleAction?: string;
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -786,7 +786,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // rule_number - computed: false, optional: false, required: true
-  private _ruleNumber?: number; 
+  private _ruleNumber?: number;
   public get ruleNumber() {
     return this.getNumberAttribute('rule_number');
   }
@@ -852,17 +852,17 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
 }
 export interface FinspaceKxEnvironmentTransitGatewayConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#routable_cidr_space FinspaceKxEnvironment#routable_cidr_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#routable_cidr_space FinspaceKxEnvironment#routable_cidr_space}
   */
   readonly routableCidrSpace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#transit_gateway_id FinspaceKxEnvironment#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#transit_gateway_id FinspaceKxEnvironment#transit_gateway_id}
   */
   readonly transitGatewayId: string;
   /**
   * attachment_network_acl_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#attachment_network_acl_configuration FinspaceKxEnvironment#attachment_network_acl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#attachment_network_acl_configuration FinspaceKxEnvironment#attachment_network_acl_configuration}
   */
   readonly attachmentNetworkAclConfiguration?: FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfiguration[] | cdktn.IResolvable;
 }
@@ -955,7 +955,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference ext
   }
 
   // routable_cidr_space - computed: false, optional: false, required: true
-  private _routableCidrSpace?: string; 
+  private _routableCidrSpace?: string;
   public get routableCidrSpace() {
     return this.getStringAttribute('routable_cidr_space');
   }
@@ -968,7 +968,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference ext
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string; 
+  private _transitGatewayId?: string;
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -998,7 +998,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment}
 */
 export class FinspaceKxEnvironment extends cdktn.TerraformResource {
 
@@ -1014,7 +1014,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FinspaceKxEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FinspaceKxEnvironment to import
-  * @param importFromId The id of the existing FinspaceKxEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FinspaceKxEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FinspaceKxEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1026,7 +1026,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1037,7 +1037,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'aws_finspace_kx_environment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1078,7 +1078,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1104,7 +1104,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1122,7 +1122,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1135,7 +1135,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1156,7 +1156,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1172,7 +1172,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

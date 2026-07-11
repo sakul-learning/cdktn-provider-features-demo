@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktn from 'cdktn';
 
 export interface SnsSmsPreferencesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#default_sender_id SnsSmsPreferences#default_sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#default_sender_id SnsSmsPreferences#default_sender_id}
   */
   readonly defaultSenderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#default_sms_type SnsSmsPreferences#default_sms_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#default_sms_type SnsSmsPreferences#default_sms_type}
   */
   readonly defaultSmsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#delivery_status_iam_role_arn SnsSmsPreferences#delivery_status_iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#delivery_status_iam_role_arn SnsSmsPreferences#delivery_status_iam_role_arn}
   */
   readonly deliveryStatusIamRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#delivery_status_success_sampling_rate SnsSmsPreferences#delivery_status_success_sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#delivery_status_success_sampling_rate SnsSmsPreferences#delivery_status_success_sampling_rate}
   */
   readonly deliveryStatusSuccessSamplingRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#id SnsSmsPreferences#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#id SnsSmsPreferences#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#monthly_spend_limit SnsSmsPreferences#monthly_spend_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#monthly_spend_limit SnsSmsPreferences#monthly_spend_limit}
   */
   readonly monthlySpendLimit?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#region SnsSmsPreferences#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#region SnsSmsPreferences#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#usage_report_s3_bucket SnsSmsPreferences#usage_report_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#usage_report_s3_bucket SnsSmsPreferences#usage_report_s3_bucket}
   */
   readonly usageReportS3Bucket?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences}
 */
 export class SnsSmsPreferences extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SnsSmsPreferences resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnsSmsPreferences to import
-  * @param importFromId The id of the existing SnsSmsPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnsSmsPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnsSmsPreferences to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sns_sms_preferences',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   // ==========
 
   // default_sender_id - computed: false, optional: true, required: false
-  private _defaultSenderId?: string; 
+  private _defaultSenderId?: string;
   public get defaultSenderId() {
     return this.getStringAttribute('default_sender_id');
   }
@@ -127,7 +127,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // default_sms_type - computed: false, optional: true, required: false
-  private _defaultSmsType?: string; 
+  private _defaultSmsType?: string;
   public get defaultSmsType() {
     return this.getStringAttribute('default_sms_type');
   }
@@ -143,7 +143,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // delivery_status_iam_role_arn - computed: false, optional: true, required: false
-  private _deliveryStatusIamRoleArn?: string; 
+  private _deliveryStatusIamRoleArn?: string;
   public get deliveryStatusIamRoleArn() {
     return this.getStringAttribute('delivery_status_iam_role_arn');
   }
@@ -159,7 +159,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // delivery_status_success_sampling_rate - computed: false, optional: true, required: false
-  private _deliveryStatusSuccessSamplingRate?: string; 
+  private _deliveryStatusSuccessSamplingRate?: string;
   public get deliveryStatusSuccessSamplingRate() {
     return this.getStringAttribute('delivery_status_success_sampling_rate');
   }
@@ -175,7 +175,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -191,7 +191,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // monthly_spend_limit - computed: true, optional: true, required: false
-  private _monthlySpendLimit?: number; 
+  private _monthlySpendLimit?: number;
   public get monthlySpendLimit() {
     return this.getNumberAttribute('monthly_spend_limit');
   }
@@ -207,7 +207,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -223,7 +223,7 @@ export class SnsSmsPreferences extends cdktn.TerraformResource {
   }
 
   // usage_report_s3_bucket - computed: false, optional: true, required: false
-  private _usageReportS3Bucket?: string; 
+  private _usageReportS3Bucket?: string;
   public get usageReportS3Bucket() {
     return this.getStringAttribute('usage_report_s3_bucket');
   }

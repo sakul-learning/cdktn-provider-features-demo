@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktn from 'cdktn';
 
 export interface CodepipelineCustomActionTypeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#category CodepipelineCustomActionType#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#category CodepipelineCustomActionType#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#id CodepipelineCustomActionType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#id CodepipelineCustomActionType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#provider_name CodepipelineCustomActionType#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#provider_name CodepipelineCustomActionType#provider_name}
   */
   readonly providerName: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#region CodepipelineCustomActionType#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#region CodepipelineCustomActionType#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#tags CodepipelineCustomActionType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#tags CodepipelineCustomActionType#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#tags_all CodepipelineCustomActionType#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#tags_all CodepipelineCustomActionType#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#version CodepipelineCustomActionType#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#version CodepipelineCustomActionType#version}
   */
   readonly version: string;
   /**
   * configuration_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#configuration_property CodepipelineCustomActionType#configuration_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#configuration_property CodepipelineCustomActionType#configuration_property}
   */
   readonly configurationProperty?: CodepipelineCustomActionTypeConfigurationProperty[] | cdktn.IResolvable;
   /**
   * input_artifact_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#input_artifact_details CodepipelineCustomActionType#input_artifact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#input_artifact_details CodepipelineCustomActionType#input_artifact_details}
   */
   readonly inputArtifactDetails: CodepipelineCustomActionTypeInputArtifactDetails;
   /**
   * output_artifact_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#output_artifact_details CodepipelineCustomActionType#output_artifact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#output_artifact_details CodepipelineCustomActionType#output_artifact_details}
   */
   readonly outputArtifactDetails: CodepipelineCustomActionTypeOutputArtifactDetails;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#settings CodepipelineCustomActionType#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#settings CodepipelineCustomActionType#settings}
   */
   readonly settings?: CodepipelineCustomActionTypeSettings;
 }
 export interface CodepipelineCustomActionTypeConfigurationProperty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#description CodepipelineCustomActionType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#description CodepipelineCustomActionType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
   */
   readonly key: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#name CodepipelineCustomActionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#name CodepipelineCustomActionType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#queryable CodepipelineCustomActionType#queryable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#queryable CodepipelineCustomActionType#queryable}
   */
   readonly queryable?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#required CodepipelineCustomActionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#required CodepipelineCustomActionType#required}
   */
   readonly required: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#secret CodepipelineCustomActionType#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#secret CodepipelineCustomActionType#secret}
   */
   readonly secret: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#type CodepipelineCustomActionType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#type CodepipelineCustomActionType#type}
   */
   readonly type?: string;
 }
@@ -248,7 +248,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -264,7 +264,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: boolean | cdktn.IResolvable; 
+  private _key?: boolean | cdktn.IResolvable;
   public get key() {
     return this.getBooleanAttribute('key');
   }
@@ -277,7 +277,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -290,7 +290,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // queryable - computed: false, optional: true, required: false
-  private _queryable?: boolean | cdktn.IResolvable; 
+  private _queryable?: boolean | cdktn.IResolvable;
   public get queryable() {
     return this.getBooleanAttribute('queryable');
   }
@@ -306,7 +306,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // required - computed: false, optional: false, required: true
-  private _required?: boolean | cdktn.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable;
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -319,7 +319,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // secret - computed: false, optional: false, required: true
-  private _secret?: boolean | cdktn.IResolvable; 
+  private _secret?: boolean | cdktn.IResolvable;
   public get secret() {
     return this.getBooleanAttribute('secret');
   }
@@ -332,7 +332,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -369,11 +369,11 @@ export class CodepipelineCustomActionTypeConfigurationPropertyList extends cdktn
 }
 export interface CodepipelineCustomActionTypeInputArtifactDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
   */
   readonly maximumCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
   */
   readonly minimumCount: number;
 }
@@ -453,7 +453,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number; 
+  private _maximumCount?: number;
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -466,7 +466,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number; 
+  private _minimumCount?: number;
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -480,11 +480,11 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
 }
 export interface CodepipelineCustomActionTypeOutputArtifactDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
   */
   readonly maximumCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
   */
   readonly minimumCount: number;
 }
@@ -564,7 +564,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number; 
+  private _maximumCount?: number;
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -577,7 +577,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number; 
+  private _minimumCount?: number;
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -591,19 +591,19 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
 }
 export interface CodepipelineCustomActionTypeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#entity_url_template CodepipelineCustomActionType#entity_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#entity_url_template CodepipelineCustomActionType#entity_url_template}
   */
   readonly entityUrlTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#execution_url_template CodepipelineCustomActionType#execution_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#execution_url_template CodepipelineCustomActionType#execution_url_template}
   */
   readonly executionUrlTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#revision_url_template CodepipelineCustomActionType#revision_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#revision_url_template CodepipelineCustomActionType#revision_url_template}
   */
   readonly revisionUrlTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#third_party_configuration_url CodepipelineCustomActionType#third_party_configuration_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#third_party_configuration_url CodepipelineCustomActionType#third_party_configuration_url}
   */
   readonly thirdPartyConfigurationUrl?: string;
 }
@@ -709,7 +709,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // entity_url_template - computed: false, optional: true, required: false
-  private _entityUrlTemplate?: string; 
+  private _entityUrlTemplate?: string;
   public get entityUrlTemplate() {
     return this.getStringAttribute('entity_url_template');
   }
@@ -725,7 +725,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // execution_url_template - computed: false, optional: true, required: false
-  private _executionUrlTemplate?: string; 
+  private _executionUrlTemplate?: string;
   public get executionUrlTemplate() {
     return this.getStringAttribute('execution_url_template');
   }
@@ -741,7 +741,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // revision_url_template - computed: false, optional: true, required: false
-  private _revisionUrlTemplate?: string; 
+  private _revisionUrlTemplate?: string;
   public get revisionUrlTemplate() {
     return this.getStringAttribute('revision_url_template');
   }
@@ -757,7 +757,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // third_party_configuration_url - computed: false, optional: true, required: false
-  private _thirdPartyConfigurationUrl?: string; 
+  private _thirdPartyConfigurationUrl?: string;
   public get thirdPartyConfigurationUrl() {
     return this.getStringAttribute('third_party_configuration_url');
   }
@@ -774,7 +774,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type}
 */
 export class CodepipelineCustomActionType extends cdktn.TerraformResource {
 
@@ -790,7 +790,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodepipelineCustomActionType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodepipelineCustomActionType to import
-  * @param importFromId The id of the existing CodepipelineCustomActionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodepipelineCustomActionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodepipelineCustomActionType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -802,7 +802,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,7 +813,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
       terraformResourceType: 'aws_codepipeline_custom_action_type',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -846,7 +846,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -859,7 +859,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -880,7 +880,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string; 
+  private _providerName?: string;
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -893,7 +893,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -909,7 +909,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -925,7 +925,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -941,7 +941,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }

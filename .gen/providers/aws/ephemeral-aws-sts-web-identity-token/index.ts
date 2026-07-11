@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EphemeralAwsStsWebIdentityTokenConfig extends cdktn.TerraformEp
   /**
   * The intended recipients of the token (populates the `aud` claim in the JWT). Must contain between 1 and 10 items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token#audience EphemeralAwsStsWebIdentityToken#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token#audience EphemeralAwsStsWebIdentityToken#audience}
   */
   readonly audience: string[];
   /**
   * The duration, in seconds, for which the JWT will remain valid. Value can range from 60 to 3600 seconds. Default is 300 seconds (5 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token#duration_seconds EphemeralAwsStsWebIdentityToken#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token#duration_seconds EphemeralAwsStsWebIdentityToken#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * The cryptographic algorithm to use for signing the JWT. Valid values are `RS256` (RSA with SHA-256) and `ES384` (ECDSA using P-384 curve with SHA-384).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token#signing_algorithm EphemeralAwsStsWebIdentityToken#signing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token#signing_algorithm EphemeralAwsStsWebIdentityToken#signing_algorithm}
   */
   readonly signingAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token#tags EphemeralAwsStsWebIdentityToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token#tags EphemeralAwsStsWebIdentityToken#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token}
 */
 export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralResource {
 
@@ -46,7 +46,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,7 +57,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
       terraformResourceType: 'aws_sts_web_identity_token',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -76,7 +76,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   // ==========
 
   // audience - computed: false, optional: false, required: true
-  private _audience?: string[]; 
+  private _audience?: string[];
   public get audience() {
     return cdktn.Fn.tolist(this.getListAttribute('audience'));
   }
@@ -89,7 +89,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // duration_seconds - computed: false, optional: true, required: false
-  private _durationSeconds?: number; 
+  private _durationSeconds?: number;
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -110,7 +110,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string; 
+  private _signingAlgorithm?: string;
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -123,7 +123,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

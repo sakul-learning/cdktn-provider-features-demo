@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LightsailStaticIpConfig extends cdktn.TerraformMetaArguments {
   /**
   * The instance where the static IP is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
   */
   readonly attachedTo?: string;
   /**
   * The name of the static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
   */
   readonly staticIpName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}
 */
 export class LightsailStaticIp extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailStaticIp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailStaticIp to import
-  * @param importFromId The id of the existing LightsailStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailStaticIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_static_ip',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -80,7 +80,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   // ==========
 
   // attached_to - computed: true, optional: true, required: false
-  private _attachedTo?: string; 
+  private _attachedTo?: string;
   public get attachedTo() {
     return this.getStringAttribute('attached_to');
   }
@@ -116,7 +116,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   }
 
   // static_ip_name - computed: false, optional: false, required: true
-  private _staticIpName?: string; 
+  private _staticIpName?: string;
   public get staticIpName() {
     return this.getStringAttribute('static_ip_name');
   }

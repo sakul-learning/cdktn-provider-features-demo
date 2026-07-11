@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktn from 'cdktn';
 
 export interface EmrInstanceFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#cluster_id EmrInstanceFleet#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#cluster_id EmrInstanceFleet#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#id EmrInstanceFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#id EmrInstanceFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#name EmrInstanceFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#name EmrInstanceFleet#name}
   */
   readonly name?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#region EmrInstanceFleet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#region EmrInstanceFleet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#target_on_demand_capacity EmrInstanceFleet#target_on_demand_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#target_on_demand_capacity EmrInstanceFleet#target_on_demand_capacity}
   */
   readonly targetOnDemandCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#target_spot_capacity EmrInstanceFleet#target_spot_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#target_spot_capacity EmrInstanceFleet#target_spot_capacity}
   */
   readonly targetSpotCapacity?: number;
   /**
   * instance_type_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#instance_type_configs EmrInstanceFleet#instance_type_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#instance_type_configs EmrInstanceFleet#instance_type_configs}
   */
   readonly instanceTypeConfigs?: EmrInstanceFleetInstanceTypeConfigs[] | cdktn.IResolvable;
   /**
   * launch_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#launch_specifications EmrInstanceFleet#launch_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#launch_specifications EmrInstanceFleet#launch_specifications}
   */
   readonly launchSpecifications?: EmrInstanceFleetLaunchSpecifications;
 }
 export interface EmrInstanceFleetInstanceTypeConfigsConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#classification EmrInstanceFleet#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#classification EmrInstanceFleet#classification}
   */
   readonly classification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#properties EmrInstanceFleet#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#properties EmrInstanceFleet#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -147,7 +147,7 @@ export class EmrInstanceFleetInstanceTypeConfigsConfigurationsOutputReference ex
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string; 
+  private _classification?: string;
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -163,7 +163,7 @@ export class EmrInstanceFleetInstanceTypeConfigsConfigurationsOutputReference ex
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string }; 
+  private _properties?: { [key: string]: string };
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -200,19 +200,19 @@ export class EmrInstanceFleetInstanceTypeConfigsConfigurationsList extends cdktn
 }
 export interface EmrInstanceFleetInstanceTypeConfigsEbsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#iops EmrInstanceFleet#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#iops EmrInstanceFleet#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#size EmrInstanceFleet#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#size EmrInstanceFleet#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#type EmrInstanceFleet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#type EmrInstanceFleet#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#volumes_per_instance EmrInstanceFleet#volumes_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#volumes_per_instance EmrInstanceFleet#volumes_per_instance}
   */
   readonly volumesPerInstance?: number;
 }
@@ -330,7 +330,7 @@ export class EmrInstanceFleetInstanceTypeConfigsEbsConfigOutputReference extends
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -346,7 +346,7 @@ export class EmrInstanceFleetInstanceTypeConfigsEbsConfigOutputReference extends
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -359,7 +359,7 @@ export class EmrInstanceFleetInstanceTypeConfigsEbsConfigOutputReference extends
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -372,7 +372,7 @@ export class EmrInstanceFleetInstanceTypeConfigsEbsConfigOutputReference extends
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number; 
+  private _volumesPerInstance?: number;
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -409,31 +409,31 @@ export class EmrInstanceFleetInstanceTypeConfigsEbsConfigList extends cdktn.Comp
 }
 export interface EmrInstanceFleetInstanceTypeConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#bid_price EmrInstanceFleet#bid_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#bid_price EmrInstanceFleet#bid_price}
   */
   readonly bidPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#bid_price_as_percentage_of_on_demand_price EmrInstanceFleet#bid_price_as_percentage_of_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#bid_price_as_percentage_of_on_demand_price EmrInstanceFleet#bid_price_as_percentage_of_on_demand_price}
   */
   readonly bidPriceAsPercentageOfOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#instance_type EmrInstanceFleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#instance_type EmrInstanceFleet#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#weighted_capacity EmrInstanceFleet#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#weighted_capacity EmrInstanceFleet#weighted_capacity}
   */
   readonly weightedCapacity?: number;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#configurations EmrInstanceFleet#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#configurations EmrInstanceFleet#configurations}
   */
   readonly configurations?: EmrInstanceFleetInstanceTypeConfigsConfigurations[] | cdktn.IResolvable;
   /**
   * ebs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#ebs_config EmrInstanceFleet#ebs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#ebs_config EmrInstanceFleet#ebs_config}
   */
   readonly ebsConfig?: EmrInstanceFleetInstanceTypeConfigsEbsConfig[] | cdktn.IResolvable;
 }
@@ -577,7 +577,7 @@ export class EmrInstanceFleetInstanceTypeConfigsOutputReference extends cdktn.Co
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string; 
+  private _bidPrice?: string;
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -593,7 +593,7 @@ export class EmrInstanceFleetInstanceTypeConfigsOutputReference extends cdktn.Co
   }
 
   // bid_price_as_percentage_of_on_demand_price - computed: false, optional: true, required: false
-  private _bidPriceAsPercentageOfOnDemandPrice?: number; 
+  private _bidPriceAsPercentageOfOnDemandPrice?: number;
   public get bidPriceAsPercentageOfOnDemandPrice() {
     return this.getNumberAttribute('bid_price_as_percentage_of_on_demand_price');
   }
@@ -609,7 +609,7 @@ export class EmrInstanceFleetInstanceTypeConfigsOutputReference extends cdktn.Co
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -622,7 +622,7 @@ export class EmrInstanceFleetInstanceTypeConfigsOutputReference extends cdktn.Co
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number; 
+  private _weightedCapacity?: number;
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -691,7 +691,7 @@ export class EmrInstanceFleetInstanceTypeConfigsList extends cdktn.ComplexList {
 }
 export interface EmrInstanceFleetLaunchSpecificationsOnDemandSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}
   */
   readonly allocationStrategy: string;
 }
@@ -770,7 +770,7 @@ export class EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputRefe
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -804,19 +804,19 @@ export class EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList exten
 }
 export interface EmrInstanceFleetLaunchSpecificationsSpotSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#allocation_strategy EmrInstanceFleet#allocation_strategy}
   */
   readonly allocationStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#block_duration_minutes EmrInstanceFleet#block_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#block_duration_minutes EmrInstanceFleet#block_duration_minutes}
   */
   readonly blockDurationMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#timeout_action EmrInstanceFleet#timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#timeout_action EmrInstanceFleet#timeout_action}
   */
   readonly timeoutAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#timeout_duration_minutes EmrInstanceFleet#timeout_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#timeout_duration_minutes EmrInstanceFleet#timeout_duration_minutes}
   */
   readonly timeoutDurationMinutes: number;
 }
@@ -934,7 +934,7 @@ export class EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenc
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -947,7 +947,7 @@ export class EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenc
   }
 
   // block_duration_minutes - computed: false, optional: true, required: false
-  private _blockDurationMinutes?: number; 
+  private _blockDurationMinutes?: number;
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -963,7 +963,7 @@ export class EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenc
   }
 
   // timeout_action - computed: false, optional: false, required: true
-  private _timeoutAction?: string; 
+  private _timeoutAction?: string;
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -976,7 +976,7 @@ export class EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenc
   }
 
   // timeout_duration_minutes - computed: false, optional: false, required: true
-  private _timeoutDurationMinutes?: number; 
+  private _timeoutDurationMinutes?: number;
   public get timeoutDurationMinutes() {
     return this.getNumberAttribute('timeout_duration_minutes');
   }
@@ -1012,13 +1012,13 @@ export interface EmrInstanceFleetLaunchSpecifications {
   /**
   * on_demand_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#on_demand_specification EmrInstanceFleet#on_demand_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#on_demand_specification EmrInstanceFleet#on_demand_specification}
   */
   readonly onDemandSpecification?: EmrInstanceFleetLaunchSpecificationsOnDemandSpecification[] | cdktn.IResolvable;
   /**
   * spot_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#spot_specification EmrInstanceFleet#spot_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#spot_specification EmrInstanceFleet#spot_specification}
   */
   readonly spotSpecification?: EmrInstanceFleetLaunchSpecificationsSpotSpecification[] | cdktn.IResolvable;
 }
@@ -1131,7 +1131,7 @@ export class EmrInstanceFleetLaunchSpecificationsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet}
 */
 export class EmrInstanceFleet extends cdktn.TerraformResource {
 
@@ -1147,7 +1147,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrInstanceFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrInstanceFleet to import
-  * @param importFromId The id of the existing EmrInstanceFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrInstanceFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrInstanceFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1159,7 +1159,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1170,7 +1170,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_emr_instance_fleet',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1195,7 +1195,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   // ==========
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string; 
+  private _clusterId?: string;
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -1208,7 +1208,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1224,7 +1224,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1250,7 +1250,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1266,7 +1266,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   }
 
   // target_on_demand_capacity - computed: false, optional: true, required: false
-  private _targetOnDemandCapacity?: number; 
+  private _targetOnDemandCapacity?: number;
   public get targetOnDemandCapacity() {
     return this.getNumberAttribute('target_on_demand_capacity');
   }
@@ -1282,7 +1282,7 @@ export class EmrInstanceFleet extends cdktn.TerraformResource {
   }
 
   // target_spot_capacity - computed: false, optional: true, required: false
-  private _targetSpotCapacity?: number; 
+  private _targetSpotCapacity?: number;
   public get targetSpotCapacity() {
     return this.getNumberAttribute('target_spot_capacity');
   }

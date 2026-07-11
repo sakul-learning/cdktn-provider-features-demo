@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SsmResourcePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Actual policy statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
   */
   readonly policy: string;
   /**
   * Arn of OpsItemGroup etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}
 */
 export class SsmResourcePolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SsmResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmResourcePolicy to import
-  * @param importFromId The id of the existing SsmResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SsmResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class SsmResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class SsmResourcePolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -108,7 +108,7 @@ export class SsmResourcePolicy extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

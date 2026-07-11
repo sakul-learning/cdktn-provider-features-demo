@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktn from 'cdktn';
 
 export interface IotDomainConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#application_protocol IotDomainConfiguration#application_protocol}
   */
   readonly applicationProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#authentication_type IotDomainConfiguration#authentication_type}
   */
   readonly authenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#domain_name IotDomainConfiguration#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#id IotDomainConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#id IotDomainConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#name IotDomainConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#name IotDomainConfiguration#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#region IotDomainConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#region IotDomainConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#server_certificate_arns IotDomainConfiguration#server_certificate_arns}
   */
   readonly serverCertificateArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#service_type IotDomainConfiguration#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#status IotDomainConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#status IotDomainConfiguration#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#tags IotDomainConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#tags_all IotDomainConfiguration#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#tags_all IotDomainConfiguration#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#validation_certificate_arn IotDomainConfiguration#validation_certificate_arn}
   */
   readonly validationCertificateArn?: string;
   /**
   * authorizer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#authorizer_config IotDomainConfiguration#authorizer_config}
   */
   readonly authorizerConfig?: IotDomainConfigurationAuthorizerConfig;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#tls_config IotDomainConfiguration#tls_config}
   */
   readonly tlsConfig?: IotDomainConfigurationTlsConfig;
 }
 export interface IotDomainConfigurationAuthorizerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#allow_authorizer_override IotDomainConfiguration#allow_authorizer_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#allow_authorizer_override IotDomainConfiguration#allow_authorizer_override}
   */
   readonly allowAuthorizerOverride?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#default_authorizer_name IotDomainConfiguration#default_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#default_authorizer_name IotDomainConfiguration#default_authorizer_name}
   */
   readonly defaultAuthorizerName?: string;
 }
@@ -159,7 +159,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // allow_authorizer_override - computed: false, optional: true, required: false
-  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable; 
+  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable;
   public get allowAuthorizerOverride() {
     return this.getBooleanAttribute('allow_authorizer_override');
   }
@@ -175,7 +175,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // default_authorizer_name - computed: false, optional: true, required: false
-  private _defaultAuthorizerName?: string; 
+  private _defaultAuthorizerName?: string;
   public get defaultAuthorizerName() {
     return this.getStringAttribute('default_authorizer_name');
   }
@@ -192,7 +192,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
 }
 export interface IotDomainConfigurationTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}
   */
   readonly securityPolicy?: string;
 }
@@ -259,7 +259,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string; 
+  private _securityPolicy?: string;
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }
@@ -276,7 +276,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}
 */
 export class IotDomainConfiguration extends cdktn.TerraformResource {
 
@@ -292,7 +292,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotDomainConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotDomainConfiguration to import
-  * @param importFromId The id of the existing IotDomainConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotDomainConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotDomainConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -304,7 +304,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,7 +315,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_iot_domain_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -346,7 +346,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // application_protocol - computed: true, optional: true, required: false
-  private _applicationProtocol?: string; 
+  private _applicationProtocol?: string;
   public get applicationProtocol() {
     return this.getStringAttribute('application_protocol');
   }
@@ -367,7 +367,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string; 
+  private _authenticationType?: string;
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -383,7 +383,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -404,7 +404,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -420,7 +420,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -433,7 +433,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // server_certificate_arns - computed: false, optional: true, required: false
-  private _serverCertificateArns?: string[]; 
+  private _serverCertificateArns?: string[];
   public get serverCertificateArns() {
     return cdktn.Fn.tolist(this.getListAttribute('server_certificate_arns'));
   }
@@ -465,7 +465,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // service_type - computed: false, optional: true, required: false
-  private _serviceType?: string; 
+  private _serviceType?: string;
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -481,7 +481,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -497,7 +497,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -513,7 +513,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -529,7 +529,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // validation_certificate_arn - computed: false, optional: true, required: false
-  private _validationCertificateArn?: string; 
+  private _validationCertificateArn?: string;
   public get validationCertificateArn() {
     return this.getStringAttribute('validation_certificate_arn');
   }

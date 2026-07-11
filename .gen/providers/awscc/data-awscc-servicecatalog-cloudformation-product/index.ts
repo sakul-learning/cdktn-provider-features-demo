@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/servicecatalog_cloudformation_product
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalog_cloudformation_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,12 +10,71 @@ export interface DataAwsccServicecatalogCloudformationProductConfig extends cdkt
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/servicecatalog_cloudformation_product#id DataAwsccServicecatalogCloudformationProduct#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalog_cloudformation_product#id DataAwsccServicecatalogCloudformationProduct#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo {
+}
+
+export function dataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoToTerraform(struct?: DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoToHclTerraform(struct?: DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // import_from_physical_id - computed: true, optional: false, required: false
+  public get importFromPhysicalId() {
+    return this.getStringAttribute('import_from_physical_id');
+  }
+
+  // load_template_from_url - computed: true, optional: false, required: false
+  public get loadTemplateFromUrl() {
+    return this.getStringAttribute('load_template_from_url');
+  }
 }
 export interface DataAwsccServicecatalogCloudformationProductProvisioningArtifactParameters {
 }
@@ -79,8 +138,9 @@ export class DataAwsccServicecatalogCloudformationProductProvisioningArtifactPar
   }
 
   // info - computed: true, optional: false, required: false
+  private _info = new DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference(this, "info");
   public get info() {
-    return this.getStringAttribute('info');
+    return this._info;
   }
 
   // name - computed: true, optional: false, required: false
@@ -378,7 +438,7 @@ export class DataAwsccServicecatalogCloudformationProductTagsList extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}
 */
 export class DataAwsccServicecatalogCloudformationProduct extends cdktn.TerraformDataSource {
 
@@ -394,7 +454,7 @@ export class DataAwsccServicecatalogCloudformationProduct extends cdktn.Terrafor
   * Generates CDKTN code for importing a DataAwsccServicecatalogCloudformationProduct resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccServicecatalogCloudformationProduct to import
-  * @param importFromId The id of the existing DataAwsccServicecatalogCloudformationProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccServicecatalogCloudformationProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccServicecatalogCloudformationProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -406,7 +466,7 @@ export class DataAwsccServicecatalogCloudformationProduct extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,7 +477,7 @@ export class DataAwsccServicecatalogCloudformationProduct extends cdktn.Terrafor
       terraformResourceType: 'awscc_servicecatalog_cloudformation_product',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -455,7 +515,7 @@ export class DataAwsccServicecatalogCloudformationProduct extends cdktn.Terrafor
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface FmsResourceSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#description FmsResourceSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#description FmsResourceSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#name FmsResourceSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#name FmsResourceSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}
   */
   readonly resourceTypeList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}
   */
   readonly tags?: FmsResourceSetTags[] | cdktn.IResolvable;
 }
 export interface FmsResourceSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#key FmsResourceSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#key FmsResourceSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#value FmsResourceSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#value FmsResourceSet#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class FmsResourceSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class FmsResourceSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class FmsResourceSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set awscc_fms_resource_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set awscc_fms_resource_set}
 */
 export class FmsResourceSet extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FmsResourceSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmsResourceSet to import
-  * @param importFromId The id of the existing FmsResourceSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmsResourceSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmsResourceSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fms_resource_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -240,7 +240,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -261,7 +261,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -279,7 +279,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   }
 
   // resource_type_list - computed: false, optional: false, required: true
-  private _resourceTypeList?: string[]; 
+  private _resourceTypeList?: string[];
   public get resourceTypeList() {
     return this.getListAttribute('resource_type_list');
   }
@@ -292,7 +292,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }

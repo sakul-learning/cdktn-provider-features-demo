@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface CloudfrontDistributionTenantConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
   */
   readonly connectionGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
   */
   readonly distributionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#wait_for_deployment CloudfrontDistributionTenant#wait_for_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#wait_for_deployment CloudfrontDistributionTenant#wait_for_deployment}
   */
   readonly waitForDeployment?: boolean | cdktn.IResolvable;
   /**
   * customizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
   */
   readonly customizations?: CloudfrontDistributionTenantCustomizations[] | cdktn.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}
   */
   readonly domain?: CloudfrontDistributionTenantDomain[] | cdktn.IResolvable;
   /**
   * managed_certificate_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
   */
   readonly managedCertificateRequest?: CloudfrontDistributionTenantManagedCertificateRequest[] | cdktn.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#parameter CloudfrontDistributionTenant#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#parameter CloudfrontDistributionTenant#parameter}
   */
   readonly parameter?: CloudfrontDistributionTenantParameter[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#timeouts CloudfrontDistributionTenant#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#timeouts CloudfrontDistributionTenant#timeouts}
   */
   readonly timeouts?: CloudfrontDistributionTenantTimeouts;
 }
 export interface CloudfrontDistributionTenantCustomizationsCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
   */
   readonly arn?: string;
 }
@@ -143,7 +143,7 @@ export class CloudfrontDistributionTenantCustomizationsCertificateOutputReferenc
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -180,11 +180,11 @@ export class CloudfrontDistributionTenantCustomizationsCertificateList extends c
 }
 export interface CloudfrontDistributionTenantCustomizationsGeoRestriction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
   */
   readonly restrictionType?: string;
 }
@@ -276,7 +276,7 @@ export class CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputRefer
   }
 
   // locations - computed: true, optional: true, required: false
-  private _locations?: string[]; 
+  private _locations?: string[];
   public get locations() {
     return cdktn.Fn.tolist(this.getListAttribute('locations'));
   }
@@ -292,7 +292,7 @@ export class CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputRefer
   }
 
   // restriction_type - computed: false, optional: true, required: false
-  private _restrictionType?: string; 
+  private _restrictionType?: string;
   public get restrictionType() {
     return this.getStringAttribute('restriction_type');
   }
@@ -329,11 +329,11 @@ export class CloudfrontDistributionTenantCustomizationsGeoRestrictionList extend
 }
 export interface CloudfrontDistributionTenantCustomizationsWebAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
   */
   readonly arn?: string;
 }
@@ -425,7 +425,7 @@ export class CloudfrontDistributionTenantCustomizationsWebAclOutputReference ext
   }
 
   // action - computed: false, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -441,7 +441,7 @@ export class CloudfrontDistributionTenantCustomizationsWebAclOutputReference ext
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -480,19 +480,19 @@ export interface CloudfrontDistributionTenantCustomizations {
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
   */
   readonly certificate?: CloudfrontDistributionTenantCustomizationsCertificate[] | cdktn.IResolvable;
   /**
   * geo_restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#geo_restriction CloudfrontDistributionTenant#geo_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#geo_restriction CloudfrontDistributionTenant#geo_restriction}
   */
   readonly geoRestriction?: CloudfrontDistributionTenantCustomizationsGeoRestriction[] | cdktn.IResolvable;
   /**
   * web_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
   */
   readonly webAcl?: CloudfrontDistributionTenantCustomizationsWebAcl[] | cdktn.IResolvable;
 }
@@ -666,7 +666,7 @@ export class CloudfrontDistributionTenantCustomizationsList extends cdktn.Comple
 }
 export interface CloudfrontDistributionTenantDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#domain CloudfrontDistributionTenant#domain}
   */
   readonly domain: string;
 }
@@ -745,7 +745,7 @@ export class CloudfrontDistributionTenantDomainOutputReference extends cdktn.Com
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -784,15 +784,15 @@ export class CloudfrontDistributionTenantDomainList extends cdktn.ComplexList {
 }
 export interface CloudfrontDistributionTenantManagedCertificateRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
   */
   readonly certificateTransparencyLoggingPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
   */
   readonly primaryDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
   */
   readonly validationTokenHost?: string;
 }
@@ -897,7 +897,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // certificate_transparency_logging_preference - computed: false, optional: true, required: false
-  private _certificateTransparencyLoggingPreference?: string; 
+  private _certificateTransparencyLoggingPreference?: string;
   public get certificateTransparencyLoggingPreference() {
     return this.getStringAttribute('certificate_transparency_logging_preference');
   }
@@ -913,7 +913,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // primary_domain_name - computed: false, optional: true, required: false
-  private _primaryDomainName?: string; 
+  private _primaryDomainName?: string;
   public get primaryDomainName() {
     return this.getStringAttribute('primary_domain_name');
   }
@@ -929,7 +929,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // validation_token_host - computed: false, optional: true, required: false
-  private _validationTokenHost?: string; 
+  private _validationTokenHost?: string;
   public get validationTokenHost() {
     return this.getStringAttribute('validation_token_host');
   }
@@ -966,11 +966,11 @@ export class CloudfrontDistributionTenantManagedCertificateRequestList extends c
 }
 export interface CloudfrontDistributionTenantParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
   */
   readonly value: string;
 }
@@ -1062,7 +1062,7 @@ export class CloudfrontDistributionTenantParameterOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1075,7 +1075,7 @@ export class CloudfrontDistributionTenantParameterOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1111,19 +1111,19 @@ export interface CloudfrontDistributionTenantTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#create CloudfrontDistributionTenant#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#create CloudfrontDistributionTenant#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#delete CloudfrontDistributionTenant#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#delete CloudfrontDistributionTenant#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#update CloudfrontDistributionTenant#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#update CloudfrontDistributionTenant#update}
   */
   readonly update?: string;
 }
@@ -1226,7 +1226,7 @@ export class CloudfrontDistributionTenantTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1242,7 +1242,7 @@ export class CloudfrontDistributionTenantTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1258,7 +1258,7 @@ export class CloudfrontDistributionTenantTimeoutsOutputReference extends cdktn.C
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1275,7 +1275,7 @@ export class CloudfrontDistributionTenantTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}
 */
 export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
 
@@ -1291,7 +1291,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontDistributionTenant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontDistributionTenant to import
-  * @param importFromId The id of the existing CloudfrontDistributionTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontDistributionTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontDistributionTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1303,7 +1303,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1314,7 +1314,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudfront_distribution_tenant',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1347,7 +1347,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // connection_group_id - computed: true, optional: true, required: false
-  private _connectionGroupId?: string; 
+  private _connectionGroupId?: string;
   public get connectionGroupId() {
     return this.getStringAttribute('connection_group_id');
   }
@@ -1363,7 +1363,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // distribution_id - computed: false, optional: false, required: true
-  private _distributionId?: string; 
+  private _distributionId?: string;
   public get distributionId() {
     return this.getStringAttribute('distribution_id');
   }
@@ -1376,7 +1376,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1402,7 +1402,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1420,7 +1420,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1442,7 +1442,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // wait_for_deployment - computed: true, optional: true, required: false
-  private _waitForDeployment?: boolean | cdktn.IResolvable; 
+  private _waitForDeployment?: boolean | cdktn.IResolvable;
   public get waitForDeployment() {
     return this.getBooleanAttribute('wait_for_deployment');
   }

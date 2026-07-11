@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktn from 'cdktn';
 
 export interface GameliftFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#build_id GameliftFleet#build_id}
   */
   readonly buildId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#description GameliftFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#ec2_instance_type GameliftFleet#ec2_instance_type}
   */
   readonly ec2InstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#fleet_type GameliftFleet#fleet_type}
   */
   readonly fleetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#id GameliftFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#id GameliftFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#instance_role_arn GameliftFleet#instance_role_arn}
   */
   readonly instanceRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#metric_groups GameliftFleet#metric_groups}
   */
   readonly metricGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#name GameliftFleet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#new_game_session_protection_policy GameliftFleet#new_game_session_protection_policy}
   */
   readonly newGameSessionProtectionPolicy?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#region GameliftFleet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#region GameliftFleet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
   */
   readonly scriptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#tags GameliftFleet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#tags_all GameliftFleet#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#tags_all GameliftFleet#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * certificate_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#certificate_configuration GameliftFleet#certificate_configuration}
   */
   readonly certificateConfiguration?: GameliftFleetCertificateConfiguration;
   /**
   * ec2_inbound_permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#ec2_inbound_permission GameliftFleet#ec2_inbound_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#ec2_inbound_permission GameliftFleet#ec2_inbound_permission}
   */
   readonly ec2InboundPermission?: GameliftFleetEc2InboundPermission[] | cdktn.IResolvable;
   /**
   * resource_creation_limit_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#resource_creation_limit_policy GameliftFleet#resource_creation_limit_policy}
   */
   readonly resourceCreationLimitPolicy?: GameliftFleetResourceCreationLimitPolicy;
   /**
   * runtime_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
   */
   readonly runtimeConfiguration?: GameliftFleetRuntimeConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#timeouts GameliftFleet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#timeouts GameliftFleet#timeouts}
   */
   readonly timeouts?: GameliftFleetTimeouts;
 }
 export interface GameliftFleetCertificateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#certificate_type GameliftFleet#certificate_type}
   */
   readonly certificateType?: string;
 }
@@ -164,7 +164,7 @@ export class GameliftFleetCertificateConfigurationOutputReference extends cdktn.
   }
 
   // certificate_type - computed: false, optional: true, required: false
-  private _certificateType?: string; 
+  private _certificateType?: string;
   public get certificateType() {
     return this.getStringAttribute('certificate_type');
   }
@@ -181,19 +181,19 @@ export class GameliftFleetCertificateConfigurationOutputReference extends cdktn.
 }
 export interface GameliftFleetEc2InboundPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#from_port GameliftFleet#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#ip_range GameliftFleet#ip_range}
   */
   readonly ipRange: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#protocol GameliftFleet#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#to_port GameliftFleet#to_port}
   */
   readonly toPort: number;
 }
@@ -311,7 +311,7 @@ export class GameliftFleetEc2InboundPermissionOutputReference extends cdktn.Comp
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number; 
+  private _fromPort?: number;
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -324,7 +324,7 @@ export class GameliftFleetEc2InboundPermissionOutputReference extends cdktn.Comp
   }
 
   // ip_range - computed: false, optional: false, required: true
-  private _ipRange?: string; 
+  private _ipRange?: string;
   public get ipRange() {
     return this.getStringAttribute('ip_range');
   }
@@ -337,7 +337,7 @@ export class GameliftFleetEc2InboundPermissionOutputReference extends cdktn.Comp
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -350,7 +350,7 @@ export class GameliftFleetEc2InboundPermissionOutputReference extends cdktn.Comp
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number; 
+  private _toPort?: number;
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -384,11 +384,11 @@ export class GameliftFleetEc2InboundPermissionList extends cdktn.ComplexList {
 }
 export interface GameliftFleetResourceCreationLimitPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#new_game_sessions_per_creator GameliftFleet#new_game_sessions_per_creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#new_game_sessions_per_creator GameliftFleet#new_game_sessions_per_creator}
   */
   readonly newGameSessionsPerCreator?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#policy_period_in_minutes GameliftFleet#policy_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#policy_period_in_minutes GameliftFleet#policy_period_in_minutes}
   */
   readonly policyPeriodInMinutes?: number;
 }
@@ -468,7 +468,7 @@ export class GameliftFleetResourceCreationLimitPolicyOutputReference extends cdk
   }
 
   // new_game_sessions_per_creator - computed: false, optional: true, required: false
-  private _newGameSessionsPerCreator?: number; 
+  private _newGameSessionsPerCreator?: number;
   public get newGameSessionsPerCreator() {
     return this.getNumberAttribute('new_game_sessions_per_creator');
   }
@@ -484,7 +484,7 @@ export class GameliftFleetResourceCreationLimitPolicyOutputReference extends cdk
   }
 
   // policy_period_in_minutes - computed: false, optional: true, required: false
-  private _policyPeriodInMinutes?: number; 
+  private _policyPeriodInMinutes?: number;
   public get policyPeriodInMinutes() {
     return this.getNumberAttribute('policy_period_in_minutes');
   }
@@ -501,15 +501,15 @@ export class GameliftFleetResourceCreationLimitPolicyOutputReference extends cdk
 }
 export interface GameliftFleetRuntimeConfigurationServerProcess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}
   */
   readonly concurrentExecutions: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}
   */
   readonly launchPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}
   */
   readonly parameters?: string;
 }
@@ -614,7 +614,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessOutputReference exten
   }
 
   // concurrent_executions - computed: false, optional: false, required: true
-  private _concurrentExecutions?: number; 
+  private _concurrentExecutions?: number;
   public get concurrentExecutions() {
     return this.getNumberAttribute('concurrent_executions');
   }
@@ -627,7 +627,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessOutputReference exten
   }
 
   // launch_path - computed: false, optional: false, required: true
-  private _launchPath?: string; 
+  private _launchPath?: string;
   public get launchPath() {
     return this.getStringAttribute('launch_path');
   }
@@ -640,7 +640,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessOutputReference exten
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: string; 
+  private _parameters?: string;
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -677,17 +677,17 @@ export class GameliftFleetRuntimeConfigurationServerProcessList extends cdktn.Co
 }
 export interface GameliftFleetRuntimeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#game_session_activation_timeout_seconds GameliftFleet#game_session_activation_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#game_session_activation_timeout_seconds GameliftFleet#game_session_activation_timeout_seconds}
   */
   readonly gameSessionActivationTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#max_concurrent_game_session_activations GameliftFleet#max_concurrent_game_session_activations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#max_concurrent_game_session_activations GameliftFleet#max_concurrent_game_session_activations}
   */
   readonly maxConcurrentGameSessionActivations?: number;
   /**
   * server_process block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#server_process GameliftFleet#server_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#server_process GameliftFleet#server_process}
   */
   readonly serverProcess?: GameliftFleetRuntimeConfigurationServerProcess[] | cdktn.IResolvable;
 }
@@ -780,7 +780,7 @@ export class GameliftFleetRuntimeConfigurationOutputReference extends cdktn.Comp
   }
 
   // game_session_activation_timeout_seconds - computed: false, optional: true, required: false
-  private _gameSessionActivationTimeoutSeconds?: number; 
+  private _gameSessionActivationTimeoutSeconds?: number;
   public get gameSessionActivationTimeoutSeconds() {
     return this.getNumberAttribute('game_session_activation_timeout_seconds');
   }
@@ -796,7 +796,7 @@ export class GameliftFleetRuntimeConfigurationOutputReference extends cdktn.Comp
   }
 
   // max_concurrent_game_session_activations - computed: false, optional: true, required: false
-  private _maxConcurrentGameSessionActivations?: number; 
+  private _maxConcurrentGameSessionActivations?: number;
   public get maxConcurrentGameSessionActivations() {
     return this.getNumberAttribute('max_concurrent_game_session_activations');
   }
@@ -829,11 +829,11 @@ export class GameliftFleetRuntimeConfigurationOutputReference extends cdktn.Comp
 }
 export interface GameliftFleetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#create GameliftFleet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#create GameliftFleet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#delete GameliftFleet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#delete GameliftFleet#delete}
   */
   readonly delete?: string;
 }
@@ -923,7 +923,7 @@ export class GameliftFleetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -939,7 +939,7 @@ export class GameliftFleetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -956,7 +956,7 @@ export class GameliftFleetTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet aws_gamelift_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet aws_gamelift_fleet}
 */
 export class GameliftFleet extends cdktn.TerraformResource {
 
@@ -972,7 +972,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GameliftFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GameliftFleet to import
-  * @param importFromId The id of the existing GameliftFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GameliftFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GameliftFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -984,7 +984,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_fleet aws_gamelift_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/gamelift_fleet aws_gamelift_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -995,7 +995,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_gamelift_fleet',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1040,7 +1040,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // build_id - computed: false, optional: true, required: false
-  private _buildId?: string; 
+  private _buildId?: string;
   public get buildId() {
     return this.getStringAttribute('build_id');
   }
@@ -1056,7 +1056,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1072,7 +1072,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // ec2_instance_type - computed: false, optional: false, required: true
-  private _ec2InstanceType?: string; 
+  private _ec2InstanceType?: string;
   public get ec2InstanceType() {
     return this.getStringAttribute('ec2_instance_type');
   }
@@ -1085,7 +1085,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // fleet_type - computed: false, optional: true, required: false
-  private _fleetType?: string; 
+  private _fleetType?: string;
   public get fleetType() {
     return this.getStringAttribute('fleet_type');
   }
@@ -1101,7 +1101,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1117,7 +1117,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // instance_role_arn - computed: false, optional: true, required: false
-  private _instanceRoleArn?: string; 
+  private _instanceRoleArn?: string;
   public get instanceRoleArn() {
     return this.getStringAttribute('instance_role_arn');
   }
@@ -1138,7 +1138,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // metric_groups - computed: true, optional: true, required: false
-  private _metricGroups?: string[]; 
+  private _metricGroups?: string[];
   public get metricGroups() {
     return this.getListAttribute('metric_groups');
   }
@@ -1154,7 +1154,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1167,7 +1167,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // new_game_session_protection_policy - computed: false, optional: true, required: false
-  private _newGameSessionProtectionPolicy?: string; 
+  private _newGameSessionProtectionPolicy?: string;
   public get newGameSessionProtectionPolicy() {
     return this.getStringAttribute('new_game_session_protection_policy');
   }
@@ -1188,7 +1188,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1209,7 +1209,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // script_id - computed: false, optional: true, required: false
-  private _scriptId?: string; 
+  private _scriptId?: string;
   public get scriptId() {
     return this.getStringAttribute('script_id');
   }
@@ -1225,7 +1225,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1241,7 +1241,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

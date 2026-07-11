@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MedialiveMultiplexprogramConfig extends cdktn.TerraformMetaArgu
   /**
   * The ID of the multiplex that the program belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#multiplex_id MedialiveMultiplexprogram#multiplex_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#multiplex_id MedialiveMultiplexprogram#multiplex_id}
   */
   readonly multiplexId?: string;
   /**
   * The settings for this multiplex program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#multiplex_program_settings MedialiveMultiplexprogram#multiplex_program_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#multiplex_program_settings MedialiveMultiplexprogram#multiplex_program_settings}
   */
   readonly multiplexProgramSettings?: MedialiveMultiplexprogramMultiplexProgramSettings;
   /**
   * The packet identifier map for this multiplex program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#packet_identifiers_map MedialiveMultiplexprogram#packet_identifiers_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#packet_identifiers_map MedialiveMultiplexprogram#packet_identifiers_map}
   */
   readonly packetIdentifiersMap?: MedialiveMultiplexprogramPacketIdentifiersMap;
   /**
   * Contains information about the current sources for the specified program in the specified multiplex. Keep in mind that each multiplex pipeline connects to both pipelines in a given source channel (the channel identified by the program). But only one of those channel pipelines is ever active at one time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#pipeline_details MedialiveMultiplexprogram#pipeline_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#pipeline_details MedialiveMultiplexprogram#pipeline_details}
   */
   readonly pipelineDetails?: MedialiveMultiplexprogramPipelineDetails[] | cdktn.IResolvable;
   /**
   * The settings for this multiplex program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#preferred_channel_pipeline MedialiveMultiplexprogram#preferred_channel_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#preferred_channel_pipeline MedialiveMultiplexprogram#preferred_channel_pipeline}
   */
   readonly preferredChannelPipeline?: string;
   /**
   * The name of the multiplex program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#program_name MedialiveMultiplexprogram#program_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#program_name MedialiveMultiplexprogram#program_name}
   */
   readonly programName?: string;
 }
@@ -48,13 +48,13 @@ export interface MedialiveMultiplexprogramMultiplexProgramSettingsServiceDescrip
   /**
   * Name of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#provider_name MedialiveMultiplexprogram#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#provider_name MedialiveMultiplexprogram#provider_name}
   */
   readonly providerName?: string;
   /**
   * Name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#service_name MedialiveMultiplexprogram#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#service_name MedialiveMultiplexprogram#service_name}
   */
   readonly serviceName?: string;
 }
@@ -144,7 +144,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsServiceDescriptorO
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string; 
+  private _providerName?: string;
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -160,7 +160,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsServiceDescriptorO
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string; 
+  private _serviceName?: string;
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -179,19 +179,19 @@ export interface MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsS
   /**
   * Maximum statmux bitrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#maximum_bitrate MedialiveMultiplexprogram#maximum_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#maximum_bitrate MedialiveMultiplexprogram#maximum_bitrate}
   */
   readonly maximumBitrate?: number;
   /**
   * Minimum statmux bitrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#minimum_bitrate MedialiveMultiplexprogram#minimum_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#minimum_bitrate MedialiveMultiplexprogram#minimum_bitrate}
   */
   readonly minimumBitrate?: number;
   /**
   * The purpose of the priority is to use a combination of the\nmultiplex rate control algorithm and the QVBR capability of the\nencoder to prioritize the video quality of some channels in a\nmultiplex over others.  Channels that have a higher priority will\nget higher video quality at the expense of the video quality of\nother channels in the multiplex with lower priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#priority MedialiveMultiplexprogram#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#priority MedialiveMultiplexprogram#priority}
   */
   readonly priority?: number;
 }
@@ -294,7 +294,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // maximum_bitrate - computed: true, optional: true, required: false
-  private _maximumBitrate?: number; 
+  private _maximumBitrate?: number;
   public get maximumBitrate() {
     return this.getNumberAttribute('maximum_bitrate');
   }
@@ -310,7 +310,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // minimum_bitrate - computed: true, optional: true, required: false
-  private _minimumBitrate?: number; 
+  private _minimumBitrate?: number;
   public get minimumBitrate() {
     return this.getNumberAttribute('minimum_bitrate');
   }
@@ -326,7 +326,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -346,14 +346,14 @@ export interface MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettings 
   * The constant bitrate configuration for the video encode.
   * When this field is defined, StatmuxSettings must be undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#constant_bitrate MedialiveMultiplexprogram#constant_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#constant_bitrate MedialiveMultiplexprogram#constant_bitrate}
   */
   readonly constantBitrate?: number;
   /**
   * Statmux rate control settings.
   * When this field is defined, ConstantBitrate must be undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#statmux_settings MedialiveMultiplexprogram#statmux_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#statmux_settings MedialiveMultiplexprogram#statmux_settings}
   */
   readonly statmuxSettings?: MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsStatmuxSettings;
 }
@@ -443,7 +443,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettingsOutpu
   }
 
   // constant_bitrate - computed: true, optional: true, required: false
-  private _constantBitrate?: number; 
+  private _constantBitrate?: number;
   public get constantBitrate() {
     return this.getNumberAttribute('constant_bitrate');
   }
@@ -481,27 +481,27 @@ export interface MedialiveMultiplexprogramMultiplexProgramSettings {
   * it will switch back once that ingest is healthy again. If set to \"CURRENTLY_ACTIVE\",
   * it will not switch back to the other pipeline based on it recovering to a healthy state,
   * it will only switch if the active pipeline becomes unhealthy.
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#preferred_channel_pipeline MedialiveMultiplexprogram#preferred_channel_pipeline}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#preferred_channel_pipeline MedialiveMultiplexprogram#preferred_channel_pipeline}
   */
   readonly preferredChannelPipeline?: string;
   /**
   * Unique program number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#program_number MedialiveMultiplexprogram#program_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#program_number MedialiveMultiplexprogram#program_number}
   */
   readonly programNumber?: number;
   /**
   * Transport stream service descriptor configuration for the Multiplex program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#service_descriptor MedialiveMultiplexprogram#service_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#service_descriptor MedialiveMultiplexprogram#service_descriptor}
   */
   readonly serviceDescriptor?: MedialiveMultiplexprogramMultiplexProgramSettingsServiceDescriptor;
   /**
   * Program video settings configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#video_settings MedialiveMultiplexprogram#video_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#video_settings MedialiveMultiplexprogram#video_settings}
   */
   readonly videoSettings?: MedialiveMultiplexprogramMultiplexProgramSettingsVideoSettings;
 }
@@ -617,7 +617,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsOutputReference ex
   }
 
   // preferred_channel_pipeline - computed: true, optional: true, required: false
-  private _preferredChannelPipeline?: string; 
+  private _preferredChannelPipeline?: string;
   public get preferredChannelPipeline() {
     return this.getStringAttribute('preferred_channel_pipeline');
   }
@@ -633,7 +633,7 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsOutputReference ex
   }
 
   // program_number - computed: true, optional: true, required: false
-  private _programNumber?: number; 
+  private _programNumber?: number;
   public get programNumber() {
     return this.getNumberAttribute('program_number');
   }
@@ -682,55 +682,55 @@ export class MedialiveMultiplexprogramMultiplexProgramSettingsOutputReference ex
 }
 export interface MedialiveMultiplexprogramPacketIdentifiersMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#audio_pids MedialiveMultiplexprogram#audio_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#audio_pids MedialiveMultiplexprogram#audio_pids}
   */
   readonly audioPids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#dvb_sub_pids MedialiveMultiplexprogram#dvb_sub_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#dvb_sub_pids MedialiveMultiplexprogram#dvb_sub_pids}
   */
   readonly dvbSubPids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#dvb_teletext_pid MedialiveMultiplexprogram#dvb_teletext_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#dvb_teletext_pid MedialiveMultiplexprogram#dvb_teletext_pid}
   */
   readonly dvbTeletextPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#etv_platform_pid MedialiveMultiplexprogram#etv_platform_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#etv_platform_pid MedialiveMultiplexprogram#etv_platform_pid}
   */
   readonly etvPlatformPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#etv_signal_pid MedialiveMultiplexprogram#etv_signal_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#etv_signal_pid MedialiveMultiplexprogram#etv_signal_pid}
   */
   readonly etvSignalPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#klv_data_pids MedialiveMultiplexprogram#klv_data_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#klv_data_pids MedialiveMultiplexprogram#klv_data_pids}
   */
   readonly klvDataPids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#pcr_pid MedialiveMultiplexprogram#pcr_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#pcr_pid MedialiveMultiplexprogram#pcr_pid}
   */
   readonly pcrPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#pmt_pid MedialiveMultiplexprogram#pmt_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#pmt_pid MedialiveMultiplexprogram#pmt_pid}
   */
   readonly pmtPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#private_metadata_pid MedialiveMultiplexprogram#private_metadata_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#private_metadata_pid MedialiveMultiplexprogram#private_metadata_pid}
   */
   readonly privateMetadataPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#scte_27_pids MedialiveMultiplexprogram#scte_27_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#scte_27_pids MedialiveMultiplexprogram#scte_27_pids}
   */
   readonly scte27Pids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#scte_35_pid MedialiveMultiplexprogram#scte_35_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#scte_35_pid MedialiveMultiplexprogram#scte_35_pid}
   */
   readonly scte35Pid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#timed_metadata_pid MedialiveMultiplexprogram#timed_metadata_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#timed_metadata_pid MedialiveMultiplexprogram#timed_metadata_pid}
   */
   readonly timedMetadataPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#video_pid MedialiveMultiplexprogram#video_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#video_pid MedialiveMultiplexprogram#video_pid}
   */
   readonly videoPid?: number;
 }
@@ -963,7 +963,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // audio_pids - computed: true, optional: true, required: false
-  private _audioPids?: number[]; 
+  private _audioPids?: number[];
   public get audioPids() {
     return this.getNumberListAttribute('audio_pids');
   }
@@ -979,7 +979,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // dvb_sub_pids - computed: true, optional: true, required: false
-  private _dvbSubPids?: number[]; 
+  private _dvbSubPids?: number[];
   public get dvbSubPids() {
     return this.getNumberListAttribute('dvb_sub_pids');
   }
@@ -995,7 +995,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // dvb_teletext_pid - computed: true, optional: true, required: false
-  private _dvbTeletextPid?: number; 
+  private _dvbTeletextPid?: number;
   public get dvbTeletextPid() {
     return this.getNumberAttribute('dvb_teletext_pid');
   }
@@ -1011,7 +1011,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // etv_platform_pid - computed: true, optional: true, required: false
-  private _etvPlatformPid?: number; 
+  private _etvPlatformPid?: number;
   public get etvPlatformPid() {
     return this.getNumberAttribute('etv_platform_pid');
   }
@@ -1027,7 +1027,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // etv_signal_pid - computed: true, optional: true, required: false
-  private _etvSignalPid?: number; 
+  private _etvSignalPid?: number;
   public get etvSignalPid() {
     return this.getNumberAttribute('etv_signal_pid');
   }
@@ -1043,7 +1043,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // klv_data_pids - computed: true, optional: true, required: false
-  private _klvDataPids?: number[]; 
+  private _klvDataPids?: number[];
   public get klvDataPids() {
     return this.getNumberListAttribute('klv_data_pids');
   }
@@ -1059,7 +1059,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // pcr_pid - computed: true, optional: true, required: false
-  private _pcrPid?: number; 
+  private _pcrPid?: number;
   public get pcrPid() {
     return this.getNumberAttribute('pcr_pid');
   }
@@ -1075,7 +1075,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // pmt_pid - computed: true, optional: true, required: false
-  private _pmtPid?: number; 
+  private _pmtPid?: number;
   public get pmtPid() {
     return this.getNumberAttribute('pmt_pid');
   }
@@ -1091,7 +1091,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // private_metadata_pid - computed: true, optional: true, required: false
-  private _privateMetadataPid?: number; 
+  private _privateMetadataPid?: number;
   public get privateMetadataPid() {
     return this.getNumberAttribute('private_metadata_pid');
   }
@@ -1107,7 +1107,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // scte_27_pids - computed: true, optional: true, required: false
-  private _scte27Pids?: number[]; 
+  private _scte27Pids?: number[];
   public get scte27Pids() {
     return this.getNumberListAttribute('scte_27_pids');
   }
@@ -1123,7 +1123,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // scte_35_pid - computed: true, optional: true, required: false
-  private _scte35Pid?: number; 
+  private _scte35Pid?: number;
   public get scte35Pid() {
     return this.getNumberAttribute('scte_35_pid');
   }
@@ -1139,7 +1139,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // timed_metadata_pid - computed: true, optional: true, required: false
-  private _timedMetadataPid?: number; 
+  private _timedMetadataPid?: number;
   public get timedMetadataPid() {
     return this.getNumberAttribute('timed_metadata_pid');
   }
@@ -1155,7 +1155,7 @@ export class MedialiveMultiplexprogramPacketIdentifiersMapOutputReference extend
   }
 
   // video_pid - computed: true, optional: true, required: false
-  private _videoPid?: number; 
+  private _videoPid?: number;
   public get videoPid() {
     return this.getNumberAttribute('video_pid');
   }
@@ -1174,13 +1174,13 @@ export interface MedialiveMultiplexprogramPipelineDetails {
   /**
   * Identifies the channel pipeline that is currently active for the pipeline (identified by PipelineId) in the multiplex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#active_channel_pipeline MedialiveMultiplexprogram#active_channel_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#active_channel_pipeline MedialiveMultiplexprogram#active_channel_pipeline}
   */
   readonly activeChannelPipeline?: string;
   /**
   * Identifies a specific pipeline in the multiplex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#pipeline_id MedialiveMultiplexprogram#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#pipeline_id MedialiveMultiplexprogram#pipeline_id}
   */
   readonly pipelineId?: string;
 }
@@ -1272,7 +1272,7 @@ export class MedialiveMultiplexprogramPipelineDetailsOutputReference extends cdk
   }
 
   // active_channel_pipeline - computed: true, optional: true, required: false
-  private _activeChannelPipeline?: string; 
+  private _activeChannelPipeline?: string;
   public get activeChannelPipeline() {
     return this.getStringAttribute('active_channel_pipeline');
   }
@@ -1288,7 +1288,7 @@ export class MedialiveMultiplexprogramPipelineDetailsOutputReference extends cdk
   }
 
   // pipeline_id - computed: true, optional: true, required: false
-  private _pipelineId?: string; 
+  private _pipelineId?: string;
   public get pipelineId() {
     return this.getStringAttribute('pipeline_id');
   }
@@ -1325,7 +1325,7 @@ export class MedialiveMultiplexprogramPipelineDetailsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram}
 */
 export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
 
@@ -1341,7 +1341,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveMultiplexprogram resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveMultiplexprogram to import
-  * @param importFromId The id of the existing MedialiveMultiplexprogram that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveMultiplexprogram that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveMultiplexprogram to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1353,7 +1353,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1364,7 +1364,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_multiplexprogram',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1397,7 +1397,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
   }
 
   // multiplex_id - computed: true, optional: true, required: false
-  private _multiplexId?: string; 
+  private _multiplexId?: string;
   public get multiplexId() {
     return this.getStringAttribute('multiplex_id');
   }
@@ -1461,7 +1461,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
   }
 
   // preferred_channel_pipeline - computed: true, optional: true, required: false
-  private _preferredChannelPipeline?: string; 
+  private _preferredChannelPipeline?: string;
   public get preferredChannelPipeline() {
     return this.getStringAttribute('preferred_channel_pipeline');
   }
@@ -1477,7 +1477,7 @@ export class MedialiveMultiplexprogram extends cdktn.TerraformResource {
   }
 
   // program_name - computed: true, optional: true, required: false
-  private _programName?: string; 
+  private _programName?: string;
   public get programName() {
     return this.getStringAttribute('program_name');
   }

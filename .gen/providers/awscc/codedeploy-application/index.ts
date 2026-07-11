@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CodedeployApplicationConfig extends cdktn.TerraformMetaArgument
   /**
   * A name for the application. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
   */
   readonly applicationName?: string;
   /**
   * The compute platform that CodeDeploy deploys the application to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
   */
   readonly computePlatform?: string;
   /**
-  * The metadata that you apply to CodeDeploy applications to help you organize and categorize them. Each tag consists of a key and an optional value, both of which you define. 
+  * The metadata that you apply to CodeDeploy applications to help you organize and categorize them. Each tag consists of a key and an optional value, both of which you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
   */
   readonly tags?: CodedeployApplicationTags[] | cdktn.IResolvable;
 }
 export interface CodedeployApplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#key CodedeployApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#key CodedeployApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#value CodedeployApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#value CodedeployApplication#value}
   */
   readonly value?: string;
 }
@@ -124,7 +124,7 @@ export class CodedeployApplicationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class CodedeployApplicationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -177,7 +177,7 @@ export class CodedeployApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application awscc_codedeploy_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application awscc_codedeploy_application}
 */
 export class CodedeployApplication extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodedeployApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodedeployApplication to import
-  * @param importFromId The id of the existing CodedeployApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodedeployApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodedeployApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codedeploy_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -236,7 +236,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_name - computed: true, optional: true, required: false
-  private _applicationName?: string; 
+  private _applicationName?: string;
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -252,7 +252,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: true, optional: true, required: false
-  private _computePlatform?: string; 
+  private _computePlatform?: string;
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }

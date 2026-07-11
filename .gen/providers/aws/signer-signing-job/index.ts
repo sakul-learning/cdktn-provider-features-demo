@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktn from 'cdktn';
 
 export interface SignerSigningJobConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#id SignerSigningJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#id SignerSigningJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#ignore_signing_job_failure SignerSigningJob#ignore_signing_job_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#ignore_signing_job_failure SignerSigningJob#ignore_signing_job_failure}
   */
   readonly ignoreSigningJobFailure?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#profile_name SignerSigningJob#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#profile_name SignerSigningJob#profile_name}
   */
   readonly profileName: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#region SignerSigningJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#region SignerSigningJob#region}
   */
   readonly region?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#destination SignerSigningJob#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#destination SignerSigningJob#destination}
   */
   readonly destination: SignerSigningJobDestination;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#source SignerSigningJob#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#source SignerSigningJob#source}
   */
   readonly source: SignerSigningJobSource;
 }
@@ -284,11 +284,11 @@ export class SignerSigningJobSignedObjectList extends cdktn.ComplexList {
 }
 export interface SignerSigningJobDestinationS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#bucket SignerSigningJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#bucket SignerSigningJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#prefix SignerSigningJob#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#prefix SignerSigningJob#prefix}
   */
   readonly prefix?: string;
 }
@@ -368,7 +368,7 @@ export class SignerSigningJobDestinationS3OutputReference extends cdktn.ComplexO
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -381,7 +381,7 @@ export class SignerSigningJobDestinationS3OutputReference extends cdktn.ComplexO
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -400,7 +400,7 @@ export interface SignerSigningJobDestination {
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
   */
   readonly s3: SignerSigningJobDestinationS3;
 }
@@ -481,15 +481,15 @@ export class SignerSigningJobDestinationOutputReference extends cdktn.ComplexObj
 }
 export interface SignerSigningJobSourceS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#bucket SignerSigningJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#bucket SignerSigningJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#key SignerSigningJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#key SignerSigningJob#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#version SignerSigningJob#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#version SignerSigningJob#version}
   */
   readonly version: string;
 }
@@ -582,7 +582,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -595,7 +595,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -608,7 +608,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -624,7 +624,7 @@ export interface SignerSigningJobSource {
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#s3 SignerSigningJob#s3}
   */
   readonly s3: SignerSigningJobSourceS3;
 }
@@ -705,7 +705,7 @@ export class SignerSigningJobSourceOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job aws_signer_signing_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job aws_signer_signing_job}
 */
 export class SignerSigningJob extends cdktn.TerraformResource {
 
@@ -721,7 +721,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SignerSigningJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SignerSigningJob to import
-  * @param importFromId The id of the existing SignerSigningJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SignerSigningJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SignerSigningJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -733,7 +733,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -744,7 +744,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
       terraformResourceType: 'aws_signer_signing_job',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -777,7 +777,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -793,7 +793,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // ignore_signing_job_failure - computed: false, optional: true, required: false
-  private _ignoreSigningJobFailure?: boolean | cdktn.IResolvable; 
+  private _ignoreSigningJobFailure?: boolean | cdktn.IResolvable;
   public get ignoreSigningJobFailure() {
     return this.getBooleanAttribute('ignore_signing_job_failure');
   }
@@ -834,7 +834,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // profile_name - computed: false, optional: false, required: true
-  private _profileName?: string; 
+  private _profileName?: string;
   public get profileName() {
     return this.getStringAttribute('profile_name');
   }
@@ -852,7 +852,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

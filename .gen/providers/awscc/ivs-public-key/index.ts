@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IvsPublicKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of the public key to be imported. The value does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
   */
   readonly name?: string;
   /**
   * The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PublicKey resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
   */
   readonly publicKeyMaterial?: string;
   /**
   * A list of key-value pairs that contain metadata for the asset model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
   */
   readonly tags?: IvsPublicKeyTags[] | cdktn.IResolvable;
 }
 export interface IvsPublicKeyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#key IvsPublicKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#key IvsPublicKey#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#value IvsPublicKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#value IvsPublicKey#value}
   */
   readonly value?: string;
 }
@@ -124,7 +124,7 @@ export class IvsPublicKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class IvsPublicKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -177,7 +177,7 @@ export class IvsPublicKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key awscc_ivs_public_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key awscc_ivs_public_key}
 */
 export class IvsPublicKey extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsPublicKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsPublicKey to import
-  * @param importFromId The id of the existing IvsPublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsPublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsPublicKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_public_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -251,7 +251,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -267,7 +267,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   }
 
   // public_key_material - computed: true, optional: true, required: false
-  private _publicKeyMaterial?: string; 
+  private _publicKeyMaterial?: string;
   public get publicKeyMaterial() {
     return this.getStringAttribute('public_key_material');
   }

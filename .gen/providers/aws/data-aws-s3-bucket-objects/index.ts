@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsS3BucketObjectsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#bucket DataAwsS3BucketObjects#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#bucket DataAwsS3BucketObjects#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#delimiter DataAwsS3BucketObjects#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#delimiter DataAwsS3BucketObjects#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#encoding_type DataAwsS3BucketObjects#encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#encoding_type DataAwsS3BucketObjects#encoding_type}
   */
   readonly encodingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#fetch_owner DataAwsS3BucketObjects#fetch_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#fetch_owner DataAwsS3BucketObjects#fetch_owner}
   */
   readonly fetchOwner?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#id DataAwsS3BucketObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#id DataAwsS3BucketObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#max_keys DataAwsS3BucketObjects#max_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#max_keys DataAwsS3BucketObjects#max_keys}
   */
   readonly maxKeys?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#prefix DataAwsS3BucketObjects#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#prefix DataAwsS3BucketObjects#prefix}
   */
   readonly prefix?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#region DataAwsS3BucketObjects#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#region DataAwsS3BucketObjects#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#start_after DataAwsS3BucketObjects#start_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#start_after DataAwsS3BucketObjects#start_after}
   */
   readonly startAfter?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects aws_s3_bucket_objects}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects aws_s3_bucket_objects}
 */
 export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
 
@@ -67,7 +67,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsS3BucketObjects resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsS3BucketObjects to import
-  * @param importFromId The id of the existing DataAwsS3BucketObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsS3BucketObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsS3BucketObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -79,7 +79,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3_bucket_objects aws_s3_bucket_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_objects aws_s3_bucket_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,7 +90,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_s3_bucket_objects',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,7 +116,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -134,7 +134,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -150,7 +150,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // encoding_type - computed: false, optional: true, required: false
-  private _encodingType?: string; 
+  private _encodingType?: string;
   public get encodingType() {
     return this.getStringAttribute('encoding_type');
   }
@@ -166,7 +166,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // fetch_owner - computed: false, optional: true, required: false
-  private _fetchOwner?: boolean | cdktn.IResolvable; 
+  private _fetchOwner?: boolean | cdktn.IResolvable;
   public get fetchOwner() {
     return this.getBooleanAttribute('fetch_owner');
   }
@@ -182,7 +182,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -203,7 +203,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // max_keys - computed: false, optional: true, required: false
-  private _maxKeys?: number; 
+  private _maxKeys?: number;
   public get maxKeys() {
     return this.getNumberAttribute('max_keys');
   }
@@ -224,7 +224,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -240,7 +240,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // start_after - computed: false, optional: true, required: false
-  private _startAfter?: string; 
+  private _startAfter?: string;
   public get startAfter() {
     return this.getStringAttribute('start_after');
   }

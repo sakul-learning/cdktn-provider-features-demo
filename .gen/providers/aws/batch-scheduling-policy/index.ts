@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktn from 'cdktn';
 
 export interface BatchSchedulingPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#id BatchSchedulingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#id BatchSchedulingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#name BatchSchedulingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#name BatchSchedulingPolicy#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#region BatchSchedulingPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#region BatchSchedulingPolicy#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#tags BatchSchedulingPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#tags BatchSchedulingPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#tags_all BatchSchedulingPolicy#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#tags_all BatchSchedulingPolicy#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * fair_share_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#fair_share_policy BatchSchedulingPolicy#fair_share_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#fair_share_policy BatchSchedulingPolicy#fair_share_policy}
   */
   readonly fairSharePolicy?: BatchSchedulingPolicyFairSharePolicy;
 }
 export interface BatchSchedulingPolicyFairSharePolicyShareDistribution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}
   */
   readonly shareIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}
   */
   readonly weightFactor?: number;
 }
@@ -137,7 +137,7 @@ export class BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReferenc
   }
 
   // share_identifier - computed: false, optional: false, required: true
-  private _shareIdentifier?: string; 
+  private _shareIdentifier?: string;
   public get shareIdentifier() {
     return this.getStringAttribute('share_identifier');
   }
@@ -150,7 +150,7 @@ export class BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReferenc
   }
 
   // weight_factor - computed: false, optional: true, required: false
-  private _weightFactor?: number; 
+  private _weightFactor?: number;
   public get weightFactor() {
     return this.getNumberAttribute('weight_factor');
   }
@@ -187,17 +187,17 @@ export class BatchSchedulingPolicyFairSharePolicyShareDistributionList extends c
 }
 export interface BatchSchedulingPolicyFairSharePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}
   */
   readonly computeReservation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}
   */
   readonly shareDecaySeconds?: number;
   /**
   * share_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
   */
   readonly shareDistribution?: BatchSchedulingPolicyFairSharePolicyShareDistribution[] | cdktn.IResolvable;
 }
@@ -290,7 +290,7 @@ export class BatchSchedulingPolicyFairSharePolicyOutputReference extends cdktn.C
   }
 
   // compute_reservation - computed: false, optional: true, required: false
-  private _computeReservation?: number; 
+  private _computeReservation?: number;
   public get computeReservation() {
     return this.getNumberAttribute('compute_reservation');
   }
@@ -306,7 +306,7 @@ export class BatchSchedulingPolicyFairSharePolicyOutputReference extends cdktn.C
   }
 
   // share_decay_seconds - computed: false, optional: true, required: false
-  private _shareDecaySeconds?: number; 
+  private _shareDecaySeconds?: number;
   public get shareDecaySeconds() {
     return this.getNumberAttribute('share_decay_seconds');
   }
@@ -339,7 +339,7 @@ export class BatchSchedulingPolicyFairSharePolicyOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy aws_batch_scheduling_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy aws_batch_scheduling_policy}
 */
 export class BatchSchedulingPolicy extends cdktn.TerraformResource {
 
@@ -355,7 +355,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BatchSchedulingPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchSchedulingPolicy to import
-  * @param importFromId The id of the existing BatchSchedulingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchSchedulingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchSchedulingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -367,7 +367,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/batch_scheduling_policy aws_batch_scheduling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_scheduling_policy aws_batch_scheduling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,7 +378,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_batch_scheduling_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -406,7 +406,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -422,7 +422,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -435,7 +435,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -467,7 +467,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

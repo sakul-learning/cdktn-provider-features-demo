@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface NotificationsEventRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}
   */
   readonly eventPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}
   */
   readonly notificationConfigurationArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}
   */
   readonly regions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}
   */
   readonly source: string;
 }
@@ -108,7 +108,7 @@ export class NotificationsEventRuleStatusSummaryByRegionMap extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule awscc_notifications_event_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule awscc_notifications_event_rule}
 */
 export class NotificationsEventRule extends cdktn.TerraformResource {
 
@@ -124,7 +124,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NotificationsEventRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsEventRule to import
-  * @param importFromId The id of the existing NotificationsEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsEventRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -136,7 +136,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_event_rule awscc_notifications_event_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_event_rule awscc_notifications_event_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,7 +147,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_notifications_event_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -179,7 +179,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string; 
+  private _eventPattern?: string;
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -195,7 +195,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // event_type - computed: false, optional: false, required: true
-  private _eventType?: string; 
+  private _eventType?: string;
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -218,7 +218,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // notification_configuration_arn - computed: false, optional: false, required: true
-  private _notificationConfigurationArn?: string; 
+  private _notificationConfigurationArn?: string;
   public get notificationConfigurationArn() {
     return this.getStringAttribute('notification_configuration_arn');
   }
@@ -231,7 +231,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -244,7 +244,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }

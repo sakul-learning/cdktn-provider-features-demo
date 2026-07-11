@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayGatewayResponseConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}
   */
   readonly responseParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}
   */
   readonly responseTemplates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}
   */
   readonly responseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}
   */
   readonly statusCode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response}
 */
 export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
 
@@ -46,7 +46,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayGatewayResponse resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayGatewayResponse to import
-  * @param importFromId The id of the existing ApigatewayGatewayResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayGatewayResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayGatewayResponse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_gateway_response',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -101,7 +101,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_parameters - computed: true, optional: true, required: false
-  private _responseParameters?: { [key: string]: string }; 
+  private _responseParameters?: { [key: string]: string };
   public get responseParameters() {
     return this.getStringMapAttribute('response_parameters');
   }
@@ -117,7 +117,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_templates - computed: true, optional: true, required: false
-  private _responseTemplates?: { [key: string]: string }; 
+  private _responseTemplates?: { [key: string]: string };
   public get responseTemplates() {
     return this.getStringMapAttribute('response_templates');
   }
@@ -133,7 +133,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_type - computed: false, optional: false, required: true
-  private _responseType?: string; 
+  private _responseType?: string;
   public get responseType() {
     return this.getStringAttribute('response_type');
   }
@@ -146,7 +146,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -159,7 +159,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string; 
+  private _statusCode?: string;
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }

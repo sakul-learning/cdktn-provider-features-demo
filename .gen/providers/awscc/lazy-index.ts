@@ -250,6 +250,7 @@ Object.defineProperty(exports, 'cloudwatchAlarm', { get: function () { return re
 Object.defineProperty(exports, 'cloudwatchAlarmMuteRule', { get: function () { return require('./cloudwatch-alarm-mute-rule'); } });
 Object.defineProperty(exports, 'cloudwatchCompositeAlarm', { get: function () { return require('./cloudwatch-composite-alarm'); } });
 Object.defineProperty(exports, 'cloudwatchDashboard', { get: function () { return require('./cloudwatch-dashboard'); } });
+Object.defineProperty(exports, 'cloudwatchInsightRule', { get: function () { return require('./cloudwatch-insight-rule'); } });
 Object.defineProperty(exports, 'cloudwatchLogAlarm', { get: function () { return require('./cloudwatch-log-alarm'); } });
 Object.defineProperty(exports, 'cloudwatchMetricStream', { get: function () { return require('./cloudwatch-metric-stream'); } });
 Object.defineProperty(exports, 'cloudwatchOtelEnrichment', { get: function () { return require('./cloudwatch-otel-enrichment'); } });
@@ -280,6 +281,8 @@ Object.defineProperty(exports, 'cognitoUserPoolClient', { get: function () { ret
 Object.defineProperty(exports, 'cognitoUserPoolDomain', { get: function () { return require('./cognito-user-pool-domain'); } });
 Object.defineProperty(exports, 'cognitoUserPoolGroup', { get: function () { return require('./cognito-user-pool-group'); } });
 Object.defineProperty(exports, 'cognitoUserPoolIdentityProvider', { get: function () { return require('./cognito-user-pool-identity-provider'); } });
+Object.defineProperty(exports, 'cognitoUserPoolRegionalConfigurationAttachment', { get: function () { return require('./cognito-user-pool-regional-configuration-attachment'); } });
+Object.defineProperty(exports, 'cognitoUserPoolReplica', { get: function () { return require('./cognito-user-pool-replica'); } });
 Object.defineProperty(exports, 'cognitoUserPoolResourceServer', { get: function () { return require('./cognito-user-pool-resource-server'); } });
 Object.defineProperty(exports, 'cognitoUserPoolRiskConfigurationAttachment', { get: function () { return require('./cognito-user-pool-risk-configuration-attachment'); } });
 Object.defineProperty(exports, 'cognitoUserPoolUiCustomizationAttachment', { get: function () { return require('./cognito-user-pool-ui-customization-attachment'); } });
@@ -292,6 +295,7 @@ Object.defineProperty(exports, 'configAggregationAuthorization', { get: function
 Object.defineProperty(exports, 'configConfigRule', { get: function () { return require('./config-config-rule'); } });
 Object.defineProperty(exports, 'configConfigurationAggregator', { get: function () { return require('./config-configuration-aggregator'); } });
 Object.defineProperty(exports, 'configConformancePack', { get: function () { return require('./config-conformance-pack'); } });
+Object.defineProperty(exports, 'configConnector', { get: function () { return require('./config-connector'); } });
 Object.defineProperty(exports, 'configOrganizationConformancePack', { get: function () { return require('./config-organization-conformance-pack'); } });
 Object.defineProperty(exports, 'configRemediationConfiguration', { get: function () { return require('./config-remediation-configuration'); } });
 Object.defineProperty(exports, 'configStoredQuery', { get: function () { return require('./config-stored-query'); } });
@@ -320,6 +324,7 @@ Object.defineProperty(exports, 'connectRoutingProfile', { get: function () { ret
 Object.defineProperty(exports, 'connectSecurityKey', { get: function () { return require('./connect-security-key'); } });
 Object.defineProperty(exports, 'connectSecurityProfile', { get: function () { return require('./connect-security-profile'); } });
 Object.defineProperty(exports, 'connectTaskTemplate', { get: function () { return require('./connect-task-template'); } });
+Object.defineProperty(exports, 'connectTestCase', { get: function () { return require('./connect-test-case'); } });
 Object.defineProperty(exports, 'connectTrafficDistributionGroup', { get: function () { return require('./connect-traffic-distribution-group'); } });
 Object.defineProperty(exports, 'connectUser', { get: function () { return require('./connect-user'); } });
 Object.defineProperty(exports, 'connectUserHierarchyGroup', { get: function () { return require('./connect-user-hierarchy-group'); } });
@@ -334,6 +339,7 @@ Object.defineProperty(exports, 'controltowerLandingZone', { get: function () { r
 Object.defineProperty(exports, 'curReportDefinition', { get: function () { return require('./cur-report-definition'); } });
 Object.defineProperty(exports, 'customerprofilesCalculatedAttributeDefinition', { get: function () { return require('./customerprofiles-calculated-attribute-definition'); } });
 Object.defineProperty(exports, 'customerprofilesDomain', { get: function () { return require('./customerprofiles-domain'); } });
+Object.defineProperty(exports, 'customerprofilesDomainObjectType', { get: function () { return require('./customerprofiles-domain-object-type'); } });
 Object.defineProperty(exports, 'customerprofilesEventStream', { get: function () { return require('./customerprofiles-event-stream'); } });
 Object.defineProperty(exports, 'customerprofilesEventTrigger', { get: function () { return require('./customerprofiles-event-trigger'); } });
 Object.defineProperty(exports, 'customerprofilesIntegration', { get: function () { return require('./customerprofiles-integration'); } });
@@ -1232,6 +1238,7 @@ Object.defineProperty(exports, 'securityhubStandard', { get: function () { retur
 Object.defineProperty(exports, 'securitylakeAwsLogSource', { get: function () { return require('./securitylake-aws-log-source'); } });
 Object.defineProperty(exports, 'securitylakeDataLake', { get: function () { return require('./securitylake-data-lake'); } });
 Object.defineProperty(exports, 'securitylakeSubscriberNotification', { get: function () { return require('./securitylake-subscriber-notification'); } });
+Object.defineProperty(exports, 'servicecatalogAcceptedPortfolioShare', { get: function () { return require('./servicecatalog-accepted-portfolio-share'); } });
 Object.defineProperty(exports, 'servicecatalogCloudformationProduct', { get: function () { return require('./servicecatalog-cloudformation-product'); } });
 Object.defineProperty(exports, 'servicecatalogCloudformationProvisionedProduct', { get: function () { return require('./servicecatalog-cloudformation-provisioned-product'); } });
 Object.defineProperty(exports, 'servicecatalogLaunchNotificationConstraint', { get: function () { return require('./servicecatalog-launch-notification-constraint'); } });
@@ -1823,6 +1830,8 @@ Object.defineProperty(exports, 'dataAwsccCloudwatchCompositeAlarm', { get: funct
 Object.defineProperty(exports, 'dataAwsccCloudwatchCompositeAlarms', { get: function () { return require('./data-awscc-cloudwatch-composite-alarms'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchDashboard', { get: function () { return require('./data-awscc-cloudwatch-dashboard'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchDashboards', { get: function () { return require('./data-awscc-cloudwatch-dashboards'); } });
+Object.defineProperty(exports, 'dataAwsccCloudwatchInsightRule', { get: function () { return require('./data-awscc-cloudwatch-insight-rule'); } });
+Object.defineProperty(exports, 'dataAwsccCloudwatchInsightRules', { get: function () { return require('./data-awscc-cloudwatch-insight-rules'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchLogAlarm', { get: function () { return require('./data-awscc-cloudwatch-log-alarm'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchLogAlarms', { get: function () { return require('./data-awscc-cloudwatch-log-alarms'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchMetricStream', { get: function () { return require('./data-awscc-cloudwatch-metric-stream'); } });
@@ -1872,6 +1881,8 @@ Object.defineProperty(exports, 'dataAwsccCognitoUserPoolClient', { get: function
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolDomain', { get: function () { return require('./data-awscc-cognito-user-pool-domain'); } });
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolGroup', { get: function () { return require('./data-awscc-cognito-user-pool-group'); } });
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolIdentityProvider', { get: function () { return require('./data-awscc-cognito-user-pool-identity-provider'); } });
+Object.defineProperty(exports, 'dataAwsccCognitoUserPoolRegionalConfigurationAttachment', { get: function () { return require('./data-awscc-cognito-user-pool-regional-configuration-attachment'); } });
+Object.defineProperty(exports, 'dataAwsccCognitoUserPoolReplica', { get: function () { return require('./data-awscc-cognito-user-pool-replica'); } });
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolResourceServer', { get: function () { return require('./data-awscc-cognito-user-pool-resource-server'); } });
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolRiskConfigurationAttachment', { get: function () { return require('./data-awscc-cognito-user-pool-risk-configuration-attachment'); } });
 Object.defineProperty(exports, 'dataAwsccCognitoUserPoolUiCustomizationAttachment', { get: function () { return require('./data-awscc-cognito-user-pool-ui-customization-attachment'); } });
@@ -1891,6 +1902,8 @@ Object.defineProperty(exports, 'dataAwsccConfigConfigurationAggregator', { get: 
 Object.defineProperty(exports, 'dataAwsccConfigConfigurationAggregators', { get: function () { return require('./data-awscc-config-configuration-aggregators'); } });
 Object.defineProperty(exports, 'dataAwsccConfigConformancePack', { get: function () { return require('./data-awscc-config-conformance-pack'); } });
 Object.defineProperty(exports, 'dataAwsccConfigConformancePacks', { get: function () { return require('./data-awscc-config-conformance-packs'); } });
+Object.defineProperty(exports, 'dataAwsccConfigConnector', { get: function () { return require('./data-awscc-config-connector'); } });
+Object.defineProperty(exports, 'dataAwsccConfigConnectors', { get: function () { return require('./data-awscc-config-connectors'); } });
 Object.defineProperty(exports, 'dataAwsccConfigOrganizationConformancePack', { get: function () { return require('./data-awscc-config-organization-conformance-pack'); } });
 Object.defineProperty(exports, 'dataAwsccConfigOrganizationConformancePacks', { get: function () { return require('./data-awscc-config-organization-conformance-packs'); } });
 Object.defineProperty(exports, 'dataAwsccConfigRemediationConfiguration', { get: function () { return require('./data-awscc-config-remediation-configuration'); } });
@@ -1927,6 +1940,7 @@ Object.defineProperty(exports, 'dataAwsccConnectSecurityKey', { get: function ()
 Object.defineProperty(exports, 'dataAwsccConnectSecurityKeys', { get: function () { return require('./data-awscc-connect-security-keys'); } });
 Object.defineProperty(exports, 'dataAwsccConnectSecurityProfile', { get: function () { return require('./data-awscc-connect-security-profile'); } });
 Object.defineProperty(exports, 'dataAwsccConnectTaskTemplate', { get: function () { return require('./data-awscc-connect-task-template'); } });
+Object.defineProperty(exports, 'dataAwsccConnectTestCase', { get: function () { return require('./data-awscc-connect-test-case'); } });
 Object.defineProperty(exports, 'dataAwsccConnectTrafficDistributionGroup', { get: function () { return require('./data-awscc-connect-traffic-distribution-group'); } });
 Object.defineProperty(exports, 'dataAwsccConnectTrafficDistributionGroups', { get: function () { return require('./data-awscc-connect-traffic-distribution-groups'); } });
 Object.defineProperty(exports, 'dataAwsccConnectUser', { get: function () { return require('./data-awscc-connect-user'); } });
@@ -1946,6 +1960,7 @@ Object.defineProperty(exports, 'dataAwsccCurReportDefinition', { get: function (
 Object.defineProperty(exports, 'dataAwsccCurReportDefinitions', { get: function () { return require('./data-awscc-cur-report-definitions'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesCalculatedAttributeDefinition', { get: function () { return require('./data-awscc-customerprofiles-calculated-attribute-definition'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesDomain', { get: function () { return require('./data-awscc-customerprofiles-domain'); } });
+Object.defineProperty(exports, 'dataAwsccCustomerprofilesDomainObjectType', { get: function () { return require('./data-awscc-customerprofiles-domain-object-type'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesEventStream', { get: function () { return require('./data-awscc-customerprofiles-event-stream'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesEventTrigger', { get: function () { return require('./data-awscc-customerprofiles-event-trigger'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesIntegration', { get: function () { return require('./data-awscc-customerprofiles-integration'); } });
@@ -3568,6 +3583,8 @@ Object.defineProperty(exports, 'dataAwsccSecuritylakeDataLake', { get: function 
 Object.defineProperty(exports, 'dataAwsccSecuritylakeDataLakes', { get: function () { return require('./data-awscc-securitylake-data-lakes'); } });
 Object.defineProperty(exports, 'dataAwsccSecuritylakeSubscriberNotification', { get: function () { return require('./data-awscc-securitylake-subscriber-notification'); } });
 Object.defineProperty(exports, 'dataAwsccSecuritylakeSubscriberNotifications', { get: function () { return require('./data-awscc-securitylake-subscriber-notifications'); } });
+Object.defineProperty(exports, 'dataAwsccServicecatalogAcceptedPortfolioShare', { get: function () { return require('./data-awscc-servicecatalog-accepted-portfolio-share'); } });
+Object.defineProperty(exports, 'dataAwsccServicecatalogAcceptedPortfolioShares', { get: function () { return require('./data-awscc-servicecatalog-accepted-portfolio-shares'); } });
 Object.defineProperty(exports, 'dataAwsccServicecatalogCloudformationProduct', { get: function () { return require('./data-awscc-servicecatalog-cloudformation-product'); } });
 Object.defineProperty(exports, 'dataAwsccServicecatalogCloudformationProducts', { get: function () { return require('./data-awscc-servicecatalog-cloudformation-products'); } });
 Object.defineProperty(exports, 'dataAwsccServicecatalogCloudformationProvisionedProduct', { get: function () { return require('./data-awscc-servicecatalog-cloudformation-provisioned-product'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Ec2RouteServerPropagationConfig extends cdktn.TerraformMetaArgu
   /**
   * Route Server ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation#route_server_id Ec2RouteServerPropagation#route_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation#route_server_id Ec2RouteServerPropagation#route_server_id}
   */
   readonly routeServerId: string;
   /**
   * Route Table ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation#route_table_id Ec2RouteServerPropagation#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation#route_table_id Ec2RouteServerPropagation#route_table_id}
   */
   readonly routeTableId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}
 */
 export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2RouteServerPropagation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2RouteServerPropagation to import
-  * @param importFromId The id of the existing Ec2RouteServerPropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2RouteServerPropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2RouteServerPropagation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route_server_propagation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string; 
+  private _routeServerId?: string;
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -98,7 +98,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string; 
+  private _routeTableId?: string;
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface IotSoftwarePackageVersionConfig extends cdktn.TerraformMetaArgu
   /**
   * The artifact location of the package version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
   */
   readonly artifact?: IotSoftwarePackageVersionArtifact;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}
   */
   readonly packageName: string;
   /**
   * The inline json job document associated with a software package version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
   */
   readonly recipe?: string;
   /**
   * The sbom zip archive location of the package version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
   */
   readonly sbom?: IotSoftwarePackageVersionSbom;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
   */
   readonly tags?: IotSoftwarePackageVersionTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}
   */
   readonly versionName?: string;
 }
@@ -52,19 +52,19 @@ export interface IotSoftwarePackageVersionArtifactS3Location {
   /**
   * The S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
   */
   readonly bucket?: string;
   /**
   * The S3 key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
   */
   readonly key?: string;
   /**
   * The S3 version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
   */
   readonly version?: string;
 }
@@ -167,7 +167,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -183,7 +183,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -199,7 +199,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -218,7 +218,7 @@ export interface IotSoftwarePackageVersionArtifact {
   /**
   * The Amazon S3 location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
   */
   readonly s3Location?: IotSoftwarePackageVersionArtifactS3Location;
 }
@@ -314,19 +314,19 @@ export interface IotSoftwarePackageVersionSbomS3Location {
   /**
   * The S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
   */
   readonly bucket?: string;
   /**
   * The S3 key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
   */
   readonly key?: string;
   /**
   * The S3 version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
   */
   readonly version?: string;
 }
@@ -429,7 +429,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -445,7 +445,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -480,7 +480,7 @@ export interface IotSoftwarePackageVersionSbom {
   /**
   * The Amazon S3 location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
   */
   readonly s3Location?: IotSoftwarePackageVersionSbomS3Location;
 }
@@ -574,15 +574,15 @@ export class IotSoftwarePackageVersionSbomOutputReference extends cdktn.ComplexO
 }
 export interface IotSoftwarePackageVersionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
   */
   readonly value?: string;
 }
@@ -674,7 +674,7 @@ export class IotSoftwarePackageVersionTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -690,7 +690,7 @@ export class IotSoftwarePackageVersionTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -727,7 +727,7 @@ export class IotSoftwarePackageVersionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}
 */
 export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
 
@@ -743,7 +743,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotSoftwarePackageVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotSoftwarePackageVersion to import
-  * @param importFromId The id of the existing IotSoftwarePackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotSoftwarePackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotSoftwarePackageVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -755,7 +755,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_software_package_version awscc_iot_software_package_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version awscc_iot_software_package_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -766,7 +766,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_software_package_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -807,7 +807,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -823,7 +823,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -849,7 +849,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // package_name - computed: false, optional: false, required: true
-  private _packageName?: string; 
+  private _packageName?: string;
   public get packageName() {
     return this.getStringAttribute('package_name');
   }
@@ -867,7 +867,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // recipe - computed: true, optional: true, required: false
-  private _recipe?: string; 
+  private _recipe?: string;
   public get recipe() {
     return this.getStringAttribute('recipe');
   }
@@ -925,7 +925,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string; 
+  private _versionName?: string;
   public get versionName() {
     return this.getStringAttribute('version_name');
   }

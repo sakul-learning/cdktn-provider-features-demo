@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,83 +9,83 @@ import * as cdktn from 'cdktn';
 export interface Route53ResolverResolverEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether the Resolver endpoint allows inbound or outbound DNS queries:
-  * - INBOUND: allows DNS queries to your VPC from your network 
-  * - OUTBOUND: allows DNS queries from your VPC to your network 
+  * - INBOUND: allows DNS queries to your VPC from your network
+  * - OUTBOUND: allows DNS queries from your VPC to your network
   * - INBOUND_DELEGATION: allows DNS queries to your VPC from your network with authoritative answers from private hosted zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#direction Route53ResolverResolverEndpoint#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#direction Route53ResolverResolverEndpoint#direction}
   */
   readonly direction: string;
   /**
   * Specifies whether DNS64 is enabled for the Inbound Resolver Endpoint. When set to true, if a DNS AAAA query is made for a domain that has only an A (IPv4) record, the resolver automatically synthesizes an AAAA (IPv6) response by embedding the IPv4 address into the well-known prefix 64:ff9b::/96. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#dns_64_enabled Route53ResolverResolverEndpoint#dns_64_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#dns_64_enabled Route53ResolverResolverEndpoint#dns_64_enabled}
   */
   readonly dns64Enabled?: boolean | cdktn.IResolvable;
   /**
   * The subnets and IP addresses in your VPC that DNS queries originate from (for outbound endpoints) or that you forward DNS queries to (for inbound endpoints). The subnet ID uniquely identifies a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#ip_addresses Route53ResolverResolverEndpoint#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#ip_addresses Route53ResolverResolverEndpoint#ip_addresses}
   */
   readonly ipAddresses: Route53ResolverResolverEndpointIpAddresses[] | cdktn.IResolvable;
   /**
   * Specifies whether IPv6 Internet Gateway access is enabled through the Outbound Resolver Endpoint. When set to true, this property allows your Endpoint ENIs to reach public IPv6 target nameservers through an internet gateway. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#ipv_6_internet_access_enabled Route53ResolverResolverEndpoint#ipv_6_internet_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#ipv_6_internet_access_enabled Route53ResolverResolverEndpoint#ipv_6_internet_access_enabled}
   */
   readonly ipv6InternetAccessEnabled?: boolean | cdktn.IResolvable;
   /**
   * A friendly name that lets you easily find a configuration in the Resolver dashboard in the Route 53 console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#name Route53ResolverResolverEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#name Route53ResolverResolverEndpoint#name}
   */
   readonly name?: string;
   /**
   * The ARN (Amazon Resource Name) for the Outpost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#outpost_arn Route53ResolverResolverEndpoint#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#outpost_arn Route53ResolverResolverEndpoint#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
   * The Amazon EC2 instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#preferred_instance_type Route53ResolverResolverEndpoint#preferred_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#preferred_instance_type Route53ResolverResolverEndpoint#preferred_instance_type}
   */
   readonly preferredInstanceType?: string;
   /**
   * Protocols used for the endpoint. DoH-FIPS is applicable for inbound endpoints only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#protocols Route53ResolverResolverEndpoint#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#protocols Route53ResolverResolverEndpoint#protocols}
   */
   readonly protocols?: string[];
   /**
   * The Resolver endpoint IP address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#resolver_endpoint_type Route53ResolverResolverEndpoint#resolver_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#resolver_endpoint_type Route53ResolverResolverEndpoint#resolver_endpoint_type}
   */
   readonly resolverEndpointType?: string;
   /**
   * Specifies whether RNI enhanced metrics are enabled for the Resolver Endpoints. When set to true, one-minute granular metrics are published in CloudWatch for each RNI associated with this endpoint. When set to false, metrics are not published. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#rni_enhanced_metrics_enabled Route53ResolverResolverEndpoint#rni_enhanced_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#rni_enhanced_metrics_enabled Route53ResolverResolverEndpoint#rni_enhanced_metrics_enabled}
   */
   readonly rniEnhancedMetricsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The ID of one or more security groups that control access to this VPC. The security group must include one or more inbound rules (for inbound endpoints) or outbound rules (for outbound endpoints). Inbound and outbound rules must allow TCP and UDP access. For inbound access, open port 53. For outbound access, open the port that you're using for DNS queries on your network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#security_group_ids Route53ResolverResolverEndpoint#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#security_group_ids Route53ResolverResolverEndpoint#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#tags Route53ResolverResolverEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#tags Route53ResolverResolverEndpoint#tags}
   */
   readonly tags?: Route53ResolverResolverEndpointTags[] | cdktn.IResolvable;
   /**
   * Specifies whether target name server metrics are enabled for the Outbound Resolver Endpoint. When set to true, one-minute granular metrics are published in CloudWatch for each target name server associated with this endpoint. When set to false, metrics are not published. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#target_name_server_metrics_enabled Route53ResolverResolverEndpoint#target_name_server_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#target_name_server_metrics_enabled Route53ResolverResolverEndpoint#target_name_server_metrics_enabled}
   */
   readonly targetNameServerMetricsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -93,19 +93,19 @@ export interface Route53ResolverResolverEndpointIpAddresses {
   /**
   * The IPv4 address that you want to use for DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#ip Route53ResolverResolverEndpoint#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#ip Route53ResolverResolverEndpoint#ip}
   */
   readonly ip?: string;
   /**
   * The IPv6 address that you want to use for DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#ipv_6 Route53ResolverResolverEndpoint#ipv_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#ipv_6 Route53ResolverResolverEndpoint#ipv_6}
   */
   readonly ipv6?: string;
   /**
   * The ID of the subnet that contains the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#subnet_id Route53ResolverResolverEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#subnet_id Route53ResolverResolverEndpoint#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -210,7 +210,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // ip - computed: true, optional: true, required: false
-  private _ip?: string; 
+  private _ip?: string;
   public get ip() {
     return this.getStringAttribute('ip');
   }
@@ -226,7 +226,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // ipv_6 - computed: true, optional: true, required: false
-  private _ipv6?: string; 
+  private _ipv6?: string;
   public get ipv6() {
     return this.getStringAttribute('ipv_6');
   }
@@ -242,7 +242,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -278,13 +278,13 @@ export interface Route53ResolverResolverEndpointTags {
   /**
   * The name for the tag. For example, if you want to associate Resolver resources with the account IDs of your customers for billing purposes, the value of Key might be account-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#key Route53ResolverResolverEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#key Route53ResolverResolverEndpoint#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. For example, if Key is account-id, then Value might be the ID of the customer account that you're creating the resource for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#value Route53ResolverResolverEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#value Route53ResolverResolverEndpoint#value}
   */
   readonly value?: string;
 }
@@ -376,7 +376,7 @@ export class Route53ResolverResolverEndpointTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -392,7 +392,7 @@ export class Route53ResolverResolverEndpointTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -429,7 +429,7 @@ export class Route53ResolverResolverEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint awscc_route53resolver_resolver_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint awscc_route53resolver_resolver_endpoint}
 */
 export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
 
@@ -445,7 +445,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverResolverEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverResolverEndpoint to import
-  * @param importFromId The id of the existing Route53ResolverResolverEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverResolverEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverResolverEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -457,7 +457,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_endpoint awscc_route53resolver_resolver_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint awscc_route53resolver_resolver_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,7 +468,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_resolver_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -503,7 +503,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // direction - computed: false, optional: false, required: true
-  private _direction?: string; 
+  private _direction?: string;
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -516,7 +516,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // dns_64_enabled - computed: true, optional: true, required: false
-  private _dns64Enabled?: boolean | cdktn.IResolvable; 
+  private _dns64Enabled?: boolean | cdktn.IResolvable;
   public get dns64Enabled() {
     return this.getBooleanAttribute('dns_64_enabled');
   }
@@ -560,7 +560,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // ipv_6_internet_access_enabled - computed: true, optional: true, required: false
-  private _ipv6InternetAccessEnabled?: boolean | cdktn.IResolvable; 
+  private _ipv6InternetAccessEnabled?: boolean | cdktn.IResolvable;
   public get ipv6InternetAccessEnabled() {
     return this.getBooleanAttribute('ipv_6_internet_access_enabled');
   }
@@ -576,7 +576,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -592,7 +592,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string; 
+  private _outpostArn?: string;
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -608,7 +608,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // preferred_instance_type - computed: true, optional: true, required: false
-  private _preferredInstanceType?: string; 
+  private _preferredInstanceType?: string;
   public get preferredInstanceType() {
     return this.getStringAttribute('preferred_instance_type');
   }
@@ -624,7 +624,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: string[]; 
+  private _protocols?: string[];
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -645,7 +645,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // resolver_endpoint_type - computed: true, optional: true, required: false
-  private _resolverEndpointType?: string; 
+  private _resolverEndpointType?: string;
   public get resolverEndpointType() {
     return this.getStringAttribute('resolver_endpoint_type');
   }
@@ -661,7 +661,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // rni_enhanced_metrics_enabled - computed: true, optional: true, required: false
-  private _rniEnhancedMetricsEnabled?: boolean | cdktn.IResolvable; 
+  private _rniEnhancedMetricsEnabled?: boolean | cdktn.IResolvable;
   public get rniEnhancedMetricsEnabled() {
     return this.getBooleanAttribute('rni_enhanced_metrics_enabled');
   }
@@ -677,7 +677,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -706,7 +706,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // target_name_server_metrics_enabled - computed: true, optional: true, required: false
-  private _targetNameServerMetricsEnabled?: boolean | cdktn.IResolvable; 
+  private _targetNameServerMetricsEnabled?: boolean | cdktn.IResolvable;
   public get targetNameServerMetricsEnabled() {
     return this.getBooleanAttribute('target_name_server_metrics_enabled');
   }

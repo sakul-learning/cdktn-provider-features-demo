@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface ApigatewayDeploymentConfig extends cdktn.TerraformMetaArguments
   /**
   * The ``DeploymentCanarySettings`` property type specifies settings for the canary deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
   */
   readonly deploymentCanarySettings?: ApigatewayDeploymentDeploymentCanarySettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}
   */
   readonly restApiId: string;
   /**
   * The description of the Stage resource for the Deployment resource to create. To specify a stage description, you must also provide a stage name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
   */
   readonly stageDescription?: ApigatewayDeploymentStageDescription;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}
   */
   readonly stageName?: string;
 }
 export interface ApigatewayDeploymentDeploymentCanarySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}
   */
   readonly percentTraffic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}
   */
   readonly stageVariableOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}
   */
   readonly useStageCache?: boolean | cdktn.IResolvable;
 }
@@ -145,7 +145,7 @@ export class ApigatewayDeploymentDeploymentCanarySettingsOutputReference extends
   }
 
   // percent_traffic - computed: true, optional: true, required: false
-  private _percentTraffic?: number; 
+  private _percentTraffic?: number;
   public get percentTraffic() {
     return this.getNumberAttribute('percent_traffic');
   }
@@ -161,7 +161,7 @@ export class ApigatewayDeploymentDeploymentCanarySettingsOutputReference extends
   }
 
   // stage_variable_overrides - computed: true, optional: true, required: false
-  private _stageVariableOverrides?: { [key: string]: string }; 
+  private _stageVariableOverrides?: { [key: string]: string };
   public get stageVariableOverrides() {
     return this.getStringMapAttribute('stage_variable_overrides');
   }
@@ -177,7 +177,7 @@ export class ApigatewayDeploymentDeploymentCanarySettingsOutputReference extends
   }
 
   // use_stage_cache - computed: true, optional: true, required: false
-  private _useStageCache?: boolean | cdktn.IResolvable; 
+  private _useStageCache?: boolean | cdktn.IResolvable;
   public get useStageCache() {
     return this.getBooleanAttribute('use_stage_cache');
   }
@@ -194,11 +194,11 @@ export class ApigatewayDeploymentDeploymentCanarySettingsOutputReference extends
 }
 export interface ApigatewayDeploymentStageDescriptionAccessLogSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#destination_arn ApigatewayDeployment#destination_arn}
   */
   readonly destinationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
   */
   readonly format?: string;
 }
@@ -288,7 +288,7 @@ export class ApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string; 
+  private _destinationArn?: string;
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -304,7 +304,7 @@ export class ApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -321,15 +321,15 @@ export class ApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference
 }
 export interface ApigatewayDeploymentStageDescriptionCanarySetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#percent_traffic ApigatewayDeployment#percent_traffic}
   */
   readonly percentTraffic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#stage_variable_overrides ApigatewayDeployment#stage_variable_overrides}
   */
   readonly stageVariableOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#use_stage_cache ApigatewayDeployment#use_stage_cache}
   */
   readonly useStageCache?: boolean | cdktn.IResolvable;
 }
@@ -432,7 +432,7 @@ export class ApigatewayDeploymentStageDescriptionCanarySettingOutputReference ex
   }
 
   // percent_traffic - computed: true, optional: true, required: false
-  private _percentTraffic?: number; 
+  private _percentTraffic?: number;
   public get percentTraffic() {
     return this.getNumberAttribute('percent_traffic');
   }
@@ -448,7 +448,7 @@ export class ApigatewayDeploymentStageDescriptionCanarySettingOutputReference ex
   }
 
   // stage_variable_overrides - computed: true, optional: true, required: false
-  private _stageVariableOverrides?: { [key: string]: string }; 
+  private _stageVariableOverrides?: { [key: string]: string };
   public get stageVariableOverrides() {
     return this.getStringMapAttribute('stage_variable_overrides');
   }
@@ -464,7 +464,7 @@ export class ApigatewayDeploymentStageDescriptionCanarySettingOutputReference ex
   }
 
   // use_stage_cache - computed: true, optional: true, required: false
-  private _useStageCache?: boolean | cdktn.IResolvable; 
+  private _useStageCache?: boolean | cdktn.IResolvable;
   public get useStageCache() {
     return this.getBooleanAttribute('use_stage_cache');
   }
@@ -481,47 +481,47 @@ export class ApigatewayDeploymentStageDescriptionCanarySettingOutputReference ex
 }
 export interface ApigatewayDeploymentStageDescriptionMethodSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
   */
   readonly cacheDataEncrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
   */
   readonly cacheTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
   */
   readonly cachingEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
   */
   readonly dataTraceEnabled?: boolean | cdktn.IResolvable;
   /**
   * The HTTP method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#http_method ApigatewayDeployment#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#http_method ApigatewayDeployment#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
   */
   readonly loggingLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
   */
   readonly metricsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The resource path for this method. Forward slashes (``/``) are encoded as ``~1`` and the initial slash must include a forward slash. For example, the path value ``/resource/subresource`` must be encoded as ``/~1resource~1subresource``. To specify the root path, use only a slash (``/``).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#resource_path ApigatewayDeployment#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#resource_path ApigatewayDeployment#resource_path}
   */
   readonly resourcePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
   */
   readonly throttlingBurstLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
   */
   readonly throttlingRateLimit?: number;
 }
@@ -717,7 +717,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // cache_data_encrypted - computed: true, optional: true, required: false
-  private _cacheDataEncrypted?: boolean | cdktn.IResolvable; 
+  private _cacheDataEncrypted?: boolean | cdktn.IResolvable;
   public get cacheDataEncrypted() {
     return this.getBooleanAttribute('cache_data_encrypted');
   }
@@ -733,7 +733,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // cache_ttl_in_seconds - computed: true, optional: true, required: false
-  private _cacheTtlInSeconds?: number; 
+  private _cacheTtlInSeconds?: number;
   public get cacheTtlInSeconds() {
     return this.getNumberAttribute('cache_ttl_in_seconds');
   }
@@ -749,7 +749,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // caching_enabled - computed: true, optional: true, required: false
-  private _cachingEnabled?: boolean | cdktn.IResolvable; 
+  private _cachingEnabled?: boolean | cdktn.IResolvable;
   public get cachingEnabled() {
     return this.getBooleanAttribute('caching_enabled');
   }
@@ -765,7 +765,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // data_trace_enabled - computed: true, optional: true, required: false
-  private _dataTraceEnabled?: boolean | cdktn.IResolvable; 
+  private _dataTraceEnabled?: boolean | cdktn.IResolvable;
   public get dataTraceEnabled() {
     return this.getBooleanAttribute('data_trace_enabled');
   }
@@ -781,7 +781,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string; 
+  private _httpMethod?: string;
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -797,7 +797,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string; 
+  private _loggingLevel?: string;
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -813,7 +813,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // metrics_enabled - computed: true, optional: true, required: false
-  private _metricsEnabled?: boolean | cdktn.IResolvable; 
+  private _metricsEnabled?: boolean | cdktn.IResolvable;
   public get metricsEnabled() {
     return this.getBooleanAttribute('metrics_enabled');
   }
@@ -829,7 +829,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // resource_path - computed: true, optional: true, required: false
-  private _resourcePath?: string; 
+  private _resourcePath?: string;
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -845,7 +845,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // throttling_burst_limit - computed: true, optional: true, required: false
-  private _throttlingBurstLimit?: number; 
+  private _throttlingBurstLimit?: number;
   public get throttlingBurstLimit() {
     return this.getNumberAttribute('throttling_burst_limit');
   }
@@ -861,7 +861,7 @@ export class ApigatewayDeploymentStageDescriptionMethodSettingsOutputReference e
   }
 
   // throttling_rate_limit - computed: true, optional: true, required: false
-  private _throttlingRateLimit?: number; 
+  private _throttlingRateLimit?: number;
   public get throttlingRateLimit() {
     return this.getNumberAttribute('throttling_rate_limit');
   }
@@ -900,13 +900,13 @@ export interface ApigatewayDeploymentStageDescriptionTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
   */
   readonly value?: string;
 }
@@ -998,7 +998,7 @@ export class ApigatewayDeploymentStageDescriptionTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1014,7 +1014,7 @@ export class ApigatewayDeploymentStageDescriptionTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1053,114 +1053,114 @@ export interface ApigatewayDeploymentStageDescription {
   /**
   * Specifies settings for logging access in this stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#access_log_setting ApigatewayDeployment#access_log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#access_log_setting ApigatewayDeployment#access_log_setting}
   */
   readonly accessLogSetting?: ApigatewayDeploymentStageDescriptionAccessLogSetting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_cluster_enabled ApigatewayDeployment#cache_cluster_enabled}
   */
   readonly cacheClusterEnabled?: boolean | cdktn.IResolvable;
   /**
   * The size of the stage's cache cluster. For more information, see [cacheClusterSize](https://docs.aws.amazon.com/apigateway/latest/api/API_CreateStage.html#apigw-CreateStage-request-cacheClusterSize) in the *API Gateway API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_cluster_size ApigatewayDeployment#cache_cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_cluster_size ApigatewayDeployment#cache_cluster_size}
   */
   readonly cacheClusterSize?: string;
   /**
   * Indicates whether the cached responses are encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_data_encrypted ApigatewayDeployment#cache_data_encrypted}
   */
   readonly cacheDataEncrypted?: boolean | cdktn.IResolvable;
   /**
   * The time-to-live (TTL) period, in seconds, that specifies how long API Gateway caches responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#cache_ttl_in_seconds ApigatewayDeployment#cache_ttl_in_seconds}
   */
   readonly cacheTtlInSeconds?: number;
   /**
   * Indicates whether responses are cached and returned for requests. You must enable a cache cluster on the stage to cache responses. For more information, see [Enable API Gateway Caching in a Stage to Enhance API Performance](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html) in the *API Gateway Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#caching_enabled ApigatewayDeployment#caching_enabled}
   */
   readonly cachingEnabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies settings for the canary deployment in this stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#canary_setting ApigatewayDeployment#canary_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#canary_setting ApigatewayDeployment#canary_setting}
   */
   readonly canarySetting?: ApigatewayDeploymentStageDescriptionCanarySetting;
   /**
   * The identifier of the client certificate that API Gateway uses to call your integration endpoints in the stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#client_certificate_id ApigatewayDeployment#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#client_certificate_id ApigatewayDeployment#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * Indicates whether data trace logging is enabled for methods in the stage. API Gateway pushes these logs to Amazon CloudWatch Logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#data_trace_enabled ApigatewayDeployment#data_trace_enabled}
   */
   readonly dataTraceEnabled?: boolean | cdktn.IResolvable;
   /**
   * A description of the purpose of the stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}
   */
   readonly description?: string;
   /**
   * The version identifier of the API documentation snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#documentation_version ApigatewayDeployment#documentation_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#documentation_version ApigatewayDeployment#documentation_version}
   */
   readonly documentationVersion?: string;
   /**
   * The logging level for this method. For valid values, see the ``loggingLevel`` property of the [MethodSetting](https://docs.aws.amazon.com/apigateway/latest/api/API_MethodSetting.html) resource in the *Amazon API Gateway API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#logging_level ApigatewayDeployment#logging_level}
   */
   readonly loggingLevel?: string;
   /**
   * Configures settings for all of the stage's methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#method_settings ApigatewayDeployment#method_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#method_settings ApigatewayDeployment#method_settings}
   */
   readonly methodSettings?: ApigatewayDeploymentStageDescriptionMethodSettings[] | cdktn.IResolvable;
   /**
   * Indicates whether Amazon CloudWatch metrics are enabled for methods in the stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#metrics_enabled ApigatewayDeployment#metrics_enabled}
   */
   readonly metricsEnabled?: boolean | cdktn.IResolvable;
   /**
   * An array of arbitrary tags (key-value pairs) to associate with the stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#tags ApigatewayDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#tags ApigatewayDeployment#tags}
   */
   readonly tags?: ApigatewayDeploymentStageDescriptionTags[] | cdktn.IResolvable;
   /**
   * The target request burst rate limit. This allows more requests through for a period of time than the target rate limit. For more information, see [Manage API Request Throttling](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html) in the *API Gateway Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#throttling_burst_limit ApigatewayDeployment#throttling_burst_limit}
   */
   readonly throttlingBurstLimit?: number;
   /**
   * The target request steady-state rate limit. For more information, see [Manage API Request Throttling](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html) in the *API Gateway Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#throttling_rate_limit ApigatewayDeployment#throttling_rate_limit}
   */
   readonly throttlingRateLimit?: number;
   /**
   * Specifies whether active tracing with X-ray is enabled for this stage.
   *  For more information, see [Trace API Gateway API Execution with X-Ray](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-xray.html) in the *API Gateway Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#tracing_enabled ApigatewayDeployment#tracing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#tracing_enabled ApigatewayDeployment#tracing_enabled}
   */
   readonly tracingEnabled?: boolean | cdktn.IResolvable;
   /**
   * A map that defines the stage variables. Variable names must consist of alphanumeric characters, and the values must match the following regular expression: ``[A-Za-z0-9-._~:/?#&=,]+``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#variables ApigatewayDeployment#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#variables ApigatewayDeployment#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -1487,7 +1487,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // cache_cluster_enabled - computed: true, optional: true, required: false
-  private _cacheClusterEnabled?: boolean | cdktn.IResolvable; 
+  private _cacheClusterEnabled?: boolean | cdktn.IResolvable;
   public get cacheClusterEnabled() {
     return this.getBooleanAttribute('cache_cluster_enabled');
   }
@@ -1503,7 +1503,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // cache_cluster_size - computed: true, optional: true, required: false
-  private _cacheClusterSize?: string; 
+  private _cacheClusterSize?: string;
   public get cacheClusterSize() {
     return this.getStringAttribute('cache_cluster_size');
   }
@@ -1519,7 +1519,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // cache_data_encrypted - computed: true, optional: true, required: false
-  private _cacheDataEncrypted?: boolean | cdktn.IResolvable; 
+  private _cacheDataEncrypted?: boolean | cdktn.IResolvable;
   public get cacheDataEncrypted() {
     return this.getBooleanAttribute('cache_data_encrypted');
   }
@@ -1535,7 +1535,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // cache_ttl_in_seconds - computed: true, optional: true, required: false
-  private _cacheTtlInSeconds?: number; 
+  private _cacheTtlInSeconds?: number;
   public get cacheTtlInSeconds() {
     return this.getNumberAttribute('cache_ttl_in_seconds');
   }
@@ -1551,7 +1551,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // caching_enabled - computed: true, optional: true, required: false
-  private _cachingEnabled?: boolean | cdktn.IResolvable; 
+  private _cachingEnabled?: boolean | cdktn.IResolvable;
   public get cachingEnabled() {
     return this.getBooleanAttribute('caching_enabled');
   }
@@ -1583,7 +1583,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // client_certificate_id - computed: true, optional: true, required: false
-  private _clientCertificateId?: string; 
+  private _clientCertificateId?: string;
   public get clientCertificateId() {
     return this.getStringAttribute('client_certificate_id');
   }
@@ -1599,7 +1599,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // data_trace_enabled - computed: true, optional: true, required: false
-  private _dataTraceEnabled?: boolean | cdktn.IResolvable; 
+  private _dataTraceEnabled?: boolean | cdktn.IResolvable;
   public get dataTraceEnabled() {
     return this.getBooleanAttribute('data_trace_enabled');
   }
@@ -1615,7 +1615,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1631,7 +1631,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // documentation_version - computed: true, optional: true, required: false
-  private _documentationVersion?: string; 
+  private _documentationVersion?: string;
   public get documentationVersion() {
     return this.getStringAttribute('documentation_version');
   }
@@ -1647,7 +1647,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string; 
+  private _loggingLevel?: string;
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -1679,7 +1679,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // metrics_enabled - computed: true, optional: true, required: false
-  private _metricsEnabled?: boolean | cdktn.IResolvable; 
+  private _metricsEnabled?: boolean | cdktn.IResolvable;
   public get metricsEnabled() {
     return this.getBooleanAttribute('metrics_enabled');
   }
@@ -1711,7 +1711,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // throttling_burst_limit - computed: true, optional: true, required: false
-  private _throttlingBurstLimit?: number; 
+  private _throttlingBurstLimit?: number;
   public get throttlingBurstLimit() {
     return this.getNumberAttribute('throttling_burst_limit');
   }
@@ -1727,7 +1727,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // throttling_rate_limit - computed: true, optional: true, required: false
-  private _throttlingRateLimit?: number; 
+  private _throttlingRateLimit?: number;
   public get throttlingRateLimit() {
     return this.getNumberAttribute('throttling_rate_limit');
   }
@@ -1743,7 +1743,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // tracing_enabled - computed: true, optional: true, required: false
-  private _tracingEnabled?: boolean | cdktn.IResolvable; 
+  private _tracingEnabled?: boolean | cdktn.IResolvable;
   public get tracingEnabled() {
     return this.getBooleanAttribute('tracing_enabled');
   }
@@ -1759,7 +1759,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
   }
 
   // variables - computed: true, optional: true, required: false
-  private _variables?: { [key: string]: string }; 
+  private _variables?: { [key: string]: string };
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -1776,7 +1776,7 @@ export class ApigatewayDeploymentStageDescriptionOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}
 */
 export class ApigatewayDeployment extends cdktn.TerraformResource {
 
@@ -1792,7 +1792,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayDeployment to import
-  * @param importFromId The id of the existing ApigatewayDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1804,7 +1804,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1815,7 +1815,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_deployment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1858,7 +1858,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1879,7 +1879,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -1908,7 +1908,7 @@ export class ApigatewayDeployment extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string; 
+  private _stageName?: string;
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }

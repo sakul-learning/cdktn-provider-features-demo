@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface CloudformationStackConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#capabilities CloudformationStack#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#capabilities CloudformationStack#capabilities}
   */
   readonly capabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#description CloudformationStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#description CloudformationStack#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#disable_rollback CloudformationStack#disable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#disable_rollback CloudformationStack#disable_rollback}
   */
   readonly disableRollback?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#enable_termination_protection CloudformationStack#enable_termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#enable_termination_protection CloudformationStack#enable_termination_protection}
   */
   readonly enableTerminationProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#notification_ar_ns CloudformationStack#notification_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#notification_ar_ns CloudformationStack#notification_ar_ns}
   */
   readonly notificationArNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#parameters CloudformationStack#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#parameters CloudformationStack#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#role_arn CloudformationStack#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#role_arn CloudformationStack#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#stack_name CloudformationStack#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#stack_name CloudformationStack#stack_name}
   */
   readonly stackName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#stack_policy_body CloudformationStack#stack_policy_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#stack_policy_body CloudformationStack#stack_policy_body}
   */
   readonly stackPolicyBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#stack_policy_url CloudformationStack#stack_policy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#stack_policy_url CloudformationStack#stack_policy_url}
   */
   readonly stackPolicyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#stack_status_reason CloudformationStack#stack_status_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#stack_status_reason CloudformationStack#stack_status_reason}
   */
   readonly stackStatusReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#tags CloudformationStack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#tags CloudformationStack#tags}
   */
   readonly tags?: CloudformationStackTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#template_body CloudformationStack#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#template_body CloudformationStack#template_body}
   */
   readonly templateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#template_url CloudformationStack#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#template_url CloudformationStack#template_url}
   */
   readonly templateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#timeout_in_minutes CloudformationStack#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#timeout_in_minutes CloudformationStack#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
 }
@@ -160,11 +160,11 @@ export class CloudformationStackOutputsList extends cdktn.ComplexList {
 }
 export interface CloudformationStackTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#key CloudformationStack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#key CloudformationStack#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#value CloudformationStack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#value CloudformationStack#value}
   */
   readonly value?: string;
 }
@@ -256,7 +256,7 @@ export class CloudformationStackTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -272,7 +272,7 @@ export class CloudformationStackTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -309,7 +309,7 @@ export class CloudformationStackTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}
 */
 export class CloudformationStack extends cdktn.TerraformResource {
 
@@ -325,7 +325,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationStack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationStack to import
-  * @param importFromId The id of the existing CloudformationStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -337,7 +337,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,7 +348,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_stack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -380,7 +380,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   // ==========
 
   // capabilities - computed: true, optional: true, required: false
-  private _capabilities?: string[]; 
+  private _capabilities?: string[];
   public get capabilities() {
     return this.getListAttribute('capabilities');
   }
@@ -406,7 +406,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -422,7 +422,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // disable_rollback - computed: true, optional: true, required: false
-  private _disableRollback?: boolean | cdktn.IResolvable; 
+  private _disableRollback?: boolean | cdktn.IResolvable;
   public get disableRollback() {
     return this.getBooleanAttribute('disable_rollback');
   }
@@ -438,7 +438,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // enable_termination_protection - computed: true, optional: true, required: false
-  private _enableTerminationProtection?: boolean | cdktn.IResolvable; 
+  private _enableTerminationProtection?: boolean | cdktn.IResolvable;
   public get enableTerminationProtection() {
     return this.getBooleanAttribute('enable_termination_protection');
   }
@@ -464,7 +464,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // notification_ar_ns - computed: true, optional: true, required: false
-  private _notificationArNs?: string[]; 
+  private _notificationArNs?: string[];
   public get notificationArNs() {
     return this.getListAttribute('notification_ar_ns');
   }
@@ -486,7 +486,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -507,7 +507,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -533,7 +533,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_name - computed: false, optional: false, required: true
-  private _stackName?: string; 
+  private _stackName?: string;
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }
@@ -546,7 +546,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_policy_body - computed: true, optional: true, required: false
-  private _stackPolicyBody?: string; 
+  private _stackPolicyBody?: string;
   public get stackPolicyBody() {
     return this.getStringAttribute('stack_policy_body');
   }
@@ -562,7 +562,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_policy_url - computed: true, optional: true, required: false
-  private _stackPolicyUrl?: string; 
+  private _stackPolicyUrl?: string;
   public get stackPolicyUrl() {
     return this.getStringAttribute('stack_policy_url');
   }
@@ -583,7 +583,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_status_reason - computed: true, optional: true, required: false
-  private _stackStatusReason?: string; 
+  private _stackStatusReason?: string;
   public get stackStatusReason() {
     return this.getStringAttribute('stack_status_reason');
   }
@@ -615,7 +615,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string; 
+  private _templateBody?: string;
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -631,7 +631,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_url - computed: true, optional: true, required: false
-  private _templateUrl?: string; 
+  private _templateUrl?: string;
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -647,7 +647,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // timeout_in_minutes - computed: true, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface Resourceexplorer2ViewConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#default_view Resourceexplorer2View#default_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#default_view Resourceexplorer2View#default_view}
   */
   readonly defaultView?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#region Resourceexplorer2View#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#region Resourceexplorer2View#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
   */
   readonly filters?: Resourceexplorer2ViewFilters[] | cdktn.IResolvable;
   /**
   * included_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#included_property Resourceexplorer2View#included_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#included_property Resourceexplorer2View#included_property}
   */
   readonly includedProperty?: Resourceexplorer2ViewIncludedProperty[] | cdktn.IResolvable;
 }
 export interface Resourceexplorer2ViewFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}
   */
   readonly filterString: string;
 }
@@ -123,7 +123,7 @@ export class Resourceexplorer2ViewFiltersOutputReference extends cdktn.ComplexOb
   }
 
   // filter_string - computed: false, optional: false, required: true
-  private _filterString?: string; 
+  private _filterString?: string;
   public get filterString() {
     return this.getStringAttribute('filter_string');
   }
@@ -157,7 +157,7 @@ export class Resourceexplorer2ViewFiltersList extends cdktn.ComplexList {
 }
 export interface Resourceexplorer2ViewIncludedProperty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
   */
   readonly name: string;
 }
@@ -236,7 +236,7 @@ export class Resourceexplorer2ViewIncludedPropertyOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -270,7 +270,7 @@ export class Resourceexplorer2ViewIncludedPropertyList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}
 */
 export class Resourceexplorer2View extends cdktn.TerraformResource {
 
@@ -286,7 +286,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resourceexplorer2View resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resourceexplorer2View to import
-  * @param importFromId The id of the existing Resourceexplorer2View that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resourceexplorer2View that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resourceexplorer2View to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -298,7 +298,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,7 +309,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
       terraformResourceType: 'aws_resourceexplorer2_view',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -338,7 +338,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // default_view - computed: true, optional: true, required: false
-  private _defaultView?: boolean | cdktn.IResolvable; 
+  private _defaultView?: boolean | cdktn.IResolvable;
   public get defaultView() {
     return this.getBooleanAttribute('default_view');
   }
@@ -359,7 +359,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -372,7 +372,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -388,7 +388,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -404,7 +404,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

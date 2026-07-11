@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktn from 'cdktn';
 
 export interface EksNodeGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#ami_type EksNodeGroup#ami_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#ami_type EksNodeGroup#ami_type}
   */
   readonly amiType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#capacity_type EksNodeGroup#capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#capacity_type EksNodeGroup#capacity_type}
   */
   readonly capacityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#cluster_name EksNodeGroup#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#cluster_name EksNodeGroup#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#disk_size EksNodeGroup#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#disk_size EksNodeGroup#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#force_update_version EksNodeGroup#force_update_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#force_update_version EksNodeGroup#force_update_version}
   */
   readonly forceUpdateVersion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#id EksNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#id EksNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#instance_types EksNodeGroup#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#instance_types EksNodeGroup#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#labels EksNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#labels EksNodeGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_group_name EksNodeGroup#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_group_name EksNodeGroup#node_group_name}
   */
   readonly nodeGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_group_name_prefix EksNodeGroup#node_group_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_group_name_prefix EksNodeGroup#node_group_name_prefix}
   */
   readonly nodeGroupNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_role_arn EksNodeGroup#node_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_role_arn EksNodeGroup#node_role_arn}
   */
   readonly nodeRoleArn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#region EksNodeGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#region EksNodeGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#release_version EksNodeGroup#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#release_version EksNodeGroup#release_version}
   */
   readonly releaseVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#subnet_ids EksNodeGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#subnet_ids EksNodeGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#tags EksNodeGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#tags EksNodeGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#tags_all EksNodeGroup#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#tags_all EksNodeGroup#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#version EksNodeGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#version EksNodeGroup#version}
   */
   readonly version?: string;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#launch_template EksNodeGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#launch_template EksNodeGroup#launch_template}
   */
   readonly launchTemplate?: EksNodeGroupLaunchTemplate;
   /**
   * node_repair_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_repair_config EksNodeGroup#node_repair_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_repair_config EksNodeGroup#node_repair_config}
   */
   readonly nodeRepairConfig?: EksNodeGroupNodeRepairConfig;
   /**
   * remote_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#remote_access EksNodeGroup#remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#remote_access EksNodeGroup#remote_access}
   */
   readonly remoteAccess?: EksNodeGroupRemoteAccess;
   /**
   * scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#scaling_config EksNodeGroup#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#scaling_config EksNodeGroup#scaling_config}
   */
   readonly scalingConfig: EksNodeGroupScalingConfig;
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#taint EksNodeGroup#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#taint EksNodeGroup#taint}
   */
   readonly taint?: EksNodeGroupTaint[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#timeouts EksNodeGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#timeouts EksNodeGroup#timeouts}
   */
   readonly timeouts?: EksNodeGroupTimeouts;
   /**
   * update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#update_config EksNodeGroup#update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#update_config EksNodeGroup#update_config}
   */
   readonly updateConfig?: EksNodeGroupUpdateConfig;
 }
@@ -281,18 +281,18 @@ export class EksNodeGroupResourcesList extends cdktn.ComplexList {
 }
 export interface EksNodeGroupLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#id EksNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#id EksNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#name EksNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#name EksNodeGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#version EksNodeGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#version EksNodeGroup#version}
   */
   readonly version: string;
 }
@@ -385,7 +385,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -401,7 +401,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -417,7 +417,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -431,19 +431,19 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
 }
 export interface EksNodeGroupNodeRepairConfigNodeRepairConfigOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#min_repair_wait_time_mins EksNodeGroup#min_repair_wait_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#min_repair_wait_time_mins EksNodeGroup#min_repair_wait_time_mins}
   */
   readonly minRepairWaitTimeMins: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_monitoring_condition EksNodeGroup#node_monitoring_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_monitoring_condition EksNodeGroup#node_monitoring_condition}
   */
   readonly nodeMonitoringCondition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_unhealthy_reason EksNodeGroup#node_unhealthy_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_unhealthy_reason EksNodeGroup#node_unhealthy_reason}
   */
   readonly nodeUnhealthyReason: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#repair_action EksNodeGroup#repair_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#repair_action EksNodeGroup#repair_action}
   */
   readonly repairAction: string;
 }
@@ -561,7 +561,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // min_repair_wait_time_mins - computed: false, optional: false, required: true
-  private _minRepairWaitTimeMins?: number; 
+  private _minRepairWaitTimeMins?: number;
   public get minRepairWaitTimeMins() {
     return this.getNumberAttribute('min_repair_wait_time_mins');
   }
@@ -574,7 +574,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // node_monitoring_condition - computed: false, optional: false, required: true
-  private _nodeMonitoringCondition?: string; 
+  private _nodeMonitoringCondition?: string;
   public get nodeMonitoringCondition() {
     return this.getStringAttribute('node_monitoring_condition');
   }
@@ -587,7 +587,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // node_unhealthy_reason - computed: false, optional: false, required: true
-  private _nodeUnhealthyReason?: string; 
+  private _nodeUnhealthyReason?: string;
   public get nodeUnhealthyReason() {
     return this.getStringAttribute('node_unhealthy_reason');
   }
@@ -600,7 +600,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // repair_action - computed: false, optional: false, required: true
-  private _repairAction?: string; 
+  private _repairAction?: string;
   public get repairAction() {
     return this.getStringAttribute('repair_action');
   }
@@ -634,29 +634,29 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList extends c
 }
 export interface EksNodeGroupNodeRepairConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#enabled EksNodeGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#enabled EksNodeGroup#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_parallel_nodes_repaired_count EksNodeGroup#max_parallel_nodes_repaired_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_parallel_nodes_repaired_count EksNodeGroup#max_parallel_nodes_repaired_count}
   */
   readonly maxParallelNodesRepairedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_parallel_nodes_repaired_percentage EksNodeGroup#max_parallel_nodes_repaired_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_parallel_nodes_repaired_percentage EksNodeGroup#max_parallel_nodes_repaired_percentage}
   */
   readonly maxParallelNodesRepairedPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_unhealthy_node_threshold_count EksNodeGroup#max_unhealthy_node_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_unhealthy_node_threshold_count EksNodeGroup#max_unhealthy_node_threshold_count}
   */
   readonly maxUnhealthyNodeThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_unhealthy_node_threshold_percentage EksNodeGroup#max_unhealthy_node_threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_unhealthy_node_threshold_percentage EksNodeGroup#max_unhealthy_node_threshold_percentage}
   */
   readonly maxUnhealthyNodeThresholdPercentage?: number;
   /**
   * node_repair_config_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#node_repair_config_overrides EksNodeGroup#node_repair_config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#node_repair_config_overrides EksNodeGroup#node_repair_config_overrides}
   */
   readonly nodeRepairConfigOverrides?: EksNodeGroupNodeRepairConfigNodeRepairConfigOverrides[] | cdktn.IResolvable;
 }
@@ -788,7 +788,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -804,7 +804,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_parallel_nodes_repaired_count - computed: false, optional: true, required: false
-  private _maxParallelNodesRepairedCount?: number; 
+  private _maxParallelNodesRepairedCount?: number;
   public get maxParallelNodesRepairedCount() {
     return this.getNumberAttribute('max_parallel_nodes_repaired_count');
   }
@@ -820,7 +820,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_parallel_nodes_repaired_percentage - computed: false, optional: true, required: false
-  private _maxParallelNodesRepairedPercentage?: number; 
+  private _maxParallelNodesRepairedPercentage?: number;
   public get maxParallelNodesRepairedPercentage() {
     return this.getNumberAttribute('max_parallel_nodes_repaired_percentage');
   }
@@ -836,7 +836,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_unhealthy_node_threshold_count - computed: false, optional: true, required: false
-  private _maxUnhealthyNodeThresholdCount?: number; 
+  private _maxUnhealthyNodeThresholdCount?: number;
   public get maxUnhealthyNodeThresholdCount() {
     return this.getNumberAttribute('max_unhealthy_node_threshold_count');
   }
@@ -852,7 +852,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_unhealthy_node_threshold_percentage - computed: false, optional: true, required: false
-  private _maxUnhealthyNodeThresholdPercentage?: number; 
+  private _maxUnhealthyNodeThresholdPercentage?: number;
   public get maxUnhealthyNodeThresholdPercentage() {
     return this.getNumberAttribute('max_unhealthy_node_threshold_percentage');
   }
@@ -885,11 +885,11 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
 }
 export interface EksNodeGroupRemoteAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#ec2_ssh_key EksNodeGroup#ec2_ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#ec2_ssh_key EksNodeGroup#ec2_ssh_key}
   */
   readonly ec2SshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#source_security_group_ids EksNodeGroup#source_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#source_security_group_ids EksNodeGroup#source_security_group_ids}
   */
   readonly sourceSecurityGroupIds?: string[];
 }
@@ -969,7 +969,7 @@ export class EksNodeGroupRemoteAccessOutputReference extends cdktn.ComplexObject
   }
 
   // ec2_ssh_key - computed: false, optional: true, required: false
-  private _ec2SshKey?: string; 
+  private _ec2SshKey?: string;
   public get ec2SshKey() {
     return this.getStringAttribute('ec2_ssh_key');
   }
@@ -985,7 +985,7 @@ export class EksNodeGroupRemoteAccessOutputReference extends cdktn.ComplexObject
   }
 
   // source_security_group_ids - computed: false, optional: true, required: false
-  private _sourceSecurityGroupIds?: string[]; 
+  private _sourceSecurityGroupIds?: string[];
   public get sourceSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('source_security_group_ids'));
   }
@@ -1002,15 +1002,15 @@ export class EksNodeGroupRemoteAccessOutputReference extends cdktn.ComplexObject
 }
 export interface EksNodeGroupScalingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#desired_size EksNodeGroup#desired_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#desired_size EksNodeGroup#desired_size}
   */
   readonly desiredSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_size EksNodeGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_size EksNodeGroup#max_size}
   */
   readonly maxSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}
   */
   readonly minSize: number;
 }
@@ -1103,7 +1103,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // desired_size - computed: false, optional: false, required: true
-  private _desiredSize?: number; 
+  private _desiredSize?: number;
   public get desiredSize() {
     return this.getNumberAttribute('desired_size');
   }
@@ -1116,7 +1116,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: number; 
+  private _maxSize?: number;
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -1129,7 +1129,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -1143,15 +1143,15 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
 }
 export interface EksNodeGroupTaint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#effect EksNodeGroup#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#effect EksNodeGroup#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#key EksNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#key EksNodeGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#value EksNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#value EksNodeGroup#value}
   */
   readonly value?: string;
 }
@@ -1256,7 +1256,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // effect - computed: false, optional: false, required: true
-  private _effect?: string; 
+  private _effect?: string;
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -1269,7 +1269,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1282,7 +1282,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1319,15 +1319,15 @@ export class EksNodeGroupTaintList extends cdktn.ComplexList {
 }
 export interface EksNodeGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#create EksNodeGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#create EksNodeGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#delete EksNodeGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#delete EksNodeGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#update EksNodeGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#update EksNodeGroup#update}
   */
   readonly update?: string;
 }
@@ -1430,7 +1430,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1446,7 +1446,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1462,7 +1462,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1479,15 +1479,15 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 export interface EksNodeGroupUpdateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_unavailable EksNodeGroup#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_unavailable EksNodeGroup#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#max_unavailable_percentage EksNodeGroup#max_unavailable_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#max_unavailable_percentage EksNodeGroup#max_unavailable_percentage}
   */
   readonly maxUnavailablePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#update_strategy EksNodeGroup#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#update_strategy EksNodeGroup#update_strategy}
   */
   readonly updateStrategy?: string;
 }
@@ -1580,7 +1580,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // max_unavailable - computed: false, optional: true, required: false
-  private _maxUnavailable?: number; 
+  private _maxUnavailable?: number;
   public get maxUnavailable() {
     return this.getNumberAttribute('max_unavailable');
   }
@@ -1596,7 +1596,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // max_unavailable_percentage - computed: false, optional: true, required: false
-  private _maxUnavailablePercentage?: number; 
+  private _maxUnavailablePercentage?: number;
   public get maxUnavailablePercentage() {
     return this.getNumberAttribute('max_unavailable_percentage');
   }
@@ -1612,7 +1612,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // update_strategy - computed: false, optional: true, required: false
-  private _updateStrategy?: string; 
+  private _updateStrategy?: string;
   public get updateStrategy() {
     return this.getStringAttribute('update_strategy');
   }
@@ -1629,7 +1629,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group aws_eks_node_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group aws_eks_node_group}
 */
 export class EksNodeGroup extends cdktn.TerraformResource {
 
@@ -1645,7 +1645,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksNodeGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksNodeGroup to import
-  * @param importFromId The id of the existing EksNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1657,7 +1657,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_node_group aws_eks_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_node_group aws_eks_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1668,7 +1668,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_eks_node_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1709,7 +1709,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   // ==========
 
   // ami_type - computed: true, optional: true, required: false
-  private _amiType?: string; 
+  private _amiType?: string;
   public get amiType() {
     return this.getStringAttribute('ami_type');
   }
@@ -1730,7 +1730,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // capacity_type - computed: true, optional: true, required: false
-  private _capacityType?: string; 
+  private _capacityType?: string;
   public get capacityType() {
     return this.getStringAttribute('capacity_type');
   }
@@ -1746,7 +1746,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1759,7 +1759,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // disk_size - computed: true, optional: true, required: false
-  private _diskSize?: number; 
+  private _diskSize?: number;
   public get diskSize() {
     return this.getNumberAttribute('disk_size');
   }
@@ -1775,7 +1775,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // force_update_version - computed: false, optional: true, required: false
-  private _forceUpdateVersion?: boolean | cdktn.IResolvable; 
+  private _forceUpdateVersion?: boolean | cdktn.IResolvable;
   public get forceUpdateVersion() {
     return this.getBooleanAttribute('force_update_version');
   }
@@ -1791,7 +1791,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1807,7 +1807,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[]; 
+  private _instanceTypes?: string[];
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -1823,7 +1823,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
+  private _labels?: { [key: string]: string };
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -1839,7 +1839,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_group_name - computed: true, optional: true, required: false
-  private _nodeGroupName?: string; 
+  private _nodeGroupName?: string;
   public get nodeGroupName() {
     return this.getStringAttribute('node_group_name');
   }
@@ -1855,7 +1855,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_group_name_prefix - computed: true, optional: true, required: false
-  private _nodeGroupNamePrefix?: string; 
+  private _nodeGroupNamePrefix?: string;
   public get nodeGroupNamePrefix() {
     return this.getStringAttribute('node_group_name_prefix');
   }
@@ -1871,7 +1871,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_role_arn - computed: false, optional: false, required: true
-  private _nodeRoleArn?: string; 
+  private _nodeRoleArn?: string;
   public get nodeRoleArn() {
     return this.getStringAttribute('node_role_arn');
   }
@@ -1884,7 +1884,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1900,7 +1900,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // release_version - computed: true, optional: true, required: false
-  private _releaseVersion?: string; 
+  private _releaseVersion?: string;
   public get releaseVersion() {
     return this.getStringAttribute('release_version');
   }
@@ -1927,7 +1927,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1940,7 +1940,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1956,7 +1956,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1972,7 +1972,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }

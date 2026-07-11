@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface GuarddutyDetectorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#data_sources GuarddutyDetector#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#data_sources GuarddutyDetector#data_sources}
   */
   readonly dataSources?: GuarddutyDetectorDataSources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
   */
   readonly enable: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#features GuarddutyDetector#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#features GuarddutyDetector#features}
   */
   readonly features?: GuarddutyDetectorFeatures[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#finding_publishing_frequency GuarddutyDetector#finding_publishing_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#finding_publishing_frequency GuarddutyDetector#finding_publishing_frequency}
   */
   readonly findingPublishingFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#tags GuarddutyDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#tags GuarddutyDetector#tags}
   */
   readonly tags?: GuarddutyDetectorTags[] | cdktn.IResolvable;
 }
 export interface GuarddutyDetectorDataSourcesKubernetesAuditLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
 }
@@ -107,7 +107,7 @@ export class GuarddutyDetectorDataSourcesKubernetesAuditLogsOutputReference exte
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -124,7 +124,7 @@ export class GuarddutyDetectorDataSourcesKubernetesAuditLogsOutputReference exte
 }
 export interface GuarddutyDetectorDataSourcesKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#audit_logs GuarddutyDetector#audit_logs}
   */
   readonly auditLogs?: GuarddutyDetectorDataSourcesKubernetesAuditLogs;
 }
@@ -218,7 +218,7 @@ export class GuarddutyDetectorDataSourcesKubernetesOutputReference extends cdktn
 }
 export interface GuarddutyDetectorDataSourcesMalwareProtectionScanEc2InstanceWithFindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#ebs_volumes GuarddutyDetector#ebs_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#ebs_volumes GuarddutyDetector#ebs_volumes}
   */
   readonly ebsVolumes?: boolean | cdktn.IResolvable;
 }
@@ -295,7 +295,7 @@ export class GuarddutyDetectorDataSourcesMalwareProtectionScanEc2InstanceWithFin
   }
 
   // ebs_volumes - computed: true, optional: true, required: false
-  private _ebsVolumes?: boolean | cdktn.IResolvable; 
+  private _ebsVolumes?: boolean | cdktn.IResolvable;
   public get ebsVolumes() {
     return this.getBooleanAttribute('ebs_volumes');
   }
@@ -312,7 +312,7 @@ export class GuarddutyDetectorDataSourcesMalwareProtectionScanEc2InstanceWithFin
 }
 export interface GuarddutyDetectorDataSourcesMalwareProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#scan_ec_2_instance_with_findings GuarddutyDetector#scan_ec_2_instance_with_findings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#scan_ec_2_instance_with_findings GuarddutyDetector#scan_ec_2_instance_with_findings}
   */
   readonly scanEc2InstanceWithFindings?: GuarddutyDetectorDataSourcesMalwareProtectionScanEc2InstanceWithFindings;
 }
@@ -406,7 +406,7 @@ export class GuarddutyDetectorDataSourcesMalwareProtectionOutputReference extend
 }
 export interface GuarddutyDetectorDataSourcesS3Logs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
 }
@@ -483,7 +483,7 @@ export class GuarddutyDetectorDataSourcesS3LogsOutputReference extends cdktn.Com
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -500,15 +500,15 @@ export class GuarddutyDetectorDataSourcesS3LogsOutputReference extends cdktn.Com
 }
 export interface GuarddutyDetectorDataSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#kubernetes GuarddutyDetector#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#kubernetes GuarddutyDetector#kubernetes}
   */
   readonly kubernetes?: GuarddutyDetectorDataSourcesKubernetes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#malware_protection GuarddutyDetector#malware_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#malware_protection GuarddutyDetector#malware_protection}
   */
   readonly malwareProtection?: GuarddutyDetectorDataSourcesMalwareProtection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#s3_logs GuarddutyDetector#s3_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#s3_logs GuarddutyDetector#s3_logs}
   */
   readonly s3Logs?: GuarddutyDetectorDataSourcesS3Logs;
 }
@@ -660,11 +660,11 @@ export class GuarddutyDetectorDataSourcesOutputReference extends cdktn.ComplexOb
 }
 export interface GuarddutyDetectorFeaturesAdditionalConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#name GuarddutyDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#name GuarddutyDetector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#status GuarddutyDetector#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#status GuarddutyDetector#status}
   */
   readonly status?: string;
 }
@@ -756,7 +756,7 @@ export class GuarddutyDetectorFeaturesAdditionalConfigurationOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -772,7 +772,7 @@ export class GuarddutyDetectorFeaturesAdditionalConfigurationOutputReference ext
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -809,15 +809,15 @@ export class GuarddutyDetectorFeaturesAdditionalConfigurationList extends cdktn.
 }
 export interface GuarddutyDetectorFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#additional_configuration GuarddutyDetector#additional_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#additional_configuration GuarddutyDetector#additional_configuration}
   */
   readonly additionalConfiguration?: GuarddutyDetectorFeaturesAdditionalConfiguration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#name GuarddutyDetector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#name GuarddutyDetector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#status GuarddutyDetector#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#status GuarddutyDetector#status}
   */
   readonly status?: string;
 }
@@ -938,7 +938,7 @@ export class GuarddutyDetectorFeaturesOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -954,7 +954,7 @@ export class GuarddutyDetectorFeaturesOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -991,11 +991,11 @@ export class GuarddutyDetectorFeaturesList extends cdktn.ComplexList {
 }
 export interface GuarddutyDetectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#key GuarddutyDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#key GuarddutyDetector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#value GuarddutyDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#value GuarddutyDetector#value}
   */
   readonly value?: string;
 }
@@ -1087,7 +1087,7 @@ export class GuarddutyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1103,7 +1103,7 @@ export class GuarddutyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1140,7 +1140,7 @@ export class GuarddutyDetectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector awscc_guardduty_detector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector awscc_guardduty_detector}
 */
 export class GuarddutyDetector extends cdktn.TerraformResource {
 
@@ -1156,7 +1156,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyDetector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyDetector to import
-  * @param importFromId The id of the existing GuarddutyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyDetector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1168,7 +1168,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1179,7 +1179,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_detector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1222,7 +1222,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -1251,7 +1251,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // finding_publishing_frequency - computed: true, optional: true, required: false
-  private _findingPublishingFrequency?: string; 
+  private _findingPublishingFrequency?: string;
   public get findingPublishingFrequency() {
     return this.getStringAttribute('finding_publishing_frequency');
   }

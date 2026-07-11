@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface SyntheticsCanaryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Provide artifact configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
   */
   readonly artifactConfig?: SyntheticsCanaryArtifactConfig;
   /**
   * Provide the s3 bucket output location for test results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}
   */
   readonly artifactS3Location: string;
   /**
   * List of browser configurations for the canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#browser_configs SyntheticsCanary#browser_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#browser_configs SyntheticsCanary#browser_configs}
   */
   readonly browserConfigs?: SyntheticsCanaryBrowserConfigs[] | cdktn.IResolvable;
   /**
   * Provide the canary script source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#code SyntheticsCanary#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#code SyntheticsCanary#code}
   */
   readonly code: SyntheticsCanaryCode;
   /**
   * Deletes associated lambda resources created by Synthetics if set to True. Default is False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#delete_lambda_resources_on_canary_deletion SyntheticsCanary#delete_lambda_resources_on_canary_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#delete_lambda_resources_on_canary_deletion SyntheticsCanary#delete_lambda_resources_on_canary_deletion}
   */
   readonly deleteLambdaResourcesOnCanaryDeletion?: boolean | cdktn.IResolvable;
   /**
   * Setting to control if UpdateCanary will perform a DryRun and validate it is PASSING before performing the Update. Default is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#dry_run_and_update SyntheticsCanary#dry_run_and_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#dry_run_and_update SyntheticsCanary#dry_run_and_update}
   */
   readonly dryRunAndUpdate?: boolean | cdktn.IResolvable;
   /**
   * Lambda Execution role used to run your canaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
   * Retention period of failed canary runs represented in number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}
   */
   readonly failureRetentionPeriod?: number;
   /**
   * Name of the canary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}
   */
   readonly name: string;
   /**
   * Setting to control if provisioned resources created by Synthetics are deleted alongside the canary. Default is AUTOMATIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#provisioned_resource_cleanup SyntheticsCanary#provisioned_resource_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#provisioned_resource_cleanup SyntheticsCanary#provisioned_resource_cleanup}
   */
   readonly provisionedResourceCleanup?: string;
   /**
   * List of resources which canary tags should be replicated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#resources_to_replicate_tags SyntheticsCanary#resources_to_replicate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#resources_to_replicate_tags SyntheticsCanary#resources_to_replicate_tags}
   */
   readonly resourcesToReplicateTags?: string[];
   /**
   * Provide canary run configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
   */
   readonly runConfig?: SyntheticsCanaryRunConfig;
   /**
   * Runtime version of Synthetics Library
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}
   */
   readonly runtimeVersion: string;
   /**
   * Frequency to run your canaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
   */
   readonly schedule: SyntheticsCanarySchedule;
   /**
   * Runs canary if set to True. Default is False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#start_canary_after_creation SyntheticsCanary#start_canary_after_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#start_canary_after_creation SyntheticsCanary#start_canary_after_creation}
   */
   readonly startCanaryAfterCreation?: boolean | cdktn.IResolvable;
   /**
   * Retention period of successful canary runs represented in number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}
   */
   readonly successRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}
   */
   readonly tags?: SyntheticsCanaryTags[] | cdktn.IResolvable;
   /**
   * Visual reference configuration for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#visual_reference SyntheticsCanary#visual_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#visual_reference SyntheticsCanary#visual_reference}
   */
   readonly visualReference?: SyntheticsCanaryVisualReference;
   /**
   * List of visual references for the canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#visual_references SyntheticsCanary#visual_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#visual_references SyntheticsCanary#visual_references}
   */
   readonly visualReferences?: SyntheticsCanaryVisualReferences[] | cdktn.IResolvable;
   /**
   * Provide VPC Configuration if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
   */
   readonly vpcConfig?: SyntheticsCanaryVpcConfig;
 }
@@ -130,13 +130,13 @@ export interface SyntheticsCanaryArtifactConfigS3Encryption {
   /**
   * Encryption mode for encrypting artifacts when uploading to S3. Valid values: SSE_S3 and SSE_KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}
   */
   readonly encryptionMode?: string;
   /**
   * KMS key Arn for encrypting artifacts when uploading to S3. You must specify KMS key Arn for SSE_KMS encryption mode only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -226,7 +226,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // encryption_mode - computed: true, optional: true, required: false
-  private _encryptionMode?: string; 
+  private _encryptionMode?: string;
   public get encryptionMode() {
     return this.getStringAttribute('encryption_mode');
   }
@@ -242,7 +242,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -261,7 +261,7 @@ export interface SyntheticsCanaryArtifactConfig {
   /**
   * Encryption configuration for uploading artifacts to S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
   */
   readonly s3Encryption?: SyntheticsCanaryArtifactConfigS3Encryption;
 }
@@ -355,7 +355,7 @@ export class SyntheticsCanaryArtifactConfigOutputReference extends cdktn.Complex
 }
 export interface SyntheticsCanaryBrowserConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
   */
   readonly browserType?: string;
 }
@@ -434,7 +434,7 @@ export class SyntheticsCanaryBrowserConfigsOutputReference extends cdktn.Complex
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string; 
+  private _browserType?: string;
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -473,13 +473,13 @@ export interface SyntheticsCanaryCodeDependencies {
   /**
   * ARN of the Lambda layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#reference SyntheticsCanary#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#reference SyntheticsCanary#reference}
   */
   readonly reference?: string;
   /**
   * Type of dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#type SyntheticsCanary#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#type SyntheticsCanary#type}
   */
   readonly type?: string;
 }
@@ -571,7 +571,7 @@ export class SyntheticsCanaryCodeDependenciesOutputReference extends cdktn.Compl
   }
 
   // reference - computed: true, optional: true, required: false
-  private _reference?: string; 
+  private _reference?: string;
   public get reference() {
     return this.getStringAttribute('reference');
   }
@@ -587,7 +587,7 @@ export class SyntheticsCanaryCodeDependenciesOutputReference extends cdktn.Compl
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -624,33 +624,33 @@ export class SyntheticsCanaryCodeDependenciesList extends cdktn.ComplexList {
 }
 export interface SyntheticsCanaryCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}
   */
   readonly blueprintTypes?: string[];
   /**
   * List of Lambda layers to attach to the canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#dependencies SyntheticsCanary#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#dependencies SyntheticsCanary#dependencies}
   */
   readonly dependencies?: SyntheticsCanaryCodeDependencies[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}
   */
   readonly s3Key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}
   */
   readonly script?: string;
 }
@@ -805,7 +805,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // blueprint_types - computed: true, optional: true, required: false
-  private _blueprintTypes?: string[]; 
+  private _blueprintTypes?: string[];
   public get blueprintTypes() {
     return this.getListAttribute('blueprint_types');
   }
@@ -837,7 +837,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // handler - computed: true, optional: true, required: false
-  private _handler?: string; 
+  private _handler?: string;
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -853,7 +853,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -869,7 +869,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string; 
+  private _s3Key?: string;
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -885,7 +885,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string; 
+  private _s3ObjectVersion?: string;
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -901,7 +901,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // script - computed: true, optional: true, required: false
-  private _script?: string; 
+  private _script?: string;
   public get script() {
     return this.getStringAttribute('script');
   }
@@ -925,31 +925,31 @@ export interface SyntheticsCanaryRunConfig {
   /**
   * Enable active tracing if set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#active_tracing SyntheticsCanary#active_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#active_tracing SyntheticsCanary#active_tracing}
   */
   readonly activeTracing?: boolean | cdktn.IResolvable;
   /**
   * Environment variable key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#environment_variables SyntheticsCanary#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#environment_variables SyntheticsCanary#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * Provide ephemeralStorage available for canary in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#ephemeral_storage SyntheticsCanary#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#ephemeral_storage SyntheticsCanary#ephemeral_storage}
   */
   readonly ephemeralStorage?: number;
   /**
   * Provide maximum memory available for canary in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#memory_in_mb SyntheticsCanary#memory_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#memory_in_mb SyntheticsCanary#memory_in_mb}
   */
   readonly memoryInMb?: number;
   /**
   * Provide maximum canary timeout per run in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#timeout_in_seconds SyntheticsCanary#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#timeout_in_seconds SyntheticsCanary#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -1078,7 +1078,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // active_tracing - computed: true, optional: true, required: false
-  private _activeTracing?: boolean | cdktn.IResolvable; 
+  private _activeTracing?: boolean | cdktn.IResolvable;
   public get activeTracing() {
     return this.getBooleanAttribute('active_tracing');
   }
@@ -1094,7 +1094,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // environment_variables - computed: true, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string }; 
+  private _environmentVariables?: { [key: string]: string };
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -1110,7 +1110,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ephemeral_storage - computed: true, optional: true, required: false
-  private _ephemeralStorage?: number; 
+  private _ephemeralStorage?: number;
   public get ephemeralStorage() {
     return this.getNumberAttribute('ephemeral_storage');
   }
@@ -1126,7 +1126,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // memory_in_mb - computed: true, optional: true, required: false
-  private _memoryInMb?: number; 
+  private _memoryInMb?: number;
   public get memoryInMb() {
     return this.getNumberAttribute('memory_in_mb');
   }
@@ -1142,7 +1142,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number; 
+  private _timeoutInSeconds?: number;
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -1161,7 +1161,7 @@ export interface SyntheticsCanaryScheduleRetryConfig {
   /**
   * maximum times the canary will be retried upon the scheduled run failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}
   */
   readonly maxRetries?: number;
 }
@@ -1238,7 +1238,7 @@ export class SyntheticsCanaryScheduleRetryConfigOutputReference extends cdktn.Co
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number; 
+  private _maxRetries?: number;
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -1255,17 +1255,17 @@ export class SyntheticsCanaryScheduleRetryConfigOutputReference extends cdktn.Co
 }
 export interface SyntheticsCanarySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}
   */
   readonly durationInSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}
   */
   readonly expression: string;
   /**
   * Provide canary auto retry configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
   */
   readonly retryConfig?: SyntheticsCanaryScheduleRetryConfig;
 }
@@ -1368,7 +1368,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // duration_in_seconds - computed: true, optional: true, required: false
-  private _durationInSeconds?: string; 
+  private _durationInSeconds?: string;
   public get durationInSeconds() {
     return this.getStringAttribute('duration_in_seconds');
   }
@@ -1384,7 +1384,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1414,15 +1414,15 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
 }
 export interface SyntheticsCanaryTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#key SyntheticsCanary#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#key SyntheticsCanary#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#value SyntheticsCanary#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#value SyntheticsCanary#value}
   */
   readonly value?: string;
 }
@@ -1514,7 +1514,7 @@ export class SyntheticsCanaryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1530,7 +1530,7 @@ export class SyntheticsCanaryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1569,13 +1569,13 @@ export interface SyntheticsCanaryVisualReferenceBaseScreenshots {
   /**
   * List of coordinates of rectangles to be ignored during visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
   */
   readonly ignoreCoordinates?: string[];
   /**
   * Name of the screenshot to be used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
   */
   readonly screenshotName?: string;
 }
@@ -1667,7 +1667,7 @@ export class SyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference exten
   }
 
   // ignore_coordinates - computed: true, optional: true, required: false
-  private _ignoreCoordinates?: string[]; 
+  private _ignoreCoordinates?: string[];
   public get ignoreCoordinates() {
     return this.getListAttribute('ignore_coordinates');
   }
@@ -1683,7 +1683,7 @@ export class SyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference exten
   }
 
   // screenshot_name - computed: true, optional: true, required: false
-  private _screenshotName?: string; 
+  private _screenshotName?: string;
   public get screenshotName() {
     return this.getStringAttribute('screenshot_name');
   }
@@ -1722,17 +1722,17 @@ export interface SyntheticsCanaryVisualReference {
   /**
   * Canary run id to be used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
   */
   readonly baseCanaryRunId?: string;
   /**
   * List of screenshots used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
   */
   readonly baseScreenshots?: SyntheticsCanaryVisualReferenceBaseScreenshots[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
   */
   readonly browserType?: string;
 }
@@ -1835,7 +1835,7 @@ export class SyntheticsCanaryVisualReferenceOutputReference extends cdktn.Comple
   }
 
   // base_canary_run_id - computed: true, optional: true, required: false
-  private _baseCanaryRunId?: string; 
+  private _baseCanaryRunId?: string;
   public get baseCanaryRunId() {
     return this.getStringAttribute('base_canary_run_id');
   }
@@ -1867,7 +1867,7 @@ export class SyntheticsCanaryVisualReferenceOutputReference extends cdktn.Comple
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string; 
+  private _browserType?: string;
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -1886,13 +1886,13 @@ export interface SyntheticsCanaryVisualReferencesBaseScreenshots {
   /**
   * List of coordinates of rectangles to be ignored during visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
   */
   readonly ignoreCoordinates?: string[];
   /**
   * Name of the screenshot to be used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
   */
   readonly screenshotName?: string;
 }
@@ -1984,7 +1984,7 @@ export class SyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference exte
   }
 
   // ignore_coordinates - computed: true, optional: true, required: false
-  private _ignoreCoordinates?: string[]; 
+  private _ignoreCoordinates?: string[];
   public get ignoreCoordinates() {
     return this.getListAttribute('ignore_coordinates');
   }
@@ -2000,7 +2000,7 @@ export class SyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference exte
   }
 
   // screenshot_name - computed: true, optional: true, required: false
-  private _screenshotName?: string; 
+  private _screenshotName?: string;
   public get screenshotName() {
     return this.getStringAttribute('screenshot_name');
   }
@@ -2039,17 +2039,17 @@ export interface SyntheticsCanaryVisualReferences {
   /**
   * Canary run id to be used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
   */
   readonly baseCanaryRunId?: string;
   /**
   * List of screenshots used as base reference for visual testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
   */
   readonly baseScreenshots?: SyntheticsCanaryVisualReferencesBaseScreenshots[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}
   */
   readonly browserType?: string;
 }
@@ -2154,7 +2154,7 @@ export class SyntheticsCanaryVisualReferencesOutputReference extends cdktn.Compl
   }
 
   // base_canary_run_id - computed: true, optional: true, required: false
-  private _baseCanaryRunId?: string; 
+  private _baseCanaryRunId?: string;
   public get baseCanaryRunId() {
     return this.getStringAttribute('base_canary_run_id');
   }
@@ -2186,7 +2186,7 @@ export class SyntheticsCanaryVisualReferencesOutputReference extends cdktn.Compl
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string; 
+  private _browserType?: string;
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -2225,19 +2225,19 @@ export interface SyntheticsCanaryVpcConfig {
   /**
   * Allow outbound IPv6 traffic on VPC canaries that are connected to dual-stack subnets if set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#ipv_6_allowed_for_dual_stack SyntheticsCanary#ipv_6_allowed_for_dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#ipv_6_allowed_for_dual_stack SyntheticsCanary#ipv_6_allowed_for_dual_stack}
   */
   readonly ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -2353,7 +2353,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ipv_6_allowed_for_dual_stack - computed: true, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv_6_allowed_for_dual_stack');
   }
@@ -2369,7 +2369,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2385,7 +2385,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -2401,7 +2401,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -2418,7 +2418,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary awscc_synthetics_canary}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary awscc_synthetics_canary}
 */
 export class SyntheticsCanary extends cdktn.TerraformResource {
 
@@ -2434,7 +2434,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SyntheticsCanary resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyntheticsCanary to import
-  * @param importFromId The id of the existing SyntheticsCanary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyntheticsCanary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyntheticsCanary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2446,7 +2446,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2457,7 +2457,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_synthetics_canary',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2510,7 +2510,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // artifact_s3_location - computed: false, optional: false, required: true
-  private _artifactS3Location?: string; 
+  private _artifactS3Location?: string;
   public get artifactS3Location() {
     return this.getStringAttribute('artifact_s3_location');
   }
@@ -2557,7 +2557,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // delete_lambda_resources_on_canary_deletion - computed: true, optional: true, required: false
-  private _deleteLambdaResourcesOnCanaryDeletion?: boolean | cdktn.IResolvable; 
+  private _deleteLambdaResourcesOnCanaryDeletion?: boolean | cdktn.IResolvable;
   public get deleteLambdaResourcesOnCanaryDeletion() {
     return this.getBooleanAttribute('delete_lambda_resources_on_canary_deletion');
   }
@@ -2573,7 +2573,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // dry_run_and_update - computed: true, optional: true, required: false
-  private _dryRunAndUpdate?: boolean | cdktn.IResolvable; 
+  private _dryRunAndUpdate?: boolean | cdktn.IResolvable;
   public get dryRunAndUpdate() {
     return this.getBooleanAttribute('dry_run_and_update');
   }
@@ -2589,7 +2589,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -2602,7 +2602,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // failure_retention_period - computed: true, optional: true, required: false
-  private _failureRetentionPeriod?: number; 
+  private _failureRetentionPeriod?: number;
   public get failureRetentionPeriod() {
     return this.getNumberAttribute('failure_retention_period');
   }
@@ -2623,7 +2623,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2636,7 +2636,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // provisioned_resource_cleanup - computed: true, optional: true, required: false
-  private _provisionedResourceCleanup?: string; 
+  private _provisionedResourceCleanup?: string;
   public get provisionedResourceCleanup() {
     return this.getStringAttribute('provisioned_resource_cleanup');
   }
@@ -2652,7 +2652,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // resources_to_replicate_tags - computed: true, optional: true, required: false
-  private _resourcesToReplicateTags?: string[]; 
+  private _resourcesToReplicateTags?: string[];
   public get resourcesToReplicateTags() {
     return this.getListAttribute('resources_to_replicate_tags');
   }
@@ -2684,7 +2684,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // runtime_version - computed: false, optional: false, required: true
-  private _runtimeVersion?: string; 
+  private _runtimeVersion?: string;
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -2710,7 +2710,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // start_canary_after_creation - computed: true, optional: true, required: false
-  private _startCanaryAfterCreation?: boolean | cdktn.IResolvable; 
+  private _startCanaryAfterCreation?: boolean | cdktn.IResolvable;
   public get startCanaryAfterCreation() {
     return this.getBooleanAttribute('start_canary_after_creation');
   }
@@ -2731,7 +2731,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // success_retention_period - computed: true, optional: true, required: false
-  private _successRetentionPeriod?: number; 
+  private _successRetentionPeriod?: number;
   public get successRetentionPeriod() {
     return this.getNumberAttribute('success_retention_period');
   }

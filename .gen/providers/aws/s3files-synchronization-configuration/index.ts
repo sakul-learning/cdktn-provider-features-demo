@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface S3FilesSynchronizationConfigurationConfig extends cdktn.Terrafo
   /**
   * File system ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#file_system_id S3FilesSynchronizationConfiguration#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#file_system_id S3FilesSynchronizationConfiguration#file_system_id}
   */
   readonly fileSystemId: string;
   /**
   * Latest version number for optimistic locking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#latest_version_number S3FilesSynchronizationConfiguration#latest_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#latest_version_number S3FilesSynchronizationConfiguration#latest_version_number}
   */
   readonly latestVersionNumber?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#region S3FilesSynchronizationConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#region S3FilesSynchronizationConfiguration#region}
   */
   readonly region?: string;
   /**
   * expiration_data_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#expiration_data_rule S3FilesSynchronizationConfiguration#expiration_data_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#expiration_data_rule S3FilesSynchronizationConfiguration#expiration_data_rule}
   */
   readonly expirationDataRule?: S3FilesSynchronizationConfigurationExpirationDataRule[] | cdktn.IResolvable;
   /**
   * import_data_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#import_data_rule S3FilesSynchronizationConfiguration#import_data_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#import_data_rule S3FilesSynchronizationConfiguration#import_data_rule}
   */
   readonly importDataRule?: S3FilesSynchronizationConfigurationImportDataRule[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface S3FilesSynchronizationConfigurationExpirationDataRule {
   /**
   * Days after last access before data expires
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#days_after_last_access S3FilesSynchronizationConfiguration#days_after_last_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#days_after_last_access S3FilesSynchronizationConfiguration#days_after_last_access}
   */
   readonly daysAfterLastAccess: number;
 }
@@ -121,7 +121,7 @@ export class S3FilesSynchronizationConfigurationExpirationDataRuleOutputReferenc
   }
 
   // days_after_last_access - computed: false, optional: false, required: true
-  private _daysAfterLastAccess?: number; 
+  private _daysAfterLastAccess?: number;
   public get daysAfterLastAccess() {
     return this.getNumberAttribute('days_after_last_access');
   }
@@ -157,19 +157,19 @@ export interface S3FilesSynchronizationConfigurationImportDataRule {
   /**
   * S3 prefix for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#prefix S3FilesSynchronizationConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#prefix S3FilesSynchronizationConfiguration#prefix}
   */
   readonly prefix: string;
   /**
   * Maximum file size to import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#size_less_than S3FilesSynchronizationConfiguration#size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#size_less_than S3FilesSynchronizationConfiguration#size_less_than}
   */
   readonly sizeLessThan: number;
   /**
   * Import trigger type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#trigger S3FilesSynchronizationConfiguration#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#trigger S3FilesSynchronizationConfiguration#trigger}
   */
   readonly trigger: string;
 }
@@ -274,7 +274,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -287,7 +287,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // size_less_than - computed: false, optional: false, required: true
-  private _sizeLessThan?: number; 
+  private _sizeLessThan?: number;
   public get sizeLessThan() {
     return this.getNumberAttribute('size_less_than');
   }
@@ -300,7 +300,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // trigger - computed: false, optional: false, required: true
-  private _trigger?: string; 
+  private _trigger?: string;
   public get trigger() {
     return this.getStringAttribute('trigger');
   }
@@ -334,7 +334,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleList extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration}
 */
 export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource {
 
@@ -350,7 +350,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   * Generates CDKTN code for importing a S3FilesSynchronizationConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3FilesSynchronizationConfiguration to import
-  * @param importFromId The id of the existing S3FilesSynchronizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3FilesSynchronizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3FilesSynchronizationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -362,7 +362,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,7 +373,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
       terraformResourceType: 'aws_s3files_synchronization_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -395,7 +395,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   // ==========
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -408,7 +408,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   }
 
   // latest_version_number - computed: true, optional: true, required: false
-  private _latestVersionNumber?: number; 
+  private _latestVersionNumber?: number;
   public get latestVersionNumber() {
     return this.getNumberAttribute('latest_version_number');
   }
@@ -424,7 +424,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

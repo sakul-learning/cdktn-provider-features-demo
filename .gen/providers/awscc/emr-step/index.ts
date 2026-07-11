@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface EmrStepConfig extends cdktn.TerraformMetaArguments {
   /**
   * This specifies what action to take when the cluster step fails. Possible values are CANCEL_AND_WAIT and CONTINUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
   */
   readonly actionOnFailure: string;
   /**
   * The KMS key ARN to encrypt the logs published to the given Amazon S3 destination. When omitted, EMR falls back to cluster-level logging behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
   * The HadoopJarStepConfig property type specifies a job flow step consisting of a JAR file whose main function will be executed. The main function submits a job for the cluster to execute as a step on the master node, and then waits for the job to finish or fail before executing subsequent steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
   */
   readonly hadoopJarStep: EmrStepHadoopJarStep;
   /**
   * A string that uniquely identifies the cluster (job flow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
   */
   readonly jobFlowId: string;
   /**
   * The Amazon S3 destination URI for log publishing. When omitted, EMR falls back to cluster-level logging behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
   */
   readonly logUri?: string;
   /**
   * The name of the cluster step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#name EmrStep#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#name EmrStep#name}
   */
   readonly name: string;
 }
 export interface EmrStepHadoopJarStepStepProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#key EmrStep#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#key EmrStep#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#value EmrStep#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#value EmrStep#value}
   */
   readonly value?: string;
 }
@@ -142,7 +142,7 @@ export class EmrStepHadoopJarStepStepPropertiesOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class EmrStepHadoopJarStepStepPropertiesOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -195,19 +195,19 @@ export class EmrStepHadoopJarStepStepPropertiesList extends cdktn.ComplexList {
 }
 export interface EmrStepHadoopJarStep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#args EmrStep#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#args EmrStep#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#jar EmrStep#jar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#jar EmrStep#jar}
   */
   readonly jar: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#main_class EmrStep#main_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#main_class EmrStep#main_class}
   */
   readonly mainClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#step_properties EmrStep#step_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#step_properties EmrStep#step_properties}
   */
   readonly stepProperties?: EmrStepHadoopJarStepStepProperties[] | cdktn.IResolvable;
 }
@@ -323,7 +323,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[]; 
+  private _args?: string[];
   public get args() {
     return this.getListAttribute('args');
   }
@@ -339,7 +339,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // jar - computed: false, optional: false, required: true
-  private _jar?: string; 
+  private _jar?: string;
   public get jar() {
     return this.getStringAttribute('jar');
   }
@@ -352,7 +352,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // main_class - computed: true, optional: true, required: false
-  private _mainClass?: string; 
+  private _mainClass?: string;
   public get mainClass() {
     return this.getStringAttribute('main_class');
   }
@@ -385,7 +385,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step awscc_emr_step}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step awscc_emr_step}
 */
 export class EmrStep extends cdktn.TerraformResource {
 
@@ -401,7 +401,7 @@ export class EmrStep extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrStep resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrStep to import
-  * @param importFromId The id of the existing EmrStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrStep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -413,7 +413,7 @@ export class EmrStep extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_step awscc_emr_step} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_step awscc_emr_step} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,7 +424,7 @@ export class EmrStep extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_emr_step',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -447,7 +447,7 @@ export class EmrStep extends cdktn.TerraformResource {
   // ==========
 
   // action_on_failure - computed: false, optional: false, required: true
-  private _actionOnFailure?: string; 
+  private _actionOnFailure?: string;
   public get actionOnFailure() {
     return this.getStringAttribute('action_on_failure');
   }
@@ -460,7 +460,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string; 
+  private _encryptionKeyArn?: string;
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -494,7 +494,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // job_flow_id - computed: false, optional: false, required: true
-  private _jobFlowId?: string; 
+  private _jobFlowId?: string;
   public get jobFlowId() {
     return this.getStringAttribute('job_flow_id');
   }
@@ -507,7 +507,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string; 
+  private _logUri?: string;
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -523,7 +523,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

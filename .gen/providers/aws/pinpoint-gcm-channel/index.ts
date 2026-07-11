@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface PinpointGcmChannelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#api_key PinpointGcmChannel#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#api_key PinpointGcmChannel#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#application_id PinpointGcmChannel#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#application_id PinpointGcmChannel#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#default_authentication_method PinpointGcmChannel#default_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#default_authentication_method PinpointGcmChannel#default_authentication_method}
   */
   readonly defaultAuthenticationMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#enabled PinpointGcmChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#enabled PinpointGcmChannel#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#id PinpointGcmChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#id PinpointGcmChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,17 +33,17 @@ export interface PinpointGcmChannelConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#region PinpointGcmChannel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#region PinpointGcmChannel#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#service_json PinpointGcmChannel#service_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#service_json PinpointGcmChannel#service_json}
   */
   readonly serviceJson?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel aws_pinpoint_gcm_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel aws_pinpoint_gcm_channel}
 */
 export class PinpointGcmChannel extends cdktn.TerraformResource {
 
@@ -59,7 +59,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PinpointGcmChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PinpointGcmChannel to import
-  * @param importFromId The id of the existing PinpointGcmChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PinpointGcmChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PinpointGcmChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -71,7 +71,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpoint_gcm_channel aws_pinpoint_gcm_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpoint_gcm_channel aws_pinpoint_gcm_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
       terraformResourceType: 'aws_pinpoint_gcm_channel',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   // ==========
 
   // api_key - computed: false, optional: true, required: false
-  private _apiKey?: string; 
+  private _apiKey?: string;
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -122,7 +122,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string; 
+  private _applicationId?: string;
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -135,7 +135,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // default_authentication_method - computed: false, optional: true, required: false
-  private _defaultAuthenticationMethod?: string; 
+  private _defaultAuthenticationMethod?: string;
   public get defaultAuthenticationMethod() {
     return this.getStringAttribute('default_authentication_method');
   }
@@ -151,7 +151,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -167,7 +167,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -183,7 +183,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -199,7 +199,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // service_json - computed: false, optional: true, required: false
-  private _serviceJson?: string; 
+  private _serviceJson?: string;
   public get serviceJson() {
     return this.getStringAttribute('service_json');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,80 +9,80 @@ import * as cdktn from 'cdktn';
 export interface NeptunegraphGraphConfig extends cdktn.TerraformMetaArguments {
   /**
   * Value that indicates whether the Graph has deletion protection enabled. The graph can't be deleted when deletion protection is enabled.
-  * 
+  *
   * _Default_: If not specified, the default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#deletion_protection NeptunegraphGraph#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#deletion_protection NeptunegraphGraph#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
-  * Contains a user-supplied name for the Graph. 
-  * 
+  * Contains a user-supplied name for the Graph.
+  *
   * If you don't specify a name, we generate a unique Graph Name using a combination of Stack Name and a UUID comprising of 4 characters.
-  * 
+  *
   * _Important_: If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#graph_name NeptunegraphGraph#graph_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#graph_name NeptunegraphGraph#graph_name}
   */
   readonly graphName?: string;
   /**
   * The ARN of the KMS key used to encrypt data in the Neptune Analytics graph. If not specified, the graph is encrypted with an AWS managed key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#kms_key_identifier NeptunegraphGraph#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#kms_key_identifier NeptunegraphGraph#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
   * Memory for the Graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#provisioned_memory NeptunegraphGraph#provisioned_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#provisioned_memory NeptunegraphGraph#provisioned_memory}
   */
   readonly provisionedMemory: number;
   /**
   * Specifies whether the Graph can be reached over the internet. Access to all graphs requires IAM authentication.
-  * 
+  *
   * When the Graph is publicly reachable, its Domain Name System (DNS) endpoint resolves to the public IP address from the internet.
-  * 
+  *
   * When the Graph isn't publicly reachable, you need to create a PrivateGraphEndpoint in a given VPC to ensure the DNS name resolves to a private IP address that is reachable from the VPC.
-  * 
+  *
   * _Default_: If not specified, the default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#public_connectivity NeptunegraphGraph#public_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#public_connectivity NeptunegraphGraph#public_connectivity}
   */
   readonly publicConnectivity?: boolean | cdktn.IResolvable;
   /**
   * Specifies the number of replicas you want when finished. All replicas will be provisioned in different availability zones.
-  * 
+  *
   * Replica Count should always be less than or equal to 2.
-  * 
+  *
   * _Default_: If not specified, the default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#replica_count NeptunegraphGraph#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#replica_count NeptunegraphGraph#replica_count}
   */
   readonly replicaCount?: number;
   /**
   * The tags associated with this graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#tags NeptunegraphGraph#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#tags NeptunegraphGraph#tags}
   */
   readonly tags?: NeptunegraphGraphTags[] | cdktn.IResolvable;
   /**
   * Vector Search Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#vector_search_configuration NeptunegraphGraph#vector_search_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#vector_search_configuration NeptunegraphGraph#vector_search_configuration}
   */
   readonly vectorSearchConfiguration?: NeptunegraphGraphVectorSearchConfiguration;
 }
 export interface NeptunegraphGraphTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#key NeptunegraphGraph#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#key NeptunegraphGraph#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#value NeptunegraphGraph#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#value NeptunegraphGraph#value}
   */
   readonly value?: string;
 }
@@ -174,7 +174,7 @@ export class NeptunegraphGraphTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -190,7 +190,7 @@ export class NeptunegraphGraphTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -229,7 +229,7 @@ export interface NeptunegraphGraphVectorSearchConfiguration {
   /**
   * The vector search dimension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#vector_search_dimension NeptunegraphGraph#vector_search_dimension}
   */
   readonly vectorSearchDimension?: number;
 }
@@ -306,7 +306,7 @@ export class NeptunegraphGraphVectorSearchConfigurationOutputReference extends c
   }
 
   // vector_search_dimension - computed: true, optional: true, required: false
-  private _vectorSearchDimension?: number; 
+  private _vectorSearchDimension?: number;
   public get vectorSearchDimension() {
     return this.getNumberAttribute('vector_search_dimension');
   }
@@ -323,7 +323,7 @@ export class NeptunegraphGraphVectorSearchConfigurationOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}
 */
 export class NeptunegraphGraph extends cdktn.TerraformResource {
 
@@ -339,7 +339,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NeptunegraphGraph resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NeptunegraphGraph to import
-  * @param importFromId The id of the existing NeptunegraphGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NeptunegraphGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NeptunegraphGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -351,7 +351,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,7 +362,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_neptunegraph_graph',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -387,7 +387,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   // ==========
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable;
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -418,7 +418,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // graph_name - computed: true, optional: true, required: false
-  private _graphName?: string; 
+  private _graphName?: string;
   public get graphName() {
     return this.getStringAttribute('graph_name');
   }
@@ -439,7 +439,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string; 
+  private _kmsKeyIdentifier?: string;
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -455,7 +455,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // provisioned_memory - computed: false, optional: false, required: true
-  private _provisionedMemory?: number; 
+  private _provisionedMemory?: number;
   public get provisionedMemory() {
     return this.getNumberAttribute('provisioned_memory');
   }
@@ -468,7 +468,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // public_connectivity - computed: true, optional: true, required: false
-  private _publicConnectivity?: boolean | cdktn.IResolvable; 
+  private _publicConnectivity?: boolean | cdktn.IResolvable;
   public get publicConnectivity() {
     return this.getBooleanAttribute('public_connectivity');
   }
@@ -484,7 +484,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // replica_count - computed: true, optional: true, required: false
-  private _replicaCount?: number; 
+  private _replicaCount?: number;
   public get replicaCount() {
     return this.getNumberAttribute('replica_count');
   }

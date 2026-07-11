@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AppintegrationsDataIntegrationConfig extends cdktn.TerraformMet
   /**
   * The data integration description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
   */
   readonly description?: string;
   /**
   * The configuration for what files should be pulled from the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
   */
   readonly fileConfiguration?: AppintegrationsDataIntegrationFileConfiguration;
   /**
   * The KMS key of the data integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
   */
   readonly kmsKey: string;
   /**
   * The name of the data integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
   */
   readonly name: string;
   /**
   * The configuration for what data should be pulled from the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
   */
   readonly objectConfiguration?: { [key: string]: { [key: string]: string[] } | cdktn.IResolvable } | cdktn.IResolvable;
   /**
   * The name of the data and how often it should be pulled from the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
   */
   readonly scheduleConfig?: AppintegrationsDataIntegrationScheduleConfig;
   /**
   * The URI of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
   */
   readonly sourceUri: string;
   /**
   * The tags (keys and values) associated with the data integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
   */
   readonly tags?: AppintegrationsDataIntegrationTags[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface AppintegrationsDataIntegrationFileConfiguration {
   /**
   * Restrictions for what files should be pulled from the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
   */
   readonly filters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * Identifiers for the source folders to pull all files from recursively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
   */
   readonly folders?: string[];
 }
@@ -156,7 +156,7 @@ export class AppintegrationsDataIntegrationFileConfigurationOutputReference exte
   }
 
   // filters - computed: true, optional: true, required: false
-  private _filters?: { [key: string]: string[] } | cdktn.IResolvable; 
+  private _filters?: { [key: string]: string[] } | cdktn.IResolvable;
   public get filters() {
     return this.interpolationForAttribute('filters');
   }
@@ -172,7 +172,7 @@ export class AppintegrationsDataIntegrationFileConfigurationOutputReference exte
   }
 
   // folders - computed: true, optional: true, required: false
-  private _folders?: string[]; 
+  private _folders?: string[];
   public get folders() {
     return this.getListAttribute('folders');
   }
@@ -191,19 +191,19 @@ export interface AppintegrationsDataIntegrationScheduleConfig {
   /**
   * The start date for objects to import in the first flow run. Epoch or ISO timestamp format is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
   */
   readonly firstExecutionFrom?: string;
   /**
   * The name of the object to pull from the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
   */
   readonly object?: string;
   /**
   * How often the data should be pulled from data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
   */
   readonly scheduleExpression?: string;
 }
@@ -306,7 +306,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // first_execution_from - computed: true, optional: true, required: false
-  private _firstExecutionFrom?: string; 
+  private _firstExecutionFrom?: string;
   public get firstExecutionFrom() {
     return this.getStringAttribute('first_execution_from');
   }
@@ -322,7 +322,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string; 
+  private _object?: string;
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -338,7 +338,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string; 
+  private _scheduleExpression?: string;
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -357,13 +357,13 @@ export interface AppintegrationsDataIntegrationTags {
   /**
   * A key to identify the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
   */
   readonly key?: string;
   /**
   * Corresponding tag value for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
   */
   readonly value?: string;
 }
@@ -455,7 +455,7 @@ export class AppintegrationsDataIntegrationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -471,7 +471,7 @@ export class AppintegrationsDataIntegrationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -508,7 +508,7 @@ export class AppintegrationsDataIntegrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}
 */
 export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
 
@@ -524,7 +524,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppintegrationsDataIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppintegrationsDataIntegration to import
-  * @param importFromId The id of the existing AppintegrationsDataIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppintegrationsDataIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppintegrationsDataIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -536,7 +536,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,7 +547,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appintegrations_data_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -582,7 +582,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -619,7 +619,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: false, optional: false, required: true
-  private _kmsKey?: string; 
+  private _kmsKey?: string;
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -632,7 +632,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -645,7 +645,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // object_configuration - computed: true, optional: true, required: false
-  private _objectConfiguration?: { [key: string]: { [key: string]: string[] } | cdktn.IResolvable } | cdktn.IResolvable; 
+  private _objectConfiguration?: { [key: string]: { [key: string]: string[] } | cdktn.IResolvable } | cdktn.IResolvable;
   public get objectConfiguration() {
     return this.interpolationForAttribute('object_configuration');
   }
@@ -677,7 +677,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // source_uri - computed: false, optional: false, required: true
-  private _sourceUri?: string; 
+  private _sourceUri?: string;
   public get sourceUri() {
     return this.getStringAttribute('source_uri');
   }

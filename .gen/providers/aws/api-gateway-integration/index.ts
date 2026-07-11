@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktn from 'cdktn';
 
 export interface ApiGatewayIntegrationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#cache_key_parameters ApiGatewayIntegration#cache_key_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#cache_key_parameters ApiGatewayIntegration#cache_key_parameters}
   */
   readonly cacheKeyParameters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#cache_namespace ApiGatewayIntegration#cache_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#cache_namespace ApiGatewayIntegration#cache_namespace}
   */
   readonly cacheNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#connection_id ApiGatewayIntegration#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#connection_id ApiGatewayIntegration#connection_id}
   */
   readonly connectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#connection_type ApiGatewayIntegration#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#connection_type ApiGatewayIntegration#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#content_handling ApiGatewayIntegration#content_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#content_handling ApiGatewayIntegration#content_handling}
   */
   readonly contentHandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#credentials ApiGatewayIntegration#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#credentials ApiGatewayIntegration#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#http_method ApiGatewayIntegration#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#http_method ApiGatewayIntegration#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#id ApiGatewayIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#id ApiGatewayIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#integration_http_method ApiGatewayIntegration#integration_http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#integration_http_method ApiGatewayIntegration#integration_http_method}
   */
   readonly integrationHttpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#integration_target ApiGatewayIntegration#integration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#integration_target ApiGatewayIntegration#integration_target}
   */
   readonly integrationTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#passthrough_behavior ApiGatewayIntegration#passthrough_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#passthrough_behavior ApiGatewayIntegration#passthrough_behavior}
   */
   readonly passthroughBehavior?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#region ApiGatewayIntegration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#region ApiGatewayIntegration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#request_parameters ApiGatewayIntegration#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#request_parameters ApiGatewayIntegration#request_parameters}
   */
   readonly requestParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#request_templates ApiGatewayIntegration#request_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#request_templates ApiGatewayIntegration#request_templates}
   */
   readonly requestTemplates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#resource_id ApiGatewayIntegration#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#resource_id ApiGatewayIntegration#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#response_transfer_mode ApiGatewayIntegration#response_transfer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#response_transfer_mode ApiGatewayIntegration#response_transfer_mode}
   */
   readonly responseTransferMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#rest_api_id ApiGatewayIntegration#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#rest_api_id ApiGatewayIntegration#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#timeout_milliseconds ApiGatewayIntegration#timeout_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#timeout_milliseconds ApiGatewayIntegration#timeout_milliseconds}
   */
   readonly timeoutMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#type ApiGatewayIntegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#type ApiGatewayIntegration#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#uri ApiGatewayIntegration#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#uri ApiGatewayIntegration#uri}
   */
   readonly uri?: string;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#tls_config ApiGatewayIntegration#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#tls_config ApiGatewayIntegration#tls_config}
   */
   readonly tlsConfig?: ApiGatewayIntegrationTlsConfig;
 }
 export interface ApiGatewayIntegrationTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#insecure_skip_verification ApiGatewayIntegration#insecure_skip_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#insecure_skip_verification ApiGatewayIntegration#insecure_skip_verification}
   */
   readonly insecureSkipVerification?: boolean | cdktn.IResolvable;
 }
@@ -168,7 +168,7 @@ export class ApiGatewayIntegrationTlsConfigOutputReference extends cdktn.Complex
   }
 
   // insecure_skip_verification - computed: false, optional: true, required: false
-  private _insecureSkipVerification?: boolean | cdktn.IResolvable; 
+  private _insecureSkipVerification?: boolean | cdktn.IResolvable;
   public get insecureSkipVerification() {
     return this.getBooleanAttribute('insecure_skip_verification');
   }
@@ -185,7 +185,7 @@ export class ApiGatewayIntegrationTlsConfigOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration aws_api_gateway_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration aws_api_gateway_integration}
 */
 export class ApiGatewayIntegration extends cdktn.TerraformResource {
 
@@ -201,7 +201,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApiGatewayIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayIntegration to import
-  * @param importFromId The id of the existing ApiGatewayIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -213,7 +213,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,7 +224,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_api_gateway_integration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -262,7 +262,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   // ==========
 
   // cache_key_parameters - computed: false, optional: true, required: false
-  private _cacheKeyParameters?: string[]; 
+  private _cacheKeyParameters?: string[];
   public get cacheKeyParameters() {
     return cdktn.Fn.tolist(this.getListAttribute('cache_key_parameters'));
   }
@@ -278,7 +278,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // cache_namespace - computed: true, optional: true, required: false
-  private _cacheNamespace?: string; 
+  private _cacheNamespace?: string;
   public get cacheNamespace() {
     return this.getStringAttribute('cache_namespace');
   }
@@ -294,7 +294,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // connection_id - computed: false, optional: true, required: false
-  private _connectionId?: string; 
+  private _connectionId?: string;
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -310,7 +310,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // connection_type - computed: false, optional: true, required: false
-  private _connectionType?: string; 
+  private _connectionType?: string;
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -326,7 +326,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // content_handling - computed: false, optional: true, required: false
-  private _contentHandling?: string; 
+  private _contentHandling?: string;
   public get contentHandling() {
     return this.getStringAttribute('content_handling');
   }
@@ -342,7 +342,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // credentials - computed: false, optional: true, required: false
-  private _credentials?: string; 
+  private _credentials?: string;
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -358,7 +358,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string; 
+  private _httpMethod?: string;
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -371,7 +371,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -387,7 +387,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // integration_http_method - computed: false, optional: true, required: false
-  private _integrationHttpMethod?: string; 
+  private _integrationHttpMethod?: string;
   public get integrationHttpMethod() {
     return this.getStringAttribute('integration_http_method');
   }
@@ -403,7 +403,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // integration_target - computed: false, optional: true, required: false
-  private _integrationTarget?: string; 
+  private _integrationTarget?: string;
   public get integrationTarget() {
     return this.getStringAttribute('integration_target');
   }
@@ -419,7 +419,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // passthrough_behavior - computed: true, optional: true, required: false
-  private _passthroughBehavior?: string; 
+  private _passthroughBehavior?: string;
   public get passthroughBehavior() {
     return this.getStringAttribute('passthrough_behavior');
   }
@@ -435,7 +435,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: false, optional: true, required: false
-  private _requestParameters?: { [key: string]: string }; 
+  private _requestParameters?: { [key: string]: string };
   public get requestParameters() {
     return this.getStringMapAttribute('request_parameters');
   }
@@ -467,7 +467,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // request_templates - computed: false, optional: true, required: false
-  private _requestTemplates?: { [key: string]: string }; 
+  private _requestTemplates?: { [key: string]: string };
   public get requestTemplates() {
     return this.getStringMapAttribute('request_templates');
   }
@@ -483,7 +483,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string; 
+  private _resourceId?: string;
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -496,7 +496,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // response_transfer_mode - computed: true, optional: true, required: false
-  private _responseTransferMode?: string; 
+  private _responseTransferMode?: string;
   public get responseTransferMode() {
     return this.getStringAttribute('response_transfer_mode');
   }
@@ -512,7 +512,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -525,7 +525,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // timeout_milliseconds - computed: false, optional: true, required: false
-  private _timeoutMilliseconds?: number; 
+  private _timeoutMilliseconds?: number;
   public get timeoutMilliseconds() {
     return this.getNumberAttribute('timeout_milliseconds');
   }
@@ -541,7 +541,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -554,7 +554,7 @@ export class ApiGatewayIntegration extends cdktn.TerraformResource {
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }

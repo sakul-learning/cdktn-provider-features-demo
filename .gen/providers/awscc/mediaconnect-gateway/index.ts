@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MediaconnectGatewayConfig extends cdktn.TerraformMetaArguments 
   /**
   * The range of IP addresses that contribute content or initiate output requests for flows communicating with this gateway. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
   */
   readonly egressCidrBlocks: string[];
   /**
   * The name of the gateway. This name can not be modified after the gateway is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
   */
   readonly name: string;
   /**
   * The list of networks in the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
   */
   readonly networks: MediaconnectGatewayNetworks[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface MediaconnectGatewayNetworks {
   /**
   * A unique IP address range to use for this network. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * The name of the network. This name is used to reference the network and must be unique among networks in this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
   */
   readonly name: string;
 }
@@ -128,7 +128,7 @@ export class MediaconnectGatewayNetworksOutputReference extends cdktn.ComplexObj
   }
 
   // cidr_block - computed: false, optional: false, required: true
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -141,7 +141,7 @@ export class MediaconnectGatewayNetworksOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -175,7 +175,7 @@ export class MediaconnectGatewayNetworksList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}
 */
 export class MediaconnectGateway extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectGateway to import
-  * @param importFromId The id of the existing MediaconnectGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -234,7 +234,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   // ==========
 
   // egress_cidr_blocks - computed: false, optional: false, required: true
-  private _egressCidrBlocks?: string[]; 
+  private _egressCidrBlocks?: string[];
   public get egressCidrBlocks() {
     return this.getListAttribute('egress_cidr_blocks');
   }
@@ -262,7 +262,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

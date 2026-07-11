@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightDashboardConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}
   */
   readonly dashboardId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#id QuicksightDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#id QuicksightDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#region QuicksightDashboard#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#region QuicksightDashboard#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#tags_all QuicksightDashboard#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#tags_all QuicksightDashboard#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
   */
   readonly themeArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
   */
   readonly versionDescription: string;
   /**
   * dashboard_publish_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
   */
   readonly dashboardPublishOptions?: QuicksightDashboardDashboardPublishOptions;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#definition QuicksightDashboard#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#definition QuicksightDashboard#definition}
   */
   readonly definition?: any;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
   */
   readonly parameters?: QuicksightDashboardParameters;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
   */
   readonly permissions?: QuicksightDashboardPermissions[] | cdktn.IResolvable;
   /**
   * source_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
   */
   readonly sourceEntity?: QuicksightDashboardSourceEntity;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#timeouts QuicksightDashboard#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#timeouts QuicksightDashboard#timeouts}
   */
   readonly timeouts?: QuicksightDashboardTimeouts;
 }
 export interface QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -154,7 +154,7 @@ export class QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutpu
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -171,7 +171,7 @@ export class QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutpu
 }
 export interface QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -238,7 +238,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptio
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -255,7 +255,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptio
 }
 export interface QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -322,7 +322,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOptionO
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -339,7 +339,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOptionO
 }
 export interface QuicksightDashboardDashboardPublishOptionsDataPointTooltipOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -406,7 +406,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOut
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -423,7 +423,7 @@ export class QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOut
 }
 export interface QuicksightDashboardDashboardPublishOptionsExportToCsvOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -490,7 +490,7 @@ export class QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputRe
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -507,7 +507,7 @@ export class QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputRe
 }
 export interface QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -574,7 +574,7 @@ export class QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOpt
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -591,7 +591,7 @@ export class QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOpt
 }
 export interface QuicksightDashboardDashboardPublishOptionsSheetControlsOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}
   */
   readonly visibilityState?: string;
 }
@@ -658,7 +658,7 @@ export class QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutput
   }
 
   // visibility_state - computed: false, optional: true, required: false
-  private _visibilityState?: string; 
+  private _visibilityState?: string;
   public get visibilityState() {
     return this.getStringAttribute('visibility_state');
   }
@@ -675,7 +675,7 @@ export class QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutput
 }
 export interface QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -742,7 +742,7 @@ export class QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximiz
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -759,7 +759,7 @@ export class QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximiz
 }
 export interface QuicksightDashboardDashboardPublishOptionsVisualAxisSortOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -826,7 +826,7 @@ export class QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutpu
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -843,7 +843,7 @@ export class QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutpu
 }
 export interface QuicksightDashboardDashboardPublishOptionsVisualMenuOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}
   */
   readonly availabilityStatus?: string;
 }
@@ -910,7 +910,7 @@ export class QuicksightDashboardDashboardPublishOptionsVisualMenuOptionOutputRef
   }
 
   // availability_status - computed: false, optional: true, required: false
-  private _availabilityStatus?: string; 
+  private _availabilityStatus?: string;
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -929,61 +929,61 @@ export interface QuicksightDashboardDashboardPublishOptions {
   /**
   * ad_hoc_filtering_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
   */
   readonly adHocFilteringOption?: QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption;
   /**
   * data_point_drill_up_down_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_point_drill_up_down_option QuicksightDashboard#data_point_drill_up_down_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_point_drill_up_down_option QuicksightDashboard#data_point_drill_up_down_option}
   */
   readonly dataPointDrillUpDownOption?: QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOption;
   /**
   * data_point_menu_label_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_point_menu_label_option QuicksightDashboard#data_point_menu_label_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_point_menu_label_option QuicksightDashboard#data_point_menu_label_option}
   */
   readonly dataPointMenuLabelOption?: QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOption;
   /**
   * data_point_tooltip_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_point_tooltip_option QuicksightDashboard#data_point_tooltip_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_point_tooltip_option QuicksightDashboard#data_point_tooltip_option}
   */
   readonly dataPointTooltipOption?: QuicksightDashboardDashboardPublishOptionsDataPointTooltipOption;
   /**
   * export_to_csv_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
   */
   readonly exportToCsvOption?: QuicksightDashboardDashboardPublishOptionsExportToCsvOption;
   /**
   * export_with_hidden_fields_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#export_with_hidden_fields_option QuicksightDashboard#export_with_hidden_fields_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#export_with_hidden_fields_option QuicksightDashboard#export_with_hidden_fields_option}
   */
   readonly exportWithHiddenFieldsOption?: QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOption;
   /**
   * sheet_controls_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
   */
   readonly sheetControlsOption?: QuicksightDashboardDashboardPublishOptionsSheetControlsOption;
   /**
   * sheet_layout_element_maximization_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#sheet_layout_element_maximization_option QuicksightDashboard#sheet_layout_element_maximization_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#sheet_layout_element_maximization_option QuicksightDashboard#sheet_layout_element_maximization_option}
   */
   readonly sheetLayoutElementMaximizationOption?: QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOption;
   /**
   * visual_axis_sort_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#visual_axis_sort_option QuicksightDashboard#visual_axis_sort_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#visual_axis_sort_option QuicksightDashboard#visual_axis_sort_option}
   */
   readonly visualAxisSortOption?: QuicksightDashboardDashboardPublishOptionsVisualAxisSortOption;
   /**
   * visual_menu_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#visual_menu_option QuicksightDashboard#visual_menu_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#visual_menu_option QuicksightDashboard#visual_menu_option}
   */
   readonly visualMenuOption?: QuicksightDashboardDashboardPublishOptionsVisualMenuOption;
 }
@@ -1328,11 +1328,11 @@ export class QuicksightDashboardDashboardPublishOptionsOutputReference extends c
 }
 export interface QuicksightDashboardParametersDateTimeParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
   */
   readonly values: string[];
 }
@@ -1424,7 +1424,7 @@ export class QuicksightDashboardParametersDateTimeParametersOutputReference exte
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1437,7 +1437,7 @@ export class QuicksightDashboardParametersDateTimeParametersOutputReference exte
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1471,11 +1471,11 @@ export class QuicksightDashboardParametersDateTimeParametersList extends cdktn.C
 }
 export interface QuicksightDashboardParametersDecimalParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
   */
   readonly values: number[];
 }
@@ -1567,7 +1567,7 @@ export class QuicksightDashboardParametersDecimalParametersOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1580,7 +1580,7 @@ export class QuicksightDashboardParametersDecimalParametersOutputReference exten
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: number[]; 
+  private _values?: number[];
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -1614,11 +1614,11 @@ export class QuicksightDashboardParametersDecimalParametersList extends cdktn.Co
 }
 export interface QuicksightDashboardParametersIntegerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
   */
   readonly values: number[];
 }
@@ -1710,7 +1710,7 @@ export class QuicksightDashboardParametersIntegerParametersOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1723,7 +1723,7 @@ export class QuicksightDashboardParametersIntegerParametersOutputReference exten
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: number[]; 
+  private _values?: number[];
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -1757,11 +1757,11 @@ export class QuicksightDashboardParametersIntegerParametersList extends cdktn.Co
 }
 export interface QuicksightDashboardParametersStringParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
   */
   readonly values: string[];
 }
@@ -1853,7 +1853,7 @@ export class QuicksightDashboardParametersStringParametersOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1866,7 +1866,7 @@ export class QuicksightDashboardParametersStringParametersOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1902,25 +1902,25 @@ export interface QuicksightDashboardParameters {
   /**
   * date_time_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
   */
   readonly dateTimeParameters?: QuicksightDashboardParametersDateTimeParameters[] | cdktn.IResolvable;
   /**
   * decimal_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
   */
   readonly decimalParameters?: QuicksightDashboardParametersDecimalParameters[] | cdktn.IResolvable;
   /**
   * integer_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
   */
   readonly integerParameters?: QuicksightDashboardParametersIntegerParameters[] | cdktn.IResolvable;
   /**
   * string_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
   */
   readonly stringParameters?: QuicksightDashboardParametersStringParameters[] | cdktn.IResolvable;
 }
@@ -2091,11 +2091,11 @@ export class QuicksightDashboardParametersOutputReference extends cdktn.ComplexO
 }
 export interface QuicksightDashboardPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
   */
   readonly principal: string;
 }
@@ -2187,7 +2187,7 @@ export class QuicksightDashboardPermissionsOutputReference extends cdktn.Complex
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -2200,7 +2200,7 @@ export class QuicksightDashboardPermissionsOutputReference extends cdktn.Complex
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -2234,11 +2234,11 @@ export class QuicksightDashboardPermissionsList extends cdktn.ComplexList {
 }
 export interface QuicksightDashboardSourceEntitySourceTemplateDataSetReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
   */
   readonly dataSetArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
   */
   readonly dataSetPlaceholder: string;
 }
@@ -2330,7 +2330,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutpu
   }
 
   // data_set_arn - computed: false, optional: false, required: true
-  private _dataSetArn?: string; 
+  private _dataSetArn?: string;
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -2343,7 +2343,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutpu
   }
 
   // data_set_placeholder - computed: false, optional: false, required: true
-  private _dataSetPlaceholder?: string; 
+  private _dataSetPlaceholder?: string;
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -2377,13 +2377,13 @@ export class QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList 
 }
 export interface QuicksightDashboardSourceEntitySourceTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
   */
   readonly arn: string;
   /**
   * data_set_references block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
   */
   readonly dataSetReferences: QuicksightDashboardSourceEntitySourceTemplateDataSetReferences[] | cdktn.IResolvable;
 }
@@ -2463,7 +2463,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateOutputReference extend
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2492,7 +2492,7 @@ export interface QuicksightDashboardSourceEntity {
   /**
   * source_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
   */
   readonly sourceTemplate?: QuicksightDashboardSourceEntitySourceTemplate;
 }
@@ -2576,15 +2576,15 @@ export class QuicksightDashboardSourceEntityOutputReference extends cdktn.Comple
 }
 export interface QuicksightDashboardTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#create QuicksightDashboard#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#create QuicksightDashboard#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#delete QuicksightDashboard#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#delete QuicksightDashboard#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#update QuicksightDashboard#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#update QuicksightDashboard#update}
   */
   readonly update?: string;
 }
@@ -2687,7 +2687,7 @@ export class QuicksightDashboardTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2703,7 +2703,7 @@ export class QuicksightDashboardTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2719,7 +2719,7 @@ export class QuicksightDashboardTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2736,7 +2736,7 @@ export class QuicksightDashboardTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard aws_quicksight_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard aws_quicksight_dashboard}
 */
 export class QuicksightDashboard extends cdktn.TerraformResource {
 
@@ -2752,7 +2752,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightDashboard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightDashboard to import
-  * @param importFromId The id of the existing QuicksightDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2764,7 +2764,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_dashboard aws_quicksight_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_dashboard aws_quicksight_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2775,7 +2775,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2812,7 +2812,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -2833,7 +2833,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_id - computed: false, optional: false, required: true
-  private _dashboardId?: string; 
+  private _dashboardId?: string;
   public get dashboardId() {
     return this.getStringAttribute('dashboard_id');
   }
@@ -2846,7 +2846,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2872,7 +2872,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2885,7 +2885,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2911,7 +2911,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2927,7 +2927,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2943,7 +2943,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // theme_arn - computed: false, optional: true, required: false
-  private _themeArn?: string; 
+  private _themeArn?: string;
   public get themeArn() {
     return this.getStringAttribute('theme_arn');
   }
@@ -2959,7 +2959,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // version_description - computed: false, optional: false, required: true
-  private _versionDescription?: string; 
+  private _versionDescription?: string;
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }
@@ -2993,7 +2993,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // definition - computed: false, optional: true, required: false
-  private _definition?: any; 
+  private _definition?: any;
   public get definition() {
     return this.interpolationForAttribute('definition');
   }

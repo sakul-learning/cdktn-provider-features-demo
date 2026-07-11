@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface CloudfrontConnectionFunctionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
   */
   readonly connectionFunctionCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#publish CloudfrontConnectionFunction#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#publish CloudfrontConnectionFunction#publish}
   */
   readonly publish?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * connection_function_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
   */
   readonly connectionFunctionConfig?: CloudfrontConnectionFunctionConnectionFunctionConfig[] | cdktn.IResolvable;
 }
 export interface CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
   */
   readonly keyValueStoreArn: string;
 }
@@ -111,7 +111,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAs
   }
 
   // key_value_store_arn - computed: false, optional: false, required: true
-  private _keyValueStoreArn?: string; 
+  private _keyValueStoreArn?: string;
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -145,17 +145,17 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAs
 }
 export interface CloudfrontConnectionFunctionConnectionFunctionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
   */
   readonly comment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
   */
   readonly runtime: string;
   /**
   * key_value_store_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#key_value_store_association CloudfrontConnectionFunction#key_value_store_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#key_value_store_association CloudfrontConnectionFunction#key_value_store_association}
   */
   readonly keyValueStoreAssociation?: CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation[] | cdktn.IResolvable;
 }
@@ -260,7 +260,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string; 
+  private _comment?: string;
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -273,7 +273,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -323,7 +323,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function}
 */
 export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
 
@@ -339,7 +339,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontConnectionFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontConnectionFunction to import
-  * @param importFromId The id of the existing CloudfrontConnectionFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontConnectionFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontConnectionFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -351,7 +351,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,7 +362,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudfront_connection_function',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -389,7 +389,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // connection_function_code - computed: false, optional: false, required: true
-  private _connectionFunctionCode?: string; 
+  private _connectionFunctionCode?: string;
   public get connectionFunctionCode() {
     return this.getStringAttribute('connection_function_code');
   }
@@ -417,7 +417,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -430,7 +430,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // publish - computed: true, optional: true, required: false
-  private _publish?: boolean | cdktn.IResolvable; 
+  private _publish?: boolean | cdktn.IResolvable;
   public get publish() {
     return this.getBooleanAttribute('publish');
   }
@@ -451,7 +451,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

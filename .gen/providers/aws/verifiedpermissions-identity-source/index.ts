@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface VerifiedpermissionsIdentitySourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#policy_store_id VerifiedpermissionsIdentitySource#policy_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#policy_store_id VerifiedpermissionsIdentitySource#policy_store_id}
   */
   readonly policyStoreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#principal_entity_type VerifiedpermissionsIdentitySource#principal_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#principal_entity_type VerifiedpermissionsIdentitySource#principal_entity_type}
   */
   readonly principalEntityType?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#region VerifiedpermissionsIdentitySource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#region VerifiedpermissionsIdentitySource#region}
   */
   readonly region?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#configuration VerifiedpermissionsIdentitySource#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#configuration VerifiedpermissionsIdentitySource#configuration}
   */
   readonly configuration?: VerifiedpermissionsIdentitySourceConfiguration[] | cdktn.IResolvable;
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#group_entity_type VerifiedpermissionsIdentitySource#group_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#group_entity_type VerifiedpermissionsIdentitySource#group_entity_type}
   */
   readonly groupEntityType: string;
 }
@@ -109,7 +109,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // group_entity_type - computed: false, optional: false, required: true
-  private _groupEntityType?: string; 
+  private _groupEntityType?: string;
   public get groupEntityType() {
     return this.getStringAttribute('group_entity_type');
   }
@@ -143,17 +143,17 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#client_ids VerifiedpermissionsIdentitySource#client_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#client_ids VerifiedpermissionsIdentitySource#client_ids}
   */
   readonly clientIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#user_pool_arn VerifiedpermissionsIdentitySource#user_pool_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#user_pool_arn VerifiedpermissionsIdentitySource#user_pool_arn}
   */
   readonly userPoolArn: string;
   /**
   * group_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#group_configuration VerifiedpermissionsIdentitySource#group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#group_configuration VerifiedpermissionsIdentitySource#group_configuration}
   */
   readonly groupConfiguration?: VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfiguration[] | cdktn.IResolvable;
 }
@@ -258,7 +258,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // client_ids - computed: true, optional: true, required: false
-  private _clientIds?: string[]; 
+  private _clientIds?: string[];
   public get clientIds() {
     return this.getListAttribute('client_ids');
   }
@@ -274,7 +274,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // user_pool_arn - computed: false, optional: false, required: true
-  private _userPoolArn?: string; 
+  private _userPoolArn?: string;
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -324,11 +324,11 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#group_claim VerifiedpermissionsIdentitySource#group_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#group_claim VerifiedpermissionsIdentitySource#group_claim}
   */
   readonly groupClaim: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#group_entity_type VerifiedpermissionsIdentitySource#group_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#group_entity_type VerifiedpermissionsIdentitySource#group_entity_type}
   */
   readonly groupEntityType: string;
 }
@@ -420,7 +420,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // group_claim - computed: false, optional: false, required: true
-  private _groupClaim?: string; 
+  private _groupClaim?: string;
   public get groupClaim() {
     return this.getStringAttribute('group_claim');
   }
@@ -433,7 +433,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // group_entity_type - computed: false, optional: false, required: true
-  private _groupEntityType?: string; 
+  private _groupEntityType?: string;
   public get groupEntityType() {
     return this.getStringAttribute('group_entity_type');
   }
@@ -467,11 +467,11 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#audiences VerifiedpermissionsIdentitySource#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#audiences VerifiedpermissionsIdentitySource#audiences}
   */
   readonly audiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#principal_id_claim VerifiedpermissionsIdentitySource#principal_id_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#principal_id_claim VerifiedpermissionsIdentitySource#principal_id_claim}
   */
   readonly principalIdClaim?: string;
 }
@@ -563,7 +563,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // audiences - computed: false, optional: true, required: false
-  private _audiences?: string[]; 
+  private _audiences?: string[];
   public get audiences() {
     return this.getListAttribute('audiences');
   }
@@ -579,7 +579,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // principal_id_claim - computed: false, optional: true, required: false
-  private _principalIdClaim?: string; 
+  private _principalIdClaim?: string;
   public get principalIdClaim() {
     return this.getStringAttribute('principal_id_claim');
   }
@@ -616,11 +616,11 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#client_ids VerifiedpermissionsIdentitySource#client_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#client_ids VerifiedpermissionsIdentitySource#client_ids}
   */
   readonly clientIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#principal_id_claim VerifiedpermissionsIdentitySource#principal_id_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#principal_id_claim VerifiedpermissionsIdentitySource#principal_id_claim}
   */
   readonly principalIdClaim?: string;
 }
@@ -712,7 +712,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // client_ids - computed: false, optional: true, required: false
-  private _clientIds?: string[]; 
+  private _clientIds?: string[];
   public get clientIds() {
     return this.getListAttribute('client_ids');
   }
@@ -728,7 +728,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // principal_id_claim - computed: false, optional: true, required: false
-  private _principalIdClaim?: string; 
+  private _principalIdClaim?: string;
   public get principalIdClaim() {
     return this.getStringAttribute('principal_id_claim');
   }
@@ -767,13 +767,13 @@ export interface VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConf
   /**
   * access_token_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#access_token_only VerifiedpermissionsIdentitySource#access_token_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#access_token_only VerifiedpermissionsIdentitySource#access_token_only}
   */
   readonly accessTokenOnly?: VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnly[] | cdktn.IResolvable;
   /**
   * identity_token_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#identity_token_only VerifiedpermissionsIdentitySource#identity_token_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#identity_token_only VerifiedpermissionsIdentitySource#identity_token_only}
   */
   readonly identityTokenOnly?: VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnly[] | cdktn.IResolvable;
 }
@@ -918,23 +918,23 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
 }
 export interface VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#entity_id_prefix VerifiedpermissionsIdentitySource#entity_id_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#entity_id_prefix VerifiedpermissionsIdentitySource#entity_id_prefix}
   */
   readonly entityIdPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#issuer VerifiedpermissionsIdentitySource#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#issuer VerifiedpermissionsIdentitySource#issuer}
   */
   readonly issuer: string;
   /**
   * group_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#group_configuration VerifiedpermissionsIdentitySource#group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#group_configuration VerifiedpermissionsIdentitySource#group_configuration}
   */
   readonly groupConfiguration?: VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration[] | cdktn.IResolvable;
   /**
   * token_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#token_selection VerifiedpermissionsIdentitySource#token_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#token_selection VerifiedpermissionsIdentitySource#token_selection}
   */
   readonly tokenSelection?: VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection[] | cdktn.IResolvable;
 }
@@ -1052,7 +1052,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // entity_id_prefix - computed: false, optional: true, required: false
-  private _entityIdPrefix?: string; 
+  private _entityIdPrefix?: string;
   public get entityIdPrefix() {
     return this.getStringAttribute('entity_id_prefix');
   }
@@ -1068,7 +1068,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string; 
+  private _issuer?: string;
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1136,13 +1136,13 @@ export interface VerifiedpermissionsIdentitySourceConfiguration {
   /**
   * cognito_user_pool_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#cognito_user_pool_configuration VerifiedpermissionsIdentitySource#cognito_user_pool_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#cognito_user_pool_configuration VerifiedpermissionsIdentitySource#cognito_user_pool_configuration}
   */
   readonly cognitoUserPoolConfiguration?: VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfiguration[] | cdktn.IResolvable;
   /**
   * open_id_connect_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#open_id_connect_configuration VerifiedpermissionsIdentitySource#open_id_connect_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#open_id_connect_configuration VerifiedpermissionsIdentitySource#open_id_connect_configuration}
   */
   readonly openIdConnectConfiguration?: VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration[] | cdktn.IResolvable;
 }
@@ -1287,7 +1287,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationList extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source}
 */
 export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
 
@@ -1303,7 +1303,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VerifiedpermissionsIdentitySource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VerifiedpermissionsIdentitySource to import
-  * @param importFromId The id of the existing VerifiedpermissionsIdentitySource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VerifiedpermissionsIdentitySource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VerifiedpermissionsIdentitySource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1315,7 +1315,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1326,7 +1326,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_verifiedpermissions_identity_source',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1352,7 +1352,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string; 
+  private _policyStoreId?: string;
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }
@@ -1365,7 +1365,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // principal_entity_type - computed: true, optional: true, required: false
-  private _principalEntityType?: string; 
+  private _principalEntityType?: string;
   public get principalEntityType() {
     return this.getStringAttribute('principal_entity_type');
   }
@@ -1381,7 +1381,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

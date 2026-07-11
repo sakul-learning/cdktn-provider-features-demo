@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightOAuthClientApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}
   */
   readonly dataSourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}
   */
   readonly identityProviderVpcConnectionProperties?: QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}
   */
   readonly oAuthAuthorizationEndpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}
   */
   readonly oAuthClientApplicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}
   */
   readonly oAuthClientAuthenticationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}
   */
   readonly oAuthScopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}
   */
   readonly oAuthTokenEndpointUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}
   */
   readonly tags?: QuicksightOAuthClientApplicationTags[] | cdktn.IResolvable;
 }
 export interface QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}
   */
   readonly vpcConnectionArn?: string;
 }
@@ -131,7 +131,7 @@ export class QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProper
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string; 
+  private _vpcConnectionArn?: string;
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -148,11 +148,11 @@ export class QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProper
 }
 export interface QuicksightOAuthClientApplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}
   */
   readonly value?: string;
 }
@@ -244,7 +244,7 @@ export class QuicksightOAuthClientApplicationTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -260,7 +260,7 @@ export class QuicksightOAuthClientApplicationTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -297,7 +297,7 @@ export class QuicksightOAuthClientApplicationTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}
 */
 export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
 
@@ -313,7 +313,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightOAuthClientApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightOAuthClientApplication to import
-  * @param importFromId The id of the existing QuicksightOAuthClientApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightOAuthClientApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightOAuthClientApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -325,7 +325,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,7 +336,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_o_auth_client_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -369,7 +369,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string; 
+  private _clientId?: string;
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -385,7 +385,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string; 
+  private _clientSecret?: string;
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -406,7 +406,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // data_source_type - computed: true, optional: true, required: false
-  private _dataSourceType?: string; 
+  private _dataSourceType?: string;
   public get dataSourceType() {
     return this.getStringAttribute('data_source_type');
   }
@@ -448,7 +448,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -461,7 +461,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_authorization_endpoint_url - computed: true, optional: true, required: false
-  private _oAuthAuthorizationEndpointUrl?: string; 
+  private _oAuthAuthorizationEndpointUrl?: string;
   public get oAuthAuthorizationEndpointUrl() {
     return this.getStringAttribute('o_auth_authorization_endpoint_url');
   }
@@ -477,7 +477,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_client_application_id - computed: false, optional: false, required: true
-  private _oAuthClientApplicationId?: string; 
+  private _oAuthClientApplicationId?: string;
   public get oAuthClientApplicationId() {
     return this.getStringAttribute('o_auth_client_application_id');
   }
@@ -490,7 +490,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_client_authentication_type - computed: false, optional: false, required: true
-  private _oAuthClientAuthenticationType?: string; 
+  private _oAuthClientAuthenticationType?: string;
   public get oAuthClientAuthenticationType() {
     return this.getStringAttribute('o_auth_client_authentication_type');
   }
@@ -503,7 +503,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_scopes - computed: true, optional: true, required: false
-  private _oAuthScopes?: string; 
+  private _oAuthScopes?: string;
   public get oAuthScopes() {
     return this.getStringAttribute('o_auth_scopes');
   }
@@ -519,7 +519,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_token_endpoint_url - computed: false, optional: false, required: true
-  private _oAuthTokenEndpointUrl?: string; 
+  private _oAuthTokenEndpointUrl?: string;
   public get oAuthTokenEndpointUrl() {
     return this.getStringAttribute('o_auth_token_endpoint_url');
   }

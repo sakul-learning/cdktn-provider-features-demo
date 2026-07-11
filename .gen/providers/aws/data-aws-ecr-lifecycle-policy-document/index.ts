@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataAwsEcrLifecyclePolicyDocumentConfig extends cdktn.Terraform
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#rule DataAwsEcrLifecyclePolicyDocument#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#rule DataAwsEcrLifecyclePolicyDocument#rule}
   */
   readonly rule?: DataAwsEcrLifecyclePolicyDocumentRule[] | cdktn.IResolvable;
 }
 export interface DataAwsEcrLifecyclePolicyDocumentRuleAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#target_storage_class DataAwsEcrLifecyclePolicyDocument#target_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#target_storage_class DataAwsEcrLifecyclePolicyDocument#target_storage_class}
   */
   readonly targetStorageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#type DataAwsEcrLifecyclePolicyDocument#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#type DataAwsEcrLifecyclePolicyDocument#type}
   */
   readonly type: string;
 }
@@ -112,7 +112,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference extends 
   }
 
   // target_storage_class - computed: false, optional: true, required: false
-  private _targetStorageClass?: string; 
+  private _targetStorageClass?: string;
   public get targetStorageClass() {
     return this.getStringAttribute('target_storage_class');
   }
@@ -128,7 +128,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -162,31 +162,31 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleActionList extends cdktn.Compl
 }
 export interface DataAwsEcrLifecyclePolicyDocumentRuleSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#count_number DataAwsEcrLifecyclePolicyDocument#count_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#count_number DataAwsEcrLifecyclePolicyDocument#count_number}
   */
   readonly countNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#count_type DataAwsEcrLifecyclePolicyDocument#count_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#count_type DataAwsEcrLifecyclePolicyDocument#count_type}
   */
   readonly countType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#count_unit DataAwsEcrLifecyclePolicyDocument#count_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#count_unit DataAwsEcrLifecyclePolicyDocument#count_unit}
   */
   readonly countUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#storage_class DataAwsEcrLifecyclePolicyDocument#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#storage_class DataAwsEcrLifecyclePolicyDocument#storage_class}
   */
   readonly storageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#tag_pattern_list DataAwsEcrLifecyclePolicyDocument#tag_pattern_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#tag_pattern_list DataAwsEcrLifecyclePolicyDocument#tag_pattern_list}
   */
   readonly tagPatternList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#tag_prefix_list DataAwsEcrLifecyclePolicyDocument#tag_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#tag_prefix_list DataAwsEcrLifecyclePolicyDocument#tag_prefix_list}
   */
   readonly tagPrefixList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#tag_status DataAwsEcrLifecyclePolicyDocument#tag_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#tag_status DataAwsEcrLifecyclePolicyDocument#tag_status}
   */
   readonly tagStatus: string;
 }
@@ -343,7 +343,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_number - computed: false, optional: false, required: true
-  private _countNumber?: number; 
+  private _countNumber?: number;
   public get countNumber() {
     return this.getNumberAttribute('count_number');
   }
@@ -356,7 +356,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_type - computed: false, optional: false, required: true
-  private _countType?: string; 
+  private _countType?: string;
   public get countType() {
     return this.getStringAttribute('count_type');
   }
@@ -369,7 +369,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_unit - computed: false, optional: true, required: false
-  private _countUnit?: string; 
+  private _countUnit?: string;
   public get countUnit() {
     return this.getStringAttribute('count_unit');
   }
@@ -385,7 +385,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string; 
+  private _storageClass?: string;
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -401,7 +401,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_pattern_list - computed: false, optional: true, required: false
-  private _tagPatternList?: string[]; 
+  private _tagPatternList?: string[];
   public get tagPatternList() {
     return this.getListAttribute('tag_pattern_list');
   }
@@ -417,7 +417,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_prefix_list - computed: false, optional: true, required: false
-  private _tagPrefixList?: string[]; 
+  private _tagPrefixList?: string[];
   public get tagPrefixList() {
     return this.getListAttribute('tag_prefix_list');
   }
@@ -433,7 +433,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_status - computed: false, optional: false, required: true
-  private _tagStatus?: string; 
+  private _tagStatus?: string;
   public get tagStatus() {
     return this.getStringAttribute('tag_status');
   }
@@ -467,23 +467,23 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionList extends cdktn.Co
 }
 export interface DataAwsEcrLifecyclePolicyDocumentRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#description DataAwsEcrLifecyclePolicyDocument#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#description DataAwsEcrLifecyclePolicyDocument#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#priority DataAwsEcrLifecyclePolicyDocument#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#priority DataAwsEcrLifecyclePolicyDocument#priority}
   */
   readonly priority: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#action DataAwsEcrLifecyclePolicyDocument#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#action DataAwsEcrLifecyclePolicyDocument#action}
   */
   readonly action?: DataAwsEcrLifecyclePolicyDocumentRuleAction[] | cdktn.IResolvable;
   /**
   * selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#selection DataAwsEcrLifecyclePolicyDocument#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#selection DataAwsEcrLifecyclePolicyDocument#selection}
   */
   readonly selection?: DataAwsEcrLifecyclePolicyDocumentRuleSelection[] | cdktn.IResolvable;
 }
@@ -601,7 +601,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleOutputReference extends cdktn.
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -617,7 +617,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleOutputReference extends cdktn.
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -683,7 +683,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}
 */
 export class DataAwsEcrLifecyclePolicyDocument extends cdktn.TerraformDataSource {
 
@@ -699,7 +699,7 @@ export class DataAwsEcrLifecyclePolicyDocument extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsEcrLifecyclePolicyDocument resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsEcrLifecyclePolicyDocument to import
-  * @param importFromId The id of the existing DataAwsEcrLifecyclePolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsEcrLifecyclePolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsEcrLifecyclePolicyDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -711,7 +711,7 @@ export class DataAwsEcrLifecyclePolicyDocument extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -722,7 +722,7 @@ export class DataAwsEcrLifecyclePolicyDocument extends cdktn.TerraformDataSource
       terraformResourceType: 'aws_ecr_lifecycle_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

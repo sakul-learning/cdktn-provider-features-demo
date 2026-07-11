@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/vpclattice_access_log_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/vpclattice_access_log_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccVpclatticeAccessLogSubscriptionConfig extends cdktn.Te
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/vpclattice_access_log_subscription#id DataAwsccVpclatticeAccessLogSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/vpclattice_access_log_subscription#id DataAwsccVpclatticeAccessLogSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ export class DataAwsccVpclatticeAccessLogSubscriptionTagsList extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}
 */
 export class DataAwsccVpclatticeAccessLogSubscription extends cdktn.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataAwsccVpclatticeAccessLogSubscription extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccVpclatticeAccessLogSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccVpclatticeAccessLogSubscription to import
-  * @param importFromId The id of the existing DataAwsccVpclatticeAccessLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/vpclattice_access_log_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccVpclatticeAccessLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/vpclattice_access_log_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccVpclatticeAccessLogSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataAwsccVpclatticeAccessLogSubscription extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,7 +138,7 @@ export class DataAwsccVpclatticeAccessLogSubscription extends cdktn.TerraformDat
       terraformResourceType: 'awscc_vpclattice_access_log_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -171,7 +171,7 @@ export class DataAwsccVpclatticeAccessLogSubscription extends cdktn.TerraformDat
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

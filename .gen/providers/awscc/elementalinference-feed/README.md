@@ -1,3 +1,3 @@
 # `awscc_elementalinference_feed`
 
-Refer to the Terraform Registry for docs: [`awscc_elementalinference_feed`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elementalinference_feed).
+Refer to the Terraform Registry for docs: [`awscc_elementalinference_feed`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elementalinference_feed).

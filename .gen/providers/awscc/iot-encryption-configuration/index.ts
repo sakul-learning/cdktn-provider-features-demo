@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface IotEncryptionConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration#encryption_type IotEncryptionConfiguration#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration#encryption_type IotEncryptionConfiguration#encryption_type}
   */
   readonly encryptionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration#kms_access_role_arn IotEncryptionConfiguration#kms_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration#kms_access_role_arn IotEncryptionConfiguration#kms_access_role_arn}
   */
   readonly kmsAccessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration#kms_key_arn IotEncryptionConfiguration#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration#kms_key_arn IotEncryptionConfiguration#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -86,7 +86,7 @@ export class IotEncryptionConfigurationConfigurationDetailsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration}
 */
 export class IotEncryptionConfiguration extends cdktn.TerraformResource {
 
@@ -102,7 +102,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotEncryptionConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotEncryptionConfiguration to import
-  * @param importFromId The id of the existing IotEncryptionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotEncryptionConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotEncryptionConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -114,7 +114,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -125,7 +125,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_encryption_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -156,7 +156,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // encryption_type - computed: false, optional: false, required: true
-  private _encryptionType?: string; 
+  private _encryptionType?: string;
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -174,7 +174,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // kms_access_role_arn - computed: true, optional: true, required: false
-  private _kmsAccessRoleArn?: string; 
+  private _kmsAccessRoleArn?: string;
   public get kmsAccessRoleArn() {
     return this.getStringAttribute('kms_access_role_arn');
   }
@@ -190,7 +190,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

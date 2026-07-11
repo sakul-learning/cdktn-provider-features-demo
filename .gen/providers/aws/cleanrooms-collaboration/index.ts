@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,77 @@ import * as cdktn from 'cdktn';
 
 export interface CleanroomsCollaborationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#analytics_engine CleanroomsCollaboration#analytics_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#analytics_engine CleanroomsCollaboration#analytics_engine}
   */
   readonly analyticsEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#creator_display_name CleanroomsCollaboration#creator_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#creator_display_name CleanroomsCollaboration#creator_display_name}
   */
   readonly creatorDisplayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#creator_member_abilities CleanroomsCollaboration#creator_member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#creator_member_abilities CleanroomsCollaboration#creator_member_abilities}
   */
   readonly creatorMemberAbilities: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#description CleanroomsCollaboration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#description CleanroomsCollaboration#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#name CleanroomsCollaboration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#name CleanroomsCollaboration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#query_log_status CleanroomsCollaboration#query_log_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#query_log_status CleanroomsCollaboration#query_log_status}
   */
   readonly queryLogStatus: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#region CleanroomsCollaboration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#region CleanroomsCollaboration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#tags CleanroomsCollaboration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#tags CleanroomsCollaboration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#tags_all CleanroomsCollaboration#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#tags_all CleanroomsCollaboration#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * data_encryption_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#data_encryption_metadata CleanroomsCollaboration#data_encryption_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#data_encryption_metadata CleanroomsCollaboration#data_encryption_metadata}
   */
   readonly dataEncryptionMetadata?: CleanroomsCollaborationDataEncryptionMetadata;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#member CleanroomsCollaboration#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#member CleanroomsCollaboration#member}
   */
   readonly member?: CleanroomsCollaborationMember[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#timeouts CleanroomsCollaboration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#timeouts CleanroomsCollaboration#timeouts}
   */
   readonly timeouts?: CleanroomsCollaborationTimeouts;
 }
 export interface CleanroomsCollaborationDataEncryptionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#allow_clear_text CleanroomsCollaboration#allow_clear_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#allow_clear_text CleanroomsCollaboration#allow_clear_text}
   */
   readonly allowClearText: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#allow_duplicates CleanroomsCollaboration#allow_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#allow_duplicates CleanroomsCollaboration#allow_duplicates}
   */
   readonly allowDuplicates: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#allow_joins_on_columns_with_different_names CleanroomsCollaboration#allow_joins_on_columns_with_different_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#allow_joins_on_columns_with_different_names CleanroomsCollaboration#allow_joins_on_columns_with_different_names}
   */
   readonly allowJoinsOnColumnsWithDifferentNames: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#preserve_nulls CleanroomsCollaboration#preserve_nulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#preserve_nulls CleanroomsCollaboration#preserve_nulls}
   */
   readonly preserveNulls: boolean | cdktn.IResolvable;
 }
@@ -184,7 +184,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_clear_text - computed: false, optional: false, required: true
-  private _allowClearText?: boolean | cdktn.IResolvable; 
+  private _allowClearText?: boolean | cdktn.IResolvable;
   public get allowClearText() {
     return this.getBooleanAttribute('allow_clear_text');
   }
@@ -197,7 +197,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_duplicates - computed: false, optional: false, required: true
-  private _allowDuplicates?: boolean | cdktn.IResolvable; 
+  private _allowDuplicates?: boolean | cdktn.IResolvable;
   public get allowDuplicates() {
     return this.getBooleanAttribute('allow_duplicates');
   }
@@ -210,7 +210,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_joins_on_columns_with_different_names - computed: false, optional: false, required: true
-  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable; 
+  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable;
   public get allowJoinsOnColumnsWithDifferentNames() {
     return this.getBooleanAttribute('allow_joins_on_columns_with_different_names');
   }
@@ -223,7 +223,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // preserve_nulls - computed: false, optional: false, required: true
-  private _preserveNulls?: boolean | cdktn.IResolvable; 
+  private _preserveNulls?: boolean | cdktn.IResolvable;
   public get preserveNulls() {
     return this.getBooleanAttribute('preserve_nulls');
   }
@@ -237,15 +237,15 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
 }
 export interface CleanroomsCollaborationMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#account_id CleanroomsCollaboration#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#display_name CleanroomsCollaboration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#member_abilities CleanroomsCollaboration#member_abilities}
   */
   readonly memberAbilities: string[];
 }
@@ -350,7 +350,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -363,7 +363,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -376,7 +376,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // member_abilities - computed: false, optional: false, required: true
-  private _memberAbilities?: string[]; 
+  private _memberAbilities?: string[];
   public get memberAbilities() {
     return this.getListAttribute('member_abilities');
   }
@@ -415,15 +415,15 @@ export class CleanroomsCollaborationMemberList extends cdktn.ComplexList {
 }
 export interface CleanroomsCollaborationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#create CleanroomsCollaboration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#create CleanroomsCollaboration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#delete CleanroomsCollaboration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#delete CleanroomsCollaboration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#update CleanroomsCollaboration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#update CleanroomsCollaboration#update}
   */
   readonly update?: string;
 }
@@ -526,7 +526,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -542,7 +542,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -558,7 +558,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -575,7 +575,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}
 */
 export class CleanroomsCollaboration extends cdktn.TerraformResource {
 
@@ -591,7 +591,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CleanroomsCollaboration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanroomsCollaboration to import
-  * @param importFromId The id of the existing CleanroomsCollaboration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanroomsCollaboration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanroomsCollaboration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -603,7 +603,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,7 +614,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cleanrooms_collaboration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -643,7 +643,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ==========
 
   // analytics_engine - computed: false, optional: true, required: false
-  private _analyticsEngine?: string; 
+  private _analyticsEngine?: string;
   public get analyticsEngine() {
     return this.getStringAttribute('analytics_engine');
   }
@@ -669,7 +669,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_display_name - computed: false, optional: false, required: true
-  private _creatorDisplayName?: string; 
+  private _creatorDisplayName?: string;
   public get creatorDisplayName() {
     return this.getStringAttribute('creator_display_name');
   }
@@ -682,7 +682,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_member_abilities - computed: false, optional: false, required: true
-  private _creatorMemberAbilities?: string[]; 
+  private _creatorMemberAbilities?: string[];
   public get creatorMemberAbilities() {
     return this.getListAttribute('creator_member_abilities');
   }
@@ -695,7 +695,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -713,7 +713,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -726,7 +726,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // query_log_status - computed: false, optional: false, required: true
-  private _queryLogStatus?: string; 
+  private _queryLogStatus?: string;
   public get queryLogStatus() {
     return this.getStringAttribute('query_log_status');
   }
@@ -739,7 +739,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -755,7 +755,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -771,7 +771,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

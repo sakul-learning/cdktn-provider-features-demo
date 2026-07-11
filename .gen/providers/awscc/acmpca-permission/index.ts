@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AcmpcaPermissionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The actions that the specified AWS service principal can use. Actions IssueCertificate, GetCertificate and ListPermissions must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
   */
   readonly actions: string[];
   /**
   * The Amazon Resource Name (ARN) of the Private Certificate Authority that grants the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
   */
   readonly certificateAuthorityArn: string;
   /**
   * The AWS service or identity that receives the permission. At this time, the only valid principal is acm.amazonaws.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
   */
   readonly principal: string;
   /**
   * The ID of the calling account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
   */
   readonly sourceAccount?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission awscc_acmpca_permission}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission awscc_acmpca_permission}
 */
 export class AcmpcaPermission extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AcmpcaPermission resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcmpcaPermission to import
-  * @param importFromId The id of the existing AcmpcaPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcmpcaPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcmpcaPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_acmpca_permission',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   // ==========
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -107,7 +107,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string; 
+  private _certificateAuthorityArn?: string;
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -125,7 +125,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -138,7 +138,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // source_account - computed: true, optional: true, required: false
-  private _sourceAccount?: string; 
+  private _sourceAccount?: string;
   public get sourceAccount() {
     return this.getStringAttribute('source_account');
   }

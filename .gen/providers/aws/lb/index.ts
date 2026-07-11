@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktn from 'cdktn';
 
 export interface LbConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#client_keep_alive Lb#client_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#client_keep_alive Lb#client_keep_alive}
   */
   readonly clientKeepAlive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#customer_owned_ipv4_pool Lb#customer_owned_ipv4_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#customer_owned_ipv4_pool Lb#customer_owned_ipv4_pool}
   */
   readonly customerOwnedIpv4Pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#desync_mitigation_mode Lb#desync_mitigation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#desync_mitigation_mode Lb#desync_mitigation_mode}
   */
   readonly desyncMitigationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#dns_record_client_routing_policy Lb#dns_record_client_routing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#dns_record_client_routing_policy Lb#dns_record_client_routing_policy}
   */
   readonly dnsRecordClientRoutingPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#drop_invalid_header_fields Lb#drop_invalid_header_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#drop_invalid_header_fields Lb#drop_invalid_header_fields}
   */
   readonly dropInvalidHeaderFields?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_cross_zone_load_balancing Lb#enable_cross_zone_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_cross_zone_load_balancing Lb#enable_cross_zone_load_balancing}
   */
   readonly enableCrossZoneLoadBalancing?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_deletion_protection Lb#enable_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_deletion_protection Lb#enable_deletion_protection}
   */
   readonly enableDeletionProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_http2 Lb#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_http2 Lb#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_prefix_for_ipv6_source_nat Lb#enable_prefix_for_ipv6_source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_prefix_for_ipv6_source_nat Lb#enable_prefix_for_ipv6_source_nat}
   */
   readonly enablePrefixForIpv6SourceNat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_tls_version_and_cipher_suite_headers Lb#enable_tls_version_and_cipher_suite_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_tls_version_and_cipher_suite_headers Lb#enable_tls_version_and_cipher_suite_headers}
   */
   readonly enableTlsVersionAndCipherSuiteHeaders?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_waf_fail_open Lb#enable_waf_fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_waf_fail_open Lb#enable_waf_fail_open}
   */
   readonly enableWafFailOpen?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_xff_client_port Lb#enable_xff_client_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_xff_client_port Lb#enable_xff_client_port}
   */
   readonly enableXffClientPort?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enable_zonal_shift Lb#enable_zonal_shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enable_zonal_shift Lb#enable_zonal_shift}
   */
   readonly enableZonalShift?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enforce_security_group_inbound_rules_on_private_link_traffic Lb#enforce_security_group_inbound_rules_on_private_link_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enforce_security_group_inbound_rules_on_private_link_traffic Lb#enforce_security_group_inbound_rules_on_private_link_traffic}
   */
   readonly enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#id Lb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#id Lb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#idle_timeout Lb#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#idle_timeout Lb#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#internal Lb#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#internal Lb#internal}
   */
   readonly internal?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#ip_address_type Lb#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#ip_address_type Lb#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#load_balancer_type Lb#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#load_balancer_type Lb#load_balancer_type}
   */
   readonly loadBalancerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#name Lb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#name Lb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#name_prefix Lb#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#name_prefix Lb#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#preserve_host_header Lb#preserve_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#preserve_host_header Lb#preserve_host_header}
   */
   readonly preserveHostHeader?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#region Lb#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#region Lb#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#secondary_ips_auto_assigned_per_subnet Lb#secondary_ips_auto_assigned_per_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#secondary_ips_auto_assigned_per_subnet Lb#secondary_ips_auto_assigned_per_subnet}
   */
   readonly secondaryIpsAutoAssignedPerSubnet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#security_groups Lb#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#security_groups Lb#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#subnets Lb#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#subnets Lb#subnets}
   */
   readonly subnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#tags Lb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#tags Lb#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#tags_all Lb#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#tags_all Lb#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#xff_header_processing_mode Lb#xff_header_processing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#xff_header_processing_mode Lb#xff_header_processing_mode}
   */
   readonly xffHeaderProcessingMode?: string;
   /**
   * access_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#access_logs Lb#access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#access_logs Lb#access_logs}
   */
   readonly accessLogs?: LbAccessLogs;
   /**
   * connection_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#connection_logs Lb#connection_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#connection_logs Lb#connection_logs}
   */
   readonly connectionLogs?: LbConnectionLogs;
   /**
   * health_check_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#health_check_logs Lb#health_check_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#health_check_logs Lb#health_check_logs}
   */
   readonly healthCheckLogs?: LbHealthCheckLogs;
   /**
   * ipam_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#ipam_pools Lb#ipam_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#ipam_pools Lb#ipam_pools}
   */
   readonly ipamPools?: LbIpamPools;
   /**
   * minimum_load_balancer_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#minimum_load_balancer_capacity Lb#minimum_load_balancer_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#minimum_load_balancer_capacity Lb#minimum_load_balancer_capacity}
   */
   readonly minimumLoadBalancerCapacity?: LbMinimumLoadBalancerCapacity;
   /**
   * subnet_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#subnet_mapping Lb#subnet_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#subnet_mapping Lb#subnet_mapping}
   */
   readonly subnetMapping?: LbSubnetMapping[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#timeouts Lb#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#timeouts Lb#timeouts}
   */
   readonly timeouts?: LbTimeouts;
 }
 export interface LbAccessLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#bucket Lb#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#bucket Lb#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enabled Lb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enabled Lb#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#prefix Lb#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#prefix Lb#prefix}
   */
   readonly prefix?: string;
 }
@@ -274,7 +274,7 @@ export class LbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -287,7 +287,7 @@ export class LbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -303,7 +303,7 @@ export class LbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -320,15 +320,15 @@ export class LbAccessLogsOutputReference extends cdktn.ComplexObject {
 }
 export interface LbConnectionLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#bucket Lb#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#bucket Lb#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enabled Lb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enabled Lb#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#prefix Lb#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#prefix Lb#prefix}
   */
   readonly prefix?: string;
 }
@@ -421,7 +421,7 @@ export class LbConnectionLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -434,7 +434,7 @@ export class LbConnectionLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -450,7 +450,7 @@ export class LbConnectionLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -467,15 +467,15 @@ export class LbConnectionLogsOutputReference extends cdktn.ComplexObject {
 }
 export interface LbHealthCheckLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#bucket Lb#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#bucket Lb#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#enabled Lb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#enabled Lb#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#prefix Lb#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#prefix Lb#prefix}
   */
   readonly prefix?: string;
 }
@@ -568,7 +568,7 @@ export class LbHealthCheckLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -581,7 +581,7 @@ export class LbHealthCheckLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -597,7 +597,7 @@ export class LbHealthCheckLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -614,7 +614,7 @@ export class LbHealthCheckLogsOutputReference extends cdktn.ComplexObject {
 }
 export interface LbIpamPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#ipv4_ipam_pool_id Lb#ipv4_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#ipv4_ipam_pool_id Lb#ipv4_ipam_pool_id}
   */
   readonly ipv4IpamPoolId: string;
 }
@@ -681,7 +681,7 @@ export class LbIpamPoolsOutputReference extends cdktn.ComplexObject {
   }
 
   // ipv4_ipam_pool_id - computed: false, optional: false, required: true
-  private _ipv4IpamPoolId?: string; 
+  private _ipv4IpamPoolId?: string;
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv4_ipam_pool_id');
   }
@@ -695,7 +695,7 @@ export class LbIpamPoolsOutputReference extends cdktn.ComplexObject {
 }
 export interface LbMinimumLoadBalancerCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#capacity_units Lb#capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#capacity_units Lb#capacity_units}
   */
   readonly capacityUnits: number;
 }
@@ -762,7 +762,7 @@ export class LbMinimumLoadBalancerCapacityOutputReference extends cdktn.ComplexO
   }
 
   // capacity_units - computed: false, optional: false, required: true
-  private _capacityUnits?: number; 
+  private _capacityUnits?: number;
   public get capacityUnits() {
     return this.getNumberAttribute('capacity_units');
   }
@@ -776,19 +776,19 @@ export class LbMinimumLoadBalancerCapacityOutputReference extends cdktn.ComplexO
 }
 export interface LbSubnetMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#allocation_id Lb#allocation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#allocation_id Lb#allocation_id}
   */
   readonly allocationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#ipv6_address Lb#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#ipv6_address Lb#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#private_ipv4_address Lb#private_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#private_ipv4_address Lb#private_ipv4_address}
   */
   readonly privateIpv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#subnet_id Lb#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#subnet_id Lb#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -906,7 +906,7 @@ export class LbSubnetMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // allocation_id - computed: false, optional: true, required: false
-  private _allocationId?: string; 
+  private _allocationId?: string;
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -922,7 +922,7 @@ export class LbSubnetMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // ipv6_address - computed: false, optional: true, required: false
-  private _ipv6Address?: string; 
+  private _ipv6Address?: string;
   public get ipv6Address() {
     return this.getStringAttribute('ipv6_address');
   }
@@ -943,7 +943,7 @@ export class LbSubnetMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // private_ipv4_address - computed: false, optional: true, required: false
-  private _privateIpv4Address?: string; 
+  private _privateIpv4Address?: string;
   public get privateIpv4Address() {
     return this.getStringAttribute('private_ipv4_address');
   }
@@ -959,7 +959,7 @@ export class LbSubnetMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -993,15 +993,15 @@ export class LbSubnetMappingList extends cdktn.ComplexList {
 }
 export interface LbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#create Lb#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#create Lb#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#delete Lb#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#delete Lb#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#update Lb#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#update Lb#update}
   */
   readonly update?: string;
 }
@@ -1104,7 +1104,7 @@ export class LbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1120,7 +1120,7 @@ export class LbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1136,7 +1136,7 @@ export class LbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1153,7 +1153,7 @@ export class LbTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb aws_lb}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb aws_lb}
 */
 export class Lb extends cdktn.TerraformResource {
 
@@ -1169,7 +1169,7 @@ export class Lb extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Lb resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lb to import
-  * @param importFromId The id of the existing Lb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1181,7 +1181,7 @@ export class Lb extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lb aws_lb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb aws_lb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1192,7 +1192,7 @@ export class Lb extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lb',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1255,7 +1255,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // client_keep_alive - computed: false, optional: true, required: false
-  private _clientKeepAlive?: number; 
+  private _clientKeepAlive?: number;
   public get clientKeepAlive() {
     return this.getNumberAttribute('client_keep_alive');
   }
@@ -1271,7 +1271,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // customer_owned_ipv4_pool - computed: false, optional: true, required: false
-  private _customerOwnedIpv4Pool?: string; 
+  private _customerOwnedIpv4Pool?: string;
   public get customerOwnedIpv4Pool() {
     return this.getStringAttribute('customer_owned_ipv4_pool');
   }
@@ -1287,7 +1287,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // desync_mitigation_mode - computed: false, optional: true, required: false
-  private _desyncMitigationMode?: string; 
+  private _desyncMitigationMode?: string;
   public get desyncMitigationMode() {
     return this.getStringAttribute('desync_mitigation_mode');
   }
@@ -1308,7 +1308,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // dns_record_client_routing_policy - computed: false, optional: true, required: false
-  private _dnsRecordClientRoutingPolicy?: string; 
+  private _dnsRecordClientRoutingPolicy?: string;
   public get dnsRecordClientRoutingPolicy() {
     return this.getStringAttribute('dns_record_client_routing_policy');
   }
@@ -1324,7 +1324,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // drop_invalid_header_fields - computed: false, optional: true, required: false
-  private _dropInvalidHeaderFields?: boolean | cdktn.IResolvable; 
+  private _dropInvalidHeaderFields?: boolean | cdktn.IResolvable;
   public get dropInvalidHeaderFields() {
     return this.getBooleanAttribute('drop_invalid_header_fields');
   }
@@ -1340,7 +1340,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_cross_zone_load_balancing - computed: false, optional: true, required: false
-  private _enableCrossZoneLoadBalancing?: boolean | cdktn.IResolvable; 
+  private _enableCrossZoneLoadBalancing?: boolean | cdktn.IResolvable;
   public get enableCrossZoneLoadBalancing() {
     return this.getBooleanAttribute('enable_cross_zone_load_balancing');
   }
@@ -1356,7 +1356,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_deletion_protection - computed: false, optional: true, required: false
-  private _enableDeletionProtection?: boolean | cdktn.IResolvable; 
+  private _enableDeletionProtection?: boolean | cdktn.IResolvable;
   public get enableDeletionProtection() {
     return this.getBooleanAttribute('enable_deletion_protection');
   }
@@ -1372,7 +1372,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_http2 - computed: false, optional: true, required: false
-  private _enableHttp2?: boolean | cdktn.IResolvable; 
+  private _enableHttp2?: boolean | cdktn.IResolvable;
   public get enableHttp2() {
     return this.getBooleanAttribute('enable_http2');
   }
@@ -1388,7 +1388,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_prefix_for_ipv6_source_nat - computed: true, optional: true, required: false
-  private _enablePrefixForIpv6SourceNat?: string; 
+  private _enablePrefixForIpv6SourceNat?: string;
   public get enablePrefixForIpv6SourceNat() {
     return this.getStringAttribute('enable_prefix_for_ipv6_source_nat');
   }
@@ -1404,7 +1404,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_tls_version_and_cipher_suite_headers - computed: false, optional: true, required: false
-  private _enableTlsVersionAndCipherSuiteHeaders?: boolean | cdktn.IResolvable; 
+  private _enableTlsVersionAndCipherSuiteHeaders?: boolean | cdktn.IResolvable;
   public get enableTlsVersionAndCipherSuiteHeaders() {
     return this.getBooleanAttribute('enable_tls_version_and_cipher_suite_headers');
   }
@@ -1420,7 +1420,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_waf_fail_open - computed: false, optional: true, required: false
-  private _enableWafFailOpen?: boolean | cdktn.IResolvable; 
+  private _enableWafFailOpen?: boolean | cdktn.IResolvable;
   public get enableWafFailOpen() {
     return this.getBooleanAttribute('enable_waf_fail_open');
   }
@@ -1436,7 +1436,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_xff_client_port - computed: false, optional: true, required: false
-  private _enableXffClientPort?: boolean | cdktn.IResolvable; 
+  private _enableXffClientPort?: boolean | cdktn.IResolvable;
   public get enableXffClientPort() {
     return this.getBooleanAttribute('enable_xff_client_port');
   }
@@ -1452,7 +1452,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enable_zonal_shift - computed: false, optional: true, required: false
-  private _enableZonalShift?: boolean | cdktn.IResolvable; 
+  private _enableZonalShift?: boolean | cdktn.IResolvable;
   public get enableZonalShift() {
     return this.getBooleanAttribute('enable_zonal_shift');
   }
@@ -1468,7 +1468,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // enforce_security_group_inbound_rules_on_private_link_traffic - computed: true, optional: true, required: false
-  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string; 
+  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string;
   public get enforceSecurityGroupInboundRulesOnPrivateLinkTraffic() {
     return this.getStringAttribute('enforce_security_group_inbound_rules_on_private_link_traffic');
   }
@@ -1484,7 +1484,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1500,7 +1500,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // idle_timeout - computed: false, optional: true, required: false
-  private _idleTimeout?: number; 
+  private _idleTimeout?: number;
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -1516,7 +1516,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // internal - computed: true, optional: true, required: false
-  private _internal?: boolean | cdktn.IResolvable; 
+  private _internal?: boolean | cdktn.IResolvable;
   public get internal() {
     return this.getBooleanAttribute('internal');
   }
@@ -1532,7 +1532,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1548,7 +1548,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // load_balancer_type - computed: false, optional: true, required: false
-  private _loadBalancerType?: string; 
+  private _loadBalancerType?: string;
   public get loadBalancerType() {
     return this.getStringAttribute('load_balancer_type');
   }
@@ -1564,7 +1564,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1580,7 +1580,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1596,7 +1596,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // preserve_host_header - computed: false, optional: true, required: false
-  private _preserveHostHeader?: boolean | cdktn.IResolvable; 
+  private _preserveHostHeader?: boolean | cdktn.IResolvable;
   public get preserveHostHeader() {
     return this.getBooleanAttribute('preserve_host_header');
   }
@@ -1612,7 +1612,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1628,7 +1628,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // secondary_ips_auto_assigned_per_subnet - computed: true, optional: true, required: false
-  private _secondaryIpsAutoAssignedPerSubnet?: number; 
+  private _secondaryIpsAutoAssignedPerSubnet?: number;
   public get secondaryIpsAutoAssignedPerSubnet() {
     return this.getNumberAttribute('secondary_ips_auto_assigned_per_subnet');
   }
@@ -1644,7 +1644,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1660,7 +1660,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1676,7 +1676,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1692,7 +1692,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1713,7 +1713,7 @@ export class Lb extends cdktn.TerraformResource {
   }
 
   // xff_header_processing_mode - computed: false, optional: true, required: false
-  private _xffHeaderProcessingMode?: string; 
+  private _xffHeaderProcessingMode?: string;
   public get xffHeaderProcessingMode() {
     return this.getStringAttribute('xff_header_processing_mode');
   }

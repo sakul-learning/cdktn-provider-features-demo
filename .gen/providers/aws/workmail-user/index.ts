@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface WorkmailUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * City where the user is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#city WorkmailUser#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#city WorkmailUser#city}
   */
   readonly city?: string;
   /**
   * Company associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#company WorkmailUser#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#company WorkmailUser#company}
   */
   readonly company?: string;
   /**
   * Country where the user is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#country WorkmailUser#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#country WorkmailUser#country}
   */
   readonly country?: string;
   /**
   * Department associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#department WorkmailUser#department}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#department WorkmailUser#department}
   */
   readonly department?: string;
   /**
   * Display name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#display_name WorkmailUser#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#display_name WorkmailUser#display_name}
   */
   readonly displayName: string;
   /**
   * Primary email address used to register the user with WorkMail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#email WorkmailUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#email WorkmailUser#email}
   */
   readonly email: string;
   /**
   * First name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#first_name WorkmailUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#first_name WorkmailUser#first_name}
   */
   readonly firstName?: string;
   /**
   * Whether to hide the user from the global address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#hidden_from_global_address_list WorkmailUser#hidden_from_global_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#hidden_from_global_address_list WorkmailUser#hidden_from_global_address_list}
   */
   readonly hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
   /**
   * User ID from IAM Identity Center associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#identity_provider_user_id WorkmailUser#identity_provider_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#identity_provider_user_id WorkmailUser#identity_provider_user_id}
   */
   readonly identityProviderUserId?: string;
   /**
   * Initials of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#initials WorkmailUser#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#initials WorkmailUser#initials}
   */
   readonly initials?: string;
   /**
   * Job title of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#job_title WorkmailUser#job_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#job_title WorkmailUser#job_title}
   */
   readonly jobTitle?: string;
   /**
   * Last name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#last_name WorkmailUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#last_name WorkmailUser#last_name}
   */
   readonly lastName?: string;
   /**
   * Username of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#name WorkmailUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#name WorkmailUser#name}
   */
   readonly name: string;
   /**
   * Office where the user is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#office WorkmailUser#office}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#office WorkmailUser#office}
   */
   readonly office?: string;
   /**
   * Identifier of the WorkMail organization where the user is managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#organization_id WorkmailUser#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#organization_id WorkmailUser#organization_id}
   */
   readonly organizationId: string;
   /**
   * Password to set for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#password WorkmailUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#password WorkmailUser#password}
   */
   readonly password?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#region WorkmailUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#region WorkmailUser#region}
   */
   readonly region?: string;
   /**
   * Street address of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#street WorkmailUser#street}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#street WorkmailUser#street}
   */
   readonly street?: string;
   /**
   * Telephone number of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#telephone WorkmailUser#telephone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#telephone WorkmailUser#telephone}
   */
   readonly telephone?: string;
   /**
   * Role assigned to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#user_role WorkmailUser#user_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#user_role WorkmailUser#user_role}
   */
   readonly userRole?: string;
   /**
   * ZIP or postal code of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#zip_code WorkmailUser#zip_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#zip_code WorkmailUser#zip_code}
   */
   readonly zipCode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user aws_workmail_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user aws_workmail_user}
 */
 export class WorkmailUser extends cdktn.TerraformResource {
 
@@ -152,7 +152,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkmailUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkmailUser to import
-  * @param importFromId The id of the existing WorkmailUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkmailUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkmailUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -164,7 +164,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_user aws_workmail_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_user aws_workmail_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workmail_user',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -213,7 +213,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   // ==========
 
   // city - computed: false, optional: true, required: false
-  private _city?: string; 
+  private _city?: string;
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -229,7 +229,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // company - computed: false, optional: true, required: false
-  private _company?: string; 
+  private _company?: string;
   public get company() {
     return this.getStringAttribute('company');
   }
@@ -245,7 +245,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string; 
+  private _country?: string;
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -261,7 +261,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // department - computed: false, optional: true, required: false
-  private _department?: string; 
+  private _department?: string;
   public get department() {
     return this.getStringAttribute('department');
   }
@@ -282,7 +282,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -295,7 +295,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -313,7 +313,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -329,7 +329,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // hidden_from_global_address_list - computed: true, optional: true, required: false
-  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable; 
+  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
   public get hiddenFromGlobalAddressList() {
     return this.getBooleanAttribute('hidden_from_global_address_list');
   }
@@ -350,7 +350,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // identity_provider_user_id - computed: false, optional: true, required: false
-  private _identityProviderUserId?: string; 
+  private _identityProviderUserId?: string;
   public get identityProviderUserId() {
     return this.getStringAttribute('identity_provider_user_id');
   }
@@ -366,7 +366,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // initials - computed: false, optional: true, required: false
-  private _initials?: string; 
+  private _initials?: string;
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -382,7 +382,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // job_title - computed: false, optional: true, required: false
-  private _jobTitle?: string; 
+  private _jobTitle?: string;
   public get jobTitle() {
     return this.getStringAttribute('job_title');
   }
@@ -398,7 +398,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -424,7 +424,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -437,7 +437,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // office - computed: false, optional: true, required: false
-  private _office?: string; 
+  private _office?: string;
   public get office() {
     return this.getStringAttribute('office');
   }
@@ -453,7 +453,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string; 
+  private _organizationId?: string;
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -466,7 +466,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -482,7 +482,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -503,7 +503,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // street - computed: false, optional: true, required: false
-  private _street?: string; 
+  private _street?: string;
   public get street() {
     return this.getStringAttribute('street');
   }
@@ -519,7 +519,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // telephone - computed: false, optional: true, required: false
-  private _telephone?: string; 
+  private _telephone?: string;
   public get telephone() {
     return this.getStringAttribute('telephone');
   }
@@ -540,7 +540,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // user_role - computed: true, optional: true, required: false
-  private _userRole?: string; 
+  private _userRole?: string;
   public get userRole() {
     return this.getStringAttribute('user_role');
   }
@@ -556,7 +556,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // zip_code - computed: false, optional: true, required: false
-  private _zipCode?: string; 
+  private _zipCode?: string;
   public get zipCode() {
     return this.getStringAttribute('zip_code');
   }

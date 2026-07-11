@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktn from 'cdktn';
 
 export interface VpcIpamPoolConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#address_family VpcIpamPool#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#address_family VpcIpamPool#address_family}
   */
   readonly addressFamily: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#allocation_default_netmask_length VpcIpamPool#allocation_default_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#allocation_default_netmask_length VpcIpamPool#allocation_default_netmask_length}
   */
   readonly allocationDefaultNetmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#allocation_max_netmask_length VpcIpamPool#allocation_max_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#allocation_max_netmask_length VpcIpamPool#allocation_max_netmask_length}
   */
   readonly allocationMaxNetmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#allocation_min_netmask_length VpcIpamPool#allocation_min_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#allocation_min_netmask_length VpcIpamPool#allocation_min_netmask_length}
   */
   readonly allocationMinNetmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#allocation_resource_tags VpcIpamPool#allocation_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#allocation_resource_tags VpcIpamPool#allocation_resource_tags}
   */
   readonly allocationResourceTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#auto_import VpcIpamPool#auto_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#auto_import VpcIpamPool#auto_import}
   */
   readonly autoImport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#aws_service VpcIpamPool#aws_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#aws_service VpcIpamPool#aws_service}
   */
   readonly awsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#cascade VpcIpamPool#cascade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#cascade VpcIpamPool#cascade}
   */
   readonly cascade?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#description VpcIpamPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#description VpcIpamPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#id VpcIpamPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#id VpcIpamPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#ipam_scope_id VpcIpamPool#ipam_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#ipam_scope_id VpcIpamPool#ipam_scope_id}
   */
   readonly ipamScopeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#locale VpcIpamPool#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#locale VpcIpamPool#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#public_ip_source VpcIpamPool#public_ip_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#public_ip_source VpcIpamPool#public_ip_source}
   */
   readonly publicIpSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#publicly_advertisable VpcIpamPool#publicly_advertisable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#publicly_advertisable VpcIpamPool#publicly_advertisable}
   */
   readonly publiclyAdvertisable?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#region VpcIpamPool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#region VpcIpamPool#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#source_ipam_pool_id VpcIpamPool#source_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#source_ipam_pool_id VpcIpamPool#source_ipam_pool_id}
   */
   readonly sourceIpamPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#tags VpcIpamPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#tags VpcIpamPool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#tags_all VpcIpamPool#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#tags_all VpcIpamPool#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * source_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#source_resource VpcIpamPool#source_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#source_resource VpcIpamPool#source_resource}
   */
   readonly sourceResource?: VpcIpamPoolSourceResource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#timeouts VpcIpamPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#timeouts VpcIpamPool#timeouts}
   */
   readonly timeouts?: VpcIpamPoolTimeouts;
 }
 export interface VpcIpamPoolSourceResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#resource_id VpcIpamPool#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#resource_id VpcIpamPool#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#resource_owner VpcIpamPool#resource_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#resource_owner VpcIpamPool#resource_owner}
   */
   readonly resourceOwner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#resource_region VpcIpamPool#resource_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#resource_region VpcIpamPool#resource_region}
   */
   readonly resourceRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#resource_type VpcIpamPool#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#resource_type VpcIpamPool#resource_type}
   */
   readonly resourceType: string;
 }
@@ -217,7 +217,7 @@ export class VpcIpamPoolSourceResourceOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string; 
+  private _resourceId?: string;
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -230,7 +230,7 @@ export class VpcIpamPoolSourceResourceOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_owner - computed: false, optional: false, required: true
-  private _resourceOwner?: string; 
+  private _resourceOwner?: string;
   public get resourceOwner() {
     return this.getStringAttribute('resource_owner');
   }
@@ -243,7 +243,7 @@ export class VpcIpamPoolSourceResourceOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_region - computed: false, optional: false, required: true
-  private _resourceRegion?: string; 
+  private _resourceRegion?: string;
   public get resourceRegion() {
     return this.getStringAttribute('resource_region');
   }
@@ -256,7 +256,7 @@ export class VpcIpamPoolSourceResourceOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -270,15 +270,15 @@ export class VpcIpamPoolSourceResourceOutputReference extends cdktn.ComplexObjec
 }
 export interface VpcIpamPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#create VpcIpamPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#create VpcIpamPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#delete VpcIpamPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#delete VpcIpamPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#update VpcIpamPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#update VpcIpamPool#update}
   */
   readonly update?: string;
 }
@@ -381,7 +381,7 @@ export class VpcIpamPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -397,7 +397,7 @@ export class VpcIpamPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -413,7 +413,7 @@ export class VpcIpamPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -430,7 +430,7 @@ export class VpcIpamPoolTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}
 */
 export class VpcIpamPool extends cdktn.TerraformResource {
 
@@ -446,7 +446,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpcIpamPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpamPool to import
-  * @param importFromId The id of the existing VpcIpamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpamPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -458,7 +458,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,7 +469,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpc_ipam_pool',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -506,7 +506,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   // ==========
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string; 
+  private _addressFamily?: string;
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -519,7 +519,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // allocation_default_netmask_length - computed: false, optional: true, required: false
-  private _allocationDefaultNetmaskLength?: number; 
+  private _allocationDefaultNetmaskLength?: number;
   public get allocationDefaultNetmaskLength() {
     return this.getNumberAttribute('allocation_default_netmask_length');
   }
@@ -535,7 +535,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // allocation_max_netmask_length - computed: false, optional: true, required: false
-  private _allocationMaxNetmaskLength?: number; 
+  private _allocationMaxNetmaskLength?: number;
   public get allocationMaxNetmaskLength() {
     return this.getNumberAttribute('allocation_max_netmask_length');
   }
@@ -551,7 +551,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // allocation_min_netmask_length - computed: false, optional: true, required: false
-  private _allocationMinNetmaskLength?: number; 
+  private _allocationMinNetmaskLength?: number;
   public get allocationMinNetmaskLength() {
     return this.getNumberAttribute('allocation_min_netmask_length');
   }
@@ -567,7 +567,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // allocation_resource_tags - computed: false, optional: true, required: false
-  private _allocationResourceTags?: { [key: string]: string }; 
+  private _allocationResourceTags?: { [key: string]: string };
   public get allocationResourceTags() {
     return this.getStringMapAttribute('allocation_resource_tags');
   }
@@ -588,7 +588,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // auto_import - computed: false, optional: true, required: false
-  private _autoImport?: boolean | cdktn.IResolvable; 
+  private _autoImport?: boolean | cdktn.IResolvable;
   public get autoImport() {
     return this.getBooleanAttribute('auto_import');
   }
@@ -604,7 +604,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // aws_service - computed: false, optional: true, required: false
-  private _awsService?: string; 
+  private _awsService?: string;
   public get awsService() {
     return this.getStringAttribute('aws_service');
   }
@@ -620,7 +620,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // cascade - computed: false, optional: true, required: false
-  private _cascade?: boolean | cdktn.IResolvable; 
+  private _cascade?: boolean | cdktn.IResolvable;
   public get cascade() {
     return this.getBooleanAttribute('cascade');
   }
@@ -636,7 +636,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -652,7 +652,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -668,7 +668,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // ipam_scope_id - computed: false, optional: false, required: true
-  private _ipamScopeId?: string; 
+  private _ipamScopeId?: string;
   public get ipamScopeId() {
     return this.getStringAttribute('ipam_scope_id');
   }
@@ -686,7 +686,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // locale - computed: false, optional: true, required: false
-  private _locale?: string; 
+  private _locale?: string;
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -707,7 +707,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // public_ip_source - computed: false, optional: true, required: false
-  private _publicIpSource?: string; 
+  private _publicIpSource?: string;
   public get publicIpSource() {
     return this.getStringAttribute('public_ip_source');
   }
@@ -723,7 +723,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // publicly_advertisable - computed: false, optional: true, required: false
-  private _publiclyAdvertisable?: boolean | cdktn.IResolvable; 
+  private _publiclyAdvertisable?: boolean | cdktn.IResolvable;
   public get publiclyAdvertisable() {
     return this.getBooleanAttribute('publicly_advertisable');
   }
@@ -739,7 +739,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -755,7 +755,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // source_ipam_pool_id - computed: false, optional: true, required: false
-  private _sourceIpamPoolId?: string; 
+  private _sourceIpamPoolId?: string;
   public get sourceIpamPoolId() {
     return this.getStringAttribute('source_ipam_pool_id');
   }
@@ -776,7 +776,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -792,7 +792,7 @@ export class VpcIpamPool extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

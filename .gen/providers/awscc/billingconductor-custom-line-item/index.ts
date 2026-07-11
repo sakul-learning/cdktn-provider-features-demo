@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface BillingconductorCustomLineItemConfig extends cdktn.TerraformMet
   /**
   * The account which this custom line item will be charged to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#account_id BillingconductorCustomLineItem#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#account_id BillingconductorCustomLineItem#account_id}
   */
   readonly accountId?: string;
   /**
   * Billing Group ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#billing_group_arn BillingconductorCustomLineItem#billing_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#billing_group_arn BillingconductorCustomLineItem#billing_group_arn}
   */
   readonly billingGroupArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#billing_period_range BillingconductorCustomLineItem#billing_period_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#billing_period_range BillingconductorCustomLineItem#billing_period_range}
   */
   readonly billingPeriodRange?: BillingconductorCustomLineItemBillingPeriodRange;
   /**
   * The display settings of the Custom Line Item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#computation_rule BillingconductorCustomLineItem#computation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#computation_rule BillingconductorCustomLineItem#computation_rule}
   */
   readonly computationRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#custom_line_item_charge_details BillingconductorCustomLineItem#custom_line_item_charge_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#custom_line_item_charge_details BillingconductorCustomLineItem#custom_line_item_charge_details}
   */
   readonly customLineItemChargeDetails?: BillingconductorCustomLineItemCustomLineItemChargeDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#description BillingconductorCustomLineItem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#description BillingconductorCustomLineItem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#name BillingconductorCustomLineItem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#name BillingconductorCustomLineItem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#presentation_details BillingconductorCustomLineItem#presentation_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#presentation_details BillingconductorCustomLineItem#presentation_details}
   */
   readonly presentationDetails?: BillingconductorCustomLineItemPresentationDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#tags BillingconductorCustomLineItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#tags BillingconductorCustomLineItem#tags}
   */
   readonly tags?: BillingconductorCustomLineItemTags[] | cdktn.IResolvable;
 }
 export interface BillingconductorCustomLineItemBillingPeriodRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#exclusive_end_billing_period BillingconductorCustomLineItem#exclusive_end_billing_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#exclusive_end_billing_period BillingconductorCustomLineItem#exclusive_end_billing_period}
   */
   readonly exclusiveEndBillingPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#inclusive_start_billing_period BillingconductorCustomLineItem#inclusive_start_billing_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#inclusive_start_billing_period BillingconductorCustomLineItem#inclusive_start_billing_period}
   */
   readonly inclusiveStartBillingPeriod?: string;
 }
@@ -146,7 +146,7 @@ export class BillingconductorCustomLineItemBillingPeriodRangeOutputReference ext
   }
 
   // exclusive_end_billing_period - computed: true, optional: true, required: false
-  private _exclusiveEndBillingPeriod?: string; 
+  private _exclusiveEndBillingPeriod?: string;
   public get exclusiveEndBillingPeriod() {
     return this.getStringAttribute('exclusive_end_billing_period');
   }
@@ -162,7 +162,7 @@ export class BillingconductorCustomLineItemBillingPeriodRangeOutputReference ext
   }
 
   // inclusive_start_billing_period - computed: true, optional: true, required: false
-  private _inclusiveStartBillingPeriod?: string; 
+  private _inclusiveStartBillingPeriod?: string;
   public get inclusiveStartBillingPeriod() {
     return this.getStringAttribute('inclusive_start_billing_period');
   }
@@ -179,7 +179,7 @@ export class BillingconductorCustomLineItemBillingPeriodRangeOutputReference ext
 }
 export interface BillingconductorCustomLineItemCustomLineItemChargeDetailsFlat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#charge_value BillingconductorCustomLineItem#charge_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#charge_value BillingconductorCustomLineItem#charge_value}
   */
   readonly chargeValue?: number;
 }
@@ -256,7 +256,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsFlatOutput
   }
 
   // charge_value - computed: true, optional: true, required: false
-  private _chargeValue?: number; 
+  private _chargeValue?: number;
   public get chargeValue() {
     return this.getNumberAttribute('charge_value');
   }
@@ -273,19 +273,19 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsFlatOutput
 }
 export interface BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#attribute BillingconductorCustomLineItem#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#attribute BillingconductorCustomLineItem#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#attribute_values BillingconductorCustomLineItem#attribute_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#attribute_values BillingconductorCustomLineItem#attribute_values}
   */
   readonly attributeValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#match_option BillingconductorCustomLineItem#match_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#match_option BillingconductorCustomLineItem#match_option}
   */
   readonly matchOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#values BillingconductorCustomLineItem#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#values BillingconductorCustomLineItem#values}
   */
   readonly values?: string[];
 }
@@ -403,7 +403,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string; 
+  private _attribute?: string;
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -419,7 +419,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // attribute_values - computed: true, optional: true, required: false
-  private _attributeValues?: string[]; 
+  private _attributeValues?: string[];
   public get attributeValues() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_values'));
   }
@@ -435,7 +435,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // match_option - computed: true, optional: true, required: false
-  private _matchOption?: string; 
+  private _matchOption?: string;
   public get matchOption() {
     return this.getStringAttribute('match_option');
   }
@@ -451,7 +451,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -488,11 +488,11 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
 }
 export interface BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#child_associated_resources BillingconductorCustomLineItem#child_associated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#child_associated_resources BillingconductorCustomLineItem#child_associated_resources}
   */
   readonly childAssociatedResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#percentage_value BillingconductorCustomLineItem#percentage_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#percentage_value BillingconductorCustomLineItem#percentage_value}
   */
   readonly percentageValue?: number;
 }
@@ -582,7 +582,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage
   }
 
   // child_associated_resources - computed: true, optional: true, required: false
-  private _childAssociatedResources?: string[]; 
+  private _childAssociatedResources?: string[];
   public get childAssociatedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('child_associated_resources'));
   }
@@ -598,7 +598,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage
   }
 
   // percentage_value - computed: true, optional: true, required: false
-  private _percentageValue?: number; 
+  private _percentageValue?: number;
   public get percentageValue() {
     return this.getNumberAttribute('percentage_value');
   }
@@ -615,19 +615,19 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage
 }
 export interface BillingconductorCustomLineItemCustomLineItemChargeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#flat BillingconductorCustomLineItem#flat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#flat BillingconductorCustomLineItem#flat}
   */
   readonly flat?: BillingconductorCustomLineItemCustomLineItemChargeDetailsFlat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#line_item_filters BillingconductorCustomLineItem#line_item_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#line_item_filters BillingconductorCustomLineItem#line_item_filters}
   */
   readonly lineItemFilters?: BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFilters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#percentage BillingconductorCustomLineItem#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#percentage BillingconductorCustomLineItem#percentage}
   */
   readonly percentage?: BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#type BillingconductorCustomLineItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#type BillingconductorCustomLineItem#type}
   */
   readonly type?: string;
 }
@@ -791,7 +791,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -808,7 +808,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsOutputRefe
 }
 export interface BillingconductorCustomLineItemPresentationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#service BillingconductorCustomLineItem#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#service BillingconductorCustomLineItem#service}
   */
   readonly service?: string;
 }
@@ -885,7 +885,7 @@ export class BillingconductorCustomLineItemPresentationDetailsOutputReference ex
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string; 
+  private _service?: string;
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -902,11 +902,11 @@ export class BillingconductorCustomLineItemPresentationDetailsOutputReference ex
 }
 export interface BillingconductorCustomLineItemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#key BillingconductorCustomLineItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#key BillingconductorCustomLineItem#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#value BillingconductorCustomLineItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#value BillingconductorCustomLineItem#value}
   */
   readonly value?: string;
 }
@@ -998,7 +998,7 @@ export class BillingconductorCustomLineItemTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1014,7 +1014,7 @@ export class BillingconductorCustomLineItemTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1051,7 +1051,7 @@ export class BillingconductorCustomLineItemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item}
 */
 export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
 
@@ -1067,7 +1067,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BillingconductorCustomLineItem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingconductorCustomLineItem to import
-  * @param importFromId The id of the existing BillingconductorCustomLineItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingconductorCustomLineItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingconductorCustomLineItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1079,7 +1079,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1090,7 +1090,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_billingconductor_custom_line_item',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1116,7 +1116,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1142,7 +1142,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // billing_group_arn - computed: false, optional: false, required: true
-  private _billingGroupArn?: string; 
+  private _billingGroupArn?: string;
   public get billingGroupArn() {
     return this.getStringAttribute('billing_group_arn');
   }
@@ -1171,7 +1171,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // computation_rule - computed: true, optional: true, required: false
-  private _computationRule?: string; 
+  private _computationRule?: string;
   public get computationRule() {
     return this.getStringAttribute('computation_rule');
   }
@@ -1213,7 +1213,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1239,7 +1239,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

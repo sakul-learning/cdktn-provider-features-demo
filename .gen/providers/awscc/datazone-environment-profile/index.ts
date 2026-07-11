@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DatazoneEnvironmentProfileConfig extends cdktn.TerraformMetaArg
   /**
   * The AWS account in which the Amazon DataZone environment is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#aws_account_id DatazoneEnvironmentProfile#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#aws_account_id DatazoneEnvironmentProfile#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
   * The AWS region in which this environment profile is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#aws_account_region DatazoneEnvironmentProfile#aws_account_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#aws_account_region DatazoneEnvironmentProfile#aws_account_region}
   */
   readonly awsAccountRegion: string;
   /**
   * The description of this Amazon DataZone environment profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#description DatazoneEnvironmentProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#description DatazoneEnvironmentProfile#description}
   */
   readonly description?: string;
   /**
   * The ID of the Amazon DataZone domain in which this environment profile is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#domain_identifier DatazoneEnvironmentProfile#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#domain_identifier DatazoneEnvironmentProfile#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the blueprint with which this environment profile is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#environment_blueprint_identifier DatazoneEnvironmentProfile#environment_blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#environment_blueprint_identifier DatazoneEnvironmentProfile#environment_blueprint_identifier}
   */
   readonly environmentBlueprintIdentifier: string;
   /**
   * The name of this Amazon DataZone environment profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
   */
   readonly name: string;
   /**
   * The identifier of the project in which to create the environment profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#project_identifier DatazoneEnvironmentProfile#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#project_identifier DatazoneEnvironmentProfile#project_identifier}
   */
   readonly projectIdentifier: string;
   /**
   * The user parameters of this Amazon DataZone environment profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#user_parameters DatazoneEnvironmentProfile#user_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#user_parameters DatazoneEnvironmentProfile#user_parameters}
   */
   readonly userParameters?: DatazoneEnvironmentProfileUserParameters[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface DatazoneEnvironmentProfileUserParameters {
   /**
   * The name of an environment profile parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#name DatazoneEnvironmentProfile#name}
   */
   readonly name?: string;
   /**
   * The value of an environment profile parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#value DatazoneEnvironmentProfile#value}
   */
   readonly value?: string;
 }
@@ -158,7 +158,7 @@ export class DatazoneEnvironmentProfileUserParametersOutputReference extends cdk
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -174,7 +174,7 @@ export class DatazoneEnvironmentProfileUserParametersOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -211,7 +211,7 @@ export class DatazoneEnvironmentProfileUserParametersList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile}
 */
 export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneEnvironmentProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneEnvironmentProfile to import
-  * @param importFromId The id of the existing DatazoneEnvironmentProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneEnvironmentProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneEnvironmentProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_profile awscc_datazone_environment_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_environment_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,7 +275,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -288,7 +288,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // aws_account_region - computed: false, optional: false, required: true
-  private _awsAccountRegion?: string; 
+  private _awsAccountRegion?: string;
   public get awsAccountRegion() {
     return this.getStringAttribute('aws_account_region');
   }
@@ -311,7 +311,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -332,7 +332,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -350,7 +350,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // environment_blueprint_identifier - computed: false, optional: false, required: true
-  private _environmentBlueprintIdentifier?: string; 
+  private _environmentBlueprintIdentifier?: string;
   public get environmentBlueprintIdentifier() {
     return this.getStringAttribute('environment_blueprint_identifier');
   }
@@ -373,7 +373,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -391,7 +391,7 @@ export class DatazoneEnvironmentProfile extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: false, optional: false, required: true
-  private _projectIdentifier?: string; 
+  private _projectIdentifier?: string;
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }

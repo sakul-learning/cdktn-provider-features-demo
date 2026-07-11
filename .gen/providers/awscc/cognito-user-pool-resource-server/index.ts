@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoUserPoolResourceServerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#identifier CognitoUserPoolResourceServer#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#identifier CognitoUserPoolResourceServer#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#name CognitoUserPoolResourceServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#name CognitoUserPoolResourceServer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#scopes CognitoUserPoolResourceServer#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#scopes CognitoUserPoolResourceServer#scopes}
   */
   readonly scopes?: CognitoUserPoolResourceServerScopes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#user_pool_id CognitoUserPoolResourceServer#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#user_pool_id CognitoUserPoolResourceServer#user_pool_id}
   */
   readonly userPoolId: string;
 }
 export interface CognitoUserPoolResourceServerScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#scope_description CognitoUserPoolResourceServer#scope_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#scope_description CognitoUserPoolResourceServer#scope_description}
   */
   readonly scopeDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#scope_name CognitoUserPoolResourceServer#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#scope_name CognitoUserPoolResourceServer#scope_name}
   */
   readonly scopeName?: string;
 }
@@ -122,7 +122,7 @@ export class CognitoUserPoolResourceServerScopesOutputReference extends cdktn.Co
   }
 
   // scope_description - computed: true, optional: true, required: false
-  private _scopeDescription?: string; 
+  private _scopeDescription?: string;
   public get scopeDescription() {
     return this.getStringAttribute('scope_description');
   }
@@ -138,7 +138,7 @@ export class CognitoUserPoolResourceServerScopesOutputReference extends cdktn.Co
   }
 
   // scope_name - computed: true, optional: true, required: false
-  private _scopeName?: string; 
+  private _scopeName?: string;
   public get scopeName() {
     return this.getStringAttribute('scope_name');
   }
@@ -175,7 +175,7 @@ export class CognitoUserPoolResourceServerScopesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server}
 */
 export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoUserPoolResourceServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoUserPoolResourceServer to import
-  * @param importFromId The id of the existing CognitoUserPoolResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoUserPoolResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoUserPoolResourceServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cognito_user_pool_resource_server',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -240,7 +240,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -253,7 +253,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -282,7 +282,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string; 
+  private _userPoolId?: string;
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktn from 'cdktn';
 
 export interface FsxOpenzfsVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#copy_tags_to_snapshots FsxOpenzfsVolume#copy_tags_to_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#copy_tags_to_snapshots FsxOpenzfsVolume#copy_tags_to_snapshots}
   */
   readonly copyTagsToSnapshots?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#data_compression_type FsxOpenzfsVolume#data_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#data_compression_type FsxOpenzfsVolume#data_compression_type}
   */
   readonly dataCompressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#delete_volume_options FsxOpenzfsVolume#delete_volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#delete_volume_options FsxOpenzfsVolume#delete_volume_options}
   */
   readonly deleteVolumeOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#id FsxOpenzfsVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#id FsxOpenzfsVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#name FsxOpenzfsVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#name FsxOpenzfsVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#parent_volume_id FsxOpenzfsVolume#parent_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#parent_volume_id FsxOpenzfsVolume#parent_volume_id}
   */
   readonly parentVolumeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#read_only FsxOpenzfsVolume#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#read_only FsxOpenzfsVolume#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#record_size_kib FsxOpenzfsVolume#record_size_kib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#record_size_kib FsxOpenzfsVolume#record_size_kib}
   */
   readonly recordSizeKib?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#region FsxOpenzfsVolume#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#region FsxOpenzfsVolume#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#storage_capacity_quota_gib FsxOpenzfsVolume#storage_capacity_quota_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#storage_capacity_quota_gib FsxOpenzfsVolume#storage_capacity_quota_gib}
   */
   readonly storageCapacityQuotaGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#storage_capacity_reservation_gib FsxOpenzfsVolume#storage_capacity_reservation_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#storage_capacity_reservation_gib FsxOpenzfsVolume#storage_capacity_reservation_gib}
   */
   readonly storageCapacityReservationGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#tags FsxOpenzfsVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#tags FsxOpenzfsVolume#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#tags_all FsxOpenzfsVolume#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#tags_all FsxOpenzfsVolume#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#volume_type FsxOpenzfsVolume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#volume_type FsxOpenzfsVolume#volume_type}
   */
   readonly volumeType?: string;
   /**
   * nfs_exports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#nfs_exports FsxOpenzfsVolume#nfs_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#nfs_exports FsxOpenzfsVolume#nfs_exports}
   */
   readonly nfsExports?: FsxOpenzfsVolumeNfsExports;
   /**
   * origin_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#origin_snapshot FsxOpenzfsVolume#origin_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#origin_snapshot FsxOpenzfsVolume#origin_snapshot}
   */
   readonly originSnapshot?: FsxOpenzfsVolumeOriginSnapshot;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#timeouts FsxOpenzfsVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#timeouts FsxOpenzfsVolume#timeouts}
   */
   readonly timeouts?: FsxOpenzfsVolumeTimeouts;
   /**
   * user_and_group_quotas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#user_and_group_quotas FsxOpenzfsVolume#user_and_group_quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#user_and_group_quotas FsxOpenzfsVolume#user_and_group_quotas}
   */
   readonly userAndGroupQuotas?: FsxOpenzfsVolumeUserAndGroupQuotas[] | cdktn.IResolvable;
 }
 export interface FsxOpenzfsVolumeNfsExportsClientConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#clients FsxOpenzfsVolume#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#clients FsxOpenzfsVolume#clients}
   */
   readonly clients: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#options FsxOpenzfsVolume#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#options FsxOpenzfsVolume#options}
   */
   readonly options: string[];
 }
@@ -191,7 +191,7 @@ export class FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference exten
   }
 
   // clients - computed: false, optional: false, required: true
-  private _clients?: string; 
+  private _clients?: string;
   public get clients() {
     return this.getStringAttribute('clients');
   }
@@ -204,7 +204,7 @@ export class FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference exten
   }
 
   // options - computed: false, optional: false, required: true
-  private _options?: string[]; 
+  private _options?: string[];
   public get options() {
     return this.getListAttribute('options');
   }
@@ -240,7 +240,7 @@ export interface FsxOpenzfsVolumeNfsExports {
   /**
   * client_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#client_configurations FsxOpenzfsVolume#client_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#client_configurations FsxOpenzfsVolume#client_configurations}
   */
   readonly clientConfigurations: FsxOpenzfsVolumeNfsExportsClientConfigurations[] | cdktn.IResolvable;
 }
@@ -321,11 +321,11 @@ export class FsxOpenzfsVolumeNfsExportsOutputReference extends cdktn.ComplexObje
 }
 export interface FsxOpenzfsVolumeOriginSnapshot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#copy_strategy FsxOpenzfsVolume#copy_strategy}
   */
   readonly copyStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#snapshot_arn FsxOpenzfsVolume#snapshot_arn}
   */
   readonly snapshotArn: string;
 }
@@ -405,7 +405,7 @@ export class FsxOpenzfsVolumeOriginSnapshotOutputReference extends cdktn.Complex
   }
 
   // copy_strategy - computed: false, optional: false, required: true
-  private _copyStrategy?: string; 
+  private _copyStrategy?: string;
   public get copyStrategy() {
     return this.getStringAttribute('copy_strategy');
   }
@@ -418,7 +418,7 @@ export class FsxOpenzfsVolumeOriginSnapshotOutputReference extends cdktn.Complex
   }
 
   // snapshot_arn - computed: false, optional: false, required: true
-  private _snapshotArn?: string; 
+  private _snapshotArn?: string;
   public get snapshotArn() {
     return this.getStringAttribute('snapshot_arn');
   }
@@ -432,15 +432,15 @@ export class FsxOpenzfsVolumeOriginSnapshotOutputReference extends cdktn.Complex
 }
 export interface FsxOpenzfsVolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#create FsxOpenzfsVolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#create FsxOpenzfsVolume#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#delete FsxOpenzfsVolume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#delete FsxOpenzfsVolume#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#update FsxOpenzfsVolume#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#update FsxOpenzfsVolume#update}
   */
   readonly update?: string;
 }
@@ -543,7 +543,7 @@ export class FsxOpenzfsVolumeTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -559,7 +559,7 @@ export class FsxOpenzfsVolumeTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -575,7 +575,7 @@ export class FsxOpenzfsVolumeTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -592,18 +592,18 @@ export class FsxOpenzfsVolumeTimeoutsOutputReference extends cdktn.ComplexObject
 }
 export interface FsxOpenzfsVolumeUserAndGroupQuotas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#id FsxOpenzfsVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#id FsxOpenzfsVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#storage_capacity_quota_gib FsxOpenzfsVolume#storage_capacity_quota_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#storage_capacity_quota_gib FsxOpenzfsVolume#storage_capacity_quota_gib}
   */
   readonly storageCapacityQuotaGib: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#type FsxOpenzfsVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#type FsxOpenzfsVolume#type}
   */
   readonly type: string;
 }
@@ -708,7 +708,7 @@ export class FsxOpenzfsVolumeUserAndGroupQuotasOutputReference extends cdktn.Com
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: number; 
+  private _id?: number;
   public get id() {
     return this.getNumberAttribute('id');
   }
@@ -721,7 +721,7 @@ export class FsxOpenzfsVolumeUserAndGroupQuotasOutputReference extends cdktn.Com
   }
 
   // storage_capacity_quota_gib - computed: false, optional: false, required: true
-  private _storageCapacityQuotaGib?: number; 
+  private _storageCapacityQuotaGib?: number;
   public get storageCapacityQuotaGib() {
     return this.getNumberAttribute('storage_capacity_quota_gib');
   }
@@ -734,7 +734,7 @@ export class FsxOpenzfsVolumeUserAndGroupQuotasOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -768,7 +768,7 @@ export class FsxOpenzfsVolumeUserAndGroupQuotasList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume}
 */
 export class FsxOpenzfsVolume extends cdktn.TerraformResource {
 
@@ -784,7 +784,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxOpenzfsVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxOpenzfsVolume to import
-  * @param importFromId The id of the existing FsxOpenzfsVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxOpenzfsVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxOpenzfsVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -796,7 +796,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -807,7 +807,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
       terraformResourceType: 'aws_fsx_openzfs_volume',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -847,7 +847,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_snapshots - computed: false, optional: true, required: false
-  private _copyTagsToSnapshots?: boolean | cdktn.IResolvable; 
+  private _copyTagsToSnapshots?: boolean | cdktn.IResolvable;
   public get copyTagsToSnapshots() {
     return this.getBooleanAttribute('copy_tags_to_snapshots');
   }
@@ -863,7 +863,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // data_compression_type - computed: false, optional: true, required: false
-  private _dataCompressionType?: string; 
+  private _dataCompressionType?: string;
   public get dataCompressionType() {
     return this.getStringAttribute('data_compression_type');
   }
@@ -879,7 +879,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // delete_volume_options - computed: false, optional: true, required: false
-  private _deleteVolumeOptions?: string[]; 
+  private _deleteVolumeOptions?: string[];
   public get deleteVolumeOptions() {
     return this.getListAttribute('delete_volume_options');
   }
@@ -895,7 +895,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -911,7 +911,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -924,7 +924,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // parent_volume_id - computed: false, optional: false, required: true
-  private _parentVolumeId?: string; 
+  private _parentVolumeId?: string;
   public get parentVolumeId() {
     return this.getStringAttribute('parent_volume_id');
   }
@@ -937,7 +937,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable;
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -953,7 +953,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // record_size_kib - computed: false, optional: true, required: false
-  private _recordSizeKib?: number; 
+  private _recordSizeKib?: number;
   public get recordSizeKib() {
     return this.getNumberAttribute('record_size_kib');
   }
@@ -969,7 +969,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -985,7 +985,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // storage_capacity_quota_gib - computed: true, optional: true, required: false
-  private _storageCapacityQuotaGib?: number; 
+  private _storageCapacityQuotaGib?: number;
   public get storageCapacityQuotaGib() {
     return this.getNumberAttribute('storage_capacity_quota_gib');
   }
@@ -1001,7 +1001,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // storage_capacity_reservation_gib - computed: true, optional: true, required: false
-  private _storageCapacityReservationGib?: number; 
+  private _storageCapacityReservationGib?: number;
   public get storageCapacityReservationGib() {
     return this.getNumberAttribute('storage_capacity_reservation_gib');
   }
@@ -1017,7 +1017,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1033,7 +1033,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1049,7 +1049,7 @@ export class FsxOpenzfsVolume extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

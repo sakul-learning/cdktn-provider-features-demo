@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktn from 'cdktn';
 
 export interface AutoscalingScheduleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#autoscaling_group_name AutoscalingSchedule#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#autoscaling_group_name AutoscalingSchedule#autoscaling_group_name}
   */
   readonly autoscalingGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#desired_capacity AutoscalingSchedule#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#desired_capacity AutoscalingSchedule#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#end_time AutoscalingSchedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#end_time AutoscalingSchedule#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#id AutoscalingSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#id AutoscalingSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#max_size AutoscalingSchedule#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#max_size AutoscalingSchedule#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#min_size AutoscalingSchedule#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#min_size AutoscalingSchedule#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#recurrence AutoscalingSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#recurrence AutoscalingSchedule#recurrence}
   */
   readonly recurrence?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#region AutoscalingSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#region AutoscalingSchedule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#scheduled_action_name AutoscalingSchedule#scheduled_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#scheduled_action_name AutoscalingSchedule#scheduled_action_name}
   */
   readonly scheduledActionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#start_time AutoscalingSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#start_time AutoscalingSchedule#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#time_zone AutoscalingSchedule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#time_zone AutoscalingSchedule#time_zone}
   */
   readonly timeZone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule aws_autoscaling_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule aws_autoscaling_schedule}
 */
 export class AutoscalingSchedule extends cdktn.TerraformResource {
 
@@ -75,7 +75,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingSchedule to import
-  * @param importFromId The id of the existing AutoscalingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -87,7 +87,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_schedule aws_autoscaling_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_schedule aws_autoscaling_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,7 +98,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_autoscaling_schedule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -131,7 +131,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // autoscaling_group_name - computed: false, optional: false, required: true
-  private _autoscalingGroupName?: string; 
+  private _autoscalingGroupName?: string;
   public get autoscalingGroupName() {
     return this.getStringAttribute('autoscaling_group_name');
   }
@@ -144,7 +144,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number; 
+  private _desiredCapacity?: number;
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -160,7 +160,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
+  private _endTime?: string;
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -176,7 +176,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -192,7 +192,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number; 
+  private _maxSize?: number;
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -208,7 +208,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -224,7 +224,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // recurrence - computed: true, optional: true, required: false
-  private _recurrence?: string; 
+  private _recurrence?: string;
   public get recurrence() {
     return this.getStringAttribute('recurrence');
   }
@@ -240,7 +240,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // scheduled_action_name - computed: false, optional: false, required: true
-  private _scheduledActionName?: string; 
+  private _scheduledActionName?: string;
   public get scheduledActionName() {
     return this.getStringAttribute('scheduled_action_name');
   }
@@ -269,7 +269,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
+  private _startTime?: string;
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -285,7 +285,7 @@ export class AutoscalingSchedule extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string; 
+  private _timeZone?: string;
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

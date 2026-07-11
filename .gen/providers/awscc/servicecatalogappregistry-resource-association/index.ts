@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServicecatalogappregistryResourceAssociationConfig extends cdkt
   /**
   * The name or the Id of the Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
   */
   readonly application: string;
   /**
   * The name or the Id of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
   */
   readonly resource: string;
   /**
   * The type of the CFN Resource for now it's enum CFN_STACK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
   */
   readonly resourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}
 */
 export class ServicecatalogappregistryResourceAssociation extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   * Generates CDKTN code for importing a ServicecatalogappregistryResourceAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogappregistryResourceAssociation to import
-  * @param importFromId The id of the existing ServicecatalogappregistryResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogappregistryResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogappregistryResourceAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
       terraformResourceType: 'awscc_servicecatalogappregistry_resource_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   // ==========
 
   // application - computed: false, optional: false, required: true
-  private _application?: string; 
+  private _application?: string;
   public get application() {
     return this.getStringAttribute('application');
   }
@@ -110,7 +110,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -128,7 +128,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }

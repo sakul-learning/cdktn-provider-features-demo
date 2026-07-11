@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktn from 'cdktn';
 
 export interface FmsPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}
   */
   readonly deleteAllPolicyResources?: boolean | cdktn.IResolvable;
   /**
   * An FMS includeMap or excludeMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#exclude_map FmsPolicy#exclude_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#exclude_map FmsPolicy#exclude_map}
   */
   readonly excludeMap?: FmsPolicyExcludeMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}
   */
   readonly excludeResourceTags: boolean | cdktn.IResolvable;
   /**
   * An FMS includeMap or excludeMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#include_map FmsPolicy#include_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#include_map FmsPolicy#include_map}
   */
   readonly includeMap?: FmsPolicyIncludeMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}
   */
   readonly policyDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}
   */
   readonly remediationEnabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}
   */
   readonly resourceSetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}
   */
   readonly resourceTagLogicalOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}
   */
   readonly resourceTags?: FmsPolicyResourceTags[] | cdktn.IResolvable;
   /**
   * An AWS resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resource_type FmsPolicy#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resource_type FmsPolicy#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}
   */
   readonly resourceTypeList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}
   */
   readonly resourcesCleanUp?: boolean | cdktn.IResolvable;
   /**
   * Firewall security service policy data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#security_service_policy_data FmsPolicy#security_service_policy_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#security_service_policy_data FmsPolicy#security_service_policy_data}
   */
   readonly securityServicePolicyData: FmsPolicySecurityServicePolicyData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#tags FmsPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#tags FmsPolicy#tags}
   */
   readonly tags?: FmsPolicyTags[] | cdktn.IResolvable;
 }
 export interface FmsPolicyExcludeMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#account FmsPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#account FmsPolicy#account}
   */
   readonly account?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}
   */
   readonly orgunit?: string[];
 }
@@ -172,7 +172,7 @@ export class FmsPolicyExcludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // account - computed: true, optional: true, required: false
-  private _account?: string[]; 
+  private _account?: string[];
   public get account() {
     return this.getListAttribute('account');
   }
@@ -188,7 +188,7 @@ export class FmsPolicyExcludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // orgunit - computed: true, optional: true, required: false
-  private _orgunit?: string[]; 
+  private _orgunit?: string[];
   public get orgunit() {
     return this.getListAttribute('orgunit');
   }
@@ -205,11 +205,11 @@ export class FmsPolicyExcludeMapOutputReference extends cdktn.ComplexObject {
 }
 export interface FmsPolicyIncludeMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#account FmsPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#account FmsPolicy#account}
   */
   readonly account?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}
   */
   readonly orgunit?: string[];
 }
@@ -299,7 +299,7 @@ export class FmsPolicyIncludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // account - computed: true, optional: true, required: false
-  private _account?: string[]; 
+  private _account?: string[];
   public get account() {
     return this.getListAttribute('account');
   }
@@ -315,7 +315,7 @@ export class FmsPolicyIncludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // orgunit - computed: true, optional: true, required: false
-  private _orgunit?: string[]; 
+  private _orgunit?: string[];
   public get orgunit() {
     return this.getListAttribute('orgunit');
   }
@@ -332,11 +332,11 @@ export class FmsPolicyIncludeMapOutputReference extends cdktn.ComplexObject {
 }
 export interface FmsPolicyResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#key FmsPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#key FmsPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#value FmsPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#value FmsPolicy#value}
   */
   readonly value?: string;
 }
@@ -428,7 +428,7 @@ export class FmsPolicyResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -444,7 +444,7 @@ export class FmsPolicyResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -483,13 +483,13 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * Code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#code FmsPolicy#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#code FmsPolicy#code}
   */
   readonly code?: number;
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#type FmsPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#type FmsPolicy#type}
   */
   readonly type?: number;
 }
@@ -579,7 +579,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: number; 
+  private _code?: number;
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -595,7 +595,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: number; 
+  private _type?: number;
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -614,13 +614,13 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * From Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#from FmsPolicy#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#from FmsPolicy#from}
   */
   readonly from?: number;
   /**
   * To Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#to FmsPolicy#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#to FmsPolicy#to}
   */
   readonly to?: number;
 }
@@ -710,7 +710,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: number; 
+  private _from?: number;
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -726,7 +726,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // to - computed: true, optional: true, required: false
-  private _to?: number; 
+  private _to?: number;
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -745,43 +745,43 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Whether the entry is an egress entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#egress FmsPolicy#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#egress FmsPolicy#egress}
   */
   readonly egress?: boolean | cdktn.IResolvable;
   /**
   * ICMP type and code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
   */
   readonly icmpTypeCode?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetFirstEntriesIcmpTypeCode;
   /**
   * IPv6 CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * Port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
   */
   readonly portRange?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetFirstEntriesPortRange;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * Rule Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
   */
   readonly ruleAction?: string;
 }
@@ -938,7 +938,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -954,7 +954,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // egress - computed: true, optional: true, required: false
-  private _egress?: boolean | cdktn.IResolvable; 
+  private _egress?: boolean | cdktn.IResolvable;
   public get egress() {
     return this.getBooleanAttribute('egress');
   }
@@ -986,7 +986,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -1018,7 +1018,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1034,7 +1034,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // rule_action - computed: true, optional: true, required: false
-  private _ruleAction?: string; 
+  private _ruleAction?: string;
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -1073,13 +1073,13 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * Code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#code FmsPolicy#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#code FmsPolicy#code}
   */
   readonly code?: number;
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#type FmsPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#type FmsPolicy#type}
   */
   readonly type?: number;
 }
@@ -1169,7 +1169,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: number; 
+  private _code?: number;
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -1185,7 +1185,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: number; 
+  private _type?: number;
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -1204,13 +1204,13 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * From Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#from FmsPolicy#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#from FmsPolicy#from}
   */
   readonly from?: number;
   /**
   * To Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#to FmsPolicy#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#to FmsPolicy#to}
   */
   readonly to?: number;
 }
@@ -1300,7 +1300,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: number; 
+  private _from?: number;
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -1316,7 +1316,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // to - computed: true, optional: true, required: false
-  private _to?: number; 
+  private _to?: number;
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -1335,43 +1335,43 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Whether the entry is an egress entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#egress FmsPolicy#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#egress FmsPolicy#egress}
   */
   readonly egress?: boolean | cdktn.IResolvable;
   /**
   * ICMP type and code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
   */
   readonly icmpTypeCode?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntriesIcmpTypeCode;
   /**
   * IPv6 CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * Port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
   */
   readonly portRange?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntriesPortRange;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * Rule Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
   */
   readonly ruleAction?: string;
 }
@@ -1528,7 +1528,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string; 
+  private _cidrBlock?: string;
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -1544,7 +1544,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // egress - computed: true, optional: true, required: false
-  private _egress?: boolean | cdktn.IResolvable; 
+  private _egress?: boolean | cdktn.IResolvable;
   public get egress() {
     return this.getBooleanAttribute('egress');
   }
@@ -1576,7 +1576,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -1608,7 +1608,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1624,7 +1624,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // rule_action - computed: true, optional: true, required: false
-  private _ruleAction?: string; 
+  private _ruleAction?: string;
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -1663,21 +1663,21 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * NetworkAcl entry list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#first_entries FmsPolicy#first_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#first_entries FmsPolicy#first_entries}
   */
   readonly firstEntries?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetFirstEntries[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}
   */
   readonly forceRemediateForFirstEntries?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}
   */
   readonly forceRemediateForLastEntries?: boolean | cdktn.IResolvable;
   /**
   * NetworkAcl entry list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#last_entries FmsPolicy#last_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#last_entries FmsPolicy#last_entries}
   */
   readonly lastEntries?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntries[] | cdktn.IResolvable;
 }
@@ -1809,7 +1809,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // force_remediate_for_first_entries - computed: true, optional: true, required: false
-  private _forceRemediateForFirstEntries?: boolean | cdktn.IResolvable; 
+  private _forceRemediateForFirstEntries?: boolean | cdktn.IResolvable;
   public get forceRemediateForFirstEntries() {
     return this.getBooleanAttribute('force_remediate_for_first_entries');
   }
@@ -1825,7 +1825,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // force_remediate_for_last_entries - computed: true, optional: true, required: false
-  private _forceRemediateForLastEntries?: boolean | cdktn.IResolvable; 
+  private _forceRemediateForLastEntries?: boolean | cdktn.IResolvable;
   public get forceRemediateForLastEntries() {
     return this.getBooleanAttribute('force_remediate_for_last_entries');
   }
@@ -1860,7 +1860,7 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonP
   /**
   * Network ACL entry set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
   */
   readonly networkAclEntrySet?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet;
 }
@@ -1956,7 +1956,7 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionNetworkFirewallPo
   /**
   * Firewall deployment mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
   */
   readonly firewallDeploymentModel?: string;
 }
@@ -2033,7 +2033,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkFirewallPolicy
   }
 
   // firewall_deployment_model - computed: true, optional: true, required: false
-  private _firewallDeploymentModel?: string; 
+  private _firewallDeploymentModel?: string;
   public get firewallDeploymentModel() {
     return this.getStringAttribute('firewall_deployment_model');
   }
@@ -2052,7 +2052,7 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewal
   /**
   * Firewall deployment mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
   */
   readonly firewallDeploymentModel?: string;
 }
@@ -2129,7 +2129,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPol
   }
 
   // firewall_deployment_model - computed: true, optional: true, required: false
-  private _firewallDeploymentModel?: string; 
+  private _firewallDeploymentModel?: string;
   public get firewallDeploymentModel() {
     return this.getStringAttribute('firewall_deployment_model');
   }
@@ -2148,19 +2148,19 @@ export interface FmsPolicySecurityServicePolicyDataPolicyOption {
   /**
   * Network ACL common policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
   */
   readonly networkAclCommonPolicy?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicy;
   /**
   * Network firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
   */
   readonly networkFirewallPolicy?: FmsPolicySecurityServicePolicyDataPolicyOptionNetworkFirewallPolicy;
   /**
   * Third party firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
   */
   readonly thirdPartyFirewallPolicy?: FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicy;
 }
@@ -2314,19 +2314,19 @@ export interface FmsPolicySecurityServicePolicyData {
   /**
   * Firewall managed service data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#managed_service_data FmsPolicy#managed_service_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#managed_service_data FmsPolicy#managed_service_data}
   */
   readonly managedServiceData?: string;
   /**
   * Firewall policy option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#policy_option FmsPolicy#policy_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#policy_option FmsPolicy#policy_option}
   */
   readonly policyOption?: FmsPolicySecurityServicePolicyDataPolicyOption;
   /**
   * Firewall policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#type FmsPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#type FmsPolicy#type}
   */
   readonly type: string;
 }
@@ -2429,7 +2429,7 @@ export class FmsPolicySecurityServicePolicyDataOutputReference extends cdktn.Com
   }
 
   // managed_service_data - computed: true, optional: true, required: false
-  private _managedServiceData?: string; 
+  private _managedServiceData?: string;
   public get managedServiceData() {
     return this.getStringAttribute('managed_service_data');
   }
@@ -2461,7 +2461,7 @@ export class FmsPolicySecurityServicePolicyDataOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2475,11 +2475,11 @@ export class FmsPolicySecurityServicePolicyDataOutputReference extends cdktn.Com
 }
 export interface FmsPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#key FmsPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#key FmsPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#value FmsPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#value FmsPolicy#value}
   */
   readonly value?: string;
 }
@@ -2571,7 +2571,7 @@ export class FmsPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2587,7 +2587,7 @@ export class FmsPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2624,7 +2624,7 @@ export class FmsPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy awscc_fms_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy awscc_fms_policy}
 */
 export class FmsPolicy extends cdktn.TerraformResource {
 
@@ -2640,7 +2640,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FmsPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmsPolicy to import
-  * @param importFromId The id of the existing FmsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2652,7 +2652,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_policy awscc_fms_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_policy awscc_fms_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2663,7 +2663,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fms_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2700,7 +2700,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // delete_all_policy_resources - computed: true, optional: true, required: false
-  private _deleteAllPolicyResources?: boolean | cdktn.IResolvable; 
+  private _deleteAllPolicyResources?: boolean | cdktn.IResolvable;
   public get deleteAllPolicyResources() {
     return this.getBooleanAttribute('delete_all_policy_resources');
   }
@@ -2732,7 +2732,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // exclude_resource_tags - computed: false, optional: false, required: true
-  private _excludeResourceTags?: boolean | cdktn.IResolvable; 
+  private _excludeResourceTags?: boolean | cdktn.IResolvable;
   public get excludeResourceTags() {
     return this.getBooleanAttribute('exclude_resource_tags');
   }
@@ -2766,7 +2766,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_description - computed: true, optional: true, required: false
-  private _policyDescription?: string; 
+  private _policyDescription?: string;
   public get policyDescription() {
     return this.getStringAttribute('policy_description');
   }
@@ -2787,7 +2787,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -2800,7 +2800,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // remediation_enabled - computed: false, optional: false, required: true
-  private _remediationEnabled?: boolean | cdktn.IResolvable; 
+  private _remediationEnabled?: boolean | cdktn.IResolvable;
   public get remediationEnabled() {
     return this.getBooleanAttribute('remediation_enabled');
   }
@@ -2813,7 +2813,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_set_ids - computed: true, optional: true, required: false
-  private _resourceSetIds?: string[]; 
+  private _resourceSetIds?: string[];
   public get resourceSetIds() {
     return this.getListAttribute('resource_set_ids');
   }
@@ -2829,7 +2829,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_tag_logical_operator - computed: true, optional: true, required: false
-  private _resourceTagLogicalOperator?: string; 
+  private _resourceTagLogicalOperator?: string;
   public get resourceTagLogicalOperator() {
     return this.getStringAttribute('resource_tag_logical_operator');
   }
@@ -2861,7 +2861,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -2877,7 +2877,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_type_list - computed: true, optional: true, required: false
-  private _resourceTypeList?: string[]; 
+  private _resourceTypeList?: string[];
   public get resourceTypeList() {
     return this.getListAttribute('resource_type_list');
   }
@@ -2893,7 +2893,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resources_clean_up - computed: true, optional: true, required: false
-  private _resourcesCleanUp?: boolean | cdktn.IResolvable; 
+  private _resourcesCleanUp?: boolean | cdktn.IResolvable;
   public get resourcesCleanUp() {
     return this.getBooleanAttribute('resources_clean_up');
   }

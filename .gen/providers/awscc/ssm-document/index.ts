@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SsmDocumentConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of key and value pairs that describe attachments to a version of a document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
   */
   readonly attachments?: SsmDocumentAttachments[] | cdktn.IResolvable;
   /**
   * The content for the Systems Manager document in JSON, YAML or String format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#content SsmDocument#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#content SsmDocument#content}
   */
   readonly content: string;
   /**
   * Specify the document format for the request. The document format can be either JSON or YAML. JSON is the default format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
   */
   readonly documentFormat?: string;
   /**
   * The type of document to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
   */
   readonly documentType?: string;
   /**
   * A name for the Systems Manager document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#name SsmDocument#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#name SsmDocument#name}
   */
   readonly name?: string;
   /**
   * A list of SSM documents required by a document. For example, an ApplicationConfiguration document requires an ApplicationConfigurationSchema document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#requires SsmDocument#requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#requires SsmDocument#requires}
   */
   readonly requires?: SsmDocumentRequires[] | cdktn.IResolvable;
   /**
   * Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#tags SsmDocument#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#tags SsmDocument#tags}
   */
   readonly tags?: SsmDocumentTags[] | cdktn.IResolvable;
   /**
   * Specify a target type to define the kinds of resources the document can run on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
   */
   readonly targetType?: string;
   /**
   * Update method - when set to 'Replace', the update will replace the existing document; when set to 'NewVersion', the update will create a new version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
   */
   readonly updateMethod?: string;
   /**
   * An optional field specifying the version of the artifact you are creating with the document. This value is unique across all versions of a document, and cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
   */
   readonly versionName?: string;
 }
@@ -72,19 +72,19 @@ export interface SsmDocumentAttachments {
   /**
   * The key of a key-value pair that identifies the location of an attachment to a document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#key SsmDocument#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#key SsmDocument#key}
   */
   readonly key?: string;
   /**
   * The name of the document attachment file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#name SsmDocument#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#name SsmDocument#name}
   */
   readonly name?: string;
   /**
   * The value of a key-value pair that identifies the location of an attachment to a document. The format for Value depends on the type of key you specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#values SsmDocument#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#values SsmDocument#values}
   */
   readonly values?: string[];
 }
@@ -189,7 +189,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -205,7 +205,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -221,7 +221,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -260,13 +260,13 @@ export interface SsmDocumentRequires {
   /**
   * The name of the required SSM document. The name can be an Amazon Resource Name (ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#name SsmDocument#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#name SsmDocument#name}
   */
   readonly name?: string;
   /**
   * The document version required by the current document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#version SsmDocument#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#version SsmDocument#version}
   */
   readonly version?: string;
 }
@@ -358,7 +358,7 @@ export class SsmDocumentRequiresOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -374,7 +374,7 @@ export class SsmDocumentRequiresOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -413,13 +413,13 @@ export interface SsmDocumentTags {
   /**
   * The name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#key SsmDocument#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#key SsmDocument#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#value SsmDocument#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#value SsmDocument#value}
   */
   readonly value?: string;
 }
@@ -511,7 +511,7 @@ export class SsmDocumentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -527,7 +527,7 @@ export class SsmDocumentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -564,7 +564,7 @@ export class SsmDocumentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document awscc_ssm_document}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document awscc_ssm_document}
 */
 export class SsmDocument extends cdktn.TerraformResource {
 
@@ -580,7 +580,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmDocument resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmDocument to import
-  * @param importFromId The id of the existing SsmDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -592,7 +592,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssm_document awscc_ssm_document} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssm_document awscc_ssm_document} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,7 +603,7 @@ export class SsmDocument extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_document',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -646,7 +646,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -659,7 +659,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // document_format - computed: true, optional: true, required: false
-  private _documentFormat?: string; 
+  private _documentFormat?: string;
   public get documentFormat() {
     return this.getStringAttribute('document_format');
   }
@@ -675,7 +675,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // document_type - computed: true, optional: true, required: false
-  private _documentType?: string; 
+  private _documentType?: string;
   public get documentType() {
     return this.getStringAttribute('document_type');
   }
@@ -696,7 +696,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -744,7 +744,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string; 
+  private _targetType?: string;
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -760,7 +760,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // update_method - computed: true, optional: true, required: false
-  private _updateMethod?: string; 
+  private _updateMethod?: string;
   public get updateMethod() {
     return this.getStringAttribute('update_method');
   }
@@ -776,7 +776,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string; 
+  private _versionName?: string;
   public get versionName() {
     return this.getStringAttribute('version_name');
   }

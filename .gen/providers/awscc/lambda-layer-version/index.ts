@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LambdaLayerVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of compatible instruction set architectures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#compatible_architectures LambdaLayerVersion#compatible_architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#compatible_architectures LambdaLayerVersion#compatible_architectures}
   */
   readonly compatibleArchitectures?: string[];
   /**
   * A list of compatible function runtimes. Used for filtering with ListLayers and ListLayerVersions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#compatible_runtimes LambdaLayerVersion#compatible_runtimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#compatible_runtimes LambdaLayerVersion#compatible_runtimes}
   */
   readonly compatibleRuntimes?: string[];
   /**
   * The function layer archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#content LambdaLayerVersion#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#content LambdaLayerVersion#content}
   */
   readonly content: LambdaLayerVersionContent;
   /**
   * The description of the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#description LambdaLayerVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#description LambdaLayerVersion#description}
   */
   readonly description?: string;
   /**
   * The name or Amazon Resource Name (ARN) of the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#layer_name LambdaLayerVersion#layer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#layer_name LambdaLayerVersion#layer_name}
   */
   readonly layerName?: string;
   /**
   * The layer's software license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#license_info LambdaLayerVersion#license_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#license_info LambdaLayerVersion#license_info}
   */
   readonly licenseInfo?: string;
 }
@@ -48,25 +48,25 @@ export interface LambdaLayerVersionContent {
   /**
   * The Amazon S3 bucket of the layer archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#s3_bucket LambdaLayerVersion#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#s3_bucket LambdaLayerVersion#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The Amazon S3 key of the layer archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#s3_key LambdaLayerVersion#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#s3_key LambdaLayerVersion#s3_key}
   */
   readonly s3Key: string;
   /**
   * Specifies whether Lambda should copy the deployment package to its internal storage (COPY) or reference it directly from your S3 bucket (REFERENCE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#s3_object_storage_mode LambdaLayerVersion#s3_object_storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#s3_object_storage_mode LambdaLayerVersion#s3_object_storage_mode}
   */
   readonly s3ObjectStorageMode?: string;
   /**
   * For versioned objects, the version of the layer archive object to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#s3_object_version LambdaLayerVersion#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#s3_object_version LambdaLayerVersion#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
 }
@@ -182,7 +182,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -195,7 +195,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string; 
+  private _s3Key?: string;
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -208,7 +208,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_object_storage_mode - computed: true, optional: true, required: false
-  private _s3ObjectStorageMode?: string; 
+  private _s3ObjectStorageMode?: string;
   public get s3ObjectStorageMode() {
     return this.getStringAttribute('s3_object_storage_mode');
   }
@@ -224,7 +224,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string; 
+  private _s3ObjectVersion?: string;
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -241,7 +241,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version awscc_lambda_layer_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version awscc_lambda_layer_version}
 */
 export class LambdaLayerVersion extends cdktn.TerraformResource {
 
@@ -257,7 +257,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaLayerVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaLayerVersion to import
-  * @param importFromId The id of the existing LambdaLayerVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaLayerVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaLayerVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -269,7 +269,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_layer_version awscc_lambda_layer_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_layer_version awscc_lambda_layer_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,7 +280,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_layer_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -303,7 +303,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   // ==========
 
   // compatible_architectures - computed: true, optional: true, required: false
-  private _compatibleArchitectures?: string[]; 
+  private _compatibleArchitectures?: string[];
   public get compatibleArchitectures() {
     return this.getListAttribute('compatible_architectures');
   }
@@ -319,7 +319,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // compatible_runtimes - computed: true, optional: true, required: false
-  private _compatibleRuntimes?: string[]; 
+  private _compatibleRuntimes?: string[];
   public get compatibleRuntimes() {
     return this.getListAttribute('compatible_runtimes');
   }
@@ -348,7 +348,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -369,7 +369,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // layer_name - computed: true, optional: true, required: false
-  private _layerName?: string; 
+  private _layerName?: string;
   public get layerName() {
     return this.getStringAttribute('layer_name');
   }
@@ -390,7 +390,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // license_info - computed: true, optional: true, required: false
-  private _licenseInfo?: string; 
+  private _licenseInfo?: string;
   public get licenseInfo() {
     return this.getStringAttribute('license_info');
   }

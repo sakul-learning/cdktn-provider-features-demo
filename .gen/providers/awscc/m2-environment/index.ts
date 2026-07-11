@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface M2EnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#description M2Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#description M2Environment#description}
   */
   readonly description?: string;
   /**
   * The target platform for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#engine_type M2Environment#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#engine_type M2Environment#engine_type}
   */
   readonly engineType: string;
   /**
   * The version of the runtime engine for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#engine_version M2Environment#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#engine_version M2Environment#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Defines the details of a high availability configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#high_availability_config M2Environment#high_availability_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#high_availability_config M2Environment#high_availability_config}
   */
   readonly highAvailabilityConfig?: M2EnvironmentHighAvailabilityConfig;
   /**
   * The type of instance underlying the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#instance_type M2Environment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#instance_type M2Environment#instance_type}
   */
   readonly instanceType: string;
   /**
   * The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting environment-related resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#kms_key_id M2Environment#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#kms_key_id M2Environment#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#name M2Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#name M2Environment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#network_type M2Environment#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#network_type M2Environment#network_type}
   */
   readonly networkType?: string;
   /**
   * Configures a desired maintenance window for the environment. If you do not provide a value, a random system-generated value will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#preferred_maintenance_window M2Environment#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#preferred_maintenance_window M2Environment#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * Specifies whether the environment is publicly accessible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#publicly_accessible M2Environment#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#publicly_accessible M2Environment#publicly_accessible}
   */
   readonly publiclyAccessible?: boolean | cdktn.IResolvable;
   /**
   * The list of security groups for the VPC associated with this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#security_group_ids M2Environment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#security_group_ids M2Environment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The storage configurations defined for the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#storage_configurations M2Environment#storage_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#storage_configurations M2Environment#storage_configurations}
   */
   readonly storageConfigurations?: M2EnvironmentStorageConfigurations[] | cdktn.IResolvable;
   /**
   * The unique identifiers of the subnets assigned to this runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#subnet_ids M2Environment#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#subnet_ids M2Environment#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags associated to this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#tags M2Environment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#tags M2Environment#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface M2EnvironmentHighAvailabilityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}
   */
   readonly desiredCapacity?: number;
 }
@@ -169,7 +169,7 @@ export class M2EnvironmentHighAvailabilityConfigOutputReference extends cdktn.Co
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number; 
+  private _desiredCapacity?: number;
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -188,13 +188,13 @@ export interface M2EnvironmentStorageConfigurationsEfs {
   /**
   * The file system identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
   * The mount point for the file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -284,7 +284,7 @@ export class M2EnvironmentStorageConfigurationsEfsOutputReference extends cdktn.
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -300,7 +300,7 @@ export class M2EnvironmentStorageConfigurationsEfsOutputReference extends cdktn.
   }
 
   // mount_point - computed: true, optional: true, required: false
-  private _mountPoint?: string; 
+  private _mountPoint?: string;
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -319,13 +319,13 @@ export interface M2EnvironmentStorageConfigurationsFsx {
   /**
   * The file system identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
   * The mount point for the file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -415,7 +415,7 @@ export class M2EnvironmentStorageConfigurationsFsxOutputReference extends cdktn.
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -431,7 +431,7 @@ export class M2EnvironmentStorageConfigurationsFsxOutputReference extends cdktn.
   }
 
   // mount_point - computed: true, optional: true, required: false
-  private _mountPoint?: string; 
+  private _mountPoint?: string;
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -450,13 +450,13 @@ export interface M2EnvironmentStorageConfigurations {
   /**
   * Defines the storage configuration for an Amazon EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#efs M2Environment#efs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#efs M2Environment#efs}
   */
   readonly efs?: M2EnvironmentStorageConfigurationsEfs;
   /**
   * Defines the storage configuration for an Amazon FSx file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#fsx M2Environment#fsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#fsx M2Environment#fsx}
   */
   readonly fsx?: M2EnvironmentStorageConfigurationsFsx;
 }
@@ -601,7 +601,7 @@ export class M2EnvironmentStorageConfigurationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment awscc_m2_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment awscc_m2_environment}
 */
 export class M2Environment extends cdktn.TerraformResource {
 
@@ -617,7 +617,7 @@ export class M2Environment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a M2Environment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the M2Environment to import
-  * @param importFromId The id of the existing M2Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing M2Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the M2Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -629,7 +629,7 @@ export class M2Environment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_environment awscc_m2_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_environment awscc_m2_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,7 +640,7 @@ export class M2Environment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_m2_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -671,7 +671,7 @@ export class M2Environment extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -687,7 +687,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // engine_type - computed: false, optional: false, required: true
-  private _engineType?: string; 
+  private _engineType?: string;
   public get engineType() {
     return this.getStringAttribute('engine_type');
   }
@@ -700,7 +700,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -747,7 +747,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -760,7 +760,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -776,7 +776,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -789,7 +789,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string; 
+  private _networkType?: string;
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -805,7 +805,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -821,7 +821,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
+  private _publiclyAccessible?: boolean | cdktn.IResolvable;
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -837,7 +837,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -869,7 +869,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -885,7 +885,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

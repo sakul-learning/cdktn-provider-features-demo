@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface ControltowerBaselineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#baseline_identifier ControltowerBaseline#baseline_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#baseline_identifier ControltowerBaseline#baseline_identifier}
   */
   readonly baselineIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#baseline_version ControltowerBaseline#baseline_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#baseline_version ControltowerBaseline#baseline_version}
   */
   readonly baselineVersion: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#region ControltowerBaseline#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#region ControltowerBaseline#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#tags ControltowerBaseline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#tags ControltowerBaseline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#target_identifier ControltowerBaseline#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#target_identifier ControltowerBaseline#target_identifier}
   */
   readonly targetIdentifier: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#parameters ControltowerBaseline#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#parameters ControltowerBaseline#parameters}
   */
   readonly parameters?: ControltowerBaselineParameters[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#timeouts ControltowerBaseline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#timeouts ControltowerBaseline#timeouts}
   */
   readonly timeouts?: ControltowerBaselineTimeouts;
 }
 export interface ControltowerBaselineParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#key ControltowerBaseline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#key ControltowerBaseline#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#value ControltowerBaseline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#value ControltowerBaseline#value}
   */
   readonly value: string;
 }
@@ -140,7 +140,7 @@ export class ControltowerBaselineParametersOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -153,7 +153,7 @@ export class ControltowerBaselineParametersOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -189,19 +189,19 @@ export interface ControltowerBaselineTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#create ControltowerBaseline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#create ControltowerBaseline#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#delete ControltowerBaseline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#delete ControltowerBaseline#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#update ControltowerBaseline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#update ControltowerBaseline#update}
   */
   readonly update?: string;
 }
@@ -304,7 +304,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -320,7 +320,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -336,7 +336,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -353,7 +353,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline aws_controltower_baseline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline aws_controltower_baseline}
 */
 export class ControltowerBaseline extends cdktn.TerraformResource {
 
@@ -369,7 +369,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ControltowerBaseline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControltowerBaseline to import
-  * @param importFromId The id of the existing ControltowerBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControltowerBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControltowerBaseline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -381,7 +381,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,7 +392,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
       terraformResourceType: 'aws_controltower_baseline',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -421,7 +421,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // baseline_identifier - computed: false, optional: false, required: true
-  private _baselineIdentifier?: string; 
+  private _baselineIdentifier?: string;
   public get baselineIdentifier() {
     return this.getStringAttribute('baseline_identifier');
   }
@@ -434,7 +434,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // baseline_version - computed: false, optional: false, required: true
-  private _baselineVersion?: string; 
+  private _baselineVersion?: string;
   public get baselineVersion() {
     return this.getStringAttribute('baseline_version');
   }
@@ -452,7 +452,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -468,7 +468,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -490,7 +490,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // target_identifier - computed: false, optional: false, required: true
-  private _targetIdentifier?: string; 
+  private _targetIdentifier?: string;
   public get targetIdentifier() {
     return this.getStringAttribute('target_identifier');
   }

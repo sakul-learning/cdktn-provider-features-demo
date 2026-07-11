@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecurityhubSecurityControlConfig extends cdktn.TerraformMetaArg
   /**
   * The most recent reason for updating the customizable properties of a security control. This differs from the UpdateReason field of the BatchUpdateStandardsControlAssociations API, which tracks the reason for updating the enablement status of a control. This field accepts alphanumeric characters in addition to white spaces, dashes, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#last_update_reason SecurityhubSecurityControl#last_update_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#last_update_reason SecurityhubSecurityControl#last_update_reason}
   */
   readonly lastUpdateReason?: string;
   /**
   * An object that identifies the name of a control parameter, its current value, and whether it has been customized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#parameters SecurityhubSecurityControl#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#parameters SecurityhubSecurityControl#parameters}
   */
   readonly parameters: { [key: string]: SecurityhubSecurityControlParameters } | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) for a security control across standards, such as `arn:aws:securityhub:eu-central-1:123456789012:security-control/S3.1`. This parameter doesn't mention a specific standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#security_control_arn SecurityhubSecurityControl#security_control_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#security_control_arn SecurityhubSecurityControl#security_control_arn}
   */
   readonly securityControlArn?: string;
   /**
   * The unique identifier of a security control across standards. Values for this field typically consist of an AWS service name and a number, such as APIGateway.3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#security_control_id SecurityhubSecurityControl#security_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#security_control_id SecurityhubSecurityControl#security_control_id}
   */
   readonly securityControlId?: string;
 }
@@ -36,49 +36,49 @@ export interface SecurityhubSecurityControlParametersValue {
   /**
   * A control parameter that is a boolean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#boolean SecurityhubSecurityControl#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#boolean SecurityhubSecurityControl#boolean}
   */
   readonly boolean?: boolean | cdktn.IResolvable;
   /**
   * A control parameter that is a double.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#double SecurityhubSecurityControl#double}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#double SecurityhubSecurityControl#double}
   */
   readonly double?: number;
   /**
   * A control parameter that is a enum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#enum SecurityhubSecurityControl#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#enum SecurityhubSecurityControl#enum}
   */
   readonly enum?: string;
   /**
   * A control parameter that is a list of enums.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#enum_list SecurityhubSecurityControl#enum_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#enum_list SecurityhubSecurityControl#enum_list}
   */
   readonly enumList?: string[];
   /**
   * A control parameter that is a integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#integer SecurityhubSecurityControl#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#integer SecurityhubSecurityControl#integer}
   */
   readonly integer?: number;
   /**
   * A control parameter that is a list of integers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#integer_list SecurityhubSecurityControl#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#integer_list SecurityhubSecurityControl#integer_list}
   */
   readonly integerList?: number[];
   /**
   * A control parameter that is a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#string SecurityhubSecurityControl#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#string SecurityhubSecurityControl#string}
   */
   readonly string?: string;
   /**
   * A control parameter that is a list of strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#string_list SecurityhubSecurityControl#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#string_list SecurityhubSecurityControl#string_list}
   */
   readonly stringList?: string[];
 }
@@ -246,7 +246,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // boolean - computed: true, optional: true, required: false
-  private _boolean?: boolean | cdktn.IResolvable; 
+  private _boolean?: boolean | cdktn.IResolvable;
   public get boolean() {
     return this.getBooleanAttribute('boolean');
   }
@@ -262,7 +262,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // double - computed: true, optional: true, required: false
-  private _double?: number; 
+  private _double?: number;
   public get double() {
     return this.getNumberAttribute('double');
   }
@@ -278,7 +278,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // enum - computed: true, optional: true, required: false
-  private _enum?: string; 
+  private _enum?: string;
   public get enum() {
     return this.getStringAttribute('enum');
   }
@@ -294,7 +294,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // enum_list - computed: true, optional: true, required: false
-  private _enumList?: string[]; 
+  private _enumList?: string[];
   public get enumList() {
     return this.getListAttribute('enum_list');
   }
@@ -310,7 +310,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // integer - computed: true, optional: true, required: false
-  private _integer?: number; 
+  private _integer?: number;
   public get integer() {
     return this.getNumberAttribute('integer');
   }
@@ -326,7 +326,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // integer_list - computed: true, optional: true, required: false
-  private _integerList?: number[]; 
+  private _integerList?: number[];
   public get integerList() {
     return this.getNumberListAttribute('integer_list');
   }
@@ -342,7 +342,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // string - computed: true, optional: true, required: false
-  private _string?: string; 
+  private _string?: string;
   public get string() {
     return this.getStringAttribute('string');
   }
@@ -358,7 +358,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // string_list - computed: true, optional: true, required: false
-  private _stringList?: string[]; 
+  private _stringList?: string[];
   public get stringList() {
     return this.getListAttribute('string_list');
   }
@@ -375,11 +375,11 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
 }
 export interface SecurityhubSecurityControlParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}
   */
   readonly value?: SecurityhubSecurityControlParametersValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}
   */
   readonly valueType?: string;
 }
@@ -486,7 +486,7 @@ export class SecurityhubSecurityControlParametersOutputReference extends cdktn.C
   }
 
   // value_type - computed: true, optional: true, required: false
-  private _valueType?: string; 
+  private _valueType?: string;
   public get valueType() {
     return this.getStringAttribute('value_type');
   }
@@ -522,7 +522,7 @@ export class SecurityhubSecurityControlParametersMap extends cdktn.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}
 */
 export class SecurityhubSecurityControl extends cdktn.TerraformResource {
 
@@ -538,7 +538,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubSecurityControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubSecurityControl to import
-  * @param importFromId The id of the existing SecurityhubSecurityControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubSecurityControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubSecurityControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -550,7 +550,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,7 +561,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_security_control',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -587,7 +587,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // last_update_reason - computed: true, optional: true, required: false
-  private _lastUpdateReason?: string; 
+  private _lastUpdateReason?: string;
   public get lastUpdateReason() {
     return this.getStringAttribute('last_update_reason');
   }
@@ -616,7 +616,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // security_control_arn - computed: true, optional: true, required: false
-  private _securityControlArn?: string; 
+  private _securityControlArn?: string;
   public get securityControlArn() {
     return this.getStringAttribute('security_control_arn');
   }
@@ -632,7 +632,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // security_control_id - computed: true, optional: true, required: false
-  private _securityControlId?: string; 
+  private _securityControlId?: string;
   public get securityControlId() {
     return this.getStringAttribute('security_control_id');
   }

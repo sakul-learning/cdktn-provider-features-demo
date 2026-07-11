@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktn from 'cdktn';
 
 export interface ServiceDiscoveryServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#description ServiceDiscoveryService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#description ServiceDiscoveryService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#force_destroy ServiceDiscoveryService#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#force_destroy ServiceDiscoveryService#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#id ServiceDiscoveryService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#id ServiceDiscoveryService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#name ServiceDiscoveryService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#name ServiceDiscoveryService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#region ServiceDiscoveryService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#region ServiceDiscoveryService#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#tags ServiceDiscoveryService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#tags ServiceDiscoveryService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#tags_all ServiceDiscoveryService#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#tags_all ServiceDiscoveryService#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
   */
   readonly type?: string;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#dns_config ServiceDiscoveryService#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#dns_config ServiceDiscoveryService#dns_config}
   */
   readonly dnsConfig?: ServiceDiscoveryServiceDnsConfig;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#health_check_config ServiceDiscoveryService#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#health_check_config ServiceDiscoveryService#health_check_config}
   */
   readonly healthCheckConfig?: ServiceDiscoveryServiceHealthCheckConfig;
   /**
   * health_check_custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#health_check_custom_config ServiceDiscoveryService#health_check_custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#health_check_custom_config ServiceDiscoveryService#health_check_custom_config}
   */
   readonly healthCheckCustomConfig?: ServiceDiscoveryServiceHealthCheckCustomConfig;
 }
 export interface ServiceDiscoveryServiceDnsConfigDnsRecords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#ttl ServiceDiscoveryService#ttl}
   */
   readonly ttl: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
   */
   readonly type: string;
 }
@@ -165,7 +165,7 @@ export class ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference extends c
   }
 
   // ttl - computed: false, optional: false, required: true
-  private _ttl?: number; 
+  private _ttl?: number;
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -178,7 +178,7 @@ export class ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -212,17 +212,17 @@ export class ServiceDiscoveryServiceDnsConfigDnsRecordsList extends cdktn.Comple
 }
 export interface ServiceDiscoveryServiceDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#namespace_id ServiceDiscoveryService#namespace_id}
   */
   readonly namespaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#routing_policy ServiceDiscoveryService#routing_policy}
   */
   readonly routingPolicy?: string;
   /**
   * dns_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
   */
   readonly dnsRecords: ServiceDiscoveryServiceDnsConfigDnsRecords[] | cdktn.IResolvable;
 }
@@ -315,7 +315,7 @@ export class ServiceDiscoveryServiceDnsConfigOutputReference extends cdktn.Compl
   }
 
   // namespace_id - computed: false, optional: false, required: true
-  private _namespaceId?: string; 
+  private _namespaceId?: string;
   public get namespaceId() {
     return this.getStringAttribute('namespace_id');
   }
@@ -328,7 +328,7 @@ export class ServiceDiscoveryServiceDnsConfigOutputReference extends cdktn.Compl
   }
 
   // routing_policy - computed: false, optional: true, required: false
-  private _routingPolicy?: string; 
+  private _routingPolicy?: string;
   public get routingPolicy() {
     return this.getStringAttribute('routing_policy');
   }
@@ -358,15 +358,15 @@ export class ServiceDiscoveryServiceDnsConfigOutputReference extends cdktn.Compl
 }
 export interface ServiceDiscoveryServiceHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#resource_path ServiceDiscoveryService#resource_path}
   */
   readonly resourcePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#type ServiceDiscoveryService#type}
   */
   readonly type?: string;
 }
@@ -459,7 +459,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // failure_threshold - computed: false, optional: true, required: false
-  private _failureThreshold?: number; 
+  private _failureThreshold?: number;
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -475,7 +475,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // resource_path - computed: false, optional: true, required: false
-  private _resourcePath?: string; 
+  private _resourcePath?: string;
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -491,7 +491,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -508,7 +508,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
 }
 export interface ServiceDiscoveryServiceHealthCheckCustomConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}
   */
   readonly failureThreshold?: number;
 }
@@ -575,7 +575,7 @@ export class ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference exten
   }
 
   // failure_threshold - computed: false, optional: true, required: false
-  private _failureThreshold?: number; 
+  private _failureThreshold?: number;
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -592,7 +592,7 @@ export class ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service aws_service_discovery_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service aws_service_discovery_service}
 */
 export class ServiceDiscoveryService extends cdktn.TerraformResource {
 
@@ -608,7 +608,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServiceDiscoveryService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDiscoveryService to import
-  * @param importFromId The id of the existing ServiceDiscoveryService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDiscoveryService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDiscoveryService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -620,7 +620,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/service_discovery_service aws_service_discovery_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/service_discovery_service aws_service_discovery_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -631,7 +631,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
       terraformResourceType: 'aws_service_discovery_service',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -665,7 +665,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -681,7 +681,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable; 
+  private _forceDestroy?: boolean | cdktn.IResolvable;
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -697,7 +697,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -713,7 +713,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -726,7 +726,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // namespace_id - computed: true, optional: true, required: false
-  private _namespaceId?: string; 
+  private _namespaceId?: string;
   public get namespaceId() {
     return this.getStringAttribute('namespace_id');
   }
@@ -742,7 +742,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -758,7 +758,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -774,7 +774,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -790,7 +790,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

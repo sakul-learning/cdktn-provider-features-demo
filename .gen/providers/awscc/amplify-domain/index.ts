@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface AmplifyDomainConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#app_id AmplifyDomain#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#app_id AmplifyDomain#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#auto_sub_domain_creation_patterns AmplifyDomain#auto_sub_domain_creation_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#auto_sub_domain_creation_patterns AmplifyDomain#auto_sub_domain_creation_patterns}
   */
   readonly autoSubDomainCreationPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#auto_sub_domain_iam_role AmplifyDomain#auto_sub_domain_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#auto_sub_domain_iam_role AmplifyDomain#auto_sub_domain_iam_role}
   */
   readonly autoSubDomainIamRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#certificate_settings AmplifyDomain#certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#certificate_settings AmplifyDomain#certificate_settings}
   */
   readonly certificateSettings?: AmplifyDomainCertificateSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#domain_name AmplifyDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#domain_name AmplifyDomain#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#enable_auto_sub_domain AmplifyDomain#enable_auto_sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#enable_auto_sub_domain AmplifyDomain#enable_auto_sub_domain}
   */
   readonly enableAutoSubDomain?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#sub_domain_settings AmplifyDomain#sub_domain_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#sub_domain_settings AmplifyDomain#sub_domain_settings}
   */
   readonly subDomainSettings: AmplifyDomainSubDomainSettings[] | cdktn.IResolvable;
 }
@@ -102,11 +102,11 @@ export class AmplifyDomainCertificateOutputReference extends cdktn.ComplexObject
 }
 export interface AmplifyDomainCertificateSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#certificate_type AmplifyDomain#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#certificate_type AmplifyDomain#certificate_type}
   */
   readonly certificateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#custom_certificate_arn AmplifyDomain#custom_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#custom_certificate_arn AmplifyDomain#custom_certificate_arn}
   */
   readonly customCertificateArn?: string;
 }
@@ -196,7 +196,7 @@ export class AmplifyDomainCertificateSettingsOutputReference extends cdktn.Compl
   }
 
   // certificate_type - computed: true, optional: true, required: false
-  private _certificateType?: string; 
+  private _certificateType?: string;
   public get certificateType() {
     return this.getStringAttribute('certificate_type');
   }
@@ -212,7 +212,7 @@ export class AmplifyDomainCertificateSettingsOutputReference extends cdktn.Compl
   }
 
   // custom_certificate_arn - computed: true, optional: true, required: false
-  private _customCertificateArn?: string; 
+  private _customCertificateArn?: string;
   public get customCertificateArn() {
     return this.getStringAttribute('custom_certificate_arn');
   }
@@ -229,11 +229,11 @@ export class AmplifyDomainCertificateSettingsOutputReference extends cdktn.Compl
 }
 export interface AmplifyDomainSubDomainSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#branch_name AmplifyDomain#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#branch_name AmplifyDomain#branch_name}
   */
   readonly branchName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#prefix AmplifyDomain#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#prefix AmplifyDomain#prefix}
   */
   readonly prefix: string;
 }
@@ -325,7 +325,7 @@ export class AmplifyDomainSubDomainSettingsOutputReference extends cdktn.Complex
   }
 
   // branch_name - computed: false, optional: false, required: true
-  private _branchName?: string; 
+  private _branchName?: string;
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -338,7 +338,7 @@ export class AmplifyDomainSubDomainSettingsOutputReference extends cdktn.Complex
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -372,7 +372,7 @@ export class AmplifyDomainSubDomainSettingsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain awscc_amplify_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain awscc_amplify_domain}
 */
 export class AmplifyDomain extends cdktn.TerraformResource {
 
@@ -388,7 +388,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AmplifyDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmplifyDomain to import
-  * @param importFromId The id of the existing AmplifyDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmplifyDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmplifyDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -400,7 +400,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amplify_domain awscc_amplify_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amplify_domain awscc_amplify_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,7 +411,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_amplify_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -435,7 +435,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   // ==========
 
   // app_id - computed: false, optional: false, required: true
-  private _appId?: string; 
+  private _appId?: string;
   public get appId() {
     return this.getStringAttribute('app_id');
   }
@@ -453,7 +453,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   }
 
   // auto_sub_domain_creation_patterns - computed: true, optional: true, required: false
-  private _autoSubDomainCreationPatterns?: string[]; 
+  private _autoSubDomainCreationPatterns?: string[];
   public get autoSubDomainCreationPatterns() {
     return this.getListAttribute('auto_sub_domain_creation_patterns');
   }
@@ -469,7 +469,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   }
 
   // auto_sub_domain_iam_role - computed: true, optional: true, required: false
-  private _autoSubDomainIamRole?: string; 
+  private _autoSubDomainIamRole?: string;
   public get autoSubDomainIamRole() {
     return this.getStringAttribute('auto_sub_domain_iam_role');
   }
@@ -512,7 +512,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -530,7 +530,7 @@ export class AmplifyDomain extends cdktn.TerraformResource {
   }
 
   // enable_auto_sub_domain - computed: true, optional: true, required: false
-  private _enableAutoSubDomain?: boolean | cdktn.IResolvable; 
+  private _enableAutoSubDomain?: boolean | cdktn.IResolvable;
   public get enableAutoSubDomain() {
     return this.getBooleanAttribute('enable_auto_sub_domain');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktn from 'cdktn';
 
 export interface WafRateBasedRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#id WafRateBasedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#id WafRateBasedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#metric_name WafRateBasedRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#metric_name WafRateBasedRule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#name WafRateBasedRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#name WafRateBasedRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#rate_key WafRateBasedRule#rate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#rate_key WafRateBasedRule#rate_key}
   */
   readonly rateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#rate_limit WafRateBasedRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#rate_limit WafRateBasedRule#rate_limit}
   */
   readonly rateLimit: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#tags WafRateBasedRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#tags WafRateBasedRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#tags_all WafRateBasedRule#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#tags_all WafRateBasedRule#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#predicates WafRateBasedRule#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#predicates WafRateBasedRule#predicates}
   */
   readonly predicates?: WafRateBasedRulePredicates[] | cdktn.IResolvable;
 }
 export interface WafRateBasedRulePredicates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#data_id WafRateBasedRule#data_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#data_id WafRateBasedRule#data_id}
   */
   readonly dataId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#negated WafRateBasedRule#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#negated WafRateBasedRule#negated}
   */
   readonly negated: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#type WafRateBasedRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#type WafRateBasedRule#type}
   */
   readonly type: string;
 }
@@ -160,7 +160,7 @@ export class WafRateBasedRulePredicatesOutputReference extends cdktn.ComplexObje
   }
 
   // data_id - computed: false, optional: false, required: true
-  private _dataId?: string; 
+  private _dataId?: string;
   public get dataId() {
     return this.getStringAttribute('data_id');
   }
@@ -173,7 +173,7 @@ export class WafRateBasedRulePredicatesOutputReference extends cdktn.ComplexObje
   }
 
   // negated - computed: false, optional: false, required: true
-  private _negated?: boolean | cdktn.IResolvable; 
+  private _negated?: boolean | cdktn.IResolvable;
   public get negated() {
     return this.getBooleanAttribute('negated');
   }
@@ -186,7 +186,7 @@ export class WafRateBasedRulePredicatesOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -220,7 +220,7 @@ export class WafRateBasedRulePredicatesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule}
 */
 export class WafRateBasedRule extends cdktn.TerraformResource {
 
@@ -236,7 +236,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WafRateBasedRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRateBasedRule to import
-  * @param importFromId The id of the existing WafRateBasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRateBasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRateBasedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -248,7 +248,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,7 +259,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_waf_rate_based_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -289,7 +289,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -305,7 +305,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -318,7 +318,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -331,7 +331,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // rate_key - computed: false, optional: false, required: true
-  private _rateKey?: string; 
+  private _rateKey?: string;
   public get rateKey() {
     return this.getStringAttribute('rate_key');
   }
@@ -344,7 +344,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // rate_limit - computed: false, optional: false, required: true
-  private _rateLimit?: number; 
+  private _rateLimit?: number;
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -357,7 +357,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -373,7 +373,7 @@ export class WafRateBasedRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

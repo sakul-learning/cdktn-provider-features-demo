@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotsitewise_dashboard
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotsitewise_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccIotsitewiseDashboardConfig extends cdktn.TerraformMeta
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotsitewise_dashboard#id DataAwsccIotsitewiseDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotsitewise_dashboard#id DataAwsccIotsitewiseDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ export class DataAwsccIotsitewiseDashboardTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard}
 */
 export class DataAwsccIotsitewiseDashboard extends cdktn.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataAwsccIotsitewiseDashboard extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotsitewiseDashboard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotsitewiseDashboard to import
-  * @param importFromId The id of the existing DataAwsccIotsitewiseDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotsitewiseDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotsitewise_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotsitewiseDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataAwsccIotsitewiseDashboard extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,7 +138,7 @@ export class DataAwsccIotsitewiseDashboard extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iotsitewise_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -181,7 +181,7 @@ export class DataAwsccIotsitewiseDashboard extends cdktn.TerraformDataSource {
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

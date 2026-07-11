@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebSessionLoggerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#additional_encryption_context WorkspaceswebSessionLogger#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#additional_encryption_context WorkspaceswebSessionLogger#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#customer_managed_key WorkspaceswebSessionLogger#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#customer_managed_key WorkspaceswebSessionLogger#customer_managed_key}
   */
   readonly customerManagedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#display_name WorkspaceswebSessionLogger#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#display_name WorkspaceswebSessionLogger#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#event_filter WorkspaceswebSessionLogger#event_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#event_filter WorkspaceswebSessionLogger#event_filter}
   */
   readonly eventFilter: WorkspaceswebSessionLoggerEventFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#log_configuration WorkspaceswebSessionLogger#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#log_configuration WorkspaceswebSessionLogger#log_configuration}
   */
   readonly logConfiguration: WorkspaceswebSessionLoggerLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#tags WorkspaceswebSessionLogger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#tags WorkspaceswebSessionLogger#tags}
   */
   readonly tags?: WorkspaceswebSessionLoggerTags[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebSessionLoggerEventFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#all WorkspaceswebSessionLogger#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#all WorkspaceswebSessionLogger#all}
   */
   readonly all?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#include WorkspaceswebSessionLogger#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#include WorkspaceswebSessionLogger#include}
   */
   readonly include?: string[];
 }
@@ -128,7 +128,7 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
   }
 
   // all - computed: true, optional: true, required: false
-  private _all?: string; 
+  private _all?: string;
   public get all() {
     return this.getStringAttribute('all');
   }
@@ -144,7 +144,7 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[]; 
+  private _include?: string[];
   public get include() {
     return this.getListAttribute('include');
   }
@@ -161,23 +161,23 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
 }
 export interface WorkspaceswebSessionLoggerLogConfigurationS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#bucket WorkspaceswebSessionLogger#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#bucket WorkspaceswebSessionLogger#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#bucket_owner WorkspaceswebSessionLogger#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#bucket_owner WorkspaceswebSessionLogger#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#folder_structure WorkspaceswebSessionLogger#folder_structure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#folder_structure WorkspaceswebSessionLogger#folder_structure}
   */
   readonly folderStructure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#key_prefix WorkspaceswebSessionLogger#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#key_prefix WorkspaceswebSessionLogger#key_prefix}
   */
   readonly keyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#log_file_format WorkspaceswebSessionLogger#log_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#log_file_format WorkspaceswebSessionLogger#log_file_format}
   */
   readonly logFileFormat?: string;
 }
@@ -306,7 +306,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -322,7 +322,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -338,7 +338,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // folder_structure - computed: true, optional: true, required: false
-  private _folderStructure?: string; 
+  private _folderStructure?: string;
   public get folderStructure() {
     return this.getStringAttribute('folder_structure');
   }
@@ -354,7 +354,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string; 
+  private _keyPrefix?: string;
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -370,7 +370,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // log_file_format - computed: true, optional: true, required: false
-  private _logFileFormat?: string; 
+  private _logFileFormat?: string;
   public get logFileFormat() {
     return this.getStringAttribute('log_file_format');
   }
@@ -387,7 +387,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
 }
 export interface WorkspaceswebSessionLoggerLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
   */
   readonly s3?: WorkspaceswebSessionLoggerLogConfigurationS3;
 }
@@ -481,11 +481,11 @@ export class WorkspaceswebSessionLoggerLogConfigurationOutputReference extends c
 }
 export interface WorkspaceswebSessionLoggerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#key WorkspaceswebSessionLogger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#key WorkspaceswebSessionLogger#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#value WorkspaceswebSessionLogger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#value WorkspaceswebSessionLogger#value}
   */
   readonly value?: string;
 }
@@ -577,7 +577,7 @@ export class WorkspaceswebSessionLoggerTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -593,7 +593,7 @@ export class WorkspaceswebSessionLoggerTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -630,7 +630,7 @@ export class WorkspaceswebSessionLoggerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger awscc_workspacesweb_session_logger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger awscc_workspacesweb_session_logger}
 */
 export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
 
@@ -646,7 +646,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspaceswebSessionLogger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebSessionLogger to import
-  * @param importFromId The id of the existing WorkspaceswebSessionLogger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebSessionLogger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebSessionLogger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -658,7 +658,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,7 +669,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspacesweb_session_logger',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -692,7 +692,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string }; 
+  private _additionalEncryptionContext?: { [key: string]: string };
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -718,7 +718,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string; 
+  private _customerManagedKey?: string;
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -734,7 +734,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }

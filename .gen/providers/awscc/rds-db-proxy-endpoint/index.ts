@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface RdsDbProxyEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
   * The identifier for the DB proxy endpoint. This name must be unique for all DB proxy endpoints owned by your AWS account in the specified AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#db_proxy_endpoint_name RdsDbProxyEndpoint#db_proxy_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#db_proxy_endpoint_name RdsDbProxyEndpoint#db_proxy_endpoint_name}
   */
   readonly dbProxyEndpointName: string;
   /**
   * The identifier for the proxy. This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#db_proxy_name RdsDbProxyEndpoint#db_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#db_proxy_name RdsDbProxyEndpoint#db_proxy_name}
   */
   readonly dbProxyName: string;
   /**
   * The network type of the DB proxy endpoint. The network type determines the IP version that the proxy endpoint supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#endpoint_network_type RdsDbProxyEndpoint#endpoint_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#endpoint_network_type RdsDbProxyEndpoint#endpoint_network_type}
   */
   readonly endpointNetworkType?: string;
   /**
   * An optional set of key-value pairs to associate arbitrary data of your choosing with the DB proxy endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#tags RdsDbProxyEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#tags RdsDbProxyEndpoint#tags}
   */
   readonly tags?: RdsDbProxyEndpointTags[] | cdktn.IResolvable;
   /**
   * A value that indicates whether the DB proxy endpoint can be used for read/write or read-only operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#target_role RdsDbProxyEndpoint#target_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#target_role RdsDbProxyEndpoint#target_role}
   */
   readonly targetRole?: string;
   /**
   * VPC security group IDs to associate with the new DB proxy endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#vpc_security_group_ids RdsDbProxyEndpoint#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#vpc_security_group_ids RdsDbProxyEndpoint#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
   /**
   * VPC subnet IDs to associate with the new DB proxy endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#vpc_subnet_ids RdsDbProxyEndpoint#vpc_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#vpc_subnet_ids RdsDbProxyEndpoint#vpc_subnet_ids}
   */
   readonly vpcSubnetIds: string[];
 }
 export interface RdsDbProxyEndpointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}
   */
   readonly value?: string;
 }
@@ -148,7 +148,7 @@ export class RdsDbProxyEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class RdsDbProxyEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -201,7 +201,7 @@ export class RdsDbProxyEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}
 */
 export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
 
@@ -217,7 +217,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsDbProxyEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbProxyEndpoint to import
-  * @param importFromId The id of the existing RdsDbProxyEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbProxyEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbProxyEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -229,7 +229,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_db_proxy_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -269,7 +269,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_endpoint_name - computed: false, optional: false, required: true
-  private _dbProxyEndpointName?: string; 
+  private _dbProxyEndpointName?: string;
   public get dbProxyEndpointName() {
     return this.getStringAttribute('db_proxy_endpoint_name');
   }
@@ -282,7 +282,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string; 
+  private _dbProxyName?: string;
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -300,7 +300,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_network_type - computed: true, optional: true, required: false
-  private _endpointNetworkType?: string; 
+  private _endpointNetworkType?: string;
   public get endpointNetworkType() {
     return this.getStringAttribute('endpoint_network_type');
   }
@@ -342,7 +342,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // target_role - computed: true, optional: true, required: false
-  private _targetRole?: string; 
+  private _targetRole?: string;
   public get targetRole() {
     return this.getStringAttribute('target_role');
   }
@@ -363,7 +363,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -379,7 +379,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[]; 
+  private _vpcSubnetIds?: string[];
   public get vpcSubnetIds() {
     return this.getListAttribute('vpc_subnet_ids');
   }

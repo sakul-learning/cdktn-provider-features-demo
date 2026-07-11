@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface AppstreamStackConfig extends cdktn.TerraformMetaArguments {
   /**
   * The list of virtual private cloud (VPC) interface endpoint objects. Users of the stack can connect to AppStream 2.0 only through the specified endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
   */
   readonly accessEndpoints?: AppstreamStackAccessEndpoints[] | cdktn.IResolvable;
   /**
   * The configuration for agent access on the stack. If specified, agent access is enabled for the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
   */
   readonly agentAccessConfig?: AppstreamStackAgentAccessConfig;
   /**
   * The persistent application settings for users of the stack. When these settings are enabled, changes that users make to applications and Windows settings are automatically saved after each session and applied to the next session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
   */
   readonly applicationSettings?: AppstreamStackApplicationSettings;
   /**
   * The stack attributes to delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
   */
   readonly attributesToDelete?: string[];
   /**
   * The content redirection settings for the stack. These settings control URL redirection between the streaming session and the local device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
   */
   readonly contentRedirection?: AppstreamStackContentRedirection;
   /**
   * This parameter has been deprecated. Deletes the storage connectors currently enabled for the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
   */
   readonly deleteStorageConnectors?: boolean | cdktn.IResolvable;
   /**
   * The description to display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#description AppstreamStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#description AppstreamStack#description}
   */
   readonly description?: string;
   /**
   * The stack name to display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
   */
   readonly displayName?: string;
   /**
   * The domains where AppStream 2.0 streaming sessions can be embedded in an iframe. You must approve the domains that you want to host embedded AppStream 2.0 streaming sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
   */
   readonly embedHostDomains?: string[];
   /**
   * The URL that users are redirected to after they click the Send Feedback link. If no URL is specified, no Send Feedback link is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
   */
   readonly feedbackUrl?: string;
   /**
   * The name of the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#name AppstreamStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#name AppstreamStack#name}
   */
   readonly name?: string;
   /**
   * The URL that users are redirected to after their streaming session ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * The storage connectors to enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
   */
   readonly storageConnectors?: AppstreamStackStorageConnectors[] | cdktn.IResolvable;
   /**
   * The streaming protocol that you want your stack to prefer. This can be UDP or TCP. Currently, UDP is only supported in the Windows native client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
   */
   readonly streamingExperienceSettings?: AppstreamStackStreamingExperienceSettings;
   /**
   * An array of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
   */
   readonly tags?: AppstreamStackTags[] | cdktn.IResolvable;
   /**
   * The actions that are enabled or disabled for users during their streaming sessions. By default, these actions are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
   */
   readonly userSettings?: AppstreamStackUserSettings[] | cdktn.IResolvable;
 }
@@ -108,13 +108,13 @@ export interface AppstreamStackAccessEndpoints {
   /**
   * The type of interface endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
   */
   readonly endpointType?: string;
   /**
   * The identifier (ID) of the VPC in which the interface endpoint is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
   */
   readonly vpceId?: string;
 }
@@ -206,7 +206,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // endpoint_type - computed: true, optional: true, required: false
-  private _endpointType?: string; 
+  private _endpointType?: string;
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -222,7 +222,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string; 
+  private _vpceId?: string;
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -261,13 +261,13 @@ export interface AppstreamStackAgentAccessConfigSettings {
   /**
   * The agent action to configure. Valid values are COMPUTER_VISION, COMPUTER_INPUT, and FORWARD_MCP_TOOLS. COMPUTER_VISION allows agents to take screenshots of the desktop. COMPUTER_INPUT allows agents to click, type, and scroll on the desktop and requires COMPUTER_VISION to also be enabled. FORWARD_MCP_TOOLS allows agents to interact with applications and the desktop operating system through direct MCP calls rather than using computer use tools. Forwards MCP tools configured on the WorkSpaces application session to the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#agent_action AppstreamStack#agent_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#agent_action AppstreamStack#agent_action}
   */
   readonly agentAction?: string;
   /**
   * Whether the agent action is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
   */
   readonly permission?: string;
 }
@@ -359,7 +359,7 @@ export class AppstreamStackAgentAccessConfigSettingsOutputReference extends cdkt
   }
 
   // agent_action - computed: true, optional: true, required: false
-  private _agentAction?: string; 
+  private _agentAction?: string;
   public get agentAction() {
     return this.getStringAttribute('agent_action');
   }
@@ -375,7 +375,7 @@ export class AppstreamStackAgentAccessConfigSettingsOutputReference extends cdkt
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string; 
+  private _permission?: string;
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -414,37 +414,37 @@ export interface AppstreamStackAgentAccessConfig {
   /**
   * The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored. Required when ScreenshotsUploadEnabled is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#s3_bucket_arn AppstreamStack#s3_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#s3_bucket_arn AppstreamStack#s3_bucket_arn}
   */
   readonly s3BucketArn?: string;
   /**
   * The image format for agent screen captures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#screen_image_format AppstreamStack#screen_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#screen_image_format AppstreamStack#screen_image_format}
   */
   readonly screenImageFormat?: string;
   /**
   * The screen resolution for the agent streaming environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#screen_resolution AppstreamStack#screen_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#screen_resolution AppstreamStack#screen_resolution}
   */
   readonly screenResolution?: string;
   /**
   * Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#screenshots_upload_enabled AppstreamStack#screenshots_upload_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#screenshots_upload_enabled AppstreamStack#screenshots_upload_enabled}
   */
   readonly screenshotsUploadEnabled?: boolean | cdktn.IResolvable;
   /**
   * The list of agent access settings that define permissions for each agent action. You must specify at least one setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#settings AppstreamStack#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#settings AppstreamStack#settings}
   */
   readonly settings?: AppstreamStackAgentAccessConfigSettings[] | cdktn.IResolvable;
   /**
   * The user control mode for agent sessions. This setting determines how users can interact with agent sessions. Valid values are VIEW_ONLY, VIEW_STOP, and DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#user_control_mode AppstreamStack#user_control_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#user_control_mode AppstreamStack#user_control_mode}
   */
   readonly userControlMode?: string;
 }
@@ -586,7 +586,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string; 
+  private _s3BucketArn?: string;
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -602,7 +602,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screen_image_format - computed: true, optional: true, required: false
-  private _screenImageFormat?: string; 
+  private _screenImageFormat?: string;
   public get screenImageFormat() {
     return this.getStringAttribute('screen_image_format');
   }
@@ -618,7 +618,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screen_resolution - computed: true, optional: true, required: false
-  private _screenResolution?: string; 
+  private _screenResolution?: string;
   public get screenResolution() {
     return this.getStringAttribute('screen_resolution');
   }
@@ -634,7 +634,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screenshots_upload_enabled - computed: true, optional: true, required: false
-  private _screenshotsUploadEnabled?: boolean | cdktn.IResolvable; 
+  private _screenshotsUploadEnabled?: boolean | cdktn.IResolvable;
   public get screenshotsUploadEnabled() {
     return this.getBooleanAttribute('screenshots_upload_enabled');
   }
@@ -666,7 +666,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // user_control_mode - computed: true, optional: true, required: false
-  private _userControlMode?: string; 
+  private _userControlMode?: string;
   public get userControlMode() {
     return this.getStringAttribute('user_control_mode');
   }
@@ -685,13 +685,13 @@ export interface AppstreamStackApplicationSettings {
   /**
   * Enables or disables persistent application settings for users during their streaming sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The path prefix for the S3 bucket where users' persistent application settings are stored. You can allow the same persistent application settings to be used across multiple stacks by specifying the same settings group for each stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
   */
   readonly settingsGroup?: string;
 }
@@ -781,7 +781,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -797,7 +797,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // settings_group - computed: true, optional: true, required: false
-  private _settingsGroup?: string; 
+  private _settingsGroup?: string;
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -816,19 +816,19 @@ export interface AppstreamStackContentRedirectionHostToClient {
   /**
   * The URLs that are allowed for redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#allowed_urls AppstreamStack#allowed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#allowed_urls AppstreamStack#allowed_urls}
   */
   readonly allowedUrls?: string[];
   /**
   * The URLs that are denied for redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#denied_urls AppstreamStack#denied_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#denied_urls AppstreamStack#denied_urls}
   */
   readonly deniedUrls?: string[];
   /**
   * Specifies whether URL redirection is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -931,7 +931,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // allowed_urls - computed: true, optional: true, required: false
-  private _allowedUrls?: string[]; 
+  private _allowedUrls?: string[];
   public get allowedUrls() {
     return this.getListAttribute('allowed_urls');
   }
@@ -947,7 +947,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // denied_urls - computed: true, optional: true, required: false
-  private _deniedUrls?: string[]; 
+  private _deniedUrls?: string[];
   public get deniedUrls() {
     return this.getListAttribute('denied_urls');
   }
@@ -963,7 +963,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -982,7 +982,7 @@ export interface AppstreamStackContentRedirection {
   /**
   * The URL redirection configuration from the streaming session host to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#host_to_client AppstreamStack#host_to_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#host_to_client AppstreamStack#host_to_client}
   */
   readonly hostToClient?: AppstreamStackContentRedirectionHostToClient;
 }
@@ -1078,19 +1078,19 @@ export interface AppstreamStackStorageConnectors {
   /**
   * The type of storage connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
   */
   readonly connectorType?: string;
   /**
   * The names of the domains for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
   */
   readonly domains?: string[];
   /**
   * The ARN of the storage connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
   */
   readonly resourceIdentifier?: string;
 }
@@ -1195,7 +1195,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // connector_type - computed: true, optional: true, required: false
-  private _connectorType?: string; 
+  private _connectorType?: string;
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -1211,7 +1211,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[]; 
+  private _domains?: string[];
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -1227,7 +1227,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string; 
+  private _resourceIdentifier?: string;
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -1266,7 +1266,7 @@ export interface AppstreamStackStreamingExperienceSettings {
   /**
   * The preferred protocol that you want to use while streaming your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
   */
   readonly preferredProtocol?: string;
 }
@@ -1343,7 +1343,7 @@ export class AppstreamStackStreamingExperienceSettingsOutputReference extends cd
   }
 
   // preferred_protocol - computed: true, optional: true, required: false
-  private _preferredProtocol?: string; 
+  private _preferredProtocol?: string;
   public get preferredProtocol() {
     return this.getStringAttribute('preferred_protocol');
   }
@@ -1362,13 +1362,13 @@ export interface AppstreamStackTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#key AppstreamStack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#key AppstreamStack#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#value AppstreamStack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#value AppstreamStack#value}
   */
   readonly value?: string;
 }
@@ -1460,7 +1460,7 @@ export class AppstreamStackTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1476,7 +1476,7 @@ export class AppstreamStackTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1515,19 +1515,19 @@ export interface AppstreamStackUserSettings {
   /**
   * The action that is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#action AppstreamStack#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#action AppstreamStack#action}
   */
   readonly action?: string;
   /**
   * Specifies the number of characters that can be copied by end users from the local device to the remote session, and to the local device from the remote session. This can be specified only for the CLIPBOARD_COPY_FROM_LOCAL_DEVICE and CLIPBOARD_COPY_TO_LOCAL_DEVICE actions. This defaults to 20,971,520 (20 MB) when unspecified and the permission is ENABLED. This can't be specified when the permission is DISABLED. The value can be between 1 and 20,971,520 (20 MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#maximum_length AppstreamStack#maximum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#maximum_length AppstreamStack#maximum_length}
   */
   readonly maximumLength?: number;
   /**
   * Indicates whether the action is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
   */
   readonly permission?: string;
 }
@@ -1632,7 +1632,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1648,7 +1648,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // maximum_length - computed: true, optional: true, required: false
-  private _maximumLength?: number; 
+  private _maximumLength?: number;
   public get maximumLength() {
     return this.getNumberAttribute('maximum_length');
   }
@@ -1664,7 +1664,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string; 
+  private _permission?: string;
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -1701,7 +1701,7 @@ export class AppstreamStackUserSettingsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack awscc_appstream_stack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack awscc_appstream_stack}
 */
 export class AppstreamStack extends cdktn.TerraformResource {
 
@@ -1717,7 +1717,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamStack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamStack to import
-  * @param importFromId The id of the existing AppstreamStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1729,7 +1729,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appstream_stack awscc_appstream_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_stack awscc_appstream_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1740,7 +1740,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_stack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1821,7 +1821,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // attributes_to_delete - computed: true, optional: true, required: false
-  private _attributesToDelete?: string[]; 
+  private _attributesToDelete?: string[];
   public get attributesToDelete() {
     return this.getListAttribute('attributes_to_delete');
   }
@@ -1853,7 +1853,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // delete_storage_connectors - computed: true, optional: true, required: false
-  private _deleteStorageConnectors?: boolean | cdktn.IResolvable; 
+  private _deleteStorageConnectors?: boolean | cdktn.IResolvable;
   public get deleteStorageConnectors() {
     return this.getBooleanAttribute('delete_storage_connectors');
   }
@@ -1869,7 +1869,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1885,7 +1885,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1901,7 +1901,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // embed_host_domains - computed: true, optional: true, required: false
-  private _embedHostDomains?: string[]; 
+  private _embedHostDomains?: string[];
   public get embedHostDomains() {
     return this.getListAttribute('embed_host_domains');
   }
@@ -1917,7 +1917,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // feedback_url - computed: true, optional: true, required: false
-  private _feedbackUrl?: string; 
+  private _feedbackUrl?: string;
   public get feedbackUrl() {
     return this.getStringAttribute('feedback_url');
   }
@@ -1938,7 +1938,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1954,7 +1954,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // redirect_url - computed: true, optional: true, required: false
-  private _redirectUrl?: string; 
+  private _redirectUrl?: string;
   public get redirectUrl() {
     return this.getStringAttribute('redirect_url');
   }

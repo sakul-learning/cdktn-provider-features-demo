@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,79 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebUserSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#additional_encryption_context WorkspaceswebUserSettings#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#additional_encryption_context WorkspaceswebUserSettings#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#copy_allowed WorkspaceswebUserSettings#copy_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#copy_allowed WorkspaceswebUserSettings#copy_allowed}
   */
   readonly copyAllowed: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#customer_managed_key WorkspaceswebUserSettings#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#customer_managed_key WorkspaceswebUserSettings#customer_managed_key}
   */
   readonly customerManagedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#deep_link_allowed WorkspaceswebUserSettings#deep_link_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#deep_link_allowed WorkspaceswebUserSettings#deep_link_allowed}
   */
   readonly deepLinkAllowed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#disconnect_timeout_in_minutes WorkspaceswebUserSettings#disconnect_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#disconnect_timeout_in_minutes WorkspaceswebUserSettings#disconnect_timeout_in_minutes}
   */
   readonly disconnectTimeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#download_allowed WorkspaceswebUserSettings#download_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#download_allowed WorkspaceswebUserSettings#download_allowed}
   */
   readonly downloadAllowed: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#idle_disconnect_timeout_in_minutes WorkspaceswebUserSettings#idle_disconnect_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#idle_disconnect_timeout_in_minutes WorkspaceswebUserSettings#idle_disconnect_timeout_in_minutes}
   */
   readonly idleDisconnectTimeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#paste_allowed WorkspaceswebUserSettings#paste_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#paste_allowed WorkspaceswebUserSettings#paste_allowed}
   */
   readonly pasteAllowed: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#print_allowed WorkspaceswebUserSettings#print_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#print_allowed WorkspaceswebUserSettings#print_allowed}
   */
   readonly printAllowed: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#region WorkspaceswebUserSettings#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#region WorkspaceswebUserSettings#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#tags WorkspaceswebUserSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#tags WorkspaceswebUserSettings#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#upload_allowed WorkspaceswebUserSettings#upload_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#upload_allowed WorkspaceswebUserSettings#upload_allowed}
   */
   readonly uploadAllowed: string;
   /**
   * cookie_synchronization_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#cookie_synchronization_configuration WorkspaceswebUserSettings#cookie_synchronization_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#cookie_synchronization_configuration WorkspaceswebUserSettings#cookie_synchronization_configuration}
   */
   readonly cookieSynchronizationConfiguration?: WorkspaceswebUserSettingsCookieSynchronizationConfiguration[] | cdktn.IResolvable;
   /**
   * toolbar_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#toolbar_configuration WorkspaceswebUserSettings#toolbar_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#toolbar_configuration WorkspaceswebUserSettings#toolbar_configuration}
   */
   readonly toolbarConfiguration?: WorkspaceswebUserSettingsToolbarConfiguration[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#domain WorkspaceswebUserSettings#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#domain WorkspaceswebUserSettings#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#name WorkspaceswebUserSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#name WorkspaceswebUserSettings#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#path WorkspaceswebUserSettings#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#path WorkspaceswebUserSettings#path}
   */
   readonly path?: string;
 }
@@ -185,7 +185,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -198,7 +198,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -214,7 +214,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -251,15 +251,15 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
 }
 export interface WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#domain WorkspaceswebUserSettings#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#domain WorkspaceswebUserSettings#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#name WorkspaceswebUserSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#name WorkspaceswebUserSettings#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#path WorkspaceswebUserSettings#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#path WorkspaceswebUserSettings#path}
   */
   readonly path?: string;
 }
@@ -364,7 +364,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -377,7 +377,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -393,7 +393,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -432,13 +432,13 @@ export interface WorkspaceswebUserSettingsCookieSynchronizationConfiguration {
   /**
   * allowlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#allowlist WorkspaceswebUserSettings#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#allowlist WorkspaceswebUserSettings#allowlist}
   */
   readonly allowlist?: WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct[] | cdktn.IResolvable;
   /**
   * blocklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#blocklist WorkspaceswebUserSettings#blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#blocklist WorkspaceswebUserSettings#blocklist}
   */
   readonly blocklist?: WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct[] | cdktn.IResolvable;
 }
@@ -583,19 +583,19 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationList ext
 }
 export interface WorkspaceswebUserSettingsToolbarConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#hidden_toolbar_items WorkspaceswebUserSettings#hidden_toolbar_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#hidden_toolbar_items WorkspaceswebUserSettings#hidden_toolbar_items}
   */
   readonly hiddenToolbarItems?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#max_display_resolution WorkspaceswebUserSettings#max_display_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#max_display_resolution WorkspaceswebUserSettings#max_display_resolution}
   */
   readonly maxDisplayResolution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#toolbar_type WorkspaceswebUserSettings#toolbar_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#toolbar_type WorkspaceswebUserSettings#toolbar_type}
   */
   readonly toolbarType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#visual_mode WorkspaceswebUserSettings#visual_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#visual_mode WorkspaceswebUserSettings#visual_mode}
   */
   readonly visualMode?: string;
 }
@@ -713,7 +713,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // hidden_toolbar_items - computed: false, optional: true, required: false
-  private _hiddenToolbarItems?: string[]; 
+  private _hiddenToolbarItems?: string[];
   public get hiddenToolbarItems() {
     return this.getListAttribute('hidden_toolbar_items');
   }
@@ -729,7 +729,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // max_display_resolution - computed: false, optional: true, required: false
-  private _maxDisplayResolution?: string; 
+  private _maxDisplayResolution?: string;
   public get maxDisplayResolution() {
     return this.getStringAttribute('max_display_resolution');
   }
@@ -745,7 +745,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // toolbar_type - computed: false, optional: true, required: false
-  private _toolbarType?: string; 
+  private _toolbarType?: string;
   public get toolbarType() {
     return this.getStringAttribute('toolbar_type');
   }
@@ -761,7 +761,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // visual_mode - computed: false, optional: true, required: false
-  private _visualMode?: string; 
+  private _visualMode?: string;
   public get visualMode() {
     return this.getStringAttribute('visual_mode');
   }
@@ -798,7 +798,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationList extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings}
 */
 export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
 
@@ -814,7 +814,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspaceswebUserSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebUserSettings to import
-  * @param importFromId The id of the existing WorkspaceswebUserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebUserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebUserSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -826,7 +826,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -837,7 +837,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workspacesweb_user_settings',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -868,7 +868,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string }; 
+  private _additionalEncryptionContext?: { [key: string]: string };
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -889,7 +889,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // copy_allowed - computed: false, optional: false, required: true
-  private _copyAllowed?: string; 
+  private _copyAllowed?: string;
   public get copyAllowed() {
     return this.getStringAttribute('copy_allowed');
   }
@@ -902,7 +902,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: false, optional: true, required: false
-  private _customerManagedKey?: string; 
+  private _customerManagedKey?: string;
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -918,7 +918,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // deep_link_allowed - computed: true, optional: true, required: false
-  private _deepLinkAllowed?: string; 
+  private _deepLinkAllowed?: string;
   public get deepLinkAllowed() {
     return this.getStringAttribute('deep_link_allowed');
   }
@@ -934,7 +934,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // disconnect_timeout_in_minutes - computed: false, optional: true, required: false
-  private _disconnectTimeoutInMinutes?: number; 
+  private _disconnectTimeoutInMinutes?: number;
   public get disconnectTimeoutInMinutes() {
     return this.getNumberAttribute('disconnect_timeout_in_minutes');
   }
@@ -950,7 +950,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // download_allowed - computed: false, optional: false, required: true
-  private _downloadAllowed?: string; 
+  private _downloadAllowed?: string;
   public get downloadAllowed() {
     return this.getStringAttribute('download_allowed');
   }
@@ -963,7 +963,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // idle_disconnect_timeout_in_minutes - computed: false, optional: true, required: false
-  private _idleDisconnectTimeoutInMinutes?: number; 
+  private _idleDisconnectTimeoutInMinutes?: number;
   public get idleDisconnectTimeoutInMinutes() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_minutes');
   }
@@ -979,7 +979,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // paste_allowed - computed: false, optional: false, required: true
-  private _pasteAllowed?: string; 
+  private _pasteAllowed?: string;
   public get pasteAllowed() {
     return this.getStringAttribute('paste_allowed');
   }
@@ -992,7 +992,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // print_allowed - computed: false, optional: false, required: true
-  private _printAllowed?: string; 
+  private _printAllowed?: string;
   public get printAllowed() {
     return this.getStringAttribute('print_allowed');
   }
@@ -1005,7 +1005,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1021,7 +1021,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1043,7 +1043,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // upload_allowed - computed: false, optional: false, required: true
-  private _uploadAllowed?: string; 
+  private _uploadAllowed?: string;
   public get uploadAllowed() {
     return this.getStringAttribute('upload_allowed');
   }

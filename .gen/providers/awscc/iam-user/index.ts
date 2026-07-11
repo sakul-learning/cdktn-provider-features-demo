@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of group names to which you want to add the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#groups IamUser#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#groups IamUser#groups}
   */
   readonly groups?: string[];
   /**
@@ -18,14 +18,14 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   *  You can use the CLI, the AWS API, or the *Users* page in the IAM console to create a password for any IAM user. Use [ChangePassword](https://docs.aws.amazon.com/IAM/latest/APIReference/API_ChangePassword.html) to update your own existing password in the *My Security Credentials* page in the console.
   *  For more information about managing passwords, see [Managing passwords](https://docs.aws.amazon.com/IAM/latest/UserGuide/Using_ManagingLogins.html) in the *User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#login_profile IamUser#login_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#login_profile IamUser#login_profile}
   */
   readonly loginProfile?: IamUserLoginProfile;
   /**
   * A list of Amazon Resource Names (ARNs) of the IAM managed policies that you want to attach to the user.
   *  For more information about ARNs, see [Amazon Resource Names (ARNs) and Service Namespaces](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *General Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#managed_policy_arns IamUser#managed_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#managed_policy_arns IamUser#managed_policy_arns}
   */
   readonly managedPolicyArns?: string[];
   /**
@@ -33,7 +33,7 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   *  This parameter is optional. If it is not included, it defaults to a slash (/).
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#path IamUser#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#path IamUser#path}
   */
   readonly path?: string;
   /**
@@ -41,22 +41,22 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   *  A permissions boundary policy defines the maximum permissions that identity-based policies can grant to an entity, but does not grant permissions. Permissions boundaries do not define the maximum permissions that a resource-based policy can grant to an entity. To learn more, see [Permissions boundaries for IAM entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html) in the *IAM User Guide*.
   *  For more information about policy types, see [Policy types](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policy-types) in the *IAM User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#permissions_boundary IamUser#permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#permissions_boundary IamUser#permissions_boundary}
   */
   readonly permissionsBoundary?: string;
   /**
   * Adds or updates an inline policy document that is embedded in the specified IAM user. To view AWS::IAM::User snippets, see [Declaring an User Resource](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-iam.html#scenario-iam-user).
-  *   The name of each policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail. 
+  *   The name of each policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail.
   *   For information about limits on the number of inline policies that you can embed in a user, see [Limitations on Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html) in the *User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#policies IamUser#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#policies IamUser#policies}
   */
   readonly policies?: IamUserPolicies[] | cdktn.IResolvable;
   /**
   * A list of tags that you want to attach to the new user. Each tag consists of a key name and an associated value. For more information about tagging, see [Tagging IAM resources](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html) in the *IAM User Guide*.
   *   If any one of the tags is invalid or if you exceed the allowed maximum number of tags, then the entire request fails and the resource is not created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#tags IamUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#tags IamUser#tags}
   */
   readonly tags?: IamUserTags[] | cdktn.IResolvable;
   /**
@@ -66,7 +66,7 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   *  If you specify a name, you must specify the ``CAPABILITY_NAMED_IAM`` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
   *   Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using ``Fn::Join`` and ``AWS::Region`` to create a Region-specific name, as in the following example: ``{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#user_name IamUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#user_name IamUser#user_name}
   */
   readonly userName?: string;
 }
@@ -74,13 +74,13 @@ export interface IamUserLoginProfile {
   /**
   * The user's password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#password IamUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#password IamUser#password}
   */
   readonly password?: string;
   /**
   * Specifies whether the user is required to set a new password on next sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#password_reset_required IamUser#password_reset_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#password_reset_required IamUser#password_reset_required}
   */
   readonly passwordResetRequired?: boolean | cdktn.IResolvable;
 }
@@ -170,7 +170,7 @@ export class IamUserLoginProfileOutputReference extends cdktn.ComplexObject {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -186,7 +186,7 @@ export class IamUserLoginProfileOutputReference extends cdktn.ComplexObject {
   }
 
   // password_reset_required - computed: true, optional: true, required: false
-  private _passwordResetRequired?: boolean | cdktn.IResolvable; 
+  private _passwordResetRequired?: boolean | cdktn.IResolvable;
   public get passwordResetRequired() {
     return this.getBooleanAttribute('password_reset_required');
   }
@@ -205,13 +205,13 @@ export interface IamUserPolicies {
   /**
   * The entire contents of the policy that defines permissions. For more information, see [Overview of JSON policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policies-json).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#policy_document IamUser#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#policy_document IamUser#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * The friendly name (not ARN) identifying the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#policy_name IamUser#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#policy_name IamUser#policy_name}
   */
   readonly policyName?: string;
 }
@@ -303,7 +303,7 @@ export class IamUserPoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -319,7 +319,7 @@ export class IamUserPoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string; 
+  private _policyName?: string;
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -358,13 +358,13 @@ export interface IamUserTags {
   /**
   * The key name that can be used to look up or retrieve the associated value. For example, ``Department`` or ``Cost Center`` are common choices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#key IamUser#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#key IamUser#key}
   */
   readonly key?: string;
   /**
   * The value associated with this tag. For example, tags with a key name of ``Department`` could have values such as ``Human Resources``, ``Accounting``, and ``Support``. Tags with a key name of ``Cost Center`` might have values that consist of the number associated with the different cost centers in your company. Typically, many resources have tags with the same key name but with different values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#value IamUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#value IamUser#value}
   */
   readonly value?: string;
 }
@@ -456,7 +456,7 @@ export class IamUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -472,7 +472,7 @@ export class IamUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -509,7 +509,7 @@ export class IamUserTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user awscc_iam_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user awscc_iam_user}
 */
 export class IamUser extends cdktn.TerraformResource {
 
@@ -525,7 +525,7 @@ export class IamUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamUser to import
-  * @param importFromId The id of the existing IamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -537,7 +537,7 @@ export class IamUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_user awscc_iam_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user awscc_iam_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -548,7 +548,7 @@ export class IamUser extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -578,7 +578,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[]; 
+  private _groups?: string[];
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -615,7 +615,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // managed_policy_arns - computed: true, optional: true, required: false
-  private _managedPolicyArns?: string[]; 
+  private _managedPolicyArns?: string[];
   public get managedPolicyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('managed_policy_arns'));
   }
@@ -631,7 +631,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -647,7 +647,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // permissions_boundary - computed: true, optional: true, required: false
-  private _permissionsBoundary?: string; 
+  private _permissionsBoundary?: string;
   public get permissionsBoundary() {
     return this.getStringAttribute('permissions_boundary');
   }
@@ -695,7 +695,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string; 
+  private _userName?: string;
   public get userName() {
     return this.getStringAttribute('user_name');
   }

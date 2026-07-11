@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityagentAgentSpaceConfig extends cdktn.TerraformMetaArgume
   /**
   * AWS resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
   */
   readonly awsResources?: SecurityagentAgentSpaceAwsResources;
   /**
   * Details of code review settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
   */
   readonly codeReviewSettings?: SecurityagentAgentSpaceCodeReviewSettings;
   /**
   * Description of the agent space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
   */
   readonly description?: string;
   /**
   * Integrated Resources configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
   */
   readonly integratedResources?: SecurityagentAgentSpaceIntegratedResources[] | cdktn.IResolvable;
   /**
   * Identifier of the KMS key used to encrypt data. Can be a key ID, key ARN, alias name, or alias ARN. If not specified, an AWS managed key is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Name of the agent space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
   */
   readonly name: string;
   /**
   * Tags for the agent space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
   */
   readonly tags?: SecurityagentAgentSpaceTags[] | cdktn.IResolvable;
   /**
   * List of target domain identifiers registered with the agent space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
   */
   readonly targetDomainIds?: string[];
 }
@@ -60,19 +60,19 @@ export interface SecurityagentAgentSpaceAwsResourcesVpcs {
   /**
   * List of security group ARNs in the customer VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#security_group_arns SecurityagentAgentSpace#security_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#security_group_arns SecurityagentAgentSpace#security_group_arns}
   */
   readonly securityGroupArns?: string[];
   /**
   * List of subnet ARNs in the customer VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#subnet_arns SecurityagentAgentSpace#subnet_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#subnet_arns SecurityagentAgentSpace#subnet_arns}
   */
   readonly subnetArns?: string[];
   /**
   * ARN of the customer VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#vpc_arn SecurityagentAgentSpace#vpc_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#vpc_arn SecurityagentAgentSpace#vpc_arn}
   */
   readonly vpcArn?: string;
 }
@@ -177,7 +177,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // security_group_arns - computed: true, optional: true, required: false
-  private _securityGroupArns?: string[]; 
+  private _securityGroupArns?: string[];
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -193,7 +193,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // subnet_arns - computed: true, optional: true, required: false
-  private _subnetArns?: string[]; 
+  private _subnetArns?: string[];
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -209,7 +209,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // vpc_arn - computed: true, optional: true, required: false
-  private _vpcArn?: string; 
+  private _vpcArn?: string;
   public get vpcArn() {
     return this.getStringAttribute('vpc_arn');
   }
@@ -248,37 +248,37 @@ export interface SecurityagentAgentSpaceAwsResources {
   /**
   * IAM role ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
   */
   readonly iamRoles?: string[];
   /**
   * Lambda function ARNs used to retrieve tester credentials for pentests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
   */
   readonly lambdaFunctionArns?: string[];
   /**
   * CloudWatch log group ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
   */
   readonly logGroups?: string[];
   /**
   * S3 bucket ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
   */
   readonly s3Buckets?: string[];
   /**
   * SecretsManager secret ARNs used to store tester credentials for pentests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
   */
   readonly secretArns?: string[];
   /**
   * VPC configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
   */
   readonly vpcs?: SecurityagentAgentSpaceAwsResourcesVpcs[] | cdktn.IResolvable;
 }
@@ -420,7 +420,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[]; 
+  private _iamRoles?: string[];
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -436,7 +436,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // lambda_function_arns - computed: true, optional: true, required: false
-  private _lambdaFunctionArns?: string[]; 
+  private _lambdaFunctionArns?: string[];
   public get lambdaFunctionArns() {
     return this.getListAttribute('lambda_function_arns');
   }
@@ -452,7 +452,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // log_groups - computed: true, optional: true, required: false
-  private _logGroups?: string[]; 
+  private _logGroups?: string[];
   public get logGroups() {
     return this.getListAttribute('log_groups');
   }
@@ -468,7 +468,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // s3_buckets - computed: true, optional: true, required: false
-  private _s3Buckets?: string[]; 
+  private _s3Buckets?: string[];
   public get s3Buckets() {
     return this.getListAttribute('s3_buckets');
   }
@@ -484,7 +484,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // secret_arns - computed: true, optional: true, required: false
-  private _secretArns?: string[]; 
+  private _secretArns?: string[];
   public get secretArns() {
     return this.getListAttribute('secret_arns');
   }
@@ -519,13 +519,13 @@ export interface SecurityagentAgentSpaceCodeReviewSettings {
   /**
   * Whether Controls are utilized for code review analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
   */
   readonly controlsScanning?: boolean | cdktn.IResolvable;
   /**
   * Whether general purpose analysis is performed for code review
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
   */
   readonly generalPurposeScanning?: boolean | cdktn.IResolvable;
 }
@@ -615,7 +615,7 @@ export class SecurityagentAgentSpaceCodeReviewSettingsOutputReference extends cd
   }
 
   // controls_scanning - computed: true, optional: true, required: false
-  private _controlsScanning?: boolean | cdktn.IResolvable; 
+  private _controlsScanning?: boolean | cdktn.IResolvable;
   public get controlsScanning() {
     return this.getBooleanAttribute('controls_scanning');
   }
@@ -631,7 +631,7 @@ export class SecurityagentAgentSpaceCodeReviewSettingsOutputReference extends cd
   }
 
   // general_purpose_scanning - computed: true, optional: true, required: false
-  private _generalPurposeScanning?: boolean | cdktn.IResolvable; 
+  private _generalPurposeScanning?: boolean | cdktn.IResolvable;
   public get generalPurposeScanning() {
     return this.getBooleanAttribute('general_purpose_scanning');
   }
@@ -650,13 +650,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitb
   /**
   * Enables Code Review in the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
   */
   readonly leaveComments?: boolean | cdktn.IResolvable;
   /**
   * Enables creation of pull requests with automated fixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
   */
   readonly remediateCode?: boolean | cdktn.IResolvable;
 }
@@ -746,7 +746,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable; 
+  private _leaveComments?: boolean | cdktn.IResolvable;
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -762,7 +762,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable; 
+  private _remediateCode?: boolean | cdktn.IResolvable;
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -781,13 +781,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitb
   /**
   * Bitbucket repository name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
   */
   readonly name?: string;
   /**
   * Bitbucket workspace slug owning the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
   */
   readonly workspace?: string;
 }
@@ -877,7 +877,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -893,7 +893,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // workspace - computed: true, optional: true, required: false
-  private _workspace?: string; 
+  private _workspace?: string;
   public get workspace() {
     return this.getStringAttribute('workspace');
   }
@@ -912,19 +912,19 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConf
   /**
   * Enables creation of new Confluence documents in the same space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
   */
   readonly createDocument?: boolean | cdktn.IResolvable;
   /**
   * Enables read access to the document content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
   */
   readonly fetchDocument?: boolean | cdktn.IResolvable;
   /**
   * Enables updates to the document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
   */
   readonly updateDocument?: boolean | cdktn.IResolvable;
 }
@@ -1027,7 +1027,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // create_document - computed: true, optional: true, required: false
-  private _createDocument?: boolean | cdktn.IResolvable; 
+  private _createDocument?: boolean | cdktn.IResolvable;
   public get createDocument() {
     return this.getBooleanAttribute('create_document');
   }
@@ -1043,7 +1043,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // fetch_document - computed: true, optional: true, required: false
-  private _fetchDocument?: boolean | cdktn.IResolvable; 
+  private _fetchDocument?: boolean | cdktn.IResolvable;
   public get fetchDocument() {
     return this.getBooleanAttribute('fetch_document');
   }
@@ -1059,7 +1059,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // update_document - computed: true, optional: true, required: false
-  private _updateDocument?: boolean | cdktn.IResolvable; 
+  private _updateDocument?: boolean | cdktn.IResolvable;
   public get updateDocument() {
     return this.getBooleanAttribute('update_document');
   }
@@ -1078,31 +1078,31 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConf
   /**
   * Customer-supplied logical name for the Confluence document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
   */
   readonly name?: string;
   /**
   * Confluence page identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
   */
   readonly pageId?: string;
   /**
   * Confluence space key containing the document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
   */
   readonly spaceKey?: string;
   /**
   * Read-only human-readable title of the containing space, populated from service-side metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
   */
   readonly spaceTitle?: string;
   /**
   * Read-only human-readable title of the page, populated from service-side metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
   */
   readonly title?: string;
 }
@@ -1231,7 +1231,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1247,7 +1247,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // page_id - computed: true, optional: true, required: false
-  private _pageId?: string; 
+  private _pageId?: string;
   public get pageId() {
     return this.getStringAttribute('page_id');
   }
@@ -1263,7 +1263,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // space_key - computed: true, optional: true, required: false
-  private _spaceKey?: string; 
+  private _spaceKey?: string;
   public get spaceKey() {
     return this.getStringAttribute('space_key');
   }
@@ -1279,7 +1279,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // space_title - computed: true, optional: true, required: false
-  private _spaceTitle?: string; 
+  private _spaceTitle?: string;
   public get spaceTitle() {
     return this.getStringAttribute('space_title');
   }
@@ -1295,7 +1295,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1314,13 +1314,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitH
   /**
   * Enables Code Review in the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
   */
   readonly leaveComments?: boolean | cdktn.IResolvable;
   /**
   * Enables creation of pull requests with automated fixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
   */
   readonly remediateCode?: boolean | cdktn.IResolvable;
 }
@@ -1410,7 +1410,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubCa
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable; 
+  private _leaveComments?: boolean | cdktn.IResolvable;
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -1426,7 +1426,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubCa
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable; 
+  private _remediateCode?: boolean | cdktn.IResolvable;
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -1445,13 +1445,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitH
   /**
   * GitHub repository name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
   */
   readonly name?: string;
   /**
   * GitHub repository owner (user or organization)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
   */
   readonly owner?: string;
 }
@@ -1541,7 +1541,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1557,7 +1557,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRe
   }
 
   // owner - computed: true, optional: true, required: false
-  private _owner?: string; 
+  private _owner?: string;
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1576,13 +1576,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitL
   /**
   * Enables Code Review in the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
   */
   readonly leaveComments?: boolean | cdktn.IResolvable;
   /**
   * Enables creation of merge requests with automated fixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
   */
   readonly remediateCode?: boolean | cdktn.IResolvable;
 }
@@ -1672,7 +1672,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCa
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable; 
+  private _leaveComments?: boolean | cdktn.IResolvable;
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -1688,7 +1688,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCa
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable; 
+  private _remediateCode?: boolean | cdktn.IResolvable;
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -1707,13 +1707,13 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitL
   /**
   * GitLab project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
   */
   readonly name?: string;
   /**
   * GitLab project namespace (user, group, or subgroup path)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
   */
   readonly namespace?: string;
 }
@@ -1803,7 +1803,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1819,7 +1819,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRe
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1838,49 +1838,49 @@ export interface SecurityagentAgentSpaceIntegratedResourcesProviderResources {
   /**
   * Bitbucket repository capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#bitbucket_capabilities SecurityagentAgentSpace#bitbucket_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#bitbucket_capabilities SecurityagentAgentSpace#bitbucket_capabilities}
   */
   readonly bitbucketCapabilities?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities;
   /**
   * Bitbucket repository details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#bitbucket_repository SecurityagentAgentSpace#bitbucket_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#bitbucket_repository SecurityagentAgentSpace#bitbucket_repository}
   */
   readonly bitbucketRepository?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketRepository;
   /**
   * Confluence document capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#confluence_capabilities SecurityagentAgentSpace#confluence_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#confluence_capabilities SecurityagentAgentSpace#confluence_capabilities}
   */
   readonly confluenceCapabilities?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluenceCapabilities;
   /**
   * Confluence document details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#confluence_document SecurityagentAgentSpace#confluence_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#confluence_document SecurityagentAgentSpace#confluence_document}
   */
   readonly confluenceDocument?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluenceDocument;
   /**
   * GitHub repository capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#git_hub_capabilities SecurityagentAgentSpace#git_hub_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#git_hub_capabilities SecurityagentAgentSpace#git_hub_capabilities}
   */
   readonly gitHubCapabilities?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubCapabilities;
   /**
   * GitHub repository details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#git_hub_repository SecurityagentAgentSpace#git_hub_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#git_hub_repository SecurityagentAgentSpace#git_hub_repository}
   */
   readonly gitHubRepository?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRepository;
   /**
   * GitLab repository capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#git_lab_capabilities SecurityagentAgentSpace#git_lab_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#git_lab_capabilities SecurityagentAgentSpace#git_lab_capabilities}
   */
   readonly gitLabCapabilities?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCapabilities;
   /**
   * GitLab repository details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#git_lab_repository SecurityagentAgentSpace#git_lab_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#git_lab_repository SecurityagentAgentSpace#git_lab_repository}
   */
   readonly gitLabRepository?: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRepository;
 }
@@ -2201,13 +2201,13 @@ export interface SecurityagentAgentSpaceIntegratedResources {
   /**
   * Unique identifier of the Provider Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
   */
   readonly integration?: string;
   /**
   * List of selected Resources from the Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
   */
   readonly providerResources?: SecurityagentAgentSpaceIntegratedResourcesProviderResources[] | cdktn.IResolvable;
 }
@@ -2299,7 +2299,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesOutputReference extends c
   }
 
   // integration - computed: true, optional: true, required: false
-  private _integration?: string; 
+  private _integration?: string;
   public get integration() {
     return this.getStringAttribute('integration');
   }
@@ -2354,13 +2354,13 @@ export interface SecurityagentAgentSpaceTags {
   /**
   * The key name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#key SecurityagentAgentSpace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#key SecurityagentAgentSpace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#value SecurityagentAgentSpace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#value SecurityagentAgentSpace#value}
   */
   readonly value?: string;
 }
@@ -2452,7 +2452,7 @@ export class SecurityagentAgentSpaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2468,7 +2468,7 @@ export class SecurityagentAgentSpaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2505,7 +2505,7 @@ export class SecurityagentAgentSpaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}
 */
 export class SecurityagentAgentSpace extends cdktn.TerraformResource {
 
@@ -2521,7 +2521,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityagentAgentSpace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityagentAgentSpace to import
-  * @param importFromId The id of the existing SecurityagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityagentAgentSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2533,7 +2533,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2544,7 +2544,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityagent_agent_space',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2611,7 +2611,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2648,7 +2648,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2664,7 +2664,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2693,7 +2693,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // target_domain_ids - computed: true, optional: true, required: false
-  private _targetDomainIds?: string[]; 
+  private _targetDomainIds?: string[];
   public get targetDomainIds() {
     return this.getListAttribute('target_domain_ids');
   }

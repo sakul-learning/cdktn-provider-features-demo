@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DatazoneEnvironmentActionsConfig extends cdktn.TerraformMetaArg
   /**
   * The description of the Amazon DataZone environment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#description DatazoneEnvironmentActions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#description DatazoneEnvironmentActions#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon DataZone domain in which the environment would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#domain_identifier DatazoneEnvironmentActions#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#domain_identifier DatazoneEnvironmentActions#domain_identifier}
   */
   readonly domainIdentifier?: string;
   /**
   * The identifier of the Amazon DataZone environment in which the action is taking place
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#environment_identifier DatazoneEnvironmentActions#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#environment_identifier DatazoneEnvironmentActions#environment_identifier}
   */
   readonly environmentIdentifier?: string;
   /**
   * The ID of the Amazon DataZone environment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#identifier DatazoneEnvironmentActions#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#identifier DatazoneEnvironmentActions#identifier}
   */
   readonly identifier?: string;
   /**
   * The name of the environment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#name DatazoneEnvironmentActions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#name DatazoneEnvironmentActions#name}
   */
   readonly name: string;
   /**
   * The parameters of the environment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#parameters DatazoneEnvironmentActions#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#parameters DatazoneEnvironmentActions#parameters}
   */
   readonly parameters?: DatazoneEnvironmentActionsParameters;
 }
@@ -48,7 +48,7 @@ export interface DatazoneEnvironmentActionsParameters {
   /**
   * The URI of the console link specified as part of the environment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#uri DatazoneEnvironmentActions#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#uri DatazoneEnvironmentActions#uri}
   */
   readonly uri?: string;
 }
@@ -125,7 +125,7 @@ export class DatazoneEnvironmentActionsParametersOutputReference extends cdktn.C
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -142,7 +142,7 @@ export class DatazoneEnvironmentActionsParametersOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}
 */
 export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
 
@@ -158,7 +158,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneEnvironmentActions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneEnvironmentActions to import
-  * @param importFromId The id of the existing DatazoneEnvironmentActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneEnvironmentActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneEnvironmentActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,7 +181,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_environment_actions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -204,7 +204,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -225,7 +225,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: true, optional: true, required: false
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -251,7 +251,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: true, optional: true, required: false
-  private _environmentIdentifier?: string; 
+  private _environmentIdentifier?: string;
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -272,7 +272,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -288,7 +288,7 @@ export class DatazoneEnvironmentActions extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

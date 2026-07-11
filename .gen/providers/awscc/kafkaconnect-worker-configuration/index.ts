@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface KafkaconnectWorkerConfigurationConfig extends cdktn.TerraformMe
   /**
   * A summary description of the worker configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
   */
   readonly description?: string;
   /**
   * The name of the worker configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
   */
   readonly name: string;
   /**
   * Base64 encoded contents of connect-distributed.properties file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
   */
   readonly propertiesFileContent: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
   */
   readonly tags?: KafkaconnectWorkerConfigurationTags[] | cdktn.IResolvable;
 }
 export interface KafkaconnectWorkerConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}
   */
   readonly value?: string;
 }
@@ -130,7 +130,7 @@ export class KafkaconnectWorkerConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class KafkaconnectWorkerConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -183,7 +183,7 @@ export class KafkaconnectWorkerConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}
 */
 export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KafkaconnectWorkerConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaconnectWorkerConfiguration to import
-  * @param importFromId The id of the existing KafkaconnectWorkerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaconnectWorkerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaconnectWorkerConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kafkaconnect_worker_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -243,7 +243,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -264,7 +264,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -277,7 +277,7 @@ export class KafkaconnectWorkerConfiguration extends cdktn.TerraformResource {
   }
 
   // properties_file_content - computed: false, optional: false, required: true
-  private _propertiesFileContent?: string; 
+  private _propertiesFileContent?: string;
   public get propertiesFileContent() {
     return this.getStringAttribute('properties_file_content');
   }

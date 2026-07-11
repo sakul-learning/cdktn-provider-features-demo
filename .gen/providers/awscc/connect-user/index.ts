@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface ConnectUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * After Contact Work configurations of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
   */
   readonly afterContactWorkConfigs?: ConnectUserAfterContactWorkConfigs[] | cdktn.IResolvable;
   /**
   * Auto-accept configurations of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
   */
   readonly autoAcceptConfigs?: ConnectUserAutoAcceptConfigs[] | cdktn.IResolvable;
   /**
   * The identifier of the user account in the directory used for identity management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
   */
   readonly directoryUserId?: string;
   /**
   * The identifier of the hierarchy group for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
   */
   readonly hierarchyGroupArn?: string;
   /**
   * The information about the identity of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
   */
   readonly identityInfo?: ConnectUserIdentityInfo;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The password for the user account. A password is required if you are using Amazon Connect for identity management. Otherwise, it is an error to include a password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#password ConnectUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#password ConnectUser#password}
   */
   readonly password?: string;
   /**
   * Persistent Connection configurations of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
   */
   readonly persistentConnectionConfigs?: ConnectUserPersistentConnectionConfigs[] | cdktn.IResolvable;
   /**
   * The phone settings for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
   */
   readonly phoneConfig?: ConnectUserPhoneConfig;
   /**
   * Phone Number configurations of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
   */
   readonly phoneNumberConfigs?: ConnectUserPhoneNumberConfigs[] | cdktn.IResolvable;
   /**
   * The identifier of the routing profile for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
   */
   readonly routingProfileArn: string;
   /**
   * One or more security profile arns for the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
   */
   readonly securityProfileArns: string[];
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#tags ConnectUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#tags ConnectUser#tags}
   */
   readonly tags?: ConnectUserTags[] | cdktn.IResolvable;
   /**
   * One or more predefined attributes assigned to a user, with a level that indicates how skilled they are.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
   */
   readonly userProficiencies?: ConnectUserUserProficiencies[] | cdktn.IResolvable;
   /**
   * The user name for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#username ConnectUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#username ConnectUser#username}
   */
   readonly username: string;
   /**
   * Voice Enhancement configurations of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
   */
   readonly voiceEnhancementConfigs?: ConnectUserVoiceEnhancementConfigs[] | cdktn.IResolvable;
 }
@@ -108,7 +108,7 @@ export interface ConnectUserAfterContactWorkConfigsAfterContactWorkConfig {
   /**
   * The After Call Work (ACW) timeout setting, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
   */
   readonly afterContactWorkTimeLimit?: number;
 }
@@ -185,7 +185,7 @@ export class ConnectUserAfterContactWorkConfigsAfterContactWorkConfigOutputRefer
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number; 
+  private _afterContactWorkTimeLimit?: number;
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -204,7 +204,7 @@ export interface ConnectUserAfterContactWorkConfigsAgentFirstCallbackAfterContac
   /**
   * The After Call Work (ACW) timeout setting, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
   */
   readonly afterContactWorkTimeLimit?: number;
 }
@@ -281,7 +281,7 @@ export class ConnectUserAfterContactWorkConfigsAgentFirstCallbackAfterContactWor
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number; 
+  private _afterContactWorkTimeLimit?: number;
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -300,19 +300,19 @@ export interface ConnectUserAfterContactWorkConfigs {
   /**
   * After Contact Work configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#after_contact_work_config ConnectUser#after_contact_work_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#after_contact_work_config ConnectUser#after_contact_work_config}
   */
   readonly afterContactWorkConfig?: ConnectUserAfterContactWorkConfigsAfterContactWorkConfig;
   /**
   * After Contact Work configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#agent_first_callback_after_contact_work_config ConnectUser#agent_first_callback_after_contact_work_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#agent_first_callback_after_contact_work_config ConnectUser#agent_first_callback_after_contact_work_config}
   */
   readonly agentFirstCallbackAfterContactWorkConfig?: ConnectUserAfterContactWorkConfigsAgentFirstCallbackAfterContactWorkConfig;
   /**
   * The channels that agents can handle in the Contact Control Panel (CCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#channel ConnectUser#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#channel ConnectUser#channel}
   */
   readonly channel?: string;
 }
@@ -449,7 +449,7 @@ export class ConnectUserAfterContactWorkConfigsOutputReference extends cdktn.Com
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string; 
+  private _channel?: string;
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -488,19 +488,19 @@ export interface ConnectUserAutoAcceptConfigs {
   /**
   * The agent first callback auto accept setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#agent_first_callback_auto_accept ConnectUser#agent_first_callback_auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#agent_first_callback_auto_accept ConnectUser#agent_first_callback_auto_accept}
   */
   readonly agentFirstCallbackAutoAccept?: boolean | cdktn.IResolvable;
   /**
   * The Auto accept setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
   */
   readonly autoAccept?: boolean | cdktn.IResolvable;
   /**
   * The channels that agents can handle in the Contact Control Panel (CCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#channel ConnectUser#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#channel ConnectUser#channel}
   */
   readonly channel?: string;
 }
@@ -605,7 +605,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // agent_first_callback_auto_accept - computed: true, optional: true, required: false
-  private _agentFirstCallbackAutoAccept?: boolean | cdktn.IResolvable; 
+  private _agentFirstCallbackAutoAccept?: boolean | cdktn.IResolvable;
   public get agentFirstCallbackAutoAccept() {
     return this.getBooleanAttribute('agent_first_callback_auto_accept');
   }
@@ -621,7 +621,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // auto_accept - computed: true, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable; 
+  private _autoAccept?: boolean | cdktn.IResolvable;
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -637,7 +637,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string; 
+  private _channel?: string;
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -676,31 +676,31 @@ export interface ConnectUserIdentityInfo {
   /**
   * The email address. If you are using SAML for identity management and include this parameter, an error is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#email ConnectUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#email ConnectUser#email}
   */
   readonly email?: string;
   /**
   * The first name. This is required if you are using Amazon Connect or SAML for identity management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#first_name ConnectUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#first_name ConnectUser#first_name}
   */
   readonly firstName?: string;
   /**
   * The last name. This is required if you are using Amazon Connect or SAML for identity management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#last_name ConnectUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#last_name ConnectUser#last_name}
   */
   readonly lastName?: string;
   /**
   * The mobile phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#mobile ConnectUser#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#mobile ConnectUser#mobile}
   */
   readonly mobile?: string;
   /**
   * The secondary email address. If you provide a secondary email, the user receives email notifications -- other than password reset notifications -- to this email address instead of to their primary email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
   */
   readonly secondaryEmail?: string;
 }
@@ -829,7 +829,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -845,7 +845,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -861,7 +861,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -877,7 +877,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // mobile - computed: true, optional: true, required: false
-  private _mobile?: string; 
+  private _mobile?: string;
   public get mobile() {
     return this.getStringAttribute('mobile');
   }
@@ -893,7 +893,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_email - computed: true, optional: true, required: false
-  private _secondaryEmail?: string; 
+  private _secondaryEmail?: string;
   public get secondaryEmail() {
     return this.getStringAttribute('secondary_email');
   }
@@ -912,13 +912,13 @@ export interface ConnectUserPersistentConnectionConfigs {
   /**
   * The channels that agents can handle in the Contact Control Panel (CCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#channel ConnectUser#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#channel ConnectUser#channel}
   */
   readonly channel?: string;
   /**
   * The Persistent Connection setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
   */
   readonly persistentConnection?: boolean | cdktn.IResolvable;
 }
@@ -1010,7 +1010,7 @@ export class ConnectUserPersistentConnectionConfigsOutputReference extends cdktn
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string; 
+  private _channel?: string;
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1026,7 +1026,7 @@ export class ConnectUserPersistentConnectionConfigsOutputReference extends cdktn
   }
 
   // persistent_connection - computed: true, optional: true, required: false
-  private _persistentConnection?: boolean | cdktn.IResolvable; 
+  private _persistentConnection?: boolean | cdktn.IResolvable;
   public get persistentConnection() {
     return this.getBooleanAttribute('persistent_connection');
   }
@@ -1065,31 +1065,31 @@ export interface ConnectUserPhoneConfig {
   /**
   * The After Call Work (ACW) timeout setting, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
   */
   readonly afterContactWorkTimeLimit?: number;
   /**
   * The Auto accept setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
   */
   readonly autoAccept?: boolean | cdktn.IResolvable;
   /**
   * The phone number for the user's desk phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
   */
   readonly deskPhoneNumber?: string;
   /**
   * The Persistent Connection setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
   */
   readonly persistentConnection?: boolean | cdktn.IResolvable;
   /**
   * The phone type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
   */
   readonly phoneType?: string;
 }
@@ -1218,7 +1218,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number; 
+  private _afterContactWorkTimeLimit?: number;
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -1234,7 +1234,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // auto_accept - computed: true, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable; 
+  private _autoAccept?: boolean | cdktn.IResolvable;
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -1250,7 +1250,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // desk_phone_number - computed: true, optional: true, required: false
-  private _deskPhoneNumber?: string; 
+  private _deskPhoneNumber?: string;
   public get deskPhoneNumber() {
     return this.getStringAttribute('desk_phone_number');
   }
@@ -1266,7 +1266,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // persistent_connection - computed: true, optional: true, required: false
-  private _persistentConnection?: boolean | cdktn.IResolvable; 
+  private _persistentConnection?: boolean | cdktn.IResolvable;
   public get persistentConnection() {
     return this.getBooleanAttribute('persistent_connection');
   }
@@ -1282,7 +1282,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // phone_type - computed: true, optional: true, required: false
-  private _phoneType?: string; 
+  private _phoneType?: string;
   public get phoneType() {
     return this.getStringAttribute('phone_type');
   }
@@ -1301,19 +1301,19 @@ export interface ConnectUserPhoneNumberConfigs {
   /**
   * The channels that agents can handle in the Contact Control Panel (CCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#channel ConnectUser#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#channel ConnectUser#channel}
   */
   readonly channel?: string;
   /**
   * The phone number for the user's desk phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#phone_number ConnectUser#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#phone_number ConnectUser#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * The phone type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
   */
   readonly phoneType?: string;
 }
@@ -1418,7 +1418,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string; 
+  private _channel?: string;
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1434,7 +1434,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // phone_number - computed: true, optional: true, required: false
-  private _phoneNumber?: string; 
+  private _phoneNumber?: string;
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -1450,7 +1450,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // phone_type - computed: true, optional: true, required: false
-  private _phoneType?: string; 
+  private _phoneType?: string;
   public get phoneType() {
     return this.getStringAttribute('phone_type');
   }
@@ -1487,15 +1487,15 @@ export class ConnectUserPhoneNumberConfigsList extends cdktn.ComplexList {
 }
 export interface ConnectUserTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#key ConnectUser#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#key ConnectUser#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#value ConnectUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#value ConnectUser#value}
   */
   readonly value?: string;
 }
@@ -1587,7 +1587,7 @@ export class ConnectUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1603,7 +1603,7 @@ export class ConnectUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1642,19 +1642,19 @@ export interface ConnectUserUserProficiencies {
   /**
   * The name of user's proficiency. You must use name of predefined attribute present in the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#attribute_name ConnectUser#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#attribute_name ConnectUser#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The value of user's proficiency. You must use value of predefined attribute present in the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#attribute_value ConnectUser#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#attribute_value ConnectUser#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * The level of the proficiency. The valid values are 1, 2, 3, 4 and 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#level ConnectUser#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#level ConnectUser#level}
   */
   readonly level?: number;
 }
@@ -1759,7 +1759,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string; 
+  private _attributeName?: string;
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -1775,7 +1775,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // attribute_value - computed: true, optional: true, required: false
-  private _attributeValue?: string; 
+  private _attributeValue?: string;
   public get attributeValue() {
     return this.getStringAttribute('attribute_value');
   }
@@ -1791,7 +1791,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: number; 
+  private _level?: number;
   public get level() {
     return this.getNumberAttribute('level');
   }
@@ -1830,13 +1830,13 @@ export interface ConnectUserVoiceEnhancementConfigs {
   /**
   * The channels that agents can handle in the Contact Control Panel (CCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#channel ConnectUser#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#channel ConnectUser#channel}
   */
   readonly channel?: string;
   /**
   * The Voice Enhancement Mode setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
   */
   readonly voiceEnhancementMode?: string;
 }
@@ -1928,7 +1928,7 @@ export class ConnectUserVoiceEnhancementConfigsOutputReference extends cdktn.Com
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string; 
+  private _channel?: string;
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1944,7 +1944,7 @@ export class ConnectUserVoiceEnhancementConfigsOutputReference extends cdktn.Com
   }
 
   // voice_enhancement_mode - computed: true, optional: true, required: false
-  private _voiceEnhancementMode?: string; 
+  private _voiceEnhancementMode?: string;
   public get voiceEnhancementMode() {
     return this.getStringAttribute('voice_enhancement_mode');
   }
@@ -1981,7 +1981,7 @@ export class ConnectUserVoiceEnhancementConfigsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user awscc_connect_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user awscc_connect_user}
 */
 export class ConnectUser extends cdktn.TerraformResource {
 
@@ -1997,7 +1997,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectUser to import
-  * @param importFromId The id of the existing ConnectUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2009,7 +2009,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_user awscc_connect_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user awscc_connect_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2020,7 +2020,7 @@ export class ConnectUser extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2085,7 +2085,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // directory_user_id - computed: true, optional: true, required: false
-  private _directoryUserId?: string; 
+  private _directoryUserId?: string;
   public get directoryUserId() {
     return this.getStringAttribute('directory_user_id');
   }
@@ -2101,7 +2101,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // hierarchy_group_arn - computed: true, optional: true, required: false
-  private _hierarchyGroupArn?: string; 
+  private _hierarchyGroupArn?: string;
   public get hierarchyGroupArn() {
     return this.getStringAttribute('hierarchy_group_arn');
   }
@@ -2138,7 +2138,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string; 
+  private _instanceArn?: string;
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -2151,7 +2151,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -2215,7 +2215,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // routing_profile_arn - computed: false, optional: false, required: true
-  private _routingProfileArn?: string; 
+  private _routingProfileArn?: string;
   public get routingProfileArn() {
     return this.getStringAttribute('routing_profile_arn');
   }
@@ -2228,7 +2228,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // security_profile_arns - computed: false, optional: false, required: true
-  private _securityProfileArns?: string[]; 
+  private _securityProfileArns?: string[];
   public get securityProfileArns() {
     return cdktn.Fn.tolist(this.getListAttribute('security_profile_arns'));
   }
@@ -2278,7 +2278,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }

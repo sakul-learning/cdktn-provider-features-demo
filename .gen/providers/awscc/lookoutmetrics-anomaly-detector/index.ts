@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LookoutmetricsAnomalyDetectorConfig extends cdktn.TerraformMeta
   /**
   * Configuration options for the AnomalyDetector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_config LookoutmetricsAnomalyDetector#anomaly_detector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_config LookoutmetricsAnomalyDetector#anomaly_detector_config}
   */
   readonly anomalyDetectorConfig: LookoutmetricsAnomalyDetectorAnomalyDetectorConfig;
   /**
   * A description for the AnomalyDetector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_description LookoutmetricsAnomalyDetector#anomaly_detector_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_description LookoutmetricsAnomalyDetector#anomaly_detector_description}
   */
   readonly anomalyDetectorDescription?: string;
   /**
   * Name for the Amazon Lookout for Metrics Anomaly Detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_name LookoutmetricsAnomalyDetector#anomaly_detector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_name LookoutmetricsAnomalyDetector#anomaly_detector_name}
   */
   readonly anomalyDetectorName?: string;
   /**
   * KMS key used to encrypt the AnomalyDetector data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#kms_key_arn LookoutmetricsAnomalyDetector#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#kms_key_arn LookoutmetricsAnomalyDetector#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * List of metric sets for anomaly detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_list LookoutmetricsAnomalyDetector#metric_set_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_list LookoutmetricsAnomalyDetector#metric_set_list}
   */
   readonly metricSetList: LookoutmetricsAnomalyDetectorMetricSetListStruct[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface LookoutmetricsAnomalyDetectorAnomalyDetectorConfig {
   /**
   * Frequency of anomaly detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_frequency LookoutmetricsAnomalyDetector#anomaly_detector_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#anomaly_detector_frequency LookoutmetricsAnomalyDetector#anomaly_detector_frequency}
   */
   readonly anomalyDetectorFrequency: string;
 }
@@ -119,7 +119,7 @@ export class LookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference e
   }
 
   // anomaly_detector_frequency - computed: false, optional: false, required: true
-  private _anomalyDetectorFrequency?: string; 
+  private _anomalyDetectorFrequency?: string;
   public get anomalyDetectorFrequency() {
     return this.getStringAttribute('anomaly_detector_frequency');
   }
@@ -135,17 +135,17 @@ export interface LookoutmetricsAnomalyDetectorMetricSetListMetricListStruct {
   /**
   * Operator used to aggregate metric values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#aggregation_function LookoutmetricsAnomalyDetector#aggregation_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#aggregation_function LookoutmetricsAnomalyDetector#aggregation_function}
   */
   readonly aggregationFunction: string;
   /**
   * Name of a column in the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_name LookoutmetricsAnomalyDetector#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_name LookoutmetricsAnomalyDetector#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#namespace LookoutmetricsAnomalyDetector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#namespace LookoutmetricsAnomalyDetector#namespace}
   */
   readonly namespace?: string;
 }
@@ -250,7 +250,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // aggregation_function - computed: false, optional: false, required: true
-  private _aggregationFunction?: string; 
+  private _aggregationFunction?: string;
   public get aggregationFunction() {
     return this.getStringAttribute('aggregation_function');
   }
@@ -263,7 +263,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -276,7 +276,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -313,11 +313,11 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructList exte
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#flow_name LookoutmetricsAnomalyDetector#flow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#flow_name LookoutmetricsAnomalyDetector#flow_name}
   */
   readonly flowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -407,7 +407,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig
   }
 
   // flow_name - computed: true, optional: true, required: false
-  private _flowName?: string; 
+  private _flowName?: string;
   public get flowName() {
     return this.getStringAttribute('flow_name');
   }
@@ -423,7 +423,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -440,7 +440,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -517,7 +517,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchCon
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -534,11 +534,11 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchCon
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#security_group_id_list LookoutmetricsAnomalyDetector#security_group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#security_group_id_list LookoutmetricsAnomalyDetector#security_group_id_list}
   */
   readonly securityGroupIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#subnet_id_list LookoutmetricsAnomalyDetector#subnet_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#subnet_id_list LookoutmetricsAnomalyDetector#subnet_id_list}
   */
   readonly subnetIdList?: string[];
 }
@@ -628,7 +628,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[]; 
+  private _securityGroupIdList?: string[];
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -644,7 +644,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[]; 
+  private _subnetIdList?: string[];
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -661,35 +661,35 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_host LookoutmetricsAnomalyDetector#database_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_host LookoutmetricsAnomalyDetector#database_host}
   */
   readonly databaseHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_name LookoutmetricsAnomalyDetector#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_name LookoutmetricsAnomalyDetector#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_port LookoutmetricsAnomalyDetector#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_port LookoutmetricsAnomalyDetector#database_port}
   */
   readonly databasePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#db_instance_identifier LookoutmetricsAnomalyDetector#db_instance_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#db_instance_identifier LookoutmetricsAnomalyDetector#db_instance_identifier}
   */
   readonly dbInstanceIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#secret_manager_arn LookoutmetricsAnomalyDetector#secret_manager_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#secret_manager_arn LookoutmetricsAnomalyDetector#secret_manager_arn}
   */
   readonly secretManagerArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#table_name LookoutmetricsAnomalyDetector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#table_name LookoutmetricsAnomalyDetector#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#vpc_configuration LookoutmetricsAnomalyDetector#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#vpc_configuration LookoutmetricsAnomalyDetector#vpc_configuration}
   */
   readonly vpcConfiguration?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfiguration;
 }
@@ -857,7 +857,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_host - computed: true, optional: true, required: false
-  private _databaseHost?: string; 
+  private _databaseHost?: string;
   public get databaseHost() {
     return this.getStringAttribute('database_host');
   }
@@ -873,7 +873,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -889,7 +889,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_port - computed: true, optional: true, required: false
-  private _databasePort?: number; 
+  private _databasePort?: number;
   public get databasePort() {
     return this.getNumberAttribute('database_port');
   }
@@ -905,7 +905,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // db_instance_identifier - computed: true, optional: true, required: false
-  private _dbInstanceIdentifier?: string; 
+  private _dbInstanceIdentifier?: string;
   public get dbInstanceIdentifier() {
     return this.getStringAttribute('db_instance_identifier');
   }
@@ -921,7 +921,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -937,7 +937,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string; 
+  private _secretManagerArn?: string;
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -953,7 +953,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -986,11 +986,11 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#security_group_id_list LookoutmetricsAnomalyDetector#security_group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#security_group_id_list LookoutmetricsAnomalyDetector#security_group_id_list}
   */
   readonly securityGroupIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#subnet_id_list LookoutmetricsAnomalyDetector#subnet_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#subnet_id_list LookoutmetricsAnomalyDetector#subnet_id_list}
   */
   readonly subnetIdList?: string[];
 }
@@ -1080,7 +1080,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[]; 
+  private _securityGroupIdList?: string[];
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -1096,7 +1096,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[]; 
+  private _subnetIdList?: string[];
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -1113,35 +1113,35 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#cluster_identifier LookoutmetricsAnomalyDetector#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#cluster_identifier LookoutmetricsAnomalyDetector#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_host LookoutmetricsAnomalyDetector#database_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_host LookoutmetricsAnomalyDetector#database_host}
   */
   readonly databaseHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_name LookoutmetricsAnomalyDetector#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_name LookoutmetricsAnomalyDetector#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#database_port LookoutmetricsAnomalyDetector#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#database_port LookoutmetricsAnomalyDetector#database_port}
   */
   readonly databasePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#secret_manager_arn LookoutmetricsAnomalyDetector#secret_manager_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#secret_manager_arn LookoutmetricsAnomalyDetector#secret_manager_arn}
   */
   readonly secretManagerArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#table_name LookoutmetricsAnomalyDetector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#table_name LookoutmetricsAnomalyDetector#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#vpc_configuration LookoutmetricsAnomalyDetector#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#vpc_configuration LookoutmetricsAnomalyDetector#vpc_configuration}
   */
   readonly vpcConfiguration?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfiguration;
 }
@@ -1309,7 +1309,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string; 
+  private _clusterIdentifier?: string;
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -1325,7 +1325,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_host - computed: true, optional: true, required: false
-  private _databaseHost?: string; 
+  private _databaseHost?: string;
   public get databaseHost() {
     return this.getStringAttribute('database_host');
   }
@@ -1341,7 +1341,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1357,7 +1357,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_port - computed: true, optional: true, required: false
-  private _databasePort?: number; 
+  private _databasePort?: number;
   public get databasePort() {
     return this.getNumberAttribute('database_port');
   }
@@ -1373,7 +1373,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1389,7 +1389,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string; 
+  private _secretManagerArn?: string;
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -1405,7 +1405,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1438,27 +1438,27 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#charset LookoutmetricsAnomalyDetector#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#charset LookoutmetricsAnomalyDetector#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#contains_header LookoutmetricsAnomalyDetector#contains_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#contains_header LookoutmetricsAnomalyDetector#contains_header}
   */
   readonly containsHeader?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#delimiter LookoutmetricsAnomalyDetector#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#delimiter LookoutmetricsAnomalyDetector#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#file_compression LookoutmetricsAnomalyDetector#file_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#file_compression LookoutmetricsAnomalyDetector#file_compression}
   */
   readonly fileCompression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#header_list LookoutmetricsAnomalyDetector#header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#header_list LookoutmetricsAnomalyDetector#header_list}
   */
   readonly headerList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#quote_symbol LookoutmetricsAnomalyDetector#quote_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#quote_symbol LookoutmetricsAnomalyDetector#quote_symbol}
   */
   readonly quoteSymbol?: string;
 }
@@ -1600,7 +1600,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // charset - computed: true, optional: true, required: false
-  private _charset?: string; 
+  private _charset?: string;
   public get charset() {
     return this.getStringAttribute('charset');
   }
@@ -1616,7 +1616,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // contains_header - computed: true, optional: true, required: false
-  private _containsHeader?: boolean | cdktn.IResolvable; 
+  private _containsHeader?: boolean | cdktn.IResolvable;
   public get containsHeader() {
     return this.getBooleanAttribute('contains_header');
   }
@@ -1632,7 +1632,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1648,7 +1648,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // file_compression - computed: true, optional: true, required: false
-  private _fileCompression?: string; 
+  private _fileCompression?: string;
   public get fileCompression() {
     return this.getStringAttribute('file_compression');
   }
@@ -1664,7 +1664,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // header_list - computed: true, optional: true, required: false
-  private _headerList?: string[]; 
+  private _headerList?: string[];
   public get headerList() {
     return this.getListAttribute('header_list');
   }
@@ -1680,7 +1680,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // quote_symbol - computed: true, optional: true, required: false
-  private _quoteSymbol?: string; 
+  private _quoteSymbol?: string;
   public get quoteSymbol() {
     return this.getStringAttribute('quote_symbol');
   }
@@ -1697,11 +1697,11 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#charset LookoutmetricsAnomalyDetector#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#charset LookoutmetricsAnomalyDetector#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#file_compression LookoutmetricsAnomalyDetector#file_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#file_compression LookoutmetricsAnomalyDetector#file_compression}
   */
   readonly fileCompression?: string;
 }
@@ -1791,7 +1791,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // charset - computed: true, optional: true, required: false
-  private _charset?: string; 
+  private _charset?: string;
   public get charset() {
     return this.getStringAttribute('charset');
   }
@@ -1807,7 +1807,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // file_compression - computed: true, optional: true, required: false
-  private _fileCompression?: string; 
+  private _fileCompression?: string;
   public get fileCompression() {
     return this.getStringAttribute('file_compression');
   }
@@ -1824,11 +1824,11 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#csv_format_descriptor LookoutmetricsAnomalyDetector#csv_format_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#csv_format_descriptor LookoutmetricsAnomalyDetector#csv_format_descriptor}
   */
   readonly csvFormatDescriptor?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#json_format_descriptor LookoutmetricsAnomalyDetector#json_format_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#json_format_descriptor LookoutmetricsAnomalyDetector#json_format_descriptor}
   */
   readonly jsonFormatDescriptor?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptor;
 }
@@ -1951,19 +1951,19 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#file_format_descriptor LookoutmetricsAnomalyDetector#file_format_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#file_format_descriptor LookoutmetricsAnomalyDetector#file_format_descriptor}
   */
   readonly fileFormatDescriptor?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#historical_data_path_list LookoutmetricsAnomalyDetector#historical_data_path_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#historical_data_path_list LookoutmetricsAnomalyDetector#historical_data_path_list}
   */
   readonly historicalDataPathList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#role_arn LookoutmetricsAnomalyDetector#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#templated_path_list LookoutmetricsAnomalyDetector#templated_path_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#templated_path_list LookoutmetricsAnomalyDetector#templated_path_list}
   */
   readonly templatedPathList?: string[];
 }
@@ -2095,7 +2095,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // historical_data_path_list - computed: true, optional: true, required: false
-  private _historicalDataPathList?: string[]; 
+  private _historicalDataPathList?: string[];
   public get historicalDataPathList() {
     return this.getListAttribute('historical_data_path_list');
   }
@@ -2111,7 +2111,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2127,7 +2127,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // templated_path_list - computed: true, optional: true, required: false
-  private _templatedPathList?: string[]; 
+  private _templatedPathList?: string[];
   public get templatedPathList() {
     return this.getListAttribute('templated_path_list');
   }
@@ -2144,23 +2144,23 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
 }
 export interface LookoutmetricsAnomalyDetectorMetricSetListMetricSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#app_flow_config LookoutmetricsAnomalyDetector#app_flow_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#app_flow_config LookoutmetricsAnomalyDetector#app_flow_config}
   */
   readonly appFlowConfig?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#cloudwatch_config LookoutmetricsAnomalyDetector#cloudwatch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#cloudwatch_config LookoutmetricsAnomalyDetector#cloudwatch_config}
   */
   readonly cloudwatchConfig?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#rds_source_config LookoutmetricsAnomalyDetector#rds_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#rds_source_config LookoutmetricsAnomalyDetector#rds_source_config}
   */
   readonly rdsSourceConfig?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#redshift_source_config LookoutmetricsAnomalyDetector#redshift_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#redshift_source_config LookoutmetricsAnomalyDetector#redshift_source_config}
   */
   readonly redshiftSourceConfig?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#s3_source_config LookoutmetricsAnomalyDetector#s3_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#s3_source_config LookoutmetricsAnomalyDetector#s3_source_config}
   */
   readonly s3SourceConfig?: LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfig;
 }
@@ -2372,13 +2372,13 @@ export interface LookoutmetricsAnomalyDetectorMetricSetListTimestampColumn {
   /**
   * A timestamp format for the timestamps in the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#column_format LookoutmetricsAnomalyDetector#column_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#column_format LookoutmetricsAnomalyDetector#column_format}
   */
   readonly columnFormat?: string;
   /**
   * Name of a column in the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#column_name LookoutmetricsAnomalyDetector#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#column_name LookoutmetricsAnomalyDetector#column_name}
   */
   readonly columnName?: string;
 }
@@ -2468,7 +2468,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputRefe
   }
 
   // column_format - computed: true, optional: true, required: false
-  private _columnFormat?: string; 
+  private _columnFormat?: string;
   public get columnFormat() {
     return this.getStringAttribute('column_format');
   }
@@ -2484,7 +2484,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputRefe
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2503,49 +2503,49 @@ export interface LookoutmetricsAnomalyDetectorMetricSetListStruct {
   /**
   * Dimensions for this MetricSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#dimension_list LookoutmetricsAnomalyDetector#dimension_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#dimension_list LookoutmetricsAnomalyDetector#dimension_list}
   */
   readonly dimensionList?: string[];
   /**
   * Metrics captured by this MetricSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_list LookoutmetricsAnomalyDetector#metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_list LookoutmetricsAnomalyDetector#metric_list}
   */
   readonly metricList: LookoutmetricsAnomalyDetectorMetricSetListMetricListStruct[] | cdktn.IResolvable;
   /**
   * A description for the MetricSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_description LookoutmetricsAnomalyDetector#metric_set_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_description LookoutmetricsAnomalyDetector#metric_set_description}
   */
   readonly metricSetDescription?: string;
   /**
   * A frequency period to aggregate the data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_frequency LookoutmetricsAnomalyDetector#metric_set_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_frequency LookoutmetricsAnomalyDetector#metric_set_frequency}
   */
   readonly metricSetFrequency?: string;
   /**
   * The name of the MetricSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_name LookoutmetricsAnomalyDetector#metric_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_set_name LookoutmetricsAnomalyDetector#metric_set_name}
   */
   readonly metricSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#metric_source LookoutmetricsAnomalyDetector#metric_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#metric_source LookoutmetricsAnomalyDetector#metric_source}
   */
   readonly metricSource: LookoutmetricsAnomalyDetectorMetricSetListMetricSource;
   /**
   * Offset, in seconds, between the frequency interval and the time at which the metrics are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#offset LookoutmetricsAnomalyDetector#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#offset LookoutmetricsAnomalyDetector#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#timestamp_column LookoutmetricsAnomalyDetector#timestamp_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#timestamp_column LookoutmetricsAnomalyDetector#timestamp_column}
   */
   readonly timestampColumn?: LookoutmetricsAnomalyDetectorMetricSetListTimestampColumn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#timezone LookoutmetricsAnomalyDetector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#timezone LookoutmetricsAnomalyDetector#timezone}
   */
   readonly timezone?: string;
 }
@@ -2728,7 +2728,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // dimension_list - computed: true, optional: true, required: false
-  private _dimensionList?: string[]; 
+  private _dimensionList?: string[];
   public get dimensionList() {
     return this.getListAttribute('dimension_list');
   }
@@ -2757,7 +2757,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_description - computed: true, optional: true, required: false
-  private _metricSetDescription?: string; 
+  private _metricSetDescription?: string;
   public get metricSetDescription() {
     return this.getStringAttribute('metric_set_description');
   }
@@ -2773,7 +2773,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_frequency - computed: true, optional: true, required: false
-  private _metricSetFrequency?: string; 
+  private _metricSetFrequency?: string;
   public get metricSetFrequency() {
     return this.getStringAttribute('metric_set_frequency');
   }
@@ -2789,7 +2789,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_name - computed: false, optional: false, required: true
-  private _metricSetName?: string; 
+  private _metricSetName?: string;
   public get metricSetName() {
     return this.getStringAttribute('metric_set_name');
   }
@@ -2815,7 +2815,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // offset - computed: true, optional: true, required: false
-  private _offset?: number; 
+  private _offset?: number;
   public get offset() {
     return this.getNumberAttribute('offset');
   }
@@ -2847,7 +2847,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string; 
+  private _timezone?: string;
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -2884,7 +2884,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructList extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}
 */
 export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
 
@@ -2900,7 +2900,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LookoutmetricsAnomalyDetector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LookoutmetricsAnomalyDetector to import
-  * @param importFromId The id of the existing LookoutmetricsAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LookoutmetricsAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LookoutmetricsAnomalyDetector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2912,7 +2912,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2923,7 +2923,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lookoutmetrics_anomaly_detector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2958,7 +2958,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_description - computed: true, optional: true, required: false
-  private _anomalyDetectorDescription?: string; 
+  private _anomalyDetectorDescription?: string;
   public get anomalyDetectorDescription() {
     return this.getStringAttribute('anomaly_detector_description');
   }
@@ -2974,7 +2974,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_name - computed: true, optional: true, required: false
-  private _anomalyDetectorName?: string; 
+  private _anomalyDetectorName?: string;
   public get anomalyDetectorName() {
     return this.getStringAttribute('anomaly_detector_name');
   }
@@ -3000,7 +3000,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2SubnetCidrBlockConfig extends cdktn.TerraformMetaArguments {
   /**
   * The IPv6 network range for the subnet, in CIDR notation. The subnet size must use a /64 prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block#ipv_6_cidr_block Ec2SubnetCidrBlock#ipv_6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block#ipv_6_cidr_block Ec2SubnetCidrBlock#ipv_6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * The ID of an IPv6 Amazon VPC IP Address Manager (IPAM) pool from which to allocate, to get the subnet's CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block#ipv_6_ipam_pool_id Ec2SubnetCidrBlock#ipv_6_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block#ipv_6_ipam_pool_id Ec2SubnetCidrBlock#ipv_6_ipam_pool_id}
   */
   readonly ipv6IpamPoolId?: string;
   /**
   * The netmask length of the IPv6 CIDR to allocate to the subnet from an IPAM pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block#ipv_6_netmask_length Ec2SubnetCidrBlock#ipv_6_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block#ipv_6_netmask_length Ec2SubnetCidrBlock#ipv_6_netmask_length}
   */
   readonly ipv6NetmaskLength?: number;
   /**
   * The ID of the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block#subnet_id Ec2SubnetCidrBlock#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block#subnet_id Ec2SubnetCidrBlock#subnet_id}
   */
   readonly subnetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}
 */
 export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2SubnetCidrBlock resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2SubnetCidrBlock to import
-  * @param importFromId The id of the existing Ec2SubnetCidrBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2SubnetCidrBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2SubnetCidrBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_subnet_cidr_block',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -109,7 +109,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string; 
+  private _ipv6CidrBlock?: string;
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -125,7 +125,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv6IpamPoolId?: string; 
+  private _ipv6IpamPoolId?: string;
   public get ipv6IpamPoolId() {
     return this.getStringAttribute('ipv_6_ipam_pool_id');
   }
@@ -141,7 +141,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_netmask_length - computed: true, optional: true, required: false
-  private _ipv6NetmaskLength?: number; 
+  private _ipv6NetmaskLength?: number;
   public get ipv6NetmaskLength() {
     return this.getNumberAttribute('ipv_6_netmask_length');
   }
@@ -162,7 +162,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

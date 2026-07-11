@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface AppconfigDeploymentStrategyConfig extends cdktn.TerraformMetaAr
   /**
   * Total amount of time for a deployment to last.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#deployment_duration_in_minutes AppconfigDeploymentStrategy#deployment_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#deployment_duration_in_minutes AppconfigDeploymentStrategy#deployment_duration_in_minutes}
   */
   readonly deploymentDurationInMinutes: number;
   /**
   * A description of the deployment strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#description AppconfigDeploymentStrategy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#description AppconfigDeploymentStrategy#description}
   */
   readonly description?: string;
   /**
   * Specifies the amount of time AWS AppConfig monitors for Amazon CloudWatch alarms after the configuration has been deployed to 100% of its targets, before considering the deployment to be complete. If an alarm is triggered during this time, AWS AppConfig rolls back the deployment. You must configure permissions for AWS AppConfig to roll back based on CloudWatch alarms. For more information, see Configuring permissions for rollback based on Amazon CloudWatch alarms in the AWS AppConfig User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#final_bake_time_in_minutes AppconfigDeploymentStrategy#final_bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#final_bake_time_in_minutes AppconfigDeploymentStrategy#final_bake_time_in_minutes}
   */
   readonly finalBakeTimeInMinutes?: number;
   /**
   * The percentage of targets to receive a deployed configuration during each interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#growth_factor AppconfigDeploymentStrategy#growth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#growth_factor AppconfigDeploymentStrategy#growth_factor}
   */
   readonly growthFactor: number;
   /**
   * The algorithm used to define how percentage grows over time. AWS AppConfig supports the following growth types:
-  * 
+  *
   * Linear: For this type, AWS AppConfig processes the deployment by dividing the total number of targets by the value specified for Step percentage. For example, a linear deployment that uses a Step percentage of 10 deploys the configuration to 10 percent of the hosts. After those deployments are complete, the system deploys the configuration to the next 10 percent. This continues until 100% of the targets have successfully received the configuration.
-  * 
+  *
   * Exponential: For this type, AWS AppConfig processes the deployment exponentially using the following formula: G*(2^N). In this formula, G is the growth factor specified by the user and N is the number of steps until the configuration is deployed to all targets. For example, if you specify a growth factor of 2, then the system rolls out the configuration as follows:
-  * 
+  *
   * 2*(2^0)
-  * 
+  *
   * 2*(2^1)
-  * 
+  *
   * 2*(2^2)
-  * 
+  *
   * Expressed numerically, the deployment rolls out as follows: 2% of the targets, 4% of the targets, 8% of the targets, and continues until the configuration has been deployed to all targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#growth_type AppconfigDeploymentStrategy#growth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#growth_type AppconfigDeploymentStrategy#growth_type}
   */
   readonly growthType?: string;
   /**
   * A name for the deployment strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#name AppconfigDeploymentStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#name AppconfigDeploymentStrategy#name}
   */
   readonly name: string;
   /**
   * Save the deployment strategy to a Systems Manager (SSM) document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#replicate_to AppconfigDeploymentStrategy#replicate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#replicate_to AppconfigDeploymentStrategy#replicate_to}
   */
   readonly replicateTo: string;
   /**
   * Assigns metadata to an AWS AppConfig resource. Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define. You can specify a maximum of 50 tags for a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#tags AppconfigDeploymentStrategy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#tags AppconfigDeploymentStrategy#tags}
   */
   readonly tags?: AppconfigDeploymentStrategyTags[] | cdktn.IResolvable;
 }
@@ -72,13 +72,13 @@ export interface AppconfigDeploymentStrategyTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#key AppconfigDeploymentStrategy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#key AppconfigDeploymentStrategy#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#value AppconfigDeploymentStrategy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#value AppconfigDeploymentStrategy#value}
   */
   readonly value?: string;
 }
@@ -170,7 +170,7 @@ export class AppconfigDeploymentStrategyTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class AppconfigDeploymentStrategyTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -223,7 +223,7 @@ export class AppconfigDeploymentStrategyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy}
 */
 export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
 
@@ -239,7 +239,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppconfigDeploymentStrategy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppconfigDeploymentStrategy to import
-  * @param importFromId The id of the existing AppconfigDeploymentStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppconfigDeploymentStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppconfigDeploymentStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -251,7 +251,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,7 +262,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appconfig_deployment_strategy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -287,7 +287,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   // ==========
 
   // deployment_duration_in_minutes - computed: false, optional: false, required: true
-  private _deploymentDurationInMinutes?: number; 
+  private _deploymentDurationInMinutes?: number;
   public get deploymentDurationInMinutes() {
     return this.getNumberAttribute('deployment_duration_in_minutes');
   }
@@ -305,7 +305,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -321,7 +321,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // final_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _finalBakeTimeInMinutes?: number; 
+  private _finalBakeTimeInMinutes?: number;
   public get finalBakeTimeInMinutes() {
     return this.getNumberAttribute('final_bake_time_in_minutes');
   }
@@ -337,7 +337,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // growth_factor - computed: false, optional: false, required: true
-  private _growthFactor?: number; 
+  private _growthFactor?: number;
   public get growthFactor() {
     return this.getNumberAttribute('growth_factor');
   }
@@ -350,7 +350,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // growth_type - computed: true, optional: true, required: false
-  private _growthType?: string; 
+  private _growthType?: string;
   public get growthType() {
     return this.getStringAttribute('growth_type');
   }
@@ -371,7 +371,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -384,7 +384,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // replicate_to - computed: false, optional: false, required: true
-  private _replicateTo?: string; 
+  private _replicateTo?: string;
   public get replicateTo() {
     return this.getStringAttribute('replicate_to');
   }

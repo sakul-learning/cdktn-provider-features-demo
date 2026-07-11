@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Ec2RouteServerAssociationConfig extends cdktn.TerraformMetaArgu
   /**
   * Route Server ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
   */
   readonly routeServerId: string;
   /**
   * VPC ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}
 */
 export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2RouteServerAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2RouteServerAssociation to import
-  * @param importFromId The id of the existing Ec2RouteServerAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2RouteServerAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2RouteServerAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route_server_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string; 
+  private _routeServerId?: string;
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -98,7 +98,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

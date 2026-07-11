@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverFirewallRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#action Route53GlobalresolverFirewallRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#action Route53GlobalresolverFirewallRule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#block_override_dns_type Route53GlobalresolverFirewallRule#block_override_dns_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#block_override_dns_type Route53GlobalresolverFirewallRule#block_override_dns_type}
   */
   readonly blockOverrideDnsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#block_override_domain Route53GlobalresolverFirewallRule#block_override_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#block_override_domain Route53GlobalresolverFirewallRule#block_override_domain}
   */
   readonly blockOverrideDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#block_override_ttl Route53GlobalresolverFirewallRule#block_override_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#block_override_ttl Route53GlobalresolverFirewallRule#block_override_ttl}
   */
   readonly blockOverrideTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#block_response Route53GlobalresolverFirewallRule#block_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#block_response Route53GlobalresolverFirewallRule#block_response}
   */
   readonly blockResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#client_token Route53GlobalresolverFirewallRule#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#client_token Route53GlobalresolverFirewallRule#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#confidence_threshold Route53GlobalresolverFirewallRule#confidence_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#confidence_threshold Route53GlobalresolverFirewallRule#confidence_threshold}
   */
   readonly confidenceThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#description Route53GlobalresolverFirewallRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#description Route53GlobalresolverFirewallRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#dns_advanced_protection Route53GlobalresolverFirewallRule#dns_advanced_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#dns_advanced_protection Route53GlobalresolverFirewallRule#dns_advanced_protection}
   */
   readonly dnsAdvancedProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#dns_view_id Route53GlobalresolverFirewallRule#dns_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#dns_view_id Route53GlobalresolverFirewallRule#dns_view_id}
   */
   readonly dnsViewId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#firewall_domain_list_id Route53GlobalresolverFirewallRule#firewall_domain_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#firewall_domain_list_id Route53GlobalresolverFirewallRule#firewall_domain_list_id}
   */
   readonly firewallDomainListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#name Route53GlobalresolverFirewallRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#name Route53GlobalresolverFirewallRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#priority Route53GlobalresolverFirewallRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#priority Route53GlobalresolverFirewallRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#q_type Route53GlobalresolverFirewallRule#q_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#q_type Route53GlobalresolverFirewallRule#q_type}
   */
   readonly qType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule}
 */
 export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
 
@@ -82,7 +82,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53GlobalresolverFirewallRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverFirewallRule to import
-  * @param importFromId The id of the existing Route53GlobalresolverFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -94,7 +94,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -105,7 +105,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53globalresolver_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,7 +136,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -149,7 +149,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // block_override_dns_type - computed: true, optional: true, required: false
-  private _blockOverrideDnsType?: string; 
+  private _blockOverrideDnsType?: string;
   public get blockOverrideDnsType() {
     return this.getStringAttribute('block_override_dns_type');
   }
@@ -165,7 +165,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // block_override_domain - computed: true, optional: true, required: false
-  private _blockOverrideDomain?: string; 
+  private _blockOverrideDomain?: string;
   public get blockOverrideDomain() {
     return this.getStringAttribute('block_override_domain');
   }
@@ -181,7 +181,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // block_override_ttl - computed: true, optional: true, required: false
-  private _blockOverrideTtl?: number; 
+  private _blockOverrideTtl?: number;
   public get blockOverrideTtl() {
     return this.getNumberAttribute('block_override_ttl');
   }
@@ -197,7 +197,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // block_response - computed: true, optional: true, required: false
-  private _blockResponse?: string; 
+  private _blockResponse?: string;
   public get blockResponse() {
     return this.getStringAttribute('block_response');
   }
@@ -213,7 +213,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -229,7 +229,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // confidence_threshold - computed: true, optional: true, required: false
-  private _confidenceThreshold?: string; 
+  private _confidenceThreshold?: string;
   public get confidenceThreshold() {
     return this.getStringAttribute('confidence_threshold');
   }
@@ -250,7 +250,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -266,7 +266,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // dns_advanced_protection - computed: true, optional: true, required: false
-  private _dnsAdvancedProtection?: string; 
+  private _dnsAdvancedProtection?: string;
   public get dnsAdvancedProtection() {
     return this.getStringAttribute('dns_advanced_protection');
   }
@@ -282,7 +282,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // dns_view_id - computed: false, optional: false, required: true
-  private _dnsViewId?: string; 
+  private _dnsViewId?: string;
   public get dnsViewId() {
     return this.getStringAttribute('dns_view_id');
   }
@@ -295,7 +295,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // firewall_domain_list_id - computed: true, optional: true, required: false
-  private _firewallDomainListId?: string; 
+  private _firewallDomainListId?: string;
   public get firewallDomainListId() {
     return this.getStringAttribute('firewall_domain_list_id');
   }
@@ -321,7 +321,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -334,7 +334,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -350,7 +350,7 @@ export class Route53GlobalresolverFirewallRule extends cdktn.TerraformResource {
   }
 
   // q_type - computed: true, optional: true, required: false
-  private _qType?: string; 
+  private _qType?: string;
   public get qType() {
     return this.getStringAttribute('q_type');
   }

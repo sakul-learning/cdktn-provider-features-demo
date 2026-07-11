@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface CloudwatchLogDeliveryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#delivery_destination_arn CloudwatchLogDelivery#delivery_destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#delivery_destination_arn CloudwatchLogDelivery#delivery_destination_arn}
   */
   readonly deliveryDestinationArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#delivery_source_name CloudwatchLogDelivery#delivery_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#delivery_source_name CloudwatchLogDelivery#delivery_source_name}
   */
   readonly deliverySourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#field_delimiter CloudwatchLogDelivery#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#field_delimiter CloudwatchLogDelivery#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#record_fields CloudwatchLogDelivery#record_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#record_fields CloudwatchLogDelivery#record_fields}
   */
   readonly recordFields?: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#region CloudwatchLogDelivery#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#region CloudwatchLogDelivery#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#s3_delivery_configuration CloudwatchLogDelivery#s3_delivery_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#s3_delivery_configuration CloudwatchLogDelivery#s3_delivery_configuration}
   */
   readonly s3DeliveryConfiguration?: CloudwatchLogDeliveryS3DeliveryConfiguration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#tags CloudwatchLogDelivery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#tags CloudwatchLogDelivery#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface CloudwatchLogDeliveryS3DeliveryConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#enable_hive_compatible_path CloudwatchLogDelivery#enable_hive_compatible_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#enable_hive_compatible_path CloudwatchLogDelivery#enable_hive_compatible_path}
   */
   readonly enableHiveCompatiblePath?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#suffix_path CloudwatchLogDelivery#suffix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#suffix_path CloudwatchLogDelivery#suffix_path}
   */
   readonly suffixPath?: string;
 }
@@ -136,7 +136,7 @@ export class CloudwatchLogDeliveryS3DeliveryConfigurationOutputReference extends
   }
 
   // enable_hive_compatible_path - computed: true, optional: true, required: false
-  private _enableHiveCompatiblePath?: boolean | cdktn.IResolvable; 
+  private _enableHiveCompatiblePath?: boolean | cdktn.IResolvable;
   public get enableHiveCompatiblePath() {
     return this.getBooleanAttribute('enable_hive_compatible_path');
   }
@@ -152,7 +152,7 @@ export class CloudwatchLogDeliveryS3DeliveryConfigurationOutputReference extends
   }
 
   // suffix_path - computed: true, optional: true, required: false
-  private _suffixPath?: string; 
+  private _suffixPath?: string;
   public get suffixPath() {
     return this.getStringAttribute('suffix_path');
   }
@@ -189,7 +189,7 @@ export class CloudwatchLogDeliveryS3DeliveryConfigurationList extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery aws_cloudwatch_log_delivery}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery aws_cloudwatch_log_delivery}
 */
 export class CloudwatchLogDelivery extends cdktn.TerraformResource {
 
@@ -205,7 +205,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchLogDelivery resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchLogDelivery to import
-  * @param importFromId The id of the existing CloudwatchLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchLogDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +217,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_log_delivery aws_cloudwatch_log_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_log_delivery aws_cloudwatch_log_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudwatch_log_delivery',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -257,7 +257,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_destination_arn - computed: false, optional: false, required: true
-  private _deliveryDestinationArn?: string; 
+  private _deliveryDestinationArn?: string;
   public get deliveryDestinationArn() {
     return this.getStringAttribute('delivery_destination_arn');
   }
@@ -270,7 +270,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_source_name - computed: false, optional: false, required: true
-  private _deliverySourceName?: string; 
+  private _deliverySourceName?: string;
   public get deliverySourceName() {
     return this.getStringAttribute('delivery_source_name');
   }
@@ -283,7 +283,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // field_delimiter - computed: true, optional: true, required: false
-  private _fieldDelimiter?: string; 
+  private _fieldDelimiter?: string;
   public get fieldDelimiter() {
     return this.getStringAttribute('field_delimiter');
   }
@@ -304,7 +304,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // record_fields - computed: true, optional: true, required: false
-  private _recordFields?: string[]; 
+  private _recordFields?: string[];
   public get recordFields() {
     return this.getListAttribute('record_fields');
   }
@@ -320,7 +320,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -352,7 +352,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

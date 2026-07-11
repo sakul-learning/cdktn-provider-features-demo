@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityhubHubConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether to automatically enable new controls when they are added to standards that are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub#auto_enable_controls SecurityhubHub#auto_enable_controls}
   */
   readonly autoEnableControls?: boolean | cdktn.IResolvable;
   /**
   * This field, used when enabling Security Hub, specifies whether the calling account has consolidated control findings turned on. If the value for this field is set to SECURITY_CONTROL, Security Hub generates a single finding for a control check even when the check applies to multiple enabled standards.  If the value for this field is set to STANDARD_CONTROL, Security Hub generates separate findings for a control check when the check applies to multiple enabled standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub#control_finding_generator SecurityhubHub#control_finding_generator}
   */
   readonly controlFindingGenerator?: string;
   /**
   * Whether to enable the security standards that Security Hub has designated as automatically enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub#enable_default_standards SecurityhubHub#enable_default_standards}
   */
   readonly enableDefaultStandards?: boolean | cdktn.IResolvable;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub#tags SecurityhubHub#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub awscc_securityhub_hub}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub awscc_securityhub_hub}
 */
 export class SecurityhubHub extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubHub resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubHub to import
-  * @param importFromId The id of the existing SecurityhubHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_hub awscc_securityhub_hub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_hub awscc_securityhub_hub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_hub',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +99,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // auto_enable_controls - computed: true, optional: true, required: false
-  private _autoEnableControls?: boolean | cdktn.IResolvable; 
+  private _autoEnableControls?: boolean | cdktn.IResolvable;
   public get autoEnableControls() {
     return this.getBooleanAttribute('auto_enable_controls');
   }
@@ -115,7 +115,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // control_finding_generator - computed: true, optional: true, required: false
-  private _controlFindingGenerator?: string; 
+  private _controlFindingGenerator?: string;
   public get controlFindingGenerator() {
     return this.getStringAttribute('control_finding_generator');
   }
@@ -131,7 +131,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // enable_default_standards - computed: true, optional: true, required: false
-  private _enableDefaultStandards?: boolean | cdktn.IResolvable; 
+  private _enableDefaultStandards?: boolean | cdktn.IResolvable;
   public get enableDefaultStandards() {
     return this.getBooleanAttribute('enable_default_standards');
   }
@@ -157,7 +157,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

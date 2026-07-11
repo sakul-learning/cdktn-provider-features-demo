@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface S3TablesTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#encryption_configuration S3TablesTable#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#encryption_configuration S3TablesTable#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3TablesTableEncryptionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#format S3TablesTable#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#format S3TablesTable#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#maintenance_configuration S3TablesTable#maintenance_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#maintenance_configuration S3TablesTable#maintenance_configuration}
   */
   readonly maintenanceConfiguration?: S3TablesTableMaintenanceConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#name S3TablesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#name S3TablesTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#namespace S3TablesTable#namespace}
   */
   readonly namespace: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#region S3TablesTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#region S3TablesTable#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#table_bucket_arn S3TablesTable#table_bucket_arn}
   */
   readonly tableBucketArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#tags S3TablesTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#tags S3TablesTable#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#metadata S3TablesTable#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#metadata S3TablesTable#metadata}
   */
   readonly metadata?: S3TablesTableMetadata[] | cdktn.IResolvable;
 }
 export interface S3TablesTableEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#kms_key_arn S3TablesTable#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#kms_key_arn S3TablesTable#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#sse_algorithm S3TablesTable#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#sse_algorithm S3TablesTable#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -144,7 +144,7 @@ export class S3TablesTableEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string; 
+  private _kmsKeyArn?: string;
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -160,7 +160,7 @@ export class S3TablesTableEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string; 
+  private _sseAlgorithm?: string;
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -177,7 +177,7 @@ export class S3TablesTableEncryptionConfigurationOutputReference extends cdktn.C
 }
 export interface S3TablesTableMaintenanceConfigurationIcebergCompactionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#target_file_size_mb S3TablesTable#target_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#target_file_size_mb S3TablesTable#target_file_size_mb}
   */
   readonly targetFileSizeMb?: number;
 }
@@ -254,7 +254,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutpu
   }
 
   // target_file_size_mb - computed: true, optional: true, required: false
-  private _targetFileSizeMb?: number; 
+  private _targetFileSizeMb?: number;
   public get targetFileSizeMb() {
     return this.getNumberAttribute('target_file_size_mb');
   }
@@ -271,11 +271,11 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutpu
 }
 export interface S3TablesTableMaintenanceConfigurationIcebergCompaction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#settings S3TablesTable#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#settings S3TablesTable#settings}
   */
   readonly settings?: S3TablesTableMaintenanceConfigurationIcebergCompactionSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#status S3TablesTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#status S3TablesTable#status}
   */
   readonly status?: string;
 }
@@ -381,7 +381,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReferen
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -398,11 +398,11 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReferen
 }
 export interface S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#max_snapshot_age_hours S3TablesTable#max_snapshot_age_hours}
   */
   readonly maxSnapshotAgeHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#min_snapshots_to_keep S3TablesTable#min_snapshots_to_keep}
   */
   readonly minSnapshotsToKeep?: number;
 }
@@ -492,7 +492,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSetti
   }
 
   // max_snapshot_age_hours - computed: true, optional: true, required: false
-  private _maxSnapshotAgeHours?: number; 
+  private _maxSnapshotAgeHours?: number;
   public get maxSnapshotAgeHours() {
     return this.getNumberAttribute('max_snapshot_age_hours');
   }
@@ -508,7 +508,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSetti
   }
 
   // min_snapshots_to_keep - computed: true, optional: true, required: false
-  private _minSnapshotsToKeep?: number; 
+  private _minSnapshotsToKeep?: number;
   public get minSnapshotsToKeep() {
     return this.getNumberAttribute('min_snapshots_to_keep');
   }
@@ -525,11 +525,11 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSetti
 }
 export interface S3TablesTableMaintenanceConfigurationIcebergSnapshotManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#settings S3TablesTable#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#settings S3TablesTable#settings}
   */
   readonly settings?: S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#status S3TablesTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#status S3TablesTable#status}
   */
   readonly status?: string;
 }
@@ -635,7 +635,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementOutpu
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -652,11 +652,11 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementOutpu
 }
 export interface S3TablesTableMaintenanceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#iceberg_compaction S3TablesTable#iceberg_compaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#iceberg_compaction S3TablesTable#iceberg_compaction}
   */
   readonly icebergCompaction?: S3TablesTableMaintenanceConfigurationIcebergCompaction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#iceberg_snapshot_management S3TablesTable#iceberg_snapshot_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#iceberg_snapshot_management S3TablesTable#iceberg_snapshot_management}
   */
   readonly icebergSnapshotManagement?: S3TablesTableMaintenanceConfigurationIcebergSnapshotManagement;
 }
@@ -781,19 +781,19 @@ export interface S3TablesTableMetadataIcebergSchemaField {
   /**
   * The name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#name S3TablesTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#name S3TablesTable#name}
   */
   readonly name: string;
   /**
   * A Boolean value that specifies whether values are required for each row in this field. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#required S3TablesTable#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#required S3TablesTable#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
   /**
   * The field type. S3 Tables supports all Apache Iceberg primitive types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#type S3TablesTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#type S3TablesTable#type}
   */
   readonly type: string;
 }
@@ -898,7 +898,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -911,7 +911,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable;
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -927,7 +927,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -963,7 +963,7 @@ export interface S3TablesTableMetadataIcebergSchema {
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#field S3TablesTable#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#field S3TablesTable#field}
   */
   readonly field?: S3TablesTableMetadataIcebergSchemaField[] | cdktn.IResolvable;
 }
@@ -1081,7 +1081,7 @@ export interface S3TablesTableMetadataIceberg {
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#schema S3TablesTable#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#schema S3TablesTable#schema}
   */
   readonly schema?: S3TablesTableMetadataIcebergSchema[] | cdktn.IResolvable;
 }
@@ -1199,7 +1199,7 @@ export interface S3TablesTableMetadata {
   /**
   * iceberg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
   */
   readonly iceberg?: S3TablesTableMetadataIceberg[] | cdktn.IResolvable;
 }
@@ -1315,7 +1315,7 @@ export class S3TablesTableMetadataList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table aws_s3tables_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table aws_s3tables_table}
 */
 export class S3TablesTable extends cdktn.TerraformResource {
 
@@ -1331,7 +1331,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3TablesTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3TablesTable to import
-  * @param importFromId The id of the existing S3TablesTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3TablesTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3TablesTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1343,7 +1343,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3tables_table aws_s3tables_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3tables_table aws_s3tables_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1354,7 +1354,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
       terraformResourceType: 'aws_s3tables_table',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1411,7 +1411,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1455,7 +1455,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1468,7 +1468,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1486,7 +1486,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1502,7 +1502,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string; 
+  private _tableBucketArn?: string;
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -1515,7 +1515,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

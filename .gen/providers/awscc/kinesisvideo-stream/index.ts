@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface KinesisvideoStreamConfig extends cdktn.TerraformMetaArguments {
   /**
   * The number of hours till which Kinesis Video will retain the data in the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#data_retention_in_hours KinesisvideoStream#data_retention_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#data_retention_in_hours KinesisvideoStream#data_retention_in_hours}
   */
   readonly dataRetentionInHours?: number;
   /**
   * The name of the device that is writing to the stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#device_name KinesisvideoStream#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#device_name KinesisvideoStream#device_name}
   */
   readonly deviceName?: string;
   /**
   * AWS KMS key ID that Kinesis Video Streams uses to encrypt stream data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#kms_key_id KinesisvideoStream#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#kms_key_id KinesisvideoStream#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The media type of the stream. Consumers of the stream can use this information when processing the stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#media_type KinesisvideoStream#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#media_type KinesisvideoStream#media_type}
   */
   readonly mediaType?: string;
   /**
   * The name of the Kinesis Video stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#name KinesisvideoStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#name KinesisvideoStream#name}
   */
   readonly name?: string;
   /**
   * Configuration for the storage tier of the Kinesis Video Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#stream_storage_configuration KinesisvideoStream#stream_storage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#stream_storage_configuration KinesisvideoStream#stream_storage_configuration}
   */
   readonly streamStorageConfiguration?: KinesisvideoStreamStreamStorageConfiguration;
   /**
   * An array of key-value pairs associated with the Kinesis Video Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#tags KinesisvideoStream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#tags KinesisvideoStream#tags}
   */
   readonly tags?: KinesisvideoStreamTags[] | cdktn.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface KinesisvideoStreamStreamStorageConfiguration {
   /**
   * The storage tier for the Kinesis Video Stream. Determines the storage class used for stream data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#default_storage_tier KinesisvideoStream#default_storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#default_storage_tier KinesisvideoStream#default_storage_tier}
   */
   readonly defaultStorageTier?: string;
 }
@@ -131,7 +131,7 @@ export class KinesisvideoStreamStreamStorageConfigurationOutputReference extends
   }
 
   // default_storage_tier - computed: true, optional: true, required: false
-  private _defaultStorageTier?: string; 
+  private _defaultStorageTier?: string;
   public get defaultStorageTier() {
     return this.getStringAttribute('default_storage_tier');
   }
@@ -150,13 +150,13 @@ export interface KinesisvideoStreamTags {
   /**
   * The key name of the tag. Specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#key KinesisvideoStream#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#key KinesisvideoStream#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. Specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#value KinesisvideoStream#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#value KinesisvideoStream#value}
   */
   readonly value?: string;
 }
@@ -248,7 +248,7 @@ export class KinesisvideoStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -264,7 +264,7 @@ export class KinesisvideoStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -301,7 +301,7 @@ export class KinesisvideoStreamTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream}
 */
 export class KinesisvideoStream extends cdktn.TerraformResource {
 
@@ -317,7 +317,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KinesisvideoStream resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KinesisvideoStream to import
-  * @param importFromId The id of the existing KinesisvideoStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KinesisvideoStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KinesisvideoStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -329,7 +329,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,7 +340,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kinesisvideo_stream',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -369,7 +369,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // data_retention_in_hours - computed: true, optional: true, required: false
-  private _dataRetentionInHours?: number; 
+  private _dataRetentionInHours?: number;
   public get dataRetentionInHours() {
     return this.getNumberAttribute('data_retention_in_hours');
   }
@@ -385,7 +385,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -406,7 +406,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -422,7 +422,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // media_type - computed: true, optional: true, required: false
-  private _mediaType?: string; 
+  private _mediaType?: string;
   public get mediaType() {
     return this.getStringAttribute('media_type');
   }
@@ -438,7 +438,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

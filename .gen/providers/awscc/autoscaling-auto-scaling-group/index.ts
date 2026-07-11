@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,72 +12,72 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  The name can contain any ASCII character 33 to 126 including most punctuation characters, digits, and upper and lowercased letters.
   *   You cannot use a colon (:) in the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#auto_scaling_group_name AutoscalingAutoScalingGroup#auto_scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#auto_scaling_group_name AutoscalingAutoScalingGroup#auto_scaling_group_name}
   */
   readonly autoScalingGroupName?: string;
   /**
   * The EC2 instance capacity distribution across Availability Zones for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_distribution AutoscalingAutoScalingGroup#availability_zone_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_distribution AutoscalingAutoScalingGroup#availability_zone_distribution}
   */
   readonly availabilityZoneDistribution?: AutoscalingAutoScalingGroupAvailabilityZoneDistribution;
   /**
   * The Availability Zone IDs where the Auto Scaling group can launch instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_ids AutoscalingAutoScalingGroup#availability_zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_ids AutoscalingAutoScalingGroup#availability_zone_ids}
   */
   readonly availabilityZoneIds?: string[];
   /**
   * The Availability Zone impairment policy for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_impairment_policy AutoscalingAutoScalingGroup#availability_zone_impairment_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#availability_zone_impairment_policy AutoscalingAutoScalingGroup#availability_zone_impairment_policy}
   */
   readonly availabilityZoneImpairmentPolicy?: AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicy;
   /**
   * A list of Availability Zones where instances in the Auto Scaling group can be created. Used for launching into the default VPC subnet in each Availability Zone when not using the ``VPCZoneIdentifier`` property, or for attaching a network interface when an existing network interface ID is specified in a launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#availability_zones AutoscalingAutoScalingGroup#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#availability_zones AutoscalingAutoScalingGroup#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Indicates whether Capacity Rebalancing is enabled. Otherwise, Capacity Rebalancing is disabled. When you turn on Capacity Rebalancing, Amazon EC2 Auto Scaling attempts to launch a Spot Instance whenever Amazon EC2 notifies that a Spot Instance is at an elevated risk of interruption. After launching a new instance, it then terminates an old instance. For more information, see [Use Capacity Rebalancing to handle Amazon EC2 Spot Interruptions](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-capacity-rebalancing.html) in the in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_rebalance AutoscalingAutoScalingGroup#capacity_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_rebalance AutoscalingAutoScalingGroup#capacity_rebalance}
   */
   readonly capacityRebalance?: boolean | cdktn.IResolvable;
   /**
   * The capacity reservation specification for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_specification AutoscalingAutoScalingGroup#capacity_reservation_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_specification AutoscalingAutoScalingGroup#capacity_reservation_specification}
   */
   readonly capacityReservationSpecification?: AutoscalingAutoScalingGroupCapacityReservationSpecification;
   /**
   * Reserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#context AutoscalingAutoScalingGroup#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#context AutoscalingAutoScalingGroup#context}
   */
   readonly context?: string;
   /**
-  * *Only needed if you use simple scaling policies.* 
+  * *Only needed if you use simple scaling policies.*
   *  The amount of time, in seconds, between one scaling activity ending and another one starting due to simple scaling policies. For more information, see [Scaling cooldowns for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scaling-cooldowns.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Default: ``300`` seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#cooldown AutoscalingAutoScalingGroup#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#cooldown AutoscalingAutoScalingGroup#cooldown}
   */
   readonly cooldown?: string;
   /**
-  * The amount of time, in seconds, until a new instance is considered to have finished initializing and resource consumption to become stable after it enters the ``InService`` state. 
+  * The amount of time, in seconds, until a new instance is considered to have finished initializing and resource consumption to become stable after it enters the ``InService`` state.
   *  During an instance refresh, Amazon EC2 Auto Scaling waits for the warm-up period after it replaces an instance before it moves on to replacing the next instance. Amazon EC2 Auto Scaling also waits for the warm-up period before aggregating the metrics for new instances with existing instances in the Amazon CloudWatch metrics that are used for scaling, resulting in more reliable usage data. For more information, see [Set the default instance warmup for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-default-instance-warmup.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *   To manage various warm-up settings at the group level, we recommend that you set the default instance warmup, *even if it is set to 0 seconds*. To remove a value that you previously set, include the property but specify ``-1`` for the value. However, we strongly recommend keeping the default instance warmup enabled by specifying a value of ``0`` or other nominal value.
   *   Default: None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#default_instance_warmup AutoscalingAutoScalingGroup#default_instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#default_instance_warmup AutoscalingAutoScalingGroup#default_instance_warmup}
   */
   readonly defaultInstanceWarmup?: number;
   /**
   * The deletion protection setting for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#deletion_protection AutoscalingAutoScalingGroup#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#deletion_protection AutoscalingAutoScalingGroup#deletion_protection}
   */
   readonly deletionProtection?: string;
   /**
@@ -85,7 +85,7 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  The number must be greater than or equal to the minimum size of the group and less than or equal to the maximum size of the group. If you do not specify a desired capacity when creating the stack, the default is the minimum size of the group.
   *  CloudFormation marks the Auto Scaling group as successful (by setting its status to CREATE_COMPLETE) when the desired capacity is reached. However, if a maximum Spot price is set in the launch template or launch configuration that you specified, then desired capacity is not used as a criteria for success. Whether your request is fulfilled depends on Spot Instance capacity and your maximum price.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#desired_capacity AutoscalingAutoScalingGroup#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#desired_capacity AutoscalingAutoScalingGroup#desired_capacity}
   */
   readonly desiredCapacity?: string;
   /**
@@ -93,14 +93,14 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  By default, Amazon EC2 Auto Scaling specifies ``units``, which translates into number of instances.
   *  Valid values: ``units`` | ``vcpu`` | ``memory-mib``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#desired_capacity_type AutoscalingAutoScalingGroup#desired_capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#desired_capacity_type AutoscalingAutoScalingGroup#desired_capacity_type}
   */
   readonly desiredCapacityType?: string;
   /**
   * The amount of time, in seconds, that Amazon EC2 Auto Scaling waits before checking the health status of an EC2 instance that has come into service and marking it unhealthy due to a failed health check. This is useful if your instances do not immediately pass their health checks after they enter the ``InService`` state. For more information, see [Set the health check grace period for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/health-check-grace-period.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Default: ``0`` seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#health_check_grace_period AutoscalingAutoScalingGroup#health_check_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#health_check_grace_period AutoscalingAutoScalingGroup#health_check_grace_period}
   */
   readonly healthCheckGracePeriod?: number;
   /**
@@ -108,77 +108,77 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  The valid values are ``EC2``, ``EBS``, ``ELB``, and ``VPC_LATTICE``. ``EC2`` is the default health check and cannot be disabled. For more information, see [Health checks for instances in an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-health-checks.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Only specify ``EC2`` if you must clear a value that was previously set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#health_check_type AutoscalingAutoScalingGroup#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#health_check_type AutoscalingAutoScalingGroup#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * The ID of the instance used to base the launch configuration on. For more information, see [Create an Auto Scaling group using an EC2 instance](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-from-instance.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  If you specify ``LaunchTemplate``, ``MixedInstancesPolicy``, or ``LaunchConfigurationName``, don't specify ``InstanceId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_id AutoscalingAutoScalingGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_id AutoscalingAutoScalingGroup#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The instance lifecycle policy for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_lifecycle_policy AutoscalingAutoScalingGroup#instance_lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_lifecycle_policy AutoscalingAutoScalingGroup#instance_lifecycle_policy}
   */
   readonly instanceLifecyclePolicy?: AutoscalingAutoScalingGroupInstanceLifecyclePolicy;
   /**
   * An instance maintenance policy. For more information, see [Set instance maintenance policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-instance-maintenance-policy.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_maintenance_policy AutoscalingAutoScalingGroup#instance_maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_maintenance_policy AutoscalingAutoScalingGroup#instance_maintenance_policy}
   */
   readonly instanceMaintenancePolicy?: AutoscalingAutoScalingGroupInstanceMaintenancePolicy;
   /**
   * The name of the launch configuration to use to launch instances.
   *  Required only if you don't specify ``LaunchTemplate``, ``MixedInstancesPolicy``, or ``InstanceId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_configuration_name AutoscalingAutoScalingGroup#launch_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_configuration_name AutoscalingAutoScalingGroup#launch_configuration_name}
   */
   readonly launchConfigurationName?: string;
   /**
   * Information used to specify the launch template and version to use to launch instances. You can alternatively associate a launch template to the Auto Scaling group by specifying a ``MixedInstancesPolicy``. For more information about creating launch templates, see [Create a launch template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  If you omit this property, you must specify ``MixedInstancesPolicy``, ``LaunchConfigurationName``, or ``InstanceId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template AutoscalingAutoScalingGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template AutoscalingAutoScalingGroup#launch_template}
   */
   readonly launchTemplate?: AutoscalingAutoScalingGroupLaunchTemplate;
   /**
   * One or more lifecycle hooks to add to the Auto Scaling group before instances are launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_hook_specification_list AutoscalingAutoScalingGroup#lifecycle_hook_specification_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_hook_specification_list AutoscalingAutoScalingGroup#lifecycle_hook_specification_list}
   */
   readonly lifecycleHookSpecificationList?: AutoscalingAutoScalingGroupLifecycleHookSpecificationListStruct[] | cdktn.IResolvable;
   /**
   * A list of Classic Load Balancers associated with this Auto Scaling group. For Application Load Balancers, Network Load Balancers, and Gateway Load Balancers, specify the ``TargetGroupARNs`` property instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#load_balancer_names AutoscalingAutoScalingGroup#load_balancer_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#load_balancer_names AutoscalingAutoScalingGroup#load_balancer_names}
   */
   readonly loadBalancerNames?: string[];
   /**
   * The maximum amount of time, in seconds, that an instance can be in service. The default is null. If specified, the value must be either 0 or a number equal to or greater than 86,400 seconds (1 day). For more information, see [Replace Auto Scaling instances based on maximum instance lifetime](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-max-instance-lifetime.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max_instance_lifetime AutoscalingAutoScalingGroup#max_instance_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max_instance_lifetime AutoscalingAutoScalingGroup#max_instance_lifetime}
   */
   readonly maxInstanceLifetime?: number;
   /**
   * The maximum size of the group.
   *   With a mixed instances policy that uses instance weighting, Amazon EC2 Auto Scaling may need to go above ``MaxSize`` to meet your capacity requirements. In this event, Amazon EC2 Auto Scaling will never go above ``MaxSize`` by more than your largest instance weight (weights that define how many units each instance contributes to the desired capacity of the group).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max_size AutoscalingAutoScalingGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max_size AutoscalingAutoScalingGroup#max_size}
   */
   readonly maxSize: string;
   /**
   * Enables the monitoring of group metrics of an Auto Scaling group. By default, these metrics are disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#metrics_collection AutoscalingAutoScalingGroup#metrics_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#metrics_collection AutoscalingAutoScalingGroup#metrics_collection}
   */
   readonly metricsCollection?: AutoscalingAutoScalingGroupMetricsCollection[] | cdktn.IResolvable;
   /**
   * The minimum size of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min_size AutoscalingAutoScalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min_size AutoscalingAutoScalingGroup#min_size}
   */
   readonly minSize: string;
   /**
@@ -186,13 +186,13 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  The policy includes properties that not only define the distribution of On-Demand Instances and Spot Instances, the maximum price to pay for Spot Instances (optional), and how the Auto Scaling group allocates instance types to fulfill On-Demand and Spot capacities, but also the properties that specify the instance configuration information—the launch template and instance types. The policy can also include a weight for each instance type and different launch templates for individual instance types.
   *  For more information, see [Auto Scaling groups with multiple instance types and purchase options](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#mixed_instances_policy AutoscalingAutoScalingGroup#mixed_instances_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#mixed_instances_policy AutoscalingAutoScalingGroup#mixed_instances_policy}
   */
   readonly mixedInstancesPolicy?: AutoscalingAutoScalingGroupMixedInstancesPolicy;
   /**
   * Indicates whether newly launched instances are protected from termination by Amazon EC2 Auto Scaling when scaling in. For more information about preventing instances from terminating on scale in, see [Use instance scale-in protection](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-instance-protection.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#new_instances_protected_from_scale_in AutoscalingAutoScalingGroup#new_instances_protected_from_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#new_instances_protected_from_scale_in AutoscalingAutoScalingGroup#new_instances_protected_from_scale_in}
   */
   readonly newInstancesProtectedFromScaleIn?: boolean | cdktn.IResolvable;
   /**
@@ -200,55 +200,55 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *  For an example template snippet, see [Configure Amazon EC2 Auto Scaling resources](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-ec2-auto-scaling.html).
   *  For more information, see [Get Amazon SNS notifications when your Auto Scaling group scales](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ASGettingNotifications.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_configuration AutoscalingAutoScalingGroup#notification_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_configuration AutoscalingAutoScalingGroup#notification_configuration}
   */
   readonly notificationConfiguration?: AutoscalingAutoScalingGroupNotificationConfiguration;
   /**
   * Configures an Auto Scaling group to send notifications when specified events take place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_configurations AutoscalingAutoScalingGroup#notification_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_configurations AutoscalingAutoScalingGroup#notification_configurations}
   */
   readonly notificationConfigurations?: AutoscalingAutoScalingGroupNotificationConfigurations[] | cdktn.IResolvable;
   /**
   * The name of the placement group into which to launch your instances. For more information, see [Placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html) in the *Amazon EC2 User Guide*.
   *   A *cluster* placement group is a logical grouping of instances within a single Availability Zone. You cannot specify multiple Availability Zones and a cluster placement group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#placement_group AutoscalingAutoScalingGroup#placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#placement_group AutoscalingAutoScalingGroup#placement_group}
   */
   readonly placementGroup?: string;
   /**
   * The Amazon Resource Name (ARN) of the service-linked role that the Auto Scaling group uses to call other AWS service on your behalf. By default, Amazon EC2 Auto Scaling uses a service-linked role named ``AWSServiceRoleForAutoScaling``, which it creates if it does not exist. For more information, see [Service-linked roles](https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-service-linked-role.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#service_linked_role_arn AutoscalingAutoScalingGroup#service_linked_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#service_linked_role_arn AutoscalingAutoScalingGroup#service_linked_role_arn}
   */
   readonly serviceLinkedRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#skip_zonal_shift_validation AutoscalingAutoScalingGroup#skip_zonal_shift_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#skip_zonal_shift_validation AutoscalingAutoScalingGroup#skip_zonal_shift_validation}
   */
   readonly skipZonalShiftValidation?: boolean | cdktn.IResolvable;
   /**
   * One or more tags. You can tag your Auto Scaling group and propagate the tags to the Amazon EC2 instances it launches. Tags are not propagated to Amazon EBS volumes. To add tags to Amazon EBS volumes, specify the tags in a launch template but use caution. If the launch template specifies an instance tag with a key that is also specified for the Auto Scaling group, Amazon EC2 Auto Scaling overrides the value of that instance tag with the value specified by the Auto Scaling group. For more information, see [Tag Auto Scaling groups and instances](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-tagging.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#tags AutoscalingAutoScalingGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#tags AutoscalingAutoScalingGroup#tags}
   */
   readonly tags?: AutoscalingAutoScalingGroupTags[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Names (ARN) of the Elastic Load Balancing target groups to associate with the Auto Scaling group. Instances are registered as targets with the target groups. The target groups receive incoming traffic and route requests to one or more registered targets. For more information, see [Use Elastic Load Balancing to distribute traffic across the instances in your Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-load-balancer.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#target_group_ar_ns AutoscalingAutoScalingGroup#target_group_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#target_group_ar_ns AutoscalingAutoScalingGroup#target_group_ar_ns}
   */
   readonly targetGroupArNs?: string[];
   /**
   * A policy or a list of policies that are used to select the instance to terminate. These policies are executed in the order that you list them. For more information, see [Configure termination policies for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-termination-policies.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Valid values: ``Default`` | ``AllocationStrategy`` | ``ClosestToNextInstanceHour`` | ``NewestInstance`` | ``OldestInstance`` | ``OldestLaunchConfiguration`` | ``OldestLaunchTemplate`` | ``arn:aws:lambda:region:account-id:function:my-function:my-alias``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#termination_policies AutoscalingAutoScalingGroup#termination_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#termination_policies AutoscalingAutoScalingGroup#termination_policies}
   */
   readonly terminationPolicies?: string[];
   /**
   * The traffic sources associated with this Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#traffic_sources AutoscalingAutoScalingGroup#traffic_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#traffic_sources AutoscalingAutoScalingGroup#traffic_sources}
   */
   readonly trafficSources?: AutoscalingAutoScalingGroupTrafficSources[] | cdktn.IResolvable;
   /**
@@ -257,17 +257,17 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   *   When you update ``VPCZoneIdentifier``, this retains the same Auto Scaling group and replaces old instances with new ones, according to the specified subnets. You can optionally specify how CloudFormation handles these updates by using an [UpdatePolicy attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html).
   *   Required to launch instances into a nondefault VPC. If you specify ``VPCZoneIdentifier`` with ``AvailabilityZones``, the subnets that you specify for this property must reside in those Availability Zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#vpc_zone_identifier AutoscalingAutoScalingGroup#vpc_zone_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#vpc_zone_identifier AutoscalingAutoScalingGroup#vpc_zone_identifier}
   */
   readonly vpcZoneIdentifier?: string[];
 }
 export interface AutoscalingAutoScalingGroupAvailabilityZoneDistribution {
   /**
-  * If launches fail in an Availability Zone, the following strategies are available. The default is ``balanced-best-effort``. 
+  * If launches fail in an Availability Zone, the following strategies are available. The default is ``balanced-best-effort``.
   *   +  ``balanced-only`` - If launches fail in an Availability Zone, Auto Scaling will continue to attempt to launch in the unhealthy zone to preserve a balanced distribution.
   *   +  ``balanced-best-effort`` - If launches fail in an Availability Zone, Auto Scaling will attempt to launch in another healthy Availability Zone instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_distribution_strategy AutoscalingAutoScalingGroup#capacity_distribution_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_distribution_strategy AutoscalingAutoScalingGroup#capacity_distribution_strategy}
   */
   readonly capacityDistributionStrategy?: string;
 }
@@ -344,7 +344,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneDistributionOutputRefere
   }
 
   // capacity_distribution_strategy - computed: true, optional: true, required: false
-  private _capacityDistributionStrategy?: string; 
+  private _capacityDistributionStrategy?: string;
   public get capacityDistributionStrategy() {
     return this.getStringAttribute('capacity_distribution_strategy');
   }
@@ -363,13 +363,13 @@ export interface AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicy {
   /**
   * Specifies the health check behavior for the impaired Availability Zone in an active zonal shift. If you select ``Replace unhealthy``, instances that appear unhealthy will be replaced in all Availability Zones. If you select ``Ignore unhealthy``, instances will not be replaced in the Availability Zone with the active zonal shift. For more information, see [Auto Scaling group zonal shift](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-zonal-shift.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#impaired_zone_health_check_behavior AutoscalingAutoScalingGroup#impaired_zone_health_check_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#impaired_zone_health_check_behavior AutoscalingAutoScalingGroup#impaired_zone_health_check_behavior}
   */
   readonly impairedZoneHealthCheckBehavior?: string;
   /**
   * If ``true``, enable zonal shift for your Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#zonal_shift_enabled AutoscalingAutoScalingGroup#zonal_shift_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#zonal_shift_enabled AutoscalingAutoScalingGroup#zonal_shift_enabled}
   */
   readonly zonalShiftEnabled?: boolean | cdktn.IResolvable;
 }
@@ -459,7 +459,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicyOutputRe
   }
 
   // impaired_zone_health_check_behavior - computed: true, optional: true, required: false
-  private _impairedZoneHealthCheckBehavior?: string; 
+  private _impairedZoneHealthCheckBehavior?: string;
   public get impairedZoneHealthCheckBehavior() {
     return this.getStringAttribute('impaired_zone_health_check_behavior');
   }
@@ -475,7 +475,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicyOutputRe
   }
 
   // zonal_shift_enabled - computed: true, optional: true, required: false
-  private _zonalShiftEnabled?: boolean | cdktn.IResolvable; 
+  private _zonalShiftEnabled?: boolean | cdktn.IResolvable;
   public get zonalShiftEnabled() {
     return this.getBooleanAttribute('zonal_shift_enabled');
   }
@@ -494,13 +494,13 @@ export interface AutoscalingAutoScalingGroupCapacityReservationSpecificationCapa
   /**
   * The Capacity Reservation IDs to launch instances into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_ids AutoscalingAutoScalingGroup#capacity_reservation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_ids AutoscalingAutoScalingGroup#capacity_reservation_ids}
   */
   readonly capacityReservationIds?: string[];
   /**
   * The resource group ARNs of the Capacity Reservation to launch instances into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_resource_group_arns AutoscalingAutoScalingGroup#capacity_reservation_resource_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_resource_group_arns AutoscalingAutoScalingGroup#capacity_reservation_resource_group_arns}
   */
   readonly capacityReservationResourceGroupArns?: string[];
 }
@@ -590,7 +590,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
   }
 
   // capacity_reservation_ids - computed: true, optional: true, required: false
-  private _capacityReservationIds?: string[]; 
+  private _capacityReservationIds?: string[];
   public get capacityReservationIds() {
     return this.getListAttribute('capacity_reservation_ids');
   }
@@ -606,7 +606,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
   }
 
   // capacity_reservation_resource_group_arns - computed: true, optional: true, required: false
-  private _capacityReservationResourceGroupArns?: string[]; 
+  private _capacityReservationResourceGroupArns?: string[];
   public get capacityReservationResourceGroupArns() {
     return this.getListAttribute('capacity_reservation_resource_group_arns');
   }
@@ -623,19 +623,19 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
 }
 export interface AutoscalingAutoScalingGroupCapacityReservationSpecification {
   /**
-  * The capacity reservation preference. The following options are available: 
+  * The capacity reservation preference. The following options are available:
   *   +  ``capacity-reservations-only`` - Auto Scaling will only launch instances into a Capacity Reservation or Capacity Reservation resource group. If capacity isn't available, instances will fail to launch.
   *   +  ``capacity-reservations-first`` - Auto Scaling will try to launch instances into a Capacity Reservation or Capacity Reservation resource group first. If capacity isn't available, instances will run in On-Demand capacity.
-  *   +  ``none`` - Auto Scaling will not launch instances into a Capacity Reservation. Instances will run in On-Demand capacity. 
+  *   +  ``none`` - Auto Scaling will not launch instances into a Capacity Reservation. Instances will run in On-Demand capacity.
   *   +  ``default`` - Auto Scaling uses the Capacity Reservation preference from your launch template or an open Capacity Reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_preference AutoscalingAutoScalingGroup#capacity_reservation_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_preference AutoscalingAutoScalingGroup#capacity_reservation_preference}
   */
   readonly capacityReservationPreference?: string;
   /**
   * Describes a target Capacity Reservation or Capacity Reservation resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_target AutoscalingAutoScalingGroup#capacity_reservation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_target AutoscalingAutoScalingGroup#capacity_reservation_target}
   */
   readonly capacityReservationTarget?: AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacityReservationTarget;
 }
@@ -725,7 +725,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationOutputRe
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string; 
+  private _capacityReservationPreference?: string;
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -758,11 +758,11 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationOutputRe
 }
 export interface AutoscalingAutoScalingGroupInstanceLifecyclePolicyRetentionTriggers {
   /**
-  * Specifies the action when a termination lifecycle hook is abandoned due to failure, timeout, or explicit abandonment (calling CompleteLifecycleAction). 
-  *   Set to ``retain`` to move instances to a retained state. Set to ``terminate`` for default termination behavior. 
+  * Specifies the action when a termination lifecycle hook is abandoned due to failure, timeout, or explicit abandonment (calling CompleteLifecycleAction).
+  *   Set to ``retain`` to move instances to a retained state. Set to ``terminate`` for default termination behavior.
   *   Retained instances don't count toward desired capacity and remain until you call ``TerminateInstanceInAutoScalingGroup``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#terminate_hook_abandon AutoscalingAutoScalingGroup#terminate_hook_abandon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#terminate_hook_abandon AutoscalingAutoScalingGroup#terminate_hook_abandon}
   */
   readonly terminateHookAbandon?: string;
 }
@@ -839,7 +839,7 @@ export class AutoscalingAutoScalingGroupInstanceLifecyclePolicyRetentionTriggers
   }
 
   // terminate_hook_abandon - computed: true, optional: true, required: false
-  private _terminateHookAbandon?: string; 
+  private _terminateHookAbandon?: string;
   public get terminateHookAbandon() {
     return this.getStringAttribute('terminate_hook_abandon');
   }
@@ -858,7 +858,7 @@ export interface AutoscalingAutoScalingGroupInstanceLifecyclePolicy {
   /**
   * Specifies the conditions that trigger instance retention behavior. These triggers determine when instances should move to a ``Retained`` state instead of automatic termination. This allows you to maintain control over instance management when lifecycles transition and operations fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#retention_triggers AutoscalingAutoScalingGroup#retention_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#retention_triggers AutoscalingAutoScalingGroup#retention_triggers}
   */
   readonly retentionTriggers?: AutoscalingAutoScalingGroupInstanceLifecyclePolicyRetentionTriggers;
 }
@@ -955,13 +955,13 @@ export interface AutoscalingAutoScalingGroupInstanceMaintenancePolicy {
   * Specifies the upper threshold as a percentage of the desired capacity of the Auto Scaling group. It represents the maximum percentage of the group that can be in service and healthy, or pending, to support your workload when replacing instances. Value range is 100 to 200. To clear a previously set value, specify a value of ``-1``.
   *  Both ``MinHealthyPercentage`` and ``MaxHealthyPercentage`` must be specified, and the difference between them cannot be greater than 100. A large range increases the number of instances that can be replaced at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max_healthy_percentage AutoscalingAutoScalingGroup#max_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max_healthy_percentage AutoscalingAutoScalingGroup#max_healthy_percentage}
   */
   readonly maxHealthyPercentage?: number;
   /**
   * Specifies the lower threshold as a percentage of the desired capacity of the Auto Scaling group. It represents the minimum percentage of the group to keep in service, healthy, and ready to use to support your workload when replacing instances. Value range is 0 to 100. To clear a previously set value, specify a value of ``-1``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min_healthy_percentage AutoscalingAutoScalingGroup#min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min_healthy_percentage AutoscalingAutoScalingGroup#min_healthy_percentage}
   */
   readonly minHealthyPercentage?: number;
 }
@@ -1051,7 +1051,7 @@ export class AutoscalingAutoScalingGroupInstanceMaintenancePolicyOutputReference
   }
 
   // max_healthy_percentage - computed: true, optional: true, required: false
-  private _maxHealthyPercentage?: number; 
+  private _maxHealthyPercentage?: number;
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -1067,7 +1067,7 @@ export class AutoscalingAutoScalingGroupInstanceMaintenancePolicyOutputReference
   }
 
   // min_healthy_percentage - computed: true, optional: true, required: false
-  private _minHealthyPercentage?: number; 
+  private _minHealthyPercentage?: number;
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -1087,14 +1087,14 @@ export interface AutoscalingAutoScalingGroupLaunchTemplate {
   * The ID of the launch template.
   *  You must specify the ``LaunchTemplateID`` or the ``LaunchTemplateName``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * The name of the launch template.
   *  You must specify the ``LaunchTemplateName`` or the ``LaunchTemplateID``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
@@ -1102,7 +1102,7 @@ export interface AutoscalingAutoScalingGroupLaunchTemplate {
   *  Specifying ``$Latest`` or ``$Default`` for the template version number is not supported. However, you can specify ``LatestVersionNumber`` or ``DefaultVersionNumber`` using the ``Fn::GetAtt`` intrinsic function. For more information, see [Fn::GetAtt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html).
   *   For an example of using the ``Fn::GetAtt`` function, see the [Examples](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-autoscalinggroup.html#aws-resource-autoscaling-autoscalinggroup--examples) section of the ``AWS::AutoScaling::AutoScalingGroup`` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
   */
   readonly version?: string;
 }
@@ -1205,7 +1205,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -1221,7 +1221,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -1237,7 +1237,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1257,19 +1257,19 @@ export interface AutoscalingAutoScalingGroupLifecycleHookSpecificationListStruct
   * The action the Auto Scaling group takes when the lifecycle hook timeout elapses or if an unexpected failure occurs. The default value is ``ABANDON``.
   *  Valid values: ``CONTINUE`` | ``ABANDON``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#default_result AutoscalingAutoScalingGroup#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#default_result AutoscalingAutoScalingGroup#default_result}
   */
   readonly defaultResult?: string;
   /**
   * The maximum time, in seconds, that can elapse before the lifecycle hook times out. The range is from ``30`` to ``7200`` seconds. The default value is ``3600`` seconds (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#heartbeat_timeout AutoscalingAutoScalingGroup#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#heartbeat_timeout AutoscalingAutoScalingGroup#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
   * The name of the lifecycle hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_hook_name AutoscalingAutoScalingGroup#lifecycle_hook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_hook_name AutoscalingAutoScalingGroup#lifecycle_hook_name}
   */
   readonly lifecycleHookName?: string;
   /**
@@ -1277,26 +1277,26 @@ export interface AutoscalingAutoScalingGroupLifecycleHookSpecificationListStruct
   *   +  To create a lifecycle hook for scale-out events, specify ``autoscaling:EC2_INSTANCE_LAUNCHING``.
   *   +  To create a lifecycle hook for scale-in events, specify ``autoscaling:EC2_INSTANCE_TERMINATING``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_transition AutoscalingAutoScalingGroup#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#lifecycle_transition AutoscalingAutoScalingGroup#lifecycle_transition}
   */
   readonly lifecycleTransition?: string;
   /**
   * Additional information that you want to include any time Amazon EC2 Auto Scaling sends a message to the notification target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_metadata AutoscalingAutoScalingGroup#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_metadata AutoscalingAutoScalingGroup#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
   * The Amazon Resource Name (ARN) of the notification target that Amazon EC2 Auto Scaling sends notifications to when an instance is in a wait state for the lifecycle hook. You can specify an Amazon SNS topic or an Amazon SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_target_arn AutoscalingAutoScalingGroup#notification_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_target_arn AutoscalingAutoScalingGroup#notification_target_arn}
   */
   readonly notificationTargetArn?: string;
   /**
   * The ARN of the IAM role that allows the Auto Scaling group to publish to the specified notification target. For information about creating this role, see [Prepare to add a lifecycle hook to your Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/prepare-for-lifecycle-notifications.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Valid only if the notification target is an Amazon SNS topic or an Amazon SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#role_arn AutoscalingAutoScalingGroup#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#role_arn AutoscalingAutoScalingGroup#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -1453,7 +1453,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string; 
+  private _defaultResult?: string;
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -1469,7 +1469,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // heartbeat_timeout - computed: true, optional: true, required: false
-  private _heartbeatTimeout?: number; 
+  private _heartbeatTimeout?: number;
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -1485,7 +1485,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // lifecycle_hook_name - computed: true, optional: true, required: false
-  private _lifecycleHookName?: string; 
+  private _lifecycleHookName?: string;
   public get lifecycleHookName() {
     return this.getStringAttribute('lifecycle_hook_name');
   }
@@ -1501,7 +1501,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // lifecycle_transition - computed: true, optional: true, required: false
-  private _lifecycleTransition?: string; 
+  private _lifecycleTransition?: string;
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -1517,7 +1517,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // notification_metadata - computed: true, optional: true, required: false
-  private _notificationMetadata?: string; 
+  private _notificationMetadata?: string;
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -1533,7 +1533,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // notification_target_arn - computed: true, optional: true, required: false
-  private _notificationTargetArn?: string; 
+  private _notificationTargetArn?: string;
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -1549,7 +1549,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1588,37 +1588,37 @@ export interface AutoscalingAutoScalingGroupMetricsCollection {
   /**
   * The frequency at which Amazon EC2 Auto Scaling sends aggregated data to CloudWatch. The only valid value is ``1Minute``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#granularity AutoscalingAutoScalingGroup#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#granularity AutoscalingAutoScalingGroup#granularity}
   */
   readonly granularity?: string;
   /**
   * Identifies the metrics to enable.
   *  You can specify one or more of the following metrics:
-  *   +   ``GroupMinSize`` 
-  *   +   ``GroupMaxSize`` 
-  *   +   ``GroupDesiredCapacity`` 
-  *   +   ``GroupInServiceInstances`` 
-  *   +   ``GroupPendingInstances`` 
-  *   +   ``GroupStandbyInstances`` 
-  *   +   ``GroupTerminatingInstances`` 
-  *   +   ``GroupTotalInstances`` 
-  *   +   ``GroupInServiceCapacity`` 
-  *   +   ``GroupPendingCapacity`` 
-  *   +   ``GroupStandbyCapacity`` 
-  *   +   ``GroupTerminatingCapacity`` 
-  *   +   ``GroupTotalCapacity`` 
-  *   +   ``WarmPoolDesiredCapacity`` 
-  *   +   ``WarmPoolWarmedCapacity`` 
-  *   +   ``WarmPoolPendingCapacity`` 
-  *   +   ``WarmPoolTerminatingCapacity`` 
-  *   +   ``WarmPoolTotalCapacity`` 
-  *   +   ``GroupAndWarmPoolDesiredCapacity`` 
-  *   +   ``GroupAndWarmPoolTotalCapacity`` 
-  *   
+  *   +   ``GroupMinSize``
+  *   +   ``GroupMaxSize``
+  *   +   ``GroupDesiredCapacity``
+  *   +   ``GroupInServiceInstances``
+  *   +   ``GroupPendingInstances``
+  *   +   ``GroupStandbyInstances``
+  *   +   ``GroupTerminatingInstances``
+  *   +   ``GroupTotalInstances``
+  *   +   ``GroupInServiceCapacity``
+  *   +   ``GroupPendingCapacity``
+  *   +   ``GroupStandbyCapacity``
+  *   +   ``GroupTerminatingCapacity``
+  *   +   ``GroupTotalCapacity``
+  *   +   ``WarmPoolDesiredCapacity``
+  *   +   ``WarmPoolWarmedCapacity``
+  *   +   ``WarmPoolPendingCapacity``
+  *   +   ``WarmPoolTerminatingCapacity``
+  *   +   ``WarmPoolTotalCapacity``
+  *   +   ``GroupAndWarmPoolDesiredCapacity``
+  *   +   ``GroupAndWarmPoolTotalCapacity``
+  *
   *  If you specify ``Granularity`` and don't specify any metrics, all metrics are enabled.
   *  For more information, see [Amazon CloudWatch metrics for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-metrics.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#metrics AutoscalingAutoScalingGroup#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#metrics AutoscalingAutoScalingGroup#metrics}
   */
   readonly metrics?: string[];
 }
@@ -1710,7 +1710,7 @@ export class AutoscalingAutoScalingGroupMetricsCollectionOutputReference extends
   }
 
   // granularity - computed: true, optional: true, required: false
-  private _granularity?: string; 
+  private _granularity?: string;
   public get granularity() {
     return this.getStringAttribute('granularity');
   }
@@ -1726,7 +1726,7 @@ export class AutoscalingAutoScalingGroupMetricsCollectionOutputReference extends
   }
 
   // metrics - computed: true, optional: true, required: false
-  private _metrics?: string[]; 
+  private _metrics?: string[];
   public get metrics() {
     return this.getListAttribute('metrics');
   }
@@ -1767,7 +1767,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistrib
   *  The following lists the valid values:
   *   + lowest-price Uses price to determine which instance types are the highest priority, launching the lowest priced instance types within an Availability Zone first. This is the default value for Auto Scaling groups that specify InstanceRequirements. + prioritized You set the order of instance types for the launch template overrides from highest to lowest priority (from first to last in the list). Amazon EC2 Auto Scaling launches your highest priority instance types first. If all your On-Demand capacity cannot be fulfilled using your highest priority instance type, then Amazon EC2 Auto Scaling launches the remaining capacity using the second priority instance type, and so on. This is the default value for Auto Scaling groups that don't specify InstanceRequirements and cannot be used for groups that do.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#on_demand_allocation_strategy AutoscalingAutoScalingGroup#on_demand_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#on_demand_allocation_strategy AutoscalingAutoScalingGroup#on_demand_allocation_strategy}
   */
   readonly onDemandAllocationStrategy?: string;
   /**
@@ -1776,7 +1776,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistrib
   *  Default: 0
   *   An update to this setting means a gradual replacement of instances to adjust the current On-Demand Instance levels. When replacing instances, Amazon EC2 Auto Scaling launches new instances before terminating the previous ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#on_demand_base_capacity AutoscalingAutoScalingGroup#on_demand_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#on_demand_base_capacity AutoscalingAutoScalingGroup#on_demand_base_capacity}
   */
   readonly onDemandBaseCapacity?: number;
   /**
@@ -1784,7 +1784,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistrib
   *  Default: 100
   *   An update to this setting means a gradual replacement of instances to adjust the current On-Demand and Spot Instance levels for your additional capacity higher than the base capacity. When replacing instances, Amazon EC2 Auto Scaling launches new instances before terminating the previous ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#on_demand_percentage_above_base_capacity AutoscalingAutoScalingGroup#on_demand_percentage_above_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#on_demand_percentage_above_base_capacity AutoscalingAutoScalingGroup#on_demand_percentage_above_base_capacity}
   */
   readonly onDemandPercentageAboveBaseCapacity?: number;
   /**
@@ -1792,14 +1792,14 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistrib
   *  The following lists the valid values:
   *   + capacity-optimized Requests Spot Instances using pools that are optimally chosen based on the available Spot capacity. This strategy has the lowest risk of interruption. To give certain instance types a higher chance of launching first, use capacity-optimized-prioritized. + capacity-optimized-prioritized You set the order of instance types for the launch template overrides from highest to lowest priority (from first to last in the list). Amazon EC2 Auto Scaling honors the instance type priorities on a best effort basis but optimizes for capacity first. Note that if the On-Demand allocation strategy is set to prioritized, the same priority is applied when fulfilling On-Demand capacity. This is not a valid value for Auto Scaling groups that specify InstanceRequirements. + lowest-price Requests Spot Instances using the lowest priced pools within an Availability Zone, across the number of Spot pools that you specify for the SpotInstancePools property. To ensure that your desired capacity is met, you might receive Spot Instances from several pools. This is the default value, but it might lead to high interruption rates because this strategy only considers instance price and not available capacity. + price-capacity-optimized (recommended) The price and capacity optimized allocation strategy looks at both price and capacity to select the Spot Instance pools that are the least likely to be interrupted and have the lowest possible price.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#spot_allocation_strategy AutoscalingAutoScalingGroup#spot_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#spot_allocation_strategy AutoscalingAutoScalingGroup#spot_allocation_strategy}
   */
   readonly spotAllocationStrategy?: string;
   /**
   * The number of Spot Instance pools across which to allocate your Spot Instances. The Spot pools are determined from the different instance types in the overrides. Valid only when the ``SpotAllocationStrategy`` is ``lowest-price``. Value must be in the range of 1–20.
   *  Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#spot_instance_pools AutoscalingAutoScalingGroup#spot_instance_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#spot_instance_pools AutoscalingAutoScalingGroup#spot_instance_pools}
   */
   readonly spotInstancePools?: number;
   /**
@@ -1807,7 +1807,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistrib
   *   If you specify a maximum price, your instances will be interrupted more frequently than if you do not specify one.
   *   Valid Range: Minimum value of 0.001
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price AutoscalingAutoScalingGroup#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price AutoscalingAutoScalingGroup#spot_max_price}
   */
   readonly spotMaxPrice?: string;
 }
@@ -1949,7 +1949,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string; 
+  private _onDemandAllocationStrategy?: string;
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -1965,7 +1965,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_base_capacity - computed: true, optional: true, required: false
-  private _onDemandBaseCapacity?: number; 
+  private _onDemandBaseCapacity?: number;
   public get onDemandBaseCapacity() {
     return this.getNumberAttribute('on_demand_base_capacity');
   }
@@ -1981,7 +1981,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_percentage_above_base_capacity - computed: true, optional: true, required: false
-  private _onDemandPercentageAboveBaseCapacity?: number; 
+  private _onDemandPercentageAboveBaseCapacity?: number;
   public get onDemandPercentageAboveBaseCapacity() {
     return this.getNumberAttribute('on_demand_percentage_above_base_capacity');
   }
@@ -1997,7 +1997,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_allocation_strategy - computed: true, optional: true, required: false
-  private _spotAllocationStrategy?: string; 
+  private _spotAllocationStrategy?: string;
   public get spotAllocationStrategy() {
     return this.getStringAttribute('spot_allocation_strategy');
   }
@@ -2013,7 +2013,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_instance_pools - computed: true, optional: true, required: false
-  private _spotInstancePools?: number; 
+  private _spotInstancePools?: number;
   public get spotInstancePools() {
     return this.getNumberAttribute('spot_instance_pools');
   }
@@ -2029,7 +2029,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_max_price - computed: true, optional: true, required: false
-  private _spotMaxPrice?: string; 
+  private _spotMaxPrice?: string;
   public get spotMaxPrice() {
     return this.getStringAttribute('spot_max_price');
   }
@@ -2049,14 +2049,14 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLa
   * The ID of the launch template.
   *  You must specify the ``LaunchTemplateID`` or the ``LaunchTemplateName``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * The name of the launch template.
   *  You must specify the ``LaunchTemplateName`` or the ``LaunchTemplateID``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
@@ -2064,7 +2064,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLa
   *  Specifying ``$Latest`` or ``$Default`` for the template version number is not supported. However, you can specify ``LatestVersionNumber`` or ``DefaultVersionNumber`` using the ``Fn::GetAtt`` intrinsic function. For more information, see [Fn::GetAtt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html).
   *   For an example of using the ``Fn::GetAtt`` function, see the [Examples](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-autoscalinggroup.html#aws-resource-autoscaling-autoscalinggroup--examples) section of the ``AWS::AutoScaling::AutoScalingGroup`` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
   */
   readonly version?: string;
 }
@@ -2167,7 +2167,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -2183,7 +2183,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -2199,7 +2199,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2218,13 +2218,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The minimum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2314,7 +2314,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2330,7 +2330,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2349,13 +2349,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The memory maximum in MiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The memory minimum in MiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2445,7 +2445,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2461,7 +2461,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2480,13 +2480,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The maximum value in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The minimum value in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2576,7 +2576,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2592,7 +2592,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2609,22 +2609,22 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
   /**
-  * The instance family to use as a baseline reference. 
+  * The instance family to use as a baseline reference.
   *   Make sure that you specify the correct value for the instance family. The instance family is everything before the period (.) in the instance type name. For example, in the instance ``c6i.large``, the instance family is ``c6i``, not ``c6``. For more information, see [Amazon EC2 instance type naming conventions](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html) in *Amazon EC2 Instance Types*.
   *   The following instance types are *not supported* for performance protection.
-  *   +   ``c1`` 
-  *   +   ``g3| g3s`` 
-  *   +   ``hpc7g`` 
-  *   +   ``m1| m2`` 
-  *   +   ``mac1 | mac2 | mac2-m1ultra | mac2-m2 | mac2-m2pro`` 
-  *   +   ``p3dn | p4d | p5`` 
-  *   +   ``t1`` 
-  *   +   ``u-12tb1 | u-18tb1 | u-24tb1 | u-3tb1 | u-6tb1 | u-9tb1 | u7i-12tb | u7in-16tb | u7in-24tb | u7in-32tb`` 
-  *   
+  *   +   ``c1``
+  *   +   ``g3| g3s``
+  *   +   ``hpc7g``
+  *   +   ``m1| m2``
+  *   +   ``mac1 | mac2 | mac2-m1ultra | mac2-m2 | mac2-m2pro``
+  *   +   ``p3dn | p4d | p5``
+  *   +   ``t1``
+  *   +   ``u-12tb1 | u-18tb1 | u-24tb1 | u-3tb1 | u-6tb1 | u-9tb1 | u7i-12tb | u7in-16tb | u7in-24tb | u7in-32tb``
+  *
   *  If you performance protection by specifying a supported instance family, the returned instance types will exclude the preceding unsupported instance families.
   *  If you specify an unsupported instance family as a value for baseline performance, the API returns an empty response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_family AutoscalingAutoScalingGroup#instance_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_family AutoscalingAutoScalingGroup#instance_family}
   */
   readonly instanceFamily?: string;
 }
@@ -2703,7 +2703,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string; 
+  private _instanceFamily?: string;
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -2740,10 +2740,10 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpu {
   /**
-  * Specify an instance family to use as the baseline reference for CPU performance. All instance types that match your specified attributes will be compared against the CPU performance of the referenced instance family, regardless of CPU manufacturer or architecture differences. 
+  * Specify an instance family to use as the baseline reference for CPU performance. All instance types that match your specified attributes will be compared against the CPU performance of the referenced instance family, regardless of CPU manufacturer or architecture differences.
   *   Currently only one instance family can be specified in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#references AutoscalingAutoScalingGroup#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#references AutoscalingAutoScalingGroup#references}
   */
   readonly references?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences[] | cdktn.IResolvable;
 }
@@ -2839,7 +2839,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The CPU performance to consider, using an instance family as the baseline reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#cpu AutoscalingAutoScalingGroup#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#cpu AutoscalingAutoScalingGroup#cpu}
   */
   readonly cpu?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpu;
 }
@@ -2935,13 +2935,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The memory maximum in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The memory minimum in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3031,7 +3031,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3047,7 +3047,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3066,13 +3066,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The memory maximum in MiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The memory minimum in MiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3162,7 +3162,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3178,7 +3178,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3197,13 +3197,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The maximum amount of network bandwidth, in gigabits per second (Gbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The minimum amount of network bandwidth, in gigabits per second (Gbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3293,7 +3293,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3309,7 +3309,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3328,13 +3328,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The maximum number of network interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The minimum number of network interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3424,7 +3424,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3440,7 +3440,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3459,13 +3459,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The storage maximum in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The storage minimum in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3555,7 +3555,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3571,7 +3571,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3590,13 +3590,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * The maximum number of vCPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max AutoscalingAutoScalingGroup#max}
   */
   readonly max?: number;
   /**
   * The minimum number of vCPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#min AutoscalingAutoScalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3686,7 +3686,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3702,7 +3702,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3723,7 +3723,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *  To exclude accelerator-enabled instance types, set ``Max`` to ``0``.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#accelerator_count AutoscalingAutoScalingGroup#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_count AutoscalingAutoScalingGroup#accelerator_count}
   */
   readonly acceleratorCount?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsAcceleratorCount;
   /**
@@ -3732,10 +3732,10 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with AMD devices, specify ``amd``.
   *   +  For instance types with AWS devices, specify ``amazon-web-services``.
   *   +  For instance types with Xilinx devices, specify ``xilinx``.
-  *   
+  *
   *  Default: Any manufacturer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#accelerator_manufacturers AutoscalingAutoScalingGroup#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_manufacturers AutoscalingAutoScalingGroup#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
@@ -3747,17 +3747,17 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with NVIDIA M60 GPUs, specify ``m60``.
   *   +  For instance types with AMD Radeon Pro V520 GPUs, specify ``radeon-pro-v520``.
   *   +  For instance types with Xilinx VU9P FPGAs, specify ``vu9p``.
-  *   
+  *
   *  Default: Any accelerator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#accelerator_names AutoscalingAutoScalingGroup#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_names AutoscalingAutoScalingGroup#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
   * The minimum and maximum total memory size for the accelerators on an instance type, in MiB.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#accelerator_total_memory_mi_b AutoscalingAutoScalingGroup#accelerator_total_memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_total_memory_mi_b AutoscalingAutoScalingGroup#accelerator_total_memory_mi_b}
   */
   readonly acceleratorTotalMemoryMiB?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsAcceleratorTotalMemoryMiB;
   /**
@@ -3765,10 +3765,10 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with GPU accelerators, specify ``gpu``.
   *   +  For instance types with FPGA accelerators, specify ``fpga``.
   *   +  For instance types with inference accelerators, specify ``inference``.
-  *   
+  *
   *  Default: Any accelerator type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#accelerator_types AutoscalingAutoScalingGroup#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_types AutoscalingAutoScalingGroup#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
@@ -3778,34 +3778,34 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   If you specify ``AllowedInstanceTypes``, you can't specify ``ExcludedInstanceTypes``.
   *   Default: All instance types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#allowed_instance_types AutoscalingAutoScalingGroup#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#allowed_instance_types AutoscalingAutoScalingGroup#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
   * Indicates whether bare metal instance types are included, excluded, or required.
   *  Default: ``excluded``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#bare_metal AutoscalingAutoScalingGroup#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#bare_metal AutoscalingAutoScalingGroup#bare_metal}
   */
   readonly bareMetal?: string;
   /**
   * The minimum and maximum baseline bandwidth performance for an instance type, in Mbps. For more information, see [Amazon EBS–optimized instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html) in the *Amazon EC2 User Guide*.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#baseline_ebs_bandwidth_mbps AutoscalingAutoScalingGroup#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#baseline_ebs_bandwidth_mbps AutoscalingAutoScalingGroup#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
   * The baseline performance factors for the instance requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#baseline_performance_factors AutoscalingAutoScalingGroup#baseline_performance_factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#baseline_performance_factors AutoscalingAutoScalingGroup#baseline_performance_factors}
   */
   readonly baselinePerformanceFactors?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactors;
   /**
   * Indicates whether burstable performance instance types are included, excluded, or required. For more information, see [Burstable performance instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html) in the *Amazon EC2 User Guide*.
   *  Default: ``excluded``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#burstable_performance AutoscalingAutoScalingGroup#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#burstable_performance AutoscalingAutoScalingGroup#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
@@ -3814,122 +3814,122 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with AMD CPUs, specify ``amd``.
   *   +  For instance types with AWS CPUs, specify ``amazon-web-services``.
   *   +  For instance types with Apple CPUs, specify ``apple``.
-  *   
-  *   Don't confuse the CPU hardware manufacturer with the CPU hardware architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template. 
+  *
+  *   Don't confuse the CPU hardware manufacturer with the CPU hardware architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template.
   *   Default: Any manufacturer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#cpu_manufacturers AutoscalingAutoScalingGroup#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#cpu_manufacturers AutoscalingAutoScalingGroup#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * The instance types to exclude. You can use strings with one or more wild cards, represented by an asterisk (``*``), to exclude an instance family, type, size, or generation. The following are examples: ``m5.8xlarge``, ``c5*.*``, ``m5a.*``, ``r*``, ``*3*``. 
+  * The instance types to exclude. You can use strings with one or more wild cards, represented by an asterisk (``*``), to exclude an instance family, type, size, or generation. The following are examples: ``m5.8xlarge``, ``c5*.*``, ``m5a.*``, ``r*``, ``*3*``.
   *  For example, if you specify ``c5*``, you are excluding the entire C5 instance family, which includes all C5a and C5n instance types. If you specify ``m5a.*``, Amazon EC2 Auto Scaling will exclude all the M5a instance types, but not the M5n instance types.
   *   If you specify ``ExcludedInstanceTypes``, you can't specify ``AllowedInstanceTypes``.
   *   Default: No excluded instance types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#excluded_instance_types AutoscalingAutoScalingGroup#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#excluded_instance_types AutoscalingAutoScalingGroup#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
   * Indicates whether current or previous generation instance types are included.
   *   +  For current generation instance types, specify ``current``. The current generation includes EC2 instance types currently recommended for use. This typically includes the latest two to three generations in each instance family. For more information, see [Instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html) in the *Amazon EC2 User Guide*.
   *   +  For previous generation instance types, specify ``previous``.
-  *   
+  *
   *  Default: Any current or previous generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_generations AutoscalingAutoScalingGroup#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_generations AutoscalingAutoScalingGroup#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
   * Indicates whether instance types with instance store volumes are included, excluded, or required. For more information, see [Amazon EC2 instance store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) in the *Amazon EC2 User Guide*.
   *  Default: ``included``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#local_storage AutoscalingAutoScalingGroup#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#local_storage AutoscalingAutoScalingGroup#local_storage}
   */
   readonly localStorage?: string;
   /**
   * Indicates the type of local storage that is required.
   *   +  For instance types with hard disk drive (HDD) storage, specify ``hdd``.
   *   +  For instance types with solid state drive (SSD) storage, specify ``ssd``.
-  *   
+  *
   *  Default: Any local storage type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#local_storage_types AutoscalingAutoScalingGroup#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#local_storage_types AutoscalingAutoScalingGroup#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
   * [Price protection] The price protection threshold for Spot Instances, as a percentage of an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
   *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price. 
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
   *   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingAutoScalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingAutoScalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
   * The minimum and maximum amount of memory per vCPU for an instance type, in GiB.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#memory_gi_b_per_v_cpu AutoscalingAutoScalingGroup#memory_gi_b_per_v_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#memory_gi_b_per_v_cpu AutoscalingAutoScalingGroup#memory_gi_b_per_v_cpu}
   */
   readonly memoryGiBPerVCpu?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsMemoryGiBPerVCpu;
   /**
   * The minimum and maximum instance memory size for an instance type, in MiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#memory_mi_b AutoscalingAutoScalingGroup#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#memory_mi_b AutoscalingAutoScalingGroup#memory_mi_b}
   */
   readonly memoryMiB?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsMemoryMiB;
   /**
   * The minimum and maximum amount of network bandwidth, in gigabits per second (Gbps).
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#network_bandwidth_gbps AutoscalingAutoScalingGroup#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#network_bandwidth_gbps AutoscalingAutoScalingGroup#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsNetworkBandwidthGbps;
   /**
   * The minimum and maximum number of network interfaces for an instance type.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#network_interface_count AutoscalingAutoScalingGroup#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#network_interface_count AutoscalingAutoScalingGroup#network_interface_count}
   */
   readonly networkInterfaceCount?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsNetworkInterfaceCount;
   /**
-  * [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold. 
+  * [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
   *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
-  *  To turn off price protection, specify a high value, such as ``999999``. 
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per instance price. 
+  *  To turn off price protection, specify a high value, such as ``999999``.
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per instance price.
   *  Default: ``20``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
   * Indicates whether instance types must provide On-Demand Instance hibernation support.
   *  Default: ``false``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#require_hibernate_support AutoscalingAutoScalingGroup#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#require_hibernate_support AutoscalingAutoScalingGroup#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
   * [Price protection] The price protection threshold for Spot Instances, as a percentage higher than an identified Spot price. The identified Spot price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
-  *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage. 
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price. 
+  *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
   *   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
   * The minimum and maximum total local storage size for an instance type, in GB.
   *  Default: No minimum or maximum limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#total_local_storage_gb AutoscalingAutoScalingGroup#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#total_local_storage_gb AutoscalingAutoScalingGroup#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsTotalLocalStorageGb;
   /**
   * The minimum and maximum number of vCPUs for an instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#v_cpu_count AutoscalingAutoScalingGroup#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#v_cpu_count AutoscalingAutoScalingGroup#v_cpu_count}
   */
   readonly vCpuCount?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsVCpuCount;
 }
@@ -4334,7 +4334,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[]; 
+  private _acceleratorManufacturers?: string[];
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -4350,7 +4350,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[]; 
+  private _acceleratorNames?: string[];
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -4382,7 +4382,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -4398,7 +4398,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -4414,7 +4414,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string; 
+  private _bareMetal?: string;
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -4462,7 +4462,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string; 
+  private _burstablePerformance?: string;
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -4478,7 +4478,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[]; 
+  private _cpuManufacturers?: string[];
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -4494,7 +4494,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -4510,7 +4510,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[]; 
+  private _instanceGenerations?: string[];
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -4526,7 +4526,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string; 
+  private _localStorage?: string;
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -4542,7 +4542,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[]; 
+  private _localStorageTypes?: string[];
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -4558,7 +4558,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -4638,7 +4638,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
+  private _onDemandMaxPricePercentageOverLowestPrice?: number;
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -4654,7 +4654,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -4670,7 +4670,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number; 
+  private _spotMaxPricePercentageOverLowestPrice?: number;
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -4722,14 +4722,14 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   * The ID of the launch template.
   *  You must specify the ``LaunchTemplateID`` or the ``LaunchTemplateName``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_id AutoscalingAutoScalingGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * The name of the launch template.
   *  You must specify the ``LaunchTemplateName`` or the ``LaunchTemplateID``, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_name AutoscalingAutoScalingGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
@@ -4737,7 +4737,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *  Specifying ``$Latest`` or ``$Default`` for the template version number is not supported. However, you can specify ``LatestVersionNumber`` or ``DefaultVersionNumber`` using the ``Fn::GetAtt`` intrinsic function. For more information, see [Fn::GetAtt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html).
   *   For an example of using the ``Fn::GetAtt`` function, see the [Examples](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-autoscalinggroup.html#aws-resource-autoscaling-autoscalinggroup--examples) section of the ``AWS::AutoScaling::AutoScalingGroup`` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#version AutoscalingAutoScalingGroup#version}
   */
   readonly version?: string;
 }
@@ -4840,7 +4840,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -4856,7 +4856,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -4872,7 +4872,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4889,43 +4889,43 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverrides {
   /**
-  * The ID of the Amazon Machine Image (AMI) to use for instances launched with this override. When using Instance Refresh with ``ReplaceRootVolume`` strategy, this specifies the AMI for root volume replacement operations. 
-  *   For ``ReplaceRootVolume`` operations: 
+  * The ID of the Amazon Machine Image (AMI) to use for instances launched with this override. When using Instance Refresh with ``ReplaceRootVolume`` strategy, this specifies the AMI for root volume replacement operations.
+  *   For ``ReplaceRootVolume`` operations:
   *   +  All overrides in the ``MixedInstancesPolicy`` must specify an ImageId
   *   +  The AMI must contain only a single root volume
   *   +  Root volume replacement doesn't support multi-volume AMIs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#image_id AutoscalingAutoScalingGroup#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#image_id AutoscalingAutoScalingGroup#image_id}
   */
   readonly imageId?: string;
   /**
   * The instance requirements. Amazon EC2 Auto Scaling uses your specified requirements to identify instance types. Then, it uses your On-Demand and Spot allocation strategies to launch instances from these instance types.
-  *  You can specify up to four separate sets of instance requirements per Auto Scaling group. This is useful for provisioning instances from different Amazon Machine Images (AMIs) in the same Auto Scaling group. To do this, create the AMIs and create a new launch template for each AMI. Then, create a compatible set of instance requirements for each launch template. 
+  *  You can specify up to four separate sets of instance requirements per Auto Scaling group. This is useful for provisioning instances from different Amazon Machine Images (AMIs) in the same Auto Scaling group. To do this, create the AMIs and create a new launch template for each AMI. Then, create a compatible set of instance requirements for each launch template.
   *   If you specify ``InstanceRequirements``, you can't specify ``InstanceType``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_requirements AutoscalingAutoScalingGroup#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_requirements AutoscalingAutoScalingGroup#instance_requirements}
   */
   readonly instanceRequirements?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirements;
   /**
   * The instance type, such as ``m3.xlarge``. You must specify an instance type that is supported in your requested Region and Availability Zones. For more information, see [Instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html) in the *Amazon EC2 User Guide*.
   *  You can specify up to 40 instance types per Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instance_type AutoscalingAutoScalingGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_type AutoscalingAutoScalingGroup#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Provides a launch template for the specified instance type or set of instance requirements. For example, some instance types might require a launch template with a different AMI. If not provided, Amazon EC2 Auto Scaling uses the launch template that's specified in the ``LaunchTemplate`` definition. For more information, see [Specifying a different launch template for an instance type](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-launch-template-overrides.html) in the *Amazon EC2 Auto Scaling User Guide*. 
+  * Provides a launch template for the specified instance type or set of instance requirements. For example, some instance types might require a launch template with a different AMI. If not provided, Amazon EC2 Auto Scaling uses the launch template that's specified in the ``LaunchTemplate`` definition. For more information, see [Specifying a different launch template for an instance type](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-launch-template-overrides.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  You can specify up to 20 launch templates per Auto Scaling group. The launch templates specified in the overrides and in the ``LaunchTemplate`` definition count towards this limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_specification AutoscalingAutoScalingGroup#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_specification AutoscalingAutoScalingGroup#launch_template_specification}
   */
   readonly launchTemplateSpecification?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesLaunchTemplateSpecification;
   /**
-  * If you provide a list of instance types to use, you can specify the number of capacity units provided by each instance type in terms of virtual CPUs, memory, storage, throughput, or other relative performance characteristic. When a Spot or On-Demand Instance is launched, the capacity units count toward the desired capacity. Amazon EC2 Auto Scaling launches instances until the desired capacity is totally fulfilled, even if this results in an overage. For example, if there are two units remaining to fulfill capacity, and Amazon EC2 Auto Scaling can only launch an instance with a ``WeightedCapacity`` of five units, the instance is launched, and the desired capacity is exceeded by three units. For more information, see [Configure instance weighting for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-instance-weighting.html) in the *Amazon EC2 Auto Scaling User Guide*. Value must be in the range of 1-999. 
+  * If you provide a list of instance types to use, you can specify the number of capacity units provided by each instance type in terms of virtual CPUs, memory, storage, throughput, or other relative performance characteristic. When a Spot or On-Demand Instance is launched, the capacity units count toward the desired capacity. Amazon EC2 Auto Scaling launches instances until the desired capacity is totally fulfilled, even if this results in an overage. For example, if there are two units remaining to fulfill capacity, and Amazon EC2 Auto Scaling can only launch an instance with a ``WeightedCapacity`` of five units, the instance is launched, and the desired capacity is exceeded by three units. For more information, see [Configure instance weighting for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-instance-weighting.html) in the *Amazon EC2 Auto Scaling User Guide*. Value must be in the range of 1-999.
   *  If you specify a value for ``WeightedCapacity`` for one instance type, you must specify a value for ``WeightedCapacity`` for all of them.
   *   Every Auto Scaling group has three size parameters (``DesiredCapacity``, ``MaxSize``, and ``MinSize``). Usually, you set these sizes based on a specific number of instances. However, if you configure a mixed instances policy that defines weights for the instance types, you must specify these sizes with the same units that you use for weighting instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#weighted_capacity AutoscalingAutoScalingGroup#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#weighted_capacity AutoscalingAutoScalingGroup#weighted_capacity}
   */
   readonly weightedCapacity?: string;
 }
@@ -5056,7 +5056,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -5088,7 +5088,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5120,7 +5120,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: string; 
+  private _weightedCapacity?: string;
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -5159,13 +5159,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplate {
   /**
   * The launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template_specification AutoscalingAutoScalingGroup#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_specification AutoscalingAutoScalingGroup#launch_template_specification}
   */
   readonly launchTemplateSpecification?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification;
   /**
   * Any properties that you specify override the same properties in the launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#overrides AutoscalingAutoScalingGroup#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#overrides AutoscalingAutoScalingGroup#overrides}
   */
   readonly overrides?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverrides[] | cdktn.IResolvable;
 }
@@ -5290,13 +5290,13 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicy {
   /**
   * The instances distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#instances_distribution AutoscalingAutoScalingGroup#instances_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instances_distribution AutoscalingAutoScalingGroup#instances_distribution}
   */
   readonly instancesDistribution?: AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistribution;
   /**
   * One or more launch templates and the instance types (overrides) that are used to launch EC2 instances to fulfill On-Demand and Spot capacities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#launch_template AutoscalingAutoScalingGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template AutoscalingAutoScalingGroup#launch_template}
   */
   readonly launchTemplate?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplate;
 }
@@ -5419,21 +5419,21 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyOutputReference exte
 }
 export interface AutoscalingAutoScalingGroupNotificationConfiguration {
   /**
-  * A list of event types that send a notification. Event types can include any of the following types. 
+  * A list of event types that send a notification. Event types can include any of the following types.
   *  *Allowed values*:
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH`` 
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR`` 
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE`` 
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR`` 
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH``
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR``
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE``
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR``
   *   +   ``autoscaling:TEST_NOTIFICATION``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
   */
   readonly notificationTypes?: string[];
   /**
   * The Amazon Resource Name (ARN) of the Amazon SNS topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -5523,7 +5523,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
   }
 
   // notification_types - computed: true, optional: true, required: false
-  private _notificationTypes?: string[]; 
+  private _notificationTypes?: string[];
   public get notificationTypes() {
     return this.getListAttribute('notification_types');
   }
@@ -5539,7 +5539,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string; 
+  private _topicArn?: string;
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -5556,21 +5556,21 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
 }
 export interface AutoscalingAutoScalingGroupNotificationConfigurations {
   /**
-  * A list of event types that send a notification. Event types can include any of the following types. 
+  * A list of event types that send a notification. Event types can include any of the following types.
   *  *Allowed values*:
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH`` 
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR`` 
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE`` 
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR`` 
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH``
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR``
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE``
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR``
   *   +   ``autoscaling:TEST_NOTIFICATION``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
   */
   readonly notificationTypes?: string[];
   /**
   * The Amazon Resource Name (ARN) of the Amazon SNS topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -5662,7 +5662,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationsOutputReferenc
   }
 
   // notification_types - computed: true, optional: true, required: false
-  private _notificationTypes?: string[]; 
+  private _notificationTypes?: string[];
   public get notificationTypes() {
     return this.getListAttribute('notification_types');
   }
@@ -5678,7 +5678,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationsOutputReferenc
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string; 
+  private _topicArn?: string;
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -5717,19 +5717,19 @@ export interface AutoscalingAutoScalingGroupTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#key AutoscalingAutoScalingGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#key AutoscalingAutoScalingGroup#key}
   */
   readonly key?: string;
   /**
   * Set to ``true`` if you want CloudFormation to copy the tag to EC2 instances that are launched as part of the Auto Scaling group. Set to ``false`` if you want the tag attached only to the Auto Scaling group and not copied to any instances launched as part of the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#propagate_at_launch AutoscalingAutoScalingGroup#propagate_at_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#propagate_at_launch AutoscalingAutoScalingGroup#propagate_at_launch}
   */
   readonly propagateAtLaunch?: boolean | cdktn.IResolvable;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#value AutoscalingAutoScalingGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#value AutoscalingAutoScalingGroup#value}
   */
   readonly value?: string;
 }
@@ -5834,7 +5834,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5850,7 +5850,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // propagate_at_launch - computed: true, optional: true, required: false
-  private _propagateAtLaunch?: boolean | cdktn.IResolvable; 
+  private _propagateAtLaunch?: boolean | cdktn.IResolvable;
   public get propagateAtLaunch() {
     return this.getBooleanAttribute('propagate_at_launch');
   }
@@ -5866,7 +5866,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5905,15 +5905,15 @@ export interface AutoscalingAutoScalingGroupTrafficSources {
   /**
   * Identifies the traffic source.
   *  For Application Load Balancers, Gateway Load Balancers, Network Load Balancers, and VPC Lattice, this will be the Amazon Resource Name (ARN) for a target group in this account and Region. For Classic Load Balancers, this will be the name of the Classic Load Balancer in this account and Region.
-  *  For example: 
+  *  For example:
   *   +  Application Load Balancer ARN: ``arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/1234567890123456``
   *   +  Classic Load Balancer name: ``my-classic-load-balancer``
   *   +  VPC Lattice ARN: ``arn:aws:vpc-lattice:us-west-2:123456789012:targetgroup/tg-1234567890123456``
-  *   
+  *
   *  To get the ARN of a target group for a Application Load Balancer, Gateway Load Balancer, or Network Load Balancer, or the name of a Classic Load Balancer, use the Elastic Load Balancing [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) and [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operations.
   *  To get the ARN of a target group for VPC Lattice, use the VPC Lattice [GetTargetGroup](https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/API_GetTargetGroup.html) API operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#identifier AutoscalingAutoScalingGroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#identifier AutoscalingAutoScalingGroup#identifier}
   */
   readonly identifier?: string;
   /**
@@ -5922,10 +5922,10 @@ export interface AutoscalingAutoScalingGroupTrafficSources {
   *   +  ``elb`` if ``Identifier`` is the name of a Classic Load Balancer.
   *   +  ``elbv2`` if ``Identifier`` is the ARN of an Application Load Balancer, Gateway Load Balancer, or Network Load Balancer target group.
   *   +  ``vpc-lattice`` if ``Identifier`` is the ARN of a VPC Lattice target group.
-  *   
+  *
   *  Required if the identifier is the name of a Classic Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#type AutoscalingAutoScalingGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#type AutoscalingAutoScalingGroup#type}
   */
   readonly type?: string;
 }
@@ -6017,7 +6017,7 @@ export class AutoscalingAutoScalingGroupTrafficSourcesOutputReference extends cd
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -6033,7 +6033,7 @@ export class AutoscalingAutoScalingGroupTrafficSourcesOutputReference extends cd
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6070,7 +6070,7 @@ export class AutoscalingAutoScalingGroupTrafficSourcesList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group awscc_autoscaling_auto_scaling_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group awscc_autoscaling_auto_scaling_group}
 */
 export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
 
@@ -6086,7 +6086,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingAutoScalingGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingAutoScalingGroup to import
-  * @param importFromId The id of the existing AutoscalingAutoScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingAutoScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingAutoScalingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6098,7 +6098,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/autoscaling_auto_scaling_group awscc_autoscaling_auto_scaling_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group awscc_autoscaling_auto_scaling_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6109,7 +6109,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_autoscaling_auto_scaling_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6169,7 +6169,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // auto_scaling_group_name - computed: true, optional: true, required: false
-  private _autoScalingGroupName?: string; 
+  private _autoScalingGroupName?: string;
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -6201,7 +6201,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zone_ids - computed: true, optional: true, required: false
-  private _availabilityZoneIds?: string[]; 
+  private _availabilityZoneIds?: string[];
   public get availabilityZoneIds() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zone_ids'));
   }
@@ -6233,7 +6233,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[]; 
+  private _availabilityZones?: string[];
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -6249,7 +6249,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // capacity_rebalance - computed: true, optional: true, required: false
-  private _capacityRebalance?: boolean | cdktn.IResolvable; 
+  private _capacityRebalance?: boolean | cdktn.IResolvable;
   public get capacityRebalance() {
     return this.getBooleanAttribute('capacity_rebalance');
   }
@@ -6281,7 +6281,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // context - computed: true, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -6297,7 +6297,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // cooldown - computed: true, optional: true, required: false
-  private _cooldown?: string; 
+  private _cooldown?: string;
   public get cooldown() {
     return this.getStringAttribute('cooldown');
   }
@@ -6313,7 +6313,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // default_instance_warmup - computed: true, optional: true, required: false
-  private _defaultInstanceWarmup?: number; 
+  private _defaultInstanceWarmup?: number;
   public get defaultInstanceWarmup() {
     return this.getNumberAttribute('default_instance_warmup');
   }
@@ -6329,7 +6329,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: string; 
+  private _deletionProtection?: string;
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -6345,7 +6345,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: string; 
+  private _desiredCapacity?: string;
   public get desiredCapacity() {
     return this.getStringAttribute('desired_capacity');
   }
@@ -6361,7 +6361,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity_type - computed: true, optional: true, required: false
-  private _desiredCapacityType?: string; 
+  private _desiredCapacityType?: string;
   public get desiredCapacityType() {
     return this.getStringAttribute('desired_capacity_type');
   }
@@ -6377,7 +6377,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period - computed: true, optional: true, required: false
-  private _healthCheckGracePeriod?: number; 
+  private _healthCheckGracePeriod?: number;
   public get healthCheckGracePeriod() {
     return this.getNumberAttribute('health_check_grace_period');
   }
@@ -6393,7 +6393,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_type - computed: true, optional: true, required: false
-  private _healthCheckType?: string; 
+  private _healthCheckType?: string;
   public get healthCheckType() {
     return this.getStringAttribute('health_check_type');
   }
@@ -6414,7 +6414,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -6462,7 +6462,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // launch_configuration_name - computed: true, optional: true, required: false
-  private _launchConfigurationName?: string; 
+  private _launchConfigurationName?: string;
   public get launchConfigurationName() {
     return this.getStringAttribute('launch_configuration_name');
   }
@@ -6510,7 +6510,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // load_balancer_names - computed: true, optional: true, required: false
-  private _loadBalancerNames?: string[]; 
+  private _loadBalancerNames?: string[];
   public get loadBalancerNames() {
     return this.getListAttribute('load_balancer_names');
   }
@@ -6526,7 +6526,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // max_instance_lifetime - computed: true, optional: true, required: false
-  private _maxInstanceLifetime?: number; 
+  private _maxInstanceLifetime?: number;
   public get maxInstanceLifetime() {
     return this.getNumberAttribute('max_instance_lifetime');
   }
@@ -6542,7 +6542,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: string; 
+  private _maxSize?: string;
   public get maxSize() {
     return this.getStringAttribute('max_size');
   }
@@ -6571,7 +6571,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: string; 
+  private _minSize?: string;
   public get minSize() {
     return this.getStringAttribute('min_size');
   }
@@ -6600,7 +6600,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // new_instances_protected_from_scale_in - computed: true, optional: true, required: false
-  private _newInstancesProtectedFromScaleIn?: boolean | cdktn.IResolvable; 
+  private _newInstancesProtectedFromScaleIn?: boolean | cdktn.IResolvable;
   public get newInstancesProtectedFromScaleIn() {
     return this.getBooleanAttribute('new_instances_protected_from_scale_in');
   }
@@ -6648,7 +6648,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // placement_group - computed: true, optional: true, required: false
-  private _placementGroup?: string; 
+  private _placementGroup?: string;
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -6664,7 +6664,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // service_linked_role_arn - computed: true, optional: true, required: false
-  private _serviceLinkedRoleArn?: string; 
+  private _serviceLinkedRoleArn?: string;
   public get serviceLinkedRoleArn() {
     return this.getStringAttribute('service_linked_role_arn');
   }
@@ -6680,7 +6680,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // skip_zonal_shift_validation - computed: true, optional: true, required: false
-  private _skipZonalShiftValidation?: boolean | cdktn.IResolvable; 
+  private _skipZonalShiftValidation?: boolean | cdktn.IResolvable;
   public get skipZonalShiftValidation() {
     return this.getBooleanAttribute('skip_zonal_shift_validation');
   }
@@ -6712,7 +6712,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // target_group_ar_ns - computed: true, optional: true, required: false
-  private _targetGroupArNs?: string[]; 
+  private _targetGroupArNs?: string[];
   public get targetGroupArNs() {
     return this.getListAttribute('target_group_ar_ns');
   }
@@ -6728,7 +6728,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // termination_policies - computed: true, optional: true, required: false
-  private _terminationPolicies?: string[]; 
+  private _terminationPolicies?: string[];
   public get terminationPolicies() {
     return this.getListAttribute('termination_policies');
   }
@@ -6760,7 +6760,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // vpc_zone_identifier - computed: true, optional: true, required: false
-  private _vpcZoneIdentifier?: string[]; 
+  private _vpcZoneIdentifier?: string[];
   public get vpcZoneIdentifier() {
     return this.getListAttribute('vpc_zone_identifier');
   }

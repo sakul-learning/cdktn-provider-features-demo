@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,99 +10,99 @@ export interface DmsReplicationConfigConfig extends cdktn.TerraformMetaArguments
   /**
   * Configuration parameters for provisioning a AWS DMS Serverless replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#compute_config DmsReplicationConfig#compute_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#compute_config DmsReplicationConfig#compute_config}
   */
   readonly computeConfig: DmsReplicationConfigComputeConfig;
   /**
   * A unique identifier of replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#replication_config_identifier DmsReplicationConfig#replication_config_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#replication_config_identifier DmsReplicationConfig#replication_config_identifier}
   */
   readonly replicationConfigIdentifier: string;
   /**
   * JSON settings for Servereless replications that are provisioned using this replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#replication_settings DmsReplicationConfig#replication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#replication_settings DmsReplicationConfig#replication_settings}
   */
   readonly replicationSettings?: string;
   /**
   * The type of AWS DMS Serverless replication to provision using this replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#replication_type DmsReplicationConfig#replication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#replication_type DmsReplicationConfig#replication_type}
   */
   readonly replicationType: string;
   /**
   * A unique value or name that you get set for a given resource that can be used to construct an Amazon Resource Name (ARN) for that resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#resource_identifier DmsReplicationConfig#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#resource_identifier DmsReplicationConfig#resource_identifier}
   */
   readonly resourceIdentifier?: string;
   /**
   * The Amazon Resource Name (ARN) of the source endpoint for this AWS DMS Serverless replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#source_endpoint_arn DmsReplicationConfig#source_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#source_endpoint_arn DmsReplicationConfig#source_endpoint_arn}
   */
   readonly sourceEndpointArn: string;
   /**
   * JSON settings for specifying supplemental data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#supplemental_settings DmsReplicationConfig#supplemental_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#supplemental_settings DmsReplicationConfig#supplemental_settings}
   */
   readonly supplementalSettings?: string;
   /**
   * JSON table mappings for AWS DMS Serverless replications that are provisioned using this replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#table_mappings DmsReplicationConfig#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#table_mappings DmsReplicationConfig#table_mappings}
   */
   readonly tableMappings: string;
   /**
   * <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the dataset.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#tags DmsReplicationConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#tags DmsReplicationConfig#tags}
   */
   readonly tags?: DmsReplicationConfigTags[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the target endpoint for this AWS DMS Serverless replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#target_endpoint_arn DmsReplicationConfig#target_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#target_endpoint_arn DmsReplicationConfig#target_endpoint_arn}
   */
   readonly targetEndpointArn: string;
 }
 export interface DmsReplicationConfigComputeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#availability_zone DmsReplicationConfig#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#availability_zone DmsReplicationConfig#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#dns_name_servers DmsReplicationConfig#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#dns_name_servers DmsReplicationConfig#dns_name_servers}
   */
   readonly dnsNameServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#kms_key_id DmsReplicationConfig#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#kms_key_id DmsReplicationConfig#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#max_capacity_units DmsReplicationConfig#max_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#max_capacity_units DmsReplicationConfig#max_capacity_units}
   */
   readonly maxCapacityUnits: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#min_capacity_units DmsReplicationConfig#min_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#min_capacity_units DmsReplicationConfig#min_capacity_units}
   */
   readonly minCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#multi_az DmsReplicationConfig#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#multi_az DmsReplicationConfig#multi_az}
   */
   readonly multiAz?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#preferred_maintenance_window DmsReplicationConfig#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#preferred_maintenance_window DmsReplicationConfig#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#replication_subnet_group_id DmsReplicationConfig#replication_subnet_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#replication_subnet_group_id DmsReplicationConfig#replication_subnet_group_id}
   */
   readonly replicationSubnetGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#vpc_security_group_ids DmsReplicationConfig#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#vpc_security_group_ids DmsReplicationConfig#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
 }
@@ -283,7 +283,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -299,7 +299,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // dns_name_servers - computed: true, optional: true, required: false
-  private _dnsNameServers?: string; 
+  private _dnsNameServers?: string;
   public get dnsNameServers() {
     return this.getStringAttribute('dns_name_servers');
   }
@@ -315,7 +315,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -331,7 +331,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // max_capacity_units - computed: false, optional: false, required: true
-  private _maxCapacityUnits?: number; 
+  private _maxCapacityUnits?: number;
   public get maxCapacityUnits() {
     return this.getNumberAttribute('max_capacity_units');
   }
@@ -344,7 +344,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // min_capacity_units - computed: true, optional: true, required: false
-  private _minCapacityUnits?: number; 
+  private _minCapacityUnits?: number;
   public get minCapacityUnits() {
     return this.getNumberAttribute('min_capacity_units');
   }
@@ -360,7 +360,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // multi_az - computed: true, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable; 
+  private _multiAz?: boolean | cdktn.IResolvable;
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -376,7 +376,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string; 
+  private _preferredMaintenanceWindow?: string;
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -392,7 +392,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // replication_subnet_group_id - computed: true, optional: true, required: false
-  private _replicationSubnetGroupId?: string; 
+  private _replicationSubnetGroupId?: string;
   public get replicationSubnetGroupId() {
     return this.getStringAttribute('replication_subnet_group_id');
   }
@@ -408,7 +408,7 @@ export class DmsReplicationConfigComputeConfigOutputReference extends cdktn.Comp
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -427,13 +427,13 @@ export interface DmsReplicationConfigTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#key DmsReplicationConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#key DmsReplicationConfig#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#value DmsReplicationConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#value DmsReplicationConfig#value}
   */
   readonly value?: string;
 }
@@ -525,7 +525,7 @@ export class DmsReplicationConfigTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -541,7 +541,7 @@ export class DmsReplicationConfigTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -578,7 +578,7 @@ export class DmsReplicationConfigTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config awscc_dms_replication_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config awscc_dms_replication_config}
 */
 export class DmsReplicationConfig extends cdktn.TerraformResource {
 
@@ -594,7 +594,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsReplicationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsReplicationConfig to import
-  * @param importFromId The id of the existing DmsReplicationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsReplicationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsReplicationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -606,7 +606,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,7 +617,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_replication_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -667,7 +667,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // replication_config_identifier - computed: false, optional: false, required: true
-  private _replicationConfigIdentifier?: string; 
+  private _replicationConfigIdentifier?: string;
   public get replicationConfigIdentifier() {
     return this.getStringAttribute('replication_config_identifier');
   }
@@ -680,7 +680,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // replication_settings - computed: true, optional: true, required: false
-  private _replicationSettings?: string; 
+  private _replicationSettings?: string;
   public get replicationSettings() {
     return this.getStringAttribute('replication_settings');
   }
@@ -696,7 +696,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // replication_type - computed: false, optional: false, required: true
-  private _replicationType?: string; 
+  private _replicationType?: string;
   public get replicationType() {
     return this.getStringAttribute('replication_type');
   }
@@ -709,7 +709,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string; 
+  private _resourceIdentifier?: string;
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -725,7 +725,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // source_endpoint_arn - computed: false, optional: false, required: true
-  private _sourceEndpointArn?: string; 
+  private _sourceEndpointArn?: string;
   public get sourceEndpointArn() {
     return this.getStringAttribute('source_endpoint_arn');
   }
@@ -738,7 +738,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // supplemental_settings - computed: true, optional: true, required: false
-  private _supplementalSettings?: string; 
+  private _supplementalSettings?: string;
   public get supplementalSettings() {
     return this.getStringAttribute('supplemental_settings');
   }
@@ -754,7 +754,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // table_mappings - computed: false, optional: false, required: true
-  private _tableMappings?: string; 
+  private _tableMappings?: string;
   public get tableMappings() {
     return this.getStringAttribute('table_mappings');
   }
@@ -783,7 +783,7 @@ export class DmsReplicationConfig extends cdktn.TerraformResource {
   }
 
   // target_endpoint_arn - computed: false, optional: false, required: true
-  private _targetEndpointArn?: string; 
+  private _targetEndpointArn?: string;
   public get targetEndpointArn() {
     return this.getStringAttribute('target_endpoint_arn');
   }

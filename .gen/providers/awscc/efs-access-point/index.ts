@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,31 +11,31 @@ export interface EfsAccessPointConfig extends cdktn.TerraformMetaArguments {
   * An array of key-value pairs to apply to this resource.
   *  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#access_point_tags EfsAccessPoint#access_point_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#access_point_tags EfsAccessPoint#access_point_tags}
   */
   readonly accessPointTags?: EfsAccessPointAccessPointTags[] | cdktn.IResolvable;
   /**
   * The opaque string specified in the request to ensure idempotent creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#client_token EfsAccessPoint#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#client_token EfsAccessPoint#client_token}
   */
   readonly clientToken?: string;
   /**
   * The ID of the EFS file system that the access point applies to. Accepts only the ID format for input when specifying a file system, for example ``fs-0123456789abcedf2``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#file_system_id EfsAccessPoint#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#file_system_id EfsAccessPoint#file_system_id}
   */
   readonly fileSystemId: string;
   /**
   * The full POSIX identity, including the user ID, group ID, and secondary group IDs on the access point that is used for all file operations by NFS clients using the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#posix_user EfsAccessPoint#posix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#posix_user EfsAccessPoint#posix_user}
   */
   readonly posixUser?: EfsAccessPointPosixUser;
   /**
   * The directory on the EFS file system that the access point exposes as the root directory to NFS clients using the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#root_directory EfsAccessPoint#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#root_directory EfsAccessPoint#root_directory}
   */
   readonly rootDirectory?: EfsAccessPointRootDirectory;
 }
@@ -43,13 +43,13 @@ export interface EfsAccessPointAccessPointTags {
   /**
   * The tag key (String). The key can't start with ``aws:``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#key EfsAccessPoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#key EfsAccessPoint#key}
   */
   readonly key?: string;
   /**
   * The value of the tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#value EfsAccessPoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#value EfsAccessPoint#value}
   */
   readonly value?: string;
 }
@@ -141,7 +141,7 @@ export class EfsAccessPointAccessPointTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -157,7 +157,7 @@ export class EfsAccessPointAccessPointTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -196,19 +196,19 @@ export interface EfsAccessPointPosixUser {
   /**
   * The POSIX group ID used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#gid EfsAccessPoint#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#gid EfsAccessPoint#gid}
   */
   readonly gid?: string;
   /**
   * Secondary POSIX group IDs used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#secondary_gids EfsAccessPoint#secondary_gids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#secondary_gids EfsAccessPoint#secondary_gids}
   */
   readonly secondaryGids?: string[];
   /**
   * The POSIX user ID used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#uid EfsAccessPoint#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#uid EfsAccessPoint#uid}
   */
   readonly uid?: string;
 }
@@ -311,7 +311,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: string; 
+  private _gid?: string;
   public get gid() {
     return this.getStringAttribute('gid');
   }
@@ -327,7 +327,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_gids - computed: true, optional: true, required: false
-  private _secondaryGids?: string[]; 
+  private _secondaryGids?: string[];
   public get secondaryGids() {
     return this.getListAttribute('secondary_gids');
   }
@@ -343,7 +343,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: string; 
+  private _uid?: string;
   public get uid() {
     return this.getStringAttribute('uid');
   }
@@ -362,19 +362,19 @@ export interface EfsAccessPointRootDirectoryCreationInfo {
   /**
   * Specifies the POSIX group ID to apply to the ``RootDirectory``. Accepts values from 0 to 2^32 (4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}
   */
   readonly ownerGid?: string;
   /**
   * Specifies the POSIX user ID to apply to the ``RootDirectory``. Accepts values from 0 to 2^32 (4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}
   */
   readonly ownerUid?: string;
   /**
   * Specifies the POSIX permissions to apply to the ``RootDirectory``, in the format of an octal number representing the file's mode bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}
   */
   readonly permissions?: string;
 }
@@ -477,7 +477,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_gid - computed: true, optional: true, required: false
-  private _ownerGid?: string; 
+  private _ownerGid?: string;
   public get ownerGid() {
     return this.getStringAttribute('owner_gid');
   }
@@ -493,7 +493,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_uid - computed: true, optional: true, required: false
-  private _ownerUid?: string; 
+  private _ownerUid?: string;
   public get ownerUid() {
     return this.getStringAttribute('owner_uid');
   }
@@ -509,7 +509,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  private _permissions?: string;
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -526,16 +526,16 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
 }
 export interface EfsAccessPointRootDirectory {
   /**
-  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's ``RootDirectory``. If the ``RootDirectory`` > ``Path`` specified does not exist, EFS creates the root directory using the ``CreationInfo`` settings when a client connects to an access point. When specifying the ``CreationInfo``, you must provide values for all properties. 
+  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's ``RootDirectory``. If the ``RootDirectory`` > ``Path`` specified does not exist, EFS creates the root directory using the ``CreationInfo`` settings when a client connects to an access point. When specifying the ``CreationInfo``, you must provide values for all properties.
   *   If you do not provide ``CreationInfo`` and the specified ``RootDirectory`` > ``Path`` does not exist, attempts to mount the file system using the access point will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
   */
   readonly creationInfo?: EfsAccessPointRootDirectoryCreationInfo;
   /**
   * Specifies the path on the EFS file system to expose as the root directory to NFS clients using the access point to access the EFS file system. A path can have up to four subdirectories. If the specified path does not exist, you are required to provide the ``CreationInfo``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#path EfsAccessPoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#path EfsAccessPoint#path}
   */
   readonly path?: string;
 }
@@ -641,7 +641,7 @@ export class EfsAccessPointRootDirectoryOutputReference extends cdktn.ComplexObj
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -658,7 +658,7 @@ export class EfsAccessPointRootDirectoryOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point awscc_efs_access_point}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point awscc_efs_access_point}
 */
 export class EfsAccessPoint extends cdktn.TerraformResource {
 
@@ -674,7 +674,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EfsAccessPoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EfsAccessPoint to import
-  * @param importFromId The id of the existing EfsAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EfsAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EfsAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -686,7 +686,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/efs_access_point awscc_efs_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point awscc_efs_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -697,7 +697,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_efs_access_point',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -745,7 +745,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -761,7 +761,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string; 
+  private _fileSystemId?: string;
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }

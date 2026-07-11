@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface LightsailAlarmConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name for the alarm. Specify the name of an existing alarm to update, and overwrite the previous configuration of the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#alarm_name LightsailAlarm#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#alarm_name LightsailAlarm#alarm_name}
   */
   readonly alarmName: string;
   /**
   * The arithmetic operation to use when comparing the specified statistic to the threshold. The specified statistic value is used as the first operand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#comparison_operator LightsailAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#comparison_operator LightsailAlarm#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * The contact protocols to use for the alarm, such as Email, SMS (text messaging), or both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#contact_protocols LightsailAlarm#contact_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#contact_protocols LightsailAlarm#contact_protocols}
   */
   readonly contactProtocols?: string[];
   /**
   * The number of data points that must be not within the specified threshold to trigger the alarm. If you are setting an "M out of N" alarm, this value (datapointsToAlarm) is the M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#datapoints_to_alarm LightsailAlarm#datapoints_to_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#datapoints_to_alarm LightsailAlarm#datapoints_to_alarm}
   */
   readonly datapointsToAlarm?: number;
   /**
   * The number of most recent periods over which data is compared to the specified threshold. If you are setting an "M out of N" alarm, this value (evaluationPeriods) is the N.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#evaluation_periods LightsailAlarm#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#evaluation_periods LightsailAlarm#evaluation_periods}
   */
   readonly evaluationPeriods: number;
   /**
   * The name of the metric to associate with the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#metric_name LightsailAlarm#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#metric_name LightsailAlarm#metric_name}
   */
   readonly metricName: string;
   /**
   * The name of the Lightsail resource that the alarm monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#monitored_resource_name LightsailAlarm#monitored_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#monitored_resource_name LightsailAlarm#monitored_resource_name}
   */
   readonly monitoredResourceName: string;
   /**
   * Indicates whether the alarm is enabled. Notifications are enabled by default if you don't specify this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#notification_enabled LightsailAlarm#notification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#notification_enabled LightsailAlarm#notification_enabled}
   */
   readonly notificationEnabled?: boolean | cdktn.IResolvable;
   /**
   * The alarm states that trigger a notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#notification_triggers LightsailAlarm#notification_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#notification_triggers LightsailAlarm#notification_triggers}
   */
   readonly notificationTriggers?: string[];
   /**
   * The value against which the specified statistic is compared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#threshold LightsailAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#threshold LightsailAlarm#threshold}
   */
   readonly threshold: number;
   /**
   * Sets how this alarm will handle missing data points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#treat_missing_data LightsailAlarm#treat_missing_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#treat_missing_data LightsailAlarm#treat_missing_data}
   */
   readonly treatMissingData?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}
 */
 export class LightsailAlarm extends cdktn.TerraformResource {
 
@@ -92,7 +92,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailAlarm resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailAlarm to import
-  * @param importFromId The id of the existing LightsailAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -104,7 +104,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,7 +115,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_alarm',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -148,7 +148,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_name - computed: false, optional: false, required: true
-  private _alarmName?: string; 
+  private _alarmName?: string;
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -161,7 +161,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string; 
+  private _comparisonOperator?: string;
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -174,7 +174,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // contact_protocols - computed: true, optional: true, required: false
-  private _contactProtocols?: string[]; 
+  private _contactProtocols?: string[];
   public get contactProtocols() {
     return cdktn.Fn.tolist(this.getListAttribute('contact_protocols'));
   }
@@ -190,7 +190,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // datapoints_to_alarm - computed: true, optional: true, required: false
-  private _datapointsToAlarm?: number; 
+  private _datapointsToAlarm?: number;
   public get datapointsToAlarm() {
     return this.getNumberAttribute('datapoints_to_alarm');
   }
@@ -206,7 +206,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // evaluation_periods - computed: false, optional: false, required: true
-  private _evaluationPeriods?: number; 
+  private _evaluationPeriods?: number;
   public get evaluationPeriods() {
     return this.getNumberAttribute('evaluation_periods');
   }
@@ -224,7 +224,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -237,7 +237,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // monitored_resource_name - computed: false, optional: false, required: true
-  private _monitoredResourceName?: string; 
+  private _monitoredResourceName?: string;
   public get monitoredResourceName() {
     return this.getStringAttribute('monitored_resource_name');
   }
@@ -250,7 +250,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // notification_enabled - computed: true, optional: true, required: false
-  private _notificationEnabled?: boolean | cdktn.IResolvable; 
+  private _notificationEnabled?: boolean | cdktn.IResolvable;
   public get notificationEnabled() {
     return this.getBooleanAttribute('notification_enabled');
   }
@@ -266,7 +266,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // notification_triggers - computed: true, optional: true, required: false
-  private _notificationTriggers?: string[]; 
+  private _notificationTriggers?: string[];
   public get notificationTriggers() {
     return cdktn.Fn.tolist(this.getListAttribute('notification_triggers'));
   }
@@ -287,7 +287,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number; 
+  private _threshold?: number;
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -300,7 +300,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // treat_missing_data - computed: true, optional: true, required: false
-  private _treatMissingData?: string; 
+  private _treatMissingData?: string;
   public get treatMissingData() {
     return this.getStringAttribute('treat_missing_data');
   }

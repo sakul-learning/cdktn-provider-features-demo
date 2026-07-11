@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AthenaCapacityReservationConfig extends cdktn.TerraformMetaArgu
   /**
   * Assignment configuration to assign workgroups to a reservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
   */
   readonly capacityAssignmentConfiguration?: AthenaCapacityReservationCapacityAssignmentConfiguration;
   /**
   * The reservation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
   */
   readonly tags?: AthenaCapacityReservationTags[] | cdktn.IResolvable;
   /**
   * The number of DPUs to request to be allocated to the reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
   */
   readonly targetDpus: number;
 }
 export interface AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}
   */
   readonly workgroupNames?: string[];
 }
@@ -113,7 +113,7 @@ export class AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAss
   }
 
   // workgroup_names - computed: true, optional: true, required: false
-  private _workgroupNames?: string[]; 
+  private _workgroupNames?: string[];
   public get workgroupNames() {
     return this.getListAttribute('workgroup_names');
   }
@@ -152,7 +152,7 @@ export interface AthenaCapacityReservationCapacityAssignmentConfiguration {
   /**
   * List of capacity assignments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#capacity_assignments AthenaCapacityReservation#capacity_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#capacity_assignments AthenaCapacityReservation#capacity_assignments}
   */
   readonly capacityAssignments?: AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments[] | cdktn.IResolvable;
 }
@@ -246,11 +246,11 @@ export class AthenaCapacityReservationCapacityAssignmentConfigurationOutputRefer
 }
 export interface AthenaCapacityReservationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}
   */
   readonly value?: string;
 }
@@ -342,7 +342,7 @@ export class AthenaCapacityReservationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -358,7 +358,7 @@ export class AthenaCapacityReservationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -395,7 +395,7 @@ export class AthenaCapacityReservationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation}
 */
 export class AthenaCapacityReservation extends cdktn.TerraformResource {
 
@@ -411,7 +411,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AthenaCapacityReservation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AthenaCapacityReservation to import
-  * @param importFromId The id of the existing AthenaCapacityReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AthenaCapacityReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AthenaCapacityReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -423,7 +423,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,7 +434,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_athena_capacity_reservation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -496,7 +496,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -530,7 +530,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // target_dpus - computed: false, optional: false, required: true
-  private _targetDpus?: number; 
+  private _targetDpus?: number;
   public get targetDpus() {
     return this.getNumberAttribute('target_dpus');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface EventsEventBusPolicyConfig extends cdktn.TerraformMetaArguments
   /**
   * The action that you are enabling the other account to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
   */
   readonly action?: string;
   /**
   * This parameter enables you to limit the permission to accounts that fulfill a certain condition, such as being a member of a certain AWS organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
   */
   readonly condition?: EventsEventBusPolicyCondition;
   /**
   * The name of the event bus associated with the rule. If you omit this, the default event bus is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
   */
   readonly eventBusName?: string;
   /**
   * The 12-digit AWS account ID that you are permitting to put events to your default event bus. Specify "*" to permit any account to put events to your default event bus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
   */
   readonly principal?: string;
   /**
   * A JSON string that describes the permission policy statement. You can include a Policy parameter in the request instead of using the StatementId, Action, Principal, or Condition parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
   */
   readonly statement?: string;
   /**
   * An identifier string for the external account that you are granting permissions to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
   */
   readonly statementId: string;
 }
@@ -48,19 +48,19 @@ export interface EventsEventBusPolicyCondition {
   /**
   * Specifies the value for the key. Currently, this must be the ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#key EventsEventBusPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#key EventsEventBusPolicy#key}
   */
   readonly key?: string;
   /**
   * Specifies the type of condition. Currently the only supported value is StringEquals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#type EventsEventBusPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#type EventsEventBusPolicy#type}
   */
   readonly type?: string;
   /**
   * Specifies the key for the condition. Currently the only supported key is aws:PrincipalOrgID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#value EventsEventBusPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#value EventsEventBusPolicy#value}
   */
   readonly value?: string;
 }
@@ -163,7 +163,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -179,7 +179,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -195,7 +195,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -212,7 +212,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy}
 */
 export class EventsEventBusPolicy extends cdktn.TerraformResource {
 
@@ -228,7 +228,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventsEventBusPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventsEventBusPolicy to import
-  * @param importFromId The id of the existing EventsEventBusPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventsEventBusPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventsEventBusPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -240,7 +240,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +251,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_events_event_bus_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -274,7 +274,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -306,7 +306,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: true, optional: true, required: false
-  private _eventBusName?: string; 
+  private _eventBusName?: string;
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -327,7 +327,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -343,7 +343,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // statement - computed: true, optional: true, required: false
-  private _statement?: string; 
+  private _statement?: string;
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -359,7 +359,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string; 
+  private _statementId?: string;
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

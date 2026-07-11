@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecuritylakeAwsLogSourceConfig extends cdktn.TerraformMetaArgum
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#region SecuritylakeAwsLogSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#region SecuritylakeAwsLogSource#region}
   */
   readonly region?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#source SecuritylakeAwsLogSource#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#source SecuritylakeAwsLogSource#source}
   */
   readonly source?: SecuritylakeAwsLogSourceSource[] | cdktn.IResolvable;
 }
 export interface SecuritylakeAwsLogSourceSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
   */
   readonly accounts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#regions SecuritylakeAwsLogSource#regions}
   */
   readonly regions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
   */
   readonly sourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
   */
   readonly sourceVersion?: string;
 }
@@ -152,7 +152,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // accounts - computed: true, optional: true, required: false
-  private _accounts?: string[]; 
+  private _accounts?: string[];
   public get accounts() {
     return cdktn.Fn.tolist(this.getListAttribute('accounts'));
   }
@@ -168,7 +168,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -181,7 +181,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string; 
+  private _sourceName?: string;
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -194,7 +194,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string; 
+  private _sourceVersion?: string;
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -231,7 +231,7 @@ export class SecuritylakeAwsLogSourceSourceList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source aws_securitylake_aws_log_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source aws_securitylake_aws_log_source}
 */
 export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
 
@@ -247,7 +247,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecuritylakeAwsLogSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecuritylakeAwsLogSource to import
-  * @param importFromId The id of the existing SecuritylakeAwsLogSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecuritylakeAwsLogSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecuritylakeAwsLogSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -259,7 +259,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securitylake_aws_log_source aws_securitylake_aws_log_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securitylake_aws_log_source aws_securitylake_aws_log_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,7 +270,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_securitylake_aws_log_source',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -294,7 +294,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

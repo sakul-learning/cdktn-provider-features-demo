@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DatazoneSubscriptionTargetConfig extends cdktn.TerraformMetaArg
   /**
   * The asset types that can be included in the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#applicable_asset_types DatazoneSubscriptionTarget#applicable_asset_types}
   */
   readonly applicableAssetTypes: string[];
   /**
   * The authorized principals of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#authorized_principals DatazoneSubscriptionTarget#authorized_principals}
   */
   readonly authorizedPrincipals: string[];
   /**
   * The ID of the Amazon DataZone domain in which subscription target would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#domain_identifier DatazoneSubscriptionTarget#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the environment in which subscription target would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#environment_identifier DatazoneSubscriptionTarget#environment_identifier}
   */
   readonly environmentIdentifier: string;
   /**
   * The manage access role that is used to create the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#manage_access_role DatazoneSubscriptionTarget#manage_access_role}
   */
   readonly manageAccessRole?: string;
   /**
   * The name of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#name DatazoneSubscriptionTarget#name}
   */
   readonly name: string;
   /**
   * The provider of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#provider_name DatazoneSubscriptionTarget#provider_name}
   */
   readonly providerName?: string;
   /**
   * The configuration of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#subscription_target_config DatazoneSubscriptionTarget#subscription_target_config}
   */
   readonly subscriptionTargetConfig: DatazoneSubscriptionTargetSubscriptionTargetConfig[] | cdktn.IResolvable;
   /**
   * The type of the subscription target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#type DatazoneSubscriptionTarget#type}
   */
   readonly type: string;
 }
@@ -66,13 +66,13 @@ export interface DatazoneSubscriptionTargetSubscriptionTargetConfig {
   /**
   * The content of the subscription target configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
   */
   readonly content: string;
   /**
   * The form name included in the subscription target configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
   */
   readonly formName: string;
 }
@@ -164,7 +164,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigOutputReference e
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -177,7 +177,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigOutputReference e
   }
 
   // form_name - computed: false, optional: false, required: true
-  private _formName?: string; 
+  private _formName?: string;
   public get formName() {
     return this.getStringAttribute('form_name');
   }
@@ -211,7 +211,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}
 */
 export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneSubscriptionTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneSubscriptionTarget to import
-  * @param importFromId The id of the existing DatazoneSubscriptionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneSubscriptionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneSubscriptionTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_subscription_target',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -276,7 +276,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   // ==========
 
   // applicable_asset_types - computed: false, optional: false, required: true
-  private _applicableAssetTypes?: string[]; 
+  private _applicableAssetTypes?: string[];
   public get applicableAssetTypes() {
     return this.getListAttribute('applicable_asset_types');
   }
@@ -289,7 +289,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // authorized_principals - computed: false, optional: false, required: true
-  private _authorizedPrincipals?: string[]; 
+  private _authorizedPrincipals?: string[];
   public get authorizedPrincipals() {
     return this.getListAttribute('authorized_principals');
   }
@@ -317,7 +317,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -335,7 +335,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: false, optional: false, required: true
-  private _environmentIdentifier?: string; 
+  private _environmentIdentifier?: string;
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -353,7 +353,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // manage_access_role - computed: true, optional: true, required: false
-  private _manageAccessRole?: string; 
+  private _manageAccessRole?: string;
   public get manageAccessRole() {
     return this.getStringAttribute('manage_access_role');
   }
@@ -369,7 +369,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -387,7 +387,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string; 
+  private _providerName?: string;
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -421,7 +421,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

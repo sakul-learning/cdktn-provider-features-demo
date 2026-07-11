@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface LightsailBucketConfig extends cdktn.TerraformMetaArguments {
   /**
   * An object that sets the public accessibility of objects in the specified bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#access_rules LightsailBucket#access_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#access_rules LightsailBucket#access_rules}
   */
   readonly accessRules?: LightsailBucketAccessRules;
   /**
   * The name for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#bucket_name LightsailBucket#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#bucket_name LightsailBucket#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The ID of the bundle to use for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#bundle_id LightsailBucket#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#bundle_id LightsailBucket#bundle_id}
   */
   readonly bundleId: string;
   /**
   * Specifies whether to enable or disable versioning of objects in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#object_versioning LightsailBucket#object_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#object_versioning LightsailBucket#object_versioning}
   */
   readonly objectVersioning?: boolean | cdktn.IResolvable;
   /**
   * An array of strings to specify the AWS account IDs that can access the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#read_only_access_accounts LightsailBucket#read_only_access_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#read_only_access_accounts LightsailBucket#read_only_access_accounts}
   */
   readonly readOnlyAccessAccounts?: string[];
   /**
   * The names of the Lightsail resources for which to set bucket access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#resources_receiving_access LightsailBucket#resources_receiving_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#resources_receiving_access LightsailBucket#resources_receiving_access}
   */
   readonly resourcesReceivingAccess?: string[];
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#tags LightsailBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#tags LightsailBucket#tags}
   */
   readonly tags?: LightsailBucketTags[] | cdktn.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface LightsailBucketAccessRules {
   /**
   * A Boolean value that indicates whether the access control list (ACL) permissions that are applied to individual objects override the getObject option that is currently specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#allow_public_overrides LightsailBucket#allow_public_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#allow_public_overrides LightsailBucket#allow_public_overrides}
   */
   readonly allowPublicOverrides?: boolean | cdktn.IResolvable;
   /**
   * Specifies the anonymous access to all objects in a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#get_object LightsailBucket#get_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#get_object LightsailBucket#get_object}
   */
   readonly fetchObject?: string;
 }
@@ -150,7 +150,7 @@ export class LightsailBucketAccessRulesOutputReference extends cdktn.ComplexObje
   }
 
   // allow_public_overrides - computed: true, optional: true, required: false
-  private _allowPublicOverrides?: boolean | cdktn.IResolvable; 
+  private _allowPublicOverrides?: boolean | cdktn.IResolvable;
   public get allowPublicOverrides() {
     return this.getBooleanAttribute('allow_public_overrides');
   }
@@ -166,7 +166,7 @@ export class LightsailBucketAccessRulesOutputReference extends cdktn.ComplexObje
   }
 
   // get_object - computed: true, optional: true, required: false
-  private _getObject?: string; 
+  private _getObject?: string;
   public get fetchObject() {
     return this.getStringAttribute('get_object');
   }
@@ -185,13 +185,13 @@ export interface LightsailBucketTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#key LightsailBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#key LightsailBucket#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#value LightsailBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#value LightsailBucket#value}
   */
   readonly value?: string;
 }
@@ -283,7 +283,7 @@ export class LightsailBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -299,7 +299,7 @@ export class LightsailBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -336,7 +336,7 @@ export class LightsailBucketTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket awscc_lightsail_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket awscc_lightsail_bucket}
 */
 export class LightsailBucket extends cdktn.TerraformResource {
 
@@ -352,7 +352,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailBucket to import
-  * @param importFromId The id of the existing LightsailBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -364,7 +364,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lightsail_bucket awscc_lightsail_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_bucket awscc_lightsail_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,7 +375,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -425,7 +425,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -438,7 +438,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string; 
+  private _bundleId?: string;
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -456,7 +456,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // object_versioning - computed: true, optional: true, required: false
-  private _objectVersioning?: boolean | cdktn.IResolvable; 
+  private _objectVersioning?: boolean | cdktn.IResolvable;
   public get objectVersioning() {
     return this.getBooleanAttribute('object_versioning');
   }
@@ -472,7 +472,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // read_only_access_accounts - computed: true, optional: true, required: false
-  private _readOnlyAccessAccounts?: string[]; 
+  private _readOnlyAccessAccounts?: string[];
   public get readOnlyAccessAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('read_only_access_accounts'));
   }
@@ -488,7 +488,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // resources_receiving_access - computed: true, optional: true, required: false
-  private _resourcesReceivingAccess?: string[]; 
+  private _resourcesReceivingAccess?: string[];
   public get resourcesReceivingAccess() {
     return cdktn.Fn.tolist(this.getListAttribute('resources_receiving_access'));
   }

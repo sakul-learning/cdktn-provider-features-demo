@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktn from 'cdktn';
 
 export interface ConfigRemediationConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#automatic ConfigRemediationConfiguration#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#automatic ConfigRemediationConfiguration#automatic}
   */
   readonly automatic?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#config_rule_name ConfigRemediationConfiguration#config_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#config_rule_name ConfigRemediationConfiguration#config_rule_name}
   */
   readonly configRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#id ConfigRemediationConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#id ConfigRemediationConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#maximum_automatic_attempts ConfigRemediationConfiguration#maximum_automatic_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#maximum_automatic_attempts ConfigRemediationConfiguration#maximum_automatic_attempts}
   */
   readonly maximumAutomaticAttempts?: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#region ConfigRemediationConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#region ConfigRemediationConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#resource_type ConfigRemediationConfiguration#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#resource_type ConfigRemediationConfiguration#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#retry_attempt_seconds ConfigRemediationConfiguration#retry_attempt_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#retry_attempt_seconds ConfigRemediationConfiguration#retry_attempt_seconds}
   */
   readonly retryAttemptSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#target_id ConfigRemediationConfiguration#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#target_id ConfigRemediationConfiguration#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#target_type ConfigRemediationConfiguration#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#target_type ConfigRemediationConfiguration#target_type}
   */
   readonly targetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#target_version ConfigRemediationConfiguration#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#target_version ConfigRemediationConfiguration#target_version}
   */
   readonly targetVersion?: string;
   /**
   * execution_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#execution_controls ConfigRemediationConfiguration#execution_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#execution_controls ConfigRemediationConfiguration#execution_controls}
   */
   readonly executionControls?: ConfigRemediationConfigurationExecutionControls;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#parameter ConfigRemediationConfiguration#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#parameter ConfigRemediationConfiguration#parameter}
   */
   readonly parameter?: ConfigRemediationConfigurationParameter[] | cdktn.IResolvable;
 }
 export interface ConfigRemediationConfigurationExecutionControlsSsmControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#concurrent_execution_rate_percentage ConfigRemediationConfiguration#concurrent_execution_rate_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#concurrent_execution_rate_percentage ConfigRemediationConfiguration#concurrent_execution_rate_percentage}
   */
   readonly concurrentExecutionRatePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#error_percentage ConfigRemediationConfiguration#error_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#error_percentage ConfigRemediationConfiguration#error_percentage}
   */
   readonly errorPercentage?: number;
 }
@@ -151,7 +151,7 @@ export class ConfigRemediationConfigurationExecutionControlsSsmControlsOutputRef
   }
 
   // concurrent_execution_rate_percentage - computed: false, optional: true, required: false
-  private _concurrentExecutionRatePercentage?: number; 
+  private _concurrentExecutionRatePercentage?: number;
   public get concurrentExecutionRatePercentage() {
     return this.getNumberAttribute('concurrent_execution_rate_percentage');
   }
@@ -167,7 +167,7 @@ export class ConfigRemediationConfigurationExecutionControlsSsmControlsOutputRef
   }
 
   // error_percentage - computed: false, optional: true, required: false
-  private _errorPercentage?: number; 
+  private _errorPercentage?: number;
   public get errorPercentage() {
     return this.getNumberAttribute('error_percentage');
   }
@@ -186,7 +186,7 @@ export interface ConfigRemediationConfigurationExecutionControls {
   /**
   * ssm_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#ssm_controls ConfigRemediationConfiguration#ssm_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#ssm_controls ConfigRemediationConfiguration#ssm_controls}
   */
   readonly ssmControls?: ConfigRemediationConfigurationExecutionControlsSsmControls;
 }
@@ -270,19 +270,19 @@ export class ConfigRemediationConfigurationExecutionControlsOutputReference exte
 }
 export interface ConfigRemediationConfigurationParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#name ConfigRemediationConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#name ConfigRemediationConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#resource_value ConfigRemediationConfiguration#resource_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#resource_value ConfigRemediationConfiguration#resource_value}
   */
   readonly resourceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#static_value ConfigRemediationConfiguration#static_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#static_value ConfigRemediationConfiguration#static_value}
   */
   readonly staticValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#static_values ConfigRemediationConfiguration#static_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#static_values ConfigRemediationConfiguration#static_values}
   */
   readonly staticValues?: string[];
 }
@@ -400,7 +400,7 @@ export class ConfigRemediationConfigurationParameterOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -413,7 +413,7 @@ export class ConfigRemediationConfigurationParameterOutputReference extends cdkt
   }
 
   // resource_value - computed: false, optional: true, required: false
-  private _resourceValue?: string; 
+  private _resourceValue?: string;
   public get resourceValue() {
     return this.getStringAttribute('resource_value');
   }
@@ -429,7 +429,7 @@ export class ConfigRemediationConfigurationParameterOutputReference extends cdkt
   }
 
   // static_value - computed: false, optional: true, required: false
-  private _staticValue?: string; 
+  private _staticValue?: string;
   public get staticValue() {
     return this.getStringAttribute('static_value');
   }
@@ -445,7 +445,7 @@ export class ConfigRemediationConfigurationParameterOutputReference extends cdkt
   }
 
   // static_values - computed: true, optional: true, required: false
-  private _staticValues?: string[]; 
+  private _staticValues?: string[];
   public get staticValues() {
     return this.getListAttribute('static_values');
   }
@@ -482,7 +482,7 @@ export class ConfigRemediationConfigurationParameterList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}
 */
 export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
 
@@ -498,7 +498,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigRemediationConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigRemediationConfiguration to import
-  * @param importFromId The id of the existing ConfigRemediationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigRemediationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigRemediationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -510,7 +510,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,7 +521,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_config_remediation_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -555,7 +555,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // automatic - computed: false, optional: true, required: false
-  private _automatic?: boolean | cdktn.IResolvable; 
+  private _automatic?: boolean | cdktn.IResolvable;
   public get automatic() {
     return this.getBooleanAttribute('automatic');
   }
@@ -571,7 +571,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // config_rule_name - computed: false, optional: false, required: true
-  private _configRuleName?: string; 
+  private _configRuleName?: string;
   public get configRuleName() {
     return this.getStringAttribute('config_rule_name');
   }
@@ -584,7 +584,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -600,7 +600,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // maximum_automatic_attempts - computed: false, optional: true, required: false
-  private _maximumAutomaticAttempts?: number; 
+  private _maximumAutomaticAttempts?: number;
   public get maximumAutomaticAttempts() {
     return this.getNumberAttribute('maximum_automatic_attempts');
   }
@@ -616,7 +616,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -632,7 +632,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -648,7 +648,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // retry_attempt_seconds - computed: false, optional: true, required: false
-  private _retryAttemptSeconds?: number; 
+  private _retryAttemptSeconds?: number;
   public get retryAttemptSeconds() {
     return this.getNumberAttribute('retry_attempt_seconds');
   }
@@ -664,7 +664,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string; 
+  private _targetId?: string;
   public get targetId() {
     return this.getStringAttribute('target_id');
   }
@@ -677,7 +677,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string; 
+  private _targetType?: string;
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -690,7 +690,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_version - computed: false, optional: true, required: false
-  private _targetVersion?: string; 
+  private _targetVersion?: string;
   public get targetVersion() {
     return this.getStringAttribute('target_version');
   }

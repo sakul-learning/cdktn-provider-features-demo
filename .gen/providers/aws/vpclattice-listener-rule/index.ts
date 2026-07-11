@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeListenerRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#id VpclatticeListenerRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#id VpclatticeListenerRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#listener_identifier VpclatticeListenerRule#listener_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#listener_identifier VpclatticeListenerRule#listener_identifier}
   */
   readonly listenerIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#name VpclatticeListenerRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#name VpclatticeListenerRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#priority VpclatticeListenerRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#priority VpclatticeListenerRule#priority}
   */
   readonly priority: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#region VpclatticeListenerRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#region VpclatticeListenerRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#service_identifier VpclatticeListenerRule#service_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#service_identifier VpclatticeListenerRule#service_identifier}
   */
   readonly serviceIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#tags VpclatticeListenerRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#tags VpclatticeListenerRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#tags_all VpclatticeListenerRule#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#tags_all VpclatticeListenerRule#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#action VpclatticeListenerRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#action VpclatticeListenerRule#action}
   */
   readonly action: VpclatticeListenerRuleAction;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
   */
   readonly match: VpclatticeListenerRuleMatch;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#timeouts VpclatticeListenerRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#timeouts VpclatticeListenerRule#timeouts}
   */
   readonly timeouts?: VpclatticeListenerRuleTimeouts;
 }
 export interface VpclatticeListenerRuleActionFixedResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#status_code VpclatticeListenerRule#status_code}
   */
   readonly statusCode: number;
 }
@@ -132,7 +132,7 @@ export class VpclatticeListenerRuleActionFixedResponseOutputReference extends cd
   }
 
   // status_code - computed: false, optional: false, required: true
-  private _statusCode?: number; 
+  private _statusCode?: number;
   public get statusCode() {
     return this.getNumberAttribute('status_code');
   }
@@ -146,11 +146,11 @@ export class VpclatticeListenerRuleActionFixedResponseOutputReference extends cd
 }
 export interface VpclatticeListenerRuleActionForwardTargetGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#target_group_identifier VpclatticeListenerRule#target_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#target_group_identifier VpclatticeListenerRule#target_group_identifier}
   */
   readonly targetGroupIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#weight VpclatticeListenerRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#weight VpclatticeListenerRule#weight}
   */
   readonly weight?: number;
 }
@@ -242,7 +242,7 @@ export class VpclatticeListenerRuleActionForwardTargetGroupsOutputReference exte
   }
 
   // target_group_identifier - computed: false, optional: false, required: true
-  private _targetGroupIdentifier?: string; 
+  private _targetGroupIdentifier?: string;
   public get targetGroupIdentifier() {
     return this.getStringAttribute('target_group_identifier');
   }
@@ -255,7 +255,7 @@ export class VpclatticeListenerRuleActionForwardTargetGroupsOutputReference exte
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -294,7 +294,7 @@ export interface VpclatticeListenerRuleActionForward {
   /**
   * target_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#target_groups VpclatticeListenerRule#target_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#target_groups VpclatticeListenerRule#target_groups}
   */
   readonly targetGroups: VpclatticeListenerRuleActionForwardTargetGroups[] | cdktn.IResolvable;
 }
@@ -377,13 +377,13 @@ export interface VpclatticeListenerRuleAction {
   /**
   * fixed_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#fixed_response VpclatticeListenerRule#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#fixed_response VpclatticeListenerRule#fixed_response}
   */
   readonly fixedResponse?: VpclatticeListenerRuleActionFixedResponse;
   /**
   * forward block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#forward VpclatticeListenerRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#forward VpclatticeListenerRule#forward}
   */
   readonly forward?: VpclatticeListenerRuleActionForward;
 }
@@ -496,15 +496,15 @@ export class VpclatticeListenerRuleActionOutputReference extends cdktn.ComplexOb
 }
 export interface VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#contains VpclatticeListenerRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#contains VpclatticeListenerRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#exact VpclatticeListenerRule#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#exact VpclatticeListenerRule#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#prefix VpclatticeListenerRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#prefix VpclatticeListenerRule#prefix}
   */
   readonly prefix?: string;
 }
@@ -597,7 +597,7 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReferen
   }
 
   // contains - computed: false, optional: true, required: false
-  private _contains?: string; 
+  private _contains?: string;
   public get contains() {
     return this.getStringAttribute('contains');
   }
@@ -613,7 +613,7 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReferen
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string; 
+  private _exact?: string;
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -629,7 +629,7 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReferen
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -646,17 +646,17 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReferen
 }
 export interface VpclatticeListenerRuleMatchHttpMatchHeaderMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#case_sensitive VpclatticeListenerRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#case_sensitive VpclatticeListenerRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#name VpclatticeListenerRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#name VpclatticeListenerRule#name}
   */
   readonly name: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
   */
   readonly match: VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch;
 }
@@ -761,7 +761,7 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference ex
   }
 
   // case_sensitive - computed: false, optional: true, required: false
-  private _caseSensitive?: boolean | cdktn.IResolvable; 
+  private _caseSensitive?: boolean | cdktn.IResolvable;
   public get caseSensitive() {
     return this.getBooleanAttribute('case_sensitive');
   }
@@ -777,7 +777,7 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference ex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -824,11 +824,11 @@ export class VpclatticeListenerRuleMatchHttpMatchHeaderMatchesList extends cdktn
 }
 export interface VpclatticeListenerRuleMatchHttpMatchPathMatchMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#exact VpclatticeListenerRule#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#exact VpclatticeListenerRule#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#prefix VpclatticeListenerRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#prefix VpclatticeListenerRule#prefix}
   */
   readonly prefix?: string;
 }
@@ -908,7 +908,7 @@ export class VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference e
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string; 
+  private _exact?: string;
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -924,7 +924,7 @@ export class VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference e
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -941,13 +941,13 @@ export class VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference e
 }
 export interface VpclatticeListenerRuleMatchHttpMatchPathMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#case_sensitive VpclatticeListenerRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#case_sensitive VpclatticeListenerRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktn.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#match VpclatticeListenerRule#match}
   */
   readonly match: VpclatticeListenerRuleMatchHttpMatchPathMatchMatch;
 }
@@ -1027,7 +1027,7 @@ export class VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference extend
   }
 
   // case_sensitive - computed: false, optional: true, required: false
-  private _caseSensitive?: boolean | cdktn.IResolvable; 
+  private _caseSensitive?: boolean | cdktn.IResolvable;
   public get caseSensitive() {
     return this.getBooleanAttribute('case_sensitive');
   }
@@ -1057,19 +1057,19 @@ export class VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference extend
 }
 export interface VpclatticeListenerRuleMatchHttpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#method VpclatticeListenerRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#method VpclatticeListenerRule#method}
   */
   readonly method?: string;
   /**
   * header_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#header_matches VpclatticeListenerRule#header_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#header_matches VpclatticeListenerRule#header_matches}
   */
   readonly headerMatches?: VpclatticeListenerRuleMatchHttpMatchHeaderMatches[] | cdktn.IResolvable;
   /**
   * path_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#path_match VpclatticeListenerRule#path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#path_match VpclatticeListenerRule#path_match}
   */
   readonly pathMatch?: VpclatticeListenerRuleMatchHttpMatchPathMatch;
 }
@@ -1162,7 +1162,7 @@ export class VpclatticeListenerRuleMatchHttpMatchOutputReference extends cdktn.C
   }
 
   // method - computed: false, optional: true, required: false
-  private _method?: string; 
+  private _method?: string;
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -1213,7 +1213,7 @@ export interface VpclatticeListenerRuleMatch {
   /**
   * http_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#http_match VpclatticeListenerRule#http_match}
   */
   readonly httpMatch: VpclatticeListenerRuleMatchHttpMatch;
 }
@@ -1294,15 +1294,15 @@ export class VpclatticeListenerRuleMatchOutputReference extends cdktn.ComplexObj
 }
 export interface VpclatticeListenerRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#create VpclatticeListenerRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#create VpclatticeListenerRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#delete VpclatticeListenerRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#delete VpclatticeListenerRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#update VpclatticeListenerRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#update VpclatticeListenerRule#update}
   */
   readonly update?: string;
 }
@@ -1405,7 +1405,7 @@ export class VpclatticeListenerRuleTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1421,7 +1421,7 @@ export class VpclatticeListenerRuleTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1437,7 +1437,7 @@ export class VpclatticeListenerRuleTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1454,7 +1454,7 @@ export class VpclatticeListenerRuleTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}
 */
 export class VpclatticeListenerRule extends cdktn.TerraformResource {
 
@@ -1470,7 +1470,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeListenerRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeListenerRule to import
-  * @param importFromId The id of the existing VpclatticeListenerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeListenerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeListenerRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1482,7 +1482,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1493,7 +1493,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpclattice_listener_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1526,7 +1526,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1542,7 +1542,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // listener_identifier - computed: false, optional: false, required: true
-  private _listenerIdentifier?: string; 
+  private _listenerIdentifier?: string;
   public get listenerIdentifier() {
     return this.getStringAttribute('listener_identifier');
   }
@@ -1555,7 +1555,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1568,7 +1568,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1581,7 +1581,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1602,7 +1602,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // service_identifier - computed: false, optional: false, required: true
-  private _serviceIdentifier?: string; 
+  private _serviceIdentifier?: string;
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }
@@ -1615,7 +1615,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1631,7 +1631,7 @@ export class VpclatticeListenerRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface EcrSigningConfigurationConfig extends cdktn.TerraformMetaArgume
   /**
   * Array of signing rules that define which repositories should be signed and with which signing profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
   */
   readonly rules: EcrSigningConfigurationRules[] | cdktn.IResolvable;
 }
@@ -18,13 +18,13 @@ export interface EcrSigningConfigurationRulesRepositoryFilters {
   /**
   * Repository name pattern (supports '*' wildcard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
   */
   readonly filter?: string;
   /**
   * Type of repository filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
   */
   readonly filterType?: string;
 }
@@ -116,7 +116,7 @@ export class EcrSigningConfigurationRulesRepositoryFiltersOutputReference extend
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string; 
+  private _filter?: string;
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -132,7 +132,7 @@ export class EcrSigningConfigurationRulesRepositoryFiltersOutputReference extend
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string; 
+  private _filterType?: string;
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -171,13 +171,13 @@ export interface EcrSigningConfigurationRules {
   /**
   * Optional array of repository filters. If omitted, the rule matches all repositories. If provided, must contain at least one filter. Empty arrays are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
   */
   readonly repositoryFilters?: EcrSigningConfigurationRulesRepositoryFilters[] | cdktn.IResolvable;
   /**
   * AWS Signer signing profile ARN to use for matched repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
   */
   readonly signingProfileArn: string;
 }
@@ -285,7 +285,7 @@ export class EcrSigningConfigurationRulesOutputReference extends cdktn.ComplexOb
   }
 
   // signing_profile_arn - computed: false, optional: false, required: true
-  private _signingProfileArn?: string; 
+  private _signingProfileArn?: string;
   public get signingProfileArn() {
     return this.getStringAttribute('signing_profile_arn');
   }
@@ -319,7 +319,7 @@ export class EcrSigningConfigurationRulesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}
 */
 export class EcrSigningConfiguration extends cdktn.TerraformResource {
 
@@ -335,7 +335,7 @@ export class EcrSigningConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcrSigningConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcrSigningConfiguration to import
-  * @param importFromId The id of the existing EcrSigningConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcrSigningConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcrSigningConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -347,7 +347,7 @@ export class EcrSigningConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,7 +358,7 @@ export class EcrSigningConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecr_signing_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

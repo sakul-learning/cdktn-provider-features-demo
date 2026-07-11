@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LakeformationOptInConfig extends cdktn.TerraformMetaArguments {
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#region LakeformationOptIn#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#region LakeformationOptIn#region}
   */
   readonly region?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#condition LakeformationOptIn#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#condition LakeformationOptIn#condition}
   */
   readonly condition?: LakeformationOptInCondition[] | cdktn.IResolvable;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#principal LakeformationOptIn#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#principal LakeformationOptIn#principal}
   */
   readonly principal?: LakeformationOptInPrincipal[] | cdktn.IResolvable;
   /**
   * resource_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#resource_data LakeformationOptIn#resource_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#resource_data LakeformationOptIn#resource_data}
   */
   readonly resourceData?: LakeformationOptInResourceData[] | cdktn.IResolvable;
 }
@@ -120,7 +120,7 @@ export class LakeformationOptInConditionList extends cdktn.ComplexList {
 }
 export interface LakeformationOptInPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#data_lake_principal_identifier LakeformationOptIn#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#data_lake_principal_identifier LakeformationOptIn#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier: string;
 }
@@ -199,7 +199,7 @@ export class LakeformationOptInPrincipalOutputReference extends cdktn.ComplexObj
   }
 
   // data_lake_principal_identifier - computed: false, optional: false, required: true
-  private _dataLakePrincipalIdentifier?: string; 
+  private _dataLakePrincipalIdentifier?: string;
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -233,7 +233,7 @@ export class LakeformationOptInPrincipalList extends cdktn.ComplexList {
 }
 export interface LakeformationOptInResourceDataCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#id LakeformationOptIn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#id LakeformationOptIn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -315,7 +315,7 @@ export class LakeformationOptInResourceDataCatalogOutputReference extends cdktn.
   }
 
   // id - computed: false, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -352,19 +352,19 @@ export class LakeformationOptInResourceDataCatalogList extends cdktn.ComplexList
 }
 export interface LakeformationOptInResourceDataDataCellsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#table_catalog_id LakeformationOptIn#table_catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#table_catalog_id LakeformationOptIn#table_catalog_id}
   */
   readonly tableCatalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#table_name LakeformationOptIn#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#table_name LakeformationOptIn#table_name}
   */
   readonly tableName?: string;
 }
@@ -482,7 +482,7 @@ export class LakeformationOptInResourceDataDataCellsFilterOutputReference extend
   }
 
   // database_name - computed: false, optional: true, required: false
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -498,7 +498,7 @@ export class LakeformationOptInResourceDataDataCellsFilterOutputReference extend
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -514,7 +514,7 @@ export class LakeformationOptInResourceDataDataCellsFilterOutputReference extend
   }
 
   // table_catalog_id - computed: false, optional: true, required: false
-  private _tableCatalogId?: string; 
+  private _tableCatalogId?: string;
   public get tableCatalogId() {
     return this.getStringAttribute('table_catalog_id');
   }
@@ -530,7 +530,7 @@ export class LakeformationOptInResourceDataDataCellsFilterOutputReference extend
   }
 
   // table_name - computed: false, optional: true, required: false
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -567,11 +567,11 @@ export class LakeformationOptInResourceDataDataCellsFilterList extends cdktn.Com
 }
 export interface LakeformationOptInResourceDataDataLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#resource_arn LakeformationOptIn#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#resource_arn LakeformationOptIn#resource_arn}
   */
   readonly resourceArn: string;
 }
@@ -663,7 +663,7 @@ export class LakeformationOptInResourceDataDataLocationOutputReference extends c
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -679,7 +679,7 @@ export class LakeformationOptInResourceDataDataLocationOutputReference extends c
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -713,11 +713,11 @@ export class LakeformationOptInResourceDataDataLocationList extends cdktn.Comple
 }
 export interface LakeformationOptInResourceDataDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
   */
   readonly name: string;
 }
@@ -809,7 +809,7 @@ export class LakeformationOptInResourceDataDatabaseOutputReference extends cdktn
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -825,7 +825,7 @@ export class LakeformationOptInResourceDataDatabaseOutputReference extends cdktn
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -859,15 +859,15 @@ export class LakeformationOptInResourceDataDatabaseList extends cdktn.ComplexLis
 }
 export interface LakeformationOptInResourceDataLfTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#key LakeformationOptIn#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#key LakeformationOptIn#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#values LakeformationOptIn#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#values LakeformationOptIn#values}
   */
   readonly values: string[];
 }
@@ -972,7 +972,7 @@ export class LakeformationOptInResourceDataLfTagOutputReference extends cdktn.Co
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -988,7 +988,7 @@ export class LakeformationOptInResourceDataLfTagOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1001,7 +1001,7 @@ export class LakeformationOptInResourceDataLfTagOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1035,11 +1035,11 @@ export class LakeformationOptInResourceDataLfTagList extends cdktn.ComplexList {
 }
 export interface LakeformationOptInResourceDataLfTagExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
   */
   readonly name: string;
 }
@@ -1131,7 +1131,7 @@ export class LakeformationOptInResourceDataLfTagExpressionOutputReference extend
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1147,7 +1147,7 @@ export class LakeformationOptInResourceDataLfTagExpressionOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1181,19 +1181,19 @@ export class LakeformationOptInResourceDataLfTagExpressionList extends cdktn.Com
 }
 export interface LakeformationOptInResourceDataLfTagPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#expression LakeformationOptIn#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#expression LakeformationOptIn#expression}
   */
   readonly expression?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#expression_name LakeformationOptIn#expression_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#expression_name LakeformationOptIn#expression_name}
   */
   readonly expressionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#resource_type LakeformationOptIn#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#resource_type LakeformationOptIn#resource_type}
   */
   readonly resourceType: string;
 }
@@ -1311,7 +1311,7 @@ export class LakeformationOptInResourceDataLfTagPolicyOutputReference extends cd
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1327,7 +1327,7 @@ export class LakeformationOptInResourceDataLfTagPolicyOutputReference extends cd
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string[]; 
+  private _expression?: string[];
   public get expression() {
     return this.getListAttribute('expression');
   }
@@ -1343,7 +1343,7 @@ export class LakeformationOptInResourceDataLfTagPolicyOutputReference extends cd
   }
 
   // expression_name - computed: false, optional: true, required: false
-  private _expressionName?: string; 
+  private _expressionName?: string;
   public get expressionName() {
     return this.getStringAttribute('expression_name');
   }
@@ -1359,7 +1359,7 @@ export class LakeformationOptInResourceDataLfTagPolicyOutputReference extends cd
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -1393,19 +1393,19 @@ export class LakeformationOptInResourceDataLfTagPolicyList extends cdktn.Complex
 }
 export interface LakeformationOptInResourceDataTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#wildcard LakeformationOptIn#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#wildcard LakeformationOptIn#wildcard}
   */
   readonly wildcard?: boolean | cdktn.IResolvable;
 }
@@ -1523,7 +1523,7 @@ export class LakeformationOptInResourceDataTableOutputReference extends cdktn.Co
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1539,7 +1539,7 @@ export class LakeformationOptInResourceDataTableOutputReference extends cdktn.Co
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1552,7 +1552,7 @@ export class LakeformationOptInResourceDataTableOutputReference extends cdktn.Co
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1568,7 +1568,7 @@ export class LakeformationOptInResourceDataTableOutputReference extends cdktn.Co
   }
 
   // wildcard - computed: false, optional: true, required: false
-  private _wildcard?: boolean | cdktn.IResolvable; 
+  private _wildcard?: boolean | cdktn.IResolvable;
   public get wildcard() {
     return this.getBooleanAttribute('wildcard');
   }
@@ -1605,7 +1605,7 @@ export class LakeformationOptInResourceDataTableList extends cdktn.ComplexList {
 }
 export interface LakeformationOptInResourceDataTableWithColumnsColumnWildcard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#excluded_column_names LakeformationOptIn#excluded_column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#excluded_column_names LakeformationOptIn#excluded_column_names}
   */
   readonly excludedColumnNames?: string[];
 }
@@ -1684,7 +1684,7 @@ export class LakeformationOptInResourceDataTableWithColumnsColumnWildcardOutputR
   }
 
   // excluded_column_names - computed: false, optional: true, required: false
-  private _excludedColumnNames?: string[]; 
+  private _excludedColumnNames?: string[];
   public get excludedColumnNames() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_column_names'));
   }
@@ -1721,25 +1721,25 @@ export class LakeformationOptInResourceDataTableWithColumnsColumnWildcardList ex
 }
 export interface LakeformationOptInResourceDataTableWithColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog_id LakeformationOptIn#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#column_names LakeformationOptIn#column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#column_names LakeformationOptIn#column_names}
   */
   readonly columnNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#database_name LakeformationOptIn#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#name LakeformationOptIn#name}
   */
   readonly name: string;
   /**
   * column_wildcard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#column_wildcard LakeformationOptIn#column_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#column_wildcard LakeformationOptIn#column_wildcard}
   */
   readonly columnWildcard?: LakeformationOptInResourceDataTableWithColumnsColumnWildcard[] | cdktn.IResolvable;
 }
@@ -1870,7 +1870,7 @@ export class LakeformationOptInResourceDataTableWithColumnsOutputReference exten
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1886,7 +1886,7 @@ export class LakeformationOptInResourceDataTableWithColumnsOutputReference exten
   }
 
   // column_names - computed: false, optional: true, required: false
-  private _columnNames?: string[]; 
+  private _columnNames?: string[];
   public get columnNames() {
     return cdktn.Fn.tolist(this.getListAttribute('column_names'));
   }
@@ -1902,7 +1902,7 @@ export class LakeformationOptInResourceDataTableWithColumnsOutputReference exten
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1915,7 +1915,7 @@ export class LakeformationOptInResourceDataTableWithColumnsOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1967,55 +1967,55 @@ export interface LakeformationOptInResourceData {
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#catalog LakeformationOptIn#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#catalog LakeformationOptIn#catalog}
   */
   readonly catalog?: LakeformationOptInResourceDataCatalog[] | cdktn.IResolvable;
   /**
   * data_cells_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#data_cells_filter LakeformationOptIn#data_cells_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#data_cells_filter LakeformationOptIn#data_cells_filter}
   */
   readonly dataCellsFilter?: LakeformationOptInResourceDataDataCellsFilter[] | cdktn.IResolvable;
   /**
   * data_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#data_location LakeformationOptIn#data_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#data_location LakeformationOptIn#data_location}
   */
   readonly dataLocation?: LakeformationOptInResourceDataDataLocation[] | cdktn.IResolvable;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#database LakeformationOptIn#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#database LakeformationOptIn#database}
   */
   readonly database?: LakeformationOptInResourceDataDatabase[] | cdktn.IResolvable;
   /**
   * lf_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#lf_tag LakeformationOptIn#lf_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#lf_tag LakeformationOptIn#lf_tag}
   */
   readonly lfTag?: LakeformationOptInResourceDataLfTag[] | cdktn.IResolvable;
   /**
   * lf_tag_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#lf_tag_expression LakeformationOptIn#lf_tag_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#lf_tag_expression LakeformationOptIn#lf_tag_expression}
   */
   readonly lfTagExpression?: LakeformationOptInResourceDataLfTagExpression[] | cdktn.IResolvable;
   /**
   * lf_tag_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#lf_tag_policy LakeformationOptIn#lf_tag_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#lf_tag_policy LakeformationOptIn#lf_tag_policy}
   */
   readonly lfTagPolicy?: LakeformationOptInResourceDataLfTagPolicy[] | cdktn.IResolvable;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#table LakeformationOptIn#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#table LakeformationOptIn#table}
   */
   readonly table?: LakeformationOptInResourceDataTable[] | cdktn.IResolvable;
   /**
   * table_with_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#table_with_columns LakeformationOptIn#table_with_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#table_with_columns LakeformationOptIn#table_with_columns}
   */
   readonly tableWithColumns?: LakeformationOptInResourceDataTableWithColumns[] | cdktn.IResolvable;
 }
@@ -2363,7 +2363,7 @@ export class LakeformationOptInResourceDataList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}
 */
 export class LakeformationOptIn extends cdktn.TerraformResource {
 
@@ -2379,7 +2379,7 @@ export class LakeformationOptIn extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LakeformationOptIn resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LakeformationOptIn to import
-  * @param importFromId The id of the existing LakeformationOptIn that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LakeformationOptIn that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LakeformationOptIn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2391,7 +2391,7 @@ export class LakeformationOptIn extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2402,7 +2402,7 @@ export class LakeformationOptIn extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lakeformation_opt_in',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2433,7 +2433,7 @@ export class LakeformationOptIn extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

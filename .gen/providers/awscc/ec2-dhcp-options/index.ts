@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface Ec2DhcpOptionsConfig extends cdktn.TerraformMetaArguments {
   /**
   * This value is used to complete unqualified DNS hostnames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#domain_name Ec2DhcpOptions#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#domain_name Ec2DhcpOptions#domain_name}
   */
   readonly domainName?: string;
   /**
   * The IPv4 addresses of up to four domain name servers, or AmazonProvidedDNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#domain_name_servers Ec2DhcpOptions#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#domain_name_servers Ec2DhcpOptions#domain_name_servers}
   */
   readonly domainNameServers?: string[];
   /**
   * The preferred Lease Time for ipV6 address in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#ipv_6_address_preferred_lease_time Ec2DhcpOptions#ipv_6_address_preferred_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#ipv_6_address_preferred_lease_time Ec2DhcpOptions#ipv_6_address_preferred_lease_time}
   */
   readonly ipv6AddressPreferredLeaseTime?: number;
   /**
   * The IPv4 addresses of up to four NetBIOS name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#netbios_name_servers Ec2DhcpOptions#netbios_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#netbios_name_servers Ec2DhcpOptions#netbios_name_servers}
   */
   readonly netbiosNameServers?: string[];
   /**
   * The NetBIOS node type (1, 2, 4, or 8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#netbios_node_type Ec2DhcpOptions#netbios_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#netbios_node_type Ec2DhcpOptions#netbios_node_type}
   */
   readonly netbiosNodeType?: number;
   /**
   * The IPv4 addresses of up to four Network Time Protocol (NTP) servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#ntp_servers Ec2DhcpOptions#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#ntp_servers Ec2DhcpOptions#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * Any tags assigned to the DHCP options set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#tags Ec2DhcpOptions#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#tags Ec2DhcpOptions#tags}
   */
   readonly tags?: Ec2DhcpOptionsTags[] | cdktn.IResolvable;
 }
 export interface Ec2DhcpOptionsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#key Ec2DhcpOptions#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#key Ec2DhcpOptions#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#value Ec2DhcpOptions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#value Ec2DhcpOptions#value}
   */
   readonly value?: string;
 }
@@ -148,7 +148,7 @@ export class Ec2DhcpOptionsTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class Ec2DhcpOptionsTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -201,7 +201,7 @@ export class Ec2DhcpOptionsTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options}
 */
 export class Ec2DhcpOptions extends cdktn.TerraformResource {
 
@@ -217,7 +217,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2DhcpOptions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2DhcpOptions to import
-  * @param importFromId The id of the existing Ec2DhcpOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2DhcpOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2DhcpOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -229,7 +229,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_dhcp_options',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -269,7 +269,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -285,7 +285,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // domain_name_servers - computed: true, optional: true, required: false
-  private _domainNameServers?: string[]; 
+  private _domainNameServers?: string[];
   public get domainNameServers() {
     return this.getListAttribute('domain_name_servers');
   }
@@ -306,7 +306,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // ipv_6_address_preferred_lease_time - computed: true, optional: true, required: false
-  private _ipv6AddressPreferredLeaseTime?: number; 
+  private _ipv6AddressPreferredLeaseTime?: number;
   public get ipv6AddressPreferredLeaseTime() {
     return this.getNumberAttribute('ipv_6_address_preferred_lease_time');
   }
@@ -322,7 +322,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // netbios_name_servers - computed: true, optional: true, required: false
-  private _netbiosNameServers?: string[]; 
+  private _netbiosNameServers?: string[];
   public get netbiosNameServers() {
     return this.getListAttribute('netbios_name_servers');
   }
@@ -338,7 +338,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // netbios_node_type - computed: true, optional: true, required: false
-  private _netbiosNodeType?: number; 
+  private _netbiosNodeType?: number;
   public get netbiosNodeType() {
     return this.getNumberAttribute('netbios_node_type');
   }
@@ -354,7 +354,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // ntp_servers - computed: true, optional: true, required: false
-  private _ntpServers?: string[]; 
+  private _ntpServers?: string[];
   public get ntpServers() {
     return this.getListAttribute('ntp_servers');
   }

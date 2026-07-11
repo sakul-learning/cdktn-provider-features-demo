@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface EmrWalWorkspaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace#tags EmrWalWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace#tags EmrWalWorkspace#tags}
   */
   readonly tags?: EmrWalWorkspaceTags[] | cdktn.IResolvable;
   /**
   * The name of the emrwal container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace#wal_workspace_name EmrWalWorkspace#wal_workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace#wal_workspace_name EmrWalWorkspace#wal_workspace_name}
   */
   readonly walWorkspaceName?: string;
 }
@@ -24,13 +24,13 @@ export interface EmrWalWorkspaceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace#key EmrWalWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace#key EmrWalWorkspace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace#value EmrWalWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace#value EmrWalWorkspace#value}
   */
   readonly value?: string;
 }
@@ -122,7 +122,7 @@ export class EmrWalWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class EmrWalWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -175,7 +175,7 @@ export class EmrWalWorkspaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}
 */
 export class EmrWalWorkspace extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class EmrWalWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrWalWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrWalWorkspace to import
-  * @param importFromId The id of the existing EmrWalWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrWalWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrWalWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class EmrWalWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class EmrWalWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_emr_wal_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -254,7 +254,7 @@ export class EmrWalWorkspace extends cdktn.TerraformResource {
   }
 
   // wal_workspace_name - computed: true, optional: true, required: false
-  private _walWorkspaceName?: string; 
+  private _walWorkspaceName?: string;
   public get walWorkspaceName() {
     return this.getStringAttribute('wal_workspace_name');
   }

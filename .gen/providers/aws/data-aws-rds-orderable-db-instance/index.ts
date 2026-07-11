@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsRdsOrderableDbInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#availability_zone_group DataAwsRdsOrderableDbInstance#availability_zone_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#availability_zone_group DataAwsRdsOrderableDbInstance#availability_zone_group}
   */
   readonly availabilityZoneGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#engine DataAwsRdsOrderableDbInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#engine DataAwsRdsOrderableDbInstance#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#engine_latest_version DataAwsRdsOrderableDbInstance#engine_latest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#engine_latest_version DataAwsRdsOrderableDbInstance#engine_latest_version}
   */
   readonly engineLatestVersion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#engine_version DataAwsRdsOrderableDbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#engine_version DataAwsRdsOrderableDbInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#id DataAwsRdsOrderableDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#id DataAwsRdsOrderableDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#instance_class DataAwsRdsOrderableDbInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#instance_class DataAwsRdsOrderableDbInstance#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#license_model DataAwsRdsOrderableDbInstance#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#license_model DataAwsRdsOrderableDbInstance#license_model}
   */
   readonly licenseModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#preferred_engine_versions DataAwsRdsOrderableDbInstance#preferred_engine_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#preferred_engine_versions DataAwsRdsOrderableDbInstance#preferred_engine_versions}
   */
   readonly preferredEngineVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#preferred_instance_classes DataAwsRdsOrderableDbInstance#preferred_instance_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#preferred_instance_classes DataAwsRdsOrderableDbInstance#preferred_instance_classes}
   */
   readonly preferredInstanceClasses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#read_replica_capable DataAwsRdsOrderableDbInstance#read_replica_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#read_replica_capable DataAwsRdsOrderableDbInstance#read_replica_capable}
   */
   readonly readReplicaCapable?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#region DataAwsRdsOrderableDbInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#region DataAwsRdsOrderableDbInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#storage_type DataAwsRdsOrderableDbInstance#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#storage_type DataAwsRdsOrderableDbInstance#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supported_engine_modes DataAwsRdsOrderableDbInstance#supported_engine_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supported_engine_modes DataAwsRdsOrderableDbInstance#supported_engine_modes}
   */
   readonly supportedEngineModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supported_network_types DataAwsRdsOrderableDbInstance#supported_network_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supported_network_types DataAwsRdsOrderableDbInstance#supported_network_types}
   */
   readonly supportedNetworkTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_clusters DataAwsRdsOrderableDbInstance#supports_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_clusters DataAwsRdsOrderableDbInstance#supports_clusters}
   */
   readonly supportsClusters?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_enhanced_monitoring DataAwsRdsOrderableDbInstance#supports_enhanced_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_enhanced_monitoring DataAwsRdsOrderableDbInstance#supports_enhanced_monitoring}
   */
   readonly supportsEnhancedMonitoring?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_global_databases DataAwsRdsOrderableDbInstance#supports_global_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_global_databases DataAwsRdsOrderableDbInstance#supports_global_databases}
   */
   readonly supportsGlobalDatabases?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_iam_database_authentication DataAwsRdsOrderableDbInstance#supports_iam_database_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_iam_database_authentication DataAwsRdsOrderableDbInstance#supports_iam_database_authentication}
   */
   readonly supportsIamDatabaseAuthentication?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_iops DataAwsRdsOrderableDbInstance#supports_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_iops DataAwsRdsOrderableDbInstance#supports_iops}
   */
   readonly supportsIops?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_kerberos_authentication DataAwsRdsOrderableDbInstance#supports_kerberos_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_kerberos_authentication DataAwsRdsOrderableDbInstance#supports_kerberos_authentication}
   */
   readonly supportsKerberosAuthentication?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_multi_az DataAwsRdsOrderableDbInstance#supports_multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_multi_az DataAwsRdsOrderableDbInstance#supports_multi_az}
   */
   readonly supportsMultiAz?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_performance_insights DataAwsRdsOrderableDbInstance#supports_performance_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_performance_insights DataAwsRdsOrderableDbInstance#supports_performance_insights}
   */
   readonly supportsPerformanceInsights?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_storage_autoscaling DataAwsRdsOrderableDbInstance#supports_storage_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_storage_autoscaling DataAwsRdsOrderableDbInstance#supports_storage_autoscaling}
   */
   readonly supportsStorageAutoscaling?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#supports_storage_encryption DataAwsRdsOrderableDbInstance#supports_storage_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#supports_storage_encryption DataAwsRdsOrderableDbInstance#supports_storage_encryption}
   */
   readonly supportsStorageEncryption?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#vpc DataAwsRdsOrderableDbInstance#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#vpc DataAwsRdsOrderableDbInstance#vpc}
   */
   readonly vpc?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance}
 */
 export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsRdsOrderableDbInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsRdsOrderableDbInstance to import
-  * @param importFromId The id of the existing DataAwsRdsOrderableDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsRdsOrderableDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsRdsOrderableDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,7 +154,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_rds_orderable_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -196,7 +196,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   // ==========
 
   // availability_zone_group - computed: true, optional: true, required: false
-  private _availabilityZoneGroup?: string; 
+  private _availabilityZoneGroup?: string;
   public get availabilityZoneGroup() {
     return this.getStringAttribute('availability_zone_group');
   }
@@ -217,7 +217,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string; 
+  private _engine?: string;
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -230,7 +230,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine_latest_version - computed: false, optional: true, required: false
-  private _engineLatestVersion?: boolean | cdktn.IResolvable; 
+  private _engineLatestVersion?: boolean | cdktn.IResolvable;
   public get engineLatestVersion() {
     return this.getBooleanAttribute('engine_latest_version');
   }
@@ -246,7 +246,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string; 
+  private _engineVersion?: string;
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -262,7 +262,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -278,7 +278,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // instance_class - computed: true, optional: true, required: false
-  private _instanceClass?: string; 
+  private _instanceClass?: string;
   public get instanceClass() {
     return this.getStringAttribute('instance_class');
   }
@@ -294,7 +294,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // license_model - computed: true, optional: true, required: false
-  private _licenseModel?: string; 
+  private _licenseModel?: string;
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -350,7 +350,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // preferred_engine_versions - computed: false, optional: true, required: false
-  private _preferredEngineVersions?: string[]; 
+  private _preferredEngineVersions?: string[];
   public get preferredEngineVersions() {
     return this.getListAttribute('preferred_engine_versions');
   }
@@ -366,7 +366,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // preferred_instance_classes - computed: false, optional: true, required: false
-  private _preferredInstanceClasses?: string[]; 
+  private _preferredInstanceClasses?: string[];
   public get preferredInstanceClasses() {
     return this.getListAttribute('preferred_instance_classes');
   }
@@ -382,7 +382,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // read_replica_capable - computed: true, optional: true, required: false
-  private _readReplicaCapable?: boolean | cdktn.IResolvable; 
+  private _readReplicaCapable?: boolean | cdktn.IResolvable;
   public get readReplicaCapable() {
     return this.getBooleanAttribute('read_replica_capable');
   }
@@ -398,7 +398,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -414,7 +414,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string; 
+  private _storageType?: string;
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -430,7 +430,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supported_engine_modes - computed: true, optional: true, required: false
-  private _supportedEngineModes?: string[]; 
+  private _supportedEngineModes?: string[];
   public get supportedEngineModes() {
     return this.getListAttribute('supported_engine_modes');
   }
@@ -446,7 +446,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supported_network_types - computed: true, optional: true, required: false
-  private _supportedNetworkTypes?: string[]; 
+  private _supportedNetworkTypes?: string[];
   public get supportedNetworkTypes() {
     return this.getListAttribute('supported_network_types');
   }
@@ -462,7 +462,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_clusters - computed: true, optional: true, required: false
-  private _supportsClusters?: boolean | cdktn.IResolvable; 
+  private _supportsClusters?: boolean | cdktn.IResolvable;
   public get supportsClusters() {
     return this.getBooleanAttribute('supports_clusters');
   }
@@ -478,7 +478,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_enhanced_monitoring - computed: true, optional: true, required: false
-  private _supportsEnhancedMonitoring?: boolean | cdktn.IResolvable; 
+  private _supportsEnhancedMonitoring?: boolean | cdktn.IResolvable;
   public get supportsEnhancedMonitoring() {
     return this.getBooleanAttribute('supports_enhanced_monitoring');
   }
@@ -494,7 +494,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_global_databases - computed: true, optional: true, required: false
-  private _supportsGlobalDatabases?: boolean | cdktn.IResolvable; 
+  private _supportsGlobalDatabases?: boolean | cdktn.IResolvable;
   public get supportsGlobalDatabases() {
     return this.getBooleanAttribute('supports_global_databases');
   }
@@ -510,7 +510,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_iam_database_authentication - computed: true, optional: true, required: false
-  private _supportsIamDatabaseAuthentication?: boolean | cdktn.IResolvable; 
+  private _supportsIamDatabaseAuthentication?: boolean | cdktn.IResolvable;
   public get supportsIamDatabaseAuthentication() {
     return this.getBooleanAttribute('supports_iam_database_authentication');
   }
@@ -526,7 +526,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_iops - computed: true, optional: true, required: false
-  private _supportsIops?: boolean | cdktn.IResolvable; 
+  private _supportsIops?: boolean | cdktn.IResolvable;
   public get supportsIops() {
     return this.getBooleanAttribute('supports_iops');
   }
@@ -542,7 +542,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_kerberos_authentication - computed: true, optional: true, required: false
-  private _supportsKerberosAuthentication?: boolean | cdktn.IResolvable; 
+  private _supportsKerberosAuthentication?: boolean | cdktn.IResolvable;
   public get supportsKerberosAuthentication() {
     return this.getBooleanAttribute('supports_kerberos_authentication');
   }
@@ -558,7 +558,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_multi_az - computed: true, optional: true, required: false
-  private _supportsMultiAz?: boolean | cdktn.IResolvable; 
+  private _supportsMultiAz?: boolean | cdktn.IResolvable;
   public get supportsMultiAz() {
     return this.getBooleanAttribute('supports_multi_az');
   }
@@ -574,7 +574,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_performance_insights - computed: true, optional: true, required: false
-  private _supportsPerformanceInsights?: boolean | cdktn.IResolvable; 
+  private _supportsPerformanceInsights?: boolean | cdktn.IResolvable;
   public get supportsPerformanceInsights() {
     return this.getBooleanAttribute('supports_performance_insights');
   }
@@ -590,7 +590,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_storage_autoscaling - computed: true, optional: true, required: false
-  private _supportsStorageAutoscaling?: boolean | cdktn.IResolvable; 
+  private _supportsStorageAutoscaling?: boolean | cdktn.IResolvable;
   public get supportsStorageAutoscaling() {
     return this.getBooleanAttribute('supports_storage_autoscaling');
   }
@@ -606,7 +606,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_storage_encryption - computed: true, optional: true, required: false
-  private _supportsStorageEncryption?: boolean | cdktn.IResolvable; 
+  private _supportsStorageEncryption?: boolean | cdktn.IResolvable;
   public get supportsStorageEncryption() {
     return this.getBooleanAttribute('supports_storage_encryption');
   }
@@ -622,7 +622,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // vpc - computed: true, optional: true, required: false
-  private _vpc?: boolean | cdktn.IResolvable; 
+  private _vpc?: boolean | cdktn.IResolvable;
   public get vpc() {
     return this.getBooleanAttribute('vpc');
   }

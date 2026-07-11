@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,67 +8,67 @@ import * as cdktn from 'cdktn';
 
 export interface MskClusterConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#broker_node_group_info MskCluster#broker_node_group_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#broker_node_group_info MskCluster#broker_node_group_info}
   */
   readonly brokerNodeGroupInfo: MskClusterBrokerNodeGroupInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
   */
   readonly clientAuthentication?: MskClusterClientAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#cluster_name MskCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#cluster_name MskCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#configuration_info MskCluster#configuration_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#configuration_info MskCluster#configuration_info}
   */
   readonly configurationInfo?: MskClusterConfigurationInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#encryption_info MskCluster#encryption_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#encryption_info MskCluster#encryption_info}
   */
   readonly encryptionInfo?: MskClusterEncryptionInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enhanced_monitoring MskCluster#enhanced_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enhanced_monitoring MskCluster#enhanced_monitoring}
   */
   readonly enhancedMonitoring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#kafka_version MskCluster#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#kafka_version MskCluster#kafka_version}
   */
   readonly kafkaVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#logging_info MskCluster#logging_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#logging_info MskCluster#logging_info}
   */
   readonly loggingInfo?: MskClusterLoggingInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#number_of_broker_nodes MskCluster#number_of_broker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#number_of_broker_nodes MskCluster#number_of_broker_nodes}
   */
   readonly numberOfBrokerNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#open_monitoring MskCluster#open_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#open_monitoring MskCluster#open_monitoring}
   */
   readonly openMonitoring?: MskClusterOpenMonitoring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#rebalancing MskCluster#rebalancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#rebalancing MskCluster#rebalancing}
   */
   readonly rebalancing?: MskClusterRebalancing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#storage_mode MskCluster#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#storage_mode MskCluster#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#tags MskCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#tags MskCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#zookeeper_access MskCluster#zookeeper_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#zookeeper_access MskCluster#zookeeper_access}
   */
   readonly zookeeperAccess?: MskClusterZookeeperAccess;
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#type MskCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#type MskCluster#type}
   */
   readonly type?: string;
 }
@@ -145,7 +145,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -162,7 +162,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputRefe
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -239,7 +239,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -256,7 +256,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScram {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -333,7 +333,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -350,11 +350,11 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSasl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#iam MskCluster#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#iam MskCluster#iam}
   */
   readonly iam?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#scram MskCluster#scram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#scram MskCluster#scram}
   */
   readonly scram?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScram;
 }
@@ -477,7 +477,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -554,7 +554,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -571,11 +571,11 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
   */
   readonly sasl?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSasl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#tls MskCluster#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#tls MskCluster#tls}
   */
   readonly tls?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTls;
 }
@@ -698,7 +698,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}
   */
   readonly clientAuthentication?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication;
 }
@@ -792,15 +792,15 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputR
 }
 export interface MskClusterBrokerNodeGroupInfoConnectivityInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#network_type MskCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#network_type MskCluster#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#public_access MskCluster#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#public_access MskCluster#public_access}
   */
   readonly publicAccess?: MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#vpc_connectivity MskCluster#vpc_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#vpc_connectivity MskCluster#vpc_connectivity}
   */
   readonly vpcConnectivity?: MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity;
 }
@@ -903,7 +903,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference extend
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string; 
+  private _networkType?: string;
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -952,11 +952,11 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference extend
 }
 export interface MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#volume_throughput MskCluster#volume_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#volume_throughput MskCluster#volume_throughput}
   */
   readonly volumeThroughput?: number;
 }
@@ -1046,7 +1046,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedTh
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1062,7 +1062,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedTh
   }
 
   // volume_throughput - computed: true, optional: true, required: false
-  private _volumeThroughput?: number; 
+  private _volumeThroughput?: number;
   public get volumeThroughput() {
     return this.getNumberAttribute('volume_throughput');
   }
@@ -1079,11 +1079,11 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedTh
 }
 export interface MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#provisioned_throughput MskCluster#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#provisioned_throughput MskCluster#provisioned_throughput}
   */
   readonly provisionedThroughput?: MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#volume_size MskCluster#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#volume_size MskCluster#volume_size}
   */
   readonly volumeSize?: number;
 }
@@ -1189,7 +1189,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReferen
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -1206,7 +1206,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReferen
 }
 export interface MskClusterBrokerNodeGroupInfoStorageInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#ebs_storage_info MskCluster#ebs_storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#ebs_storage_info MskCluster#ebs_storage_info}
   */
   readonly ebsStorageInfo?: MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo;
 }
@@ -1300,27 +1300,27 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoOutputReference extends cdk
 }
 export interface MskClusterBrokerNodeGroupInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#broker_az_distribution MskCluster#broker_az_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#broker_az_distribution MskCluster#broker_az_distribution}
   */
   readonly brokerAzDistribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#client_subnets MskCluster#client_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#client_subnets MskCluster#client_subnets}
   */
   readonly clientSubnets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#connectivity_info MskCluster#connectivity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#connectivity_info MskCluster#connectivity_info}
   */
   readonly connectivityInfo?: MskClusterBrokerNodeGroupInfoConnectivityInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#instance_type MskCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#instance_type MskCluster#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#security_groups MskCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#security_groups MskCluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#storage_info MskCluster#storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#storage_info MskCluster#storage_info}
   */
   readonly storageInfo?: MskClusterBrokerNodeGroupInfoStorageInfo;
 }
@@ -1462,7 +1462,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // broker_az_distribution - computed: true, optional: true, required: false
-  private _brokerAzDistribution?: string; 
+  private _brokerAzDistribution?: string;
   public get brokerAzDistribution() {
     return this.getStringAttribute('broker_az_distribution');
   }
@@ -1478,7 +1478,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // client_subnets - computed: false, optional: false, required: true
-  private _clientSubnets?: string[]; 
+  private _clientSubnets?: string[];
   public get clientSubnets() {
     return this.getListAttribute('client_subnets');
   }
@@ -1507,7 +1507,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1520,7 +1520,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -1553,7 +1553,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
 }
 export interface MskClusterClientAuthenticationSaslIam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1630,7 +1630,7 @@ export class MskClusterClientAuthenticationSaslIamOutputReference extends cdktn.
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1647,7 +1647,7 @@ export class MskClusterClientAuthenticationSaslIamOutputReference extends cdktn.
 }
 export interface MskClusterClientAuthenticationSaslScram {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1724,7 +1724,7 @@ export class MskClusterClientAuthenticationSaslScramOutputReference extends cdkt
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1741,11 +1741,11 @@ export class MskClusterClientAuthenticationSaslScramOutputReference extends cdkt
 }
 export interface MskClusterClientAuthenticationSasl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#iam MskCluster#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#iam MskCluster#iam}
   */
   readonly iam?: MskClusterClientAuthenticationSaslIam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#scram MskCluster#scram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#scram MskCluster#scram}
   */
   readonly scram?: MskClusterClientAuthenticationSaslScram;
 }
@@ -1868,11 +1868,11 @@ export class MskClusterClientAuthenticationSaslOutputReference extends cdktn.Com
 }
 export interface MskClusterClientAuthenticationTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#certificate_authority_arn_list MskCluster#certificate_authority_arn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#certificate_authority_arn_list MskCluster#certificate_authority_arn_list}
   */
   readonly certificateAuthorityArnList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1962,7 +1962,7 @@ export class MskClusterClientAuthenticationTlsOutputReference extends cdktn.Comp
   }
 
   // certificate_authority_arn_list - computed: true, optional: true, required: false
-  private _certificateAuthorityArnList?: string[]; 
+  private _certificateAuthorityArnList?: string[];
   public get certificateAuthorityArnList() {
     return this.getListAttribute('certificate_authority_arn_list');
   }
@@ -1978,7 +1978,7 @@ export class MskClusterClientAuthenticationTlsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1995,7 +1995,7 @@ export class MskClusterClientAuthenticationTlsOutputReference extends cdktn.Comp
 }
 export interface MskClusterClientAuthenticationUnauthenticated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -2072,7 +2072,7 @@ export class MskClusterClientAuthenticationUnauthenticatedOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2089,15 +2089,15 @@ export class MskClusterClientAuthenticationUnauthenticatedOutputReference extend
 }
 export interface MskClusterClientAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
   */
   readonly sasl?: MskClusterClientAuthenticationSasl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#tls MskCluster#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#tls MskCluster#tls}
   */
   readonly tls?: MskClusterClientAuthenticationTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#unauthenticated MskCluster#unauthenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#unauthenticated MskCluster#unauthenticated}
   */
   readonly unauthenticated?: MskClusterClientAuthenticationUnauthenticated;
 }
@@ -2249,11 +2249,11 @@ export class MskClusterClientAuthenticationOutputReference extends cdktn.Complex
 }
 export interface MskClusterConfigurationInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#arn MskCluster#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#arn MskCluster#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#revision MskCluster#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#revision MskCluster#revision}
   */
   readonly revision?: number;
 }
@@ -2343,7 +2343,7 @@ export class MskClusterConfigurationInfoOutputReference extends cdktn.ComplexObj
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2359,7 +2359,7 @@ export class MskClusterConfigurationInfoOutputReference extends cdktn.ComplexObj
   }
 
   // revision - computed: true, optional: true, required: false
-  private _revision?: number; 
+  private _revision?: number;
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2376,7 +2376,7 @@ export class MskClusterConfigurationInfoOutputReference extends cdktn.ComplexObj
 }
 export interface MskClusterEncryptionInfoEncryptionAtRest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#data_volume_kms_key_id MskCluster#data_volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#data_volume_kms_key_id MskCluster#data_volume_kms_key_id}
   */
   readonly dataVolumeKmsKeyId?: string;
 }
@@ -2453,7 +2453,7 @@ export class MskClusterEncryptionInfoEncryptionAtRestOutputReference extends cdk
   }
 
   // data_volume_kms_key_id - computed: true, optional: true, required: false
-  private _dataVolumeKmsKeyId?: string; 
+  private _dataVolumeKmsKeyId?: string;
   public get dataVolumeKmsKeyId() {
     return this.getStringAttribute('data_volume_kms_key_id');
   }
@@ -2470,11 +2470,11 @@ export class MskClusterEncryptionInfoEncryptionAtRestOutputReference extends cdk
 }
 export interface MskClusterEncryptionInfoEncryptionInTransit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#client_broker MskCluster#client_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#client_broker MskCluster#client_broker}
   */
   readonly clientBroker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#in_cluster MskCluster#in_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#in_cluster MskCluster#in_cluster}
   */
   readonly inCluster?: boolean | cdktn.IResolvable;
 }
@@ -2564,7 +2564,7 @@ export class MskClusterEncryptionInfoEncryptionInTransitOutputReference extends 
   }
 
   // client_broker - computed: true, optional: true, required: false
-  private _clientBroker?: string; 
+  private _clientBroker?: string;
   public get clientBroker() {
     return this.getStringAttribute('client_broker');
   }
@@ -2580,7 +2580,7 @@ export class MskClusterEncryptionInfoEncryptionInTransitOutputReference extends 
   }
 
   // in_cluster - computed: true, optional: true, required: false
-  private _inCluster?: boolean | cdktn.IResolvable; 
+  private _inCluster?: boolean | cdktn.IResolvable;
   public get inCluster() {
     return this.getBooleanAttribute('in_cluster');
   }
@@ -2597,11 +2597,11 @@ export class MskClusterEncryptionInfoEncryptionInTransitOutputReference extends 
 }
 export interface MskClusterEncryptionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#encryption_at_rest MskCluster#encryption_at_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#encryption_at_rest MskCluster#encryption_at_rest}
   */
   readonly encryptionAtRest?: MskClusterEncryptionInfoEncryptionAtRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#encryption_in_transit MskCluster#encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#encryption_in_transit MskCluster#encryption_in_transit}
   */
   readonly encryptionInTransit?: MskClusterEncryptionInfoEncryptionInTransit;
 }
@@ -2724,11 +2724,11 @@ export class MskClusterEncryptionInfoOutputReference extends cdktn.ComplexObject
 }
 export interface MskClusterLoggingInfoBrokerLogsCloudwatchLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#log_group MskCluster#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#log_group MskCluster#log_group}
   */
   readonly logGroup?: string;
 }
@@ -2818,7 +2818,7 @@ export class MskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2834,7 +2834,7 @@ export class MskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference extend
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -2851,11 +2851,11 @@ export class MskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference extend
 }
 export interface MskClusterLoggingInfoBrokerLogsFirehose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#delivery_stream MskCluster#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#delivery_stream MskCluster#delivery_stream}
   */
   readonly deliveryStream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -2945,7 +2945,7 @@ export class MskClusterLoggingInfoBrokerLogsFirehoseOutputReference extends cdkt
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string; 
+  private _deliveryStream?: string;
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -2961,7 +2961,7 @@ export class MskClusterLoggingInfoBrokerLogsFirehoseOutputReference extends cdkt
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2978,15 +2978,15 @@ export class MskClusterLoggingInfoBrokerLogsFirehoseOutputReference extends cdkt
 }
 export interface MskClusterLoggingInfoBrokerLogsS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#bucket MskCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#bucket MskCluster#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#prefix MskCluster#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#prefix MskCluster#prefix}
   */
   readonly prefix?: string;
 }
@@ -3089,7 +3089,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -3105,7 +3105,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3121,7 +3121,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -3138,15 +3138,15 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
 }
 export interface MskClusterLoggingInfoBrokerLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#cloudwatch_logs MskCluster#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: MskClusterLoggingInfoBrokerLogsCloudwatchLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#firehose MskCluster#firehose}
   */
   readonly firehose?: MskClusterLoggingInfoBrokerLogsFirehose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#s3 MskCluster#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#s3 MskCluster#s3}
   */
   readonly s3?: MskClusterLoggingInfoBrokerLogsS3;
 }
@@ -3298,7 +3298,7 @@ export class MskClusterLoggingInfoBrokerLogsOutputReference extends cdktn.Comple
 }
 export interface MskClusterLoggingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#broker_logs MskCluster#broker_logs}
   */
   readonly brokerLogs?: MskClusterLoggingInfoBrokerLogs;
 }
@@ -3392,7 +3392,7 @@ export class MskClusterLoggingInfoOutputReference extends cdktn.ComplexObject {
 }
 export interface MskClusterOpenMonitoringPrometheusJmxExporter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}
   */
   readonly enabledInBroker?: boolean | cdktn.IResolvable;
 }
@@ -3469,7 +3469,7 @@ export class MskClusterOpenMonitoringPrometheusJmxExporterOutputReference extend
   }
 
   // enabled_in_broker - computed: true, optional: true, required: false
-  private _enabledInBroker?: boolean | cdktn.IResolvable; 
+  private _enabledInBroker?: boolean | cdktn.IResolvable;
   public get enabledInBroker() {
     return this.getBooleanAttribute('enabled_in_broker');
   }
@@ -3486,7 +3486,7 @@ export class MskClusterOpenMonitoringPrometheusJmxExporterOutputReference extend
 }
 export interface MskClusterOpenMonitoringPrometheusNodeExporter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}
   */
   readonly enabledInBroker?: boolean | cdktn.IResolvable;
 }
@@ -3563,7 +3563,7 @@ export class MskClusterOpenMonitoringPrometheusNodeExporterOutputReference exten
   }
 
   // enabled_in_broker - computed: true, optional: true, required: false
-  private _enabledInBroker?: boolean | cdktn.IResolvable; 
+  private _enabledInBroker?: boolean | cdktn.IResolvable;
   public get enabledInBroker() {
     return this.getBooleanAttribute('enabled_in_broker');
   }
@@ -3580,11 +3580,11 @@ export class MskClusterOpenMonitoringPrometheusNodeExporterOutputReference exten
 }
 export interface MskClusterOpenMonitoringPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#jmx_exporter MskCluster#jmx_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#jmx_exporter MskCluster#jmx_exporter}
   */
   readonly jmxExporter?: MskClusterOpenMonitoringPrometheusJmxExporter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#node_exporter MskCluster#node_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#node_exporter MskCluster#node_exporter}
   */
   readonly nodeExporter?: MskClusterOpenMonitoringPrometheusNodeExporter;
 }
@@ -3707,7 +3707,7 @@ export class MskClusterOpenMonitoringPrometheusOutputReference extends cdktn.Com
 }
 export interface MskClusterOpenMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#prometheus MskCluster#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#prometheus MskCluster#prometheus}
   */
   readonly prometheus?: MskClusterOpenMonitoringPrometheus;
 }
@@ -3801,7 +3801,7 @@ export class MskClusterOpenMonitoringOutputReference extends cdktn.ComplexObject
 }
 export interface MskClusterRebalancing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#status MskCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#status MskCluster#status}
   */
   readonly status?: string;
 }
@@ -3878,7 +3878,7 @@ export class MskClusterRebalancingOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -3895,7 +3895,7 @@ export class MskClusterRebalancingOutputReference extends cdktn.ComplexObject {
 }
 export interface MskClusterZookeeperAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#enabled MskCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -3972,7 +3972,7 @@ export class MskClusterZookeeperAccessOutputReference extends cdktn.ComplexObjec
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3989,7 +3989,7 @@ export class MskClusterZookeeperAccessOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster awscc_msk_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster awscc_msk_cluster}
 */
 export class MskCluster extends cdktn.TerraformResource {
 
@@ -4005,7 +4005,7 @@ export class MskCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskCluster to import
-  * @param importFromId The id of the existing MskCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4017,7 +4017,7 @@ export class MskCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/msk_cluster awscc_msk_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/msk_cluster awscc_msk_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4028,7 +4028,7 @@ export class MskCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_msk_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4093,7 +4093,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -4143,7 +4143,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // enhanced_monitoring - computed: true, optional: true, required: false
-  private _enhancedMonitoring?: string; 
+  private _enhancedMonitoring?: string;
   public get enhancedMonitoring() {
     return this.getStringAttribute('enhanced_monitoring');
   }
@@ -4164,7 +4164,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // kafka_version - computed: false, optional: false, required: true
-  private _kafkaVersion?: string; 
+  private _kafkaVersion?: string;
   public get kafkaVersion() {
     return this.getStringAttribute('kafka_version');
   }
@@ -4193,7 +4193,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // number_of_broker_nodes - computed: false, optional: false, required: true
-  private _numberOfBrokerNodes?: number; 
+  private _numberOfBrokerNodes?: number;
   public get numberOfBrokerNodes() {
     return this.getNumberAttribute('number_of_broker_nodes');
   }
@@ -4238,7 +4238,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // storage_mode - computed: true, optional: true, required: false
-  private _storageMode?: string; 
+  private _storageMode?: string;
   public get storageMode() {
     return this.getStringAttribute('storage_mode');
   }
@@ -4254,7 +4254,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

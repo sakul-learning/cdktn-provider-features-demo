@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudfrontConnectionFunctionConfig extends cdktn.TerraformMetaA
   /**
   * A flag that determines whether to automatically publish the function to the ``LIVE`` stage when it?s created. To automatically publish to the ``LIVE`` stage, set this property to ``true``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#auto_publish CloudfrontConnectionFunction#auto_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#auto_publish CloudfrontConnectionFunction#auto_publish}
   */
   readonly autoPublish?: boolean | cdktn.IResolvable;
   /**
   * The code for the connection function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
   */
   readonly connectionFunctionCode: string;
   /**
   * Contains configuration information about a CloudFront function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
   */
   readonly connectionFunctionConfig: CloudfrontConnectionFunctionConnectionFunctionConfig;
   /**
   * The connection function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
   */
   readonly name: string;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
   */
   readonly tags?: CloudfrontConnectionFunctionTags[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueSto
   /**
   * The Amazon Resource Name (ARN) of the key value store association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
   */
   readonly keyValueStoreArn?: string;
 }
@@ -121,7 +121,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAs
   }
 
   // key_value_store_arn - computed: true, optional: true, required: false
-  private _keyValueStoreArn?: string; 
+  private _keyValueStoreArn?: string;
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -160,19 +160,19 @@ export interface CloudfrontConnectionFunctionConnectionFunctionConfig {
   /**
   * A comment to describe the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
   */
   readonly comment: string;
   /**
   * The configuration for the key value store associations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#key_value_store_associations CloudfrontConnectionFunction#key_value_store_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#key_value_store_associations CloudfrontConnectionFunction#key_value_store_associations}
   */
   readonly keyValueStoreAssociations?: CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociations[] | cdktn.IResolvable;
   /**
   * The function's runtime environment version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
   */
   readonly runtime: string;
 }
@@ -275,7 +275,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string; 
+  private _comment?: string;
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -304,7 +304,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string; 
+  private _runtime?: string;
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -321,14 +321,14 @@ export interface CloudfrontConnectionFunctionTags {
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#key CloudfrontConnectionFunction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#key CloudfrontConnectionFunction#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#value CloudfrontConnectionFunction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#value CloudfrontConnectionFunction#value}
   */
   readonly value?: string;
 }
@@ -420,7 +420,7 @@ export class CloudfrontConnectionFunctionTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -436,7 +436,7 @@ export class CloudfrontConnectionFunctionTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -473,7 +473,7 @@ export class CloudfrontConnectionFunctionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function}
 */
 export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
 
@@ -489,7 +489,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontConnectionFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontConnectionFunction to import
-  * @param importFromId The id of the existing CloudfrontConnectionFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontConnectionFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontConnectionFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -501,7 +501,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,7 +512,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_connection_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -534,7 +534,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   // ==========
 
   // auto_publish - computed: true, optional: true, required: false
-  private _autoPublish?: boolean | cdktn.IResolvable; 
+  private _autoPublish?: boolean | cdktn.IResolvable;
   public get autoPublish() {
     return this.getBooleanAttribute('auto_publish');
   }
@@ -555,7 +555,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // connection_function_code - computed: false, optional: false, required: true
-  private _connectionFunctionCode?: string; 
+  private _connectionFunctionCode?: string;
   public get connectionFunctionCode() {
     return this.getStringAttribute('connection_function_code');
   }
@@ -606,7 +606,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

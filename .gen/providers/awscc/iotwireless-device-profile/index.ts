@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IotwirelessDeviceProfileConfig extends cdktn.TerraformMetaArgum
   /**
   * LoRaWANDeviceProfile supports all LoRa specific attributes for service profile for CreateDeviceProfile operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#lo_ra_wan IotwirelessDeviceProfile#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#lo_ra_wan IotwirelessDeviceProfile#lo_ra_wan}
   */
   readonly loRaWan?: IotwirelessDeviceProfileLoRaWan;
   /**
   * Name of service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#name IotwirelessDeviceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#name IotwirelessDeviceProfile#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the device profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#tags IotwirelessDeviceProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#tags IotwirelessDeviceProfile#tags}
   */
   readonly tags?: IotwirelessDeviceProfileTags[] | cdktn.IResolvable;
 }
 export interface IotwirelessDeviceProfileLoRaWan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#class_b_timeout IotwirelessDeviceProfile#class_b_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#class_b_timeout IotwirelessDeviceProfile#class_b_timeout}
   */
   readonly classBTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#class_c_timeout IotwirelessDeviceProfile#class_c_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#class_c_timeout IotwirelessDeviceProfile#class_c_timeout}
   */
   readonly classCTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#factory_preset_freqs_list IotwirelessDeviceProfile#factory_preset_freqs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#factory_preset_freqs_list IotwirelessDeviceProfile#factory_preset_freqs_list}
   */
   readonly factoryPresetFreqsList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#mac_version IotwirelessDeviceProfile#mac_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#mac_version IotwirelessDeviceProfile#mac_version}
   */
   readonly macVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#max_duty_cycle IotwirelessDeviceProfile#max_duty_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#max_duty_cycle IotwirelessDeviceProfile#max_duty_cycle}
   */
   readonly maxDutyCycle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#max_eirp IotwirelessDeviceProfile#max_eirp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#max_eirp IotwirelessDeviceProfile#max_eirp}
   */
   readonly maxEirp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#ping_slot_dr IotwirelessDeviceProfile#ping_slot_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#ping_slot_dr IotwirelessDeviceProfile#ping_slot_dr}
   */
   readonly pingSlotDr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#ping_slot_freq IotwirelessDeviceProfile#ping_slot_freq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#ping_slot_freq IotwirelessDeviceProfile#ping_slot_freq}
   */
   readonly pingSlotFreq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#ping_slot_period IotwirelessDeviceProfile#ping_slot_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#ping_slot_period IotwirelessDeviceProfile#ping_slot_period}
   */
   readonly pingSlotPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#reg_params_revision IotwirelessDeviceProfile#reg_params_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#reg_params_revision IotwirelessDeviceProfile#reg_params_revision}
   */
   readonly regParamsRevision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#rf_region IotwirelessDeviceProfile#rf_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#rf_region IotwirelessDeviceProfile#rf_region}
   */
   readonly rfRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#rx_data_rate_2 IotwirelessDeviceProfile#rx_data_rate_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#rx_data_rate_2 IotwirelessDeviceProfile#rx_data_rate_2}
   */
   readonly rxDataRate2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#rx_delay_1 IotwirelessDeviceProfile#rx_delay_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#rx_delay_1 IotwirelessDeviceProfile#rx_delay_1}
   */
   readonly rxDelay1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#rx_dr_offset_1 IotwirelessDeviceProfile#rx_dr_offset_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#rx_dr_offset_1 IotwirelessDeviceProfile#rx_dr_offset_1}
   */
   readonly rxDrOffset1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#rx_freq_2 IotwirelessDeviceProfile#rx_freq_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#rx_freq_2 IotwirelessDeviceProfile#rx_freq_2}
   */
   readonly rxFreq2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#supports_32_bit_f_cnt IotwirelessDeviceProfile#supports_32_bit_f_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#supports_32_bit_f_cnt IotwirelessDeviceProfile#supports_32_bit_f_cnt}
   */
   readonly supports32BitFCnt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#supports_class_b IotwirelessDeviceProfile#supports_class_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#supports_class_b IotwirelessDeviceProfile#supports_class_b}
   */
   readonly supportsClassB?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#supports_class_c IotwirelessDeviceProfile#supports_class_c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#supports_class_c IotwirelessDeviceProfile#supports_class_c}
   */
   readonly supportsClassC?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#supports_join IotwirelessDeviceProfile#supports_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#supports_join IotwirelessDeviceProfile#supports_join}
   */
   readonly supportsJoin?: boolean | cdktn.IResolvable;
 }
@@ -411,7 +411,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // class_b_timeout - computed: true, optional: true, required: false
-  private _classBTimeout?: number; 
+  private _classBTimeout?: number;
   public get classBTimeout() {
     return this.getNumberAttribute('class_b_timeout');
   }
@@ -427,7 +427,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // class_c_timeout - computed: true, optional: true, required: false
-  private _classCTimeout?: number; 
+  private _classCTimeout?: number;
   public get classCTimeout() {
     return this.getNumberAttribute('class_c_timeout');
   }
@@ -443,7 +443,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // factory_preset_freqs_list - computed: true, optional: true, required: false
-  private _factoryPresetFreqsList?: number[]; 
+  private _factoryPresetFreqsList?: number[];
   public get factoryPresetFreqsList() {
     return this.getNumberListAttribute('factory_preset_freqs_list');
   }
@@ -459,7 +459,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // mac_version - computed: true, optional: true, required: false
-  private _macVersion?: string; 
+  private _macVersion?: string;
   public get macVersion() {
     return this.getStringAttribute('mac_version');
   }
@@ -475,7 +475,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // max_duty_cycle - computed: true, optional: true, required: false
-  private _maxDutyCycle?: number; 
+  private _maxDutyCycle?: number;
   public get maxDutyCycle() {
     return this.getNumberAttribute('max_duty_cycle');
   }
@@ -491,7 +491,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // max_eirp - computed: true, optional: true, required: false
-  private _maxEirp?: number; 
+  private _maxEirp?: number;
   public get maxEirp() {
     return this.getNumberAttribute('max_eirp');
   }
@@ -507,7 +507,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // ping_slot_dr - computed: true, optional: true, required: false
-  private _pingSlotDr?: number; 
+  private _pingSlotDr?: number;
   public get pingSlotDr() {
     return this.getNumberAttribute('ping_slot_dr');
   }
@@ -523,7 +523,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // ping_slot_freq - computed: true, optional: true, required: false
-  private _pingSlotFreq?: number; 
+  private _pingSlotFreq?: number;
   public get pingSlotFreq() {
     return this.getNumberAttribute('ping_slot_freq');
   }
@@ -539,7 +539,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // ping_slot_period - computed: true, optional: true, required: false
-  private _pingSlotPeriod?: number; 
+  private _pingSlotPeriod?: number;
   public get pingSlotPeriod() {
     return this.getNumberAttribute('ping_slot_period');
   }
@@ -555,7 +555,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // reg_params_revision - computed: true, optional: true, required: false
-  private _regParamsRevision?: string; 
+  private _regParamsRevision?: string;
   public get regParamsRevision() {
     return this.getStringAttribute('reg_params_revision');
   }
@@ -571,7 +571,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // rf_region - computed: true, optional: true, required: false
-  private _rfRegion?: string; 
+  private _rfRegion?: string;
   public get rfRegion() {
     return this.getStringAttribute('rf_region');
   }
@@ -587,7 +587,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // rx_data_rate_2 - computed: true, optional: true, required: false
-  private _rxDataRate2?: number; 
+  private _rxDataRate2?: number;
   public get rxDataRate2() {
     return this.getNumberAttribute('rx_data_rate_2');
   }
@@ -603,7 +603,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // rx_delay_1 - computed: true, optional: true, required: false
-  private _rxDelay1?: number; 
+  private _rxDelay1?: number;
   public get rxDelay1() {
     return this.getNumberAttribute('rx_delay_1');
   }
@@ -619,7 +619,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // rx_dr_offset_1 - computed: true, optional: true, required: false
-  private _rxDrOffset1?: number; 
+  private _rxDrOffset1?: number;
   public get rxDrOffset1() {
     return this.getNumberAttribute('rx_dr_offset_1');
   }
@@ -635,7 +635,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // rx_freq_2 - computed: true, optional: true, required: false
-  private _rxFreq2?: number; 
+  private _rxFreq2?: number;
   public get rxFreq2() {
     return this.getNumberAttribute('rx_freq_2');
   }
@@ -651,7 +651,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // supports_32_bit_f_cnt - computed: true, optional: true, required: false
-  private _supports32BitFCnt?: boolean | cdktn.IResolvable; 
+  private _supports32BitFCnt?: boolean | cdktn.IResolvable;
   public get supports32BitFCnt() {
     return this.getBooleanAttribute('supports_32_bit_f_cnt');
   }
@@ -667,7 +667,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // supports_class_b - computed: true, optional: true, required: false
-  private _supportsClassB?: boolean | cdktn.IResolvable; 
+  private _supportsClassB?: boolean | cdktn.IResolvable;
   public get supportsClassB() {
     return this.getBooleanAttribute('supports_class_b');
   }
@@ -683,7 +683,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // supports_class_c - computed: true, optional: true, required: false
-  private _supportsClassC?: boolean | cdktn.IResolvable; 
+  private _supportsClassC?: boolean | cdktn.IResolvable;
   public get supportsClassC() {
     return this.getBooleanAttribute('supports_class_c');
   }
@@ -699,7 +699,7 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
   }
 
   // supports_join - computed: true, optional: true, required: false
-  private _supportsJoin?: boolean | cdktn.IResolvable; 
+  private _supportsJoin?: boolean | cdktn.IResolvable;
   public get supportsJoin() {
     return this.getBooleanAttribute('supports_join');
   }
@@ -716,11 +716,11 @@ export class IotwirelessDeviceProfileLoRaWanOutputReference extends cdktn.Comple
 }
 export interface IotwirelessDeviceProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#key IotwirelessDeviceProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#key IotwirelessDeviceProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#value IotwirelessDeviceProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#value IotwirelessDeviceProfile#value}
   */
   readonly value?: string;
 }
@@ -812,7 +812,7 @@ export class IotwirelessDeviceProfileTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -828,7 +828,7 @@ export class IotwirelessDeviceProfileTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -865,7 +865,7 @@ export class IotwirelessDeviceProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile awscc_iotwireless_device_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile awscc_iotwireless_device_profile}
 */
 export class IotwirelessDeviceProfile extends cdktn.TerraformResource {
 
@@ -881,7 +881,7 @@ export class IotwirelessDeviceProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessDeviceProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessDeviceProfile to import
-  * @param importFromId The id of the existing IotwirelessDeviceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessDeviceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessDeviceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -893,7 +893,7 @@ export class IotwirelessDeviceProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_device_profile awscc_iotwireless_device_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_device_profile awscc_iotwireless_device_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -904,7 +904,7 @@ export class IotwirelessDeviceProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_device_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -955,7 +955,7 @@ export class IotwirelessDeviceProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

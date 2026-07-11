@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface EntityresolutionSchemaMappingConfig extends cdktn.TerraformMeta
   /**
   * The description of the SchemaMapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#description EntityresolutionSchemaMapping#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#description EntityresolutionSchemaMapping#description}
   */
   readonly description?: string;
   /**
   * The SchemaMapping attributes input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#mapped_input_fields EntityresolutionSchemaMapping#mapped_input_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#mapped_input_fields EntityresolutionSchemaMapping#mapped_input_fields}
   */
   readonly mappedInputFields: EntityresolutionSchemaMappingMappedInputFields[] | cdktn.IResolvable;
   /**
   * The name of the SchemaMapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#schema_name EntityresolutionSchemaMapping#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#schema_name EntityresolutionSchemaMapping#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#tags EntityresolutionSchemaMapping#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#tags EntityresolutionSchemaMapping#tags}
   */
   readonly tags?: EntityresolutionSchemaMappingTags[] | cdktn.IResolvable;
 }
 export interface EntityresolutionSchemaMappingMappedInputFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#field_name EntityresolutionSchemaMapping#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#field_name EntityresolutionSchemaMapping#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#group_name EntityresolutionSchemaMapping#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#group_name EntityresolutionSchemaMapping#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#hashed EntityresolutionSchemaMapping#hashed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#hashed EntityresolutionSchemaMapping#hashed}
   */
   readonly hashed?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#match_key EntityresolutionSchemaMapping#match_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#match_key EntityresolutionSchemaMapping#match_key}
   */
   readonly matchKey?: string;
   /**
   * The subtype of the Attribute. Would be required only when type is PROVIDER_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#sub_type EntityresolutionSchemaMapping#sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#sub_type EntityresolutionSchemaMapping#sub_type}
   */
   readonly subType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#type EntityresolutionSchemaMapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#type EntityresolutionSchemaMapping#type}
   */
   readonly type: string;
 }
@@ -198,7 +198,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // field_name - computed: false, optional: false, required: true
-  private _fieldName?: string; 
+  private _fieldName?: string;
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -211,7 +211,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -227,7 +227,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // hashed - computed: true, optional: true, required: false
-  private _hashed?: boolean | cdktn.IResolvable; 
+  private _hashed?: boolean | cdktn.IResolvable;
   public get hashed() {
     return this.getBooleanAttribute('hashed');
   }
@@ -243,7 +243,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // match_key - computed: true, optional: true, required: false
-  private _matchKey?: string; 
+  private _matchKey?: string;
   public get matchKey() {
     return this.getStringAttribute('match_key');
   }
@@ -259,7 +259,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // sub_type - computed: true, optional: true, required: false
-  private _subType?: string; 
+  private _subType?: string;
   public get subType() {
     return this.getStringAttribute('sub_type');
   }
@@ -275,7 +275,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -311,13 +311,13 @@ export interface EntityresolutionSchemaMappingTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#key EntityresolutionSchemaMapping#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#key EntityresolutionSchemaMapping#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#value EntityresolutionSchemaMapping#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#value EntityresolutionSchemaMapping#value}
   */
   readonly value?: string;
 }
@@ -409,7 +409,7 @@ export class EntityresolutionSchemaMappingTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -425,7 +425,7 @@ export class EntityresolutionSchemaMappingTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -462,7 +462,7 @@ export class EntityresolutionSchemaMappingTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping awscc_entityresolution_schema_mapping}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping awscc_entityresolution_schema_mapping}
 */
 export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
 
@@ -478,7 +478,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EntityresolutionSchemaMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityresolutionSchemaMapping to import
-  * @param importFromId The id of the existing EntityresolutionSchemaMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityresolutionSchemaMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityresolutionSchemaMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -490,7 +490,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_schema_mapping awscc_entityresolution_schema_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_schema_mapping awscc_entityresolution_schema_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,7 +501,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_entityresolution_schema_mapping',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -527,7 +527,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -571,7 +571,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   }
 
   // schema_name - computed: false, optional: false, required: true
-  private _schemaName?: string; 
+  private _schemaName?: string;
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }

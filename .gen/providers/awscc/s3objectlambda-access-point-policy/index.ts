@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface S3ObjectlambdaAccessPointPolicyConfig extends cdktn.TerraformMe
   /**
   * The name of the Amazon S3 ObjectLambdaAccessPoint to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
   */
   readonly objectLambdaAccessPoint: string;
   /**
-  * A policy document containing permissions to add to the specified ObjectLambdaAccessPoint. For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide. 
+  * A policy document containing permissions to add to the specified ObjectLambdaAccessPoint. For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
   */
   readonly policyDocument: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}
 */
 export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3ObjectlambdaAccessPointPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3ObjectlambdaAccessPointPolicy to import
-  * @param importFromId The id of the existing S3ObjectlambdaAccessPointPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3ObjectlambdaAccessPointPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3ObjectlambdaAccessPointPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3objectlambda_access_point_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // object_lambda_access_point - computed: false, optional: false, required: true
-  private _objectLambdaAccessPoint?: string; 
+  private _objectLambdaAccessPoint?: string;
   public get objectLambdaAccessPoint() {
     return this.getStringAttribute('object_lambda_access_point');
   }
@@ -98,7 +98,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string; 
+  private _policyDocument?: string;
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }

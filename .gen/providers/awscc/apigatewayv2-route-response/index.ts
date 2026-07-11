@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface Apigatewayv2RouteResponseConfig extends cdktn.TerraformMetaArgu
   /**
   * The API identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#api_id Apigatewayv2RouteResponse#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#api_id Apigatewayv2RouteResponse#api_id}
   */
   readonly apiId: string;
   /**
   * The model selection expression for the route response. Supported only for WebSocket APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#model_selection_expression Apigatewayv2RouteResponse#model_selection_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#model_selection_expression Apigatewayv2RouteResponse#model_selection_expression}
   */
   readonly modelSelectionExpression?: string;
   /**
   * The response models for the route response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#response_models Apigatewayv2RouteResponse#response_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#response_models Apigatewayv2RouteResponse#response_models}
   */
   readonly responseModels?: string;
   /**
   * The route response parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#response_parameters Apigatewayv2RouteResponse#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#response_parameters Apigatewayv2RouteResponse#response_parameters}
   */
   readonly responseParameters?: { [key: string]: Apigatewayv2RouteResponseResponseParameters } | cdktn.IResolvable;
   /**
   * The route ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#route_id Apigatewayv2RouteResponse#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#route_id Apigatewayv2RouteResponse#route_id}
   */
   readonly routeId: string;
   /**
   * The route response key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#route_response_key Apigatewayv2RouteResponse#route_response_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#route_response_key Apigatewayv2RouteResponse#route_response_key}
   */
   readonly routeResponseKey: string;
 }
@@ -48,7 +48,7 @@ export interface Apigatewayv2RouteResponseResponseParameters {
   /**
   * Specifies whether the parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#required Apigatewayv2RouteResponse#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#required Apigatewayv2RouteResponse#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -126,7 +126,7 @@ export class Apigatewayv2RouteResponseResponseParametersOutputReference extends 
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable;
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -162,7 +162,7 @@ export class Apigatewayv2RouteResponseResponseParametersMap extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}
 */
 export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
 
@@ -178,7 +178,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2RouteResponse resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2RouteResponse to import
-  * @param importFromId The id of the existing Apigatewayv2RouteResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2RouteResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2RouteResponse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -190,7 +190,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,7 +201,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigatewayv2_route_response',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -224,7 +224,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string; 
+  private _apiId?: string;
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -242,7 +242,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // model_selection_expression - computed: true, optional: true, required: false
-  private _modelSelectionExpression?: string; 
+  private _modelSelectionExpression?: string;
   public get modelSelectionExpression() {
     return this.getStringAttribute('model_selection_expression');
   }
@@ -258,7 +258,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // response_models - computed: true, optional: true, required: false
-  private _responseModels?: string; 
+  private _responseModels?: string;
   public get responseModels() {
     return this.getStringAttribute('response_models');
   }
@@ -290,7 +290,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // route_id - computed: false, optional: false, required: true
-  private _routeId?: string; 
+  private _routeId?: string;
   public get routeId() {
     return this.getStringAttribute('route_id');
   }
@@ -308,7 +308,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // route_response_key - computed: false, optional: false, required: true
-  private _routeResponseKey?: string; 
+  private _routeResponseKey?: string;
   public get routeResponseKey() {
     return this.getStringAttribute('route_response_key');
   }

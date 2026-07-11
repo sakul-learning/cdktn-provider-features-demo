@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface S3FilesFileSystemConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#accept_bucket_warning S3FilesFileSystem#accept_bucket_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#accept_bucket_warning S3FilesFileSystem#accept_bucket_warning}
   */
   readonly acceptBucketWarning?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#bucket S3FilesFileSystem#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#bucket S3FilesFileSystem#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#client_token S3FilesFileSystem#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#client_token S3FilesFileSystem#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#kms_key_id S3FilesFileSystem#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#kms_key_id S3FilesFileSystem#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#prefix S3FilesFileSystem#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#prefix S3FilesFileSystem#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#role_arn S3FilesFileSystem#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#role_arn S3FilesFileSystem#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#synchronization_configuration S3FilesFileSystem#synchronization_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#synchronization_configuration S3FilesFileSystem#synchronization_configuration}
   */
   readonly synchronizationConfiguration?: S3FilesFileSystemSynchronizationConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#tags S3FilesFileSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#tags S3FilesFileSystem#tags}
   */
   readonly tags?: S3FilesFileSystemTags[] | cdktn.IResolvable;
 }
 export interface S3FilesFileSystemSynchronizationConfigurationExpirationDataRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#days_after_last_access S3FilesFileSystem#days_after_last_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#days_after_last_access S3FilesFileSystem#days_after_last_access}
   */
   readonly daysAfterLastAccess?: number;
 }
@@ -121,7 +121,7 @@ export class S3FilesFileSystemSynchronizationConfigurationExpirationDataRulesOut
   }
 
   // days_after_last_access - computed: true, optional: true, required: false
-  private _daysAfterLastAccess?: number; 
+  private _daysAfterLastAccess?: number;
   public get daysAfterLastAccess() {
     return this.getNumberAttribute('days_after_last_access');
   }
@@ -158,15 +158,15 @@ export class S3FilesFileSystemSynchronizationConfigurationExpirationDataRulesLis
 }
 export interface S3FilesFileSystemSynchronizationConfigurationImportDataRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#prefix S3FilesFileSystem#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#prefix S3FilesFileSystem#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#size_less_than S3FilesFileSystem#size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#size_less_than S3FilesFileSystem#size_less_than}
   */
   readonly sizeLessThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#trigger S3FilesFileSystem#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#trigger S3FilesFileSystem#trigger}
   */
   readonly trigger?: string;
 }
@@ -271,7 +271,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -287,7 +287,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // size_less_than - computed: true, optional: true, required: false
-  private _sizeLessThan?: number; 
+  private _sizeLessThan?: number;
   public get sizeLessThan() {
     return this.getNumberAttribute('size_less_than');
   }
@@ -303,7 +303,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // trigger - computed: true, optional: true, required: false
-  private _trigger?: string; 
+  private _trigger?: string;
   public get trigger() {
     return this.getStringAttribute('trigger');
   }
@@ -340,11 +340,11 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesList ex
 }
 export interface S3FilesFileSystemSynchronizationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#expiration_data_rules S3FilesFileSystem#expiration_data_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#expiration_data_rules S3FilesFileSystem#expiration_data_rules}
   */
   readonly expirationDataRules?: S3FilesFileSystemSynchronizationConfigurationExpirationDataRules[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#import_data_rules S3FilesFileSystem#import_data_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#import_data_rules S3FilesFileSystem#import_data_rules}
   */
   readonly importDataRules?: S3FilesFileSystemSynchronizationConfigurationImportDataRules[] | cdktn.IResolvable;
 }
@@ -472,11 +472,11 @@ export class S3FilesFileSystemSynchronizationConfigurationOutputReference extend
 }
 export interface S3FilesFileSystemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#key S3FilesFileSystem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#key S3FilesFileSystem#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#value S3FilesFileSystem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#value S3FilesFileSystem#value}
   */
   readonly value?: string;
 }
@@ -568,7 +568,7 @@ export class S3FilesFileSystemTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class S3FilesFileSystemTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -621,7 +621,7 @@ export class S3FilesFileSystemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system awscc_s3files_file_system}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system awscc_s3files_file_system}
 */
 export class S3FilesFileSystem extends cdktn.TerraformResource {
 
@@ -637,7 +637,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3FilesFileSystem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3FilesFileSystem to import
-  * @param importFromId The id of the existing S3FilesFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3FilesFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3FilesFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -649,7 +649,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_file_system awscc_s3files_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_file_system awscc_s3files_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,7 +660,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3files_file_system',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -685,7 +685,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   // ==========
 
   // accept_bucket_warning - computed: true, optional: true, required: false
-  private _acceptBucketWarning?: boolean | cdktn.IResolvable; 
+  private _acceptBucketWarning?: boolean | cdktn.IResolvable;
   public get acceptBucketWarning() {
     return this.getBooleanAttribute('accept_bucket_warning');
   }
@@ -701,7 +701,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -714,7 +714,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string; 
+  private _clientToken?: string;
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -750,7 +750,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -771,7 +771,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -787,7 +787,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktn from 'cdktn';
 
 export interface CurReportDefinitionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}
   */
   readonly additionalArtifacts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}
   */
   readonly additionalSchemaElements: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}
   */
   readonly compression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#format CurReportDefinition#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#format CurReportDefinition#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#id CurReportDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#id CurReportDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}
   */
   readonly refreshClosedReports?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}
   */
   readonly reportName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}
   */
   readonly reportVersioning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}
   */
   readonly s3Prefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}
   */
   readonly s3Region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#tags_all CurReportDefinition#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#tags_all CurReportDefinition#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}
   */
   readonly timeUnit: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition aws_cur_report_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition aws_cur_report_definition}
 */
 export class CurReportDefinition extends cdktn.TerraformResource {
 
@@ -85,7 +85,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CurReportDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CurReportDefinition to import
-  * @param importFromId The id of the existing CurReportDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CurReportDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CurReportDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -97,7 +97,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cur_report_definition',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -139,7 +139,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   // ==========
 
   // additional_artifacts - computed: false, optional: true, required: false
-  private _additionalArtifacts?: string[]; 
+  private _additionalArtifacts?: string[];
   public get additionalArtifacts() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_artifacts'));
   }
@@ -155,7 +155,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // additional_schema_elements - computed: false, optional: false, required: true
-  private _additionalSchemaElements?: string[]; 
+  private _additionalSchemaElements?: string[];
   public get additionalSchemaElements() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_schema_elements'));
   }
@@ -173,7 +173,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // compression - computed: false, optional: false, required: true
-  private _compression?: string; 
+  private _compression?: string;
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -186,7 +186,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -199,7 +199,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -215,7 +215,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // refresh_closed_reports - computed: false, optional: true, required: false
-  private _refreshClosedReports?: boolean | cdktn.IResolvable; 
+  private _refreshClosedReports?: boolean | cdktn.IResolvable;
   public get refreshClosedReports() {
     return this.getBooleanAttribute('refresh_closed_reports');
   }
@@ -231,7 +231,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // report_name - computed: false, optional: false, required: true
-  private _reportName?: string; 
+  private _reportName?: string;
   public get reportName() {
     return this.getStringAttribute('report_name');
   }
@@ -244,7 +244,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // report_versioning - computed: false, optional: true, required: false
-  private _reportVersioning?: string; 
+  private _reportVersioning?: string;
   public get reportVersioning() {
     return this.getStringAttribute('report_versioning');
   }
@@ -260,7 +260,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string; 
+  private _s3Bucket?: string;
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -273,7 +273,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_prefix - computed: false, optional: false, required: true
-  private _s3Prefix?: string; 
+  private _s3Prefix?: string;
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -286,7 +286,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_region - computed: false, optional: false, required: true
-  private _s3Region?: string; 
+  private _s3Region?: string;
   public get s3Region() {
     return this.getStringAttribute('s3_region');
   }
@@ -299,7 +299,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -315,7 +315,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -331,7 +331,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // time_unit - computed: false, optional: false, required: true
-  private _timeUnit?: string; 
+  private _timeUnit?: string;
   public get timeUnit() {
     return this.getStringAttribute('time_unit');
   }

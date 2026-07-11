@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface SsmMaintenanceWindowConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#allow_unassociated_targets SsmMaintenanceWindow#allow_unassociated_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#allow_unassociated_targets SsmMaintenanceWindow#allow_unassociated_targets}
   */
   readonly allowUnassociatedTargets?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#cutoff SsmMaintenanceWindow#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#cutoff SsmMaintenanceWindow#cutoff}
   */
   readonly cutoff: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#description SsmMaintenanceWindow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#description SsmMaintenanceWindow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#duration SsmMaintenanceWindow#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#duration SsmMaintenanceWindow#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#enabled SsmMaintenanceWindow#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#enabled SsmMaintenanceWindow#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#end_date SsmMaintenanceWindow#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#end_date SsmMaintenanceWindow#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#id SsmMaintenanceWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#id SsmMaintenanceWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#name SsmMaintenanceWindow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#name SsmMaintenanceWindow#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#region SsmMaintenanceWindow#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#region SsmMaintenanceWindow#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#schedule SsmMaintenanceWindow#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#schedule SsmMaintenanceWindow#schedule}
   */
   readonly schedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#schedule_offset SsmMaintenanceWindow#schedule_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#schedule_offset SsmMaintenanceWindow#schedule_offset}
   */
   readonly scheduleOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#schedule_timezone SsmMaintenanceWindow#schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#schedule_timezone SsmMaintenanceWindow#schedule_timezone}
   */
   readonly scheduleTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#start_date SsmMaintenanceWindow#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#start_date SsmMaintenanceWindow#start_date}
   */
   readonly startDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#tags SsmMaintenanceWindow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#tags SsmMaintenanceWindow#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#tags_all SsmMaintenanceWindow#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#tags_all SsmMaintenanceWindow#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window}
 */
 export class SsmMaintenanceWindow extends cdktn.TerraformResource {
 
@@ -91,7 +91,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmMaintenanceWindow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmMaintenanceWindow to import
-  * @param importFromId The id of the existing SsmMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmMaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -103,7 +103,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,7 +114,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ssm_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -146,7 +146,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   // ==========
 
   // allow_unassociated_targets - computed: false, optional: true, required: false
-  private _allowUnassociatedTargets?: boolean | cdktn.IResolvable; 
+  private _allowUnassociatedTargets?: boolean | cdktn.IResolvable;
   public get allowUnassociatedTargets() {
     return this.getBooleanAttribute('allow_unassociated_targets');
   }
@@ -162,7 +162,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // cutoff - computed: false, optional: false, required: true
-  private _cutoff?: number; 
+  private _cutoff?: number;
   public get cutoff() {
     return this.getNumberAttribute('cutoff');
   }
@@ -175,7 +175,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number; 
+  private _duration?: number;
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -204,7 +204,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -220,7 +220,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // end_date - computed: false, optional: true, required: false
-  private _endDate?: string; 
+  private _endDate?: string;
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -236,7 +236,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -252,7 +252,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -265,7 +265,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -281,7 +281,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: false, required: true
-  private _schedule?: string; 
+  private _schedule?: string;
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -294,7 +294,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule_offset - computed: false, optional: true, required: false
-  private _scheduleOffset?: number; 
+  private _scheduleOffset?: number;
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -310,7 +310,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule_timezone - computed: false, optional: true, required: false
-  private _scheduleTimezone?: string; 
+  private _scheduleTimezone?: string;
   public get scheduleTimezone() {
     return this.getStringAttribute('schedule_timezone');
   }
@@ -326,7 +326,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // start_date - computed: false, optional: true, required: false
-  private _startDate?: string; 
+  private _startDate?: string;
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -342,7 +342,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -358,7 +358,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

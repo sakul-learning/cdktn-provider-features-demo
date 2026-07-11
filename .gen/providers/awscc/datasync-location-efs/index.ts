@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DatasyncLocationEfsConfig extends cdktn.TerraformMetaArguments 
   /**
   * The Amazon Resource Name (ARN) for the Amazon EFS Access point that DataSync uses when accessing the EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#access_point_arn DatasyncLocationEfs#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
   * The subnet and security group that DataSync uses to access target EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#ec_2_config DatasyncLocationEfs#ec_2_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#ec_2_config DatasyncLocationEfs#ec_2_config}
   */
   readonly ec2Config: DatasyncLocationEfsEc2Config;
   /**
   * The Amazon Resource Name (ARN) for the Amazon EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#efs_filesystem_arn DatasyncLocationEfs#efs_filesystem_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#efs_filesystem_arn DatasyncLocationEfs#efs_filesystem_arn}
   */
   readonly efsFilesystemArn?: string;
   /**
   * The Amazon Resource Name (ARN) of the AWS IAM role that the DataSync will assume when mounting the EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#file_system_access_role_arn DatasyncLocationEfs#file_system_access_role_arn}
   */
   readonly fileSystemAccessRoleArn?: string;
   /**
   * Protocol that is used for encrypting the traffic exchanged between the DataSync Agent and the EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#in_transit_encryption DatasyncLocationEfs#in_transit_encryption}
   */
   readonly inTransitEncryption?: string;
   /**
   * A subdirectory in the location's path. This subdirectory in the EFS file system is used to read data from the EFS source location or write data to the EFS destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#subdirectory DatasyncLocationEfs#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#tags DatasyncLocationEfs#tags}
   */
   readonly tags?: DatasyncLocationEfsTags[] | cdktn.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface DatasyncLocationEfsEc2Config {
   /**
   * The Amazon Resource Names (ARNs) of the security groups that are configured for the Amazon EC2 resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#security_group_arns DatasyncLocationEfs#security_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#security_group_arns DatasyncLocationEfs#security_group_arns}
   */
   readonly securityGroupArns: string[];
   /**
   * The ARN of the subnet that DataSync uses to access the target EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#subnet_arn DatasyncLocationEfs#subnet_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#subnet_arn DatasyncLocationEfs#subnet_arn}
   */
   readonly subnetArn: string;
 }
@@ -150,7 +150,7 @@ export class DatasyncLocationEfsEc2ConfigOutputReference extends cdktn.ComplexOb
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[]; 
+  private _securityGroupArns?: string[];
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -163,7 +163,7 @@ export class DatasyncLocationEfsEc2ConfigOutputReference extends cdktn.ComplexOb
   }
 
   // subnet_arn - computed: false, optional: false, required: true
-  private _subnetArn?: string; 
+  private _subnetArn?: string;
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -179,13 +179,13 @@ export interface DatasyncLocationEfsTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
   */
   readonly value?: string;
 }
@@ -277,7 +277,7 @@ export class DatasyncLocationEfsTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class DatasyncLocationEfsTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -330,7 +330,7 @@ export class DatasyncLocationEfsTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs awscc_datasync_location_efs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs awscc_datasync_location_efs}
 */
 export class DatasyncLocationEfs extends cdktn.TerraformResource {
 
@@ -346,7 +346,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationEfs resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationEfs to import
-  * @param importFromId The id of the existing DatasyncLocationEfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationEfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationEfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -358,7 +358,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_efs awscc_datasync_location_efs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_efs awscc_datasync_location_efs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,7 +369,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_efs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -393,7 +393,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   // ==========
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string; 
+  private _accessPointArn?: string;
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -422,7 +422,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // efs_filesystem_arn - computed: true, optional: true, required: false
-  private _efsFilesystemArn?: string; 
+  private _efsFilesystemArn?: string;
   public get efsFilesystemArn() {
     return this.getStringAttribute('efs_filesystem_arn');
   }
@@ -438,7 +438,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // file_system_access_role_arn - computed: true, optional: true, required: false
-  private _fileSystemAccessRoleArn?: string; 
+  private _fileSystemAccessRoleArn?: string;
   public get fileSystemAccessRoleArn() {
     return this.getStringAttribute('file_system_access_role_arn');
   }
@@ -459,7 +459,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // in_transit_encryption - computed: true, optional: true, required: false
-  private _inTransitEncryption?: string; 
+  private _inTransitEncryption?: string;
   public get inTransitEncryption() {
     return this.getStringAttribute('in_transit_encryption');
   }
@@ -485,7 +485,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string; 
+  private _subdirectory?: string;
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

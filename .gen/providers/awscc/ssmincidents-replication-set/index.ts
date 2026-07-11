@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SsmincidentsReplicationSetConfig extends cdktn.TerraformMetaArg
   /**
   * Configures the ReplicationSet deletion protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#deletion_protected SsmincidentsReplicationSet#deletion_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#deletion_protected SsmincidentsReplicationSet#deletion_protected}
   */
   readonly deletionProtected?: boolean | cdktn.IResolvable;
   /**
   * The ReplicationSet configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#regions SsmincidentsReplicationSet#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#regions SsmincidentsReplicationSet#regions}
   */
   readonly regions: SsmincidentsReplicationSetRegions[] | cdktn.IResolvable;
   /**
   * The tags to apply to the replication set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#tags SsmincidentsReplicationSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#tags SsmincidentsReplicationSet#tags}
   */
   readonly tags?: SsmincidentsReplicationSetTags[] | cdktn.IResolvable;
 }
@@ -30,7 +30,7 @@ export interface SsmincidentsReplicationSetRegionsRegionConfiguration {
   /**
   * The AWS Key Management Service key ID or Key Alias to use to encrypt your replication set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#sse_kms_key_id SsmincidentsReplicationSet#sse_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#sse_kms_key_id SsmincidentsReplicationSet#sse_kms_key_id}
   */
   readonly sseKmsKeyId?: string;
 }
@@ -107,7 +107,7 @@ export class SsmincidentsReplicationSetRegionsRegionConfigurationOutputReference
   }
 
   // sse_kms_key_id - computed: true, optional: true, required: false
-  private _sseKmsKeyId?: string; 
+  private _sseKmsKeyId?: string;
   public get sseKmsKeyId() {
     return this.getStringAttribute('sse_kms_key_id');
   }
@@ -126,13 +126,13 @@ export interface SsmincidentsReplicationSetRegions {
   /**
   * The ReplicationSet regional configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#region_configuration SsmincidentsReplicationSet#region_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#region_configuration SsmincidentsReplicationSet#region_configuration}
   */
   readonly regionConfiguration?: SsmincidentsReplicationSetRegionsRegionConfiguration;
   /**
   * The AWS region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#region_name SsmincidentsReplicationSet#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#region_name SsmincidentsReplicationSet#region_name}
   */
   readonly regionName?: string;
 }
@@ -240,7 +240,7 @@ export class SsmincidentsReplicationSetRegionsOutputReference extends cdktn.Comp
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string; 
+  private _regionName?: string;
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -277,11 +277,11 @@ export class SsmincidentsReplicationSetRegionsList extends cdktn.ComplexList {
 }
 export interface SsmincidentsReplicationSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#key SsmincidentsReplicationSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#key SsmincidentsReplicationSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#value SsmincidentsReplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#value SsmincidentsReplicationSet#value}
   */
   readonly value?: string;
 }
@@ -373,7 +373,7 @@ export class SsmincidentsReplicationSetTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -389,7 +389,7 @@ export class SsmincidentsReplicationSetTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -426,7 +426,7 @@ export class SsmincidentsReplicationSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set awscc_ssmincidents_replication_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set awscc_ssmincidents_replication_set}
 */
 export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
 
@@ -442,7 +442,7 @@ export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmincidentsReplicationSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmincidentsReplicationSet to import
-  * @param importFromId The id of the existing SsmincidentsReplicationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmincidentsReplicationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmincidentsReplicationSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -454,7 +454,7 @@ export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ssmincidents_replication_set awscc_ssmincidents_replication_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmincidents_replication_set awscc_ssmincidents_replication_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,7 +465,7 @@ export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssmincidents_replication_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -490,7 +490,7 @@ export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
   }
 
   // deletion_protected - computed: true, optional: true, required: false
-  private _deletionProtected?: boolean | cdktn.IResolvable; 
+  private _deletionProtected?: boolean | cdktn.IResolvable;
   public get deletionProtected() {
     return this.getBooleanAttribute('deletion_protected');
   }

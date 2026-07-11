@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WorkmailGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * Primary email address used to register the group with WorkMail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#email WorkmailGroup#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#email WorkmailGroup#email}
   */
   readonly email: string;
   /**
   * Whether to hide the group from the global address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#hidden_from_global_address_list WorkmailGroup#hidden_from_global_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#hidden_from_global_address_list WorkmailGroup#hidden_from_global_address_list}
   */
   readonly hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#name WorkmailGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#name WorkmailGroup#name}
   */
   readonly name: string;
   /**
   * Identifier of the WorkMail organization where the group is managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#organization_id WorkmailGroup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#organization_id WorkmailGroup#organization_id}
   */
   readonly organizationId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#region WorkmailGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#region WorkmailGroup#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group aws_workmail_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group aws_workmail_group}
 */
 export class WorkmailGroup extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkmailGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkmailGroup to import
-  * @param importFromId The id of the existing WorkmailGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkmailGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkmailGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_group aws_workmail_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_group aws_workmail_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workmail_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -129,7 +129,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // hidden_from_global_address_list - computed: true, optional: true, required: false
-  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable; 
+  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
   public get hiddenFromGlobalAddressList() {
     return this.getBooleanAttribute('hidden_from_global_address_list');
   }
@@ -145,7 +145,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -158,7 +158,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string; 
+  private _organizationId?: string;
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -171,7 +171,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

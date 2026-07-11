@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApigatewayBasePathMappingV2Config extends cdktn.TerraformMetaAr
   /**
   * The base path name that callers of the API must provide in the URL after the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2#base_path ApigatewayBasePathMappingV2#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2#base_path ApigatewayBasePathMappingV2#base_path}
   */
   readonly basePath?: string;
   /**
   * The Arn of an AWS::ApiGateway::DomainNameV2 resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2#domain_name_arn ApigatewayBasePathMappingV2#domain_name_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2#domain_name_arn ApigatewayBasePathMappingV2#domain_name_arn}
   */
   readonly domainNameArn: string;
   /**
   * The ID of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2#rest_api_id ApigatewayBasePathMappingV2#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2#rest_api_id ApigatewayBasePathMappingV2#rest_api_id}
   */
   readonly restApiId: string;
   /**
   * The name of the API's stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2#stage ApigatewayBasePathMappingV2#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2#stage ApigatewayBasePathMappingV2#stage}
   */
   readonly stage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2}
 */
 export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayBasePathMappingV2 resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayBasePathMappingV2 to import
-  * @param importFromId The id of the existing ApigatewayBasePathMappingV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayBasePathMappingV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayBasePathMappingV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_base_path_mapping_v2',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   // ==========
 
   // base_path - computed: true, optional: true, required: false
-  private _basePath?: string; 
+  private _basePath?: string;
   public get basePath() {
     return this.getStringAttribute('base_path');
   }
@@ -115,7 +115,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // domain_name_arn - computed: false, optional: false, required: true
-  private _domainNameArn?: string; 
+  private _domainNameArn?: string;
   public get domainNameArn() {
     return this.getStringAttribute('domain_name_arn');
   }
@@ -133,7 +133,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -146,7 +146,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string; 
+  private _stage?: string;
   public get stage() {
     return this.getStringAttribute('stage');
   }

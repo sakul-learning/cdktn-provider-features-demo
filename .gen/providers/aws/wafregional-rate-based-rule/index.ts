@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktn from 'cdktn';
 
 export interface WafregionalRateBasedRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#id WafregionalRateBasedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#id WafregionalRateBasedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#metric_name WafregionalRateBasedRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#metric_name WafregionalRateBasedRule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#name WafregionalRateBasedRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#name WafregionalRateBasedRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#rate_key WafregionalRateBasedRule#rate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#rate_key WafregionalRateBasedRule#rate_key}
   */
   readonly rateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#rate_limit WafregionalRateBasedRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#rate_limit WafregionalRateBasedRule#rate_limit}
   */
   readonly rateLimit: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#region WafregionalRateBasedRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#region WafregionalRateBasedRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#tags WafregionalRateBasedRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#tags WafregionalRateBasedRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#tags_all WafregionalRateBasedRule#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#tags_all WafregionalRateBasedRule#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * predicate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#predicate WafregionalRateBasedRule#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#predicate WafregionalRateBasedRule#predicate}
   */
   readonly predicate?: WafregionalRateBasedRulePredicate[] | cdktn.IResolvable;
 }
 export interface WafregionalRateBasedRulePredicate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#data_id WafregionalRateBasedRule#data_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#data_id WafregionalRateBasedRule#data_id}
   */
   readonly dataId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#negated WafregionalRateBasedRule#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#negated WafregionalRateBasedRule#negated}
   */
   readonly negated: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#type WafregionalRateBasedRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#type WafregionalRateBasedRule#type}
   */
   readonly type: string;
 }
@@ -166,7 +166,7 @@ export class WafregionalRateBasedRulePredicateOutputReference extends cdktn.Comp
   }
 
   // data_id - computed: false, optional: false, required: true
-  private _dataId?: string; 
+  private _dataId?: string;
   public get dataId() {
     return this.getStringAttribute('data_id');
   }
@@ -179,7 +179,7 @@ export class WafregionalRateBasedRulePredicateOutputReference extends cdktn.Comp
   }
 
   // negated - computed: false, optional: false, required: true
-  private _negated?: boolean | cdktn.IResolvable; 
+  private _negated?: boolean | cdktn.IResolvable;
   public get negated() {
     return this.getBooleanAttribute('negated');
   }
@@ -192,7 +192,7 @@ export class WafregionalRateBasedRulePredicateOutputReference extends cdktn.Comp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -226,7 +226,7 @@ export class WafregionalRateBasedRulePredicateList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule}
 */
 export class WafregionalRateBasedRule extends cdktn.TerraformResource {
 
@@ -242,7 +242,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WafregionalRateBasedRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafregionalRateBasedRule to import
-  * @param importFromId The id of the existing WafregionalRateBasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafregionalRateBasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafregionalRateBasedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -254,7 +254,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,7 +265,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_wafregional_rate_based_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -296,7 +296,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -312,7 +312,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -325,7 +325,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -338,7 +338,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // rate_key - computed: false, optional: false, required: true
-  private _rateKey?: string; 
+  private _rateKey?: string;
   public get rateKey() {
     return this.getStringAttribute('rate_key');
   }
@@ -351,7 +351,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // rate_limit - computed: false, optional: false, required: true
-  private _rateLimit?: number; 
+  private _rateLimit?: number;
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -364,7 +364,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -380,7 +380,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -396,7 +396,7 @@ export class WafregionalRateBasedRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

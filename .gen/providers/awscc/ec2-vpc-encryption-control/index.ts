@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface Ec2VpcEncryptionControlConfig extends cdktn.TerraformMetaArgume
   /**
   * Used to enable or disable EIGW exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#egress_only_internet_gateway_exclusion_input Ec2VpcEncryptionControl#egress_only_internet_gateway_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#egress_only_internet_gateway_exclusion_input Ec2VpcEncryptionControl#egress_only_internet_gateway_exclusion_input}
   */
   readonly egressOnlyInternetGatewayExclusionInput?: string;
   /**
   * Used to enable or disable EFS exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#elastic_file_system_exclusion_input Ec2VpcEncryptionControl#elastic_file_system_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#elastic_file_system_exclusion_input Ec2VpcEncryptionControl#elastic_file_system_exclusion_input}
   */
   readonly elasticFileSystemExclusionInput?: string;
   /**
   * Used to enable or disable IGW exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#internet_gateway_exclusion_input Ec2VpcEncryptionControl#internet_gateway_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#internet_gateway_exclusion_input Ec2VpcEncryptionControl#internet_gateway_exclusion_input}
   */
   readonly internetGatewayExclusionInput?: string;
   /**
   * Used to enable or disable Lambda exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#lambda_exclusion_input Ec2VpcEncryptionControl#lambda_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#lambda_exclusion_input Ec2VpcEncryptionControl#lambda_exclusion_input}
   */
   readonly lambdaExclusionInput?: string;
   /**
   * The VPC encryption control mode, either monitor or enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#mode Ec2VpcEncryptionControl#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#mode Ec2VpcEncryptionControl#mode}
   */
   readonly mode?: string;
   /**
   * Used to enable or disable Nat gateway exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#nat_gateway_exclusion_input Ec2VpcEncryptionControl#nat_gateway_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#nat_gateway_exclusion_input Ec2VpcEncryptionControl#nat_gateway_exclusion_input}
   */
   readonly natGatewayExclusionInput?: string;
   /**
   * The tags to assign to the VPC encryption control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#tags Ec2VpcEncryptionControl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#tags Ec2VpcEncryptionControl#tags}
   */
   readonly tags?: Ec2VpcEncryptionControlTags[] | cdktn.IResolvable;
   /**
   * Used to enable or disable VGW exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#virtual_private_gateway_exclusion_input Ec2VpcEncryptionControl#virtual_private_gateway_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#virtual_private_gateway_exclusion_input Ec2VpcEncryptionControl#virtual_private_gateway_exclusion_input}
   */
   readonly virtualPrivateGatewayExclusionInput?: string;
   /**
   * The VPC on which this VPC encryption control is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#vpc_id Ec2VpcEncryptionControl#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#vpc_id Ec2VpcEncryptionControl#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Used to enable or disable Vpc Lattice exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#vpc_lattice_exclusion_input Ec2VpcEncryptionControl#vpc_lattice_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#vpc_lattice_exclusion_input Ec2VpcEncryptionControl#vpc_lattice_exclusion_input}
   */
   readonly vpcLatticeExclusionInput?: string;
   /**
   * Used to enable or disable VPC peering exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#vpc_peering_exclusion_input Ec2VpcEncryptionControl#vpc_peering_exclusion_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#vpc_peering_exclusion_input Ec2VpcEncryptionControl#vpc_peering_exclusion_input}
   */
   readonly vpcPeeringExclusionInput?: string;
 }
@@ -647,13 +647,13 @@ export interface Ec2VpcEncryptionControlTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#key Ec2VpcEncryptionControl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#key Ec2VpcEncryptionControl#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#value Ec2VpcEncryptionControl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#value Ec2VpcEncryptionControl#value}
   */
   readonly value?: string;
 }
@@ -745,7 +745,7 @@ export class Ec2VpcEncryptionControlTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -761,7 +761,7 @@ export class Ec2VpcEncryptionControlTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -798,7 +798,7 @@ export class Ec2VpcEncryptionControlTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}
 */
 export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
 
@@ -814,7 +814,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpcEncryptionControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcEncryptionControl to import
-  * @param importFromId The id of the existing Ec2VpcEncryptionControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcEncryptionControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcEncryptionControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -826,7 +826,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -837,7 +837,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc_encryption_control',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -865,7 +865,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   // ==========
 
   // egress_only_internet_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _egressOnlyInternetGatewayExclusionInput?: string; 
+  private _egressOnlyInternetGatewayExclusionInput?: string;
   public get egressOnlyInternetGatewayExclusionInput() {
     return this.getStringAttribute('egress_only_internet_gateway_exclusion_input');
   }
@@ -881,7 +881,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // elastic_file_system_exclusion_input - computed: true, optional: true, required: false
-  private _elasticFileSystemExclusionInput?: string; 
+  private _elasticFileSystemExclusionInput?: string;
   public get elasticFileSystemExclusionInput() {
     return this.getStringAttribute('elastic_file_system_exclusion_input');
   }
@@ -902,7 +902,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _internetGatewayExclusionInput?: string; 
+  private _internetGatewayExclusionInput?: string;
   public get internetGatewayExclusionInput() {
     return this.getStringAttribute('internet_gateway_exclusion_input');
   }
@@ -918,7 +918,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // lambda_exclusion_input - computed: true, optional: true, required: false
-  private _lambdaExclusionInput?: string; 
+  private _lambdaExclusionInput?: string;
   public get lambdaExclusionInput() {
     return this.getStringAttribute('lambda_exclusion_input');
   }
@@ -934,7 +934,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -950,7 +950,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // nat_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _natGatewayExclusionInput?: string; 
+  private _natGatewayExclusionInput?: string;
   public get natGatewayExclusionInput() {
     return this.getStringAttribute('nat_gateway_exclusion_input');
   }
@@ -998,7 +998,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // virtual_private_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _virtualPrivateGatewayExclusionInput?: string; 
+  private _virtualPrivateGatewayExclusionInput?: string;
   public get virtualPrivateGatewayExclusionInput() {
     return this.getStringAttribute('virtual_private_gateway_exclusion_input');
   }
@@ -1019,7 +1019,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1035,7 +1035,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_lattice_exclusion_input - computed: true, optional: true, required: false
-  private _vpcLatticeExclusionInput?: string; 
+  private _vpcLatticeExclusionInput?: string;
   public get vpcLatticeExclusionInput() {
     return this.getStringAttribute('vpc_lattice_exclusion_input');
   }
@@ -1051,7 +1051,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_peering_exclusion_input - computed: true, optional: true, required: false
-  private _vpcPeeringExclusionInput?: string; 
+  private _vpcPeeringExclusionInput?: string;
   public get vpcPeeringExclusionInput() {
     return this.getStringAttribute('vpc_peering_exclusion_input');
   }

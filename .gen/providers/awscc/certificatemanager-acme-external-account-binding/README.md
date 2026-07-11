@@ -1,3 +1,3 @@
 # `awscc_certificatemanager_acme_external_account_binding`
 
-Refer to the Terraform Registry for docs: [`awscc_certificatemanager_acme_external_account_binding`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/certificatemanager_acme_external_account_binding).
+Refer to the Terraform Registry for docs: [`awscc_certificatemanager_acme_external_account_binding`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/certificatemanager_acme_external_account_binding).

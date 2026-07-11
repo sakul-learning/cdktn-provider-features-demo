@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface QldbStreamConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#exclusive_end_time QldbStream#exclusive_end_time}
   */
   readonly exclusiveEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#inclusive_start_time QldbStream#inclusive_start_time}
   */
   readonly inclusiveStartTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#kinesis_configuration QldbStream#kinesis_configuration}
   */
   readonly kinesisConfiguration: QldbStreamKinesisConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#ledger_name QldbStream#ledger_name}
   */
   readonly ledgerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#role_arn QldbStream#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#stream_name QldbStream#stream_name}
   */
   readonly streamName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#tags QldbStream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#tags QldbStream#tags}
   */
   readonly tags?: QldbStreamTags[] | cdktn.IResolvable;
 }
 export interface QldbStreamKinesisConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}
   */
   readonly aggregationEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}
   */
   readonly streamArn?: string;
 }
@@ -134,7 +134,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // aggregation_enabled - computed: true, optional: true, required: false
-  private _aggregationEnabled?: boolean | cdktn.IResolvable; 
+  private _aggregationEnabled?: boolean | cdktn.IResolvable;
   public get aggregationEnabled() {
     return this.getBooleanAttribute('aggregation_enabled');
   }
@@ -150,7 +150,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string; 
+  private _streamArn?: string;
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -167,15 +167,15 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
 }
 export interface QldbStreamTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#key QldbStream#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#key QldbStream#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#value QldbStream#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#value QldbStream#value}
   */
   readonly value?: string;
 }
@@ -267,7 +267,7 @@ export class QldbStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -283,7 +283,7 @@ export class QldbStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -320,7 +320,7 @@ export class QldbStreamTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream awscc_qldb_stream}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream awscc_qldb_stream}
 */
 export class QldbStream extends cdktn.TerraformResource {
 
@@ -336,7 +336,7 @@ export class QldbStream extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QldbStream resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QldbStream to import
-  * @param importFromId The id of the existing QldbStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QldbStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QldbStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -348,7 +348,7 @@ export class QldbStream extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/qldb_stream awscc_qldb_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream awscc_qldb_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,7 +359,7 @@ export class QldbStream extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qldb_stream',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -388,7 +388,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // exclusive_end_time - computed: true, optional: true, required: false
-  private _exclusiveEndTime?: string; 
+  private _exclusiveEndTime?: string;
   public get exclusiveEndTime() {
     return this.getStringAttribute('exclusive_end_time');
   }
@@ -409,7 +409,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // inclusive_start_time - computed: false, optional: false, required: true
-  private _inclusiveStartTime?: string; 
+  private _inclusiveStartTime?: string;
   public get inclusiveStartTime() {
     return this.getStringAttribute('inclusive_start_time');
   }
@@ -435,7 +435,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // ledger_name - computed: false, optional: false, required: true
-  private _ledgerName?: string; 
+  private _ledgerName?: string;
   public get ledgerName() {
     return this.getStringAttribute('ledger_name');
   }
@@ -448,7 +448,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -466,7 +466,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string; 
+  private _streamName?: string;
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }

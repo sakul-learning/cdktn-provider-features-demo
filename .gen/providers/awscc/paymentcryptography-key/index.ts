@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,75 +8,75 @@ import * as cdktn from 'cdktn';
 
 export interface PaymentcryptographyKeyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#derive_key_usage PaymentcryptographyKey#derive_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#derive_key_usage PaymentcryptographyKey#derive_key_usage}
   */
   readonly deriveKeyUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#enabled PaymentcryptographyKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#enabled PaymentcryptographyKey#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#exportable PaymentcryptographyKey#exportable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#exportable PaymentcryptographyKey#exportable}
   */
   readonly exportable: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_attributes PaymentcryptographyKey#key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_attributes PaymentcryptographyKey#key_attributes}
   */
   readonly keyAttributes: PaymentcryptographyKeyKeyAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_check_value_algorithm PaymentcryptographyKey#key_check_value_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_check_value_algorithm PaymentcryptographyKey#key_check_value_algorithm}
   */
   readonly keyCheckValueAlgorithm?: string;
   /**
   * The resource-based policy attached to the key, in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#policy PaymentcryptographyKey#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#policy PaymentcryptographyKey#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#replication_regions PaymentcryptographyKey#replication_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#replication_regions PaymentcryptographyKey#replication_regions}
   */
   readonly replicationRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#tags PaymentcryptographyKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#tags PaymentcryptographyKey#tags}
   */
   readonly tags?: PaymentcryptographyKeyTags[] | cdktn.IResolvable;
 }
 export interface PaymentcryptographyKeyKeyAttributesKeyModesOfUse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}
   */
   readonly decrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}
   */
   readonly deriveKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}
   */
   readonly encrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}
   */
   readonly generate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}
   */
   readonly noRestrictions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}
   */
   readonly sign?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}
   */
   readonly unwrap?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}
   */
   readonly verify?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}
   */
   readonly wrap?: boolean | cdktn.IResolvable;
 }
@@ -257,7 +257,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // decrypt - computed: true, optional: true, required: false
-  private _decrypt?: boolean | cdktn.IResolvable; 
+  private _decrypt?: boolean | cdktn.IResolvable;
   public get decrypt() {
     return this.getBooleanAttribute('decrypt');
   }
@@ -273,7 +273,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // derive_key - computed: true, optional: true, required: false
-  private _deriveKey?: boolean | cdktn.IResolvable; 
+  private _deriveKey?: boolean | cdktn.IResolvable;
   public get deriveKey() {
     return this.getBooleanAttribute('derive_key');
   }
@@ -289,7 +289,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // encrypt - computed: true, optional: true, required: false
-  private _encrypt?: boolean | cdktn.IResolvable; 
+  private _encrypt?: boolean | cdktn.IResolvable;
   public get encrypt() {
     return this.getBooleanAttribute('encrypt');
   }
@@ -305,7 +305,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // generate - computed: true, optional: true, required: false
-  private _generate?: boolean | cdktn.IResolvable; 
+  private _generate?: boolean | cdktn.IResolvable;
   public get generate() {
     return this.getBooleanAttribute('generate');
   }
@@ -321,7 +321,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // no_restrictions - computed: true, optional: true, required: false
-  private _noRestrictions?: boolean | cdktn.IResolvable; 
+  private _noRestrictions?: boolean | cdktn.IResolvable;
   public get noRestrictions() {
     return this.getBooleanAttribute('no_restrictions');
   }
@@ -337,7 +337,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // sign - computed: true, optional: true, required: false
-  private _sign?: boolean | cdktn.IResolvable; 
+  private _sign?: boolean | cdktn.IResolvable;
   public get sign() {
     return this.getBooleanAttribute('sign');
   }
@@ -353,7 +353,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // unwrap - computed: true, optional: true, required: false
-  private _unwrap?: boolean | cdktn.IResolvable; 
+  private _unwrap?: boolean | cdktn.IResolvable;
   public get unwrap() {
     return this.getBooleanAttribute('unwrap');
   }
@@ -369,7 +369,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // verify - computed: true, optional: true, required: false
-  private _verify?: boolean | cdktn.IResolvable; 
+  private _verify?: boolean | cdktn.IResolvable;
   public get verify() {
     return this.getBooleanAttribute('verify');
   }
@@ -385,7 +385,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // wrap - computed: true, optional: true, required: false
-  private _wrap?: boolean | cdktn.IResolvable; 
+  private _wrap?: boolean | cdktn.IResolvable;
   public get wrap() {
     return this.getBooleanAttribute('wrap');
   }
@@ -402,19 +402,19 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
 }
 export interface PaymentcryptographyKeyKeyAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}
   */
   readonly keyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}
   */
   readonly keyClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
   */
   readonly keyModesOfUse: PaymentcryptographyKeyKeyAttributesKeyModesOfUse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}
   */
   readonly keyUsage: string;
 }
@@ -530,7 +530,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_algorithm - computed: false, optional: false, required: true
-  private _keyAlgorithm?: string; 
+  private _keyAlgorithm?: string;
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -543,7 +543,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_class - computed: false, optional: false, required: true
-  private _keyClass?: string; 
+  private _keyClass?: string;
   public get keyClass() {
     return this.getStringAttribute('key_class');
   }
@@ -569,7 +569,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_usage - computed: false, optional: false, required: true
-  private _keyUsage?: string; 
+  private _keyUsage?: string;
   public get keyUsage() {
     return this.getStringAttribute('key_usage');
   }
@@ -661,11 +661,11 @@ export class PaymentcryptographyKeyReplicationStatusMap extends cdktn.ComplexMap
 }
 export interface PaymentcryptographyKeyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#key PaymentcryptographyKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#key PaymentcryptographyKey#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#value PaymentcryptographyKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#value PaymentcryptographyKey#value}
   */
   readonly value?: string;
 }
@@ -757,7 +757,7 @@ export class PaymentcryptographyKeyTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -773,7 +773,7 @@ export class PaymentcryptographyKeyTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -810,7 +810,7 @@ export class PaymentcryptographyKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}
 */
 export class PaymentcryptographyKey extends cdktn.TerraformResource {
 
@@ -826,7 +826,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PaymentcryptographyKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PaymentcryptographyKey to import
-  * @param importFromId The id of the existing PaymentcryptographyKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PaymentcryptographyKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PaymentcryptographyKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -838,7 +838,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,7 +849,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_paymentcryptography_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -874,7 +874,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   // ==========
 
   // derive_key_usage - computed: true, optional: true, required: false
-  private _deriveKeyUsage?: string; 
+  private _deriveKeyUsage?: string;
   public get deriveKeyUsage() {
     return this.getStringAttribute('derive_key_usage');
   }
@@ -890,7 +890,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -906,7 +906,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // exportable - computed: false, optional: false, required: true
-  private _exportable?: boolean | cdktn.IResolvable; 
+  private _exportable?: boolean | cdktn.IResolvable;
   public get exportable() {
     return this.getBooleanAttribute('exportable');
   }
@@ -937,7 +937,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // key_check_value_algorithm - computed: true, optional: true, required: false
-  private _keyCheckValueAlgorithm?: string; 
+  private _keyCheckValueAlgorithm?: string;
   public get keyCheckValueAlgorithm() {
     return this.getStringAttribute('key_check_value_algorithm');
   }
@@ -968,7 +968,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -984,7 +984,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // replication_regions - computed: true, optional: true, required: false
-  private _replicationRegions?: string[]; 
+  private _replicationRegions?: string[];
   public get replicationRegions() {
     return this.getListAttribute('replication_regions');
   }

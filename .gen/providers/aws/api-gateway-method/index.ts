@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktn from 'cdktn';
 
 export interface ApiGatewayMethodConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#api_key_required ApiGatewayMethod#api_key_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#api_key_required ApiGatewayMethod#api_key_required}
   */
   readonly apiKeyRequired?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorization ApiGatewayMethod#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorization ApiGatewayMethod#authorization}
   */
   readonly authorization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorization_scopes ApiGatewayMethod#authorization_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorization_scopes ApiGatewayMethod#authorization_scopes}
   */
   readonly authorizationScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorizer_id ApiGatewayMethod#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorizer_id ApiGatewayMethod#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#http_method ApiGatewayMethod#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#http_method ApiGatewayMethod#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#id ApiGatewayMethod#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#id ApiGatewayMethod#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#operation_name ApiGatewayMethod#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#operation_name ApiGatewayMethod#operation_name}
   */
   readonly operationName?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#region ApiGatewayMethod#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#region ApiGatewayMethod#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_models ApiGatewayMethod#request_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_models ApiGatewayMethod#request_models}
   */
   readonly requestModels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_parameters ApiGatewayMethod#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_parameters ApiGatewayMethod#request_parameters}
   */
   readonly requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_validator_id ApiGatewayMethod#request_validator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_validator_id ApiGatewayMethod#request_validator_id}
   */
   readonly requestValidatorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#resource_id ApiGatewayMethod#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#resource_id ApiGatewayMethod#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#rest_api_id ApiGatewayMethod#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#rest_api_id ApiGatewayMethod#rest_api_id}
   */
   readonly restApiId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method aws_api_gateway_method}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method aws_api_gateway_method}
 */
 export class ApiGatewayMethod extends cdktn.TerraformResource {
 
@@ -83,7 +83,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApiGatewayMethod resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayMethod to import
-  * @param importFromId The id of the existing ApiGatewayMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayMethod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -95,7 +95,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,7 +106,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
       terraformResourceType: 'aws_api_gateway_method',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,7 +136,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   // ==========
 
   // api_key_required - computed: false, optional: true, required: false
-  private _apiKeyRequired?: boolean | cdktn.IResolvable; 
+  private _apiKeyRequired?: boolean | cdktn.IResolvable;
   public get apiKeyRequired() {
     return this.getBooleanAttribute('api_key_required');
   }
@@ -152,7 +152,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string; 
+  private _authorization?: string;
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -165,7 +165,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization_scopes - computed: false, optional: true, required: false
-  private _authorizationScopes?: string[]; 
+  private _authorizationScopes?: string[];
   public get authorizationScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('authorization_scopes'));
   }
@@ -181,7 +181,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorizer_id - computed: false, optional: true, required: false
-  private _authorizerId?: string; 
+  private _authorizerId?: string;
   public get authorizerId() {
     return this.getStringAttribute('authorizer_id');
   }
@@ -197,7 +197,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string; 
+  private _httpMethod?: string;
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -210,7 +210,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -226,7 +226,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // operation_name - computed: false, optional: true, required: false
-  private _operationName?: string; 
+  private _operationName?: string;
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -242,7 +242,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -258,7 +258,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_models - computed: false, optional: true, required: false
-  private _requestModels?: { [key: string]: string }; 
+  private _requestModels?: { [key: string]: string };
   public get requestModels() {
     return this.getStringMapAttribute('request_models');
   }
@@ -274,7 +274,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: false, optional: true, required: false
-  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) }; 
+  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
   public get requestParameters() {
     return this.getBooleanMapAttribute('request_parameters');
   }
@@ -290,7 +290,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_validator_id - computed: false, optional: true, required: false
-  private _requestValidatorId?: string; 
+  private _requestValidatorId?: string;
   public get requestValidatorId() {
     return this.getStringAttribute('request_validator_id');
   }
@@ -306,7 +306,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string; 
+  private _resourceId?: string;
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -319,7 +319,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string; 
+  private _restApiId?: string;
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }

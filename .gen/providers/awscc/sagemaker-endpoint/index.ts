@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SagemakerEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies deployment configuration for updating the SageMaker endpoint. Includes rollback and update policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#deployment_config SagemakerEndpoint#deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#deployment_config SagemakerEndpoint#deployment_config}
   */
   readonly deploymentConfig?: SagemakerEndpointDeploymentConfig;
   /**
   * The name of the endpoint configuration for the SageMaker endpoint. This is a required property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#endpoint_config_name SagemakerEndpoint#endpoint_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#endpoint_config_name SagemakerEndpoint#endpoint_config_name}
   */
   readonly endpointConfigName: string;
   /**
   * Specifies a list of variant properties that you want to exclude when updating an endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#exclude_retained_variant_properties SagemakerEndpoint#exclude_retained_variant_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#exclude_retained_variant_properties SagemakerEndpoint#exclude_retained_variant_properties}
   */
   readonly excludeRetainedVariantProperties?: SagemakerEndpointExcludeRetainedVariantProperties[] | cdktn.IResolvable;
   /**
   * When set to true, retains all variant properties for an endpoint when it is updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#retain_all_variant_properties SagemakerEndpoint#retain_all_variant_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#retain_all_variant_properties SagemakerEndpoint#retain_all_variant_properties}
   */
   readonly retainAllVariantProperties?: boolean | cdktn.IResolvable;
   /**
   * When set to true, retains the deployment configuration during endpoint updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#retain_deployment_config SagemakerEndpoint#retain_deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#retain_deployment_config SagemakerEndpoint#retain_deployment_config}
   */
   readonly retainDeploymentConfig?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#tags SagemakerEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#tags SagemakerEndpoint#tags}
   */
   readonly tags?: SagemakerEndpointTags[] | cdktn.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarm
   /**
   * The name of the CloudWatch alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#alarm_name SagemakerEndpoint#alarm_name}
   */
   readonly alarmName?: string;
 }
@@ -127,7 +127,7 @@ export class SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsOut
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string; 
+  private _alarmName?: string;
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -166,7 +166,7 @@ export interface SagemakerEndpointDeploymentConfigAutoRollbackConfiguration {
   /**
   * List of CloudWatch alarms to monitor during the deployment. If any alarm goes off, the deployment is rolled back.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#alarms SagemakerEndpoint#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#alarms SagemakerEndpoint#alarms}
   */
   readonly alarms?: SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms[] | cdktn.IResolvable;
 }
@@ -262,13 +262,13 @@ export interface SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRo
   /**
   * Specifies whether the `Value` is an instance count or a capacity unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
   */
   readonly type?: string;
   /**
   * The value representing either the number of instances or the number of capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
   */
   readonly value?: number;
 }
@@ -358,7 +358,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -374,7 +374,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -393,13 +393,13 @@ export interface SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRo
   /**
   * Specifies whether the `Value` is an instance count or a capacity unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
   */
   readonly type?: string;
   /**
   * The value representing either the number of instances or the number of capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
   */
   readonly value?: number;
 }
@@ -489,7 +489,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -505,7 +505,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -524,25 +524,25 @@ export interface SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRo
   /**
   * Specifies the size of the canary traffic in a canary deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#canary_size SagemakerEndpoint#canary_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#canary_size SagemakerEndpoint#canary_size}
   */
   readonly canarySize?: SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySize;
   /**
   * Specifies the step size for linear traffic routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#linear_step_size SagemakerEndpoint#linear_step_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#linear_step_size SagemakerEndpoint#linear_step_size}
   */
   readonly linearStepSize?: SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSize;
   /**
   * Specifies the type of traffic routing (e.g., 'AllAtOnce', 'Canary', 'Linear').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
   */
   readonly type?: string;
   /**
   * Specifies the wait interval between traffic shifts, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -690,7 +690,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -706,7 +706,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // wait_interval_in_seconds - computed: true, optional: true, required: false
-  private _waitIntervalInSeconds?: number; 
+  private _waitIntervalInSeconds?: number;
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -725,19 +725,19 @@ export interface SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy {
   /**
   * The maximum time allowed for the blue/green update, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
   */
   readonly maximumExecutionTimeoutInSeconds?: number;
   /**
   * The wait time before terminating the old endpoint during a blue/green deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#termination_wait_in_seconds SagemakerEndpoint#termination_wait_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#termination_wait_in_seconds SagemakerEndpoint#termination_wait_in_seconds}
   */
   readonly terminationWaitInSeconds?: number;
   /**
   * The traffic routing configuration for the blue/green deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#traffic_routing_configuration SagemakerEndpoint#traffic_routing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#traffic_routing_configuration SagemakerEndpoint#traffic_routing_configuration}
   */
   readonly trafficRoutingConfiguration?: SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfiguration;
 }
@@ -840,7 +840,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferen
   }
 
   // maximum_execution_timeout_in_seconds - computed: true, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number; 
+  private _maximumExecutionTimeoutInSeconds?: number;
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -856,7 +856,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferen
   }
 
   // termination_wait_in_seconds - computed: true, optional: true, required: false
-  private _terminationWaitInSeconds?: number; 
+  private _terminationWaitInSeconds?: number;
   public get terminationWaitInSeconds() {
     return this.getNumberAttribute('termination_wait_in_seconds');
   }
@@ -891,13 +891,13 @@ export interface SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatc
   /**
   * Specifies whether the `Value` is an instance count or a capacity unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
   */
   readonly type?: string;
   /**
   * The value representing either the number of instances or the number of capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
   */
   readonly value?: number;
 }
@@ -987,7 +987,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSiz
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1003,7 +1003,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSiz
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1022,13 +1022,13 @@ export interface SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMax
   /**
   * Specifies whether the `Value` is an instance count or a capacity unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#type SagemakerEndpoint#type}
   */
   readonly type?: string;
   /**
   * The value representing either the number of instances or the number of capacity units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
   */
   readonly value?: number;
 }
@@ -1118,7 +1118,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximum
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1134,7 +1134,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximum
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number; 
+  private _value?: number;
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1153,25 +1153,25 @@ export interface SagemakerEndpointDeploymentConfigRollingUpdatePolicy {
   /**
   * Specifies the maximum batch size for each rolling update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#maximum_batch_size SagemakerEndpoint#maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#maximum_batch_size SagemakerEndpoint#maximum_batch_size}
   */
   readonly maximumBatchSize?: SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize;
   /**
   * The maximum time allowed for the rolling update, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds SagemakerEndpoint#maximum_execution_timeout_in_seconds}
   */
   readonly maximumExecutionTimeoutInSeconds?: number;
   /**
   * The maximum batch size for rollback during an update failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#rollback_maximum_batch_size SagemakerEndpoint#rollback_maximum_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#rollback_maximum_batch_size SagemakerEndpoint#rollback_maximum_batch_size}
   */
   readonly rollbackMaximumBatchSize?: SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize;
   /**
   * The time to wait between steps during the rolling update, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds SagemakerEndpoint#wait_interval_in_seconds}
   */
   readonly waitIntervalInSeconds?: number;
 }
@@ -1303,7 +1303,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference
   }
 
   // maximum_execution_timeout_in_seconds - computed: true, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number; 
+  private _maximumExecutionTimeoutInSeconds?: number;
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -1335,7 +1335,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference
   }
 
   // wait_interval_in_seconds - computed: true, optional: true, required: false
-  private _waitIntervalInSeconds?: number; 
+  private _waitIntervalInSeconds?: number;
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -1354,19 +1354,19 @@ export interface SagemakerEndpointDeploymentConfig {
   /**
   * Configuration for automatic rollback if an error occurs during deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#auto_rollback_configuration SagemakerEndpoint#auto_rollback_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#auto_rollback_configuration SagemakerEndpoint#auto_rollback_configuration}
   */
   readonly autoRollbackConfiguration?: SagemakerEndpointDeploymentConfigAutoRollbackConfiguration;
   /**
   * Configuration for blue-green update deployment policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#blue_green_update_policy SagemakerEndpoint#blue_green_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#blue_green_update_policy SagemakerEndpoint#blue_green_update_policy}
   */
   readonly blueGreenUpdatePolicy?: SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy;
   /**
   * Configuration for rolling update deployment policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#rolling_update_policy SagemakerEndpoint#rolling_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#rolling_update_policy SagemakerEndpoint#rolling_update_policy}
   */
   readonly rollingUpdatePolicy?: SagemakerEndpointDeploymentConfigRollingUpdatePolicy;
 }
@@ -1520,7 +1520,7 @@ export interface SagemakerEndpointExcludeRetainedVariantProperties {
   /**
   * The type of variant property (e.g., 'DesiredInstanceCount', 'DesiredWeight', 'DataCaptureConfig').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#variant_property_type SagemakerEndpoint#variant_property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#variant_property_type SagemakerEndpoint#variant_property_type}
   */
   readonly variantPropertyType?: string;
 }
@@ -1599,7 +1599,7 @@ export class SagemakerEndpointExcludeRetainedVariantPropertiesOutputReference ex
   }
 
   // variant_property_type - computed: true, optional: true, required: false
-  private _variantPropertyType?: string; 
+  private _variantPropertyType?: string;
   public get variantPropertyType() {
     return this.getStringAttribute('variant_property_type');
   }
@@ -1638,13 +1638,13 @@ export interface SagemakerEndpointTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#key SagemakerEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#key SagemakerEndpoint#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#value SagemakerEndpoint#value}
   */
   readonly value?: string;
 }
@@ -1736,7 +1736,7 @@ export class SagemakerEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1752,7 +1752,7 @@ export class SagemakerEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1789,7 +1789,7 @@ export class SagemakerEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}
 */
 export class SagemakerEndpoint extends cdktn.TerraformResource {
 
@@ -1805,7 +1805,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerEndpoint to import
-  * @param importFromId The id of the existing SagemakerEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1817,7 +1817,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1828,7 +1828,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1872,7 +1872,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_config_name - computed: false, optional: false, required: true
-  private _endpointConfigName?: string; 
+  private _endpointConfigName?: string;
   public get endpointConfigName() {
     return this.getStringAttribute('endpoint_config_name');
   }
@@ -1911,7 +1911,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // retain_all_variant_properties - computed: true, optional: true, required: false
-  private _retainAllVariantProperties?: boolean | cdktn.IResolvable; 
+  private _retainAllVariantProperties?: boolean | cdktn.IResolvable;
   public get retainAllVariantProperties() {
     return this.getBooleanAttribute('retain_all_variant_properties');
   }
@@ -1927,7 +1927,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // retain_deployment_config - computed: true, optional: true, required: false
-  private _retainDeploymentConfig?: boolean | cdktn.IResolvable; 
+  private _retainDeploymentConfig?: boolean | cdktn.IResolvable;
   public get retainDeploymentConfig() {
     return this.getBooleanAttribute('retain_deployment_config');
   }

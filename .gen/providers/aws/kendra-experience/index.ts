@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktn from 'cdktn';
 
 export interface KendraExperienceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#description KendraExperience#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#description KendraExperience#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#id KendraExperience#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#id KendraExperience#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#index_id KendraExperience#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#index_id KendraExperience#index_id}
   */
   readonly indexId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#name KendraExperience#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#name KendraExperience#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#region KendraExperience#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#region KendraExperience#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#role_arn KendraExperience#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#role_arn KendraExperience#role_arn}
   */
   readonly roleArn: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#configuration KendraExperience#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#configuration KendraExperience#configuration}
   */
   readonly configuration?: KendraExperienceConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#timeouts KendraExperience#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#timeouts KendraExperience#timeouts}
   */
   readonly timeouts?: KendraExperienceTimeouts;
 }
@@ -131,15 +131,15 @@ export class KendraExperienceEndpointsList extends cdktn.ComplexList {
 }
 export interface KendraExperienceConfigurationContentSourceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#data_source_ids KendraExperience#data_source_ids}
   */
   readonly dataSourceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#direct_put_content KendraExperience#direct_put_content}
   */
   readonly directPutContent?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#faq_ids KendraExperience#faq_ids}
   */
   readonly faqIds?: string[];
 }
@@ -232,7 +232,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // data_source_ids - computed: false, optional: true, required: false
-  private _dataSourceIds?: string[]; 
+  private _dataSourceIds?: string[];
   public get dataSourceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('data_source_ids'));
   }
@@ -248,7 +248,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // direct_put_content - computed: false, optional: true, required: false
-  private _directPutContent?: boolean | cdktn.IResolvable; 
+  private _directPutContent?: boolean | cdktn.IResolvable;
   public get directPutContent() {
     return this.getBooleanAttribute('direct_put_content');
   }
@@ -264,7 +264,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // faq_ids - computed: false, optional: true, required: false
-  private _faqIds?: string[]; 
+  private _faqIds?: string[];
   public get faqIds() {
     return cdktn.Fn.tolist(this.getListAttribute('faq_ids'));
   }
@@ -281,7 +281,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
 }
 export interface KendraExperienceConfigurationUserIdentityConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#identity_attribute_name KendraExperience#identity_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#identity_attribute_name KendraExperience#identity_attribute_name}
   */
   readonly identityAttributeName: string;
 }
@@ -348,7 +348,7 @@ export class KendraExperienceConfigurationUserIdentityConfigurationOutputReferen
   }
 
   // identity_attribute_name - computed: false, optional: false, required: true
-  private _identityAttributeName?: string; 
+  private _identityAttributeName?: string;
   public get identityAttributeName() {
     return this.getStringAttribute('identity_attribute_name');
   }
@@ -364,13 +364,13 @@ export interface KendraExperienceConfiguration {
   /**
   * content_source_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#content_source_configuration KendraExperience#content_source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#content_source_configuration KendraExperience#content_source_configuration}
   */
   readonly contentSourceConfiguration?: KendraExperienceConfigurationContentSourceConfiguration;
   /**
   * user_identity_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#user_identity_configuration KendraExperience#user_identity_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#user_identity_configuration KendraExperience#user_identity_configuration}
   */
   readonly userIdentityConfiguration?: KendraExperienceConfigurationUserIdentityConfiguration;
 }
@@ -483,15 +483,15 @@ export class KendraExperienceConfigurationOutputReference extends cdktn.ComplexO
 }
 export interface KendraExperienceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#create KendraExperience#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#create KendraExperience#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#delete KendraExperience#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#delete KendraExperience#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#update KendraExperience#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#update KendraExperience#update}
   */
   readonly update?: string;
 }
@@ -594,7 +594,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -610,7 +610,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -626,7 +626,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -643,7 +643,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience aws_kendra_experience}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience aws_kendra_experience}
 */
 export class KendraExperience extends cdktn.TerraformResource {
 
@@ -659,7 +659,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendraExperience resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendraExperience to import
-  * @param importFromId The id of the existing KendraExperience that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendraExperience that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendraExperience to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -671,7 +671,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_experience aws_kendra_experience} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_experience aws_kendra_experience} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -682,7 +682,7 @@ export class KendraExperience extends cdktn.TerraformResource {
       terraformResourceType: 'aws_kendra_experience',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -712,7 +712,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -739,7 +739,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -755,7 +755,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string; 
+  private _indexId?: string;
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -768,7 +768,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -781,7 +781,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -797,7 +797,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

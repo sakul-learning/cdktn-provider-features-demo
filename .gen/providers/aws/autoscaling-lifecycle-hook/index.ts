@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktn from 'cdktn';
 
 export interface AutoscalingLifecycleHookConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#autoscaling_group_name AutoscalingLifecycleHook#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#autoscaling_group_name AutoscalingLifecycleHook#autoscaling_group_name}
   */
   readonly autoscalingGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#default_result AutoscalingLifecycleHook#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#default_result AutoscalingLifecycleHook#default_result}
   */
   readonly defaultResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#heartbeat_timeout AutoscalingLifecycleHook#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#heartbeat_timeout AutoscalingLifecycleHook#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#id AutoscalingLifecycleHook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#id AutoscalingLifecycleHook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#lifecycle_transition AutoscalingLifecycleHook#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#lifecycle_transition AutoscalingLifecycleHook#lifecycle_transition}
   */
   readonly lifecycleTransition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#name AutoscalingLifecycleHook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#name AutoscalingLifecycleHook#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#notification_metadata AutoscalingLifecycleHook#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#notification_metadata AutoscalingLifecycleHook#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#notification_target_arn AutoscalingLifecycleHook#notification_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#notification_target_arn AutoscalingLifecycleHook#notification_target_arn}
   */
   readonly notificationTargetArn?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#region AutoscalingLifecycleHook#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#region AutoscalingLifecycleHook#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#role_arn AutoscalingLifecycleHook#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#role_arn AutoscalingLifecycleHook#role_arn}
   */
   readonly roleArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook}
 */
 export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
 
@@ -71,7 +71,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingLifecycleHook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingLifecycleHook to import
-  * @param importFromId The id of the existing AutoscalingLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingLifecycleHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -83,7 +83,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,7 +94,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
       terraformResourceType: 'aws_autoscaling_lifecycle_hook',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,7 +121,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   // ==========
 
   // autoscaling_group_name - computed: false, optional: false, required: true
-  private _autoscalingGroupName?: string; 
+  private _autoscalingGroupName?: string;
   public get autoscalingGroupName() {
     return this.getStringAttribute('autoscaling_group_name');
   }
@@ -134,7 +134,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string; 
+  private _defaultResult?: string;
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -150,7 +150,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // heartbeat_timeout - computed: false, optional: true, required: false
-  private _heartbeatTimeout?: number; 
+  private _heartbeatTimeout?: number;
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -166,7 +166,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -182,7 +182,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // lifecycle_transition - computed: false, optional: false, required: true
-  private _lifecycleTransition?: string; 
+  private _lifecycleTransition?: string;
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -195,7 +195,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -208,7 +208,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // notification_metadata - computed: false, optional: true, required: false
-  private _notificationMetadata?: string; 
+  private _notificationMetadata?: string;
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -224,7 +224,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // notification_target_arn - computed: false, optional: true, required: false
-  private _notificationTargetArn?: string; 
+  private _notificationTargetArn?: string;
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -240,7 +240,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

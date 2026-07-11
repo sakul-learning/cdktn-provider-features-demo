@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktn from 'cdktn';
 
 export interface FinspaceKxDataviewConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#auto_update FinspaceKxDataview#auto_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#auto_update FinspaceKxDataview#auto_update}
   */
   readonly autoUpdate: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#availability_zone_id FinspaceKxDataview#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#availability_zone_id FinspaceKxDataview#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#az_mode FinspaceKxDataview#az_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#az_mode FinspaceKxDataview#az_mode}
   */
   readonly azMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#changeset_id FinspaceKxDataview#changeset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#changeset_id FinspaceKxDataview#changeset_id}
   */
   readonly changesetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#database_name FinspaceKxDataview#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#database_name FinspaceKxDataview#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#description FinspaceKxDataview#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#description FinspaceKxDataview#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#environment_id FinspaceKxDataview#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#environment_id FinspaceKxDataview#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#id FinspaceKxDataview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#id FinspaceKxDataview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#name FinspaceKxDataview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#name FinspaceKxDataview#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#read_write FinspaceKxDataview#read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#read_write FinspaceKxDataview#read_write}
   */
   readonly readWrite?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#region FinspaceKxDataview#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#region FinspaceKxDataview#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#tags FinspaceKxDataview#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#tags FinspaceKxDataview#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#tags_all FinspaceKxDataview#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#tags_all FinspaceKxDataview#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * segment_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#segment_configurations FinspaceKxDataview#segment_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#segment_configurations FinspaceKxDataview#segment_configurations}
   */
   readonly segmentConfigurations?: FinspaceKxDataviewSegmentConfigurations[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#timeouts FinspaceKxDataview#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#timeouts FinspaceKxDataview#timeouts}
   */
   readonly timeouts?: FinspaceKxDataviewTimeouts;
 }
 export interface FinspaceKxDataviewSegmentConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#db_paths FinspaceKxDataview#db_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#db_paths FinspaceKxDataview#db_paths}
   */
   readonly dbPaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#on_demand FinspaceKxDataview#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#on_demand FinspaceKxDataview#on_demand}
   */
   readonly onDemand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#volume_name FinspaceKxDataview#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#volume_name FinspaceKxDataview#volume_name}
   */
   readonly volumeName: string;
 }
@@ -192,7 +192,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // db_paths - computed: false, optional: false, required: true
-  private _dbPaths?: string[]; 
+  private _dbPaths?: string[];
   public get dbPaths() {
     return this.getListAttribute('db_paths');
   }
@@ -205,7 +205,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // on_demand - computed: false, optional: true, required: false
-  private _onDemand?: boolean | cdktn.IResolvable; 
+  private _onDemand?: boolean | cdktn.IResolvable;
   public get onDemand() {
     return this.getBooleanAttribute('on_demand');
   }
@@ -221,7 +221,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // volume_name - computed: false, optional: false, required: true
-  private _volumeName?: string; 
+  private _volumeName?: string;
   public get volumeName() {
     return this.getStringAttribute('volume_name');
   }
@@ -255,15 +255,15 @@ export class FinspaceKxDataviewSegmentConfigurationsList extends cdktn.ComplexLi
 }
 export interface FinspaceKxDataviewTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#create FinspaceKxDataview#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#create FinspaceKxDataview#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#delete FinspaceKxDataview#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#delete FinspaceKxDataview#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#update FinspaceKxDataview#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#update FinspaceKxDataview#update}
   */
   readonly update?: string;
 }
@@ -366,7 +366,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -382,7 +382,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -398,7 +398,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -415,7 +415,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}
 */
 export class FinspaceKxDataview extends cdktn.TerraformResource {
 
@@ -431,7 +431,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FinspaceKxDataview resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FinspaceKxDataview to import
-  * @param importFromId The id of the existing FinspaceKxDataview that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FinspaceKxDataview that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FinspaceKxDataview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -443,7 +443,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,7 +454,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
       terraformResourceType: 'aws_finspace_kx_dataview',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -491,7 +491,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // auto_update - computed: false, optional: false, required: true
-  private _autoUpdate?: boolean | cdktn.IResolvable; 
+  private _autoUpdate?: boolean | cdktn.IResolvable;
   public get autoUpdate() {
     return this.getBooleanAttribute('auto_update');
   }
@@ -504,7 +504,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: false, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -520,7 +520,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // az_mode - computed: false, optional: false, required: true
-  private _azMode?: string; 
+  private _azMode?: string;
   public get azMode() {
     return this.getStringAttribute('az_mode');
   }
@@ -533,7 +533,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // changeset_id - computed: false, optional: true, required: false
-  private _changesetId?: string; 
+  private _changesetId?: string;
   public get changesetId() {
     return this.getStringAttribute('changeset_id');
   }
@@ -554,7 +554,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -567,7 +567,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -583,7 +583,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string; 
+  private _environmentId?: string;
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -596,7 +596,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -617,7 +617,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -630,7 +630,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // read_write - computed: false, optional: true, required: false
-  private _readWrite?: boolean | cdktn.IResolvable; 
+  private _readWrite?: boolean | cdktn.IResolvable;
   public get readWrite() {
     return this.getBooleanAttribute('read_write');
   }
@@ -646,7 +646,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -667,7 +667,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -683,7 +683,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

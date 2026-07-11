@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MedialiveChannelPlacementGroupConfig extends cdktn.TerraformMet
   /**
   * The ID of the cluster the node is on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The name of the channel placement group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
   */
   readonly name?: string;
   /**
   * List of nodes added to the channel placement group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
   */
   readonly nodes?: string[];
   /**
   * A collection of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
   */
   readonly tags?: MedialiveChannelPlacementGroupTags[] | cdktn.IResolvable;
 }
 export interface MedialiveChannelPlacementGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}
   */
   readonly value?: string;
 }
@@ -130,7 +130,7 @@ export class MedialiveChannelPlacementGroupTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class MedialiveChannelPlacementGroupTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -183,7 +183,7 @@ export class MedialiveChannelPlacementGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}
 */
 export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveChannelPlacementGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveChannelPlacementGroup to import
-  * @param importFromId The id of the existing MedialiveChannelPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveChannelPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveChannelPlacementGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_channel_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -258,7 +258,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // cluster_id - computed: true, optional: true, required: false
-  private _clusterId?: string; 
+  private _clusterId?: string;
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -279,7 +279,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -295,7 +295,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // nodes - computed: true, optional: true, required: false
-  private _nodes?: string[]; 
+  private _nodes?: string[];
   public get nodes() {
     return this.getListAttribute('nodes');
   }

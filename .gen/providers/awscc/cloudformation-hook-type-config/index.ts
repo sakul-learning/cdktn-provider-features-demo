@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface CloudformationHookTypeConfigConfig extends cdktn.TerraformMetaA
   /**
   * The configuration data for the extension, in this account and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
   */
   readonly configuration?: string;
   /**
   * An alias by which to refer to this extension configuration data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
   */
   readonly configurationAlias?: string;
   /**
   * The Amazon Resource Name (ARN) of the type without version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
   */
   readonly typeArn?: string;
   /**
   * The name of the type being registered.
-  * 
+  *
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
   */
   readonly typeName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}
 */
 export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
 
@@ -52,7 +52,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationHookTypeConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationHookTypeConfig to import
-  * @param importFromId The id of the existing CloudformationHookTypeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationHookTypeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationHookTypeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -64,7 +64,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,7 +75,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_hook_type_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -96,7 +96,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   // ==========
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string; 
+  private _configuration?: string;
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -112,7 +112,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // configuration_alias - computed: true, optional: true, required: false
-  private _configurationAlias?: string; 
+  private _configurationAlias?: string;
   public get configurationAlias() {
     return this.getStringAttribute('configuration_alias');
   }
@@ -138,7 +138,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // type_arn - computed: true, optional: true, required: false
-  private _typeArn?: string; 
+  private _typeArn?: string;
   public get typeArn() {
     return this.getStringAttribute('type_arn');
   }
@@ -154,7 +154,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string; 
+  private _typeName?: string;
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

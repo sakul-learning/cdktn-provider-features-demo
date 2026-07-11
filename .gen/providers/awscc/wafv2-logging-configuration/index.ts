@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Wafv2LoggingConfigurationConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Names (ARNs) of the logging destinations that you want to associate with the web ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#log_destination_configs Wafv2LoggingConfiguration#log_destination_configs}
   */
   readonly logDestinationConfigs: string[];
   /**
   * Filtering that specifies which web requests are kept in the logs and which are dropped. You can filter on the rule action and on the web request labels that were applied by matching rules during web ACL evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#logging_filter Wafv2LoggingConfiguration#logging_filter}
   */
   readonly loggingFilter?: Wafv2LoggingConfigurationLoggingFilter;
   /**
   * The parts of the request that you want to keep out of the logs. For example, if you redact the HEADER field, the HEADER field in the firehose will be xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#redacted_fields Wafv2LoggingConfiguration#redacted_fields}
   */
   readonly redactedFields?: Wafv2LoggingConfigurationRedactedFields[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the web ACL that you want to associate with LogDestinationConfigs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#resource_arn Wafv2LoggingConfiguration#resource_arn}
   */
   readonly resourceArn: string;
 }
@@ -36,7 +36,7 @@ export interface Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCo
   /**
   * Logic to apply to the filtering conditions. You can specify that, in order to satisfy the filter, a log must match all conditions or must match at least one condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#action Wafv2LoggingConfiguration#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#action Wafv2LoggingConfiguration#action}
   */
   readonly action?: string;
 }
@@ -113,7 +113,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondit
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -130,9 +130,9 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondit
 }
 export interface Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition {
   /**
-  * The label name that a log record must contain in order to meet the condition. This must be a fully qualified label name. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label. 
+  * The label name that a log record must contain in order to meet the condition. This must be a fully qualified label name. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#label_name Wafv2LoggingConfiguration#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#label_name Wafv2LoggingConfiguration#label_name}
   */
   readonly labelName?: string;
 }
@@ -209,7 +209,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCon
   }
 
   // label_name - computed: true, optional: true, required: false
-  private _labelName?: string; 
+  private _labelName?: string;
   public get labelName() {
     return this.getStringAttribute('label_name');
   }
@@ -228,13 +228,13 @@ export interface Wafv2LoggingConfigurationLoggingFilterFiltersConditions {
   /**
   * A single action condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#action_condition Wafv2LoggingConfiguration#action_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#action_condition Wafv2LoggingConfiguration#action_condition}
   */
   readonly actionCondition?: Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondition;
   /**
   * A single label name condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#label_name_condition Wafv2LoggingConfiguration#label_name_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#label_name_condition Wafv2LoggingConfiguration#label_name_condition}
   */
   readonly labelNameCondition?: Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition;
 }
@@ -379,21 +379,21 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsList extends
 }
 export interface Wafv2LoggingConfigurationLoggingFilterFilters {
   /**
-  * How to handle logs that satisfy the filter's conditions and requirement. 
+  * How to handle logs that satisfy the filter's conditions and requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#behavior Wafv2LoggingConfiguration#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#behavior Wafv2LoggingConfiguration#behavior}
   */
   readonly behavior?: string;
   /**
   * Match conditions for the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#conditions Wafv2LoggingConfiguration#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#conditions Wafv2LoggingConfiguration#conditions}
   */
   readonly conditions?: Wafv2LoggingConfigurationLoggingFilterFiltersConditions[] | cdktn.IResolvable;
   /**
   * Logic to apply to the filtering conditions. You can specify that, in order to satisfy the filter, a log must match all conditions or must match at least one condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#requirement Wafv2LoggingConfiguration#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#requirement Wafv2LoggingConfiguration#requirement}
   */
   readonly requirement?: string;
 }
@@ -498,7 +498,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersOutputReference extend
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string; 
+  private _behavior?: string;
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -530,7 +530,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersOutputReference extend
   }
 
   // requirement - computed: true, optional: true, required: false
-  private _requirement?: string; 
+  private _requirement?: string;
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -569,13 +569,13 @@ export interface Wafv2LoggingConfigurationLoggingFilter {
   /**
   * Default handling for logs that don't match any of the specified filtering conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#default_behavior Wafv2LoggingConfiguration#default_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#default_behavior Wafv2LoggingConfiguration#default_behavior}
   */
   readonly defaultBehavior?: string;
   /**
   * The filters that you want to apply to the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#filters Wafv2LoggingConfiguration#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#filters Wafv2LoggingConfiguration#filters}
   */
   readonly filters?: Wafv2LoggingConfigurationLoggingFilterFilters[] | cdktn.IResolvable;
 }
@@ -665,7 +665,7 @@ export class Wafv2LoggingConfigurationLoggingFilterOutputReference extends cdktn
   }
 
   // default_behavior - computed: true, optional: true, required: false
-  private _defaultBehavior?: string; 
+  private _defaultBehavior?: string;
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -700,7 +700,7 @@ export interface Wafv2LoggingConfigurationRedactedFieldsSingleHeader {
   /**
   * The name of the query header to inspect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#name Wafv2LoggingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#name Wafv2LoggingConfiguration#name}
   */
   readonly name?: string;
 }
@@ -777,7 +777,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -794,27 +794,27 @@ export class Wafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference 
 }
 export interface Wafv2LoggingConfigurationRedactedFields {
   /**
-  * Inspect the HTTP method. The method indicates the type of operation that the request is asking the origin to perform. 
+  * Inspect the HTTP method. The method indicates the type of operation that the request is asking the origin to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#method Wafv2LoggingConfiguration#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#method Wafv2LoggingConfiguration#method}
   */
   readonly method?: string;
   /**
-  * Inspect the query string. This is the part of a URL that appears after a ? character, if any. 
+  * Inspect the query string. This is the part of a URL that appears after a ? character, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#query_string Wafv2LoggingConfiguration#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#query_string Wafv2LoggingConfiguration#query_string}
   */
   readonly queryString?: string;
   /**
   * Inspect a single header. Provide the name of the header to inspect, for example, User-Agent or Referer. This setting isn't case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#single_header Wafv2LoggingConfiguration#single_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#single_header Wafv2LoggingConfiguration#single_header}
   */
   readonly singleHeader?: Wafv2LoggingConfigurationRedactedFieldsSingleHeader;
   /**
-  * Inspect the request URI path. This is the part of a web request that identifies a resource, for example, /images/daily-ad.jpg. 
+  * Inspect the request URI path. This is the part of a web request that identifies a resource, for example, /images/daily-ad.jpg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#uri_path Wafv2LoggingConfiguration#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#uri_path Wafv2LoggingConfiguration#uri_path}
   */
   readonly uriPath?: string;
 }
@@ -932,7 +932,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // method - computed: true, optional: true, required: false
-  private _method?: string; 
+  private _method?: string;
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -948,7 +948,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string; 
+  private _queryString?: string;
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -980,7 +980,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // uri_path - computed: true, optional: true, required: false
-  private _uriPath?: string; 
+  private _uriPath?: string;
   public get uriPath() {
     return this.getStringAttribute('uri_path');
   }
@@ -1017,7 +1017,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}
 */
 export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
 
@@ -1033,7 +1033,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Wafv2LoggingConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv2LoggingConfiguration to import
-  * @param importFromId The id of the existing Wafv2LoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv2LoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv2LoggingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1045,7 +1045,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1056,7 +1056,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wafv2_logging_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1082,7 +1082,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // log_destination_configs - computed: false, optional: false, required: true
-  private _logDestinationConfigs?: string[]; 
+  private _logDestinationConfigs?: string[];
   public get logDestinationConfigs() {
     return this.getListAttribute('log_destination_configs');
   }
@@ -1132,7 +1132,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

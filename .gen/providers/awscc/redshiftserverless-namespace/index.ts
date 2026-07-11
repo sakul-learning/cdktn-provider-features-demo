@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface RedshiftserverlessNamespaceConfig extends cdktn.TerraformMetaAr
   /**
   * The ID of the AWS Key Management Service (KMS) key used to encrypt and store the namespace's admin credentials secret. You can only use this parameter if manageAdminPassword is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#admin_password_secret_kms_key_id RedshiftserverlessNamespace#admin_password_secret_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#admin_password_secret_kms_key_id RedshiftserverlessNamespace#admin_password_secret_kms_key_id}
   */
   readonly adminPasswordSecretKmsKeyId?: string;
   /**
   * The password associated with the admin user for the namespace that is being created. Password must be at least 8 characters in length, should be any printable ASCII character. Must contain at least one lowercase letter, one uppercase letter and one decimal digit. You can't use adminUserPassword if manageAdminPassword is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#admin_user_password RedshiftserverlessNamespace#admin_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#admin_user_password RedshiftserverlessNamespace#admin_user_password}
   */
   readonly adminUserPassword?: string;
   /**
   * The user name associated with the admin user for the namespace that is being created. Only alphanumeric characters and underscores are allowed. It should start with an alphabet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#admin_username RedshiftserverlessNamespace#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#admin_username RedshiftserverlessNamespace#admin_username}
   */
   readonly adminUsername?: string;
   /**
   * The database name associated for the namespace that is being created. Only alphanumeric characters and underscores are allowed. It should start with an alphabet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#db_name RedshiftserverlessNamespace#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#db_name RedshiftserverlessNamespace#db_name}
   */
   readonly dbName?: string;
   /**
   * The default IAM role ARN for the namespace that is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#default_iam_role_arn RedshiftserverlessNamespace#default_iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#default_iam_role_arn RedshiftserverlessNamespace#default_iam_role_arn}
   */
   readonly defaultIamRoleArn?: string;
   /**
   * The name of the namespace the source snapshot was created from. Please specify the name if needed before deleting namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#final_snapshot_name RedshiftserverlessNamespace#final_snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#final_snapshot_name RedshiftserverlessNamespace#final_snapshot_name}
   */
   readonly finalSnapshotName?: string;
   /**
   * The number of days to retain automated snapshot in the destination region after they are copied from the source region. If the value is -1, the manual snapshot is retained indefinitely. The value must be either -1 or an integer between 1 and 3,653.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#final_snapshot_retention_period RedshiftserverlessNamespace#final_snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#final_snapshot_retention_period RedshiftserverlessNamespace#final_snapshot_retention_period}
   */
   readonly finalSnapshotRetentionPeriod?: number;
   /**
   * A list of AWS Identity and Access Management (IAM) roles that can be used by the namespace to access other AWS services. You must supply the IAM roles in their Amazon Resource Name (ARN) format. The Default role limit for each request is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#iam_roles RedshiftserverlessNamespace#iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#iam_roles RedshiftserverlessNamespace#iam_roles}
   */
   readonly iamRoles?: string[];
   /**
   * The AWS Key Management Service (KMS) key ID of the encryption key that you want to use to encrypt data in the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#kms_key_id RedshiftserverlessNamespace#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#kms_key_id RedshiftserverlessNamespace#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The collection of log types to be exported provided by the customer. Should only be one of the three supported log types: userlog, useractivitylog and connectionlog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#log_exports RedshiftserverlessNamespace#log_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#log_exports RedshiftserverlessNamespace#log_exports}
   */
   readonly logExports?: string[];
   /**
   * If true, Amazon Redshift uses AWS Secrets Manager to manage the namespace's admin credentials. You can't use adminUserPassword if manageAdminPassword is true. If manageAdminPassword is false or not set, Amazon Redshift uses adminUserPassword for the admin user account's password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#manage_admin_password RedshiftserverlessNamespace#manage_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#manage_admin_password RedshiftserverlessNamespace#manage_admin_password}
   */
   readonly manageAdminPassword?: boolean | cdktn.IResolvable;
   /**
   * A unique identifier for the namespace. You use this identifier to refer to the namespace for any subsequent namespace operations such as deleting or modifying. All alphabetical characters must be lower case. Namespace name should be unique for all namespaces within an AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#namespace_name RedshiftserverlessNamespace#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#namespace_name RedshiftserverlessNamespace#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * The resource policy document that will be attached to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#namespace_resource_policy RedshiftserverlessNamespace#namespace_resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#namespace_resource_policy RedshiftserverlessNamespace#namespace_resource_policy}
   */
   readonly namespaceResourcePolicy?: string;
   /**
   * The ARN for the Redshift application that integrates with IAM Identity Center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#redshift_idc_application_arn RedshiftserverlessNamespace#redshift_idc_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#redshift_idc_application_arn RedshiftserverlessNamespace#redshift_idc_application_arn}
   */
   readonly redshiftIdcApplicationArn?: string;
   /**
   * The snapshot copy configurations for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#snapshot_copy_configurations RedshiftserverlessNamespace#snapshot_copy_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#snapshot_copy_configurations RedshiftserverlessNamespace#snapshot_copy_configurations}
   */
   readonly snapshotCopyConfigurations?: RedshiftserverlessNamespaceSnapshotCopyConfigurations[] | cdktn.IResolvable;
   /**
   * The list of tags for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#tags RedshiftserverlessNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#tags RedshiftserverlessNamespace#tags}
   */
   readonly tags?: RedshiftserverlessNamespaceTags[] | cdktn.IResolvable;
 }
@@ -220,15 +220,15 @@ export class RedshiftserverlessNamespaceNamespaceOutputReference extends cdktn.C
 }
 export interface RedshiftserverlessNamespaceSnapshotCopyConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#destination_kms_key_id RedshiftserverlessNamespace#destination_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#destination_kms_key_id RedshiftserverlessNamespace#destination_kms_key_id}
   */
   readonly destinationKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#destination_region RedshiftserverlessNamespace#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#destination_region RedshiftserverlessNamespace#destination_region}
   */
   readonly destinationRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#snapshot_retention_period RedshiftserverlessNamespace#snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#snapshot_retention_period RedshiftserverlessNamespace#snapshot_retention_period}
   */
   readonly snapshotRetentionPeriod?: number;
 }
@@ -333,7 +333,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // destination_kms_key_id - computed: true, optional: true, required: false
-  private _destinationKmsKeyId?: string; 
+  private _destinationKmsKeyId?: string;
   public get destinationKmsKeyId() {
     return this.getStringAttribute('destination_kms_key_id');
   }
@@ -349,7 +349,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // destination_region - computed: true, optional: true, required: false
-  private _destinationRegion?: string; 
+  private _destinationRegion?: string;
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -365,7 +365,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // snapshot_retention_period - computed: true, optional: true, required: false
-  private _snapshotRetentionPeriod?: number; 
+  private _snapshotRetentionPeriod?: number;
   public get snapshotRetentionPeriod() {
     return this.getNumberAttribute('snapshot_retention_period');
   }
@@ -402,11 +402,11 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsList extends c
 }
 export interface RedshiftserverlessNamespaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#key RedshiftserverlessNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#key RedshiftserverlessNamespace#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#value RedshiftserverlessNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#value RedshiftserverlessNamespace#value}
   */
   readonly value?: string;
 }
@@ -498,7 +498,7 @@ export class RedshiftserverlessNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -514,7 +514,7 @@ export class RedshiftserverlessNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -551,7 +551,7 @@ export class RedshiftserverlessNamespaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace awscc_redshiftserverless_namespace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace awscc_redshiftserverless_namespace}
 */
 export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
 
@@ -567,7 +567,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftserverlessNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftserverlessNamespace to import
-  * @param importFromId The id of the existing RedshiftserverlessNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftserverlessNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftserverlessNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -579,7 +579,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_namespace awscc_redshiftserverless_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_namespace awscc_redshiftserverless_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,7 +590,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshiftserverless_namespace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -623,7 +623,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   // ==========
 
   // admin_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _adminPasswordSecretKmsKeyId?: string; 
+  private _adminPasswordSecretKmsKeyId?: string;
   public get adminPasswordSecretKmsKeyId() {
     return this.getStringAttribute('admin_password_secret_kms_key_id');
   }
@@ -639,7 +639,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_user_password - computed: true, optional: true, required: false
-  private _adminUserPassword?: string; 
+  private _adminUserPassword?: string;
   public get adminUserPassword() {
     return this.getStringAttribute('admin_user_password');
   }
@@ -655,7 +655,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_username - computed: true, optional: true, required: false
-  private _adminUsername?: string; 
+  private _adminUsername?: string;
   public get adminUsername() {
     return this.getStringAttribute('admin_username');
   }
@@ -671,7 +671,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // db_name - computed: true, optional: true, required: false
-  private _dbName?: string; 
+  private _dbName?: string;
   public get dbName() {
     return this.getStringAttribute('db_name');
   }
@@ -687,7 +687,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // default_iam_role_arn - computed: true, optional: true, required: false
-  private _defaultIamRoleArn?: string; 
+  private _defaultIamRoleArn?: string;
   public get defaultIamRoleArn() {
     return this.getStringAttribute('default_iam_role_arn');
   }
@@ -703,7 +703,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // final_snapshot_name - computed: true, optional: true, required: false
-  private _finalSnapshotName?: string; 
+  private _finalSnapshotName?: string;
   public get finalSnapshotName() {
     return this.getStringAttribute('final_snapshot_name');
   }
@@ -719,7 +719,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // final_snapshot_retention_period - computed: true, optional: true, required: false
-  private _finalSnapshotRetentionPeriod?: number; 
+  private _finalSnapshotRetentionPeriod?: number;
   public get finalSnapshotRetentionPeriod() {
     return this.getNumberAttribute('final_snapshot_retention_period');
   }
@@ -735,7 +735,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[]; 
+  private _iamRoles?: string[];
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -756,7 +756,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -772,7 +772,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // log_exports - computed: true, optional: true, required: false
-  private _logExports?: string[]; 
+  private _logExports?: string[];
   public get logExports() {
     return this.getListAttribute('log_exports');
   }
@@ -788,7 +788,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // manage_admin_password - computed: true, optional: true, required: false
-  private _manageAdminPassword?: boolean | cdktn.IResolvable; 
+  private _manageAdminPassword?: boolean | cdktn.IResolvable;
   public get manageAdminPassword() {
     return this.getBooleanAttribute('manage_admin_password');
   }
@@ -810,7 +810,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string; 
+  private _namespaceName?: string;
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -823,7 +823,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // namespace_resource_policy - computed: true, optional: true, required: false
-  private _namespaceResourcePolicy?: string; 
+  private _namespaceResourcePolicy?: string;
   public get namespaceResourcePolicy() {
     return this.getStringAttribute('namespace_resource_policy');
   }
@@ -839,7 +839,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // redshift_idc_application_arn - computed: true, optional: true, required: false
-  private _redshiftIdcApplicationArn?: string; 
+  private _redshiftIdcApplicationArn?: string;
   public get redshiftIdcApplicationArn() {
     return this.getStringAttribute('redshift_idc_application_arn');
   }

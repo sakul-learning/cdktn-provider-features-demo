@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotwireless_device_profiles
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotwireless_device_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccIotwirelessDeviceProfilesConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles}
 */
 export class DataAwsccIotwirelessDeviceProfiles extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccIotwirelessDeviceProfiles extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccIotwirelessDeviceProfiles resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotwirelessDeviceProfiles to import
-  * @param importFromId The id of the existing DataAwsccIotwirelessDeviceProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotwireless_device_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotwirelessDeviceProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotwireless_device_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotwirelessDeviceProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccIotwirelessDeviceProfiles extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccIotwirelessDeviceProfiles extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_iotwireless_device_profiles',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

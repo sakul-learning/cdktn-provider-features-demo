@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktn from 'cdktn';
 
 export interface ElasticBeanstalkEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#application ElasticBeanstalkEnvironment#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#application ElasticBeanstalkEnvironment#application}
   */
   readonly application: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#cname_prefix ElasticBeanstalkEnvironment#cname_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#cname_prefix ElasticBeanstalkEnvironment#cname_prefix}
   */
   readonly cnamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#description ElasticBeanstalkEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#description ElasticBeanstalkEnvironment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#id ElasticBeanstalkEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#id ElasticBeanstalkEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#name ElasticBeanstalkEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#name ElasticBeanstalkEnvironment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#platform_arn ElasticBeanstalkEnvironment#platform_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#platform_arn ElasticBeanstalkEnvironment#platform_arn}
   */
   readonly platformArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#poll_interval ElasticBeanstalkEnvironment#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#poll_interval ElasticBeanstalkEnvironment#poll_interval}
   */
   readonly pollInterval?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#region ElasticBeanstalkEnvironment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#region ElasticBeanstalkEnvironment#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#solution_stack_name ElasticBeanstalkEnvironment#solution_stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#solution_stack_name ElasticBeanstalkEnvironment#solution_stack_name}
   */
   readonly solutionStackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#tags ElasticBeanstalkEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#tags ElasticBeanstalkEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#tags_all ElasticBeanstalkEnvironment#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#tags_all ElasticBeanstalkEnvironment#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#template_name ElasticBeanstalkEnvironment#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#template_name ElasticBeanstalkEnvironment#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#tier ElasticBeanstalkEnvironment#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#tier ElasticBeanstalkEnvironment#tier}
   */
   readonly tier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#version_label ElasticBeanstalkEnvironment#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#version_label ElasticBeanstalkEnvironment#version_label}
   */
   readonly versionLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#wait_for_ready_timeout ElasticBeanstalkEnvironment#wait_for_ready_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#wait_for_ready_timeout ElasticBeanstalkEnvironment#wait_for_ready_timeout}
   */
   readonly waitForReadyTimeout?: string;
   /**
   * setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#setting ElasticBeanstalkEnvironment#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#setting ElasticBeanstalkEnvironment#setting}
   */
   readonly setting?: ElasticBeanstalkEnvironmentSetting[] | cdktn.IResolvable;
 }
@@ -171,19 +171,19 @@ export class ElasticBeanstalkEnvironmentAllSettingsList extends cdktn.ComplexLis
 }
 export interface ElasticBeanstalkEnvironmentSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#name ElasticBeanstalkEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#name ElasticBeanstalkEnvironment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#namespace ElasticBeanstalkEnvironment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#namespace ElasticBeanstalkEnvironment#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#resource ElasticBeanstalkEnvironment#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#resource ElasticBeanstalkEnvironment#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#value ElasticBeanstalkEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#value ElasticBeanstalkEnvironment#value}
   */
   readonly value: string;
 }
@@ -301,7 +301,7 @@ export class ElasticBeanstalkEnvironmentSettingOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -314,7 +314,7 @@ export class ElasticBeanstalkEnvironmentSettingOutputReference extends cdktn.Com
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -327,7 +327,7 @@ export class ElasticBeanstalkEnvironmentSettingOutputReference extends cdktn.Com
   }
 
   // resource - computed: false, optional: true, required: false
-  private _resource?: string; 
+  private _resource?: string;
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -343,7 +343,7 @@ export class ElasticBeanstalkEnvironmentSettingOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -377,7 +377,7 @@ export class ElasticBeanstalkEnvironmentSettingList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment aws_elastic_beanstalk_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment aws_elastic_beanstalk_environment}
 */
 export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
 
@@ -393,7 +393,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticBeanstalkEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticBeanstalkEnvironment to import
-  * @param importFromId The id of the existing ElasticBeanstalkEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticBeanstalkEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticBeanstalkEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -405,7 +405,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/elastic_beanstalk_environment aws_elastic_beanstalk_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/elastic_beanstalk_environment aws_elastic_beanstalk_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,7 +416,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'aws_elastic_beanstalk_environment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -455,7 +455,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // application - computed: false, optional: false, required: true
-  private _application?: string; 
+  private _application?: string;
   public get application() {
     return this.getStringAttribute('application');
   }
@@ -483,7 +483,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // cname_prefix - computed: true, optional: true, required: false
-  private _cnamePrefix?: string; 
+  private _cnamePrefix?: string;
   public get cnamePrefix() {
     return this.getStringAttribute('cname_prefix');
   }
@@ -499,7 +499,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -520,7 +520,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -551,7 +551,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -564,7 +564,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // platform_arn - computed: true, optional: true, required: false
-  private _platformArn?: string; 
+  private _platformArn?: string;
   public get platformArn() {
     return this.getStringAttribute('platform_arn');
   }
@@ -580,7 +580,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // poll_interval - computed: false, optional: true, required: false
-  private _pollInterval?: string; 
+  private _pollInterval?: string;
   public get pollInterval() {
     return this.getStringAttribute('poll_interval');
   }
@@ -601,7 +601,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -617,7 +617,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // solution_stack_name - computed: true, optional: true, required: false
-  private _solutionStackName?: string; 
+  private _solutionStackName?: string;
   public get solutionStackName() {
     return this.getStringAttribute('solution_stack_name');
   }
@@ -633,7 +633,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -649,7 +649,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -665,7 +665,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // template_name - computed: false, optional: true, required: false
-  private _templateName?: string; 
+  private _templateName?: string;
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -681,7 +681,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: true, required: false
-  private _tier?: string; 
+  private _tier?: string;
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -702,7 +702,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // version_label - computed: true, optional: true, required: false
-  private _versionLabel?: string; 
+  private _versionLabel?: string;
   public get versionLabel() {
     return this.getStringAttribute('version_label');
   }
@@ -718,7 +718,7 @@ export class ElasticBeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // wait_for_ready_timeout - computed: false, optional: true, required: false
-  private _waitForReadyTimeout?: string; 
+  private _waitForReadyTimeout?: string;
   public get waitForReadyTimeout() {
     return this.getStringAttribute('wait_for_ready_timeout');
   }

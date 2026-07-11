@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktn from 'cdktn';
 
 export interface WafregionalByteMatchSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#id WafregionalByteMatchSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#id WafregionalByteMatchSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#name WafregionalByteMatchSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#name WafregionalByteMatchSet#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#region WafregionalByteMatchSet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#region WafregionalByteMatchSet#region}
   */
   readonly region?: string;
   /**
   * byte_match_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#byte_match_tuples WafregionalByteMatchSet#byte_match_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#byte_match_tuples WafregionalByteMatchSet#byte_match_tuples}
   */
   readonly byteMatchTuples?: WafregionalByteMatchSetByteMatchTuples[] | cdktn.IResolvable;
 }
 export interface WafregionalByteMatchSetByteMatchTuplesFieldToMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#data WafregionalByteMatchSet#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#type WafregionalByteMatchSet#type}
   */
   readonly type: string;
 }
@@ -117,7 +117,7 @@ export class WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference e
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string; 
+  private _data?: string;
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -133,7 +133,7 @@ export class WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference e
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -147,21 +147,21 @@ export class WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference e
 }
 export interface WafregionalByteMatchSetByteMatchTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#positional_constraint WafregionalByteMatchSet#positional_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#positional_constraint WafregionalByteMatchSet#positional_constraint}
   */
   readonly positionalConstraint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#target_string WafregionalByteMatchSet#target_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#target_string WafregionalByteMatchSet#target_string}
   */
   readonly targetString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#text_transformation WafregionalByteMatchSet#text_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#text_transformation WafregionalByteMatchSet#text_transformation}
   */
   readonly textTransformation: string;
   /**
   * field_to_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#field_to_match WafregionalByteMatchSet#field_to_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#field_to_match WafregionalByteMatchSet#field_to_match}
   */
   readonly fieldToMatch: WafregionalByteMatchSetByteMatchTuplesFieldToMatch;
 }
@@ -279,7 +279,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // positional_constraint - computed: false, optional: false, required: true
-  private _positionalConstraint?: string; 
+  private _positionalConstraint?: string;
   public get positionalConstraint() {
     return this.getStringAttribute('positional_constraint');
   }
@@ -292,7 +292,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // target_string - computed: false, optional: true, required: false
-  private _targetString?: string; 
+  private _targetString?: string;
   public get targetString() {
     return this.getStringAttribute('target_string');
   }
@@ -308,7 +308,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string; 
+  private _textTransformation?: string;
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -355,7 +355,7 @@ export class WafregionalByteMatchSetByteMatchTuplesList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}
 */
 export class WafregionalByteMatchSet extends cdktn.TerraformResource {
 
@@ -371,7 +371,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WafregionalByteMatchSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafregionalByteMatchSet to import
-  * @param importFromId The id of the existing WafregionalByteMatchSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafregionalByteMatchSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafregionalByteMatchSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -383,7 +383,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,7 +394,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_wafregional_byte_match_set',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -415,7 +415,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -431,7 +431,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -444,7 +444,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

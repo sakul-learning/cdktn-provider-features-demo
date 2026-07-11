@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface NotificationsNotificationConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#aggregation_duration NotificationsNotificationConfiguration#aggregation_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#aggregation_duration NotificationsNotificationConfiguration#aggregation_duration}
   */
   readonly aggregationDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#description NotificationsNotificationConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#description NotificationsNotificationConfiguration#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#name NotificationsNotificationConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#name NotificationsNotificationConfiguration#name}
   */
   readonly name: string;
   /**
   * A list of tags that are attached to the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#tags NotificationsNotificationConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#tags NotificationsNotificationConfiguration#tags}
   */
   readonly tags?: NotificationsNotificationConfigurationTags[] | cdktn.IResolvable;
 }
 export interface NotificationsNotificationConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#key NotificationsNotificationConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#key NotificationsNotificationConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#value NotificationsNotificationConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#value NotificationsNotificationConfiguration#value}
   */
   readonly value?: string;
 }
@@ -124,7 +124,7 @@ export class NotificationsNotificationConfigurationTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class NotificationsNotificationConfigurationTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -177,7 +177,7 @@ export class NotificationsNotificationConfigurationTagsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration awscc_notifications_notification_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration awscc_notifications_notification_configuration}
 */
 export class NotificationsNotificationConfiguration extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   * Generates CDKTN code for importing a NotificationsNotificationConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsNotificationConfiguration to import
-  * @param importFromId The id of the existing NotificationsNotificationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsNotificationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsNotificationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/notifications_notification_configuration awscc_notifications_notification_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_notification_configuration awscc_notifications_notification_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
       terraformResourceType: 'awscc_notifications_notification_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -237,7 +237,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   // ==========
 
   // aggregation_duration - computed: true, optional: true, required: false
-  private _aggregationDuration?: string; 
+  private _aggregationDuration?: string;
   public get aggregationDuration() {
     return this.getStringAttribute('aggregation_duration');
   }
@@ -263,7 +263,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -281,7 +281,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

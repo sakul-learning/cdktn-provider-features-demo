@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}
   */
   readonly dataSourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#id QuicksightDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#id QuicksightDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#region QuicksightDataSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#region QuicksightDataSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#tags_all QuicksightDataSource#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#tags_all QuicksightDataSource#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}
   */
   readonly type: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
   */
   readonly credentials?: QuicksightDataSourceCredentials;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#parameters QuicksightDataSource#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#parameters QuicksightDataSource#parameters}
   */
   readonly parameters: QuicksightDataSourceParameters;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#permission QuicksightDataSource#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#permission QuicksightDataSource#permission}
   */
   readonly permission?: QuicksightDataSourcePermission[] | cdktn.IResolvable;
   /**
   * ssl_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
   */
   readonly sslProperties?: QuicksightDataSourceSslProperties;
   /**
   * vpc_connection_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
   */
   readonly vpcConnectionProperties?: QuicksightDataSourceVpcConnectionProperties;
 }
 export interface QuicksightDataSourceCredentialsCredentialPair {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#password QuicksightDataSource#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#username QuicksightDataSource#username}
   */
   readonly username: string;
 }
@@ -161,7 +161,7 @@ export class QuicksightDataSourceCredentialsCredentialPairOutputReference extend
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -174,7 +174,7 @@ export class QuicksightDataSourceCredentialsCredentialPairOutputReference extend
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string; 
+  private _username?: string;
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -188,17 +188,17 @@ export class QuicksightDataSourceCredentialsCredentialPairOutputReference extend
 }
 export interface QuicksightDataSourceCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
   */
   readonly copySourceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * credential_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
   */
   readonly credentialPair?: QuicksightDataSourceCredentialsCredentialPair;
 }
@@ -291,7 +291,7 @@ export class QuicksightDataSourceCredentialsOutputReference extends cdktn.Comple
   }
 
   // copy_source_arn - computed: false, optional: true, required: false
-  private _copySourceArn?: string; 
+  private _copySourceArn?: string;
   public get copySourceArn() {
     return this.getStringAttribute('copy_source_arn');
   }
@@ -307,7 +307,7 @@ export class QuicksightDataSourceCredentialsOutputReference extends cdktn.Comple
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -340,7 +340,7 @@ export class QuicksightDataSourceCredentialsOutputReference extends cdktn.Comple
 }
 export interface QuicksightDataSourceParametersAmazonElasticsearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
   */
   readonly domain: string;
 }
@@ -407,7 +407,7 @@ export class QuicksightDataSourceParametersAmazonElasticsearchOutputReference ex
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string; 
+  private _domain?: string;
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -421,11 +421,11 @@ export class QuicksightDataSourceParametersAmazonElasticsearchOutputReference ex
 }
 export interface QuicksightDataSourceParametersAthena {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}
   */
   readonly workGroup?: string;
 }
@@ -505,7 +505,7 @@ export class QuicksightDataSourceParametersAthenaOutputReference extends cdktn.C
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -521,7 +521,7 @@ export class QuicksightDataSourceParametersAthenaOutputReference extends cdktn.C
   }
 
   // work_group - computed: false, optional: true, required: false
-  private _workGroup?: string; 
+  private _workGroup?: string;
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }
@@ -538,15 +538,15 @@ export class QuicksightDataSourceParametersAthenaOutputReference extends cdktn.C
 }
 export interface QuicksightDataSourceParametersAurora {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -639,7 +639,7 @@ export class QuicksightDataSourceParametersAuroraOutputReference extends cdktn.C
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -652,7 +652,7 @@ export class QuicksightDataSourceParametersAuroraOutputReference extends cdktn.C
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -665,7 +665,7 @@ export class QuicksightDataSourceParametersAuroraOutputReference extends cdktn.C
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -679,15 +679,15 @@ export class QuicksightDataSourceParametersAuroraOutputReference extends cdktn.C
 }
 export interface QuicksightDataSourceParametersAuroraPostgresql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -780,7 +780,7 @@ export class QuicksightDataSourceParametersAuroraPostgresqlOutputReference exten
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -793,7 +793,7 @@ export class QuicksightDataSourceParametersAuroraPostgresqlOutputReference exten
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -806,7 +806,7 @@ export class QuicksightDataSourceParametersAuroraPostgresqlOutputReference exten
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -820,7 +820,7 @@ export class QuicksightDataSourceParametersAuroraPostgresqlOutputReference exten
 }
 export interface QuicksightDataSourceParametersAwsIotAnalytics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}
   */
   readonly dataSetName: string;
 }
@@ -887,7 +887,7 @@ export class QuicksightDataSourceParametersAwsIotAnalyticsOutputReference extend
   }
 
   // data_set_name - computed: false, optional: false, required: true
-  private _dataSetName?: string; 
+  private _dataSetName?: string;
   public get dataSetName() {
     return this.getStringAttribute('data_set_name');
   }
@@ -901,15 +901,15 @@ export class QuicksightDataSourceParametersAwsIotAnalyticsOutputReference extend
 }
 export interface QuicksightDataSourceParametersDatabricks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
   */
   readonly sqlEndpointPath: string;
 }
@@ -1002,7 +1002,7 @@ export class QuicksightDataSourceParametersDatabricksOutputReference extends cdk
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1015,7 +1015,7 @@ export class QuicksightDataSourceParametersDatabricksOutputReference extends cdk
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1028,7 +1028,7 @@ export class QuicksightDataSourceParametersDatabricksOutputReference extends cdk
   }
 
   // sql_endpoint_path - computed: false, optional: false, required: true
-  private _sqlEndpointPath?: string; 
+  private _sqlEndpointPath?: string;
   public get sqlEndpointPath() {
     return this.getStringAttribute('sql_endpoint_path');
   }
@@ -1042,7 +1042,7 @@ export class QuicksightDataSourceParametersDatabricksOutputReference extends cdk
 }
 export interface QuicksightDataSourceParametersJira {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}
   */
   readonly siteBaseUrl: string;
 }
@@ -1109,7 +1109,7 @@ export class QuicksightDataSourceParametersJiraOutputReference extends cdktn.Com
   }
 
   // site_base_url - computed: false, optional: false, required: true
-  private _siteBaseUrl?: string; 
+  private _siteBaseUrl?: string;
   public get siteBaseUrl() {
     return this.getStringAttribute('site_base_url');
   }
@@ -1123,15 +1123,15 @@ export class QuicksightDataSourceParametersJiraOutputReference extends cdktn.Com
 }
 export interface QuicksightDataSourceParametersMariaDb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -1224,7 +1224,7 @@ export class QuicksightDataSourceParametersMariaDbOutputReference extends cdktn.
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1237,7 +1237,7 @@ export class QuicksightDataSourceParametersMariaDbOutputReference extends cdktn.
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1250,7 +1250,7 @@ export class QuicksightDataSourceParametersMariaDbOutputReference extends cdktn.
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1264,15 +1264,15 @@ export class QuicksightDataSourceParametersMariaDbOutputReference extends cdktn.
 }
 export interface QuicksightDataSourceParametersMysql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -1365,7 +1365,7 @@ export class QuicksightDataSourceParametersMysqlOutputReference extends cdktn.Co
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1378,7 +1378,7 @@ export class QuicksightDataSourceParametersMysqlOutputReference extends cdktn.Co
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1391,7 +1391,7 @@ export class QuicksightDataSourceParametersMysqlOutputReference extends cdktn.Co
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1405,15 +1405,15 @@ export class QuicksightDataSourceParametersMysqlOutputReference extends cdktn.Co
 }
 export interface QuicksightDataSourceParametersOracle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -1506,7 +1506,7 @@ export class QuicksightDataSourceParametersOracleOutputReference extends cdktn.C
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1519,7 +1519,7 @@ export class QuicksightDataSourceParametersOracleOutputReference extends cdktn.C
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1532,7 +1532,7 @@ export class QuicksightDataSourceParametersOracleOutputReference extends cdktn.C
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1546,15 +1546,15 @@ export class QuicksightDataSourceParametersOracleOutputReference extends cdktn.C
 }
 export interface QuicksightDataSourceParametersPostgresql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -1647,7 +1647,7 @@ export class QuicksightDataSourceParametersPostgresqlOutputReference extends cdk
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1660,7 +1660,7 @@ export class QuicksightDataSourceParametersPostgresqlOutputReference extends cdk
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1673,7 +1673,7 @@ export class QuicksightDataSourceParametersPostgresqlOutputReference extends cdk
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1687,15 +1687,15 @@ export class QuicksightDataSourceParametersPostgresqlOutputReference extends cdk
 }
 export interface QuicksightDataSourceParametersPresto {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#catalog QuicksightDataSource#catalog}
   */
   readonly catalog: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -1788,7 +1788,7 @@ export class QuicksightDataSourceParametersPrestoOutputReference extends cdktn.C
   }
 
   // catalog - computed: false, optional: false, required: true
-  private _catalog?: string; 
+  private _catalog?: string;
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -1801,7 +1801,7 @@ export class QuicksightDataSourceParametersPrestoOutputReference extends cdktn.C
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1814,7 +1814,7 @@ export class QuicksightDataSourceParametersPrestoOutputReference extends cdktn.C
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1828,11 +1828,11 @@ export class QuicksightDataSourceParametersPrestoOutputReference extends cdktn.C
 }
 export interface QuicksightDataSourceParametersRds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#instance_id QuicksightDataSource#instance_id}
   */
   readonly instanceId: string;
 }
@@ -1912,7 +1912,7 @@ export class QuicksightDataSourceParametersRdsOutputReference extends cdktn.Comp
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1925,7 +1925,7 @@ export class QuicksightDataSourceParametersRdsOutputReference extends cdktn.Comp
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -1939,19 +1939,19 @@ export class QuicksightDataSourceParametersRdsOutputReference extends cdktn.Comp
 }
 export interface QuicksightDataSourceParametersRedshift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#cluster_id QuicksightDataSource#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port?: number;
 }
@@ -2057,7 +2057,7 @@ export class QuicksightDataSourceParametersRedshiftOutputReference extends cdktn
   }
 
   // cluster_id - computed: false, optional: true, required: false
-  private _clusterId?: string; 
+  private _clusterId?: string;
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -2073,7 +2073,7 @@ export class QuicksightDataSourceParametersRedshiftOutputReference extends cdktn
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2086,7 +2086,7 @@ export class QuicksightDataSourceParametersRedshiftOutputReference extends cdktn
   }
 
   // host - computed: false, optional: true, required: false
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2102,7 +2102,7 @@ export class QuicksightDataSourceParametersRedshiftOutputReference extends cdktn
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2119,11 +2119,11 @@ export class QuicksightDataSourceParametersRedshiftOutputReference extends cdktn
 }
 export interface QuicksightDataSourceParametersS3ManifestFileLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#bucket QuicksightDataSource#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#key QuicksightDataSource#key}
   */
   readonly key: string;
 }
@@ -2203,7 +2203,7 @@ export class QuicksightDataSourceParametersS3ManifestFileLocationOutputReference
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2216,7 +2216,7 @@ export class QuicksightDataSourceParametersS3ManifestFileLocationOutputReference
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2230,13 +2230,13 @@ export class QuicksightDataSourceParametersS3ManifestFileLocationOutputReference
 }
 export interface QuicksightDataSourceParametersS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * manifest_file_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#manifest_file_location QuicksightDataSource#manifest_file_location}
   */
   readonly manifestFileLocation: QuicksightDataSourceParametersS3ManifestFileLocation;
 }
@@ -2316,7 +2316,7 @@ export class QuicksightDataSourceParametersS3OutputReference extends cdktn.Compl
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2346,7 +2346,7 @@ export class QuicksightDataSourceParametersS3OutputReference extends cdktn.Compl
 }
 export interface QuicksightDataSourceParametersServiceNow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#site_base_url QuicksightDataSource#site_base_url}
   */
   readonly siteBaseUrl: string;
 }
@@ -2413,7 +2413,7 @@ export class QuicksightDataSourceParametersServiceNowOutputReference extends cdk
   }
 
   // site_base_url - computed: false, optional: false, required: true
-  private _siteBaseUrl?: string; 
+  private _siteBaseUrl?: string;
   public get siteBaseUrl() {
     return this.getStringAttribute('site_base_url');
   }
@@ -2427,15 +2427,15 @@ export class QuicksightDataSourceParametersServiceNowOutputReference extends cdk
 }
 export interface QuicksightDataSourceParametersSnowflake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
   */
   readonly warehouse: string;
 }
@@ -2528,7 +2528,7 @@ export class QuicksightDataSourceParametersSnowflakeOutputReference extends cdkt
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2541,7 +2541,7 @@ export class QuicksightDataSourceParametersSnowflakeOutputReference extends cdkt
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2554,7 +2554,7 @@ export class QuicksightDataSourceParametersSnowflakeOutputReference extends cdkt
   }
 
   // warehouse - computed: false, optional: false, required: true
-  private _warehouse?: string; 
+  private _warehouse?: string;
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -2568,11 +2568,11 @@ export class QuicksightDataSourceParametersSnowflakeOutputReference extends cdkt
 }
 export interface QuicksightDataSourceParametersSpark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -2652,7 +2652,7 @@ export class QuicksightDataSourceParametersSparkOutputReference extends cdktn.Co
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2665,7 +2665,7 @@ export class QuicksightDataSourceParametersSparkOutputReference extends cdktn.Co
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2679,15 +2679,15 @@ export class QuicksightDataSourceParametersSparkOutputReference extends cdktn.Co
 }
 export interface QuicksightDataSourceParametersSqlServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -2780,7 +2780,7 @@ export class QuicksightDataSourceParametersSqlServerOutputReference extends cdkt
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2793,7 +2793,7 @@ export class QuicksightDataSourceParametersSqlServerOutputReference extends cdkt
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2806,7 +2806,7 @@ export class QuicksightDataSourceParametersSqlServerOutputReference extends cdkt
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2820,15 +2820,15 @@ export class QuicksightDataSourceParametersSqlServerOutputReference extends cdkt
 }
 export interface QuicksightDataSourceParametersTeradata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
   */
   readonly port: number;
 }
@@ -2921,7 +2921,7 @@ export class QuicksightDataSourceParametersTeradataOutputReference extends cdktn
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2934,7 +2934,7 @@ export class QuicksightDataSourceParametersTeradataOutputReference extends cdktn
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2947,7 +2947,7 @@ export class QuicksightDataSourceParametersTeradataOutputReference extends cdktn
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2961,11 +2961,11 @@ export class QuicksightDataSourceParametersTeradataOutputReference extends cdktn
 }
 export interface QuicksightDataSourceParametersTwitter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#max_rows QuicksightDataSource#max_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#max_rows QuicksightDataSource#max_rows}
   */
   readonly maxRows: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#query QuicksightDataSource#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#query QuicksightDataSource#query}
   */
   readonly query: string;
 }
@@ -3045,7 +3045,7 @@ export class QuicksightDataSourceParametersTwitterOutputReference extends cdktn.
   }
 
   // max_rows - computed: false, optional: false, required: true
-  private _maxRows?: number; 
+  private _maxRows?: number;
   public get maxRows() {
     return this.getNumberAttribute('max_rows');
   }
@@ -3058,7 +3058,7 @@ export class QuicksightDataSourceParametersTwitterOutputReference extends cdktn.
   }
 
   // query - computed: false, optional: false, required: true
-  private _query?: string; 
+  private _query?: string;
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -3074,127 +3074,127 @@ export interface QuicksightDataSourceParameters {
   /**
   * amazon_elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#amazon_elasticsearch QuicksightDataSource#amazon_elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#amazon_elasticsearch QuicksightDataSource#amazon_elasticsearch}
   */
   readonly amazonElasticsearch?: QuicksightDataSourceParametersAmazonElasticsearch;
   /**
   * athena block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#athena QuicksightDataSource#athena}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#athena QuicksightDataSource#athena}
   */
   readonly athena?: QuicksightDataSourceParametersAthena;
   /**
   * aurora block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#aurora QuicksightDataSource#aurora}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#aurora QuicksightDataSource#aurora}
   */
   readonly aurora?: QuicksightDataSourceParametersAurora;
   /**
   * aurora_postgresql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#aurora_postgresql QuicksightDataSource#aurora_postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#aurora_postgresql QuicksightDataSource#aurora_postgresql}
   */
   readonly auroraPostgresql?: QuicksightDataSourceParametersAuroraPostgresql;
   /**
   * aws_iot_analytics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#aws_iot_analytics QuicksightDataSource#aws_iot_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#aws_iot_analytics QuicksightDataSource#aws_iot_analytics}
   */
   readonly awsIotAnalytics?: QuicksightDataSourceParametersAwsIotAnalytics;
   /**
   * databricks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#databricks QuicksightDataSource#databricks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#databricks QuicksightDataSource#databricks}
   */
   readonly databricks?: QuicksightDataSourceParametersDatabricks;
   /**
   * jira block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#jira QuicksightDataSource#jira}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#jira QuicksightDataSource#jira}
   */
   readonly jira?: QuicksightDataSourceParametersJira;
   /**
   * maria_db block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#maria_db QuicksightDataSource#maria_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#maria_db QuicksightDataSource#maria_db}
   */
   readonly mariaDb?: QuicksightDataSourceParametersMariaDb;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#mysql QuicksightDataSource#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#mysql QuicksightDataSource#mysql}
   */
   readonly mysql?: QuicksightDataSourceParametersMysql;
   /**
   * oracle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#oracle QuicksightDataSource#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#oracle QuicksightDataSource#oracle}
   */
   readonly oracle?: QuicksightDataSourceParametersOracle;
   /**
   * postgresql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#postgresql QuicksightDataSource#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#postgresql QuicksightDataSource#postgresql}
   */
   readonly postgresql?: QuicksightDataSourceParametersPostgresql;
   /**
   * presto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#presto QuicksightDataSource#presto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#presto QuicksightDataSource#presto}
   */
   readonly presto?: QuicksightDataSourceParametersPresto;
   /**
   * rds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#rds QuicksightDataSource#rds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#rds QuicksightDataSource#rds}
   */
   readonly rds?: QuicksightDataSourceParametersRds;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#redshift QuicksightDataSource#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#redshift QuicksightDataSource#redshift}
   */
   readonly redshift?: QuicksightDataSourceParametersRedshift;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#s3 QuicksightDataSource#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#s3 QuicksightDataSource#s3}
   */
   readonly s3?: QuicksightDataSourceParametersS3;
   /**
   * service_now block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#service_now QuicksightDataSource#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#service_now QuicksightDataSource#service_now}
   */
   readonly serviceNow?: QuicksightDataSourceParametersServiceNow;
   /**
   * snowflake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#snowflake QuicksightDataSource#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#snowflake QuicksightDataSource#snowflake}
   */
   readonly snowflake?: QuicksightDataSourceParametersSnowflake;
   /**
   * spark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#spark QuicksightDataSource#spark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#spark QuicksightDataSource#spark}
   */
   readonly spark?: QuicksightDataSourceParametersSpark;
   /**
   * sql_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#sql_server QuicksightDataSource#sql_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#sql_server QuicksightDataSource#sql_server}
   */
   readonly sqlServer?: QuicksightDataSourceParametersSqlServer;
   /**
   * teradata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#teradata QuicksightDataSource#teradata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#teradata QuicksightDataSource#teradata}
   */
   readonly teradata?: QuicksightDataSourceParametersTeradata;
   /**
   * twitter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#twitter QuicksightDataSource#twitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#twitter QuicksightDataSource#twitter}
   */
   readonly twitter?: QuicksightDataSourceParametersTwitter;
 }
@@ -3858,11 +3858,11 @@ export class QuicksightDataSourceParametersOutputReference extends cdktn.Complex
 }
 export interface QuicksightDataSourcePermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#actions QuicksightDataSource#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#actions QuicksightDataSource#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#principal QuicksightDataSource#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#principal QuicksightDataSource#principal}
   */
   readonly principal: string;
 }
@@ -3954,7 +3954,7 @@ export class QuicksightDataSourcePermissionOutputReference extends cdktn.Complex
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -3967,7 +3967,7 @@ export class QuicksightDataSourcePermissionOutputReference extends cdktn.Complex
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -4001,7 +4001,7 @@ export class QuicksightDataSourcePermissionList extends cdktn.ComplexList {
 }
 export interface QuicksightDataSourceSslProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}
   */
   readonly disableSsl: boolean | cdktn.IResolvable;
 }
@@ -4068,7 +4068,7 @@ export class QuicksightDataSourceSslPropertiesOutputReference extends cdktn.Comp
   }
 
   // disable_ssl - computed: false, optional: false, required: true
-  private _disableSsl?: boolean | cdktn.IResolvable; 
+  private _disableSsl?: boolean | cdktn.IResolvable;
   public get disableSsl() {
     return this.getBooleanAttribute('disable_ssl');
   }
@@ -4082,7 +4082,7 @@ export class QuicksightDataSourceSslPropertiesOutputReference extends cdktn.Comp
 }
 export interface QuicksightDataSourceVpcConnectionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#vpc_connection_arn QuicksightDataSource#vpc_connection_arn}
   */
   readonly vpcConnectionArn: string;
 }
@@ -4149,7 +4149,7 @@ export class QuicksightDataSourceVpcConnectionPropertiesOutputReference extends 
   }
 
   // vpc_connection_arn - computed: false, optional: false, required: true
-  private _vpcConnectionArn?: string; 
+  private _vpcConnectionArn?: string;
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -4163,7 +4163,7 @@ export class QuicksightDataSourceVpcConnectionPropertiesOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source aws_quicksight_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source aws_quicksight_data_source}
 */
 export class QuicksightDataSource extends cdktn.TerraformResource {
 
@@ -4179,7 +4179,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightDataSource to import
-  * @param importFromId The id of the existing QuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4191,7 +4191,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4202,7 +4202,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_quicksight_data_source',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4237,7 +4237,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -4253,7 +4253,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // data_source_id - computed: false, optional: false, required: true
-  private _dataSourceId?: string; 
+  private _dataSourceId?: string;
   public get dataSourceId() {
     return this.getStringAttribute('data_source_id');
   }
@@ -4266,7 +4266,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4282,7 +4282,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4295,7 +4295,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4311,7 +4311,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4327,7 +4327,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4343,7 +4343,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

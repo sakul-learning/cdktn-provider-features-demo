@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightThemeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}
   */
   readonly baseThemeId: string;
   /**
   * <p>The theme configuration. This configuration contains all of the display properties for
   *             a theme.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
   */
   readonly configuration: QuicksightThemeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#name QuicksightTheme#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}
   */
   readonly permissions?: QuicksightThemePermissions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}
   */
   readonly tags?: QuicksightThemeTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}
   */
   readonly themeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}
   */
   readonly versionDescription?: string;
 }
@@ -47,20 +47,20 @@ export interface QuicksightThemeConfigurationDataColorPalette {
   /**
   * <p>The hexadecimal codes for the colors.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
   */
   readonly colors?: string[];
   /**
   * <p>The hexadecimal code of a color that applies to charts where a lack of data is
   *             highlighted.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
   */
   readonly emptyFillColor?: string;
   /**
   * <p>The minimum and maximum hexadecimal codes that describe a color gradient. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
   */
   readonly minMaxGradient?: string[];
 }
@@ -163,7 +163,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // colors - computed: true, optional: true, required: false
-  private _colors?: string[]; 
+  private _colors?: string[];
   public get colors() {
     return this.getListAttribute('colors');
   }
@@ -179,7 +179,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // empty_fill_color - computed: true, optional: true, required: false
-  private _emptyFillColor?: string; 
+  private _emptyFillColor?: string;
   public get emptyFillColor() {
     return this.getStringAttribute('empty_fill_color');
   }
@@ -195,7 +195,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // min_max_gradient - computed: true, optional: true, required: false
-  private _minMaxGradient?: string[]; 
+  private _minMaxGradient?: string[];
   public get minMaxGradient() {
     return this.getListAttribute('min_max_gradient');
   }
@@ -214,7 +214,7 @@ export interface QuicksightThemeConfigurationSheetTileBorder {
   /**
   * <p>The option to enable display of borders for visuals.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -291,7 +291,7 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -310,7 +310,7 @@ export interface QuicksightThemeConfigurationSheetTile {
   /**
   * <p>The display options for tile borders for visuals.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
   */
   readonly border?: QuicksightThemeConfigurationSheetTileBorder;
 }
@@ -407,7 +407,7 @@ export interface QuicksightThemeConfigurationSheetTileLayoutGutter {
   * <p>This Boolean value controls whether to display a gutter space between sheet tiles.
   *         </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -484,7 +484,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference ex
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -503,7 +503,7 @@ export interface QuicksightThemeConfigurationSheetTileLayoutMargin {
   /**
   * <p>This Boolean value controls whether to display sheet margins.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -580,7 +580,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference ex
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable; 
+  private _show?: boolean | cdktn.IResolvable;
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -599,13 +599,13 @@ export interface QuicksightThemeConfigurationSheetTileLayout {
   /**
   * <p>The display options for gutter spacing between tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
   */
   readonly gutter?: QuicksightThemeConfigurationSheetTileLayoutGutter;
   /**
   * <p>The display options for margins around the outside edge of sheets.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
   */
   readonly margin?: QuicksightThemeConfigurationSheetTileLayoutMargin;
 }
@@ -730,13 +730,13 @@ export interface QuicksightThemeConfigurationSheet {
   /**
   * <p>Display options related to tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
   */
   readonly tile?: QuicksightThemeConfigurationSheetTile;
   /**
   * <p>The display options for the layout of tiles on a sheet.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
   */
   readonly tileLayout?: QuicksightThemeConfigurationSheetTileLayout;
 }
@@ -859,7 +859,7 @@ export class QuicksightThemeConfigurationSheetOutputReference extends cdktn.Comp
 }
 export interface QuicksightThemeConfigurationTypographyFontFamilies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
   */
   readonly fontFamily?: string;
 }
@@ -938,7 +938,7 @@ export class QuicksightThemeConfigurationTypographyFontFamiliesOutputReference e
   }
 
   // font_family - computed: true, optional: true, required: false
-  private _fontFamily?: string; 
+  private _fontFamily?: string;
   public get fontFamily() {
     return this.getStringAttribute('font_family');
   }
@@ -975,7 +975,7 @@ export class QuicksightThemeConfigurationTypographyFontFamiliesList extends cdkt
 }
 export interface QuicksightThemeConfigurationTypography {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
   */
   readonly fontFamilies?: QuicksightThemeConfigurationTypographyFontFamilies[] | cdktn.IResolvable;
 }
@@ -1071,107 +1071,107 @@ export interface QuicksightThemeConfigurationUiColorPalette {
   /**
   * <p>This color is that applies to selected states and buttons.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
   */
   readonly accent?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             accent color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
   */
   readonly accentForeground?: string;
   /**
   * <p>The color that applies to error messages.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
   */
   readonly danger?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             error color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
   */
   readonly dangerForeground?: string;
   /**
   * <p>The color that applies to the names of fields that are identified as
   *             dimensions.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
   */
   readonly dimension?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             dimension color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
   */
   readonly dimensionForeground?: string;
   /**
   * <p>The color that applies to the names of fields that are identified as measures.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
   */
   readonly measure?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             measure color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
   */
   readonly measureForeground?: string;
   /**
   * <p>The background color that applies to visuals and other high emphasis UI.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
   */
   readonly primaryBackground?: string;
   /**
   * <p>The color of text and other foreground elements that appear over the primary
   *             background regions, such as grid lines, borders, table banding, icons, and so on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
   */
   readonly primaryForeground?: string;
   /**
   * <p>The background color that applies to the sheet background and sheet controls.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
   */
   readonly secondaryBackground?: string;
   /**
   * <p>The foreground color that applies to any sheet title, sheet control text, or UI that
   *             appears over the secondary background.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
   */
   readonly secondaryForeground?: string;
   /**
   * <p>The color that applies to success messages, for example the check mark for a
   *             successful download.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
   */
   readonly success?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             success color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
   */
   readonly successForeground?: string;
   /**
   * <p>This color that applies to warning and informational messages.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
   */
   readonly warning?: string;
   /**
   * <p>The foreground color that applies to any text or other elements that appear over the
   *             warning color.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
   */
   readonly warningForeground?: string;
 }
@@ -1443,7 +1443,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent - computed: true, optional: true, required: false
-  private _accent?: string; 
+  private _accent?: string;
   public get accent() {
     return this.getStringAttribute('accent');
   }
@@ -1459,7 +1459,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent_foreground - computed: true, optional: true, required: false
-  private _accentForeground?: string; 
+  private _accentForeground?: string;
   public get accentForeground() {
     return this.getStringAttribute('accent_foreground');
   }
@@ -1475,7 +1475,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger - computed: true, optional: true, required: false
-  private _danger?: string; 
+  private _danger?: string;
   public get danger() {
     return this.getStringAttribute('danger');
   }
@@ -1491,7 +1491,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger_foreground - computed: true, optional: true, required: false
-  private _dangerForeground?: string; 
+  private _dangerForeground?: string;
   public get dangerForeground() {
     return this.getStringAttribute('danger_foreground');
   }
@@ -1507,7 +1507,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension - computed: true, optional: true, required: false
-  private _dimension?: string; 
+  private _dimension?: string;
   public get dimension() {
     return this.getStringAttribute('dimension');
   }
@@ -1523,7 +1523,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension_foreground - computed: true, optional: true, required: false
-  private _dimensionForeground?: string; 
+  private _dimensionForeground?: string;
   public get dimensionForeground() {
     return this.getStringAttribute('dimension_foreground');
   }
@@ -1539,7 +1539,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure - computed: true, optional: true, required: false
-  private _measure?: string; 
+  private _measure?: string;
   public get measure() {
     return this.getStringAttribute('measure');
   }
@@ -1555,7 +1555,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure_foreground - computed: true, optional: true, required: false
-  private _measureForeground?: string; 
+  private _measureForeground?: string;
   public get measureForeground() {
     return this.getStringAttribute('measure_foreground');
   }
@@ -1571,7 +1571,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_background - computed: true, optional: true, required: false
-  private _primaryBackground?: string; 
+  private _primaryBackground?: string;
   public get primaryBackground() {
     return this.getStringAttribute('primary_background');
   }
@@ -1587,7 +1587,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_foreground - computed: true, optional: true, required: false
-  private _primaryForeground?: string; 
+  private _primaryForeground?: string;
   public get primaryForeground() {
     return this.getStringAttribute('primary_foreground');
   }
@@ -1603,7 +1603,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_background - computed: true, optional: true, required: false
-  private _secondaryBackground?: string; 
+  private _secondaryBackground?: string;
   public get secondaryBackground() {
     return this.getStringAttribute('secondary_background');
   }
@@ -1619,7 +1619,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_foreground - computed: true, optional: true, required: false
-  private _secondaryForeground?: string; 
+  private _secondaryForeground?: string;
   public get secondaryForeground() {
     return this.getStringAttribute('secondary_foreground');
   }
@@ -1635,7 +1635,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success - computed: true, optional: true, required: false
-  private _success?: string; 
+  private _success?: string;
   public get success() {
     return this.getStringAttribute('success');
   }
@@ -1651,7 +1651,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success_foreground - computed: true, optional: true, required: false
-  private _successForeground?: string; 
+  private _successForeground?: string;
   public get successForeground() {
     return this.getStringAttribute('success_foreground');
   }
@@ -1667,7 +1667,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning - computed: true, optional: true, required: false
-  private _warning?: string; 
+  private _warning?: string;
   public get warning() {
     return this.getStringAttribute('warning');
   }
@@ -1683,7 +1683,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning_foreground - computed: true, optional: true, required: false
-  private _warningForeground?: string; 
+  private _warningForeground?: string;
   public get warningForeground() {
     return this.getStringAttribute('warning_foreground');
   }
@@ -1704,17 +1704,17 @@ export interface QuicksightThemeConfiguration {
   *             hexadecimal color code that consists of six alphanumerical characters, prefixed with
   *                 <code>#</code>, for example #37BFF5. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
   */
   readonly dataColorPalette?: QuicksightThemeConfigurationDataColorPalette;
   /**
   * <p>The theme display options for sheets. </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
   */
   readonly sheet?: QuicksightThemeConfigurationSheet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}
   */
   readonly typography?: QuicksightThemeConfigurationTypography;
   /**
@@ -1724,7 +1724,7 @@ export interface QuicksightThemeConfiguration {
   *                 Guide.</i>
   *          </p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
   */
   readonly uiColorPalette?: QuicksightThemeConfigurationUiColorPalette;
 }
@@ -1907,7 +1907,7 @@ export interface QuicksightThemePermissions {
   /**
   * <p>The IAM action to grant or revoke permissions on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
   */
   readonly actions?: string[];
   /**
@@ -1927,7 +1927,7 @@ export interface QuicksightThemePermissions {
   *             </li>
   *          </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
   */
   readonly principal?: string;
 }
@@ -2019,7 +2019,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -2035,7 +2035,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string; 
+  private _principal?: string;
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -2074,13 +2074,13 @@ export interface QuicksightThemeTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
   */
   readonly value?: string;
 }
@@ -2172,7 +2172,7 @@ export class QuicksightThemeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2188,7 +2188,7 @@ export class QuicksightThemeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3131,7 +3131,7 @@ export class QuicksightThemeVersionOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme awscc_quicksight_theme}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme awscc_quicksight_theme}
 */
 export class QuicksightTheme extends cdktn.TerraformResource {
 
@@ -3147,7 +3147,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTheme resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTheme to import
-  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTheme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3159,7 +3159,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_theme awscc_quicksight_theme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_theme awscc_quicksight_theme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3170,7 +3170,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_theme',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3200,7 +3200,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string; 
+  private _awsAccountId?: string;
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -3213,7 +3213,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // base_theme_id - computed: false, optional: false, required: true
-  private _baseThemeId?: string; 
+  private _baseThemeId?: string;
   public get baseThemeId() {
     return this.getStringAttribute('base_theme_id');
   }
@@ -3254,7 +3254,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3299,7 +3299,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // theme_id - computed: false, optional: false, required: true
-  private _themeId?: string; 
+  private _themeId?: string;
   public get themeId() {
     return this.getStringAttribute('theme_id');
   }
@@ -3323,7 +3323,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string; 
+  private _versionDescription?: string;
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface TransferCertificateConfig extends cdktn.TerraformMetaArguments 
   /**
   * Specifies the active date for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
   */
   readonly activeDate?: string;
   /**
   * Specifies the certificate body to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * Specifies the certificate chain to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
   * A textual description for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#description TransferCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#description TransferCertificate#description}
   */
   readonly description?: string;
   /**
   * Specifies the inactive date for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
   */
   readonly inactiveDate?: string;
   /**
   * Specifies the private key for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
   * Key-value pairs that can be used to group and search for certificates. Tags are metadata attached to certificates for any purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
   */
   readonly tags?: TransferCertificateTags[] | cdktn.IResolvable;
   /**
   * Specifies the usage type for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
   */
   readonly usage: string;
 }
@@ -60,13 +60,13 @@ export interface TransferCertificateTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#key TransferCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#key TransferCertificate#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#value TransferCertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#value TransferCertificate#value}
   */
   readonly value?: string;
 }
@@ -158,7 +158,7 @@ export class TransferCertificateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class TransferCertificateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -211,7 +211,7 @@ export class TransferCertificateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate awscc_transfer_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate awscc_transfer_certificate}
 */
 export class TransferCertificate extends cdktn.TerraformResource {
 
@@ -227,7 +227,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferCertificate to import
-  * @param importFromId The id of the existing TransferCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -239,7 +239,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,7 +275,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   // ==========
 
   // active_date - computed: true, optional: true, required: false
-  private _activeDate?: string; 
+  private _activeDate?: string;
   public get activeDate() {
     return this.getStringAttribute('active_date');
   }
@@ -296,7 +296,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate - computed: false, optional: false, required: true
-  private _certificate?: string; 
+  private _certificate?: string;
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -309,7 +309,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: true, optional: true, required: false
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -330,7 +330,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -351,7 +351,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // inactive_date - computed: true, optional: true, required: false
-  private _inactiveDate?: string; 
+  private _inactiveDate?: string;
   public get inactiveDate() {
     return this.getStringAttribute('inactive_date');
   }
@@ -377,7 +377,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: true, optional: true, required: false
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -424,7 +424,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // usage - computed: false, optional: false, required: true
-  private _usage?: string; 
+  private _usage?: string;
   public get usage() {
     return this.getStringAttribute('usage');
   }

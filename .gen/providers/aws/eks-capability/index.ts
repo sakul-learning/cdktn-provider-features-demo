@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktn from 'cdktn';
 
 export interface EksCapabilityConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#capability_name EksCapability#capability_name}
   */
   readonly capabilityName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#cluster_name EksCapability#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#delete_propagation_policy EksCapability#delete_propagation_policy}
   */
   readonly deletePropagationPolicy: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#region EksCapability#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#region EksCapability#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#role_arn EksCapability#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#tags EksCapability#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#tags EksCapability#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#type EksCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#type EksCapability#type}
   */
   readonly type: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#configuration EksCapability#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#configuration EksCapability#configuration}
   */
   readonly configuration?: EksCapabilityConfiguration[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#timeouts EksCapability#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#timeouts EksCapability#timeouts}
   */
   readonly timeouts?: EksCapabilityTimeouts;
 }
 export interface EksCapabilityConfigurationArgoCdAwsIdc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#idc_instance_arn EksCapability#idc_instance_arn}
   */
   readonly idcInstanceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#idc_region EksCapability#idc_region}
   */
   readonly idcRegion?: string;
 }
@@ -148,7 +148,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_instance_arn - computed: false, optional: false, required: true
-  private _idcInstanceArn?: string; 
+  private _idcInstanceArn?: string;
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -166,7 +166,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_region - computed: true, optional: true, required: false
-  private _idcRegion?: string; 
+  private _idcRegion?: string;
   public get idcRegion() {
     return this.getStringAttribute('idc_region');
   }
@@ -203,7 +203,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcList extends cdktn.ComplexLis
 }
 export interface EksCapabilityConfigurationArgoCdNetworkAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
   */
   readonly vpceIds?: string[];
 }
@@ -282,7 +282,7 @@ export class EksCapabilityConfigurationArgoCdNetworkAccessOutputReference extend
   }
 
   // vpce_ids - computed: false, optional: true, required: false
-  private _vpceIds?: string[]; 
+  private _vpceIds?: string[];
   public get vpceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpce_ids'));
   }
@@ -319,14 +319,14 @@ export class EksCapabilityConfigurationArgoCdNetworkAccessList extends cdktn.Com
 }
 export interface EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#id EksCapability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#id EksCapability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#type EksCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#type EksCapability#type}
   */
   readonly type: string;
 }
@@ -418,7 +418,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputRefere
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -431,7 +431,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputRefere
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -465,13 +465,13 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityList extends
 }
 export interface EksCapabilityConfigurationArgoCdRbacRoleMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#role EksCapability#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#role EksCapability#role}
   */
   readonly role: string;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#identity EksCapability#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#identity EksCapability#identity}
   */
   readonly identity?: EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity[] | cdktn.IResolvable;
 }
@@ -563,7 +563,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference exte
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -613,25 +613,25 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingList extends cdktn.C
 }
 export interface EksCapabilityConfigurationArgoCd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#namespace EksCapability#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#namespace EksCapability#namespace}
   */
   readonly namespace?: string;
   /**
   * aws_idc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
   */
   readonly awsIdc?: EksCapabilityConfigurationArgoCdAwsIdc[] | cdktn.IResolvable;
   /**
   * network_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#network_access EksCapability#network_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#network_access EksCapability#network_access}
   */
   readonly networkAccess?: EksCapabilityConfigurationArgoCdNetworkAccess[] | cdktn.IResolvable;
   /**
   * rbac_role_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#rbac_role_mapping EksCapability#rbac_role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#rbac_role_mapping EksCapability#rbac_role_mapping}
   */
   readonly rbacRoleMapping?: EksCapabilityConfigurationArgoCdRbacRoleMapping[] | cdktn.IResolvable;
 }
@@ -749,7 +749,7 @@ export class EksCapabilityConfigurationArgoCdOutputReference extends cdktn.Compl
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -841,7 +841,7 @@ export interface EksCapabilityConfiguration {
   /**
   * argo_cd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
   */
   readonly argoCd?: EksCapabilityConfigurationArgoCd[] | cdktn.IResolvable;
 }
@@ -959,19 +959,19 @@ export interface EksCapabilityTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#create EksCapability#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#create EksCapability#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#delete EksCapability#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#delete EksCapability#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#update EksCapability#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#update EksCapability#update}
   */
   readonly update?: string;
 }
@@ -1074,7 +1074,7 @@ export class EksCapabilityTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1090,7 +1090,7 @@ export class EksCapabilityTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1106,7 +1106,7 @@ export class EksCapabilityTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1123,7 +1123,7 @@ export class EksCapabilityTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability aws_eks_capability}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability aws_eks_capability}
 */
 export class EksCapability extends cdktn.TerraformResource {
 
@@ -1139,7 +1139,7 @@ export class EksCapability extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksCapability resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksCapability to import
-  * @param importFromId The id of the existing EksCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksCapability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1151,7 +1151,7 @@ export class EksCapability extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability aws_eks_capability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability aws_eks_capability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1162,7 +1162,7 @@ export class EksCapability extends cdktn.TerraformResource {
       terraformResourceType: 'aws_eks_capability',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1193,7 +1193,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // capability_name - computed: false, optional: false, required: true
-  private _capabilityName?: string; 
+  private _capabilityName?: string;
   public get capabilityName() {
     return this.getStringAttribute('capability_name');
   }
@@ -1206,7 +1206,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string; 
+  private _clusterName?: string;
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1219,7 +1219,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // delete_propagation_policy - computed: false, optional: false, required: true
-  private _deletePropagationPolicy?: string; 
+  private _deletePropagationPolicy?: string;
   public get deletePropagationPolicy() {
     return this.getStringAttribute('delete_propagation_policy');
   }
@@ -1232,7 +1232,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1248,7 +1248,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1261,7 +1261,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1283,7 +1283,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }

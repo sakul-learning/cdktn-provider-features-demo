@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/omics_workflow_versions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/omics_workflow_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccOmicsWorkflowVersionsConfig extends cdktn.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions}
 */
 export class DataAwsccOmicsWorkflowVersions extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccOmicsWorkflowVersions extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccOmicsWorkflowVersions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccOmicsWorkflowVersions to import
-  * @param importFromId The id of the existing DataAwsccOmicsWorkflowVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/omics_workflow_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccOmicsWorkflowVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/omics_workflow_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccOmicsWorkflowVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccOmicsWorkflowVersions extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccOmicsWorkflowVersions extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_omics_workflow_versions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

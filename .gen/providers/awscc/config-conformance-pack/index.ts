@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ConfigConformancePackConfig extends cdktn.TerraformMetaArgument
   /**
   * A list of ConformancePackInputParameter objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
   */
   readonly conformancePackInputParameters?: ConfigConformancePackConformancePackInputParameters[] | cdktn.IResolvable;
   /**
   * Name of the conformance pack which will be assigned as the unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
   */
   readonly conformancePackName: string;
   /**
   * AWS Config stores intermediate files while processing conformance pack template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
   */
   readonly deliveryS3Bucket?: string;
   /**
   * The prefix for delivery S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
   */
   readonly deliveryS3KeyPrefix?: string;
   /**
   * A string containing full conformance pack template body. You can only specify one of the template body or template S3Uri fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
   */
   readonly templateBody?: string;
   /**
   * Location of file containing the template body which points to the conformance pack template that is located in an Amazon S3 bucket. You can only specify one of the template body or template S3Uri fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
   */
   readonly templateS3Uri?: string;
   /**
   * The TemplateSSMDocumentDetails object contains the name of the SSM document and the version of the SSM document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
   */
   readonly templateSsmDocumentDetails?: ConfigConformancePackTemplateSsmDocumentDetails;
 }
@@ -54,13 +54,13 @@ export interface ConfigConformancePackConformancePackInputParameters {
   /**
   * Key part of key-value pair with value being parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * Value part of key-value pair with key being parameter Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -152,7 +152,7 @@ export class ConfigConformancePackConformancePackInputParametersOutputReference 
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string; 
+  private _parameterName?: string;
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -168,7 +168,7 @@ export class ConfigConformancePackConformancePackInputParametersOutputReference 
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string; 
+  private _parameterValue?: string;
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -205,11 +205,11 @@ export class ConfigConformancePackConformancePackInputParametersList extends cdk
 }
 export interface ConfigConformancePackTemplateSsmDocumentDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}
   */
   readonly documentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}
   */
   readonly documentVersion?: string;
 }
@@ -299,7 +299,7 @@ export class ConfigConformancePackTemplateSsmDocumentDetailsOutputReference exte
   }
 
   // document_name - computed: true, optional: true, required: false
-  private _documentName?: string; 
+  private _documentName?: string;
   public get documentName() {
     return this.getStringAttribute('document_name');
   }
@@ -315,7 +315,7 @@ export class ConfigConformancePackTemplateSsmDocumentDetailsOutputReference exte
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string; 
+  private _documentVersion?: string;
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -332,7 +332,7 @@ export class ConfigConformancePackTemplateSsmDocumentDetailsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}
 */
 export class ConfigConformancePack extends cdktn.TerraformResource {
 
@@ -348,7 +348,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigConformancePack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigConformancePack to import
-  * @param importFromId The id of the existing ConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigConformancePack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -360,7 +360,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/config_conformance_pack awscc_config_conformance_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_conformance_pack awscc_config_conformance_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,7 +371,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_conformance_pack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -411,7 +411,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   }
 
   // conformance_pack_name - computed: false, optional: false, required: true
-  private _conformancePackName?: string; 
+  private _conformancePackName?: string;
   public get conformancePackName() {
     return this.getStringAttribute('conformance_pack_name');
   }
@@ -424,7 +424,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_bucket - computed: true, optional: true, required: false
-  private _deliveryS3Bucket?: string; 
+  private _deliveryS3Bucket?: string;
   public get deliveryS3Bucket() {
     return this.getStringAttribute('delivery_s3_bucket');
   }
@@ -440,7 +440,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_key_prefix - computed: true, optional: true, required: false
-  private _deliveryS3KeyPrefix?: string; 
+  private _deliveryS3KeyPrefix?: string;
   public get deliveryS3KeyPrefix() {
     return this.getStringAttribute('delivery_s3_key_prefix');
   }
@@ -461,7 +461,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string; 
+  private _templateBody?: string;
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -477,7 +477,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   }
 
   // template_s3_uri - computed: true, optional: true, required: false
-  private _templateS3Uri?: string; 
+  private _templateS3Uri?: string;
   public get templateS3Uri() {
     return this.getStringAttribute('template_s3_uri');
   }

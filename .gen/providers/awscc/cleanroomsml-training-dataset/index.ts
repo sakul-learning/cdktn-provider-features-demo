@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface CleanroomsmlTrainingDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#description CleanroomsmlTrainingDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#description CleanroomsmlTrainingDataset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#name CleanroomsmlTrainingDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#name CleanroomsmlTrainingDataset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#role_arn CleanroomsmlTrainingDataset#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#role_arn CleanroomsmlTrainingDataset#role_arn}
   */
   readonly roleArn: string;
   /**
   * An arbitrary set of tags (key-value pairs) for this cleanrooms-ml training dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#tags CleanroomsmlTrainingDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#tags CleanroomsmlTrainingDataset#tags}
   */
   readonly tags?: CleanroomsmlTrainingDatasetTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#training_data CleanroomsmlTrainingDataset#training_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#training_data CleanroomsmlTrainingDataset#training_data}
   */
   readonly trainingData: CleanroomsmlTrainingDatasetTrainingData[] | cdktn.IResolvable;
 }
 export interface CleanroomsmlTrainingDatasetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#key CleanroomsmlTrainingDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#key CleanroomsmlTrainingDataset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#value CleanroomsmlTrainingDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#value CleanroomsmlTrainingDataset#value}
   */
   readonly value?: string;
 }
@@ -128,7 +128,7 @@ export class CleanroomsmlTrainingDatasetTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class CleanroomsmlTrainingDatasetTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -181,15 +181,15 @@ export class CleanroomsmlTrainingDatasetTagsList extends cdktn.ComplexList {
 }
 export interface CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#catalog_id CleanroomsmlTrainingDataset#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#catalog_id CleanroomsmlTrainingDataset#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#database_name CleanroomsmlTrainingDataset#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#database_name CleanroomsmlTrainingDataset#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#table_name CleanroomsmlTrainingDataset#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#table_name CleanroomsmlTrainingDataset#table_name}
   */
   readonly tableName: string;
 }
@@ -292,7 +292,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDat
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string; 
+  private _catalogId?: string;
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -308,7 +308,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDat
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string; 
+  private _databaseName?: string;
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -321,7 +321,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDat
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string; 
+  private _tableName?: string;
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -335,7 +335,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDat
 }
 export interface CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#glue_data_source CleanroomsmlTrainingDataset#glue_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#glue_data_source CleanroomsmlTrainingDataset#glue_data_source}
   */
   readonly glueDataSource: CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDataSource;
 }
@@ -426,11 +426,11 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceOutputR
 }
 export interface CleanroomsmlTrainingDatasetTrainingDataInputConfigSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#column_name CleanroomsmlTrainingDataset#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#column_name CleanroomsmlTrainingDataset#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#column_types CleanroomsmlTrainingDataset#column_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#column_types CleanroomsmlTrainingDataset#column_types}
   */
   readonly columnTypes: string[];
 }
@@ -522,7 +522,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigSchemaOutputRefer
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string; 
+  private _columnName?: string;
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -535,7 +535,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigSchemaOutputRefer
   }
 
   // column_types - computed: false, optional: false, required: true
-  private _columnTypes?: string[]; 
+  private _columnTypes?: string[];
   public get columnTypes() {
     return this.getListAttribute('column_types');
   }
@@ -569,11 +569,11 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigSchemaList extend
 }
 export interface CleanroomsmlTrainingDatasetTrainingDataInputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#data_source CleanroomsmlTrainingDataset#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#data_source CleanroomsmlTrainingDataset#data_source}
   */
   readonly dataSource: CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#schema CleanroomsmlTrainingDataset#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#schema CleanroomsmlTrainingDataset#schema}
   */
   readonly schema: CleanroomsmlTrainingDatasetTrainingDataInputConfigSchema[] | cdktn.IResolvable;
 }
@@ -690,11 +690,11 @@ export class CleanroomsmlTrainingDatasetTrainingDataInputConfigOutputReference e
 }
 export interface CleanroomsmlTrainingDatasetTrainingData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#input_config CleanroomsmlTrainingDataset#input_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#input_config CleanroomsmlTrainingDataset#input_config}
   */
   readonly inputConfig: CleanroomsmlTrainingDatasetTrainingDataInputConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#type CleanroomsmlTrainingDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#type CleanroomsmlTrainingDataset#type}
   */
   readonly type: string;
 }
@@ -799,7 +799,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataOutputReference extends cdkt
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -833,7 +833,7 @@ export class CleanroomsmlTrainingDatasetTrainingDataList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}
 */
 export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
 
@@ -849,7 +849,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CleanroomsmlTrainingDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanroomsmlTrainingDataset to import
-  * @param importFromId The id of the existing CleanroomsmlTrainingDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanroomsmlTrainingDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanroomsmlTrainingDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -861,7 +861,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -872,7 +872,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cleanroomsml_training_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -894,7 +894,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -915,7 +915,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -928,7 +928,7 @@ export class CleanroomsmlTrainingDataset extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

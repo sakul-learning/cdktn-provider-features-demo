@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Route53RecoverycontrolControlPanelConfig extends cdktn.Terrafor
   /**
   * Cluster to associate with the Control Panel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#cluster_arn Route53RecoverycontrolControlPanel#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#cluster_arn Route53RecoverycontrolControlPanel#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
   * The name of the control panel. You can use any non-white space character in the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#name Route53RecoverycontrolControlPanel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#name Route53RecoverycontrolControlPanel#name}
   */
   readonly name: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#tags Route53RecoverycontrolControlPanel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#tags Route53RecoverycontrolControlPanel#tags}
   */
   readonly tags?: Route53RecoverycontrolControlPanelTags[] | cdktn.IResolvable;
 }
 export interface Route53RecoverycontrolControlPanelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}
   */
   readonly value?: string;
 }
@@ -124,7 +124,7 @@ export class Route53RecoverycontrolControlPanelTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class Route53RecoverycontrolControlPanelTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -177,7 +177,7 @@ export class Route53RecoverycontrolControlPanelTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}
 */
 export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a Route53RecoverycontrolControlPanel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecoverycontrolControlPanel to import
-  * @param importFromId The id of the existing Route53RecoverycontrolControlPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecoverycontrolControlPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecoverycontrolControlPanel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_route53recoverycontrol_control_panel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -236,7 +236,7 @@ export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource 
   // ==========
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string; 
+  private _clusterArn?: string;
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -267,7 +267,7 @@ export class Route53RecoverycontrolControlPanel extends cdktn.TerraformResource 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

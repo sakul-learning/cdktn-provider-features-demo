@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatasyncLocationS3Config extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}
   */
   readonly s3BucketArn?: string;
   /**
   * The Amazon Resource Name (ARN) of the AWS IAM role that is used to access an Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
   */
   readonly s3Config: DatasyncLocationS3S3Config;
   /**
   * The Amazon S3 storage class you want to store your files in when this location is used as a task destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}
   */
   readonly s3StorageClass?: string;
   /**
   * A subdirectory in the Amazon S3 bucket. This subdirectory in Amazon S3 is used to read data from the S3 source location or write data to the S3 destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}
   */
   readonly tags?: DatasyncLocationS3Tags[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface DatasyncLocationS3S3Config {
   /**
   * The ARN of the IAM role of the Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#bucket_access_role_arn DatasyncLocationS3#bucket_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#bucket_access_role_arn DatasyncLocationS3#bucket_access_role_arn}
   */
   readonly bucketAccessRoleArn: string;
 }
@@ -119,7 +119,7 @@ export class DatasyncLocationS3S3ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // bucket_access_role_arn - computed: false, optional: false, required: true
-  private _bucketAccessRoleArn?: string; 
+  private _bucketAccessRoleArn?: string;
   public get bucketAccessRoleArn() {
     return this.getStringAttribute('bucket_access_role_arn');
   }
@@ -135,13 +135,13 @@ export interface DatasyncLocationS3Tags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#key DatasyncLocationS3#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#key DatasyncLocationS3#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#value DatasyncLocationS3#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#value DatasyncLocationS3#value}
   */
   readonly value?: string;
 }
@@ -233,7 +233,7 @@ export class DatasyncLocationS3TagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -249,7 +249,7 @@ export class DatasyncLocationS3TagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -286,7 +286,7 @@ export class DatasyncLocationS3TagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3}
 */
 export class DatasyncLocationS3 extends cdktn.TerraformResource {
 
@@ -302,7 +302,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationS3 resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationS3 to import
-  * @param importFromId The id of the existing DatasyncLocationS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -314,7 +314,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,7 +325,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_s3',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -362,7 +362,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string; 
+  private _s3BucketArn?: string;
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -391,7 +391,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // s3_storage_class - computed: true, optional: true, required: false
-  private _s3StorageClass?: string; 
+  private _s3StorageClass?: string;
   public get s3StorageClass() {
     return this.getStringAttribute('s3_storage_class');
   }
@@ -407,7 +407,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string; 
+  private _subdirectory?: string;
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

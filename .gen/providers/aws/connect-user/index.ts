@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface ConnectUserConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
   */
   readonly directoryUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#hierarchy_group_id ConnectUser#hierarchy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#hierarchy_group_id ConnectUser#hierarchy_group_id}
   */
   readonly hierarchyGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#id ConnectUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#id ConnectUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#instance_id ConnectUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#instance_id ConnectUser#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#name ConnectUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#name ConnectUser#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#password ConnectUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#password ConnectUser#password}
   */
   readonly password?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#region ConnectUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#region ConnectUser#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#routing_profile_id ConnectUser#routing_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#routing_profile_id ConnectUser#routing_profile_id}
   */
   readonly routingProfileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#security_profile_ids ConnectUser#security_profile_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#security_profile_ids ConnectUser#security_profile_ids}
   */
   readonly securityProfileIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#tags ConnectUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#tags ConnectUser#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#tags_all ConnectUser#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#tags_all ConnectUser#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * identity_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
   */
   readonly identityInfo?: ConnectUserIdentityInfo;
   /**
   * phone_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
   */
   readonly phoneConfig: ConnectUserPhoneConfig;
 }
 export interface ConnectUserIdentityInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#email ConnectUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#email ConnectUser#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#first_name ConnectUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#first_name ConnectUser#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#last_name ConnectUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#last_name ConnectUser#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
   */
   readonly secondaryEmail?: string;
 }
@@ -189,7 +189,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // email - computed: false, optional: true, required: false
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -205,7 +205,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string; 
+  private _firstName?: string;
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -221,7 +221,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string; 
+  private _lastName?: string;
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -237,7 +237,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_email - computed: false, optional: true, required: false
-  private _secondaryEmail?: string; 
+  private _secondaryEmail?: string;
   public get secondaryEmail() {
     return this.getStringAttribute('secondary_email');
   }
@@ -254,19 +254,19 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
 }
 export interface ConnectUserPhoneConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
   */
   readonly afterContactWorkTimeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
   */
   readonly autoAccept?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
   */
   readonly deskPhoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
   */
   readonly phoneType: string;
 }
@@ -372,7 +372,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // after_contact_work_time_limit - computed: false, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number; 
+  private _afterContactWorkTimeLimit?: number;
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -388,7 +388,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // auto_accept - computed: false, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable; 
+  private _autoAccept?: boolean | cdktn.IResolvable;
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -404,7 +404,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // desk_phone_number - computed: false, optional: true, required: false
-  private _deskPhoneNumber?: string; 
+  private _deskPhoneNumber?: string;
   public get deskPhoneNumber() {
     return this.getStringAttribute('desk_phone_number');
   }
@@ -420,7 +420,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // phone_type - computed: false, optional: false, required: true
-  private _phoneType?: string; 
+  private _phoneType?: string;
   public get phoneType() {
     return this.getStringAttribute('phone_type');
   }
@@ -434,7 +434,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user aws_connect_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user aws_connect_user}
 */
 export class ConnectUser extends cdktn.TerraformResource {
 
@@ -450,7 +450,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectUser to import
-  * @param importFromId The id of the existing ConnectUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -462,7 +462,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user aws_connect_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user aws_connect_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,7 +473,7 @@ export class ConnectUser extends cdktn.TerraformResource {
       terraformResourceType: 'aws_connect_user',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -508,7 +508,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // directory_user_id - computed: true, optional: true, required: false
-  private _directoryUserId?: string; 
+  private _directoryUserId?: string;
   public get directoryUserId() {
     return this.getStringAttribute('directory_user_id');
   }
@@ -524,7 +524,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // hierarchy_group_id - computed: false, optional: true, required: false
-  private _hierarchyGroupId?: string; 
+  private _hierarchyGroupId?: string;
   public get hierarchyGroupId() {
     return this.getStringAttribute('hierarchy_group_id');
   }
@@ -540,7 +540,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -556,7 +556,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -569,7 +569,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -582,7 +582,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string; 
+  private _password?: string;
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -598,7 +598,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -614,7 +614,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // routing_profile_id - computed: false, optional: false, required: true
-  private _routingProfileId?: string; 
+  private _routingProfileId?: string;
   public get routingProfileId() {
     return this.getStringAttribute('routing_profile_id');
   }
@@ -627,7 +627,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // security_profile_ids - computed: false, optional: false, required: true
-  private _securityProfileIds?: string[]; 
+  private _securityProfileIds?: string[];
   public get securityProfileIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_profile_ids'));
   }
@@ -640,7 +640,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -656,7 +656,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatabrewScheduleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Schedule cron
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}
   */
   readonly jobNames?: string[];
   /**
   * Schedule Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}
   */
   readonly tags?: DatabrewScheduleTags[] | cdktn.IResolvable;
 }
 export interface DatabrewScheduleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}
   */
   readonly value?: string;
 }
@@ -126,7 +126,7 @@ export class DatabrewScheduleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class DatabrewScheduleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -179,7 +179,7 @@ export class DatabrewScheduleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule awscc_databrew_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule awscc_databrew_schedule}
 */
 export class DatabrewSchedule extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatabrewSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabrewSchedule to import
-  * @param importFromId The id of the existing DatabrewSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabrewSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabrewSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_databrew_schedule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -239,7 +239,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
   // ==========
 
   // cron_expression - computed: false, optional: false, required: true
-  private _cronExpression?: string; 
+  private _cronExpression?: string;
   public get cronExpression() {
     return this.getStringAttribute('cron_expression');
   }
@@ -257,7 +257,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
   }
 
   // job_names - computed: true, optional: true, required: false
-  private _jobNames?: string[]; 
+  private _jobNames?: string[];
   public get jobNames() {
     return this.getListAttribute('job_names');
   }
@@ -273,7 +273,7 @@ export class DatabrewSchedule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

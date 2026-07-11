@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WorkmailDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * Mail domain name to register.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain#domain_name WorkmailDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain#domain_name WorkmailDomain#domain_name}
   */
   readonly domainName: string;
   /**
   * Identifier of the WorkMail organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain#organization_id WorkmailDomain#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain#organization_id WorkmailDomain#organization_id}
   */
   readonly organizationId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain#region WorkmailDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain#region WorkmailDomain#region}
   */
   readonly region?: string;
 }
@@ -113,7 +113,7 @@ export class WorkmailDomainRecordsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain aws_workmail_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain aws_workmail_domain}
 */
 export class WorkmailDomain extends cdktn.TerraformResource {
 
@@ -129,7 +129,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkmailDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkmailDomain to import
-  * @param importFromId The id of the existing WorkmailDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkmailDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkmailDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -141,7 +141,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workmail_domain aws_workmail_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workmail_domain aws_workmail_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,7 +152,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
       terraformResourceType: 'aws_workmail_domain',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -177,7 +177,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
+  private _domainName?: string;
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -200,7 +200,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string; 
+  private _organizationId?: string;
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -224,7 +224,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

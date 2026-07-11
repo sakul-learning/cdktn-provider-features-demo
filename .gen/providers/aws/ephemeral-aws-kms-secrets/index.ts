@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface EphemeralAwsKmsSecretsConfig extends cdktn.TerraformEphemeralMe
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#region EphemeralAwsKmsSecrets#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#region EphemeralAwsKmsSecrets#region}
   */
   readonly region?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#secret EphemeralAwsKmsSecrets#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#secret EphemeralAwsKmsSecrets#secret}
   */
   readonly secret?: EphemeralAwsKmsSecretsSecret[] | cdktn.IResolvable;
 }
 export interface EphemeralAwsKmsSecretsSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#context EphemeralAwsKmsSecrets#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#context EphemeralAwsKmsSecrets#context}
   */
   readonly context?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#encryption_algorithm EphemeralAwsKmsSecrets#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#encryption_algorithm EphemeralAwsKmsSecrets#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#grant_tokens EphemeralAwsKmsSecrets#grant_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#grant_tokens EphemeralAwsKmsSecrets#grant_tokens}
   */
   readonly grantTokens?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#key_id EphemeralAwsKmsSecrets#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#key_id EphemeralAwsKmsSecrets#key_id}
   */
   readonly keyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#name EphemeralAwsKmsSecrets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#name EphemeralAwsKmsSecrets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets#payload EphemeralAwsKmsSecrets#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets#payload EphemeralAwsKmsSecrets#payload}
   */
   readonly payload: string;
 }
@@ -186,7 +186,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: { [key: string]: string }; 
+  private _context?: { [key: string]: string };
   public get context() {
     return this.getStringMapAttribute('context');
   }
@@ -202,7 +202,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // encryption_algorithm - computed: false, optional: true, required: false
-  private _encryptionAlgorithm?: string; 
+  private _encryptionAlgorithm?: string;
   public get encryptionAlgorithm() {
     return this.getStringAttribute('encryption_algorithm');
   }
@@ -218,7 +218,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // grant_tokens - computed: false, optional: true, required: false
-  private _grantTokens?: string[]; 
+  private _grantTokens?: string[];
   public get grantTokens() {
     return this.getListAttribute('grant_tokens');
   }
@@ -234,7 +234,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // key_id - computed: false, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -250,7 +250,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -263,7 +263,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // payload - computed: false, optional: false, required: true
-  private _payload?: string; 
+  private _payload?: string;
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -297,7 +297,7 @@ export class EphemeralAwsKmsSecretsSecretList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets}
 */
 export class EphemeralAwsKmsSecrets extends cdktn.TerraformEphemeralResource {
 
@@ -311,7 +311,7 @@ export class EphemeralAwsKmsSecrets extends cdktn.TerraformEphemeralResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,7 +322,7 @@ export class EphemeralAwsKmsSecrets extends cdktn.TerraformEphemeralResource {
       terraformResourceType: 'aws_kms_secrets',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -345,7 +345,7 @@ export class EphemeralAwsKmsSecrets extends cdktn.TerraformEphemeralResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

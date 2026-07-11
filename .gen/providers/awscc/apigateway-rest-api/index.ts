@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayRestApiConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#api_key_source_type ApigatewayRestApi#api_key_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#api_key_source_type ApigatewayRestApi#api_key_source_type}
   */
   readonly apiKeySourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#binary_media_types ApigatewayRestApi#binary_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#binary_media_types ApigatewayRestApi#binary_media_types}
   */
   readonly binaryMediaTypes?: string[];
   /**
   * An OpenAPI specification that defines a set of RESTful APIs in JSON format. For YAML templates, you can also provide the specification in YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#body ApigatewayRestApi#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#body ApigatewayRestApi#body}
   */
   readonly body?: string;
   /**
   * The Amazon Simple Storage Service (Amazon S3) location that points to an OpenAPI file, which defines a set of RESTful APIs in JSON or YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#body_s3_location ApigatewayRestApi#body_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#body_s3_location ApigatewayRestApi#body_s3_location}
   */
   readonly bodyS3Location?: ApigatewayRestApiBodyS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#clone_from ApigatewayRestApi#clone_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#clone_from ApigatewayRestApi#clone_from}
   */
   readonly cloneFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#description ApigatewayRestApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#description ApigatewayRestApi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#disable_execute_api_endpoint ApigatewayRestApi#disable_execute_api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#disable_execute_api_endpoint ApigatewayRestApi#disable_execute_api_endpoint}
   */
   readonly disableExecuteApiEndpoint?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#endpoint_access_mode ApigatewayRestApi#endpoint_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#endpoint_access_mode ApigatewayRestApi#endpoint_access_mode}
   */
   readonly endpointAccessMode?: string;
   /**
   * A list of the endpoint types and IP address types of the API. Use this property when creating an API. When importing an existing API, specify the endpoint configuration types using the ``Parameters`` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#endpoint_configuration ApigatewayRestApi#endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#endpoint_configuration ApigatewayRestApi#endpoint_configuration}
   */
   readonly endpointConfiguration?: ApigatewayRestApiEndpointConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#fail_on_warnings ApigatewayRestApi#fail_on_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#fail_on_warnings ApigatewayRestApi#fail_on_warnings}
   */
   readonly failOnWarnings?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#minimum_compression_size ApigatewayRestApi#minimum_compression_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#minimum_compression_size ApigatewayRestApi#minimum_compression_size}
   */
   readonly minimumCompressionSize?: number;
   /**
   * This property applies only when you use OpenAPI to define your REST API. The ``Mode`` determines how API Gateway handles resource updates.
-  *  Valid values are ``overwrite`` or ``merge``. 
+  *  Valid values are ``overwrite`` or ``merge``.
   *  For ``overwrite``, the new API definition replaces the existing one. The existing API identifier remains unchanged.
   *   For ``merge``, the new API definition is merged with the existing API.
-  *  If you don't specify this property, a default value is chosen. For REST APIs created before March 29, 2021, the default is ``overwrite``. For REST APIs created after March 29, 2021, the new API definition takes precedence, but any container types such as endpoint configurations and binary media types are merged with the existing API. 
+  *  If you don't specify this property, a default value is chosen. For REST APIs created before March 29, 2021, the default is ``overwrite``. For REST APIs created after March 29, 2021, the new API definition takes precedence, but any container types such as endpoint configurations and binary media types are merged with the existing API.
   *  Use the default mode to define top-level ``RestApi`` properties in addition to using OpenAPI. Generally, it's preferred to use API Gateway's OpenAPI extensions to model these properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#mode ApigatewayRestApi#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#mode ApigatewayRestApi#mode}
   */
   readonly mode?: string;
   /**
   * The name of the RestApi. A name is required if the REST API is not based on an OpenAPI specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#name ApigatewayRestApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#name ApigatewayRestApi#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#parameters ApigatewayRestApi#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#parameters ApigatewayRestApi#parameters}
   */
   readonly parameters?: string;
   /**
   * A policy document that contains the permissions for the ``RestApi`` resource. To set the ARN for the policy, use the ``!Join`` intrinsic function with ``""`` as delimiter and values of ``"execute-api:/"`` and ``"*"``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#policy ApigatewayRestApi#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#policy ApigatewayRestApi#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#security_policy ApigatewayRestApi#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#security_policy ApigatewayRestApi#security_policy}
   */
   readonly securityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#tags ApigatewayRestApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#tags ApigatewayRestApi#tags}
   */
   readonly tags?: ApigatewayRestApiTags[] | cdktn.IResolvable;
 }
@@ -97,25 +97,25 @@ export interface ApigatewayRestApiBodyS3Location {
   /**
   * The name of the S3 bucket where the OpenAPI file is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#bucket ApigatewayRestApi#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#bucket ApigatewayRestApi#bucket}
   */
   readonly bucket?: string;
   /**
   * The Amazon S3 ETag (a file checksum) of the OpenAPI file. If you don't specify a value, API Gateway skips ETag validation of your OpenAPI file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#e_tag ApigatewayRestApi#e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#e_tag ApigatewayRestApi#e_tag}
   */
   readonly eTag?: string;
   /**
   * The file name of the OpenAPI file (Amazon S3 object name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
   */
   readonly key?: string;
   /**
   * For versioning-enabled buckets, a specific version of the OpenAPI file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#version ApigatewayRestApi#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#version ApigatewayRestApi#version}
   */
   readonly version?: string;
 }
@@ -231,7 +231,7 @@ export class ApigatewayRestApiBodyS3LocationOutputReference extends cdktn.Comple
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -247,7 +247,7 @@ export class ApigatewayRestApiBodyS3LocationOutputReference extends cdktn.Comple
   }
 
   // e_tag - computed: true, optional: true, required: false
-  private _eTag?: string; 
+  private _eTag?: string;
   public get eTag() {
     return this.getStringAttribute('e_tag');
   }
@@ -263,7 +263,7 @@ export class ApigatewayRestApiBodyS3LocationOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class ApigatewayRestApiBodyS3LocationOutputReference extends cdktn.Comple
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -296,15 +296,15 @@ export class ApigatewayRestApiBodyS3LocationOutputReference extends cdktn.Comple
 }
 export interface ApigatewayRestApiEndpointConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#ip_address_type ApigatewayRestApi#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#ip_address_type ApigatewayRestApi#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#types ApigatewayRestApi#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#types ApigatewayRestApi#types}
   */
   readonly types?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#vpc_endpoint_ids ApigatewayRestApi#vpc_endpoint_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#vpc_endpoint_ids ApigatewayRestApi#vpc_endpoint_ids}
   */
   readonly vpcEndpointIds?: string[];
 }
@@ -407,7 +407,7 @@ export class ApigatewayRestApiEndpointConfigurationOutputReference extends cdktn
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -423,7 +423,7 @@ export class ApigatewayRestApiEndpointConfigurationOutputReference extends cdktn
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[]; 
+  private _types?: string[];
   public get types() {
     return this.getListAttribute('types');
   }
@@ -439,7 +439,7 @@ export class ApigatewayRestApiEndpointConfigurationOutputReference extends cdktn
   }
 
   // vpc_endpoint_ids - computed: true, optional: true, required: false
-  private _vpcEndpointIds?: string[]; 
+  private _vpcEndpointIds?: string[];
   public get vpcEndpointIds() {
     return this.getListAttribute('vpc_endpoint_ids');
   }
@@ -458,13 +458,13 @@ export interface ApigatewayRestApiTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#value ApigatewayRestApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#value ApigatewayRestApi#value}
   */
   readonly value?: string;
 }
@@ -556,7 +556,7 @@ export class ApigatewayRestApiTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -572,7 +572,7 @@ export class ApigatewayRestApiTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -609,7 +609,7 @@ export class ApigatewayRestApiTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}
 */
 export class ApigatewayRestApi extends cdktn.TerraformResource {
 
@@ -625,7 +625,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayRestApi resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayRestApi to import
-  * @param importFromId The id of the existing ApigatewayRestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayRestApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayRestApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -637,7 +637,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -648,7 +648,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_rest_api',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -682,7 +682,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   // ==========
 
   // api_key_source_type - computed: true, optional: true, required: false
-  private _apiKeySourceType?: string; 
+  private _apiKeySourceType?: string;
   public get apiKeySourceType() {
     return this.getStringAttribute('api_key_source_type');
   }
@@ -698,7 +698,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // binary_media_types - computed: true, optional: true, required: false
-  private _binaryMediaTypes?: string[]; 
+  private _binaryMediaTypes?: string[];
   public get binaryMediaTypes() {
     return this.getListAttribute('binary_media_types');
   }
@@ -714,7 +714,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // body - computed: true, optional: true, required: false
-  private _body?: string; 
+  private _body?: string;
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -746,7 +746,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // clone_from - computed: true, optional: true, required: false
-  private _cloneFrom?: string; 
+  private _cloneFrom?: string;
   public get cloneFrom() {
     return this.getStringAttribute('clone_from');
   }
@@ -762,7 +762,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -778,7 +778,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // disable_execute_api_endpoint - computed: true, optional: true, required: false
-  private _disableExecuteApiEndpoint?: boolean | cdktn.IResolvable; 
+  private _disableExecuteApiEndpoint?: boolean | cdktn.IResolvable;
   public get disableExecuteApiEndpoint() {
     return this.getBooleanAttribute('disable_execute_api_endpoint');
   }
@@ -794,7 +794,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // endpoint_access_mode - computed: true, optional: true, required: false
-  private _endpointAccessMode?: string; 
+  private _endpointAccessMode?: string;
   public get endpointAccessMode() {
     return this.getStringAttribute('endpoint_access_mode');
   }
@@ -826,7 +826,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // fail_on_warnings - computed: true, optional: true, required: false
-  private _failOnWarnings?: boolean | cdktn.IResolvable; 
+  private _failOnWarnings?: boolean | cdktn.IResolvable;
   public get failOnWarnings() {
     return this.getBooleanAttribute('fail_on_warnings');
   }
@@ -847,7 +847,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // minimum_compression_size - computed: true, optional: true, required: false
-  private _minimumCompressionSize?: number; 
+  private _minimumCompressionSize?: number;
   public get minimumCompressionSize() {
     return this.getNumberAttribute('minimum_compression_size');
   }
@@ -863,7 +863,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string; 
+  private _mode?: string;
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -879,7 +879,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -895,7 +895,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string; 
+  private _parameters?: string;
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -911,7 +911,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string; 
+  private _policy?: string;
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -937,7 +937,7 @@ export class ApigatewayRestApi extends cdktn.TerraformResource {
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string; 
+  private _securityPolicy?: string;
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }

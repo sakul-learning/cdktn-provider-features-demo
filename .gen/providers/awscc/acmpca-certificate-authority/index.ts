@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface AcmpcaCertificateAuthorityConfig extends cdktn.TerraformMetaArg
   /**
   * Structure that contains CSR pass through extension information used by the CreateCertificateAuthority action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#csr_extensions AcmpcaCertificateAuthority#csr_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#csr_extensions AcmpcaCertificateAuthority#csr_extensions}
   */
   readonly csrExtensions?: AcmpcaCertificateAuthorityCsrExtensions;
   /**
   * Public key algorithm and size, in bits, of the key pair that your CA creates when it issues a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_algorithm AcmpcaCertificateAuthority#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_algorithm AcmpcaCertificateAuthority#key_algorithm}
   */
   readonly keyAlgorithm: string;
   /**
   * KeyStorageSecurityStadard defines a cryptographic key management compliance standard used for handling CA keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_storage_security_standard AcmpcaCertificateAuthority#key_storage_security_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_storage_security_standard AcmpcaCertificateAuthority#key_storage_security_standard}
   */
   readonly keyStorageSecurityStandard?: string;
   /**
   * Certificate revocation information used by the CreateCertificateAuthority and UpdateCertificateAuthority actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#revocation_configuration AcmpcaCertificateAuthority#revocation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#revocation_configuration AcmpcaCertificateAuthority#revocation_configuration}
   */
   readonly revocationConfiguration?: AcmpcaCertificateAuthorityRevocationConfiguration;
   /**
   * Algorithm your CA uses to sign certificate requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#signing_algorithm AcmpcaCertificateAuthority#signing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#signing_algorithm AcmpcaCertificateAuthority#signing_algorithm}
   */
   readonly signingAlgorithm: string;
   /**
   * Structure that contains X.500 distinguished name information for your CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#subject AcmpcaCertificateAuthority#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#subject AcmpcaCertificateAuthority#subject}
   */
   readonly subject: AcmpcaCertificateAuthoritySubject;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#tags AcmpcaCertificateAuthority#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#tags AcmpcaCertificateAuthority#tags}
   */
   readonly tags?: AcmpcaCertificateAuthorityTags[] | cdktn.IResolvable;
   /**
   * The type of the certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#type AcmpcaCertificateAuthority#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#type AcmpcaCertificateAuthority#type}
   */
   readonly type: string;
   /**
   * Usage mode of the ceritificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#usage_mode AcmpcaCertificateAuthority#usage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#usage_mode AcmpcaCertificateAuthority#usage_mode}
   */
   readonly usageMode?: string;
 }
 export interface AcmpcaCertificateAuthorityCsrExtensionsKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#crl_sign AcmpcaCertificateAuthority#crl_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#crl_sign AcmpcaCertificateAuthority#crl_sign}
   */
   readonly crlSign?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#data_encipherment AcmpcaCertificateAuthority#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#data_encipherment AcmpcaCertificateAuthority#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#decipher_only AcmpcaCertificateAuthority#decipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#decipher_only AcmpcaCertificateAuthority#decipher_only}
   */
   readonly decipherOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#digital_signature AcmpcaCertificateAuthority#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#digital_signature AcmpcaCertificateAuthority#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#encipher_only AcmpcaCertificateAuthority#encipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#encipher_only AcmpcaCertificateAuthority#encipher_only}
   */
   readonly encipherOnly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_agreement AcmpcaCertificateAuthority#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_agreement AcmpcaCertificateAuthority#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_cert_sign AcmpcaCertificateAuthority#key_cert_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_cert_sign AcmpcaCertificateAuthority#key_cert_sign}
   */
   readonly keyCertSign?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_encipherment AcmpcaCertificateAuthority#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_encipherment AcmpcaCertificateAuthority#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#non_repudiation AcmpcaCertificateAuthority#non_repudiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#non_repudiation AcmpcaCertificateAuthority#non_repudiation}
   */
   readonly nonRepudiation?: boolean | cdktn.IResolvable;
 }
@@ -275,7 +275,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // crl_sign - computed: true, optional: true, required: false
-  private _crlSign?: boolean | cdktn.IResolvable; 
+  private _crlSign?: boolean | cdktn.IResolvable;
   public get crlSign() {
     return this.getBooleanAttribute('crl_sign');
   }
@@ -291,7 +291,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // data_encipherment - computed: true, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktn.IResolvable; 
+  private _dataEncipherment?: boolean | cdktn.IResolvable;
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
@@ -307,7 +307,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // decipher_only - computed: true, optional: true, required: false
-  private _decipherOnly?: boolean | cdktn.IResolvable; 
+  private _decipherOnly?: boolean | cdktn.IResolvable;
   public get decipherOnly() {
     return this.getBooleanAttribute('decipher_only');
   }
@@ -323,7 +323,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // digital_signature - computed: true, optional: true, required: false
-  private _digitalSignature?: boolean | cdktn.IResolvable; 
+  private _digitalSignature?: boolean | cdktn.IResolvable;
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
@@ -339,7 +339,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // encipher_only - computed: true, optional: true, required: false
-  private _encipherOnly?: boolean | cdktn.IResolvable; 
+  private _encipherOnly?: boolean | cdktn.IResolvable;
   public get encipherOnly() {
     return this.getBooleanAttribute('encipher_only');
   }
@@ -355,7 +355,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable; 
+  private _keyAgreement?: boolean | cdktn.IResolvable;
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -371,7 +371,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_cert_sign - computed: true, optional: true, required: false
-  private _keyCertSign?: boolean | cdktn.IResolvable; 
+  private _keyCertSign?: boolean | cdktn.IResolvable;
   public get keyCertSign() {
     return this.getBooleanAttribute('key_cert_sign');
   }
@@ -387,7 +387,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_encipherment - computed: true, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktn.IResolvable; 
+  private _keyEncipherment?: boolean | cdktn.IResolvable;
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
@@ -403,7 +403,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // non_repudiation - computed: true, optional: true, required: false
-  private _nonRepudiation?: boolean | cdktn.IResolvable; 
+  private _nonRepudiation?: boolean | cdktn.IResolvable;
   public get nonRepudiation() {
     return this.getBooleanAttribute('non_repudiation');
   }
@@ -422,11 +422,11 @@ export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess
   /**
   * String that contains X.509 ObjectIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#object_identifier AcmpcaCertificateAuthority#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#object_identifier AcmpcaCertificateAuthority#object_identifier}
   */
   readonly objectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
   */
   readonly value?: string;
 }
@@ -518,7 +518,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // object_identifier - computed: true, optional: true, required: false
-  private _objectIdentifier?: string; 
+  private _objectIdentifier?: string;
   public get objectIdentifier() {
     return this.getStringAttribute('object_identifier');
   }
@@ -534,7 +534,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -571,65 +571,65 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
 }
 export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationDirectoryName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}
   */
   readonly country?: string;
   /**
   * Array of X.500 attribute type and value. CustomAttributes cannot be used along with pre-defined attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#custom_attributes AcmpcaCertificateAuthority#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#custom_attributes AcmpcaCertificateAuthority#custom_attributes}
   */
   readonly customAttributes?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationDirectoryNameCustomAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}
   */
   readonly distinguishedNameQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}
   */
   readonly generationQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}
   */
   readonly givenName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}
   */
   readonly initials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}
   */
   readonly pseudonym?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#serial_number AcmpcaCertificateAuthority#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#serial_number AcmpcaCertificateAuthority#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}
   */
   readonly surname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}
   */
   readonly title?: string;
 }
@@ -888,7 +888,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // common_name - computed: true, optional: true, required: false
-  private _commonName?: string; 
+  private _commonName?: string;
   public get commonName() {
     return this.getStringAttribute('common_name');
   }
@@ -904,7 +904,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string; 
+  private _country?: string;
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -936,7 +936,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // distinguished_name_qualifier - computed: true, optional: true, required: false
-  private _distinguishedNameQualifier?: string; 
+  private _distinguishedNameQualifier?: string;
   public get distinguishedNameQualifier() {
     return this.getStringAttribute('distinguished_name_qualifier');
   }
@@ -952,7 +952,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // generation_qualifier - computed: true, optional: true, required: false
-  private _generationQualifier?: string; 
+  private _generationQualifier?: string;
   public get generationQualifier() {
     return this.getStringAttribute('generation_qualifier');
   }
@@ -968,7 +968,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // given_name - computed: true, optional: true, required: false
-  private _givenName?: string; 
+  private _givenName?: string;
   public get givenName() {
     return this.getStringAttribute('given_name');
   }
@@ -984,7 +984,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // initials - computed: true, optional: true, required: false
-  private _initials?: string; 
+  private _initials?: string;
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -1000,7 +1000,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // locality - computed: true, optional: true, required: false
-  private _locality?: string; 
+  private _locality?: string;
   public get locality() {
     return this.getStringAttribute('locality');
   }
@@ -1016,7 +1016,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // organization - computed: true, optional: true, required: false
-  private _organization?: string; 
+  private _organization?: string;
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -1032,7 +1032,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit?: string; 
+  private _organizationalUnit?: string;
   public get organizationalUnit() {
     return this.getStringAttribute('organizational_unit');
   }
@@ -1048,7 +1048,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // pseudonym - computed: true, optional: true, required: false
-  private _pseudonym?: string; 
+  private _pseudonym?: string;
   public get pseudonym() {
     return this.getStringAttribute('pseudonym');
   }
@@ -1064,7 +1064,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string; 
+  private _serialNumber?: string;
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -1080,7 +1080,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1096,7 +1096,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // surname - computed: true, optional: true, required: false
-  private _surname?: string; 
+  private _surname?: string;
   public get surname() {
     return this.getStringAttribute('surname');
   }
@@ -1112,7 +1112,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1129,11 +1129,11 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
 }
 export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationEdiPartyName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#name_assigner AcmpcaCertificateAuthority#name_assigner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#name_assigner AcmpcaCertificateAuthority#name_assigner}
   */
   readonly nameAssigner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#party_name AcmpcaCertificateAuthority#party_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#party_name AcmpcaCertificateAuthority#party_name}
   */
   readonly partyName?: string;
 }
@@ -1223,7 +1223,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // name_assigner - computed: true, optional: true, required: false
-  private _nameAssigner?: string; 
+  private _nameAssigner?: string;
   public get nameAssigner() {
     return this.getStringAttribute('name_assigner');
   }
@@ -1239,7 +1239,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // party_name - computed: true, optional: true, required: false
-  private _partyName?: string; 
+  private _partyName?: string;
   public get partyName() {
     return this.getStringAttribute('party_name');
   }
@@ -1258,11 +1258,11 @@ export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess
   /**
   * String that contains X.509 ObjectIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#type_id AcmpcaCertificateAuthority#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#type_id AcmpcaCertificateAuthority#type_id}
   */
   readonly typeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
   */
   readonly value?: string;
 }
@@ -1352,7 +1352,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // type_id - computed: true, optional: true, required: false
-  private _typeId?: string; 
+  private _typeId?: string;
   public get typeId() {
     return this.getStringAttribute('type_id');
   }
@@ -1368,7 +1368,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1387,49 +1387,49 @@ export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess
   /**
   * Structure that contains X.500 distinguished name information for your CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#directory_name AcmpcaCertificateAuthority#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#directory_name AcmpcaCertificateAuthority#directory_name}
   */
   readonly directoryName?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationDirectoryName;
   /**
   * String that contains X.509 DnsName information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#dns_name AcmpcaCertificateAuthority#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#dns_name AcmpcaCertificateAuthority#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Structure that contains X.509 EdiPartyName information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#edi_party_name AcmpcaCertificateAuthority#edi_party_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#edi_party_name AcmpcaCertificateAuthority#edi_party_name}
   */
   readonly ediPartyName?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationEdiPartyName;
   /**
   * String that contains X.509 IpAddress information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#ip_address AcmpcaCertificateAuthority#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#ip_address AcmpcaCertificateAuthority#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Structure that contains X.509 OtherName information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#other_name AcmpcaCertificateAuthority#other_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#other_name AcmpcaCertificateAuthority#other_name}
   */
   readonly otherName?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocationOtherName;
   /**
   * String that contains X.509 ObjectIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#registered_id AcmpcaCertificateAuthority#registered_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#registered_id AcmpcaCertificateAuthority#registered_id}
   */
   readonly registeredId?: string;
   /**
   * String that contains X.509 Rfc822Name information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#rfc_822_name AcmpcaCertificateAuthority#rfc_822_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#rfc_822_name AcmpcaCertificateAuthority#rfc_822_name}
   */
   readonly rfc822Name?: string;
   /**
   * String that contains X.509 UniformResourceIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#uniform_resource_identifier AcmpcaCertificateAuthority#uniform_resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#uniform_resource_identifier AcmpcaCertificateAuthority#uniform_resource_identifier}
   */
   readonly uniformResourceIdentifier?: string;
 }
@@ -1613,7 +1613,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // dns_name - computed: true, optional: true, required: false
-  private _dnsName?: string; 
+  private _dnsName?: string;
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -1645,7 +1645,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // ip_address - computed: true, optional: true, required: false
-  private _ipAddress?: string; 
+  private _ipAddress?: string;
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -1677,7 +1677,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // registered_id - computed: true, optional: true, required: false
-  private _registeredId?: string; 
+  private _registeredId?: string;
   public get registeredId() {
     return this.getStringAttribute('registered_id');
   }
@@ -1693,7 +1693,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // rfc_822_name - computed: true, optional: true, required: false
-  private _rfc822Name?: string; 
+  private _rfc822Name?: string;
   public get rfc822Name() {
     return this.getStringAttribute('rfc_822_name');
   }
@@ -1709,7 +1709,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // uniform_resource_identifier - computed: true, optional: true, required: false
-  private _uniformResourceIdentifier?: string; 
+  private _uniformResourceIdentifier?: string;
   public get uniformResourceIdentifier() {
     return this.getStringAttribute('uniform_resource_identifier');
   }
@@ -1728,13 +1728,13 @@ export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess
   /**
   * Pre-defined enum string for X.509 AccessMethod ObjectIdentifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#access_method_type AcmpcaCertificateAuthority#access_method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#access_method_type AcmpcaCertificateAuthority#access_method_type}
   */
   readonly accessMethodType?: string;
   /**
   * String that contains X.509 ObjectIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#custom_object_identifier AcmpcaCertificateAuthority#custom_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#custom_object_identifier AcmpcaCertificateAuthority#custom_object_identifier}
   */
   readonly customObjectIdentifier?: string;
 }
@@ -1824,7 +1824,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // access_method_type - computed: true, optional: true, required: false
-  private _accessMethodType?: string; 
+  private _accessMethodType?: string;
   public get accessMethodType() {
     return this.getStringAttribute('access_method_type');
   }
@@ -1840,7 +1840,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // custom_object_identifier - computed: true, optional: true, required: false
-  private _customObjectIdentifier?: string; 
+  private _customObjectIdentifier?: string;
   public get customObjectIdentifier() {
     return this.getStringAttribute('custom_object_identifier');
   }
@@ -1859,13 +1859,13 @@ export interface AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess
   /**
   * Structure that contains X.509 GeneralName information. Assign one and ONLY one field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#access_location AcmpcaCertificateAuthority#access_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#access_location AcmpcaCertificateAuthority#access_location}
   */
   readonly accessLocation?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessLocation;
   /**
   * Structure that contains X.509 AccessMethod information. Assign one and ONLY one field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#access_method AcmpcaCertificateAuthority#access_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#access_method AcmpcaCertificateAuthority#access_method}
   */
   readonly accessMethod?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAccessMethod;
 }
@@ -2012,13 +2012,13 @@ export interface AcmpcaCertificateAuthorityCsrExtensions {
   /**
   * Structure that contains X.509 KeyUsage information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key_usage AcmpcaCertificateAuthority#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key_usage AcmpcaCertificateAuthority#key_usage}
   */
   readonly keyUsage?: AcmpcaCertificateAuthorityCsrExtensionsKeyUsage;
   /**
   * Array of X.509 AccessDescription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#subject_information_access AcmpcaCertificateAuthority#subject_information_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#subject_information_access AcmpcaCertificateAuthority#subject_information_access}
   */
   readonly subjectInformationAccess?: AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccess[] | cdktn.IResolvable;
 }
@@ -2141,7 +2141,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsOutputReference extends cdkt
 }
 export interface AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationCrlDistributionPointExtensionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#omit_extension AcmpcaCertificateAuthority#omit_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#omit_extension AcmpcaCertificateAuthority#omit_extension}
   */
   readonly omitExtension?: boolean | cdktn.IResolvable;
 }
@@ -2218,7 +2218,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationCr
   }
 
   // omit_extension - computed: true, optional: true, required: false
-  private _omitExtension?: boolean | cdktn.IResolvable; 
+  private _omitExtension?: boolean | cdktn.IResolvable;
   public get omitExtension() {
     return this.getBooleanAttribute('omit_extension');
   }
@@ -2237,35 +2237,35 @@ export interface AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurati
   /**
   * Configures the default behavior of the CRL Distribution Point extension for certificates issued by your certificate authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#crl_distribution_point_extension_configuration AcmpcaCertificateAuthority#crl_distribution_point_extension_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#crl_distribution_point_extension_configuration AcmpcaCertificateAuthority#crl_distribution_point_extension_configuration}
   */
   readonly crlDistributionPointExtensionConfiguration?: AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationCrlDistributionPointExtensionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#crl_type AcmpcaCertificateAuthority#crl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#crl_type AcmpcaCertificateAuthority#crl_type}
   */
   readonly crlType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#custom_cname AcmpcaCertificateAuthority#custom_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#custom_cname AcmpcaCertificateAuthority#custom_cname}
   */
   readonly customCname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#custom_path AcmpcaCertificateAuthority#custom_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#custom_path AcmpcaCertificateAuthority#custom_path}
   */
   readonly customPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#enabled AcmpcaCertificateAuthority#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#enabled AcmpcaCertificateAuthority#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#expiration_in_days AcmpcaCertificateAuthority#expiration_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#expiration_in_days AcmpcaCertificateAuthority#expiration_in_days}
   */
   readonly expirationInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#s3_bucket_name AcmpcaCertificateAuthority#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#s3_bucket_name AcmpcaCertificateAuthority#s3_bucket_name}
   */
   readonly s3BucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#s3_object_acl AcmpcaCertificateAuthority#s3_object_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#s3_object_acl AcmpcaCertificateAuthority#s3_object_acl}
   */
   readonly s3ObjectAcl?: string;
 }
@@ -2449,7 +2449,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // crl_type - computed: true, optional: true, required: false
-  private _crlType?: string; 
+  private _crlType?: string;
   public get crlType() {
     return this.getStringAttribute('crl_type');
   }
@@ -2465,7 +2465,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // custom_cname - computed: true, optional: true, required: false
-  private _customCname?: string; 
+  private _customCname?: string;
   public get customCname() {
     return this.getStringAttribute('custom_cname');
   }
@@ -2481,7 +2481,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // custom_path - computed: true, optional: true, required: false
-  private _customPath?: string; 
+  private _customPath?: string;
   public get customPath() {
     return this.getStringAttribute('custom_path');
   }
@@ -2497,7 +2497,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2513,7 +2513,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // expiration_in_days - computed: true, optional: true, required: false
-  private _expirationInDays?: number; 
+  private _expirationInDays?: number;
   public get expirationInDays() {
     return this.getNumberAttribute('expiration_in_days');
   }
@@ -2529,7 +2529,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -2545,7 +2545,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // s3_object_acl - computed: true, optional: true, required: false
-  private _s3ObjectAcl?: string; 
+  private _s3ObjectAcl?: string;
   public get s3ObjectAcl() {
     return this.getStringAttribute('s3_object_acl');
   }
@@ -2562,11 +2562,11 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
 }
 export interface AcmpcaCertificateAuthorityRevocationConfigurationOcspConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#enabled AcmpcaCertificateAuthority#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#enabled AcmpcaCertificateAuthority#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#ocsp_custom_cname AcmpcaCertificateAuthority#ocsp_custom_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#ocsp_custom_cname AcmpcaCertificateAuthority#ocsp_custom_cname}
   */
   readonly ocspCustomCname?: string;
 }
@@ -2656,7 +2656,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationO
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2672,7 +2672,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationO
   }
 
   // ocsp_custom_cname - computed: true, optional: true, required: false
-  private _ocspCustomCname?: string; 
+  private _ocspCustomCname?: string;
   public get ocspCustomCname() {
     return this.getStringAttribute('ocsp_custom_cname');
   }
@@ -2691,13 +2691,13 @@ export interface AcmpcaCertificateAuthorityRevocationConfiguration {
   /**
   * Your certificate authority can create and maintain a certificate revocation list (CRL). A CRL contains information about certificates that have been revoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#crl_configuration AcmpcaCertificateAuthority#crl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#crl_configuration AcmpcaCertificateAuthority#crl_configuration}
   */
   readonly crlConfiguration?: AcmpcaCertificateAuthorityRevocationConfigurationCrlConfiguration;
   /**
   * Helps to configure online certificate status protocol (OCSP) responder for your certificate authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#ocsp_configuration AcmpcaCertificateAuthority#ocsp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#ocsp_configuration AcmpcaCertificateAuthority#ocsp_configuration}
   */
   readonly ocspConfiguration?: AcmpcaCertificateAuthorityRevocationConfigurationOcspConfiguration;
 }
@@ -2822,11 +2822,11 @@ export interface AcmpcaCertificateAuthoritySubjectCustomAttributes {
   /**
   * String that contains X.509 ObjectIdentifier information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#object_identifier AcmpcaCertificateAuthority#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#object_identifier AcmpcaCertificateAuthority#object_identifier}
   */
   readonly objectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
   */
   readonly value?: string;
 }
@@ -2918,7 +2918,7 @@ export class AcmpcaCertificateAuthoritySubjectCustomAttributesOutputReference ex
   }
 
   // object_identifier - computed: true, optional: true, required: false
-  private _objectIdentifier?: string; 
+  private _objectIdentifier?: string;
   public get objectIdentifier() {
     return this.getStringAttribute('object_identifier');
   }
@@ -2934,7 +2934,7 @@ export class AcmpcaCertificateAuthoritySubjectCustomAttributesOutputReference ex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2971,65 +2971,65 @@ export class AcmpcaCertificateAuthoritySubjectCustomAttributesList extends cdktn
 }
 export interface AcmpcaCertificateAuthoritySubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#common_name AcmpcaCertificateAuthority#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#country AcmpcaCertificateAuthority#country}
   */
   readonly country?: string;
   /**
   * Array of X.500 attribute type and value. CustomAttributes cannot be used along with pre-defined attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#custom_attributes AcmpcaCertificateAuthority#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#custom_attributes AcmpcaCertificateAuthority#custom_attributes}
   */
   readonly customAttributes?: AcmpcaCertificateAuthoritySubjectCustomAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#distinguished_name_qualifier AcmpcaCertificateAuthority#distinguished_name_qualifier}
   */
   readonly distinguishedNameQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#generation_qualifier AcmpcaCertificateAuthority#generation_qualifier}
   */
   readonly generationQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#given_name AcmpcaCertificateAuthority#given_name}
   */
   readonly givenName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#initials AcmpcaCertificateAuthority#initials}
   */
   readonly initials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#locality AcmpcaCertificateAuthority#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#organization AcmpcaCertificateAuthority#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#organizational_unit AcmpcaCertificateAuthority#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#pseudonym AcmpcaCertificateAuthority#pseudonym}
   */
   readonly pseudonym?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#serial_number AcmpcaCertificateAuthority#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#serial_number AcmpcaCertificateAuthority#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#state AcmpcaCertificateAuthority#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#surname AcmpcaCertificateAuthority#surname}
   */
   readonly surname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#title AcmpcaCertificateAuthority#title}
   */
   readonly title?: string;
 }
@@ -3288,7 +3288,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // common_name - computed: true, optional: true, required: false
-  private _commonName?: string; 
+  private _commonName?: string;
   public get commonName() {
     return this.getStringAttribute('common_name');
   }
@@ -3304,7 +3304,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string; 
+  private _country?: string;
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -3336,7 +3336,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // distinguished_name_qualifier - computed: true, optional: true, required: false
-  private _distinguishedNameQualifier?: string; 
+  private _distinguishedNameQualifier?: string;
   public get distinguishedNameQualifier() {
     return this.getStringAttribute('distinguished_name_qualifier');
   }
@@ -3352,7 +3352,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // generation_qualifier - computed: true, optional: true, required: false
-  private _generationQualifier?: string; 
+  private _generationQualifier?: string;
   public get generationQualifier() {
     return this.getStringAttribute('generation_qualifier');
   }
@@ -3368,7 +3368,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // given_name - computed: true, optional: true, required: false
-  private _givenName?: string; 
+  private _givenName?: string;
   public get givenName() {
     return this.getStringAttribute('given_name');
   }
@@ -3384,7 +3384,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // initials - computed: true, optional: true, required: false
-  private _initials?: string; 
+  private _initials?: string;
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -3400,7 +3400,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // locality - computed: true, optional: true, required: false
-  private _locality?: string; 
+  private _locality?: string;
   public get locality() {
     return this.getStringAttribute('locality');
   }
@@ -3416,7 +3416,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // organization - computed: true, optional: true, required: false
-  private _organization?: string; 
+  private _organization?: string;
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -3432,7 +3432,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit?: string; 
+  private _organizationalUnit?: string;
   public get organizationalUnit() {
     return this.getStringAttribute('organizational_unit');
   }
@@ -3448,7 +3448,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // pseudonym - computed: true, optional: true, required: false
-  private _pseudonym?: string; 
+  private _pseudonym?: string;
   public get pseudonym() {
     return this.getStringAttribute('pseudonym');
   }
@@ -3464,7 +3464,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string; 
+  private _serialNumber?: string;
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -3480,7 +3480,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string; 
+  private _state?: string;
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3496,7 +3496,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // surname - computed: true, optional: true, required: false
-  private _surname?: string; 
+  private _surname?: string;
   public get surname() {
     return this.getStringAttribute('surname');
   }
@@ -3512,7 +3512,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string; 
+  private _title?: string;
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3529,11 +3529,11 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
 }
 export interface AcmpcaCertificateAuthorityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#key AcmpcaCertificateAuthority#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#key AcmpcaCertificateAuthority#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#value AcmpcaCertificateAuthority#value}
   */
   readonly value?: string;
 }
@@ -3625,7 +3625,7 @@ export class AcmpcaCertificateAuthorityTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3641,7 +3641,7 @@ export class AcmpcaCertificateAuthorityTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3678,7 +3678,7 @@ export class AcmpcaCertificateAuthorityTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority awscc_acmpca_certificate_authority}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority awscc_acmpca_certificate_authority}
 */
 export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
 
@@ -3694,7 +3694,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AcmpcaCertificateAuthority resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcmpcaCertificateAuthority to import
-  * @param importFromId The id of the existing AcmpcaCertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcmpcaCertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcmpcaCertificateAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3706,7 +3706,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority awscc_acmpca_certificate_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority awscc_acmpca_certificate_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3717,7 +3717,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_acmpca_certificate_authority',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3774,7 +3774,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // key_algorithm - computed: false, optional: false, required: true
-  private _keyAlgorithm?: string; 
+  private _keyAlgorithm?: string;
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -3787,7 +3787,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // key_storage_security_standard - computed: true, optional: true, required: false
-  private _keyStorageSecurityStandard?: string; 
+  private _keyStorageSecurityStandard?: string;
   public get keyStorageSecurityStandard() {
     return this.getStringAttribute('key_storage_security_standard');
   }
@@ -3819,7 +3819,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string; 
+  private _signingAlgorithm?: string;
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -3861,7 +3861,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3874,7 +3874,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // usage_mode - computed: true, optional: true, required: false
-  private _usageMode?: string; 
+  private _usageMode?: string;
   public get usageMode() {
     return this.getStringAttribute('usage_mode');
   }

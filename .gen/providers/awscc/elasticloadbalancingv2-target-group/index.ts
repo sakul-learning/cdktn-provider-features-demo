@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface Elasticloadbalancingv2TargetGroupConfig extends cdktn.Terraform
   /**
   * Indicates whether health checks are enabled. If the target type is lambda, health checks are disabled by default but can be enabled. If the target type is instance, ip, or alb, health checks are always enabled and cannot be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_enabled Elasticloadbalancingv2TargetGroup#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_enabled Elasticloadbalancingv2TargetGroup#health_check_enabled}
   */
   readonly healthCheckEnabled?: boolean | cdktn.IResolvable;
   /**
   * The approximate amount of time, in seconds, between health checks of an individual target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_interval_seconds Elasticloadbalancingv2TargetGroup#health_check_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_interval_seconds Elasticloadbalancingv2TargetGroup#health_check_interval_seconds}
   */
   readonly healthCheckIntervalSeconds?: number;
   /**
   * [HTTP/HTTPS health checks] The destination for health checks on the targets. [HTTP1 or HTTP2 protocol version] The ping path. The default is /. [GRPC protocol version] The path of a custom health check method with the format /package.service/method. The default is /AWS.ALB/healthcheck.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_path Elasticloadbalancingv2TargetGroup#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_path Elasticloadbalancingv2TargetGroup#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
-  * The port the load balancer uses when performing health checks on targets. 
+  * The port the load balancer uses when performing health checks on targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_port Elasticloadbalancingv2TargetGroup#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_port Elasticloadbalancingv2TargetGroup#health_check_port}
   */
   readonly healthCheckPort?: string;
   /**
-  * The protocol the load balancer uses when performing health checks on targets. 
+  * The protocol the load balancer uses when performing health checks on targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_protocol Elasticloadbalancingv2TargetGroup#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_protocol Elasticloadbalancingv2TargetGroup#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
   * The amount of time, in seconds, during which no response from a target means a failed health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#health_check_timeout_seconds Elasticloadbalancingv2TargetGroup#health_check_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_timeout_seconds Elasticloadbalancingv2TargetGroup#health_check_timeout_seconds}
   */
   readonly healthCheckTimeoutSeconds?: number;
   /**
-  * The number of consecutive health checks successes required before considering an unhealthy target healthy. 
+  * The number of consecutive health checks successes required before considering an unhealthy target healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#healthy_threshold_count Elasticloadbalancingv2TargetGroup#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#healthy_threshold_count Elasticloadbalancingv2TargetGroup#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * The type of IP address used for this target group. The possible values are ipv4 and ipv6. 
+  * The type of IP address used for this target group. The possible values are ipv4 and ipv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#ip_address_type Elasticloadbalancingv2TargetGroup#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#ip_address_type Elasticloadbalancingv2TargetGroup#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * [HTTP/HTTPS health checks] The HTTP or gRPC codes to use when checking for a successful response from a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#matcher Elasticloadbalancingv2TargetGroup#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#matcher Elasticloadbalancingv2TargetGroup#matcher}
   */
   readonly matcher?: Elasticloadbalancingv2TargetGroupMatcher;
   /**
   * The name of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#name Elasticloadbalancingv2TargetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#name Elasticloadbalancingv2TargetGroup#name}
   */
   readonly name?: string;
   /**
   * The port on which the targets receive traffic. This port is used unless you specify a port override when registering the target. If the target is a Lambda function, this parameter does not apply. If the protocol is GENEVE, the supported port is 6081.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#port Elasticloadbalancingv2TargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#port Elasticloadbalancingv2TargetGroup#port}
   */
   readonly port?: number;
   /**
   * The protocol to use for routing traffic to the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#protocol Elasticloadbalancingv2TargetGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#protocol Elasticloadbalancingv2TargetGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * [HTTP/HTTPS protocol] The protocol version. The possible values are GRPC, HTTP1, and HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#protocol_version Elasticloadbalancingv2TargetGroup#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#protocol_version Elasticloadbalancingv2TargetGroup#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * The tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#tags Elasticloadbalancingv2TargetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#tags Elasticloadbalancingv2TargetGroup#tags}
   */
   readonly tags?: Elasticloadbalancingv2TargetGroupTags[] | cdktn.IResolvable;
   /**
   * The port that the target control agent uses to communicate the available capacity of targets to the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#target_control_port Elasticloadbalancingv2TargetGroup#target_control_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#target_control_port Elasticloadbalancingv2TargetGroup#target_control_port}
   */
   readonly targetControlPort?: number;
   /**
   * The attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#target_group_attributes Elasticloadbalancingv2TargetGroup#target_group_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#target_group_attributes Elasticloadbalancingv2TargetGroup#target_group_attributes}
   */
   readonly targetGroupAttributes?: Elasticloadbalancingv2TargetGroupTargetGroupAttributes[] | cdktn.IResolvable;
   /**
   * The type of target that you must specify when registering targets with this target group. You can't specify targets for a target group using more than one target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#target_type Elasticloadbalancingv2TargetGroup#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#target_type Elasticloadbalancingv2TargetGroup#target_type}
   */
   readonly targetType?: string;
   /**
   * The targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#targets Elasticloadbalancingv2TargetGroup#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#targets Elasticloadbalancingv2TargetGroup#targets}
   */
   readonly targets?: Elasticloadbalancingv2TargetGroupTargets[] | cdktn.IResolvable;
   /**
   * The number of consecutive health check failures required before considering a target unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#unhealthy_threshold_count Elasticloadbalancingv2TargetGroup#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#unhealthy_threshold_count Elasticloadbalancingv2TargetGroup#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
   /**
   * The identifier of the virtual private cloud (VPC). If the target is a Lambda function, this parameter does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#vpc_id Elasticloadbalancingv2TargetGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#vpc_id Elasticloadbalancingv2TargetGroup#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -132,13 +132,13 @@ export interface Elasticloadbalancingv2TargetGroupMatcher {
   /**
   * You can specify values between 0 and 99. You can specify multiple values, or a range of values. The default value is 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#grpc_code Elasticloadbalancingv2TargetGroup#grpc_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#grpc_code Elasticloadbalancingv2TargetGroup#grpc_code}
   */
   readonly grpcCode?: string;
   /**
-  * For Application Load Balancers, you can specify values between 200 and 499, and the default value is 200. You can specify multiple values or a range of values. 
+  * For Application Load Balancers, you can specify values between 200 and 499, and the default value is 200. You can specify multiple values or a range of values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#http_code Elasticloadbalancingv2TargetGroup#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#http_code Elasticloadbalancingv2TargetGroup#http_code}
   */
   readonly httpCode?: string;
 }
@@ -228,7 +228,7 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
   }
 
   // grpc_code - computed: true, optional: true, required: false
-  private _grpcCode?: string; 
+  private _grpcCode?: string;
   public get grpcCode() {
     return this.getStringAttribute('grpc_code');
   }
@@ -244,7 +244,7 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string; 
+  private _httpCode?: string;
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -261,15 +261,15 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
 }
 export interface Elasticloadbalancingv2TargetGroupTags {
   /**
-  * The value for the tag. 
+  * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#key Elasticloadbalancingv2TargetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#key Elasticloadbalancingv2TargetGroup#key}
   */
   readonly key?: string;
   /**
-  * The key name of the tag. 
+  * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#value Elasticloadbalancingv2TargetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#value Elasticloadbalancingv2TargetGroup#value}
   */
   readonly value?: string;
 }
@@ -361,7 +361,7 @@ export class Elasticloadbalancingv2TargetGroupTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -377,7 +377,7 @@ export class Elasticloadbalancingv2TargetGroupTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -416,13 +416,13 @@ export interface Elasticloadbalancingv2TargetGroupTargetGroupAttributes {
   /**
   * The value of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#key Elasticloadbalancingv2TargetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#key Elasticloadbalancingv2TargetGroup#key}
   */
   readonly key?: string;
   /**
   * The name of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#value Elasticloadbalancingv2TargetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#value Elasticloadbalancingv2TargetGroup#value}
   */
   readonly value?: string;
 }
@@ -514,7 +514,7 @@ export class Elasticloadbalancingv2TargetGroupTargetGroupAttributesOutputReferen
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -530,7 +530,7 @@ export class Elasticloadbalancingv2TargetGroupTargetGroupAttributesOutputReferen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -569,13 +569,13 @@ export interface Elasticloadbalancingv2TargetGroupTargets {
   /**
   * An Availability Zone or all. This determines whether the target receives traffic from the load balancer nodes in the specified Availability Zone or from all enabled Availability Zones for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#availability_zone Elasticloadbalancingv2TargetGroup#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#availability_zone Elasticloadbalancingv2TargetGroup#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * The ID of the target. If the target type of the target group is instance, specify an instance ID. If the target type is ip, specify an IP address. If the target type is lambda, specify the ARN of the Lambda function. If the target type is alb, specify the ARN of the Application Load Balancer target. 
+  * The ID of the target. If the target type of the target group is instance, specify an instance ID. If the target type is ip, specify an IP address. If the target type is lambda, specify the ARN of the Lambda function. If the target type is alb, specify the ARN of the Application Load Balancer target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#id Elasticloadbalancingv2TargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#id Elasticloadbalancingv2TargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -584,13 +584,13 @@ export interface Elasticloadbalancingv2TargetGroupTargets {
   /**
   * The port on which the target is listening. If the target group protocol is GENEVE, the supported port is 6081. If the target type is alb, the targeted Application Load Balancer must have at least one listener whose port matches the target group port. Not used if the target is a Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#port Elasticloadbalancingv2TargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#port Elasticloadbalancingv2TargetGroup#port}
   */
   readonly port?: number;
   /**
   * The Server ID used by targets when using QUIC or TCP_QUIC protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#quic_server_id Elasticloadbalancingv2TargetGroup#quic_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#quic_server_id Elasticloadbalancingv2TargetGroup#quic_server_id}
   */
   readonly quicServerId?: string;
 }
@@ -708,7 +708,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -724,7 +724,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -740,7 +740,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -756,7 +756,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // quic_server_id - computed: true, optional: true, required: false
-  private _quicServerId?: string; 
+  private _quicServerId?: string;
   public get quicServerId() {
     return this.getStringAttribute('quic_server_id');
   }
@@ -793,7 +793,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group}
 */
 export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
 
@@ -809,7 +809,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Elasticloadbalancingv2TargetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Elasticloadbalancingv2TargetGroup to import
-  * @param importFromId The id of the existing Elasticloadbalancingv2TargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Elasticloadbalancingv2TargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Elasticloadbalancingv2TargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -821,7 +821,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -832,7 +832,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticloadbalancingv2_target_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -869,7 +869,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   // ==========
 
   // health_check_enabled - computed: true, optional: true, required: false
-  private _healthCheckEnabled?: boolean | cdktn.IResolvable; 
+  private _healthCheckEnabled?: boolean | cdktn.IResolvable;
   public get healthCheckEnabled() {
     return this.getBooleanAttribute('health_check_enabled');
   }
@@ -885,7 +885,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_interval_seconds - computed: true, optional: true, required: false
-  private _healthCheckIntervalSeconds?: number; 
+  private _healthCheckIntervalSeconds?: number;
   public get healthCheckIntervalSeconds() {
     return this.getNumberAttribute('health_check_interval_seconds');
   }
@@ -901,7 +901,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_path - computed: true, optional: true, required: false
-  private _healthCheckPath?: string; 
+  private _healthCheckPath?: string;
   public get healthCheckPath() {
     return this.getStringAttribute('health_check_path');
   }
@@ -917,7 +917,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_port - computed: true, optional: true, required: false
-  private _healthCheckPort?: string; 
+  private _healthCheckPort?: string;
   public get healthCheckPort() {
     return this.getStringAttribute('health_check_port');
   }
@@ -933,7 +933,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_protocol - computed: true, optional: true, required: false
-  private _healthCheckProtocol?: string; 
+  private _healthCheckProtocol?: string;
   public get healthCheckProtocol() {
     return this.getStringAttribute('health_check_protocol');
   }
@@ -949,7 +949,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_timeout_seconds - computed: true, optional: true, required: false
-  private _healthCheckTimeoutSeconds?: number; 
+  private _healthCheckTimeoutSeconds?: number;
   public get healthCheckTimeoutSeconds() {
     return this.getNumberAttribute('health_check_timeout_seconds');
   }
@@ -965,7 +965,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // healthy_threshold_count - computed: true, optional: true, required: false
-  private _healthyThresholdCount?: number; 
+  private _healthyThresholdCount?: number;
   public get healthyThresholdCount() {
     return this.getNumberAttribute('healthy_threshold_count');
   }
@@ -986,7 +986,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string; 
+  private _ipAddressType?: string;
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1023,7 +1023,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1039,7 +1039,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1055,7 +1055,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string; 
+  private _protocol?: string;
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1071,7 +1071,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol_version - computed: true, optional: true, required: false
-  private _protocolVersion?: string; 
+  private _protocolVersion?: string;
   public get protocolVersion() {
     return this.getStringAttribute('protocol_version');
   }
@@ -1103,7 +1103,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // target_control_port - computed: true, optional: true, required: false
-  private _targetControlPort?: number; 
+  private _targetControlPort?: number;
   public get targetControlPort() {
     return this.getNumberAttribute('target_control_port');
   }
@@ -1150,7 +1150,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string; 
+  private _targetType?: string;
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -1182,7 +1182,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // unhealthy_threshold_count - computed: true, optional: true, required: false
-  private _unhealthyThresholdCount?: number; 
+  private _unhealthyThresholdCount?: number;
   public get unhealthyThresholdCount() {
     return this.getNumberAttribute('unhealthy_threshold_count');
   }
@@ -1198,7 +1198,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string; 
+  private _vpcId?: string;
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktn from 'cdktn';
 
 export interface XraySamplingRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
   */
   readonly fixedRate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#id XraySamplingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#id XraySamplingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
   */
   readonly priority: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#region XraySamplingRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#region XraySamplingRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
   */
   readonly reservoirSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
   */
   readonly resourceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
   */
   readonly serviceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#tags XraySamplingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#tags XraySamplingRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#tags_all XraySamplingRule#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#tags_all XraySamplingRule#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
   */
   readonly urlPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
   */
   readonly version: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}
 */
 export class XraySamplingRule extends cdktn.TerraformResource {
 
@@ -95,7 +95,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a XraySamplingRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the XraySamplingRule to import
-  * @param importFromId The id of the existing XraySamplingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing XraySamplingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the XraySamplingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -107,7 +107,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,7 +118,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_xray_sampling_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -156,7 +156,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes?: { [key: string]: string };
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -172,7 +172,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // fixed_rate - computed: false, optional: false, required: true
-  private _fixedRate?: number; 
+  private _fixedRate?: number;
   public get fixedRate() {
     return this.getNumberAttribute('fixed_rate');
   }
@@ -185,7 +185,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string; 
+  private _host?: string;
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -198,7 +198,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string; 
+  private _httpMethod?: string;
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -211,7 +211,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -227,7 +227,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -240,7 +240,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // reservoir_size - computed: false, optional: false, required: true
-  private _reservoirSize?: number; 
+  private _reservoirSize?: number;
   public get reservoirSize() {
     return this.getNumberAttribute('reservoir_size');
   }
@@ -269,7 +269,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string; 
+  private _resourceArn?: string;
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -282,7 +282,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: true, required: false
-  private _ruleName?: string; 
+  private _ruleName?: string;
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -298,7 +298,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string; 
+  private _serviceName?: string;
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -311,7 +311,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // service_type - computed: false, optional: false, required: true
-  private _serviceType?: string; 
+  private _serviceType?: string;
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -324,7 +324,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -340,7 +340,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -356,7 +356,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // url_path - computed: false, optional: false, required: true
-  private _urlPath?: string; 
+  private _urlPath?: string;
   public get urlPath() {
     return this.getStringAttribute('url_path');
   }
@@ -369,7 +369,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: number; 
+  private _version?: number;
   public get version() {
     return this.getNumberAttribute('version');
   }

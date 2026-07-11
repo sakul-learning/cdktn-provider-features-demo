@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RedshiftClusterSubnetGroupConfig extends cdktn.TerraformMetaArg
   /**
   * The description of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
   */
   readonly description: string;
   /**
   * The list of VPC subnet IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * The list of tags for the cluster parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
   */
   readonly tags?: RedshiftClusterSubnetGroupTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface RedshiftClusterSubnetGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
   */
   readonly value?: string;
 }
@@ -128,7 +128,7 @@ export class RedshiftClusterSubnetGroupTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class RedshiftClusterSubnetGroupTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -181,7 +181,7 @@ export class RedshiftClusterSubnetGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}
 */
 export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftClusterSubnetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftClusterSubnetGroup to import
-  * @param importFromId The id of the existing RedshiftClusterSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftClusterSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftClusterSubnetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_cluster_subnet_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -245,7 +245,7 @@ export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -263,7 +263,7 @@ export class RedshiftClusterSubnetGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

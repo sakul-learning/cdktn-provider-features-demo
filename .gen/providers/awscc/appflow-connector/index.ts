@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppflowConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
   *  The name of the connector. The name is unique for each ConnectorRegistration in your AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
   */
   readonly connectorLabel?: string;
   /**
   * Contains information about the configuration of the connector being registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
   */
   readonly connectorProvisioningConfig: AppflowConnectorConnectorProvisioningConfig;
   /**
-  * The provisioning type of the connector. Currently the only supported value is LAMBDA. 
+  * The provisioning type of the connector. Currently the only supported value is LAMBDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
   */
   readonly connectorProvisioningType: string;
   /**
   * A description about the connector that's being registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#description AppflowConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#description AppflowConnector#description}
   */
   readonly description?: string;
 }
@@ -36,7 +36,7 @@ export interface AppflowConnectorConnectorProvisioningConfigLambda {
   /**
   * Lambda ARN of the connector being registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
   */
   readonly lambdaArn?: string;
 }
@@ -113,7 +113,7 @@ export class AppflowConnectorConnectorProvisioningConfigLambdaOutputReference ex
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string; 
+  private _lambdaArn?: string;
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -132,7 +132,7 @@ export interface AppflowConnectorConnectorProvisioningConfig {
   /**
   * Contains information about the configuration of the lambda which is being registered as the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#lambda AppflowConnector#lambda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#lambda AppflowConnector#lambda}
   */
   readonly lambda?: AppflowConnectorConnectorProvisioningConfigLambda;
 }
@@ -226,7 +226,7 @@ export class AppflowConnectorConnectorProvisioningConfigOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector awscc_appflow_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector awscc_appflow_connector}
 */
 export class AppflowConnector extends cdktn.TerraformResource {
 
@@ -242,7 +242,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppflowConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppflowConnector to import
-  * @param importFromId The id of the existing AppflowConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppflowConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppflowConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -254,7 +254,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appflow_connector awscc_appflow_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector awscc_appflow_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,7 +265,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appflow_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -291,7 +291,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // connector_label - computed: true, optional: true, required: false
-  private _connectorLabel?: string; 
+  private _connectorLabel?: string;
   public get connectorLabel() {
     return this.getStringAttribute('connector_label');
   }
@@ -320,7 +320,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // connector_provisioning_type - computed: false, optional: false, required: true
-  private _connectorProvisioningType?: string; 
+  private _connectorProvisioningType?: string;
   public get connectorProvisioningType() {
     return this.getStringAttribute('connector_provisioning_type');
   }
@@ -333,7 +333,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }

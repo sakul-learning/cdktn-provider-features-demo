@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,212 +8,212 @@ import * as cdktn from 'cdktn';
 
 export interface AutoscalingGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#availability_zones AutoscalingGroup#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#availability_zones AutoscalingGroup#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_rebalance AutoscalingGroup#capacity_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_rebalance AutoscalingGroup#capacity_rebalance}
   */
   readonly capacityRebalance?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#context AutoscalingGroup#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#context AutoscalingGroup#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#default_cooldown AutoscalingGroup#default_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#default_cooldown AutoscalingGroup#default_cooldown}
   */
   readonly defaultCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#default_instance_warmup AutoscalingGroup#default_instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#default_instance_warmup AutoscalingGroup#default_instance_warmup}
   */
   readonly defaultInstanceWarmup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#desired_capacity AutoscalingGroup#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#desired_capacity AutoscalingGroup#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#desired_capacity_type AutoscalingGroup#desired_capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#desired_capacity_type AutoscalingGroup#desired_capacity_type}
   */
   readonly desiredCapacityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#enabled_metrics AutoscalingGroup#enabled_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#enabled_metrics AutoscalingGroup#enabled_metrics}
   */
   readonly enabledMetrics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#force_delete AutoscalingGroup#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#force_delete AutoscalingGroup#force_delete}
   */
   readonly forceDelete?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#force_delete_warm_pool AutoscalingGroup#force_delete_warm_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#force_delete_warm_pool AutoscalingGroup#force_delete_warm_pool}
   */
   readonly forceDeleteWarmPool?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#health_check_grace_period AutoscalingGroup#health_check_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#health_check_grace_period AutoscalingGroup#health_check_grace_period}
   */
   readonly healthCheckGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#health_check_type AutoscalingGroup#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#health_check_type AutoscalingGroup#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#id AutoscalingGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#id AutoscalingGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#ignore_failed_scaling_activities AutoscalingGroup#ignore_failed_scaling_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#ignore_failed_scaling_activities AutoscalingGroup#ignore_failed_scaling_activities}
   */
   readonly ignoreFailedScalingActivities?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_configuration AutoscalingGroup#launch_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_configuration AutoscalingGroup#launch_configuration}
   */
   readonly launchConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#load_balancers AutoscalingGroup#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#load_balancers AutoscalingGroup#load_balancers}
   */
   readonly loadBalancers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_instance_lifetime AutoscalingGroup#max_instance_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_instance_lifetime AutoscalingGroup#max_instance_lifetime}
   */
   readonly maxInstanceLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_size AutoscalingGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_size AutoscalingGroup#max_size}
   */
   readonly maxSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#metrics_granularity AutoscalingGroup#metrics_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#metrics_granularity AutoscalingGroup#metrics_granularity}
   */
   readonly metricsGranularity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min_elb_capacity AutoscalingGroup#min_elb_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min_elb_capacity AutoscalingGroup#min_elb_capacity}
   */
   readonly minElbCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}
   */
   readonly minSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#name_prefix AutoscalingGroup#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#name_prefix AutoscalingGroup#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#placement_group AutoscalingGroup#placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#placement_group AutoscalingGroup#placement_group}
   */
   readonly placementGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#protect_from_scale_in AutoscalingGroup#protect_from_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#protect_from_scale_in AutoscalingGroup#protect_from_scale_in}
   */
   readonly protectFromScaleIn?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#region AutoscalingGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#region AutoscalingGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#service_linked_role_arn AutoscalingGroup#service_linked_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#service_linked_role_arn AutoscalingGroup#service_linked_role_arn}
   */
   readonly serviceLinkedRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#suspended_processes AutoscalingGroup#suspended_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#suspended_processes AutoscalingGroup#suspended_processes}
   */
   readonly suspendedProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#target_group_arns AutoscalingGroup#target_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#target_group_arns AutoscalingGroup#target_group_arns}
   */
   readonly targetGroupArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#termination_policies AutoscalingGroup#termination_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#termination_policies AutoscalingGroup#termination_policies}
   */
   readonly terminationPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#vpc_zone_identifier AutoscalingGroup#vpc_zone_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#vpc_zone_identifier AutoscalingGroup#vpc_zone_identifier}
   */
   readonly vpcZoneIdentifier?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#wait_for_capacity_timeout AutoscalingGroup#wait_for_capacity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#wait_for_capacity_timeout AutoscalingGroup#wait_for_capacity_timeout}
   */
   readonly waitForCapacityTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#wait_for_elb_capacity AutoscalingGroup#wait_for_elb_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#wait_for_elb_capacity AutoscalingGroup#wait_for_elb_capacity}
   */
   readonly waitForElbCapacity?: number;
   /**
   * availability_zone_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#availability_zone_distribution AutoscalingGroup#availability_zone_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#availability_zone_distribution AutoscalingGroup#availability_zone_distribution}
   */
   readonly availabilityZoneDistribution?: AutoscalingGroupAvailabilityZoneDistribution;
   /**
   * capacity_reservation_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_reservation_specification AutoscalingGroup#capacity_reservation_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_reservation_specification AutoscalingGroup#capacity_reservation_specification}
   */
   readonly capacityReservationSpecification?: AutoscalingGroupCapacityReservationSpecification;
   /**
   * initial_lifecycle_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#initial_lifecycle_hook AutoscalingGroup#initial_lifecycle_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#initial_lifecycle_hook AutoscalingGroup#initial_lifecycle_hook}
   */
   readonly initialLifecycleHook?: AutoscalingGroupInitialLifecycleHook[] | cdktn.IResolvable;
   /**
   * instance_maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_maintenance_policy AutoscalingGroup#instance_maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_maintenance_policy AutoscalingGroup#instance_maintenance_policy}
   */
   readonly instanceMaintenancePolicy?: AutoscalingGroupInstanceMaintenancePolicy;
   /**
   * instance_refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_refresh AutoscalingGroup#instance_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_refresh AutoscalingGroup#instance_refresh}
   */
   readonly instanceRefresh?: AutoscalingGroupInstanceRefresh;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
   */
   readonly launchTemplate?: AutoscalingGroupLaunchTemplate;
   /**
   * mixed_instances_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#mixed_instances_policy AutoscalingGroup#mixed_instances_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#mixed_instances_policy AutoscalingGroup#mixed_instances_policy}
   */
   readonly mixedInstancesPolicy?: AutoscalingGroupMixedInstancesPolicy;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#tag AutoscalingGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#tag AutoscalingGroup#tag}
   */
   readonly tag?: AutoscalingGroupTag[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#timeouts AutoscalingGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#timeouts AutoscalingGroup#timeouts}
   */
   readonly timeouts?: AutoscalingGroupTimeouts;
   /**
   * traffic_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#traffic_source AutoscalingGroup#traffic_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#traffic_source AutoscalingGroup#traffic_source}
   */
   readonly trafficSource?: AutoscalingGroupTrafficSource[] | cdktn.IResolvable;
   /**
   * warm_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#warm_pool AutoscalingGroup#warm_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#warm_pool AutoscalingGroup#warm_pool}
   */
   readonly warmPool?: AutoscalingGroupWarmPool;
 }
 export interface AutoscalingGroupAvailabilityZoneDistribution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_distribution_strategy AutoscalingGroup#capacity_distribution_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_distribution_strategy AutoscalingGroup#capacity_distribution_strategy}
   */
   readonly capacityDistributionStrategy?: string;
 }
@@ -280,7 +280,7 @@ export class AutoscalingGroupAvailabilityZoneDistributionOutputReference extends
   }
 
   // capacity_distribution_strategy - computed: false, optional: true, required: false
-  private _capacityDistributionStrategy?: string; 
+  private _capacityDistributionStrategy?: string;
   public get capacityDistributionStrategy() {
     return this.getStringAttribute('capacity_distribution_strategy');
   }
@@ -297,11 +297,11 @@ export class AutoscalingGroupAvailabilityZoneDistributionOutputReference extends
 }
 export interface AutoscalingGroupCapacityReservationSpecificationCapacityReservationTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_reservation_ids AutoscalingGroup#capacity_reservation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_reservation_ids AutoscalingGroup#capacity_reservation_ids}
   */
   readonly capacityReservationIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_reservation_resource_group_arns AutoscalingGroup#capacity_reservation_resource_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_reservation_resource_group_arns AutoscalingGroup#capacity_reservation_resource_group_arns}
   */
   readonly capacityReservationResourceGroupArns?: string[];
 }
@@ -381,7 +381,7 @@ export class AutoscalingGroupCapacityReservationSpecificationCapacityReservation
   }
 
   // capacity_reservation_ids - computed: false, optional: true, required: false
-  private _capacityReservationIds?: string[]; 
+  private _capacityReservationIds?: string[];
   public get capacityReservationIds() {
     return this.getListAttribute('capacity_reservation_ids');
   }
@@ -397,7 +397,7 @@ export class AutoscalingGroupCapacityReservationSpecificationCapacityReservation
   }
 
   // capacity_reservation_resource_group_arns - computed: false, optional: true, required: false
-  private _capacityReservationResourceGroupArns?: string[]; 
+  private _capacityReservationResourceGroupArns?: string[];
   public get capacityReservationResourceGroupArns() {
     return this.getListAttribute('capacity_reservation_resource_group_arns');
   }
@@ -414,13 +414,13 @@ export class AutoscalingGroupCapacityReservationSpecificationCapacityReservation
 }
 export interface AutoscalingGroupCapacityReservationSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_reservation_preference AutoscalingGroup#capacity_reservation_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_reservation_preference AutoscalingGroup#capacity_reservation_preference}
   */
   readonly capacityReservationPreference?: string;
   /**
   * capacity_reservation_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#capacity_reservation_target AutoscalingGroup#capacity_reservation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#capacity_reservation_target AutoscalingGroup#capacity_reservation_target}
   */
   readonly capacityReservationTarget?: AutoscalingGroupCapacityReservationSpecificationCapacityReservationTarget;
 }
@@ -500,7 +500,7 @@ export class AutoscalingGroupCapacityReservationSpecificationOutputReference ext
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string; 
+  private _capacityReservationPreference?: string;
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -533,31 +533,31 @@ export class AutoscalingGroupCapacityReservationSpecificationOutputReference ext
 }
 export interface AutoscalingGroupInitialLifecycleHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#default_result AutoscalingGroup#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#default_result AutoscalingGroup#default_result}
   */
   readonly defaultResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#heartbeat_timeout AutoscalingGroup#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#heartbeat_timeout AutoscalingGroup#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#lifecycle_transition AutoscalingGroup#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#lifecycle_transition AutoscalingGroup#lifecycle_transition}
   */
   readonly lifecycleTransition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#notification_metadata AutoscalingGroup#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#notification_metadata AutoscalingGroup#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#notification_target_arn AutoscalingGroup#notification_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#notification_target_arn AutoscalingGroup#notification_target_arn}
   */
   readonly notificationTargetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#role_arn AutoscalingGroup#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#role_arn AutoscalingGroup#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -714,7 +714,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string; 
+  private _defaultResult?: string;
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -730,7 +730,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // heartbeat_timeout - computed: false, optional: true, required: false
-  private _heartbeatTimeout?: number; 
+  private _heartbeatTimeout?: number;
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -746,7 +746,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // lifecycle_transition - computed: false, optional: false, required: true
-  private _lifecycleTransition?: string; 
+  private _lifecycleTransition?: string;
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -759,7 +759,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -772,7 +772,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // notification_metadata - computed: false, optional: true, required: false
-  private _notificationMetadata?: string; 
+  private _notificationMetadata?: string;
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -788,7 +788,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // notification_target_arn - computed: false, optional: true, required: false
-  private _notificationTargetArn?: string; 
+  private _notificationTargetArn?: string;
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -804,7 +804,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -841,11 +841,11 @@ export class AutoscalingGroupInitialLifecycleHookList extends cdktn.ComplexList 
 }
 export interface AutoscalingGroupInstanceMaintenancePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}
   */
   readonly maxHealthyPercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}
   */
   readonly minHealthyPercentage: number;
 }
@@ -925,7 +925,7 @@ export class AutoscalingGroupInstanceMaintenancePolicyOutputReference extends cd
   }
 
   // max_healthy_percentage - computed: false, optional: false, required: true
-  private _maxHealthyPercentage?: number; 
+  private _maxHealthyPercentage?: number;
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -938,7 +938,7 @@ export class AutoscalingGroupInstanceMaintenancePolicyOutputReference extends cd
   }
 
   // min_healthy_percentage - computed: false, optional: false, required: true
-  private _minHealthyPercentage?: number; 
+  private _minHealthyPercentage?: number;
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -952,7 +952,7 @@ export class AutoscalingGroupInstanceMaintenancePolicyOutputReference extends cd
 }
 export interface AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}
   */
   readonly alarms?: string[];
 }
@@ -1019,7 +1019,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputR
   }
 
   // alarms - computed: false, optional: true, required: false
-  private _alarms?: string[]; 
+  private _alarms?: string[];
   public get alarms() {
     return this.getListAttribute('alarms');
   }
@@ -1036,45 +1036,45 @@ export class AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputR
 }
 export interface AutoscalingGroupInstanceRefreshPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#auto_rollback AutoscalingGroup#auto_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#auto_rollback AutoscalingGroup#auto_rollback}
   */
   readonly autoRollback?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#checkpoint_delay AutoscalingGroup#checkpoint_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#checkpoint_delay AutoscalingGroup#checkpoint_delay}
   */
   readonly checkpointDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#checkpoint_percentages AutoscalingGroup#checkpoint_percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#checkpoint_percentages AutoscalingGroup#checkpoint_percentages}
   */
   readonly checkpointPercentages?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_warmup AutoscalingGroup#instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_warmup AutoscalingGroup#instance_warmup}
   */
   readonly instanceWarmup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}
   */
   readonly maxHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}
   */
   readonly minHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#scale_in_protected_instances AutoscalingGroup#scale_in_protected_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#scale_in_protected_instances AutoscalingGroup#scale_in_protected_instances}
   */
   readonly scaleInProtectedInstances?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#skip_matching AutoscalingGroup#skip_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#skip_matching AutoscalingGroup#skip_matching}
   */
   readonly skipMatching?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#standby_instances AutoscalingGroup#standby_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#standby_instances AutoscalingGroup#standby_instances}
   */
   readonly standbyInstances?: string;
   /**
   * alarm_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#alarm_specification AutoscalingGroup#alarm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#alarm_specification AutoscalingGroup#alarm_specification}
   */
   readonly alarmSpecification?: AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification;
 }
@@ -1258,7 +1258,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // auto_rollback - computed: false, optional: true, required: false
-  private _autoRollback?: boolean | cdktn.IResolvable; 
+  private _autoRollback?: boolean | cdktn.IResolvable;
   public get autoRollback() {
     return this.getBooleanAttribute('auto_rollback');
   }
@@ -1274,7 +1274,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // checkpoint_delay - computed: false, optional: true, required: false
-  private _checkpointDelay?: string; 
+  private _checkpointDelay?: string;
   public get checkpointDelay() {
     return this.getStringAttribute('checkpoint_delay');
   }
@@ -1290,7 +1290,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // checkpoint_percentages - computed: false, optional: true, required: false
-  private _checkpointPercentages?: number[]; 
+  private _checkpointPercentages?: number[];
   public get checkpointPercentages() {
     return this.getNumberListAttribute('checkpoint_percentages');
   }
@@ -1306,7 +1306,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // instance_warmup - computed: false, optional: true, required: false
-  private _instanceWarmup?: string; 
+  private _instanceWarmup?: string;
   public get instanceWarmup() {
     return this.getStringAttribute('instance_warmup');
   }
@@ -1322,7 +1322,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // max_healthy_percentage - computed: false, optional: true, required: false
-  private _maxHealthyPercentage?: number; 
+  private _maxHealthyPercentage?: number;
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -1338,7 +1338,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // min_healthy_percentage - computed: false, optional: true, required: false
-  private _minHealthyPercentage?: number; 
+  private _minHealthyPercentage?: number;
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -1354,7 +1354,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // scale_in_protected_instances - computed: false, optional: true, required: false
-  private _scaleInProtectedInstances?: string; 
+  private _scaleInProtectedInstances?: string;
   public get scaleInProtectedInstances() {
     return this.getStringAttribute('scale_in_protected_instances');
   }
@@ -1370,7 +1370,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // skip_matching - computed: false, optional: true, required: false
-  private _skipMatching?: boolean | cdktn.IResolvable; 
+  private _skipMatching?: boolean | cdktn.IResolvable;
   public get skipMatching() {
     return this.getBooleanAttribute('skip_matching');
   }
@@ -1386,7 +1386,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // standby_instances - computed: false, optional: true, required: false
-  private _standbyInstances?: string; 
+  private _standbyInstances?: string;
   public get standbyInstances() {
     return this.getStringAttribute('standby_instances');
   }
@@ -1419,17 +1419,17 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
 }
 export interface AutoscalingGroupInstanceRefresh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#strategy AutoscalingGroup#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#strategy AutoscalingGroup#strategy}
   */
   readonly strategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#triggers AutoscalingGroup#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#triggers AutoscalingGroup#triggers}
   */
   readonly triggers?: string[];
   /**
   * preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#preferences AutoscalingGroup#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#preferences AutoscalingGroup#preferences}
   */
   readonly preferences?: AutoscalingGroupInstanceRefreshPreferences;
 }
@@ -1522,7 +1522,7 @@ export class AutoscalingGroupInstanceRefreshOutputReference extends cdktn.Comple
   }
 
   // strategy - computed: false, optional: false, required: true
-  private _strategy?: string; 
+  private _strategy?: string;
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -1535,7 +1535,7 @@ export class AutoscalingGroupInstanceRefreshOutputReference extends cdktn.Comple
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: string[]; 
+  private _triggers?: string[];
   public get triggers() {
     return cdktn.Fn.tolist(this.getListAttribute('triggers'));
   }
@@ -1568,18 +1568,18 @@ export class AutoscalingGroupInstanceRefreshOutputReference extends cdktn.Comple
 }
 export interface AutoscalingGroupLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#id AutoscalingGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#id AutoscalingGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
   */
   readonly version?: string;
 }
@@ -1672,7 +1672,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1688,7 +1688,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1704,7 +1704,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1721,27 +1721,27 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
 }
 export interface AutoscalingGroupMixedInstancesPolicyInstancesDistribution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#on_demand_allocation_strategy AutoscalingGroup#on_demand_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#on_demand_allocation_strategy AutoscalingGroup#on_demand_allocation_strategy}
   */
   readonly onDemandAllocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#on_demand_base_capacity AutoscalingGroup#on_demand_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#on_demand_base_capacity AutoscalingGroup#on_demand_base_capacity}
   */
   readonly onDemandBaseCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#on_demand_percentage_above_base_capacity AutoscalingGroup#on_demand_percentage_above_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#on_demand_percentage_above_base_capacity AutoscalingGroup#on_demand_percentage_above_base_capacity}
   */
   readonly onDemandPercentageAboveBaseCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#spot_allocation_strategy AutoscalingGroup#spot_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#spot_allocation_strategy AutoscalingGroup#spot_allocation_strategy}
   */
   readonly spotAllocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#spot_instance_pools AutoscalingGroup#spot_instance_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#spot_instance_pools AutoscalingGroup#spot_instance_pools}
   */
   readonly spotInstancePools?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#spot_max_price AutoscalingGroup#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#spot_max_price AutoscalingGroup#spot_max_price}
   */
   readonly spotMaxPrice?: string;
 }
@@ -1873,7 +1873,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string; 
+  private _onDemandAllocationStrategy?: string;
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -1889,7 +1889,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_base_capacity - computed: true, optional: true, required: false
-  private _onDemandBaseCapacity?: number; 
+  private _onDemandBaseCapacity?: number;
   public get onDemandBaseCapacity() {
     return this.getNumberAttribute('on_demand_base_capacity');
   }
@@ -1905,7 +1905,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_percentage_above_base_capacity - computed: true, optional: true, required: false
-  private _onDemandPercentageAboveBaseCapacity?: number; 
+  private _onDemandPercentageAboveBaseCapacity?: number;
   public get onDemandPercentageAboveBaseCapacity() {
     return this.getNumberAttribute('on_demand_percentage_above_base_capacity');
   }
@@ -1921,7 +1921,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_allocation_strategy - computed: true, optional: true, required: false
-  private _spotAllocationStrategy?: string; 
+  private _spotAllocationStrategy?: string;
   public get spotAllocationStrategy() {
     return this.getStringAttribute('spot_allocation_strategy');
   }
@@ -1937,7 +1937,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_instance_pools - computed: true, optional: true, required: false
-  private _spotInstancePools?: number; 
+  private _spotInstancePools?: number;
   public get spotInstancePools() {
     return this.getNumberAttribute('spot_instance_pools');
   }
@@ -1953,7 +1953,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_max_price - computed: false, optional: true, required: false
-  private _spotMaxPrice?: string; 
+  private _spotMaxPrice?: string;
   public get spotMaxPrice() {
     return this.getStringAttribute('spot_max_price');
   }
@@ -1970,15 +1970,15 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
   */
   readonly version?: string;
 }
@@ -2071,7 +2071,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -2087,7 +2087,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -2103,7 +2103,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2120,11 +2120,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2204,7 +2204,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2220,7 +2220,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2237,11 +2237,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsAcceleratorTotalMemoryMib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2321,7 +2321,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2337,7 +2337,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2354,11 +2354,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsBaselineEbsBandwidthMbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2438,7 +2438,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2454,7 +2454,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2471,11 +2471,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsMemoryGibPerVcpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2555,7 +2555,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2571,7 +2571,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2588,11 +2588,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsMemoryMib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2672,7 +2672,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2688,7 +2688,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2705,11 +2705,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsNetworkBandwidthGbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2789,7 +2789,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2805,7 +2805,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2822,11 +2822,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsNetworkInterfaceCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -2906,7 +2906,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2922,7 +2922,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2939,11 +2939,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsTotalLocalStorageGb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3023,7 +3023,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3039,7 +3039,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3056,11 +3056,11 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsVcpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max AutoscalingGroup#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min AutoscalingGroup#min}
   */
   readonly min?: number;
 }
@@ -3140,7 +3140,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3156,7 +3156,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3173,117 +3173,117 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#accelerator_manufacturers AutoscalingGroup#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#accelerator_manufacturers AutoscalingGroup#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#accelerator_names AutoscalingGroup#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#accelerator_names AutoscalingGroup#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#accelerator_types AutoscalingGroup#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#accelerator_types AutoscalingGroup#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#allowed_instance_types AutoscalingGroup#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#allowed_instance_types AutoscalingGroup#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#bare_metal AutoscalingGroup#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#bare_metal AutoscalingGroup#bare_metal}
   */
   readonly bareMetal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#burstable_performance AutoscalingGroup#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#burstable_performance AutoscalingGroup#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#cpu_manufacturers AutoscalingGroup#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#cpu_manufacturers AutoscalingGroup#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#excluded_instance_types AutoscalingGroup#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#excluded_instance_types AutoscalingGroup#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_generations AutoscalingGroup#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_generations AutoscalingGroup#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#local_storage AutoscalingGroup#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#local_storage AutoscalingGroup#local_storage}
   */
   readonly localStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#local_storage_types AutoscalingGroup#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#local_storage_types AutoscalingGroup#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingGroup#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingGroup#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#require_hibernate_support AutoscalingGroup#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#require_hibernate_support AutoscalingGroup#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#spot_max_price_percentage_over_lowest_price AutoscalingGroup#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#spot_max_price_percentage_over_lowest_price AutoscalingGroup#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
   * accelerator_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#accelerator_count AutoscalingGroup#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#accelerator_count AutoscalingGroup#accelerator_count}
   */
   readonly acceleratorCount?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsAcceleratorCount;
   /**
   * accelerator_total_memory_mib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#accelerator_total_memory_mib AutoscalingGroup#accelerator_total_memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#accelerator_total_memory_mib AutoscalingGroup#accelerator_total_memory_mib}
   */
   readonly acceleratorTotalMemoryMib?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsAcceleratorTotalMemoryMib;
   /**
   * baseline_ebs_bandwidth_mbps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#baseline_ebs_bandwidth_mbps AutoscalingGroup#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#baseline_ebs_bandwidth_mbps AutoscalingGroup#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
   * memory_gib_per_vcpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#memory_gib_per_vcpu AutoscalingGroup#memory_gib_per_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#memory_gib_per_vcpu AutoscalingGroup#memory_gib_per_vcpu}
   */
   readonly memoryGibPerVcpu?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsMemoryGibPerVcpu;
   /**
   * memory_mib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#memory_mib AutoscalingGroup#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#memory_mib AutoscalingGroup#memory_mib}
   */
   readonly memoryMib?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsMemoryMib;
   /**
   * network_bandwidth_gbps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#network_bandwidth_gbps AutoscalingGroup#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#network_bandwidth_gbps AutoscalingGroup#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsNetworkBandwidthGbps;
   /**
   * network_interface_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#network_interface_count AutoscalingGroup#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#network_interface_count AutoscalingGroup#network_interface_count}
   */
   readonly networkInterfaceCount?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsNetworkInterfaceCount;
   /**
   * total_local_storage_gb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#total_local_storage_gb AutoscalingGroup#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#total_local_storage_gb AutoscalingGroup#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsTotalLocalStorageGb;
   /**
   * vcpu_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#vcpu_count AutoscalingGroup#vcpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#vcpu_count AutoscalingGroup#vcpu_count}
   */
   readonly vcpuCount?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirementsVcpuCount;
 }
@@ -3649,7 +3649,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_manufacturers - computed: false, optional: true, required: false
-  private _acceleratorManufacturers?: string[]; 
+  private _acceleratorManufacturers?: string[];
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -3665,7 +3665,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_names - computed: false, optional: true, required: false
-  private _acceleratorNames?: string[]; 
+  private _acceleratorNames?: string[];
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -3681,7 +3681,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_types - computed: false, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -3697,7 +3697,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // allowed_instance_types - computed: false, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_instance_types'));
   }
@@ -3713,7 +3713,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // bare_metal - computed: false, optional: true, required: false
-  private _bareMetal?: string; 
+  private _bareMetal?: string;
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -3729,7 +3729,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // burstable_performance - computed: false, optional: true, required: false
-  private _burstablePerformance?: string; 
+  private _burstablePerformance?: string;
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -3745,7 +3745,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // cpu_manufacturers - computed: false, optional: true, required: false
-  private _cpuManufacturers?: string[]; 
+  private _cpuManufacturers?: string[];
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -3761,7 +3761,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // excluded_instance_types - computed: false, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_instance_types'));
   }
@@ -3777,7 +3777,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // instance_generations - computed: false, optional: true, required: false
-  private _instanceGenerations?: string[]; 
+  private _instanceGenerations?: string[];
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -3793,7 +3793,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // local_storage - computed: false, optional: true, required: false
-  private _localStorage?: string; 
+  private _localStorage?: string;
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -3809,7 +3809,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // local_storage_types - computed: false, optional: true, required: false
-  private _localStorageTypes?: string[]; 
+  private _localStorageTypes?: string[];
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -3825,7 +3825,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: false, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -3841,7 +3841,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
+  private _onDemandMaxPricePercentageOverLowestPrice?: number;
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -3857,7 +3857,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // require_hibernate_support - computed: false, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -3873,7 +3873,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number; 
+  private _spotMaxPricePercentageOverLowestPrice?: number;
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -4034,15 +4034,15 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTemplateSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_id AutoscalingGroup#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_name AutoscalingGroup#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#version AutoscalingGroup#version}
   */
   readonly version?: string;
 }
@@ -4135,7 +4135,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -4151,7 +4151,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -4167,7 +4167,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4184,23 +4184,23 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
 }
 export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_type AutoscalingGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_type AutoscalingGroup#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#weighted_capacity AutoscalingGroup#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#weighted_capacity AutoscalingGroup#weighted_capacity}
   */
   readonly weightedCapacity?: string;
   /**
   * instance_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_requirements AutoscalingGroup#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_requirements AutoscalingGroup#instance_requirements}
   */
   readonly instanceRequirements?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceRequirements;
   /**
   * launch_template_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
   */
   readonly launchTemplateSpecification?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTemplateSpecification;
 }
@@ -4318,7 +4318,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideOutputRef
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4334,7 +4334,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideOutputRef
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: string; 
+  private _weightedCapacity?: string;
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -4405,13 +4405,13 @@ export interface AutoscalingGroupMixedInstancesPolicyLaunchTemplate {
   /**
   * launch_template_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template_specification AutoscalingGroup#launch_template_specification}
   */
   readonly launchTemplateSpecification: AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpecification;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#override AutoscalingGroup#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#override AutoscalingGroup#override}
   */
   readonly override?: AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverride[] | cdktn.IResolvable;
 }
@@ -4523,13 +4523,13 @@ export interface AutoscalingGroupMixedInstancesPolicy {
   /**
   * instances_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instances_distribution AutoscalingGroup#instances_distribution}
   */
   readonly instancesDistribution?: AutoscalingGroupMixedInstancesPolicyInstancesDistribution;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#launch_template AutoscalingGroup#launch_template}
   */
   readonly launchTemplate: AutoscalingGroupMixedInstancesPolicyLaunchTemplate;
 }
@@ -4639,15 +4639,15 @@ export class AutoscalingGroupMixedInstancesPolicyOutputReference extends cdktn.C
 }
 export interface AutoscalingGroupTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#key AutoscalingGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#key AutoscalingGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#propagate_at_launch AutoscalingGroup#propagate_at_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#propagate_at_launch AutoscalingGroup#propagate_at_launch}
   */
   readonly propagateAtLaunch: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#value AutoscalingGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#value AutoscalingGroup#value}
   */
   readonly value: string;
 }
@@ -4752,7 +4752,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4765,7 +4765,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // propagate_at_launch - computed: false, optional: false, required: true
-  private _propagateAtLaunch?: boolean | cdktn.IResolvable; 
+  private _propagateAtLaunch?: boolean | cdktn.IResolvable;
   public get propagateAtLaunch() {
     return this.getBooleanAttribute('propagate_at_launch');
   }
@@ -4778,7 +4778,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4812,11 +4812,11 @@ export class AutoscalingGroupTagList extends cdktn.ComplexList {
 }
 export interface AutoscalingGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#delete AutoscalingGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#delete AutoscalingGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#update AutoscalingGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#update AutoscalingGroup#update}
   */
   readonly update?: string;
 }
@@ -4906,7 +4906,7 @@ export class AutoscalingGroupTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4922,7 +4922,7 @@ export class AutoscalingGroupTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4939,11 +4939,11 @@ export class AutoscalingGroupTimeoutsOutputReference extends cdktn.ComplexObject
 }
 export interface AutoscalingGroupTrafficSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#identifier AutoscalingGroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#identifier AutoscalingGroup#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#type AutoscalingGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#type AutoscalingGroup#type}
   */
   readonly type?: string;
 }
@@ -5035,7 +5035,7 @@ export class AutoscalingGroupTrafficSourceOutputReference extends cdktn.ComplexO
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string; 
+  private _identifier?: string;
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -5048,7 +5048,7 @@ export class AutoscalingGroupTrafficSourceOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5085,7 +5085,7 @@ export class AutoscalingGroupTrafficSourceList extends cdktn.ComplexList {
 }
 export interface AutoscalingGroupWarmPoolInstanceReusePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#reuse_on_scale_in AutoscalingGroup#reuse_on_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#reuse_on_scale_in AutoscalingGroup#reuse_on_scale_in}
   */
   readonly reuseOnScaleIn?: boolean | cdktn.IResolvable;
 }
@@ -5152,7 +5152,7 @@ export class AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference extends 
   }
 
   // reuse_on_scale_in - computed: false, optional: true, required: false
-  private _reuseOnScaleIn?: boolean | cdktn.IResolvable; 
+  private _reuseOnScaleIn?: boolean | cdktn.IResolvable;
   public get reuseOnScaleIn() {
     return this.getBooleanAttribute('reuse_on_scale_in');
   }
@@ -5169,21 +5169,21 @@ export class AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference extends 
 }
 export interface AutoscalingGroupWarmPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#max_group_prepared_capacity AutoscalingGroup#max_group_prepared_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#max_group_prepared_capacity AutoscalingGroup#max_group_prepared_capacity}
   */
   readonly maxGroupPreparedCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#min_size AutoscalingGroup#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#pool_state AutoscalingGroup#pool_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#pool_state AutoscalingGroup#pool_state}
   */
   readonly poolState?: string;
   /**
   * instance_reuse_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#instance_reuse_policy AutoscalingGroup#instance_reuse_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#instance_reuse_policy AutoscalingGroup#instance_reuse_policy}
   */
   readonly instanceReusePolicy?: AutoscalingGroupWarmPoolInstanceReusePolicy;
 }
@@ -5289,7 +5289,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // max_group_prepared_capacity - computed: false, optional: true, required: false
-  private _maxGroupPreparedCapacity?: number; 
+  private _maxGroupPreparedCapacity?: number;
   public get maxGroupPreparedCapacity() {
     return this.getNumberAttribute('max_group_prepared_capacity');
   }
@@ -5305,7 +5305,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // min_size - computed: false, optional: true, required: false
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -5321,7 +5321,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // pool_state - computed: false, optional: true, required: false
-  private _poolState?: string; 
+  private _poolState?: string;
   public get poolState() {
     return this.getStringAttribute('pool_state');
   }
@@ -5354,7 +5354,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group aws_autoscaling_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group aws_autoscaling_group}
 */
 export class AutoscalingGroup extends cdktn.TerraformResource {
 
@@ -5370,7 +5370,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingGroup to import
-  * @param importFromId The id of the existing AutoscalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5382,7 +5382,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5393,7 +5393,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
       terraformResourceType: 'aws_autoscaling_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5459,7 +5459,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[]; 
+  private _availabilityZones?: string[];
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -5475,7 +5475,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // capacity_rebalance - computed: false, optional: true, required: false
-  private _capacityRebalance?: boolean | cdktn.IResolvable; 
+  private _capacityRebalance?: boolean | cdktn.IResolvable;
   public get capacityRebalance() {
     return this.getBooleanAttribute('capacity_rebalance');
   }
@@ -5491,7 +5491,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -5507,7 +5507,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // default_cooldown - computed: true, optional: true, required: false
-  private _defaultCooldown?: number; 
+  private _defaultCooldown?: number;
   public get defaultCooldown() {
     return this.getNumberAttribute('default_cooldown');
   }
@@ -5523,7 +5523,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // default_instance_warmup - computed: false, optional: true, required: false
-  private _defaultInstanceWarmup?: number; 
+  private _defaultInstanceWarmup?: number;
   public get defaultInstanceWarmup() {
     return this.getNumberAttribute('default_instance_warmup');
   }
@@ -5539,7 +5539,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number; 
+  private _desiredCapacity?: number;
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -5555,7 +5555,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity_type - computed: false, optional: true, required: false
-  private _desiredCapacityType?: string; 
+  private _desiredCapacityType?: string;
   public get desiredCapacityType() {
     return this.getStringAttribute('desired_capacity_type');
   }
@@ -5571,7 +5571,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // enabled_metrics - computed: false, optional: true, required: false
-  private _enabledMetrics?: string[]; 
+  private _enabledMetrics?: string[];
   public get enabledMetrics() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_metrics'));
   }
@@ -5587,7 +5587,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: false, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable; 
+  private _forceDelete?: boolean | cdktn.IResolvable;
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -5603,7 +5603,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // force_delete_warm_pool - computed: false, optional: true, required: false
-  private _forceDeleteWarmPool?: boolean | cdktn.IResolvable; 
+  private _forceDeleteWarmPool?: boolean | cdktn.IResolvable;
   public get forceDeleteWarmPool() {
     return this.getBooleanAttribute('force_delete_warm_pool');
   }
@@ -5619,7 +5619,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period - computed: false, optional: true, required: false
-  private _healthCheckGracePeriod?: number; 
+  private _healthCheckGracePeriod?: number;
   public get healthCheckGracePeriod() {
     return this.getNumberAttribute('health_check_grace_period');
   }
@@ -5635,7 +5635,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_type - computed: true, optional: true, required: false
-  private _healthCheckType?: string; 
+  private _healthCheckType?: string;
   public get healthCheckType() {
     return this.getStringAttribute('health_check_type');
   }
@@ -5651,7 +5651,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5667,7 +5667,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // ignore_failed_scaling_activities - computed: false, optional: true, required: false
-  private _ignoreFailedScalingActivities?: boolean | cdktn.IResolvable; 
+  private _ignoreFailedScalingActivities?: boolean | cdktn.IResolvable;
   public get ignoreFailedScalingActivities() {
     return this.getBooleanAttribute('ignore_failed_scaling_activities');
   }
@@ -5683,7 +5683,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // launch_configuration - computed: false, optional: true, required: false
-  private _launchConfiguration?: string; 
+  private _launchConfiguration?: string;
   public get launchConfiguration() {
     return this.getStringAttribute('launch_configuration');
   }
@@ -5699,7 +5699,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // load_balancers - computed: true, optional: true, required: false
-  private _loadBalancers?: string[]; 
+  private _loadBalancers?: string[];
   public get loadBalancers() {
     return cdktn.Fn.tolist(this.getListAttribute('load_balancers'));
   }
@@ -5715,7 +5715,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // max_instance_lifetime - computed: false, optional: true, required: false
-  private _maxInstanceLifetime?: number; 
+  private _maxInstanceLifetime?: number;
   public get maxInstanceLifetime() {
     return this.getNumberAttribute('max_instance_lifetime');
   }
@@ -5731,7 +5731,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: number; 
+  private _maxSize?: number;
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -5744,7 +5744,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // metrics_granularity - computed: false, optional: true, required: false
-  private _metricsGranularity?: string; 
+  private _metricsGranularity?: string;
   public get metricsGranularity() {
     return this.getStringAttribute('metrics_granularity');
   }
@@ -5760,7 +5760,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // min_elb_capacity - computed: false, optional: true, required: false
-  private _minElbCapacity?: number; 
+  private _minElbCapacity?: number;
   public get minElbCapacity() {
     return this.getNumberAttribute('min_elb_capacity');
   }
@@ -5776,7 +5776,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: number; 
+  private _minSize?: number;
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -5789,7 +5789,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5805,7 +5805,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -5821,7 +5821,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // placement_group - computed: false, optional: true, required: false
-  private _placementGroup?: string; 
+  private _placementGroup?: string;
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -5842,7 +5842,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // protect_from_scale_in - computed: false, optional: true, required: false
-  private _protectFromScaleIn?: boolean | cdktn.IResolvable; 
+  private _protectFromScaleIn?: boolean | cdktn.IResolvable;
   public get protectFromScaleIn() {
     return this.getBooleanAttribute('protect_from_scale_in');
   }
@@ -5858,7 +5858,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5874,7 +5874,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // service_linked_role_arn - computed: true, optional: true, required: false
-  private _serviceLinkedRoleArn?: string; 
+  private _serviceLinkedRoleArn?: string;
   public get serviceLinkedRoleArn() {
     return this.getStringAttribute('service_linked_role_arn');
   }
@@ -5890,7 +5890,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // suspended_processes - computed: false, optional: true, required: false
-  private _suspendedProcesses?: string[]; 
+  private _suspendedProcesses?: string[];
   public get suspendedProcesses() {
     return cdktn.Fn.tolist(this.getListAttribute('suspended_processes'));
   }
@@ -5906,7 +5906,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // target_group_arns - computed: true, optional: true, required: false
-  private _targetGroupArns?: string[]; 
+  private _targetGroupArns?: string[];
   public get targetGroupArns() {
     return cdktn.Fn.tolist(this.getListAttribute('target_group_arns'));
   }
@@ -5922,7 +5922,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // termination_policies - computed: false, optional: true, required: false
-  private _terminationPolicies?: string[]; 
+  private _terminationPolicies?: string[];
   public get terminationPolicies() {
     return this.getListAttribute('termination_policies');
   }
@@ -5938,7 +5938,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // vpc_zone_identifier - computed: true, optional: true, required: false
-  private _vpcZoneIdentifier?: string[]; 
+  private _vpcZoneIdentifier?: string[];
   public get vpcZoneIdentifier() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_zone_identifier'));
   }
@@ -5954,7 +5954,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // wait_for_capacity_timeout - computed: false, optional: true, required: false
-  private _waitForCapacityTimeout?: string; 
+  private _waitForCapacityTimeout?: string;
   public get waitForCapacityTimeout() {
     return this.getStringAttribute('wait_for_capacity_timeout');
   }
@@ -5970,7 +5970,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // wait_for_elb_capacity - computed: false, optional: true, required: false
-  private _waitForElbCapacity?: number; 
+  private _waitForElbCapacity?: number;
   public get waitForElbCapacity() {
     return this.getNumberAttribute('wait_for_elb_capacity');
   }

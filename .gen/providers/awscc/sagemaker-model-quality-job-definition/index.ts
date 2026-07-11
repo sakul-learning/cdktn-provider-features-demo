@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SagemakerModelQualityJobDefinitionConfig extends cdktn.Terrafor
   /**
   * The name of the endpoint used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_name SagemakerModelQualityJobDefinition#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_name SagemakerModelQualityJobDefinition#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * The name of the job definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#job_definition_name SagemakerModelQualityJobDefinition#job_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#job_definition_name SagemakerModelQualityJobDefinition#job_definition_name}
   */
   readonly jobDefinitionName?: string;
   /**
   * Identifies the resources to deploy for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#job_resources SagemakerModelQualityJobDefinition#job_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#job_resources SagemakerModelQualityJobDefinition#job_resources}
   */
   readonly jobResources: SagemakerModelQualityJobDefinitionJobResources;
   /**
   * Container image configuration object for the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_app_specification SagemakerModelQualityJobDefinition#model_quality_app_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_app_specification SagemakerModelQualityJobDefinition#model_quality_app_specification}
   */
   readonly modelQualityAppSpecification: SagemakerModelQualityJobDefinitionModelQualityAppSpecification;
   /**
   * Baseline configuration used to validate that the data conforms to the specified constraints and statistics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_baseline_config SagemakerModelQualityJobDefinition#model_quality_baseline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_baseline_config SagemakerModelQualityJobDefinition#model_quality_baseline_config}
   */
   readonly modelQualityBaselineConfig?: SagemakerModelQualityJobDefinitionModelQualityBaselineConfig;
   /**
   * The inputs for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_job_input SagemakerModelQualityJobDefinition#model_quality_job_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_job_input SagemakerModelQualityJobDefinition#model_quality_job_input}
   */
   readonly modelQualityJobInput: SagemakerModelQualityJobDefinitionModelQualityJobInput;
   /**
   * The output configuration for monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_job_output_config SagemakerModelQualityJobDefinition#model_quality_job_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#model_quality_job_output_config SagemakerModelQualityJobDefinition#model_quality_job_output_config}
   */
   readonly modelQualityJobOutputConfig: SagemakerModelQualityJobDefinitionModelQualityJobOutputConfig;
   /**
   * Networking options for a job, such as network traffic encryption between containers, whether to allow inbound and outbound network calls to and from containers, and the VPC subnets and security groups to use for VPC-enabled jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#network_config SagemakerModelQualityJobDefinition#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#network_config SagemakerModelQualityJobDefinition#network_config}
   */
   readonly networkConfig?: SagemakerModelQualityJobDefinitionNetworkConfig;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#role_arn SagemakerModelQualityJobDefinition#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#role_arn SagemakerModelQualityJobDefinition#role_arn}
   */
   readonly roleArn: string;
   /**
   * Specifies a time limit for how long the monitoring job is allowed to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#stopping_condition SagemakerModelQualityJobDefinition#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#stopping_condition SagemakerModelQualityJobDefinition#stopping_condition}
   */
   readonly stoppingCondition?: SagemakerModelQualityJobDefinitionStoppingCondition;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#tags SagemakerModelQualityJobDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#tags SagemakerModelQualityJobDefinition#tags}
   */
   readonly tags?: SagemakerModelQualityJobDefinitionTags[] | cdktn.IResolvable;
 }
@@ -78,25 +78,25 @@ export interface SagemakerModelQualityJobDefinitionJobResourcesClusterConfig {
   /**
   * The number of ML compute instances to use in the model monitoring job. For distributed processing jobs, specify a value greater than 1. The default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#instance_count SagemakerModelQualityJobDefinition#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#instance_count SagemakerModelQualityJobDefinition#instance_count}
   */
   readonly instanceCount: number;
   /**
   * The ML compute instance type for the processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#instance_type SagemakerModelQualityJobDefinition#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#instance_type SagemakerModelQualityJobDefinition#instance_type}
   */
   readonly instanceType: string;
   /**
   * The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance(s) that run the model monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#volume_kms_key_id SagemakerModelQualityJobDefinition#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#volume_kms_key_id SagemakerModelQualityJobDefinition#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * The size of the ML storage volume, in gigabytes, that you want to provision. You must specify sufficient ML storage for your scenario.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#volume_size_in_gb SagemakerModelQualityJobDefinition#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#volume_size_in_gb SagemakerModelQualityJobDefinition#volume_size_in_gb}
   */
   readonly volumeSizeInGb: number;
 }
@@ -212,7 +212,7 @@ export class SagemakerModelQualityJobDefinitionJobResourcesClusterConfigOutputRe
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number; 
+  private _instanceCount?: number;
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -225,7 +225,7 @@ export class SagemakerModelQualityJobDefinitionJobResourcesClusterConfigOutputRe
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -238,7 +238,7 @@ export class SagemakerModelQualityJobDefinitionJobResourcesClusterConfigOutputRe
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string; 
+  private _volumeKmsKeyId?: string;
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -254,7 +254,7 @@ export class SagemakerModelQualityJobDefinitionJobResourcesClusterConfigOutputRe
   }
 
   // volume_size_in_gb - computed: false, optional: false, required: true
-  private _volumeSizeInGb?: number; 
+  private _volumeSizeInGb?: number;
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -270,7 +270,7 @@ export interface SagemakerModelQualityJobDefinitionJobResources {
   /**
   * Configuration for the cluster used to run model monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#cluster_config SagemakerModelQualityJobDefinition#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#cluster_config SagemakerModelQualityJobDefinition#cluster_config}
   */
   readonly clusterConfig: SagemakerModelQualityJobDefinitionJobResourcesClusterConfig;
 }
@@ -363,43 +363,43 @@ export interface SagemakerModelQualityJobDefinitionModelQualityAppSpecification 
   /**
   * An array of arguments for the container used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#container_arguments SagemakerModelQualityJobDefinition#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#container_arguments SagemakerModelQualityJobDefinition#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
   * Specifies the entrypoint for a container used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#container_entrypoint SagemakerModelQualityJobDefinition#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#container_entrypoint SagemakerModelQualityJobDefinition#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
   * Sets the environment variables in the Docker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#environment SagemakerModelQualityJobDefinition#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#environment SagemakerModelQualityJobDefinition#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * The container image to be run by the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#image_uri SagemakerModelQualityJobDefinition#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#image_uri SagemakerModelQualityJobDefinition#image_uri}
   */
   readonly imageUri: string;
   /**
   * An Amazon S3 URI to a script that is called after analysis has been performed. Applicable only for the built-in (first party) containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#post_analytics_processor_source_uri SagemakerModelQualityJobDefinition#post_analytics_processor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#post_analytics_processor_source_uri SagemakerModelQualityJobDefinition#post_analytics_processor_source_uri}
   */
   readonly postAnalyticsProcessorSourceUri?: string;
   /**
   * The status of the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#problem_type SagemakerModelQualityJobDefinition#problem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#problem_type SagemakerModelQualityJobDefinition#problem_type}
   */
   readonly problemType: string;
   /**
   * An Amazon S3 URI to a script that is called per row prior to running analysis. It can base64 decode the payload and convert it into a flatted json so that the built-in container can use the converted data. Applicable only for the built-in (first party) containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#record_preprocessor_source_uri SagemakerModelQualityJobDefinition#record_preprocessor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#record_preprocessor_source_uri SagemakerModelQualityJobDefinition#record_preprocessor_source_uri}
   */
   readonly recordPreprocessorSourceUri?: string;
 }
@@ -554,7 +554,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // container_arguments - computed: true, optional: true, required: false
-  private _containerArguments?: string[]; 
+  private _containerArguments?: string[];
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -570,7 +570,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // container_entrypoint - computed: true, optional: true, required: false
-  private _containerEntrypoint?: string[]; 
+  private _containerEntrypoint?: string[];
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -586,7 +586,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string }; 
+  private _environment?: { [key: string]: string };
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -602,7 +602,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string; 
+  private _imageUri?: string;
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -615,7 +615,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // post_analytics_processor_source_uri - computed: true, optional: true, required: false
-  private _postAnalyticsProcessorSourceUri?: string; 
+  private _postAnalyticsProcessorSourceUri?: string;
   public get postAnalyticsProcessorSourceUri() {
     return this.getStringAttribute('post_analytics_processor_source_uri');
   }
@@ -631,7 +631,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // problem_type - computed: false, optional: false, required: true
-  private _problemType?: string; 
+  private _problemType?: string;
   public get problemType() {
     return this.getStringAttribute('problem_type');
   }
@@ -644,7 +644,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityAppSpecificationOutpu
   }
 
   // record_preprocessor_source_uri - computed: true, optional: true, required: false
-  private _recordPreprocessorSourceUri?: string; 
+  private _recordPreprocessorSourceUri?: string;
   public get recordPreprocessorSourceUri() {
     return this.getStringAttribute('record_preprocessor_source_uri');
   }
@@ -663,7 +663,7 @@ export interface SagemakerModelQualityJobDefinitionModelQualityBaselineConfigCon
   /**
   * The Amazon S3 URI for baseline constraint file in Amazon S3 that the current monitoring job should validated against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -740,7 +740,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstra
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -759,13 +759,13 @@ export interface SagemakerModelQualityJobDefinitionModelQualityBaselineConfig {
   /**
   * The name of a processing job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#baselining_job_name SagemakerModelQualityJobDefinition#baselining_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#baselining_job_name SagemakerModelQualityJobDefinition#baselining_job_name}
   */
   readonly baseliningJobName?: string;
   /**
   * The baseline constraints resource for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#constraints_resource SagemakerModelQualityJobDefinition#constraints_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#constraints_resource SagemakerModelQualityJobDefinition#constraints_resource}
   */
   readonly constraintsResource?: SagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResource;
 }
@@ -855,7 +855,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityBaselineConfigOutputR
   }
 
   // baselining_job_name - computed: true, optional: true, required: false
-  private _baseliningJobName?: string; 
+  private _baseliningJobName?: string;
   public get baseliningJobName() {
     return this.getStringAttribute('baselining_job_name');
   }
@@ -890,7 +890,7 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTran
   /**
   * A boolean flag indicating if given CSV has header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#header SagemakerModelQualityJobDefinition#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#header SagemakerModelQualityJobDefinition#header}
   */
   readonly header?: boolean | cdktn.IResolvable;
 }
@@ -967,7 +967,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable; 
+  private _header?: boolean | cdktn.IResolvable;
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -986,7 +986,7 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTran
   /**
   * A boolean flag indicating if it is JSON line format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#line SagemakerModelQualityJobDefinition#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#line SagemakerModelQualityJobDefinition#line}
   */
   readonly line?: boolean | cdktn.IResolvable;
 }
@@ -1063,7 +1063,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // line - computed: true, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable; 
+  private _line?: boolean | cdktn.IResolvable;
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -1082,19 +1082,19 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTran
   /**
   * The CSV format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#csv SagemakerModelQualityJobDefinition#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#csv SagemakerModelQualityJobDefinition#csv}
   */
   readonly csv?: SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransformInputDatasetFormatCsv;
   /**
   * The Json format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#json SagemakerModelQualityJobDefinition#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#json SagemakerModelQualityJobDefinition#json}
   */
   readonly json?: SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransformInputDatasetFormatJson;
   /**
   * A flag indicating if the dataset format is Parquet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#parquet SagemakerModelQualityJobDefinition#parquet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#parquet SagemakerModelQualityJobDefinition#parquet}
   */
   readonly parquet?: boolean | cdktn.IResolvable;
 }
@@ -1229,7 +1229,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // parquet - computed: true, optional: true, required: false
-  private _parquet?: boolean | cdktn.IResolvable; 
+  private _parquet?: boolean | cdktn.IResolvable;
   public get parquet() {
     return this.getBooleanAttribute('parquet');
   }
@@ -1248,59 +1248,59 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTran
   /**
   * A URI that identifies the Amazon S3 storage location where Batch Transform Job captures data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#data_captured_destination_s3_uri SagemakerModelQualityJobDefinition#data_captured_destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#data_captured_destination_s3_uri SagemakerModelQualityJobDefinition#data_captured_destination_s3_uri}
   */
   readonly dataCapturedDestinationS3Uri?: string;
   /**
   * The dataset format of the data to monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#dataset_format SagemakerModelQualityJobDefinition#dataset_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#dataset_format SagemakerModelQualityJobDefinition#dataset_format}
   */
   readonly datasetFormat?: SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransformInputDatasetFormat;
   /**
   * Monitoring end time offset, e.g. PT0H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#end_time_offset SagemakerModelQualityJobDefinition#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#end_time_offset SagemakerModelQualityJobDefinition#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
   * Index or JSONpath to locate predicted label(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#inference_attribute SagemakerModelQualityJobDefinition#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#inference_attribute SagemakerModelQualityJobDefinition#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
   * Path to the filesystem where the endpoint data is available to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
   */
   readonly localPath?: string;
   /**
   * Index or JSONpath to locate probabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#probability_attribute SagemakerModelQualityJobDefinition#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#probability_attribute SagemakerModelQualityJobDefinition#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#probability_threshold_attribute SagemakerModelQualityJobDefinition#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#probability_threshold_attribute SagemakerModelQualityJobDefinition#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
   * Whether input data distributed in Amazon S3 is fully replicated or sharded by an S3 key. Defauts to FullyReplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_data_distribution_type SagemakerModelQualityJobDefinition#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_data_distribution_type SagemakerModelQualityJobDefinition#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
   * Whether the Pipe or File is used as the input mode for transfering data for the monitoring job. Pipe mode is recommended for large datasets. File mode is useful for small files that fit in memory. Defaults to File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_input_mode SagemakerModelQualityJobDefinition#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_input_mode SagemakerModelQualityJobDefinition#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
   * Monitoring start time offset, e.g. -PT1H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#start_time_offset SagemakerModelQualityJobDefinition#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#start_time_offset SagemakerModelQualityJobDefinition#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1494,7 +1494,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // data_captured_destination_s3_uri - computed: true, optional: true, required: false
-  private _dataCapturedDestinationS3Uri?: string; 
+  private _dataCapturedDestinationS3Uri?: string;
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1526,7 +1526,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1542,7 +1542,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1558,7 +1558,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1574,7 +1574,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1590,7 +1590,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1606,7 +1606,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1622,7 +1622,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1638,7 +1638,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransfor
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1657,53 +1657,53 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointI
   /**
   * Monitoring end time offset, e.g. PT0H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#end_time_offset SagemakerModelQualityJobDefinition#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#end_time_offset SagemakerModelQualityJobDefinition#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
   * The name of the endpoint used to run the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_name SagemakerModelQualityJobDefinition#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_name SagemakerModelQualityJobDefinition#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * Index or JSONpath to locate predicted label(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#inference_attribute SagemakerModelQualityJobDefinition#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#inference_attribute SagemakerModelQualityJobDefinition#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
   * Path to the filesystem where the endpoint data is available to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
   */
   readonly localPath?: string;
   /**
   * Index or JSONpath to locate probabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#probability_attribute SagemakerModelQualityJobDefinition#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#probability_attribute SagemakerModelQualityJobDefinition#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#probability_threshold_attribute SagemakerModelQualityJobDefinition#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#probability_threshold_attribute SagemakerModelQualityJobDefinition#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
   * Whether input data distributed in Amazon S3 is fully replicated or sharded by an S3 key. Defauts to FullyReplicated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_data_distribution_type SagemakerModelQualityJobDefinition#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_data_distribution_type SagemakerModelQualityJobDefinition#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
   * Whether the Pipe or File is used as the input mode for transfering data for the monitoring job. Pipe mode is recommended for large datasets. File mode is useful for small files that fit in memory. Defaults to File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_input_mode SagemakerModelQualityJobDefinition#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_input_mode SagemakerModelQualityJobDefinition#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
   * Monitoring start time offset, e.g. -PT1H
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#start_time_offset SagemakerModelQualityJobDefinition#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#start_time_offset SagemakerModelQualityJobDefinition#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1884,7 +1884,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string; 
+  private _endTimeOffset?: string;
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1900,7 +1900,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1916,7 +1916,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string; 
+  private _inferenceAttribute?: string;
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1932,7 +1932,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1948,7 +1948,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string; 
+  private _probabilityAttribute?: string;
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1964,7 +1964,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number; 
+  private _probabilityThresholdAttribute?: number;
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1980,7 +1980,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string; 
+  private _s3DataDistributionType?: string;
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1996,7 +1996,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string; 
+  private _s3InputMode?: string;
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -2012,7 +2012,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string; 
+  private _startTimeOffset?: string;
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -2031,7 +2031,7 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInputGroundTru
   /**
   * A URI that identifies the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -2108,7 +2108,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobInputGroundTruthS3
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2124,19 +2124,19 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobInput {
   /**
   * The batch transform input for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#batch_transform_input SagemakerModelQualityJobDefinition#batch_transform_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#batch_transform_input SagemakerModelQualityJobDefinition#batch_transform_input}
   */
   readonly batchTransformInput?: SagemakerModelQualityJobDefinitionModelQualityJobInputBatchTransformInput;
   /**
   * The endpoint for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_input SagemakerModelQualityJobDefinition#endpoint_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#endpoint_input SagemakerModelQualityJobDefinition#endpoint_input}
   */
   readonly endpointInput?: SagemakerModelQualityJobDefinitionModelQualityJobInputEndpointInput;
   /**
-  * Ground truth input provided in S3 
+  * Ground truth input provided in S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#ground_truth_s3_input SagemakerModelQualityJobDefinition#ground_truth_s3_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#ground_truth_s3_input SagemakerModelQualityJobDefinition#ground_truth_s3_input}
   */
   readonly groundTruthS3Input: SagemakerModelQualityJobDefinitionModelQualityJobInputGroundTruthS3Input;
 }
@@ -2287,19 +2287,19 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMo
   /**
   * The local path to the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job. LocalPath is an absolute path for the output data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#local_path SagemakerModelQualityJobDefinition#local_path}
   */
   readonly localPath: string;
   /**
   * Whether to upload the results of the monitoring job continuously or after the job completes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_upload_mode SagemakerModelQualityJobDefinition#s3_upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_upload_mode SagemakerModelQualityJobDefinition#s3_upload_mode}
   */
   readonly s3UploadMode?: string;
   /**
   * A URI that identifies the Amazon S3 storage location where Amazon SageMaker saves the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_uri SagemakerModelQualityJobDefinition#s3_uri}
   */
   readonly s3Uri: string;
 }
@@ -2402,7 +2402,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMonito
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string; 
+  private _localPath?: string;
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -2415,7 +2415,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMonito
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string; 
+  private _s3UploadMode?: string;
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -2431,7 +2431,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMonito
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string; 
+  private _s3Uri?: string;
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2447,7 +2447,7 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMo
   /**
   * Information about where and how to store the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#s3_output SagemakerModelQualityJobDefinition#s3_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#s3_output SagemakerModelQualityJobDefinition#s3_output}
   */
   readonly s3Output: SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMonitoringOutputsS3Output;
 }
@@ -2562,13 +2562,13 @@ export interface SagemakerModelQualityJobDefinitionModelQualityJobOutputConfig {
   /**
   * The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artifacts at rest using Amazon S3 server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#kms_key_id SagemakerModelQualityJobDefinition#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#kms_key_id SagemakerModelQualityJobDefinition#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Monitoring outputs for monitoring jobs. This is where the output of the periodic monitoring jobs is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#monitoring_outputs SagemakerModelQualityJobDefinition#monitoring_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#monitoring_outputs SagemakerModelQualityJobDefinition#monitoring_outputs}
   */
   readonly monitoringOutputs: SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigMonitoringOutputs[] | cdktn.IResolvable;
 }
@@ -2658,7 +2658,7 @@ export class SagemakerModelQualityJobDefinitionModelQualityJobOutputConfigOutput
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2690,13 +2690,13 @@ export interface SagemakerModelQualityJobDefinitionNetworkConfigVpcConfig {
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. Specify the security groups for the VPC that is specified in the Subnets field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#security_group_ids SagemakerModelQualityJobDefinition#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#security_group_ids SagemakerModelQualityJobDefinition#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets in the VPC to which you want to connect to your monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#subnets SagemakerModelQualityJobDefinition#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#subnets SagemakerModelQualityJobDefinition#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2786,7 +2786,7 @@ export class SagemakerModelQualityJobDefinitionNetworkConfigVpcConfigOutputRefer
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2802,7 +2802,7 @@ export class SagemakerModelQualityJobDefinitionNetworkConfigVpcConfigOutputRefer
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -2821,19 +2821,19 @@ export interface SagemakerModelQualityJobDefinitionNetworkConfig {
   /**
   * Whether to encrypt all communications between distributed processing jobs. Choose True to encrypt communications. Encryption provides greater security for distributed processing jobs, but the processing might take longer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#enable_inter_container_traffic_encryption SagemakerModelQualityJobDefinition#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#enable_inter_container_traffic_encryption SagemakerModelQualityJobDefinition#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   /**
   * Whether to allow inbound and outbound network calls to and from the containers used for the processing job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#enable_network_isolation SagemakerModelQualityJobDefinition#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#enable_network_isolation SagemakerModelQualityJobDefinition#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktn.IResolvable;
   /**
   * Specifies a VPC that your training jobs and hosted models have access to. Control access to and from your training and model containers by configuring the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#vpc_config SagemakerModelQualityJobDefinition#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#vpc_config SagemakerModelQualityJobDefinition#vpc_config}
   */
   readonly vpcConfig?: SagemakerModelQualityJobDefinitionNetworkConfigVpcConfig;
 }
@@ -2936,7 +2936,7 @@ export class SagemakerModelQualityJobDefinitionNetworkConfigOutputReference exte
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2952,7 +2952,7 @@ export class SagemakerModelQualityJobDefinitionNetworkConfigOutputReference exte
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -2987,7 +2987,7 @@ export interface SagemakerModelQualityJobDefinitionStoppingCondition {
   /**
   * The maximum runtime allowed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#max_runtime_in_seconds SagemakerModelQualityJobDefinition#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#max_runtime_in_seconds SagemakerModelQualityJobDefinition#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -3064,7 +3064,7 @@ export class SagemakerModelQualityJobDefinitionStoppingConditionOutputReference 
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number; 
+  private _maxRuntimeInSeconds?: number;
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -3081,15 +3081,15 @@ export class SagemakerModelQualityJobDefinitionStoppingConditionOutputReference 
 }
 export interface SagemakerModelQualityJobDefinitionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#key SagemakerModelQualityJobDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#key SagemakerModelQualityJobDefinition#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#value SagemakerModelQualityJobDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#value SagemakerModelQualityJobDefinition#value}
   */
   readonly value?: string;
 }
@@ -3181,7 +3181,7 @@ export class SagemakerModelQualityJobDefinitionTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3197,7 +3197,7 @@ export class SagemakerModelQualityJobDefinitionTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3234,7 +3234,7 @@ export class SagemakerModelQualityJobDefinitionTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}
 */
 export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource {
 
@@ -3250,7 +3250,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a SagemakerModelQualityJobDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerModelQualityJobDefinition to import
-  * @param importFromId The id of the existing SagemakerModelQualityJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerModelQualityJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerModelQualityJobDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3262,7 +3262,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3273,7 +3273,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_sagemaker_model_quality_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3306,7 +3306,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string; 
+  private _endpointName?: string;
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -3332,7 +3332,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
   }
 
   // job_definition_name - computed: true, optional: true, required: false
-  private _jobDefinitionName?: string; 
+  private _jobDefinitionName?: string;
   public get jobDefinitionName() {
     return this.getStringAttribute('job_definition_name');
   }
@@ -3432,7 +3432,7 @@ export class SagemakerModelQualityJobDefinition extends cdktn.TerraformResource 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktn from 'cdktn';
 
 export interface S3BucketInventoryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#enabled S3BucketInventory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#enabled S3BucketInventory#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#id S3BucketInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#id S3BucketInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#included_object_versions S3BucketInventory#included_object_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#included_object_versions S3BucketInventory#included_object_versions}
   */
   readonly includedObjectVersions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#name S3BucketInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#name S3BucketInventory#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#optional_fields S3BucketInventory#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#optional_fields S3BucketInventory#optional_fields}
   */
   readonly optionalFields?: string[];
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#region S3BucketInventory#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#region S3BucketInventory#region}
   */
   readonly region?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#destination S3BucketInventory#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#destination S3BucketInventory#destination}
   */
   readonly destination: S3BucketInventoryDestination;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#filter S3BucketInventory#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#filter S3BucketInventory#filter}
   */
   readonly filter?: S3BucketInventoryFilter;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#schedule S3BucketInventory#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#schedule S3BucketInventory#schedule}
   */
   readonly schedule: S3BucketInventorySchedule;
 }
 export interface S3BucketInventoryDestinationBucketEncryptionSseKms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#key_id S3BucketInventory#key_id}
   */
   readonly keyId: string;
 }
@@ -128,7 +128,7 @@ export class S3BucketInventoryDestinationBucketEncryptionSseKmsOutputReference e
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -193,13 +193,13 @@ export interface S3BucketInventoryDestinationBucketEncryption {
   /**
   * sse_kms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#sse_kms S3BucketInventory#sse_kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#sse_kms S3BucketInventory#sse_kms}
   */
   readonly sseKms?: S3BucketInventoryDestinationBucketEncryptionSseKms;
   /**
   * sse_s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#sse_s3 S3BucketInventory#sse_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#sse_s3 S3BucketInventory#sse_s3}
   */
   readonly sseS3?: S3BucketInventoryDestinationBucketEncryptionSseS3;
 }
@@ -312,25 +312,25 @@ export class S3BucketInventoryDestinationBucketEncryptionOutputReference extends
 }
 export interface S3BucketInventoryDestinationBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#account_id S3BucketInventory#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#account_id S3BucketInventory#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#bucket_arn S3BucketInventory#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#bucket_arn S3BucketInventory#bucket_arn}
   */
   readonly bucketArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#format S3BucketInventory#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#format S3BucketInventory#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}
   */
   readonly prefix?: string;
   /**
   * encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#encryption S3BucketInventory#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#encryption S3BucketInventory#encryption}
   */
   readonly encryption?: S3BucketInventoryDestinationBucketEncryption;
 }
@@ -449,7 +449,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -465,7 +465,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string; 
+  private _bucketArn?: string;
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -478,7 +478,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -491,7 +491,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -526,7 +526,7 @@ export interface S3BucketInventoryDestination {
   /**
   * bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#bucket S3BucketInventory#bucket}
   */
   readonly bucket: S3BucketInventoryDestinationBucket;
 }
@@ -607,7 +607,7 @@ export class S3BucketInventoryDestinationOutputReference extends cdktn.ComplexOb
 }
 export interface S3BucketInventoryFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#prefix S3BucketInventory#prefix}
   */
   readonly prefix?: string;
 }
@@ -674,7 +674,7 @@ export class S3BucketInventoryFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -691,7 +691,7 @@ export class S3BucketInventoryFilterOutputReference extends cdktn.ComplexObject 
 }
 export interface S3BucketInventorySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#frequency S3BucketInventory#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#frequency S3BucketInventory#frequency}
   */
   readonly frequency: string;
 }
@@ -758,7 +758,7 @@ export class S3BucketInventoryScheduleOutputReference extends cdktn.ComplexObjec
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string; 
+  private _frequency?: string;
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -772,7 +772,7 @@ export class S3BucketInventoryScheduleOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}
 */
 export class S3BucketInventory extends cdktn.TerraformResource {
 
@@ -788,7 +788,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3BucketInventory resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketInventory to import
-  * @param importFromId The id of the existing S3BucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -800,7 +800,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -811,7 +811,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
       terraformResourceType: 'aws_s3_bucket_inventory',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -838,7 +838,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -851,7 +851,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -867,7 +867,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -883,7 +883,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // included_object_versions - computed: false, optional: false, required: true
-  private _includedObjectVersions?: string; 
+  private _includedObjectVersions?: string;
   public get includedObjectVersions() {
     return this.getStringAttribute('included_object_versions');
   }
@@ -896,7 +896,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -909,7 +909,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // optional_fields - computed: false, optional: true, required: false
-  private _optionalFields?: string[]; 
+  private _optionalFields?: string[];
   public get optionalFields() {
     return cdktn.Fn.tolist(this.getListAttribute('optional_fields'));
   }
@@ -925,7 +925,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

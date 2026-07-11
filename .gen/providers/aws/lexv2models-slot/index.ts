@@ -1,97 +1,97 @@
 // generated from terraform resource schema
 
-import { Lexv2ModelsSlotMultipleValuesSetting, 
-lexv2ModelsSlotMultipleValuesSettingToTerraform, 
-lexv2ModelsSlotMultipleValuesSettingToHclTerraform, 
-Lexv2ModelsSlotMultipleValuesSettingList, 
-Lexv2ModelsSlotObfuscationSetting, 
-lexv2ModelsSlotObfuscationSettingToTerraform, 
-lexv2ModelsSlotObfuscationSettingToHclTerraform, 
-Lexv2ModelsSlotObfuscationSettingList, 
-Lexv2ModelsSlotSubSlotSetting, 
-lexv2ModelsSlotSubSlotSettingToTerraform, 
-lexv2ModelsSlotSubSlotSettingToHclTerraform, 
-Lexv2ModelsSlotSubSlotSettingList, 
-Lexv2ModelsSlotTimeouts, 
-lexv2ModelsSlotTimeoutsToTerraform, 
-lexv2ModelsSlotTimeoutsToHclTerraform, 
-Lexv2ModelsSlotTimeoutsOutputReference, 
-Lexv2ModelsSlotValueElicitationSetting, 
-lexv2ModelsSlotValueElicitationSettingToTerraform, 
-lexv2ModelsSlotValueElicitationSettingToHclTerraform, 
-Lexv2ModelsSlotValueElicitationSettingList} from './index-structs/index';
-export * from './index-structs/index';
+import { Lexv2ModelsSlotMultipleValuesSetting,
+lexv2ModelsSlotMultipleValuesSettingToTerraform,
+lexv2ModelsSlotMultipleValuesSettingToHclTerraform,
+Lexv2ModelsSlotMultipleValuesSettingList,
+Lexv2ModelsSlotObfuscationSetting,
+lexv2ModelsSlotObfuscationSettingToTerraform,
+lexv2ModelsSlotObfuscationSettingToHclTerraform,
+Lexv2ModelsSlotObfuscationSettingList,
+Lexv2ModelsSlotSubSlotSetting,
+lexv2ModelsSlotSubSlotSettingToTerraform,
+lexv2ModelsSlotSubSlotSettingToHclTerraform,
+Lexv2ModelsSlotSubSlotSettingList,
+Lexv2ModelsSlotTimeouts,
+lexv2ModelsSlotTimeoutsToTerraform,
+lexv2ModelsSlotTimeoutsToHclTerraform,
+Lexv2ModelsSlotTimeoutsOutputReference,
+Lexv2ModelsSlotValueElicitationSetting,
+lexv2ModelsSlotValueElicitationSettingToTerraform,
+lexv2ModelsSlotValueElicitationSettingToHclTerraform,
+Lexv2ModelsSlotValueElicitationSettingList} from './index-structs/index.js';
+export * from './index-structs/index.js';
 import { Construct } from 'constructs';
 import * as cdktn from 'cdktn';
 export interface Lexv2ModelsSlotConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#bot_id Lexv2ModelsSlot#bot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#bot_id Lexv2ModelsSlot#bot_id}
   */
   readonly botId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#bot_version Lexv2ModelsSlot#bot_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#bot_version Lexv2ModelsSlot#bot_version}
   */
   readonly botVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#description Lexv2ModelsSlot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#description Lexv2ModelsSlot#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#intent_id Lexv2ModelsSlot#intent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#intent_id Lexv2ModelsSlot#intent_id}
   */
   readonly intentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#locale_id Lexv2ModelsSlot#locale_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#locale_id Lexv2ModelsSlot#locale_id}
   */
   readonly localeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#name Lexv2ModelsSlot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#name Lexv2ModelsSlot#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#region Lexv2ModelsSlot#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#region Lexv2ModelsSlot#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#slot_type_id Lexv2ModelsSlot#slot_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#slot_type_id Lexv2ModelsSlot#slot_type_id}
   */
   readonly slotTypeId?: string;
   /**
   * multiple_values_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#multiple_values_setting Lexv2ModelsSlot#multiple_values_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#multiple_values_setting Lexv2ModelsSlot#multiple_values_setting}
   */
   readonly multipleValuesSetting?: Lexv2ModelsSlotMultipleValuesSetting[] | cdktn.IResolvable;
   /**
   * obfuscation_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#obfuscation_setting Lexv2ModelsSlot#obfuscation_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#obfuscation_setting Lexv2ModelsSlot#obfuscation_setting}
   */
   readonly obfuscationSetting?: Lexv2ModelsSlotObfuscationSetting[] | cdktn.IResolvable;
   /**
   * sub_slot_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#sub_slot_setting Lexv2ModelsSlot#sub_slot_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#sub_slot_setting Lexv2ModelsSlot#sub_slot_setting}
   */
   readonly subSlotSetting?: Lexv2ModelsSlotSubSlotSetting[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#timeouts Lexv2ModelsSlot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#timeouts Lexv2ModelsSlot#timeouts}
   */
   readonly timeouts?: Lexv2ModelsSlotTimeouts;
   /**
   * value_elicitation_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#value_elicitation_setting Lexv2ModelsSlot#value_elicitation_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#value_elicitation_setting Lexv2ModelsSlot#value_elicitation_setting}
   */
   readonly valueElicitationSetting?: Lexv2ModelsSlotValueElicitationSetting[] | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot aws_lexv2models_slot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot aws_lexv2models_slot}
 */
 export class Lexv2ModelsSlot extends cdktn.TerraformResource {
 
@@ -107,7 +107,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Lexv2ModelsSlot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lexv2ModelsSlot to import
-  * @param importFromId The id of the existing Lexv2ModelsSlot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lexv2ModelsSlot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lexv2ModelsSlot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -119,7 +119,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,7 +130,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lexv2models_slot',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -160,7 +160,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string; 
+  private _botId?: string;
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -173,7 +173,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string; 
+  private _botVersion?: string;
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -186,7 +186,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -207,7 +207,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // intent_id - computed: false, optional: false, required: true
-  private _intentId?: string; 
+  private _intentId?: string;
   public get intentId() {
     return this.getStringAttribute('intent_id');
   }
@@ -220,7 +220,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string; 
+  private _localeId?: string;
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -233,7 +233,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -246,7 +246,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -267,7 +267,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // slot_type_id - computed: true, optional: true, required: false
-  private _slotTypeId?: string; 
+  private _slotTypeId?: string;
   public get slotTypeId() {
     return this.getStringAttribute('slot_type_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktn from 'cdktn';
 
 export interface RtbfabricLinkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#gateway_id RtbfabricLink#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#gateway_id RtbfabricLink#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#http_responder_allowed RtbfabricLink#http_responder_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#http_responder_allowed RtbfabricLink#http_responder_allowed}
   */
   readonly httpResponderAllowed?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#link_attributes RtbfabricLink#link_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#link_attributes RtbfabricLink#link_attributes}
   */
   readonly linkAttributes?: RtbfabricLinkLinkAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#link_log_settings RtbfabricLink#link_log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#link_log_settings RtbfabricLink#link_log_settings}
   */
   readonly linkLogSettings: RtbfabricLinkLinkLogSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#module_configuration_list RtbfabricLink#module_configuration_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#module_configuration_list RtbfabricLink#module_configuration_list}
   */
   readonly moduleConfigurationList?: RtbfabricLinkModuleConfigurationListStruct[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#peer_gateway_id RtbfabricLink#peer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#peer_gateway_id RtbfabricLink#peer_gateway_id}
   */
   readonly peerGatewayId: string;
   /**
   * Tags to assign to the Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#tags RtbfabricLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#tags RtbfabricLink#tags}
   */
   readonly tags?: RtbfabricLinkTags[] | cdktn.IResolvable;
 }
 export interface RtbfabricLinkLinkAttributesResponderErrorMasking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#http_code RtbfabricLink#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#http_code RtbfabricLink#http_code}
   */
   readonly httpCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#logging_types RtbfabricLink#logging_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#logging_types RtbfabricLink#logging_types}
   */
   readonly loggingTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#response_logging_percentage RtbfabricLink#response_logging_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#response_logging_percentage RtbfabricLink#response_logging_percentage}
   */
   readonly responseLoggingPercentage?: number;
 }
@@ -170,7 +170,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -186,7 +186,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string; 
+  private _httpCode?: string;
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -202,7 +202,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // logging_types - computed: true, optional: true, required: false
-  private _loggingTypes?: string[]; 
+  private _loggingTypes?: string[];
   public get loggingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('logging_types'));
   }
@@ -218,7 +218,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // response_logging_percentage - computed: true, optional: true, required: false
-  private _responseLoggingPercentage?: number; 
+  private _responseLoggingPercentage?: number;
   public get responseLoggingPercentage() {
     return this.getNumberAttribute('response_logging_percentage');
   }
@@ -255,11 +255,11 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingList extends cdktn.
 }
 export interface RtbfabricLinkLinkAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#customer_provided_id RtbfabricLink#customer_provided_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#customer_provided_id RtbfabricLink#customer_provided_id}
   */
   readonly customerProvidedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#responder_error_masking RtbfabricLink#responder_error_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#responder_error_masking RtbfabricLink#responder_error_masking}
   */
   readonly responderErrorMasking?: RtbfabricLinkLinkAttributesResponderErrorMasking[] | cdktn.IResolvable;
 }
@@ -349,7 +349,7 @@ export class RtbfabricLinkLinkAttributesOutputReference extends cdktn.ComplexObj
   }
 
   // customer_provided_id - computed: true, optional: true, required: false
-  private _customerProvidedId?: string; 
+  private _customerProvidedId?: string;
   public get customerProvidedId() {
     return this.getStringAttribute('customer_provided_id');
   }
@@ -382,11 +382,11 @@ export class RtbfabricLinkLinkAttributesOutputReference extends cdktn.ComplexObj
 }
 export interface RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#error_log RtbfabricLink#error_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#error_log RtbfabricLink#error_log}
   */
   readonly errorLog: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#filter_log RtbfabricLink#filter_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#filter_log RtbfabricLink#filter_log}
   */
   readonly filterLog: number;
 }
@@ -476,7 +476,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampli
   }
 
   // error_log - computed: false, optional: false, required: true
-  private _errorLog?: number; 
+  private _errorLog?: number;
   public get errorLog() {
     return this.getNumberAttribute('error_log');
   }
@@ -489,7 +489,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampli
   }
 
   // filter_log - computed: false, optional: false, required: true
-  private _filterLog?: number; 
+  private _filterLog?: number;
   public get filterLog() {
     return this.getNumberAttribute('filter_log');
   }
@@ -503,7 +503,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampli
 }
 export interface RtbfabricLinkLinkLogSettingsApplicationLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#link_application_log_sampling RtbfabricLink#link_application_log_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#link_application_log_sampling RtbfabricLink#link_application_log_sampling}
   */
   readonly linkApplicationLogSampling: RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling;
 }
@@ -594,7 +594,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsOutputReference extends 
 }
 export interface RtbfabricLinkLinkLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#application_logs RtbfabricLink#application_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#application_logs RtbfabricLink#application_logs}
   */
   readonly applicationLogs: RtbfabricLinkLinkLogSettingsApplicationLogs;
 }
@@ -685,15 +685,15 @@ export class RtbfabricLinkLinkLogSettingsOutputReference extends cdktn.ComplexOb
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersNoBid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#pass_through_percentage RtbfabricLink#pass_through_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#pass_through_percentage RtbfabricLink#pass_through_percentage}
   */
   readonly passThroughPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#reason RtbfabricLink#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#reason RtbfabricLink#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#reason_code RtbfabricLink#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#reason_code RtbfabricLink#reason_code}
   */
   readonly reasonCode?: number;
 }
@@ -796,7 +796,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // pass_through_percentage - computed: true, optional: true, required: false
-  private _passThroughPercentage?: number; 
+  private _passThroughPercentage?: number;
   public get passThroughPercentage() {
     return this.getNumberAttribute('pass_through_percentage');
   }
@@ -812,7 +812,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string; 
+  private _reason?: string;
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -828,7 +828,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // reason_code - computed: true, optional: true, required: false
-  private _reasonCode?: number; 
+  private _reasonCode?: number;
   public get reasonCode() {
     return this.getNumberAttribute('reason_code');
   }
@@ -845,11 +845,11 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}
   */
   readonly value?: string;
 }
@@ -939,7 +939,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -955,7 +955,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -972,7 +972,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#no_bid_reason_code RtbfabricLink#no_bid_reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#no_bid_reason_code RtbfabricLink#no_bid_reason_code}
   */
   readonly noBidReasonCode?: number;
 }
@@ -1049,7 +1049,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // no_bid_reason_code - computed: true, optional: true, required: false
-  private _noBidReasonCode?: number; 
+  private _noBidReasonCode?: number;
   public get noBidReasonCode() {
     return this.getNumberAttribute('no_bid_reason_code');
   }
@@ -1066,11 +1066,11 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#header_tag RtbfabricLink#header_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#header_tag RtbfabricLink#header_tag}
   */
   readonly headerTag?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTag;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}
   */
   readonly noBid?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBid;
 }
@@ -1193,11 +1193,11 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#path RtbfabricLink#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#path RtbfabricLink#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#values RtbfabricLink#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#values RtbfabricLink#values}
   */
   readonly values?: string[];
 }
@@ -1289,7 +1289,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1305,7 +1305,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1342,7 +1342,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#criteria RtbfabricLink#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#criteria RtbfabricLink#criteria}
   */
   readonly criteria?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteria[] | cdktn.IResolvable;
 }
@@ -1458,19 +1458,19 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}
   */
   readonly action?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#filter_configuration RtbfabricLink#filter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#filter_configuration RtbfabricLink#filter_configuration}
   */
   readonly filterConfiguration?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfiguration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#filter_type RtbfabricLink#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#filter_type RtbfabricLink#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#holdback_percentage RtbfabricLink#holdback_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#holdback_percentage RtbfabricLink#holdback_percentage}
   */
   readonly holdbackPercentage?: number;
 }
@@ -1618,7 +1618,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string; 
+  private _filterType?: string;
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -1634,7 +1634,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // holdback_percentage - computed: true, optional: true, required: false
-  private _holdbackPercentage?: number; 
+  private _holdbackPercentage?: number;
   public get holdbackPercentage() {
     return this.getNumberAttribute('holdback_percentage');
   }
@@ -1651,11 +1651,11 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
 }
 export interface RtbfabricLinkModuleConfigurationListModuleParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}
   */
   readonly noBid?: RtbfabricLinkModuleConfigurationListModuleParametersNoBid;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#open_rtb_attribute RtbfabricLink#open_rtb_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#open_rtb_attribute RtbfabricLink#open_rtb_attribute}
   */
   readonly openRtbAttribute?: RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribute;
 }
@@ -1778,19 +1778,19 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOutputReference
 }
 export interface RtbfabricLinkModuleConfigurationListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#depends_on RtbfabricLink#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#depends_on RtbfabricLink#depends_on}
   */
   readonly dependsOn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#module_parameters RtbfabricLink#module_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#module_parameters RtbfabricLink#module_parameters}
   */
   readonly moduleParameters?: RtbfabricLinkModuleConfigurationListModuleParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#version RtbfabricLink#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#version RtbfabricLink#version}
   */
   readonly version?: string;
 }
@@ -1908,7 +1908,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // depends_on - computed: true, optional: true, required: false
-  private _dependsOn?: string[]; 
+  private _dependsOn?: string[];
   public get dependsOn() {
     return this.getListAttribute('depends_on');
   }
@@ -1940,7 +1940,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1956,7 +1956,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1993,15 +1993,15 @@ export class RtbfabricLinkModuleConfigurationListStructList extends cdktn.Comple
 }
 export interface RtbfabricLinkTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#key RtbfabricLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#key RtbfabricLink#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}
   */
   readonly value?: string;
 }
@@ -2093,7 +2093,7 @@ export class RtbfabricLinkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2109,7 +2109,7 @@ export class RtbfabricLinkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2146,7 +2146,7 @@ export class RtbfabricLinkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link awscc_rtbfabric_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link awscc_rtbfabric_link}
 */
 export class RtbfabricLink extends cdktn.TerraformResource {
 
@@ -2162,7 +2162,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RtbfabricLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RtbfabricLink to import
-  * @param importFromId The id of the existing RtbfabricLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RtbfabricLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RtbfabricLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2174,7 +2174,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2185,7 +2185,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rtbfabric_link',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2219,7 +2219,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string; 
+  private _gatewayId?: string;
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -2232,7 +2232,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // http_responder_allowed - computed: true, optional: true, required: false
-  private _httpResponderAllowed?: boolean | cdktn.IResolvable; 
+  private _httpResponderAllowed?: boolean | cdktn.IResolvable;
   public get httpResponderAllowed() {
     return this.getBooleanAttribute('http_responder_allowed');
   }
@@ -2313,7 +2313,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // peer_gateway_id - computed: false, optional: false, required: true
-  private _peerGatewayId?: string; 
+  private _peerGatewayId?: string;
   public get peerGatewayId() {
     return this.getStringAttribute('peer_gateway_id');
   }

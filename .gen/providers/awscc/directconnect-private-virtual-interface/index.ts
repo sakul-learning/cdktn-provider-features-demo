@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DirectconnectPrivateVirtualInterfaceConfig extends cdktn.Terraf
   /**
   * The Amazon Resource Name (ARN) of the role to allocate the private virtual interface. Needs directconnect:AllocatePrivateVirtualInterface permissions and tag permissions if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#allocate_private_virtual_interface_role_arn DirectconnectPrivateVirtualInterface#allocate_private_virtual_interface_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#allocate_private_virtual_interface_role_arn DirectconnectPrivateVirtualInterface#allocate_private_virtual_interface_role_arn}
   */
   readonly allocatePrivateVirtualInterfaceRoleArn?: string;
   /**
   * The BGP peers configured on this virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#bgp_peers DirectconnectPrivateVirtualInterface#bgp_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#bgp_peers DirectconnectPrivateVirtualInterface#bgp_peers}
   */
   readonly bgpPeers: DirectconnectPrivateVirtualInterfaceBgpPeers[] | cdktn.IResolvable;
   /**
   * The ID or ARN of the connection or LAG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#connection_id DirectconnectPrivateVirtualInterface#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#connection_id DirectconnectPrivateVirtualInterface#connection_id}
   */
   readonly connectionId: string;
   /**
   * The ID or ARN of the Direct Connect gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#direct_connect_gateway_id DirectconnectPrivateVirtualInterface#direct_connect_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#direct_connect_gateway_id DirectconnectPrivateVirtualInterface#direct_connect_gateway_id}
   */
   readonly directConnectGatewayId?: string;
   /**
   * Indicates whether to enable or disable SiteLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#enable_site_link DirectconnectPrivateVirtualInterface#enable_site_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#enable_site_link DirectconnectPrivateVirtualInterface#enable_site_link}
   */
   readonly enableSiteLink?: boolean | cdktn.IResolvable;
   /**
   * The maximum transmission unit (MTU), in bytes. The supported values are 1500 and 9001. The default value is 1500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#mtu DirectconnectPrivateVirtualInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#mtu DirectconnectPrivateVirtualInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * The tags associated with the private virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#tags DirectconnectPrivateVirtualInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#tags DirectconnectPrivateVirtualInterface#tags}
   */
   readonly tags?: DirectconnectPrivateVirtualInterfaceTags[] | cdktn.IResolvable;
   /**
   * The ID or ARN of the virtual private gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#virtual_gateway_id DirectconnectPrivateVirtualInterface#virtual_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#virtual_gateway_id DirectconnectPrivateVirtualInterface#virtual_gateway_id}
   */
   readonly virtualGatewayId?: string;
   /**
   * The name of the virtual interface assigned by the customer network. The name has a maximum of 100 characters. The following are valid characters: a-z, 0-9 and a hyphen (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#virtual_interface_name DirectconnectPrivateVirtualInterface#virtual_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#virtual_interface_name DirectconnectPrivateVirtualInterface#virtual_interface_name}
   */
   readonly virtualInterfaceName: string;
   /**
   * The ID of the VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#vlan DirectconnectPrivateVirtualInterface#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#vlan DirectconnectPrivateVirtualInterface#vlan}
   */
   readonly vlan: number;
 }
@@ -72,35 +72,35 @@ export interface DirectconnectPrivateVirtualInterfaceBgpPeers {
   /**
   * The address family for the BGP peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#address_family DirectconnectPrivateVirtualInterface#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#address_family DirectconnectPrivateVirtualInterface#address_family}
   */
   readonly addressFamily: string;
   /**
   * The IP address assigned to the Amazon interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#amazon_address DirectconnectPrivateVirtualInterface#amazon_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#amazon_address DirectconnectPrivateVirtualInterface#amazon_address}
   */
   readonly amazonAddress?: string;
   /**
   * The autonomous system (AS) number for Border Gateway Protocol (BGP) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#asn DirectconnectPrivateVirtualInterface#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#asn DirectconnectPrivateVirtualInterface#asn}
   */
   readonly asn: string;
   /**
   * The authentication key for BGP configuration. This string has a minimum length of 6 characters and and a maximum length of 80 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#auth_key DirectconnectPrivateVirtualInterface#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#auth_key DirectconnectPrivateVirtualInterface#auth_key}
   */
   readonly authKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#bgp_peer_id DirectconnectPrivateVirtualInterface#bgp_peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#bgp_peer_id DirectconnectPrivateVirtualInterface#bgp_peer_id}
   */
   readonly bgpPeerId?: string;
   /**
   * The IP address assigned to the customer interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#customer_address DirectconnectPrivateVirtualInterface#customer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#customer_address DirectconnectPrivateVirtualInterface#customer_address}
   */
   readonly customerAddress?: string;
 }
@@ -244,7 +244,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string; 
+  private _addressFamily?: string;
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -257,7 +257,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // amazon_address - computed: true, optional: true, required: false
-  private _amazonAddress?: string; 
+  private _amazonAddress?: string;
   public get amazonAddress() {
     return this.getStringAttribute('amazon_address');
   }
@@ -273,7 +273,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // asn - computed: false, optional: false, required: true
-  private _asn?: string; 
+  private _asn?: string;
   public get asn() {
     return this.getStringAttribute('asn');
   }
@@ -286,7 +286,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // auth_key - computed: true, optional: true, required: false
-  private _authKey?: string; 
+  private _authKey?: string;
   public get authKey() {
     return this.getStringAttribute('auth_key');
   }
@@ -302,7 +302,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // bgp_peer_id - computed: true, optional: true, required: false
-  private _bgpPeerId?: string; 
+  private _bgpPeerId?: string;
   public get bgpPeerId() {
     return this.getStringAttribute('bgp_peer_id');
   }
@@ -318,7 +318,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // customer_address - computed: true, optional: true, required: false
-  private _customerAddress?: string; 
+  private _customerAddress?: string;
   public get customerAddress() {
     return this.getStringAttribute('customer_address');
   }
@@ -357,13 +357,13 @@ export interface DirectconnectPrivateVirtualInterfaceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#key DirectconnectPrivateVirtualInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#key DirectconnectPrivateVirtualInterface#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#value DirectconnectPrivateVirtualInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#value DirectconnectPrivateVirtualInterface#value}
   */
   readonly value?: string;
 }
@@ -455,7 +455,7 @@ export class DirectconnectPrivateVirtualInterfaceTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -471,7 +471,7 @@ export class DirectconnectPrivateVirtualInterfaceTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -508,7 +508,7 @@ export class DirectconnectPrivateVirtualInterfaceTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}
 */
 export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResource {
 
@@ -524,7 +524,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a DirectconnectPrivateVirtualInterface resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectconnectPrivateVirtualInterface to import
-  * @param importFromId The id of the existing DirectconnectPrivateVirtualInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectconnectPrivateVirtualInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectconnectPrivateVirtualInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -536,7 +536,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,7 +547,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_directconnect_private_virtual_interface',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -574,7 +574,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   // ==========
 
   // allocate_private_virtual_interface_role_arn - computed: true, optional: true, required: false
-  private _allocatePrivateVirtualInterfaceRoleArn?: string; 
+  private _allocatePrivateVirtualInterfaceRoleArn?: string;
   public get allocatePrivateVirtualInterfaceRoleArn() {
     return this.getStringAttribute('allocate_private_virtual_interface_role_arn');
   }
@@ -603,7 +603,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // connection_id - computed: false, optional: false, required: true
-  private _connectionId?: string; 
+  private _connectionId?: string;
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -616,7 +616,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // direct_connect_gateway_id - computed: true, optional: true, required: false
-  private _directConnectGatewayId?: string; 
+  private _directConnectGatewayId?: string;
   public get directConnectGatewayId() {
     return this.getStringAttribute('direct_connect_gateway_id');
   }
@@ -632,7 +632,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // enable_site_link - computed: true, optional: true, required: false
-  private _enableSiteLink?: boolean | cdktn.IResolvable; 
+  private _enableSiteLink?: boolean | cdktn.IResolvable;
   public get enableSiteLink() {
     return this.getBooleanAttribute('enable_site_link');
   }
@@ -653,7 +653,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number; 
+  private _mtu?: number;
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -685,7 +685,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // virtual_gateway_id - computed: true, optional: true, required: false
-  private _virtualGatewayId?: string; 
+  private _virtualGatewayId?: string;
   public get virtualGatewayId() {
     return this.getStringAttribute('virtual_gateway_id');
   }
@@ -711,7 +711,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // virtual_interface_name - computed: false, optional: false, required: true
-  private _virtualInterfaceName?: string; 
+  private _virtualInterfaceName?: string;
   public get virtualInterfaceName() {
     return this.getStringAttribute('virtual_interface_name');
   }
@@ -724,7 +724,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // vlan - computed: false, optional: false, required: true
-  private _vlan?: number; 
+  private _vlan?: number;
   public get vlan() {
     return this.getNumberAttribute('vlan');
   }

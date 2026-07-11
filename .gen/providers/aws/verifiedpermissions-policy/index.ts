@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface VerifiedpermissionsPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#policy_store_id VerifiedpermissionsPolicy#policy_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#policy_store_id VerifiedpermissionsPolicy#policy_store_id}
   */
   readonly policyStoreId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#region VerifiedpermissionsPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#region VerifiedpermissionsPolicy#region}
   */
   readonly region?: string;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#definition VerifiedpermissionsPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#definition VerifiedpermissionsPolicy#definition}
   */
   readonly definition?: VerifiedpermissionsPolicyDefinition[] | cdktn.IResolvable;
 }
 export interface VerifiedpermissionsPolicyDefinitionStatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#description VerifiedpermissionsPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#description VerifiedpermissionsPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#statement VerifiedpermissionsPolicy#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#statement VerifiedpermissionsPolicy#statement}
   */
   readonly statement: string;
 }
@@ -122,7 +122,7 @@ export class VerifiedpermissionsPolicyDefinitionStaticOutputReference extends cd
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -138,7 +138,7 @@ export class VerifiedpermissionsPolicyDefinitionStaticOutputReference extends cd
   }
 
   // statement - computed: false, optional: false, required: true
-  private _statement?: string; 
+  private _statement?: string;
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -172,11 +172,11 @@ export class VerifiedpermissionsPolicyDefinitionStaticList extends cdktn.Complex
 }
 export interface VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#entity_id VerifiedpermissionsPolicy#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#entity_id VerifiedpermissionsPolicy#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#entity_type VerifiedpermissionsPolicy#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#entity_type VerifiedpermissionsPolicy#entity_type}
   */
   readonly entityType: string;
 }
@@ -268,7 +268,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputRef
   }
 
   // entity_id - computed: false, optional: false, required: true
-  private _entityId?: string; 
+  private _entityId?: string;
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -281,7 +281,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputRef
   }
 
   // entity_type - computed: false, optional: false, required: true
-  private _entityType?: string; 
+  private _entityType?: string;
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }
@@ -315,11 +315,11 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalList exte
 }
 export interface VerifiedpermissionsPolicyDefinitionTemplateLinkedResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#entity_id VerifiedpermissionsPolicy#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#entity_id VerifiedpermissionsPolicy#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#entity_type VerifiedpermissionsPolicy#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#entity_type VerifiedpermissionsPolicy#entity_type}
   */
   readonly entityType: string;
 }
@@ -411,7 +411,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceOutputRefe
   }
 
   // entity_id - computed: false, optional: false, required: true
-  private _entityId?: string; 
+  private _entityId?: string;
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -424,7 +424,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceOutputRefe
   }
 
   // entity_type - computed: false, optional: false, required: true
-  private _entityType?: string; 
+  private _entityType?: string;
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }
@@ -458,19 +458,19 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList exten
 }
 export interface VerifiedpermissionsPolicyDefinitionTemplateLinked {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#policy_template_id VerifiedpermissionsPolicy#policy_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#policy_template_id VerifiedpermissionsPolicy#policy_template_id}
   */
   readonly policyTemplateId: string;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#principal VerifiedpermissionsPolicy#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#principal VerifiedpermissionsPolicy#principal}
   */
   readonly principal?: VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal[] | cdktn.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#resource VerifiedpermissionsPolicy#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#resource VerifiedpermissionsPolicy#resource}
   */
   readonly resource?: VerifiedpermissionsPolicyDefinitionTemplateLinkedResource[] | cdktn.IResolvable;
 }
@@ -575,7 +575,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference ex
   }
 
   // policy_template_id - computed: false, optional: false, required: true
-  private _policyTemplateId?: string; 
+  private _policyTemplateId?: string;
   public get policyTemplateId() {
     return this.getStringAttribute('policy_template_id');
   }
@@ -643,13 +643,13 @@ export interface VerifiedpermissionsPolicyDefinition {
   /**
   * static block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#static VerifiedpermissionsPolicy#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#static VerifiedpermissionsPolicy#static}
   */
   readonly static?: VerifiedpermissionsPolicyDefinitionStatic[] | cdktn.IResolvable;
   /**
   * template_linked block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#template_linked VerifiedpermissionsPolicy#template_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#template_linked VerifiedpermissionsPolicy#template_linked}
   */
   readonly templateLinked?: VerifiedpermissionsPolicyDefinitionTemplateLinked[] | cdktn.IResolvable;
 }
@@ -794,7 +794,7 @@ export class VerifiedpermissionsPolicyDefinitionList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy aws_verifiedpermissions_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy aws_verifiedpermissions_policy}
 */
 export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
 
@@ -810,7 +810,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VerifiedpermissionsPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VerifiedpermissionsPolicy to import
-  * @param importFromId The id of the existing VerifiedpermissionsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VerifiedpermissionsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VerifiedpermissionsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -822,7 +822,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/verifiedpermissions_policy aws_verifiedpermissions_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/verifiedpermissions_policy aws_verifiedpermissions_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -833,7 +833,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'aws_verifiedpermissions_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -868,7 +868,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string; 
+  private _policyStoreId?: string;
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }
@@ -881,7 +881,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

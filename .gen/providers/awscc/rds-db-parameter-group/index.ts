@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,43 +13,43 @@ export interface RdsDbParameterGroupConfig extends cdktn.TerraformMetaArguments 
   *   +  Must be 1 to 255 letters, numbers, or hyphens.
   *   +  First character must be a letter
   *   +  Can't end with a hyphen or contain two consecutive hyphens
-  *   
+  *
   *  If you don't specify a value for ``DBParameterGroupName`` property, a name is automatically created for the DB parameter group.
   *   This value is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
   */
   readonly dbParameterGroupName?: string;
   /**
   * Provides the customer-specified description for this DB parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
   */
   readonly description: string;
   /**
   * The DB parameter group family name. A DB parameter group can be associated with one and only one DB parameter group family, and can be applied only to a DB instance running a database engine and engine version compatible with that DB parameter group family.
   *  To list all of the available parameter group families for a DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>`` 
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>``
   *  For example, to list all of the available parameter group families for the MySQL DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine mysql`` 
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine mysql``
   *   The output contains duplicates.
   *   The following are the valid DB engine values:
-  *   +   ``aurora-mysql`` 
-  *   +   ``aurora-postgresql`` 
-  *   +   ``db2-ae`` 
-  *   +   ``db2-se`` 
-  *   +   ``mysql`` 
-  *   +   ``oracle-ee`` 
-  *   +   ``oracle-ee-cdb`` 
-  *   +   ``oracle-se2`` 
-  *   +   ``oracle-se2-cdb`` 
-  *   +   ``postgres`` 
-  *   +   ``sqlserver-ee`` 
-  *   +   ``sqlserver-se`` 
-  *   +   ``sqlserver-ex`` 
+  *   +   ``aurora-mysql``
+  *   +   ``aurora-postgresql``
+  *   +   ``db2-ae``
+  *   +   ``db2-se``
+  *   +   ``mysql``
+  *   +   ``oracle-ee``
+  *   +   ``oracle-ee-cdb``
+  *   +   ``oracle-se2``
+  *   +   ``oracle-se2-cdb``
+  *   +   ``postgres``
+  *   +   ``sqlserver-ee``
+  *   +   ``sqlserver-se``
+  *   +   ``sqlserver-ex``
   *   +   ``sqlserver-web``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
   */
   readonly family: string;
   /**
@@ -57,13 +57,13 @@ export interface RdsDbParameterGroupConfig extends cdktn.TerraformMetaArguments 
   *  For more information about parameter groups, see [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithParamGroups.html) in the *Amazon RDS User Guide*, or [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html) in the *Amazon Aurora User Guide*.
   *   AWS CloudFormation doesn't support specifying an apply method for each individual parameter. The default apply method for each parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
   */
   readonly parameters?: string;
   /**
   * Tags to assign to the DB parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
   */
   readonly tags?: RdsDbParameterGroupTags[] | cdktn.IResolvable;
 }
@@ -71,13 +71,13 @@ export interface RdsDbParameterGroupTags {
   /**
   * A key is the required name of the tag. The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#key RdsDbParameterGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#key RdsDbParameterGroup#key}
   */
   readonly key?: string;
   /**
   * A value is the optional value of the tag. The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#value RdsDbParameterGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#value RdsDbParameterGroup#value}
   */
   readonly value?: string;
 }
@@ -169,7 +169,7 @@ export class RdsDbParameterGroupTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -185,7 +185,7 @@ export class RdsDbParameterGroupTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -222,7 +222,7 @@ export class RdsDbParameterGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}
 */
 export class RdsDbParameterGroup extends cdktn.TerraformResource {
 
@@ -238,7 +238,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsDbParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbParameterGroup to import
-  * @param importFromId The id of the existing RdsDbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -250,7 +250,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,7 +261,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_db_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -283,7 +283,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // db_parameter_group_name - computed: true, optional: true, required: false
-  private _dbParameterGroupName?: string; 
+  private _dbParameterGroupName?: string;
   public get dbParameterGroupName() {
     return this.getStringAttribute('db_parameter_group_name');
   }
@@ -299,7 +299,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -312,7 +312,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string; 
+  private _family?: string;
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -330,7 +330,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string; 
+  private _parameters?: string;
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

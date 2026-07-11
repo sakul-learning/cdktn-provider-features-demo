@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktn from 'cdktn';
 
 export interface IamServerCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#certificate_body IamServerCertificate#certificate_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#certificate_body IamServerCertificate#certificate_body}
   */
   readonly certificateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#certificate_chain IamServerCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#certificate_chain IamServerCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#path IamServerCertificate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#path IamServerCertificate#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#private_key IamServerCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#private_key IamServerCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#server_certificate_name IamServerCertificate#server_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#server_certificate_name IamServerCertificate#server_certificate_name}
   */
   readonly serverCertificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#tags IamServerCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#tags IamServerCertificate#tags}
   */
   readonly tags?: IamServerCertificateTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface IamServerCertificateTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#key IamServerCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#key IamServerCertificate#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#value IamServerCertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#value IamServerCertificate#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class IamServerCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IamServerCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class IamServerCertificateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate awscc_iam_server_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate awscc_iam_server_certificate}
 */
 export class IamServerCertificate extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamServerCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamServerCertificate to import
-  * @param importFromId The id of the existing IamServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamServerCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_server_certificate awscc_iam_server_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_server_certificate awscc_iam_server_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_server_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -254,7 +254,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_body - computed: true, optional: true, required: false
-  private _certificateBody?: string; 
+  private _certificateBody?: string;
   public get certificateBody() {
     return this.getStringAttribute('certificate_body');
   }
@@ -270,7 +270,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: true, optional: true, required: false
-  private _certificateChain?: string; 
+  private _certificateChain?: string;
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -291,7 +291,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string; 
+  private _path?: string;
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -307,7 +307,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: true, optional: true, required: false
-  private _privateKey?: string; 
+  private _privateKey?: string;
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -323,7 +323,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // server_certificate_name - computed: true, optional: true, required: false
-  private _serverCertificateName?: string; 
+  private _serverCertificateName?: string;
   public get serverCertificateName() {
     return this.getStringAttribute('server_certificate_name');
   }

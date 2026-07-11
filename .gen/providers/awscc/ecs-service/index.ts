@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,7 +14,7 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *   +  For create service requests, when no value is specified for ``AvailabilityZoneRebalancing``, Amazon ECS defaults the value to ``ENABLED``.
   *   +  For update service requests, when no value is specified for ``AvailabilityZoneRebalancing``, Amazon ECS defaults to the existing service’s ``AvailabilityZoneRebalancing`` value. If the service never had an ``AvailabilityZoneRebalancing`` value set, Amazon ECS treats this as ``DISABLED``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#availability_zone_rebalancing EcsService#availability_zone_rebalancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#availability_zone_rebalancing EcsService#availability_zone_rebalancing}
   */
   readonly availabilityZoneRebalancing?: string;
   /**
@@ -23,25 +23,25 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *  A capacity provider strategy can contain a maximum of 20 capacity providers.
   *   To remove this property from your service resource, specify an empty ``CapacityProviderStrategyItem`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: EcsServiceCapacityProviderStrategy[] | cdktn.IResolvable;
   /**
   * The short name or full Amazon Resource Name (ARN) of the cluster that you run your service on. If you do not specify a cluster, the default cluster is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#cluster EcsService#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#cluster EcsService#cluster}
   */
   readonly cluster?: string;
   /**
   * Optional deployment parameters that control how many tasks run during the deployment and the ordering of stopping and starting tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
   */
   readonly deploymentConfiguration?: EcsServiceDeploymentConfiguration;
   /**
   * The deployment controller to use for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#deployment_controller EcsService#deployment_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#deployment_controller EcsService#deployment_controller}
   */
   readonly deploymentController?: EcsServiceDeploymentController;
   /**
@@ -49,79 +49,79 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *  For new services, if a desired count is not specified, a default value of ``1`` is used. When using the ``DAEMON`` scheduling strategy, the desired count is not required.
   *  For existing services, if a desired count is not specified, it is omitted from the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#desired_count EcsService#desired_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#desired_count EcsService#desired_count}
   */
   readonly desiredCount?: number;
   /**
   * Specifies whether to turn on Amazon ECS managed tags for the tasks within the service. For more information, see [Tagging your Amazon ECS resources](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-using-tags.html) in the *Amazon Elastic Container Service Developer Guide*.
   *  When you use Amazon ECS managed tags, you must set the ``propagateTags`` request parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enable_ecs_managed_tags EcsService#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enable_ecs_managed_tags EcsService#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
   * Determines whether the execute command functionality is turned on for the service. If ``true``, the execute command functionality is turned on for all containers in tasks as part of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enable_execute_command EcsService#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enable_execute_command EcsService#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
   * Determines whether to force a new deployment of the service. By default, deployments aren't forced. You can use this option to start a new deployment with no service definition changes. For example, you can update a service's tasks to use a newer Docker image with the same image/tag combination (``my_image:latest``) or to roll Fargate tasks onto a newer platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#force_new_deployment EcsService#force_new_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#force_new_deployment EcsService#force_new_deployment}
   */
   readonly forceNewDeployment?: EcsServiceForceNewDeployment;
   /**
   * The period of time, in seconds, that the Amazon ECS service scheduler ignores unhealthy Elastic Load Balancing, VPC Lattice, and container health checks after a task has first started. If you do not specify a health check grace period value, the default value of 0 is used. If you do not use any of the health checks, then ``healthCheckGracePeriodSeconds`` is unused.
   *  If your service has more running tasks than desired, unhealthy tasks in the grace period might be stopped to reach the desired count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
   */
   readonly healthCheckGracePeriodSeconds?: number;
   /**
   * The launch type on which to run your service. For more information, see [Amazon ECS Launch Types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   If you want to use Managed Instances, you must use the ``capacityProviderStrategy`` request parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#launch_type EcsService#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#launch_type EcsService#launch_type}
   */
   readonly launchType?: string;
   /**
   * A list of load balancer objects to associate with the service. If you specify the ``Role`` property, ``LoadBalancers`` must be specified as well. For information about the number of load balancers that you can specify per service, see [Service Load Balancing](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-load-balancing.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   To remove this property from your service resource, specify an empty ``LoadBalancer`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#load_balancers EcsService#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#load_balancers EcsService#load_balancers}
   */
   readonly loadBalancers?: EcsServiceLoadBalancers[] | cdktn.IResolvable;
   /**
   * The optional monitoring configuration for the service, which defines the resolution for the service-level ``CPUUtilization`` and ``MemoryUtilization`` Amazon CloudWatch metrics. When not specified, Amazon ECS uses the default resolution of ``60`` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#monitoring EcsService#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#monitoring EcsService#monitoring}
   */
   readonly monitoring?: EcsServiceMonitoring;
   /**
   * The network configuration for the service. This parameter is required for task definitions that use the ``awsvpc`` network mode to receive their own elastic network interface, and it is not supported for other network modes. For more information, see [Task Networking](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#network_configuration EcsService#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#network_configuration EcsService#network_configuration}
   */
   readonly networkConfiguration?: EcsServiceNetworkConfiguration;
   /**
   * An array of placement constraint objects to use for tasks in your service. You can specify a maximum of 10 constraints for each task. This limit includes constraints in the task definition and those specified at runtime.
   *   To remove this property from your service resource, specify an empty ``PlacementConstraint`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#placement_constraints EcsService#placement_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#placement_constraints EcsService#placement_constraints}
   */
   readonly placementConstraints?: EcsServicePlacementConstraints[] | cdktn.IResolvable;
   /**
   * The placement strategy objects to use for tasks in your service. You can specify a maximum of 5 strategy rules for each service.
   *   To remove this property from your service resource, specify an empty ``PlacementStrategy`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#placement_strategies EcsService#placement_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#placement_strategies EcsService#placement_strategies}
   */
   readonly placementStrategies?: EcsServicePlacementStrategies[] | cdktn.IResolvable;
   /**
   * The platform version that your tasks in the service are running on. A platform version is specified only for tasks using the Fargate launch type. If one isn't specified, the ``LATEST`` platform version is used. For more information, see [platform versions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#platform_version EcsService#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#platform_version EcsService#platform_version}
   */
   readonly platformVersion?: string;
   /**
@@ -129,7 +129,7 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *  You must set this to a value other than ``NONE`` when you use Cost Explorer. For more information, see [Amazon ECS usage reports](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/usage-reports.html) in the *Amazon Elastic Container Service Developer Guide*.
   *  The default is ``NONE``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
@@ -137,7 +137,7 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *   If your account has already created the Amazon ECS service-linked role, that role is used for your service unless you specify a role here. The service-linked role is required if your task definition uses the ``awsvpc`` network mode or if the service is configured to use service discovery, an external deployment controller, multiple target groups, or Elastic Inference accelerators in which case you don't specify a role here. For more information, see [Using service-linked roles for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using-service-linked-roles.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   If your specified role has a path other than ``/``, then you must either specify the full role ARN (this is recommended) or prefix the role name with the path. For example, if a role with the name ``bar`` has a path of ``/foo/`` then you would specify ``/foo/bar`` as the role name. For more information, see [Friendly names and paths](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-friendly-names) in the *IAM User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role EcsService#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role EcsService#role}
   */
   readonly role?: string;
   /**
@@ -147,21 +147,21 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *   +  ``DAEMON``-The daemon scheduling strategy deploys exactly one task on each active container instance that meets all of the task placement constraints that you specify in your cluster. The service scheduler also evaluates the task placement constraints for running tasks and will stop tasks that don't meet the placement constraints. When you're using this strategy, you don't need to specify a desired number of tasks, a task placement strategy, or use Service Auto Scaling policies.
   *   Tasks using the Fargate launch type or the ``CODE_DEPLOY`` or ``EXTERNAL`` deployment controller types don't support the ``DAEMON`` scheduling strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#scheduling_strategy EcsService#scheduling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#scheduling_strategy EcsService#scheduling_strategy}
   */
   readonly schedulingStrategy?: string;
   /**
   * The configuration for this service to discover and connect to services, and be discovered by, and connected from, other services within a namespace.
   *  Tasks that run in a namespace can use short names to connect to services in the namespace. Tasks can connect to services across all of the clusters in the namespace. Tasks connect through a managed proxy container that collects logs and metrics for increased visibility. Only the tasks that Amazon ECS services create are supported with Service Connect. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#service_connect_configuration EcsService#service_connect_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#service_connect_configuration EcsService#service_connect_configuration}
   */
   readonly serviceConnectConfiguration?: EcsServiceServiceConnectConfiguration;
   /**
   * The name of your service. Up to 255 letters (uppercase and lowercase), numbers, underscores, and hyphens are allowed. Service names must be unique within a cluster, but you can have similarly named services in multiple clusters within a Region or across multiple Regions.
   *   The stack update fails if you change any properties that require replacement and the ``ServiceName`` is configured. This is because AWS CloudFormation creates the replacement service first, but each ``ServiceName`` must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#service_name EcsService#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#service_name EcsService#service_name}
   */
   readonly serviceName?: string;
   /**
@@ -169,7 +169,7 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *   Each service may be associated with one service registry. Multiple service registries for each service isn't supported.
   *    To remove this property from your service resource, specify an empty ``ServiceRegistry`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#service_registries EcsService#service_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#service_registries EcsService#service_registries}
   */
   readonly serviceRegistries?: EcsServiceServiceRegistries[] | cdktn.IResolvable;
   /**
@@ -183,7 +183,7 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *   +  Tag keys and values are case-sensitive.
   *   +  Do not use ``aws:``, ``AWS:``, or any upper or lowercase combination of such as a prefix for either keys or values as it is reserved for AWS use. You cannot edit or delete tag keys or values with this prefix. Tags with this prefix do not count against your tags per resource limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#tags EcsService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#tags EcsService#tags}
   */
   readonly tags?: EcsServiceTags[] | cdktn.IResolvable;
   /**
@@ -191,20 +191,20 @@ export interface EcsServiceConfig extends cdktn.TerraformMetaArguments {
   *  A task definition must be specified if the service uses either the ``ECS`` or ``CODE_DEPLOY`` deployment controllers.
   *  For more information about deployment types, see [Amazon ECS deployment types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-types.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#task_definition EcsService#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#task_definition EcsService#task_definition}
   */
   readonly taskDefinition?: string;
   /**
   * The configuration for a volume specified in the task definition as a volume that is configured at launch time. Currently, the only supported volume type is an Amazon EBS volume.
   *   To remove this property from your service resource, specify an empty ``ServiceVolumeConfiguration`` array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#volume_configurations EcsService#volume_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#volume_configurations EcsService#volume_configurations}
   */
   readonly volumeConfigurations?: EcsServiceVolumeConfigurations[] | cdktn.IResolvable;
   /**
   * The VPC Lattice configuration for the service being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#vpc_lattice_configurations EcsService#vpc_lattice_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#vpc_lattice_configurations EcsService#vpc_lattice_configurations}
   */
   readonly vpcLatticeConfigurations?: EcsServiceVpcLatticeConfigurations[] | cdktn.IResolvable;
 }
@@ -217,13 +217,13 @@ export interface EcsServiceCapacityProviderStrategy {
   *   +  The valid range is 0 to 100,000
   *   +  Base requirements are satisfied first before weight distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#base EcsService#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#base EcsService#base}
   */
   readonly base?: number;
   /**
   * The short name of the capacity provider. This can be either an AWS managed capacity provider (``FARGATE`` or ``FARGATE_SPOT``) or the name of a custom capacity provider that you created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
   */
   readonly capacityProvider?: string;
   /**
@@ -235,16 +235,16 @@ export interface EcsServiceCapacityProviderStrategy {
   *   +  The valid range is 0 to 1,000
   *   +  At least one capacity provider must have a weight greater than zero
   *   +  Capacity providers with weight of ``0`` cannot place tasks
-  *   
+  *
   *  Task distribution logic:
   *   1.  Base satisfaction: The minimum number of tasks specified by the base value are placed on that capacity provider
   *   1.  Weight distribution: After base requirements are met, additional tasks are distributed according to weight ratios
-  *   
+  *
   *  Examples:
   *  Equal Distribution: Two capacity providers both with weight ``1`` will split tasks evenly after base requirements are met.
   *  Weighted Distribution: If capacityProviderA has weight ``1`` and capacityProviderB has weight ``4``, then for every 1 task on A, 4 tasks will run on B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#weight EcsService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#weight EcsService#weight}
   */
   readonly weight?: number;
 }
@@ -349,7 +349,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number; 
+  private _base?: number;
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -365,7 +365,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string; 
+  private _capacityProvider?: string;
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -381,7 +381,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -420,19 +420,19 @@ export interface EcsServiceDeploymentConfigurationAlarms {
   /**
   * One or more CloudWatch alarm names. Use a "," to separate the alarms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#alarm_names EcsService#alarm_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#alarm_names EcsService#alarm_names}
   */
   readonly alarmNames?: string[];
   /**
   * Determines whether to use the CloudWatch alarm option in the service deployment process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enable EcsService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enable EcsService#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
   /**
   * Determines whether to configure Amazon ECS to roll back the service if a service deployment fails. If rollback is used, when a service deployment fails, the service is rolled back to the last deployment that completed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#rollback EcsService#rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#rollback EcsService#rollback}
   */
   readonly rollback?: boolean | cdktn.IResolvable;
 }
@@ -535,7 +535,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // alarm_names - computed: true, optional: true, required: false
-  private _alarmNames?: string[]; 
+  private _alarmNames?: string[];
   public get alarmNames() {
     return this.getListAttribute('alarm_names');
   }
@@ -551,7 +551,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -567,7 +567,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // rollback - computed: true, optional: true, required: false
-  private _rollback?: boolean | cdktn.IResolvable; 
+  private _rollback?: boolean | cdktn.IResolvable;
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -586,13 +586,13 @@ export interface EcsServiceDeploymentConfigurationCanaryConfiguration {
   /**
   * The amount of time in minutes to wait during the canary phase before shifting the remaining production traffic to the new service revision. Valid values are 0 to 1440 minutes (24 hours). The default value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
   */
   readonly canaryBakeTimeInMinutes?: number;
   /**
   * The percentage of production traffic to shift to the new service revision during the canary phase. Valid values are multiples of 0.1 from 0.1 to 100.0. The default value is 5.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
   */
   readonly canaryPercent?: number;
 }
@@ -682,7 +682,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _canaryBakeTimeInMinutes?: number; 
+  private _canaryBakeTimeInMinutes?: number;
   public get canaryBakeTimeInMinutes() {
     return this.getNumberAttribute('canary_bake_time_in_minutes');
   }
@@ -698,7 +698,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_percent - computed: true, optional: true, required: false
-  private _canaryPercent?: number; 
+  private _canaryPercent?: number;
   public get canaryPercent() {
     return this.getNumberAttribute('canary_percent');
   }
@@ -713,19 +713,154 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
     return this._canaryPercent;
   }
 }
+export interface EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#type EcsService#type}
+  */
+  readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#value EcsService#value}
+  */
+  readonly value?: number;
+}
+
+export function ecsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationToTerraform(struct?: EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    type: cdktn.stringToTerraform(struct!.type),
+    value: cdktn.numberToTerraform(struct!.value),
+  }
+}
+
+
+export function ecsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationToHclTerraform(struct?: EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.numberToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string;
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: number;
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+  public set value(value: number) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
 export interface EcsServiceDeploymentConfigurationDeploymentCircuitBreaker {
   /**
   * Determines whether to use the deployment circuit breaker logic for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enable EcsService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enable EcsService#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#reset_on_healthy_task EcsService#reset_on_healthy_task}
+  */
+  readonly resetOnHealthyTask?: boolean | cdktn.IResolvable;
+  /**
   * Determines whether to configure Amazon ECS to roll back the service if a service deployment fails. If rollback is on, when a service deployment fails, the service is rolled back to the last deployment that completed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#rollback EcsService#rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#rollback EcsService#rollback}
   */
   readonly rollback?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#threshold_configuration EcsService#threshold_configuration}
+  */
+  readonly thresholdConfiguration?: EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration;
 }
 
 export function ecsServiceDeploymentConfigurationDeploymentCircuitBreakerToTerraform(struct?: EcsServiceDeploymentConfigurationDeploymentCircuitBreaker | cdktn.IResolvable): any {
@@ -735,7 +870,9 @@ export function ecsServiceDeploymentConfigurationDeploymentCircuitBreakerToTerra
   }
   return {
     enable: cdktn.booleanToTerraform(struct!.enable),
+    reset_on_healthy_task: cdktn.booleanToTerraform(struct!.resetOnHealthyTask),
     rollback: cdktn.booleanToTerraform(struct!.rollback),
+    threshold_configuration: ecsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationToTerraform(struct!.thresholdConfiguration),
   }
 }
 
@@ -752,11 +889,23 @@ export function ecsServiceDeploymentConfigurationDeploymentCircuitBreakerToHclTe
       type: "simple",
       storageClassType: "boolean",
     },
+    reset_on_healthy_task: {
+      value: cdktn.booleanToHclTerraform(struct!.resetOnHealthyTask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     rollback: {
       value: cdktn.booleanToHclTerraform(struct!.rollback),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    threshold_configuration: {
+      value: ecsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationToHclTerraform(struct!.thresholdConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration",
     },
   };
 
@@ -786,9 +935,17 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
       hasAnyValues = true;
       internalValueResult.enable = this._enable;
     }
+    if (this._resetOnHealthyTask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resetOnHealthyTask = this._resetOnHealthyTask;
+    }
     if (this._rollback !== undefined) {
       hasAnyValues = true;
       internalValueResult.rollback = this._rollback;
+    }
+    if (this._thresholdConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdConfiguration = this._thresholdConfiguration?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -798,7 +955,9 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._enable = undefined;
+      this._resetOnHealthyTask = undefined;
       this._rollback = undefined;
+      this._thresholdConfiguration.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -808,12 +967,14 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._enable = value.enable;
+      this._resetOnHealthyTask = value.resetOnHealthyTask;
       this._rollback = value.rollback;
+      this._thresholdConfiguration.internalValue = value.thresholdConfiguration;
     }
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable;
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -828,8 +989,24 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
     return this._enable;
   }
 
+  // reset_on_healthy_task - computed: true, optional: true, required: false
+  private _resetOnHealthyTask?: boolean | cdktn.IResolvable;
+  public get resetOnHealthyTask() {
+    return this.getBooleanAttribute('reset_on_healthy_task');
+  }
+  public set resetOnHealthyTask(value: boolean | cdktn.IResolvable) {
+    this._resetOnHealthyTask = value;
+  }
+  public resetResetOnHealthyTask() {
+    this._resetOnHealthyTask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resetOnHealthyTaskInput() {
+    return this._resetOnHealthyTask;
+  }
+
   // rollback - computed: true, optional: true, required: false
-  private _rollback?: boolean | cdktn.IResolvable; 
+  private _rollback?: boolean | cdktn.IResolvable;
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -843,14 +1020,30 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
   public get rollbackInput() {
     return this._rollback;
   }
+
+  // threshold_configuration - computed: true, optional: true, required: false
+  private _thresholdConfiguration = new EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfigurationOutputReference(this, "threshold_configuration");
+  public get thresholdConfiguration() {
+    return this._thresholdConfiguration;
+  }
+  public putThresholdConfiguration(value: EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdConfiguration) {
+    this._thresholdConfiguration.internalValue = value;
+  }
+  public resetThresholdConfiguration() {
+    this._thresholdConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdConfigurationInput() {
+    return this._thresholdConfiguration.internalValue;
+  }
 }
 export interface EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#action EcsService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#action EcsService#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
 }
@@ -940,7 +1133,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -956,7 +1149,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration
   }
 
   // timeout_in_minutes - computed: true, optional: true, required: false
-  private _timeoutInMinutes?: number; 
+  private _timeoutInMinutes?: number;
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -976,14 +1169,14 @@ export interface EcsServiceDeploymentConfigurationLifecycleHooks {
   * Use this field to specify custom parameters that ECS passes to your hook target invocations (such as a Lambda function).
   *  This field must be a JSON object as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
   */
   readonly hookDetails?: string;
   /**
   * The Amazon Resource Name (ARN) of the hook target. For ``AWS_LAMBDA`` hooks, this is the Lambda function ARN. This field is not applicable for ``PAUSE`` hooks.
   *  You must provide this parameter when configuring an ``AWS_LAMBDA`` lifecycle hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
   */
   readonly hookTargetArn?: string;
   /**
@@ -1012,34 +1205,34 @@ export interface EcsServiceDeploymentConfigurationLifecycleHooks {
   *   +  POST_PRODUCTION_TRAFFIC_SHIFT
   *  The production traffic shift is complete.
   *  You can use a lifecycle hook for this stage.
-  *   
+  *
   *   ``PAUSE`` hooks cannot be configured at ``TEST_TRAFFIC_SHIFT`` or ``PRODUCTION_TRAFFIC_SHIFT`` stages. These stages are only valid for ``AWS_LAMBDA`` hooks.
   *   You must provide this parameter when configuring a deployment lifecycle hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
   */
   readonly lifecycleStages?: string[];
   /**
   * The Amazon Resource Name (ARN) of the IAM role that grants Amazon ECS permission to call Lambda functions on your behalf.
   *  For more information, see [Permissions required for Lambda functions in Amazon ECS blue/green deployments](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-permissions.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The type of action the lifecycle hook performs. Valid values are:
   *   +  ``AWS_LAMBDA`` - Invokes a Lambda function at the specified lifecycle stage. This is the default value.
   *   +  ``PAUSE`` - Pauses the deployment at the specified lifecycle stage until you call ``ContinueServiceDeployment`` to continue or roll back.
-  *   
+  *
   *  This field is optional. If not specified, the default value is ``AWS_LAMBDA``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#target_type EcsService#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#target_type EcsService#target_type}
   */
   readonly targetType?: string;
   /**
   * The timeout configuration for the lifecycle hook. This specifies how long Amazon ECS waits before taking the timeout action if the hook is not resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
   */
   readonly timeoutConfiguration?: EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration;
 }
@@ -1183,7 +1376,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // hook_details - computed: true, optional: true, required: false
-  private _hookDetails?: string; 
+  private _hookDetails?: string;
   public get hookDetails() {
     return this.getStringAttribute('hook_details');
   }
@@ -1199,7 +1392,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // hook_target_arn - computed: true, optional: true, required: false
-  private _hookTargetArn?: string; 
+  private _hookTargetArn?: string;
   public get hookTargetArn() {
     return this.getStringAttribute('hook_target_arn');
   }
@@ -1215,7 +1408,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // lifecycle_stages - computed: true, optional: true, required: false
-  private _lifecycleStages?: string[]; 
+  private _lifecycleStages?: string[];
   public get lifecycleStages() {
     return this.getListAttribute('lifecycle_stages');
   }
@@ -1231,7 +1424,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1247,7 +1440,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string; 
+  private _targetType?: string;
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -1302,13 +1495,13 @@ export interface EcsServiceDeploymentConfigurationLinearConfiguration {
   /**
   * The amount of time in minutes to wait between each traffic shifting step during a linear deployment. Valid values are 0 to 1440 minutes (24 hours). The default value is 6. This bake time is not applied after reaching 100 percent traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#step_bake_time_in_minutes EcsService#step_bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#step_bake_time_in_minutes EcsService#step_bake_time_in_minutes}
   */
   readonly stepBakeTimeInMinutes?: number;
   /**
   * The percentage of production traffic to shift in each step during a linear deployment. Valid values are multiples of 0.1 from 3.0 to 100.0. The default value is 10.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#step_percent EcsService#step_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#step_percent EcsService#step_percent}
   */
   readonly stepPercent?: number;
 }
@@ -1398,7 +1591,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _stepBakeTimeInMinutes?: number; 
+  private _stepBakeTimeInMinutes?: number;
   public get stepBakeTimeInMinutes() {
     return this.getNumberAttribute('step_bake_time_in_minutes');
   }
@@ -1414,7 +1607,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_percent - computed: true, optional: true, required: false
-  private _stepPercent?: number; 
+  private _stepPercent?: number;
   public get stepPercent() {
     return this.getNumberAttribute('step_percent');
   }
@@ -1433,7 +1626,7 @@ export interface EcsServiceDeploymentConfiguration {
   /**
   * Information about the CloudWatch alarms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#alarms EcsService#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#alarms EcsService#alarms}
   */
   readonly alarms?: EcsServiceDeploymentConfigurationAlarms;
   /**
@@ -1442,35 +1635,35 @@ export interface EcsServiceDeploymentConfiguration {
   *   +  For blue/green, linear, and canary deployments, the value is set to 15 minutes.
   *   +  For rolling deployments, there is no bake time set by default.
   *   +  The external deployment controller (``EXTERNAL``) and the ACD blue/green deployment controller (``CODE_DEPLOY``) do not support the ``BakeTimeInMinutes`` parameter.
-  *   
+  *
   *   If you provide a bake time for a rolling deployment, the CloudFormation handler timeout is increased to the maximum of 36 hours, matching the timeout for blue/green, linear, and canary deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
   */
   readonly bakeTimeInMinutes?: number;
   /**
   * Configuration for canary deployment strategy. Only valid when the deployment strategy is ``CANARY``. This configuration enables shifting a fixed percentage of traffic for testing, followed by shifting the remaining traffic after a bake period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
   */
   readonly canaryConfiguration?: EcsServiceDeploymentConfigurationCanaryConfiguration;
   /**
   * The deployment circuit breaker can only be used for services using the rolling update (``ECS``) deployment type.
   *   The *deployment circuit breaker* determines whether a service deployment will fail if the service can't reach a steady state. If you use the deployment circuit breaker, a service deployment will transition to a failed state and stop launching new tasks. If you use the rollback option, when a service deployment fails, the service is rolled back to the last deployment that completed successfully. For more information, see [Rolling update](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html) in the *Amazon Elastic Container Service Developer Guide*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
   */
   readonly deploymentCircuitBreaker?: EcsServiceDeploymentConfigurationDeploymentCircuitBreaker;
   /**
   * An array of deployment lifecycle hook objects to run custom logic or pause the deployment at specific stages of the deployment lifecycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
   */
   readonly lifecycleHooks?: EcsServiceDeploymentConfigurationLifecycleHooks[] | cdktn.IResolvable;
   /**
   * Configuration for linear deployment strategy. Only valid when the deployment strategy is ``LINEAR``. This configuration enables progressive traffic shifting in equal percentage increments with configurable bake times between each step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
   */
   readonly linearConfiguration?: EcsServiceDeploymentConfigurationLinearConfiguration;
   /**
@@ -1480,28 +1673,28 @@ export interface EcsServiceDeploymentConfiguration {
   *   You can't specify a custom ``maximumPercent`` value for a service that uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and has tasks that use the EC2 launch type.
   *   If the service uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types, and the tasks in the service use the Fargate launch type, the maximum percent value is not used. The value is still returned when describing your service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
   */
   readonly maximumPercent?: number;
   /**
-  * If a service is using the rolling update (``ECS``) deployment type, the ``minimumHealthyPercent`` represents a lower limit on the number of your service's tasks that must remain in the ``RUNNING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded up to the nearest integer). This parameter enables you to deploy without using additional cluster capacity. For example, if your service has a ``desiredCount`` of four tasks and a ``minimumHealthyPercent`` of 50%, the service scheduler may stop two existing tasks to free up cluster capacity before starting two new tasks. 
-  *   If any tasks are unhealthy and if ``maximumPercent`` doesn't allow the Amazon ECS scheduler to start replacement tasks, the scheduler stops the unhealthy tasks one-by-one — using the ``minimumHealthyPercent`` as a constraint — to clear up capacity to launch replacement tasks. For more information about how the scheduler replaces unhealthy tasks, see [Amazon ECS services](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html). 
+  * If a service is using the rolling update (``ECS``) deployment type, the ``minimumHealthyPercent`` represents a lower limit on the number of your service's tasks that must remain in the ``RUNNING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded up to the nearest integer). This parameter enables you to deploy without using additional cluster capacity. For example, if your service has a ``desiredCount`` of four tasks and a ``minimumHealthyPercent`` of 50%, the service scheduler may stop two existing tasks to free up cluster capacity before starting two new tasks.
+  *   If any tasks are unhealthy and if ``maximumPercent`` doesn't allow the Amazon ECS scheduler to start replacement tasks, the scheduler stops the unhealthy tasks one-by-one — using the ``minimumHealthyPercent`` as a constraint — to clear up capacity to launch replacement tasks. For more information about how the scheduler replaces unhealthy tasks, see [Amazon ECS services](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html).
   *  For services that *do not* use a load balancer, the following should be noted:
   *   +  A service is considered healthy if all essential containers within the tasks in the service pass their health checks.
   *   +  If a task has no essential containers with a health check defined, the service scheduler will wait for 40 seconds after a task reaches a ``RUNNING`` state before the task is counted towards the minimum healthy percent total.
-  *   +  If a task has one or more essential containers with a health check defined, the service scheduler will wait for the task to reach a healthy status before counting it towards the minimum healthy percent total. A task is considered healthy when all essential containers within the task have passed their health checks. The amount of time the service scheduler can wait for is determined by the container health check settings. 
-  *   
+  *   +  If a task has one or more essential containers with a health check defined, the service scheduler will wait for the task to reach a healthy status before counting it towards the minimum healthy percent total. A task is considered healthy when all essential containers within the task have passed their health checks. The amount of time the service scheduler can wait for is determined by the container health check settings.
+  *
   *  For services that *do* use a load balancer, the following should be noted:
   *   +  If a task has no essential containers with a health check defined, the service scheduler will wait for the load balancer target group health check to return a healthy status before counting the task towards the minimum healthy percent total.
   *   +  If a task has an essential container with a health check defined, the service scheduler will wait for both the task to reach a healthy status and the load balancer target group health check to return a healthy status before counting the task towards the minimum healthy percent total.
-  *   
+  *
   *  The default value for a replica service for ``minimumHealthyPercent`` is 100%. The default ``minimumHealthyPercent`` value for a service using the ``DAEMON`` service schedule is 0% for the CLI, the AWS SDKs, and the APIs and 50% for the AWS Management Console.
   *  The minimum number of healthy tasks during a deployment is the ``desiredCount`` multiplied by the ``minimumHealthyPercent``/100, rounded up to the nearest integer value.
   *  If a service is using either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and is running tasks that use the EC2 launch type, the *minimum healthy percent* value is set to the default value. The *minimum healthy percent* value is used to define the lower limit on the number of the tasks in the service that remain in the ``RUNNING`` state while the container instances are in the ``DRAINING`` state.
   *   You can't specify a custom ``minimumHealthyPercent`` value for a service that uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and has tasks that use the EC2 launch type.
   *   If a service is using either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and is running tasks that use the Fargate launch type, the minimum healthy percent value is not used, although it is returned when describing your service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
   */
   readonly minimumHealthyPercent?: number;
   /**
@@ -1511,7 +1704,7 @@ export interface EcsServiceDeploymentConfiguration {
   *   +  ``LINEAR`` - A *linear* deployment strategy (``LINEAR``) gradually shifts traffic from the current production environment to a new environment in equal percentages over time. With Amazon ECS linear deployments, you can control the pace of traffic shifting and validate new service revisions with increasing amounts of production traffic.
   *   +  ``CANARY`` - A *canary* deployment strategy (``CANARY``) shifts a small percentage of traffic to the new service revision first, then shifts the remaining traffic all at once after a specified time period. This allows you to test the new version with a subset of users before full deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#strategy EcsService#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#strategy EcsService#strategy}
   */
   readonly strategy?: string;
 }
@@ -1708,7 +1901,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // bake_time_in_minutes - computed: true, optional: true, required: false
-  private _bakeTimeInMinutes?: number; 
+  private _bakeTimeInMinutes?: number;
   public get bakeTimeInMinutes() {
     return this.getNumberAttribute('bake_time_in_minutes');
   }
@@ -1788,7 +1981,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // maximum_percent - computed: true, optional: true, required: false
-  private _maximumPercent?: number; 
+  private _maximumPercent?: number;
   public get maximumPercent() {
     return this.getNumberAttribute('maximum_percent');
   }
@@ -1804,7 +1997,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // minimum_healthy_percent - computed: true, optional: true, required: false
-  private _minimumHealthyPercent?: number; 
+  private _minimumHealthyPercent?: number;
   public get minimumHealthyPercent() {
     return this.getNumberAttribute('minimum_healthy_percent');
   }
@@ -1820,7 +2013,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // strategy - computed: true, optional: true, required: false
-  private _strategy?: string; 
+  private _strategy?: string;
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -1841,7 +2034,7 @@ export interface EcsServiceDeploymentController {
   *  The deployment controller is the mechanism that determines how tasks are deployed for your service. The valid options are:
   *   +  ECS
   *  When you create a service which uses the ``ECS`` deployment controller, you can choose between the following deployment strategies:
-  *   +  ``ROLLING``: When you create a service which uses the *rolling update* (``ROLLING``) deployment strategy, the ECS service scheduler replaces the currently running tasks with new tasks. The number of tasks that ECS adds or removes from the service during a rolling update is controlled by the service deployment configuration. 
+  *   +  ``ROLLING``: When you create a service which uses the *rolling update* (``ROLLING``) deployment strategy, the ECS service scheduler replaces the currently running tasks with new tasks. The number of tasks that ECS adds or removes from the service during a rolling update is controlled by the service deployment configuration.
   *  Rolling update deployments are best suited for the following scenarios:
   *   +  Gradual service updates: You need to update your service incrementally without taking the entire service offline at once.
   *   +  Limited resource requirements: You want to avoid the additional resource costs of running two complete environments simultaneously (as required by blue/green deployments).
@@ -1851,7 +2044,7 @@ export interface EcsServiceDeploymentController {
   *   +  No load balancer requirement: Your service doesn't use or require a load balancer, ALB, NLB, or Service Connect (which are required for blue/green deployments).
   *   +  Stateful applications: Your application maintains state that makes it difficult to run two parallel environments.
   *   +  Cost sensitivity: You want to minimize deployment costs by not running duplicate environments during deployment.
-  *   
+  *
   *  Rolling updates are the default deployment strategy for services and provide a balance between deployment safety and resource efficiency for many common application scenarios.
   *   +  ``BLUE_GREEN``: A *blue/green* deployment strategy (``BLUE_GREEN``) is a release methodology that reduces downtime and risk by running two identical production environments called blue and green. With ECS blue/green deployments, you can validate new service revisions before directing production traffic to them. This approach provides a safer way to deploy changes with the ability to quickly roll back if needed.
   *  ECS blue/green deployments are best suited for the following scenarios:
@@ -1859,20 +2052,20 @@ export interface EcsServiceDeploymentController {
   *   +  Zero downtime: When your service requires zero-downtime deployments
   *   +  Instant roll back: When you need the ability to quickly roll back if issues are detected
   *   +  Load balancer requirement: When your service uses ALB, NLB, or Service Connect
-  *   
-  *   
+  *
+  *
   *   +  External
   *  Use a third-party deployment controller.
   *   +  Blue/green deployment (powered by ACD)
   *  ACD installs an updated version of the application as a new replacement task set and reroutes production traffic from the original application task set to the replacement task set. The original task set is terminated after a successful deployment. Use this deployment controller to verify a new deployment of a service before sending production traffic to it.
-  *   
+  *
   *  When updating the deployment controller for a service, consider the following depending on the type of migration you're performing.
   *   +  If you have a template that contains the ``EXTERNAL`` deployment controller information as well as ``TaskSet`` and ``PrimaryTaskSet`` resources, and you remove the task set resources from the template when updating from ``EXTERNAL`` to ``ECS``, the ``DescribeTaskSet`` and ``DeleteTaskSet`` API calls will return a 400 error after the deployment controller is updated to ``ECS``. This results in a delete failure on the task set resources, even though the stack transitions to ``UPDATE_COMPLETE`` status. For more information, see [Resource removed from stack but not deleted](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-resource-removed-not-deleted) in the CFNlong User Guide. To fix this issue, delete the task sets directly using the ECS``DeleteTaskSet`` API. For more information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
   *   +  If you're migrating from ``CODE_DEPLOY`` to ``ECS`` with a new task definition and CFN performs a rollback operation, the ECS``UpdateService`` request fails with the following error:
-  *  Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller. 
+  *  Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller.
   *   +  After a successful migration from ``ECS`` to ``EXTERNAL`` deployment controller, you need to manually remove the ``ACTIVE`` task set, because ECS no longer manages the deployment. For information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#type EcsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#type EcsService#type}
   */
   readonly type?: string;
 }
@@ -1949,7 +2142,7 @@ export class EcsServiceDeploymentControllerOutputReference extends cdktn.Complex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1968,13 +2161,13 @@ export interface EcsServiceForceNewDeployment {
   /**
   * Determines whether to force a new deployment of the service. By default, deployments aren't forced. You can use this option to start a new deployment with no service definition changes. For example, you can update a service's tasks to use a newer Docker image with the same image/tag combination (``my_image:latest``) or to roll Fargate tasks onto a newer platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enable_force_new_deployment EcsService#enable_force_new_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enable_force_new_deployment EcsService#enable_force_new_deployment}
   */
   readonly enableForceNewDeployment?: boolean | cdktn.IResolvable;
   /**
   * When you change the``ForceNewDeploymentNonce`` value in your template, it signals ECS to start a new deployment even though no other service parameters have changed. The value must be a unique, time- varying value like a timestamp, random string, or sequence number. Use this property when you want to ensure your tasks pick up the latest version of a Docker image that uses the same tag but has been updated in the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#force_new_deployment_nonce EcsService#force_new_deployment_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#force_new_deployment_nonce EcsService#force_new_deployment_nonce}
   */
   readonly forceNewDeploymentNonce?: string;
 }
@@ -2064,7 +2257,7 @@ export class EcsServiceForceNewDeploymentOutputReference extends cdktn.ComplexOb
   }
 
   // enable_force_new_deployment - computed: true, optional: true, required: false
-  private _enableForceNewDeployment?: boolean | cdktn.IResolvable; 
+  private _enableForceNewDeployment?: boolean | cdktn.IResolvable;
   public get enableForceNewDeployment() {
     return this.getBooleanAttribute('enable_force_new_deployment');
   }
@@ -2080,7 +2273,7 @@ export class EcsServiceForceNewDeploymentOutputReference extends cdktn.ComplexOb
   }
 
   // force_new_deployment_nonce - computed: true, optional: true, required: false
-  private _forceNewDeploymentNonce?: string; 
+  private _forceNewDeploymentNonce?: string;
   public get forceNewDeploymentNonce() {
     return this.getStringAttribute('force_new_deployment_nonce');
   }
@@ -2099,25 +2292,25 @@ export interface EcsServiceLoadBalancersAdvancedConfiguration {
   /**
   * The Amazon Resource Name (ARN) of the alternate target group for Amazon ECS blue/green deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}
   */
   readonly alternateTargetGroupArn?: string;
   /**
   * The Amazon Resource Name (ARN) that that identifies the production listener rule (in the case of an Application Load Balancer) or listener (in the case for an Network Load Balancer) for routing production traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}
   */
   readonly productionListenerRule?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that grants Amazon ECS permission to call the Elastic Load Balancing APIs for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The Amazon Resource Name (ARN) that identifies ) that identifies the test listener rule (in the case of an Application Load Balancer) or listener (in the case for an Network Load Balancer) for routing test traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}
   */
   readonly testListenerRule?: string;
 }
@@ -2233,7 +2426,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // alternate_target_group_arn - computed: true, optional: true, required: false
-  private _alternateTargetGroupArn?: string; 
+  private _alternateTargetGroupArn?: string;
   public get alternateTargetGroupArn() {
     return this.getStringAttribute('alternate_target_group_arn');
   }
@@ -2249,7 +2442,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // production_listener_rule - computed: true, optional: true, required: false
-  private _productionListenerRule?: string; 
+  private _productionListenerRule?: string;
   public get productionListenerRule() {
     return this.getStringAttribute('production_listener_rule');
   }
@@ -2265,7 +2458,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2281,7 +2474,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // test_listener_rule - computed: true, optional: true, required: false
-  private _testListenerRule?: string; 
+  private _testListenerRule?: string;
   public get testListenerRule() {
     return this.getStringAttribute('test_listener_rule');
   }
@@ -2300,37 +2493,37 @@ export interface EcsServiceLoadBalancers {
   /**
   * The advanced settings for the load balancer used in blue/green deployments. Specify the alternate target group, listener rules, and IAM role required for traffic shifting during blue/green deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
   */
   readonly advancedConfiguration?: EcsServiceLoadBalancersAdvancedConfiguration;
   /**
   * The name of the container (as it appears in a container definition) to associate with the load balancer.
   *  You need to specify the container name when configuring the target group for an Amazon ECS load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#container_name EcsService#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#container_name EcsService#container_name}
   */
   readonly containerName?: string;
   /**
   * The port on the container to associate with the load balancer. This port must correspond to a ``containerPort`` in the task definition the tasks in the service are using. For tasks that use the EC2 launch type, the container instance they're launched on must allow ingress traffic on the ``hostPort`` of the port mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#container_port EcsService#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#container_port EcsService#container_port}
   */
   readonly containerPort?: number;
   /**
   * The name of the load balancer to associate with the Amazon ECS service or task set.
   *  If you are using an Application Load Balancer or a Network Load Balancer the load balancer name parameter should be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#load_balancer_name EcsService#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#load_balancer_name EcsService#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * The full Amazon Resource Name (ARN) of the Elastic Load Balancing target group or groups associated with a service or task set.
-  *  A target group ARN is only specified when using an Application Load Balancer or Network Load Balancer. 
+  *  A target group ARN is only specified when using an Application Load Balancer or Network Load Balancer.
   *  For services using the ``ECS`` deployment controller, you can specify one or multiple target groups. For more information, see [Registering multiple target groups with a service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/register-multiple-targetgroups.html) in the *Amazon Elastic Container Service Developer Guide*.
   *  For services using the ``CODE_DEPLOY`` deployment controller, you're required to define two target groups for the load balancer. For more information, see [Blue/green deployment with CodeDeploy](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   If your service's task definition uses the ``awsvpc`` network mode, you must choose ``ip`` as the target type, not ``instance``. Do this when creating your target groups because tasks that use the ``awsvpc`` network mode are associated with an elastic network interface, not an Amazon EC2 instance. This network mode is required for the Fargate launch type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
   */
   readonly targetGroupArn?: string;
 }
@@ -2477,7 +2670,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string; 
+  private _containerName?: string;
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -2493,7 +2686,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number; 
+  private _containerPort?: number;
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -2509,7 +2702,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // load_balancer_name - computed: true, optional: true, required: false
-  private _loadBalancerName?: string; 
+  private _loadBalancerName?: string;
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -2525,7 +2718,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string; 
+  private _targetGroupArn?: string;
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2564,13 +2757,13 @@ export interface EcsServiceMonitoringMetricConfigurations {
   /**
   * The list of metric names to configure. The supported metric names are ``CPUUtilization`` and ``MemoryUtilization``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#metric_names EcsService#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#metric_names EcsService#metric_names}
   */
   readonly metricNames?: string[];
   /**
   * The resolution, in seconds, at which to collect the metrics. The valid values are ``20`` and ``60``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#resolution_seconds EcsService#resolution_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#resolution_seconds EcsService#resolution_seconds}
   */
   readonly resolutionSeconds?: number;
 }
@@ -2662,7 +2855,7 @@ export class EcsServiceMonitoringMetricConfigurationsOutputReference extends cdk
   }
 
   // metric_names - computed: true, optional: true, required: false
-  private _metricNames?: string[]; 
+  private _metricNames?: string[];
   public get metricNames() {
     return this.getListAttribute('metric_names');
   }
@@ -2678,7 +2871,7 @@ export class EcsServiceMonitoringMetricConfigurationsOutputReference extends cdk
   }
 
   // resolution_seconds - computed: true, optional: true, required: false
-  private _resolutionSeconds?: number; 
+  private _resolutionSeconds?: number;
   public get resolutionSeconds() {
     return this.getNumberAttribute('resolution_seconds');
   }
@@ -2717,7 +2910,7 @@ export interface EcsServiceMonitoring {
   /**
   * The list of metric configurations for the service monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
   */
   readonly metricConfigurations?: EcsServiceMonitoringMetricConfigurations[] | cdktn.IResolvable;
 }
@@ -2811,26 +3004,26 @@ export class EcsServiceMonitoringOutputReference extends cdktn.ComplexObject {
 }
 export interface EcsServiceNetworkConfigurationAwsvpcConfiguration {
   /**
-  * Whether the task's elastic network interface receives a public IP address. 
+  * Whether the task's elastic network interface receives a public IP address.
   *  Consider the following when you set this value:
-  *   +  When you use ``create-service`` or ``update-service``, the default is ``DISABLED``. 
+  *   +  When you use ``create-service`` or ``update-service``, the default is ``DISABLED``.
   *   +  When the service ``deploymentController`` is ``ECS``, the value must be ``DISABLED``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}
   */
   readonly assignPublicIp?: string;
   /**
   * The IDs of the security groups associated with the task or service. If you don't specify a security group, the default security group for the VPC is used. There's a limit of 5 security groups that can be specified.
   *   All specified security groups must be from the same VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#security_groups EcsService#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#security_groups EcsService#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The IDs of the subnets associated with the task or service. There's a limit of 16 subnets that can be specified.
   *   All specified subnets must be from the same VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#subnets EcsService#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#subnets EcsService#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2933,7 +3126,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string; 
+  private _assignPublicIp?: string;
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -2949,7 +3142,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -2965,7 +3158,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -2985,7 +3178,7 @@ export interface EcsServiceNetworkConfiguration {
   * The VPC subnets and security groups that are associated with a task.
   *   All specified subnets and security groups must be from the same VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
   */
   readonly awsvpcConfiguration?: EcsServiceNetworkConfigurationAwsvpcConfiguration;
 }
@@ -3081,13 +3274,13 @@ export interface EcsServicePlacementConstraints {
   /**
   * A cluster query language expression to apply to the constraint. The expression can have a maximum length of 2000 characters. You can't specify an expression if the constraint type is ``distinctInstance``. For more information, see [Cluster query language](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query-language.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#expression EcsService#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#expression EcsService#expression}
   */
   readonly expression?: string;
   /**
   * The type of constraint. Use ``distinctInstance`` to ensure that each task in a particular group is running on a different container instance. Use ``memberOf`` to restrict the selection to a group of valid candidates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#type EcsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#type EcsService#type}
   */
   readonly type?: string;
 }
@@ -3179,7 +3372,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -3195,7 +3388,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3234,13 +3427,13 @@ export interface EcsServicePlacementStrategies {
   /**
   * The field to apply the placement strategy against. For the ``spread`` placement strategy, valid values are ``instanceId`` (or ``host``, which has the same effect), or any platform or custom attribute that's applied to a container instance, such as ``attribute:ecs.availability-zone``. For the ``binpack`` placement strategy, valid values are ``cpu`` and ``memory``. For the ``random`` placement strategy, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#field EcsService#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#field EcsService#field}
   */
   readonly field?: string;
   /**
   * The type of placement strategy. The ``random`` placement strategy randomly places tasks on available candidates. The ``spread`` placement strategy spreads placement across available candidates evenly based on the ``field`` parameter. The ``binpack`` strategy places tasks on available candidates that have the least available amount of the resource that's specified with the ``field`` parameter. For example, if you binpack on memory, a task is placed on the instance with the least amount of remaining memory but still enough to run the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#type EcsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#type EcsService#type}
   */
   readonly type?: string;
 }
@@ -3332,7 +3525,7 @@ export class EcsServicePlacementStrategiesOutputReference extends cdktn.ComplexO
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -3348,7 +3541,7 @@ export class EcsServicePlacementStrategiesOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3387,14 +3580,14 @@ export interface EcsServiceServiceConnectConfigurationAccessLogConfiguration {
   /**
   * The format for Service Connect access log output. Choose TEXT for human-readable logs or JSON for structured data that integrates well with log analysis tools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#format EcsService#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#format EcsService#format}
   */
   readonly format?: string;
   /**
   * Specifies whether to include query parameters in Service Connect access logs.
   *  When enabled, query parameters from HTTP requests are included in the access logs. Consider security and privacy implications when enabling this feature, as query parameters may contain sensitive information such as request IDs and tokens. By default, this parameter is ``DISABLED``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}
   */
   readonly includeQueryParameters?: string;
 }
@@ -3484,7 +3677,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3500,7 +3693,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // include_query_parameters - computed: true, optional: true, required: false
-  private _includeQueryParameters?: string; 
+  private _includeQueryParameters?: string;
   public get includeQueryParameters() {
     return this.getStringAttribute('include_query_parameters');
   }
@@ -3519,7 +3712,7 @@ export interface EcsServiceServiceConnectConfigurationLogConfigurationSecretOpti
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#name EcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#name EcsService#name}
   */
   readonly name?: string;
   /**
@@ -3527,7 +3720,7 @@ export interface EcsServiceServiceConnectConfigurationLogConfigurationSecretOpti
   *  For information about the require IAMlong permissions, see [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html#secrets-iam) (for Secrets Manager) or [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-parameters.html) (for Systems Manager Parameter store) in the *Amazon Elastic Container Service Developer Guide*.
   *   If the SSM Parameter Store parameter exists in the same Region as the task you're launching, then you can use either the full ARN or name of the parameter. If the parameter exists in a different Region, then the full ARN must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#value_from EcsService#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#value_from EcsService#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -3619,7 +3812,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3635,7 +3828,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionsO
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string; 
+  private _valueFrom?: string;
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -3679,15 +3872,15 @@ export interface EcsServiceServiceConnectConfigurationLogConfiguration {
   *  For more information about using the ``awsfirelens`` log driver, see [Send Amazon ECS logs to an service or Partner](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_firelens.html).
   *   If you have a custom driver that isn't listed, you can fork the Amazon ECS container agent project that's [available on GitHub](https://docs.aws.amazon.com/https://github.com/aws/amazon-ecs-agent) and customize it to work with that driver. We encourage you to submit pull requests for changes that you would like to have included. However, we don't currently provide support for running modified copies of this software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#log_driver EcsService#log_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#log_driver EcsService#log_driver}
   */
   readonly logDriver?: string;
   /**
   * The configuration options to send to the log driver.
   *  The options you can specify depend on the log driver. Some of the options you can specify when you use the ``awslogs`` log driver to route logs to Amazon CloudWatch include the following:
-  *   + awslogs-create-group Required: No Specify whether you want the log group to be created automatically. If this option isn't specified, it defaults to false. Your IAM policy must include the logs:CreateLogGroup permission before you attempt to use awslogs-create-group. + awslogs-region Required: Yes Specify the Region that the awslogs log driver is to send your Docker logs to. You can choose to send all of your logs from clusters in different Regions to a single region in CloudWatch Logs. This is so that they're all visible in one location. Otherwise, you can separate them by Region for more granularity. Make sure that the specified log group exists in the Region that you specify with this option. + awslogs-group Required: Yes Make sure to specify a log group that the awslogs log driver sends its log streams to. + awslogs-stream-prefix Required: Yes, when using Fargate.Optional when using EC2. Use the awslogs-stream-prefix option to associate a log stream with the specified prefix, the container name, and the ID of the Amazon ECS task that the container belongs to. If you specify a prefix with this option, then the log stream takes the format prefix-name/container-name/ecs-task-id. If you don't specify a prefix with this option, then the log stream is named after the container ID that's assigned by the Docker daemon on the container instance. Because it's difficult to trace logs back to the container that sent them with just the Docker container ID (which is only available on the container instance), we recommend that you specify a prefix with this option. For Amazon ECS services, you can use the service name as the prefix. Doing so, you can trace log streams to the service that the container belongs to, the name of the container that sent them, and the ID of the task that the container belongs to. You must specify a stream-prefix for your logs to have your logs appear in the Log pane when using the Amazon ECS console. + awslogs-datetime-format Required: No This option defines a multiline start pattern in Python strftime format. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. One example of a use case for using this format is for parsing output such as a stack dump, which might otherwise be logged in multiple entries. The correct pattern allows it to be captured in a single entry. For more information, see awslogs-datetime-format. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. + awslogs-multiline-pattern Required: No This option defines a multiline start pattern that uses a regular expression. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. For more information, see awslogs-multiline-pattern. This option is ignored if awslogs-datetime-format is also configured. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. 
+  *   + awslogs-create-group Required: No Specify whether you want the log group to be created automatically. If this option isn't specified, it defaults to false. Your IAM policy must include the logs:CreateLogGroup permission before you attempt to use awslogs-create-group. + awslogs-region Required: Yes Specify the Region that the awslogs log driver is to send your Docker logs to. You can choose to send all of your logs from clusters in different Regions to a single region in CloudWatch Logs. This is so that they're all visible in one location. Otherwise, you can separate them by Region for more granularity. Make sure that the specified log group exists in the Region that you specify with this option. + awslogs-group Required: Yes Make sure to specify a log group that the awslogs log driver sends its log streams to. + awslogs-stream-prefix Required: Yes, when using Fargate.Optional when using EC2. Use the awslogs-stream-prefix option to associate a log stream with the specified prefix, the container name, and the ID of the Amazon ECS task that the container belongs to. If you specify a prefix with this option, then the log stream takes the format prefix-name/container-name/ecs-task-id. If you don't specify a prefix with this option, then the log stream is named after the container ID that's assigned by the Docker daemon on the container instance. Because it's difficult to trace logs back to the container that sent them with just the Docker container ID (which is only available on the container instance), we recommend that you specify a prefix with this option. For Amazon ECS services, you can use the service name as the prefix. Doing so, you can trace log streams to the service that the container belongs to, the name of the container that sent them, and the ID of the task that the container belongs to. You must specify a stream-prefix for your logs to have your logs appear in the Log pane when using the Amazon ECS console. + awslogs-datetime-format Required: No This option defines a multiline start pattern in Python strftime format. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. One example of a use case for using this format is for parsing output such as a stack dump, which might otherwise be logged in multiple entries. The correct pattern allows it to be captured in a single entry. For more information, see awslogs-datetime-format. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. + awslogs-multiline-pattern Required: No This option defines a multiline start pattern that uses a regular expression. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. For more information, see awslogs-multiline-pattern. This option is ignored if awslogs-datetime-format is also configured. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance.
   *  The following options apply to all supported log drivers.
-  *   + mode Required: No Valid values: non-blocking | blocking This option defines the delivery mode of log messages from the container to the log driver specified using logDriver. The delivery mode you choose affects application availability when the flow of logs from container is interrupted. If you use the blocking mode and the flow of logs is interrupted, calls from container code to write to the stdout and stderr streams will block. The logging thread of the application will block as a result. This may cause the application to become unresponsive and lead to container healthcheck failure. If you use the non-blocking mode, the container's logs are instead stored in an in-memory intermediate buffer configured with the max-buffer-size option. This prevents the application from becoming unresponsive when logs cannot be sent. We recommend using this mode if you want to ensure service availability and are okay with some log loss. For more information, see Preventing log loss with non-blocking mode in the awslogs container log driver. You can set a default mode for all containers in a specific Region by using the defaultLogDriverMode account setting. If you don't specify the mode option or configure the account setting, Amazon ECS will default to the non-blocking mode. For more information about the account setting, see Default log driver mode in the Amazon Elastic Container Service Developer Guide. On June 25, 2025, Amazon ECS changed the default log driver mode from blocking to non-blocking to prioritize task availability over logging. To continue using the blocking mode after this change, do one of the following: Set the mode option in your container definition's logConfiguration as blocking. Set the defaultLogDriverMode account setting to blocking. + max-buffer-size Required: No Default value: 10m When non-blocking mode is used, the max-buffer-size log option controls the size of the buffer that's used for intermediate message storage. Make sure to specify an adequate buffer size based on your application. When the buffer fills up, further logs cannot be stored. Logs that cannot be stored are lost. 
+  *   + mode Required: No Valid values: non-blocking | blocking This option defines the delivery mode of log messages from the container to the log driver specified using logDriver. The delivery mode you choose affects application availability when the flow of logs from container is interrupted. If you use the blocking mode and the flow of logs is interrupted, calls from container code to write to the stdout and stderr streams will block. The logging thread of the application will block as a result. This may cause the application to become unresponsive and lead to container healthcheck failure. If you use the non-blocking mode, the container's logs are instead stored in an in-memory intermediate buffer configured with the max-buffer-size option. This prevents the application from becoming unresponsive when logs cannot be sent. We recommend using this mode if you want to ensure service availability and are okay with some log loss. For more information, see Preventing log loss with non-blocking mode in the awslogs container log driver. You can set a default mode for all containers in a specific Region by using the defaultLogDriverMode account setting. If you don't specify the mode option or configure the account setting, Amazon ECS will default to the non-blocking mode. For more information about the account setting, see Default log driver mode in the Amazon Elastic Container Service Developer Guide. On June 25, 2025, Amazon ECS changed the default log driver mode from blocking to non-blocking to prioritize task availability over logging. To continue using the blocking mode after this change, do one of the following: Set the mode option in your container definition's logConfiguration as blocking. Set the defaultLogDriverMode account setting to blocking. + max-buffer-size Required: No Default value: 10m When non-blocking mode is used, the max-buffer-size log option controls the size of the buffer that's used for intermediate message storage. Make sure to specify an adequate buffer size based on your application. When the buffer fills up, further logs cannot be stored. Logs that cannot be stored are lost.
   *  To route logs using the ``splunk`` log router, you need to specify a ``splunk-token`` and a ``splunk-url``.
   *  When you use the ``awsfirelens`` log router to route logs to an AWS Service or AWS Partner Network destination for log storage and analytics, you can set the ``log-driver-buffer-limit`` option to limit the number of events that are buffered in memory, before being sent to the log router container. It can help to resolve potential log loss issue because high throughput might result in memory running out for the buffer inside of Docker.
   *  Other options you can specify when using ``awsfirelens`` to route logs depend on the destination. When you export logs to Amazon Data Firehose, you can specify the AWS Region with ``region`` and a name for the log stream with ``delivery_stream``.
@@ -3696,13 +3889,13 @@ export interface EcsServiceServiceConnectConfigurationLogConfiguration {
   *  When you export logs to Amazon S3, you can specify the bucket using the ``bucket`` option. You can also specify ``region``, ``total_file_size``, ``upload_timeout``, and ``use_put_object`` as options.
   *  This parameter requires version 1.19 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: ``sudo docker version --format '{{.Server.APIVersion}}'``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#options EcsService#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#options EcsService#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * The secrets to pass to the log configuration. For more information, see [Specifying sensitive data](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#secret_options EcsService#secret_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#secret_options EcsService#secret_options}
   */
   readonly secretOptions?: EcsServiceServiceConnectConfigurationLogConfigurationSecretOptions[] | cdktn.IResolvable;
 }
@@ -3805,7 +3998,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string; 
+  private _logDriver?: string;
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -3821,7 +4014,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string }; 
+  private _options?: { [key: string]: string };
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -3854,7 +4047,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
 }
 export interface EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#exact EcsService#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#exact EcsService#exact}
   */
   readonly exact?: string;
 }
@@ -3931,7 +4124,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesTestTraff
   }
 
   // exact - computed: true, optional: true, required: false
-  private _exact?: string; 
+  private _exact?: string;
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -3948,11 +4141,11 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesTestTraff
 }
 export interface EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#name EcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#name EcsService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#value EcsService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#value EcsService#value}
   */
   readonly value?: EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue;
 }
@@ -4042,7 +4235,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesTestTraff
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4077,7 +4270,7 @@ export interface EcsServiceServiceConnectConfigurationServicesClientAliasesTestT
   /**
   * The HTTP header-based routing rules that determine which requests should be routed to the new service version during blue/green deployment testing. These rules provide fine-grained control over test traffic routing based on request headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#header EcsService#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#header EcsService#header}
   */
   readonly header?: EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader;
 }
@@ -4175,20 +4368,20 @@ export interface EcsServiceServiceConnectConfigurationServicesClientAliases {
   *  If this parameter isn't specified, the default value of ``discoveryName.namespace`` is used. If the ``discoveryName`` isn't specified, the port mapping name from the task definition is used in ``portName.namespace``.
   *  To avoid changing your applications in client Amazon ECS services, set this to the same name that the client application uses by default. For example, a few common names are ``database``, ``db``, or the lowercase name of a database, such as ``mysql`` or ``redis``. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#dns_name EcsService#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#dns_name EcsService#dns_name}
   */
   readonly dnsName?: string;
   /**
   * The listening port number for the Service Connect proxy. This port is available inside of all of the tasks within the same namespace.
   *  To avoid changing your applications in client Amazon ECS services, set this to the same port that the client application uses by default. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#port EcsService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#port EcsService#port}
   */
   readonly port?: number;
   /**
   * The configuration for test traffic routing rules used during blue/green deployments with Amazon ECS Service Connect. This allows you to route a portion of traffic to the new service revision of your service for testing before shifting all production traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
   */
   readonly testTrafficRules?: EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRules;
 }
@@ -4293,7 +4486,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesOutputRef
   }
 
   // dns_name - computed: true, optional: true, required: false
-  private _dnsName?: string; 
+  private _dnsName?: string;
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -4309,7 +4502,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4366,13 +4559,13 @@ export interface EcsServiceServiceConnectConfigurationServicesTimeout {
   *  The ``idleTimeout`` default for ``HTTP``/``HTTP2``/``GRPC`` is 5 minutes.
   *  The ``idleTimeout`` default for ``TCP`` is 1 hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}
   */
   readonly idleTimeoutSeconds?: number;
   /**
   * The amount of time waiting for the upstream to respond with a complete response per request. A value of ``0`` can be set to disable ``perRequestTimeout``. ``perRequestTimeout`` can only be set if Service Connect ``appProtocol`` isn't ``TCP``. Only ``idleTimeout`` is allowed for ``TCP````appProtocol``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}
   */
   readonly perRequestTimeoutSeconds?: number;
 }
@@ -4462,7 +4655,7 @@ export class EcsServiceServiceConnectConfigurationServicesTimeoutOutputReference
   }
 
   // idle_timeout_seconds - computed: true, optional: true, required: false
-  private _idleTimeoutSeconds?: number; 
+  private _idleTimeoutSeconds?: number;
   public get idleTimeoutSeconds() {
     return this.getNumberAttribute('idle_timeout_seconds');
   }
@@ -4478,7 +4671,7 @@ export class EcsServiceServiceConnectConfigurationServicesTimeoutOutputReference
   }
 
   // per_request_timeout_seconds - computed: true, optional: true, required: false
-  private _perRequestTimeoutSeconds?: number; 
+  private _perRequestTimeoutSeconds?: number;
   public get perRequestTimeoutSeconds() {
     return this.getNumberAttribute('per_request_timeout_seconds');
   }
@@ -4497,7 +4690,7 @@ export interface EcsServiceServiceConnectConfigurationServicesTlsIssuerCertifica
   /**
   * The ARN of the AWS Private Certificate Authority certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}
   */
   readonly awsPcaAuthorityArn?: string;
 }
@@ -4574,7 +4767,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsIssuerCertificateAu
   }
 
   // aws_pca_authority_arn - computed: true, optional: true, required: false
-  private _awsPcaAuthorityArn?: string; 
+  private _awsPcaAuthorityArn?: string;
   public get awsPcaAuthorityArn() {
     return this.getStringAttribute('aws_pca_authority_arn');
   }
@@ -4593,19 +4786,19 @@ export interface EcsServiceServiceConnectConfigurationServicesTls {
   /**
   * The signer certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#issuer_certificate_authority EcsService#issuer_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#issuer_certificate_authority EcsService#issuer_certificate_authority}
   */
   readonly issuerCertificateAuthority?: EcsServiceServiceConnectConfigurationServicesTlsIssuerCertificateAuthority;
   /**
   * The AWS Key Management Service key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#kms_key EcsService#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#kms_key EcsService#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that's associated with the Service Connect TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -4724,7 +4917,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsOutputReference ext
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string; 
+  private _kmsKey?: string;
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -4740,7 +4933,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4762,14 +4955,14 @@ export interface EcsServiceServiceConnectConfigurationServices {
   *  Each name and port mapping must be unique within the namespace.
   *  For each ``ServiceConnectService``, you must provide at least one ``clientAlias`` with one ``port``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#client_aliases EcsService#client_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#client_aliases EcsService#client_aliases}
   */
   readonly clientAliases?: EcsServiceServiceConnectConfigurationServicesClientAliases[] | cdktn.IResolvable;
   /**
   * The ``discoveryName`` is the name of the new CMAP service that Amazon ECS creates for this Amazon ECS service. This must be unique within the CMAP namespace. The name can contain up to 64 characters. The name can include lowercase letters, numbers, underscores (_), and hyphens (-). The name can't start with a hyphen.
   *  If the ``discoveryName`` isn't specified, the port mapping name from the task definition is used in ``portName.namespace``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}
   */
   readonly discoveryName?: string;
   /**
@@ -4777,25 +4970,25 @@ export interface EcsServiceServiceConnectConfigurationServices {
   *  Use the value of this field to bypass the proxy for traffic on the port number specified in the named ``portMapping`` in the task definition of this application, and then use it in your VPC security groups to allow traffic into the proxy for this Amazon ECS service.
   *  In ``awsvpc`` mode and Fargate, the default value is the container port number. The container port number is in the ``portMapping`` in the task definition. In bridge mode, the default value is the ephemeral port of the Service Connect proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}
   */
   readonly ingressPortOverride?: number;
   /**
   * The ``portName`` must match the name of one of the ``portMappings`` from all the containers in the task definition of this Amazon ECS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#port_name EcsService#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#port_name EcsService#port_name}
   */
   readonly portName?: string;
   /**
   * A reference to an object that represents the configured timeouts for Service Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#timeout EcsService#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#timeout EcsService#timeout}
   */
   readonly timeout?: EcsServiceServiceConnectConfigurationServicesTimeout;
   /**
   * A reference to an object that represents a Transport Layer Security (TLS) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#tls EcsService#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#tls EcsService#tls}
   */
   readonly tls?: EcsServiceServiceConnectConfigurationServicesTls;
 }
@@ -4955,7 +5148,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // discovery_name - computed: true, optional: true, required: false
-  private _discoveryName?: string; 
+  private _discoveryName?: string;
   public get discoveryName() {
     return this.getStringAttribute('discovery_name');
   }
@@ -4971,7 +5164,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // ingress_port_override - computed: true, optional: true, required: false
-  private _ingressPortOverride?: number; 
+  private _ingressPortOverride?: number;
   public get ingressPortOverride() {
     return this.getNumberAttribute('ingress_port_override');
   }
@@ -4987,7 +5180,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // port_name - computed: true, optional: true, required: false
-  private _portName?: string; 
+  private _portName?: string;
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -5059,13 +5252,13 @@ export interface EcsServiceServiceConnectConfiguration {
   * The configuration for Service Connect access logging. Access logs capture detailed information about requests made to your service, including request patterns, response codes, and timing data. They can be useful for debugging connectivity issues, monitoring service performance, and auditing service-to-service communication for security and compliance purposes.
   *   To enable access logs, you must also specify a ``logConfiguration`` in the ``serviceConnectConfiguration``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
   */
   readonly accessLogConfiguration?: EcsServiceServiceConnectConfigurationAccessLogConfiguration;
   /**
   * Specifies whether to use Service Connect with this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#enabled EcsService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#enabled EcsService#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
@@ -5079,21 +5272,21 @@ export interface EcsServiceServiceConnectConfiguration {
   *   +  For tasks that are hosted on Amazon EC2 instances, the Amazon ECS container agent must register the available logging drivers with the ``ECS_AVAILABLE_LOGGING_DRIVERS`` environment variable before containers placed on that instance can use these log configuration options. For more information, see [Amazon ECS container agent configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   +  For tasks that are on FARGATElong, because you don't have access to the underlying infrastructure your tasks are hosted on, any additional software needed must be installed outside of the task. For example, the Fluentd output aggregators or a remote host running Logstash to send Gelf logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
   */
   readonly logConfiguration?: EcsServiceServiceConnectConfigurationLogConfiguration;
   /**
   * The namespace name or full Amazon Resource Name (ARN) of the CMAPlong namespace for use with Service Connect. The namespace must be in the same AWS Region as the Amazon ECS service and cluster. The type of namespace doesn't affect Service Connect. For more information about CMAPlong, see [Working with Services](https://docs.aws.amazon.com/cloud-map/latest/dg/working-with-services.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#namespace EcsService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#namespace EcsService#namespace}
   */
   readonly namespace?: string;
   /**
-  * The list of Service Connect service objects. These are names and aliases (also known as endpoints) that are used by other Amazon ECS services to connect to this service. 
+  * The list of Service Connect service objects. These are names and aliases (also known as endpoints) that are used by other Amazon ECS services to connect to this service.
   *  This field is not required for a "client" Amazon ECS service that's a member of a namespace only to connect to other services within the namespace. An example of this would be a frontend application that accepts incoming requests from either a load balancer that's attached to the service or by other means.
   *  An object selects a port from the task definition, assigns a name for the CMAPlong service, and a list of aliases (endpoints) and ports for client applications to refer to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#services EcsService#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#services EcsService#services}
   */
   readonly services?: EcsServiceServiceConnectConfigurationServices[] | cdktn.IResolvable;
 }
@@ -5238,7 +5431,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -5270,7 +5463,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5305,25 +5498,25 @@ export interface EcsServiceServiceRegistries {
   /**
   * The container name value to be used for your service discovery service. It's already specified in the task definition. If the task definition that your service task specifies uses the ``bridge`` or ``host`` network mode, you must specify a ``containerName`` and ``containerPort`` combination from the task definition. If the task definition that your service task specifies uses the ``awsvpc`` network mode and a type SRV DNS record is used, you must specify either a ``containerName`` and ``containerPort`` combination or a ``port`` value. However, you can't specify both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#container_name EcsService#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#container_name EcsService#container_name}
   */
   readonly containerName?: string;
   /**
   * The port value to be used for your service discovery service. It's already specified in the task definition. If the task definition your service task specifies uses the ``bridge`` or ``host`` network mode, you must specify a ``containerName`` and ``containerPort`` combination from the task definition. If the task definition your service task specifies uses the ``awsvpc`` network mode and a type SRV DNS record is used, you must specify either a ``containerName`` and ``containerPort`` combination or a ``port`` value. However, you can't specify both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#container_port EcsService#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#container_port EcsService#container_port}
   */
   readonly containerPort?: number;
   /**
   * The port value used if your service discovery service specified an SRV record. This field might be used if both the ``awsvpc`` network mode and SRV records are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#port EcsService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#port EcsService#port}
   */
   readonly port?: number;
   /**
   * The Amazon Resource Name (ARN) of the service registry. The currently supported service registry is CMAP. For more information, see [CreateService](https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateService.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#registry_arn EcsService#registry_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#registry_arn EcsService#registry_arn}
   */
   readonly registryArn?: string;
 }
@@ -5441,7 +5634,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string; 
+  private _containerName?: string;
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -5457,7 +5650,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number; 
+  private _containerPort?: number;
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -5473,7 +5666,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -5489,7 +5682,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // registry_arn - computed: true, optional: true, required: false
-  private _registryArn?: string; 
+  private _registryArn?: string;
   public get registryArn() {
     return this.getStringAttribute('registry_arn');
   }
@@ -5528,13 +5721,13 @@ export interface EcsServiceTags {
   /**
   * One part of a key-value pair that make up a tag. A ``key`` is a general label that acts like a category for more specific tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#key EcsService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#key EcsService#key}
   */
   readonly key?: string;
   /**
   * The optional part of a key-value pair that make up a tag. A ``value`` acts as a descriptor within a tag category (key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#value EcsService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#value EcsService#value}
   */
   readonly value?: string;
 }
@@ -5626,7 +5819,7 @@ export class EcsServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5642,7 +5835,7 @@ export class EcsServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5681,13 +5874,13 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecifications
   /**
   * One part of a key-value pair that make up a tag. A ``key`` is a general label that acts like a category for more specific tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#key EcsService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#key EcsService#key}
   */
   readonly key?: string;
   /**
   * The optional part of a key-value pair that make up a tag. A ``value`` acts as a descriptor within a tag category (key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#value EcsService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#value EcsService#value}
   */
   readonly value?: string;
 }
@@ -5779,7 +5972,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsTags
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5795,7 +5988,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsTags
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5834,19 +6027,19 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecifications
   /**
   * Determines whether to propagate the tags from the task definition to the Amazon EBS volume. Tags can only propagate to a ``SERVICE`` specified in ``ServiceVolumeConfiguration``. If no value is specified, the tags aren't propagated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
   * The type of volume resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
   */
   readonly resourceType?: string;
   /**
   * The tags applied to this Amazon EBS volume. ``AmazonECSCreated`` and ``AmazonECSManaged`` are reserved tags that can't be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#tags EcsService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#tags EcsService#tags}
   */
   readonly tags?: EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsTags[] | cdktn.IResolvable;
 }
@@ -5951,7 +6144,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsOutp
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -5967,7 +6160,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsOutp
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -6022,7 +6215,7 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   /**
   * Indicates whether the volume should be encrypted. If you turn on Region-level Amazon EBS encryption by default but set this value as ``false``, the setting is overridden and the volume is encrypted with the KMS key specified for Amazon EBS encryption by default. This parameter maps 1:1 with the ``Encrypted`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#encrypted EcsService#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#encrypted EcsService#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
@@ -6030,7 +6223,7 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   *  The available Linux filesystem types are ``ext3``, ``ext4``, and ``xfs``. If no value is specified, the ``xfs`` filesystem type is used by default.
   *  The available Windows filesystem types are ``NTFS``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#filesystem_type EcsService#filesystem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#filesystem_type EcsService#filesystem_type}
   */
   readonly filesystemType?: string;
   /**
@@ -6039,24 +6232,24 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   *   +  ``gp3``: 3,000 - 16,000 IOPS
   *   +  ``io1``: 100 - 64,000 IOPS
   *   +  ``io2``: 100 - 256,000 IOPS
-  *   
+  *
   *  This parameter is required for ``io1`` and ``io2`` volume types. The default for ``gp3`` volumes is ``3,000 IOPS``. This parameter is not supported for ``st1``, ``sc1``, or ``standard`` volume types.
   *  This parameter maps 1:1 with the ``Iops`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#iops EcsService#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#iops EcsService#iops}
   */
   readonly iops?: number;
   /**
   * The Amazon Resource Name (ARN) identifier of the AWS Key Management Service key to use for Amazon EBS encryption. When a key is specified using this parameter, it overrides Amazon EBS default encryption or any KMS key that you specified for cluster-level managed storage encryption. This parameter maps 1:1 with the ``KmsKeyId`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*. For more information about encrypting Amazon EBS volumes attached to tasks, see [Encrypt data stored in Amazon EBS volumes attached to Amazon ECS tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ebs-kms-encryption.html).
   *   AWS authenticates the AWS Key Management Service key asynchronously. Therefore, if you specify an ID, alias, or ARN that is invalid, the action can appear to complete, but eventually fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#kms_key_id EcsService#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#kms_key_id EcsService#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The ARN of the IAM role to associate with this volume. This is the Amazon ECS infrastructure IAM role that is used to manage your AWS infrastructure. We recommend using the Amazon ECS-managed ``AmazonECSInfrastructureRolePolicyForVolumes`` IAM policy with this role. For more information, see [Amazon ECS infrastructure IAM role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/infrastructure_IAM_role.html) in the *Amazon ECS Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
   */
   readonly roleArn?: string;
   /**
@@ -6067,32 +6260,32 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   *   +  ``st1`` and ``sc1``: 125-16,384
   *   +  ``standard``: 1-1,024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#size_in_gi_b EcsService#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#size_in_gi_b EcsService#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
   /**
   * The snapshot that Amazon ECS uses to create volumes for attachment to tasks maintained by the service. You must specify either ``snapshotId`` or ``sizeInGiB`` in your volume configuration. This parameter maps 1:1 with the ``SnapshotId`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#snapshot_id EcsService#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#snapshot_id EcsService#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The tags to apply to the volume. Amazon ECS applies service-managed tags by default. This parameter maps 1:1 with the ``TagSpecifications.N`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#tag_specifications EcsService#tag_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#tag_specifications EcsService#tag_specifications}
   */
   readonly tagSpecifications?: EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecifications[] | cdktn.IResolvable;
   /**
   * The throughput to provision for a volume, in MiB/s, with a maximum of 1,000 MiB/s. This parameter maps 1:1 with the ``Throughput`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *   This parameter is only supported for the ``gp3`` volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#throughput EcsService#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#throughput EcsService#throughput}
   */
   readonly throughput?: number;
   /**
   * The rate, in MiB/s, at which data is fetched from a snapshot of an existing EBS volume to create new volumes for attachment to the tasks maintained by the service. This property can be specified only if you specify a ``snapshotId``. For more information, see [Initialize Amazon EBS volumes](https://docs.aws.amazon.com/ebs/latest/userguide/initalize-volume.html) in the *Amazon EBS User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#volume_initialization_rate EcsService#volume_initialization_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#volume_initialization_rate EcsService#volume_initialization_rate}
   */
   readonly volumeInitializationRate?: number;
   /**
@@ -6105,7 +6298,7 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   *   +  Magnetic: ``standard``
   *   The magnetic volume type is not supported on Fargate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#volume_type EcsService#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#volume_type EcsService#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -6312,7 +6505,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -6328,7 +6521,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // filesystem_type - computed: true, optional: true, required: false
-  private _filesystemType?: string; 
+  private _filesystemType?: string;
   public get filesystemType() {
     return this.getStringAttribute('filesystem_type');
   }
@@ -6344,7 +6537,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -6360,7 +6553,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -6376,7 +6569,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6392,7 +6585,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number; 
+  private _sizeInGiB?: number;
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -6408,7 +6601,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -6440,7 +6633,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number; 
+  private _throughput?: number;
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -6456,7 +6649,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // volume_initialization_rate - computed: true, optional: true, required: false
-  private _volumeInitializationRate?: number; 
+  private _volumeInitializationRate?: number;
   public get volumeInitializationRate() {
     return this.getNumberAttribute('volume_initialization_rate');
   }
@@ -6472,7 +6665,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -6491,13 +6684,13 @@ export interface EcsServiceVolumeConfigurations {
   /**
   * The configuration for the Amazon EBS volume that Amazon ECS creates and manages on your behalf. These settings are used to create each Amazon EBS volume, with one volume created for each task in the service. The Amazon EBS volumes are visible in your account in the Amazon EC2 console once they are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
   */
   readonly managedEbsVolume?: EcsServiceVolumeConfigurationsManagedEbsVolume;
   /**
   * The name of the volume. This value must match the volume name from the ``Volume`` object in the task definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#name EcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#name EcsService#name}
   */
   readonly name?: string;
 }
@@ -6605,7 +6798,7 @@ export class EcsServiceVolumeConfigurationsOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6644,19 +6837,19 @@ export interface EcsServiceVpcLatticeConfigurations {
   /**
   * The name of the port mapping to register in the VPC Lattice target group. This is the name of the ``portMapping`` you defined in your task definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#port_name EcsService#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#port_name EcsService#port_name}
   */
   readonly portName?: string;
   /**
   * The ARN of the IAM role to associate with this VPC Lattice configuration. This is the Amazon ECS infrastructure IAM role that is used to manage your VPC Lattice infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The full Amazon Resource Name (ARN) of the target group or groups associated with the VPC Lattice configuration that the Amazon ECS tasks will be registered to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
   */
   readonly targetGroupArn?: string;
 }
@@ -6761,7 +6954,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // port_name - computed: true, optional: true, required: false
-  private _portName?: string; 
+  private _portName?: string;
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -6777,7 +6970,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6793,7 +6986,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string; 
+  private _targetGroupArn?: string;
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -6830,7 +7023,7 @@ export class EcsServiceVpcLatticeConfigurationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service awscc_ecs_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service awscc_ecs_service}
 */
 export class EcsService extends cdktn.TerraformResource {
 
@@ -6846,7 +7039,7 @@ export class EcsService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcsService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsService to import
-  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6858,7 +7051,7 @@ export class EcsService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_service awscc_ecs_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service awscc_ecs_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6869,7 +7062,7 @@ export class EcsService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecs_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6913,7 +7106,7 @@ export class EcsService extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone_rebalancing - computed: true, optional: true, required: false
-  private _availabilityZoneRebalancing?: string; 
+  private _availabilityZoneRebalancing?: string;
   public get availabilityZoneRebalancing() {
     return this.getStringAttribute('availability_zone_rebalancing');
   }
@@ -6945,7 +7138,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // cluster - computed: true, optional: true, required: false
-  private _cluster?: string; 
+  private _cluster?: string;
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -6993,7 +7186,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // desired_count - computed: true, optional: true, required: false
-  private _desiredCount?: number; 
+  private _desiredCount?: number;
   public get desiredCount() {
     return this.getNumberAttribute('desired_count');
   }
@@ -7009,7 +7202,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_ecs_managed_tags - computed: true, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -7025,7 +7218,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -7057,7 +7250,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period_seconds - computed: true, optional: true, required: false
-  private _healthCheckGracePeriodSeconds?: number; 
+  private _healthCheckGracePeriodSeconds?: number;
   public get healthCheckGracePeriodSeconds() {
     return this.getNumberAttribute('health_check_grace_period_seconds');
   }
@@ -7078,7 +7271,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string; 
+  private _launchType?: string;
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -7179,7 +7372,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -7195,7 +7388,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -7211,7 +7404,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string; 
+  private _role?: string;
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -7227,7 +7420,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // scheduling_strategy - computed: true, optional: true, required: false
-  private _schedulingStrategy?: string; 
+  private _schedulingStrategy?: string;
   public get schedulingStrategy() {
     return this.getStringAttribute('scheduling_strategy');
   }
@@ -7264,7 +7457,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string; 
+  private _serviceName?: string;
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -7312,7 +7505,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // task_definition - computed: true, optional: true, required: false
-  private _taskDefinition?: string; 
+  private _taskDefinition?: string;
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

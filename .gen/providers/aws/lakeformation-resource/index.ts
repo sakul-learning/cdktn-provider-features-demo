@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktn from 'cdktn';
 
 export interface LakeformationResourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#arn LakeformationResource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#arn LakeformationResource#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#hybrid_access_enabled LakeformationResource#hybrid_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#hybrid_access_enabled LakeformationResource#hybrid_access_enabled}
   */
   readonly hybridAccessEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#id LakeformationResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#id LakeformationResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,29 +25,29 @@ export interface LakeformationResourceConfig extends cdktn.TerraformMetaArgument
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#region LakeformationResource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#region LakeformationResource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#role_arn LakeformationResource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#role_arn LakeformationResource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#use_service_linked_role LakeformationResource#use_service_linked_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#use_service_linked_role LakeformationResource#use_service_linked_role}
   */
   readonly useServiceLinkedRole?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#with_federation LakeformationResource#with_federation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#with_federation LakeformationResource#with_federation}
   */
   readonly withFederation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#with_privileged_access LakeformationResource#with_privileged_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#with_privileged_access LakeformationResource#with_privileged_access}
   */
   readonly withPrivilegedAccess?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource aws_lakeformation_resource}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource aws_lakeformation_resource}
 */
 export class LakeformationResource extends cdktn.TerraformResource {
 
@@ -63,7 +63,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LakeformationResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LakeformationResource to import
-  * @param importFromId The id of the existing LakeformationResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LakeformationResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LakeformationResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -75,7 +75,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lakeformation_resource',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,7 +111,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -124,7 +124,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // hybrid_access_enabled - computed: true, optional: true, required: false
-  private _hybridAccessEnabled?: boolean | cdktn.IResolvable; 
+  private _hybridAccessEnabled?: boolean | cdktn.IResolvable;
   public get hybridAccessEnabled() {
     return this.getBooleanAttribute('hybrid_access_enabled');
   }
@@ -140,7 +140,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -177,7 +177,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -193,7 +193,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // use_service_linked_role - computed: false, optional: true, required: false
-  private _useServiceLinkedRole?: boolean | cdktn.IResolvable; 
+  private _useServiceLinkedRole?: boolean | cdktn.IResolvable;
   public get useServiceLinkedRole() {
     return this.getBooleanAttribute('use_service_linked_role');
   }
@@ -209,7 +209,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // with_federation - computed: true, optional: true, required: false
-  private _withFederation?: boolean | cdktn.IResolvable; 
+  private _withFederation?: boolean | cdktn.IResolvable;
   public get withFederation() {
     return this.getBooleanAttribute('with_federation');
   }
@@ -225,7 +225,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // with_privileged_access - computed: true, optional: true, required: false
-  private _withPrivilegedAccess?: boolean | cdktn.IResolvable; 
+  private _withPrivilegedAccess?: boolean | cdktn.IResolvable;
   public get withPrivilegedAccess() {
     return this.getBooleanAttribute('with_privileged_access');
   }

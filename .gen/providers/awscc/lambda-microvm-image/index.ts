@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,83 +8,83 @@ import * as cdktn from 'cdktn';
 
 export interface LambdaMicrovmImageConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#additional_os_capabilities LambdaMicrovmImage#additional_os_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#additional_os_capabilities LambdaMicrovmImage#additional_os_capabilities}
   */
   readonly additionalOsCapabilities: string[];
   /**
   * ARN of the base MicroVM image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#base_image_arn LambdaMicrovmImage#base_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#base_image_arn LambdaMicrovmImage#base_image_arn}
   */
   readonly baseImageArn: string;
   /**
   * Specific version of the base MicroVM image to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#base_image_version LambdaMicrovmImage#base_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#base_image_version LambdaMicrovmImage#base_image_version}
   */
   readonly baseImageVersion: string;
   /**
   * ARN of the IAM build role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#build_role_arn LambdaMicrovmImage#build_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#build_role_arn LambdaMicrovmImage#build_role_arn}
   */
   readonly buildRoleArn: string;
   /**
   * Code artifact for the active MicroVM image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#code_artifact LambdaMicrovmImage#code_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#code_artifact LambdaMicrovmImage#code_artifact}
   */
   readonly codeArtifact: LambdaMicrovmImageCodeArtifact;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#cpu_configurations LambdaMicrovmImage#cpu_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#cpu_configurations LambdaMicrovmImage#cpu_configurations}
   */
   readonly cpuConfigurations: LambdaMicrovmImageCpuConfigurations[] | cdktn.IResolvable;
   /**
   * Human-readable description of the MicroVM image and its purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#description LambdaMicrovmImage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#description LambdaMicrovmImage#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#egress_network_connectors LambdaMicrovmImage#egress_network_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#egress_network_connectors LambdaMicrovmImage#egress_network_connectors}
   */
   readonly egressNetworkConnectors: string[];
   /**
   * Environment variables to set in the container during the snapshot build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#environment_variables LambdaMicrovmImage#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#environment_variables LambdaMicrovmImage#environment_variables}
   */
   readonly environmentVariables: LambdaMicrovmImageEnvironmentVariables[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#hooks LambdaMicrovmImage#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#hooks LambdaMicrovmImage#hooks}
   */
   readonly hooks: LambdaMicrovmImageHooks;
   /**
   * Configuration for MicroVM image logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#logging LambdaMicrovmImage#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#logging LambdaMicrovmImage#logging}
   */
   readonly logging: LambdaMicrovmImageLogging;
   /**
   * Unique name for the MicroVM image within the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#name LambdaMicrovmImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#name LambdaMicrovmImage#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#resources LambdaMicrovmImage#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#resources LambdaMicrovmImage#resources}
   */
   readonly resources: LambdaMicrovmImageResources[] | cdktn.IResolvable;
   /**
   * Key-value pairs to associate with the MicroVM image for organization and management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#tags LambdaMicrovmImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#tags LambdaMicrovmImage#tags}
   */
   readonly tags?: LambdaMicrovmImageTags[] | cdktn.IResolvable;
 }
 export interface LambdaMicrovmImageCodeArtifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#uri LambdaMicrovmImage#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#uri LambdaMicrovmImage#uri}
   */
   readonly uri: string;
 }
@@ -161,7 +161,7 @@ export class LambdaMicrovmImageCodeArtifactOutputReference extends cdktn.Complex
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -175,7 +175,7 @@ export class LambdaMicrovmImageCodeArtifactOutputReference extends cdktn.Complex
 }
 export interface LambdaMicrovmImageCpuConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#architecture LambdaMicrovmImage#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#architecture LambdaMicrovmImage#architecture}
   */
   readonly architecture: string;
 }
@@ -254,7 +254,7 @@ export class LambdaMicrovmImageCpuConfigurationsOutputReference extends cdktn.Co
   }
 
   // architecture - computed: false, optional: false, required: true
-  private _architecture?: string; 
+  private _architecture?: string;
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -288,11 +288,11 @@ export class LambdaMicrovmImageCpuConfigurationsList extends cdktn.ComplexList {
 }
 export interface LambdaMicrovmImageEnvironmentVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#key LambdaMicrovmImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#key LambdaMicrovmImage#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#value LambdaMicrovmImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#value LambdaMicrovmImage#value}
   */
   readonly value: string;
 }
@@ -384,7 +384,7 @@ export class LambdaMicrovmImageEnvironmentVariablesOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -397,7 +397,7 @@ export class LambdaMicrovmImageEnvironmentVariablesOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -431,35 +431,35 @@ export class LambdaMicrovmImageEnvironmentVariablesList extends cdktn.ComplexLis
 }
 export interface LambdaMicrovmImageHooksMicrovmHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#resume LambdaMicrovmImage#resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#resume LambdaMicrovmImage#resume}
   */
   readonly resume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#resume_timeout_in_seconds LambdaMicrovmImage#resume_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#resume_timeout_in_seconds LambdaMicrovmImage#resume_timeout_in_seconds}
   */
   readonly resumeTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#run LambdaMicrovmImage#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#run LambdaMicrovmImage#run}
   */
   readonly run?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#run_timeout_in_seconds LambdaMicrovmImage#run_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#run_timeout_in_seconds LambdaMicrovmImage#run_timeout_in_seconds}
   */
   readonly runTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#suspend LambdaMicrovmImage#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#suspend LambdaMicrovmImage#suspend}
   */
   readonly suspend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#suspend_timeout_in_seconds LambdaMicrovmImage#suspend_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#suspend_timeout_in_seconds LambdaMicrovmImage#suspend_timeout_in_seconds}
   */
   readonly suspendTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#terminate LambdaMicrovmImage#terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#terminate LambdaMicrovmImage#terminate}
   */
   readonly terminate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#terminate_timeout_in_seconds LambdaMicrovmImage#terminate_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#terminate_timeout_in_seconds LambdaMicrovmImage#terminate_timeout_in_seconds}
   */
   readonly terminateTimeoutInSeconds?: number;
 }
@@ -627,7 +627,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // resume - computed: true, optional: true, required: false
-  private _resume?: string; 
+  private _resume?: string;
   public get resume() {
     return this.getStringAttribute('resume');
   }
@@ -643,7 +643,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // resume_timeout_in_seconds - computed: true, optional: true, required: false
-  private _resumeTimeoutInSeconds?: number; 
+  private _resumeTimeoutInSeconds?: number;
   public get resumeTimeoutInSeconds() {
     return this.getNumberAttribute('resume_timeout_in_seconds');
   }
@@ -659,7 +659,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // run - computed: true, optional: true, required: false
-  private _run?: string; 
+  private _run?: string;
   public get run() {
     return this.getStringAttribute('run');
   }
@@ -675,7 +675,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // run_timeout_in_seconds - computed: true, optional: true, required: false
-  private _runTimeoutInSeconds?: number; 
+  private _runTimeoutInSeconds?: number;
   public get runTimeoutInSeconds() {
     return this.getNumberAttribute('run_timeout_in_seconds');
   }
@@ -691,7 +691,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // suspend - computed: true, optional: true, required: false
-  private _suspend?: string; 
+  private _suspend?: string;
   public get suspend() {
     return this.getStringAttribute('suspend');
   }
@@ -707,7 +707,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // suspend_timeout_in_seconds - computed: true, optional: true, required: false
-  private _suspendTimeoutInSeconds?: number; 
+  private _suspendTimeoutInSeconds?: number;
   public get suspendTimeoutInSeconds() {
     return this.getNumberAttribute('suspend_timeout_in_seconds');
   }
@@ -723,7 +723,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // terminate - computed: true, optional: true, required: false
-  private _terminate?: string; 
+  private _terminate?: string;
   public get terminate() {
     return this.getStringAttribute('terminate');
   }
@@ -739,7 +739,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // terminate_timeout_in_seconds - computed: true, optional: true, required: false
-  private _terminateTimeoutInSeconds?: number; 
+  private _terminateTimeoutInSeconds?: number;
   public get terminateTimeoutInSeconds() {
     return this.getNumberAttribute('terminate_timeout_in_seconds');
   }
@@ -756,19 +756,19 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
 }
 export interface LambdaMicrovmImageHooksMicrovmImageHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#ready LambdaMicrovmImage#ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#ready LambdaMicrovmImage#ready}
   */
   readonly ready?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#ready_timeout_in_seconds LambdaMicrovmImage#ready_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#ready_timeout_in_seconds LambdaMicrovmImage#ready_timeout_in_seconds}
   */
   readonly readyTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#validate LambdaMicrovmImage#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#validate LambdaMicrovmImage#validate}
   */
   readonly validate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#validate_timeout_in_seconds LambdaMicrovmImage#validate_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#validate_timeout_in_seconds LambdaMicrovmImage#validate_timeout_in_seconds}
   */
   readonly validateTimeoutInSeconds?: number;
 }
@@ -884,7 +884,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // ready - computed: true, optional: true, required: false
-  private _ready?: string; 
+  private _ready?: string;
   public get ready() {
     return this.getStringAttribute('ready');
   }
@@ -900,7 +900,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // ready_timeout_in_seconds - computed: true, optional: true, required: false
-  private _readyTimeoutInSeconds?: number; 
+  private _readyTimeoutInSeconds?: number;
   public get readyTimeoutInSeconds() {
     return this.getNumberAttribute('ready_timeout_in_seconds');
   }
@@ -916,7 +916,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // validate - computed: true, optional: true, required: false
-  private _validate?: string; 
+  private _validate?: string;
   public get validate() {
     return this.getStringAttribute('validate');
   }
@@ -932,7 +932,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // validate_timeout_in_seconds - computed: true, optional: true, required: false
-  private _validateTimeoutInSeconds?: number; 
+  private _validateTimeoutInSeconds?: number;
   public get validateTimeoutInSeconds() {
     return this.getNumberAttribute('validate_timeout_in_seconds');
   }
@@ -949,15 +949,15 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
 }
 export interface LambdaMicrovmImageHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#microvm_hooks LambdaMicrovmImage#microvm_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#microvm_hooks LambdaMicrovmImage#microvm_hooks}
   */
   readonly microvmHooks?: LambdaMicrovmImageHooksMicrovmHooks;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#microvm_image_hooks LambdaMicrovmImage#microvm_image_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#microvm_image_hooks LambdaMicrovmImage#microvm_image_hooks}
   */
   readonly microvmImageHooks?: LambdaMicrovmImageHooksMicrovmImageHooks;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#port LambdaMicrovmImage#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#port LambdaMicrovmImage#port}
   */
   readonly port?: number;
 }
@@ -1092,7 +1092,7 @@ export class LambdaMicrovmImageHooksOutputReference extends cdktn.ComplexObject 
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number; 
+  private _port?: number;
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1109,11 +1109,11 @@ export class LambdaMicrovmImageHooksOutputReference extends cdktn.ComplexObject 
 }
 export interface LambdaMicrovmImageLoggingCloudwatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#log_group LambdaMicrovmImage#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#log_group LambdaMicrovmImage#log_group}
   */
   readonly logGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#log_stream LambdaMicrovmImage#log_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#log_stream LambdaMicrovmImage#log_stream}
   */
   readonly logStream?: string;
 }
@@ -1203,7 +1203,7 @@ export class LambdaMicrovmImageLoggingCloudwatchOutputReference extends cdktn.Co
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string; 
+  private _logGroup?: string;
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1219,7 +1219,7 @@ export class LambdaMicrovmImageLoggingCloudwatchOutputReference extends cdktn.Co
   }
 
   // log_stream - computed: true, optional: true, required: false
-  private _logStream?: string; 
+  private _logStream?: string;
   public get logStream() {
     return this.getStringAttribute('log_stream');
   }
@@ -1236,11 +1236,11 @@ export class LambdaMicrovmImageLoggingCloudwatchOutputReference extends cdktn.Co
 }
 export interface LambdaMicrovmImageLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#cloudwatch LambdaMicrovmImage#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#cloudwatch LambdaMicrovmImage#cloudwatch}
   */
   readonly cloudwatch?: LambdaMicrovmImageLoggingCloudwatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#disabled LambdaMicrovmImage#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#disabled LambdaMicrovmImage#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
 }
@@ -1346,7 +1346,7 @@ export class LambdaMicrovmImageLoggingOutputReference extends cdktn.ComplexObjec
   }
 
   // disabled - computed: true, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -1363,7 +1363,7 @@ export class LambdaMicrovmImageLoggingOutputReference extends cdktn.ComplexObjec
 }
 export interface LambdaMicrovmImageResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#minimum_memory_in_mi_b LambdaMicrovmImage#minimum_memory_in_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#minimum_memory_in_mi_b LambdaMicrovmImage#minimum_memory_in_mi_b}
   */
   readonly minimumMemoryInMiB: number;
 }
@@ -1442,7 +1442,7 @@ export class LambdaMicrovmImageResourcesOutputReference extends cdktn.ComplexObj
   }
 
   // minimum_memory_in_mi_b - computed: false, optional: false, required: true
-  private _minimumMemoryInMiB?: number; 
+  private _minimumMemoryInMiB?: number;
   public get minimumMemoryInMiB() {
     return this.getNumberAttribute('minimum_memory_in_mi_b');
   }
@@ -1478,13 +1478,13 @@ export interface LambdaMicrovmImageTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#key LambdaMicrovmImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#key LambdaMicrovmImage#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#value LambdaMicrovmImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#value LambdaMicrovmImage#value}
   */
   readonly value?: string;
 }
@@ -1576,7 +1576,7 @@ export class LambdaMicrovmImageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1592,7 +1592,7 @@ export class LambdaMicrovmImageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1629,7 +1629,7 @@ export class LambdaMicrovmImageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image}
 */
 export class LambdaMicrovmImage extends cdktn.TerraformResource {
 
@@ -1645,7 +1645,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaMicrovmImage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaMicrovmImage to import
-  * @param importFromId The id of the existing LambdaMicrovmImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaMicrovmImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaMicrovmImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1657,7 +1657,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1668,7 +1668,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_microvm_image',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1699,7 +1699,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   // ==========
 
   // additional_os_capabilities - computed: false, optional: false, required: true
-  private _additionalOsCapabilities?: string[]; 
+  private _additionalOsCapabilities?: string[];
   public get additionalOsCapabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_os_capabilities'));
   }
@@ -1712,7 +1712,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // base_image_arn - computed: false, optional: false, required: true
-  private _baseImageArn?: string; 
+  private _baseImageArn?: string;
   public get baseImageArn() {
     return this.getStringAttribute('base_image_arn');
   }
@@ -1725,7 +1725,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // base_image_version - computed: false, optional: false, required: true
-  private _baseImageVersion?: string; 
+  private _baseImageVersion?: string;
   public get baseImageVersion() {
     return this.getStringAttribute('base_image_version');
   }
@@ -1738,7 +1738,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // build_role_arn - computed: false, optional: false, required: true
-  private _buildRoleArn?: string; 
+  private _buildRoleArn?: string;
   public get buildRoleArn() {
     return this.getStringAttribute('build_role_arn');
   }
@@ -1782,7 +1782,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1795,7 +1795,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // egress_network_connectors - computed: false, optional: false, required: true
-  private _egressNetworkConnectors?: string[]; 
+  private _egressNetworkConnectors?: string[];
   public get egressNetworkConnectors() {
     return cdktn.Fn.tolist(this.getListAttribute('egress_network_connectors'));
   }
@@ -1867,7 +1867,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

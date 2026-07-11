@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface OmicsConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional description for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
   */
   readonly description?: string;
   /**
   * User-friendly name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
   */
   readonly name: string;
   /**
   * Required run-specific configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
   */
   readonly runConfigurations: OmicsConfigurationRunConfigurations;
   /**
   * Tags for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface OmicsConfigurationRunConfigurationsVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -128,7 +128,7 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[]; 
+  private _securityGroupIds?: string[];
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -144,7 +144,7 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[]; 
+  private _subnetIds?: string[];
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -161,7 +161,7 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
 }
 export interface OmicsConfigurationRunConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}
   */
   readonly vpcConfig?: OmicsConfigurationRunConfigurationsVpcConfig;
 }
@@ -255,7 +255,7 @@ export class OmicsConfigurationRunConfigurationsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration awscc_omics_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration awscc_omics_configuration}
 */
 export class OmicsConfiguration extends cdktn.TerraformResource {
 
@@ -271,7 +271,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsConfiguration to import
-  * @param importFromId The id of the existing OmicsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -283,7 +283,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_configuration awscc_omics_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_configuration awscc_omics_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,7 +294,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -325,7 +325,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -346,7 +346,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -377,7 +377,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface NetworkmanagerVpcAttachmentConfig extends cdktn.TerraformMetaAr
   /**
   * The ID of a core network for the VPC attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#core_network_id NetworkmanagerVpcAttachment#core_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#core_network_id NetworkmanagerVpcAttachment#core_network_id}
   */
   readonly coreNetworkId: string;
   /**
   * Vpc options of the attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#options NetworkmanagerVpcAttachment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#options NetworkmanagerVpcAttachment#options}
   */
   readonly options?: NetworkmanagerVpcAttachmentOptions;
   /**
   * The attachment to move from one network function group to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#proposed_network_function_group_change NetworkmanagerVpcAttachment#proposed_network_function_group_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#proposed_network_function_group_change NetworkmanagerVpcAttachment#proposed_network_function_group_change}
   */
   readonly proposedNetworkFunctionGroupChange?: NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange;
   /**
   * The attachment to move from one segment to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#proposed_segment_change NetworkmanagerVpcAttachment#proposed_segment_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#proposed_segment_change NetworkmanagerVpcAttachment#proposed_segment_change}
   */
   readonly proposedSegmentChange?: NetworkmanagerVpcAttachmentProposedSegmentChange;
   /**
   * Routing policy label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#routing_policy_label NetworkmanagerVpcAttachment#routing_policy_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#routing_policy_label NetworkmanagerVpcAttachment#routing_policy_label}
   */
   readonly routingPolicyLabel?: string;
   /**
   * Subnet Arn list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#subnet_arns NetworkmanagerVpcAttachment#subnet_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#subnet_arns NetworkmanagerVpcAttachment#subnet_arns}
   */
   readonly subnetArns: string[];
   /**
   * Tags for the attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
   */
   readonly tags?: NetworkmanagerVpcAttachmentTags[] | cdktn.IResolvable;
   /**
   * The ARN of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#vpc_arn NetworkmanagerVpcAttachment#vpc_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#vpc_arn NetworkmanagerVpcAttachment#vpc_arn}
   */
   readonly vpcArn: string;
 }
@@ -60,25 +60,25 @@ export interface NetworkmanagerVpcAttachmentOptions {
   /**
   * Indicates whether to enable ApplianceModeSupport Support for Vpc Attachment. Valid Values: true | false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#appliance_mode_support NetworkmanagerVpcAttachment#appliance_mode_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#appliance_mode_support NetworkmanagerVpcAttachment#appliance_mode_support}
   */
   readonly applianceModeSupport?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether to enable private DNS Support for Vpc Attachment. Valid Values: true | false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#dns_support NetworkmanagerVpcAttachment#dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#dns_support NetworkmanagerVpcAttachment#dns_support}
   */
   readonly dnsSupport?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether to enable Ipv6 Support for Vpc Attachment. Valid Values: enable | disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#ipv_6_support NetworkmanagerVpcAttachment#ipv_6_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#ipv_6_support NetworkmanagerVpcAttachment#ipv_6_support}
   */
   readonly ipv6Support?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether to enable Security Group Referencing Support for Vpc Attachment. Valid Values: true | false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#security_group_referencing_support NetworkmanagerVpcAttachment#security_group_referencing_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#security_group_referencing_support NetworkmanagerVpcAttachment#security_group_referencing_support}
   */
   readonly securityGroupReferencingSupport?: boolean | cdktn.IResolvable;
 }
@@ -194,7 +194,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // appliance_mode_support - computed: true, optional: true, required: false
-  private _applianceModeSupport?: boolean | cdktn.IResolvable; 
+  private _applianceModeSupport?: boolean | cdktn.IResolvable;
   public get applianceModeSupport() {
     return this.getBooleanAttribute('appliance_mode_support');
   }
@@ -210,7 +210,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // dns_support - computed: true, optional: true, required: false
-  private _dnsSupport?: boolean | cdktn.IResolvable; 
+  private _dnsSupport?: boolean | cdktn.IResolvable;
   public get dnsSupport() {
     return this.getBooleanAttribute('dns_support');
   }
@@ -226,7 +226,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // ipv_6_support - computed: true, optional: true, required: false
-  private _ipv6Support?: boolean | cdktn.IResolvable; 
+  private _ipv6Support?: boolean | cdktn.IResolvable;
   public get ipv6Support() {
     return this.getBooleanAttribute('ipv_6_support');
   }
@@ -242,7 +242,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // security_group_referencing_support - computed: true, optional: true, required: false
-  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable; 
+  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable;
   public get securityGroupReferencingSupport() {
     return this.getBooleanAttribute('security_group_referencing_support');
   }
@@ -261,13 +261,13 @@ export interface NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTa
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
   */
   readonly value?: string;
 }
@@ -359,7 +359,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOu
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -375,7 +375,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -414,19 +414,19 @@ export interface NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange {
   /**
   * The rule number in the policy document that applies to this change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#attachment_policy_rule_number NetworkmanagerVpcAttachment#attachment_policy_rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#attachment_policy_rule_number NetworkmanagerVpcAttachment#attachment_policy_rule_number}
   */
   readonly attachmentPolicyRuleNumber?: number;
   /**
   * The name of the network function group to change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#network_function_group_name NetworkmanagerVpcAttachment#network_function_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#network_function_group_name NetworkmanagerVpcAttachment#network_function_group_name}
   */
   readonly networkFunctionGroupName?: string;
   /**
   * The key-value tags that changed for the network function group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
   */
   readonly tags?: NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags[] | cdktn.IResolvable;
 }
@@ -529,7 +529,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutput
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number; 
+  private _attachmentPolicyRuleNumber?: number;
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -545,7 +545,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutput
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string; 
+  private _networkFunctionGroupName?: string;
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -580,13 +580,13 @@ export interface NetworkmanagerVpcAttachmentProposedSegmentChangeTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
   */
   readonly value?: string;
 }
@@ -678,7 +678,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -694,7 +694,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -733,19 +733,19 @@ export interface NetworkmanagerVpcAttachmentProposedSegmentChange {
   /**
   * The rule number in the policy document that applies to this change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#attachment_policy_rule_number NetworkmanagerVpcAttachment#attachment_policy_rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#attachment_policy_rule_number NetworkmanagerVpcAttachment#attachment_policy_rule_number}
   */
   readonly attachmentPolicyRuleNumber?: number;
   /**
   * The name of the segment to change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#segment_name NetworkmanagerVpcAttachment#segment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#segment_name NetworkmanagerVpcAttachment#segment_name}
   */
   readonly segmentName?: string;
   /**
   * The key-value tags that changed for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
   */
   readonly tags?: NetworkmanagerVpcAttachmentProposedSegmentChangeTags[] | cdktn.IResolvable;
 }
@@ -848,7 +848,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference ext
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number; 
+  private _attachmentPolicyRuleNumber?: number;
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -864,7 +864,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference ext
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string; 
+  private _segmentName?: string;
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -899,13 +899,13 @@ export interface NetworkmanagerVpcAttachmentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
   */
   readonly value?: string;
 }
@@ -997,7 +997,7 @@ export class NetworkmanagerVpcAttachmentTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1013,7 +1013,7 @@ export class NetworkmanagerVpcAttachmentTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1050,7 +1050,7 @@ export class NetworkmanagerVpcAttachmentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}
 */
 export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
 
@@ -1066,7 +1066,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerVpcAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerVpcAttachment to import
-  * @param importFromId The id of the existing NetworkmanagerVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1078,7 +1078,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1089,7 +1089,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1134,7 +1134,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string; 
+  private _coreNetworkId?: string;
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -1230,7 +1230,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // routing_policy_label - computed: true, optional: true, required: false
-  private _routingPolicyLabel?: string; 
+  private _routingPolicyLabel?: string;
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -1256,7 +1256,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: false, optional: false, required: true
-  private _subnetArns?: string[]; 
+  private _subnetArns?: string[];
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -1290,7 +1290,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_arn - computed: false, optional: false, required: true
-  private _vpcArn?: string; 
+  private _vpcArn?: string;
   public get vpcArn() {
     return this.getStringAttribute('vpc_arn');
   }

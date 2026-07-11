@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerAppImageConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#app_image_config_name SagemakerAppImageConfig#app_image_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#app_image_config_name SagemakerAppImageConfig#app_image_config_name}
   */
   readonly appImageConfigName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#id SagemakerAppImageConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#id SagemakerAppImageConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,47 +21,47 @@ export interface SagemakerAppImageConfigConfig extends cdktn.TerraformMetaArgume
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#region SagemakerAppImageConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#region SagemakerAppImageConfig#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#tags SagemakerAppImageConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#tags SagemakerAppImageConfig#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#tags_all SagemakerAppImageConfig#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#tags_all SagemakerAppImageConfig#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * code_editor_app_image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#code_editor_app_image_config SagemakerAppImageConfig#code_editor_app_image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#code_editor_app_image_config SagemakerAppImageConfig#code_editor_app_image_config}
   */
   readonly codeEditorAppImageConfig?: SagemakerAppImageConfigCodeEditorAppImageConfig;
   /**
   * jupyter_lab_image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#jupyter_lab_image_config SagemakerAppImageConfig#jupyter_lab_image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#jupyter_lab_image_config SagemakerAppImageConfig#jupyter_lab_image_config}
   */
   readonly jupyterLabImageConfig?: SagemakerAppImageConfigJupyterLabImageConfig;
   /**
   * kernel_gateway_image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#kernel_gateway_image_config SagemakerAppImageConfig#kernel_gateway_image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#kernel_gateway_image_config SagemakerAppImageConfig#kernel_gateway_image_config}
   */
   readonly kernelGatewayImageConfig?: SagemakerAppImageConfigKernelGatewayImageConfig;
 }
 export interface SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_arguments SagemakerAppImageConfig#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_arguments SagemakerAppImageConfig#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_entrypoint SagemakerAppImageConfig#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_entrypoint SagemakerAppImageConfig#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_environment_variables SagemakerAppImageConfig#container_environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_environment_variables SagemakerAppImageConfig#container_environment_variables}
   */
   readonly containerEnvironmentVariables?: { [key: string]: string };
 }
@@ -154,7 +154,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[]; 
+  private _containerArguments?: string[];
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -170,7 +170,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[]; 
+  private _containerEntrypoint?: string[];
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -186,7 +186,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_environment_variables - computed: false, optional: true, required: false
-  private _containerEnvironmentVariables?: { [key: string]: string }; 
+  private _containerEnvironmentVariables?: { [key: string]: string };
   public get containerEnvironmentVariables() {
     return this.getStringMapAttribute('container_environment_variables');
   }
@@ -203,15 +203,15 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
 }
 export interface SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
   */
   readonly defaultGid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
   */
   readonly defaultUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -304,7 +304,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number; 
+  private _defaultGid?: number;
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -320,7 +320,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number; 
+  private _defaultUid?: number;
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -336,7 +336,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -355,13 +355,13 @@ export interface SagemakerAppImageConfigCodeEditorAppImageConfig {
   /**
   * container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_config SagemakerAppImageConfig#container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_config SagemakerAppImageConfig#container_config}
   */
   readonly containerConfig?: SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfig;
   /**
   * file_system_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
   */
   readonly fileSystemConfig?: SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfig;
 }
@@ -474,15 +474,15 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigOutputReference exte
 }
 export interface SagemakerAppImageConfigJupyterLabImageConfigContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_arguments SagemakerAppImageConfig#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_arguments SagemakerAppImageConfig#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_entrypoint SagemakerAppImageConfig#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_entrypoint SagemakerAppImageConfig#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_environment_variables SagemakerAppImageConfig#container_environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_environment_variables SagemakerAppImageConfig#container_environment_variables}
   */
   readonly containerEnvironmentVariables?: { [key: string]: string };
 }
@@ -575,7 +575,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[]; 
+  private _containerArguments?: string[];
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -591,7 +591,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[]; 
+  private _containerEntrypoint?: string[];
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -607,7 +607,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_environment_variables - computed: false, optional: true, required: false
-  private _containerEnvironmentVariables?: { [key: string]: string }; 
+  private _containerEnvironmentVariables?: { [key: string]: string };
   public get containerEnvironmentVariables() {
     return this.getStringMapAttribute('container_environment_variables');
   }
@@ -624,15 +624,15 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
 }
 export interface SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
   */
   readonly defaultGid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
   */
   readonly defaultUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -725,7 +725,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number; 
+  private _defaultGid?: number;
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -741,7 +741,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number; 
+  private _defaultUid?: number;
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -757,7 +757,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -776,13 +776,13 @@ export interface SagemakerAppImageConfigJupyterLabImageConfig {
   /**
   * container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#container_config SagemakerAppImageConfig#container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#container_config SagemakerAppImageConfig#container_config}
   */
   readonly containerConfig?: SagemakerAppImageConfigJupyterLabImageConfigContainerConfig;
   /**
   * file_system_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
   */
   readonly fileSystemConfig?: SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfig;
 }
@@ -895,15 +895,15 @@ export class SagemakerAppImageConfigJupyterLabImageConfigOutputReference extends
 }
 export interface SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_gid SagemakerAppImageConfig#default_gid}
   */
   readonly defaultGid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#default_uid SagemakerAppImageConfig#default_uid}
   */
   readonly defaultUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#mount_path SagemakerAppImageConfig#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -996,7 +996,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number; 
+  private _defaultGid?: number;
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -1012,7 +1012,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number; 
+  private _defaultUid?: number;
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -1028,7 +1028,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string; 
+  private _mountPath?: string;
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -1045,11 +1045,11 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
 }
 export interface SagemakerAppImageConfigKernelGatewayImageConfigKernelSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#display_name SagemakerAppImageConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#display_name SagemakerAppImageConfig#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#name SagemakerAppImageConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#name SagemakerAppImageConfig#name}
   */
   readonly name: string;
 }
@@ -1141,7 +1141,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigKernelSpecOutputRefe
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string; 
+  private _displayName?: string;
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1157,7 +1157,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigKernelSpecOutputRefe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1193,13 +1193,13 @@ export interface SagemakerAppImageConfigKernelGatewayImageConfig {
   /**
   * file_system_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#file_system_config SagemakerAppImageConfig#file_system_config}
   */
   readonly fileSystemConfig?: SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig;
   /**
   * kernel_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#kernel_spec SagemakerAppImageConfig#kernel_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#kernel_spec SagemakerAppImageConfig#kernel_spec}
   */
   readonly kernelSpec: SagemakerAppImageConfigKernelGatewayImageConfigKernelSpec[] | cdktn.IResolvable;
 }
@@ -1309,7 +1309,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config}
 */
 export class SagemakerAppImageConfig extends cdktn.TerraformResource {
 
@@ -1325,7 +1325,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerAppImageConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerAppImageConfig to import
-  * @param importFromId The id of the existing SagemakerAppImageConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerAppImageConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerAppImageConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1337,7 +1337,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1348,7 +1348,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sagemaker_app_image_config',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1373,7 +1373,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   // ==========
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string; 
+  private _appImageConfigName?: string;
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -1391,7 +1391,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1407,7 +1407,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1423,7 +1423,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1439,7 +1439,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

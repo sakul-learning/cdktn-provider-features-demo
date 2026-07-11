@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface EcsPrimaryTaskSetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The short name or full Amazon Resource Name (ARN) of the cluster that hosts the service to create the task set in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
   */
   readonly cluster: string;
   /**
   * The short name or full Amazon Resource Name (ARN) of the service to create the task set in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
   */
   readonly service: string;
   /**
   * The ID or full Amazon Resource Name (ARN) of the task set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
   */
   readonly taskSetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}
 */
 export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcsPrimaryTaskSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsPrimaryTaskSet to import
-  * @param importFromId The id of the existing EcsPrimaryTaskSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsPrimaryTaskSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsPrimaryTaskSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecs_primary_task_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   // ==========
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string; 
+  private _cluster?: string;
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -105,7 +105,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   }
 
   // service - computed: false, optional: false, required: true
-  private _service?: string; 
+  private _service?: string;
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -118,7 +118,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   }
 
   // task_set_id - computed: false, optional: false, required: true
-  private _taskSetId?: string; 
+  private _taskSetId?: string;
   public get taskSetId() {
     return this.getStringAttribute('task_set_id');
   }

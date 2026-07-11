@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RedshiftserverlessSnapshotConfig extends cdktn.TerraformMetaArg
   /**
   * The namespace the snapshot is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#namespace_name RedshiftserverlessSnapshot#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#namespace_name RedshiftserverlessSnapshot#namespace_name}
   */
   readonly namespaceName?: string;
   /**
   * The retention period of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#retention_period RedshiftserverlessSnapshot#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#retention_period RedshiftserverlessSnapshot#retention_period}
   */
   readonly retentionPeriod?: number;
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#snapshot_name RedshiftserverlessSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#snapshot_name RedshiftserverlessSnapshot#snapshot_name}
   */
   readonly snapshotName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#tags RedshiftserverlessSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#tags RedshiftserverlessSnapshot#tags}
   */
   readonly tags?: RedshiftserverlessSnapshotTags[] | cdktn.IResolvable;
 }
@@ -133,11 +133,11 @@ export class RedshiftserverlessSnapshotSnapshotOutputReference extends cdktn.Com
 }
 export interface RedshiftserverlessSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#key RedshiftserverlessSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#key RedshiftserverlessSnapshot#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#value RedshiftserverlessSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#value RedshiftserverlessSnapshot#value}
   */
   readonly value?: string;
 }
@@ -229,7 +229,7 @@ export class RedshiftserverlessSnapshotTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -245,7 +245,7 @@ export class RedshiftserverlessSnapshotTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -282,7 +282,7 @@ export class RedshiftserverlessSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot}
 */
 export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
 
@@ -298,7 +298,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftserverlessSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftserverlessSnapshot to import
-  * @param importFromId The id of the existing RedshiftserverlessSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftserverlessSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftserverlessSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -310,7 +310,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,7 +321,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshiftserverless_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -347,7 +347,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: true, optional: true, required: false
-  private _namespaceName?: string; 
+  private _namespaceName?: string;
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -368,7 +368,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // retention_period - computed: true, optional: true, required: false
-  private _retentionPeriod?: number; 
+  private _retentionPeriod?: number;
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -390,7 +390,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: false, optional: false, required: true
-  private _snapshotName?: string; 
+  private _snapshotName?: string;
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }

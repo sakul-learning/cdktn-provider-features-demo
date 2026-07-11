@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Route53ResolverFirewallRuleGroupConfig extends cdktn.TerraformM
   /**
   * FirewallRules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_rules Route53ResolverFirewallRuleGroup#firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_rules Route53ResolverFirewallRuleGroup#firewall_rules}
   */
   readonly firewallRules?: Route53ResolverFirewallRuleGroupFirewallRules[] | cdktn.IResolvable;
   /**
   * FirewallRuleGroupName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#name Route53ResolverFirewallRuleGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#name Route53ResolverFirewallRuleGroup#name}
   */
   readonly name?: string;
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#tags Route53ResolverFirewallRuleGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#tags Route53ResolverFirewallRuleGroup#tags}
   */
   readonly tags?: Route53ResolverFirewallRuleGroupTags[] | cdktn.IResolvable;
 }
@@ -30,7 +30,7 @@ export interface Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFi
   /**
   * The content category value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#category Route53ResolverFirewallRuleGroup#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#category Route53ResolverFirewallRuleGroup#category}
   */
   readonly category?: string;
 }
@@ -107,7 +107,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewa
   }
 
   // category - computed: true, optional: true, required: false
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -126,7 +126,7 @@ export interface Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFi
   /**
   * The threat category value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#category Route53ResolverFirewallRuleGroup#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#category Route53ResolverFirewallRuleGroup#category}
   */
   readonly category?: string;
 }
@@ -203,7 +203,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewa
   }
 
   // category - computed: true, optional: true, required: false
-  private _category?: string; 
+  private _category?: string;
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -222,7 +222,7 @@ export interface Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypePa
   /**
   * The partner identifier value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#partner Route53ResolverFirewallRuleGroup#partner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#partner Route53ResolverFirewallRuleGroup#partner}
   */
   readonly partner?: string;
 }
@@ -299,7 +299,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypePartne
   }
 
   // partner - computed: true, optional: true, required: false
-  private _partner?: string; 
+  private _partner?: string;
   public get partner() {
     return this.getStringAttribute('partner');
   }
@@ -318,19 +318,19 @@ export interface Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleType {
   /**
   * Configuration for an advanced content category rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_advanced_content_category Route53ResolverFirewallRuleGroup#firewall_advanced_content_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_advanced_content_category Route53ResolverFirewallRuleGroup#firewall_advanced_content_category}
   */
   readonly firewallAdvancedContentCategory?: Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewallAdvancedContentCategory;
   /**
   * Configuration for an advanced threat category rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_advanced_threat_category Route53ResolverFirewallRuleGroup#firewall_advanced_threat_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_advanced_threat_category Route53ResolverFirewallRuleGroup#firewall_advanced_threat_category}
   */
   readonly firewallAdvancedThreatCategory?: Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewallAdvancedThreatCategory;
   /**
   * Configuration for a partner threat protection rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#partner_threat_protection Route53ResolverFirewallRuleGroup#partner_threat_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#partner_threat_protection Route53ResolverFirewallRuleGroup#partner_threat_protection}
   */
   readonly partnerThreatProtection?: Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypePartnerThreatProtection;
 }
@@ -484,85 +484,85 @@ export interface Route53ResolverFirewallRuleGroupFirewallRules {
   /**
   * Rule Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#action Route53ResolverFirewallRuleGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#action Route53ResolverFirewallRuleGroup#action}
   */
   readonly action?: string;
   /**
   * BlockOverrideDnsType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#block_override_dns_type Route53ResolverFirewallRuleGroup#block_override_dns_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#block_override_dns_type Route53ResolverFirewallRuleGroup#block_override_dns_type}
   */
   readonly blockOverrideDnsType?: string;
   /**
   * BlockOverrideDomain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#block_override_domain Route53ResolverFirewallRuleGroup#block_override_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#block_override_domain Route53ResolverFirewallRuleGroup#block_override_domain}
   */
   readonly blockOverrideDomain?: string;
   /**
   * BlockOverrideTtl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#block_override_ttl Route53ResolverFirewallRuleGroup#block_override_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#block_override_ttl Route53ResolverFirewallRuleGroup#block_override_ttl}
   */
   readonly blockOverrideTtl?: number;
   /**
   * BlockResponse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#block_response Route53ResolverFirewallRuleGroup#block_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#block_response Route53ResolverFirewallRuleGroup#block_response}
   */
   readonly blockResponse?: string;
   /**
   * ConfidenceThreshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#confidence_threshold Route53ResolverFirewallRuleGroup#confidence_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#confidence_threshold Route53ResolverFirewallRuleGroup#confidence_threshold}
   */
   readonly confidenceThreshold?: string;
   /**
   * DnsThreatProtection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#dns_threat_protection Route53ResolverFirewallRuleGroup#dns_threat_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#dns_threat_protection Route53ResolverFirewallRuleGroup#dns_threat_protection}
   */
   readonly dnsThreatProtection?: string;
   /**
   * ResourceId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_domain_list_id Route53ResolverFirewallRuleGroup#firewall_domain_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_domain_list_id Route53ResolverFirewallRuleGroup#firewall_domain_list_id}
   */
   readonly firewallDomainListId?: string;
   /**
   * FirewallDomainRedirectionAction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_domain_redirection_action Route53ResolverFirewallRuleGroup#firewall_domain_redirection_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_domain_redirection_action Route53ResolverFirewallRuleGroup#firewall_domain_redirection_action}
   */
   readonly firewallDomainRedirectionAction?: string;
   /**
   * Advanced firewall rule type. Mutually exclusive with FirewallDomainListId and DnsThreatProtection/ConfidenceThreshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_rule_type Route53ResolverFirewallRuleGroup#firewall_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_rule_type Route53ResolverFirewallRuleGroup#firewall_rule_type}
   */
   readonly firewallRuleType?: Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleType;
   /**
   * ResourceId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#firewall_threat_protection_id Route53ResolverFirewallRuleGroup#firewall_threat_protection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#firewall_threat_protection_id Route53ResolverFirewallRuleGroup#firewall_threat_protection_id}
   */
   readonly firewallThreatProtectionId?: string;
   /**
   * Rule Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#priority Route53ResolverFirewallRuleGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#priority Route53ResolverFirewallRuleGroup#priority}
   */
   readonly priority?: number;
   /**
   * Qtype
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#qtype Route53ResolverFirewallRuleGroup#qtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#qtype Route53ResolverFirewallRuleGroup#qtype}
   */
   readonly qtype?: string;
   /**
   * The status of the firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#status Route53ResolverFirewallRuleGroup#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#status Route53ResolverFirewallRuleGroup#status}
   */
   readonly status?: string;
 }
@@ -810,7 +810,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -826,7 +826,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_dns_type - computed: true, optional: true, required: false
-  private _blockOverrideDnsType?: string; 
+  private _blockOverrideDnsType?: string;
   public get blockOverrideDnsType() {
     return this.getStringAttribute('block_override_dns_type');
   }
@@ -842,7 +842,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_domain - computed: true, optional: true, required: false
-  private _blockOverrideDomain?: string; 
+  private _blockOverrideDomain?: string;
   public get blockOverrideDomain() {
     return this.getStringAttribute('block_override_domain');
   }
@@ -858,7 +858,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_ttl - computed: true, optional: true, required: false
-  private _blockOverrideTtl?: number; 
+  private _blockOverrideTtl?: number;
   public get blockOverrideTtl() {
     return this.getNumberAttribute('block_override_ttl');
   }
@@ -874,7 +874,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_response - computed: true, optional: true, required: false
-  private _blockResponse?: string; 
+  private _blockResponse?: string;
   public get blockResponse() {
     return this.getStringAttribute('block_response');
   }
@@ -890,7 +890,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // confidence_threshold - computed: true, optional: true, required: false
-  private _confidenceThreshold?: string; 
+  private _confidenceThreshold?: string;
   public get confidenceThreshold() {
     return this.getStringAttribute('confidence_threshold');
   }
@@ -906,7 +906,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // dns_threat_protection - computed: true, optional: true, required: false
-  private _dnsThreatProtection?: string; 
+  private _dnsThreatProtection?: string;
   public get dnsThreatProtection() {
     return this.getStringAttribute('dns_threat_protection');
   }
@@ -922,7 +922,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_domain_list_id - computed: true, optional: true, required: false
-  private _firewallDomainListId?: string; 
+  private _firewallDomainListId?: string;
   public get firewallDomainListId() {
     return this.getStringAttribute('firewall_domain_list_id');
   }
@@ -938,7 +938,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_domain_redirection_action - computed: true, optional: true, required: false
-  private _firewallDomainRedirectionAction?: string; 
+  private _firewallDomainRedirectionAction?: string;
   public get firewallDomainRedirectionAction() {
     return this.getStringAttribute('firewall_domain_redirection_action');
   }
@@ -970,7 +970,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_threat_protection_id - computed: true, optional: true, required: false
-  private _firewallThreatProtectionId?: string; 
+  private _firewallThreatProtectionId?: string;
   public get firewallThreatProtectionId() {
     return this.getStringAttribute('firewall_threat_protection_id');
   }
@@ -986,7 +986,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1002,7 +1002,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // qtype - computed: true, optional: true, required: false
-  private _qtype?: string; 
+  private _qtype?: string;
   public get qtype() {
     return this.getStringAttribute('qtype');
   }
@@ -1018,7 +1018,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1057,13 +1057,13 @@ export interface Route53ResolverFirewallRuleGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#key Route53ResolverFirewallRuleGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#key Route53ResolverFirewallRuleGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#value Route53ResolverFirewallRuleGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#value Route53ResolverFirewallRuleGroup#value}
   */
   readonly value?: string;
 }
@@ -1155,7 +1155,7 @@ export class Route53ResolverFirewallRuleGroupTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1171,7 +1171,7 @@ export class Route53ResolverFirewallRuleGroupTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1208,7 +1208,7 @@ export class Route53ResolverFirewallRuleGroupTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group awscc_route53resolver_firewall_rule_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group awscc_route53resolver_firewall_rule_group}
 */
 export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
 
@@ -1224,7 +1224,7 @@ export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverFirewallRuleGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverFirewallRuleGroup to import
-  * @param importFromId The id of the existing Route53ResolverFirewallRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverFirewallRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverFirewallRuleGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1236,7 +1236,7 @@ export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_firewall_rule_group awscc_route53resolver_firewall_rule_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_rule_group awscc_route53resolver_firewall_rule_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1247,7 +1247,7 @@ export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_firewall_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1313,7 +1313,7 @@ export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

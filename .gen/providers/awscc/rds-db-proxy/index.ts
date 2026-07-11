@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,111 +10,111 @@ export interface RdsDbProxyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The authorization mechanism that the proxy uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
   */
   readonly auth?: RdsDbProxyAuth[] | cdktn.IResolvable;
   /**
   * The identifier for the proxy. This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
   */
   readonly dbProxyName: string;
   /**
   * Whether the proxy includes detailed information about SQL statements in its logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
   */
   readonly debugLogging?: boolean | cdktn.IResolvable;
   /**
   * The default authentication scheme that the proxy uses for client connections to the proxy and connections from the proxy to the underlying database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
   */
   readonly defaultAuthScheme?: string;
   /**
   * The network type of the DB proxy endpoint. The network type determines the IP version that the proxy endpoint supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
   */
   readonly endpointNetworkType?: string;
   /**
   * The kinds of databases that the proxy can connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
   */
   readonly engineFamily: string;
   /**
   * The number of seconds that a connection to the proxy can be inactive before the proxy disconnects it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
   */
   readonly idleClientTimeout?: number;
   /**
   * A Boolean parameter that specifies whether Transport Layer Security (TLS) encryption is required for connections to the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
   */
   readonly requireTls?: boolean | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that the proxy uses to access secrets in AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
   */
   readonly roleArn: string;
   /**
   * An optional set of key-value pairs to associate arbitrary data of your choosing with the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
   */
   readonly tags?: RdsDbProxyTags[] | cdktn.IResolvable;
   /**
   * The network type that the proxy uses to connect to the target database. The network type determines the IP version that the proxy uses for connections to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
   */
   readonly targetConnectionNetworkType?: string;
   /**
   * VPC security group IDs to associate with the new proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds?: string[];
   /**
   * VPC subnet IDs to associate with the new proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
   */
   readonly vpcSubnetIds: string[];
 }
 export interface RdsDbProxyAuth {
   /**
-  * The type of authentication that the proxy uses for connections from the proxy to the underlying database. 
+  * The type of authentication that the proxy uses for connections from the proxy to the underlying database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
   */
   readonly authScheme?: string;
   /**
   * The type of authentication the proxy uses for connections from clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
   */
   readonly clientPasswordAuthType?: string;
   /**
-  * A user-specified description about the authentication used by a proxy to log in as a specific database user. 
+  * A user-specified description about the authentication used by a proxy to log in as a specific database user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
   */
   readonly description?: string;
   /**
   * Whether to require or disallow Amazon Web Services Identity and Access Management (IAM) authentication for connections to the proxy. The ENABLED value is valid only for proxies with RDS for Microsoft SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
   */
   readonly iamAuth?: string;
   /**
-  * The Amazon Resource Name (ARN) representing the secret that the proxy uses to authenticate to the RDS DB instance or Aurora DB cluster. These secrets are stored within Amazon Secrets Manager. 
+  * The Amazon Resource Name (ARN) representing the secret that the proxy uses to authenticate to the RDS DB instance or Aurora DB cluster. These secrets are stored within Amazon Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -245,7 +245,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // auth_scheme - computed: true, optional: true, required: false
-  private _authScheme?: string; 
+  private _authScheme?: string;
   public get authScheme() {
     return this.getStringAttribute('auth_scheme');
   }
@@ -261,7 +261,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // client_password_auth_type - computed: true, optional: true, required: false
-  private _clientPasswordAuthType?: string; 
+  private _clientPasswordAuthType?: string;
   public get clientPasswordAuthType() {
     return this.getStringAttribute('client_password_auth_type');
   }
@@ -277,7 +277,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -293,7 +293,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // iam_auth - computed: true, optional: true, required: false
-  private _iamAuth?: string; 
+  private _iamAuth?: string;
   public get iamAuth() {
     return this.getStringAttribute('iam_auth');
   }
@@ -309,7 +309,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string; 
+  private _secretArn?: string;
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -346,11 +346,11 @@ export class RdsDbProxyAuthList extends cdktn.ComplexList {
 }
 export interface RdsDbProxyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}
   */
   readonly value?: string;
 }
@@ -442,7 +442,7 @@ export class RdsDbProxyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -458,7 +458,7 @@ export class RdsDbProxyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -495,7 +495,7 @@ export class RdsDbProxyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}
 */
 export class RdsDbProxy extends cdktn.TerraformResource {
 
@@ -511,7 +511,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsDbProxy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbProxy to import
-  * @param importFromId The id of the existing RdsDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -523,7 +523,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,7 +534,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_db_proxy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -585,7 +585,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string; 
+  private _dbProxyName?: string;
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -598,7 +598,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // debug_logging - computed: true, optional: true, required: false
-  private _debugLogging?: boolean | cdktn.IResolvable; 
+  private _debugLogging?: boolean | cdktn.IResolvable;
   public get debugLogging() {
     return this.getBooleanAttribute('debug_logging');
   }
@@ -614,7 +614,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // default_auth_scheme - computed: true, optional: true, required: false
-  private _defaultAuthScheme?: string; 
+  private _defaultAuthScheme?: string;
   public get defaultAuthScheme() {
     return this.getStringAttribute('default_auth_scheme');
   }
@@ -635,7 +635,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // endpoint_network_type - computed: true, optional: true, required: false
-  private _endpointNetworkType?: string; 
+  private _endpointNetworkType?: string;
   public get endpointNetworkType() {
     return this.getStringAttribute('endpoint_network_type');
   }
@@ -651,7 +651,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // engine_family - computed: false, optional: false, required: true
-  private _engineFamily?: string; 
+  private _engineFamily?: string;
   public get engineFamily() {
     return this.getStringAttribute('engine_family');
   }
@@ -669,7 +669,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // idle_client_timeout - computed: true, optional: true, required: false
-  private _idleClientTimeout?: number; 
+  private _idleClientTimeout?: number;
   public get idleClientTimeout() {
     return this.getNumberAttribute('idle_client_timeout');
   }
@@ -685,7 +685,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // require_tls - computed: true, optional: true, required: false
-  private _requireTls?: boolean | cdktn.IResolvable; 
+  private _requireTls?: boolean | cdktn.IResolvable;
   public get requireTls() {
     return this.getBooleanAttribute('require_tls');
   }
@@ -701,7 +701,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -730,7 +730,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // target_connection_network_type - computed: true, optional: true, required: false
-  private _targetConnectionNetworkType?: string; 
+  private _targetConnectionNetworkType?: string;
   public get targetConnectionNetworkType() {
     return this.getStringAttribute('target_connection_network_type');
   }
@@ -751,7 +751,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[]; 
+  private _vpcSecurityGroupIds?: string[];
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -767,7 +767,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[]; 
+  private _vpcSubnetIds?: string[];
   public get vpcSubnetIds() {
     return this.getListAttribute('vpc_subnet_ids');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktn from 'cdktn';
 
 export interface SsmAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#apply_only_at_cron_interval SsmAssociation#apply_only_at_cron_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#apply_only_at_cron_interval SsmAssociation#apply_only_at_cron_interval}
   */
   readonly applyOnlyAtCronInterval?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#association_name SsmAssociation#association_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#association_name SsmAssociation#association_name}
   */
   readonly associationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#automation_target_parameter_name SsmAssociation#automation_target_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#automation_target_parameter_name SsmAssociation#automation_target_parameter_name}
   */
   readonly automationTargetParameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#calendar_names SsmAssociation#calendar_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#calendar_names SsmAssociation#calendar_names}
   */
   readonly calendarNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#compliance_severity SsmAssociation#compliance_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#compliance_severity SsmAssociation#compliance_severity}
   */
   readonly complianceSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#document_version SsmAssociation#document_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#document_version SsmAssociation#document_version}
   */
   readonly documentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#id SsmAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#id SsmAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#max_concurrency SsmAssociation#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#max_concurrency SsmAssociation#max_concurrency}
   */
   readonly maxConcurrency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#max_errors SsmAssociation#max_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#max_errors SsmAssociation#max_errors}
   */
   readonly maxErrors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#name SsmAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#name SsmAssociation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#parameters SsmAssociation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#parameters SsmAssociation#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#region SsmAssociation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#region SsmAssociation#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#schedule_expression SsmAssociation#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#schedule_expression SsmAssociation#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#sync_compliance SsmAssociation#sync_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#sync_compliance SsmAssociation#sync_compliance}
   */
   readonly syncCompliance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#tags SsmAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#tags SsmAssociation#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#tags_all SsmAssociation#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#tags_all SsmAssociation#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#wait_for_success_timeout_seconds SsmAssociation#wait_for_success_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#wait_for_success_timeout_seconds SsmAssociation#wait_for_success_timeout_seconds}
   */
   readonly waitForSuccessTimeoutSeconds?: number;
   /**
   * output_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#output_location SsmAssociation#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#output_location SsmAssociation#output_location}
   */
   readonly outputLocation?: SsmAssociationOutputLocation;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#targets SsmAssociation#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#targets SsmAssociation#targets}
   */
   readonly targets?: SsmAssociationTargets[] | cdktn.IResolvable;
 }
 export interface SsmAssociationOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#s3_bucket_name SsmAssociation#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#s3_bucket_name SsmAssociation#s3_bucket_name}
   */
   readonly s3BucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#s3_key_prefix SsmAssociation#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#s3_key_prefix SsmAssociation#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#s3_region SsmAssociation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#s3_region SsmAssociation#s3_region}
   */
   readonly s3Region?: string;
 }
@@ -196,7 +196,7 @@ export class SsmAssociationOutputLocationOutputReference extends cdktn.ComplexOb
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string; 
+  private _s3BucketName?: string;
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -209,7 +209,7 @@ export class SsmAssociationOutputLocationOutputReference extends cdktn.ComplexOb
   }
 
   // s3_key_prefix - computed: false, optional: true, required: false
-  private _s3KeyPrefix?: string; 
+  private _s3KeyPrefix?: string;
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -225,7 +225,7 @@ export class SsmAssociationOutputLocationOutputReference extends cdktn.ComplexOb
   }
 
   // s3_region - computed: false, optional: true, required: false
-  private _s3Region?: string; 
+  private _s3Region?: string;
   public get s3Region() {
     return this.getStringAttribute('s3_region');
   }
@@ -242,11 +242,11 @@ export class SsmAssociationOutputLocationOutputReference extends cdktn.ComplexOb
 }
 export interface SsmAssociationTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#key SsmAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#key SsmAssociation#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#values SsmAssociation#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#values SsmAssociation#values}
   */
   readonly values: string[];
 }
@@ -338,7 +338,7 @@ export class SsmAssociationTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -351,7 +351,7 @@ export class SsmAssociationTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -385,7 +385,7 @@ export class SsmAssociationTargetsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association aws_ssm_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association aws_ssm_association}
 */
 export class SsmAssociation extends cdktn.TerraformResource {
 
@@ -401,7 +401,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmAssociation to import
-  * @param importFromId The id of the existing SsmAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -413,7 +413,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssm_association aws_ssm_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssm_association aws_ssm_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,7 +424,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ssm_association',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -460,7 +460,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   // ==========
 
   // apply_only_at_cron_interval - computed: false, optional: true, required: false
-  private _applyOnlyAtCronInterval?: boolean | cdktn.IResolvable; 
+  private _applyOnlyAtCronInterval?: boolean | cdktn.IResolvable;
   public get applyOnlyAtCronInterval() {
     return this.getBooleanAttribute('apply_only_at_cron_interval');
   }
@@ -486,7 +486,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // association_name - computed: false, optional: true, required: false
-  private _associationName?: string; 
+  private _associationName?: string;
   public get associationName() {
     return this.getStringAttribute('association_name');
   }
@@ -502,7 +502,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // automation_target_parameter_name - computed: false, optional: true, required: false
-  private _automationTargetParameterName?: string; 
+  private _automationTargetParameterName?: string;
   public get automationTargetParameterName() {
     return this.getStringAttribute('automation_target_parameter_name');
   }
@@ -518,7 +518,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // calendar_names - computed: false, optional: true, required: false
-  private _calendarNames?: string[]; 
+  private _calendarNames?: string[];
   public get calendarNames() {
     return cdktn.Fn.tolist(this.getListAttribute('calendar_names'));
   }
@@ -534,7 +534,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // compliance_severity - computed: false, optional: true, required: false
-  private _complianceSeverity?: string; 
+  private _complianceSeverity?: string;
   public get complianceSeverity() {
     return this.getStringAttribute('compliance_severity');
   }
@@ -550,7 +550,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string; 
+  private _documentVersion?: string;
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -566,7 +566,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -582,7 +582,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // max_concurrency - computed: false, optional: true, required: false
-  private _maxConcurrency?: string; 
+  private _maxConcurrency?: string;
   public get maxConcurrency() {
     return this.getStringAttribute('max_concurrency');
   }
@@ -598,7 +598,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // max_errors - computed: false, optional: true, required: false
-  private _maxErrors?: string; 
+  private _maxErrors?: string;
   public get maxErrors() {
     return this.getStringAttribute('max_errors');
   }
@@ -614,7 +614,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -627,7 +627,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -643,7 +643,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -659,7 +659,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: true, required: false
-  private _scheduleExpression?: string; 
+  private _scheduleExpression?: string;
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -675,7 +675,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // sync_compliance - computed: false, optional: true, required: false
-  private _syncCompliance?: string; 
+  private _syncCompliance?: string;
   public get syncCompliance() {
     return this.getStringAttribute('sync_compliance');
   }
@@ -691,7 +691,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -707,7 +707,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -723,7 +723,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // wait_for_success_timeout_seconds - computed: false, optional: true, required: false
-  private _waitForSuccessTimeoutSeconds?: number; 
+  private _waitForSuccessTimeoutSeconds?: number;
   public get waitForSuccessTimeoutSeconds() {
     return this.getNumberAttribute('wait_for_success_timeout_seconds');
   }

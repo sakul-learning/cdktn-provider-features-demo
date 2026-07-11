@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DatazoneGroupProfileConfig extends cdktn.TerraformMetaArguments
   /**
   * The identifier of the Amazon DataZone domain in which the group profile would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
   */
   readonly groupIdentifier?: string;
   /**
   * The type of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
   */
   readonly groupType?: string;
   /**
   * The ARN of the role principal for the group profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
   */
   readonly rolePrincipalArn?: string;
   /**
   * The status of the group profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}
 */
 export class DatazoneGroupProfile extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneGroupProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneGroupProfile to import
-  * @param importFromId The id of the existing DatazoneGroupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneGroupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneGroupProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_group_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +106,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string; 
+  private _domainIdentifier?: string;
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -119,7 +119,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string; 
+  private _groupIdentifier?: string;
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -145,7 +145,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // group_type - computed: true, optional: true, required: false
-  private _groupType?: string; 
+  private _groupType?: string;
   public get groupType() {
     return this.getStringAttribute('group_type');
   }
@@ -166,7 +166,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // role_principal_arn - computed: true, optional: true, required: false
-  private _rolePrincipalArn?: string; 
+  private _rolePrincipalArn?: string;
   public get rolePrincipalArn() {
     return this.getStringAttribute('role_principal_arn');
   }
@@ -187,7 +187,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string; 
+  private _status?: string;
   public get status() {
     return this.getStringAttribute('status');
   }

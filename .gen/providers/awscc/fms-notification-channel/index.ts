@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FmsNotificationChannelConfig extends cdktn.TerraformMetaArgumen
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
   */
   readonly snsRoleName: string;
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
   */
   readonly snsTopicArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}
 */
 export class FmsNotificationChannel extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FmsNotificationChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmsNotificationChannel to import
-  * @param importFromId The id of the existing FmsNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmsNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmsNotificationChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fms_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   }
 
   // sns_role_name - computed: false, optional: false, required: true
-  private _snsRoleName?: string; 
+  private _snsRoleName?: string;
   public get snsRoleName() {
     return this.getStringAttribute('sns_role_name');
   }
@@ -98,7 +98,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: false, optional: false, required: true
-  private _snsTopicArn?: string; 
+  private _snsTopicArn?: string;
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface B2BiPartnershipConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}
   */
   readonly capabilities: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}
   */
   readonly capabilityOptions?: B2BiPartnershipCapabilityOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}
   */
   readonly phone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}
   */
   readonly profileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}
   */
   readonly tags?: B2BiPartnershipTags[] | cdktn.IResolvable;
 }
 export interface B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}
   */
   readonly functionalAcknowledgment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}
   */
   readonly technicalAcknowledgment?: string;
 }
@@ -132,7 +132,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsO
   }
 
   // functional_acknowledgment - computed: true, optional: true, required: false
-  private _functionalAcknowledgment?: string; 
+  private _functionalAcknowledgment?: string;
   public get functionalAcknowledgment() {
     return this.getStringAttribute('functional_acknowledgment');
   }
@@ -148,7 +148,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsO
   }
 
   // technical_acknowledgment - computed: true, optional: true, required: false
-  private _technicalAcknowledgment?: string; 
+  private _technicalAcknowledgment?: string;
   public get technicalAcknowledgment() {
     return this.getStringAttribute('technical_acknowledgment');
   }
@@ -165,7 +165,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsO
 }
 export interface B2BiPartnershipCapabilityOptionsInboundEdiX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}
   */
   readonly acknowledgmentOptions?: B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions;
 }
@@ -259,7 +259,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12OutputReference extend
 }
 export interface B2BiPartnershipCapabilityOptionsInboundEdi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}
   */
   readonly x12?: B2BiPartnershipCapabilityOptionsInboundEdiX12;
 }
@@ -353,15 +353,15 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiOutputReference extends c
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}
   */
   readonly startingFunctionalGroupControlNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}
   */
   readonly startingInterchangeControlNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}
   */
   readonly startingTransactionSetControlNumber?: number;
 }
@@ -464,7 +464,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_functional_group_control_number - computed: true, optional: true, required: false
-  private _startingFunctionalGroupControlNumber?: number; 
+  private _startingFunctionalGroupControlNumber?: number;
   public get startingFunctionalGroupControlNumber() {
     return this.getNumberAttribute('starting_functional_group_control_number');
   }
@@ -480,7 +480,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_interchange_control_number - computed: true, optional: true, required: false
-  private _startingInterchangeControlNumber?: number; 
+  private _startingInterchangeControlNumber?: number;
   public get startingInterchangeControlNumber() {
     return this.getNumberAttribute('starting_interchange_control_number');
   }
@@ -496,7 +496,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_transaction_set_control_number - computed: true, optional: true, required: false
-  private _startingTransactionSetControlNumber?: number; 
+  private _startingTransactionSetControlNumber?: number;
   public get startingTransactionSetControlNumber() {
     return this.getNumberAttribute('starting_transaction_set_control_number');
   }
@@ -513,15 +513,15 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}
   */
   readonly componentSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}
   */
   readonly dataElementSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}
   */
   readonly segmentTerminator?: string;
 }
@@ -624,7 +624,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // component_separator - computed: true, optional: true, required: false
-  private _componentSeparator?: string; 
+  private _componentSeparator?: string;
   public get componentSeparator() {
     return this.getStringAttribute('component_separator');
   }
@@ -640,7 +640,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // data_element_separator - computed: true, optional: true, required: false
-  private _dataElementSeparator?: string; 
+  private _dataElementSeparator?: string;
   public get dataElementSeparator() {
     return this.getStringAttribute('data_element_separator');
   }
@@ -656,7 +656,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // segment_terminator - computed: true, optional: true, required: false
-  private _segmentTerminator?: string; 
+  private _segmentTerminator?: string;
   public get segmentTerminator() {
     return this.getStringAttribute('segment_terminator');
   }
@@ -673,15 +673,15 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}
   */
   readonly applicationReceiverCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}
   */
   readonly applicationSenderCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}
   */
   readonly responsibleAgencyCode?: string;
 }
@@ -784,7 +784,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // application_receiver_code - computed: true, optional: true, required: false
-  private _applicationReceiverCode?: string; 
+  private _applicationReceiverCode?: string;
   public get applicationReceiverCode() {
     return this.getStringAttribute('application_receiver_code');
   }
@@ -800,7 +800,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // application_sender_code - computed: true, optional: true, required: false
-  private _applicationSenderCode?: string; 
+  private _applicationSenderCode?: string;
   public get applicationSenderCode() {
     return this.getStringAttribute('application_sender_code');
   }
@@ -816,7 +816,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // responsible_agency_code - computed: true, optional: true, required: false
-  private _responsibleAgencyCode?: string; 
+  private _responsibleAgencyCode?: string;
   public get responsibleAgencyCode() {
     return this.getStringAttribute('responsible_agency_code');
   }
@@ -833,31 +833,31 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}
   */
   readonly acknowledgmentRequestedCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}
   */
   readonly receiverId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}
   */
   readonly receiverIdQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}
   */
   readonly repetitionSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}
   */
   readonly senderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}
   */
   readonly senderIdQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}
   */
   readonly usageIndicatorCode?: string;
 }
@@ -1012,7 +1012,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // acknowledgment_requested_code - computed: true, optional: true, required: false
-  private _acknowledgmentRequestedCode?: string; 
+  private _acknowledgmentRequestedCode?: string;
   public get acknowledgmentRequestedCode() {
     return this.getStringAttribute('acknowledgment_requested_code');
   }
@@ -1028,7 +1028,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // receiver_id - computed: true, optional: true, required: false
-  private _receiverId?: string; 
+  private _receiverId?: string;
   public get receiverId() {
     return this.getStringAttribute('receiver_id');
   }
@@ -1044,7 +1044,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // receiver_id_qualifier - computed: true, optional: true, required: false
-  private _receiverIdQualifier?: string; 
+  private _receiverIdQualifier?: string;
   public get receiverIdQualifier() {
     return this.getStringAttribute('receiver_id_qualifier');
   }
@@ -1060,7 +1060,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // repetition_separator - computed: true, optional: true, required: false
-  private _repetitionSeparator?: string; 
+  private _repetitionSeparator?: string;
   public get repetitionSeparator() {
     return this.getStringAttribute('repetition_separator');
   }
@@ -1076,7 +1076,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // sender_id - computed: true, optional: true, required: false
-  private _senderId?: string; 
+  private _senderId?: string;
   public get senderId() {
     return this.getStringAttribute('sender_id');
   }
@@ -1092,7 +1092,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // sender_id_qualifier - computed: true, optional: true, required: false
-  private _senderIdQualifier?: string; 
+  private _senderIdQualifier?: string;
   public get senderIdQualifier() {
     return this.getStringAttribute('sender_id_qualifier');
   }
@@ -1108,7 +1108,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // usage_indicator_code - computed: true, optional: true, required: false
-  private _usageIndicatorCode?: string; 
+  private _usageIndicatorCode?: string;
   public get usageIndicatorCode() {
     return this.getStringAttribute('usage_indicator_code');
   }
@@ -1125,27 +1125,27 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12Common {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}
   */
   readonly controlNumbers?: B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}
   */
   readonly delimiters?: B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}
   */
   readonly functionalGroupHeaders?: B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}
   */
   readonly gs05TimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}
   */
   readonly interchangeControlHeaders?: B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}
   */
   readonly validateEdi?: boolean | cdktn.IResolvable;
 }
@@ -1335,7 +1335,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
   }
 
   // gs_05_time_format - computed: true, optional: true, required: false
-  private _gs05TimeFormat?: string; 
+  private _gs05TimeFormat?: string;
   public get gs05TimeFormat() {
     return this.getStringAttribute('gs_05_time_format');
   }
@@ -1367,7 +1367,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
   }
 
   // validate_edi - computed: true, optional: true, required: false
-  private _validateEdi?: boolean | cdktn.IResolvable; 
+  private _validateEdi?: boolean | cdktn.IResolvable;
   public get validateEdi() {
     return this.getBooleanAttribute('validate_edi');
   }
@@ -1384,15 +1384,15 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}
   */
   readonly lineLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}
   */
   readonly lineTerminator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}
   */
   readonly wrapBy?: string;
 }
@@ -1495,7 +1495,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // line_length - computed: true, optional: true, required: false
-  private _lineLength?: number; 
+  private _lineLength?: number;
   public get lineLength() {
     return this.getNumberAttribute('line_length');
   }
@@ -1511,7 +1511,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // line_terminator - computed: true, optional: true, required: false
-  private _lineTerminator?: string; 
+  private _lineTerminator?: string;
   public get lineTerminator() {
     return this.getStringAttribute('line_terminator');
   }
@@ -1527,7 +1527,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // wrap_by - computed: true, optional: true, required: false
-  private _wrapBy?: string; 
+  private _wrapBy?: string;
   public get wrapBy() {
     return this.getStringAttribute('wrap_by');
   }
@@ -1544,11 +1544,11 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdiX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}
   */
   readonly common?: B2BiPartnershipCapabilityOptionsOutboundEdiX12Common;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}
   */
   readonly wrapOptions?: B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions;
 }
@@ -1671,7 +1671,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12OutputReference exten
 }
 export interface B2BiPartnershipCapabilityOptionsOutboundEdi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}
   */
   readonly x12?: B2BiPartnershipCapabilityOptionsOutboundEdiX12;
 }
@@ -1765,11 +1765,11 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiOutputReference extends 
 }
 export interface B2BiPartnershipCapabilityOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}
   */
   readonly inboundEdi?: B2BiPartnershipCapabilityOptionsInboundEdi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}
   */
   readonly outboundEdi?: B2BiPartnershipCapabilityOptionsOutboundEdi;
 }
@@ -1892,11 +1892,11 @@ export class B2BiPartnershipCapabilityOptionsOutputReference extends cdktn.Compl
 }
 export interface B2BiPartnershipTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}
   */
   readonly value?: string;
 }
@@ -1988,7 +1988,7 @@ export class B2BiPartnershipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2004,7 +2004,7 @@ export class B2BiPartnershipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2041,7 +2041,7 @@ export class B2BiPartnershipTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}
 */
 export class B2BiPartnership extends cdktn.TerraformResource {
 
@@ -2057,7 +2057,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a B2BiPartnership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the B2BiPartnership to import
-  * @param importFromId The id of the existing B2BiPartnership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing B2BiPartnership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the B2BiPartnership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2069,7 +2069,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2080,7 +2080,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_b2bi_partnership',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2104,7 +2104,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   // ==========
 
   // capabilities - computed: false, optional: false, required: true
-  private _capabilities?: string[]; 
+  private _capabilities?: string[];
   public get capabilities() {
     return this.getListAttribute('capabilities');
   }
@@ -2138,7 +2138,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string; 
+  private _email?: string;
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -2161,7 +2161,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2184,7 +2184,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // phone - computed: true, optional: true, required: false
-  private _phone?: string; 
+  private _phone?: string;
   public get phone() {
     return this.getStringAttribute('phone');
   }
@@ -2200,7 +2200,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // profile_id - computed: false, optional: false, required: true
-  private _profileId?: string; 
+  private _profileId?: string;
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktn from 'cdktn';
 
 export interface ChimesdkvoiceSipRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#disabled ChimesdkvoiceSipRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#disabled ChimesdkvoiceSipRule#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#id ChimesdkvoiceSipRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#id ChimesdkvoiceSipRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#name ChimesdkvoiceSipRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#name ChimesdkvoiceSipRule#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#region ChimesdkvoiceSipRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#region ChimesdkvoiceSipRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#trigger_type ChimesdkvoiceSipRule#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#trigger_type ChimesdkvoiceSipRule#trigger_type}
   */
   readonly triggerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#trigger_value ChimesdkvoiceSipRule#trigger_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#trigger_value ChimesdkvoiceSipRule#trigger_value}
   */
   readonly triggerValue: string;
   /**
   * target_applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#target_applications ChimesdkvoiceSipRule#target_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#target_applications ChimesdkvoiceSipRule#target_applications}
   */
   readonly targetApplications: ChimesdkvoiceSipRuleTargetApplications[] | cdktn.IResolvable;
 }
 export interface ChimesdkvoiceSipRuleTargetApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#aws_region ChimesdkvoiceSipRule#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#aws_region ChimesdkvoiceSipRule#aws_region}
   */
   readonly awsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#priority ChimesdkvoiceSipRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#priority ChimesdkvoiceSipRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#sip_media_application_id ChimesdkvoiceSipRule#sip_media_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#sip_media_application_id ChimesdkvoiceSipRule#sip_media_application_id}
   */
   readonly sipMediaApplicationId: string;
 }
@@ -158,7 +158,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // aws_region - computed: false, optional: false, required: true
-  private _awsRegion?: string; 
+  private _awsRegion?: string;
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -171,7 +171,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -184,7 +184,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // sip_media_application_id - computed: false, optional: false, required: true
-  private _sipMediaApplicationId?: string; 
+  private _sipMediaApplicationId?: string;
   public get sipMediaApplicationId() {
     return this.getStringAttribute('sip_media_application_id');
   }
@@ -218,7 +218,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule}
 */
 export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
 
@@ -234,7 +234,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimesdkvoiceSipRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimesdkvoiceSipRule to import
-  * @param importFromId The id of the existing ChimesdkvoiceSipRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimesdkvoiceSipRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimesdkvoiceSipRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -246,7 +246,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,7 +257,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_chimesdkvoice_sip_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -281,7 +281,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   // ==========
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable;
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -297,7 +297,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -313,7 +313,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -326,7 +326,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -342,7 +342,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // trigger_type - computed: false, optional: false, required: true
-  private _triggerType?: string; 
+  private _triggerType?: string;
   public get triggerType() {
     return this.getStringAttribute('trigger_type');
   }
@@ -355,7 +355,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // trigger_value - computed: false, optional: false, required: true
-  private _triggerValue?: string; 
+  private _triggerValue?: string;
   public get triggerValue() {
     return this.getStringAttribute('trigger_value');
   }

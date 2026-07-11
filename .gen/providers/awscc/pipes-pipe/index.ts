@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktn from 'cdktn';
 
 export interface PipesPipeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#description PipesPipe#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#description PipesPipe#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}
   */
   readonly desiredState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}
   */
   readonly enrichment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}
   */
   readonly enrichmentParameters?: PipesPipeEnrichmentParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}
   */
   readonly logConfiguration?: PipesPipeLogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#name PipesPipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#name PipesPipe#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#source PipesPipe#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#source PipesPipe#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}
   */
   readonly sourceParameters?: PipesPipeSourceParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#tags PipesPipe#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#tags PipesPipe#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#target PipesPipe#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#target PipesPipe#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}
   */
   readonly targetParameters?: PipesPipeTargetParameters;
 }
 export interface PipesPipeEnrichmentParametersHttpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}
   */
   readonly headerParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}
   */
   readonly pathParameterValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}
   */
   readonly queryStringParameters?: { [key: string]: string };
 }
@@ -173,7 +173,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // header_parameters - computed: true, optional: true, required: false
-  private _headerParameters?: { [key: string]: string }; 
+  private _headerParameters?: { [key: string]: string };
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -189,7 +189,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // path_parameter_values - computed: true, optional: true, required: false
-  private _pathParameterValues?: string[]; 
+  private _pathParameterValues?: string[];
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -205,7 +205,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // query_string_parameters - computed: true, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string }; 
+  private _queryStringParameters?: { [key: string]: string };
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -222,11 +222,11 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
 }
 export interface PipesPipeEnrichmentParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
   */
   readonly httpParameters?: PipesPipeEnrichmentParametersHttpParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}
   */
   readonly inputTemplate?: string;
 }
@@ -332,7 +332,7 @@ export class PipesPipeEnrichmentParametersOutputReference extends cdktn.ComplexO
   }
 
   // input_template - computed: true, optional: true, required: false
-  private _inputTemplate?: string; 
+  private _inputTemplate?: string;
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -349,7 +349,7 @@ export class PipesPipeEnrichmentParametersOutputReference extends cdktn.ComplexO
 }
 export interface PipesPipeLogConfigurationCloudwatchLogsLogDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}
   */
   readonly logGroupArn?: string;
 }
@@ -426,7 +426,7 @@ export class PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReferenc
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string; 
+  private _logGroupArn?: string;
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -443,7 +443,7 @@ export class PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReferenc
 }
 export interface PipesPipeLogConfigurationFirehoseLogDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}
   */
   readonly deliveryStreamArn?: string;
 }
@@ -520,7 +520,7 @@ export class PipesPipeLogConfigurationFirehoseLogDestinationOutputReference exte
   }
 
   // delivery_stream_arn - computed: true, optional: true, required: false
-  private _deliveryStreamArn?: string; 
+  private _deliveryStreamArn?: string;
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -537,19 +537,19 @@ export class PipesPipeLogConfigurationFirehoseLogDestinationOutputReference exte
 }
 export interface PipesPipeLogConfigurationS3LogDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}
   */
   readonly outputFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}
   */
   readonly prefix?: string;
 }
@@ -665,7 +665,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string; 
+  private _bucketName?: string;
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -681,7 +681,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -697,7 +697,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string; 
+  private _outputFormat?: string;
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -713,7 +713,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -730,23 +730,23 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
 }
 export interface PipesPipeLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}
   */
   readonly cloudwatchLogsLogDestination?: PipesPipeLogConfigurationCloudwatchLogsLogDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}
   */
   readonly firehoseLogDestination?: PipesPipeLogConfigurationFirehoseLogDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}
   */
   readonly includeExecutionData?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#level PipesPipe#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#level PipesPipe#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}
   */
   readonly s3LogDestination?: PipesPipeLogConfigurationS3LogDestination;
 }
@@ -907,7 +907,7 @@ export class PipesPipeLogConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // include_execution_data - computed: true, optional: true, required: false
-  private _includeExecutionData?: string[]; 
+  private _includeExecutionData?: string[];
   public get includeExecutionData() {
     return this.getListAttribute('include_execution_data');
   }
@@ -923,7 +923,7 @@ export class PipesPipeLogConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string; 
+  private _level?: string;
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -958,7 +958,7 @@ export interface PipesPipeSourceParametersActiveMqBrokerParametersCredentials {
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
   */
   readonly basicAuth?: string;
 }
@@ -1035,7 +1035,7 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersCredentialsOutputR
   }
 
   // basic_auth - computed: true, optional: true, required: false
-  private _basicAuth?: string; 
+  private _basicAuth?: string;
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -1052,19 +1052,19 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersCredentialsOutputR
 }
 export interface PipesPipeSourceParametersActiveMqBrokerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
   */
   readonly credentials?: PipesPipeSourceParametersActiveMqBrokerParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}
   */
   readonly queueName?: string;
 }
@@ -1180,7 +1180,7 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1212,7 +1212,7 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -1228,7 +1228,7 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersOutputReference ex
   }
 
   // queue_name - computed: true, optional: true, required: false
-  private _queueName?: string; 
+  private _queueName?: string;
   public get queueName() {
     return this.getStringAttribute('queue_name');
   }
@@ -1245,7 +1245,7 @@ export class PipesPipeSourceParametersActiveMqBrokerParametersOutputReference ex
 }
 export interface PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#arn PipesPipe#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#arn PipesPipe#arn}
   */
   readonly arn?: string;
 }
@@ -1322,7 +1322,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfigOu
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1339,35 +1339,35 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfigOu
 }
 export interface PipesPipeSourceParametersDynamoDbStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}
   */
   readonly deadLetterConfig?: PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}
   */
   readonly maximumRecordAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}
   */
   readonly onPartialBatchItemFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}
   */
   readonly parallelizationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
   */
   readonly startingPosition?: string;
 }
@@ -1535,7 +1535,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1567,7 +1567,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -1583,7 +1583,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // maximum_record_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumRecordAgeInSeconds?: number; 
+  private _maximumRecordAgeInSeconds?: number;
   public get maximumRecordAgeInSeconds() {
     return this.getNumberAttribute('maximum_record_age_in_seconds');
   }
@@ -1599,7 +1599,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -1615,7 +1615,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // on_partial_batch_item_failure - computed: true, optional: true, required: false
-  private _onPartialBatchItemFailure?: string; 
+  private _onPartialBatchItemFailure?: string;
   public get onPartialBatchItemFailure() {
     return this.getStringAttribute('on_partial_batch_item_failure');
   }
@@ -1631,7 +1631,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // parallelization_factor - computed: true, optional: true, required: false
-  private _parallelizationFactor?: number; 
+  private _parallelizationFactor?: number;
   public get parallelizationFactor() {
     return this.getNumberAttribute('parallelization_factor');
   }
@@ -1647,7 +1647,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
   }
 
   // starting_position - computed: true, optional: true, required: false
-  private _startingPosition?: string; 
+  private _startingPosition?: string;
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -1664,7 +1664,7 @@ export class PipesPipeSourceParametersDynamoDbStreamParametersOutputReference ex
 }
 export interface PipesPipeSourceParametersFilterCriteriaFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}
   */
   readonly pattern?: string;
 }
@@ -1743,7 +1743,7 @@ export class PipesPipeSourceParametersFilterCriteriaFiltersOutputReference exten
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string; 
+  private _pattern?: string;
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1780,7 +1780,7 @@ export class PipesPipeSourceParametersFilterCriteriaFiltersList extends cdktn.Co
 }
 export interface PipesPipeSourceParametersFilterCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#filters PipesPipe#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#filters PipesPipe#filters}
   */
   readonly filters?: PipesPipeSourceParametersFilterCriteriaFilters[] | cdktn.IResolvable;
 }
@@ -1874,7 +1874,7 @@ export class PipesPipeSourceParametersFilterCriteriaOutputReference extends cdkt
 }
 export interface PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#arn PipesPipe#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#arn PipesPipe#arn}
   */
   readonly arn?: string;
 }
@@ -1951,7 +1951,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOut
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1968,39 +1968,39 @@ export class PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOut
 }
 export interface PipesPipeSourceParametersKinesisStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}
   */
   readonly deadLetterConfig?: PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}
   */
   readonly maximumRecordAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}
   */
   readonly onPartialBatchItemFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}
   */
   readonly parallelizationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}
   */
   readonly startingPositionTimestamp?: string;
 }
@@ -2181,7 +2181,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2213,7 +2213,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2229,7 +2229,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_record_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumRecordAgeInSeconds?: number; 
+  private _maximumRecordAgeInSeconds?: number;
   public get maximumRecordAgeInSeconds() {
     return this.getNumberAttribute('maximum_record_age_in_seconds');
   }
@@ -2245,7 +2245,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number; 
+  private _maximumRetryAttempts?: number;
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2261,7 +2261,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // on_partial_batch_item_failure - computed: true, optional: true, required: false
-  private _onPartialBatchItemFailure?: string; 
+  private _onPartialBatchItemFailure?: string;
   public get onPartialBatchItemFailure() {
     return this.getStringAttribute('on_partial_batch_item_failure');
   }
@@ -2277,7 +2277,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // parallelization_factor - computed: true, optional: true, required: false
-  private _parallelizationFactor?: number; 
+  private _parallelizationFactor?: number;
   public get parallelizationFactor() {
     return this.getNumberAttribute('parallelization_factor');
   }
@@ -2293,7 +2293,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // starting_position - computed: true, optional: true, required: false
-  private _startingPosition?: string; 
+  private _startingPosition?: string;
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -2309,7 +2309,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // starting_position_timestamp - computed: true, optional: true, required: false
-  private _startingPositionTimestamp?: string; 
+  private _startingPositionTimestamp?: string;
   public get startingPositionTimestamp() {
     return this.getStringAttribute('starting_position_timestamp');
   }
@@ -2328,13 +2328,13 @@ export interface PipesPipeSourceParametersManagedStreamingKafkaParametersCredent
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
   */
   readonly clientCertificateTlsAuth?: string;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
   */
   readonly saslScram512Auth?: string;
 }
@@ -2424,7 +2424,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials
   }
 
   // client_certificate_tls_auth - computed: true, optional: true, required: false
-  private _clientCertificateTlsAuth?: string; 
+  private _clientCertificateTlsAuth?: string;
   public get clientCertificateTlsAuth() {
     return this.getStringAttribute('client_certificate_tls_auth');
   }
@@ -2440,7 +2440,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials
   }
 
   // sasl_scram_512_auth - computed: true, optional: true, required: false
-  private _saslScram512Auth?: string; 
+  private _saslScram512Auth?: string;
   public get saslScram512Auth() {
     return this.getStringAttribute('sasl_scram_512_auth');
   }
@@ -2457,27 +2457,27 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials
 }
 export interface PipesPipeSourceParametersManagedStreamingKafkaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}
   */
   readonly consumerGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
   */
   readonly credentials?: PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}
   */
   readonly topicName?: string;
 }
@@ -2619,7 +2619,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2635,7 +2635,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // consumer_group_id - computed: true, optional: true, required: false
-  private _consumerGroupId?: string; 
+  private _consumerGroupId?: string;
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -2667,7 +2667,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2683,7 +2683,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // starting_position - computed: true, optional: true, required: false
-  private _startingPosition?: string; 
+  private _startingPosition?: string;
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -2699,7 +2699,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // topic_name - computed: true, optional: true, required: false
-  private _topicName?: string; 
+  private _topicName?: string;
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -2718,7 +2718,7 @@ export interface PipesPipeSourceParametersRabbitMqBrokerParametersCredentials {
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
   */
   readonly basicAuth?: string;
 }
@@ -2795,7 +2795,7 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersCredentialsOutputR
   }
 
   // basic_auth - computed: true, optional: true, required: false
-  private _basicAuth?: string; 
+  private _basicAuth?: string;
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -2812,23 +2812,23 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersCredentialsOutputR
 }
 export interface PipesPipeSourceParametersRabbitMqBrokerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
   */
   readonly credentials?: PipesPipeSourceParametersRabbitMqBrokerParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}
   */
   readonly queueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}
   */
   readonly virtualHost?: string;
 }
@@ -2957,7 +2957,7 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2989,7 +2989,7 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -3005,7 +3005,7 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersOutputReference ex
   }
 
   // queue_name - computed: true, optional: true, required: false
-  private _queueName?: string; 
+  private _queueName?: string;
   public get queueName() {
     return this.getStringAttribute('queue_name');
   }
@@ -3021,7 +3021,7 @@ export class PipesPipeSourceParametersRabbitMqBrokerParametersOutputReference ex
   }
 
   // virtual_host - computed: true, optional: true, required: false
-  private _virtualHost?: string; 
+  private _virtualHost?: string;
   public get virtualHost() {
     return this.getStringAttribute('virtual_host');
   }
@@ -3040,25 +3040,25 @@ export interface PipesPipeSourceParametersSelfManagedKafkaParametersCredentials 
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
   */
   readonly basicAuth?: string;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
   */
   readonly clientCertificateTlsAuth?: string;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}
   */
   readonly saslScram256Auth?: string;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
   */
   readonly saslScram512Auth?: string;
 }
@@ -3174,7 +3174,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // basic_auth - computed: true, optional: true, required: false
-  private _basicAuth?: string; 
+  private _basicAuth?: string;
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -3190,7 +3190,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // client_certificate_tls_auth - computed: true, optional: true, required: false
-  private _clientCertificateTlsAuth?: string; 
+  private _clientCertificateTlsAuth?: string;
   public get clientCertificateTlsAuth() {
     return this.getStringAttribute('client_certificate_tls_auth');
   }
@@ -3206,7 +3206,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // sasl_scram_256_auth - computed: true, optional: true, required: false
-  private _saslScram256Auth?: string; 
+  private _saslScram256Auth?: string;
   public get saslScram256Auth() {
     return this.getStringAttribute('sasl_scram_256_auth');
   }
@@ -3222,7 +3222,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // sasl_scram_512_auth - computed: true, optional: true, required: false
-  private _saslScram512Auth?: string; 
+  private _saslScram512Auth?: string;
   public get saslScram512Auth() {
     return this.getStringAttribute('sasl_scram_512_auth');
   }
@@ -3241,13 +3241,13 @@ export interface PipesPipeSourceParametersSelfManagedKafkaParametersVpc {
   /**
   * List of SecurityGroupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#security_group PipesPipe#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#security_group PipesPipe#security_group}
   */
   readonly securityGroup?: string[];
   /**
   * List of SubnetId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
   */
   readonly subnets?: string[];
 }
@@ -3337,7 +3337,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReferen
   }
 
   // security_group - computed: true, optional: true, required: false
-  private _securityGroup?: string[]; 
+  private _securityGroup?: string[];
   public get securityGroup() {
     return this.getListAttribute('security_group');
   }
@@ -3353,7 +3353,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReferen
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -3370,41 +3370,41 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReferen
 }
 export interface PipesPipeSourceParametersSelfManagedKafkaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}
   */
   readonly additionalBootstrapServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}
   */
   readonly consumerGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}
   */
   readonly credentials?: PipesPipeSourceParametersSelfManagedKafkaParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#server_root_ca_certificate PipesPipe#server_root_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#server_root_ca_certificate PipesPipe#server_root_ca_certificate}
   */
   readonly serverRootCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}
   */
   readonly topicName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}
   */
   readonly vpc?: PipesPipeSourceParametersSelfManagedKafkaParametersVpc;
 }
@@ -3585,7 +3585,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // additional_bootstrap_servers - computed: true, optional: true, required: false
-  private _additionalBootstrapServers?: string[]; 
+  private _additionalBootstrapServers?: string[];
   public get additionalBootstrapServers() {
     return this.getListAttribute('additional_bootstrap_servers');
   }
@@ -3601,7 +3601,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -3617,7 +3617,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // consumer_group_id - computed: true, optional: true, required: false
-  private _consumerGroupId?: string; 
+  private _consumerGroupId?: string;
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -3649,7 +3649,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -3665,7 +3665,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // server_root_ca_certificate - computed: true, optional: true, required: false
-  private _serverRootCaCertificate?: string; 
+  private _serverRootCaCertificate?: string;
   public get serverRootCaCertificate() {
     return this.getStringAttribute('server_root_ca_certificate');
   }
@@ -3681,7 +3681,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // starting_position - computed: true, optional: true, required: false
-  private _startingPosition?: string; 
+  private _startingPosition?: string;
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -3697,7 +3697,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // topic_name - computed: true, optional: true, required: false
-  private _topicName?: string; 
+  private _topicName?: string;
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -3730,11 +3730,11 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
 }
 export interface PipesPipeSourceParametersSqsQueueParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
 }
@@ -3824,7 +3824,7 @@ export class PipesPipeSourceParametersSqsQueueParametersOutputReference extends 
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number; 
+  private _batchSize?: number;
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -3840,7 +3840,7 @@ export class PipesPipeSourceParametersSqsQueueParametersOutputReference extends 
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number; 
+  private _maximumBatchingWindowInSeconds?: number;
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -3857,35 +3857,35 @@ export class PipesPipeSourceParametersSqsQueueParametersOutputReference extends 
 }
 export interface PipesPipeSourceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}
   */
   readonly activeMqBrokerParameters?: PipesPipeSourceParametersActiveMqBrokerParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}
   */
   readonly dynamoDbStreamParameters?: PipesPipeSourceParametersDynamoDbStreamParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}
   */
   readonly filterCriteria?: PipesPipeSourceParametersFilterCriteria;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}
   */
   readonly kinesisStreamParameters?: PipesPipeSourceParametersKinesisStreamParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}
   */
   readonly managedStreamingKafkaParameters?: PipesPipeSourceParametersManagedStreamingKafkaParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}
   */
   readonly rabbitMqBrokerParameters?: PipesPipeSourceParametersRabbitMqBrokerParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}
   */
   readonly selfManagedKafkaParameters?: PipesPipeSourceParametersSelfManagedKafkaParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}
   */
   readonly sqsQueueParameters?: PipesPipeSourceParametersSqsQueueParameters;
 }
@@ -4182,7 +4182,7 @@ export class PipesPipeSourceParametersOutputReference extends cdktn.ComplexObjec
 }
 export interface PipesPipeTargetParametersBatchJobParametersArrayProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#size PipesPipe#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#size PipesPipe#size}
   */
   readonly size?: number;
 }
@@ -4259,7 +4259,7 @@ export class PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputRef
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number; 
+  private _size?: number;
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -4276,11 +4276,11 @@ export class PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputRef
 }
 export interface PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#name PipesPipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#name PipesPipe#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -4372,7 +4372,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesEnviro
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4388,7 +4388,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesEnviro
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4425,11 +4425,11 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesEnviro
 }
 export interface PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -4521,7 +4521,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesResour
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4537,7 +4537,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesResour
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4574,19 +4574,19 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesResour
 }
 export interface PipesPipeTargetParametersBatchJobParametersContainerOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#command PipesPipe#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#command PipesPipe#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
   */
   readonly environment?: PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}
   */
   readonly resourceRequirements?: PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements[] | cdktn.IResolvable;
 }
@@ -4702,7 +4702,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesOutput
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -4734,7 +4734,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesOutput
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4767,11 +4767,11 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesOutput
 }
 export interface PipesPipeTargetParametersBatchJobParametersDependsOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}
   */
   readonly jobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
 }
@@ -4863,7 +4863,7 @@ export class PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference
   }
 
   // job_id - computed: true, optional: true, required: false
-  private _jobId?: string; 
+  private _jobId?: string;
   public get jobId() {
     return this.getStringAttribute('job_id');
   }
@@ -4879,7 +4879,7 @@ export class PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4916,7 +4916,7 @@ export class PipesPipeTargetParametersBatchJobParametersDependsOnList extends cd
 }
 export interface PipesPipeTargetParametersBatchJobParametersRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}
   */
   readonly attempts?: number;
 }
@@ -4993,7 +4993,7 @@ export class PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputRefer
   }
 
   // attempts - computed: true, optional: true, required: false
-  private _attempts?: number; 
+  private _attempts?: number;
   public get attempts() {
     return this.getNumberAttribute('attempts');
   }
@@ -5010,31 +5010,31 @@ export class PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputRefer
 }
 export interface PipesPipeTargetParametersBatchJobParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
   */
   readonly arrayProperties?: PipesPipeTargetParametersBatchJobParametersArrayProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
   */
   readonly containerOverrides?: PipesPipeTargetParametersBatchJobParametersContainerOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
   */
   readonly dependsOn?: PipesPipeTargetParametersBatchJobParametersDependsOn[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}
   */
   readonly jobDefinition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}
   */
   readonly jobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
   */
   readonly retryStrategy?: PipesPipeTargetParametersBatchJobParametersRetryStrategy;
 }
@@ -5237,7 +5237,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // job_definition - computed: true, optional: true, required: false
-  private _jobDefinition?: string; 
+  private _jobDefinition?: string;
   public get jobDefinition() {
     return this.getStringAttribute('job_definition');
   }
@@ -5253,7 +5253,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // job_name - computed: true, optional: true, required: false
-  private _jobName?: string; 
+  private _jobName?: string;
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -5269,7 +5269,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string }; 
+  private _parameters?: { [key: string]: string };
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -5302,11 +5302,11 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
 }
 export interface PipesPipeTargetParametersCloudwatchLogsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -5396,7 +5396,7 @@ export class PipesPipeTargetParametersCloudwatchLogsParametersOutputReference ex
   }
 
   // log_stream_name - computed: true, optional: true, required: false
-  private _logStreamName?: string; 
+  private _logStreamName?: string;
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -5412,7 +5412,7 @@ export class PipesPipeTargetParametersCloudwatchLogsParametersOutputReference ex
   }
 
   // timestamp - computed: true, optional: true, required: false
-  private _timestamp?: string; 
+  private _timestamp?: string;
   public get timestamp() {
     return this.getStringAttribute('timestamp');
   }
@@ -5429,15 +5429,15 @@ export class PipesPipeTargetParametersCloudwatchLogsParametersOutputReference ex
 }
 export interface PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#base PipesPipe#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#base PipesPipe#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}
   */
   readonly capacityProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#weight PipesPipe#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#weight PipesPipe#weight}
   */
   readonly weight?: number;
 }
@@ -5542,7 +5542,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number; 
+  private _base?: number;
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -5558,7 +5558,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string; 
+  private _capacityProvider?: string;
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -5574,7 +5574,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number; 
+  private _weight?: number;
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -5611,15 +5611,15 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyL
 }
 export interface PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}
   */
   readonly assignPublicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
   */
   readonly subnets?: string[];
 }
@@ -5722,7 +5722,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvp
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string; 
+  private _assignPublicIp?: string;
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -5738,7 +5738,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvp
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[]; 
+  private _securityGroups?: string[];
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -5754,7 +5754,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvp
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[]; 
+  private _subnets?: string[];
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -5771,7 +5771,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvp
 }
 export interface PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}
   */
   readonly awsvpcConfiguration?: PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration;
 }
@@ -5865,11 +5865,11 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationOutpu
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#name PipesPipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#name PipesPipe#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -5961,7 +5961,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5977,7 +5977,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6014,11 +6014,11 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -6110,7 +6110,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6126,7 +6126,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6163,11 +6163,11 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -6259,7 +6259,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6275,7 +6275,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6312,35 +6312,35 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#command PipesPipe#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#command PipesPipe#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
   */
   readonly environment?: PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}
   */
   readonly environmentFiles?: PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#memory PipesPipe#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#memory PipesPipe#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}
   */
   readonly memoryReservation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#name PipesPipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#name PipesPipe#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}
   */
   readonly resourceRequirements?: PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements[] | cdktn.IResolvable;
 }
@@ -6510,7 +6510,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[]; 
+  private _command?: string[];
   public get command() {
     return this.getListAttribute('command');
   }
@@ -6526,7 +6526,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: number; 
+  private _cpu?: number;
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -6574,7 +6574,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number; 
+  private _memory?: number;
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -6590,7 +6590,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // memory_reservation - computed: true, optional: true, required: false
-  private _memoryReservation?: number; 
+  private _memoryReservation?: number;
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -6606,7 +6606,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6659,7 +6659,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -6736,7 +6736,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number; 
+  private _sizeInGiB?: number;
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -6753,11 +6753,11 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}
   */
   readonly deviceType?: string;
 }
@@ -6849,7 +6849,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceler
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -6865,7 +6865,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceler
   }
 
   // device_type - computed: true, optional: true, required: false
-  private _deviceType?: string; 
+  private _deviceType?: string;
   public get deviceType() {
     return this.getStringAttribute('device_type');
   }
@@ -6902,31 +6902,31 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceler
 }
 export interface PipesPipeTargetParametersEcsTaskParametersOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
   */
   readonly containerOverrides?: PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}
   */
   readonly ephemeralStorage?: PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}
   */
   readonly inferenceAcceleratorOverrides?: PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#memory PipesPipe#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#memory PipesPipe#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}
   */
   readonly taskRoleArn?: string;
 }
@@ -7097,7 +7097,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string; 
+  private _cpu?: string;
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -7129,7 +7129,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string; 
+  private _executionRoleArn?: string;
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -7161,7 +7161,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string; 
+  private _memory?: string;
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -7177,7 +7177,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // task_role_arn - computed: true, optional: true, required: false
-  private _taskRoleArn?: string; 
+  private _taskRoleArn?: string;
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -7194,11 +7194,11 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
 }
 export interface PipesPipeTargetParametersEcsTaskParametersPlacementConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#expression PipesPipe#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#expression PipesPipe#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
 }
@@ -7290,7 +7290,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementConstraintsOutpu
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string; 
+  private _expression?: string;
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -7306,7 +7306,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementConstraintsOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7343,11 +7343,11 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementConstraintsList 
 }
 export interface PipesPipeTargetParametersEcsTaskParametersPlacementStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#field PipesPipe#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#field PipesPipe#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#type PipesPipe#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#type PipesPipe#type}
   */
   readonly type?: string;
 }
@@ -7439,7 +7439,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputRe
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string; 
+  private _field?: string;
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -7455,7 +7455,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputRe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7492,11 +7492,11 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementStrategyList ext
 }
 export interface PipesPipeTargetParametersEcsTaskParametersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#key PipesPipe#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#key PipesPipe#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -7588,7 +7588,7 @@ export class PipesPipeTargetParametersEcsTaskParametersTagsOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7604,7 +7604,7 @@ export class PipesPipeTargetParametersEcsTaskParametersTagsOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7641,63 +7641,63 @@ export class PipesPipeTargetParametersEcsTaskParametersTagsList extends cdktn.Co
 }
 export interface PipesPipeTargetParametersEcsTaskParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#group PipesPipe#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#group PipesPipe#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}
   */
   readonly launchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}
   */
   readonly networkConfiguration?: PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}
   */
   readonly overrides?: PipesPipeTargetParametersEcsTaskParametersOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}
   */
   readonly placementConstraints?: PipesPipeTargetParametersEcsTaskParametersPlacementConstraints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}
   */
   readonly placementStrategy?: PipesPipeTargetParametersEcsTaskParametersPlacementStrategy[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}
   */
   readonly platformVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}
   */
   readonly referenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#tags PipesPipe#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#tags PipesPipe#tags}
   */
   readonly tags?: PipesPipeTargetParametersEcsTaskParametersTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}
   */
   readonly taskCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}
   */
   readonly taskDefinitionArn?: string;
 }
@@ -7972,7 +7972,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // enable_ecs_managed_tags - computed: true, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -7988,7 +7988,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -8004,7 +8004,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // group - computed: true, optional: true, required: false
-  private _group?: string; 
+  private _group?: string;
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -8020,7 +8020,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string; 
+  private _launchType?: string;
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -8100,7 +8100,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string; 
+  private _platformVersion?: string;
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -8116,7 +8116,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string; 
+  private _propagateTags?: string;
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -8132,7 +8132,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // reference_id - computed: true, optional: true, required: false
-  private _referenceId?: string; 
+  private _referenceId?: string;
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -8164,7 +8164,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // task_count - computed: true, optional: true, required: false
-  private _taskCount?: number; 
+  private _taskCount?: number;
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -8180,7 +8180,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // task_definition_arn - computed: true, optional: true, required: false
-  private _taskDefinitionArn?: string; 
+  private _taskDefinitionArn?: string;
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -8197,23 +8197,23 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
 }
 export interface PipesPipeTargetParametersEventBridgeEventBusParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}
   */
   readonly detailType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}
   */
   readonly endpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#resources PipesPipe#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#resources PipesPipe#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#source PipesPipe#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#source PipesPipe#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#time PipesPipe#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#time PipesPipe#time}
   */
   readonly time?: string;
 }
@@ -8342,7 +8342,7 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
   }
 
   // detail_type - computed: true, optional: true, required: false
-  private _detailType?: string; 
+  private _detailType?: string;
   public get detailType() {
     return this.getStringAttribute('detail_type');
   }
@@ -8358,7 +8358,7 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
   }
 
   // endpoint_id - computed: true, optional: true, required: false
-  private _endpointId?: string; 
+  private _endpointId?: string;
   public get endpointId() {
     return this.getStringAttribute('endpoint_id');
   }
@@ -8374,7 +8374,7 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[]; 
+  private _resources?: string[];
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -8390,7 +8390,7 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -8406,7 +8406,7 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
   }
 
   // time - computed: true, optional: true, required: false
-  private _time?: string; 
+  private _time?: string;
   public get time() {
     return this.getStringAttribute('time');
   }
@@ -8423,15 +8423,15 @@ export class PipesPipeTargetParametersEventBridgeEventBusParametersOutputReferen
 }
 export interface PipesPipeTargetParametersHttpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}
   */
   readonly headerParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}
   */
   readonly pathParameterValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}
   */
   readonly queryStringParameters?: { [key: string]: string };
 }
@@ -8534,7 +8534,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // header_parameters - computed: true, optional: true, required: false
-  private _headerParameters?: { [key: string]: string }; 
+  private _headerParameters?: { [key: string]: string };
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -8550,7 +8550,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // path_parameter_values - computed: true, optional: true, required: false
-  private _pathParameterValues?: string[]; 
+  private _pathParameterValues?: string[];
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -8566,7 +8566,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // query_string_parameters - computed: true, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string }; 
+  private _queryStringParameters?: { [key: string]: string };
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -8583,7 +8583,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
 }
 export interface PipesPipeTargetParametersKinesisStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}
   */
   readonly partitionKey?: string;
 }
@@ -8660,7 +8660,7 @@ export class PipesPipeTargetParametersKinesisStreamParametersOutputReference ext
   }
 
   // partition_key - computed: true, optional: true, required: false
-  private _partitionKey?: string; 
+  private _partitionKey?: string;
   public get partitionKey() {
     return this.getStringAttribute('partition_key');
   }
@@ -8677,7 +8677,7 @@ export class PipesPipeTargetParametersKinesisStreamParametersOutputReference ext
 }
 export interface PipesPipeTargetParametersLambdaFunctionParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}
   */
   readonly invocationType?: string;
 }
@@ -8754,7 +8754,7 @@ export class PipesPipeTargetParametersLambdaFunctionParametersOutputReference ex
   }
 
   // invocation_type - computed: true, optional: true, required: false
-  private _invocationType?: string; 
+  private _invocationType?: string;
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -8773,35 +8773,35 @@ export interface PipesPipeTargetParametersRedshiftDataParameters {
   /**
   * Redshift Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#database PipesPipe#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#database PipesPipe#database}
   */
   readonly database?: string;
   /**
   * Database user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#db_user PipesPipe#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#db_user PipesPipe#db_user}
   */
   readonly dbUser?: string;
   /**
   * Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#secret_manager_arn PipesPipe#secret_manager_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#secret_manager_arn PipesPipe#secret_manager_arn}
   */
   readonly secretManagerArn?: string;
   /**
   * A list of SQLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sqls PipesPipe#sqls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sqls PipesPipe#sqls}
   */
   readonly sqls?: string[];
   /**
   * A name for Redshift DataAPI statement which can be used as filter of ListStatement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#statement_name PipesPipe#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#statement_name PipesPipe#statement_name}
   */
   readonly statementName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}
   */
   readonly withEvent?: boolean | cdktn.IResolvable;
 }
@@ -8943,7 +8943,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string; 
+  private _database?: string;
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -8959,7 +8959,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // db_user - computed: true, optional: true, required: false
-  private _dbUser?: string; 
+  private _dbUser?: string;
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -8975,7 +8975,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string; 
+  private _secretManagerArn?: string;
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -8991,7 +8991,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // sqls - computed: true, optional: true, required: false
-  private _sqls?: string[]; 
+  private _sqls?: string[];
   public get sqls() {
     return this.getListAttribute('sqls');
   }
@@ -9007,7 +9007,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // statement_name - computed: true, optional: true, required: false
-  private _statementName?: string; 
+  private _statementName?: string;
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -9023,7 +9023,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // with_event - computed: true, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable; 
+  private _withEvent?: boolean | cdktn.IResolvable;
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -9040,11 +9040,11 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
 }
 export interface PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#name PipesPipe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#name PipesPipe#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#value PipesPipe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#value PipesPipe#value}
   */
   readonly value?: string;
 }
@@ -9136,7 +9136,7 @@ export class PipesPipeTargetParametersSageMakerPipelineParametersPipelineParamet
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9152,7 +9152,7 @@ export class PipesPipeTargetParametersSageMakerPipelineParametersPipelineParamet
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9189,7 +9189,7 @@ export class PipesPipeTargetParametersSageMakerPipelineParametersPipelineParamet
 }
 export interface PipesPipeTargetParametersSageMakerPipelineParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}
   */
   readonly pipelineParameterList?: PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct[] | cdktn.IResolvable;
 }
@@ -9283,11 +9283,11 @@ export class PipesPipeTargetParametersSageMakerPipelineParametersOutputReference
 }
 export interface PipesPipeTargetParametersSqsQueueParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}
   */
   readonly messageDeduplicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}
   */
   readonly messageGroupId?: string;
 }
@@ -9377,7 +9377,7 @@ export class PipesPipeTargetParametersSqsQueueParametersOutputReference extends 
   }
 
   // message_deduplication_id - computed: true, optional: true, required: false
-  private _messageDeduplicationId?: string; 
+  private _messageDeduplicationId?: string;
   public get messageDeduplicationId() {
     return this.getStringAttribute('message_deduplication_id');
   }
@@ -9393,7 +9393,7 @@ export class PipesPipeTargetParametersSqsQueueParametersOutputReference extends 
   }
 
   // message_group_id - computed: true, optional: true, required: false
-  private _messageGroupId?: string; 
+  private _messageGroupId?: string;
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -9410,7 +9410,7 @@ export class PipesPipeTargetParametersSqsQueueParametersOutputReference extends 
 }
 export interface PipesPipeTargetParametersStepFunctionStateMachineParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}
   */
   readonly invocationType?: string;
 }
@@ -9487,7 +9487,7 @@ export class PipesPipeTargetParametersStepFunctionStateMachineParametersOutputRe
   }
 
   // invocation_type - computed: true, optional: true, required: false
-  private _invocationType?: string; 
+  private _invocationType?: string;
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -9504,15 +9504,15 @@ export class PipesPipeTargetParametersStepFunctionStateMachineParametersOutputRe
 }
 export interface PipesPipeTargetParametersTimestreamParametersDimensionMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}
   */
   readonly dimensionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}
   */
   readonly dimensionValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}
   */
   readonly dimensionValueType?: string;
 }
@@ -9617,7 +9617,7 @@ export class PipesPipeTargetParametersTimestreamParametersDimensionMappingsOutpu
   }
 
   // dimension_name - computed: true, optional: true, required: false
-  private _dimensionName?: string; 
+  private _dimensionName?: string;
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -9633,7 +9633,7 @@ export class PipesPipeTargetParametersTimestreamParametersDimensionMappingsOutpu
   }
 
   // dimension_value - computed: true, optional: true, required: false
-  private _dimensionValue?: string; 
+  private _dimensionValue?: string;
   public get dimensionValue() {
     return this.getStringAttribute('dimension_value');
   }
@@ -9649,7 +9649,7 @@ export class PipesPipeTargetParametersTimestreamParametersDimensionMappingsOutpu
   }
 
   // dimension_value_type - computed: true, optional: true, required: false
-  private _dimensionValueType?: string; 
+  private _dimensionValueType?: string;
   public get dimensionValueType() {
     return this.getStringAttribute('dimension_value_type');
   }
@@ -9686,15 +9686,15 @@ export class PipesPipeTargetParametersTimestreamParametersDimensionMappingsList 
 }
 export interface PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}
   */
   readonly measureValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}
   */
   readonly measureValueType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}
   */
   readonly multiMeasureAttributeName?: string;
 }
@@ -9799,7 +9799,7 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMu
   }
 
   // measure_value - computed: true, optional: true, required: false
-  private _measureValue?: string; 
+  private _measureValue?: string;
   public get measureValue() {
     return this.getStringAttribute('measure_value');
   }
@@ -9815,7 +9815,7 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMu
   }
 
   // measure_value_type - computed: true, optional: true, required: false
-  private _measureValueType?: string; 
+  private _measureValueType?: string;
   public get measureValueType() {
     return this.getStringAttribute('measure_value_type');
   }
@@ -9831,7 +9831,7 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMu
   }
 
   // multi_measure_attribute_name - computed: true, optional: true, required: false
-  private _multiMeasureAttributeName?: string; 
+  private _multiMeasureAttributeName?: string;
   public get multiMeasureAttributeName() {
     return this.getStringAttribute('multi_measure_attribute_name');
   }
@@ -9868,11 +9868,11 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMu
 }
 export interface PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}
   */
   readonly multiMeasureAttributeMappings?: PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}
   */
   readonly multiMeasureName?: string;
 }
@@ -9980,7 +9980,7 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsOu
   }
 
   // multi_measure_name - computed: true, optional: true, required: false
-  private _multiMeasureName?: string; 
+  private _multiMeasureName?: string;
   public get multiMeasureName() {
     return this.getStringAttribute('multi_measure_name');
   }
@@ -10017,15 +10017,15 @@ export class PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsLi
 }
 export interface PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}
   */
   readonly measureName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}
   */
   readonly measureValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}
   */
   readonly measureValueType?: string;
 }
@@ -10130,7 +10130,7 @@ export class PipesPipeTargetParametersTimestreamParametersSingleMeasureMappingsO
   }
 
   // measure_name - computed: true, optional: true, required: false
-  private _measureName?: string; 
+  private _measureName?: string;
   public get measureName() {
     return this.getStringAttribute('measure_name');
   }
@@ -10146,7 +10146,7 @@ export class PipesPipeTargetParametersTimestreamParametersSingleMeasureMappingsO
   }
 
   // measure_value - computed: true, optional: true, required: false
-  private _measureValue?: string; 
+  private _measureValue?: string;
   public get measureValue() {
     return this.getStringAttribute('measure_value');
   }
@@ -10162,7 +10162,7 @@ export class PipesPipeTargetParametersTimestreamParametersSingleMeasureMappingsO
   }
 
   // measure_value_type - computed: true, optional: true, required: false
-  private _measureValueType?: string; 
+  private _measureValueType?: string;
   public get measureValueType() {
     return this.getStringAttribute('measure_value_type');
   }
@@ -10199,35 +10199,35 @@ export class PipesPipeTargetParametersTimestreamParametersSingleMeasureMappingsL
 }
 export interface PipesPipeTargetParametersTimestreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}
   */
   readonly dimensionMappings?: PipesPipeTargetParametersTimestreamParametersDimensionMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}
   */
   readonly epochTimeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}
   */
   readonly multiMeasureMappings?: PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}
   */
   readonly singleMeasureMappings?: PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}
   */
   readonly timeFieldType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}
   */
   readonly timeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}
   */
   readonly versionValue?: string;
 }
@@ -10411,7 +10411,7 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
   }
 
   // epoch_time_unit - computed: true, optional: true, required: false
-  private _epochTimeUnit?: string; 
+  private _epochTimeUnit?: string;
   public get epochTimeUnit() {
     return this.getStringAttribute('epoch_time_unit');
   }
@@ -10459,7 +10459,7 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
   }
 
   // time_field_type - computed: true, optional: true, required: false
-  private _timeFieldType?: string; 
+  private _timeFieldType?: string;
   public get timeFieldType() {
     return this.getStringAttribute('time_field_type');
   }
@@ -10475,7 +10475,7 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
   }
 
   // time_value - computed: true, optional: true, required: false
-  private _timeValue?: string; 
+  private _timeValue?: string;
   public get timeValue() {
     return this.getStringAttribute('time_value');
   }
@@ -10491,7 +10491,7 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
   }
 
   // timestamp_format - computed: true, optional: true, required: false
-  private _timestampFormat?: string; 
+  private _timestampFormat?: string;
   public get timestampFormat() {
     return this.getStringAttribute('timestamp_format');
   }
@@ -10507,7 +10507,7 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
   }
 
   // version_value - computed: true, optional: true, required: false
-  private _versionValue?: string; 
+  private _versionValue?: string;
   public get versionValue() {
     return this.getStringAttribute('version_value');
   }
@@ -10524,55 +10524,55 @@ export class PipesPipeTargetParametersTimestreamParametersOutputReference extend
 }
 export interface PipesPipeTargetParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}
   */
   readonly batchJobParameters?: PipesPipeTargetParametersBatchJobParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}
   */
   readonly cloudwatchLogsParameters?: PipesPipeTargetParametersCloudwatchLogsParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}
   */
   readonly ecsTaskParameters?: PipesPipeTargetParametersEcsTaskParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}
   */
   readonly eventBridgeEventBusParameters?: PipesPipeTargetParametersEventBridgeEventBusParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
   */
   readonly httpParameters?: PipesPipeTargetParametersHttpParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}
   */
   readonly inputTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}
   */
   readonly kinesisStreamParameters?: PipesPipeTargetParametersKinesisStreamParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}
   */
   readonly lambdaFunctionParameters?: PipesPipeTargetParametersLambdaFunctionParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}
   */
   readonly redshiftDataParameters?: PipesPipeTargetParametersRedshiftDataParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}
   */
   readonly sageMakerPipelineParameters?: PipesPipeTargetParametersSageMakerPipelineParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}
   */
   readonly sqsQueueParameters?: PipesPipeTargetParametersSqsQueueParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}
   */
   readonly stepFunctionStateMachineParameters?: PipesPipeTargetParametersStepFunctionStateMachineParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}
   */
   readonly timestreamParameters?: PipesPipeTargetParametersTimestreamParameters;
 }
@@ -10885,7 +10885,7 @@ export class PipesPipeTargetParametersOutputReference extends cdktn.ComplexObjec
   }
 
   // input_template - computed: true, optional: true, required: false
-  private _inputTemplate?: string; 
+  private _inputTemplate?: string;
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -11014,7 +11014,7 @@ export class PipesPipeTargetParametersOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe awscc_pipes_pipe}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe awscc_pipes_pipe}
 */
 export class PipesPipe extends cdktn.TerraformResource {
 
@@ -11030,7 +11030,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PipesPipe resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PipesPipe to import
-  * @param importFromId The id of the existing PipesPipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PipesPipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PipesPipe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -11042,7 +11042,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pipes_pipe awscc_pipes_pipe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pipes_pipe awscc_pipes_pipe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11053,7 +11053,7 @@ export class PipesPipe extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pipes_pipe',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -11098,7 +11098,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -11114,7 +11114,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string; 
+  private _desiredState?: string;
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -11130,7 +11130,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // enrichment - computed: true, optional: true, required: false
-  private _enrichment?: string; 
+  private _enrichment?: string;
   public get enrichment() {
     return this.getStringAttribute('enrichment');
   }
@@ -11167,7 +11167,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string; 
+  private _kmsKeyIdentifier?: string;
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -11204,7 +11204,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11220,7 +11220,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -11233,7 +11233,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string; 
+  private _source?: string;
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -11267,7 +11267,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -11283,7 +11283,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string; 
+  private _target?: string;
   public get target() {
     return this.getStringAttribute('target');
   }

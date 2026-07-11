@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface DevopsguruServiceIntegrationConfig extends cdktn.TerraformMetaA
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#region DevopsguruServiceIntegration#region}
   */
   readonly region?: string;
   /**
   * kms_server_side_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#kms_server_side_encryption DevopsguruServiceIntegration#kms_server_side_encryption}
   */
   readonly kmsServerSideEncryption?: DevopsguruServiceIntegrationKmsServerSideEncryption[] | cdktn.IResolvable;
   /**
   * logs_anomaly_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#logs_anomaly_detection DevopsguruServiceIntegration#logs_anomaly_detection}
   */
   readonly logsAnomalyDetection?: DevopsguruServiceIntegrationLogsAnomalyDetection[] | cdktn.IResolvable;
   /**
   * ops_center block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#ops_center DevopsguruServiceIntegration#ops_center}
   */
   readonly opsCenter?: DevopsguruServiceIntegrationOpsCenter[] | cdktn.IResolvable;
 }
 export interface DevopsguruServiceIntegrationKmsServerSideEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#kms_key_id DevopsguruServiceIntegration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#kms_key_id DevopsguruServiceIntegration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
   */
   readonly optInStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#type DevopsguruServiceIntegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#type DevopsguruServiceIntegration#type}
   */
   readonly type?: string;
 }
@@ -147,7 +147,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -163,7 +163,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string; 
+  private _optInStatus?: string;
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -179,7 +179,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -216,7 +216,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionList extends cdk
 }
 export interface DevopsguruServiceIntegrationLogsAnomalyDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
   */
   readonly optInStatus?: string;
 }
@@ -295,7 +295,7 @@ export class DevopsguruServiceIntegrationLogsAnomalyDetectionOutputReference ext
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string; 
+  private _optInStatus?: string;
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -332,7 +332,7 @@ export class DevopsguruServiceIntegrationLogsAnomalyDetectionList extends cdktn.
 }
 export interface DevopsguruServiceIntegrationOpsCenter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#opt_in_status DevopsguruServiceIntegration#opt_in_status}
   */
   readonly optInStatus?: string;
 }
@@ -411,7 +411,7 @@ export class DevopsguruServiceIntegrationOpsCenterOutputReference extends cdktn.
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string; 
+  private _optInStatus?: string;
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -448,7 +448,7 @@ export class DevopsguruServiceIntegrationOpsCenterList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}
 */
 export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
 
@@ -464,7 +464,7 @@ export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsguruServiceIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsguruServiceIntegration to import
-  * @param importFromId The id of the existing DevopsguruServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsguruServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsguruServiceIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -476,7 +476,7 @@ export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -487,7 +487,7 @@ export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'aws_devopsguru_service_integration',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -513,7 +513,7 @@ export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

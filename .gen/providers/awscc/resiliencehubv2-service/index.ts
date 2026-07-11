@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface Resiliencehubv2ServiceConfig extends cdktn.TerraformMetaArgumen
   /**
   * Assertions associated with this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
   */
   readonly assertions?: Resiliencehubv2ServiceAssertions[] | cdktn.IResolvable;
   /**
   * Systems associated with this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
   */
   readonly associatedSystems?: Resiliencehubv2ServiceAssociatedSystems[] | cdktn.IResolvable;
   /**
   * Dependency discovery state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
   */
   readonly dependencyDiscovery?: string;
   /**
   * The description of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
   */
   readonly description?: string;
   /**
   * Input sources for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
   */
   readonly inputSources?: Resiliencehubv2ServiceInputSources[] | cdktn.IResolvable;
   /**
   * The KMS key ID for encrypting service data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}
   */
   readonly permissionModel?: Resiliencehubv2ServicePermissionModel;
   /**
   * The ARN of the resilience policy to associate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
   */
   readonly policyArn?: string;
   /**
   * AWS regions for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
   */
   readonly regions: string[];
   /**
   * Configuration for automatic report generation on a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
   */
   readonly reportConfiguration?: Resiliencehubv2ServiceReportConfiguration;
   /**
   * Tags assigned to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
   */
   readonly tags?: Resiliencehubv2ServiceTags[] | cdktn.IResolvable;
 }
@@ -82,7 +82,7 @@ export interface Resiliencehubv2ServiceAssertions {
   /**
   * The text of the assertion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
   */
   readonly text?: string;
 }
@@ -161,7 +161,7 @@ export class Resiliencehubv2ServiceAssertionsOutputReference extends cdktn.Compl
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string; 
+  private _text?: string;
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -200,13 +200,13 @@ export interface Resiliencehubv2ServiceAssociatedSystems {
   /**
   * The system ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
   */
   readonly systemArn?: string;
   /**
   * User journey IDs associated with this system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
   */
   readonly userJourneyIds?: string[];
 }
@@ -298,7 +298,7 @@ export class Resiliencehubv2ServiceAssociatedSystemsOutputReference extends cdkt
   }
 
   // system_arn - computed: true, optional: true, required: false
-  private _systemArn?: string; 
+  private _systemArn?: string;
   public get systemArn() {
     return this.getStringAttribute('system_arn');
   }
@@ -314,7 +314,7 @@ export class Resiliencehubv2ServiceAssociatedSystemsOutputReference extends cdkt
   }
 
   // user_journey_ids - computed: true, optional: true, required: false
-  private _userJourneyIds?: string[]; 
+  private _userJourneyIds?: string[];
   public get userJourneyIds() {
     return this.getListAttribute('user_journey_ids');
   }
@@ -857,13 +857,13 @@ export interface Resiliencehubv2ServiceInputSourcesResourceConfigurationEks {
   /**
   * ARN of the EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
   * EKS namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
   */
   readonly namespaces?: string[];
 }
@@ -953,7 +953,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputRef
   }
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string; 
+  private _clusterArn?: string;
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -969,7 +969,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputRef
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[]; 
+  private _namespaces?: string[];
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -988,13 +988,13 @@ export interface Resiliencehubv2ServiceInputSourcesResourceConfigurationResource
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
   */
   readonly key?: string;
   /**
   * Tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
   */
   readonly values?: string[];
 }
@@ -1086,7 +1086,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1102,7 +1102,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1141,29 +1141,29 @@ export interface Resiliencehubv2ServiceInputSourcesResourceConfiguration {
   /**
   * ARN of a CloudFormation stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
   */
   readonly cfnStackArn?: string;
   /**
   * S3 URL of a design file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
   */
   readonly designFileS3Url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}
   */
   readonly eks?: Resiliencehubv2ServiceInputSourcesResourceConfigurationEks;
   /**
   * Resource tags to discover resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
   */
   readonly resourceTags?: Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags[] | cdktn.IResolvable;
   /**
   * URL of a Terraform state file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
   */
   readonly tfStateFileUrl?: string;
 }
@@ -1292,7 +1292,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationOutputRefere
   }
 
   // cfn_stack_arn - computed: true, optional: true, required: false
-  private _cfnStackArn?: string; 
+  private _cfnStackArn?: string;
   public get cfnStackArn() {
     return this.getStringAttribute('cfn_stack_arn');
   }
@@ -1308,7 +1308,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationOutputRefere
   }
 
   // design_file_s3_url - computed: true, optional: true, required: false
-  private _designFileS3Url?: string; 
+  private _designFileS3Url?: string;
   public get designFileS3Url() {
     return this.getStringAttribute('design_file_s3_url');
   }
@@ -1356,7 +1356,7 @@ export class Resiliencehubv2ServiceInputSourcesResourceConfigurationOutputRefere
   }
 
   // tf_state_file_url - computed: true, optional: true, required: false
-  private _tfStateFileUrl?: string; 
+  private _tfStateFileUrl?: string;
   public get tfStateFileUrl() {
     return this.getStringAttribute('tf_state_file_url');
   }
@@ -1375,7 +1375,7 @@ export interface Resiliencehubv2ServiceInputSources {
   /**
   * Resource configuration for an input source. Provide exactly one field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
   */
   readonly resourceConfiguration?: Resiliencehubv2ServiceInputSourcesResourceConfiguration;
 }
@@ -1493,13 +1493,13 @@ export interface Resiliencehubv2ServicePermissionModelCrossAccountRoleArns {
   /**
   * ARN of the cross-account IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
   */
   readonly crossAccountRoleArn?: string;
   /**
   * External ID for cross-account access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
   */
   readonly externalId?: string;
 }
@@ -1591,7 +1591,7 @@ export class Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsOutputRefe
   }
 
   // cross_account_role_arn - computed: true, optional: true, required: false
-  private _crossAccountRoleArn?: string; 
+  private _crossAccountRoleArn?: string;
   public get crossAccountRoleArn() {
     return this.getStringAttribute('cross_account_role_arn');
   }
@@ -1607,7 +1607,7 @@ export class Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsOutputRefe
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string; 
+  private _externalId?: string;
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -1646,13 +1646,13 @@ export interface Resiliencehubv2ServicePermissionModel {
   /**
   * Cross-account role ARNs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
   */
   readonly crossAccountRoleArns?: Resiliencehubv2ServicePermissionModelCrossAccountRoleArns[] | cdktn.IResolvable;
   /**
   * Name of the invoker IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
   */
   readonly invokerRoleName?: string;
 }
@@ -1758,7 +1758,7 @@ export class Resiliencehubv2ServicePermissionModelOutputReference extends cdktn.
   }
 
   // invoker_role_name - computed: true, optional: true, required: false
-  private _invokerRoleName?: string; 
+  private _invokerRoleName?: string;
   public get invokerRoleName() {
     return this.getStringAttribute('invoker_role_name');
   }
@@ -1777,13 +1777,13 @@ export interface Resiliencehubv2ServiceReportConfigurationReportOutputS3 {
   /**
   * Account ID of the bucket owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
   * S3 bucket path where reports will be written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
   */
   readonly bucketPath?: string;
 }
@@ -1873,7 +1873,7 @@ export class Resiliencehubv2ServiceReportConfigurationReportOutputS3OutputRefere
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string; 
+  private _bucketOwner?: string;
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1889,7 +1889,7 @@ export class Resiliencehubv2ServiceReportConfigurationReportOutputS3OutputRefere
   }
 
   // bucket_path - computed: true, optional: true, required: false
-  private _bucketPath?: string; 
+  private _bucketPath?: string;
   public get bucketPath() {
     return this.getStringAttribute('bucket_path');
   }
@@ -1908,7 +1908,7 @@ export interface Resiliencehubv2ServiceReportConfigurationReportOutput {
   /**
   * S3 configuration for report output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
   */
   readonly s3?: Resiliencehubv2ServiceReportConfigurationReportOutputS3;
 }
@@ -2026,7 +2026,7 @@ export interface Resiliencehubv2ServiceReportConfiguration {
   /**
   * Output destinations for generated reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
   */
   readonly reportOutput?: Resiliencehubv2ServiceReportConfigurationReportOutput[] | cdktn.IResolvable;
 }
@@ -2122,13 +2122,13 @@ export interface Resiliencehubv2ServiceTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
   */
   readonly value?: string;
 }
@@ -2220,7 +2220,7 @@ export class Resiliencehubv2ServiceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2236,7 +2236,7 @@ export class Resiliencehubv2ServiceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2273,7 +2273,7 @@ export class Resiliencehubv2ServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}
 */
 export class Resiliencehubv2Service extends cdktn.TerraformResource {
 
@@ -2289,7 +2289,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resiliencehubv2Service resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resiliencehubv2Service to import
-  * @param importFromId The id of the existing Resiliencehubv2Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resiliencehubv2Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resiliencehubv2Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2301,7 +2301,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2312,7 +2312,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehubv2_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2378,7 +2378,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // dependency_discovery - computed: true, optional: true, required: false
-  private _dependencyDiscovery?: string; 
+  private _dependencyDiscovery?: string;
   public get dependencyDiscovery() {
     return this.getStringAttribute('dependency_discovery');
   }
@@ -2394,7 +2394,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2437,7 +2437,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string; 
+  private _kmsKeyId?: string;
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2453,7 +2453,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2482,7 +2482,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string; 
+  private _policyArn?: string;
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -2498,7 +2498,7 @@ export class Resiliencehubv2Service extends cdktn.TerraformResource {
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return this.getListAttribute('regions');
   }

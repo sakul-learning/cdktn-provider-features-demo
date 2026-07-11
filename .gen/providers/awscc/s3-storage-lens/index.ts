@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface S3StorageLensConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies the details of Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_lens_configuration S3StorageLens#storage_lens_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_lens_configuration S3StorageLens#storage_lens_configuration}
   */
   readonly storageLensConfiguration: S3StorageLensStorageLensConfiguration;
   /**
   * A set of tags (key-value pairs) for this Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#tags S3StorageLens#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#tags S3StorageLens#tags}
   */
   readonly tags?: S3StorageLensTags[] | cdktn.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelActivityMetric
   /**
   * Specifies whether activity metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -101,7 +101,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelActivityMetricsOut
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -120,7 +120,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOp
   /**
   * Specifies whether advanced cost optimization metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -197,7 +197,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimi
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -216,7 +216,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelAdvancedDataPr
   /**
   * Specifies whether advanced data protection metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -293,7 +293,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtec
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -312,7 +312,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelAdvancedPerfor
   /**
   * Specifies whether the Advanced Performance Metrics is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -389,7 +389,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanc
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -408,7 +408,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAct
   /**
   * Specifies whether activity metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -485,7 +485,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivit
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -504,7 +504,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdv
   /**
   * Specifies whether advanced cost optimization metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -581,7 +581,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvance
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -600,7 +600,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdv
   /**
   * Specifies whether advanced data protection metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -677,7 +677,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvance
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -696,7 +696,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdv
   /**
   * Specifies whether the Advanced Performance Metrics is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -773,7 +773,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvance
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -792,7 +792,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelDet
   /**
   * Specifies whether detailed status codes metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -869,7 +869,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetaile
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -888,19 +888,19 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPre
   /**
   * Delimiter to divide S3 key into hierarchy of prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#delimiter S3StorageLens#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#delimiter S3StorageLens#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Max depth of prefixes of S3 key that Amazon S3 Storage Lens will analyze.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#max_depth S3StorageLens#max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#max_depth S3StorageLens#max_depth}
   */
   readonly maxDepth?: number;
   /**
   * The minimum storage bytes threshold for the prefixes to be included in the analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#min_storage_bytes_percentage S3StorageLens#min_storage_bytes_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#min_storage_bytes_percentage S3StorageLens#min_storage_bytes_percentage}
   */
   readonly minStorageBytesPercentage?: number;
 }
@@ -1003,7 +1003,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixL
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string; 
+  private _delimiter?: string;
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1019,7 +1019,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixL
   }
 
   // max_depth - computed: true, optional: true, required: false
-  private _maxDepth?: number; 
+  private _maxDepth?: number;
   public get maxDepth() {
     return this.getNumberAttribute('max_depth');
   }
@@ -1035,7 +1035,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixL
   }
 
   // min_storage_bytes_percentage - computed: true, optional: true, required: false
-  private _minStorageBytesPercentage?: number; 
+  private _minStorageBytesPercentage?: number;
   public get minStorageBytesPercentage() {
     return this.getNumberAttribute('min_storage_bytes_percentage');
   }
@@ -1054,13 +1054,13 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPre
   /**
   * Specifies whether prefix-level storage metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
   /**
   * Selection criteria for prefix-level metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#selection_criteria S3StorageLens#selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#selection_criteria S3StorageLens#selection_criteria}
   */
   readonly selectionCriteria?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteria;
 }
@@ -1150,7 +1150,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixL
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -1183,7 +1183,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixL
 }
 export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_metrics S3StorageLens#storage_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_metrics S3StorageLens#storage_metrics}
   */
   readonly storageMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetrics;
 }
@@ -1279,37 +1279,37 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelBucketLevel {
   /**
   * Enables activity metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#activity_metrics S3StorageLens#activity_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#activity_metrics S3StorageLens#activity_metrics}
   */
   readonly activityMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetrics;
   /**
   * Enables advanced cost optimization metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_cost_optimization_metrics S3StorageLens#advanced_cost_optimization_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_cost_optimization_metrics S3StorageLens#advanced_cost_optimization_metrics}
   */
   readonly advancedCostOptimizationMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetrics;
   /**
   * Enables advanced data protection metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_data_protection_metrics S3StorageLens#advanced_data_protection_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_data_protection_metrics S3StorageLens#advanced_data_protection_metrics}
   */
   readonly advancedDataProtectionMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetrics;
   /**
   * Advanced Performance Metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_performance_metrics S3StorageLens#advanced_performance_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_performance_metrics S3StorageLens#advanced_performance_metrics}
   */
   readonly advancedPerformanceMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics;
   /**
   * Enables detailed status codes metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#detailed_status_codes_metrics S3StorageLens#detailed_status_codes_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#detailed_status_codes_metrics S3StorageLens#detailed_status_codes_metrics}
   */
   readonly detailedStatusCodesMetrics?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetrics;
   /**
   * Prefix-level metrics configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#prefix_level S3StorageLens#prefix_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#prefix_level S3StorageLens#prefix_level}
   */
   readonly prefixLevel?: S3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevel;
 }
@@ -1550,7 +1550,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelDetailedStatus
   /**
   * Specifies whether detailed status codes metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -1627,7 +1627,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCode
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -1644,11 +1644,11 @@ export class S3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCode
 }
 export interface S3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#exclude S3StorageLens#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#exclude S3StorageLens#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#include S3StorageLens#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#include S3StorageLens#include}
   */
   readonly include?: string[];
 }
@@ -1738,7 +1738,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLe
   }
 
   // exclude - computed: true, optional: true, required: false
-  private _exclude?: string[]; 
+  private _exclude?: string[];
   public get exclude() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude'));
   }
@@ -1754,7 +1754,7 @@ export class S3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLe
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[]; 
+  private _include?: string[];
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -1773,7 +1773,7 @@ export interface S3StorageLensStorageLensConfigurationAccountLevelStorageLensGro
   /**
   * Selection criteria for Storage Lens Group level metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_lens_group_selection_criteria S3StorageLens#storage_lens_group_selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_lens_group_selection_criteria S3StorageLens#storage_lens_group_selection_criteria}
   */
   readonly storageLensGroupSelectionCriteria?: S3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteria;
 }
@@ -1869,43 +1869,43 @@ export interface S3StorageLensStorageLensConfigurationAccountLevel {
   /**
   * Enables activity metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#activity_metrics S3StorageLens#activity_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#activity_metrics S3StorageLens#activity_metrics}
   */
   readonly activityMetrics?: S3StorageLensStorageLensConfigurationAccountLevelActivityMetrics;
   /**
   * Enables advanced cost optimization metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_cost_optimization_metrics S3StorageLens#advanced_cost_optimization_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_cost_optimization_metrics S3StorageLens#advanced_cost_optimization_metrics}
   */
   readonly advancedCostOptimizationMetrics?: S3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetrics;
   /**
   * Enables advanced data protection metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_data_protection_metrics S3StorageLens#advanced_data_protection_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_data_protection_metrics S3StorageLens#advanced_data_protection_metrics}
   */
   readonly advancedDataProtectionMetrics?: S3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetrics;
   /**
   * Advanced Performance Metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#advanced_performance_metrics S3StorageLens#advanced_performance_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#advanced_performance_metrics S3StorageLens#advanced_performance_metrics}
   */
   readonly advancedPerformanceMetrics?: S3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics;
   /**
   * Bucket-level metrics configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#bucket_level S3StorageLens#bucket_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#bucket_level S3StorageLens#bucket_level}
   */
   readonly bucketLevel: S3StorageLensStorageLensConfigurationAccountLevelBucketLevel;
   /**
   * Enables detailed status codes metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#detailed_status_codes_metrics S3StorageLens#detailed_status_codes_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#detailed_status_codes_metrics S3StorageLens#detailed_status_codes_metrics}
   */
   readonly detailedStatusCodesMetrics?: S3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetrics;
   /**
   * Specifies the details of Amazon S3 Storage Lens Group configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_lens_group_level S3StorageLens#storage_lens_group_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_lens_group_level S3StorageLens#storage_lens_group_level}
   */
   readonly storageLensGroupLevel?: S3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevel;
 }
@@ -2172,7 +2172,7 @@ export interface S3StorageLensStorageLensConfigurationAwsOrg {
   /**
   * The Amazon Resource Name (ARN) of the specified resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
   */
   readonly arn?: string;
 }
@@ -2249,7 +2249,7 @@ export class S3StorageLensStorageLensConfigurationAwsOrgOutputReference extends 
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2268,7 +2268,7 @@ export interface S3StorageLensStorageLensConfigurationDataExportCloudwatchMetric
   /**
   * Specifies whether CloudWatch metrics are enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -2345,7 +2345,7 @@ export class S3StorageLensStorageLensConfigurationDataExportCloudwatchMetricsOut
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -2364,7 +2364,7 @@ export interface S3StorageLensStorageLensConfigurationDataExportS3BucketDestinat
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
   */
   readonly keyId?: string;
 }
@@ -2441,7 +2441,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationE
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -2460,13 +2460,13 @@ export interface S3StorageLensStorageLensConfigurationDataExportS3BucketDestinat
   /**
   * AWS KMS server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
   */
   readonly ssekms?: S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekms;
   /**
   * S3 default server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
   */
   readonly sses3?: string;
 }
@@ -2572,7 +2572,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationE
   }
 
   // sses3 - computed: true, optional: true, required: false
-  private _sses3?: string; 
+  private _sses3?: string;
   public get sses3() {
     return this.getStringAttribute('sses3');
   }
@@ -2591,37 +2591,37 @@ export interface S3StorageLensStorageLensConfigurationDataExportS3BucketDestinat
   /**
   * The AWS account ID that owns the destination S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#account_id S3StorageLens#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#account_id S3StorageLens#account_id}
   */
   readonly accountId?: string;
   /**
   * The ARN of the bucket to which Amazon S3 Storage Lens exports will be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
   */
   readonly arn?: string;
   /**
   * Configures the server-side encryption for Amazon S3 Storage Lens report files with either S3-managed keys (SSE-S3) or KMS-managed keys (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
   */
   readonly encryption?: S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryption;
   /**
   * Specifies the file format to use when exporting Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#format S3StorageLens#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#format S3StorageLens#format}
   */
   readonly format?: string;
   /**
   * The version of the output schema to use when exporting Amazon S3 Storage Lens metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#output_schema_version S3StorageLens#output_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#output_schema_version S3StorageLens#output_schema_version}
   */
   readonly outputSchemaVersion?: string;
   /**
   * The prefix to use for Amazon S3 Storage Lens export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#prefix S3StorageLens#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#prefix S3StorageLens#prefix}
   */
   readonly prefix?: string;
 }
@@ -2763,7 +2763,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationO
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2779,7 +2779,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationO
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2811,7 +2811,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationO
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2827,7 +2827,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationO
   }
 
   // output_schema_version - computed: true, optional: true, required: false
-  private _outputSchemaVersion?: string; 
+  private _outputSchemaVersion?: string;
   public get outputSchemaVersion() {
     return this.getStringAttribute('output_schema_version');
   }
@@ -2843,7 +2843,7 @@ export class S3StorageLensStorageLensConfigurationDataExportS3BucketDestinationO
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2862,7 +2862,7 @@ export interface S3StorageLensStorageLensConfigurationDataExportStorageLensTable
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
   */
   readonly keyId?: string;
 }
@@ -2939,7 +2939,7 @@ export class S3StorageLensStorageLensConfigurationDataExportStorageLensTableDest
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -2958,13 +2958,13 @@ export interface S3StorageLensStorageLensConfigurationDataExportStorageLensTable
   /**
   * AWS KMS server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
   */
   readonly ssekms?: S3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekms;
   /**
   * S3 default server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
   */
   readonly sses3?: string;
 }
@@ -3070,7 +3070,7 @@ export class S3StorageLensStorageLensConfigurationDataExportStorageLensTableDest
   }
 
   // sses3 - computed: true, optional: true, required: false
-  private _sses3?: string; 
+  private _sses3?: string;
   public get sses3() {
     return this.getStringAttribute('sses3');
   }
@@ -3089,13 +3089,13 @@ export interface S3StorageLensStorageLensConfigurationDataExportStorageLensTable
   /**
   * Configures the server-side encryption for Amazon S3 Storage Lens report files with either S3-managed keys (SSE-S3) or KMS-managed keys (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
   */
   readonly encryption?: S3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryption;
   /**
   * Specifies whether the export to S3 Tables is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -3201,7 +3201,7 @@ export class S3StorageLensStorageLensConfigurationDataExportStorageLensTableDest
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -3220,19 +3220,19 @@ export interface S3StorageLensStorageLensConfigurationDataExport {
   /**
   * CloudWatch metrics settings for the Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#cloudwatch_metrics S3StorageLens#cloudwatch_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#cloudwatch_metrics S3StorageLens#cloudwatch_metrics}
   */
   readonly cloudwatchMetrics?: S3StorageLensStorageLensConfigurationDataExportCloudwatchMetrics;
   /**
   * S3 bucket destination settings for the Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#s3_bucket_destination S3StorageLens#s3_bucket_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#s3_bucket_destination S3StorageLens#s3_bucket_destination}
   */
   readonly s3BucketDestination?: S3StorageLensStorageLensConfigurationDataExportS3BucketDestination;
   /**
   * S3 Tables destination settings for the Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_lens_table_destination S3StorageLens#storage_lens_table_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_lens_table_destination S3StorageLens#storage_lens_table_destination}
   */
   readonly storageLensTableDestination?: S3StorageLensStorageLensConfigurationDataExportStorageLensTableDestination;
 }
@@ -3384,11 +3384,11 @@ export class S3StorageLensStorageLensConfigurationDataExportOutputReference exte
 }
 export interface S3StorageLensStorageLensConfigurationExclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#buckets S3StorageLens#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#buckets S3StorageLens#buckets}
   */
   readonly buckets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#regions S3StorageLens#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#regions S3StorageLens#regions}
   */
   readonly regions?: string[];
 }
@@ -3478,7 +3478,7 @@ export class S3StorageLensStorageLensConfigurationExcludeOutputReference extends
   }
 
   // buckets - computed: true, optional: true, required: false
-  private _buckets?: string[]; 
+  private _buckets?: string[];
   public get buckets() {
     return cdktn.Fn.tolist(this.getListAttribute('buckets'));
   }
@@ -3494,7 +3494,7 @@ export class S3StorageLensStorageLensConfigurationExcludeOutputReference extends
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -3513,7 +3513,7 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
   */
   readonly keyId?: string;
 }
@@ -3590,7 +3590,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -3609,13 +3609,13 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * AWS KMS server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
   */
   readonly ssekms?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekms;
   /**
   * S3 default server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
   */
   readonly sses3?: string;
 }
@@ -3721,7 +3721,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // sses3 - computed: true, optional: true, required: false
-  private _sses3?: string; 
+  private _sses3?: string;
   public get sses3() {
     return this.getStringAttribute('sses3');
   }
@@ -3740,37 +3740,37 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * The AWS account ID that owns the destination S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#account_id S3StorageLens#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#account_id S3StorageLens#account_id}
   */
   readonly accountId?: string;
   /**
   * The ARN of the bucket to which Amazon S3 Storage Lens exports will be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#arn S3StorageLens#arn}
   */
   readonly arn?: string;
   /**
   * Configures the server-side encryption for Amazon S3 Storage Lens report files with either S3-managed keys (SSE-S3) or KMS-managed keys (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
   */
   readonly encryption?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryption;
   /**
   * Specifies the file format to use when exporting Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#format S3StorageLens#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#format S3StorageLens#format}
   */
   readonly format?: string;
   /**
   * The version of the output schema to use when exporting Amazon S3 Storage Lens metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#output_schema_version S3StorageLens#output_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#output_schema_version S3StorageLens#output_schema_version}
   */
   readonly outputSchemaVersion?: string;
   /**
   * The prefix to use for Amazon S3 Storage Lens export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#prefix S3StorageLens#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#prefix S3StorageLens#prefix}
   */
   readonly prefix?: string;
 }
@@ -3912,7 +3912,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string; 
+  private _accountId?: string;
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -3928,7 +3928,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3960,7 +3960,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string; 
+  private _format?: string;
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3976,7 +3976,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // output_schema_version - computed: true, optional: true, required: false
-  private _outputSchemaVersion?: string; 
+  private _outputSchemaVersion?: string;
   public get outputSchemaVersion() {
     return this.getStringAttribute('output_schema_version');
   }
@@ -3992,7 +3992,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3Bu
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string; 
+  private _prefix?: string;
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -4011,7 +4011,7 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#key_id S3StorageLens#key_id}
   */
   readonly keyId?: string;
 }
@@ -4088,7 +4088,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStor
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string; 
+  private _keyId?: string;
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -4107,13 +4107,13 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * AWS KMS server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#ssekms S3StorageLens#ssekms}
   */
   readonly ssekms?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekms;
   /**
   * S3 default server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#sses3 S3StorageLens#sses3}
   */
   readonly sses3?: string;
 }
@@ -4219,7 +4219,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStor
   }
 
   // sses3 - computed: true, optional: true, required: false
-  private _sses3?: string; 
+  private _sses3?: string;
   public get sses3() {
     return this.getStringAttribute('sses3');
   }
@@ -4238,13 +4238,13 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * Configures the server-side encryption for Amazon S3 Storage Lens report files with either S3-managed keys (SSE-S3) or KMS-managed keys (SSE-KMS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#encryption S3StorageLens#encryption}
   */
   readonly encryption?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryption;
   /**
   * Specifies whether the export to S3 Tables is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled?: boolean | cdktn.IResolvable;
 }
@@ -4350,7 +4350,7 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStor
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -4369,13 +4369,13 @@ export interface S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport
   /**
   * S3 bucket destination settings for the Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#s3_bucket_destination S3StorageLens#s3_bucket_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#s3_bucket_destination S3StorageLens#s3_bucket_destination}
   */
   readonly s3BucketDestination?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestination;
   /**
   * S3 Tables destination settings for the Amazon S3 Storage Lens metrics export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#storage_lens_table_destination S3StorageLens#storage_lens_table_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#storage_lens_table_destination S3StorageLens#storage_lens_table_destination}
   */
   readonly storageLensTableDestination?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestination;
 }
@@ -4498,11 +4498,11 @@ export class S3StorageLensStorageLensConfigurationExpandedPrefixesDataExportOutp
 }
 export interface S3StorageLensStorageLensConfigurationInclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#buckets S3StorageLens#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#buckets S3StorageLens#buckets}
   */
   readonly buckets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#regions S3StorageLens#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#regions S3StorageLens#regions}
   */
   readonly regions?: string[];
 }
@@ -4592,7 +4592,7 @@ export class S3StorageLensStorageLensConfigurationIncludeOutputReference extends
   }
 
   // buckets - computed: true, optional: true, required: false
-  private _buckets?: string[]; 
+  private _buckets?: string[];
   public get buckets() {
     return cdktn.Fn.tolist(this.getListAttribute('buckets'));
   }
@@ -4608,7 +4608,7 @@ export class S3StorageLensStorageLensConfigurationIncludeOutputReference extends
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -4627,37 +4627,37 @@ export interface S3StorageLensStorageLensConfiguration {
   /**
   * Account-level metrics configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#account_level S3StorageLens#account_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#account_level S3StorageLens#account_level}
   */
   readonly accountLevel: S3StorageLensStorageLensConfigurationAccountLevel;
   /**
   * The AWS Organizations ARN to use in the Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#aws_org S3StorageLens#aws_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#aws_org S3StorageLens#aws_org}
   */
   readonly awsOrg?: S3StorageLensStorageLensConfigurationAwsOrg;
   /**
   * Specifies how Amazon S3 Storage Lens metrics should be exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#data_export S3StorageLens#data_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#data_export S3StorageLens#data_export}
   */
   readonly dataExport?: S3StorageLensStorageLensConfigurationDataExport;
   /**
   * S3 buckets and Regions to include/exclude in the Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#exclude S3StorageLens#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#exclude S3StorageLens#exclude}
   */
   readonly exclude?: S3StorageLensStorageLensConfigurationExclude;
   /**
   * Expanded Prefixes Data Export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#expanded_prefixes_data_export S3StorageLens#expanded_prefixes_data_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#expanded_prefixes_data_export S3StorageLens#expanded_prefixes_data_export}
   */
   readonly expandedPrefixesDataExport?: S3StorageLensStorageLensConfigurationExpandedPrefixesDataExport;
   /**
   * The ID that identifies the Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#id S3StorageLens#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#id S3StorageLens#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4666,19 +4666,19 @@ export interface S3StorageLensStorageLensConfiguration {
   /**
   * S3 buckets and Regions to include/exclude in the Amazon S3 Storage Lens configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#include S3StorageLens#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#include S3StorageLens#include}
   */
   readonly include?: S3StorageLensStorageLensConfigurationInclude;
   /**
   * Specifies whether the Amazon S3 Storage Lens configuration is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
   */
   readonly isEnabled: boolean | cdktn.IResolvable;
   /**
   * The delimiter to divide S3 key into hierarchy of prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#prefix_delimiter S3StorageLens#prefix_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#prefix_delimiter S3StorageLens#prefix_delimiter}
   */
   readonly prefixDelimiter?: string;
 }
@@ -4936,7 +4936,7 @@ export class S3StorageLensStorageLensConfigurationOutputReference extends cdktn.
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4965,7 +4965,7 @@ export class S3StorageLensStorageLensConfigurationOutputReference extends cdktn.
   }
 
   // is_enabled - computed: false, optional: false, required: true
-  private _isEnabled?: boolean | cdktn.IResolvable; 
+  private _isEnabled?: boolean | cdktn.IResolvable;
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -4978,7 +4978,7 @@ export class S3StorageLensStorageLensConfigurationOutputReference extends cdktn.
   }
 
   // prefix_delimiter - computed: true, optional: true, required: false
-  private _prefixDelimiter?: string; 
+  private _prefixDelimiter?: string;
   public get prefixDelimiter() {
     return this.getStringAttribute('prefix_delimiter');
   }
@@ -5000,11 +5000,11 @@ export class S3StorageLensStorageLensConfigurationOutputReference extends cdktn.
 }
 export interface S3StorageLensTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#key S3StorageLens#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#key S3StorageLens#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#value S3StorageLens#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#value S3StorageLens#value}
   */
   readonly value?: string;
 }
@@ -5096,7 +5096,7 @@ export class S3StorageLensTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5112,7 +5112,7 @@ export class S3StorageLensTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5149,7 +5149,7 @@ export class S3StorageLensTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens awscc_s3_storage_lens}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens awscc_s3_storage_lens}
 */
 export class S3StorageLens extends cdktn.TerraformResource {
 
@@ -5165,7 +5165,7 @@ export class S3StorageLens extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3StorageLens resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3StorageLens to import
-  * @param importFromId The id of the existing S3StorageLens that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3StorageLens that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3StorageLens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5177,7 +5177,7 @@ export class S3StorageLens extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3_storage_lens awscc_s3_storage_lens} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3_storage_lens awscc_s3_storage_lens} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5188,7 +5188,7 @@ export class S3StorageLens extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3_storage_lens',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

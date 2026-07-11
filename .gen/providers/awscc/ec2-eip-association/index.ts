@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface Ec2EipAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
   * The allocation ID. This is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
   */
   readonly allocationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}
   */
   readonly eip?: string;
   /**
   * The ID of the instance. The instance must have exactly one attached network interface. You can specify either the instance ID or the network interface ID, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The ID of the network interface. If the instance has more than one network interface, you must specify a network interface ID.
   *  You can specify either the instance ID or the network interface ID, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * The primary or secondary private IP address to associate with the Elastic IP address. If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}
 */
 export class Ec2EipAssociation extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2EipAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2EipAssociation to import
-  * @param importFromId The id of the existing Ec2EipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2EipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2EipAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_eip_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -100,7 +100,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   // ==========
 
   // allocation_id - computed: true, optional: true, required: false
-  private _allocationId?: string; 
+  private _allocationId?: string;
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -116,7 +116,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // eip - computed: true, optional: true, required: false
-  private _eip?: string; 
+  private _eip?: string;
   public get eip() {
     return this.getStringAttribute('eip');
   }
@@ -142,7 +142,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string; 
+  private _instanceId?: string;
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -158,7 +158,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string; 
+  private _networkInterfaceId?: string;
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -174,7 +174,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string; 
+  private _privateIpAddress?: string;
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }

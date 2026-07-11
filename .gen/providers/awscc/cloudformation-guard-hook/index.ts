@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface CloudformationGuardHookConfig extends cdktn.TerraformMetaArgume
   /**
   * The typename alias for the hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
   */
   readonly alias: string;
   /**
   * The execution role ARN assumed by hooks to read Guard rules from S3 and write Guard outputs to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
   */
   readonly executionRole: string;
   /**
   * Attribute to specify CloudFormation behavior on hook failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
   */
   readonly failureMode?: string;
   /**
   * Attribute to specify which stacks this hook applies to or should get invoked for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
   */
   readonly hookStatus?: string;
   /**
   * S3 Bucket where the guard validate report will be uploaded to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
   */
   readonly logBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}
   */
   readonly options?: CloudformationGuardHookOptions;
   /**
   * S3 Source Location for the Guard files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
   */
   readonly ruleLocation: CloudformationGuardHookRuleLocation;
   /**
   * Filters to allow hooks to target specific stack attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
   */
   readonly stackFilters?: CloudformationGuardHookStackFilters;
   /**
   * Attribute to specify which targets should invoke the hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
   */
   readonly targetFilters?: CloudformationGuardHookTargetFilters;
   /**
   * Which operations should this Hook run against? Resource changes, stacks or change sets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
   */
   readonly targetOperations: string[];
 }
@@ -70,7 +70,7 @@ export interface CloudformationGuardHookOptions {
   /**
   * Specifies the S3 location of input parameter files for your Guard rules. You can specify either a single S3 location or an array of up to 10 S3 locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
   */
   readonly inputParams?: string;
 }
@@ -147,7 +147,7 @@ export class CloudformationGuardHookOptionsOutputReference extends cdktn.Complex
   }
 
   // input_params - computed: true, optional: true, required: false
-  private _inputParams?: string; 
+  private _inputParams?: string;
   public get inputParams() {
     return this.getStringAttribute('input_params');
   }
@@ -166,13 +166,13 @@ export interface CloudformationGuardHookRuleLocation {
   /**
   * S3 uri of Guard files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
   */
   readonly uri: string;
   /**
   * S3 object version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
   */
   readonly versionId?: string;
 }
@@ -262,7 +262,7 @@ export class CloudformationGuardHookRuleLocationOutputReference extends cdktn.Co
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -275,7 +275,7 @@ export class CloudformationGuardHookRuleLocationOutputReference extends cdktn.Co
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string; 
+  private _versionId?: string;
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -294,13 +294,13 @@ export interface CloudformationGuardHookStackFiltersStackNames {
   /**
   * List of stack names that the hook is going to be excluded from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
   */
   readonly exclude?: string[];
   /**
   * List of stack names that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
   */
   readonly include?: string[];
 }
@@ -390,7 +390,7 @@ export class CloudformationGuardHookStackFiltersStackNamesOutputReference extend
   }
 
   // exclude - computed: true, optional: true, required: false
-  private _exclude?: string[]; 
+  private _exclude?: string[];
   public get exclude() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude'));
   }
@@ -406,7 +406,7 @@ export class CloudformationGuardHookStackFiltersStackNamesOutputReference extend
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[]; 
+  private _include?: string[];
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -425,13 +425,13 @@ export interface CloudformationGuardHookStackFiltersStackRoles {
   /**
   * List of stack roles that the hook is going to be excluded from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
   */
   readonly exclude?: string[];
   /**
   * List of stack roles that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
   */
   readonly include?: string[];
 }
@@ -521,7 +521,7 @@ export class CloudformationGuardHookStackFiltersStackRolesOutputReference extend
   }
 
   // exclude - computed: true, optional: true, required: false
-  private _exclude?: string[]; 
+  private _exclude?: string[];
   public get exclude() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude'));
   }
@@ -537,7 +537,7 @@ export class CloudformationGuardHookStackFiltersStackRolesOutputReference extend
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[]; 
+  private _include?: string[];
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -556,19 +556,19 @@ export interface CloudformationGuardHookStackFilters {
   /**
   * Attribute to specify the filtering behavior. ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
   */
   readonly filteringCriteria?: string;
   /**
   * List of stack names as filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
   */
   readonly stackNames?: CloudformationGuardHookStackFiltersStackNames;
   /**
   * List of stack roles that are performing the stack operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
   */
   readonly stackRoles?: CloudformationGuardHookStackFiltersStackRoles;
 }
@@ -671,7 +671,7 @@ export class CloudformationGuardHookStackFiltersOutputReference extends cdktn.Co
   }
 
   // filtering_criteria - computed: true, optional: true, required: false
-  private _filteringCriteria?: string; 
+  private _filteringCriteria?: string;
   public get filteringCriteria() {
     return this.getStringAttribute('filtering_criteria');
   }
@@ -722,19 +722,19 @@ export interface CloudformationGuardHookTargetFiltersTargets {
   /**
   * Target actions are the type of operation hooks will be executed at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
   */
   readonly action?: string;
   /**
   * Invocation points are the point in provisioning workflow where hooks will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
   */
   readonly invocationPoint?: string;
   /**
   * Type name of hook target. Hook targets are the destination where hooks will be invoked against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
   */
   readonly targetName?: string;
 }
@@ -839,7 +839,7 @@ export class CloudformationGuardHookTargetFiltersTargetsOutputReference extends 
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string; 
+  private _action?: string;
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -855,7 +855,7 @@ export class CloudformationGuardHookTargetFiltersTargetsOutputReference extends 
   }
 
   // invocation_point - computed: true, optional: true, required: false
-  private _invocationPoint?: string; 
+  private _invocationPoint?: string;
   public get invocationPoint() {
     return this.getStringAttribute('invocation_point');
   }
@@ -871,7 +871,7 @@ export class CloudformationGuardHookTargetFiltersTargetsOutputReference extends 
   }
 
   // target_name - computed: true, optional: true, required: false
-  private _targetName?: string; 
+  private _targetName?: string;
   public get targetName() {
     return this.getStringAttribute('target_name');
   }
@@ -910,25 +910,25 @@ export interface CloudformationGuardHookTargetFilters {
   /**
   * List of actions that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
   */
   readonly actions?: string[];
   /**
   * List of invocation points that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
   */
   readonly invocationPoints?: string[];
   /**
   * List of type names that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
   */
   readonly targetNames?: string[];
   /**
   * List of hook targets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
   */
   readonly targets?: CloudformationGuardHookTargetFiltersTargets[] | cdktn.IResolvable;
 }
@@ -1044,7 +1044,7 @@ export class CloudformationGuardHookTargetFiltersOutputReference extends cdktn.C
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[]; 
+  private _actions?: string[];
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -1060,7 +1060,7 @@ export class CloudformationGuardHookTargetFiltersOutputReference extends cdktn.C
   }
 
   // invocation_points - computed: true, optional: true, required: false
-  private _invocationPoints?: string[]; 
+  private _invocationPoints?: string[];
   public get invocationPoints() {
     return cdktn.Fn.tolist(this.getListAttribute('invocation_points'));
   }
@@ -1076,7 +1076,7 @@ export class CloudformationGuardHookTargetFiltersOutputReference extends cdktn.C
   }
 
   // target_names - computed: true, optional: true, required: false
-  private _targetNames?: string[]; 
+  private _targetNames?: string[];
   public get targetNames() {
     return cdktn.Fn.tolist(this.getListAttribute('target_names'));
   }
@@ -1109,7 +1109,7 @@ export class CloudformationGuardHookTargetFiltersOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}
 */
 export class CloudformationGuardHook extends cdktn.TerraformResource {
 
@@ -1125,7 +1125,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationGuardHook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationGuardHook to import
-  * @param importFromId The id of the existing CloudformationGuardHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationGuardHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationGuardHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1137,7 +1137,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1148,7 +1148,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_guard_hook',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1175,7 +1175,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string; 
+  private _alias?: string;
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -1188,7 +1188,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string; 
+  private _executionRole?: string;
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -1201,7 +1201,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   }
 
   // failure_mode - computed: true, optional: true, required: false
-  private _failureMode?: string; 
+  private _failureMode?: string;
   public get failureMode() {
     return this.getStringAttribute('failure_mode');
   }
@@ -1222,7 +1222,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   }
 
   // hook_status - computed: true, optional: true, required: false
-  private _hookStatus?: string; 
+  private _hookStatus?: string;
   public get hookStatus() {
     return this.getStringAttribute('hook_status');
   }
@@ -1243,7 +1243,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   }
 
   // log_bucket - computed: true, optional: true, required: false
-  private _logBucket?: string; 
+  private _logBucket?: string;
   public get logBucket() {
     return this.getStringAttribute('log_bucket');
   }
@@ -1320,7 +1320,7 @@ export class CloudformationGuardHook extends cdktn.TerraformResource {
   }
 
   // target_operations - computed: false, optional: false, required: true
-  private _targetOperations?: string[]; 
+  private _targetOperations?: string[];
   public get targetOperations() {
     return this.getListAttribute('target_operations');
   }

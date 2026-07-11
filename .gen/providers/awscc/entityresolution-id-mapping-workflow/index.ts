@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface EntityresolutionIdMappingWorkflowConfig extends cdktn.Terraform
   /**
   * The description of the IdMappingWorkflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#description EntityresolutionIdMappingWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#description EntityresolutionIdMappingWorkflow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_incremental_run_config EntityresolutionIdMappingWorkflow#id_mapping_incremental_run_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_incremental_run_config EntityresolutionIdMappingWorkflow#id_mapping_incremental_run_config}
   */
   readonly idMappingIncrementalRunConfig?: EntityresolutionIdMappingWorkflowIdMappingIncrementalRunConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_techniques EntityresolutionIdMappingWorkflow#id_mapping_techniques}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_techniques EntityresolutionIdMappingWorkflow#id_mapping_techniques}
   */
   readonly idMappingTechniques: EntityresolutionIdMappingWorkflowIdMappingTechniques;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#input_source_config EntityresolutionIdMappingWorkflow#input_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#input_source_config EntityresolutionIdMappingWorkflow#input_source_config}
   */
   readonly inputSourceConfig: EntityresolutionIdMappingWorkflowInputSourceConfig[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#output_source_config EntityresolutionIdMappingWorkflow#output_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#output_source_config EntityresolutionIdMappingWorkflow#output_source_config}
   */
   readonly outputSourceConfig?: EntityresolutionIdMappingWorkflowOutputSourceConfig[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#role_arn EntityresolutionIdMappingWorkflow#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#role_arn EntityresolutionIdMappingWorkflow#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#tags EntityresolutionIdMappingWorkflow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#tags EntityresolutionIdMappingWorkflow#tags}
   */
   readonly tags?: EntityresolutionIdMappingWorkflowTags[] | cdktn.IResolvable;
   /**
   * The name of the IdMappingWorkflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#workflow_name EntityresolutionIdMappingWorkflow#workflow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#workflow_name EntityresolutionIdMappingWorkflow#workflow_name}
   */
   readonly workflowName: string;
 }
 export interface EntityresolutionIdMappingWorkflowIdMappingIncrementalRunConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#incremental_run_type EntityresolutionIdMappingWorkflow#incremental_run_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#incremental_run_type EntityresolutionIdMappingWorkflow#incremental_run_type}
   */
   readonly incrementalRunType?: string;
 }
@@ -123,7 +123,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingIncrementalRunConfigOutpu
   }
 
   // incremental_run_type - computed: true, optional: true, required: false
-  private _incrementalRunType?: string; 
+  private _incrementalRunType?: string;
   public get incrementalRunType() {
     return this.getStringAttribute('incremental_run_type');
   }
@@ -142,7 +142,7 @@ export interface EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPro
   /**
   * The s3 path that would be used to stage the intermediate data being generated during workflow execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#intermediate_s3_path EntityresolutionIdMappingWorkflow#intermediate_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#intermediate_s3_path EntityresolutionIdMappingWorkflow#intermediate_s3_path}
   */
   readonly intermediateS3Path?: string;
 }
@@ -219,7 +219,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // intermediate_s3_path - computed: true, optional: true, required: false
-  private _intermediateS3Path?: string; 
+  private _intermediateS3Path?: string;
   public get intermediateS3Path() {
     return this.getStringAttribute('intermediate_s3_path');
   }
@@ -236,19 +236,19 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
 }
 export interface EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#intermediate_source_configuration EntityresolutionIdMappingWorkflow#intermediate_source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#intermediate_source_configuration EntityresolutionIdMappingWorkflow#intermediate_source_configuration}
   */
   readonly intermediateSourceConfiguration?: EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropertiesIntermediateSourceConfiguration;
   /**
   * Additional Provider configuration that would be required for the provider service. The Configuration must be in JSON string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#provider_configuration EntityresolutionIdMappingWorkflow#provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#provider_configuration EntityresolutionIdMappingWorkflow#provider_configuration}
   */
   readonly providerConfiguration?: { [key: string]: string };
   /**
   * Arn of the Provider Service being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#provider_service_arn EntityresolutionIdMappingWorkflow#provider_service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#provider_service_arn EntityresolutionIdMappingWorkflow#provider_service_arn}
   */
   readonly providerServiceArn?: string;
 }
@@ -367,7 +367,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // provider_configuration - computed: true, optional: true, required: false
-  private _providerConfiguration?: { [key: string]: string }; 
+  private _providerConfiguration?: { [key: string]: string };
   public get providerConfiguration() {
     return this.getStringMapAttribute('provider_configuration');
   }
@@ -383,7 +383,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // provider_service_arn - computed: true, optional: true, required: false
-  private _providerServiceArn?: string; 
+  private _providerServiceArn?: string;
   public get providerServiceArn() {
     return this.getStringAttribute('provider_service_arn');
   }
@@ -400,11 +400,11 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
 }
 export interface EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedPropertiesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#matching_keys EntityresolutionIdMappingWorkflow#matching_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#matching_keys EntityresolutionIdMappingWorkflow#matching_keys}
   */
   readonly matchingKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#rule_name EntityresolutionIdMappingWorkflow#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#rule_name EntityresolutionIdMappingWorkflow#rule_name}
   */
   readonly ruleName?: string;
 }
@@ -496,7 +496,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // matching_keys - computed: true, optional: true, required: false
-  private _matchingKeys?: string[]; 
+  private _matchingKeys?: string[];
   public get matchingKeys() {
     return this.getListAttribute('matching_keys');
   }
@@ -512,7 +512,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string; 
+  private _ruleName?: string;
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -549,19 +549,19 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
 }
 export interface EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#attribute_matching_model EntityresolutionIdMappingWorkflow#attribute_matching_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#attribute_matching_model EntityresolutionIdMappingWorkflow#attribute_matching_model}
   */
   readonly attributeMatchingModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#record_matching_model EntityresolutionIdMappingWorkflow#record_matching_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#record_matching_model EntityresolutionIdMappingWorkflow#record_matching_model}
   */
   readonly recordMatchingModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#rule_definition_type EntityresolutionIdMappingWorkflow#rule_definition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#rule_definition_type EntityresolutionIdMappingWorkflow#rule_definition_type}
   */
   readonly ruleDefinitionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#rules EntityresolutionIdMappingWorkflow#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#rules EntityresolutionIdMappingWorkflow#rules}
   */
   readonly rules?: EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedPropertiesRules[] | cdktn.IResolvable;
 }
@@ -677,7 +677,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // attribute_matching_model - computed: true, optional: true, required: false
-  private _attributeMatchingModel?: string; 
+  private _attributeMatchingModel?: string;
   public get attributeMatchingModel() {
     return this.getStringAttribute('attribute_matching_model');
   }
@@ -693,7 +693,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // record_matching_model - computed: true, optional: true, required: false
-  private _recordMatchingModel?: string; 
+  private _recordMatchingModel?: string;
   public get recordMatchingModel() {
     return this.getStringAttribute('record_matching_model');
   }
@@ -709,7 +709,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // rule_definition_type - computed: true, optional: true, required: false
-  private _ruleDefinitionType?: string; 
+  private _ruleDefinitionType?: string;
   public get ruleDefinitionType() {
     return this.getStringAttribute('rule_definition_type');
   }
@@ -742,19 +742,19 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
 }
 export interface EntityresolutionIdMappingWorkflowIdMappingTechniques {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_type EntityresolutionIdMappingWorkflow#id_mapping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#id_mapping_type EntityresolutionIdMappingWorkflow#id_mapping_type}
   */
   readonly idMappingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#normalization_version EntityresolutionIdMappingWorkflow#normalization_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#normalization_version EntityresolutionIdMappingWorkflow#normalization_version}
   */
   readonly normalizationVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#provider_properties EntityresolutionIdMappingWorkflow#provider_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#provider_properties EntityresolutionIdMappingWorkflow#provider_properties}
   */
   readonly providerProperties?: EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#rule_based_properties EntityresolutionIdMappingWorkflow#rule_based_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#rule_based_properties EntityresolutionIdMappingWorkflow#rule_based_properties}
   */
   readonly ruleBasedProperties?: EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProperties;
 }
@@ -870,7 +870,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesOutputReference
   }
 
   // id_mapping_type - computed: true, optional: true, required: false
-  private _idMappingType?: string; 
+  private _idMappingType?: string;
   public get idMappingType() {
     return this.getStringAttribute('id_mapping_type');
   }
@@ -886,7 +886,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesOutputReference
   }
 
   // normalization_version - computed: true, optional: true, required: false
-  private _normalizationVersion?: string; 
+  private _normalizationVersion?: string;
   public get normalizationVersion() {
     return this.getStringAttribute('normalization_version');
   }
@@ -937,17 +937,17 @@ export interface EntityresolutionIdMappingWorkflowInputSourceConfig {
   /**
   * An Glue table ARN for the input source table, MatchingWorkflow arn or IdNamespace ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#input_source_arn EntityresolutionIdMappingWorkflow#input_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#input_source_arn EntityresolutionIdMappingWorkflow#input_source_arn}
   */
   readonly inputSourceArn: string;
   /**
   * The SchemaMapping arn associated with the Schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#schema_arn EntityresolutionIdMappingWorkflow#schema_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#schema_arn EntityresolutionIdMappingWorkflow#schema_arn}
   */
   readonly schemaArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#type EntityresolutionIdMappingWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#type EntityresolutionIdMappingWorkflow#type}
   */
   readonly type?: string;
 }
@@ -1052,7 +1052,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // input_source_arn - computed: false, optional: false, required: true
-  private _inputSourceArn?: string; 
+  private _inputSourceArn?: string;
   public get inputSourceArn() {
     return this.getStringAttribute('input_source_arn');
   }
@@ -1065,7 +1065,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // schema_arn - computed: true, optional: true, required: false
-  private _schemaArn?: string; 
+  private _schemaArn?: string;
   public get schemaArn() {
     return this.getStringAttribute('schema_arn');
   }
@@ -1081,7 +1081,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1118,13 +1118,13 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigList extends cdkt
 }
 export interface EntityresolutionIdMappingWorkflowOutputSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#kms_arn EntityresolutionIdMappingWorkflow#kms_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#kms_arn EntityresolutionIdMappingWorkflow#kms_arn}
   */
   readonly kmsArn?: string;
   /**
   * The S3 path to which Entity Resolution will write the output table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#output_s3_path EntityresolutionIdMappingWorkflow#output_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#output_s3_path EntityresolutionIdMappingWorkflow#output_s3_path}
   */
   readonly outputS3Path?: string;
 }
@@ -1216,7 +1216,7 @@ export class EntityresolutionIdMappingWorkflowOutputSourceConfigOutputReference 
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string; 
+  private _kmsArn?: string;
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -1232,7 +1232,7 @@ export class EntityresolutionIdMappingWorkflowOutputSourceConfigOutputReference 
   }
 
   // output_s3_path - computed: true, optional: true, required: false
-  private _outputS3Path?: string; 
+  private _outputS3Path?: string;
   public get outputS3Path() {
     return this.getStringAttribute('output_s3_path');
   }
@@ -1271,13 +1271,13 @@ export interface EntityresolutionIdMappingWorkflowTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#key EntityresolutionIdMappingWorkflow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#key EntityresolutionIdMappingWorkflow#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#value EntityresolutionIdMappingWorkflow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#value EntityresolutionIdMappingWorkflow#value}
   */
   readonly value?: string;
 }
@@ -1369,7 +1369,7 @@ export class EntityresolutionIdMappingWorkflowTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1385,7 +1385,7 @@ export class EntityresolutionIdMappingWorkflowTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1422,7 +1422,7 @@ export class EntityresolutionIdMappingWorkflowTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow awscc_entityresolution_id_mapping_workflow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow awscc_entityresolution_id_mapping_workflow}
 */
 export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
 
@@ -1438,7 +1438,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EntityresolutionIdMappingWorkflow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityresolutionIdMappingWorkflow to import
-  * @param importFromId The id of the existing EntityresolutionIdMappingWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityresolutionIdMappingWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityresolutionIdMappingWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1450,7 +1450,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/entityresolution_id_mapping_workflow awscc_entityresolution_id_mapping_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/entityresolution_id_mapping_workflow awscc_entityresolution_id_mapping_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1461,7 +1461,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_entityresolution_id_mapping_workflow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1491,7 +1491,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1570,7 +1570,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1609,7 +1609,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // workflow_name - computed: false, optional: false, required: true
-  private _workflowName?: string; 
+  private _workflowName?: string;
   public get workflowName() {
     return this.getStringAttribute('workflow_name');
   }

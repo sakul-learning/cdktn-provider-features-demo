@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/nimblestudio_streaming_image
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/nimblestudio_streaming_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccNimblestudioStreamingImageConfig extends cdktn.Terrafo
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/nimblestudio_streaming_image#id DataAwsccNimblestudioStreamingImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/nimblestudio_streaming_image#id DataAwsccNimblestudioStreamingImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ export class DataAwsccNimblestudioStreamingImageEncryptionConfigurationOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}
 */
 export class DataAwsccNimblestudioStreamingImage extends cdktn.TerraformDataSource {
 
@@ -94,7 +94,7 @@ export class DataAwsccNimblestudioStreamingImage extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccNimblestudioStreamingImage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNimblestudioStreamingImage to import
-  * @param importFromId The id of the existing DataAwsccNimblestudioStreamingImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNimblestudioStreamingImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNimblestudioStreamingImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -106,7 +106,7 @@ export class DataAwsccNimblestudioStreamingImage extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -117,7 +117,7 @@ export class DataAwsccNimblestudioStreamingImage extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_nimblestudio_streaming_image',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -166,7 +166,7 @@ export class DataAwsccNimblestudioStreamingImage extends cdktn.TerraformDataSour
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }

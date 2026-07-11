@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface CodestarconnectionsConnectionConfig extends cdktn.TerraformMeta
   /**
   * The name of the connection. Connection names must be unique in an AWS user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
   */
   readonly connectionName: string;
   /**
   * The host arn configured to represent the infrastructure where your third-party provider is installed. You must specify either a ProviderType or a HostArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
   */
   readonly hostArn?: string;
   /**
   * The name of the external provider where your third-party code repository is configured. You must specify either a ProviderType or a HostArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
   */
   readonly providerType?: string;
   /**
   * Specifies the tags applied to a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
   */
   readonly tags?: CodestarconnectionsConnectionTags[] | cdktn.IResolvable;
 }
 export interface CodestarconnectionsConnectionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
   */
   readonly value?: string;
 }
@@ -134,7 +134,7 @@ export class CodestarconnectionsConnectionTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class CodestarconnectionsConnectionTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -187,7 +187,7 @@ export class CodestarconnectionsConnectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}
 */
 export class CodestarconnectionsConnection extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodestarconnectionsConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodestarconnectionsConnection to import
-  * @param importFromId The id of the existing CodestarconnectionsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodestarconnectionsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodestarconnectionsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codestarconnections_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -252,7 +252,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // connection_name - computed: false, optional: false, required: true
-  private _connectionName?: string; 
+  private _connectionName?: string;
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -270,7 +270,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // host_arn - computed: true, optional: true, required: false
-  private _hostArn?: string; 
+  private _hostArn?: string;
   public get hostArn() {
     return this.getStringAttribute('host_arn');
   }
@@ -296,7 +296,7 @@ export class CodestarconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: true, optional: true, required: false
-  private _providerType?: string; 
+  private _providerType?: string;
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }

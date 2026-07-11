@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface LambdaRuntimeManagementConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#function_name LambdaRuntimeManagementConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#function_name LambdaRuntimeManagementConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#qualifier LambdaRuntimeManagementConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#qualifier LambdaRuntimeManagementConfig#qualifier}
   */
   readonly qualifier?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#region LambdaRuntimeManagementConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#region LambdaRuntimeManagementConfig#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#runtime_version_arn LambdaRuntimeManagementConfig#runtime_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#runtime_version_arn LambdaRuntimeManagementConfig#runtime_version_arn}
   */
   readonly runtimeVersionArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#update_runtime_on LambdaRuntimeManagementConfig#update_runtime_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#update_runtime_on LambdaRuntimeManagementConfig#update_runtime_on}
   */
   readonly updateRuntimeOn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}
 */
 export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaRuntimeManagementConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaRuntimeManagementConfig to import
-  * @param importFromId The id of the existing LambdaRuntimeManagementConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaRuntimeManagementConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaRuntimeManagementConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lambda_runtime_management_config',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,7 +98,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string; 
+  private _functionName?: string;
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -111,7 +111,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string; 
+  private _qualifier?: string;
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -127,7 +127,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -143,7 +143,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // runtime_version_arn - computed: false, optional: true, required: false
-  private _runtimeVersionArn?: string; 
+  private _runtimeVersionArn?: string;
   public get runtimeVersionArn() {
     return this.getStringAttribute('runtime_version_arn');
   }
@@ -159,7 +159,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // update_runtime_on - computed: false, optional: true, required: false
-  private _updateRuntimeOn?: string; 
+  private _updateRuntimeOn?: string;
   public get updateRuntimeOn() {
     return this.getStringAttribute('update_runtime_on');
   }

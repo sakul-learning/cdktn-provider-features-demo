@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface CloudwatchMetricStreamConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#firehose_arn CloudwatchMetricStream#firehose_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#firehose_arn CloudwatchMetricStream#firehose_arn}
   */
   readonly firehoseArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#id CloudwatchMetricStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#id CloudwatchMetricStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#include_linked_accounts_metrics CloudwatchMetricStream#include_linked_accounts_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#include_linked_accounts_metrics CloudwatchMetricStream#include_linked_accounts_metrics}
   */
   readonly includeLinkedAccountsMetrics?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#name CloudwatchMetricStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#name CloudwatchMetricStream#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#name_prefix CloudwatchMetricStream#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#name_prefix CloudwatchMetricStream#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#output_format CloudwatchMetricStream#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#output_format CloudwatchMetricStream#output_format}
   */
   readonly outputFormat: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#region CloudwatchMetricStream#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#region CloudwatchMetricStream#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#role_arn CloudwatchMetricStream#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#role_arn CloudwatchMetricStream#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#tags CloudwatchMetricStream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#tags CloudwatchMetricStream#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#tags_all CloudwatchMetricStream#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#tags_all CloudwatchMetricStream#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * exclude_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#exclude_filter CloudwatchMetricStream#exclude_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#exclude_filter CloudwatchMetricStream#exclude_filter}
   */
   readonly excludeFilter?: CloudwatchMetricStreamExcludeFilter[] | cdktn.IResolvable;
   /**
   * include_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#include_filter CloudwatchMetricStream#include_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#include_filter CloudwatchMetricStream#include_filter}
   */
   readonly includeFilter?: CloudwatchMetricStreamIncludeFilter[] | cdktn.IResolvable;
   /**
   * statistics_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#statistics_configuration CloudwatchMetricStream#statistics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#statistics_configuration CloudwatchMetricStream#statistics_configuration}
   */
   readonly statisticsConfiguration?: CloudwatchMetricStreamStatisticsConfiguration[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#timeouts CloudwatchMetricStream#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#timeouts CloudwatchMetricStream#timeouts}
   */
   readonly timeouts?: CloudwatchMetricStreamTimeouts;
 }
 export interface CloudwatchMetricStreamExcludeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
   */
   readonly metricNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
   */
   readonly namespace: string;
 }
@@ -175,7 +175,7 @@ export class CloudwatchMetricStreamExcludeFilterOutputReference extends cdktn.Co
   }
 
   // metric_names - computed: false, optional: true, required: false
-  private _metricNames?: string[]; 
+  private _metricNames?: string[];
   public get metricNames() {
     return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
   }
@@ -191,7 +191,7 @@ export class CloudwatchMetricStreamExcludeFilterOutputReference extends cdktn.Co
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -225,11 +225,11 @@ export class CloudwatchMetricStreamExcludeFilterList extends cdktn.ComplexList {
 }
 export interface CloudwatchMetricStreamIncludeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
   */
   readonly metricNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
   */
   readonly namespace: string;
 }
@@ -321,7 +321,7 @@ export class CloudwatchMetricStreamIncludeFilterOutputReference extends cdktn.Co
   }
 
   // metric_names - computed: false, optional: true, required: false
-  private _metricNames?: string[]; 
+  private _metricNames?: string[];
   public get metricNames() {
     return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
   }
@@ -337,7 +337,7 @@ export class CloudwatchMetricStreamIncludeFilterOutputReference extends cdktn.Co
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -371,11 +371,11 @@ export class CloudwatchMetricStreamIncludeFilterList extends cdktn.ComplexList {
 }
 export interface CloudwatchMetricStreamStatisticsConfigurationIncludeMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
   */
   readonly namespace: string;
 }
@@ -467,7 +467,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputRef
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string; 
+  private _metricName?: string;
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -480,7 +480,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputRef
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -514,13 +514,13 @@ export class CloudwatchMetricStreamStatisticsConfigurationIncludeMetricList exte
 }
 export interface CloudwatchMetricStreamStatisticsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}
   */
   readonly additionalStatistics: string[];
   /**
   * include_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
   */
   readonly includeMetric: CloudwatchMetricStreamStatisticsConfigurationIncludeMetric[] | cdktn.IResolvable;
 }
@@ -612,7 +612,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationOutputReference extend
   }
 
   // additional_statistics - computed: false, optional: false, required: true
-  private _additionalStatistics?: string[]; 
+  private _additionalStatistics?: string[];
   public get additionalStatistics() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_statistics'));
   }
@@ -659,15 +659,15 @@ export class CloudwatchMetricStreamStatisticsConfigurationList extends cdktn.Com
 }
 export interface CloudwatchMetricStreamTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#create CloudwatchMetricStream#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#create CloudwatchMetricStream#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#delete CloudwatchMetricStream#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#delete CloudwatchMetricStream#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#update CloudwatchMetricStream#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#update CloudwatchMetricStream#update}
   */
   readonly update?: string;
 }
@@ -770,7 +770,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -786,7 +786,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -802,7 +802,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -819,7 +819,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream aws_cloudwatch_metric_stream}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream aws_cloudwatch_metric_stream}
 */
 export class CloudwatchMetricStream extends cdktn.TerraformResource {
 
@@ -835,7 +835,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchMetricStream resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchMetricStream to import
-  * @param importFromId The id of the existing CloudwatchMetricStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchMetricStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchMetricStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -847,7 +847,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream aws_cloudwatch_metric_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_metric_stream aws_cloudwatch_metric_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -858,7 +858,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudwatch_metric_stream',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -899,7 +899,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // firehose_arn - computed: false, optional: false, required: true
-  private _firehoseArn?: string; 
+  private _firehoseArn?: string;
   public get firehoseArn() {
     return this.getStringAttribute('firehose_arn');
   }
@@ -912,7 +912,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -928,7 +928,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // include_linked_accounts_metrics - computed: false, optional: true, required: false
-  private _includeLinkedAccountsMetrics?: boolean | cdktn.IResolvable; 
+  private _includeLinkedAccountsMetrics?: boolean | cdktn.IResolvable;
   public get includeLinkedAccountsMetrics() {
     return this.getBooleanAttribute('include_linked_accounts_metrics');
   }
@@ -949,7 +949,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -965,7 +965,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string; 
+  private _namePrefix?: string;
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -981,7 +981,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // output_format - computed: false, optional: false, required: true
-  private _outputFormat?: string; 
+  private _outputFormat?: string;
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -994,7 +994,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1010,7 +1010,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1028,7 +1028,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1044,7 +1044,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string }; 
+  private _tagsAll?: { [key: string]: string };
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

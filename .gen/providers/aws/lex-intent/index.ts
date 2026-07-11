@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktn from 'cdktn';
 
 export interface LexIntentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#create_version LexIntent#create_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#create_version LexIntent#create_version}
   */
   readonly createVersion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#description LexIntent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#description LexIntent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#id LexIntent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#id LexIntent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#name LexIntent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#name LexIntent#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}
   */
   readonly parentIntentSignature?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#region LexIntent#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#region LexIntent#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}
   */
   readonly sampleUtterances?: string[];
   /**
   * conclusion_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
   */
   readonly conclusionStatement?: LexIntentConclusionStatement;
   /**
   * confirmation_prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
   */
   readonly confirmationPrompt?: LexIntentConfirmationPrompt;
   /**
   * dialog_code_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
   */
   readonly dialogCodeHook?: LexIntentDialogCodeHook;
   /**
   * follow_up_prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
   */
   readonly followUpPrompt?: LexIntentFollowUpPrompt;
   /**
   * fulfillment_activity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
   */
   readonly fulfillmentActivity: LexIntentFulfillmentActivity;
   /**
   * rejection_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
   */
   readonly rejectionStatement?: LexIntentRejectionStatement;
   /**
   * slot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot LexIntent#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#slot LexIntent#slot}
   */
   readonly slot?: LexIntentSlot[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
   */
   readonly timeouts?: LexIntentTimeouts;
 }
 export interface LexIntentConclusionStatementMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -204,7 +204,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -217,7 +217,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -230,7 +230,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -267,13 +267,13 @@ export class LexIntentConclusionStatementMessageList extends cdktn.ComplexList {
 }
 export interface LexIntentConclusionStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentConclusionStatementMessage[] | cdktn.IResolvable;
 }
@@ -353,7 +353,7 @@ export class LexIntentConclusionStatementOutputReference extends cdktn.ComplexOb
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -383,15 +383,15 @@ export class LexIntentConclusionStatementOutputReference extends cdktn.ComplexOb
 }
 export interface LexIntentConfirmationPromptMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -496,7 +496,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -509,7 +509,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -522,7 +522,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -559,17 +559,17 @@ export class LexIntentConfirmationPromptMessageList extends cdktn.ComplexList {
 }
 export interface LexIntentConfirmationPrompt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
   */
   readonly maxAttempts: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentConfirmationPromptMessage[] | cdktn.IResolvable;
 }
@@ -662,7 +662,7 @@ export class LexIntentConfirmationPromptOutputReference extends cdktn.ComplexObj
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number; 
+  private _maxAttempts?: number;
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -675,7 +675,7 @@ export class LexIntentConfirmationPromptOutputReference extends cdktn.ComplexObj
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -705,11 +705,11 @@ export class LexIntentConfirmationPromptOutputReference extends cdktn.ComplexObj
 }
 export interface LexIntentDialogCodeHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message_version LexIntent#message_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message_version LexIntent#message_version}
   */
   readonly messageVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#uri LexIntent#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#uri LexIntent#uri}
   */
   readonly uri: string;
 }
@@ -789,7 +789,7 @@ export class LexIntentDialogCodeHookOutputReference extends cdktn.ComplexObject 
   }
 
   // message_version - computed: false, optional: false, required: true
-  private _messageVersion?: string; 
+  private _messageVersion?: string;
   public get messageVersion() {
     return this.getStringAttribute('message_version');
   }
@@ -802,7 +802,7 @@ export class LexIntentDialogCodeHookOutputReference extends cdktn.ComplexObject 
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -816,15 +816,15 @@ export class LexIntentDialogCodeHookOutputReference extends cdktn.ComplexObject 
 }
 export interface LexIntentFollowUpPromptPromptMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -929,7 +929,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -942,7 +942,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -955,7 +955,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -992,17 +992,17 @@ export class LexIntentFollowUpPromptPromptMessageList extends cdktn.ComplexList 
 }
 export interface LexIntentFollowUpPromptPrompt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
   */
   readonly maxAttempts: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentFollowUpPromptPromptMessage[] | cdktn.IResolvable;
 }
@@ -1095,7 +1095,7 @@ export class LexIntentFollowUpPromptPromptOutputReference extends cdktn.ComplexO
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number; 
+  private _maxAttempts?: number;
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -1108,7 +1108,7 @@ export class LexIntentFollowUpPromptPromptOutputReference extends cdktn.ComplexO
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -1138,15 +1138,15 @@ export class LexIntentFollowUpPromptPromptOutputReference extends cdktn.ComplexO
 }
 export interface LexIntentFollowUpPromptRejectionStatementMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -1251,7 +1251,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1264,7 +1264,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1277,7 +1277,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -1314,13 +1314,13 @@ export class LexIntentFollowUpPromptRejectionStatementMessageList extends cdktn.
 }
 export interface LexIntentFollowUpPromptRejectionStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentFollowUpPromptRejectionStatementMessage[] | cdktn.IResolvable;
 }
@@ -1400,7 +1400,7 @@ export class LexIntentFollowUpPromptRejectionStatementOutputReference extends cd
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -1432,13 +1432,13 @@ export interface LexIntentFollowUpPrompt {
   /**
   * prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#prompt LexIntent#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#prompt LexIntent#prompt}
   */
   readonly prompt: LexIntentFollowUpPromptPrompt;
   /**
   * rejection_statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
   */
   readonly rejectionStatement: LexIntentFollowUpPromptRejectionStatement;
 }
@@ -1545,11 +1545,11 @@ export class LexIntentFollowUpPromptOutputReference extends cdktn.ComplexObject 
 }
 export interface LexIntentFulfillmentActivityCodeHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message_version LexIntent#message_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message_version LexIntent#message_version}
   */
   readonly messageVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#uri LexIntent#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#uri LexIntent#uri}
   */
   readonly uri: string;
 }
@@ -1629,7 +1629,7 @@ export class LexIntentFulfillmentActivityCodeHookOutputReference extends cdktn.C
   }
 
   // message_version - computed: false, optional: false, required: true
-  private _messageVersion?: string; 
+  private _messageVersion?: string;
   public get messageVersion() {
     return this.getStringAttribute('message_version');
   }
@@ -1642,7 +1642,7 @@ export class LexIntentFulfillmentActivityCodeHookOutputReference extends cdktn.C
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string; 
+  private _uri?: string;
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -1656,13 +1656,13 @@ export class LexIntentFulfillmentActivityCodeHookOutputReference extends cdktn.C
 }
 export interface LexIntentFulfillmentActivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#type LexIntent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#type LexIntent#type}
   */
   readonly type: string;
   /**
   * code_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#code_hook LexIntent#code_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#code_hook LexIntent#code_hook}
   */
   readonly codeHook?: LexIntentFulfillmentActivityCodeHook;
 }
@@ -1742,7 +1742,7 @@ export class LexIntentFulfillmentActivityOutputReference extends cdktn.ComplexOb
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1772,15 +1772,15 @@ export class LexIntentFulfillmentActivityOutputReference extends cdktn.ComplexOb
 }
 export interface LexIntentRejectionStatementMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -1885,7 +1885,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1898,7 +1898,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1911,7 +1911,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -1948,13 +1948,13 @@ export class LexIntentRejectionStatementMessageList extends cdktn.ComplexList {
 }
 export interface LexIntentRejectionStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentRejectionStatementMessage[] | cdktn.IResolvable;
 }
@@ -2034,7 +2034,7 @@ export class LexIntentRejectionStatementOutputReference extends cdktn.ComplexObj
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2064,15 +2064,15 @@ export class LexIntentRejectionStatementOutputReference extends cdktn.ComplexObj
 }
 export interface LexIntentSlotValueElicitationPromptMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content LexIntent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content LexIntent#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#content_type LexIntent#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#content_type LexIntent#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#group_number LexIntent#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#group_number LexIntent#group_number}
   */
   readonly groupNumber?: number;
 }
@@ -2177,7 +2177,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string; 
+  private _content?: string;
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -2190,7 +2190,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string; 
+  private _contentType?: string;
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -2203,7 +2203,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number; 
+  private _groupNumber?: number;
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -2240,17 +2240,17 @@ export class LexIntentSlotValueElicitationPromptMessageList extends cdktn.Comple
 }
 export interface LexIntentSlotValueElicitationPrompt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#max_attempts LexIntent#max_attempts}
   */
   readonly maxAttempts: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#message LexIntent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#message LexIntent#message}
   */
   readonly message: LexIntentSlotValueElicitationPromptMessage[] | cdktn.IResolvable;
 }
@@ -2343,7 +2343,7 @@ export class LexIntentSlotValueElicitationPromptOutputReference extends cdktn.Co
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number; 
+  private _maxAttempts?: number;
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -2356,7 +2356,7 @@ export class LexIntentSlotValueElicitationPromptOutputReference extends cdktn.Co
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2386,41 +2386,41 @@ export class LexIntentSlotValueElicitationPromptOutputReference extends cdktn.Co
 }
 export interface LexIntentSlot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#description LexIntent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#description LexIntent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#name LexIntent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#name LexIntent#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#priority LexIntent#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#priority LexIntent#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#response_card LexIntent#response_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#response_card LexIntent#response_card}
   */
   readonly responseCard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}
   */
   readonly sampleUtterances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#slot_constraint LexIntent#slot_constraint}
   */
   readonly slotConstraint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#slot_type LexIntent#slot_type}
   */
   readonly slotType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#slot_type_version LexIntent#slot_type_version}
   */
   readonly slotTypeVersion?: string;
   /**
   * value_elicitation_prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#value_elicitation_prompt LexIntent#value_elicitation_prompt}
   */
   readonly valueElicitationPrompt?: LexIntentSlotValueElicitationPrompt;
 }
@@ -2603,7 +2603,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2619,7 +2619,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2632,7 +2632,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -2648,7 +2648,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string; 
+  private _responseCard?: string;
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2664,7 +2664,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // sample_utterances - computed: false, optional: true, required: false
-  private _sampleUtterances?: string[]; 
+  private _sampleUtterances?: string[];
   public get sampleUtterances() {
     return this.getListAttribute('sample_utterances');
   }
@@ -2680,7 +2680,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_constraint - computed: false, optional: false, required: true
-  private _slotConstraint?: string; 
+  private _slotConstraint?: string;
   public get slotConstraint() {
     return this.getStringAttribute('slot_constraint');
   }
@@ -2693,7 +2693,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_type - computed: false, optional: false, required: true
-  private _slotType?: string; 
+  private _slotType?: string;
   public get slotType() {
     return this.getStringAttribute('slot_type');
   }
@@ -2706,7 +2706,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_type_version - computed: false, optional: true, required: false
-  private _slotTypeVersion?: string; 
+  private _slotTypeVersion?: string;
   public get slotTypeVersion() {
     return this.getStringAttribute('slot_type_version');
   }
@@ -2759,15 +2759,15 @@ export class LexIntentSlotList extends cdktn.ComplexList {
 }
 export interface LexIntentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#create LexIntent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#create LexIntent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#delete LexIntent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#delete LexIntent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#update LexIntent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#update LexIntent#update}
   */
   readonly update?: string;
 }
@@ -2870,7 +2870,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2886,7 +2886,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
+  private _delete?: string;
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2902,7 +2902,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string; 
+  private _update?: string;
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2919,7 +2919,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent aws_lex_intent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent aws_lex_intent}
 */
 export class LexIntent extends cdktn.TerraformResource {
 
@@ -2935,7 +2935,7 @@ export class LexIntent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LexIntent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LexIntent to import
-  * @param importFromId The id of the existing LexIntent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LexIntent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LexIntent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2947,7 +2947,7 @@ export class LexIntent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent aws_lex_intent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lex_intent aws_lex_intent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2958,7 +2958,7 @@ export class LexIntent extends cdktn.TerraformResource {
       terraformResourceType: 'aws_lex_intent',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3000,7 +3000,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // create_version - computed: false, optional: true, required: false
-  private _createVersion?: boolean | cdktn.IResolvable; 
+  private _createVersion?: boolean | cdktn.IResolvable;
   public get createVersion() {
     return this.getBooleanAttribute('create_version');
   }
@@ -3021,7 +3021,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3037,7 +3037,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  private _id?: string;
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3058,7 +3058,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3071,7 +3071,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // parent_intent_signature - computed: false, optional: true, required: false
-  private _parentIntentSignature?: string; 
+  private _parentIntentSignature?: string;
   public get parentIntentSignature() {
     return this.getStringAttribute('parent_intent_signature');
   }
@@ -3087,7 +3087,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3103,7 +3103,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // sample_utterances - computed: false, optional: true, required: false
-  private _sampleUtterances?: string[]; 
+  private _sampleUtterances?: string[];
   public get sampleUtterances() {
     return cdktn.Fn.tolist(this.getListAttribute('sample_utterances'));
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface PcaconnectoradTemplateGroupAccessControlEntryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#access_rights PcaconnectoradTemplateGroupAccessControlEntry#access_rights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#access_rights PcaconnectoradTemplateGroupAccessControlEntry#access_rights}
   */
   readonly accessRights: PcaconnectoradTemplateGroupAccessControlEntryAccessRights;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#group_display_name PcaconnectoradTemplateGroupAccessControlEntry#group_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#group_display_name PcaconnectoradTemplateGroupAccessControlEntry#group_display_name}
   */
   readonly groupDisplayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#group_security_identifier PcaconnectoradTemplateGroupAccessControlEntry#group_security_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#group_security_identifier PcaconnectoradTemplateGroupAccessControlEntry#group_security_identifier}
   */
   readonly groupSecurityIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#template_arn PcaconnectoradTemplateGroupAccessControlEntry#template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#template_arn PcaconnectoradTemplateGroupAccessControlEntry#template_arn}
   */
   readonly templateArn: string;
 }
 export interface PcaconnectoradTemplateGroupAccessControlEntryAccessRights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#auto_enroll PcaconnectoradTemplateGroupAccessControlEntry#auto_enroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#auto_enroll PcaconnectoradTemplateGroupAccessControlEntry#auto_enroll}
   */
   readonly autoEnroll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#enroll PcaconnectoradTemplateGroupAccessControlEntry#enroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#enroll PcaconnectoradTemplateGroupAccessControlEntry#enroll}
   */
   readonly enroll?: string;
 }
@@ -120,7 +120,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputRefe
   }
 
   // auto_enroll - computed: true, optional: true, required: false
-  private _autoEnroll?: string; 
+  private _autoEnroll?: string;
   public get autoEnroll() {
     return this.getStringAttribute('auto_enroll');
   }
@@ -136,7 +136,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputRefe
   }
 
   // enroll - computed: true, optional: true, required: false
-  private _enroll?: string; 
+  private _enroll?: string;
   public get enroll() {
     return this.getStringAttribute('enroll');
   }
@@ -153,7 +153,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}
 */
 export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.TerraformResource {
 
@@ -169,7 +169,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   * Generates CDKTN code for importing a PcaconnectoradTemplateGroupAccessControlEntry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcaconnectoradTemplateGroupAccessControlEntry to import
-  * @param importFromId The id of the existing PcaconnectoradTemplateGroupAccessControlEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcaconnectoradTemplateGroupAccessControlEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcaconnectoradTemplateGroupAccessControlEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -181,7 +181,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,7 +192,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
       terraformResourceType: 'awscc_pcaconnectorad_template_group_access_control_entry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -226,7 +226,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // group_display_name - computed: false, optional: false, required: true
-  private _groupDisplayName?: string; 
+  private _groupDisplayName?: string;
   public get groupDisplayName() {
     return this.getStringAttribute('group_display_name');
   }
@@ -239,7 +239,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // group_security_identifier - computed: false, optional: false, required: true
-  private _groupSecurityIdentifier?: string; 
+  private _groupSecurityIdentifier?: string;
   public get groupSecurityIdentifier() {
     return this.getStringAttribute('group_security_identifier');
   }
@@ -257,7 +257,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // template_arn - computed: false, optional: false, required: true
-  private _templateArn?: string; 
+  private _templateArn?: string;
   public get templateArn() {
     return this.getStringAttribute('template_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface AppfabricAppAuthorizationConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#app_authorization_arn AppfabricAppAuthorizationConnection#app_authorization_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#app_authorization_arn AppfabricAppAuthorizationConnection#app_authorization_arn}
   */
   readonly appAuthorizationArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#app_bundle_arn AppfabricAppAuthorizationConnection#app_bundle_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#app_bundle_arn AppfabricAppAuthorizationConnection#app_bundle_arn}
   */
   readonly appBundleArn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#region AppfabricAppAuthorizationConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#region AppfabricAppAuthorizationConnection#region}
   */
   readonly region?: string;
   /**
   * auth_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#auth_request AppfabricAppAuthorizationConnection#auth_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#auth_request AppfabricAppAuthorizationConnection#auth_request}
   */
   readonly authRequest?: AppfabricAppAuthorizationConnectionAuthRequest[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#timeouts AppfabricAppAuthorizationConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#timeouts AppfabricAppAuthorizationConnection#timeouts}
   */
   readonly timeouts?: AppfabricAppAuthorizationConnectionTimeouts;
 }
@@ -116,11 +116,11 @@ export class AppfabricAppAuthorizationConnectionTenantList extends cdktn.Complex
 }
 export interface AppfabricAppAuthorizationConnectionAuthRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#code AppfabricAppAuthorizationConnection#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#code AppfabricAppAuthorizationConnection#code}
   */
   readonly code: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#redirect_uri AppfabricAppAuthorizationConnection#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#redirect_uri AppfabricAppAuthorizationConnection#redirect_uri}
   */
   readonly redirectUri: string;
 }
@@ -212,7 +212,7 @@ export class AppfabricAppAuthorizationConnectionAuthRequestOutputReference exten
   }
 
   // code - computed: false, optional: false, required: true
-  private _code?: string; 
+  private _code?: string;
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -225,7 +225,7 @@ export class AppfabricAppAuthorizationConnectionAuthRequestOutputReference exten
   }
 
   // redirect_uri - computed: false, optional: false, required: true
-  private _redirectUri?: string; 
+  private _redirectUri?: string;
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -261,7 +261,7 @@ export interface AppfabricAppAuthorizationConnectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#create AppfabricAppAuthorizationConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#create AppfabricAppAuthorizationConnection#create}
   */
   readonly create?: string;
 }
@@ -338,7 +338,7 @@ export class AppfabricAppAuthorizationConnectionTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string; 
+  private _create?: string;
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -355,7 +355,7 @@ export class AppfabricAppAuthorizationConnectionTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}
 */
 export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource {
 
@@ -371,7 +371,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   * Generates CDKTN code for importing a AppfabricAppAuthorizationConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfabricAppAuthorizationConnection to import
-  * @param importFromId The id of the existing AppfabricAppAuthorizationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfabricAppAuthorizationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfabricAppAuthorizationConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -383,7 +383,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,7 +394,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
       terraformResourceType: 'aws_appfabric_app_authorization_connection',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -421,7 +421,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // app_authorization_arn - computed: false, optional: false, required: true
-  private _appAuthorizationArn?: string; 
+  private _appAuthorizationArn?: string;
   public get appAuthorizationArn() {
     return this.getStringAttribute('app_authorization_arn');
   }
@@ -434,7 +434,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // app_bundle_arn - computed: false, optional: false, required: true
-  private _appBundleArn?: string; 
+  private _appBundleArn?: string;
   public get appBundleArn() {
     return this.getStringAttribute('app_bundle_arn');
   }
@@ -452,7 +452,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

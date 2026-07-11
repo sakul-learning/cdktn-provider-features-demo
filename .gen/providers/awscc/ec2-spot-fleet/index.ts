@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2SpotFleetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}
   */
   readonly spotFleetRequestConfigData: Ec2SpotFleetSpotFleetRequestConfigData;
   /**
   * The tags to specify in SpotFleetRequestConfigData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
   */
   readonly tags?: Ec2SpotFleetTags[] | cdktn.IResolvable;
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -182,7 +182,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -198,7 +198,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable; 
+  private _encrypted?: boolean | cdktn.IResolvable;
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -214,7 +214,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number; 
+  private _iops?: number;
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -230,7 +230,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string; 
+  private _snapshotId?: string;
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -246,7 +246,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number; 
+  private _volumeSize?: number;
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -262,7 +262,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string; 
+  private _volumeType?: string;
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -279,19 +279,19 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}
   */
   readonly ebs?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}
   */
   readonly noDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}
   */
   readonly virtualName?: string;
 }
@@ -409,7 +409,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string; 
+  private _deviceName?: string;
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -441,7 +441,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string; 
+  private _noDevice?: string;
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -457,7 +457,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string; 
+  private _virtualName?: string;
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -494,7 +494,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}
   */
   readonly arn?: string;
 }
@@ -571,7 +571,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstan
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -588,11 +588,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstan
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -682,7 +682,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -698,7 +698,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -715,11 +715,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -809,7 +809,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -825,7 +825,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -842,11 +842,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -936,7 +936,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -952,7 +952,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -969,7 +969,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}
   */
   readonly instanceFamily?: string;
 }
@@ -1048,7 +1048,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string; 
+  private _instanceFamily?: string;
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -1085,7 +1085,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}
   */
   readonly references?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences[] | cdktn.IResolvable;
 }
@@ -1179,7 +1179,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}
   */
   readonly cpu?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu;
 }
@@ -1273,11 +1273,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -1367,7 +1367,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1383,7 +1383,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1400,11 +1400,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -1494,7 +1494,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1510,7 +1510,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1527,11 +1527,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -1621,7 +1621,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1637,7 +1637,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1654,11 +1654,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -1748,7 +1748,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1764,7 +1764,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1781,11 +1781,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -1875,7 +1875,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1891,7 +1891,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1908,11 +1908,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -2002,7 +2002,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2018,7 +2018,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2035,107 +2035,107 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}
   */
   readonly acceleratorCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}
   */
   readonly acceleratorTotalMemoryMiB?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}
   */
   readonly bareMetal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}
   */
   readonly baselinePerformanceFactors?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}
   */
   readonly localStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}
   */
   readonly memoryGiBPerVCpu?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}
   */
   readonly memoryMiB?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}
   */
   readonly networkInterfaceCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}
   */
   readonly requireEncryptionInTransit?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}
   */
   readonly vCpuCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount;
 }
@@ -2553,7 +2553,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[]; 
+  private _acceleratorManufacturers?: string[];
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -2569,7 +2569,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[]; 
+  private _acceleratorNames?: string[];
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -2601,7 +2601,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -2617,7 +2617,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -2633,7 +2633,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string; 
+  private _bareMetal?: string;
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -2681,7 +2681,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string; 
+  private _burstablePerformance?: string;
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -2697,7 +2697,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[]; 
+  private _cpuManufacturers?: string[];
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -2713,7 +2713,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -2729,7 +2729,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[]; 
+  private _instanceGenerations?: string[];
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -2745,7 +2745,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string; 
+  private _localStorage?: string;
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -2761,7 +2761,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[]; 
+  private _localStorageTypes?: string[];
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -2777,7 +2777,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -2857,7 +2857,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
+  private _onDemandMaxPricePercentageOverLowestPrice?: number;
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -2873,7 +2873,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // require_encryption_in_transit - computed: true, optional: true, required: false
-  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable; 
+  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable;
   public get requireEncryptionInTransit() {
     return this.getBooleanAttribute('require_encryption_in_transit');
   }
@@ -2889,7 +2889,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -2905,7 +2905,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number; 
+  private _spotMaxPricePercentageOverLowestPrice?: number;
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -2954,7 +2954,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -3031,7 +3031,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitorin
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3048,7 +3048,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitorin
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -3127,7 +3127,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string; 
+  private _ipv6Address?: string;
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -3164,11 +3164,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}
   */
   readonly primary?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
@@ -3260,7 +3260,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable; 
+  private _primary?: boolean | cdktn.IResolvable;
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -3276,7 +3276,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string; 
+  private _privateIpAddress?: string;
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -3313,47 +3313,47 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}
   */
   readonly deviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}
   */
   readonly ipv6Addresses?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}
   */
   readonly privateIpAddresses?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}
   */
   readonly secondaryPrivateIpAddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -3562,7 +3562,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -3578,7 +3578,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
+  private _deleteOnTermination?: boolean | cdktn.IResolvable;
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -3594,7 +3594,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3610,7 +3610,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: number; 
+  private _deviceIndex?: number;
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -3626,7 +3626,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[]; 
+  private _groups?: string[];
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -3642,7 +3642,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number; 
+  private _ipv6AddressCount?: number;
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -3674,7 +3674,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string; 
+  private _networkInterfaceId?: string;
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -3706,7 +3706,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number; 
+  private _secondaryPrivateIpAddressCount?: number;
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -3722,7 +3722,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3759,19 +3759,19 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}
   */
   readonly tenancy?: string;
 }
@@ -3887,7 +3887,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -3903,7 +3903,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -3919,7 +3919,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string; 
+  private _groupName?: string;
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -3935,7 +3935,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string; 
+  private _tenancy?: string;
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -3952,7 +3952,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}
   */
   readonly groupId?: string;
 }
@@ -4031,7 +4031,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityG
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string; 
+  private _groupId?: string;
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -4068,11 +4068,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityG
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
   */
   readonly value?: string;
 }
@@ -4164,7 +4164,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4180,7 +4180,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4217,11 +4217,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
   */
   readonly tags?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags[] | cdktn.IResolvable;
 }
@@ -4313,7 +4313,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -4366,75 +4366,75 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}
   */
   readonly blockDeviceMappings?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}
   */
   readonly iamInstanceProfile?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}
   */
   readonly instanceRequirements?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}
   */
   readonly kernelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}
   */
   readonly monitoring?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}
   */
   readonly networkInterfaces?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}
   */
   readonly placement?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}
   */
   readonly ramdiskId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}
   */
   readonly securityGroups?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
   */
   readonly spotPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}
   */
   readonly tagSpecifications?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}
   */
   readonly weightedCapacity?: number;
 }
@@ -4750,7 +4750,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable; 
+  private _ebsOptimized?: boolean | cdktn.IResolvable;
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -4782,7 +4782,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string; 
+  private _imageId?: string;
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -4814,7 +4814,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4830,7 +4830,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string; 
+  private _kernelId?: string;
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -4846,7 +4846,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string; 
+  private _keyName?: string;
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -4910,7 +4910,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // ramdisk_id - computed: true, optional: true, required: false
-  private _ramdiskId?: string; 
+  private _ramdiskId?: string;
   public get ramdiskId() {
     return this.getStringAttribute('ramdisk_id');
   }
@@ -4942,7 +4942,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string; 
+  private _spotPrice?: string;
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -4958,7 +4958,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -4990,7 +4990,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string; 
+  private _userData?: string;
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -5006,7 +5006,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: number; 
+  private _weightedCapacity?: number;
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -5043,15 +5043,15 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsList exte
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}
   */
   readonly version?: string;
 }
@@ -5154,7 +5154,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string; 
+  private _launchTemplateId?: string;
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -5170,7 +5170,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string; 
+  private _launchTemplateName?: string;
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -5186,7 +5186,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -5203,11 +5203,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -5297,7 +5297,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5313,7 +5313,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5330,11 +5330,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -5424,7 +5424,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5440,7 +5440,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5457,11 +5457,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -5551,7 +5551,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5567,7 +5567,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5584,7 +5584,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}
   */
   readonly instanceFamily?: string;
 }
@@ -5663,7 +5663,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string; 
+  private _instanceFamily?: string;
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -5700,7 +5700,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}
   */
   readonly references?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences[] | cdktn.IResolvable;
 }
@@ -5794,7 +5794,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}
   */
   readonly cpu?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu;
 }
@@ -5888,11 +5888,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -5982,7 +5982,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5998,7 +5998,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6015,11 +6015,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -6109,7 +6109,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6125,7 +6125,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6142,11 +6142,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -6236,7 +6236,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6252,7 +6252,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6269,11 +6269,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -6363,7 +6363,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6379,7 +6379,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6396,11 +6396,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -6490,7 +6490,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6506,7 +6506,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6523,11 +6523,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}
   */
   readonly min?: number;
 }
@@ -6617,7 +6617,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number; 
+  private _max?: number;
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6633,7 +6633,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number; 
+  private _min?: number;
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6650,107 +6650,107 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}
   */
   readonly acceleratorCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}
   */
   readonly acceleratorManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}
   */
   readonly acceleratorNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}
   */
   readonly acceleratorTotalMemoryMiB?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}
   */
   readonly bareMetal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}
   */
   readonly baselineEbsBandwidthMbps?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}
   */
   readonly baselinePerformanceFactors?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}
   */
   readonly instanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}
   */
   readonly localStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}
   */
   readonly localStorageTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}
   */
   readonly maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}
   */
   readonly memoryGiBPerVCpu?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}
   */
   readonly memoryMiB?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}
   */
   readonly networkBandwidthGbps?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}
   */
   readonly networkInterfaceCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}
   */
   readonly onDemandMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}
   */
   readonly requireEncryptionInTransit?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}
   */
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}
   */
   readonly spotMaxPricePercentageOverLowestPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}
   */
   readonly totalLocalStorageGb?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}
   */
   readonly vCpuCount?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount;
 }
@@ -7168,7 +7168,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[]; 
+  private _acceleratorManufacturers?: string[];
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -7184,7 +7184,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[]; 
+  private _acceleratorNames?: string[];
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -7216,7 +7216,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[]; 
+  private _acceleratorTypes?: string[];
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -7232,7 +7232,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[]; 
+  private _allowedInstanceTypes?: string[];
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -7248,7 +7248,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string; 
+  private _bareMetal?: string;
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -7296,7 +7296,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string; 
+  private _burstablePerformance?: string;
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -7312,7 +7312,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[]; 
+  private _cpuManufacturers?: string[];
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -7328,7 +7328,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[]; 
+  private _excludedInstanceTypes?: string[];
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -7344,7 +7344,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[]; 
+  private _instanceGenerations?: string[];
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -7360,7 +7360,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string; 
+  private _localStorage?: string;
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -7376,7 +7376,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[]; 
+  private _localStorageTypes?: string[];
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -7392,7 +7392,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -7472,7 +7472,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
+  private _onDemandMaxPricePercentageOverLowestPrice?: number;
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -7488,7 +7488,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // require_encryption_in_transit - computed: true, optional: true, required: false
-  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable; 
+  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable;
   public get requireEncryptionInTransit() {
     return this.getBooleanAttribute('require_encryption_in_transit');
   }
@@ -7504,7 +7504,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -7520,7 +7520,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number; 
+  private _spotMaxPricePercentageOverLowestPrice?: number;
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -7569,35 +7569,35 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}
   */
   readonly instanceRequirements?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
   */
   readonly spotPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}
   */
   readonly weightedCapacity?: number;
 }
@@ -7767,7 +7767,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string; 
+  private _availabilityZone?: string;
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -7783,7 +7783,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string; 
+  private _availabilityZoneId?: string;
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -7815,7 +7815,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string; 
+  private _instanceType?: string;
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -7831,7 +7831,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number; 
+  private _priority?: number;
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -7847,7 +7847,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string; 
+  private _spotPrice?: string;
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -7863,7 +7863,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string; 
+  private _subnetId?: string;
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -7879,7 +7879,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: number; 
+  private _weightedCapacity?: number;
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -7916,11 +7916,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}
   */
   readonly launchTemplateSpecification?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}
   */
   readonly overrides?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides[] | cdktn.IResolvable;
 }
@@ -8065,7 +8065,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsList ext
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}
   */
   readonly name?: string;
 }
@@ -8144,7 +8144,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8181,7 +8181,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}
   */
   readonly classicLoadBalancers?: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers[] | cdktn.IResolvable;
 }
@@ -8275,7 +8275,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}
   */
   readonly arn?: string;
 }
@@ -8354,7 +8354,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string; 
+  private _arn?: string;
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -8391,7 +8391,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}
   */
   readonly targetGroups?: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups[] | cdktn.IResolvable;
 }
@@ -8485,11 +8485,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}
   */
   readonly classicLoadBalancersConfig?: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}
   */
   readonly targetGroupsConfig?: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig;
 }
@@ -8612,11 +8612,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigOutputRefe
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}
   */
   readonly replacementStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}
   */
   readonly terminationDelay?: number;
 }
@@ -8706,7 +8706,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
   }
 
   // replacement_strategy - computed: true, optional: true, required: false
-  private _replacementStrategy?: string; 
+  private _replacementStrategy?: string;
   public get replacementStrategy() {
     return this.getStringAttribute('replacement_strategy');
   }
@@ -8722,7 +8722,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
   }
 
   // termination_delay - computed: true, optional: true, required: false
-  private _terminationDelay?: number; 
+  private _terminationDelay?: number;
   public get terminationDelay() {
     return this.getNumberAttribute('termination_delay');
   }
@@ -8739,7 +8739,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}
   */
   readonly capacityRebalance?: Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance;
 }
@@ -8833,11 +8833,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesOutp
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
   */
   readonly value?: string;
 }
@@ -8929,7 +8929,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8945,7 +8945,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputRe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8982,11 +8982,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsList ext
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
   */
   readonly tags?: Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags[] | cdktn.IResolvable;
 }
@@ -9078,7 +9078,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsOutputRefere
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string; 
+  private _resourceType?: string;
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -9131,95 +9131,95 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsList extends
 }
 export interface Ec2SpotFleetSpotFleetRequestConfigData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}
   */
   readonly excessCapacityTerminationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}
   */
   readonly iamFleetRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}
   */
   readonly instanceInterruptionBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}
   */
   readonly instancePoolsToUseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}
   */
   readonly launchSpecifications?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}
   */
   readonly launchTemplateConfigs?: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}
   */
   readonly loadBalancersConfig?: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}
   */
   readonly onDemandAllocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}
   */
   readonly onDemandMaxTotalPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}
   */
   readonly onDemandTargetCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}
   */
   readonly replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}
   */
   readonly spotMaintenanceStrategies?: Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}
   */
   readonly spotMaxTotalPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}
   */
   readonly spotPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}
   */
   readonly tagSpecifications?: Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}
   */
   readonly targetCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}
   */
   readonly targetCapacityUnitType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}
   */
   readonly terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}
   */
   readonly validFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}
   */
   readonly validUntil?: string;
 }
@@ -9582,7 +9582,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string; 
+  private _allocationStrategy?: string;
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -9598,7 +9598,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // context - computed: true, optional: true, required: false
-  private _context?: string; 
+  private _context?: string;
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -9614,7 +9614,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // excess_capacity_termination_policy - computed: true, optional: true, required: false
-  private _excessCapacityTerminationPolicy?: string; 
+  private _excessCapacityTerminationPolicy?: string;
   public get excessCapacityTerminationPolicy() {
     return this.getStringAttribute('excess_capacity_termination_policy');
   }
@@ -9630,7 +9630,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // iam_fleet_role - computed: false, optional: false, required: true
-  private _iamFleetRole?: string; 
+  private _iamFleetRole?: string;
   public get iamFleetRole() {
     return this.getStringAttribute('iam_fleet_role');
   }
@@ -9643,7 +9643,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // instance_interruption_behavior - computed: true, optional: true, required: false
-  private _instanceInterruptionBehavior?: string; 
+  private _instanceInterruptionBehavior?: string;
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -9659,7 +9659,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // instance_pools_to_use_count - computed: true, optional: true, required: false
-  private _instancePoolsToUseCount?: number; 
+  private _instancePoolsToUseCount?: number;
   public get instancePoolsToUseCount() {
     return this.getNumberAttribute('instance_pools_to_use_count');
   }
@@ -9723,7 +9723,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string; 
+  private _onDemandAllocationStrategy?: string;
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -9739,7 +9739,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_max_total_price - computed: true, optional: true, required: false
-  private _onDemandMaxTotalPrice?: string; 
+  private _onDemandMaxTotalPrice?: string;
   public get onDemandMaxTotalPrice() {
     return this.getStringAttribute('on_demand_max_total_price');
   }
@@ -9755,7 +9755,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_target_capacity - computed: true, optional: true, required: false
-  private _onDemandTargetCapacity?: number; 
+  private _onDemandTargetCapacity?: number;
   public get onDemandTargetCapacity() {
     return this.getNumberAttribute('on_demand_target_capacity');
   }
@@ -9771,7 +9771,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // replace_unhealthy_instances - computed: true, optional: true, required: false
-  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable; 
+  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
   public get replaceUnhealthyInstances() {
     return this.getBooleanAttribute('replace_unhealthy_instances');
   }
@@ -9803,7 +9803,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // spot_max_total_price - computed: true, optional: true, required: false
-  private _spotMaxTotalPrice?: string; 
+  private _spotMaxTotalPrice?: string;
   public get spotMaxTotalPrice() {
     return this.getStringAttribute('spot_max_total_price');
   }
@@ -9819,7 +9819,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string; 
+  private _spotPrice?: string;
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -9851,7 +9851,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // target_capacity - computed: false, optional: false, required: true
-  private _targetCapacity?: number; 
+  private _targetCapacity?: number;
   public get targetCapacity() {
     return this.getNumberAttribute('target_capacity');
   }
@@ -9864,7 +9864,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // target_capacity_unit_type - computed: true, optional: true, required: false
-  private _targetCapacityUnitType?: string; 
+  private _targetCapacityUnitType?: string;
   public get targetCapacityUnitType() {
     return this.getStringAttribute('target_capacity_unit_type');
   }
@@ -9880,7 +9880,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // terminate_instances_with_expiration - computed: true, optional: true, required: false
-  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable; 
+  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
   public get terminateInstancesWithExpiration() {
     return this.getBooleanAttribute('terminate_instances_with_expiration');
   }
@@ -9896,7 +9896,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string; 
+  private _type?: string;
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9912,7 +9912,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // valid_from - computed: true, optional: true, required: false
-  private _validFrom?: string; 
+  private _validFrom?: string;
   public get validFrom() {
     return this.getStringAttribute('valid_from');
   }
@@ -9928,7 +9928,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // valid_until - computed: true, optional: true, required: false
-  private _validUntil?: string; 
+  private _validUntil?: string;
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }
@@ -9945,11 +9945,11 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
 }
 export interface Ec2SpotFleetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}
   */
   readonly value?: string;
 }
@@ -10041,7 +10041,7 @@ export class Ec2SpotFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -10057,7 +10057,7 @@ export class Ec2SpotFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10094,7 +10094,7 @@ export class Ec2SpotFleetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}
 */
 export class Ec2SpotFleet extends cdktn.TerraformResource {
 
@@ -10110,7 +10110,7 @@ export class Ec2SpotFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2SpotFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2SpotFleet to import
-  * @param importFromId The id of the existing Ec2SpotFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2SpotFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2SpotFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -10122,7 +10122,7 @@ export class Ec2SpotFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10133,7 +10133,7 @@ export class Ec2SpotFleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_spot_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

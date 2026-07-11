@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktn from 'cdktn';
 
 export interface SagemakerPipelineConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#parallelism_configuration SagemakerPipeline#parallelism_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#parallelism_configuration SagemakerPipeline#parallelism_configuration}
   */
   readonly parallelismConfiguration?: SagemakerPipelineParallelismConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_definition SagemakerPipeline#pipeline_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_definition SagemakerPipeline#pipeline_definition}
   */
   readonly pipelineDefinition: SagemakerPipelinePipelineDefinition;
   /**
   * The description of the Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_description SagemakerPipeline#pipeline_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_description SagemakerPipeline#pipeline_description}
   */
   readonly pipelineDescription?: string;
   /**
   * The display name of the Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_display_name SagemakerPipeline#pipeline_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_display_name SagemakerPipeline#pipeline_display_name}
   */
   readonly pipelineDisplayName?: string;
   /**
   * The name of the Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_name SagemakerPipeline#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_name SagemakerPipeline#pipeline_name}
   */
   readonly pipelineName: string;
   /**
   * Role Arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#role_arn SagemakerPipeline#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#role_arn SagemakerPipeline#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#tags SagemakerPipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#tags SagemakerPipeline#tags}
   */
   readonly tags?: SagemakerPipelineTags[] | cdktn.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface SagemakerPipelineParallelismConfiguration {
   /**
   * Maximum parallel execution steps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}
   */
   readonly maxParallelExecutionSteps?: number;
 }
@@ -125,7 +125,7 @@ export class SagemakerPipelineParallelismConfigurationOutputReference extends cd
   }
 
   // max_parallel_execution_steps - computed: true, optional: true, required: false
-  private _maxParallelExecutionSteps?: number; 
+  private _maxParallelExecutionSteps?: number;
   public get maxParallelExecutionSteps() {
     return this.getNumberAttribute('max_parallel_execution_steps');
   }
@@ -144,25 +144,25 @@ export interface SagemakerPipelinePipelineDefinitionPipelineDefinitionS3Location
   /**
   * The name of the S3 bucket where the PipelineDefinition file is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#bucket SagemakerPipeline#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#bucket SagemakerPipeline#bucket}
   */
   readonly bucket?: string;
   /**
   * The Amazon S3 ETag (a file checksum) of the PipelineDefinition file. If you don't specify a value, SageMaker skips ETag validation of your PipelineDefinition file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#e_tag SagemakerPipeline#e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#e_tag SagemakerPipeline#e_tag}
   */
   readonly eTag?: string;
   /**
   * The file name of the PipelineDefinition file (Amazon S3 object name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#key SagemakerPipeline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#key SagemakerPipeline#key}
   */
   readonly key?: string;
   /**
   * For versioning-enabled buckets, a specific version of the PipelineDefinition file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#version SagemakerPipeline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#version SagemakerPipeline#version}
   */
   readonly version?: string;
 }
@@ -278,7 +278,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string; 
+  private _bucket?: string;
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -294,7 +294,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // e_tag - computed: true, optional: true, required: false
-  private _eTag?: string; 
+  private _eTag?: string;
   public get eTag() {
     return this.getStringAttribute('e_tag');
   }
@@ -310,7 +310,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -326,7 +326,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string; 
+  private _version?: string;
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -345,11 +345,11 @@ export interface SagemakerPipelinePipelineDefinition {
   /**
   * A specification that defines the pipeline in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_definition_body SagemakerPipeline#pipeline_definition_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_definition_body SagemakerPipeline#pipeline_definition_body}
   */
   readonly pipelineDefinitionBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#pipeline_definition_s3_location SagemakerPipeline#pipeline_definition_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#pipeline_definition_s3_location SagemakerPipeline#pipeline_definition_s3_location}
   */
   readonly pipelineDefinitionS3Location?: SagemakerPipelinePipelineDefinitionPipelineDefinitionS3Location;
 }
@@ -439,7 +439,7 @@ export class SagemakerPipelinePipelineDefinitionOutputReference extends cdktn.Co
   }
 
   // pipeline_definition_body - computed: true, optional: true, required: false
-  private _pipelineDefinitionBody?: string; 
+  private _pipelineDefinitionBody?: string;
   public get pipelineDefinitionBody() {
     return this.getStringAttribute('pipeline_definition_body');
   }
@@ -472,11 +472,11 @@ export class SagemakerPipelinePipelineDefinitionOutputReference extends cdktn.Co
 }
 export interface SagemakerPipelineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#key SagemakerPipeline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#key SagemakerPipeline#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#value SagemakerPipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#value SagemakerPipeline#value}
   */
   readonly value?: string;
 }
@@ -568,7 +568,7 @@ export class SagemakerPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class SagemakerPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -621,7 +621,7 @@ export class SagemakerPipelineTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline}
 */
 export class SagemakerPipeline extends cdktn.TerraformResource {
 
@@ -637,7 +637,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerPipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerPipeline to import
-  * @param importFromId The id of the existing SagemakerPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -649,7 +649,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,7 +660,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -718,7 +718,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_description - computed: true, optional: true, required: false
-  private _pipelineDescription?: string; 
+  private _pipelineDescription?: string;
   public get pipelineDescription() {
     return this.getStringAttribute('pipeline_description');
   }
@@ -734,7 +734,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_display_name - computed: true, optional: true, required: false
-  private _pipelineDisplayName?: string; 
+  private _pipelineDisplayName?: string;
   public get pipelineDisplayName() {
     return this.getStringAttribute('pipeline_display_name');
   }
@@ -750,7 +750,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: false, optional: false, required: true
-  private _pipelineName?: string; 
+  private _pipelineName?: string;
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }
@@ -763,7 +763,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string; 
+  private _roleArn?: string;
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface AppintegrationsApplicationConfig extends cdktn.TerraformMetaArg
   /**
   * The application configuration. Cannot be used when IsService is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
   */
   readonly applicationConfig?: AppintegrationsApplicationApplicationConfig;
   /**
   * Application source config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
   */
   readonly applicationSourceConfig: AppintegrationsApplicationApplicationSourceConfig;
   /**
   * The type of application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
   */
   readonly applicationType?: string;
   /**
   * The application description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
   */
   readonly description?: string;
   /**
   * The iframe configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
   */
   readonly iframeConfig?: AppintegrationsApplicationIframeConfig;
   /**
   * The initialization timeout in milliseconds. Required when IsService is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
   */
   readonly initializationTimeout?: number;
   /**
   * Indicates if the application is a service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
   */
   readonly isService?: boolean | cdktn.IResolvable;
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
   */
   readonly name: string;
   /**
   * The namespace of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
   */
   readonly namespace: string;
   /**
   * The configuration of events or requests that the application has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
   */
   readonly permissions?: string[];
   /**
   * The tags (keys and values) associated with the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
   */
   readonly tags?: AppintegrationsApplicationTags[] | cdktn.IResolvable;
 }
 export interface AppintegrationsApplicationApplicationConfigContactHandling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}
   */
   readonly scope?: string;
 }
@@ -153,7 +153,7 @@ export class AppintegrationsApplicationApplicationConfigContactHandlingOutputRef
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string; 
+  private _scope?: string;
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -170,7 +170,7 @@ export class AppintegrationsApplicationApplicationConfigContactHandlingOutputRef
 }
 export interface AppintegrationsApplicationApplicationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}
   */
   readonly contactHandling?: AppintegrationsApplicationApplicationConfigContactHandling;
 }
@@ -264,11 +264,11 @@ export class AppintegrationsApplicationApplicationConfigOutputReference extends 
 }
 export interface AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}
   */
   readonly accessUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}
   */
   readonly approvedOrigins?: string[];
 }
@@ -358,7 +358,7 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
   }
 
   // access_url - computed: false, optional: false, required: true
-  private _accessUrl?: string; 
+  private _accessUrl?: string;
   public get accessUrl() {
     return this.getStringAttribute('access_url');
   }
@@ -371,7 +371,7 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
   }
 
   // approved_origins - computed: true, optional: true, required: false
-  private _approvedOrigins?: string[]; 
+  private _approvedOrigins?: string[];
   public get approvedOrigins() {
     return this.getListAttribute('approved_origins');
   }
@@ -388,7 +388,7 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
 }
 export interface AppintegrationsApplicationApplicationSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}
   */
   readonly externalUrlConfig: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig;
 }
@@ -479,11 +479,11 @@ export class AppintegrationsApplicationApplicationSourceConfigOutputReference ex
 }
 export interface AppintegrationsApplicationIframeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}
   */
   readonly sandbox?: string[];
 }
@@ -573,7 +573,7 @@ export class AppintegrationsApplicationIframeConfigOutputReference extends cdktn
   }
 
   // allow - computed: true, optional: true, required: false
-  private _allow?: string[]; 
+  private _allow?: string[];
   public get allow() {
     return this.getListAttribute('allow');
   }
@@ -589,7 +589,7 @@ export class AppintegrationsApplicationIframeConfigOutputReference extends cdktn
   }
 
   // sandbox - computed: true, optional: true, required: false
-  private _sandbox?: string[]; 
+  private _sandbox?: string[];
   public get sandbox() {
     return this.getListAttribute('sandbox');
   }
@@ -608,13 +608,13 @@ export interface AppintegrationsApplicationTags {
   /**
   * A key to identify the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
   */
   readonly key?: string;
   /**
   * Corresponding tag value for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
   */
   readonly value?: string;
 }
@@ -706,7 +706,7 @@ export class AppintegrationsApplicationTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -722,7 +722,7 @@ export class AppintegrationsApplicationTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -759,7 +759,7 @@ export class AppintegrationsApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application awscc_appintegrations_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application awscc_appintegrations_application}
 */
 export class AppintegrationsApplication extends cdktn.TerraformResource {
 
@@ -775,7 +775,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppintegrationsApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppintegrationsApplication to import
-  * @param importFromId The id of the existing AppintegrationsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppintegrationsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppintegrationsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -787,7 +787,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -798,7 +798,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appintegrations_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -865,7 +865,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // application_type - computed: true, optional: true, required: false
-  private _applicationType?: string; 
+  private _applicationType?: string;
   public get applicationType() {
     return this.getStringAttribute('application_type');
   }
@@ -881,7 +881,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -918,7 +918,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // initialization_timeout - computed: true, optional: true, required: false
-  private _initializationTimeout?: number; 
+  private _initializationTimeout?: number;
   public get initializationTimeout() {
     return this.getNumberAttribute('initialization_timeout');
   }
@@ -934,7 +934,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // is_service - computed: true, optional: true, required: false
-  private _isService?: boolean | cdktn.IResolvable; 
+  private _isService?: boolean | cdktn.IResolvable;
   public get isService() {
     return this.getBooleanAttribute('is_service');
   }
@@ -950,7 +950,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -963,7 +963,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string; 
+  private _namespace?: string;
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -976,7 +976,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[]; 
+  private _permissions?: string[];
   public get permissions() {
     return this.getListAttribute('permissions');
   }

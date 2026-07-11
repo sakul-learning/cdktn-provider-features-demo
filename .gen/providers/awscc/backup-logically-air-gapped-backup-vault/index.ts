@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface BackupLogicallyAirGappedBackupVaultConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#access_policy BackupLogicallyAirGappedBackupVault#access_policy}
   */
   readonly accessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_name BackupLogicallyAirGappedBackupVault#backup_vault_name}
   */
   readonly backupVaultName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_tags BackupLogicallyAirGappedBackupVault#backup_vault_tags}
   */
   readonly backupVaultTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#encryption_key_arn BackupLogicallyAirGappedBackupVault#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#max_retention_days BackupLogicallyAirGappedBackupVault#max_retention_days}
   */
   readonly maxRetentionDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#min_retention_days BackupLogicallyAirGappedBackupVault#min_retention_days}
   */
   readonly minRetentionDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#mpa_approval_team_arn BackupLogicallyAirGappedBackupVault#mpa_approval_team_arn}
   */
   readonly mpaApprovalTeamArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#notifications BackupLogicallyAirGappedBackupVault#notifications}
   */
   readonly notifications?: BackupLogicallyAirGappedBackupVaultNotifications;
 }
 export interface BackupLogicallyAirGappedBackupVaultNotifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#backup_vault_events BackupLogicallyAirGappedBackupVault#backup_vault_events}
   */
   readonly backupVaultEvents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#sns_topic_arn BackupLogicallyAirGappedBackupVault#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
 }
@@ -136,7 +136,7 @@ export class BackupLogicallyAirGappedBackupVaultNotificationsOutputReference ext
   }
 
   // backup_vault_events - computed: true, optional: true, required: false
-  private _backupVaultEvents?: string[]; 
+  private _backupVaultEvents?: string[];
   public get backupVaultEvents() {
     return this.getListAttribute('backup_vault_events');
   }
@@ -152,7 +152,7 @@ export class BackupLogicallyAirGappedBackupVaultNotificationsOutputReference ext
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string; 
+  private _snsTopicArn?: string;
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -169,7 +169,7 @@ export class BackupLogicallyAirGappedBackupVaultNotificationsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}
 */
 export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource {
 
@@ -185,7 +185,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   * Generates CDKTN code for importing a BackupLogicallyAirGappedBackupVault resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupLogicallyAirGappedBackupVault to import
-  * @param importFromId The id of the existing BackupLogicallyAirGappedBackupVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupLogicallyAirGappedBackupVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupLogicallyAirGappedBackupVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -197,7 +197,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,7 +208,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
       terraformResourceType: 'awscc_backup_logically_air_gapped_backup_vault',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -233,7 +233,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   // ==========
 
   // access_policy - computed: true, optional: true, required: false
-  private _accessPolicy?: string; 
+  private _accessPolicy?: string;
   public get accessPolicy() {
     return this.getStringAttribute('access_policy');
   }
@@ -254,7 +254,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string; 
+  private _backupVaultName?: string;
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -267,7 +267,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // backup_vault_tags - computed: true, optional: true, required: false
-  private _backupVaultTags?: { [key: string]: string }; 
+  private _backupVaultTags?: { [key: string]: string };
   public get backupVaultTags() {
     return this.getStringMapAttribute('backup_vault_tags');
   }
@@ -283,7 +283,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string; 
+  private _encryptionKeyArn?: string;
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -304,7 +304,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // max_retention_days - computed: false, optional: false, required: true
-  private _maxRetentionDays?: number; 
+  private _maxRetentionDays?: number;
   public get maxRetentionDays() {
     return this.getNumberAttribute('max_retention_days');
   }
@@ -317,7 +317,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // min_retention_days - computed: false, optional: false, required: true
-  private _minRetentionDays?: number; 
+  private _minRetentionDays?: number;
   public get minRetentionDays() {
     return this.getNumberAttribute('min_retention_days');
   }
@@ -330,7 +330,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // mpa_approval_team_arn - computed: true, optional: true, required: false
-  private _mpaApprovalTeamArn?: string; 
+  private _mpaApprovalTeamArn?: string;
   public get mpaApprovalTeamArn() {
     return this.getStringAttribute('mpa_approval_team_arn');
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface CloudformationStackSetConfig extends cdktn.TerraformMetaArgumen
   /**
   * The Amazon Resource Number (ARN) of the IAM role to use to create this stack set. Specify an IAM role only if you are using customized administrator roles to control which users or groups can manage specific stack sets within the same administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#administration_role_arn CloudformationStackSet#administration_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#administration_role_arn CloudformationStackSet#administration_role_arn}
   */
   readonly administrationRoleArn?: string;
   /**
   * Describes whether StackSets automatically deploys to AWS Organizations accounts that are added to the target organization or organizational unit (OU). Specify only if PermissionModel is SERVICE_MANAGED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#auto_deployment CloudformationStackSet#auto_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#auto_deployment CloudformationStackSet#auto_deployment}
   */
   readonly autoDeployment?: CloudformationStackSetAutoDeployment;
   /**
   * Specifies the AWS account that you are acting from. By default, SELF is specified. For self-managed permissions, specify SELF; for service-managed permissions, if you are signed in to the organization's management account, specify SELF. If you are signed in to a delegated administrator account, specify DELEGATED_ADMIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#call_as CloudformationStackSet#call_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#call_as CloudformationStackSet#call_as}
   */
   readonly callAs?: string;
   /**
   * In some cases, you must explicitly acknowledge that your stack set template contains certain capabilities in order for AWS CloudFormation to create the stack set and related stack instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#capabilities CloudformationStackSet#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#capabilities CloudformationStackSet#capabilities}
   */
   readonly capabilities?: string[];
   /**
   * A description of the stack set. You can use the description to identify the stack set's purpose or other important information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#description CloudformationStackSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#description CloudformationStackSet#description}
   */
   readonly description?: string;
   /**
   * The name of the IAM execution role to use to create the stack set. If you do not specify an execution role, AWS CloudFormation uses the AWSCloudFormationStackSetExecutionRole role for the stack set operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#execution_role_name CloudformationStackSet#execution_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#execution_role_name CloudformationStackSet#execution_role_name}
   */
   readonly executionRoleName?: string;
   /**
   * Describes whether StackSets performs non-conflicting operations concurrently and queues conflicting operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#managed_execution CloudformationStackSet#managed_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#managed_execution CloudformationStackSet#managed_execution}
   */
   readonly managedExecution?: CloudformationStackSetManagedExecution;
   /**
   * The user-specified preferences for how AWS CloudFormation performs a stack set operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#operation_preferences CloudformationStackSet#operation_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#operation_preferences CloudformationStackSet#operation_preferences}
   */
   readonly operationPreferences?: CloudformationStackSetOperationPreferences;
   /**
   * The input parameters for the stack set template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameters CloudformationStackSet#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameters CloudformationStackSet#parameters}
   */
   readonly parameters?: CloudformationStackSetParameters[] | cdktn.IResolvable;
   /**
   * Describes how the IAM roles required for stack set operations are created. By default, SELF-MANAGED is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#permission_model CloudformationStackSet#permission_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#permission_model CloudformationStackSet#permission_model}
   */
   readonly permissionModel: string;
   /**
   * A group of stack instances with parameters in some specific accounts and regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#stack_instances_group CloudformationStackSet#stack_instances_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#stack_instances_group CloudformationStackSet#stack_instances_group}
   */
   readonly stackInstancesGroup?: CloudformationStackSetStackInstancesGroup[] | cdktn.IResolvable;
   /**
   * The name to associate with the stack set. The name must be unique in the Region where you create your stack set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#stack_set_name CloudformationStackSet#stack_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#stack_set_name CloudformationStackSet#stack_set_name}
   */
   readonly stackSetName: string;
   /**
   * The key-value pairs to associate with this stack set and the stacks created from it. AWS CloudFormation also propagates these tags to supported resources that are created in the stacks. A maximum number of 50 tags can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#tags CloudformationStackSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#tags CloudformationStackSet#tags}
   */
   readonly tags?: CloudformationStackSetTags[] | cdktn.IResolvable;
   /**
   * The structure that contains the template body, with a minimum length of 1 byte and a maximum length of 51,200 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#template_body CloudformationStackSet#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#template_body CloudformationStackSet#template_body}
   */
   readonly templateBody?: string;
   /**
   * Location of file containing the template body. The URL must point to a template (max size: 460,800 bytes) that is located in an Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#template_url CloudformationStackSet#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#template_url CloudformationStackSet#template_url}
   */
   readonly templateUrl?: string;
 }
@@ -102,19 +102,19 @@ export interface CloudformationStackSetAutoDeployment {
   /**
   * A list of StackSet ARNs that this StackSet depends on for auto-deployment operations. When auto-deployment is triggered, operations will be sequenced to ensure all dependencies complete successfully before this StackSet's operation begins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#depends_on CloudformationStackSet#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#depends_on CloudformationStackSet#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * If set to true, StackSets automatically deploys additional stack instances to AWS Organizations accounts that are added to a target organization or organizational unit (OU) in the specified Regions. If an account is removed from a target organization or OU, StackSets deletes stack instances from the account in the specified Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#enabled CloudformationStackSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#enabled CloudformationStackSet#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * If set to true, stack resources are retained when an account is removed from a target organization or OU. If set to false, stack resources are deleted. Specify only if Enabled is set to True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#retain_stacks_on_account_removal CloudformationStackSet#retain_stacks_on_account_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#retain_stacks_on_account_removal CloudformationStackSet#retain_stacks_on_account_removal}
   */
   readonly retainStacksOnAccountRemoval?: boolean | cdktn.IResolvable;
 }
@@ -217,7 +217,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // depends_on - computed: true, optional: true, required: false
-  private _dependsOn?: string[]; 
+  private _dependsOn?: string[];
   public get dependsOn() {
     return cdktn.Fn.tolist(this.getListAttribute('depends_on'));
   }
@@ -233,7 +233,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable;
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -249,7 +249,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // retain_stacks_on_account_removal - computed: true, optional: true, required: false
-  private _retainStacksOnAccountRemoval?: boolean | cdktn.IResolvable; 
+  private _retainStacksOnAccountRemoval?: boolean | cdktn.IResolvable;
   public get retainStacksOnAccountRemoval() {
     return this.getBooleanAttribute('retain_stacks_on_account_removal');
   }
@@ -268,7 +268,7 @@ export interface CloudformationStackSetManagedExecution {
   /**
   * When true, StackSets performs non-conflicting operations concurrently and queues conflicting operations. After conflicting operations finish, StackSets starts queued operations in request order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}
   */
   readonly active?: boolean | cdktn.IResolvable;
 }
@@ -345,7 +345,7 @@ export class CloudformationStackSetManagedExecutionOutputReference extends cdktn
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable; 
+  private _active?: boolean | cdktn.IResolvable;
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -364,33 +364,33 @@ export interface CloudformationStackSetOperationPreferences {
   /**
   * Specifies how the concurrency level behaves during the operation execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#concurrency_mode CloudformationStackSet#concurrency_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#concurrency_mode CloudformationStackSet#concurrency_mode}
   */
   readonly concurrencyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#failure_tolerance_count CloudformationStackSet#failure_tolerance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#failure_tolerance_count CloudformationStackSet#failure_tolerance_count}
   */
   readonly failureToleranceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#failure_tolerance_percentage CloudformationStackSet#failure_tolerance_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#failure_tolerance_percentage CloudformationStackSet#failure_tolerance_percentage}
   */
   readonly failureTolerancePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#max_concurrent_count CloudformationStackSet#max_concurrent_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#max_concurrent_count CloudformationStackSet#max_concurrent_count}
   */
   readonly maxConcurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#max_concurrent_percentage CloudformationStackSet#max_concurrent_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#max_concurrent_percentage CloudformationStackSet#max_concurrent_percentage}
   */
   readonly maxConcurrentPercentage?: number;
   /**
   * The concurrency type of deploying StackSets operations in regions, could be in parallel or one region at a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#region_concurrency_type CloudformationStackSet#region_concurrency_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#region_concurrency_type CloudformationStackSet#region_concurrency_type}
   */
   readonly regionConcurrencyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#region_order CloudformationStackSet#region_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#region_order CloudformationStackSet#region_order}
   */
   readonly regionOrder?: string[];
 }
@@ -545,7 +545,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // concurrency_mode - computed: true, optional: true, required: false
-  private _concurrencyMode?: string; 
+  private _concurrencyMode?: string;
   public get concurrencyMode() {
     return this.getStringAttribute('concurrency_mode');
   }
@@ -561,7 +561,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // failure_tolerance_count - computed: true, optional: true, required: false
-  private _failureToleranceCount?: number; 
+  private _failureToleranceCount?: number;
   public get failureToleranceCount() {
     return this.getNumberAttribute('failure_tolerance_count');
   }
@@ -577,7 +577,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // failure_tolerance_percentage - computed: true, optional: true, required: false
-  private _failureTolerancePercentage?: number; 
+  private _failureTolerancePercentage?: number;
   public get failureTolerancePercentage() {
     return this.getNumberAttribute('failure_tolerance_percentage');
   }
@@ -593,7 +593,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // max_concurrent_count - computed: true, optional: true, required: false
-  private _maxConcurrentCount?: number; 
+  private _maxConcurrentCount?: number;
   public get maxConcurrentCount() {
     return this.getNumberAttribute('max_concurrent_count');
   }
@@ -609,7 +609,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // max_concurrent_percentage - computed: true, optional: true, required: false
-  private _maxConcurrentPercentage?: number; 
+  private _maxConcurrentPercentage?: number;
   public get maxConcurrentPercentage() {
     return this.getNumberAttribute('max_concurrent_percentage');
   }
@@ -625,7 +625,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // region_concurrency_type - computed: true, optional: true, required: false
-  private _regionConcurrencyType?: string; 
+  private _regionConcurrencyType?: string;
   public get regionConcurrencyType() {
     return this.getStringAttribute('region_concurrency_type');
   }
@@ -641,7 +641,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // region_order - computed: true, optional: true, required: false
-  private _regionOrder?: string[]; 
+  private _regionOrder?: string[];
   public get regionOrder() {
     return this.getListAttribute('region_order');
   }
@@ -660,13 +660,13 @@ export interface CloudformationStackSetParameters {
   /**
   * The key associated with the parameter. If you don't specify a key and value for a particular parameter, AWS CloudFormation uses the default value that is specified in your template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameter_key CloudformationStackSet#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameter_key CloudformationStackSet#parameter_key}
   */
   readonly parameterKey?: string;
   /**
   * The input value associated with the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameter_value CloudformationStackSet#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameter_value CloudformationStackSet#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -758,7 +758,7 @@ export class CloudformationStackSetParametersOutputReference extends cdktn.Compl
   }
 
   // parameter_key - computed: true, optional: true, required: false
-  private _parameterKey?: string; 
+  private _parameterKey?: string;
   public get parameterKey() {
     return this.getStringAttribute('parameter_key');
   }
@@ -774,7 +774,7 @@ export class CloudformationStackSetParametersOutputReference extends cdktn.Compl
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string; 
+  private _parameterValue?: string;
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -813,25 +813,25 @@ export interface CloudformationStackSetStackInstancesGroupDeploymentTargets {
   /**
   * The filter type you want to apply on organizational units and accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#account_filter_type CloudformationStackSet#account_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#account_filter_type CloudformationStackSet#account_filter_type}
   */
   readonly accountFilterType?: string;
   /**
   * AWS accounts that you want to create stack instances in the specified Region(s) for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#accounts CloudformationStackSet#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#accounts CloudformationStackSet#accounts}
   */
   readonly accounts?: string[];
   /**
   * Returns the value of the AccountsUrl property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#accounts_url CloudformationStackSet#accounts_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#accounts_url CloudformationStackSet#accounts_url}
   */
   readonly accountsUrl?: string;
   /**
   * The organization root ID or organizational unit (OU) IDs to which StackSets deploys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#organizational_unit_ids CloudformationStackSet#organizational_unit_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#organizational_unit_ids CloudformationStackSet#organizational_unit_ids}
   */
   readonly organizationalUnitIds?: string[];
 }
@@ -947,7 +947,7 @@ export class CloudformationStackSetStackInstancesGroupDeploymentTargetsOutputRef
   }
 
   // account_filter_type - computed: true, optional: true, required: false
-  private _accountFilterType?: string; 
+  private _accountFilterType?: string;
   public get accountFilterType() {
     return this.getStringAttribute('account_filter_type');
   }
@@ -963,7 +963,7 @@ export class CloudformationStackSetStackInstancesGroupDeploymentTargetsOutputRef
   }
 
   // accounts - computed: true, optional: true, required: false
-  private _accounts?: string[]; 
+  private _accounts?: string[];
   public get accounts() {
     return cdktn.Fn.tolist(this.getListAttribute('accounts'));
   }
@@ -979,7 +979,7 @@ export class CloudformationStackSetStackInstancesGroupDeploymentTargetsOutputRef
   }
 
   // accounts_url - computed: true, optional: true, required: false
-  private _accountsUrl?: string; 
+  private _accountsUrl?: string;
   public get accountsUrl() {
     return this.getStringAttribute('accounts_url');
   }
@@ -995,7 +995,7 @@ export class CloudformationStackSetStackInstancesGroupDeploymentTargetsOutputRef
   }
 
   // organizational_unit_ids - computed: true, optional: true, required: false
-  private _organizationalUnitIds?: string[]; 
+  private _organizationalUnitIds?: string[];
   public get organizationalUnitIds() {
     return cdktn.Fn.tolist(this.getListAttribute('organizational_unit_ids'));
   }
@@ -1014,13 +1014,13 @@ export interface CloudformationStackSetStackInstancesGroupParameterOverrides {
   /**
   * The key associated with the parameter. If you don't specify a key and value for a particular parameter, AWS CloudFormation uses the default value that is specified in your template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameter_key CloudformationStackSet#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameter_key CloudformationStackSet#parameter_key}
   */
   readonly parameterKey?: string;
   /**
   * The input value associated with the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameter_value CloudformationStackSet#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameter_value CloudformationStackSet#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -1112,7 +1112,7 @@ export class CloudformationStackSetStackInstancesGroupParameterOverridesOutputRe
   }
 
   // parameter_key - computed: true, optional: true, required: false
-  private _parameterKey?: string; 
+  private _parameterKey?: string;
   public get parameterKey() {
     return this.getStringAttribute('parameter_key');
   }
@@ -1128,7 +1128,7 @@ export class CloudformationStackSetStackInstancesGroupParameterOverridesOutputRe
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string; 
+  private _parameterValue?: string;
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -1167,19 +1167,19 @@ export interface CloudformationStackSetStackInstancesGroup {
   /**
   *  The AWS OrganizationalUnitIds or Accounts for which to create stack instances in the specified Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#deployment_targets CloudformationStackSet#deployment_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#deployment_targets CloudformationStackSet#deployment_targets}
   */
   readonly deploymentTargets?: CloudformationStackSetStackInstancesGroupDeploymentTargets;
   /**
   * A list of stack set parameters whose values you want to override in the selected stack instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#parameter_overrides CloudformationStackSet#parameter_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#parameter_overrides CloudformationStackSet#parameter_overrides}
   */
   readonly parameterOverrides?: CloudformationStackSetStackInstancesGroupParameterOverrides[] | cdktn.IResolvable;
   /**
   * The names of one or more Regions where you want to create stack instances using the specified AWS account(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#regions CloudformationStackSet#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#regions CloudformationStackSet#regions}
   */
   readonly regions?: string[];
 }
@@ -1316,7 +1316,7 @@ export class CloudformationStackSetStackInstancesGroupOutputReference extends cd
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[]; 
+  private _regions?: string[];
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -1355,13 +1355,13 @@ export interface CloudformationStackSetTags {
   /**
   * A string used to identify this tag. You can specify a maximum of 127 characters for a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#key CloudformationStackSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#key CloudformationStackSet#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for this tag. You can specify a maximum of 256 characters for a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#value CloudformationStackSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#value CloudformationStackSet#value}
   */
   readonly value?: string;
 }
@@ -1453,7 +1453,7 @@ export class CloudformationStackSetTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1469,7 +1469,7 @@ export class CloudformationStackSetTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1506,7 +1506,7 @@ export class CloudformationStackSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set awscc_cloudformation_stack_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set awscc_cloudformation_stack_set}
 */
 export class CloudformationStackSet extends cdktn.TerraformResource {
 
@@ -1522,7 +1522,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationStackSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationStackSet to import
-  * @param importFromId The id of the existing CloudformationStackSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationStackSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationStackSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1534,7 +1534,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_stack_set awscc_cloudformation_stack_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_stack_set awscc_cloudformation_stack_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1545,7 +1545,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_stack_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1577,7 +1577,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   // ==========
 
   // administration_role_arn - computed: true, optional: true, required: false
-  private _administrationRoleArn?: string; 
+  private _administrationRoleArn?: string;
   public get administrationRoleArn() {
     return this.getStringAttribute('administration_role_arn');
   }
@@ -1609,7 +1609,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // call_as - computed: true, optional: true, required: false
-  private _callAs?: string; 
+  private _callAs?: string;
   public get callAs() {
     return this.getStringAttribute('call_as');
   }
@@ -1625,7 +1625,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // capabilities - computed: true, optional: true, required: false
-  private _capabilities?: string[]; 
+  private _capabilities?: string[];
   public get capabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('capabilities'));
   }
@@ -1641,7 +1641,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1657,7 +1657,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // execution_role_name - computed: true, optional: true, required: false
-  private _executionRoleName?: string; 
+  private _executionRoleName?: string;
   public get executionRoleName() {
     return this.getStringAttribute('execution_role_name');
   }
@@ -1726,7 +1726,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // permission_model - computed: false, optional: false, required: true
-  private _permissionModel?: string; 
+  private _permissionModel?: string;
   public get permissionModel() {
     return this.getStringAttribute('permission_model');
   }
@@ -1760,7 +1760,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // stack_set_name - computed: false, optional: false, required: true
-  private _stackSetName?: string; 
+  private _stackSetName?: string;
   public get stackSetName() {
     return this.getStringAttribute('stack_set_name');
   }
@@ -1789,7 +1789,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string; 
+  private _templateBody?: string;
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -1805,7 +1805,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // template_url - computed: true, optional: true, required: false
-  private _templateUrl?: string; 
+  private _templateUrl?: string;
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }

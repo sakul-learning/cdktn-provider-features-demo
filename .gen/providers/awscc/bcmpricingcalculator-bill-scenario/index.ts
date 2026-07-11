@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BcmpricingcalculatorBillScenarioConfig extends cdktn.TerraformM
   /**
   * The ARN of the cost category group sharing preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#cost_category_group_sharing_preference_arn BcmpricingcalculatorBillScenario#cost_category_group_sharing_preference_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#cost_category_group_sharing_preference_arn BcmpricingcalculatorBillScenario#cost_category_group_sharing_preference_arn}
   */
   readonly costCategoryGroupSharingPreferenceArn?: string;
   /**
   * The timestamp when the bill scenario expires
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#expires_at BcmpricingcalculatorBillScenario#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#expires_at BcmpricingcalculatorBillScenario#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * The group sharing preference for the bill scenario
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#group_sharing_preference BcmpricingcalculatorBillScenario#group_sharing_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#group_sharing_preference BcmpricingcalculatorBillScenario#group_sharing_preference}
   */
   readonly groupSharingPreference?: string;
   /**
   * The name of the bill scenario
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#name BcmpricingcalculatorBillScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#name BcmpricingcalculatorBillScenario#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#tags BcmpricingcalculatorBillScenario#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#tags BcmpricingcalculatorBillScenario#tags}
   */
   readonly tags?: BcmpricingcalculatorBillScenarioTags[] | cdktn.IResolvable;
 }
@@ -99,11 +99,11 @@ export class BcmpricingcalculatorBillScenarioBillIntervalOutputReference extends
 }
 export interface BcmpricingcalculatorBillScenarioTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}
   */
   readonly value?: string;
 }
@@ -195,7 +195,7 @@ export class BcmpricingcalculatorBillScenarioTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -211,7 +211,7 @@ export class BcmpricingcalculatorBillScenarioTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string; 
+  private _value?: string;
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -248,7 +248,7 @@ export class BcmpricingcalculatorBillScenarioTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario}
 */
 export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
 
@@ -264,7 +264,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BcmpricingcalculatorBillScenario resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BcmpricingcalculatorBillScenario to import
-  * @param importFromId The id of the existing BcmpricingcalculatorBillScenario that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BcmpricingcalculatorBillScenario that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BcmpricingcalculatorBillScenario to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -276,7 +276,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,7 +287,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bcmpricingcalculator_bill_scenario',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -325,7 +325,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // cost_category_group_sharing_preference_arn - computed: true, optional: true, required: false
-  private _costCategoryGroupSharingPreferenceArn?: string; 
+  private _costCategoryGroupSharingPreferenceArn?: string;
   public get costCategoryGroupSharingPreferenceArn() {
     return this.getStringAttribute('cost_category_group_sharing_preference_arn');
   }
@@ -346,7 +346,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // expires_at - computed: true, optional: true, required: false
-  private _expiresAt?: string; 
+  private _expiresAt?: string;
   public get expiresAt() {
     return this.getStringAttribute('expires_at');
   }
@@ -367,7 +367,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // group_sharing_preference - computed: true, optional: true, required: false
-  private _groupSharingPreference?: string; 
+  private _groupSharingPreference?: string;
   public get groupSharingPreference() {
     return this.getStringAttribute('group_sharing_preference');
   }
@@ -388,7 +388,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }

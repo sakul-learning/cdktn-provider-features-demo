@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsSsmPatchBaselinesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#default_baselines DataAwsSsmPatchBaselines#default_baselines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#default_baselines DataAwsSsmPatchBaselines#default_baselines}
   */
   readonly defaultBaselines?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#region DataAwsSsmPatchBaselines#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#region DataAwsSsmPatchBaselines#region}
   */
   readonly region?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#filter DataAwsSsmPatchBaselines#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#filter DataAwsSsmPatchBaselines#filter}
   */
   readonly filter?: DataAwsSsmPatchBaselinesFilter[] | cdktn.IResolvable;
 }
@@ -121,11 +121,11 @@ export class DataAwsSsmPatchBaselinesBaselineIdentitiesList extends cdktn.Comple
 }
 export interface DataAwsSsmPatchBaselinesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#key DataAwsSsmPatchBaselines#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#key DataAwsSsmPatchBaselines#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#values DataAwsSsmPatchBaselines#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#values DataAwsSsmPatchBaselines#values}
   */
   readonly values: string[];
 }
@@ -217,7 +217,7 @@ export class DataAwsSsmPatchBaselinesFilterOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string; 
+  private _key?: string;
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -230,7 +230,7 @@ export class DataAwsSsmPatchBaselinesFilterOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
+  private _values?: string[];
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -264,7 +264,7 @@ export class DataAwsSsmPatchBaselinesFilterList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines aws_ssm_patch_baselines}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines aws_ssm_patch_baselines}
 */
 export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsSsmPatchBaselines resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsSsmPatchBaselines to import
-  * @param importFromId The id of the existing DataAwsSsmPatchBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsSsmPatchBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsSsmPatchBaselines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ssm_patch_baselines aws_ssm_patch_baselines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ssm_patch_baselines aws_ssm_patch_baselines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,7 +303,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_ssm_patch_baselines',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -329,7 +329,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   }
 
   // default_baselines - computed: false, optional: true, required: false
-  private _defaultBaselines?: boolean | cdktn.IResolvable; 
+  private _defaultBaselines?: boolean | cdktn.IResolvable;
   public get defaultBaselines() {
     return this.getBooleanAttribute('default_baselines');
   }
@@ -345,7 +345,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string; 
+  private _region?: string;
   public get region() {
     return this.getStringAttribute('region');
   }

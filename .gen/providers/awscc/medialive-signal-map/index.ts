@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface MedialiveSignalMapConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}
   */
   readonly cloudwatchAlarmTemplateGroupIdentifiers?: string[];
   /**
   * A resource's optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#description MedialiveSignalMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#description MedialiveSignalMap#description}
   */
   readonly description?: string;
   /**
   * A top-level supported AWS resource ARN to discovery a signal map from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#discovery_entry_point_arn MedialiveSignalMap#discovery_entry_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#discovery_entry_point_arn MedialiveSignalMap#discovery_entry_point_arn}
   */
   readonly discoveryEntryPointArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}
   */
   readonly eventBridgeRuleTemplateGroupIdentifiers?: string[];
   /**
   * If true, will force a rediscovery of a signal map if an unchanged discoveryEntryPointArn is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#force_rediscovery MedialiveSignalMap#force_rediscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#force_rediscovery MedialiveSignalMap#force_rediscovery}
   */
   readonly forceRediscovery?: boolean | cdktn.IResolvable;
   /**
   * A resource's name. Names must be unique within the scope of a resource type in a specific region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#name MedialiveSignalMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#name MedialiveSignalMap#name}
   */
   readonly name: string;
   /**
   * Represents the tags associated with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#tags MedialiveSignalMap#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#tags MedialiveSignalMap#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -661,7 +661,7 @@ export class MedialiveSignalMapMonitorDeploymentOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}
 */
 export class MedialiveSignalMap extends cdktn.TerraformResource {
 
@@ -677,7 +677,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveSignalMap resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveSignalMap to import
-  * @param importFromId The id of the existing MedialiveSignalMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveSignalMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveSignalMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -689,7 +689,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,7 +700,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_signal_map',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -729,7 +729,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_template_group_identifiers - computed: true, optional: true, required: false
-  private _cloudwatchAlarmTemplateGroupIdentifiers?: string[]; 
+  private _cloudwatchAlarmTemplateGroupIdentifiers?: string[];
   public get cloudwatchAlarmTemplateGroupIdentifiers() {
     return this.getListAttribute('cloudwatch_alarm_template_group_identifiers');
   }
@@ -755,7 +755,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string; 
+  private _description?: string;
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -771,7 +771,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // discovery_entry_point_arn - computed: false, optional: false, required: true
-  private _discoveryEntryPointArn?: string; 
+  private _discoveryEntryPointArn?: string;
   public get discoveryEntryPointArn() {
     return this.getStringAttribute('discovery_entry_point_arn');
   }
@@ -789,7 +789,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // event_bridge_rule_template_group_identifiers - computed: true, optional: true, required: false
-  private _eventBridgeRuleTemplateGroupIdentifiers?: string[]; 
+  private _eventBridgeRuleTemplateGroupIdentifiers?: string[];
   public get eventBridgeRuleTemplateGroupIdentifiers() {
     return this.getListAttribute('event_bridge_rule_template_group_identifiers');
   }
@@ -816,7 +816,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // force_rediscovery - computed: true, optional: true, required: false
-  private _forceRediscovery?: boolean | cdktn.IResolvable; 
+  private _forceRediscovery?: boolean | cdktn.IResolvable;
   public get forceRediscovery() {
     return this.getBooleanAttribute('force_rediscovery');
   }
@@ -875,7 +875,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string; 
+  private _name?: string;
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -898,7 +898,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }; 
+  private _tags?: { [key: string]: string };
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
